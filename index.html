@@ -1,0 +1,720 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Kalam Business</title>
+<meta name="description" content="Kalam Business: Business English in short daily lessons: learn, play, then role-play real office situations.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+:root{
+  --ink:#16233A; --ink-2:#44526B; --muted:#6F7B8E;
+  --paper:#F3F5F2; --card:#FFFFFF; --line:#DDE2DC;
+  --accent:#0E7C66; --accent-soft:#DCEFE8; --on-accent:#FFFFFF;
+  --amber:#C9851C; --amber-soft:#F8EBD3;
+  --good:#1F8A4C; --good-soft:#DFF2E6; --bad:#C0392B; --bad-soft:#F7E1DE;
+  --shadow:0 1px 2px rgba(22,35,58,.06),0 6px 20px rgba(22,35,58,.06);
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"IBM Plex Sans Arabic","Segoe UI",Tahoma,system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ink:#E8ECE9; --ink-2:#B9C3CF; --muted:#8C98A8;
+    --paper:#0F1622; --card:#172131; --line:#28354A;
+    --accent:#3CC19F; --accent-soft:#163A36; --on-accent:#08201A;
+    --amber:#E9AE50; --amber-soft:#3A2E17;
+    --good:#4CC67F; --good-soft:#153524; --bad:#EF7D6E; --bad-soft:#3E1F1C;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px rgba(0,0,0,.25);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ink:#E8ECE9; --ink-2:#B9C3CF; --muted:#8C98A8;
+  --paper:#0F1622; --card:#172131; --line:#28354A;
+  --accent:#3CC19F; --accent-soft:#163A36; --on-accent:#08201A;
+  --amber:#E9AE50; --amber-soft:#3A2E17;
+  --good:#4CC67F; --good-soft:#153524; --bad:#EF7D6E; --bad-soft:#3E1F1C;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.6;padding-inline:16px;padding-block:0 48px}
+.wrap{max-width:760px;margin-inline:auto}
+h1,h2,h3{font-family:var(--display);line-height:1.15;text-wrap:balance;margin:0}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.en{direction:ltr;unicode-bidi:isolate;font-family:var(--display);text-align:left}
+.ar{direction:rtl}
+
+/* top bar */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:14px;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:10px;background:none;border:0;padding:0}
+.logo{width:34px;height:34px;border-radius:9px;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:15px}
+.brand b{font-family:var(--display);font-weight:800;font-size:19px;letter-spacing:-.01em}
+.stats{display:flex;gap:8px;flex-wrap:wrap}
+.stat{display:flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-family:var(--mono);font-size:13px;font-variant-numeric:tabular-nums}
+.stat svg{width:15px;height:15px}
+.stat.xp{color:var(--amber)} .stat.streak{color:var(--accent)}
+
+.tabs{display:flex;gap:4px;margin-block:18px 6px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:4px}
+.tab{flex:1;border:0;background:none;padding:8px 10px;border-radius:9px;font-weight:600;color:var(--ink-2)}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--paper)}
+
+/* hero */
+.hero{display:grid;gap:10px;padding-block:22px 8px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.hero h1{font-size:clamp(28px,6vw,40px);font-weight:800;letter-spacing:-.02em}
+.hero p{margin:0;color:var(--ink-2);max-width:60ch}
+.pillars{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.pill{font-size:13px;padding:3px 10px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-weight:600}
+
+/* agenda (course path) */
+.day{margin-top:18px}
+.dayhead{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding-block:8px;border-bottom:2px solid var(--ink)}
+.dayhead h2{font-size:18px}
+.dayhead span{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.slot{display:grid;grid-template-columns:64px 1fr;gap:14px;padding-block:16px;border-bottom:1px dashed var(--line)}
+.time{font-family:var(--mono);font-size:14px;color:var(--muted);padding-top:3px;direction:ltr;text-align:start}
+.slot h3{font-size:19px;font-weight:700}
+.slot .sub{color:var(--ink-2);font-size:14px;margin:2px 0 10px}
+.lessons{display:grid;gap:8px}
+.lesson{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;text-align:start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;box-shadow:var(--shadow);transition:transform .15s,border-color .15s}
+.lesson:hover{transform:translateY(-1px);border-color:var(--accent)}
+.lesson .t{display:grid;gap:1px}
+.lesson .t b{font-family:var(--display);font-size:16px}
+.lesson .t small{color:var(--muted);font-size:13px}
+.badge{flex:none;font-size:12px;font-weight:600;padding:3px 9px;border-radius:999px;background:var(--paper);color:var(--ink-2);border:1px solid var(--line)}
+.badge.done{background:var(--good-soft);color:var(--good);border-color:transparent}
+.slot.locked h3,.slot.locked .sub{color:var(--muted)}
+.soon{font-size:13px;color:var(--muted);border:1px dashed var(--line);border-radius:12px;padding:10px 14px}
+
+/* lesson player */
+.player{padding-block:18px}
+.phead{display:flex;align-items:center;gap:12px}
+.x{border:1px solid var(--line);background:var(--card);border-radius:10px;width:38px;height:38px;display:grid;place-items:center;flex:none}
+.progress{flex:1;height:10px;border-radius:99px;background:var(--line);overflow:hidden}
+.progress i{display:block;height:100%;background:var(--accent);border-radius:99px;transition:width .35s}
+.steps{display:flex;gap:6px;margin-block:12px 18px;flex-wrap:wrap}
+.step{font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--muted)}
+.step.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.step.ok{color:var(--good);border-color:var(--good)}
+.stage{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:var(--shadow);display:grid;gap:14px}
+.kicker{font-size:13px;color:var(--muted);font-weight:600}
+.phrase{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;direction:ltr}
+.phrase h2{font-size:clamp(24px,5vw,32px);font-weight:700;letter-spacing:-.01em}
+.say{flex:none;width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--accent-soft);color:var(--accent);display:grid;place-items:center}
+.say svg{width:20px;height:20px}
+.meaning{font-size:18px;font-weight:600}
+.example{background:var(--paper);border-radius:12px;padding:12px 14px;display:grid;gap:4px}
+.example .en{font-size:16px}
+.example .en mark{background:var(--amber-soft);color:inherit;padding:0 3px;border-radius:4px}
+.book{display:grid;gap:8px;background:var(--accent-soft);border-radius:12px;padding:12px 14px}
+.track{display:grid;gap:4px}.track .en{font-size:14px;font-weight:600}
+.track audio{width:100%;height:36px}
+.tip{font-size:14px;color:var(--ink-2);border-inline-start:3px solid var(--amber);padding-inline-start:10px}
+.question{font-size:18px;font-weight:600}
+.options{display:grid;gap:8px}
+.opt{border:1.5px solid var(--line);background:var(--card);border-radius:12px;padding:12px 14px;text-align:left;direction:ltr;font-family:var(--display);font-size:16px;transition:border-color .15s,background .15s}
+.opt:hover:not(:disabled){border-color:var(--accent)}
+.opt.right{border-color:var(--good);background:var(--good-soft)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
+.opt:disabled{cursor:default}
+.gap{display:inline-block;min-width:80px;border-bottom:2px solid var(--accent);text-align:center;color:var(--accent)}
+.built{min-height:52px;border:1.5px dashed var(--line);border-radius:12px;padding:8px;display:flex;flex-wrap:wrap;gap:6px;direction:ltr}
+.bank{display:flex;flex-wrap:wrap;gap:6px;direction:ltr}
+.chip{border:1px solid var(--line);background:var(--paper);border-radius:9px;padding:6px 11px;font-family:var(--display);font-size:15px}
+.chip:disabled{opacity:.25}
+.feedback{border-radius:12px;padding:12px 14px;font-size:15px}
+.feedback.good{background:var(--good-soft);color:var(--good)}
+.feedback.bad{background:var(--bad-soft);color:var(--bad)}
+.feedback b{display:block}
+.feedback span{color:var(--ink-2)}
+.actions{display:flex;justify-content:flex-end;gap:8px}
+.btn{border:0;border-radius:12px;padding:12px 22px;font-weight:600;background:var(--accent);color:var(--on-accent)}
+.btn.ghost{background:none;border:1px solid var(--line);color:var(--ink)}
+.btn:disabled{opacity:.4;cursor:default}
+
+/* match game */
+.gamehead{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.timer{font-family:var(--mono);font-variant-numeric:tabular-nums;color:var(--amber)}
+.board{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.col{display:grid;gap:8px;align-content:start}
+.tile{border:1.5px solid var(--line);background:var(--card);border-radius:12px;padding:10px 12px;min-height:52px;font-size:15px;transition:all .2s}
+.tile.en{font-size:15px}
+.tile.sel{border-color:var(--accent);background:var(--accent-soft)}
+.tile.gone{opacity:0;pointer-events:none;transform:scale(.95)}
+.tile.shake{animation:shake .3s;border-color:var(--bad)}
+@keyframes shake{25%{transform:translateX(-4px)}75%{transform:translateX(4px)}}
+
+/* roleplay */
+.scene{display:flex;gap:10px;align-items:flex-start;background:var(--paper);border-radius:12px;padding:12px 14px;font-size:14px;color:var(--ink-2)}
+.chat{display:grid;gap:10px}
+.msg{max-width:85%;padding:10px 14px;border-radius:14px;direction:ltr;text-align:left;font-family:var(--display);font-size:16px}
+.msg small{display:block;font-family:var(--body);font-size:12px;color:var(--muted);margin-bottom:2px}
+.msg.them{justify-self:end;background:var(--paper);border:1px solid var(--line);border-top-left-radius:4px}
+.msg.you{justify-self:start;background:var(--accent);color:var(--on-accent);border-top-right-radius:4px}
+.msg.you small{color:inherit;opacity:.8}
+[dir="rtl"] .msg.them{justify-self:start} [dir="rtl"] .msg.you{justify-self:end}
+
+/* done */
+.done{text-align:center;justify-items:center}
+.done h2{font-size:30px}
+.score{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.score div{background:var(--paper);border-radius:12px;padding:10px 16px;min-width:110px}
+.score b{display:block;font-family:var(--mono);font-size:22px;font-variant-numeric:tabular-nums}
+.score span{font-size:13px;color:var(--muted)}
+
+/* phrasebook */
+.pb{display:grid;gap:8px;margin-top:14px}
+.pbrow{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.pbrow .en{font-size:16px;font-weight:600}
+.pbrow small{color:var(--muted)}
+.flash{perspective:900px;min-height:200px}
+.flash-in{position:relative;min-height:200px;transition:transform .5s;transform-style:preserve-3d;cursor:pointer}
+.flash.flip .flash-in{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;backface-visibility:hidden;display:grid;place-items:center;text-align:center;padding:20px;border-radius:16px;background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow)}
+.face.back{transform:rotateY(180deg);background:var(--ink);color:var(--paper)}
+.face h2{font-size:26px}
+.empty{color:var(--muted);text-align:center;padding:30px 10px;border:1px dashed var(--line);border-radius:14px}
+@media (max-width:480px){.slot{grid-template-columns:1fr;gap:4px}.stage{padding:16px}.board{gap:6px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap" dir="rtl">
+  <header class="bar">
+    <button class="brand" id="home-btn" aria-label="الرئيسية">
+      <span class="logo">K</span><b class="en">Kalam <span style="color:var(--accent)">Business</span></b>
+    </button>
+    <div class="stats">
+      <span class="stat streak" title="أيام متتالية"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c1 4 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3-1-6 1-9z"/></svg><span id="s-streak">0</span></span>
+      <span class="stat xp" title="نقاط الخبرة"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg><span id="s-xp">0</span> XP</span>
+    </div>
+  </header>
+  <main id="app"></main>
+</div>
+
+<script>
+/* ============================================================
+   COURSE CONTENT — replace / extend with your own material.
+   Each lesson = cards (learn) → quiz (practice) → match (game) → roleplay (speak)
+   ============================================================ */
+/* ============================================================
+   Kalam Business — Unit: Job Interview · Phone Interview
+   Source: Main Book, Chapter 1, pages 9–31 (6 audio tracks).
+   Same shape as COURSE units in business-english/index.html:
+   each lesson = cards (learn) → quiz (practice) → match (game) → roleplay (speak).
+   `audio` points at the book track for that lesson (optional; the player
+   can show a "listen to the book" button when it exists).
+   ============================================================ */
+const UNIT_PHONE_INTERVIEW = { id:"u0", time:"08:00", title:"Job Interview · Phone Screening", ar:"مقابلة الشغل: المكالمة الأولى", level:"B1",
+ lessons:[
+ { id:"pi1", title:"Taking the call & talking about yourself", ar:"ترد على المكالمة وتتكلم عن نفسك",
+   tracks:[{"t": "Story one: the phone call (p. 9–11)", "src": "audio/phone/book-p9.mp3"}, {"t": "Asking to delay & talking about yourself (p. 12–17)", "src": "audio/phone/book-p12.mp3"}],
+   cards:[
+    {en:"Is it OK if I call you back?", ar:"ينفع أكلمك تاني؟", ex:"I'm just in the middle of something. <mark>Is it OK if I call you back</mark> in about thirty minutes?", tip:"لو المكالمة جت في وقت مش مناسب، أجّلها بأدب وحدد وقت.", clip:"audio/phone/pi1-1.mp3"},
+    {en:"I'm a little tied up just now.", ar:"أنا مشغول شوية دلوقتي", ex:"<mark>I'm a little tied up just now</mark>, so is it OK if I call you back?", tip:"‎tied up‎ = مشغول. أرق من ‎I'm busy‎.", clip:"audio/phone/pi1-2.mp3"},
+    {en:"Can you tell me a little about yourself?", ar:"ممكن تحكيلي شوية عن نفسك؟", ex:"Just to start off with a general question: <mark>can you tell me a little about yourself?</mark>", tip:"أول سؤال في أغلب المقابلات. جهّز إجابة ٣٠–٦٠ ثانية.", clip:"audio/phone/pi1-3.mp3"},
+    {en:"I thrive on new challenges.", ar:"بحب التحديات الجديدة وبتألق فيها", ex:"I adapt well to new situations and <mark>I thrive on new challenges</mark>.", tip:"‎thrive on‎ + اسم: بتنجح وبتنبسط بحاجة معينة.", clip:"audio/phone/pi1-4.mp3"},
+    {en:"I'm goal-oriented and ambitious.", ar:"أنا بشتغل بأهداف وطموح", ex:"<mark>I'm goal-oriented and ambitious</mark>; I welcome stretch targets.", tip:"‎stretch targets‎ = أهداف أعلى من العادي.", clip:"audio/phone/pi1-5.mp3"},
+    {en:"I'm a self-starter.", ar:"بتحرك لوحدي من غير ما حد يزقني", ex:"<mark>I'm a self-starter</mark> and I can work without supervision.", tip:"صفة محبوبة جدًا عند المديرين.", clip:"audio/phone/pi1-6.mp3"},
+    {en:"I'm detail-oriented.", ar:"بهتم بالتفاصيل", ex:"<mark>I'm detail-oriented</mark>; I pay attention to all the details of my job.", tip:"قول مثال يثبت ده في المقابلة.", clip:"audio/phone/pi1-7.mp3"}
+   ],
+   quiz:[
+    {type:"mcq", q:"الـ HR اتصلت وانت بتتعشى. أنسب رد:", options:["I'm eating. Call later.","I'm just about to sit down for dinner. Do you mind if I call you back in half an hour?","No time, sorry."], answer:1, why:"مؤدب، وبيحدد وقت، وبيبين إنك مهتم."},
+    {type:"gap", sentence:"I adapt well to new situations and thrive ___ new challenges.", options:["in","on","with"], answer:1, why:"التعبير الثابت ‎thrive on‎."},
+    {type:"order", words:["I","can","work","without","supervision"], answer:"I can work without supervision", why:"بتقول إنك مستقل في شغلك."},
+    {type:"mcq", q:"إيه معنى ‎resourceful‎؟", options:["عنده موارد مالية كتير","بيعرف يلاقي حلول باللي متاح","بيحب القراية"], answer:1, why:"‎resourceful‎ = بيتصرف ويلاقي حل بالإمكانيات الموجودة."},
+    {type:"mcq", q:"أحسن بداية لـ ‎Tell me about yourself‎ لخريج جديد:", options:["I was born in 1999 in Cairo…","I am an enthusiastic engineering graduate with freelance experience.","I don't know what to say."], answer:1, why:"ابدأ بمين انت مهنيًا، مش قصة حياتك."}
+   ],
+   match:[["self-starter","بيبدأ لوحده"],["detail-oriented","مهتم بالتفاصيل"],["resourceful","بيتصرف بالمتاح"],["reliable","يُعتمد عليه"],["punctual","ملتزم بالمواعيد"],["team player","بيحب الشغل الجماعي"]],
+   roleplay:{ scene:"الساعة ٨ بالليل. Susan من الـ HR بتتصل بيك تعمل screening interview وانت قاعد تتعشى.",
+     turns:[
+      {them:"Hello, this is Susan from Human Resources. Have you got time to answer a few questions about your application?"},
+      {you:[{t:"I'm just about to sit down for dinner. Do you mind if I call you back in half an hour?",ok:1,fb:"ممتاز: مؤدب وحددت وقت."},{t:"Not now.",ok:0,fb:"جافة، وممكن تضيّع الفرصة."},{t:"Who gave you my number?",ok:0,fb:"انت اللي قدّمت! الرد ده غريب."}]},
+      {them:"Thanks for calling back. Can you tell me a little about yourself?"},
+      {you:[{t:"I'm an enthusiastic engineering graduate with freelance experience. I'm a team player and I thrive on new challenges.",ok:1,fb:"مختصر ومهني، ومليان صفات قوية."},{t:"I like football and sleeping.",ok:0,fb:"مش ده المقصود في مقابلة شغل."},{t:"Everything is in my CV.",ok:0,fb:"بتضيّع فرصة تبيع نفسك."}]},
+      {them:"And what are you looking for in your first job?"},
+      {you:[{t:"A position where I can use my skills and grow. Professional development is really important to me.",ok:1,fb:"بتبين طموح ورغبة في التعلم."},{t:"Just money.",ok:0,fb:"صريح بزيادة وبيعطي انطباع سيء."},{t:"Anything is fine.",ok:0,fb:"بيبين إنك مش عارف انت عايز إيه."}]}
+     ]}
+ },
+ { id:"pi2", title:"Your experience & why you're moving on", ar:"خبرتك وليه عايز تغيّر شغلك",
+   tracks:[{"t": "Speaking about previous jobs (p. 18–20)", "src": "audio/phone/book-p18.mp3"}, {"t": "Why are you looking for a new job? (p. 21–24)", "src": "audio/phone/book-p21.mp3"}],
+   cards:[
+    {en:"I was responsible for…", ar:"كنت مسؤول عن…", ex:"In my role, <mark>I was responsible for</mark> directing a team of six.", tip:"بعدها اسم أو فعل بـ ‎-ing‎.", clip:"audio/phone/pi2-1.mp3"},
+    {en:"I was in charge of…, ensuring that…", ar:"كنت ماسك… وبتأكد إن…", ex:"<mark>I was in charge of</mark> logistics, <mark>ensuring that</mark> every order shipped on time.", tip:"بيوضح المسؤولية والنتيجة مع بعض.", clip:"audio/phone/pi2-2.mp3"},
+    {en:"My experience includes a variety of…", ar:"خبرتي فيها أنواع كتير من…", ex:"<mark>My experience includes a variety of</mark> consulting and research projects.", tip:"مفيدة لو خبرتك متنوعة.", clip:"audio/phone/pi2-3.mp3"},
+    {en:"We were able to increase sales by 15%.", ar:"قدرنا نزود المبيعات ١٥٪", ex:"The campaign was a success: <mark>we were able to increase sales by 15%</mark>.", tip:"الأرقام بتقنع أكتر من أي وصف.", clip:"audio/phone/pi2-4.mp3"},
+    {en:"I'm ready for a new challenge.", ar:"أنا جاهز لتحدي جديد", ex:"I loved my team, but <mark>I'm ready for a new challenge</mark> in my career.", tip:"سبب إيجابي لترك الشغل.", clip:"audio/phone/pi2-5.mp3"},
+    {en:"There are no longer growth opportunities for me.", ar:"مبقاش فيه فرص أتطور", ex:"I love my role and co-workers, but I've come to a point where <mark>there are no longer growth opportunities for me</mark>.", tip:"اتكلم عن المستقبل، ماتشتكيش من الماضي.", clip:"audio/phone/pi2-6.mp3"},
+    {en:"The company had to eliminate my job.", ar:"الشركة اضطرت تلغي وظيفتي", ex:"In my last role, the company suffered some financial hardships and <mark>had to eliminate my job</mark>, along with many others.", tip:"طريقة محترمة تقول إنك اتسرّحت، من غير لوم.", clip:"audio/phone/pi2-7.mp3"}
+   ],
+   quiz:[
+    {type:"mcq", q:"سألوك ‎Why did you leave your last job?‎ ومديرك كان صعب. أنسب إجابة:", options:["My boss was terrible.","My boss and I had different work styles, and I thrive in a more collaborative environment.","I hated everyone there."], answer:1, why:"ماتتكلمش وحش عن مديرك القديم أبدًا. خليك دبلوماسي."},
+    {type:"gap", sentence:"I have spent five years ___ a sales engineer.", options:["as","like","for"], answer:0, why:"‎as‎ + وظيفة."},
+    {type:"order", words:["My","years","of","experience","have","prepared","me","well"], answer:"My years of experience have prepared me well", why:"جملة قوية تربط خبرتك بالوظيفة."},
+    {type:"mcq", q:"أي جملة أقوى في المقابلة؟", options:["I did marketing.","I worked on campaigns.","I ran a campaign that increased sales by 15%."], answer:2, why:"إنجاز محدد وبرقم."},
+    {type:"gap", sentence:"I was in charge of the team, ___ that every project finished on time.", options:["ensure","ensuring","ensured"], answer:1, why:"‎ensuring that‎ بتشرح النتيجة."}
+   ],
+   match:[["responsible for","مسؤول عن"],["in charge of","ماسك / مسؤول عن"],["restructure","يعيد الهيكلة"],["relocate","ينقل مكان سكنه"],["growth opportunity","فرصة تطور"],["collaborative","بيشجع التعاون"]],
+   roleplay:{ scene:"مكالمة screening لوظيفة Senior Sales. المحاور بيسأل عن خبرتك وليه عايز تمشي من شغلك الحالي.",
+     turns:[
+      {them:"Can you tell me about your previous jobs?"},
+      {you:[{t:"For the last four years I've worked as a sales engineer. I was responsible for key accounts, and we increased sales by 15%.",ok:1,fb:"مدة ومسؤولية ونتيجة برقم. ممتاز."},{t:"I worked in many companies.",ok:0,fb:"عامة جدًا. قول الوظيفة والإنجاز."},{t:"Sales. It was OK.",ok:0,fb:"قصيرة وماتبيعش نفسك."}]},
+      {them:"So why are you looking for a new job?"},
+      {you:[{t:"I've learned a lot, but I'm ready for a more senior role and a new challenge.",ok:1,fb:"سبب إيجابي وبيبص للمستقبل."},{t:"My manager is useless.",ok:0,fb:"ماتنتقدش مديرك أبدًا في مقابلة."},{t:"Honestly, I'm bored.",ok:0,fb:"قولها بشكل إيجابي: ‎I'm looking for a new challenge‎."}]},
+      {them:"I see. Was it a difficult decision?"},
+      {you:[{t:"Yes, I love the people there, but I want to keep growing, so I think it's the right choice.",ok:1,fb:"صادق ومتوازن."},{t:"No, I just want to leave.",ok:0,fb:"بيبان إنك مش مستقر."},{t:"Why do you ask?",ok:0,fb:"دفاعي وملوش لازمة."}]}
+     ]}
+ },
+ { id:"pi3", title:"Salary talk & your questions", ar:"الكلام عن المرتب وأسئلتك انت",
+   tracks:[{"t": "Salary requirements (p. 25–28)", "src": "audio/phone/book-p25.mp3"}, {"t": "Why us? & your questions (p. 29–31)", "src": "audio/phone/book-p29.mp3"}],
+   cards:[
+    {en:"I'm looking for somewhere between … and …", ar:"أنا متوقع حاجة ما بين … و…", ex:"<mark>I'm looking for somewhere between</mark> 25,000 and 30,000 a month.", tip:"ادّي range مش رقم واحد، وخلي أقل رقم فيه مقبول ليك.", clip:"audio/phone/pi3-1.mp3"},
+    {en:"I'm open to negotiating based on the entire package.", ar:"مستعد نتفاوض حسب الباكدج كلها", ex:"<mark>I'm open to negotiating based on the entire compensation package</mark>.", tip:"‎package‎ = المرتب + المزايا.", clip:"audio/phone/pi3-2.mp3"},
+    {en:"Benefits matter to me as well.", ar:"المزايا مهمة ليا كمان", ex:"<mark>Benefits matter to me as well</mark>: training, insurance and transport.", tip:"بتفتح باب إنك تقبل مرتب أقل مقابل مزايا أكتر.", clip:"audio/phone/pi3-3.mp3"},
+    {en:"Could you give me an idea of the salary range?", ar:"ممكن تديني فكرة عن رينج المرتب؟", ex:"I don't have a specific figure in mind. <mark>Could you give me an idea of the salary range?</mark>", tip:"لو مش عايز تقول رقم الأول.", clip:"audio/phone/pi3-4.mp3"},
+    {en:"I've always been a fan of your products.", ar:"طول عمري معجب بمنتجاتكم", ex:"<mark>I've always been a fan of</mark> X Co.'s products, and your focus on quality is what drew me in.", tip:"إجابة لـ ‎Why our company?‎ وضيف سبب حقيقي.", clip:"audio/phone/pi3-5.mp3"},
+    {en:"What are the next steps in the process?", ar:"إيه الخطوات الجاية؟", ex:"Thank you. <mark>What are the next steps in the interview process?</mark>", tip:"اسألها دايمًا في آخر المقابلة.", clip:"audio/phone/pi3-6.mp3"},
+    {en:"What is the most important indicator of success in this position?", ar:"إيه أهم مؤشر للنجاح في الوظيفة دي؟", ex:"<mark>What is the most important indicator of success in this position?</mark>", tip:"سؤال ذكي بيبين إنك بتفكر في النتايج.", clip:"audio/phone/pi3-7.mp3"}
+   ],
+   quiz:[
+    {type:"mcq", q:"سألوك عن المرتب ومش عايز تقول رقم الأول:", options:["Whatever you pay.","I don't have a specific figure. Could you give me an idea of the range for this position?","That's a secret."], answer:1, why:"بترجّع السؤال بأدب وتعرف الرينج الأول."},
+    {type:"gap", sentence:"I'm open to negotiating based on the entire compensation ___.", options:["package","box","price"], answer:0, why:"‎compensation package‎ = المرتب + المزايا."},
+    {type:"order", words:["What","are","the","next","steps","in","the","process"], answer:"What are the next steps in the process", why:"سؤال ختام أساسي."},
+    {type:"mcq", q:"قالولك ‎Do you have any questions for me?‎. أحسن رد:", options:["No, thanks.","Yes: can you tell me about the team I'd be part of?","How many vacation days do I get?"], answer:1, why:"‎No‎ بيبين عدم اهتمام، وأسئلة الإجازات بدري أوي."},
+    {type:"mcq", q:"إيه معنى ‎perks‎؟", options:["مزايا إضافية","خصومات من المرتب","ساعات إضافي"], answer:0, why:"‎perks‎ = مزايا زي عربية، تأمين، تدريب."}
+   ],
+   match:[["salary range","رينج المرتب"],["benefits","مزايا"],["perks","مزايا إضافية"],["negotiate","يتفاوض"],["shortlisted","اتختار في القايمة المختصرة"],["onboarding","فترة الاستلام والتأهيل"]],
+   roleplay:{ scene:"آخر المكالمة. Susan بتسأل عن المرتب المتوقع وبعدين بتسألك لو عندك أسئلة.",
+     turns:[
+      {them:"Can you tell me a little about your salary expectations for this position?"},
+      {you:[{t:"I'm looking for somewhere between 25,000 and 30,000, but benefits matter to me as well, so I'm a bit flexible.",ok:1,fb:"رينج واضح مع مرونة. ده بالظبط اللي في الكتاب."},{t:"As much as possible.",ok:0,fb:"مش احترافية وماتدّيش معلومة."},{t:"50,000 or I won't come.",ok:0,fb:"بتقفل التفاوض من أوله."}]},
+      {them:"OK, that's helpful. Why did you choose our company?"},
+      {you:[{t:"I've always been a fan of your products and your focus on quality, and I think my skills are a great match for this team.",ok:1,fb:"سبب عن الشركة، وربطته بنفسك."},{t:"You were the first result on Google.",ok:0,fb:"صريحة بزيادة وماتفرقش شركتهم عن غيرها."},{t:"Because I need a job.",ok:0,fb:"بيبين إنك مش مهتم بيهم هما."}]},
+      {them:"Great. Have you got any last questions?"},
+      {you:[{t:"Yes: what are the next steps in the interview process?",ok:1,fb:"سؤال الختام المثالي."},{t:"No.",ok:0,fb:"دايمًا حضّر سؤال أو اتنين."},{t:"When do I start?",ok:0,fb:"سابق للأحداث شوية."}]}
+     ]}
+ }]
+};
+
+const COURSE = [
+ UNIT_PHONE_INTERVIEW,
+ { id:"u1", time:"09:00", title:"Introductions & Small Talk", ar:"التعارف والكلام الخفيف في الشغل", level:"A2–B1",
+   lessons:[
+   { id:"l1", title:"Introducing yourself at work", ar:"تعرّف نفسك في الشغل",
+     cards:[
+      {en:"Let me introduce myself.", ar:"اسمحلي أعرّفك بنفسي", ex:"Hi everyone, <mark>let me introduce myself</mark>. I'm Omar from Finance.", tip:"أرسمي من ‎“My name is…”‎ ومناسبة للاجتماعات."},
+      {en:"I'm in charge of…", ar:"أنا مسؤول عن…", ex:"<mark>I'm in charge of</mark> the procurement team.", tip:"بعدها اسم أو فعل بـ ‎-ing‎: ‎in charge of hiring‎."},
+      {en:"I report to…", ar:"مديري المباشر هو…", ex:"<mark>I report to</mark> the Head of Sales.", tip:"بتوضح مكانك في الهيكل التنظيمي."},
+      {en:"I've been with the company for…", ar:"أنا في الشركة بقالي…", ex:"<mark>I've been with the company for</mark> three years.", tip:"‎for‎ + مدة، ‎since‎ + تاريخ بداية."},
+      {en:"Nice to put a face to the name.", ar:"مبسوط إني شفتك بعد ما كنا بنتكلم إيميلات", ex:"Sara! <mark>Nice to put a face to the name.</mark>", tip:"جملة شائعة جدًا لما تقابل حد كنت بتراسله بس."}
+     ],
+     quiz:[
+      {type:"mcq", q:"إزاي تقول إنك مسؤول عن فريق التسويق؟", options:["I'm in charge of the marketing team.","I'm charge the marketing team.","I'm in charge on the marketing team."], answer:0, why:"التركيب الصحيح ‎in charge of‎."},
+      {type:"gap", sentence:"I've been with the company ___ 2019.", options:["for","since","from"], answer:1, why:"‎since‎ مع نقطة بداية (سنة/تاريخ)."},
+      {type:"order", words:["I","report","to","the","Operations","Manager"], answer:"I report to the Operations Manager", why:"فاعل + ‎report to‎ + الشخص."},
+      {type:"mcq", q:"قابلت زميل كنت بتبعتله إيميلات بس. تقول إيه؟", options:["Nice to meet you again.","Nice to put a face to the name.","Long time no see."], answer:1, why:"دي بالظبط الجملة المستخدمة للموقف ده."}
+     ],
+     match:[["in charge of","مسؤول عن"],["report to","يتبع إداريًا"],["colleague","زميل"],["department","قسم / إدارة"],["line manager","المدير المباشر"]],
+     roleplay:{ scene:"أول يوم ليك في شركة جديدة، ومديرة الموارد البشرية بتعرّفك على الفريق.",
+       turns:[
+        {them:"Welcome aboard! Could you tell the team a little about yourself?"},
+        {you:[{t:"Sure. Let me introduce myself. I'm Ahmed, and I'll be handling key accounts.",ok:1,fb:"ممتاز: رسمي وواضح."},{t:"Yes. Me Ahmed. I work accounts.",ok:0,fb:"الجملة ناقصة. استخدم ‎I'm…‎ و‎I'll be handling…‎"},{t:"Why?",ok:0,fb:"دي تبان وقحة في موقف رسمي."}]},
+        {them:"Great. And who will you be working with most closely?"},
+        {you:[{t:"I report to Mr. Hany, the Sales Director.",ok:1,fb:"صح: ‎report to‎ بتوضح مكانك في الهيكل."},{t:"I report Mr. Hany.",ok:0,fb:"ناقصها ‎to‎: ‎report to‎."},{t:"Mr. Hany is my friend.",ok:0,fb:"مش مناسبة. هو مديرك مش صاحبك."}]},
+        {them:"Lovely. Oh, and this is Sara. You two have been emailing all week."},
+        {you:[{t:"Hi Sara! Nice to put a face to the name.",ok:1,fb:"هي دي الجملة الطبيعية بالظبط."},{t:"Hello. Who are you?",ok:0,fb:"انتوا بتتراسلوا من أسبوع، فالسؤال ده غريب."},{t:"Nice to meet you first time.",ok:0,fb:"التركيب مش طبيعي في الإنجليزي."}]}
+       ]}
+   },
+   { id:"l2", title:"Small talk at the office", ar:"كلام خفيف مع الزملاء",
+     cards:[
+      {en:"How's your week going?", ar:"أسبوعك ماشي إزاي؟", ex:"Morning, Nadia! <mark>How's your week going?</mark>", tip:"أحسن من ‎How are you?‎ لأنها بتفتح كلام حقيقي."},
+      {en:"Busy, but good.", ar:"مشغول بس الحمد لله كويس", ex:"<mark>Busy, but good</mark>, thanks. We're closing the quarter.", tip:"رد إيجابي قصير ومهني."},
+      {en:"Any plans for the weekend?", ar:"عندك خطط للويك إند؟", ex:"<mark>Any plans for the weekend?</mark>", tip:"سؤال آمن يوم الخميس أو الجمعة."},
+      {en:"I'd better get going.", ar:"لازم أمشي بقى", ex:"Anyway, <mark>I'd better get going</mark>, I have a call at ten.", tip:"طريقة مؤدبة تنهي بيها الكلام."},
+      {en:"Catch you later.", ar:"أشوفك بعدين", ex:"Good luck with the audit. <mark>Catch you later!</mark>", tip:"غير رسمية، مناسبة مع الزملاء."}
+     ],
+     quiz:[
+      {type:"mcq", q:"عايز تنهي الكلام بأدب عشان عندك اجتماع:", options:["Stop talking, please.","I'd better get going, I have a meeting.","Bye, I'm bored."], answer:1, why:"‎I'd better get going‎ مؤدبة وبتدي سبب."},
+      {type:"gap", sentence:"How's your week ___?", options:["going","go","went"], answer:0, why:"‎How's … going?‎ تركيب ثابت."},
+      {type:"order", words:["Any","plans","for","the","weekend"], answer:"Any plans for the weekend", why:"سؤال مختصر شائع في الكلام."},
+      {type:"mcq", q:"أنسب رد على ‎How's your week going?‎:", options:["Busy, but good, thanks.","Yes.","I am going."], answer:0, why:"رد طبيعي وإيجابي."}
+     ],
+     match:[["busy","مشغول"],["weekend","الإجازة الأسبوعية"],["catch up","نتكلم ونعرف الأخبار"],["deadline","موعد التسليم"],["break","استراحة"]],
+     roleplay:{ scene:"قابلت زميلك مارك عند مكنة القهوة الصبح.",
+       turns:[
+        {them:"Morning! How's your week going?"},
+        {you:[{t:"Busy, but good, thanks. How about you?",ok:1,fb:"ممتاز، ورجعت السؤال كمان."},{t:"Going.",ok:0,fb:"قصيرة زيادة ومقفولة."},{t:"Very very bad, I hate work.",ok:0,fb:"سلبية أكتر من اللازم في small talk."}]},
+        {them:"Not bad. Crazy deadlines, though. Any plans for the weekend?"},
+        {you:[{t:"Nothing big. Probably a trip to Alexandria with my family.",ok:1,fb:"رد طبيعي وفيه تفاصيل تكمّل الكلام."},{t:"It's private.",ok:0,fb:"بتقفل الكلام بطريقة جافة."},{t:"Yes, weekend.",ok:0,fb:"مش إجابة على السؤال."}]},
+        {them:"Sounds lovely!"},
+        {you:[{t:"Thanks! I'd better get going, I have a call at ten. Catch you later!",ok:1,fb:"قفلت الكلام بأدب واحترافية."},{t:"OK bye.",ok:0,fb:"مقبولة بس جافة شوية."},{t:"I go now.",ok:0,fb:"قول ‎I'd better get going‎."}]}
+       ]}
+   }]
+ },
+ { id:"u2", time:"10:30", title:"Writing Emails", ar:"كتابة الإيميلات", level:"B1",
+   lessons:[
+   { id:"l3", title:"Opening & closing an email", ar:"بداية ونهاية الإيميل",
+     cards:[
+      {en:"I hope this email finds you well.", ar:"أتمنى تكون بخير", ex:"Dear Mr. Kamal, <mark>I hope this email finds you well.</mark>", tip:"افتتاحية رسمية. مع الزملاء اكتفي بـ ‎Hi Sara,‎"},
+      {en:"I'm writing to…", ar:"أنا بكتب علشان…", ex:"<mark>I'm writing to</mark> confirm our meeting on Monday.", tip:"ادخل في الموضوع على طول بعد التحية."},
+      {en:"Please find attached…", ar:"مرفق…", ex:"<mark>Please find attached</mark> the updated price list.", tip:"الصيغة القياسية لذكر المرفقات."},
+      {en:"Please let me know if you have any questions.", ar:"لو عندك أي استفسار بلغني", ex:"<mark>Please let me know if you have any questions.</mark>", tip:"جملة ختام مهذبة ومفتوحة."},
+      {en:"Best regards,", ar:"مع خالص التحية", ex:"<mark>Best regards,</mark><br>Mona Adel", tip:"الأكثر أمانًا. ‎Cheers,‎ للزملاء القريبين بس."}
+     ],
+     quiz:[
+      {type:"mcq", q:"إزاي تقول إنك باعت عرض السعر مرفق؟", options:["Please find attached the quotation.","Please find the quotation in attach.","The quotation is attaching."], answer:0, why:"‎Please find attached…‎ هي الصيغة القياسية."},
+      {type:"gap", sentence:"I'm writing ___ confirm the delivery date.", options:["for","to","about"], answer:1, why:"‎I'm writing to + فعل‎."},
+      {type:"order", words:["Please","let","me","know","if","you","have","any","questions"], answer:"Please let me know if you have any questions", why:"ختام مهذب."},
+      {type:"mcq", q:"أنسب ختام لإيميل رسمي لعميل جديد:", options:["Cheers,","Best regards,","Bye bye,"], answer:1, why:"‎Best regards‎ رسمية وآمنة."}
+     ],
+     match:[["attached","مرفق"],["quotation","عرض سعر"],["confirm","يؤكد"],["regarding","بخصوص"],["invoice","فاتورة"]],
+     roleplay:{ scene:"بتكتب إيميل لعميل جديد اسمه Mr. Lewis، ترسله فيه عرض سعر. اختار الجملة الأنسب لكل جزء.",
+       turns:[
+        {them:"(Step 1) Choose your greeting and opening line."},
+        {you:[{t:"Dear Mr. Lewis, I hope this email finds you well.",ok:1,fb:"افتتاحية رسمية مظبوطة."},{t:"Hey Lewis!!",ok:0,fb:"غير رسمية جدًا لعميل جديد."},{t:"To Lewis, hello how are you what's up",ok:0,fb:"مش احترافية."}]},
+        {them:"(Step 2) State the purpose and mention the attachment."},
+        {you:[{t:"I'm writing to send you our quotation. Please find it attached.",ok:1,fb:"واضحة ومباشرة."},{t:"Look at the file.",ok:0,fb:"أمر مباشر وجاف."},{t:"I attaching quotation.",ok:0,fb:"غلط نحوي: ‎I'm attaching‎ أو ‎Please find attached‎."}]},
+        {them:"(Step 3) Close the email."},
+        {you:[{t:"Please let me know if you have any questions. Best regards, Karim",ok:1,fb:"ختام احترافي كامل."},{t:"Reply fast.",ok:0,fb:"بيضغط على العميل بطريقة مش مؤدبة."},{t:"Thanks, bye.",ok:0,fb:"مقبولة بس ضعيفة لعميل جديد."}]}
+       ]}
+   }]
+ },
+ { id:"u3", time:"12:00", title:"Meetings", ar:"الاجتماعات", level:"B1–B2",
+   lessons:[
+   { id:"l4", title:"Giving your opinion", ar:"إزاي تقول رأيك",
+     cards:[
+      {en:"From my point of view…", ar:"من وجهة نظري…", ex:"<mark>From my point of view</mark>, we should delay the launch.", tip:"بداية محايدة لأي رأي."},
+      {en:"I see your point, but…", ar:"فاهم قصدك، بس…", ex:"<mark>I see your point, but</mark> the budget is limited.", tip:"تختلف بأدب من غير ما تهاجم."},
+      {en:"I couldn't agree more.", ar:"موافق جدًا", ex:"Quality first? <mark>I couldn't agree more.</mark>", tip:"معناها موافقة تامة، مش رفض."},
+      {en:"Could I just add something?", ar:"ممكن أضيف حاجة؟", ex:"Sorry, <mark>could I just add something?</mark>", tip:"طريقة مؤدبة تقاطع بيها."},
+      {en:"Let's move on to the next item.", ar:"خلينا ننتقل للبند اللي بعده", ex:"Great. <mark>Let's move on to the next item</mark> on the agenda.", tip:"لو انت اللي بتدير الاجتماع."}
+     ],
+     quiz:[
+      {type:"mcq", q:"‎I couldn't agree more‎ معناها:", options:["مش موافق خالص","موافق تمامًا","مش متأكد"], answer:1, why:"معناها مفيش موافقة أكتر من كده."},
+      {type:"gap", sentence:"I see your ___, but we need more data.", options:["opinion","point","idea"], answer:1, why:"التعبير الثابت ‎I see your point‎."},
+      {type:"order", words:["Could","I","just","add","something"], answer:"Could I just add something", why:"مقاطعة مؤدبة."},
+      {type:"mcq", q:"انت رئيس الاجتماع وعايز تنتقل للبند اللي بعده:", options:["Next!","Let's move on to the next item.","Finish this."], answer:1, why:"رسمية وواضحة."}
+     ],
+     match:[["agenda","جدول الأعمال"],["minutes","محضر الاجتماع"],["item","بند"],["action point","مهمة مطلوبة"],["postpone","يأجل"]],
+     roleplay:{ scene:"اجتماع عن إطلاق منتج جديد. مديرك Lina بتسأل عن رأيك.",
+       turns:[
+        {them:"So, should we launch in March as planned? What do you think?"},
+        {you:[{t:"From my point of view, April would be safer. The supplier is late.",ok:1,fb:"رأي واضح ومعاه سبب."},{t:"March is stupid.",ok:0,fb:"هجومية جدًا في اجتماع."},{t:"I don't know anything.",ok:0,fb:"بتضيّع فرصة تشارك."}]},
+        {them:"But marketing has already booked the ads for March."},
+        {you:[{t:"I see your point, but a late launch would cost us more.",ok:1,fb:"اختلفت بأدب وبمنطق."},{t:"No, you're wrong.",ok:0,fb:"مباشرة وحادة."},{t:"OK whatever.",ok:0,fb:"مش احترافية."}]},
+        {them:"Fair enough. Let's decide next week then."},
+        {you:[{t:"Sounds good. Should I add it to the action points?",ok:1,fb:"ممتاز: بتاخد مبادرة."},{t:"Yes finish.",ok:0,fb:"غير مكتملة."},{t:"I go home now.",ok:0,fb:"مش مناسب."}]}
+       ]}
+   }]
+ },
+ { id:"u4", time:"14:00", title:"Phone & Video Calls", ar:"المكالمات والاجتماعات أونلاين", level:"B1", lessons:[] },
+ { id:"u5", time:"15:30", title:"Negotiating", ar:"التفاوض", level:"B2", lessons:[] },
+ { id:"u6", time:"17:00", title:"Presentations", ar:"العروض التقديمية", level:"B2", lessons:[] }
+];
+
+/* ============ state (per-viewer, browser only) ============ */
+const KEY="worktalk-v1";
+let S={xp:0,done:{},streak:0,last:null};
+try{const r=localStorage.getItem(KEY); if(r) S=Object.assign(S,JSON.parse(r));}catch(e){}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(S));}catch(e){}}
+function today(){return new Date().toISOString().slice(0,10)}
+function bumpStreak(){
+  const t=today(); if(S.last===t) return;
+  const y=new Date(Date.now()-864e5).toISOString().slice(0,10);
+  S.streak = S.last===y ? S.streak+1 : 1; S.last=t;
+}
+function renderStats(){
+  const t=today(), y=new Date(Date.now()-864e5).toISOString().slice(0,10);
+  document.getElementById("s-streak").textContent = (S.last===t||S.last===y)?S.streak:0;
+  document.getElementById("s-xp").textContent=S.xp;
+}
+
+const app=document.getElementById("app");
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const SPEAK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
+/* Pick the most natural English voice the device has.
+   Neural/"Natural" voices (Edge, Windows 11) and Google voices (Chrome)
+   sound human; old SAPI voices (David, Zira) sound robotic, so they rank last. */
+let VOICE=null;
+function rankVoice(v){
+  if(!/^en[-_]/i.test(v.lang)) return -1;
+  const n=v.name; let s=0;
+  if(/natural|neural|online/i.test(n)) s+=100;
+  if(/google/i.test(n)) s+=60;
+  if(/samantha|daniel|karen|moira|serena|arthur|martha/i.test(n)) s+=50; // good Apple voices
+  if(/aria|jenny|guy|sonia|ryan|libby|emma|andrew|ava|brian/i.test(n)) s+=20;
+  if(/^en[-_](US|GB)/i.test(v.lang)) s+=10;
+  if(/david|zira|mark|hazel|george|susan/i.test(n) && !/natural|online/i.test(n)) s-=40; // legacy robotic
+  return s;
+}
+function pickVoice(){
+  try{
+    const vs=speechSynthesis.getVoices().filter(v=>rankVoice(v)>=0);
+    if(vs.length) VOICE=vs.sort((a,b)=>rankVoice(b)-rankVoice(a))[0];
+  }catch(e){}
+}
+try{ pickVoice(); speechSynthesis.onvoiceschanged=pickVoice; }catch(e){}
+let sayTimer;
+function say(text){
+  try{
+    const clean=text.replace(/<[^>]+>/g,"").replace(/…/g,"").replace(/\s+/g," ").trim();
+    speechSynthesis.cancel();
+    clearTimeout(sayTimer);
+    /* small pause after cancel() — speaking immediately makes Chrome clip the first words */
+    sayTimer=setTimeout(()=>{
+      const u=new SpeechSynthesisUtterance(clean);
+      if(!VOICE) pickVoice();
+      if(VOICE){ u.voice=VOICE; u.lang=VOICE.lang; } else u.lang="en-US";
+      u.rate=1; u.pitch=1;
+      speechSynthesis.speak(u);
+    },120);
+  }catch(e){}
+}
+let CLIP=null;
+function play(card){
+  try{ speechSynthesis.cancel(); }catch(e){}
+  if(CLIP){ CLIP.pause(); CLIP=null; }
+  if(card && card.clip){ CLIP=new Audio(card.clip); CLIP.play().catch(()=>{}); return; }
+  if(card) say(card.en);
+}
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+
+/* ============ views ============ */
+let tab="path";
+function home(){
+  const all=COURSE.flatMap(u=>u.lessons), doneN=all.filter(l=>S.done[l.id]).length;
+  app.innerHTML=`
+   <section class="hero">
+     <span class="eyebrow en">Kalam Business · English for work</span>
+     <h1>كلام بيزنس… بالإنجليزي الصح</h1>
+     <p>كل درس ياخد حوالي ٧ دقايق: تتعلم ٥ عبارات، تتمرن عليهم، تلعب لعبة سريعة، وبعدين تجرب موقف حقيقي من الشغل.</p>
+     <div class="pillars"><span class="pill">تعلّم</span><span class="pill">اتمرّن</span><span class="pill">العب</span><span class="pill">اتكلّم</span></div>
+   </section>
+   <nav class="tabs" role="tablist">
+     <button class="tab" role="tab" data-tab="path" aria-selected="${tab==="path"}">جدول اليوم</button>
+     <button class="tab" role="tab" data-tab="book" aria-selected="${tab==="book"}">عباراتي</button>
+     <button class="tab" role="tab" data-tab="cards" aria-selected="${tab==="cards"}">فلاش كاردز</button>
+   </nav>
+   <div id="pane"></div>`;
+  app.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{tab=b.dataset.tab;home()});
+  const pane=document.getElementById("pane");
+  if(tab==="path") pane.innerHTML=`
+    <div class="day">
+      <div class="dayhead"><h2 class="en">Your working day</h2><span class="en">${doneN}/${all.length} lessons</span></div>
+      ${COURSE.map(u=>`
+       <div class="slot ${u.lessons.length?"":"locked"}">
+         <div class="time">${u.time}</div>
+         <div>
+           <h3 class="en">${u.title}</h3>
+           <p class="sub">${u.ar} · <span class="en">${u.level}</span></p>
+           ${u.lessons.length?`<div class="lessons">${u.lessons.map(l=>`
+             <button class="lesson" data-l="${l.id}">
+               <span class="t"><b class="en">${l.title}</b><small>${l.ar}</small></span>
+               <span class="badge ${S.done[l.id]?"done":""}">${S.done[l.id]?"تم ✓":"ابدأ"}</span>
+             </button>`).join("")}</div>`
+           :`<div class="soon">قريبًا، هنضيف هنا دروس من ماتيريال الكورس.</div>`}
+         </div>
+       </div>`).join("")}
+    </div>`;
+  if(tab==="book") book(pane);
+  if(tab==="cards") flash(pane);
+  pane.querySelectorAll("[data-l]").forEach(b=>b.onclick=()=>startLesson(b.dataset.l));
+}
+function learned(){
+  return COURSE.flatMap(u=>u.lessons).filter(l=>S.done[l.id]).flatMap(l=>l.cards);
+}
+function book(pane){
+  const c=learned();
+  if(!c.length){pane.innerHTML=`<p class="empty">العبارات اللي بتتعلمها هتتجمع هنا. خلّص أول درس وارجع.</p>`;return}
+  pane.innerHTML=`<div class="pb">${c.map((x,i)=>`
+    <div class="pbrow"><div><div class="en">${esc(x.en)}</div><small>${esc(x.ar)}</small></div>
+    <button class="say" data-i="${i}" aria-label="استمع">${SPEAK}</button></div>`).join("")}</div>`;
+  pane.querySelectorAll(".say").forEach(b=>b.onclick=()=>play(c[b.dataset.i]));
+}
+function flash(pane){
+  let c=learned(); if(!c.length){pane.innerHTML=`<p class="empty">خلّص درس علشان تبدأ تراجع بالفلاش كاردز.</p>`;return}
+  c=shuffle(c); let i=0;
+  const draw=()=>{
+    pane.innerHTML=`<div style="display:grid;gap:12px;margin-top:14px">
+     <div class="flash" id="fc"><div class="flash-in" tabindex="0" role="button" aria-label="اقلب الكارت">
+       <div class="face"><div><h2 class="en" style="text-align:center">${esc(c[i].en)}</h2><p class="kicker">اضغط علشان تشوف المعنى</p></div></div>
+       <div class="face back"><div><h2>${esc(c[i].ar)}</h2></div></div>
+     </div></div>
+     <div class="actions" style="justify-content:space-between">
+       <span class="kicker en">${i+1} / ${c.length}</span>
+       <span style="display:flex;gap:8px"><button class="btn ghost" id="fs">استمع</button><button class="btn" id="fn">التالي</button></span>
+     </div></div>`;
+    const fc=document.getElementById("fc"), inn=fc.firstElementChild;
+    inn.onclick=()=>fc.classList.toggle("flip");
+    inn.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();fc.classList.toggle("flip")}};
+    document.getElementById("fs").onclick=()=>play(c[i]);
+    document.getElementById("fn").onclick=()=>{i=(i+1)%c.length;draw()};
+  };
+  draw();
+}
+
+/* ============ lesson player ============ */
+let L,step,score;
+const STAGES=[["learn","تعلّم"],["quiz","اتمرّن"],["match","العب"],["talk","اتكلّم"]];
+function startLesson(id){
+  L=COURSE.flatMap(u=>u.lessons).find(l=>l.id===id);
+  step={stage:0,i:0}; score={quiz:0,quizN:L.quiz.length,talk:0,talkN:L.roleplay.turns.filter(t=>t.you).length,time:0};
+  scrollTo(0,0); render();
+}
+function total(){return L.cards.length+L.quiz.length+1+L.roleplay.turns.filter(t=>t.you).length}
+function doneCount(){
+  const s=step.stage; let n=0;
+  if(s>0)n+=L.cards.length; else n+=step.i;
+  if(s>1)n+=L.quiz.length; else if(s===1)n+=step.i;
+  if(s>2)n+=1;
+  if(s===3)n+=step.i;
+  if(s>3)n=total();
+  return n;
+}
+function shell(inner){
+  app.innerHTML=`<section class="player">
+    <div class="phead"><button class="x" id="quit" aria-label="اخرج من الدرس">✕</button>
+      <div class="progress"><i style="width:${Math.round(doneCount()/total()*100)}%"></i></div></div>
+    <div class="steps">${STAGES.map((s,k)=>`<span class="step ${k===step.stage?"on":k<step.stage?"ok":""}">${s[1]}</span>`).join("")}</div>
+    <div class="stage">${inner}</div></section>`;
+  document.getElementById("quit").onclick=home;
+}
+function render(){
+  [learn,quiz,match,talk,finish][step.stage]();
+}
+function next(){step.i++;render()}
+function nextStage(){step.stage++;step.i=0;render()}
+
+function learn(){
+  const c=L.cards[step.i];
+  const tracks=(step.i===0&&L.tracks)?`<div class="book"><span class="kicker">🎧 اسمع من الكتاب</span>${L.tracks.map(t=>`<div class="track"><span class="en">${esc(t.t)}</span><audio controls preload="none" src="${t.src}"></audio></div>`).join("")}</div>`:"";
+  shell(`${tracks}<span class="kicker">عبارة ${step.i+1} من ${L.cards.length}${c.clip?" · صوت الكتاب":""}</span>
+    <div class="phrase"><h2>${esc(c.en)}</h2><button class="say" id="sp" aria-label="استمع">${SPEAK}</button></div>
+    <div class="meaning">${esc(c.ar)}</div>
+    <div class="example"><span class="kicker">مثال</span><div class="en">${c.ex}</div></div>
+    <p class="tip">${esc(c.tip)}</p>
+    <div class="actions"><button class="btn" id="go">${step.i<L.cards.length-1?"التالي":"يلا نتمرّن"}</button></div>`);
+  document.getElementById("sp").onclick=()=>play(c);
+  document.getElementById("go").onclick=()=>step.i<L.cards.length-1?next():nextStage();
+}
+
+function quiz(){
+  const q=L.quiz[step.i]; const last=step.i===L.quiz.length-1;
+  const cont=()=>last?nextStage():next();
+  const fb=(ok)=>{
+    if(ok)score.quiz++;
+    const box=document.getElementById("fb");
+    box.className="feedback "+(ok?"good":"bad");
+    box.innerHTML=`<b>${ok?"صح!":"مش مظبوط"}</b><span>${esc(q.why)}</span>`; box.hidden=false;
+    const g=document.getElementById("go"); g.hidden=false; g.onclick=cont; g.focus();
+  };
+  if(q.type==="order"){
+    let built=[]; const bank=shuffle(q.words.map((w,k)=>({w,k})));
+    shell(`<span class="kicker">رتّب الكلمات</span><p class="question">كوّن الجملة الصح</p>
+      <div class="built" id="built"></div><div class="bank" id="bank"></div>
+      <div id="fb" hidden></div>
+      <div class="actions"><button class="btn" id="check" disabled>تأكد</button><button class="btn" id="go" hidden>متابعة</button></div>`);
+    const draw=()=>{
+      document.getElementById("built").innerHTML=built.map((b,j)=>`<button class="chip" data-j="${j}">${esc(b.w)}</button>`).join("");
+      document.getElementById("bank").innerHTML=bank.map(b=>`<button class="chip" data-k="${b.k}" ${built.includes(b)?"disabled":""}>${esc(b.w)}</button>`).join("");
+      document.querySelectorAll("#built .chip").forEach(x=>x.onclick=()=>{built.splice(+x.dataset.j,1);draw()});
+      document.querySelectorAll("#bank .chip").forEach(x=>x.onclick=()=>{built.push(bank.find(b=>b.k==x.dataset.k));draw()});
+      document.getElementById("check").disabled=built.length!==q.words.length;
+    };
+    draw();
+    document.getElementById("check").onclick=function(){
+      this.hidden=true; document.querySelectorAll(".chip").forEach(c=>c.disabled=true);
+      const ok=built.map(b=>b.w).join(" ")===q.answer; fb(ok);
+      if(!ok){document.getElementById("fb").innerHTML+=`<div class="en" style="margin-top:6px">${esc(q.answer)}</div>`}
+    };
+    return;
+  }
+  const prompt=q.type==="gap"
+    ? `<span class="kicker">كمّل الفراغ</span><p class="question en" style="font-size:20px">${esc(q.sentence).replace("___",'<span class="gap">?</span>')}</p>`
+    : `<span class="kicker">اختار الإجابة</span><p class="question">${esc(q.q)}</p>`;
+  const isAr=/[؀-ۿ]/.test(q.options[0]);
+  shell(`${prompt}<div class="options">${q.options.map((o,k)=>`<button class="opt" data-k="${k}" ${isAr?'style="direction:rtl;text-align:right;font-family:var(--body)"':""}>${esc(o)}</button>`).join("")}</div>
+    <div id="fb" hidden></div><div class="actions"><button class="btn" id="go" hidden>متابعة</button></div>`);
+  document.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{
+    const k=+b.dataset.k, ok=k===q.answer;
+    document.querySelectorAll(".opt").forEach(x=>{x.disabled=true; if(+x.dataset.k===q.answer)x.classList.add("right")});
+    if(!ok)b.classList.add("wrong");
+    if(q.type==="gap"){const g=document.querySelector(".gap"); g.textContent=q.options[q.answer]}
+    fb(ok);
+  });
+}
+
+let tick;
+function match(){
+  const pairs=L.match.map((p,k)=>({en:p[0],ar:p[1],k}));
+  const left=shuffle(pairs), right=shuffle(pairs);
+  let sel=null, found=0, t0=Date.now(), misses=0;
+  shell(`<div class="gamehead"><div><span class="kicker">لعبة التوصيل</span><p class="question">وصّل كل كلمة بمعناها بأسرع وقت</p></div><span class="timer" id="tm">0.0s</span></div>
+    <div class="board"><div class="col">${left.map(p=>`<button class="tile en" data-k="${p.k}" data-s="en">${esc(p.en)}</button>`).join("")}</div>
+    <div class="col">${right.map(p=>`<button class="tile" data-k="${p.k}" data-s="ar">${esc(p.ar)}</button>`).join("")}</div></div>`);
+  clearInterval(tick);
+  tick=setInterval(()=>{const e=document.getElementById("tm"); if(!e){clearInterval(tick);return} e.textContent=((Date.now()-t0)/1000).toFixed(1)+"s"},100);
+  document.querySelectorAll(".tile").forEach(b=>b.onclick=()=>{
+    if(!sel||sel.dataset.s===b.dataset.s){ if(sel)sel.classList.remove("sel"); sel=b; b.classList.add("sel"); return }
+    if(sel.dataset.k===b.dataset.k){
+      [sel,b].forEach(x=>x.classList.add("gone")); found++; sel=null;
+      if(found===pairs.length){clearInterval(tick); score.time=(Date.now()-t0)/1000; score.misses=misses; setTimeout(nextStage,450)}
+    }else{
+      misses++; const a=sel; [a,b].forEach(x=>{x.classList.remove("sel");x.classList.add("shake")});
+      setTimeout(()=>[a,b].forEach(x=>x.classList.remove("shake")),320); sel=null;
+    }
+  });
+}
+
+function talk(){
+  const turns=L.roleplay.turns; let history=[], yi=0, idx=0;
+  const draw=()=>{
+    while(idx<turns.length&&turns[idx].them){history.push({who:"them",t:turns[idx].them});idx++}
+    const cur=turns[idx];
+    shell(`<span class="kicker">لعب أدوار</span>
+      <div class="scene"><span>${esc(L.roleplay.scene)}</span></div>
+      <div class="chat">${history.map(h=>`<div class="msg ${h.who}"><small>${h.who==="them"?"هم":"انت"}</small>${esc(h.t)}</div>`).join("")}</div>
+      ${cur?`<p class="kicker">إنت هتقول إيه؟</p><div class="options">${shuffle(cur.you.map((o,k)=>({...o,k}))).map(o=>`<button class="opt" data-k="${o.k}">${esc(o.t)}</button>`).join("")}</div>`:""}
+      <div id="fb" hidden></div>
+      <div class="actions"><button class="btn" id="go" ${cur?"hidden":""}>${cur?"متابعة":"خلّص الدرس"}</button></div>`);
+    const lastThem=history.filter(h=>h.who==="them").pop();
+    if(!cur){document.getElementById("go").onclick=nextStage;return}
+    document.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{
+      const o=cur.you[+b.dataset.k];
+      document.querySelectorAll(".opt").forEach(x=>{x.disabled=true; if(cur.you[+x.dataset.k].ok)x.classList.add("right")});
+      if(!o.ok)b.classList.add("wrong"); else score.talk++;
+      const box=document.getElementById("fb"); box.className="feedback "+(o.ok?"good":"bad");
+      box.innerHTML=`<b>${o.ok?"رد ممتاز":"فيه رد أنسب"}</b><span>${esc(o.fb)}</span>`; box.hidden=false;
+      const g=document.getElementById("go"); g.hidden=false; g.focus();
+      g.onclick=()=>{history.push({who:"you",t:cur.you.find(x=>x.ok).t}); idx++; yi++; step.i=yi; draw()};
+    });
+  };
+  draw();
+}
+
+function finish(){
+  const first=!S.done[L.id];
+  const gained=10+score.quiz*5+score.talk*5+(score.time<20?10:0);
+  S.xp+=gained; S.done[L.id]=true; bumpStreak(); save(); renderStats();
+  shell(`<div class="done stage" style="border:0;box-shadow:none;padding:0">
+    <span class="eyebrow en">Lesson complete</span>
+    <h2>برافو! خلّصت «${esc(L.ar)}»</h2>
+    <p class="kicker">${first?"العبارات اتضافت لـ «عباراتي» والفلاش كاردز.":"مراجعة ممتازة."}</p>
+    <div class="score">
+      <div><b>+${gained}</b><span>XP</span></div>
+      <div><b>${score.quiz}/${score.quizN}</b><span>التمارين</span></div>
+      <div><b>${score.time.toFixed(1)}s</b><span>لعبة التوصيل</span></div>
+      <div><b>${score.talk}/${score.talkN}</b><span>لعب الأدوار</span></div>
+    </div>
+    <div class="actions" style="justify-content:center"><button class="btn ghost" id="again">عيد الدرس</button><button class="btn" id="back">ارجع للجدول</button></div>
+  </div>`);
+  document.querySelector(".progress i").style.width="100%";
+  document.getElementById("again").onclick=()=>startLesson(L.id);
+  document.getElementById("back").onclick=()=>{tab="path";home()};
+}
+
+document.getElementById("home-btn").onclick=()=>{tab="path";home()};
+renderStats(); home();
+</script>
+
+</body></html>
