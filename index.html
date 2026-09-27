@@ -1,204 +1,282 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Kalam Business</title>
-<meta name="description" content="Kalam Business: Business English in short daily lessons: learn, play, then role-play real office situations.">
+<meta name="description" content="Kalam Business: Business English for Arabic speakers. Read and listen to the book, learn the phrases, practise, and role-play real work situations.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,650;12..96,800&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap">
 <style>
 :root{
-  --ink:#16233A; --ink-2:#44526B; --muted:#6F7B8E;
-  --paper:#F3F5F2; --card:#FFFFFF; --line:#DDE2DC;
-  --accent:#0E7C66; --accent-soft:#DCEFE8; --on-accent:#FFFFFF;
-  --amber:#C9851C; --amber-soft:#F8EBD3;
-  --good:#1F8A4C; --good-soft:#DFF2E6; --bad:#C0392B; --bad-soft:#F7E1DE;
-  --shadow:0 1px 2px rgba(22,35,58,.06),0 6px 20px rgba(22,35,58,.06);
-  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
-  --body:"IBM Plex Sans Arabic","Segoe UI",Tahoma,system-ui,sans-serif;
-  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --ink:#18233F; --ink-2:#4A5673; --muted:#7A849B;
+  --paper:#F5F6FA; --card:#FFFFFF; --line:#E2E5EE;
+  --cobalt:#3552C9; --cobalt-soft:#E6EAFB;
+  --mint:#2FA88E; --mint-soft:#DDF3EC;
+  --saffron:#E9A93A; --saffron-soft:#FBF0DA;
+  --rose:#D9677B; --rose-soft:#FBE6EA;
+  --good:#23915B; --good-soft:#DDF3E6; --bad:#C2413A; --bad-soft:#F9E1DF;
+  --display:"Bricolage Grotesque",system-ui,sans-serif;
+  --body:"Figtree",system-ui,sans-serif;
+  --ar:"IBM Plex Sans Arabic","Segoe UI",Tahoma,sans-serif;
+  --r-lg:26px; --r-md:16px; --r-sm:11px;
+  --lift:0 1px 2px rgba(24,35,63,.05),0 10px 30px -12px rgba(24,35,63,.14);
 }
-@media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){
-    color-scheme:dark;
-    --ink:#E8ECE9; --ink-2:#B9C3CF; --muted:#8C98A8;
-    --paper:#0F1622; --card:#172131; --line:#28354A;
-    --accent:#3CC19F; --accent-soft:#163A36; --on-accent:#08201A;
-    --amber:#E9AE50; --amber-soft:#3A2E17;
-    --good:#4CC67F; --good-soft:#153524; --bad:#EF7D6E; --bad-soft:#3E1F1C;
-    --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px rgba(0,0,0,.25);
-  }
-}
-:root[data-theme="dark"]{
-  color-scheme:dark;
-  --ink:#E8ECE9; --ink-2:#B9C3CF; --muted:#8C98A8;
-  --paper:#0F1622; --card:#172131; --line:#28354A;
-  --accent:#3CC19F; --accent-soft:#163A36; --on-accent:#08201A;
-  --amber:#E9AE50; --amber-soft:#3A2E17;
-  --good:#4CC67F; --good-soft:#153524; --bad:#EF7D6E; --bad-soft:#3E1F1C;
-  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px rgba(0,0,0,.25);
-}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ink:#E9ECF5;--ink-2:#B7BFD3;--muted:#8C95AC;--paper:#0F1424;--card:#171E33;--line:#27304A;
+  --cobalt:#7F96FF;--cobalt-soft:#1E2850;--mint:#4FD0B3;--mint-soft:#133A33;--saffron:#F2C064;--saffron-soft:#3A2F17;
+  --rose:#F08A9C;--rose-soft:#3D1F27;--good:#54CE8C;--good-soft:#143524;--bad:#F07B72;--bad-soft:#3F1E1C;
+  --lift:0 1px 2px rgba(0,0,0,.3),0 12px 30px -12px rgba(0,0,0,.5)}}
+:root[data-theme="dark"]{--ink:#E9ECF5;--ink-2:#B7BFD3;--muted:#8C95AC;--paper:#0F1424;--card:#171E33;--line:#27304A;
+  --cobalt:#7F96FF;--cobalt-soft:#1E2850;--mint:#4FD0B3;--mint-soft:#133A33;--saffron:#F2C064;--saffron-soft:#3A2F17;
+  --rose:#F08A9C;--rose-soft:#3D1F27;--good:#54CE8C;--good-soft:#143524;--bad:#F07B72;--bad-soft:#3F1E1C;
+  --lift:0 1px 2px rgba(0,0,0,.3),0 12px 30px -12px rgba(0,0,0,.5)}
 *{box-sizing:border-box}
-body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.6;padding-inline:16px;padding-block:0 48px}
-.wrap{max-width:760px;margin-inline:auto}
-h1,h2,h3{font-family:var(--display);line-height:1.15;text-wrap:balance;margin:0}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--display);line-height:1.1;margin:0;text-wrap:balance;letter-spacing:-.015em}
 button{font:inherit;color:inherit;cursor:pointer}
-button:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
-.en{direction:ltr;unicode-bidi:isolate;font-family:var(--display);text-align:left}
-.ar{direction:rtl}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--cobalt);outline-offset:2px;border-radius:6px}
+.ar{font-family:var(--ar);direction:rtl;unicode-bidi:isolate}
+.wrap{max-width:1120px;margin-inline:auto;padding-inline:16px}
+[hidden]{display:none!important}
 
-/* top bar */
-.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:14px;border-bottom:1px solid var(--line)}
-.brand{display:flex;align-items:center;gap:10px;background:none;border:0;padding:0}
-.logo{width:34px;height:34px;border-radius:9px;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:15px}
-.brand b{font-family:var(--display);font-weight:800;font-size:19px;letter-spacing:-.01em}
-.stats{display:flex;gap:8px;flex-wrap:wrap}
-.stat{display:flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-family:var(--mono);font-size:13px;font-variant-numeric:tabular-nums}
+/* nav */
+.nav{position:sticky;top:10px;z-index:20;margin:10px auto 0;max-width:1120px;padding-inline:16px}
+.nav-in{display:flex;align-items:center;gap:10px;background:color-mix(in srgb,var(--card) 88%,transparent);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:999px;padding:8px 10px 8px 14px;box-shadow:var(--lift)}
+.brand{display:flex;align-items:center;gap:9px;text-decoration:none;font-family:var(--display);font-weight:800;font-size:19px;white-space:nowrap}
+.brand .mark{width:32px;height:32px;border-radius:10px;background:var(--ink);display:grid;place-items:center}
+.links{display:flex;gap:2px;margin-inline:auto}
+.links a{text-decoration:none;font-weight:600;font-size:15px;color:var(--ink-2);padding:7px 13px;border-radius:999px}
+.links a[aria-current="page"]{background:var(--cobalt-soft);color:var(--cobalt)}
+.stats{display:flex;gap:6px}
+.stat{display:flex;align-items:center;gap:5px;font-weight:700;font-size:14px;padding:5px 11px;border-radius:999px;background:var(--paper);font-variant-numeric:tabular-nums}
+.stat.x{color:var(--saffron)} .stat.s{color:var(--mint)}
 .stat svg{width:15px;height:15px}
-.stat.xp{color:var(--amber)} .stat.streak{color:var(--accent)}
+@media (max-width:760px){.links{display:none}.stats{margin-inline-start:auto}}
+.tabbar{display:none}
+@media (max-width:760px){
+  .tabbar{display:flex;position:fixed;inset:auto 0 0 0;z-index:20;background:var(--card);border-top:1px solid var(--line);padding:6px 8px calc(6px + env(safe-area-inset-bottom))}
+  .tabbar a{flex:1;text-align:center;text-decoration:none;font-size:12px;font-weight:600;color:var(--muted);padding:6px 2px;border-radius:12px}
+  .tabbar a svg{display:block;margin:0 auto 2px;width:22px;height:22px}
+  .tabbar a[aria-current="page"]{color:var(--cobalt);background:var(--cobalt-soft)}
+  body{padding-bottom:78px}
+}
 
-.tabs{display:flex;gap:4px;margin-block:18px 6px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:4px}
-.tab{flex:1;border:0;background:none;padding:8px 10px;border-radius:9px;font-weight:600;color:var(--ink-2)}
-.tab[aria-selected="true"]{background:var(--ink);color:var(--paper)}
+/* buttons & chips */
+.btn{display:inline-flex;align-items:center;gap:8px;border:0;border-radius:999px;padding:12px 22px;font-weight:700;text-decoration:none;background:var(--ink);color:var(--paper)}
+.btn.alt{background:transparent;border:1.5px solid var(--line);color:var(--ink)}
+.btn.small{padding:8px 16px;font-size:14px}
+.btn:disabled{opacity:.4;cursor:default}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:600;padding:4px 11px;border-radius:999px;background:var(--paper);border:1px solid var(--line);color:var(--ink-2)}
+.chip.lv{background:var(--mint-soft);border-color:transparent;color:var(--mint)}
 
 /* hero */
-.hero{display:grid;gap:10px;padding-block:22px 8px}
-.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
-.hero h1{font-size:clamp(28px,6vw,40px);font-weight:800;letter-spacing:-.02em}
-.hero p{margin:0;color:var(--ink-2);max-width:60ch}
-.pillars{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
-.pill{font-size:13px;padding:3px 10px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-weight:600}
+.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:24px;align-items:center;padding-block:48px 28px}
+.hero h1{font-size:clamp(38px,6.2vw,68px);font-weight:800}
+.hero h1 .l2{display:block;color:var(--cobalt)}
+.hero .sub{font-size:19px;color:var(--ink-2);margin:18px 0 6px;max-width:34ch}
+.hero .sub-ar{color:var(--muted);font-size:17px;margin:0 0 26px}
+.hero .cta{display:flex;flex-wrap:wrap;gap:10px}
+.hero-art{position:relative}
+@media (max-width:860px){.hero{grid-template-columns:1fr;padding-top:28px}.hero-art{order:-1;max-width:420px;margin-inline:auto}}
 
-/* agenda (course path) */
-.day{margin-top:18px}
-.dayhead{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding-block:8px;border-bottom:2px solid var(--ink)}
-.dayhead h2{font-size:18px}
-.dayhead span{font-family:var(--mono);font-size:12px;color:var(--muted)}
-.slot{display:grid;grid-template-columns:64px 1fr;gap:14px;padding-block:16px;border-bottom:1px dashed var(--line)}
-.time{font-family:var(--mono);font-size:14px;color:var(--muted);padding-top:3px;direction:ltr;text-align:start}
-.slot h3{font-size:19px;font-weight:700}
-.slot .sub{color:var(--ink-2);font-size:14px;margin:2px 0 10px}
-.lessons{display:grid;gap:8px}
-.lesson{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;text-align:start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;box-shadow:var(--shadow);transition:transform .15s,border-color .15s}
-.lesson:hover{transform:translateY(-1px);border-color:var(--accent)}
-.lesson .t{display:grid;gap:1px}
-.lesson .t b{font-family:var(--display);font-size:16px}
-.lesson .t small{color:var(--muted);font-size:13px}
-.badge{flex:none;font-size:12px;font-weight:600;padding:3px 9px;border-radius:999px;background:var(--paper);color:var(--ink-2);border:1px solid var(--line)}
-.badge.done{background:var(--good-soft);color:var(--good);border-color:transparent}
-.slot.locked h3,.slot.locked .sub{color:var(--muted)}
-.soon{font-size:13px;color:var(--muted);border:1px dashed var(--line);border-radius:12px;padding:10px 14px}
+/* dive-in cards */
+.sec{padding-block:36px}
+.sec-head{text-align:center;max-width:620px;margin:0 auto 26px}
+.sec-head h2{font-size:clamp(28px,4vw,40px)}
+.sec-head p{color:var(--ink-2);margin:10px 0 0}
+.ways{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.way{position:relative;text-decoration:none;background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:22px;display:flex;flex-direction:column;gap:6px;min-height:230px;overflow:hidden}
+.way .ic{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;margin-bottom:10px}
+.way .ic svg{width:24px;height:24px}
+.way h3{font-size:24px}
+.way p{margin:0;color:var(--ink-2);font-size:15px}
+.way .ar{color:var(--muted);font-size:14px}
+.way .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:14px}
+.way:hover{border-color:currentColor}
+.t-cobalt{color:var(--cobalt)} .t-mint{color:var(--mint)} .t-saffron{color:var(--saffron)} .t-rose{color:var(--rose)}
+.way h3,.way p{color:var(--ink)}
+.way p{color:var(--ink-2)}
 
-/* lesson player */
-.player{padding-block:18px}
-.phead{display:flex;align-items:center;gap:12px}
-.x{border:1px solid var(--line);background:var(--card);border-radius:10px;width:38px;height:38px;display:grid;place-items:center;flex:none}
-.progress{flex:1;height:10px;border-radius:99px;background:var(--line);overflow:hidden}
-.progress i{display:block;height:100%;background:var(--accent);border-radius:99px;transition:width .35s}
-.steps{display:flex;gap:6px;margin-block:12px 18px;flex-wrap:wrap}
-.step{font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--muted)}
-.step.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.step.ok{color:var(--good);border-color:var(--good)}
-.stage{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:var(--shadow);display:grid;gap:14px}
-.kicker{font-size:13px;color:var(--muted);font-weight:600}
-.phrase{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;direction:ltr}
-.phrase h2{font-size:clamp(24px,5vw,32px);font-weight:700;letter-spacing:-.01em}
-.say{flex:none;width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--accent-soft);color:var(--accent);display:grid;place-items:center}
-.say svg{width:20px;height:20px}
-.meaning{font-size:18px;font-weight:600}
-.example{background:var(--paper);border-radius:12px;padding:12px 14px;display:grid;gap:4px}
-.example .en{font-size:16px}
-.example .en mark{background:var(--amber-soft);color:inherit;padding:0 3px;border-radius:4px}
-.book{display:grid;gap:8px;background:var(--accent-soft);border-radius:12px;padding:12px 14px}
-.track{display:grid;gap:4px}.track .en{font-size:14px;font-weight:600}
-.track audio{width:100%;height:36px}
-.tip{font-size:14px;color:var(--ink-2);border-inline-start:3px solid var(--amber);padding-inline-start:10px}
-.question{font-size:18px;font-weight:600}
-.options{display:grid;gap:8px}
-.opt{border:1.5px solid var(--line);background:var(--card);border-radius:12px;padding:12px 14px;text-align:left;direction:ltr;font-family:var(--display);font-size:16px;transition:border-color .15s,background .15s}
-.opt:hover:not(:disabled){border-color:var(--accent)}
+/* page head */
+.phead{padding-block:34px 18px}
+.back{display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:600;text-decoration:none;color:var(--ink-2);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 13px;margin-bottom:18px}
+.phead h1{font-size:clamp(34px,5vw,54px);font-weight:800}
+.phead p{color:var(--ink-2);max-width:56ch;margin:12px 0 0;font-size:17px}
+.phead .ar{color:var(--muted);margin-top:4px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 8px}
+.filters button{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:7px 14px;font-weight:600;font-size:14px;color:var(--ink-2)}
+.filters button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+
+/* lesson cards */
+.group{margin-top:26px}
+.group-h{display:flex;align-items:baseline;gap:10px;border-inline-start:4px solid var(--mint);padding-inline-start:10px;margin-bottom:14px}
+.group-h b{font-family:var(--display);font-size:22px}
+.group-h span{color:var(--muted);font-size:14px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
+.lcard{background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden;display:flex;flex-direction:column;text-decoration:none}
+.lcard .art{aspect-ratio:16/10;position:relative}
+.lcard .art svg{width:100%;height:100%;display:block}
+.lcard .badge{position:absolute;top:12px;padding:3px 10px;border-radius:999px;background:var(--card);font-weight:700;font-size:12px}
+.lcard .badge.l{left:12px;color:var(--mint)} .lcard .badge.n{right:12px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.lcard .body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:4px;flex:1}
+.lcard h3{font-size:21px}
+.lcard .ar{color:var(--muted);font-size:15px}
+.lcard p{margin:6px 0 0;color:var(--ink-2);font-size:15px}
+.lcard .foot{display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding-top:14px;font-size:14px;color:var(--muted)}
+.lcard .go{font-weight:700;color:var(--cobalt);background:var(--cobalt-soft);padding:6px 14px;border-radius:999px}
+.lcard.done .go{background:var(--good-soft);color:var(--good)}
+.lcard.soon{opacity:.7}
+.lcard.soon .go{background:var(--paper);color:var(--muted)}
+
+/* path */
+.path{position:relative;max-width:760px;margin:10px auto 0}
+.path::before{content:"";position:absolute;inset:0 auto 0 27px;border-inline-start:2px dashed var(--line)}
+.stage-h{position:relative;display:inline-flex;align-items:center;gap:8px;margin:26px 0 12px 58px;font-weight:700;font-size:14px;color:var(--saffron);background:var(--saffron-soft);padding:5px 12px;border-radius:999px}
+.step{position:relative;display:grid;grid-template-columns:56px 1fr;gap:12px;align-items:center;margin-bottom:12px}
+.step .dot{position:relative;z-index:1;width:56px;height:56px;border-radius:50%;background:var(--card);border:2px solid var(--line);display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:18px;color:var(--ink-2)}
+.step.done .dot{background:var(--good);border-color:var(--good);color:#fff}
+.step.next .dot{border-color:var(--cobalt);color:var(--cobalt)}
+.step .box{display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);padding:14px 16px;text-decoration:none}
+.step .box small{color:var(--muted);display:block;font-weight:600;font-size:13px}
+.step .box b{font-family:var(--display);font-size:18px}
+.step.soon .box{opacity:.6}
+
+/* lesson page */
+.lhero{display:grid;grid-template-columns:1fr 320px;gap:24px;align-items:center;padding-block:28px 12px}
+.lhero .art{border-radius:var(--r-lg);overflow:hidden;aspect-ratio:16/10}
+.lhero .art svg{width:100%;height:100%;display:block}
+@media (max-width:760px){.lhero{grid-template-columns:1fr}.lhero .art{display:none}.ltabs{top:70px}.player{top:122px}}
+.ltabs{position:sticky;top:78px;z-index:5;display:flex;gap:6px;overflow-x:auto;background:var(--paper);padding-block:10px;margin-bottom:6px;scrollbar-width:none}
+.ltabs button{flex:none;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:9px 16px;font-weight:700;font-size:15px;color:var(--ink-2);display:flex;gap:7px;align-items:center}
+.ltabs button[aria-selected="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.ltabs button .ok{color:var(--good)}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:22px;margin-bottom:24px}
+@media (max-width:560px){.panel{padding:16px}}
+
+/* read & listen */
+.player{position:sticky;top:142px;z-index:4;display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;background:var(--ink);color:var(--paper);border-radius:var(--r-md);padding:10px 14px;margin-bottom:18px}
+.player .pp{width:44px;height:44px;border-radius:50%;border:0;background:var(--saffron);color:#1b1405;display:grid;place-items:center}
+.player .pp svg{width:20px;height:20px}
+.player .ttl{font-weight:700;font-size:15px;line-height:1.3}
+.player .bar{height:6px;background:rgba(255,255,255,.2);border-radius:9px;margin-top:6px;cursor:pointer;position:relative}
+.player .bar i{position:absolute;inset:0 auto 0 0;background:var(--saffron);border-radius:9px}
+.player .tm{font-size:13px;font-variant-numeric:tabular-nums;opacity:.8}
+.player .sp{border:1px solid rgba(255,255,255,.3);background:none;color:inherit;border-radius:999px;padding:4px 10px;font-size:13px;font-weight:700}
+.tracks{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.tracks button{border:1px solid var(--line);background:var(--paper);border-radius:var(--r-sm);padding:8px 12px;font-weight:600;font-size:14px;text-align:start}
+.tracks button[aria-pressed="true"]{border-color:var(--cobalt);background:var(--cobalt-soft);color:var(--cobalt)}
+.reader{font-size:18px;line-height:1.75;max-width:70ch}
+.reader h4{font-family:var(--display);font-size:20px;margin:26px 0 8px}
+.reader .ln{display:block;padding:6px 10px;margin-inline:-10px;border-radius:10px;cursor:pointer;transition:background .2s}
+.reader .ln:hover{background:var(--paper)}
+.reader .ln.now{background:var(--saffron-soft);box-shadow:inset 3px 0 0 var(--saffron)}
+.reader .ln .who{font-weight:700;color:var(--cobalt);margin-inline-end:4px}
+.reader .blank{display:inline-block;min-width:64px;border-bottom:2px solid var(--muted);height:1em;vertical-align:-2px}
+.reader .note{color:var(--muted);font-size:15px}
+.hint{display:flex;gap:10px;background:var(--mint-soft);color:var(--ink);border-radius:var(--r-md);padding:12px 14px;font-size:15px;margin-bottom:16px}
+
+/* practice player (learn / quiz / match / talk) */
+.prog{height:8px;border-radius:9px;background:var(--line);overflow:hidden;margin-bottom:16px}
+.prog i{display:block;height:100%;background:var(--mint);border-radius:9px;transition:width .35s}
+.kicker{font-size:14px;color:var(--muted);font-weight:600}
+.phrase{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin:6px 0 4px}
+.phrase h2{font-size:clamp(26px,4.4vw,36px);font-weight:650}
+.say{flex:none;width:48px;height:48px;border-radius:50%;border:0;background:var(--saffron-soft);color:var(--saffron);display:grid;place-items:center}
+.say svg{width:22px;height:22px}
+.meaning{font-size:20px;font-weight:600;margin-bottom:14px}
+.example{background:var(--paper);border-radius:var(--r-md);padding:14px 16px;margin-bottom:12px}
+.example mark{background:var(--saffron-soft);color:inherit;border-radius:4px;padding:0 3px}
+.tip{border-inline-start:3px solid var(--mint);padding-inline-start:12px;color:var(--ink-2);font-size:15px}
+.actions{display:flex;justify-content:flex-end;gap:8px;margin-top:18px}
+.q{font-size:20px;font-weight:600;margin:6px 0 14px}
+.opts{display:grid;gap:10px}
+.opt{border:1.5px solid var(--line);background:var(--card);border-radius:var(--r-md);padding:13px 16px;text-align:left;font-size:17px}
+.opt.arx{text-align:right;direction:rtl;font-family:var(--ar)}
+.opt:hover:not(:disabled){border-color:var(--cobalt)}
 .opt.right{border-color:var(--good);background:var(--good-soft)}
 .opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
 .opt:disabled{cursor:default}
-.gap{display:inline-block;min-width:80px;border-bottom:2px solid var(--accent);text-align:center;color:var(--accent)}
-.built{min-height:52px;border:1.5px dashed var(--line);border-radius:12px;padding:8px;display:flex;flex-wrap:wrap;gap:6px;direction:ltr}
-.bank{display:flex;flex-wrap:wrap;gap:6px;direction:ltr}
-.chip{border:1px solid var(--line);background:var(--paper);border-radius:9px;padding:6px 11px;font-family:var(--display);font-size:15px}
-.chip:disabled{opacity:.25}
-.feedback{border-radius:12px;padding:12px 14px;font-size:15px}
-.feedback.good{background:var(--good-soft);color:var(--good)}
-.feedback.bad{background:var(--bad-soft);color:var(--bad)}
-.feedback b{display:block}
-.feedback span{color:var(--ink-2)}
-.actions{display:flex;justify-content:flex-end;gap:8px}
-.btn{border:0;border-radius:12px;padding:12px 22px;font-weight:600;background:var(--accent);color:var(--on-accent)}
-.btn.ghost{background:none;border:1px solid var(--line);color:var(--ink)}
-.btn:disabled{opacity:.4;cursor:default}
-
-/* match game */
-.gamehead{display:flex;justify-content:space-between;align-items:center;gap:10px}
-.timer{font-family:var(--mono);font-variant-numeric:tabular-nums;color:var(--amber)}
-.board{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-.col{display:grid;gap:8px;align-content:start}
-.tile{border:1.5px solid var(--line);background:var(--card);border-radius:12px;padding:10px 12px;min-height:52px;font-size:15px;transition:all .2s}
-.tile.en{font-size:15px}
-.tile.sel{border-color:var(--accent);background:var(--accent-soft)}
-.tile.gone{opacity:0;pointer-events:none;transform:scale(.95)}
-.tile.shake{animation:shake .3s;border-color:var(--bad)}
-@keyframes shake{25%{transform:translateX(-4px)}75%{transform:translateX(4px)}}
-
-/* roleplay */
-.scene{display:flex;gap:10px;align-items:flex-start;background:var(--paper);border-radius:12px;padding:12px 14px;font-size:14px;color:var(--ink-2)}
-.chat{display:grid;gap:10px}
-.msg{max-width:85%;padding:10px 14px;border-radius:14px;direction:ltr;text-align:left;font-family:var(--display);font-size:16px}
-.msg small{display:block;font-family:var(--body);font-size:12px;color:var(--muted);margin-bottom:2px}
-.msg.them{justify-self:end;background:var(--paper);border:1px solid var(--line);border-top-left-radius:4px}
-.msg.you{justify-self:start;background:var(--accent);color:var(--on-accent);border-top-right-radius:4px}
+.gap{display:inline-block;min-width:72px;border-bottom:2px solid var(--cobalt);text-align:center;color:var(--cobalt)}
+.built{min-height:56px;border:1.5px dashed var(--line);border-radius:var(--r-md);padding:8px;display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.bank{display:flex;flex-wrap:wrap;gap:6px}
+.w{border:1px solid var(--line);background:var(--paper);border-radius:10px;padding:7px 12px;font-size:16px}
+.w:disabled{opacity:.25}
+.fb{border-radius:var(--r-md);padding:12px 14px;margin-top:14px}
+.fb.good{background:var(--good-soft)} .fb.bad{background:var(--bad-soft)}
+.fb b{display:block} .fb.good b{color:var(--good)} .fb.bad b{color:var(--bad)}
+.board{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.col{display:grid;gap:10px;align-content:start}
+.tile{border:1.5px solid var(--line);background:var(--card);border-radius:var(--r-md);padding:12px;min-height:54px;font-size:16px;transition:opacity .25s,transform .25s}
+.tile.sel{border-color:var(--cobalt);background:var(--cobalt-soft)}
+.tile.gone{opacity:0;pointer-events:none;transform:scale(.96)}
+.tile.shake{animation:sh .3s;border-color:var(--bad)}
+@keyframes sh{25%{transform:translateX(-4px)}75%{transform:translateX(4px)}}
+.timer{font-weight:800;color:var(--saffron);font-variant-numeric:tabular-nums}
+.scene{background:var(--paper);border-radius:var(--r-md);padding:12px 14px;margin-bottom:14px}
+.chat{display:grid;gap:10px;margin-bottom:6px}
+.msg{max-width:85%;padding:10px 14px;border-radius:16px;font-size:17px}
+.msg small{display:block;font-size:12px;color:var(--muted);margin-bottom:2px}
+.msg.them{justify-self:start;background:var(--paper);border-top-left-radius:4px}
+.msg.you{justify-self:end;background:var(--cobalt);color:#fff;border-top-right-radius:4px}
 .msg.you small{color:inherit;opacity:.8}
-[dir="rtl"] .msg.them{justify-self:start} [dir="rtl"] .msg.you{justify-self:end}
-
-/* done */
-.done{text-align:center;justify-items:center}
-.done h2{font-size:30px}
-.score{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
-.score div{background:var(--paper);border-radius:12px;padding:10px 16px;min-width:110px}
-.score b{display:block;font-family:var(--mono);font-size:22px;font-variant-numeric:tabular-nums}
+.done-box{text-align:center;display:grid;justify-items:center;gap:10px;padding-block:10px}
+.done-box h2{font-size:32px}
+.score{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+.score div{background:var(--paper);border-radius:var(--r-md);padding:10px 18px;min-width:110px}
+.score b{display:block;font-family:var(--display);font-size:26px}
 .score span{font-size:13px;color:var(--muted)}
 
 /* phrasebook */
-.pb{display:grid;gap:8px;margin-top:14px}
-.pbrow{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
-.pbrow .en{font-size:16px;font-weight:600}
-.pbrow small{color:var(--muted)}
-.flash{perspective:900px;min-height:200px}
-.flash-in{position:relative;min-height:200px;transition:transform .5s;transform-style:preserve-3d;cursor:pointer}
-.flash.flip .flash-in{transform:rotateY(180deg)}
-.face{position:absolute;inset:0;backface-visibility:hidden;display:grid;place-items:center;text-align:center;padding:20px;border-radius:16px;background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow)}
-.face.back{transform:rotateY(180deg);background:var(--ink);color:var(--paper)}
-.face h2{font-size:26px}
-.empty{color:var(--muted);text-align:center;padding:30px 10px;border:1px dashed var(--line);border-radius:14px}
-@media (max-width:480px){.slot{grid-template-columns:1fr;gap:4px}.stage{padding:16px}.board{gap:6px}}
-@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+.pb{display:grid;gap:10px}
+.pbrow{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);padding:12px 16px}
+.pbrow b{font-size:17px;font-weight:600}
+.empty{text-align:center;color:var(--muted);border:1.5px dashed var(--line);border-radius:var(--r-lg);padding:40px 16px}
+footer{margin-top:40px;border-top:1px solid var(--line);padding-block:26px;color:var(--muted);font-size:14px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
 </style>
-
-<div class="wrap" dir="rtl">
-  <header class="bar">
-    <button class="brand" id="home-btn" aria-label="الرئيسية">
-      <span class="logo">K</span><b class="en">Kalam <span style="color:var(--accent)">Business</span></b>
-    </button>
-    <div class="stats">
-      <span class="stat streak" title="أيام متتالية"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c1 4 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3-1-6 1-9z"/></svg><span id="s-streak">0</span></span>
-      <span class="stat xp" title="نقاط الخبرة"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg><span id="s-xp">0</span> XP</span>
-    </div>
-  </header>
-  <main id="app"></main>
-</div>
+</head>
+<body>
+<header class="nav"><div class="nav-in">
+  <a class="brand" href="#/"><span class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 5h10a6 6 0 0 1 0 12H9l-5 3z" fill="#E9A93A"/><path d="M8 9h6M8 13h4" stroke="#18233F" stroke-width="2" stroke-linecap="round"/></svg></span>Kalam Business</a>
+  <nav class="links" aria-label="Main">
+    <a href="#/">Home</a><a href="#/path">Learning path</a><a href="#/lessons">Lessons</a><a href="#/phrases">My phrases</a>
+  </nav>
+  <div class="stats">
+    <span class="stat s" title="Day streak"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c1 4 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3-1-6 1-9z"/></svg><span id="s-streak">0</span></span>
+    <span class="stat x" title="XP"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg><span id="s-xp">0</span></span>
+  </div>
+</div></header>
+<nav class="tabbar" aria-label="Main">
+  <a href="#/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>Home</a>
+  <a href="#/path"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M8.5 6H15a3 3 0 0 1 0 6H9a3 3 0 0 0 0 6h6.5"/></svg>Path</a>
+  <a href="#/lessons"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5"/></svg>Lessons</a>
+  <a href="#/phrases"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 4h14v16l-7-4-7 4z"/></svg>Phrases</a>
+</nav>
+<main id="app"></main>
+<footer><div class="wrap">Kalam Business · English for work, for Arabic speakers. Audio and texts are from the course book, for personal study.</div></footer>
 
 <script>
 /* ============================================================
-   COURSE CONTENT — replace / extend with your own material.
-   Each lesson = cards (learn) → quiz (practice) → match (game) → roleplay (speak)
+   CONTENT
+   Each lesson: reading (book text + audio, time-aligned),
+   cards (learn), quiz (practice), match (game), roleplay (speak).
    ============================================================ */
+const CHAPTERS=[
+ {id:"c1",n:1,title:"Job Interviews",ar:"مقابلات الشغل",level:"B1"},
+ {id:"c2",n:2,title:"Business Email",ar:"الإيميلات في الشغل",level:"B1"},
+ {id:"c3",n:3,title:"Business Meetings",ar:"الاجتماعات",level:"B1–B2"},
+ {id:"c4",n:4,title:"Presenting",ar:"العروض التقديمية",level:"B2"},
+ {id:"c5",n:5,title:"Negotiation",ar:"التفاوض",level:"B2"},
+ {id:"c6",n:6,title:"Digital Communication",ar:"التواصل الرقمي و LinkedIn",level:"B1"},
+ {id:"c7",n:7,title:"Office Talk",ar:"كلام المكتب",level:"B1"}
+];
+const READING_PHONE=[{"title": "1. Story One — Phone Interview (p. 9–11)", "src": "audio/phone/book-p9.mp3", "lines": [{"k": "p", "t": 21.23, "s": "I got a phone call from Susan Reason, who works in Human Resources at [the company]. She was calling me at home in the evening to do a screening interview. She needed to ask me some preliminary questions to decide if I would be invited for a face-to-face interview."}, {"k": "p", "t": 21.23, "s": "8 PM"}, {"k": "p", "t": 29.44, "s": "Susan: Hello, Mr. Allen. My name is Susan, from [the company]. I'm wondering if you've got time to answer a few questions about your application."}, {"k": "p", "t": 29.44, "s": "Mr. Allen: I see. Well, I'm actually just about to sit down for dinner, Miss Susan. Do you mind if I call you back in half an hour?"}, {"k": "p", "t": 29.44, "s": "Susan: No, that's fine. I'm in the office for another two hours. The number is ___."}, {"k": "p", "t": 29.44, "s": "Half an hour later"}, {"k": "p", "t": 60.99, "s": "Mr. Allen: Thanks for calling me back — I mean, thanks for waiting."}, {"k": "p", "t": 63.76, "s": "Susan: Now, just to start off with a general question about your background: can you tell me a little about yourself?"}, {"k": "p", "t": 63.76, "s": "Mr. Allen: I am an enthusiastic engineering college graduate with freelance experience. I have completed several client projects, including small consulting and research jobs, and delivered each job on budget and before the deadline. I'd describe myself as a dynamic team player, self-disciplined and resourceful, with the ability to adapt well to new situations, and I thrive on new challenges."}, {"k": "p", "t": 98.18, "s": "Susan: That's interesting. So what are you looking for in your first job?"}, {"k": "p", "t": 103.3, "s": "Mr. Allen: I've been honing my skills for a few years now, and first and foremost I'm looking for a position where I can exercise those skills. I'm definitely looking for a position where I can grow. Professional development is something that's really important to me, since I hope to take on managerial responsibilities in the future."}, {"k": "p", "t": 119.41, "s": "Susan: Can you tell me a little about your salary expectations for this position?"}, {"k": "p", "t": 132.98, "s": "Mr. Allen: Well, I'm looking for somewhere between $3,000 and $5,000 for this role. But for me, benefits matter as well. Your training programs, the commuter benefits and other perks could definitely allow me to be a bit flexible with salary."}, {"k": "p", "t": 132.98, "s": "Susan: OK, thank you so much for your time. Have you got any last questions?"}, {"k": "p", "t": 132.98, "s": "Mr. Allen: Yes — what are the next steps in the interview process?"}, {"k": "p", "t": 132.98, "s": "Susan: Well, if you are shortlisted, we will contact you for a panel interview within the next few days."}, {"k": "p", "t": 154.6, "s": "Mr. Allen: Thanks for talking to me today. Thanks for your time. Goodbye, Susan."}]}, {"title": "2. Asking to delay the interview & speaking about yourself (p. 12–17)", "src": "audio/phone/book-p12.mp3", "lines": [{"k": "h", "s": "Asking to delay the interview"}, {"k": "p", "t": 22.36, "s": "Is it OK if I call you back? I'm just in the middle of something."}, {"k": "p", "t": 22.36, "s": "I'm so glad you called, but I'm a little busy at the moment. Is it OK to call back in about thirty minutes?"}, {"k": "p", "t": 22.36, "s": "I'm a little tied up just now. Is it OK if I call you back?"}, {"k": "p", "t": 27.34, "s": "If it's OK with you, I'd like to call you back when I've finished eating."}, {"k": "h", "s": "Speaking about yourself — useful sentences"}, {"k": "p", "t": 34.8, "s": "I have the ability to deal with ___."}, {"k": "p", "t": 37.96, "s": "I am hard-working and regularly set firm goals for myself."}, {"k": "p", "t": 42.67, "s": "I can adapt well to new situations."}, {"k": "p", "t": 46.29, "s": "I have an aggressive approach to problem-solving."}, {"k": "p", "t": 50.35, "s": "I am goal-oriented and ambitious; I welcome goals and stretch targets because I really enjoy challenging work."}, {"k": "p", "t": 57.83, "s": "I have a constant desire to improve my skills and knowledge and to advance in my career."}, {"k": "p", "t": 67.03, "s": "I am an energetic team player. Working in a team with a collaborative spirit is very important to me."}, {"k": "p", "t": 72.18, "s": "I have a competitive nature."}, {"k": "p", "t": 75.3, "s": "I can work well under pressure."}, {"k": "p", "t": 78.48, "s": "I am conscientious, reliable and punctual."}, {"k": "p", "t": 83.0, "s": "I demonstrate a strong work ethic, pay attention to detail, and show commitment and purpose."}, {"k": "p", "t": 89.67, "s": "I'm known for being able to solve problems quickly."}, {"k": "p", "t": 93.73, "s": "I am a quick learner. I can do new things and take on new responsibilities easily, just by watching or following instructions, as I easily absorb new information and apply it to my work."}, {"k": "p", "t": 105.78, "s": "I'm a people-oriented and cooperative individual. I volunteer to help my co-workers and my team achieve our strategic objectives."}, {"k": "p", "t": 115.65, "s": "I am a resourceful individual with the ability to overcome problems and to make do with what is available to create a solution."}, {"k": "p", "t": 124.48, "s": "I am a creative thinker."}, {"k": "p", "t": 127.34, "s": "I am a risk-taker. I have confidence in my ability to make decisions quickly and easily, and I am comfortable in the face of uncertainty."}, {"k": "p", "t": 136.69, "s": "I am detail-oriented; I pay attention to all the details of my job."}, {"k": "p", "t": 142.06, "s": "I am self-motivated."}, {"k": "p", "t": 144.85, "s": "I am a problem-solver: I make decisions and resolve issues using critical-thinking and analytical skills."}, {"k": "p", "t": 152.39, "s": "I have a keen ability to research and explore, so my solutions are based on facts and studies rather than guesses."}, {"k": "p", "t": 161.25, "s": "I am a self-starter."}, {"k": "p", "t": 163.96, "s": "I am sensitive to the needs of ___."}, {"k": "p", "t": 163.96, "s": "I am a meticulous planner and organizer."}, {"k": "p", "t": 169.81, "s": "I have a sincere interest in ___."}, {"k": "p", "t": 172.83, "s": "I am an effective team member / team player."}, {"k": "p", "t": 176.63, "s": "I am a customer-focused individual. I have a sincere interest in helping my customers with a positive attitude, and I demonstrate a willingness to give the customer the best service possible."}, {"k": "p", "t": 189.14, "s": "I always thrive on challenges."}, {"k": "p", "t": 195.49, "s": "I can work independently. I am capable of working without supervision."}, {"k": "p", "t": 199.52, "s": "I have long-range vision."}, {"k": "p", "t": 202.47, "s": "I am a motivational leader."}, {"k": "p", "t": 205.48, "s": "I am the type of manager who always delegates effectively."}, {"k": "p", "t": 210.26, "s": "I possess the right management and leadership skills to take a team forward and consistently achieve difficult targets."}, {"k": "p", "t": 218.5, "s": "I am commercially focused and I have the confidence to deal quickly with challenging situations."}, {"k": "p", "t": 225.36, "s": "I am an enterprising and dynamic manager, with a results orientation and dedication to making crucial decisions to get things done."}, {"k": "p", "t": 233.89, "s": "My ability to anticipate problems and explore alternative solutions has made me a decisive leader."}, {"k": "p", "t": 245.53, "s": "I am determined and self-disciplined. I always make sure each task is completed according to schedule."}, {"k": "h", "s": "Sample answers (p. 16–17)"}, {"k": "p", "t": 250.55, "s": "I describe myself as a motivational leader and assertive communicator, with long-range vision and an aggressive approach to solving problems and achieving targets."}, {"k": "p", "t": 264.0, "s": "I'm an effective team member with a sincere interest in helping my team thrive and excel. I can also work well independently, with the power of my competitive nature. I'm a self-starter, problem-solver and detail-oriented."}, {"k": "p", "t": 280.06, "s": "I am also self-disciplined, with a high level of confidence in my ability to perform under the pressure of deadlines and competitive environments."}, {"k": "p", "t": 288.99, "s": "I describe myself as a resourceful, self-motivated and enthusiastic individual who is sensitive to the needs of customers. I am also a risk-taker and creative thinker with superb interpersonal skills."}, {"k": "p", "t": 308.27, "s": "As a manager, I'm a meticulous organizer and delegator. I organize my working week in advance and prepare for any potential problems that might occur. I also have the ability to delegate tasks to the right member of the team."}, {"k": "p", "t": 325.56, "s": "I am a motivational leader with superb interpersonal skills. I encourage positivity and provide empowerment in the workplace. I always work with my team to jointly agree on goals and create an environment where credit and rewards are shared and agreed upon."}, {"k": "p", "t": 333.74, "s": "I am an enterprising and dynamic manager with a results orientation and dedication to making crucial decisions to get things done. I'm always prepared to work in a situation that is filled with risks and uncertainties."}, {"k": "p", "t": 350.87, "s": "If I had to describe myself in a few words, it would be that I am a hard-working professional, dedicated and committed to achieving the strategic aims and objectives of my employer through strong management skills."}, {"k": "p", "t": 365.14, "s": "I've been working towards a position in management for a number of years now. I pride myself on setting high standards and on my ability not only to motivate and lead my team but also to inspire them to be the best they can be, so we consistently improve the company we're working for. Finally, my desire to continually grow and improve means I will never sit still or stagnate in a management role, and I will always look to develop personally and professionally."}]}, {"title": "3. Speaking about previous jobs (p. 18–20)", "src": "audio/phone/book-p18.mp3", "lines": [{"k": "h", "s": "Useful phrases (fill in the blank)"}, {"k": "p", "t": 5.71, "s": "My responsibilities are divided between ___ and ___."}, {"k": "p", "t": 9.01, "s": "I'm managing ___."}, {"k": "p", "t": 11.0, "s": "Most of my time is spent focusing on ___."}, {"k": "p", "t": 14.9, "s": "I was responsible for the day-to-day ___."}, {"k": "p", "t": 18.33, "s": "I have spent five years as ___."}, {"k": "p", "t": 21.44, "s": "My experience includes a variety of ___."}, {"k": "p", "t": 25.29, "s": "I was a senior ___."}, {"k": "p", "t": 27.6, "s": "I supervised ___."}, {"k": "p", "t": 29.98, "s": "I have some strong work experience that will help me with this job if I'm successful."}, {"k": "p", "t": 38.05, "s": "I was in charge of ___, ensuring that ___."}, {"k": "p", "t": 44.7, "s": "I previously worked as ___. In my role, I was responsible for ___."}, {"k": "p", "t": 48.43, "s": "From my experience with my last job, I've learned a lot about how to ___."}, {"k": "p", "t": 57.23, "s": "I developed excellent skills working as ___. I'm now excellent at handling ___."}, {"k": "p", "t": 60.24, "s": "My years of experience have prepared me well for this position."}, {"k": "p", "t": 67.21, "s": "Some of my current responsibilities focus on ___."}, {"k": "p", "t": 72.61, "s": "For the last ___ years, I've worked as ___. I was responsible for ___, and I was able to ___."}, {"k": "p", "t": 82.81, "s": "I'm currently ___. I always say my job is to ___. One of my favorite tasks is ___."}, {"k": "p", "t": 90.67, "s": "My current roles and responsibilities are focused on ___. I'm also responsible for ___, as well as ___."}, {"k": "h", "s": "Sample answers"}, {"k": "p", "t": 101.99, "s": "I have some strong work experience that will help me with this job if I'm successful. I worked for ___ years at ___. That helped me gain confidence talking to the public, and also showed me that this is a job where I will need to work hard. I also understood the importance of giving accurate information to customers, and how to be attentive, helpful and considerate."}, {"k": "p", "t": 129.14, "s": "I previously worked as a marketing manager at an agency. In my role, I was responsible for directing a team of six and pulling together strategies and plans to maximize the marketing efforts of the company."}, {"k": "p", "t": 138.6, "s": "I have previously worked as a product associate responsible for handling operations and logistics. I worked closely with our marketing and sales teams to roll out critical marketing campaigns. The customer response was phenomenal, and we were able to increase sales by 15%."}, {"k": "p", "t": 158.07, "s": "When I started my last job, I only had a basic understanding of the fundamentals of SEO, but now I have learned how to run a successful PPC campaign and effectively use social media pages."}, {"k": "p", "t": 169.59, "s": "In my current role, I'm responsible for all brand content — from defining the content style guide, voice and tone, to producing website content, ad copy, blog and landing-page copy, and writing and sending email copy for marketing and sales campaigns. A blog post I recently wrote has just reached 1,000 organic visits, resulting in 19 leads and 6 sales to organizations with 200+ employees."}]}, {"title": "4. Why are you looking for a new job? (p. 21–24)", "src": "audio/phone/book-p21.mp3", "lines": [{"k": "h", "s": "The questions"}, {"k": "p", "t": 7.43, "s": "Why do you want this job? · Why do you want to work here?"}, {"k": "p", "t": 11.96, "s": "Why did you leave your last job? · Why the change?"}, {"k": "h", "s": "Short reasons"}, {"k": "p", "t": 16.54, "s": "I am looking for a company that values me, my skills and my experience more."}, {"k": "p", "t": 16.54, "s": "I'm searching for better compensation."}, {"k": "p", "t": 26.77, "s": "I want a more senior role."}, {"k": "p", "t": 29.74, "s": "I am ready for a new challenge."}, {"k": "p", "t": 32.77, "s": "My role changed over time and I was no longer doing what I was interested in."}, {"k": "p", "t": 38.36, "s": "I want to develop and explore different interests or skills."}, {"k": "p", "t": 43.08, "s": "I'd like different job duties."}, {"k": "p", "t": 46.17, "s": "I want to work in a different field or industry."}, {"k": "p", "t": 50.08, "s": "I didn't feel I had any more opportunity to grow or further my career, so I decided to look for a change."}, {"k": "p", "t": 57.91, "s": "My boss and I have different work styles, values or priorities."}, {"k": "p", "t": 63.39, "s": "I thrive more in a different kind of work environment / I want to find a healthier, non-toxic environment."}, {"k": "p", "t": 71.07, "s": "My company is pursuing a different strategy, restructuring, or being acquired by or merged with another organization."}, {"k": "p", "t": 79.3, "s": "I am looking for an employer that provides more training, development or feedback."}, {"k": "p", "t": 85.73, "s": "I reassessed my career goals and decided my current role no longer fits them."}, {"k": "p", "t": 91.72, "s": "I'm searching for a hybrid, remote or in-office setup, or hours my current job doesn't allow."}, {"k": "p", "t": 98.31, "s": "I love my role and co-workers, but I've come to a point where there are no longer growth opportunities for me there."}, {"k": "p", "t": 105.62, "s": "I am relocating for non-work reasons (family, etc.)."}, {"k": "h", "s": "Sample answers"}, {"k": "p", "t": 117.1, "s": "During my three years at ___, I had the opportunity to develop a strong skill set in ___. It was a great learning experience, and I enjoyed contributing to the team. Now I'm ready to join a company that values my skills and allows me to use them more fully."}, {"k": "p", "t": 134.58, "s": "I realized the leadership of my team was going in a different direction, and I'm interested in working in a more collaborative environment. It was a hard decision to make, because I love the mission of the company, but I ultimately think this is the right choice."}, {"k": "p", "t": 145.17, "s": "I'm ready for the next challenge in my career. I loved the people I worked with and the projects I worked on, but at some point I realized I wasn't being challenged the way I used to be. Rather than let myself get too comfortable, I decided to pursue a position where I can continue to grow."}, {"k": "p", "t": 190.07, "s": "I realized that my true passion is working as ___. I've always loved ___, but decided to take my career in a different direction. Now I'm ready to pursue ___, and I'm particularly excited by the possibility of working with ___."}, {"k": "p", "t": 190.07, "s": "In my last role, the company suffered some financial hardships and had to eliminate my job, along with many others. I'm grateful for my time in that role, as it gave me the opportunity to increase my knowledge while forging lifelong bonds with my colleagues."}, {"k": "p", "t": 190.07, "s": "I've learned a lot in my current role, but now I'm looking to take on more responsibility, as I want to continue developing my skills and abilities — particularly my management abilities. I'm excited that this role provides the opportunity to build out a team rather than only being the sole contributor."}]}, {"title": "5. Salary requirements (p. 25–28)", "src": "audio/phone/book-p25.mp3", "lines": [{"k": "h", "s": "Giving a range"}, {"k": "p", "t": 5.81, "s": "From what I know about the position, I think somewhere in the area of ___ to ___ is a fair figure."}, {"k": "p", "t": 10.73, "s": "Given the responsibilities of the position, I think somewhere between ___ and ___."}, {"k": "p", "t": 34.11, "s": "It's an exciting opportunity and I truly believe I'm the person for the job. I'm really excited by the challenges you described; ___ to ___ seems like the right starting salary. There's a lot to take on, and I'm confident I can succeed in the role."}, {"k": "p", "t": 44.42, "s": "Well, I am certainly flexible. I am looking to receive between ___ and ___. Due to my skill set and experience level, I feel that this is a comparable and appropriate range for my work."}, {"k": "p", "t": 55.8, "s": "I was hoping for something more in the ___ to ___ range, but I'm definitely open to negotiating based on the entire compensation package."}, {"k": "p", "t": 62.43, "s": "I was digging around and saw that the current range for my position (and seniority) is somewhere between ___ and ___ in this industry. This seems reasonable."}, {"k": "p", "t": 73.69, "s": "Let me start by stating how grateful I am for the benefits this job offers, such as generous paid time off and health benefits. That being said, I am expecting my salary for this position to fall between ___ and ___ annually. My rich background in ___ will play a key role in strengthening the organization."}, {"k": "p", "t": 108.14, "s": "Thank you for asking. I feel that a salary between ___ and ___ is in line with the industry average and reflects my skills and experience level well. I am, however, flexible and open to hearing the company's compensation expectations for this position."}, {"k": "p", "t": 115.67, "s": "Taking into account my experience and the skills I mentioned earlier, which would be very helpful to the team, I'm looking for somewhere between ___ and ___ for this role. But for me, benefits definitely matter as well. Your training programs, the commuter benefits and other perks could definitely allow me to be a bit flexible with salary."}, {"k": "h", "s": "Avoiding giving a salary figure"}, {"k": "p", "t": 155.09, "s": "At this point in my job search, I'm focusing on finding the position that's the best fit for my skills and career. Once I've done that, I'm willing to consider an offer that you feel is fair for the role."}, {"k": "p", "t": 167.35, "s": "Perhaps you could give me an idea of the pay range for this post?"}, {"k": "p", "t": 179.5, "s": "I'm interested in finding a job that is a good fit for me. Actually, I don't have a specific number in mind, so I'd feel more comfortable if you could give me an idea of the salary range."}, {"k": "p", "t": 185.14, "s": "I want this move to be a big step forward for me in terms of both responsibility and compensation. I don't have a specific figure, so could you give me an idea of the current salary for this position?"}, {"k": "p", "t": 201.43, "s": "I'm currently earning a base salary of ___. I don't have a specific number in mind that I'm targeting for this next position, though, and I'm willing to consider an offer that you feel is fair."}, {"k": "h", "s": "For fresh graduates"}, {"k": "p", "t": 209.92, "s": "As a fresh graduate, I want to start my career, upgrade my knowledge and skills, and contribute to the company. I also need to become financially independent, so I will accept what you offer as per the company rules."}, {"k": "p", "t": 232.24, "s": "My first priority is to gain knowledge and improve my skills. I don't have any expectations about salary, but I want to become financially independent, so I will accept as per company standards."}, {"k": "p", "t": 241.75, "s": "I care so much about this job and I'm willing to do my best to succeed with you, so I accept the starting salary of this job, with the availability of benefits and a raise afterwards."}, {"k": "p", "t": 252.87, "s": "I'm more interested in finding a position that's a good fit for my skills and interests. I'm confident that you're offering a salary that's competitive in the current market."}]}, {"title": "6. What attracted you to this position? & Do you have any questions? (p. 29–31)", "src": "audio/phone/book-p29.mp3", "lines": [{"k": "h", "s": "The questions"}, {"k": "p", "t": 12.2, "s": "Why did you choose our company? · Why do you want this job?"}, {"k": "h", "s": "Sample answers"}, {"k": "p", "t": 16.68, "s": "I've always been a fan of X Co.'s products, and your focus on quality is what drew me and other fans to your products."}, {"k": "p", "t": 24.79, "s": "I've followed X Co. on social media for a while, and I've always loved how you interact with your clients, so I was psyched when I came across this posting. I know deep down that I could add special value to a company I already admire."}, {"k": "p", "t": 42.93, "s": "I'm very passionate about ___ and would be thrilled to work for an organization that subscribes to the same core values I believe in. X Company has played an important role throughout history in supporting ___; it's a great honour to be part of that."}, {"k": "p", "t": 64.74, "s": "I'm a big fan of your company. I follow your work and I can see your impact on ___, and that actually inspired me to apply for the job. I love working with a team to achieve a common goal, and I know my background in ___ has prepared me for this role. I look forward to becoming a valued contributor to this phenomenal team."}, {"k": "p", "t": 89.82, "s": "I read an article a few months back on the outreach your company does with ___, and I remember feeling excited about your company's success. That excitement grew when I saw there was a job opening in my field here. I would really love to come to work each day knowing that I'm helping to make a difference in ___ through my work here."}, {"k": "p", "t": 109.57, "s": "I've seen your company consistently listed as one of the top places to work. I've read employee testimonials and heard of your enthusiasm for encouraging employee growth through education, training and vast resources. I would love to join your innovative team, continue to create great work, and grow within the company by learning new skills."}, {"k": "p", "t": 109.57, "s": "I've heard of your reputation in the industry, and I would be proud to work for a company with such an excellent track record and a strong example of leadership in the industry."}, {"k": "p", "t": 130.34, "s": "I have a friend who works in the accounting department. He told me that the culture here is top-notch, and that management supports continuing education and learning on the job while rewarding hard work. Based on his assessment and encouragement, I think I would fit in perfectly with the team here and make an immediate impact."}, {"k": "p", "t": 130.34, "s": "I first found your company several years ago, and I was inspired by the tone and style of your brand. You market yourself to a millennial audience, which I can relate to. After following you and watching your job openings for several years while working my way up at a smaller company, I believe I am now ready to join your exceptional team, enhancing and driving a brand that is a natural extension of my own beliefs."}, {"k": "p", "t": 165.88, "s": "I understand that I am a fresher, but I have always wanted to be part of your organization's workforce, as it promises to be a place where the learning curve is great and hard work is appreciated. This is one of the biggest reasons your organization tops my priority list; I've always looked for organizations like yours to kick-start my career. I assure you that I have the zeal to give 100% to my work and make a noteworthy contribution to this organization."}, {"k": "p", "t": 211.08, "s": "I like the job description, and I also sense that my experience makes me an outstanding match for the job. The position excites me because ___ is my passion, and of course an opportunity at a highly reputed firm like yours is no less than a dream come true."}, {"k": "h", "s": "\"Do you have any questions for me?\""}, {"k": "p", "t": 223.11, "s": "The interviewer may also ask: *Is there anything you need to know while I'm on the line? · Are there any questions I can answer for you before we say goodbye?*"}, {"k": "p", "t": 223.11, "s": "Good questions to ask:"}, {"k": "p", "t": 227.5, "s": "What attributes would I need to be successful in this position?"}, {"k": "p", "t": 231.79, "s": "What gaps are you looking to fill with this role?"}, {"k": "p", "t": 235.35, "s": "Can you tell me about the team I would be part of?"}, {"k": "p", "t": 239.07, "s": "What are the biggest challenges I would face in this job?"}, {"k": "p", "t": 243.22, "s": "What is the most important indicator of success in this position?"}, {"k": "p", "t": 248.29, "s": "What's the career path for someone in this role at this company?"}, {"k": "p", "t": 252.81, "s": "Can you describe your onboarding process?"}, {"k": "p", "t": 256.28, "s": "What metrics or goals would you use to evaluate my performance?"}, {"k": "p", "t": 260.99, "s": "How would you describe the company culture?"}, {"k": "p", "t": 264.38, "s": "How would you describe the ideal candidate?"}, {"k": "p", "t": 267.9, "s": "How does this position contribute to the company overall?"}, {"k": "p", "t": 272.17, "s": "What learning and professional development opportunities are available to your employees?"}, {"k": "p", "t": 278.09, "s": "What is your favorite thing about working for the company?"}, {"k": "p", "t": 282.1, "s": "What are the company's most important values?"}, {"k": "p", "t": 285.82, "s": "What are the next steps in the interview process?"}, {"k": "p", "t": 289.63, "s": "Is there anything else I can provide you with that would be helpful?"}, {"k": "p", "t": 294.06, "s": "What is the one thing I can do to help your company succeed?"}]}];
 /* ============================================================
-   Kalam Business — Unit: Job Interview · Phone Interview
+   WorkTalk — Unit: Job Interview · Phone Interview
    Source: Main Book, Chapter 1, pages 9–31 (6 audio tracks).
    Same shape as COURSE units in business-english/index.html:
    each lesson = cards (learn) → quiz (practice) → match (game) → roleplay (speak).
@@ -296,425 +374,329 @@ const UNIT_PHONE_INTERVIEW = { id:"u0", time:"08:00", title:"Job Interview · Ph
  }]
 };
 
-const COURSE = [
- UNIT_PHONE_INTERVIEW,
- { id:"u1", time:"09:00", title:"Introductions & Small Talk", ar:"التعارف والكلام الخفيف في الشغل", level:"A2–B1",
-   lessons:[
-   { id:"l1", title:"Introducing yourself at work", ar:"تعرّف نفسك في الشغل",
-     cards:[
-      {en:"Let me introduce myself.", ar:"اسمحلي أعرّفك بنفسي", ex:"Hi everyone, <mark>let me introduce myself</mark>. I'm Omar from Finance.", tip:"أرسمي من ‎“My name is…”‎ ومناسبة للاجتماعات."},
-      {en:"I'm in charge of…", ar:"أنا مسؤول عن…", ex:"<mark>I'm in charge of</mark> the procurement team.", tip:"بعدها اسم أو فعل بـ ‎-ing‎: ‎in charge of hiring‎."},
-      {en:"I report to…", ar:"مديري المباشر هو…", ex:"<mark>I report to</mark> the Head of Sales.", tip:"بتوضح مكانك في الهيكل التنظيمي."},
-      {en:"I've been with the company for…", ar:"أنا في الشركة بقالي…", ex:"<mark>I've been with the company for</mark> three years.", tip:"‎for‎ + مدة، ‎since‎ + تاريخ بداية."},
-      {en:"Nice to put a face to the name.", ar:"مبسوط إني شفتك بعد ما كنا بنتكلم إيميلات", ex:"Sara! <mark>Nice to put a face to the name.</mark>", tip:"جملة شائعة جدًا لما تقابل حد كنت بتراسله بس."}
-     ],
-     quiz:[
-      {type:"mcq", q:"إزاي تقول إنك مسؤول عن فريق التسويق؟", options:["I'm in charge of the marketing team.","I'm charge the marketing team.","I'm in charge on the marketing team."], answer:0, why:"التركيب الصحيح ‎in charge of‎."},
-      {type:"gap", sentence:"I've been with the company ___ 2019.", options:["for","since","from"], answer:1, why:"‎since‎ مع نقطة بداية (سنة/تاريخ)."},
-      {type:"order", words:["I","report","to","the","Operations","Manager"], answer:"I report to the Operations Manager", why:"فاعل + ‎report to‎ + الشخص."},
-      {type:"mcq", q:"قابلت زميل كنت بتبعتله إيميلات بس. تقول إيه؟", options:["Nice to meet you again.","Nice to put a face to the name.","Long time no see."], answer:1, why:"دي بالظبط الجملة المستخدمة للموقف ده."}
-     ],
-     match:[["in charge of","مسؤول عن"],["report to","يتبع إداريًا"],["colleague","زميل"],["department","قسم / إدارة"],["line manager","المدير المباشر"]],
-     roleplay:{ scene:"أول يوم ليك في شركة جديدة، ومديرة الموارد البشرية بتعرّفك على الفريق.",
-       turns:[
-        {them:"Welcome aboard! Could you tell the team a little about yourself?"},
-        {you:[{t:"Sure. Let me introduce myself. I'm Ahmed, and I'll be handling key accounts.",ok:1,fb:"ممتاز: رسمي وواضح."},{t:"Yes. Me Ahmed. I work accounts.",ok:0,fb:"الجملة ناقصة. استخدم ‎I'm…‎ و‎I'll be handling…‎"},{t:"Why?",ok:0,fb:"دي تبان وقحة في موقف رسمي."}]},
-        {them:"Great. And who will you be working with most closely?"},
-        {you:[{t:"I report to Mr. Hany, the Sales Director.",ok:1,fb:"صح: ‎report to‎ بتوضح مكانك في الهيكل."},{t:"I report Mr. Hany.",ok:0,fb:"ناقصها ‎to‎: ‎report to‎."},{t:"Mr. Hany is my friend.",ok:0,fb:"مش مناسبة. هو مديرك مش صاحبك."}]},
-        {them:"Lovely. Oh, and this is Sara. You two have been emailing all week."},
-        {you:[{t:"Hi Sara! Nice to put a face to the name.",ok:1,fb:"هي دي الجملة الطبيعية بالظبط."},{t:"Hello. Who are you?",ok:0,fb:"انتوا بتتراسلوا من أسبوع، فالسؤال ده غريب."},{t:"Nice to meet you first time.",ok:0,fb:"التركيب مش طبيعي في الإنجليزي."}]}
-       ]}
-   },
-   { id:"l2", title:"Small talk at the office", ar:"كلام خفيف مع الزملاء",
-     cards:[
-      {en:"How's your week going?", ar:"أسبوعك ماشي إزاي؟", ex:"Morning, Nadia! <mark>How's your week going?</mark>", tip:"أحسن من ‎How are you?‎ لأنها بتفتح كلام حقيقي."},
-      {en:"Busy, but good.", ar:"مشغول بس الحمد لله كويس", ex:"<mark>Busy, but good</mark>, thanks. We're closing the quarter.", tip:"رد إيجابي قصير ومهني."},
-      {en:"Any plans for the weekend?", ar:"عندك خطط للويك إند؟", ex:"<mark>Any plans for the weekend?</mark>", tip:"سؤال آمن يوم الخميس أو الجمعة."},
-      {en:"I'd better get going.", ar:"لازم أمشي بقى", ex:"Anyway, <mark>I'd better get going</mark>, I have a call at ten.", tip:"طريقة مؤدبة تنهي بيها الكلام."},
-      {en:"Catch you later.", ar:"أشوفك بعدين", ex:"Good luck with the audit. <mark>Catch you later!</mark>", tip:"غير رسمية، مناسبة مع الزملاء."}
-     ],
-     quiz:[
-      {type:"mcq", q:"عايز تنهي الكلام بأدب عشان عندك اجتماع:", options:["Stop talking, please.","I'd better get going, I have a meeting.","Bye, I'm bored."], answer:1, why:"‎I'd better get going‎ مؤدبة وبتدي سبب."},
-      {type:"gap", sentence:"How's your week ___?", options:["going","go","went"], answer:0, why:"‎How's … going?‎ تركيب ثابت."},
-      {type:"order", words:["Any","plans","for","the","weekend"], answer:"Any plans for the weekend", why:"سؤال مختصر شائع في الكلام."},
-      {type:"mcq", q:"أنسب رد على ‎How's your week going?‎:", options:["Busy, but good, thanks.","Yes.","I am going."], answer:0, why:"رد طبيعي وإيجابي."}
-     ],
-     match:[["busy","مشغول"],["weekend","الإجازة الأسبوعية"],["catch up","نتكلم ونعرف الأخبار"],["deadline","موعد التسليم"],["break","استراحة"]],
-     roleplay:{ scene:"قابلت زميلك مارك عند مكنة القهوة الصبح.",
-       turns:[
-        {them:"Morning! How's your week going?"},
-        {you:[{t:"Busy, but good, thanks. How about you?",ok:1,fb:"ممتاز، ورجعت السؤال كمان."},{t:"Going.",ok:0,fb:"قصيرة زيادة ومقفولة."},{t:"Very very bad, I hate work.",ok:0,fb:"سلبية أكتر من اللازم في small talk."}]},
-        {them:"Not bad. Crazy deadlines, though. Any plans for the weekend?"},
-        {you:[{t:"Nothing big. Probably a trip to Alexandria with my family.",ok:1,fb:"رد طبيعي وفيه تفاصيل تكمّل الكلام."},{t:"It's private.",ok:0,fb:"بتقفل الكلام بطريقة جافة."},{t:"Yes, weekend.",ok:0,fb:"مش إجابة على السؤال."}]},
-        {them:"Sounds lovely!"},
-        {you:[{t:"Thanks! I'd better get going, I have a call at ten. Catch you later!",ok:1,fb:"قفلت الكلام بأدب واحترافية."},{t:"OK bye.",ok:0,fb:"مقبولة بس جافة شوية."},{t:"I go now.",ok:0,fb:"قول ‎I'd better get going‎."}]}
-       ]}
-   }]
- },
- { id:"u2", time:"10:30", title:"Writing Emails", ar:"كتابة الإيميلات", level:"B1",
-   lessons:[
-   { id:"l3", title:"Opening & closing an email", ar:"بداية ونهاية الإيميل",
-     cards:[
-      {en:"I hope this email finds you well.", ar:"أتمنى تكون بخير", ex:"Dear Mr. Kamal, <mark>I hope this email finds you well.</mark>", tip:"افتتاحية رسمية. مع الزملاء اكتفي بـ ‎Hi Sara,‎"},
-      {en:"I'm writing to…", ar:"أنا بكتب علشان…", ex:"<mark>I'm writing to</mark> confirm our meeting on Monday.", tip:"ادخل في الموضوع على طول بعد التحية."},
-      {en:"Please find attached…", ar:"مرفق…", ex:"<mark>Please find attached</mark> the updated price list.", tip:"الصيغة القياسية لذكر المرفقات."},
-      {en:"Please let me know if you have any questions.", ar:"لو عندك أي استفسار بلغني", ex:"<mark>Please let me know if you have any questions.</mark>", tip:"جملة ختام مهذبة ومفتوحة."},
-      {en:"Best regards,", ar:"مع خالص التحية", ex:"<mark>Best regards,</mark><br>Mona Adel", tip:"الأكثر أمانًا. ‎Cheers,‎ للزملاء القريبين بس."}
-     ],
-     quiz:[
-      {type:"mcq", q:"إزاي تقول إنك باعت عرض السعر مرفق؟", options:["Please find attached the quotation.","Please find the quotation in attach.","The quotation is attaching."], answer:0, why:"‎Please find attached…‎ هي الصيغة القياسية."},
-      {type:"gap", sentence:"I'm writing ___ confirm the delivery date.", options:["for","to","about"], answer:1, why:"‎I'm writing to + فعل‎."},
-      {type:"order", words:["Please","let","me","know","if","you","have","any","questions"], answer:"Please let me know if you have any questions", why:"ختام مهذب."},
-      {type:"mcq", q:"أنسب ختام لإيميل رسمي لعميل جديد:", options:["Cheers,","Best regards,","Bye bye,"], answer:1, why:"‎Best regards‎ رسمية وآمنة."}
-     ],
-     match:[["attached","مرفق"],["quotation","عرض سعر"],["confirm","يؤكد"],["regarding","بخصوص"],["invoice","فاتورة"]],
-     roleplay:{ scene:"بتكتب إيميل لعميل جديد اسمه Mr. Lewis، ترسله فيه عرض سعر. اختار الجملة الأنسب لكل جزء.",
-       turns:[
-        {them:"(Step 1) Choose your greeting and opening line."},
-        {you:[{t:"Dear Mr. Lewis, I hope this email finds you well.",ok:1,fb:"افتتاحية رسمية مظبوطة."},{t:"Hey Lewis!!",ok:0,fb:"غير رسمية جدًا لعميل جديد."},{t:"To Lewis, hello how are you what's up",ok:0,fb:"مش احترافية."}]},
-        {them:"(Step 2) State the purpose and mention the attachment."},
-        {you:[{t:"I'm writing to send you our quotation. Please find it attached.",ok:1,fb:"واضحة ومباشرة."},{t:"Look at the file.",ok:0,fb:"أمر مباشر وجاف."},{t:"I attaching quotation.",ok:0,fb:"غلط نحوي: ‎I'm attaching‎ أو ‎Please find attached‎."}]},
-        {them:"(Step 3) Close the email."},
-        {you:[{t:"Please let me know if you have any questions. Best regards, Karim",ok:1,fb:"ختام احترافي كامل."},{t:"Reply fast.",ok:0,fb:"بيضغط على العميل بطريقة مش مؤدبة."},{t:"Thanks, bye.",ok:0,fb:"مقبولة بس ضعيفة لعميل جديد."}]}
-       ]}
-   }]
- },
- { id:"u3", time:"12:00", title:"Meetings", ar:"الاجتماعات", level:"B1–B2",
-   lessons:[
-   { id:"l4", title:"Giving your opinion", ar:"إزاي تقول رأيك",
-     cards:[
-      {en:"From my point of view…", ar:"من وجهة نظري…", ex:"<mark>From my point of view</mark>, we should delay the launch.", tip:"بداية محايدة لأي رأي."},
-      {en:"I see your point, but…", ar:"فاهم قصدك، بس…", ex:"<mark>I see your point, but</mark> the budget is limited.", tip:"تختلف بأدب من غير ما تهاجم."},
-      {en:"I couldn't agree more.", ar:"موافق جدًا", ex:"Quality first? <mark>I couldn't agree more.</mark>", tip:"معناها موافقة تامة، مش رفض."},
-      {en:"Could I just add something?", ar:"ممكن أضيف حاجة؟", ex:"Sorry, <mark>could I just add something?</mark>", tip:"طريقة مؤدبة تقاطع بيها."},
-      {en:"Let's move on to the next item.", ar:"خلينا ننتقل للبند اللي بعده", ex:"Great. <mark>Let's move on to the next item</mark> on the agenda.", tip:"لو انت اللي بتدير الاجتماع."}
-     ],
-     quiz:[
-      {type:"mcq", q:"‎I couldn't agree more‎ معناها:", options:["مش موافق خالص","موافق تمامًا","مش متأكد"], answer:1, why:"معناها مفيش موافقة أكتر من كده."},
-      {type:"gap", sentence:"I see your ___, but we need more data.", options:["opinion","point","idea"], answer:1, why:"التعبير الثابت ‎I see your point‎."},
-      {type:"order", words:["Could","I","just","add","something"], answer:"Could I just add something", why:"مقاطعة مؤدبة."},
-      {type:"mcq", q:"انت رئيس الاجتماع وعايز تنتقل للبند اللي بعده:", options:["Next!","Let's move on to the next item.","Finish this."], answer:1, why:"رسمية وواضحة."}
-     ],
-     match:[["agenda","جدول الأعمال"],["minutes","محضر الاجتماع"],["item","بند"],["action point","مهمة مطلوبة"],["postpone","يأجل"]],
-     roleplay:{ scene:"اجتماع عن إطلاق منتج جديد. مديرك Lina بتسأل عن رأيك.",
-       turns:[
-        {them:"So, should we launch in March as planned? What do you think?"},
-        {you:[{t:"From my point of view, April would be safer. The supplier is late.",ok:1,fb:"رأي واضح ومعاه سبب."},{t:"March is stupid.",ok:0,fb:"هجومية جدًا في اجتماع."},{t:"I don't know anything.",ok:0,fb:"بتضيّع فرصة تشارك."}]},
-        {them:"But marketing has already booked the ads for March."},
-        {you:[{t:"I see your point, but a late launch would cost us more.",ok:1,fb:"اختلفت بأدب وبمنطق."},{t:"No, you're wrong.",ok:0,fb:"مباشرة وحادة."},{t:"OK whatever.",ok:0,fb:"مش احترافية."}]},
-        {them:"Fair enough. Let's decide next week then."},
-        {you:[{t:"Sounds good. Should I add it to the action points?",ok:1,fb:"ممتاز: بتاخد مبادرة."},{t:"Yes finish.",ok:0,fb:"غير مكتملة."},{t:"I go home now.",ok:0,fb:"مش مناسب."}]}
-       ]}
-   }]
- },
- { id:"u4", time:"14:00", title:"Phone & Video Calls", ar:"المكالمات والاجتماعات أونلاين", level:"B1", lessons:[] },
- { id:"u5", time:"15:30", title:"Negotiating", ar:"التفاوض", level:"B2", lessons:[] },
- { id:"u6", time:"17:00", title:"Presentations", ar:"العروض التقديمية", level:"B2", lessons:[] }
+const LESSONS=[
+ ...UNIT_PHONE_INTERVIEW.lessons.map((l,i)=>({...l,chapter:"c1",part:"Phone interview",art:["phone","cv","money"][i],
+   desc:["Answer the first HR call, ask to call back politely, and describe yourself in strong words.","Talk about your past roles with numbers, and explain why you want to move on.","Give a salary range, ask about benefits, and close the call with smart questions."][i],
+   minutes:[15,15,15][i], reading:READING_PHONE.slice(i*2,i*2+2)})),
+ {id:"s1",chapter:"c1",part:"Face-to-face interview",art:"handshake",title:"Face-to-face interview",ar:"المقابلة وجهًا لوجه",desc:"Education, hobbies, why should we hire you, strengths and weaknesses.",soon:true},
+ {id:"s2",chapter:"c1",part:"Internal interview",art:"ladder",title:"Internal interview",ar:"مقابلة ترقية داخلية",desc:"Your current role, achievements, and fresh ideas for the new position.",soon:true},
+ {id:"s3",chapter:"c1",part:"Experienced candidates",art:"star",title:"Interview for experienced candidates",ar:"مقابلة لأصحاب الخبرة",desc:"Handling conflict, solving problems, and long-term career goals.",soon:true},
+ {id:"s4",chapter:"c2",art:"mail",title:"Writing clear business emails",ar:"إيميلات شغل واضحة",desc:"Greetings, the body, closings, and 12 ready templates.",soon:true},
+ {id:"s5",chapter:"c3",art:"meeting",title:"Running and joining meetings",ar:"إدارة الاجتماعات والمشاركة فيها",desc:"Opening, staying on track, disagreeing and interrupting politely.",soon:true},
+ {id:"s6",chapter:"c4",art:"chart",title:"Presenting with confidence",ar:"عرض تقديمي بثقة",desc:"Structure, signposting, and handling questions.",soon:true},
+ {id:"s7",chapter:"c5",art:"deal",title:"Negotiating a deal",ar:"التفاوض على صفقة",desc:"Proposals, counter-offers, and closing.",soon:true},
+ {id:"s8",chapter:"c6",art:"laptop",title:"Video calls and LinkedIn",ar:"مكالمات الفيديو ولينكدإن",desc:"Virtual meeting phrases and a strong LinkedIn bio.",soon:true},
+ {id:"s9",chapter:"c7",art:"coffee",title:"Small talk and office etiquette",ar:"الكلام الخفيف وآداب المكتب",desc:"Chatting with colleagues and handling conflict.",soon:true}
 ];
 
-/* ============ state (per-viewer, browser only) ============ */
-const KEY="worktalk-v1";
-let S={xp:0,done:{},streak:0,last:null};
+/* ============================================================
+   ILLUSTRATIONS — small flat scenes, one per topic
+   ============================================================ */
+const ART_BG={phone:["#E6EAFB","#C9D2F7"],cv:["#DDF3EC","#B9E6D8"],money:["#FBF0DA","#F4DDA8"],handshake:["#FBE6EA","#F4C6D0"],ladder:["#E6EAFB","#C9D2F7"],star:["#FBF0DA","#F4DDA8"],mail:["#DDF3EC","#B9E6D8"],meeting:["#E6EAFB","#C9D2F7"],chart:["#FBE6EA","#F4C6D0"],deal:["#FBF0DA","#F4DDA8"],laptop:["#DDF3EC","#B9E6D8"],coffee:["#FBE6EA","#F4C6D0"]};
+function art(kind){
+  const [a,b]=ART_BG[kind]||ART_BG.phone, ink="#18233F", co="#3552C9", mi="#2FA88E", sa="#E9A93A", ro="#D9677B";
+  const bg=`<defs><linearGradient id="g${kind}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${a}"/><stop offset="1" stop-color="${b}"/></linearGradient></defs><rect width="320" height="200" fill="url(#g${kind})"/><circle cx="270" cy="30" r="46" fill="#fff" opacity=".35"/><circle cx="40" cy="185" r="60" fill="#fff" opacity=".3"/>`;
+  const s={
+   phone:`<rect x="120" y="36" width="80" height="140" rx="14" fill="${ink}"/><rect x="127" y="50" width="66" height="110" rx="6" fill="#fff"/><circle cx="160" cy="80" r="14" fill="${co}"/><rect x="138" y="102" width="44" height="7" rx="3.5" fill="${ink}" opacity=".7"/><rect x="146" y="114" width="28" height="6" rx="3" fill="${ink}" opacity=".35"/><circle cx="145" cy="140" r="9" fill="${ro}"/><circle cx="175" cy="140" r="9" fill="${mi}"/><path d="M214 70q16 10 0 26M224 60q28 20 0 46" stroke="${sa}" stroke-width="5" fill="none" stroke-linecap="round"/><rect x="40" y="58" width="64" height="34" rx="12" fill="#fff"/><path d="M92 90l10 12 2-14z" fill="#fff"/><rect x="52" y="70" width="40" height="5" rx="2.5" fill="${co}"/><rect x="52" y="79" width="26" height="5" rx="2.5" fill="${co}" opacity=".45"/>`,
+   cv:`<rect x="96" y="30" width="118" height="148" rx="10" fill="#fff"/><circle cx="124" cy="62" r="14" fill="${mi}"/><rect x="146" y="54" width="52" height="7" rx="3.5" fill="${ink}"/><rect x="146" y="66" width="34" height="6" rx="3" fill="${ink}" opacity=".4"/><rect x="110" y="94" width="90" height="6" rx="3" fill="${ink}" opacity=".25"/><rect x="110" y="106" width="76" height="6" rx="3" fill="${ink}" opacity=".25"/><rect x="110" y="118" width="84" height="6" rx="3" fill="${ink}" opacity=".25"/><rect x="110" y="138" width="44" height="22" rx="6" fill="${sa}"/><path d="M200 150l28-40 16 12-28 40-18 6z" fill="${co}"/><path d="M244 122l-16-12 6-8 16 12z" fill="${ink}"/><path d="M40 80l14 14 26-30" stroke="${mi}" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`,
+   money:`<rect x="60" y="80" width="150" height="86" rx="12" fill="${mi}"/><rect x="72" y="92" width="126" height="62" rx="8" fill="none" stroke="#fff" stroke-width="3" opacity=".7"/><circle cx="135" cy="123" r="18" fill="#fff" opacity=".85"/><text x="135" y="130" text-anchor="middle" font-family="Bricolage Grotesque,sans-serif" font-weight="800" font-size="20" fill="${mi}">$</text><circle cx="232" cy="72" r="24" fill="${sa}"/><circle cx="232" cy="72" r="16" fill="none" stroke="#fff" stroke-width="3"/><circle cx="256" cy="120" r="18" fill="${sa}"/><path d="M40 60h60M40 44h40" stroke="${ink}" stroke-width="6" stroke-linecap="round" opacity=".25"/><rect x="224" y="150" width="60" height="26" rx="13" fill="#fff"/><path d="M238 163h32" stroke="${co}" stroke-width="5" stroke-linecap="round"/>`,
+   handshake:`<path d="M40 120l60-30 40 20 40-20 60 30-20 20-40-10-40 20-40-20-40 10z" fill="${ro}"/><path d="M100 90l40 20 40-20" stroke="${ink}" stroke-width="5" fill="none" stroke-linecap="round"/><rect x="20" y="104" width="34" height="50" rx="8" fill="${co}"/><rect x="266" y="104" width="34" height="50" rx="8" fill="${ink}"/><circle cx="160" cy="54" r="16" fill="${sa}"/>`,
+   ladder:`<path d="M120 180l30-150M190 180l30-150" stroke="${ink}" stroke-width="8" stroke-linecap="round"/><path d="M128 150h56M136 115h56M144 80h56M151 48h56" stroke="${ink}" stroke-width="6" stroke-linecap="round"/><circle cx="210" cy="36" r="16" fill="${sa}"/><path d="M60 150l20-30 20 20 26-40" stroke="${mi}" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`,
+   star:`<path d="M160 36l18 38 42 5-31 29 8 42-37-21-37 21 8-42-31-29 42-5z" fill="${sa}"/><circle cx="72" cy="70" r="10" fill="${co}"/><circle cx="252" cy="130" r="12" fill="${mi}"/><circle cx="84" cy="146" r="7" fill="${ro}"/>`,
+   mail:`<rect x="70" y="56" width="180" height="116" rx="12" fill="#fff"/><path d="M70 66l90 60 90-60" stroke="${co}" stroke-width="7" fill="none" stroke-linejoin="round"/><circle cx="244" cy="58" r="18" fill="${ro}"/><text x="244" y="65" text-anchor="middle" font-family="Figtree,sans-serif" font-weight="800" font-size="18" fill="#fff">1</text>`,
+   meeting:`<ellipse cx="160" cy="140" rx="110" ry="30" fill="${ink}" opacity=".85"/><circle cx="80" cy="96" r="18" fill="${co}"/><circle cx="160" cy="84" r="18" fill="${sa}"/><circle cx="240" cy="96" r="18" fill="${mi}"/><rect x="118" y="30" width="84" height="34" rx="12" fill="#fff"/><rect x="130" y="42" width="60" height="6" rx="3" fill="${ink}" opacity=".5"/>`,
+   chart:`<rect x="60" y="40" width="200" height="120" rx="10" fill="#fff"/><rect x="84" y="112" width="24" height="32" rx="4" fill="${co}"/><rect x="120" y="92" width="24" height="52" rx="4" fill="${mi}"/><rect x="156" y="72" width="24" height="72" rx="4" fill="${sa}"/><rect x="192" y="58" width="24" height="86" rx="4" fill="${ro}"/><path d="M150 160v26M120 186h60" stroke="${ink}" stroke-width="6" stroke-linecap="round"/>`,
+   deal:`<rect x="80" y="44" width="110" height="136" rx="10" fill="#fff"/><path d="M98 76h74M98 92h60M98 108h70" stroke="${ink}" stroke-width="6" stroke-linecap="round" opacity=".3"/><path d="M100 150q20-20 34 0t34-6" stroke="${co}" stroke-width="5" fill="none" stroke-linecap="round"/><circle cx="232" cy="88" r="30" fill="${mi}"/><path d="M218 88l10 10 20-22" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`,
+   laptop:`<rect x="80" y="44" width="160" height="100" rx="10" fill="${ink}"/><rect x="90" y="54" width="140" height="80" rx="4" fill="#fff"/><circle cx="130" cy="86" r="14" fill="${co}"/><circle cx="190" cy="86" r="14" fill="${sa}"/><rect x="118" y="108" width="24" height="6" rx="3" fill="${ink}" opacity=".3"/><rect x="178" y="108" width="24" height="6" rx="3" fill="${ink}" opacity=".3"/><path d="M60 150h200l-14 16H74z" fill="${ink}" opacity=".85"/>`,
+   coffee:`<rect x="110" y="84" width="84" height="80" rx="14" fill="#fff"/><path d="M194 100h16a16 16 0 0 1 0 32h-16" stroke="#fff" stroke-width="10" fill="none"/><path d="M130 70q10-14 0-28M152 70q10-14 0-28M174 70q10-14 0-28" stroke="${ink}" stroke-width="5" fill="none" stroke-linecap="round" opacity=".4"/><rect x="40" y="46" width="56" height="30" rx="10" fill="${co}"/><rect x="224" y="46" width="56" height="30" rx="10" fill="${mi}"/>`
+  };
+  return `<svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice">${bg}${s[kind]||""}</svg>`;
+}
+const HERO_ART=`<svg viewBox="0 0 480 400" role="img" aria-label="Two colleagues talking across a desk" style="width:100%;height:auto">
+ <circle cx="250" cy="200" r="178" fill="var(--cobalt-soft)"/><circle cx="380" cy="80" r="46" fill="var(--saffron-soft)"/>
+ <rect x="70" y="262" width="340" height="18" rx="9" fill="#18233F"/><rect x="100" y="280" width="12" height="80" fill="#18233F"/><rect x="368" y="280" width="12" height="80" fill="#18233F"/>
+ <circle cx="150" cy="150" r="30" fill="#E9A93A"/><path d="M104 262q0-72 46-72t46 72z" fill="#3552C9"/>
+ <circle cx="330" cy="140" r="30" fill="#D9677B"/><path d="M284 262q0-80 46-80t46 80z" fill="#2FA88E"/>
+ <rect x="196" y="232" width="80" height="30" rx="4" fill="#fff"/><rect x="204" y="240" width="40" height="5" rx="2.5" fill="#18233F" opacity=".4"/>
+ <g><rect x="24" y="56" width="184" height="58" rx="18" fill="#fff"/><path d="M120 112l-8 22 26-22z" fill="#fff"/><text x="115" y="92" text-anchor="middle" font-family="Figtree,sans-serif" font-weight="700" font-size="17" fill="#18233F">Tell me about yourself</text></g>
+ <g><rect x="276" y="176" width="0" height="0"/><rect x="250" y="30" width="206" height="58" rx="18" fill="#18233F"/><path d="M322 86l6 22 16-22z" fill="#18233F"/><text x="353" y="66" text-anchor="middle" font-family="Figtree,sans-serif" font-weight="700" font-size="17" fill="#fff">I thrive on challenges</text></g>
+</svg>`;
+
+/* ============================================================
+   STATE (this browser only)
+   ============================================================ */
+const KEY="kalam-business-v1";
+let S={xp:0,done:{},read:{},streak:0,last:null};
 try{const r=localStorage.getItem(KEY); if(r) S=Object.assign(S,JSON.parse(r));}catch(e){}
-function save(){try{localStorage.setItem(KEY,JSON.stringify(S));}catch(e){}}
-function today(){return new Date().toISOString().slice(0,10)}
-function bumpStreak(){
-  const t=today(); if(S.last===t) return;
-  const y=new Date(Date.now()-864e5).toISOString().slice(0,10);
-  S.streak = S.last===y ? S.streak+1 : 1; S.last=t;
-}
-function renderStats(){
-  const t=today(), y=new Date(Date.now()-864e5).toISOString().slice(0,10);
-  document.getElementById("s-streak").textContent = (S.last===t||S.last===y)?S.streak:0;
-  document.getElementById("s-xp").textContent=S.xp;
-}
-
-const app=document.getElementById("app");
+function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
+const day=d=>new Date(d).toISOString().slice(0,10);
+function bump(){const t=day(Date.now()); if(S.last===t)return; S.streak=S.last===day(Date.now()-864e5)?S.streak+1:1; S.last=t}
+function stats(){const ok=S.last===day(Date.now())||S.last===day(Date.now()-864e5);
+  document.getElementById("s-streak").textContent=ok?S.streak:0; document.getElementById("s-xp").textContent=S.xp}
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const SPEAK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
-/* Pick the most natural English voice the device has.
-   Neural/"Natural" voices (Edge, Windows 11) and Google voices (Chrome)
-   sound human; old SAPI voices (David, Zira) sound robotic, so they rank last. */
-let VOICE=null;
-function rankVoice(v){
-  if(!/^en[-_]/i.test(v.lang)) return -1;
-  const n=v.name; let s=0;
-  if(/natural|neural|online/i.test(n)) s+=100;
-  if(/google/i.test(n)) s+=60;
-  if(/samantha|daniel|karen|moira|serena|arthur|martha/i.test(n)) s+=50; // good Apple voices
-  if(/aria|jenny|guy|sonia|ryan|libby|emma|andrew|ava|brian/i.test(n)) s+=20;
-  if(/^en[-_](US|GB)/i.test(v.lang)) s+=10;
-  if(/david|zira|mark|hazel|george|susan/i.test(n) && !/natural|online/i.test(n)) s-=40; // legacy robotic
-  return s;
-}
-function pickVoice(){
-  try{
-    const vs=speechSynthesis.getVoices().filter(v=>rankVoice(v)>=0);
-    if(vs.length) VOICE=vs.sort((a,b)=>rankVoice(b)-rankVoice(a))[0];
-  }catch(e){}
-}
-try{ pickVoice(); speechSynthesis.onvoiceschanged=pickVoice; }catch(e){}
-let sayTimer;
-function say(text){
-  try{
-    const clean=text.replace(/<[^>]+>/g,"").replace(/…/g,"").replace(/\s+/g," ").trim();
-    speechSynthesis.cancel();
-    clearTimeout(sayTimer);
-    /* small pause after cancel() — speaking immediately makes Chrome clip the first words */
-    sayTimer=setTimeout(()=>{
-      const u=new SpeechSynthesisUtterance(clean);
-      if(!VOICE) pickVoice();
-      if(VOICE){ u.voice=VOICE; u.lang=VOICE.lang; } else u.lang="en-US";
-      u.rate=1; u.pitch=1;
-      speechSynthesis.speak(u);
-    },120);
-  }catch(e){}
-}
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
+const SPK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
 let CLIP=null;
-function play(card){
-  try{ speechSynthesis.cancel(); }catch(e){}
-  if(CLIP){ CLIP.pause(); CLIP=null; }
-  if(card && card.clip){ CLIP=new Audio(card.clip); CLIP.play().catch(()=>{}); return; }
-  if(card) say(card.en);
-}
-function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function play(card){ if(CLIP){CLIP.pause();CLIP=null} if(card&&card.clip){CLIP=new Audio(card.clip);CLIP.play().catch(()=>{})} }
+const chapter=id=>CHAPTERS.find(c=>c.id===id);
+const real=()=>LESSONS.filter(l=>!l.soon);
 
-/* ============ views ============ */
-let tab="path";
+/* ============================================================
+   ROUTER
+   ============================================================ */
+const app=document.getElementById("app");
+function route(){
+  stopAudio(); clearInterval(tick);
+  const h=location.hash.replace(/^#\/?/,"").split("/");
+  const page=h[0]||"";
+  document.querySelectorAll(".links a,.tabbar a").forEach(a=>{
+    const p=a.getAttribute("href").replace(/^#\/?/,"").split("/")[0];
+    a.toggleAttribute("aria-current",p===page||(page==="lesson"&&p==="lessons")); if(a.hasAttribute("aria-current"))a.setAttribute("aria-current","page")});
+  if(page==="lessons") lessons(h[1]);
+  else if(page==="path") pathPage();
+  else if(page==="phrases") phrases();
+  else if(page==="lesson") lesson(h[1],h[2]);
+  else home();
+  window.scrollTo(0,0); stats();
+}
+addEventListener("hashchange",route);
+
+/* ---------- home ---------- */
 function home(){
-  const all=COURSE.flatMap(u=>u.lessons), doneN=all.filter(l=>S.done[l.id]).length;
-  app.innerHTML=`
+  const nxt=real().find(l=>!S.done[l.id])||real()[0];
+  app.innerHTML=`<div class="wrap">
    <section class="hero">
-     <span class="eyebrow en">Kalam Business · English for work</span>
-     <h1>كلام بيزنس… بالإنجليزي الصح</h1>
-     <p>كل درس ياخد حوالي ٧ دقايق: تتعلم ٥ عبارات، تتمرن عليهم، تلعب لعبة سريعة، وبعدين تجرب موقف حقيقي من الشغل.</p>
-     <div class="pillars"><span class="pill">تعلّم</span><span class="pill">اتمرّن</span><span class="pill">العب</span><span class="pill">اتكلّم</span></div>
-   </section>
-   <nav class="tabs" role="tablist">
-     <button class="tab" role="tab" data-tab="path" aria-selected="${tab==="path"}">جدول اليوم</button>
-     <button class="tab" role="tab" data-tab="book" aria-selected="${tab==="book"}">عباراتي</button>
-     <button class="tab" role="tab" data-tab="cards" aria-selected="${tab==="cards"}">فلاش كاردز</button>
-   </nav>
-   <div id="pane"></div>`;
-  app.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{tab=b.dataset.tab;home()});
-  const pane=document.getElementById("pane");
-  if(tab==="path") pane.innerHTML=`
-    <div class="day">
-      <div class="dayhead"><h2 class="en">Your working day</h2><span class="en">${doneN}/${all.length} lessons</span></div>
-      ${COURSE.map(u=>`
-       <div class="slot ${u.lessons.length?"":"locked"}">
-         <div class="time">${u.time}</div>
-         <div>
-           <h3 class="en">${u.title}</h3>
-           <p class="sub">${u.ar} · <span class="en">${u.level}</span></p>
-           ${u.lessons.length?`<div class="lessons">${u.lessons.map(l=>`
-             <button class="lesson" data-l="${l.id}">
-               <span class="t"><b class="en">${l.title}</b><small>${l.ar}</small></span>
-               <span class="badge ${S.done[l.id]?"done":""}">${S.done[l.id]?"تم ✓":"ابدأ"}</span>
-             </button>`).join("")}</div>`
-           :`<div class="soon">قريبًا، هنضيف هنا دروس من ماتيريال الكورس.</div>`}
-         </div>
-       </div>`).join("")}
-    </div>`;
-  if(tab==="book") book(pane);
-  if(tab==="cards") flash(pane);
-  pane.querySelectorAll("[data-l]").forEach(b=>b.onclick=()=>startLesson(b.dataset.l));
-}
-function learned(){
-  return COURSE.flatMap(u=>u.lessons).filter(l=>S.done[l.id]).flatMap(l=>l.cards);
-}
-function book(pane){
-  const c=learned();
-  if(!c.length){pane.innerHTML=`<p class="empty">العبارات اللي بتتعلمها هتتجمع هنا. خلّص أول درس وارجع.</p>`;return}
-  pane.innerHTML=`<div class="pb">${c.map((x,i)=>`
-    <div class="pbrow"><div><div class="en">${esc(x.en)}</div><small>${esc(x.ar)}</small></div>
-    <button class="say" data-i="${i}" aria-label="استمع">${SPEAK}</button></div>`).join("")}</div>`;
-  pane.querySelectorAll(".say").forEach(b=>b.onclick=()=>play(c[b.dataset.i]));
-}
-function flash(pane){
-  let c=learned(); if(!c.length){pane.innerHTML=`<p class="empty">خلّص درس علشان تبدأ تراجع بالفلاش كاردز.</p>`;return}
-  c=shuffle(c); let i=0;
-  const draw=()=>{
-    pane.innerHTML=`<div style="display:grid;gap:12px;margin-top:14px">
-     <div class="flash" id="fc"><div class="flash-in" tabindex="0" role="button" aria-label="اقلب الكارت">
-       <div class="face"><div><h2 class="en" style="text-align:center">${esc(c[i].en)}</h2><p class="kicker">اضغط علشان تشوف المعنى</p></div></div>
-       <div class="face back"><div><h2>${esc(c[i].ar)}</h2></div></div>
-     </div></div>
-     <div class="actions" style="justify-content:space-between">
-       <span class="kicker en">${i+1} / ${c.length}</span>
-       <span style="display:flex;gap:8px"><button class="btn ghost" id="fs">استمع</button><button class="btn" id="fn">التالي</button></span>
-     </div></div>`;
-    const fc=document.getElementById("fc"), inn=fc.firstElementChild;
-    inn.onclick=()=>fc.classList.toggle("flip");
-    inn.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();fc.classList.toggle("flip")}};
-    document.getElementById("fs").onclick=()=>play(c[i]);
-    document.getElementById("fn").onclick=()=>{i=(i+1)%c.length;draw()};
-  };
-  draw();
-}
-
-/* ============ lesson player ============ */
-let L,step,score;
-const STAGES=[["learn","تعلّم"],["quiz","اتمرّن"],["match","العب"],["talk","اتكلّم"]];
-function startLesson(id){
-  L=COURSE.flatMap(u=>u.lessons).find(l=>l.id===id);
-  step={stage:0,i:0}; score={quiz:0,quizN:L.quiz.length,talk:0,talkN:L.roleplay.turns.filter(t=>t.you).length,time:0};
-  scrollTo(0,0); render();
-}
-function total(){return L.cards.length+L.quiz.length+1+L.roleplay.turns.filter(t=>t.you).length}
-function doneCount(){
-  const s=step.stage; let n=0;
-  if(s>0)n+=L.cards.length; else n+=step.i;
-  if(s>1)n+=L.quiz.length; else if(s===1)n+=step.i;
-  if(s>2)n+=1;
-  if(s===3)n+=step.i;
-  if(s>3)n=total();
-  return n;
-}
-function shell(inner){
-  app.innerHTML=`<section class="player">
-    <div class="phead"><button class="x" id="quit" aria-label="اخرج من الدرس">✕</button>
-      <div class="progress"><i style="width:${Math.round(doneCount()/total()*100)}%"></i></div></div>
-    <div class="steps">${STAGES.map((s,k)=>`<span class="step ${k===step.stage?"on":k<step.stage?"ok":""}">${s[1]}</span>`).join("")}</div>
-    <div class="stage">${inner}</div></section>`;
-  document.getElementById("quit").onclick=home;
-}
-function render(){
-  [learn,quiz,match,talk,finish][step.stage]();
-}
-function next(){step.i++;render()}
-function nextStage(){step.stage++;step.i=0;render()}
-
-function learn(){
-  const c=L.cards[step.i];
-  const tracks=(step.i===0&&L.tracks)?`<div class="book"><span class="kicker">🎧 اسمع من الكتاب</span>${L.tracks.map(t=>`<div class="track"><span class="en">${esc(t.t)}</span><audio controls preload="none" src="${t.src}"></audio></div>`).join("")}</div>`:"";
-  shell(`${tracks}<span class="kicker">عبارة ${step.i+1} من ${L.cards.length}${c.clip?" · صوت الكتاب":""}</span>
-    <div class="phrase"><h2>${esc(c.en)}</h2><button class="say" id="sp" aria-label="استمع">${SPEAK}</button></div>
-    <div class="meaning">${esc(c.ar)}</div>
-    <div class="example"><span class="kicker">مثال</span><div class="en">${c.ex}</div></div>
-    <p class="tip">${esc(c.tip)}</p>
-    <div class="actions"><button class="btn" id="go">${step.i<L.cards.length-1?"التالي":"يلا نتمرّن"}</button></div>`);
-  document.getElementById("sp").onclick=()=>play(c);
-  document.getElementById("go").onclick=()=>step.i<L.cards.length-1?next():nextStage();
-}
-
-function quiz(){
-  const q=L.quiz[step.i]; const last=step.i===L.quiz.length-1;
-  const cont=()=>last?nextStage():next();
-  const fb=(ok)=>{
-    if(ok)score.quiz++;
-    const box=document.getElementById("fb");
-    box.className="feedback "+(ok?"good":"bad");
-    box.innerHTML=`<b>${ok?"صح!":"مش مظبوط"}</b><span>${esc(q.why)}</span>`; box.hidden=false;
-    const g=document.getElementById("go"); g.hidden=false; g.onclick=cont; g.focus();
-  };
-  if(q.type==="order"){
-    let built=[]; const bank=shuffle(q.words.map((w,k)=>({w,k})));
-    shell(`<span class="kicker">رتّب الكلمات</span><p class="question">كوّن الجملة الصح</p>
-      <div class="built" id="built"></div><div class="bank" id="bank"></div>
-      <div id="fb" hidden></div>
-      <div class="actions"><button class="btn" id="check" disabled>تأكد</button><button class="btn" id="go" hidden>متابعة</button></div>`);
-    const draw=()=>{
-      document.getElementById("built").innerHTML=built.map((b,j)=>`<button class="chip" data-j="${j}">${esc(b.w)}</button>`).join("");
-      document.getElementById("bank").innerHTML=bank.map(b=>`<button class="chip" data-k="${b.k}" ${built.includes(b)?"disabled":""}>${esc(b.w)}</button>`).join("");
-      document.querySelectorAll("#built .chip").forEach(x=>x.onclick=()=>{built.splice(+x.dataset.j,1);draw()});
-      document.querySelectorAll("#bank .chip").forEach(x=>x.onclick=()=>{built.push(bank.find(b=>b.k==x.dataset.k));draw()});
-      document.getElementById("check").disabled=built.length!==q.words.length;
-    };
-    draw();
-    document.getElementById("check").onclick=function(){
-      this.hidden=true; document.querySelectorAll(".chip").forEach(c=>c.disabled=true);
-      const ok=built.map(b=>b.w).join(" ")===q.answer; fb(ok);
-      if(!ok){document.getElementById("fb").innerHTML+=`<div class="en" style="margin-top:6px">${esc(q.answer)}</div>`}
-    };
-    return;
-  }
-  const prompt=q.type==="gap"
-    ? `<span class="kicker">كمّل الفراغ</span><p class="question en" style="font-size:20px">${esc(q.sentence).replace("___",'<span class="gap">?</span>')}</p>`
-    : `<span class="kicker">اختار الإجابة</span><p class="question">${esc(q.q)}</p>`;
-  const isAr=/[؀-ۿ]/.test(q.options[0]);
-  shell(`${prompt}<div class="options">${q.options.map((o,k)=>`<button class="opt" data-k="${k}" ${isAr?'style="direction:rtl;text-align:right;font-family:var(--body)"':""}>${esc(o)}</button>`).join("")}</div>
-    <div id="fb" hidden></div><div class="actions"><button class="btn" id="go" hidden>متابعة</button></div>`);
-  document.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{
-    const k=+b.dataset.k, ok=k===q.answer;
-    document.querySelectorAll(".opt").forEach(x=>{x.disabled=true; if(+x.dataset.k===q.answer)x.classList.add("right")});
-    if(!ok)b.classList.add("wrong");
-    if(q.type==="gap"){const g=document.querySelector(".gap"); g.textContent=q.options[q.answer]}
-    fb(ok);
-  });
-}
-
-let tick;
-function match(){
-  const pairs=L.match.map((p,k)=>({en:p[0],ar:p[1],k}));
-  const left=shuffle(pairs), right=shuffle(pairs);
-  let sel=null, found=0, t0=Date.now(), misses=0;
-  shell(`<div class="gamehead"><div><span class="kicker">لعبة التوصيل</span><p class="question">وصّل كل كلمة بمعناها بأسرع وقت</p></div><span class="timer" id="tm">0.0s</span></div>
-    <div class="board"><div class="col">${left.map(p=>`<button class="tile en" data-k="${p.k}" data-s="en">${esc(p.en)}</button>`).join("")}</div>
-    <div class="col">${right.map(p=>`<button class="tile" data-k="${p.k}" data-s="ar">${esc(p.ar)}</button>`).join("")}</div></div>`);
-  clearInterval(tick);
-  tick=setInterval(()=>{const e=document.getElementById("tm"); if(!e){clearInterval(tick);return} e.textContent=((Date.now()-t0)/1000).toFixed(1)+"s"},100);
-  document.querySelectorAll(".tile").forEach(b=>b.onclick=()=>{
-    if(!sel||sel.dataset.s===b.dataset.s){ if(sel)sel.classList.remove("sel"); sel=b; b.classList.add("sel"); return }
-    if(sel.dataset.k===b.dataset.k){
-      [sel,b].forEach(x=>x.classList.add("gone")); found++; sel=null;
-      if(found===pairs.length){clearInterval(tick); score.time=(Date.now()-t0)/1000; score.misses=misses; setTimeout(nextStage,450)}
-    }else{
-      misses++; const a=sel; [a,b].forEach(x=>{x.classList.remove("sel");x.classList.add("shake")});
-      setTimeout(()=>[a,b].forEach(x=>x.classList.remove("shake")),320); sel=null;
-    }
-  });
-}
-
-function talk(){
-  const turns=L.roleplay.turns; let history=[], yi=0, idx=0;
-  const draw=()=>{
-    while(idx<turns.length&&turns[idx].them){history.push({who:"them",t:turns[idx].them});idx++}
-    const cur=turns[idx];
-    shell(`<span class="kicker">لعب أدوار</span>
-      <div class="scene"><span>${esc(L.roleplay.scene)}</span></div>
-      <div class="chat">${history.map(h=>`<div class="msg ${h.who}"><small>${h.who==="them"?"هم":"انت"}</small>${esc(h.t)}</div>`).join("")}</div>
-      ${cur?`<p class="kicker">إنت هتقول إيه؟</p><div class="options">${shuffle(cur.you.map((o,k)=>({...o,k}))).map(o=>`<button class="opt" data-k="${o.k}">${esc(o.t)}</button>`).join("")}</div>`:""}
-      <div id="fb" hidden></div>
-      <div class="actions"><button class="btn" id="go" ${cur?"hidden":""}>${cur?"متابعة":"خلّص الدرس"}</button></div>`);
-    const lastThem=history.filter(h=>h.who==="them").pop();
-    if(!cur){document.getElementById("go").onclick=nextStage;return}
-    document.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{
-      const o=cur.you[+b.dataset.k];
-      document.querySelectorAll(".opt").forEach(x=>{x.disabled=true; if(cur.you[+x.dataset.k].ok)x.classList.add("right")});
-      if(!o.ok)b.classList.add("wrong"); else score.talk++;
-      const box=document.getElementById("fb"); box.className="feedback "+(o.ok?"good":"bad");
-      box.innerHTML=`<b>${o.ok?"رد ممتاز":"فيه رد أنسب"}</b><span>${esc(o.fb)}</span>`; box.hidden=false;
-      const g=document.getElementById("go"); g.hidden=false; g.focus();
-      g.onclick=()=>{history.push({who:"you",t:cur.you.find(x=>x.ok).t}); idx++; yi++; step.i=yi; draw()};
-    });
-  };
-  draw();
-}
-
-function finish(){
-  const first=!S.done[L.id];
-  const gained=10+score.quiz*5+score.talk*5+(score.time<20?10:0);
-  S.xp+=gained; S.done[L.id]=true; bumpStreak(); save(); renderStats();
-  shell(`<div class="done stage" style="border:0;box-shadow:none;padding:0">
-    <span class="eyebrow en">Lesson complete</span>
-    <h2>برافو! خلّصت «${esc(L.ar)}»</h2>
-    <p class="kicker">${first?"العبارات اتضافت لـ «عباراتي» والفلاش كاردز.":"مراجعة ممتازة."}</p>
-    <div class="score">
-      <div><b>+${gained}</b><span>XP</span></div>
-      <div><b>${score.quiz}/${score.quizN}</b><span>التمارين</span></div>
-      <div><b>${score.time.toFixed(1)}s</b><span>لعبة التوصيل</span></div>
-      <div><b>${score.talk}/${score.talkN}</b><span>لعب الأدوار</span></div>
+    <div>
+     <h1>Business English <span class="l2">you can use at work tomorrow.</span></h1>
+     <p class="sub">Read and hear real workplace English from the book, learn the key phrases, then practise them in short games and role-plays.</p>
+     <p class="sub-ar ar">إنجليزي الشغل الحقيقي: اقرا واسمع من الكتاب، اتعلم العبارات، واتمرن عليها في مواقف فعلية.</p>
+     <div class="cta"><a class="btn" href="#/lesson/${nxt.id}">${S.done[real()[0].id]?"Continue learning":"Start the first lesson"}</a><a class="btn alt" href="#/lessons">Browse lessons</a></div>
     </div>
-    <div class="actions" style="justify-content:center"><button class="btn ghost" id="again">عيد الدرس</button><button class="btn" id="back">ارجع للجدول</button></div>
-  </div>`);
-  document.querySelector(".progress i").style.width="100%";
-  document.getElementById("again").onclick=()=>startLesson(L.id);
-  document.getElementById("back").onclick=()=>{tab="path";home()};
+    <div class="hero-art">${HERO_ART}</div>
+   </section>
+   <section class="sec">
+    <div class="sec-head"><h2>Four ways to learn each lesson</h2><p>Every lesson follows the book, and you can jump to any part.</p></div>
+    <div class="ways">
+     ${way("t-saffron","book","Read & listen","Follow the book text while the audio plays. Tap any line to hear it again.","اقرا النص وهو بيتقري، واضغط على أي سطر تسمعه تاني.",["Book audio","Transcripts"],`#/lesson/${nxt.id}/read`)}
+     ${way("t-cobalt","cards","Learn","Seven key phrases per lesson, with meaning, example and tip.","٧ عبارات في كل درس بالمعنى والمثال ونصيحة الاستخدام.",["Phrases","Flashcards"],`#/lesson/${nxt.id}/learn`)}
+     ${way("t-mint","game","Practise","Quick questions, fill the gap, word order, and a timed matching game.","أسئلة سريعة، كمّل الفراغ، رتّب الكلمات، ولعبة توصيل بالتايمر.",["Quiz","Match game"],`#/lesson/${nxt.id}/quiz`)}
+     ${way("t-rose","chat","Speak","Role-play a real conversation and choose what you would say.","مواقف حقيقية: اختار ردك واعرف ليه صح أو غلط.",["Role-play","Feedback"],`#/lesson/${nxt.id}/talk`)}
+    </div>
+   </section>
+   <section class="sec">
+    <div class="sec-head"><h2>From the book, chapter by chapter</h2><p class="ar">الكتاب كله هيتحول لدروس، فصل ورا فصل.</p></div>
+    ${cardGrid(LESSONS.slice(0,6))}
+    <p style="text-align:center;margin-top:22px"><a class="btn alt" href="#/lessons">See all lessons</a></p>
+   </section></div>`;
+}
+const ICONS={book:'<path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5M9 8h6"/>',cards:'<rect x="3" y="6" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/>',game:'<rect x="2" y="7" width="20" height="11" rx="5"/><path d="M7 11v3M5.5 12.5h3M16 12h.01M18 14h.01"/>',chat:'<path d="M4 5h16v10H9l-5 4z"/><path d="M8 9h8M8 12h5"/>'};
+function way(t,ic,h,p,ar,tags,href){
+  return `<a class="way ${t}" href="${href}"><span class="ic" style="background:color-mix(in srgb,currentColor 14%,transparent)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${ICONS[ic]}</svg></span><h3>${h}</h3><p>${p}</p><p class="ar">${ar}</p><span class="tags">${tags.map(x=>`<span class="chip">${x}</span>`).join("")}</span></a>`;
+}
+function cardGrid(list){
+  return `<div class="cards">${list.map(l=>{const c=chapter(l.chapter), n=LESSONS.indexOf(l)+1;
+   return l.soon?`<div class="lcard soon"><div class="art">${art(l.art)}<span class="badge l">${c.level}</span><span class="badge n">${String(n).padStart(2,"0")}</span></div><div class="body"><h3>${esc(l.title)}</h3><span class="ar">${esc(l.ar)}</span><p>${esc(l.desc)}</p><div class="foot"><span>Chapter ${c.n}</span><span class="go">Coming soon</span></div></div></div>`
+   :`<a class="lcard ${S.done[l.id]?"done":""}" href="#/lesson/${l.id}"><div class="art">${art(l.art)}<span class="badge l">${c.level}</span><span class="badge n">${String(n).padStart(2,"0")}</span></div><div class="body"><h3>${esc(l.title)}</h3><span class="ar">${esc(l.ar)}</span><p>${esc(l.desc)}</p><div class="foot"><span>${l.minutes} min · with book audio</span><span class="go">${S.done[l.id]?"Done ✓":"Start"}</span></div></div></a>`}).join("")}</div>`;
 }
 
-document.getElementById("home-btn").onclick=()=>{tab="path";home()};
-renderStats(); home();
-</script>
+/* ---------- lessons list ---------- */
+function lessons(filter){
+  const f=filter||"all";
+  const chs=CHAPTERS.filter(c=>f==="all"||c.id===f);
+  app.innerHTML=`<div class="wrap"><section class="phead">
+    <a class="back" href="#/">← Home</a>
+    <h1>Lessons</h1><p>Each lesson covers a few pages of the book: read and listen, learn the phrases, practise, and role-play.</p>
+    <p class="ar">كل درس بيغطي كام صفحة من الكتاب.</p>
+    <div class="filters">${[["all","All chapters"],...CHAPTERS.map(c=>[c.id,`${c.n}. ${c.title}`])].map(([id,t])=>`<button data-f="${id}" aria-pressed="${id===f}">${t}</button>`).join("")}</div>
+   </section>
+   ${chs.map(c=>{const ls=LESSONS.filter(l=>l.chapter===c.id);return `<div class="group"><div class="group-h"><b>${c.n}. ${c.title}</b><span class="ar">${c.ar}</span><span>· ${ls.filter(l=>!l.soon).length} ready</span></div>${cardGrid(ls)}</div>`}).join("")}
+  </div>`;
+  app.querySelectorAll("[data-f]").forEach(b=>b.onclick=()=>location.hash=`#/lessons/${b.dataset.f}`);
+}
 
-</body></html>
+/* ---------- learning path ---------- */
+function pathPage(){
+  const doneN=real().filter(l=>S.done[l.id]).length; let nextMarked=false;
+  app.innerHTML=`<div class="wrap"><section class="phead"><a class="back" href="#/">← Home</a><h1>Learning path</h1>
+   <p>Go through the book in order. ${doneN} of ${real().length} ready lessons done.</p><p class="ar">امشي مع الكتاب بالترتيب.</p></section>
+   <div class="path">${CHAPTERS.map(c=>`<div class="stage-h">Chapter ${c.n} · ${c.title}</div>`+LESSONS.filter(l=>l.chapter===c.id).map(l=>{
+     const n=LESSONS.indexOf(l)+1, done=S.done[l.id]; let cls=l.soon?"soon":done?"done":""; if(!l.soon&&!done&&!nextMarked){cls="next";nextMarked=true}
+     const inner=`<span><small>${l.part||c.title}</small><b>${esc(l.title)}</b></span><span class="${l.soon?"chip":"go chip lv"}">${l.soon?"Soon":done?"Again":"Start"}</span>`;
+     return `<div class="step ${cls}"><span class="dot">${done?"✓":n}</span>${l.soon?`<div class="box">${inner}</div>`:`<a class="box" href="#/lesson/${l.id}">${inner}</a>`}</div>`}).join("")).join("")}</div></div>`;
+}
+
+/* ---------- phrasebook ---------- */
+function phrases(){
+  const c=real().filter(l=>S.done[l.id]).flatMap(l=>l.cards);
+  app.innerHTML=`<div class="wrap"><section class="phead"><a class="back" href="#/">← Home</a><h1>My phrases</h1><p>Every phrase from the lessons you finish is saved here, with the book audio.</p></section>
+   ${c.length?`<div class="pb">${c.map((x,i)=>`<div class="pbrow"><div><b>${esc(x.en)}</b><div class="ar" style="color:var(--muted)">${esc(x.ar)}</div></div><button class="say" data-i="${i}" aria-label="Listen">${SPK}</button></div>`).join("")}</div>`
+   :`<p class="empty">Finish your first lesson and its phrases will appear here.<br><span class="ar">خلّص أول درس وعباراته هتتجمع هنا.</span><br><br><a class="btn" href="#/lesson/${real()[0].id}">Start lesson 1</a></p>`}</div>`;
+  app.querySelectorAll(".say").forEach(b=>b.onclick=()=>play(c[b.dataset.i]));
+}
+
+/* ============================================================
+   LESSON PAGE
+   ============================================================ */
+const TABS=[["read","Read & listen","اقرا واسمع"],["learn","Learn","اتعلم"],["quiz","Practise","اتمرن"],["match","Match game","العب"],["talk","Role-play","اتكلم"]];
+let L,tab,tick;
+function lesson(id,t){
+  L=LESSONS.find(l=>l.id===id&&!l.soon); if(!L){location.hash="#/lessons";return}
+  tab=TABS.some(x=>x[0]===t)?t:"read";
+  const c=chapter(L.chapter), n=LESSONS.indexOf(L)+1;
+  app.innerHTML=`<div class="wrap">
+   <section class="lhero"><div>
+     <a class="back" href="#/lessons">← Lessons</a>
+     <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px"><span class="chip lv">${c.level}</span><span class="chip">Chapter ${c.n} · ${c.title}</span><span class="chip">Lesson ${n}</span></div>
+     <h1 style="font-size:clamp(30px,4.6vw,46px);font-weight:800">${esc(L.title)}</h1>
+     <p class="ar" style="color:var(--muted);font-size:18px;margin:6px 0 0">${esc(L.ar)}</p>
+     <p style="color:var(--ink-2);margin:10px 0 0">${esc(L.desc)}</p>
+   </div><div class="art">${art(L.art)}</div></section>
+   <div class="ltabs" role="tablist">${TABS.map(([k,e,a])=>`<button role="tab" data-t="${k}" aria-selected="${k===tab}">${e}${k==="read"&&S.read[L.id]||k!=="read"&&S.done[L.id]?' <span class="ok">✓</span>':""}</button>`).join("")}</div>
+   <div class="panel" id="panel"></div></div>`;
+  app.querySelectorAll("[data-t]").forEach(b=>b.onclick=()=>{history.replaceState(null,"",`#/lesson/${L.id}/${b.dataset.t}`);setTab(b.dataset.t)});
+  setTab(tab);
+}
+function setTab(t){
+  tab=t; stopAudio(); clearInterval(tick);
+  app.querySelectorAll("[data-t]").forEach(b=>b.setAttribute("aria-selected",b.dataset.t===t));
+  const p=document.getElementById("panel");
+  ({read:readTab,learn:learnTab,quiz:quizTab,match:matchTab,talk:talkTab})[t](p);
+}
+function nextTab(){const i=TABS.findIndex(x=>x[0]===tab); if(i<TABS.length-1){history.replaceState(null,"",`#/lesson/${L.id}/${TABS[i+1][0]}`);setTab(TABS[i+1][0]);document.querySelector(".ltabs").scrollIntoView({block:"start"})}}
+
+/* ---------- read & listen ---------- */
+let AUD=null, rafId=0;
+function stopAudio(){ if(AUD){AUD.pause();AUD=null} cancelAnimationFrame(rafId); if(CLIP){CLIP.pause();CLIP=null} }
+const fmt=s=>isFinite(s)?`${s/60|0}:${String(s%60|0).padStart(2,"0")}`:"0:00";
+function readTab(p){
+  let cur=0;
+  const draw=()=>{
+    const R=L.reading[cur];
+    p.innerHTML=`<div class="hint"><span>🎧</span><span>Press play and follow the text. The line being read lights up; tap any line to jump to it.<br><span class="ar">دوس تشغيل وتابع النص. السطر اللي بيتقري بيتلوّن، واضغط على أي سطر تروحله.</span></span></div>
+     <div class="tracks">${L.reading.map((r,i)=>`<button data-k="${i}" aria-pressed="${i===cur}">Part ${i+1}: ${esc(r.title.replace(/^\d+\.\s*/,""))}</button>`).join("")}</div>
+     <div class="player"><button class="pp" id="pp" aria-label="Play">${PLAY}</button>
+      <div><div class="ttl">${esc(R.title.replace(/^\d+\.\s*/,""))}</div><div class="bar" id="bar"><i id="fill" style="width:0"></i></div></div>
+      <div style="display:grid;gap:4px;justify-items:end"><span class="tm" id="tm">0:00</span><button class="sp" id="sp">1×</button></div></div>
+     <div class="reader" id="reader">${R.lines.map((l,i)=>l.k==="h"?`<h4>${esc(l.s)}</h4>`:`<span class="ln" data-i="${i}" ${l.t!=null?`data-t="${l.t}"`:""}>${fmtLine(l.s)}</span>`).join("")}</div>
+     <div class="actions"><button class="btn" id="go">Next: learn the phrases</button></div>`;
+    stopAudio(); AUD=new Audio(R.src); AUD.preload="metadata";
+    const pp=p.querySelector("#pp"), fill=p.querySelector("#fill"), tm=p.querySelector("#tm"), lines=[...p.querySelectorAll(".ln[data-t]")];
+    let lastNow=null;
+    const loop=()=>{ if(!AUD)return; const t=AUD.currentTime, d=AUD.duration||1;
+      fill.style.width=(t/d*100)+"%"; tm.textContent=`${fmt(t)} / ${fmt(AUD.duration)}`;
+      let now=null; for(const el of lines){ if(+el.dataset.t<=t+.25) now=el; else break }
+      if(now!==lastNow){ lastNow&&lastNow.classList.remove("now"); if(now){now.classList.add("now"); const r=now.getBoundingClientRect(); if(r.top<200||r.bottom>innerHeight-40) now.scrollIntoView({block:"center",behavior:"smooth"})} lastNow=now }
+      rafId=requestAnimationFrame(loop)};
+    AUD.onplay=()=>{pp.innerHTML=PAUSE;pp.setAttribute("aria-label","Pause");loop()};
+    AUD.onpause=()=>{pp.innerHTML=PLAY;pp.setAttribute("aria-label","Play");cancelAnimationFrame(rafId)};
+    AUD.onended=()=>{S.read[L.id]=true;save(); if(cur<L.reading.length-1){cur++;draw();AUD.play().catch(()=>{})}};
+    AUD.onloadedmetadata=()=>tm.textContent=`0:00 / ${fmt(AUD.duration)}`;
+    pp.onclick=()=>AUD.paused?AUD.play().catch(()=>{}):AUD.pause();
+    const rates=[1,.85,.75,1.15]; let ri=0;
+    p.querySelector("#sp").onclick=e=>{ri=(ri+1)%rates.length;AUD.playbackRate=rates[ri];e.target.textContent=rates[ri]+"×"};
+    p.querySelector("#bar").onclick=e=>{const r=e.currentTarget.getBoundingClientRect(); if(AUD.duration)AUD.currentTime=(e.clientX-r.left)/r.width*AUD.duration};
+    lines.forEach(el=>el.onclick=()=>{AUD.currentTime=Math.max(0,+el.dataset.t-.2);AUD.play().catch(()=>{})});
+    p.querySelectorAll("[data-k]").forEach(b=>b.onclick=()=>{cur=+b.dataset.k;draw()});
+    p.querySelector("#go").onclick=()=>{S.read[L.id]=true;save();nextTab()};
+  };
+  draw();
+}
+const PLAY='<svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4v16l13-8z"/></svg>', PAUSE='<svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg>';
+function fmtLine(s){
+  let h=esc(s).replace(/_{3}/g,'<span class="blank" aria-label="blank"></span>').replace(/\[the company\]/g,"<em>[the company]</em>");
+  const m=h.match(/^(Susan|Mr\. Allen):\s*/); if(m) h=`<span class="who">${m[1]}:</span>`+h.slice(m[0].length);
+  return h;
+}
+
+/* ---------- learn ---------- */
+function learnTab(p){
+  let i=0;
+  const draw=()=>{const c=L.cards[i];
+    p.innerHTML=`<div class="prog"><i style="width:${(i+1)/L.cards.length*100}%"></i></div>
+     <span class="kicker">Phrase ${i+1} of ${L.cards.length} · <span class="ar">عبارة ${i+1} من ${L.cards.length}</span></span>
+     <div class="phrase"><h2>${esc(c.en)}</h2>${c.clip?`<button class="say" id="sp" aria-label="Listen from the book">${SPK}</button>`:""}</div>
+     <div class="meaning ar">${esc(c.ar)}</div>
+     <div class="example"><span class="kicker">Example</span><div>${c.ex}</div></div>
+     <p class="tip ar">${esc(c.tip)}</p>
+     <div class="actions">${i?'<button class="btn alt" id="bk">Back</button>':""}<button class="btn" id="go">${i<L.cards.length-1?"Next phrase":"Practise these"}</button></div>`;
+    const sp=p.querySelector("#sp"); if(sp){sp.onclick=()=>play(c)}
+    if(i||tab==="learn") play(c);
+    p.querySelector("#go").onclick=()=>{if(i<L.cards.length-1){i++;draw()}else nextTab()};
+    const bk=p.querySelector("#bk"); if(bk)bk.onclick=()=>{i--;draw()};
+  };
+  draw();
+}
+
+/* ---------- quiz ---------- */
+let SC={};
+function quizTab(p){
+  let i=0; SC={quiz:0};
+  const draw=()=>{const q=L.quiz[i], last=i===L.quiz.length-1;
+    const top=`<div class="prog"><i style="width:${i/L.quiz.length*100}%"></i></div><span class="kicker">Question ${i+1} of ${L.quiz.length}</span>`;
+    const fb=(ok)=>{if(ok)SC.quiz++; const b=p.querySelector("#fb"); b.hidden=false; b.className="fb "+(ok?"good":"bad");
+      b.innerHTML=`<b>${ok?"Correct!":"Not quite"}</b><span class="ar">${esc(q.why)}</span>`; const g=p.querySelector("#go"); g.hidden=false; g.focus();
+      g.onclick=()=>{if(last){p.innerHTML=`<div class="done-box"><h2>${SC.quiz} / ${L.quiz.length}</h2><p class="ar">${SC.quiz===L.quiz.length?"ممتاز! كله صح.":"كويس! راجع العبارات اللي غلطت فيها."}</p><div class="actions" style="justify-content:center"><button class="btn alt" id="again">Try again</button><button class="btn" id="nx">Play the match game</button></div></div>`;p.querySelector("#again").onclick=()=>quizTab(p);p.querySelector("#nx").onclick=nextTab}else{i++;draw()}}};
+    if(q.type==="order"){ let built=[]; const bank=shuffle(q.words.map((w,k)=>({w,k})));
+      p.innerHTML=`${top}<p class="q">Put the words in order</p><div class="built" id="bt"></div><div class="bank" id="bk"></div><div id="fb" hidden></div><div class="actions"><button class="btn" id="ck" disabled>Check</button><button class="btn" id="go" hidden>${last?"See score":"Next"}</button></div>`;
+      const d=()=>{p.querySelector("#bt").innerHTML=built.map((b,j)=>`<button class="w" data-j="${j}">${esc(b.w)}</button>`).join("");
+        p.querySelector("#bk").innerHTML=bank.map(b=>`<button class="w" data-k="${b.k}" ${built.includes(b)?"disabled":""}>${esc(b.w)}</button>`).join("");
+        p.querySelectorAll("#bt .w").forEach(x=>x.onclick=()=>{built.splice(+x.dataset.j,1);d()});
+        p.querySelectorAll("#bk .w").forEach(x=>x.onclick=()=>{built.push(bank.find(b=>b.k==x.dataset.k));d()});
+        p.querySelector("#ck").disabled=built.length!==q.words.length};
+      d(); p.querySelector("#ck").onclick=function(){this.hidden=true;p.querySelectorAll(".w").forEach(w=>w.disabled=true);const ok=built.map(b=>b.w).join(" ")===q.answer;fb(ok);if(!ok)p.querySelector("#fb").innerHTML+=`<div style="margin-top:6px">${esc(q.answer)}</div>`};
+      return; }
+    const prompt=q.type==="gap"?`<p class="q">${esc(q.sentence).replace("___",'<span class="gap">?</span>')}</p>`:`<p class="q ar">${esc(q.q)}</p>`;
+    const arx=/[؀-ۿ]/.test(q.options[0]);
+    p.innerHTML=`${top}${prompt}<div class="opts">${q.options.map((o,k)=>`<button class="opt ${arx?"arx":""}" data-k="${k}">${esc(o)}</button>`).join("")}</div><div id="fb" hidden></div><div class="actions"><button class="btn" id="go" hidden>${last?"See score":"Next"}</button></div>`;
+    p.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{const k=+b.dataset.k,ok=k===q.answer;
+      p.querySelectorAll(".opt").forEach(x=>{x.disabled=true;if(+x.dataset.k===q.answer)x.classList.add("right")}); if(!ok)b.classList.add("wrong");
+      if(q.type==="gap")p.querySelector(".gap").textContent=q.options[q.answer]; fb(ok)});
+  };
+  draw();
+}
+
+/* ---------- match game ---------- */
+function matchTab(p){
+  const pairs=L.match.map((x,k)=>({en:x[0],ar:x[1],k})), left=shuffle(pairs), right=shuffle(pairs);
+  let sel=null,found=0,t0=Date.now(),miss=0;
+  p.innerHTML=`<div style="display:flex;justify-content:space-between;align-items:center;gap:10px"><div><span class="kicker">Match each word with its meaning, fast</span><p class="q ar" style="margin-top:2px">وصّل كل كلمة بمعناها بأسرع وقت</p></div><span class="timer" id="tmr">0.0s</span></div>
+   <div class="board"><div class="col">${left.map(x=>`<button class="tile" data-k="${x.k}" data-s="en">${esc(x.en)}</button>`).join("")}</div><div class="col">${right.map(x=>`<button class="tile ar" data-k="${x.k}" data-s="ar">${esc(x.ar)}</button>`).join("")}</div></div>`;
+  clearInterval(tick); tick=setInterval(()=>{const e=document.getElementById("tmr"); if(!e){clearInterval(tick);return} e.textContent=((Date.now()-t0)/1000).toFixed(1)+"s"},100);
+  p.querySelectorAll(".tile").forEach(b=>b.onclick=()=>{
+    if(!sel||sel.dataset.s===b.dataset.s){sel&&sel.classList.remove("sel");sel=b;b.classList.add("sel");return}
+    if(sel.dataset.k===b.dataset.k){[sel,b].forEach(x=>x.classList.add("gone"));found++;sel=null;
+      if(found===pairs.length){clearInterval(tick);const s=(Date.now()-t0)/1000;SC.time=s;
+        setTimeout(()=>{p.innerHTML=`<div class="done-box"><h2>${s.toFixed(1)}s</h2><p>${miss} mistakes · ${s<20?"Lightning fast ⚡":"Try to beat your time!"}</p><div class="actions" style="justify-content:center"><button class="btn alt" id="again">Play again</button><button class="btn" id="nx">Role-play</button></div></div>`;p.querySelector("#again").onclick=()=>matchTab(p);p.querySelector("#nx").onclick=nextTab},400)}}
+    else{miss++;const a=sel;[a,b].forEach(x=>{x.classList.remove("sel");x.classList.add("shake")});setTimeout(()=>[a,b].forEach(x=>x.classList.remove("shake")),320);sel=null}});
+}
+
+/* ---------- role-play ---------- */
+function talkTab(p){
+  const turns=L.roleplay.turns; let hist=[],idx=0,good=0; const total=turns.filter(t=>t.you).length;
+  const draw=()=>{while(idx<turns.length&&turns[idx].them){hist.push({w:"them",t:turns[idx].them});idx++}
+    const cur=turns[idx];
+    p.innerHTML=`<div class="scene"><span class="kicker">The situation</span><div class="ar">${esc(L.roleplay.scene)}</div></div>
+     <div class="chat">${hist.map(h=>`<div class="msg ${h.w}"><small>${h.w==="them"?"Them":"You"}</small>${esc(h.t)}</div>`).join("")}</div>
+     ${cur?`<p class="kicker" style="margin-top:14px">What do you say?</p><div class="opts">${shuffle(cur.you.map((o,k)=>({...o,k}))).map(o=>`<button class="opt" data-k="${o.k}">${esc(o.t)}</button>`).join("")}</div>`:""}
+     <div id="fb" hidden></div><div class="actions"><button class="btn" id="go" ${cur?"hidden":""}>${cur?"Continue":"Finish the lesson"}</button></div>`;
+    if(!cur){p.querySelector("#go").onclick=()=>finish(p,good,total);return}
+    p.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{const o=cur.you[+b.dataset.k];
+      p.querySelectorAll(".opt").forEach(x=>{x.disabled=true;if(cur.you[+x.dataset.k].ok)x.classList.add("right")}); if(!o.ok)b.classList.add("wrong"); else good++;
+      const f=p.querySelector("#fb");f.hidden=false;f.className="fb "+(o.ok?"good":"bad");f.innerHTML=`<b>${o.ok?"Great answer":"There's a better reply"}</b><span class="ar">${esc(o.fb)}</span>`;
+      const g=p.querySelector("#go");g.hidden=false;g.focus();g.onclick=()=>{hist.push({w:"you",t:cur.you.find(x=>x.ok).t});idx++;draw()}});
+  };
+  draw();
+}
+function finish(p,good,total){
+  const first=!S.done[L.id], gain=20+(SC.quiz||0)*5+good*5+((SC.time||99)<20?10:0);
+  S.xp+=gain; S.done[L.id]=true; bump(); save(); stats();
+  const nxt=real().find(l=>!S.done[l.id]);
+  p.innerHTML=`<div class="done-box"><h2>Lesson complete 🎉</h2><p class="ar">برافو! خلّصت «${esc(L.ar)}»${first?"، والعبارات اتضافت لـ My phrases.":"."}</p>
+   <div class="score"><div><b>+${gain}</b><span>XP</span></div><div><b>${SC.quiz??"–"}/${L.quiz.length}</b><span>Practice</span></div><div><b>${SC.time?SC.time.toFixed(1)+"s":"–"}</b><span>Match game</span></div><div><b>${good}/${total}</b><span>Role-play</span></div></div>
+   <div class="actions" style="justify-content:center">${nxt?`<a class="btn" href="#/lesson/${nxt.id}">Next lesson: ${esc(nxt.title)}</a>`:`<a class="btn" href="#/path">Back to the path</a>`}</div></div>`;
+}
+
+route();
+</script>
+</body>
+</html>
