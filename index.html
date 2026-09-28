@@ -235,6 +235,41 @@ a{color:inherit}
 .pbrow{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);padding:12px 16px}
 .pbrow b{font-size:17px;font-weight:600}
 .empty{text-align:center;color:var(--muted);border:1.5px dashed var(--line);border-radius:var(--r-lg);padding:40px 16px}
+
+.ltabs .new{font-size:10px;font-weight:800;background:var(--saffron);color:#1b1405;border-radius:999px;padding:1px 6px;margin-inline-end:6px;vertical-align:1px}
+.bank-all{margin-top:22px;border-top:1px solid var(--line);padding-top:14px}
+.bank-all summary{cursor:pointer;font-weight:700;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.bank-list{display:grid;gap:6px;margin-top:12px}
+.bank-row{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start;font-size:16px;padding:6px 0;border-bottom:1px dashed var(--line)}
+.say.sm{width:34px;height:34px}.say.sm svg{width:16px;height:16px}
+.spot-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:6px 0}
+.spot-head h2{font-size:clamp(30px,5vw,42px);font-weight:800}
+.lvl{font-size:13px;font-weight:700;color:var(--cobalt);background:var(--cobalt-soft);padding:3px 10px;border-radius:999px}
+.spot-def{font-size:18px;margin:4px 0}.spot-ar{color:var(--muted);margin:0 0 14px}
+.book-line{background:var(--saffron-soft);border-radius:var(--r-md);padding:12px 14px;margin-bottom:16px}
+.uses{display:grid;gap:8px;margin:8px 0 16px}
+.use{display:grid;gap:2px;border-radius:14px;padding:10px 14px;background:var(--paper);border-inline-start:4px solid var(--line)}
+.use b{font-size:13px;color:var(--muted)}
+.u-email{border-color:var(--cobalt)}.u-chat{border-color:var(--mint)}.u-meeting{border-color:var(--rose)}
+.goes{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 16px}
+.dd{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.dd>div{border-radius:var(--r-md);padding:12px 14px;font-size:15px}.dd b{display:block;margin-bottom:4px}
+.dont{background:var(--bad-soft)}.dont b{color:var(--bad)}.do{background:var(--good-soft)}.do b{color:var(--good)}
+@media (max-width:560px){.dd{grid-template-columns:1fr}}
+.story-hero h2{font-size:clamp(26px,4vw,34px);margin:6px 0 4px}
+.story{font-size:19px;line-height:1.8;max-width:65ch;margin:14px 0}
+.story p{margin:0 0 10px}
+.opts.two{grid-template-columns:1fr 1fr}
+.plain{background:var(--paper);border-radius:var(--r-md);padding:14px 16px;margin:8px 0 12px}
+.bad-say{font-size:20px;font-weight:600;color:var(--bad);text-decoration:line-through;text-decoration-thickness:1.5px;text-decoration-color:color-mix(in srgb,var(--bad) 45%,transparent)}
+.jar{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.jcard{display:grid;gap:6px;text-align:start;background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:18px;min-height:150px;align-content:start}
+.jcard .jt{font-family:var(--display);font-size:24px;font-weight:800}
+.jcard .jm,.jcard .ja{display:none}.jcard .je{color:var(--ink-2);font-style:italic}
+.jcard .jhint{font-size:13px;color:var(--muted);margin-top:auto}
+.jcard[aria-expanded="true"]{border-color:var(--mint);background:var(--mint-soft)}
+.jcard[aria-expanded="true"] .jm,.jcard[aria-expanded="true"] .ja{display:block}.jcard[aria-expanded="true"] .jm{font-weight:700}
+.jcard[aria-expanded="true"] .jhint{display:none}
 footer{margin-top:40px;border-top:1px solid var(--line);padding-block:26px;color:var(--muted);font-size:14px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
 </style>
@@ -243,7 +278,7 @@ footer{margin-top:40px;border-top:1px solid var(--line);padding-block:26px;color
 <header class="nav"><div class="nav-in">
   <a class="brand" href="#/"><span class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 5h10a6 6 0 0 1 0 12H9l-5 3z" fill="#E9A93A"/><path d="M8 9h6M8 13h4" stroke="#18233F" stroke-width="2" stroke-linecap="round"/></svg></span>Kalam Business</a>
   <nav class="links" aria-label="Main">
-    <a href="#/">Home</a><a href="#/path">Learning path</a><a href="#/lessons">Lessons</a><a href="#/phrases">My phrases</a>
+    <a href="#/">Home</a><a href="#/path">Learning path</a><a href="#/lessons">Lessons</a><a href="#/phrases">My phrases</a><a href="#/decoder">Office talk</a>
   </nav>
   <div class="stats">
     <span class="stat s" title="Day streak"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c1 4 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3-1-6 1-9z"/></svg><span id="s-streak">0</span></span>
@@ -255,6 +290,7 @@ footer{margin-top:40px;border-top:1px solid var(--line);padding-block:26px;color
   <a href="#/path"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M8.5 6H15a3 3 0 0 1 0 6H9a3 3 0 0 0 0 6h6.5"/></svg>Path</a>
   <a href="#/lessons"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5"/></svg>Lessons</a>
   <a href="#/phrases"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 4h14v16l-7-4-7 4z"/></svg>Phrases</a>
+  <a href="#/decoder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h16v10H9l-5 4z"/></svg>Office talk</a>
 </nav>
 <main id="app"></main>
 <footer><div class="wrap">Kalam Business · English for work, for Arabic speakers. Audio and texts are from the course book, for personal study.</div></footer>
@@ -832,6 +868,118 @@ const LESSONS=[
  {id:"s9",chapter:"c7",art:"coffee",title:"Small talk and office etiquette",ar:"الكلام الخفيف وآداب المكتب",desc:"Chatting with colleagues and handling conflict.",soon:true}
 ];
 
+const CARD_FIX={"pi1": [{"ex": "<mark>Is it OK if I call you back?</mark>"}, {"ex": "<mark>I&#x27;m a little tied up just now.</mark>"}, {"ex": "Now, just to start off with a general question about your background: <mark>can you tell me a little about yourself?</mark>"}, {"ex": "I&#x27;d describe myself as a dynamic team player, self-disciplined and resourceful, with the ability to adapt well to new situations, and <mark>I thrive on new challenges.</mark>"}, {"ex": "I am goal-oriented <mark>and ambitious;</mark> I welcome goals and stretch targets because I really enjoy challenging work."}, {"ex": "<mark>I&#x27;m a</mark> self-starter, problem-solver and detail-oriented."}, {"ex": "I&#x27;m a self-starter, problem-solver and <mark>detail-oriented.</mark>"}], "pi2": [{"ex": "In my role, <mark>I was responsible for</mark> directing a team of six and pulling together strategies and plans to maximize the marketing efforts of the company."}, {"ex": "<mark>I was in charge of</mark> ___, ensuring that ___."}, {"ex": "<mark>My experience includes a variety of</mark> ___."}, {"ex": "The customer response was phenomenal, and <mark>we were able to increase sales by 15%.</mark>"}, {"ex": "I am <mark>ready for a new challenge.</mark>"}, {"ex": "I love my role and co-workers, but I&#x27;ve come to a point where <mark>there are no longer growth opportunities for me</mark> there."}, {"ex": "In my last role, the company suffered some financial hardships and <mark>had to eliminate my job,</mark> along with many others."}], "pi3": [{"ex": "Taking into account my experience and the skills I mentioned earlier, which would be very helpful to the team, <mark>I&#x27;m looking for somewhere between</mark> ___ and ___ for this role."}, {"ex": "I was hoping for something more in the ___ to ___ range, but I&#x27;m definitely <mark>open to negotiating based on the entire</mark> compensation package."}, {"ex": "But for me, <mark>benefits definitely matter as well.</mark>"}, {"ex": "Actually, I don&#x27;t have a specific number in mind, so I&#x27;d feel more comfortable if you could <mark>give me an idea of the salary range.</mark>"}, {"ex": "<mark>I&#x27;ve always been a fan of</mark> X Co.&#x27;s products, and your focus on quality is what drew me and other fans to your products."}, {"ex": "<mark>What are the next steps in the</mark> interview process?"}, {"ex": "<mark>What is the most important indicator of success in this position?</mark>"}], "ff1": [{"ex": "<mark>Do you mind if I take notes while we&#x27;re speaking?</mark>"}, {"ex": "<mark>I really enjoy analyzing situations and solving problems.</mark>"}, {"ex": "One time we couldn&#x27;t get some parts, so <mark>it was up to me to</mark> scavenge parts and adapt them to our needs."}, {"ex": "And <mark>there&#x27;s something else I can bring to the table:</mark> the customer-relations side of things."}, {"ex": "I&#x27;m an effective troubleshooter and I like taking care of details, but <mark>I always keep an eye on the big picture</mark> — and it all comes down to end users and making sure they have a positive experience with the company."}, {"ex": "<mark>I majored in finance and international business</mark> at Ohio University."}, {"ex": "I&#x27;ve worked hard in my education, and now <mark>I&#x27;m ready to put my knowledge into practice.</mark>"}], "ff2": [{"ex": "<mark>I think my grades reflect my work.</mark>"}, {"ex": "<mark>It was not an easy feat, but I managed to succeed</mark> in all three areas, and I think this is a good indication of my diligence and dedication to my responsibilities."}, {"ex": "<mark>My grades are not necessarily a good indication of what I can achieve</mark> professionally — not because I got bad grades, but because the fieldwork and internships I pursued are where I achieved the most."}, {"ex": "Volunteering at ___ not only introduces me to new people but also <mark>allows me to serve my community.</mark>"}, {"ex": "I love reading and <mark>have always been a voracious reader,</mark> which helps me improve my communication, vocabulary and writing skills, and helps me relax."}, {"ex": "<mark>I have two internships under my belt.</mark>"}, {"ex": "I&#x27;ve also <mark>learned how to take ownership of my actions</mark> and be responsible for my team&#x27;s results in the workplace, not just my own."}], "ff3": [{"ex": "<mark>As a fresh graduate, I bring a lot to the table</mark> in terms of skill and ability."}, {"ex": "Additionally, <mark>I always play by the rules and follow company guidelines,</mark> so you can be confident I will always act in the best interest of the business."}, {"ex": "<mark>I want to be</mark> an important part of this department and organization by being the go-to person for solving problems and giving advice to other people on the team."}, {"ex": "If the opportunity came, I would of course <mark>be interested in further job progression,</mark> maybe even leading a small team, but I understand that any extra responsibility comes with time as I prove myself and help the company grow."}, {"ex": "I am <mark>a fast learner and very keen to acquire new skills.</mark>"}, {"ex": "<mark>I can be quite critical of myself,</mark> which can lead to negative self-talk and eventual burnout."}, {"ex": "<mark>I&#x27;ve learned that it&#x27;s OK to say no.</mark>"}], "in1": [{"ex": "<mark>I&#x27;m in charge of managing the creation and release of new products,</mark> as well as the improvement and upkeep of the ones we already have."}, {"ex": "<mark>My days are usually quite varied.</mark>"}, {"ex": "I also work on creating product roadmaps and plans, and tracking the progress of projects <mark>to ensure we stay on schedule.</mark>"}, {"ex": "However, I have come to recognize that <mark>I&#x27;ve reached a plateau in</mark> terms of my experience and personal growth."}, {"ex": "In my current role, I am responsible for <mark>overseeing the day-to-day operations</mark> of the customer service department."}, {"ex": "<mark>I am eager to leverage my expertise</mark> in ___ to make a meaningful impact in ___."}, {"ex": "I&#x27;m particularly drawn to the opportunity to work with ___, as <mark>it aligns perfectly with my career goals</mark> and aspirations."}], "in2": [{"ex": "I believe <mark>my experience and skills align very well with</mark> the requirements of this role."}, {"ex": "I&#x27;m a proven team player and problem-solver with a <mark>track record of delivering results</mark> in fast-paced environments."}, {"ex": "In my last role, I led the development and implementation of an integrated marketing campaign that <mark>generated a 25% increase in website traffic</mark> and a 20% increase in online sales within the first three months."}, {"ex": "One specific <mark>accomplishment that stands out in my mind</mark> was when I led the implementation of a new ERP system."}, {"ex": "Through my leadership, <mark>the project was completed on time and under budget,</mark> resulting in an increase in efficiency and productivity across the company."}, {"ex": "Through my leadership, the project was completed ahead of schedule and <mark>exceeded sales targets by 20%.</mark>"}, {"ex": "<mark>I believe new ideas are crucial for growth</mark> and development, and I have a few ideas I believe could benefit the team."}], "ex1": [{"ex": "<mark>I&#x27;ve heard great things about your work,</mark> and I&#x27;m looking forward to getting to know more about you and your experience."}, {"ex": "I have a diverse background in the product development industry, starting as an entry-level analyst and working <mark>my way up to my current role</mark> as a product manager."}, {"ex": "I also had the opportunity to lead a team, and I was able to make <mark>a significant impact on the company&#x27;s bottom line</mark> by successfully launching several new products."}, {"ex": "<mark>It was a complex project with many moving parts,</mark> and there were multiple teams involved."}, {"ex": "I believe we&#x27;ve covered everything, but I would <mark>like to reiterate my</mark> excitement and enthusiasm for the role of director of product development, and how I believe my experience and skills align well with the position."}, {"ex": "<mark>I have a diverse background in the</mark> ___ industry, starting as an entry-level employee and working my way up."}, {"ex": "I was able to lead <mark>my team to exceed sales targets</mark> and achieve a significant increase in revenue for the company."}], "ex2": [{"ex": "<mark>I consider myself a natural leader,</mark> and I have experience managing teams and delegating tasks to ensure projects are completed on time and within budget."}, {"ex": "I am able to express myself clearly and effectively, <mark>both verbally and in writing.</mark>"}, {"ex": "<mark>I try to understand the root cause of the problem</mark> and identify potential solutions."}, {"ex": "When faced with difficult situations, <mark>I try to stay calm and composed.</mark>"}, {"ex": "I make sure to remain respectful and professional, and <mark>I avoid getting defensive or personal.</mark>"}, {"ex": "<mark>I always strive for a</mark> win-win solution."}, {"ex": "As a result, <mark>we were able to get the project back on track</mark> and deliver it on time and within budget."}], "ex3": [{"ex": "<mark>I stay current by</mark> regularly reading industry-related news and publications, attending conferences and networking events, and staying in touch with my professional network."}, {"ex": "To stay informed about industry developments, <mark>I keep an eye on the market</mark> by following industry-related news and trends."}, {"ex": "<mark>I took a</mark> data-driven approach to analyzing the situation."}, {"ex": "<mark>I implemented a daily</mark> check-in meeting to ensure everyone was on the same page and any issues were addressed in a timely manner."}, {"ex": "To handle competing priorities, I first <mark>analyze the urgency and importance of each task.</mark>"}, {"ex": "I prioritize competing tasks by using the 80/20 rule: <mark>I focus on the 20% of tasks that</mark> will have the greatest impact, and then allocate the rest of my time to the less important tasks."}, {"ex": "My long-term career <mark>goal is to advance to a leadership position</mark> within the company."}], "em1": [{"ex": "First, <mark>make sure your subject line is clear and catchy.</mark>"}, {"ex": "<mark>I&#x27;m reaching out to you today to ask a quick question</mark> about the project deadline."}, {"ex": "I appreciate your help with this, and <mark>I look forward to hearing back from you soon.</mark>"}, {"ex": "If you don&#x27;t know the name of the recipient: <mark>Dear Hiring Manager</mark> · Dear Sir · Dear Madam"}, {"ex": "<mark>The purpose of this email is to address</mark> ___."}, {"ex": "Introduction of a referral: <mark>I was referred to you by</mark> ___, who spoke highly of your work. ___ recommended that I contact you regarding ___."}, {"ex": "<mark>I hope this email finds you well.</mark>"}], "em2": [{"ex": "<mark>Please find attached</mark> ___ for your review and consideration."}, {"ex": "<mark>As you may recall, we previously discussed</mark> ___."}, {"ex": "I wanted to let you know that <mark>we&#x27;re on track to meet the project&#x27;s objectives.</mark>"}, {"ex": "Could we schedule a call to discuss ___ <mark>at your earliest convenience?</mark>"}, {"ex": "<mark>There seems to have been a misunderstanding</mark> about ___, and I wanted to clarify."}, {"ex": "<mark>I apologize for my mistake, and I am committed to making things right.</mark>"}, {"ex": "<mark>Thank you for bringing this matter to our attention,</mark> and please know that we take your concerns very seriously."}], "em3": [{"ex": "Formal closings when you have an ongoing line of communication: <mark>Best regards</mark> · Kind regards · Warm regards · Regards · With appreciation"}, {"ex": "Formal closings when emailing someone for the first time: <mark>Sincerely</mark> · Respectfully · Cordially"}, {"ex": "I look forward to hearing from you. · Please let me know your thoughts. · I&#x27;d love to discuss this further with you. · <mark>Please don&#x27;t hesitate to reach out if you have any questions.</mark> · Let&#x27;s schedule a meeting to discuss this in more detail. · Could you please confirm that you&#x27;ve received this message?"}, {"ex": "I look forward to hearing from you. · Please let me know your thoughts. · I&#x27;d love to discuss this further with you. · Please don&#x27;t hesitate to reach out if you have any questions. · Let&#x27;s schedule a meeting to discuss this in more detail. · <mark>Could you please confirm that you&#x27;ve received this message?</mark>"}, {"ex": "as soon as possible · FYI: for your information · <mark>EOD: end of day</mark> · EOW: end of week"}, {"ex": "<mark>It&#x27;s important to note that</mark> · I&#x27;d like to emphasize that · Please keep in mind that · I&#x27;d like to highlight that"}, {"ex": "due to · because · consequently · therefore · <mark>as a result</mark>"}], "em4": [{"ex": "To assist us in our assessment, <mark>could you kindly provide the following information:</mark>"}, {"ex": "<mark>We appreciate your prompt attention to this matter</mark> and look forward to hearing back from you soon."}, {"ex": "I recently came across your company, and <mark>I wanted to take a moment to introduce myself</mark> and our business."}, {"ex": "In reviewing your company&#x27;s offerings, I believe <mark>there may be potential synergies between our organizations.</mark>"}, {"ex": "<mark>I wanted to follow up on our</mark> ___ that took place on ___."}, {"ex": "To keep the momentum going, I would <mark>like to propose the following next steps:</mark> ___."}, {"ex": "<mark>As per our recent discussion,</mark> I am pleased to provide you with a quotation/proposal for ___ that we offer at ___: pricing, terms, payment and delivery."}], "em5": [{"ex": "<mark>Here are my proposed dates and times:</mark> ___."}, {"ex": "<mark>Please let me know which option works best for you,</mark> or suggest an alternative date and time."}, {"ex": "<mark>We&#x27;re excited to announce</mark> ___."}, {"ex": "<mark>Your input is invaluable</mark> in helping us enhance our ___ and serve you better."}, {"ex": "<mark>This is a gentle reminder that your invoice</mark> ___ remains unpaid as of ___."}, {"ex": "<mark>Please kindly arrange for the payment</mark> at your earliest convenience."}, {"ex": "<mark>Thank you for your business.</mark>"}], "em6": [{"ex": "<mark>We&#x27;re excited to invite you to our upcoming event,</mark> ___, taking place on ___."}, {"ex": "<mark>This is just a friendly reminder that the deadline</mark> for ___ is fast approaching on ___."}, {"ex": "<mark>I am writing to express my interest in the</mark> ___ position advertised on ___."}, {"ex": "With my ___ and a strong background in ___, <mark>I believe I would be a great fit for the role.</mark>"}, {"ex": "<mark>Thank you for considering my application.</mark>"}, {"ex": "<mark>I wanted to acknowledge receipt of your message</mark> and let you know that I&#x27;m currently looking into the matter."}, {"ex": "If you&#x27;re open to it, <mark>would you be available for a</mark> 15–20 minute call sometime next week?"}]};
+/* ============================================================
+   PILOT FEATURES
+   WORDS   — Word Spotlight: one hard/real-world word, 3 places it lives (email, chat, meeting),
+             the words it goes with, the common Arabic-speaker mistake, and how formal it is.
+   UPGRADE — Say it like a pro: a sentence that sounds translated from Arabic → the natural version.
+   JARGON  — Office talk decoder: what people say at work vs what they mean.
+   ============================================================ */
+const WORDS={
+ pi2:[
+  {w:"roll out", pos:"verb", ar:"يطلق / يبدأ تطبيق حاجة على مراحل", def:"to launch something new (a product, a system, a campaign) — often step by step.",
+   book:"I've worked closely with our marketing and sales teams to roll out critical marketing campaigns.",
+   uses:[["Email","We'll roll out the new pricing to all clients on 1 March."],["Chat","heads-up: HR is rolling out the new leave app tomorrow 🚀"],["Meeting","Let's roll it out in Cairo first, then Alex next month."]],
+   goes:["roll out a campaign","roll out a system","a phased roll-out"],
+   dont:["We will make the launching of the system."],doo:["We will roll out the system."], level:2},
+  {w:"phenomenal", pos:"adjective", ar:"هايل / استثنائي", def:"extremely good — much better than expected.",
+   book:"The customer response was phenomenal, and we were able to increase sales by 15%.",
+   uses:[["Email","Thank you all — the response to the launch has been phenomenal."],["Chat","phenomenal work on the deck yesterday 👏"],["Meeting","Q3 results were phenomenal, especially in retail."]],
+   goes:["a phenomenal response","phenomenal results","phenomenal growth"],
+   dont:["The response was very very good."],doo:["The response was phenomenal."], level:2},
+  {w:"leads", pos:"noun", ar:"عملاء محتملين", def:"people or companies who might buy from you — the start of a sale.",
+   book:"A blog post I recently wrote has reached 1,000 organic visits, resulting in 19 leads and 6 sales.",
+   uses:[["Email","The webinar generated 40 new leads; I've shared them with the sales team."],["Chat","any warm leads from the exhibition?"],["Meeting","Our goal this quarter is 200 qualified leads."]],
+   goes:["generate leads","qualified leads","follow up on a lead"],
+   dont:["We got 19 clients maybe."],doo:["We got 19 leads."], level:2},
+  {w:"track record", pos:"noun", ar:"سجل إنجازات / تاريخك في الشغل", def:"your history of results — proof that you have done it before.",
+   book:"Employers are really looking for a track record, for that history.",
+   uses:[["Email","The supplier has a strong track record with government projects."],["Chat","she's got a great track record in B2B sales"],["Meeting","I have a proven track record of hitting targets."]],
+   goes:["a proven track record","a strong track record","a track record of + -ing"],
+   dont:["I have a good history of work."],doo:["I have a proven track record of delivering results."], level:3},
+  {w:"restructure", pos:"verb", ar:"يعيد الهيكلة", def:"to change how a company is organised — usually to save money or change direction.",
+   book:"My company is pursuing a different strategy, restructuring, or being acquired by another organization.",
+   uses:[["Email","As part of the restructuring, the two teams will merge in April."],["Chat","did you hear finance is being restructured?"],["Meeting","After the company restructured, my role no longer existed."]],
+   goes:["restructure a department","a company restructuring","go through a restructuring"],
+   dont:["They fired me because of the new organization."],doo:["My role was eliminated when the company restructured."], level:3},
+  {w:"hybrid", pos:"adjective", ar:"هجين: جزء من البيت وجزء من المكتب", def:"a way of working where you spend some days in the office and some days at home.",
+   book:"I'm looking for a hybrid, remote or in-office setup, or hours my current job doesn't allow.",
+   uses:[["Email","The role is hybrid: three days in the office, two from home."],["Chat","are you fully remote or hybrid?"],["Meeting","We're moving to a hybrid model from next month."]],
+   goes:["hybrid role","hybrid work","a hybrid model"],
+   dont:["I want to work some days from my house."],doo:["I'm looking for a hybrid role."], level:1}
+ ]
+};
+const UPGRADE={
+ pi2:[
+  {plain:"I made the marketing in my old company.", ar:"كنت عامل الماركتنج في شركتي القديمة", pro:["In my previous role, I was responsible for marketing.","I was the marketing in my old company.","I did marketing things before."], a:0, why:"‎made the marketing‎ ترجمة حرفية. قول ‎was responsible for‎."},
+  {plain:"I am working in this company since 3 years.", ar:"بشتغل في الشركة دي من ٣ سنين", pro:["I am working here since 3 years.","I've been with the company for three years.","I work here from 3 years."], a:1, why:"مدة مستمرة لحد دلوقتي = ‎have been … for‎."},
+  {plain:"My boss is very bad, so I want to go.", ar:"مديري وحش فعايز أمشي", pro:["My boss is terrible, so I'm leaving.","My manager and I have different working styles, and I'm looking for a more collaborative environment.","I hate my boss."], a:1, why:"في المقابلة ماتنتقدش مديرك. قولها بشكل مهني."},
+  {plain:"We made the sales bigger 15%.", ar:"كبّرنا المبيعات ١٥٪", pro:["We increased sales by 15%.","We made sales more 15%.","Sales became big 15%."], a:0, why:"‎increase by‎ + النسبة."},
+  {plain:"The company closed my job because no money.", ar:"الشركة لغت وظيفتي عشان مفيش فلوس", pro:["They kicked me out.","The company faced financial difficulties and had to eliminate my role.","No money, so no job."], a:1, why:"‎eliminate my role‎ محترمة ومن غير لوم."},
+  {plain:"I want a bigger position.", ar:"عايز منصب أكبر", pro:["I want a bigger chair.","I'm ready for a more senior role.","Give me a higher job."], a:1, why:"‎a more senior role‎ هي الطريقة الطبيعية."}
+ ]
+};
+const JARGON=[
+ {t:"circle back", m:"return to a topic later", ar:"نرجع للموضوع ده بعدين", eg:"Let's circle back on the budget after lunch.", ch:"meeting"},
+ {t:"loop someone in", m:"add someone to the conversation or email", ar:"دخّل فلان معانا في الموضوع", eg:"Can you loop in Sara from finance?", ch:"email"},
+ {t:"touch base", m:"have a short talk to check how things are", ar:"نتواصل سريع نطمن", eg:"Let's touch base on Thursday.", ch:"chat"},
+ {t:"heads-up", m:"an early warning", ar:"تنبيه مسبق / خلي بالك", eg:"Just a heads-up: the client is coming at 10.", ch:"chat"},
+ {t:"ping", m:"send a quick message", ar:"ابعتلي رسالة سريعة", eg:"Ping me when the file is ready.", ch:"chat"},
+ {t:"bandwidth", m:"time or energy to take on more work", ar:"عندك وقت ومساحة لشغل زيادة", eg:"I don't have the bandwidth for this project this week.", ch:"meeting"},
+ {t:"action items", m:"tasks agreed in a meeting", ar:"المهام المطلوبة بعد الاجتماع", eg:"I'll send the action items after the call.", ch:"email"},
+ {t:"deliverables", m:"the things you must hand in", ar:"المطلوب تسليمه", eg:"The deliverables are due on Friday.", ch:"email"},
+ {t:"EOD", m:"end of the working day", ar:"آخر اليوم", eg:"Can you send it by EOD?", ch:"chat"},
+ {t:"OOO", m:"out of office", ar:"مش في المكتب / أجازة", eg:"I'm OOO until Sunday.", ch:"email"},
+ {t:"on my radar", m:"I'm aware of it and will deal with it", ar:"في بالي ومتابعه", eg:"The invoice issue is on my radar.", ch:"chat"},
+ {t:"take it offline", m:"discuss it privately, not in this meeting", ar:"نتكلم فيه بعد الاجتماع لوحدنا", eg:"Good point — let's take it offline.", ch:"meeting"},
+ {t:"quick win", m:"an easy improvement with fast results", ar:"مكسب سريع وسهل", eg:"Fixing the signup form is a quick win.", ch:"meeting"},
+ {t:"low-hanging fruit", m:"the easiest tasks to do first", ar:"الحاجات السهلة اللي نبدأ بيها", eg:"Let's start with the low-hanging fruit.", ch:"meeting"},
+ {t:"a hard stop", m:"I must leave at an exact time", ar:"لازم أمشي في معاد محدد", eg:"I have a hard stop at 3.", ch:"meeting"},
+ {t:"sync", m:"a short meeting to align", ar:"اجتماع سريع نظبط فيه الدنيا", eg:"Can we have a quick sync tomorrow?", ch:"chat"},
+ {t:"get the ball rolling", m:"start something", ar:"نبدأ ونحرك الموضوع", eg:"Let's get the ball rolling on the new website.", ch:"meeting"},
+ {t:"ballpark figure", m:"a rough estimate", ar:"رقم تقريبي", eg:"Can you give me a ballpark figure for the project?", ch:"email"},
+ {t:"on the same page", m:"agree and understand the same thing", ar:"متفقين وفاهمين نفس الحاجة", eg:"Let's make sure we're all on the same page.", ch:"meeting"},
+ {t:"follow up", m:"contact again to check progress", ar:"أتابع معاك", eg:"I'll follow up with the supplier tomorrow.", ch:"email"}
+];
+/* MINI STORY — AJ Hoge style: a short story in the learner's own industry that reuses the lesson's words,
+   then asks many quick, easy questions so the words repeat again and again. */
+const STORY={
+ pi2:{ title:"The hospital that couldn't lose power", ar:"المستشفى اللي ماينفعش النور يقطع فيها",
+  scene:"Karim is a field engineer at a power-solutions company in Cairo. He installs UPS systems and battery banks.",
+  lines:[
+   "Karim has a strong track record. For five years, he was responsible for installing UPS systems in hospitals and data centres.",
+   "Last year, his company won a huge project: a 400 kVA UPS for a big hospital in Nasr City.",
+   "Karim was in charge of the whole project, ensuring that the operating rooms never lost power — not even for one second.",
+   "The old system used lead-acid batteries. They were heavy, hot and needed a lot of maintenance.",
+   "So Karim's team decided to roll out lithium-ion batteries, one floor at a time.",
+   "The hospital's response was phenomenal. Power cuts stopped being a problem, and the maintenance costs fell by 30%.",
+   "Other hospitals heard about it. In three months, the project generated twenty new leads for the sales team.",
+   "Then the company restructured. Karim's department was merged with sales, and his role changed.",
+   "He wasn't installing systems any more. He was writing reports all day.",
+   "Karim loved his colleagues, but he felt there were no longer growth opportunities for him.",
+   "So now he is ready for a new challenge: a senior role at a solar company that offers hybrid work."
+  ],
+  qa:[
+   {q:"Is Karim a sales manager?", a:"No, he isn't. He's a field engineer. He installs UPS systems and battery banks.", opts:["Yes","No"], k:1},
+   {q:"Does Karim have a weak track record?", a:"No! He has a strong track record — five years in hospitals and data centres.", opts:["Weak","Strong"], k:1},
+   {q:"What was he responsible for?", a:"He was responsible for installing UPS systems in hospitals and data centres.", opts:["Installing UPS systems","Selling cars"], k:0},
+   {q:"How big was the hospital UPS?", a:"It was 400 kVA — a huge project.", opts:["40 kVA","400 kVA"], k:1},
+   {q:"Who was in charge of the project?", a:"Karim was in charge of the whole project.", opts:["Karim","The hospital director"], k:0},
+   {q:"Could the operating rooms lose power for one second?", a:"No, not even for one second. Karim was ensuring that.", opts:["Yes, one second is OK","No, not even one second"], k:1},
+   {q:"Were the old lead-acid batteries light?", a:"No, they weren't light. They were heavy, hot and needed a lot of maintenance.", opts:["Light","Heavy"], k:1},
+   {q:"Did the team roll out the new batteries all at once?", a:"No. They rolled them out one floor at a time.", opts:["All at once","One floor at a time"], k:1},
+   {q:"How was the hospital's response?", a:"It was phenomenal! Power cuts stopped and maintenance costs fell by 30%.", opts:["Phenomenal","Terrible"], k:0},
+   {q:"How many leads did the project generate?", a:"Twenty new leads for the sales team, in three months.", opts:["Two","Twenty"], k:1},
+   {q:"Why did Karim's role change?", a:"Because the company restructured and merged his department with sales.", opts:["The company restructured","He was lazy"], k:0},
+   {q:"Why does he want to leave?", a:"There were no longer growth opportunities for him, so he's ready for a new challenge.", opts:["He hates his colleagues","No more growth opportunities"], k:1},
+   {q:"What kind of work does the new company offer?", a:"Hybrid work — some days in the office, some days from home.", opts:["Hybrid work","Night shifts only"], k:0}
+  ],
+  pov:"Now tell it as Karim, in the past: \"I was responsible for installing UPS systems… I was in charge of a 400 kVA project… The response was phenomenal…\" — say it out loud."
+ }
+};
+
+LESSONS.forEach(l=>{const f=typeof CARD_FIX!=="undefined"&&CARD_FIX[l.id]; if(f) l.cards=l.cards.map((c,i)=>f[i]?{...c,ex:f[i].ex}:c)});
 /* ============================================================
    ILLUSTRATIONS — small flat scenes, one per topic
    ============================================================ */
@@ -898,6 +1046,7 @@ function route(){
   if(page==="lessons") lessons(h[1]);
   else if(page==="path") pathPage();
   else if(page==="phrases") phrases();
+  else if(page==="decoder") decoder();
   else if(page==="lesson") lesson(h[1],h[2]);
   else home();
   window.scrollTo(0,0); stats();
@@ -980,10 +1129,13 @@ function phrases(){
 /* ============================================================
    LESSON PAGE
    ============================================================ */
-const TABS=[["read","Read & listen","اقرا واسمع"],["learn","Learn","اتعلم"],["quiz","Practise","اتمرن"],["match","Match game","العب"],["talk","Role-play","اتكلم"]];
+const ALL_TABS=[["read","Read & listen"],["learn","Learn"],["words","Word spotlight"],["story","Mini story"],["quiz","Practise"],["upgrade","Say it like a pro"],["match","Match game"],["talk","Role-play"]];
+let TABS=ALL_TABS;
+function tabsFor(l){return ALL_TABS.filter(([k])=>k==="words"?WORDS[l.id]:k==="story"?STORY[l.id]:k==="upgrade"?UPGRADE[l.id]:true)}
 let L,tab,tick;
 function lesson(id,t){
   L=LESSONS.find(l=>l.id===id&&!l.soon); if(!L){location.hash="#/lessons";return}
+  TABS=tabsFor(L);
   tab=TABS.some(x=>x[0]===t)?t:"read";
   const c=chapter(L.chapter), n=LESSONS.indexOf(L)+1;
   app.innerHTML=`<div class="wrap">
@@ -994,7 +1146,7 @@ function lesson(id,t){
      <p class="ar" style="color:var(--muted);font-size:18px;margin:6px 0 0">${esc(L.ar)}</p>
      <p style="color:var(--ink-2);margin:10px 0 0">${esc(L.desc)}</p>
    </div><div class="art">${art(L.art)}</div></section>
-   <div class="ltabs" role="tablist">${TABS.map(([k,e,a])=>`<button role="tab" data-t="${k}" aria-selected="${k===tab}">${e}${k==="read"&&S.read[L.id]||k!=="read"&&S.done[L.id]?' <span class="ok">✓</span>':""}</button>`).join("")}</div>
+   <div class="ltabs" role="tablist">${TABS.map(([k,e])=>`<button role="tab" data-t="${k}" aria-selected="${k===tab}">${["words","story","upgrade"].includes(k)?'<span class="new">New</span>':""}${e}${k==="read"&&S.read[L.id]||k==="talk"&&S.done[L.id]?' <span class="ok">✓</span>':""}</button>`).join("")}</div>
    <div class="panel" id="panel"></div></div>`;
   app.querySelectorAll("[data-t]").forEach(b=>b.onclick=()=>{history.replaceState(null,"",`#/lesson/${L.id}/${b.dataset.t}`);setTab(b.dataset.t)});
   setTab(tab);
@@ -1002,14 +1154,15 @@ function lesson(id,t){
 function setTab(t){
   tab=t; stopAudio(); clearInterval(tick);
   app.querySelectorAll("[data-t]").forEach(b=>b.setAttribute("aria-selected",b.dataset.t===t));
+  const sel=app.querySelector(`[data-t="${t}"]`); if(sel&&sel.scrollIntoView) sel.scrollIntoView({inline:"center",block:"nearest"});
   const p=document.getElementById("panel");
-  ({read:readTab,learn:learnTab,quiz:quizTab,match:matchTab,talk:talkTab})[t](p);
+  ({read:readTab,learn:learnTab,words:wordsTab,story:storyTab,quiz:quizTab,upgrade:upgradeTab,match:matchTab,talk:talkTab})[t](p);
 }
 function nextTab(){const i=TABS.findIndex(x=>x[0]===tab); if(i<TABS.length-1){history.replaceState(null,"",`#/lesson/${L.id}/${TABS[i+1][0]}`);setTab(TABS[i+1][0]);document.querySelector(".ltabs").scrollIntoView({block:"start"})}}
 
 /* ---------- read & listen ---------- */
 let AUD=null, rafId=0;
-function stopAudio(){ if(AUD){AUD.pause();AUD=null} cancelAnimationFrame(rafId); if(CLIP){CLIP.pause();CLIP=null} }
+function stopAudio(){ if(AUD){AUD.pause();AUD=null} cancelAnimationFrame(rafId); if(CLIP){CLIP.pause();CLIP=null} if(typeof SEG!=="undefined"&&SEG){SEG.pause();SEG=null} }
 const fmt=s=>isFinite(s)?`${s/60|0}:${String(s%60|0).padStart(2,"0")}`:"0:00";
 function readTab(p){
   let cur=0;
@@ -1061,8 +1214,10 @@ function learnTab(p){
      <div class="meaning ar">${esc(c.ar)}</div>
      <div class="example"><span class="kicker">Example</span><div>${c.ex}</div></div>
      <p class="tip ar">${esc(c.tip)}</p>
-     <div class="actions">${i?'<button class="btn alt" id="bk">Back</button>':""}<button class="btn" id="go">${i<L.cards.length-1?"Next phrase":"Practise these"}</button></div>`;
+     <div class="actions">${i?'<button class="btn alt" id="bk">Back</button>':""}<button class="btn" id="go">${i<L.cards.length-1?"Next phrase":"Keep going"}</button></div>
+     ${phraseBank()}`;
     const sp=p.querySelector("#sp"); if(sp){sp.onclick=()=>play(c)}
+    bindBank(p);
     if(i||tab==="learn") play(c);
     p.querySelector("#go").onclick=()=>{if(i<L.cards.length-1){i++;draw()}else nextTab()};
     const bk=p.querySelector("#bk"); if(bk)bk.onclick=()=>{i--;draw()};
@@ -1130,6 +1285,99 @@ function talkTab(p){
   };
   draw();
 }
+
+/* ---------- phrase bank: every line from the book pages, playable from the book audio ---------- */
+let SEG=null;
+function playSeg(src,t,t2){ if(SEG){SEG.pause()} if(CLIP){CLIP.pause();CLIP=null}
+  const a=new Audio(src); SEG=a; a.currentTime=Math.max(0,t-.15);
+  a.play().catch(()=>{}); if(t2) a.ontimeupdate=()=>{ if(a.currentTime>=t2+.2){a.pause()} } }
+function bankItems(){
+  return (L.reading||[]).flatMap(r=>{const ps=r.lines.filter(l=>l.k==="p");
+    return ps.map((l,i)=>({src:r.src,t:l.t,t2:(ps.slice(i+1).find(n=>n.t>l.t)||{}).t,s:l.s,sec:r.title}))
+      .filter(x=>x.s.split(/\s+/).length<=28 && !/^(Subject|Dear|Best regards|Warm regards|Sincerely)/.test(x.s))});
+}
+function phraseBank(){
+  const items=bankItems(); if(!items.length) return "";
+  return `<details class="bank-all"><summary>📚 All phrases from these pages <span class="chip">${items.length}</span><span class="ar" style="color:var(--muted);font-size:14px">كل الجمل اللي في الصفحات دي، بصوت الكتاب</span></summary>
+   <div class="bank-list">${items.map((x,i)=>`<div class="bank-row"><button class="say sm" data-b="${i}" aria-label="Listen">${SPK}</button><span>${fmtLine(x.s)}</span></div>`).join("")}</div></details>`;
+}
+function bindBank(p){ const items=bankItems(); p.querySelectorAll("[data-b]").forEach(b=>b.onclick=()=>{const x=items[+b.dataset.b]; playSeg(x.src,x.t,x.t2)}); }
+
+/* ---------- word spotlight ---------- */
+const CH_ICON={Email:"✉️",Chat:"💬",Meeting:"👥"};
+function wordsTab(p){
+  const ws=WORDS[L.id]; let i=0;
+  const draw=()=>{const w=ws[i];
+    p.innerHTML=`<div class="prog"><i style="width:${(i+1)/ws.length*100}%"></i></div>
+     <span class="kicker">Word ${i+1} of ${ws.length} · real-world English</span>
+     <div class="spot-head"><h2>${esc(w.w)}</h2><span class="chip">${w.pos}</span><span class="lvl" title="How formal">${["","Casual","Neutral","Formal"][w.level]}</span></div>
+     <p class="spot-def">${esc(w.def)}</p><p class="ar spot-ar">${esc(w.ar)}</p>
+     <div class="book-line"><span class="kicker">In the book</span><div>${esc(w.book)}</div></div>
+     <span class="kicker">Where you'll use it</span>
+     <div class="uses">${w.uses.map(([c,t])=>`<div class="use u-${c.toLowerCase()}"><b>${CH_ICON[c]} ${c}</b><span>${esc(t)}</span></div>`).join("")}</div>
+     <span class="kicker">Words that go with it</span><div class="goes">${w.goes.map(g=>`<span class="chip">${esc(g)}</span>`).join("")}</div>
+     <div class="dd"><div class="dont"><b>✗ Don't say</b>${w.dont.map(esc).join("<br>")}</div><div class="do"><b>✓ Say</b>${w.doo.map(esc).join("<br>")}</div></div>
+     <div class="actions">${i?'<button class="btn alt" id="bk">Back</button>':""}<button class="btn" id="go">${i<ws.length-1?"Next word":"Read the mini story"}</button></div>`;
+    p.querySelector("#go").onclick=()=>{if(i<ws.length-1){i++;draw()}else nextTab()};
+    const bk=p.querySelector("#bk"); if(bk)bk.onclick=()=>{i--;draw()};
+  }; draw();
+}
+
+/* ---------- mini story (AJ Hoge style: story, then many quick questions) ---------- */
+function storyTab(p){
+  const st=STORY[L.id]; let step=0, qi=0, right=0; const words=(WORDS[L.id]||[]).map(w=>w.w).concat(L.cards.map(c=>c.en.replace(/[.…,?]+$/,"").split(" ").slice(0,4).join(" ")));
+  const hl=s=>{let h=esc(s); (WORDS[L.id]||[]).forEach(w=>{const re=new RegExp("\\b("+w.w.replace(/[-\s]/g,"[-\\s]?")+"\\w*)","i"); h=h.replace(re,'<mark>$1</mark>')}); return h};
+  const draw=()=>{
+    if(step===0){ p.innerHTML=`<div class="story-hero"><span class="kicker">Mini story · AJ Hoge method</span><h2>${esc(st.title)}</h2><p class="ar" style="color:var(--muted)">${esc(st.ar)}</p><p>${esc(st.scene)}</p></div>
+       <div class="hint"><span>💡</span><span>Read the story once. Then answer lots of quick, easy questions — fast, without thinking too much. The repetition is what makes the words stick.<br><span class="ar">اقرا القصة مرة، وبعدين جاوب بسرعة على أسئلة كتير سهلة. التكرار هو اللي بيثبّت الكلمات.</span></span></div>
+       <div class="story">${st.lines.map(l=>`<p>${hl(l)}</p>`).join("")}</div>
+       <div class="actions"><button class="btn" id="go">Start the questions</button></div>`;
+      p.querySelector("#go").onclick=()=>{step=1;draw()}; return }
+    if(step===1){ const q=st.qa[qi];
+      p.innerHTML=`<div class="prog"><i style="width:${qi/st.qa.length*100}%"></i></div><span class="kicker">Question ${qi+1} of ${st.qa.length} · answer fast!</span>
+       <p class="q" style="font-size:24px">${esc(q.q)}</p><div class="opts two">${q.opts.map((o,k)=>`<button class="opt" data-k="${k}">${esc(o)}</button>`).join("")}</div>
+       <div id="fb" hidden></div><div class="actions"><button class="btn" id="go" hidden>Next</button></div>`;
+      p.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{const ok=+b.dataset.k===q.k; if(ok)right++;
+        p.querySelectorAll(".opt").forEach(x=>{x.disabled=true;if(+x.dataset.k===q.k)x.classList.add("right")}); if(!ok)b.classList.add("wrong");
+        const f=p.querySelector("#fb");f.hidden=false;f.className="fb "+(ok?"good":"bad");f.innerHTML=`<b>${ok?"Yes!":"Not quite"}</b><span>${hl(q.a)}</span>`;
+        const g=p.querySelector("#go");g.hidden=false;g.focus();g.onclick=()=>{qi++; if(qi<st.qa.length)draw(); else {step=2;draw()}}}); return }
+    p.innerHTML=`<div class="done-box"><h2>${right} / ${st.qa.length}</h2><p>You just used the lesson's words ${st.qa.length*2}+ times.</p></div>
+     <div class="hint"><span>🎤</span><span><b>Point of view:</b> ${esc(st.pov)}<br><span class="ar">احكي القصة بصوت عالي كأنك انت Karim.</span></span></div>
+     <div class="actions"><button class="btn alt" id="again">Read again</button><button class="btn" id="nx">Practise</button></div>`;
+    p.querySelector("#again").onclick=()=>{step=0;qi=0;right=0;draw()}; p.querySelector("#nx").onclick=nextTab;
+  }; draw();
+}
+
+/* ---------- say it like a pro ---------- */
+function upgradeTab(p){
+  const it=UPGRADE[L.id]; let i=0, good=0;
+  const draw=()=>{ if(i>=it.length){p.innerHTML=`<div class="done-box"><h2>${good} / ${it.length}</h2><p>Upgraded sentences sound natural at work.</p><div class="actions" style="justify-content:center"><button class="btn alt" id="again">Again</button><button class="btn" id="nx">Match game</button></div></div>`;p.querySelector("#again").onclick=()=>upgradeTab(p);p.querySelector("#nx").onclick=nextTab;return}
+    const u=it[i];
+    p.innerHTML=`<div class="prog"><i style="width:${i/it.length*100}%"></i></div><span class="kicker">Say it like a pro · ${i+1} of ${it.length}</span>
+     <div class="plain"><span class="kicker">What we often say</span><div class="bad-say">“${esc(u.plain)}”</div><div class="ar" style="color:var(--muted)">${esc(u.ar)}</div></div>
+     <p class="q">Which one sounds natural at work?</p>
+     <div class="opts">${u.pro.map((o,k)=>`<button class="opt" data-k="${k}">${esc(o)}</button>`).join("")}</div>
+     <div id="fb" hidden></div><div class="actions"><button class="btn" id="go" hidden>Next</button></div>`;
+    p.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{const ok=+b.dataset.k===u.a; if(ok)good++;
+      p.querySelectorAll(".opt").forEach(x=>{x.disabled=true;if(+x.dataset.k===u.a)x.classList.add("right")}); if(!ok)b.classList.add("wrong");
+      const f=p.querySelector("#fb");f.hidden=false;f.className="fb "+(ok?"good":"bad");f.innerHTML=`<b>${ok?"That's how pros say it":"The natural version is highlighted"}</b><span class="ar">${esc(u.why)}</span>`;
+      const g=p.querySelector("#go");g.hidden=false;g.focus();g.onclick=()=>{i++;draw()}}); };
+  draw();
+}
+
+/* ---------- office talk decoder ---------- */
+function decoder(){
+  let f="all";
+  const draw=()=>{const list=JARGON.filter(j=>f==="all"||j.ch===f);
+   app.innerHTML=`<div class="wrap"><section class="phead"><a class="back" href="#/">← Home</a><h1>Office talk</h1>
+    <p>The English people really use at work today — in chats, emails and meetings — and what it actually means.</p><p class="ar">الكلام اللي بيتقال في الشركات فعلًا، ومعناه الحقيقي بالمصري.</p>
+    <div class="filters">${[["all","All"],["chat","💬 Chat"],["email","✉️ Email"],["meeting","👥 Meeting"]].map(([k,t])=>`<button data-f="${k}" aria-pressed="${k===f}">${t}</button>`).join("")}</div></section>
+    <div class="jar">${list.map(j=>`<button class="jcard" aria-expanded="false"><span class="jt">${esc(j.t)}</span><span class="jm">${esc(j.m)}</span><span class="ja ar">${esc(j.ar)}</span><span class="je">“${esc(j.eg)}”</span><span class="jhint">Tap to see the meaning</span></button>`).join("")}</div></div>`;
+   app.querySelectorAll("[data-f]").forEach(b=>b.onclick=()=>{f=b.dataset.f;draw()});
+   app.querySelectorAll(".jcard").forEach(b=>b.onclick=()=>b.setAttribute("aria-expanded",b.getAttribute("aria-expanded")==="true"?"false":"true"));
+  }; draw();
+}
+
 function finish(p,good,total){
   const first=!S.done[L.id], gain=20+(SC.quiz||0)*5+good*5+((SC.time||99)<20?10:0);
   S.xp+=gain; S.done[L.id]=true; bump(); save(); stats();
