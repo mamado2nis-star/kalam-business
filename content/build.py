@@ -24,6 +24,10 @@ ch3={}
 for sec in json.load(open('/home/claude/asr/read_meetings.json')):
     ch3[sec['key']]={'title':sec['title'],'src':f"audio/ch3/book-{sec['key']}.mp3",'lines':sec['lines']}
 t=t.replace('/*__CH3__*/','const READING_CH3='+json.dumps(ch3,ensure_ascii=False)+';\n'+open('/home/claude/asr/ch3_lessons.js').read())
+ch4={}
+for sec in json.load(open('/home/claude/asr/read_presenting.json')):
+    ch4[sec['key']]={'title':sec['title'],'src':f"audio/ch4/book-{sec['key']}.mp3",'lines':sec['lines']}
+t=t.replace('/*__CH4__*/','const READING_CH4='+json.dumps(ch4,ensure_ascii=False)+';\n'+open('/home/claude/asr/ch4_lessons.js').read())
 t=t.replace('/*__PILOT__*/',open('/home/claude/asr/pilot.js').read())
 t=t.replace('/*__STORIES__*/',open('/home/claude/asr/stories.js').read()+'\n'+open('/home/claude/asr/stories2.js').read()+'\n'+open('/home/claude/asr/stories3.js').read())
 import glob,os
