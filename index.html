@@ -2441,6 +2441,9 @@ const SAY={"l1":{"bc1":{"Karim: Mona, did you hear that one of our competitors d
 Object.assign(STORY.pi2,{field:"UPS & batteries",fieldAr:"الـ UPS والبطاريات",hero:"Karim",icon:"🔋",tech:[["UPS","جهاز الـ UPS"],["kVA","كيلو فولت أمبير (قدرة الجهاز)"],["battery bank","مجموعة بطاريات"],["lead-acid","بطاريات رصاص حمضية"],["lithium-ion","بطاريات ليثيوم أيون"]]});
 if(typeof STORY_MORE!=="undefined") Object.assign(STORY,STORY_MORE);
 if(typeof BEC!=="undefined") Object.assign(STORY,BEC);
+/* every lesson of a book unit starts with that unit's story */
+(function(){const first={}; LESSONS.forEach(l=>{ if(l.soon||!l.reading||!l.reading.length) return; if(!first[l.part]) first[l.part]=l;
+  const f=first[l.part], st=f.reading[0]; if(f!==l && st && /story/i.test(st.title) && l.reading[0]!==st){ l.reading=[st].concat(l.reading); l.storyPre=true } })})();
 LESSONS.forEach(l=>{const f=typeof CARD_FIX!=="undefined"&&CARD_FIX[l.id]; if(f) l.cards=l.cards.map((c,i)=>f[i]?{...c,ex:f[i].ex}:c)});
 /* ============================================================
    ILLUSTRATIONS — small flat scenes, one per topic
@@ -2704,7 +2707,7 @@ function fmtLine(s){
 /* ---------- learn ---------- */
 let LMODE="key"; try{LMODE=localStorage.getItem("kalam-lmode")||"key"}catch(e){}
 function allItems(){
-  return (L.reading||[]).flatMap(r=>{const ps=r.lines.filter(l=>l.k==="p");
+  return (L.reading||[]).slice(L.storyPre?1:0).flatMap(r=>{const ps=r.lines.filter(l=>l.k==="p");
     return ps.map((l,i)=>({src:r.src,t:l.t,t2:(ps.slice(i+1).find(n=>n.t>l.t)||{}).t,s:l.s,sec:r.title}))
       .filter(x=>!/^(Subject|Dear|Best regards|Warm regards|Sincerely)/.test(x.s)&&x.s.split(" ").length>2)});
 }
