@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "get back on track",
+   "pos": "phrase",
+   "ar": "نرجع للمسار الصح",
+   "def": "to return to the main topic or plan after a delay or distraction.",
+   "book": "Let me get back on track and continue with the presentation.",
+   "uses": [
+    [
+     "Email",
+     "With the new parts delivered, the project is back on track for handover in March."
+    ],
+    [
+     "Chat",
+     "ok we drifted a bit, let's get back on track"
+    ],
+    [
+     "Meeting",
+     "Let's get back on track — we still need to agree on the payment terms."
+    ]
+   ],
+   "goes": [
+    "get back on track",
+    "keep the project on track",
+    "go off track"
+   ],
+   "dont": [
+    "Let's return to the line."
+   ],
+   "doo": [
+    "Let's get back on track."
+   ],
+   "level": 1
+  },
+  {
+   "w": "reiterate",
+   "pos": "verb",
+   "ar": "يأكد تاني / يعيد التأكيد",
+   "def": "to say something again to make it clear or to emphasize it.",
+   "book": "Let me backtrack and reiterate the main points so we can move forward.",
+   "uses": [
+    [
+     "Email",
+     "I'd like to reiterate that all payments must be made before delivery."
+    ],
+    [
+     "Chat",
+     "just reiterating: site access is from 9 to 5 only"
+    ],
+    [
+     "Meeting",
+     "Let me reiterate our commitment to a four-hour response time."
+    ]
+   ],
+   "goes": [
+    "reiterate the main points",
+    "reiterate a commitment",
+    "I'd like to reiterate that"
+   ],
+   "dont": [
+    "I say again another time that the warranty is two years."
+   ],
+   "doo": [
+    "I'd like to reiterate that the warranty is two years."
+   ],
+   "level": 3
+  },
+  {
+   "w": "rephrase",
+   "pos": "verb",
+   "ar": "يقول الكلام بطريقة تانية",
+   "def": "to say or write something again using different words, to make it clearer.",
+   "book": "Could you please rephrase it?",
+   "uses": [
+    [
+     "Email",
+     "I've rephrased the payment clause so it's clearer for the client."
+    ],
+    [
+     "Chat",
+     "can u rephrase that? not sure what the client wants"
+    ],
+    [
+     "Meeting",
+     "Let me rephrase: we need the site ready before we install the UPS."
+    ]
+   ],
+   "goes": [
+    "rephrase the question",
+    "let me rephrase",
+    "rephrase a sentence"
+   ],
+   "dont": [
+    "Can you say it by another way?"
+   ],
+   "doo": [
+    "Could you rephrase that?"
+   ],
+   "level": 2
+  },
+  {
+   "w": "context",
+   "pos": "noun",
+   "ar": "خلفية الموضوع / السياق",
+   "def": "the background information that helps you understand a situation.",
+   "book": "Can you give me a bit more context around your question?",
+   "uses": [
+    [
+     "Email",
+     "For context, the client had two UPS failures last month before contacting us."
+    ],
+    [
+     "Chat",
+     "any context on why they cancelled the PO?"
+    ],
+    [
+     "Meeting",
+     "Let me give you some context before we look at the numbers."
+    ]
+   ],
+   "goes": [
+    "give some context",
+    "for context",
+    "in this context"
+   ],
+   "dont": [
+    "Give me the background story of the question."
+   ],
+   "doo": [
+    "Can you give me a bit more context?"
+   ],
+   "level": 2
+  },
+  {
+   "w": "resonate with",
+   "pos": "verb",
+   "ar": "يلمس / يأثّر في ويلاقي صدى عند",
+   "def": "to seem important or meaningful to someone because it matches their needs or feelings.",
+   "book": "First, we need to focus on developing high-quality content that resonates with our target audience.",
+   "uses": [
+    [
+     "Email",
+     "The message about zero downtime really resonated with the hospital's management."
+    ],
+    [
+     "Chat",
+     "that 'no power, no business' slide really resonated with them 👌"
+    ],
+    [
+     "Meeting",
+     "We need a pitch that resonates with factory owners, not just engineers."
+    ]
+   ],
+   "goes": [
+    "resonate with customers",
+    "resonate with the audience",
+    "really resonate"
+   ],
+   "dont": [
+    "This idea touched the heart of the clients."
+   ],
+   "doo": [
+    "This idea really resonated with the clients."
+   ],
+   "level": 3
+  },
+  {
+   "w": "timeline",
+   "pos": "noun",
+   "ar": "الجدول الزمني",
+   "def": "a plan showing when each stage of a project will happen.",
+   "book": "In conclusion, I want to reiterate the key points we discussed today, including our new digital marketing strategy, the importance of influencer marketing, and our timeline for implementation.",
+   "uses": [
+    [
+     "Email",
+     "Please find attached the project timeline for the solar installation."
+    ],
+    [
+     "Chat",
+     "what's the timeline on the battery replacement?"
+    ],
+    [
+     "Meeting",
+     "The timeline is tight, but we can finish before Ramadan."
+    ]
+   ],
+   "goes": [
+    "a project timeline",
+    "a tight timeline",
+    "timeline for implementation"
+   ],
+   "dont": [
+    "What is the time table of the project?"
+   ],
+   "doo": [
+    "What's the timeline for the project?"
+   ],
+   "level": 2
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "Sorry, I forgot what I was saying.",
+   "ar": "آسف، نسيت كنت بقول إيه",
+   "pro": [
+    "Sorry, I seem to have lost my train of thought.",
+    "Sorry, I forgot what I say.",
+    "Sorry, my mind is gone."
+   ],
+   "a": 0,
+   "why": "‎lost my train of thought‎ = الفكرة هربت مني، بطريقة مهنية."
+  },
+  {
+   "plain": "From the numbers, we see you must change the batteries.",
+   "ar": "من الأرقام، لازم تغيروا البطاريات",
+   "pro": [
+    "From the numbers, you must change batteries.",
+    "Based on the data, we recommend replacing the batteries.",
+    "The numbers say change the batteries."
+   ],
+   "a": 1,
+   "why": "‎Based on the data, we recommend …‎ أهدى وأقوى من ‎you must‎."
+  },
+  {
+   "plain": "We thought a lot and we see the best is solar.",
+   "ar": "فكرنا كتير وشايفين إن الأحسن الطاقة الشمسية",
+   "pro": [
+    "We thought a lot and solar is the best.",
+    "We see that solar is more better.",
+    "After careful consideration, our team recommends a solar solution."
+   ],
+   "a": 2,
+   "why": "‎After careful consideration‎ بتوضح إن التوصية مدروسة."
+  },
+  {
+   "plain": "So, in short, we talked about three things.",
+   "ar": "يعني باختصار اتكلمنا عن ٣ حاجات",
+   "pro": [
+    "To recap, we discussed three key points.",
+    "In short, we talked in three things.",
+    "So we said three things."
+   ],
+   "a": 0,
+   "why": "‎To recap, we discussed …‎ للتلخيص في آخر العرض."
+  },
+  {
+   "plain": "Now ask me any questions.",
+   "ar": "دلوقتي اسألوني أي أسئلة",
+   "pro": [
+    "Now you ask me the questions.",
+    "I'd like to open the floor for any questions you may have.",
+    "Questions now, please ask."
+   ],
+   "a": 1,
+   "why": "‎open the floor‎ = نفتح باب الأسئلة للجمهور."
+  },
+  {
+   "plain": "Did you understand my answer?",
+   "ar": "فهمت إجابتي؟",
+   "pro": [
+    "You understood my answer?",
+    "Is my answer clear to you or no?",
+    "Did that answer your question?"
+   ],
+   "a": 2,
+   "why": "‎Did that answer your question?‎ بتسأل عن الإجابة مش عن فهم الشخص."
+  }
+ ]
+}

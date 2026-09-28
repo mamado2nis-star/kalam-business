@@ -29,7 +29,7 @@ for sec in json.load(open('/home/claude/asr/read_presenting.json')):
     ch4[sec['key']]={'title':sec['title'],'src':f"audio/ch4/book-{sec['key']}.mp3",'lines':sec['lines']}
 t=t.replace('/*__CH4__*/','const READING_CH4='+json.dumps(ch4,ensure_ascii=False)+';\n'+open('/home/claude/asr/ch4_lessons.js').read())
 t=t.replace('/*__PILOT__*/',open('/home/claude/asr/pilot.js').read())
-t=t.replace('/*__STORIES__*/',open('/home/claude/asr/stories.js').read()+'\n'+open('/home/claude/asr/stories2.js').read()+'\n'+open('/home/claude/asr/stories3.js').read())
+t=t.replace('/*__STORIES__*/',open('/home/claude/asr/stories.js').read()+'\n'+open('/home/claude/asr/stories2.js').read()+'\n'+open('/home/claude/asr/stories3.js').read()+'\n'+open('/home/claude/asr/stories4.js').read()+'\n'+open('/home/claude/asr/bec.js').read())
 import glob,os
 say={}
 for f in sorted(glob.glob('/home/claude/tts/maps/*/*.json')):

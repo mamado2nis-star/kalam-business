@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "streamline",
+   "pos": "verb",
+   "ar": "يبسّط ويسرّع الإجراءات",
+   "def": "to make a process simpler, faster and cheaper by removing unnecessary steps.",
+   "book": "Our fulfillment process is designed to streamline the order fulfillment process, reducing the time and cost involved in getting products to customers.",
+   "uses": [
+    [
+     "Email",
+     "Our new ticketing system will streamline how we handle UPS service calls."
+    ],
+    [
+     "Chat",
+     "we need to streamline the quotation approvals, 3 signatures is too much 😅"
+    ],
+    [
+     "Meeting",
+     "By streamlining the spare-parts process, we cut our response time by two days."
+    ]
+   ],
+   "goes": [
+    "streamline a process",
+    "streamline operations",
+    "a streamlined workflow"
+   ],
+   "dont": [
+    "We want to make the process more easy and fast."
+   ],
+   "doo": [
+    "We want to streamline the process."
+   ],
+   "level": 2
+  },
+  {
+   "w": "tailored to",
+   "pos": "adjective",
+   "ar": "متفصّل على مقاس / مناسب بالظبط لاحتياج",
+   "def": "designed or changed to fit the exact needs of a particular customer.",
+   "book": "Turning to our next point, which is pricing: at Streamline Fulfillment, we offer competitive pricing options that are tailored to the specific needs of each client.",
+   "uses": [
+    [
+     "Email",
+     "Please find attached a maintenance proposal tailored to your data-centre requirements."
+    ],
+    [
+     "Chat",
+     "can we tailor the solar offer to their budget? they won't go above 2M"
+    ],
+    [
+     "Meeting",
+     "Every battery solution we propose is tailored to the customer's load and backup time."
+    ]
+   ],
+   "goes": [
+    "tailored to your needs",
+    "a tailored solution",
+    "tailor an offer to"
+   ],
+   "dont": [
+    "We make a special offer on your size."
+   ],
+   "doo": [
+    "We'll prepare an offer tailored to your needs."
+   ],
+   "level": 2
+  },
+  {
+   "w": "cost-effective",
+   "pos": "adjective",
+   "ar": "موفّر / يستاهل فلوسه",
+   "def": "giving good results for the money you spend.",
+   "book": "We work with a network of trusted partners to provide reliable and cost-effective shipping solutions to our clients worldwide.",
+   "uses": [
+    [
+     "Email",
+     "Lithium batteries cost more upfront but are more cost-effective over ten years."
+    ],
+    [
+     "Chat",
+     "refurbishing the old UPS might be more cost-effective than replacing it tbh"
+    ],
+    [
+     "Meeting",
+     "We're looking for the most cost-effective way to cover all three branches."
+    ]
+   ],
+   "goes": [
+    "a cost-effective solution",
+    "highly cost-effective",
+    "cost-effective in the long run"
+   ],
+   "dont": [
+    "This solution is economic for the money."
+   ],
+   "doo": [
+    "This is a cost-effective solution."
+   ],
+   "level": 2
+  },
+  {
+   "w": "compromise on",
+   "pos": "verb",
+   "ar": "يتنازل عن / يقلّل من (الجودة مثلاً)",
+   "def": "to accept a lower standard of something in order to save money or time.",
+   "book": "Our commitment to affordable pricing does not mean that we compromise on quality.",
+   "uses": [
+    [
+     "Email",
+     "We can reduce the price by using a local brand, but we won't compromise on battery quality."
+    ],
+    [
+     "Chat",
+     "cheaper cables = compromising on safety. not doing it 🙅"
+    ],
+    [
+     "Meeting",
+     "We can adjust the payment terms, but we can't compromise on the service level."
+    ]
+   ],
+   "goes": [
+    "compromise on quality",
+    "compromise on safety",
+    "without compromising on"
+   ],
+   "dont": [
+    "We will not make a discount on the quality."
+   ],
+   "doo": [
+    "We will not compromise on quality."
+   ],
+   "level": 2
+  },
+  {
+   "w": "transparency",
+   "pos": "noun",
+   "ar": "الشفافية / الوضوح في التعامل",
+   "def": "being open and clear, with nothing hidden — especially about prices and costs.",
+   "book": "We also believe in transparency when it comes to pricing.",
+   "uses": [
+    [
+     "Email",
+     "For full transparency, the quotation lists labour and spare parts separately."
+    ],
+    [
+     "Chat",
+     "let's be transparent with the client about the delay"
+    ],
+    [
+     "Meeting",
+     "Transparency on pricing is what keeps our corporate clients with us."
+    ]
+   ],
+   "goes": [
+    "full transparency",
+    "transparency in pricing",
+    "for the sake of transparency"
+   ],
+   "dont": [
+    "We are clear and nothing under the table."
+   ],
+   "doo": [
+    "We believe in full transparency."
+   ],
+   "level": 3
+  },
+  {
+   "w": "inquiry",
+   "pos": "noun",
+   "ar": "استفسار",
+   "def": "a question you ask to get information, often from a customer to a company.",
+   "book": "Can you handle returns and customer service inquiries?",
+   "uses": [
+    [
+     "Email",
+     "Thank you for your inquiry about our UPS maintenance contracts."
+    ],
+    [
+     "Chat",
+     "got 3 inquiries about solar inverters from the exhibition 👀"
+    ],
+    [
+     "Meeting",
+     "Our call centre handles all service inquiries within 24 hours."
+    ]
+   ],
+   "goes": [
+    "a customer inquiry",
+    "handle inquiries",
+    "in response to your inquiry"
+   ],
+   "dont": [
+    "Thank you for your asking about the prices."
+   ],
+   "doo": [
+    "Thank you for your inquiry about our prices."
+   ],
+   "level": 3
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "Today I will talk about four things.",
+   "ar": "النهارده هتكلم عن ٤ حاجات",
+   "pro": [
+    "Our agenda today will cover four main topics.",
+    "Today I will speak in four things.",
+    "Today we have four points to say them."
+   ],
+   "a": 0,
+   "why": "افتح العرض بـ ‎agenda‎ واضحة: ‎Our agenda today will cover …‎"
+  },
+  {
+   "plain": "Look at this graph, our sales became more.",
+   "ar": "بصوا على الجراف ده، مبيعاتنا زادت",
+   "pro": [
+    "Look the graph, sales is more.",
+    "As you can see from this graph, our sales have steadily increased.",
+    "This graph, you see, sales went up up."
+   ],
+   "a": 1,
+   "why": "‎As you can see from this graph‎ بتوجّه عين الجمهور بشكل مهني."
+  },
+  {
+   "plain": "Our company is the best and we make everything for the customer.",
+   "ar": "شركتنا الأحسن وبنعمل كل حاجة للعميل",
+   "pro": [
+    "We are the best company and we do all things.",
+    "We make everything for all customers.",
+    "We pride ourselves on offering solutions tailored to each client's needs."
+   ],
+   "a": 2,
+   "why": "بدل ما تقول إحنا الأحسن، قول ‎We pride ourselves on …‎"
+  },
+  {
+   "plain": "Sorry, I forgot to say something important.",
+   "ar": "آسف نسيت أقول حاجة مهمة",
+   "pro": [
+    "I want to apologize for not mentioning an important detail.",
+    "Sorry, I forgot to tell something important.",
+    "Sorry for forgetting to say."
+   ],
+   "a": 0,
+   "why": "‎apologize for not mentioning‎ اعتذار مهني بدل ‎I forgot‎."
+  },
+  {
+   "plain": "The price is fixed, there is no extra money after.",
+   "ar": "السعر ثابت ومفيش فلوس زيادة بعدين",
+   "pro": [
+    "The price is fixed and no more money after.",
+    "No extra money will come later.",
+    "There are no hidden fees or charges."
+   ],
+   "a": 2,
+   "why": "‎no hidden fees or charges‎ بتطمّن العميل إن مفيش مفاجآت."
+  },
+  {
+   "plain": "If you have any question, ask me.",
+   "ar": "لو عندك أي سؤال اسألني",
+   "pro": [
+    "Any question, ask me.",
+    "If you have any further questions, please do not hesitate to ask me.",
+    "If there is questions, you can asking me."
+   ],
+   "a": 1,
+   "why": "‎please do not hesitate to‎ أدب وترحيب بالأسئلة."
+  }
+ ]
+}

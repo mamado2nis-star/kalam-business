@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "outline",
+   "pos": "noun",
+   "ar": "ملخص للنقط الرئيسية / هيكل",
+   "def": "a short list of the main points of something, without the details.",
+   "book": "Here's a brief outline of what we'll be covering today.",
+   "uses": [
+    [
+     "Email",
+     "Please find below a brief outline of the proposed maintenance plan."
+    ],
+    [
+     "Chat",
+     "can u send me a rough outline of the pitch before tmrw?"
+    ],
+    [
+     "Meeting",
+     "Here's a quick outline of the solar project phases."
+    ]
+   ],
+   "goes": [
+    "a brief outline",
+    "outline the plan",
+    "in outline"
+   ],
+   "dont": [
+    "I will give you the headlines of the topics."
+   ],
+   "doo": [
+    "Here's a brief outline of today's topics."
+   ],
+   "level": 2
+  },
+  {
+   "w": "address",
+   "pos": "verb",
+   "ar": "يتعامل مع / يحل (مشكلة أو تحدي)",
+   "def": "to deal with a problem or question and try to solve it.",
+   "book": "I'll begin by discussing the challenges that organizations face in project management and how our training course can help address them.",
+   "uses": [
+    [
+     "Email",
+     "Our engineer will visit on Sunday to address the battery alarm issue."
+    ],
+    [
+     "Chat",
+     "did anyone address the client's complaint about the invoice?"
+    ],
+    [
+     "Meeting",
+     "Our new service contract addresses the main concerns you raised last month."
+    ]
+   ],
+   "goes": [
+    "address an issue",
+    "address concerns",
+    "address a complaint"
+   ],
+   "dont": [
+    "We will solve for the problem of the batteries."
+   ],
+   "doo": [
+    "We will address the battery issue."
+   ],
+   "level": 3
+  },
+  {
+   "w": "wrap up",
+   "pos": "phrasal verb",
+   "ar": "يختم / يقفل الموضوع",
+   "def": "to finish a meeting, presentation or task.",
+   "book": "Finally, I'll wrap up with information on how to enroll in the course and answer any questions you may have.",
+   "uses": [
+    [
+     "Email",
+     "We aim to wrap up the site survey by Thursday and send the quotation on Sunday."
+    ],
+    [
+     "Chat",
+     "let's wrap up, I have a call at 3"
+    ],
+    [
+     "Meeting",
+     "Before we wrap up, let's agree on the next steps."
+    ]
+   ],
+   "goes": [
+    "wrap up a meeting",
+    "wrap things up",
+    "before we wrap up"
+   ],
+   "dont": [
+    "Let's close the meeting now."
+   ],
+   "doo": [
+    "Let's wrap up the meeting."
+   ],
+   "level": 1
+  },
+  {
+   "w": "dedicated",
+   "pos": "adjective",
+   "ar": "مخصص لـ",
+   "def": "used only for one particular purpose or person.",
+   "book": "If you could hold your questions until the end, we'll have a dedicated Q&A session where we can discuss any questions you may have.",
+   "uses": [
+    [
+     "Email",
+     "Your account will have a dedicated service engineer available 24/7."
+    ],
+    [
+     "Chat",
+     "do we have a dedicated person for the bank's UPS sites?"
+    ],
+    [
+     "Meeting",
+     "We've set up a dedicated team for data-centre projects."
+    ]
+   ],
+   "goes": [
+    "a dedicated team",
+    "a dedicated account manager",
+    "a dedicated line"
+   ],
+   "dont": [
+    "We will put an engineer special for you."
+   ],
+   "doo": [
+    "You'll have a dedicated engineer."
+   ],
+   "level": 2
+  },
+  {
+   "w": "outcome",
+   "pos": "noun",
+   "ar": "النتيجة / المخرجات",
+   "def": "the final result of an action, process or meeting.",
+   "book": "In this presentation, John will provide an overview of the course objectives, content and outcomes, as well as information on how to enroll.",
+   "uses": [
+    [
+     "Email",
+     "I'll share the outcome of the site inspection by end of day."
+    ],
+    [
+     "Chat",
+     "any outcome from the meeting with purchasing?"
+    ],
+    [
+     "Meeting",
+     "The expected outcome is zero downtime during the battery replacement."
+    ]
+   ],
+   "goes": [
+    "the expected outcome",
+    "a positive outcome",
+    "learning outcomes"
+   ],
+   "dont": [
+    "What is the result of the meeting?"
+   ],
+   "doo": [
+    "What was the outcome of the meeting?"
+   ],
+   "level": 2
+  },
+  {
+   "w": "look forward to",
+   "pos": "verb phrase",
+   "ar": "مستني بفارغ الصبر / متحمس لـ",
+   "def": "to feel happy about something that is going to happen.",
+   "book": "I'm looking forward to sharing with you what we do here.",
+   "uses": [
+    [
+     "Email",
+     "We look forward to working with you on the Alexandria project."
+    ],
+    [
+     "Chat",
+     "looking forward to the demo tmrw 🙌"
+    ],
+    [
+     "Meeting",
+     "I'm looking forward to hearing your feedback on the proposal."
+    ]
+   ],
+   "goes": [
+    "look forward to + -ing",
+    "look forward to hearing from you",
+    "look forward to working with you"
+   ],
+   "dont": [
+    "I am looking forward to hear from you."
+   ],
+   "doo": [
+    "I look forward to hearing from you."
+   ],
+   "level": 2
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "Thanks for coming today.",
+   "ar": "شكراً إنكم جيتوا النهارده",
+   "pro": [
+    "Thanks that you came today.",
+    "Thank you for taking the time to join us today.",
+    "Thank you for your coming."
+   ],
+   "a": 1,
+   "why": "‎taking the time‎ بتقدّر وقتهم، وده أنسب لافتتاح عرض."
+  },
+  {
+   "plain": "I will talk to you about the new UPS.",
+   "ar": "هكلمكم عن الـ UPS الجديد",
+   "pro": [
+    "The objective of today's presentation is to introduce our new UPS range.",
+    "I will speak you about the new UPS.",
+    "Today I talk on the new UPS."
+   ],
+   "a": 0,
+   "why": "حدد الهدف من الأول: ‎The objective of today's presentation is to …‎"
+  },
+  {
+   "plain": "At the end you will understand everything.",
+   "ar": "في الآخر هتفهموا كل حاجة",
+   "pro": [
+    "In the end you will understand all.",
+    "After finish, everything will be clear.",
+    "By the end of this presentation, you will have a clear understanding of our service plans."
+   ],
+   "a": 2,
+   "why": "‎By the end of this presentation‎ = وعد واضح للجمهور باللي هيطلعوا بيه."
+  },
+  {
+   "plain": "I divided the presentation for three parts.",
+   "ar": "قسمت العرض لـ ٣ أجزاء",
+   "pro": [
+    "I divided the presentation for three parts.",
+    "I'll be breaking the presentation down into three parts.",
+    "The presentation is three pieces."
+   ],
+   "a": 1,
+   "why": "‎break down into‎ هي الطريقة الطبيعية لتقسيم العرض."
+  },
+  {
+   "plain": "I will not take a long time from you.",
+   "ar": "مش هطوّل عليكم",
+   "pro": [
+    "I know everyone's time is valuable, so I'll keep it brief.",
+    "I will not take long time from you.",
+    "I will not late you."
+   ],
+   "a": 0,
+   "why": "«مش هطوّل» بتتقال ‎I'll keep it brief‎، ومتترجمهاش حرفي."
+  },
+  {
+   "plain": "Don't ask now, wait to the end.",
+   "ar": "متسألوش دلوقتي، استنوا للآخر",
+   "pro": [
+    "Don't ask now, wait the end.",
+    "Wait to the end for questions.",
+    "If you could hold your questions until the end, we'll have a Q&A session."
+   ],
+   "a": 2,
+   "why": "‎If you could hold …‎ طلب مؤدب بدل الأمر المباشر."
+  }
+ ]
+}

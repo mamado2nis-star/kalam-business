@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "distracted",
+   "pos": "adjective",
+   "ar": "مشتت / سرحان",
+   "def": "unable to pay attention because you are thinking about something else.",
+   "book": "I see some of you may have been distracted, but I want to bring your attention back to what we're discussing.",
+   "uses": [
+    [
+     "Email",
+     "Apologies for the error in the invoice — I was distracted by the site emergency."
+    ],
+    [
+     "Chat",
+     "sorry, got distracted by a client call, what did u say? 😅"
+    ],
+    [
+     "Meeting",
+     "Let's put our phones away so we don't get distracted during the review."
+    ]
+   ],
+   "goes": [
+    "get distracted",
+    "easily distracted",
+    "distracted by something"
+   ],
+   "dont": [
+    "Sorry, my mind was not with you."
+   ],
+   "doo": [
+    "Sorry, I got distracted."
+   ],
+   "level": 1
+  },
+  {
+   "w": "refocus",
+   "pos": "verb",
+   "ar": "نركّز تاني / نرجّع التركيز",
+   "def": "to bring attention back to the main topic or goal.",
+   "book": "Let's refocus on the main point of this presentation.",
+   "uses": [
+    [
+     "Email",
+     "We need to refocus our efforts on renewing the expiring maintenance contracts."
+    ],
+    [
+     "Chat",
+     "guys let's refocus, the client is waiting for the BOQ"
+    ],
+    [
+     "Meeting",
+     "Let's refocus on the main issue: the site's backup time."
+    ]
+   ],
+   "goes": [
+    "refocus on the main point",
+    "refocus our efforts",
+    "refocus the discussion"
+   ],
+   "dont": [
+    "Let's concentrate again on the main subject."
+   ],
+   "doo": [
+    "Let's refocus on the main point."
+   ],
+   "level": 2
+  },
+  {
+   "w": "crucial",
+   "pos": "adjective",
+   "ar": "مهم جداً / حاسم",
+   "def": "extremely important because other things depend on it.",
+   "book": "I appreciate your attention so far, and I want to make sure we don't miss this crucial information.",
+   "uses": [
+    [
+     "Email",
+     "Regular battery testing is crucial for avoiding unexpected UPS failures."
+    ],
+    [
+     "Chat",
+     "the delivery date is crucial for this client, pls don't miss it"
+    ],
+    [
+     "Meeting",
+     "Payment on time is crucial to keep the project moving."
+    ]
+   ],
+   "goes": [
+    "crucial information",
+    "a crucial role",
+    "crucial for / to"
+   ],
+   "dont": [
+    "This point is very very important."
+   ],
+   "doo": [
+    "This point is crucial."
+   ],
+   "level": 2
+  },
+  {
+   "w": "commitment",
+   "pos": "noun",
+   "ar": "التزام / ارتباط تاني",
+   "def": "something you have promised to do or have already planned, which takes your time.",
+   "book": "I know some of you may have other commitments, so please feel free to leave at any time.",
+   "uses": [
+    [
+     "Email",
+     "Due to prior commitments, I can only join the site visit after 2 p.m."
+    ],
+    [
+     "Chat",
+     "sorry, I have another commitment at 4, can we move the call?"
+    ],
+    [
+     "Meeting",
+     "Our commitment is a four-hour response time for all critical sites."
+    ]
+   ],
+   "goes": [
+    "prior commitments",
+    "other commitments",
+    "a commitment to quality"
+   ],
+   "dont": [
+    "I have another engagement at 4."
+   ],
+   "doo": [
+    "I have another commitment at 4."
+   ],
+   "level": 3
+  },
+  {
+   "w": "clarification",
+   "pos": "noun",
+   "ar": "توضيح",
+   "def": "an explanation that makes something easier to understand.",
+   "book": "I'm happy to go back and provide more details if anyone needs further clarification.",
+   "uses": [
+    [
+     "Email",
+     "Could you please provide clarification on the payment terms in clause 4?"
+    ],
+    [
+     "Chat",
+     "need a quick clarification: is the price incl. VAT?"
+    ],
+    [
+     "Meeting",
+     "Just for clarification, the warranty covers the batteries for two years only."
+    ]
+   ],
+   "goes": [
+    "ask for clarification",
+    "further clarification",
+    "just for clarification"
+   ],
+   "dont": [
+    "I need an explaining for this point."
+   ],
+   "doo": [
+    "I need some clarification on this point."
+   ],
+   "level": 3
+  },
+  {
+   "w": "don't hesitate to",
+   "pos": "phrase",
+   "ar": "متترددش إنك / براحتك تماماً",
+   "def": "a polite way to tell someone they are welcome to do something.",
+   "book": "I understand that we all have busy schedules, so please don't hesitate to leave if you need to.",
+   "uses": [
+    [
+     "Email",
+     "Please don't hesitate to contact me if you need any further information."
+    ],
+    [
+     "Chat",
+     "don't hesitate to ping me if the inverter acts up again"
+    ],
+    [
+     "Meeting",
+     "If you have any concerns about the contract, don't hesitate to raise them."
+    ]
+   ],
+   "goes": [
+    "don't hesitate to contact me",
+    "don't hesitate to ask",
+    "please do not hesitate to"
+   ],
+   "dont": [
+    "Don't be shy to call me."
+   ],
+   "doo": [
+    "Please don't hesitate to call me."
+   ],
+   "level": 2
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "The first thing we will speak about is the batteries.",
+   "ar": "أول حاجة هنتكلم فيها البطاريات",
+   "pro": [
+    "The first thing we speak in it is batteries.",
+    "Let's begin by looking at our first main point, which is battery life.",
+    "First, the batteries, we talk."
+   ],
+   "a": 1,
+   "why": "افتح أول نقطة بـ ‎Let's begin by looking at …‎"
+  },
+  {
+   "plain": "Now we go to another subject.",
+   "ar": "دلوقتي نروح لموضوع تاني",
+   "pro": [
+    "Now, I'd like to talk about our maintenance plans.",
+    "Now we go to other subject.",
+    "We will change the subject now."
+   ],
+   "a": 0,
+   "why": "انتقل بسلاسة: ‎Now, I'd like to talk about …‎"
+  },
+  {
+   "plain": "Like I said before, the warranty is two years.",
+   "ar": "زي ما قلت قبل كده، الضمان سنتين",
+   "pro": [
+    "Like I told before, the warranty is two years.",
+    "Same as I said, warranty two years.",
+    "As I mentioned earlier, the warranty is two years."
+   ],
+   "a": 2,
+   "why": "‎As I mentioned earlier‎ أرقى من ‎Like I said before‎."
+  },
+  {
+   "plain": "Please look at the screen.",
+   "ar": "لو سمحتم بصوا على الشاشة",
+   "pro": [
+    "Look to the screen please.",
+    "I'd like to draw your attention to the screen.",
+    "Give your eyes to the screen."
+   ],
+   "a": 1,
+   "why": "‎draw your attention to‎ طريقة مهنية تلفت بيها النظر."
+  },
+  {
+   "plain": "If anyone wants to go out, go.",
+   "ar": "اللي عايز يخرج يخرج",
+   "pro": [
+    "If anyone needs to step out, please feel free to do so.",
+    "Who wants to go out, go.",
+    "Anyone can go outside if he want."
+   ],
+   "a": 0,
+   "why": "‎step out‎ = يخرج شوية، و‎feel free‎ بتخليها مؤدبة."
+  },
+  {
+   "plain": "Did you understand or not?",
+   "ar": "فهمتوا ولا لأ؟",
+   "pro": [
+    "You understood or no?",
+    "Is it understood by you?",
+    "Please let me know if anything is unclear."
+   ],
+   "a": 2,
+   "why": "‎Did you understand?‎ ممكن تبان إهانة؛ قول ‎let me know if anything is unclear‎."
+  }
+ ]
+}

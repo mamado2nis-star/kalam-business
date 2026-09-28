@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "metrics",
+   "pos": "noun",
+   "ar": "مؤشرات القياس / الأرقام اللي بنقيس بيها الأداء",
+   "def": "numbers used to measure how well a business, team or process is performing.",
+   "book": "Here are the key performance metrics for the last quarter.",
+   "uses": [
+    [
+     "Email",
+     "Please find attached the service metrics for Q3, including average response time."
+    ],
+    [
+     "Chat",
+     "which metrics does the client care about most? uptime?"
+    ],
+    [
+     "Meeting",
+     "Our key metric this year is first-time fix rate."
+    ]
+   ],
+   "goes": [
+    "key performance metrics",
+    "track metrics",
+    "sales metrics"
+   ],
+   "dont": [
+    "These are the numbers of measuring the performance."
+   ],
+   "doo": [
+    "These are our key performance metrics."
+   ],
+   "level": 2
+  },
+  {
+   "w": "highlight",
+   "pos": "verb",
+   "ar": "يوضّح / يسلّط الضوء على",
+   "def": "to show or point out that something is important.",
+   "book": "This graph highlights the impact of the recent policy changes on our customer satisfaction rates.",
+   "uses": [
+    [
+     "Email",
+     "I'd like to highlight that the offer is valid until the end of the month."
+    ],
+    [
+     "Chat",
+     "can you highlight the discount in the quote? they missed it last time"
+    ],
+    [
+     "Meeting",
+     "This chart highlights how many failures were caused by old batteries."
+    ]
+   ],
+   "goes": [
+    "highlight the impact",
+    "highlight the importance of",
+    "highlight a risk"
+   ],
+   "dont": [
+    "I want to put the light on this point."
+   ],
+   "doo": [
+    "I'd like to highlight this point."
+   ],
+   "level": 2
+  },
+  {
+   "w": "gain traction",
+   "pos": "verb phrase",
+   "ar": "ياخد انتشار / يبدأ ينجح ويتقبل",
+   "def": "to become more popular, accepted or successful over time.",
+   "book": "As I mentioned earlier, one approach that has gained traction is leveraging AI and machine learning to improve patient outcomes.",
+   "uses": [
+    [
+     "Email",
+     "Lithium-ion UPS systems are gaining traction in the Egyptian market."
+    ],
+    [
+     "Chat",
+     "solar for factories is really gaining traction this year 🔆"
+    ],
+    [
+     "Meeting",
+     "Remote monitoring has gained traction with our banking clients."
+    ]
+   ],
+   "goes": [
+    "gain traction in the market",
+    "quickly gain traction",
+    "gain traction with customers"
+   ],
+   "dont": [
+    "Solar is taking a big spread now."
+   ],
+   "doo": [
+    "Solar is gaining traction now."
+   ],
+   "level": 2
+  },
+  {
+   "w": "implementation",
+   "pos": "noun",
+   "ar": "التنفيذ / التطبيق الفعلي",
+   "def": "the act of putting a plan, system or decision into action.",
+   "book": "As you can see, the data shows a significant increase in patient satisfaction levels following the implementation of our proposed solution.",
+   "uses": [
+    [
+     "Email",
+     "Implementation of the new monitoring system will start on 1 November."
+    ],
+    [
+     "Chat",
+     "who's handling the implementation at the Maadi site?"
+    ],
+    [
+     "Meeting",
+     "After implementation, downtime dropped by 40%."
+    ]
+   ],
+   "goes": [
+    "implementation plan",
+    "successful implementation",
+    "full implementation"
+   ],
+   "dont": [
+    "After the applying of the system, the problems stopped."
+   ],
+   "doo": [
+    "After the implementation of the system, the problems stopped."
+   ],
+   "level": 3
+  },
+  {
+   "w": "back up",
+   "pos": "phrasal verb",
+   "ar": "يدعم (كلامه بدليل)",
+   "def": "to support what you say with facts, numbers or evidence.",
+   "book": "In this presentation, the presenter will be using various techniques to grab the audience's attention, move seamlessly between ideas, and back up his points with numbers, research and common knowledge.",
+   "uses": [
+    [
+     "Email",
+     "The attached test report backs up our recommendation to replace the batteries."
+    ],
+    [
+     "Chat",
+     "do we have numbers to back that up? the client will ask"
+    ],
+    [
+     "Meeting",
+     "Let me back this up with data from last year's service calls."
+    ]
+   ],
+   "goes": [
+    "back up a claim",
+    "back it up with data",
+    "backed up by evidence"
+   ],
+   "dont": [
+    "I will support my speaking with numbers."
+   ],
+   "doo": [
+    "Let me back this up with numbers."
+   ],
+   "level": 1
+  },
+  {
+   "w": "customer base",
+   "pos": "noun",
+   "ar": "قاعدة العملاء",
+   "def": "all the customers a company has.",
+   "book": "Let me walk you through this chart, which shows the distribution of our customer base.",
+   "uses": [
+    [
+     "Email",
+     "Our customer base now includes over 60 hospitals and banks."
+    ],
+    [
+     "Chat",
+     "we need to grow our customer base in Upper Egypt"
+    ],
+    [
+     "Meeting",
+     "Most of our customer base is in the telecom sector."
+    ]
+   ],
+   "goes": [
+    "grow the customer base",
+    "a loyal customer base",
+    "expand our customer base"
+   ],
+   "dont": [
+    "We have a big base of clients."
+   ],
+   "doo": [
+    "We have a large customer base."
+   ],
+   "level": 2
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "These numbers show everything clear.",
+   "ar": "الأرقام دي بتوضح كل حاجة",
+   "pro": [
+    "These numbers show all clear.",
+    "These numbers paint a clear picture of the current situation.",
+    "Numbers are telling everything."
+   ],
+   "a": 1,
+   "why": "‎paint a clear picture‎ تعبير قوي ومستخدم جداً في العروض."
+  },
+  {
+   "plain": "Let me explain the chart for you.",
+   "ar": "خليني أشرحلكم الشارت",
+   "pro": [
+    "Let me walk you through this chart.",
+    "Let me explain you the chart.",
+    "I will explain on the chart."
+   ],
+   "a": 0,
+   "why": "‎walk you through‎ = يشرح خطوة بخطوة، ومتقولش ‎explain you‎."
+  },
+  {
+   "plain": "The sales went up very much.",
+   "ar": "المبيعات طلعت أوي",
+   "pro": [
+    "The sales went up very much.",
+    "Sales became very high.",
+    "There has been a significant increase in sales."
+   ],
+   "a": 2,
+   "why": "‎a significant increase‎ أدق وأكثر مهنية من ‎very much‎."
+  },
+  {
+   "plain": "For example, I will tell you a story.",
+   "ar": "مثلاً هحكيلكم قصة",
+   "pro": [
+    "For example, I tell you story.",
+    "To put this in context, let me give you an example.",
+    "I will say you an example."
+   ],
+   "a": 1,
+   "why": "‎To put this in context‎ بتربط المثال بالنقطة اللي بتشرحها."
+  },
+  {
+   "plain": "Studies say that batteries die faster in heat.",
+   "ar": "الدراسات بتقول البطاريات بتموت أسرع في الحر",
+   "pro": [
+    "Research has shown that high temperatures shorten battery life.",
+    "Studies say batteries die fast in heat.",
+    "The research is saying heat kills batteries."
+   ],
+   "a": 0,
+   "why": "‎Research has shown that‎ بتدي كلامك مصداقية."
+  },
+  {
+   "plain": "Everybody knows that the electricity cuts in summer.",
+   "ar": "كله عارف إن الكهربا بتقطع في الصيف",
+   "pro": [
+    "Everybody knows the electricity cuts.",
+    "All people know electricity is cut.",
+    "It's a well-known fact that power cuts increase in summer."
+   ],
+   "a": 2,
+   "why": "‎It's a well-known fact that‎ أرقى، و‎power cuts‎ مش ‎electricity cuts‎."
+  }
+ ]
+}
