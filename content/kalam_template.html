@@ -259,6 +259,9 @@ a{color:inherit}
 .story-hero h2{font-size:clamp(26px,4vw,34px);margin:6px 0 4px}
 .story{font-size:19px;line-height:1.8;max-width:65ch;margin:14px 0}
 .story p{margin:0 0 10px;padding:4px 8px;margin-inline:-8px;border-radius:10px;cursor:pointer;transition:background .2s}
+.lar{display:block;direction:rtl;text-align:right;font-family:inherit;font-size:16px;line-height:1.7;color:var(--muted);margin-top:2px}
+.story.noar .lar{display:none}
+.story-tools{display:flex;justify-content:flex-end;margin:10px 0 -4px}
 .story p.on{background:var(--saffron-soft)}
 .story-play{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin-top:14px}.story-play .btn svg{width:16px;height:16px;vertical-align:-2px}
 .spk{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--cobalt-soft);color:var(--cobalt);vertical-align:middle;margin-inline-start:6px;cursor:pointer;flex:none}
@@ -383,6 +386,7 @@ const LESSONS=[
 
 /*__FIX__*/
 /*__PILOT__*/
+/*__SAR__*/
 /*__BANK__*/
 /*__WUE__*/
 /*__STORIES__*/
@@ -795,6 +799,7 @@ function wordsTab(p){
 }
 
 /* ---------- mini story (AJ Hoge style: story, then many quick questions) ---------- */
+let SHOWAR=true; try{SHOWAR=localStorage.getItem("kalam-storyar")!=="0"}catch(e){}
 function storyTab(p){
   const st=STORY[L.id]; let step=0, qi=0, right=0; const words=(WORDS[L.id]||[]).map(w=>w.w).concat(L.cards.map(c=>c.en.replace(/[.…,?]+$/,"").split(" ").slice(0,4).join(" ")));
   const WL=st.words||(WORDS[L.id]||[]).map(w=>w.w);
@@ -804,9 +809,11 @@ function storyTab(p){
         ${st.tech?`<div class="techw"><span class="kicker">Tech words in this story · كلمات فنية</span><div class="chips">${st.tech.map(([e,a])=>`<span class="chip"><b>${esc(e)} ${spk(e)}</b><span class="ar">${esc(a)}</span></span>`).join("")}</div></div>`:""}</div>
        ${voicePick()}<div class="hint"><span>💡</span><span>Read the story once. Then answer lots of quick, easy questions — fast, without thinking too much. The repetition is what makes the words stick.<br><span class="ar">اقرا القصة مرة، وبعدين جاوب بسرعة على أسئلة كتير سهلة. التكرار هو اللي بيثبّت الكلمات.</span></span></div>
        ${sayFind(st.lines[0])?`<div class="story-play"><button class="btn" id="lsn">${PLAY} Listen to the story</button><span class="ar" style="color:var(--muted)">اسمع القصة واتابع السطر اللي بيتقري — واضغط على أي سطر تسمعه لوحده</span></div>`:""}
-       <div class="story">${st.lines.map((l,i)=>`<p data-li="${i}">${hl(l)}</p>`).join("")}</div>
+       <div class="story-tools"><button class="btn alt sm" id="artog">${SHOWAR?"إخفاء الترجمة":"عرض الترجمة بالعربي"}</button></div>
+       <div class="story ${SHOWAR?"":"noar"}">${st.lines.map((l,i)=>`<p data-li="${i}">${hl(l)}${(typeof STORY_AR!=="undefined"&&STORY_AR[L.id]&&STORY_AR[L.id][i])?`<span class="lar">${esc(STORY_AR[L.id][i])}</span>`:""}</p>`).join("")}</div>
        <div class="actions"><button class="btn" id="go">Start the questions</button></div>`;
       const ps=[...p.querySelectorAll(".story p")], lb=p.querySelector("#lsn"); let run=false;
+      p.querySelector("#artog").onclick=function(){SHOWAR=!SHOWAR; try{localStorage.setItem("kalam-storyar",SHOWAR?"1":"0")}catch(e){} p.querySelector(".story").classList.toggle("noar",!SHOWAR); this.textContent=SHOWAR?"إخفاء الترجمة":"عرض الترجمة بالعربي"};
       const mark=i=>ps.forEach((x,j)=>x.classList.toggle("on",j===i));
       const playFrom=i=>{ if(!run||i>=ps.length){run=false;mark(-1);if(lb)lb.innerHTML=PLAY+" Listen again";return} mark(i); ps[i].scrollIntoView({block:"nearest",behavior:"smooth"}); sayPlay(st.lines[i],()=>setTimeout(()=>playFrom(i+1),250)) };
       if(lb) lb.onclick=()=>{ if(run){run=false;stopSay();mark(-1);lb.innerHTML=PLAY+" Listen to the story";return} run=true; lb.innerHTML=PAUSE+" Stop"; playFrom(0) };
