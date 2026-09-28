@@ -41,7 +41,7 @@ for sec in json.load(open('/home/claude/asr/read_office.json')):
     ch7[sec['key']]={'title':sec['title'],'src':f"audio/ch7/book-{sec['key']}.mp3",'lines':sec['lines']}
 t=t.replace('/*__CH7__*/','const READING_CH7='+json.dumps(ch7,ensure_ascii=False)+';\n'+open('/home/claude/asr/ch7_lessons.js').read())
 t=t.replace('/*__PILOT__*/',open('/home/claude/asr/pilot.js').read())
-t=t.replace('/*__STORIES__*/',open('/home/claude/asr/stories.js').read()+'\n'+open('/home/claude/asr/stories2.js').read()+'\n'+open('/home/claude/asr/stories3.js').read()+'\n'+open('/home/claude/asr/stories4.js').read()+'\n'+open('/home/claude/asr/bec.js').read())
+t=t.replace('/*__STORIES__*/',open('/home/claude/asr/stories.js').read()+'\n'+open('/home/claude/asr/stories2.js').read()+'\n'+open('/home/claude/asr/stories3.js').read()+'\n'+open('/home/claude/asr/stories4.js').read()+'\n'+open('/home/claude/asr/stories5.js').read()+'\n'+open('/home/claude/asr/bec.js').read())
 import glob,os
 say={}
 for f in sorted(glob.glob('/home/claude/tts/maps/*/*.json')):
