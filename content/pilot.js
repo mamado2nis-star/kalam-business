@@ -71,7 +71,7 @@ const JARGON=[
  {t:"on the same page", m:"agree and understand the same thing", ar:"متفقين وفاهمين نفس الحاجة", eg:"Let's make sure we're all on the same page.", ch:"meeting"},
  {t:"follow up", m:"contact again to check progress", ar:"أتابع معاك", eg:"I'll follow up with the supplier tomorrow.", ch:"email"}
 ];
-/* MINI STORY — AJ Hoge style: a short story in the learner's own industry that reuses the lesson's words,
+/* MINI STORY — a short story in the learner's own industry that reuses the lesson's words,
    then asks many quick, easy questions so the words repeat again and again. */
 const STORY={
  pi2:{ title:"The hospital that couldn't lose power", ar:"المستشفى اللي ماينفعش النور يقطع فيها",

@@ -1,4 +1,4 @@
-/* MORE MINI STORIES — AJ Hoge style, set in the learner's own field (IT, servers, solar, control cards, VFDs).
+/* MORE MINI STORIES — set in the learner's own field (IT, servers, solar, control cards, VFDs).
    Each story is attached to a book lesson and reuses that lesson's phrases. */
 const STORY_MORE={
  em2:{ field:"IT department", fieldAr:"قسم الـ IT", hero:"Omar", icon:"🖧",

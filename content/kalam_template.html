@@ -798,14 +798,14 @@ function wordsTab(p){
   }; draw();
 }
 
-/* ---------- mini story (AJ Hoge style: story, then many quick questions) ---------- */
+/* ---------- mini story: story, then many quick questions ---------- */
 let SHOWAR=true; try{SHOWAR=localStorage.getItem("kalam-storyar")!=="0"}catch(e){}
 function storyTab(p){
   const st=STORY[L.id]; let step=0, qi=0, right=0; const words=(WORDS[L.id]||[]).map(w=>w.w).concat(L.cards.map(c=>c.en.replace(/[.…,?]+$/,"").split(" ").slice(0,4).join(" ")));
   const WL=st.words||(WORDS[L.id]||[]).map(w=>w.w);
   const hl=s=>{let h=esc(s); WL.forEach(w=>{const pat=w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&").replace(/[-\s]+/g,"[-\\s]?"); const re=new RegExp("\\b("+pat+"\\w*)","i"); h=h.replace(re,'<mark>$1</mark>')}); return h};
   const draw=()=>{
-    if(step===0){ p.innerHTML=`<div class="story-hero"><span class="kicker">Mini story · AJ Hoge method</span><h2>${st.icon?st.icon+" ":""}${esc(st.title)}</h2><p class="ar" style="color:var(--muted)">${esc(st.ar)}</p><p>${esc(st.scene)}</p>
+    if(step===0){ p.innerHTML=`<div class="story-hero"><span class="kicker">Mini story · from your field</span><h2>${st.icon?st.icon+" ":""}${esc(st.title)}</h2><p class="ar" style="color:var(--muted)">${esc(st.ar)}</p><p>${esc(st.scene)}</p>
         ${st.tech?`<div class="techw"><span class="kicker">Tech words in this story · كلمات فنية</span><div class="chips">${st.tech.map(([e,a])=>`<span class="chip"><b>${esc(e)} ${spk(e)}</b><span class="ar">${esc(a)}</span></span>`).join("")}</div></div>`:""}</div>
        ${voicePick()}<div class="hint"><span>💡</span><span>Read the story once. Then answer lots of quick, easy questions — fast, without thinking too much. The repetition is what makes the words stick.<br><span class="ar">اقرا القصة مرة، وبعدين جاوب بسرعة على أسئلة كتير سهلة. التكرار هو اللي بيثبّت الكلمات.</span></span></div>
        ${sayFind(st.lines[0])?`<div class="story-play"><button class="btn" id="lsn">${PLAY} Listen to the story</button><span class="ar" style="color:var(--muted)">اسمع القصة واتابع السطر اللي بيتقري — واضغط على أي سطر تسمعه لوحده</span></div>`:""}
@@ -936,7 +936,7 @@ function storyCards(n){return Object.entries(STORY).slice(0,n||99).map(([id,st])
    <p class="sl">Words from: <b>${esc(l.title)}</b></p><span class="smeta">${st.qa.length} quick questions · ${S.done[id]?"✓ lesson done":"hero: "+esc(st.hero||"")}</span></a>`}).join("")}
 function storiesPage(){
   app.innerHTML=`<div class="wrap"><section class="phead"><a class="back" href="#/">← Home</a><h1>Stories from your field</h1>
-   <p>Short stories from real technical work — UPS, servers, solar plants, control cards and VFDs. Each one reuses the phrases of a book lesson, then asks lots of quick questions so the words stick (the AJ Hoge mini-story method).</p>
+   <p>Short stories from real technical work — UPS, servers, solar plants, control cards and VFDs. Each one reuses the phrases of a book lesson, then asks lots of quick questions so the words stick.</p>
    <p class="ar">قصص قصيرة من شغلك الحقيقي. كل قصة فيها عبارات درس من الكتاب، وبعدها أسئلة سريعة كتير عشان الكلمات تثبت.</p>${voicePick()}</section>
    <div class="sgrid">${storyCards()}</div></div>`;
 }
