@@ -1,0 +1,772 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Kalam Business</title>
+<meta name="description" content="Kalam Business: Business English for Arabic speakers. Read and listen to the book, learn the phrases, practise, and role-play real work situations.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,650;12..96,800&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap">
+<style>
+:root{
+  --ink:#18233F; --ink-2:#4A5673; --muted:#7A849B;
+  --paper:#F5F6FA; --card:#FFFFFF; --line:#E2E5EE;
+  --cobalt:#3552C9; --cobalt-soft:#E6EAFB;
+  --mint:#2FA88E; --mint-soft:#DDF3EC;
+  --saffron:#E9A93A; --saffron-soft:#FBF0DA;
+  --rose:#D9677B; --rose-soft:#FBE6EA;
+  --good:#23915B; --good-soft:#DDF3E6; --bad:#C2413A; --bad-soft:#F9E1DF;
+  --display:"Bricolage Grotesque",system-ui,sans-serif;
+  --body:"Figtree",system-ui,sans-serif;
+  --ar:"IBM Plex Sans Arabic","Segoe UI",Tahoma,sans-serif;
+  --r-lg:26px; --r-md:16px; --r-sm:11px;
+  --lift:0 1px 2px rgba(24,35,63,.05),0 10px 30px -12px rgba(24,35,63,.14);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ink:#E9ECF5;--ink-2:#B7BFD3;--muted:#8C95AC;--paper:#0F1424;--card:#171E33;--line:#27304A;
+  --cobalt:#7F96FF;--cobalt-soft:#1E2850;--mint:#4FD0B3;--mint-soft:#133A33;--saffron:#F2C064;--saffron-soft:#3A2F17;
+  --rose:#F08A9C;--rose-soft:#3D1F27;--good:#54CE8C;--good-soft:#143524;--bad:#F07B72;--bad-soft:#3F1E1C;
+  --lift:0 1px 2px rgba(0,0,0,.3),0 12px 30px -12px rgba(0,0,0,.5)}}
+:root[data-theme="dark"]{--ink:#E9ECF5;--ink-2:#B7BFD3;--muted:#8C95AC;--paper:#0F1424;--card:#171E33;--line:#27304A;
+  --cobalt:#7F96FF;--cobalt-soft:#1E2850;--mint:#4FD0B3;--mint-soft:#133A33;--saffron:#F2C064;--saffron-soft:#3A2F17;
+  --rose:#F08A9C;--rose-soft:#3D1F27;--good:#54CE8C;--good-soft:#143524;--bad:#F07B72;--bad-soft:#3F1E1C;
+  --lift:0 1px 2px rgba(0,0,0,.3),0 12px 30px -12px rgba(0,0,0,.5)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--display);line-height:1.1;margin:0;text-wrap:balance;letter-spacing:-.015em}
+button{font:inherit;color:inherit;cursor:pointer}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--cobalt);outline-offset:2px;border-radius:6px}
+.ar{font-family:var(--ar);direction:rtl;unicode-bidi:isolate}
+.wrap{max-width:1120px;margin-inline:auto;padding-inline:16px}
+[hidden]{display:none!important}
+
+/* nav */
+.nav{position:sticky;top:10px;z-index:20;margin:10px auto 0;max-width:1120px;padding-inline:16px}
+.nav-in{display:flex;align-items:center;gap:10px;background:color-mix(in srgb,var(--card) 88%,transparent);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:999px;padding:8px 10px 8px 14px;box-shadow:var(--lift)}
+.brand{display:flex;align-items:center;gap:9px;text-decoration:none;font-family:var(--display);font-weight:800;font-size:19px;white-space:nowrap}
+.brand .mark{width:32px;height:32px;border-radius:10px;background:var(--ink);display:grid;place-items:center}
+.links{display:flex;gap:2px;margin-inline:auto}
+.links a{text-decoration:none;font-weight:600;font-size:15px;color:var(--ink-2);padding:7px 13px;border-radius:999px}
+.links a[aria-current="page"]{background:var(--cobalt-soft);color:var(--cobalt)}
+.stats{display:flex;gap:6px}
+.stat{display:flex;align-items:center;gap:5px;font-weight:700;font-size:14px;padding:5px 11px;border-radius:999px;background:var(--paper);font-variant-numeric:tabular-nums}
+.stat.x{color:var(--saffron)} .stat.s{color:var(--mint)}
+.stat svg{width:15px;height:15px}
+@media (max-width:760px){.links{display:none}.stats{margin-inline-start:auto}}
+.tabbar{display:none}
+@media (max-width:760px){
+  .tabbar{display:flex;position:fixed;inset:auto 0 0 0;z-index:20;background:var(--card);border-top:1px solid var(--line);padding:6px 8px calc(6px + env(safe-area-inset-bottom))}
+  .tabbar a{flex:1;text-align:center;text-decoration:none;font-size:12px;font-weight:600;color:var(--muted);padding:6px 2px;border-radius:12px}
+  .tabbar a svg{display:block;margin:0 auto 2px;width:22px;height:22px}
+  .tabbar a[aria-current="page"]{color:var(--cobalt);background:var(--cobalt-soft)}
+  body{padding-bottom:78px}
+}
+
+/* buttons & chips */
+.btn{display:inline-flex;align-items:center;gap:8px;border:0;border-radius:999px;padding:12px 22px;font-weight:700;text-decoration:none;background:var(--ink);color:var(--paper)}
+.btn.alt{background:transparent;border:1.5px solid var(--line);color:var(--ink)}
+.btn.small{padding:8px 16px;font-size:14px}
+.btn:disabled{opacity:.4;cursor:default}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:600;padding:4px 11px;border-radius:999px;background:var(--paper);border:1px solid var(--line);color:var(--ink-2)}
+.chip.lv{background:var(--mint-soft);border-color:transparent;color:var(--mint)}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:24px;align-items:center;padding-block:48px 28px}
+.hero h1{font-size:clamp(38px,6.2vw,68px);font-weight:800}
+.hero h1 .l2{display:block;color:var(--cobalt)}
+.hero .sub{font-size:19px;color:var(--ink-2);margin:18px 0 6px;max-width:34ch}
+.hero .sub-ar{color:var(--muted);font-size:17px;margin:0 0 26px}
+.hero .cta{display:flex;flex-wrap:wrap;gap:10px}
+.hero-art{position:relative}
+@media (max-width:860px){.hero{grid-template-columns:1fr;padding-top:28px}.hero-art{order:-1;max-width:420px;margin-inline:auto}}
+
+/* dive-in cards */
+.sec{padding-block:36px}
+.sec-head{text-align:center;max-width:620px;margin:0 auto 26px}
+.sec-head h2{font-size:clamp(28px,4vw,40px)}
+.sec-head p{color:var(--ink-2);margin:10px 0 0}
+.ways{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.way{position:relative;text-decoration:none;background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:22px;display:flex;flex-direction:column;gap:6px;min-height:230px;overflow:hidden}
+.way .ic{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;margin-bottom:10px}
+.way .ic svg{width:24px;height:24px}
+.way h3{font-size:24px}
+.way p{margin:0;color:var(--ink-2);font-size:15px}
+.way .ar{color:var(--muted);font-size:14px}
+.way .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:14px}
+.way:hover{border-color:currentColor}
+.t-cobalt{color:var(--cobalt)} .t-mint{color:var(--mint)} .t-saffron{color:var(--saffron)} .t-rose{color:var(--rose)}
+.way h3,.way p{color:var(--ink)}
+.way p{color:var(--ink-2)}
+
+/* page head */
+.phead{padding-block:34px 18px}
+.back{display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:600;text-decoration:none;color:var(--ink-2);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 13px;margin-bottom:18px}
+.phead h1{font-size:clamp(34px,5vw,54px);font-weight:800}
+.phead p{color:var(--ink-2);max-width:56ch;margin:12px 0 0;font-size:17px}
+.phead .ar{color:var(--muted);margin-top:4px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 8px}
+.filters button{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:7px 14px;font-weight:600;font-size:14px;color:var(--ink-2)}
+.filters button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+
+/* lesson cards */
+.group{margin-top:26px}
+.group-h{display:flex;align-items:baseline;gap:10px;border-inline-start:4px solid var(--mint);padding-inline-start:10px;margin-bottom:14px}
+.group-h b{font-family:var(--display);font-size:22px}
+.group-h span{color:var(--muted);font-size:14px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
+.lcard{background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden;display:flex;flex-direction:column;text-decoration:none}
+.lcard .art{aspect-ratio:16/10;position:relative}
+.lcard .art svg{width:100%;height:100%;display:block}
+.lcard .badge{position:absolute;top:12px;padding:3px 10px;border-radius:999px;background:var(--card);font-weight:700;font-size:12px}
+.lcard .badge.l{left:12px;color:var(--mint)} .lcard .badge.n{right:12px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.lcard .body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:4px;flex:1}
+.lcard h3{font-size:21px}
+.lcard .ar{color:var(--muted);font-size:15px}
+.lcard p{margin:6px 0 0;color:var(--ink-2);font-size:15px}
+.lcard .foot{display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding-top:14px;font-size:14px;color:var(--muted)}
+.lcard .go{font-weight:700;color:var(--cobalt);background:var(--cobalt-soft);padding:6px 14px;border-radius:999px}
+.lcard.done .go{background:var(--good-soft);color:var(--good)}
+.lcard.soon{opacity:.7}
+.lcard.soon .go{background:var(--paper);color:var(--muted)}
+
+/* path */
+.path{position:relative;max-width:760px;margin:10px auto 0}
+.path::before{content:"";position:absolute;inset:0 auto 0 27px;border-inline-start:2px dashed var(--line)}
+.stage-h{position:relative;display:inline-flex;align-items:center;gap:8px;margin:26px 0 12px 58px;font-weight:700;font-size:14px;color:var(--saffron);background:var(--saffron-soft);padding:5px 12px;border-radius:999px}
+.step{position:relative;display:grid;grid-template-columns:56px 1fr;gap:12px;align-items:center;margin-bottom:12px}
+.step .dot{position:relative;z-index:1;width:56px;height:56px;border-radius:50%;background:var(--card);border:2px solid var(--line);display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:18px;color:var(--ink-2)}
+.step.done .dot{background:var(--good);border-color:var(--good);color:#fff}
+.step.next .dot{border-color:var(--cobalt);color:var(--cobalt)}
+.step .box{display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);padding:14px 16px;text-decoration:none}
+.step .box small{color:var(--muted);display:block;font-weight:600;font-size:13px}
+.step .box b{font-family:var(--display);font-size:18px}
+.step.soon .box{opacity:.6}
+
+/* lesson page */
+.lhero{display:grid;grid-template-columns:1fr 320px;gap:24px;align-items:center;padding-block:28px 12px}
+.lhero .art{border-radius:var(--r-lg);overflow:hidden;aspect-ratio:16/10}
+.lhero .art svg{width:100%;height:100%;display:block}
+@media (max-width:760px){.lhero{grid-template-columns:1fr}.lhero .art{display:none}.ltabs{top:70px}.player{top:122px}}
+.ltabs{position:sticky;top:78px;z-index:5;display:flex;gap:6px;overflow-x:auto;background:var(--paper);padding-block:10px;margin-bottom:6px;scrollbar-width:none}
+.ltabs button{flex:none;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:9px 16px;font-weight:700;font-size:15px;color:var(--ink-2);display:flex;gap:7px;align-items:center}
+.ltabs button[aria-selected="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.ltabs button .ok{color:var(--good)}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:22px;margin-bottom:24px}
+@media (max-width:560px){.panel{padding:16px}}
+
+/* read & listen */
+.player{position:sticky;top:142px;z-index:4;display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;background:var(--ink);color:var(--paper);border-radius:var(--r-md);padding:10px 14px;margin-bottom:18px}
+.player .pp{width:44px;height:44px;border-radius:50%;border:0;background:var(--saffron);color:#1b1405;display:grid;place-items:center}
+.player .pp svg{width:20px;height:20px}
+.player .ttl{font-weight:700;font-size:15px;line-height:1.3}
+.player .bar{height:6px;background:rgba(255,255,255,.2);border-radius:9px;margin-top:6px;cursor:pointer;position:relative}
+.player .bar i{position:absolute;inset:0 auto 0 0;background:var(--saffron);border-radius:9px}
+.player .tm{font-size:13px;font-variant-numeric:tabular-nums;opacity:.8}
+.player .sp{border:1px solid rgba(255,255,255,.3);background:none;color:inherit;border-radius:999px;padding:4px 10px;font-size:13px;font-weight:700}
+.tracks{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.tracks button{border:1px solid var(--line);background:var(--paper);border-radius:var(--r-sm);padding:8px 12px;font-weight:600;font-size:14px;text-align:start}
+.tracks button[aria-pressed="true"]{border-color:var(--cobalt);background:var(--cobalt-soft);color:var(--cobalt)}
+.reader{font-size:18px;line-height:1.75;max-width:70ch}
+.reader h4{font-family:var(--display);font-size:20px;margin:26px 0 8px}
+.reader .ln{display:block;padding:6px 10px;margin-inline:-10px;border-radius:10px;cursor:pointer;transition:background .2s}
+.reader .ln:hover{background:var(--paper)}
+.reader .ln.now{background:var(--saffron-soft);box-shadow:inset 3px 0 0 var(--saffron)}
+.reader .ln .who{font-weight:700;color:var(--cobalt);margin-inline-end:4px}
+.reader .blank{display:inline-block;min-width:64px;border-bottom:2px solid var(--muted);height:1em;vertical-align:-2px}
+.reader .note{color:var(--muted);font-size:15px}
+.hint{display:flex;gap:10px;background:var(--mint-soft);color:var(--ink);border-radius:var(--r-md);padding:12px 14px;font-size:15px;margin-bottom:16px}
+
+/* practice player (learn / quiz / match / talk) */
+.prog{height:8px;border-radius:9px;background:var(--line);overflow:hidden;margin-bottom:16px}
+.prog i{display:block;height:100%;background:var(--mint);border-radius:9px;transition:width .35s}
+.kicker{font-size:14px;color:var(--muted);font-weight:600}
+.phrase{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin:6px 0 4px}
+.phrase h2{font-size:clamp(26px,4.4vw,36px);font-weight:650}
+.say{flex:none;width:48px;height:48px;border-radius:50%;border:0;background:var(--saffron-soft);color:var(--saffron);display:grid;place-items:center}
+.say svg{width:22px;height:22px}
+.meaning{font-size:20px;font-weight:600;margin-bottom:14px}
+.example{background:var(--paper);border-radius:var(--r-md);padding:14px 16px;margin-bottom:12px}
+.example mark{background:var(--saffron-soft);color:inherit;border-radius:4px;padding:0 3px}
+.tip{border-inline-start:3px solid var(--mint);padding-inline-start:12px;color:var(--ink-2);font-size:15px}
+.actions{display:flex;justify-content:flex-end;gap:8px;margin-top:18px}
+.q{font-size:20px;font-weight:600;margin:6px 0 14px}
+.opts{display:grid;gap:10px}
+.opt{border:1.5px solid var(--line);background:var(--card);border-radius:var(--r-md);padding:13px 16px;text-align:left;font-size:17px}
+.opt.arx{text-align:right;direction:rtl;font-family:var(--ar)}
+.opt:hover:not(:disabled){border-color:var(--cobalt)}
+.opt.right{border-color:var(--good);background:var(--good-soft)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
+.opt:disabled{cursor:default}
+.gap{display:inline-block;min-width:72px;border-bottom:2px solid var(--cobalt);text-align:center;color:var(--cobalt)}
+.built{min-height:56px;border:1.5px dashed var(--line);border-radius:var(--r-md);padding:8px;display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.bank{display:flex;flex-wrap:wrap;gap:6px}
+.w{border:1px solid var(--line);background:var(--paper);border-radius:10px;padding:7px 12px;font-size:16px}
+.w:disabled{opacity:.25}
+.fb{border-radius:var(--r-md);padding:12px 14px;margin-top:14px}
+.fb.good{background:var(--good-soft)} .fb.bad{background:var(--bad-soft)}
+.fb b{display:block} .fb.good b{color:var(--good)} .fb.bad b{color:var(--bad)}
+.board{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.col{display:grid;gap:10px;align-content:start}
+.tile{border:1.5px solid var(--line);background:var(--card);border-radius:var(--r-md);padding:12px;min-height:54px;font-size:16px;transition:opacity .25s,transform .25s}
+.tile.sel{border-color:var(--cobalt);background:var(--cobalt-soft)}
+.tile.gone{opacity:0;pointer-events:none;transform:scale(.96)}
+.tile.shake{animation:sh .3s;border-color:var(--bad)}
+@keyframes sh{25%{transform:translateX(-4px)}75%{transform:translateX(4px)}}
+.timer{font-weight:800;color:var(--saffron);font-variant-numeric:tabular-nums}
+.scene{background:var(--paper);border-radius:var(--r-md);padding:12px 14px;margin-bottom:14px}
+.chat{display:grid;gap:10px;margin-bottom:6px}
+.msg{max-width:85%;padding:10px 14px;border-radius:16px;font-size:17px}
+.msg small{display:block;font-size:12px;color:var(--muted);margin-bottom:2px}
+.msg.them{justify-self:start;background:var(--paper);border-top-left-radius:4px}
+.msg.you{justify-self:end;background:var(--cobalt);color:#fff;border-top-right-radius:4px}
+.msg.you small{color:inherit;opacity:.8}
+.done-box{text-align:center;display:grid;justify-items:center;gap:10px;padding-block:10px}
+.done-box h2{font-size:32px}
+.score{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+.score div{background:var(--paper);border-radius:var(--r-md);padding:10px 18px;min-width:110px}
+.score b{display:block;font-family:var(--display);font-size:26px}
+.score span{font-size:13px;color:var(--muted)}
+
+/* phrasebook */
+.pb{display:grid;gap:10px}
+.pbrow{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);padding:12px 16px}
+.pbrow b{font-size:17px;font-weight:600}
+.empty{text-align:center;color:var(--muted);border:1.5px dashed var(--line);border-radius:var(--r-lg);padding:40px 16px}
+
+.ltabs .new{font-size:10px;font-weight:800;background:var(--saffron);color:#1b1405;border-radius:999px;padding:1px 6px;margin-inline-end:6px;vertical-align:1px}
+.bank-all{margin-top:22px;border-top:1px solid var(--line);padding-top:14px}
+.bank-all summary{cursor:pointer;font-weight:700;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.bank-list{display:grid;gap:6px;margin-top:12px}
+.bank-row{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start;font-size:16px;padding:6px 0;border-bottom:1px dashed var(--line)}
+.say.sm{width:34px;height:34px}.say.sm svg{width:16px;height:16px}
+.spot-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:6px 0}
+.spot-head h2{font-size:clamp(30px,5vw,42px);font-weight:800}
+.lvl{font-size:13px;font-weight:700;color:var(--cobalt);background:var(--cobalt-soft);padding:3px 10px;border-radius:999px}
+.spot-def{font-size:18px;margin:4px 0}.spot-ar{color:var(--muted);margin:0 0 14px}
+.book-line{background:var(--saffron-soft);border-radius:var(--r-md);padding:12px 14px;margin-bottom:16px}
+.uses{display:grid;gap:8px;margin:8px 0 16px}
+.use{display:grid;gap:2px;border-radius:14px;padding:10px 14px;background:var(--paper);border-inline-start:4px solid var(--line)}
+.use b{font-size:13px;color:var(--muted)}
+.u-email{border-color:var(--cobalt)}.u-chat{border-color:var(--mint)}.u-meeting{border-color:var(--rose)}
+.goes{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 16px}
+.dd{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.dd>div{border-radius:var(--r-md);padding:12px 14px;font-size:15px}.dd b{display:block;margin-bottom:4px}
+.dont{background:var(--bad-soft)}.dont b{color:var(--bad)}.do{background:var(--good-soft)}.do b{color:var(--good)}
+@media (max-width:560px){.dd{grid-template-columns:1fr}}
+.story-hero h2{font-size:clamp(26px,4vw,34px);margin:6px 0 4px}
+.story{font-size:19px;line-height:1.8;max-width:65ch;margin:14px 0}
+.story p{margin:0 0 10px}
+.techw{margin-top:14px}.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.chip{display:inline-flex;flex-direction:column;gap:2px;padding:8px 12px;border-radius:12px;background:var(--cobalt-soft);font-size:14px}
+.chip b{color:var(--cobalt)}.chip .ar{font-size:13px;color:var(--muted)}
+.sgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.scard{display:flex;flex-direction:column;gap:6px;padding:20px;border-radius:20px;background:var(--card);border:1px solid var(--line);text-decoration:none;color:inherit;transition:transform .15s}
+.scard:hover{transform:translateY(-2px)}.scard h3{margin:0;font-size:20px;text-wrap:balance}.scard p{margin:0}
+.sico{font-size:30px;line-height:1}.sl{font-size:14px;color:var(--muted)}.smeta{margin-top:auto;font-size:13px;font-weight:600;color:var(--cobalt)}
+.opts.two{grid-template-columns:1fr 1fr}
+.plain{background:var(--paper);border-radius:var(--r-md);padding:14px 16px;margin:8px 0 12px}
+.bad-say{font-size:20px;font-weight:600;color:var(--bad);text-decoration:line-through;text-decoration-thickness:1.5px;text-decoration-color:color-mix(in srgb,var(--bad) 45%,transparent)}
+.jar{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.jcard{display:grid;gap:6px;text-align:start;background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:18px;min-height:150px;align-content:start}
+.jcard .jt{font-family:var(--display);font-size:24px;font-weight:800}
+.jcard .jm,.jcard .ja{display:none}.jcard .je{color:var(--ink-2);font-style:italic}
+.jcard .jhint{font-size:13px;color:var(--muted);margin-top:auto}
+.jcard[aria-expanded="true"]{border-color:var(--mint);background:var(--mint-soft)}
+.jcard[aria-expanded="true"] .jm,.jcard[aria-expanded="true"] .ja{display:block}.jcard[aria-expanded="true"] .jm{font-weight:700}
+.jcard[aria-expanded="true"] .jhint{display:none}
+footer{margin-top:40px;border-top:1px solid var(--line);padding-block:26px;color:var(--muted);font-size:14px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="nav-in">
+  <a class="brand" href="#/"><span class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 5h10a6 6 0 0 1 0 12H9l-5 3z" fill="#E9A93A"/><path d="M8 9h6M8 13h4" stroke="#18233F" stroke-width="2" stroke-linecap="round"/></svg></span>Kalam Business</a>
+  <nav class="links" aria-label="Main">
+    <a href="#/">Home</a><a href="#/path">Learning path</a><a href="#/lessons">Lessons</a><a href="#/phrases">My phrases</a><a href="#/stories">Stories</a><a href="#/decoder">Office talk</a>
+  </nav>
+  <div class="stats">
+    <span class="stat s" title="Day streak"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c1 4 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3-1-6 1-9z"/></svg><span id="s-streak">0</span></span>
+    <span class="stat x" title="XP"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg><span id="s-xp">0</span></span>
+  </div>
+</div></header>
+<nav class="tabbar" aria-label="Main">
+  <a href="#/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>Home</a>
+  <a href="#/path"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M8.5 6H15a3 3 0 0 1 0 6H9a3 3 0 0 0 0 6h6.5"/></svg>Path</a>
+  <a href="#/lessons"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5"/></svg>Lessons</a>
+  <a href="#/phrases"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 4h14v16l-7-4-7 4z"/></svg>Phrases</a>
+  <a href="#/stories"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 6c-2-2-5-2-8-1v14c3-1 6-1 8 1 2-2 5-2 8-1V5c-3-1-6-1-8 1z"/><path d="M12 6v14"/></svg>Stories</a>
+  <a href="#/decoder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h16v10H9l-5 4z"/></svg>Office talk</a>
+</nav>
+<main id="app"></main>
+<footer><div class="wrap">Kalam Business · English for work, for Arabic speakers. Audio and texts are from the course book, for personal study.</div></footer>
+
+<script>
+/* ============================================================
+   CONTENT
+   Each lesson: reading (book text + audio, time-aligned),
+   cards (learn), quiz (practice), match (game), roleplay (speak).
+   ============================================================ */
+const CHAPTERS=[
+ {id:"c1",n:1,title:"Job Interviews",ar:"مقابلات الشغل",level:"B1"},
+ {id:"c2",n:2,title:"Business Email",ar:"الإيميلات في الشغل",level:"B1"},
+ {id:"c3",n:3,title:"Business Meetings",ar:"الاجتماعات",level:"B1–B2"},
+ {id:"c4",n:4,title:"Presenting",ar:"العروض التقديمية",level:"B2"},
+ {id:"c5",n:5,title:"Negotiation",ar:"التفاوض",level:"B2"},
+ {id:"c6",n:6,title:"Digital Communication",ar:"التواصل الرقمي و LinkedIn",level:"B1"},
+ {id:"c7",n:7,title:"Office Talk",ar:"كلام المكتب",level:"B1"}
+];
+/*__READING__*/
+/*__UNIT__*/
+/*__CH1__*/
+/*__CH2__*/
+const LESSONS=[
+ ...UNIT_PHONE_INTERVIEW.lessons.map((l,i)=>({...l,chapter:"c1",part:"Phone interview",art:["phone","cv","money"][i],
+   desc:["Answer the first HR call, ask to call back politely, and describe yourself in strong words.","Talk about your past roles with numbers, and explain why you want to move on.","Give a salary range, ask about benefits, and close the call with smart questions."][i],
+   minutes:[15,15,15][i], reading:READING_PHONE.slice(i*2,i*2+2)})),
+ ...CH1_MORE.map(l=>({...l,chapter:"c1",reading:l.reading.map(k=>READING_CH1[k]),cards:l.cards.map((c,i)=>({...c,clip:`audio/ch1/${l.id}-${i+1}.mp3`}))})),
+ ...CH2.map(l=>({...l,chapter:"c2",reading:l.reading.map(k=>READING_CH2[k]),cards:l.cards.map((c,i)=>({...c,clip:`audio/ch2/${l.id}-${i+1}.mp3`}))})),
+ {id:"s5",chapter:"c3",art:"meeting",title:"Running and joining meetings",ar:"إدارة الاجتماعات والمشاركة فيها",desc:"Opening, staying on track, disagreeing and interrupting politely.",soon:true},
+ {id:"s6",chapter:"c4",art:"chart",title:"Presenting with confidence",ar:"عرض تقديمي بثقة",desc:"Structure, signposting, and handling questions.",soon:true},
+ {id:"s7",chapter:"c5",art:"deal",title:"Negotiating a deal",ar:"التفاوض على صفقة",desc:"Proposals, counter-offers, and closing.",soon:true},
+ {id:"s8",chapter:"c6",art:"laptop",title:"Video calls and LinkedIn",ar:"مكالمات الفيديو ولينكدإن",desc:"Virtual meeting phrases and a strong LinkedIn bio.",soon:true},
+ {id:"s9",chapter:"c7",art:"coffee",title:"Small talk and office etiquette",ar:"الكلام الخفيف وآداب المكتب",desc:"Chatting with colleagues and handling conflict.",soon:true}
+];
+
+/*__FIX__*/
+/*__PILOT__*/
+/*__STORIES__*/
+Object.assign(STORY.pi2,{field:"UPS & batteries",fieldAr:"الـ UPS والبطاريات",hero:"Karim",icon:"🔋",tech:[["UPS","جهاز الـ UPS"],["kVA","كيلو فولت أمبير (قدرة الجهاز)"],["battery bank","مجموعة بطاريات"],["lead-acid","بطاريات رصاص حمضية"],["lithium-ion","بطاريات ليثيوم أيون"]]});
+if(typeof STORY_MORE!=="undefined") Object.assign(STORY,STORY_MORE);
+LESSONS.forEach(l=>{const f=typeof CARD_FIX!=="undefined"&&CARD_FIX[l.id]; if(f) l.cards=l.cards.map((c,i)=>f[i]?{...c,ex:f[i].ex}:c)});
+/* ============================================================
+   ILLUSTRATIONS — small flat scenes, one per topic
+   ============================================================ */
+const ART_BG={phone:["#E6EAFB","#C9D2F7"],cv:["#DDF3EC","#B9E6D8"],money:["#FBF0DA","#F4DDA8"],handshake:["#FBE6EA","#F4C6D0"],ladder:["#E6EAFB","#C9D2F7"],star:["#FBF0DA","#F4DDA8"],mail:["#DDF3EC","#B9E6D8"],meeting:["#E6EAFB","#C9D2F7"],chart:["#FBE6EA","#F4C6D0"],deal:["#FBF0DA","#F4DDA8"],laptop:["#DDF3EC","#B9E6D8"],coffee:["#FBE6EA","#F4C6D0"]};
+function art(kind){
+  const [a,b]=ART_BG[kind]||ART_BG.phone, ink="#18233F", co="#3552C9", mi="#2FA88E", sa="#E9A93A", ro="#D9677B";
+  const bg=`<defs><linearGradient id="g${kind}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${a}"/><stop offset="1" stop-color="${b}"/></linearGradient></defs><rect width="320" height="200" fill="url(#g${kind})"/><circle cx="270" cy="30" r="46" fill="#fff" opacity=".35"/><circle cx="40" cy="185" r="60" fill="#fff" opacity=".3"/>`;
+  const s={
+   phone:`<rect x="120" y="36" width="80" height="140" rx="14" fill="${ink}"/><rect x="127" y="50" width="66" height="110" rx="6" fill="#fff"/><circle cx="160" cy="80" r="14" fill="${co}"/><rect x="138" y="102" width="44" height="7" rx="3.5" fill="${ink}" opacity=".7"/><rect x="146" y="114" width="28" height="6" rx="3" fill="${ink}" opacity=".35"/><circle cx="145" cy="140" r="9" fill="${ro}"/><circle cx="175" cy="140" r="9" fill="${mi}"/><path d="M214 70q16 10 0 26M224 60q28 20 0 46" stroke="${sa}" stroke-width="5" fill="none" stroke-linecap="round"/><rect x="40" y="58" width="64" height="34" rx="12" fill="#fff"/><path d="M92 90l10 12 2-14z" fill="#fff"/><rect x="52" y="70" width="40" height="5" rx="2.5" fill="${co}"/><rect x="52" y="79" width="26" height="5" rx="2.5" fill="${co}" opacity=".45"/>`,
+   cv:`<rect x="96" y="30" width="118" height="148" rx="10" fill="#fff"/><circle cx="124" cy="62" r="14" fill="${mi}"/><rect x="146" y="54" width="52" height="7" rx="3.5" fill="${ink}"/><rect x="146" y="66" width="34" height="6" rx="3" fill="${ink}" opacity=".4"/><rect x="110" y="94" width="90" height="6" rx="3" fill="${ink}" opacity=".25"/><rect x="110" y="106" width="76" height="6" rx="3" fill="${ink}" opacity=".25"/><rect x="110" y="118" width="84" height="6" rx="3" fill="${ink}" opacity=".25"/><rect x="110" y="138" width="44" height="22" rx="6" fill="${sa}"/><path d="M200 150l28-40 16 12-28 40-18 6z" fill="${co}"/><path d="M244 122l-16-12 6-8 16 12z" fill="${ink}"/><path d="M40 80l14 14 26-30" stroke="${mi}" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`,
+   money:`<rect x="60" y="80" width="150" height="86" rx="12" fill="${mi}"/><rect x="72" y="92" width="126" height="62" rx="8" fill="none" stroke="#fff" stroke-width="3" opacity=".7"/><circle cx="135" cy="123" r="18" fill="#fff" opacity=".85"/><text x="135" y="130" text-anchor="middle" font-family="Bricolage Grotesque,sans-serif" font-weight="800" font-size="20" fill="${mi}">$</text><circle cx="232" cy="72" r="24" fill="${sa}"/><circle cx="232" cy="72" r="16" fill="none" stroke="#fff" stroke-width="3"/><circle cx="256" cy="120" r="18" fill="${sa}"/><path d="M40 60h60M40 44h40" stroke="${ink}" stroke-width="6" stroke-linecap="round" opacity=".25"/><rect x="224" y="150" width="60" height="26" rx="13" fill="#fff"/><path d="M238 163h32" stroke="${co}" stroke-width="5" stroke-linecap="round"/>`,
+   handshake:`<path d="M40 120l60-30 40 20 40-20 60 30-20 20-40-10-40 20-40-20-40 10z" fill="${ro}"/><path d="M100 90l40 20 40-20" stroke="${ink}" stroke-width="5" fill="none" stroke-linecap="round"/><rect x="20" y="104" width="34" height="50" rx="8" fill="${co}"/><rect x="266" y="104" width="34" height="50" rx="8" fill="${ink}"/><circle cx="160" cy="54" r="16" fill="${sa}"/>`,
+   ladder:`<path d="M120 180l30-150M190 180l30-150" stroke="${ink}" stroke-width="8" stroke-linecap="round"/><path d="M128 150h56M136 115h56M144 80h56M151 48h56" stroke="${ink}" stroke-width="6" stroke-linecap="round"/><circle cx="210" cy="36" r="16" fill="${sa}"/><path d="M60 150l20-30 20 20 26-40" stroke="${mi}" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`,
+   star:`<path d="M160 36l18 38 42 5-31 29 8 42-37-21-37 21 8-42-31-29 42-5z" fill="${sa}"/><circle cx="72" cy="70" r="10" fill="${co}"/><circle cx="252" cy="130" r="12" fill="${mi}"/><circle cx="84" cy="146" r="7" fill="${ro}"/>`,
+   mail:`<rect x="70" y="56" width="180" height="116" rx="12" fill="#fff"/><path d="M70 66l90 60 90-60" stroke="${co}" stroke-width="7" fill="none" stroke-linejoin="round"/><circle cx="244" cy="58" r="18" fill="${ro}"/><text x="244" y="65" text-anchor="middle" font-family="Figtree,sans-serif" font-weight="800" font-size="18" fill="#fff">1</text>`,
+   meeting:`<ellipse cx="160" cy="140" rx="110" ry="30" fill="${ink}" opacity=".85"/><circle cx="80" cy="96" r="18" fill="${co}"/><circle cx="160" cy="84" r="18" fill="${sa}"/><circle cx="240" cy="96" r="18" fill="${mi}"/><rect x="118" y="30" width="84" height="34" rx="12" fill="#fff"/><rect x="130" y="42" width="60" height="6" rx="3" fill="${ink}" opacity=".5"/>`,
+   chart:`<rect x="60" y="40" width="200" height="120" rx="10" fill="#fff"/><rect x="84" y="112" width="24" height="32" rx="4" fill="${co}"/><rect x="120" y="92" width="24" height="52" rx="4" fill="${mi}"/><rect x="156" y="72" width="24" height="72" rx="4" fill="${sa}"/><rect x="192" y="58" width="24" height="86" rx="4" fill="${ro}"/><path d="M150 160v26M120 186h60" stroke="${ink}" stroke-width="6" stroke-linecap="round"/>`,
+   deal:`<rect x="80" y="44" width="110" height="136" rx="10" fill="#fff"/><path d="M98 76h74M98 92h60M98 108h70" stroke="${ink}" stroke-width="6" stroke-linecap="round" opacity=".3"/><path d="M100 150q20-20 34 0t34-6" stroke="${co}" stroke-width="5" fill="none" stroke-linecap="round"/><circle cx="232" cy="88" r="30" fill="${mi}"/><path d="M218 88l10 10 20-22" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`,
+   laptop:`<rect x="80" y="44" width="160" height="100" rx="10" fill="${ink}"/><rect x="90" y="54" width="140" height="80" rx="4" fill="#fff"/><circle cx="130" cy="86" r="14" fill="${co}"/><circle cx="190" cy="86" r="14" fill="${sa}"/><rect x="118" y="108" width="24" height="6" rx="3" fill="${ink}" opacity=".3"/><rect x="178" y="108" width="24" height="6" rx="3" fill="${ink}" opacity=".3"/><path d="M60 150h200l-14 16H74z" fill="${ink}" opacity=".85"/>`,
+   coffee:`<rect x="110" y="84" width="84" height="80" rx="14" fill="#fff"/><path d="M194 100h16a16 16 0 0 1 0 32h-16" stroke="#fff" stroke-width="10" fill="none"/><path d="M130 70q10-14 0-28M152 70q10-14 0-28M174 70q10-14 0-28" stroke="${ink}" stroke-width="5" fill="none" stroke-linecap="round" opacity=".4"/><rect x="40" y="46" width="56" height="30" rx="10" fill="${co}"/><rect x="224" y="46" width="56" height="30" rx="10" fill="${mi}"/>`
+  };
+  return `<svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice">${bg}${s[kind]||""}</svg>`;
+}
+const HERO_ART=`<svg viewBox="0 0 480 400" role="img" aria-label="Two colleagues talking across a desk" style="width:100%;height:auto">
+ <circle cx="250" cy="200" r="178" fill="var(--cobalt-soft)"/><circle cx="380" cy="80" r="46" fill="var(--saffron-soft)"/>
+ <rect x="70" y="262" width="340" height="18" rx="9" fill="#18233F"/><rect x="100" y="280" width="12" height="80" fill="#18233F"/><rect x="368" y="280" width="12" height="80" fill="#18233F"/>
+ <circle cx="150" cy="150" r="30" fill="#E9A93A"/><path d="M104 262q0-72 46-72t46 72z" fill="#3552C9"/>
+ <circle cx="330" cy="140" r="30" fill="#D9677B"/><path d="M284 262q0-80 46-80t46 80z" fill="#2FA88E"/>
+ <rect x="196" y="232" width="80" height="30" rx="4" fill="#fff"/><rect x="204" y="240" width="40" height="5" rx="2.5" fill="#18233F" opacity=".4"/>
+ <g><rect x="24" y="56" width="184" height="58" rx="18" fill="#fff"/><path d="M120 112l-8 22 26-22z" fill="#fff"/><text x="115" y="92" text-anchor="middle" font-family="Figtree,sans-serif" font-weight="700" font-size="17" fill="#18233F">Tell me about yourself</text></g>
+ <g><rect x="276" y="176" width="0" height="0"/><rect x="250" y="30" width="206" height="58" rx="18" fill="#18233F"/><path d="M322 86l6 22 16-22z" fill="#18233F"/><text x="353" y="66" text-anchor="middle" font-family="Figtree,sans-serif" font-weight="700" font-size="17" fill="#fff">I thrive on challenges</text></g>
+</svg>`;
+
+/* ============================================================
+   STATE (this browser only)
+   ============================================================ */
+const KEY="kalam-business-v1";
+let S={xp:0,done:{},read:{},streak:0,last:null};
+try{const r=localStorage.getItem(KEY); if(r) S=Object.assign(S,JSON.parse(r));}catch(e){}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
+const day=d=>new Date(d).toISOString().slice(0,10);
+function bump(){const t=day(Date.now()); if(S.last===t)return; S.streak=S.last===day(Date.now()-864e5)?S.streak+1:1; S.last=t}
+function stats(){const ok=S.last===day(Date.now())||S.last===day(Date.now()-864e5);
+  document.getElementById("s-streak").textContent=ok?S.streak:0; document.getElementById("s-xp").textContent=S.xp}
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
+const SPK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
+let CLIP=null;
+function play(card){ if(CLIP){CLIP.pause();CLIP=null} if(card&&card.clip){CLIP=new Audio(card.clip);CLIP.play().catch(()=>{})} }
+const chapter=id=>CHAPTERS.find(c=>c.id===id);
+const real=()=>LESSONS.filter(l=>!l.soon);
+
+/* ============================================================
+   ROUTER
+   ============================================================ */
+const app=document.getElementById("app");
+function route(){
+  stopAudio(); clearInterval(tick);
+  const h=location.hash.replace(/^#\/?/,"").split("/");
+  const page=h[0]||"";
+  document.querySelectorAll(".links a,.tabbar a").forEach(a=>{
+    const p=a.getAttribute("href").replace(/^#\/?/,"").split("/")[0];
+    a.toggleAttribute("aria-current",p===page||(page==="lesson"&&p==="lessons")); if(a.hasAttribute("aria-current"))a.setAttribute("aria-current","page")});
+  if(page==="lessons") lessons(h[1]);
+  else if(page==="path") pathPage();
+  else if(page==="phrases") phrases();
+  else if(page==="decoder") decoder();
+  else if(page==="stories") storiesPage();
+  else if(page==="lesson") lesson(h[1],h[2]);
+  else home();
+  window.scrollTo(0,0); stats();
+}
+addEventListener("hashchange",route);
+
+/* ---------- home ---------- */
+function home(){
+  const nxt=real().find(l=>!S.done[l.id])||real()[0];
+  app.innerHTML=`<div class="wrap">
+   <section class="hero">
+    <div>
+     <h1>Business English <span class="l2">you can use at work tomorrow.</span></h1>
+     <p class="sub">Read and hear real workplace English from the book, learn the key phrases, then practise them in short games and role-plays.</p>
+     <p class="sub-ar ar">إنجليزي الشغل الحقيقي: اقرا واسمع من الكتاب، اتعلم العبارات، واتمرن عليها في مواقف فعلية.</p>
+     <div class="cta"><a class="btn" href="#/lesson/${nxt.id}">${S.done[real()[0].id]?"Continue learning":"Start the first lesson"}</a><a class="btn alt" href="#/lessons">Browse lessons</a></div>
+    </div>
+    <div class="hero-art">${HERO_ART}</div>
+   </section>
+   <section class="sec">
+    <div class="sec-head"><h2>Four ways to learn each lesson</h2><p>Every lesson follows the book, and you can jump to any part.</p></div>
+    <div class="ways">
+     ${way("t-saffron","book","Read & listen","Follow the book text while the audio plays. Tap any line to hear it again.","اقرا النص وهو بيتقري، واضغط على أي سطر تسمعه تاني.",["Book audio","Transcripts"],`#/lesson/${nxt.id}/read`)}
+     ${way("t-cobalt","cards","Learn","Seven key phrases per lesson, with meaning, example and tip.","٧ عبارات في كل درس بالمعنى والمثال ونصيحة الاستخدام.",["Phrases","Flashcards"],`#/lesson/${nxt.id}/learn`)}
+     ${way("t-mint","game","Practise","Quick questions, fill the gap, word order, and a timed matching game.","أسئلة سريعة، كمّل الفراغ، رتّب الكلمات، ولعبة توصيل بالتايمر.",["Quiz","Match game"],`#/lesson/${nxt.id}/quiz`)}
+     ${way("t-rose","chat","Speak","Role-play a real conversation and choose what you would say.","مواقف حقيقية: اختار ردك واعرف ليه صح أو غلط.",["Role-play","Feedback"],`#/lesson/${nxt.id}/talk`)}
+    </div>
+   </section>
+   <section class="sec">
+    <div class="sec-head"><h2>From the book, chapter by chapter</h2><p class="ar">الكتاب كله هيتحول لدروس، فصل ورا فصل.</p></div>
+    ${cardGrid(LESSONS.slice(0,6))}
+    <p style="text-align:center;margin-top:22px"><a class="btn alt" href="#/lessons">See all lessons</a></p>
+   </section>
+   <section class="sec">
+    <div class="sec-head"><h2>Stories from your field</h2><p class="ar">نفس عبارات الكتاب، بس في قصص من شغل الـ IT والطاقة والصيانة.</p></div>
+    <div class="sgrid">${storyCards()}</div>
+   </section></div>`;
+}
+const ICONS={book:'<path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5M9 8h6"/>',cards:'<rect x="3" y="6" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/>',game:'<rect x="2" y="7" width="20" height="11" rx="5"/><path d="M7 11v3M5.5 12.5h3M16 12h.01M18 14h.01"/>',chat:'<path d="M4 5h16v10H9l-5 4z"/><path d="M8 9h8M8 12h5"/>'};
+function way(t,ic,h,p,ar,tags,href){
+  return `<a class="way ${t}" href="${href}"><span class="ic" style="background:color-mix(in srgb,currentColor 14%,transparent)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${ICONS[ic]}</svg></span><h3>${h}</h3><p>${p}</p><p class="ar">${ar}</p><span class="tags">${tags.map(x=>`<span class="chip">${x}</span>`).join("")}</span></a>`;
+}
+function cardGrid(list){
+  return `<div class="cards">${list.map(l=>{const c=chapter(l.chapter), n=LESSONS.indexOf(l)+1;
+   return l.soon?`<div class="lcard soon"><div class="art">${art(l.art)}<span class="badge l">${c.level}</span><span class="badge n">${String(n).padStart(2,"0")}</span></div><div class="body"><h3>${esc(l.title)}</h3><span class="ar">${esc(l.ar)}</span><p>${esc(l.desc)}</p><div class="foot"><span>Chapter ${c.n}</span><span class="go">Coming soon</span></div></div></div>`
+   :`<a class="lcard ${S.done[l.id]?"done":""}" href="#/lesson/${l.id}"><div class="art">${art(l.art)}<span class="badge l">${c.level}</span><span class="badge n">${String(n).padStart(2,"0")}</span></div><div class="body"><h3>${esc(l.title)}</h3><span class="ar">${esc(l.ar)}</span><p>${esc(l.desc)}</p><div class="foot"><span>${l.minutes} min · with book audio</span><span class="go">${S.done[l.id]?"Done ✓":"Start"}</span></div></div></a>`}).join("")}</div>`;
+}
+
+/* ---------- lessons list ---------- */
+function lessons(filter){
+  const f=filter||"all";
+  const chs=CHAPTERS.filter(c=>f==="all"||c.id===f);
+  app.innerHTML=`<div class="wrap"><section class="phead">
+    <a class="back" href="#/">← Home</a>
+    <h1>Lessons</h1><p>Each lesson covers a few pages of the book: read and listen, learn the phrases, practise, and role-play.</p>
+    <p class="ar">كل درس بيغطي كام صفحة من الكتاب.</p>
+    <div class="filters">${[["all","All chapters"],...CHAPTERS.map(c=>[c.id,`${c.n}. ${c.title}`])].map(([id,t])=>`<button data-f="${id}" aria-pressed="${id===f}">${t}</button>`).join("")}</div>
+   </section>
+   ${chs.map(c=>{const ls=LESSONS.filter(l=>l.chapter===c.id);return `<div class="group"><div class="group-h"><b>${c.n}. ${c.title}</b><span class="ar">${c.ar}</span><span>· ${ls.filter(l=>!l.soon).length} ready</span></div>${cardGrid(ls)}</div>`}).join("")}
+  </div>`;
+  app.querySelectorAll("[data-f]").forEach(b=>b.onclick=()=>location.hash=`#/lessons/${b.dataset.f}`);
+}
+
+/* ---------- learning path ---------- */
+function pathPage(){
+  const doneN=real().filter(l=>S.done[l.id]).length; let nextMarked=false;
+  app.innerHTML=`<div class="wrap"><section class="phead"><a class="back" href="#/">← Home</a><h1>Learning path</h1>
+   <p>Go through the book in order. ${doneN} of ${real().length} ready lessons done.</p><p class="ar">امشي مع الكتاب بالترتيب.</p></section>
+   <div class="path">${CHAPTERS.map(c=>`<div class="stage-h">Chapter ${c.n} · ${c.title}</div>`+LESSONS.filter(l=>l.chapter===c.id).map(l=>{
+     const n=LESSONS.indexOf(l)+1, done=S.done[l.id]; let cls=l.soon?"soon":done?"done":""; if(!l.soon&&!done&&!nextMarked){cls="next";nextMarked=true}
+     const inner=`<span><small>${l.part||c.title}</small><b>${esc(l.title)}</b></span><span class="${l.soon?"chip":"go chip lv"}">${l.soon?"Soon":done?"Again":"Start"}</span>`;
+     return `<div class="step ${cls}"><span class="dot">${done?"✓":n}</span>${l.soon?`<div class="box">${inner}</div>`:`<a class="box" href="#/lesson/${l.id}">${inner}</a>`}</div>`}).join("")).join("")}</div></div>`;
+}
+
+/* ---------- phrasebook ---------- */
+function phrases(){
+  const c=real().filter(l=>S.done[l.id]).flatMap(l=>l.cards);
+  app.innerHTML=`<div class="wrap"><section class="phead"><a class="back" href="#/">← Home</a><h1>My phrases</h1><p>Every phrase from the lessons you finish is saved here, with the book audio.</p></section>
+   ${c.length?`<div class="pb">${c.map((x,i)=>`<div class="pbrow"><div><b>${esc(x.en)}</b><div class="ar" style="color:var(--muted)">${esc(x.ar)}</div></div><button class="say" data-i="${i}" aria-label="Listen">${SPK}</button></div>`).join("")}</div>`
+   :`<p class="empty">Finish your first lesson and its phrases will appear here.<br><span class="ar">خلّص أول درس وعباراته هتتجمع هنا.</span><br><br><a class="btn" href="#/lesson/${real()[0].id}">Start lesson 1</a></p>`}</div>`;
+  app.querySelectorAll(".say").forEach(b=>b.onclick=()=>play(c[b.dataset.i]));
+}
+
+/* ============================================================
+   LESSON PAGE
+   ============================================================ */
+const ALL_TABS=[["read","Read & listen"],["learn","Learn"],["words","Word spotlight"],["story","Mini story"],["quiz","Practise"],["upgrade","Say it like a pro"],["match","Match game"],["talk","Role-play"]];
+let TABS=ALL_TABS;
+function tabsFor(l){return ALL_TABS.filter(([k])=>k==="words"?WORDS[l.id]:k==="story"?STORY[l.id]:k==="upgrade"?UPGRADE[l.id]:true)}
+let L,tab,tick;
+function lesson(id,t){
+  L=LESSONS.find(l=>l.id===id&&!l.soon); if(!L){location.hash="#/lessons";return}
+  TABS=tabsFor(L);
+  tab=TABS.some(x=>x[0]===t)?t:"read";
+  const c=chapter(L.chapter), n=LESSONS.indexOf(L)+1;
+  app.innerHTML=`<div class="wrap">
+   <section class="lhero"><div>
+     <a class="back" href="#/lessons">← Lessons</a>
+     <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px"><span class="chip lv">${c.level}</span><span class="chip">Chapter ${c.n} · ${c.title}</span><span class="chip">Lesson ${n}</span></div>
+     <h1 style="font-size:clamp(30px,4.6vw,46px);font-weight:800">${esc(L.title)}</h1>
+     <p class="ar" style="color:var(--muted);font-size:18px;margin:6px 0 0">${esc(L.ar)}</p>
+     <p style="color:var(--ink-2);margin:10px 0 0">${esc(L.desc)}</p>
+   </div><div class="art">${art(L.art)}</div></section>
+   <div class="ltabs" role="tablist">${TABS.map(([k,e])=>`<button role="tab" data-t="${k}" aria-selected="${k===tab}">${["words","story","upgrade"].includes(k)?'<span class="new">New</span>':""}${e}${k==="read"&&S.read[L.id]||k==="talk"&&S.done[L.id]?' <span class="ok">✓</span>':""}</button>`).join("")}</div>
+   <div class="panel" id="panel"></div></div>`;
+  app.querySelectorAll("[data-t]").forEach(b=>b.onclick=()=>{history.replaceState(null,"",`#/lesson/${L.id}/${b.dataset.t}`);setTab(b.dataset.t)});
+  setTab(tab);
+}
+function setTab(t){
+  tab=t; stopAudio(); clearInterval(tick);
+  app.querySelectorAll("[data-t]").forEach(b=>b.setAttribute("aria-selected",b.dataset.t===t));
+  const sel=app.querySelector(`[data-t="${t}"]`); if(sel&&sel.scrollIntoView) sel.scrollIntoView({inline:"center",block:"nearest"});
+  const p=document.getElementById("panel");
+  ({read:readTab,learn:learnTab,words:wordsTab,story:storyTab,quiz:quizTab,upgrade:upgradeTab,match:matchTab,talk:talkTab})[t](p);
+}
+function nextTab(){const i=TABS.findIndex(x=>x[0]===tab); if(i<TABS.length-1){history.replaceState(null,"",`#/lesson/${L.id}/${TABS[i+1][0]}`);setTab(TABS[i+1][0]);document.querySelector(".ltabs").scrollIntoView({block:"start"})}}
+
+/* ---------- read & listen ---------- */
+let AUD=null, rafId=0;
+function stopAudio(){ if(AUD){AUD.pause();AUD=null} cancelAnimationFrame(rafId); if(CLIP){CLIP.pause();CLIP=null} if(typeof SEG!=="undefined"&&SEG){SEG.pause();SEG=null} }
+const fmt=s=>isFinite(s)?`${s/60|0}:${String(s%60|0).padStart(2,"0")}`:"0:00";
+function readTab(p){
+  let cur=0;
+  const draw=()=>{
+    const R=L.reading[cur];
+    p.innerHTML=`<div class="hint"><span>🎧</span><span>Press play and follow the text. The line being read lights up; tap any line to jump to it.<br><span class="ar">دوس تشغيل وتابع النص. السطر اللي بيتقري بيتلوّن، واضغط على أي سطر تروحله.</span></span></div>
+     <div class="tracks">${L.reading.map((r,i)=>`<button data-k="${i}" aria-pressed="${i===cur}">Part ${i+1}: ${esc(r.title.replace(/^\d+\.\s*/,""))}</button>`).join("")}</div>
+     <div class="player"><button class="pp" id="pp" aria-label="Play">${PLAY}</button>
+      <div><div class="ttl">${esc(R.title.replace(/^\d+\.\s*/,""))}</div><div class="bar" id="bar"><i id="fill" style="width:0"></i></div></div>
+      <div style="display:grid;gap:4px;justify-items:end"><span class="tm" id="tm">0:00</span><button class="sp" id="sp">1×</button></div></div>
+     <div class="reader" id="reader">${R.lines.map((l,i)=>l.k==="h"?`<h4>${esc(l.s)}</h4>`:`<span class="ln" data-i="${i}" ${l.t!=null?`data-t="${l.t}"`:""}>${fmtLine(l.s)}</span>`).join("")}</div>
+     <div class="actions"><button class="btn" id="go">Next: learn the phrases</button></div>`;
+    stopAudio(); const A=new Audio(R.src); AUD=A; A.preload="metadata";
+    const pp=p.querySelector("#pp"), fill=p.querySelector("#fill"), tm=p.querySelector("#tm"), lines=[...p.querySelectorAll(".ln[data-t]")];
+    let lastNow=null;
+    const loop=()=>{ if(AUD!==A)return; const t=A.currentTime, d=A.duration||1;
+      fill.style.width=(t/d*100)+"%"; tm.textContent=`${fmt(t)} / ${fmt(A.duration)}`;
+      let now=null; for(const el of lines){ if(+el.dataset.t<=t+.25) now=el; else break }
+      if(now!==lastNow){ lastNow&&lastNow.classList.remove("now"); if(now){now.classList.add("now"); const r=now.getBoundingClientRect(); if(r.top<200||r.bottom>innerHeight-40) now.scrollIntoView({block:"center",behavior:"smooth"})} lastNow=now }
+      rafId=requestAnimationFrame(loop)};
+    A.onplay=()=>{pp.innerHTML=PAUSE;pp.setAttribute("aria-label","Pause");loop()};
+    A.onpause=()=>{pp.innerHTML=PLAY;pp.setAttribute("aria-label","Play");cancelAnimationFrame(rafId)};
+    A.onended=()=>{S.read[L.id]=true;save(); if(cur<L.reading.length-1){cur++;draw();AUD&&AUD.play().catch(()=>{})}};
+    A.onloadedmetadata=()=>tm.textContent=`0:00 / ${fmt(A.duration)}`;
+    pp.onclick=()=>A.paused?A.play().catch(()=>{}):A.pause();
+    const rates=[1,.85,.75,1.15]; let ri=0;
+    p.querySelector("#sp").onclick=e=>{ri=(ri+1)%rates.length;A.playbackRate=rates[ri];e.target.textContent=rates[ri]+"×"};
+    p.querySelector("#bar").onclick=e=>{const r=e.currentTarget.getBoundingClientRect(); if(A.duration)A.currentTime=(e.clientX-r.left)/r.width*A.duration};
+    lines.forEach(el=>el.onclick=()=>{A.currentTime=Math.max(0,+el.dataset.t-.2);A.play().catch(()=>{})});
+    p.querySelectorAll("[data-k]").forEach(b=>b.onclick=()=>{cur=+b.dataset.k;draw()});
+    p.querySelector("#go").onclick=()=>{S.read[L.id]=true;save();nextTab()};
+  };
+  draw();
+}
+const PLAY='<svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4v16l13-8z"/></svg>', PAUSE='<svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg>';
+function fmtLine(s){
+  let h=esc(s).replace(/_{3}/g,'<span class="blank" aria-label="blank"></span>').replace(/\[the company\]/g,"<em>[the company]</em>");
+  const m=h.match(/^([A-Z][A-Za-z.\- ]{1,26}):\s+/); if(m) h=`<span class="who">${m[1]}:</span> `+h.slice(m[0].length);
+  return h;
+}
+
+/* ---------- learn ---------- */
+function learnTab(p){
+  let i=0;
+  const draw=()=>{const c=L.cards[i];
+    p.innerHTML=`<div class="prog"><i style="width:${(i+1)/L.cards.length*100}%"></i></div>
+     <span class="kicker">Phrase ${i+1} of ${L.cards.length} · <span class="ar">عبارة ${i+1} من ${L.cards.length}</span></span>
+     <div class="phrase"><h2>${esc(c.en)}</h2>${c.clip?`<button class="say" id="sp" aria-label="Listen from the book">${SPK}</button>`:""}</div>
+     <div class="meaning ar">${esc(c.ar)}</div>
+     <div class="example"><span class="kicker">Example</span><div>${c.ex}</div></div>
+     <p class="tip ar">${esc(c.tip)}</p>
+     <div class="actions">${i?'<button class="btn alt" id="bk">Back</button>':""}<button class="btn" id="go">${i<L.cards.length-1?"Next phrase":"Keep going"}</button></div>
+     ${phraseBank()}`;
+    const sp=p.querySelector("#sp"); if(sp){sp.onclick=()=>play(c)}
+    bindBank(p);
+    if(i||tab==="learn") play(c);
+    p.querySelector("#go").onclick=()=>{if(i<L.cards.length-1){i++;draw()}else nextTab()};
+    const bk=p.querySelector("#bk"); if(bk)bk.onclick=()=>{i--;draw()};
+  };
+  draw();
+}
+
+/* ---------- quiz ---------- */
+let SC={};
+function quizTab(p){
+  let i=0; SC={quiz:0};
+  const draw=()=>{const q=L.quiz[i], last=i===L.quiz.length-1;
+    const top=`<div class="prog"><i style="width:${i/L.quiz.length*100}%"></i></div><span class="kicker">Question ${i+1} of ${L.quiz.length}</span>`;
+    const fb=(ok)=>{if(ok)SC.quiz++; const b=p.querySelector("#fb"); b.hidden=false; b.className="fb "+(ok?"good":"bad");
+      b.innerHTML=`<b>${ok?"Correct!":"Not quite"}</b><span class="ar">${esc(q.why)}</span>`; const g=p.querySelector("#go"); g.hidden=false; g.focus();
+      g.onclick=()=>{if(last){p.innerHTML=`<div class="done-box"><h2>${SC.quiz} / ${L.quiz.length}</h2><p class="ar">${SC.quiz===L.quiz.length?"ممتاز! كله صح.":"كويس! راجع العبارات اللي غلطت فيها."}</p><div class="actions" style="justify-content:center"><button class="btn alt" id="again">Try again</button><button class="btn" id="nx">Play the match game</button></div></div>`;p.querySelector("#again").onclick=()=>quizTab(p);p.querySelector("#nx").onclick=nextTab}else{i++;draw()}}};
+    if(q.type==="order"){ let built=[]; const bank=shuffle(q.words.map((w,k)=>({w,k})));
+      p.innerHTML=`${top}<p class="q">Put the words in order</p><div class="built" id="bt"></div><div class="bank" id="bk"></div><div id="fb" hidden></div><div class="actions"><button class="btn" id="ck" disabled>Check</button><button class="btn" id="go" hidden>${last?"See score":"Next"}</button></div>`;
+      const d=()=>{p.querySelector("#bt").innerHTML=built.map((b,j)=>`<button class="w" data-j="${j}">${esc(b.w)}</button>`).join("");
+        p.querySelector("#bk").innerHTML=bank.map(b=>`<button class="w" data-k="${b.k}" ${built.includes(b)?"disabled":""}>${esc(b.w)}</button>`).join("");
+        p.querySelectorAll("#bt .w").forEach(x=>x.onclick=()=>{built.splice(+x.dataset.j,1);d()});
+        p.querySelectorAll("#bk .w").forEach(x=>x.onclick=()=>{built.push(bank.find(b=>b.k==x.dataset.k));d()});
+        p.querySelector("#ck").disabled=built.length!==q.words.length};
+      d(); p.querySelector("#ck").onclick=function(){this.hidden=true;p.querySelectorAll(".w").forEach(w=>w.disabled=true);const ok=built.map(b=>b.w).join(" ")===q.answer;fb(ok);if(!ok)p.querySelector("#fb").innerHTML+=`<div style="margin-top:6px">${esc(q.answer)}</div>`};
+      return; }
+    const prompt=q.type==="gap"?`<p class="q">${esc(q.sentence).replace("___",'<span class="gap">?</span>')}</p>`:`<p class="q ar">${esc(q.q)}</p>`;
+    const arx=/[؀-ۿ]/.test(q.options[0]);
+    p.innerHTML=`${top}${prompt}<div class="opts">${q.options.map((o,k)=>`<button class="opt ${arx?"arx":""}" data-k="${k}">${esc(o)}</button>`).join("")}</div><div id="fb" hidden></div><div class="actions"><button class="btn" id="go" hidden>${last?"See score":"Next"}</button></div>`;
+    p.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{const k=+b.dataset.k,ok=k===q.answer;
+      p.querySelectorAll(".opt").forEach(x=>{x.disabled=true;if(+x.dataset.k===q.answer)x.classList.add("right")}); if(!ok)b.classList.add("wrong");
+      if(q.type==="gap")p.querySelector(".gap").textContent=q.options[q.answer]; fb(ok)});
+  };
+  draw();
+}
+
+/* ---------- match game ---------- */
+function matchTab(p){
+  const pairs=L.match.map((x,k)=>({en:x[0],ar:x[1],k})), left=shuffle(pairs), right=shuffle(pairs);
+  let sel=null,found=0,t0=Date.now(),miss=0;
+  p.innerHTML=`<div style="display:flex;justify-content:space-between;align-items:center;gap:10px"><div><span class="kicker">Match each word with its meaning, fast</span><p class="q ar" style="margin-top:2px">وصّل كل كلمة بمعناها بأسرع وقت</p></div><span class="timer" id="tmr">0.0s</span></div>
+   <div class="board"><div class="col">${left.map(x=>`<button class="tile" data-k="${x.k}" data-s="en">${esc(x.en)}</button>`).join("")}</div><div class="col">${right.map(x=>`<button class="tile ar" data-k="${x.k}" data-s="ar">${esc(x.ar)}</button>`).join("")}</div></div>`;
+  clearInterval(tick); tick=setInterval(()=>{const e=document.getElementById("tmr"); if(!e){clearInterval(tick);return} e.textContent=((Date.now()-t0)/1000).toFixed(1)+"s"},100);
+  p.querySelectorAll(".tile").forEach(b=>b.onclick=()=>{
+    if(!sel||sel.dataset.s===b.dataset.s){sel&&sel.classList.remove("sel");sel=b;b.classList.add("sel");return}
+    if(sel.dataset.k===b.dataset.k){[sel,b].forEach(x=>x.classList.add("gone"));found++;sel=null;
+      if(found===pairs.length){clearInterval(tick);const s=(Date.now()-t0)/1000;SC.time=s;
+        setTimeout(()=>{p.innerHTML=`<div class="done-box"><h2>${s.toFixed(1)}s</h2><p>${miss} mistakes · ${s<20?"Lightning fast ⚡":"Try to beat your time!"}</p><div class="actions" style="justify-content:center"><button class="btn alt" id="again">Play again</button><button class="btn" id="nx">Role-play</button></div></div>`;p.querySelector("#again").onclick=()=>matchTab(p);p.querySelector("#nx").onclick=nextTab},400)}}
+    else{miss++;const a=sel;[a,b].forEach(x=>{x.classList.remove("sel");x.classList.add("shake")});setTimeout(()=>[a,b].forEach(x=>x.classList.remove("shake")),320);sel=null}});
+}
+
+/* ---------- role-play ---------- */
+function talkTab(p){
+  const turns=L.roleplay.turns; let hist=[],idx=0,good=0; const total=turns.filter(t=>t.you).length;
+  const draw=()=>{while(idx<turns.length&&turns[idx].them){hist.push({w:"them",t:turns[idx].them});idx++}
+    const cur=turns[idx];
+    p.innerHTML=`<div class="scene"><span class="kicker">The situation</span><div class="ar">${esc(L.roleplay.scene)}</div></div>
+     <div class="chat">${hist.map(h=>`<div class="msg ${h.w}"><small>${h.w==="them"?"Them":"You"}</small>${esc(h.t)}</div>`).join("")}</div>
+     ${cur?`<p class="kicker" style="margin-top:14px">What do you say?</p><div class="opts">${shuffle(cur.you.map((o,k)=>({...o,k}))).map(o=>`<button class="opt" data-k="${o.k}">${esc(o.t)}</button>`).join("")}</div>`:""}
+     <div id="fb" hidden></div><div class="actions"><button class="btn" id="go" ${cur?"hidden":""}>${cur?"Continue":"Finish the lesson"}</button></div>`;
+    if(!cur){p.querySelector("#go").onclick=()=>finish(p,good,total);return}
+    p.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{const o=cur.you[+b.dataset.k];
+      p.querySelectorAll(".opt").forEach(x=>{x.disabled=true;if(cur.you[+x.dataset.k].ok)x.classList.add("right")}); if(!o.ok)b.classList.add("wrong"); else good++;
+      const f=p.querySelector("#fb");f.hidden=false;f.className="fb "+(o.ok?"good":"bad");f.innerHTML=`<b>${o.ok?"Great answer":"There's a better reply"}</b><span class="ar">${esc(o.fb)}</span>`;
+      const g=p.querySelector("#go");g.hidden=false;g.focus();g.onclick=()=>{hist.push({w:"you",t:cur.you.find(x=>x.ok).t});idx++;draw()}});
+  };
+  draw();
+}
+
+/* ---------- phrase bank: every line from the book pages, playable from the book audio ---------- */
+let SEG=null;
+function playSeg(src,t,t2){ if(SEG){SEG.pause()} if(CLIP){CLIP.pause();CLIP=null}
+  const a=new Audio(src); SEG=a; a.currentTime=Math.max(0,t-.15);
+  a.play().catch(()=>{}); if(t2) a.ontimeupdate=()=>{ if(a.currentTime>=t2+.2){a.pause()} } }
+function bankItems(){
+  return (L.reading||[]).flatMap(r=>{const ps=r.lines.filter(l=>l.k==="p");
+    return ps.map((l,i)=>({src:r.src,t:l.t,t2:(ps.slice(i+1).find(n=>n.t>l.t)||{}).t,s:l.s,sec:r.title}))
+      .filter(x=>x.s.split(/\s+/).length<=28 && !/^(Subject|Dear|Best regards|Warm regards|Sincerely)/.test(x.s))});
+}
+function phraseBank(){
+  const items=bankItems(); if(!items.length) return "";
+  return `<details class="bank-all"><summary>📚 All phrases from these pages <span class="chip">${items.length}</span><span class="ar" style="color:var(--muted);font-size:14px">كل الجمل اللي في الصفحات دي، بصوت الكتاب</span></summary>
+   <div class="bank-list">${items.map((x,i)=>`<div class="bank-row"><button class="say sm" data-b="${i}" aria-label="Listen">${SPK}</button><span>${fmtLine(x.s)}</span></div>`).join("")}</div></details>`;
+}
+function bindBank(p){ const items=bankItems(); p.querySelectorAll("[data-b]").forEach(b=>b.onclick=()=>{const x=items[+b.dataset.b]; playSeg(x.src,x.t,x.t2)}); }
+
+/* ---------- word spotlight ---------- */
+const CH_ICON={Email:"✉️",Chat:"💬",Meeting:"👥"};
+function wordsTab(p){
+  const ws=WORDS[L.id]; let i=0;
+  const draw=()=>{const w=ws[i];
+    p.innerHTML=`<div class="prog"><i style="width:${(i+1)/ws.length*100}%"></i></div>
+     <span class="kicker">Word ${i+1} of ${ws.length} · real-world English</span>
+     <div class="spot-head"><h2>${esc(w.w)}</h2><span class="chip">${w.pos}</span><span class="lvl" title="How formal">${["","Casual","Neutral","Formal"][w.level]}</span></div>
+     <p class="spot-def">${esc(w.def)}</p><p class="ar spot-ar">${esc(w.ar)}</p>
+     <div class="book-line"><span class="kicker">In the book</span><div>${esc(w.book)}</div></div>
+     <span class="kicker">Where you'll use it</span>
+     <div class="uses">${w.uses.map(([c,t])=>`<div class="use u-${c.toLowerCase()}"><b>${CH_ICON[c]} ${c}</b><span>${esc(t)}</span></div>`).join("")}</div>
+     <span class="kicker">Words that go with it</span><div class="goes">${w.goes.map(g=>`<span class="chip">${esc(g)}</span>`).join("")}</div>
+     <div class="dd"><div class="dont"><b>✗ Don't say</b>${w.dont.map(esc).join("<br>")}</div><div class="do"><b>✓ Say</b>${w.doo.map(esc).join("<br>")}</div></div>
+     <div class="actions">${i?'<button class="btn alt" id="bk">Back</button>':""}<button class="btn" id="go">${i<ws.length-1?"Next word":"Read the mini story"}</button></div>`;
+    p.querySelector("#go").onclick=()=>{if(i<ws.length-1){i++;draw()}else nextTab()};
+    const bk=p.querySelector("#bk"); if(bk)bk.onclick=()=>{i--;draw()};
+  }; draw();
+}
+
+/* ---------- mini story (AJ Hoge style: story, then many quick questions) ---------- */
+function storyTab(p){
+  const st=STORY[L.id]; let step=0, qi=0, right=0; const words=(WORDS[L.id]||[]).map(w=>w.w).concat(L.cards.map(c=>c.en.replace(/[.…,?]+$/,"").split(" ").slice(0,4).join(" ")));
+  const WL=st.words||(WORDS[L.id]||[]).map(w=>w.w);
+  const hl=s=>{let h=esc(s); WL.forEach(w=>{const pat=w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&").replace(/[-\s]+/g,"[-\\s]?"); const re=new RegExp("\\b("+pat+"\\w*)","i"); h=h.replace(re,'<mark>$1</mark>')}); return h};
+  const draw=()=>{
+    if(step===0){ p.innerHTML=`<div class="story-hero"><span class="kicker">Mini story · AJ Hoge method</span><h2>${st.icon?st.icon+" ":""}${esc(st.title)}</h2><p class="ar" style="color:var(--muted)">${esc(st.ar)}</p><p>${esc(st.scene)}</p>
+        ${st.tech?`<div class="techw"><span class="kicker">Tech words in this story · كلمات فنية</span><div class="chips">${st.tech.map(([e,a])=>`<span class="chip"><b>${esc(e)}</b><span class="ar">${esc(a)}</span></span>`).join("")}</div></div>`:""}</div>
+       <div class="hint"><span>💡</span><span>Read the story once. Then answer lots of quick, easy questions — fast, without thinking too much. The repetition is what makes the words stick.<br><span class="ar">اقرا القصة مرة، وبعدين جاوب بسرعة على أسئلة كتير سهلة. التكرار هو اللي بيثبّت الكلمات.</span></span></div>
+       <div class="story">${st.lines.map(l=>`<p>${hl(l)}</p>`).join("")}</div>
+       <div class="actions"><button class="btn" id="go">Start the questions</button></div>`;
+      p.querySelector("#go").onclick=()=>{step=1;draw()}; return }
+    if(step===1){ const q=st.qa[qi];
+      p.innerHTML=`<div class="prog"><i style="width:${qi/st.qa.length*100}%"></i></div><span class="kicker">Question ${qi+1} of ${st.qa.length} · answer fast!</span>
+       <p class="q" style="font-size:24px">${esc(q.q)}</p><div class="opts two">${q.opts.map((o,k)=>`<button class="opt" data-k="${k}">${esc(o)}</button>`).join("")}</div>
+       <div id="fb" hidden></div><div class="actions"><button class="btn" id="go" hidden>Next</button></div>`;
+      p.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{const ok=+b.dataset.k===q.k; if(ok)right++;
+        p.querySelectorAll(".opt").forEach(x=>{x.disabled=true;if(+x.dataset.k===q.k)x.classList.add("right")}); if(!ok)b.classList.add("wrong");
+        const f=p.querySelector("#fb");f.hidden=false;f.className="fb "+(ok?"good":"bad");f.innerHTML=`<b>${ok?"Yes!":"Not quite"}</b><span>${hl(q.a)}</span>`;
+        const g=p.querySelector("#go");g.hidden=false;g.focus();g.onclick=()=>{qi++; if(qi<st.qa.length)draw(); else {step=2;draw()}}}); return }
+    p.innerHTML=`<div class="done-box"><h2>${right} / ${st.qa.length}</h2><p>You just used the lesson's words ${st.qa.length*2}+ times.</p></div>
+     <div class="hint"><span>🎤</span><span><b>Point of view:</b> ${esc(st.pov)}<br><span class="ar">احكي القصة بصوت عالي كأنك انت ${esc(st.hero||"Karim")}.</span></span></div>
+     <div class="actions"><button class="btn alt" id="again">Read again</button><button class="btn" id="nx">Practise</button></div>`;
+    p.querySelector("#again").onclick=()=>{step=0;qi=0;right=0;draw()}; p.querySelector("#nx").onclick=nextTab;
+  }; draw();
+}
+
+/* ---------- say it like a pro ---------- */
+function upgradeTab(p){
+  const it=UPGRADE[L.id]; let i=0, good=0;
+  const draw=()=>{ if(i>=it.length){p.innerHTML=`<div class="done-box"><h2>${good} / ${it.length}</h2><p>Upgraded sentences sound natural at work.</p><div class="actions" style="justify-content:center"><button class="btn alt" id="again">Again</button><button class="btn" id="nx">Match game</button></div></div>`;p.querySelector("#again").onclick=()=>upgradeTab(p);p.querySelector("#nx").onclick=nextTab;return}
+    const u=it[i];
+    p.innerHTML=`<div class="prog"><i style="width:${i/it.length*100}%"></i></div><span class="kicker">Say it like a pro · ${i+1} of ${it.length}</span>
+     <div class="plain"><span class="kicker">What we often say</span><div class="bad-say">“${esc(u.plain)}”</div><div class="ar" style="color:var(--muted)">${esc(u.ar)}</div></div>
+     <p class="q">Which one sounds natural at work?</p>
+     <div class="opts">${u.pro.map((o,k)=>`<button class="opt" data-k="${k}">${esc(o)}</button>`).join("")}</div>
+     <div id="fb" hidden></div><div class="actions"><button class="btn" id="go" hidden>Next</button></div>`;
+    p.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{const ok=+b.dataset.k===u.a; if(ok)good++;
+      p.querySelectorAll(".opt").forEach(x=>{x.disabled=true;if(+x.dataset.k===u.a)x.classList.add("right")}); if(!ok)b.classList.add("wrong");
+      const f=p.querySelector("#fb");f.hidden=false;f.className="fb "+(ok?"good":"bad");f.innerHTML=`<b>${ok?"That's how pros say it":"The natural version is highlighted"}</b><span class="ar">${esc(u.why)}</span>`;
+      const g=p.querySelector("#go");g.hidden=false;g.focus();g.onclick=()=>{i++;draw()}}); };
+  draw();
+}
+
+/* ---------- stories from your field ---------- */
+function storyCards(){return Object.entries(STORY).map(([id,st])=>{const l=LESSONS.find(x=>x.id===id); if(!l)return "";
+  return `<a class="scard" href="#/lesson/${id}/story"><span class="sico">${st.icon||"📖"}</span><span class="kicker">${esc(st.field||"")}</span><h3>${esc(st.title)}</h3><p class="ar">${esc(st.ar)}</p>
+   <p class="sl">Words from: <b>${esc(l.title)}</b></p><span class="smeta">${st.qa.length} quick questions · ${S.done[id]?"✓ lesson done":"hero: "+esc(st.hero||"")}</span></a>`}).join("")}
+function storiesPage(){
+  app.innerHTML=`<div class="wrap"><section class="phead"><a class="back" href="#/">← Home</a><h1>Stories from your field</h1>
+   <p>Short stories from real technical work — UPS, servers, solar plants, control cards and VFDs. Each one reuses the phrases of a book lesson, then asks lots of quick questions so the words stick (the AJ Hoge mini-story method).</p>
+   <p class="ar">قصص قصيرة من شغلك الحقيقي. كل قصة فيها عبارات درس من الكتاب، وبعدها أسئلة سريعة كتير عشان الكلمات تثبت.</p></section>
+   <div class="sgrid">${storyCards()}</div></div>`;
+}
+
+/* ---------- office talk decoder ---------- */
+function decoder(){
+  let f="all";
+  const draw=()=>{const list=JARGON.filter(j=>f==="all"||j.ch===f);
+   app.innerHTML=`<div class="wrap"><section class="phead"><a class="back" href="#/">← Home</a><h1>Office talk</h1>
+    <p>The English people really use at work today — in chats, emails and meetings — and what it actually means.</p><p class="ar">الكلام اللي بيتقال في الشركات فعلًا، ومعناه الحقيقي بالمصري.</p>
+    <div class="filters">${[["all","All"],["chat","💬 Chat"],["email","✉️ Email"],["meeting","👥 Meeting"]].map(([k,t])=>`<button data-f="${k}" aria-pressed="${k===f}">${t}</button>`).join("")}</div></section>
+    <div class="jar">${list.map(j=>`<button class="jcard" aria-expanded="false"><span class="jt">${esc(j.t)}</span><span class="jm">${esc(j.m)}</span><span class="ja ar">${esc(j.ar)}</span><span class="je">“${esc(j.eg)}”</span><span class="jhint">Tap to see the meaning</span></button>`).join("")}</div></div>`;
+   app.querySelectorAll("[data-f]").forEach(b=>b.onclick=()=>{f=b.dataset.f;draw()});
+   app.querySelectorAll(".jcard").forEach(b=>b.onclick=()=>b.setAttribute("aria-expanded",b.getAttribute("aria-expanded")==="true"?"false":"true"));
+  }; draw();
+}
+
+function finish(p,good,total){
+  const first=!S.done[L.id], gain=20+(SC.quiz||0)*5+good*5+((SC.time||99)<20?10:0);
+  S.xp+=gain; S.done[L.id]=true; bump(); save(); stats();
+  const nxt=real().find(l=>!S.done[l.id]);
+  p.innerHTML=`<div class="done-box"><h2>Lesson complete 🎉</h2><p class="ar">برافو! خلّصت «${esc(L.ar)}»${first?"، والعبارات اتضافت لـ My phrases.":"."}</p>
+   <div class="score"><div><b>+${gain}</b><span>XP</span></div><div><b>${SC.quiz??"–"}/${L.quiz.length}</b><span>Practice</span></div><div><b>${SC.time?SC.time.toFixed(1)+"s":"–"}</b><span>Match game</span></div><div><b>${good}/${total}</b><span>Role-play</span></div></div>
+   <div class="actions" style="justify-content:center">${nxt?`<a class="btn" href="#/lesson/${nxt.id}">Next lesson: ${esc(nxt.title)}</a>`:`<a class="btn" href="#/path">Back to the path</a>`}</div></div>`;
+}
+
+route();
+</script>
+</body>
+</html>
