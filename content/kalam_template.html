@@ -384,6 +384,9 @@ const CHAPTERS=[
 /*__CH2__*/
 /*__CH3__*/
 /*__CH4__*/
+/*__CH5__*/
+/*__CH6__*/
+/*__CH7__*/
 const LESSONS=[
  ...UNIT_PHONE_INTERVIEW.lessons.map((l,i)=>({...l,chapter:"c1",part:"Phone interview",art:["phone","cv","money"][i],
    desc:["Answer the first HR call, ask to call back politely, and describe yourself in strong words.","Talk about your past roles with numbers, and explain why you want to move on.","Give a salary range, ask about benefits, and close the call with smart questions."][i],
@@ -392,9 +395,9 @@ const LESSONS=[
  ...CH2.map(l=>({...l,chapter:"c2",reading:l.reading.map(k=>READING_CH2[k]),cards:l.cards.map((c,i)=>({...c,clip:`audio/ch2/${l.id}-${i+1}.mp3`}))})),
  ...CH3.map(l=>({...l,chapter:"c3",reading:l.reading.map(k=>READING_CH3[k]),cards:l.cards.map((c,i)=>({...c,clip:`audio/ch3/${l.id}-${i+1}.mp3`}))})),
  ...CH4.map(l=>({...l,chapter:"c4",reading:l.reading.map(k=>READING_CH4[k]),cards:l.cards.map((c,i)=>({...c,clip:`audio/ch4/${l.id}-${i+1}.mp3`}))})),
- {id:"s7",chapter:"c5",art:"deal",title:"Negotiating a deal",ar:"التفاوض على صفقة",desc:"Proposals, counter-offers, and closing.",soon:true},
- {id:"s8",chapter:"c6",art:"laptop",title:"Video calls and LinkedIn",ar:"مكالمات الفيديو ولينكدإن",desc:"Virtual meeting phrases and a strong LinkedIn bio.",soon:true},
- {id:"s9",chapter:"c7",art:"coffee",title:"Small talk and office etiquette",ar:"الكلام الخفيف وآداب المكتب",desc:"Chatting with colleagues and handling conflict.",soon:true}
+ ...CH5.map(l=>({...l,chapter:"c5",reading:l.reading.map(k=>READING_CH5[k]),cards:l.cards.map((c,i)=>({...c,clip:`audio/ch5/${l.id}-${i+1}.mp3`}))})),
+ ...CH6.map(l=>({...l,chapter:"c6",reading:l.reading.map(k=>READING_CH6[k]),cards:l.cards.map((c,i)=>({...c,clip:`audio/ch6/${l.id}-${i+1}.mp3`}))})),
+ ...CH7.map(l=>({...l,chapter:"c7",reading:l.reading.map(k=>READING_CH7[k]),cards:l.cards.map((c,i)=>({...c,clip:`audio/ch7/${l.id}-${i+1}.mp3`}))}))
 ];
 
 /*__FIX__*/

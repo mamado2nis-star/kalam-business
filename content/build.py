@@ -28,6 +28,18 @@ ch4={}
 for sec in json.load(open('/home/claude/asr/read_presenting.json')):
     ch4[sec['key']]={'title':sec['title'],'src':f"audio/ch4/book-{sec['key']}.mp3",'lines':sec['lines']}
 t=t.replace('/*__CH4__*/','const READING_CH4='+json.dumps(ch4,ensure_ascii=False)+';\n'+open('/home/claude/asr/ch4_lessons.js').read())
+ch5={}
+for sec in json.load(open('/home/claude/asr/read_negotiation.json')):
+    ch5[sec['key']]={'title':sec['title'],'src':f"audio/ch5/book-{sec['key']}.mp3",'lines':sec['lines']}
+t=t.replace('/*__CH5__*/','const READING_CH5='+json.dumps(ch5,ensure_ascii=False)+';\n'+open('/home/claude/asr/ch5_lessons.js').read())
+ch6={}
+for sec in json.load(open('/home/claude/asr/read_digital.json')):
+    ch6[sec['key']]={'title':sec['title'],'src':f"audio/ch6/book-{sec['key']}.mp3",'lines':sec['lines']}
+t=t.replace('/*__CH6__*/','const READING_CH6='+json.dumps(ch6,ensure_ascii=False)+';\n'+open('/home/claude/asr/ch6_lessons.js').read())
+ch7={}
+for sec in json.load(open('/home/claude/asr/read_office.json')):
+    ch7[sec['key']]={'title':sec['title'],'src':f"audio/ch7/book-{sec['key']}.mp3",'lines':sec['lines']}
+t=t.replace('/*__CH7__*/','const READING_CH7='+json.dumps(ch7,ensure_ascii=False)+';\n'+open('/home/claude/asr/ch7_lessons.js').read())
 t=t.replace('/*__PILOT__*/',open('/home/claude/asr/pilot.js').read())
 t=t.replace('/*__STORIES__*/',open('/home/claude/asr/stories.js').read()+'\n'+open('/home/claude/asr/stories2.js').read()+'\n'+open('/home/claude/asr/stories3.js').read()+'\n'+open('/home/claude/asr/stories4.js').read()+'\n'+open('/home/claude/asr/bec.js').read())
 import glob,os
