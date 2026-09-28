@@ -36,7 +36,7 @@ for f in sorted(glob.glob('/home/claude/tts/maps/*/*.json')):
     lv=f.split('/')[-2]; say.setdefault(lv,{})[os.path.basename(f)[:-5]]=json.load(open(f))
 t=t.replace('/*__SAY__*/',('const SAY='+json.dumps(say,ensure_ascii=False,separators=(',',':'))+';') if say else '')
 t=t.replace('/*__SAR__*/',open('/home/claude/asr/story_ar.js').read())
-t=t.replace('/*__BANK__*/',open('/home/claude/asr/bank_ar.js').read())
+t=t.replace('/*__BANK__*/',open('/home/claude/asr/bank_ar.js').read()+open('/home/claude/asr/blank_ex.js').read())
 t=t.replace('/*__WUE__*/',open('/home/claude/asr/wu_emails.js').read())
 t=t.replace('/*__FIX__*/','const CARD_FIX='+open('/home/claude/asr/card_fixes.json').read()+';')
 open('/home/claude/worktalk/index.html','w').write(t)

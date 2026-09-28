@@ -82,7 +82,7 @@ Audio: phone_18
 ### Useful phrases
 My responsibilities are divided between ___ and ___.
 I'm managing ___.
-Most of my time is spent focusing on ___.
+Most of my time is spent following up on ___.
 I was responsible for the day-to-day ___.
 I have spent five years as ___.
 My experience includes a variety of ___.

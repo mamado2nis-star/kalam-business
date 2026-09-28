@@ -267,6 +267,7 @@ a{color:inherit}
 .story p{margin:0 0 10px;padding:4px 8px;margin-inline:-8px;border-radius:10px;cursor:pointer;transition:background .2s}
 .lnar{display:block;direction:rtl;text-align:left;font-size:.82em;line-height:1.7;color:var(--muted);margin:2px 0 4px}
 .reader.noar .lnar{display:none}
+.lnex{display:block;font-size:.88em;color:var(--mint);margin:2px 0}.lnex b{font-weight:800;margin-inline-end:4px}
 .lar{display:block;direction:rtl;text-align:right;font-family:inherit;font-size:16px;line-height:1.7;color:var(--muted);margin-top:2px}
 .story.noar .lar{display:none}
 .story-tools{display:flex;justify-content:flex-end;margin:10px 0 -4px}
@@ -634,7 +635,7 @@ function readTab(p){
       <div><div class="ttl">${esc(R.title.replace(/^\d+\.\s*/,""))}</div><div class="bar" id="bar"><i id="fill" style="width:0"></i></div></div>
       <div style="display:grid;gap:4px;justify-items:end"><span class="tm" id="tm">0:00</span><button class="sp" id="sp">1×</button></div></div>
      <div class="story-tools"><button class="btn alt sm" id="rar">${SHOWAR?"إخفاء الترجمة":"عرض الترجمة بالعربي"}</button></div>
-     <div class="reader ${SHOWAR?"":"noar"}" id="reader">${R.lines.map((l,i)=>l.k==="h"?`<h4>${esc(l.s)}</h4>`:`<span class="ln" data-i="${i}" ${l.t!=null?`data-t="${l.t}"`:""}>${fmtLine(l.s)}${(typeof BANK_AR!=="undefined"&&BANK_AR[l.s]&&BANK_AR[l.s][0])?`<span class="lnar">${esc(BANK_AR[l.s][0])}</span>`:""}</span>`).join("")}</div>
+     <div class="reader ${SHOWAR?"":"noar"}" id="reader">${R.lines.map((l,i)=>l.k==="h"?`<h4>${esc(l.s)}</h4>`:`<span class="ln" data-i="${i}" ${l.t!=null?`data-t="${l.t}"`:""}>${fmtLine(l.s)}${(typeof BLANK_EX!=="undefined"&&BLANK_EX[l.s])?`<span class="lnex"><b>e.g.</b> ${esc(BLANK_EX[l.s][0])}</span>`:""}${(typeof BANK_AR!=="undefined"&&BANK_AR[l.s]&&BANK_AR[l.s][0])?`<span class="lnar">${esc(BANK_AR[l.s][0])}</span>`:""}</span>`).join("")}</div>
      <div class="actions"><button class="btn" id="go">Next: learn the phrases</button></div>`;
     stopAudio(); const A=new Audio(R.src); AUD=A; A.preload="metadata";
     const pp=p.querySelector("#pp"), fill=p.querySelector("#fill"), tm=p.querySelector("#tm"), lines=[...p.querySelectorAll(".ln[data-t]")];
@@ -683,6 +684,7 @@ function learnAll(p){
      <span class="kicker">Phrase ${i+1} of ${items.length} · ${esc(x.sec)}</span>
      <div class="phrase all"><h2>${h}</h2><button class="say" id="sp" aria-label="Listen from the book" title="From the book">${SPK}</button>${spk(x.s,"big")}</div>
      ${m[0]?`<div class="meaning ar">${esc(m[0])}</div>`:""}
+     ${(typeof BLANK_EX!=="undefined"&&BLANK_EX[x.s])?`<div class="example"><span class="kicker">Example · مثال مكتمل</span><div>${esc(BLANK_EX[x.s][0])}</div><div class="ar" style="color:var(--muted);font-size:15px">${esc(BLANK_EX[x.s][1])}</div></div>`:""}
      ${m[1]?`<p class="tip">Useful phrase: <b>${esc(m[1])}</b></p>`:""}
      <div class="actions">${i?'<button class="btn alt" id="bk">Back</button>':""}<button class="btn" id="go">${i<items.length-1?"Next phrase":"Practise"}</button></div>
      <details class="bank-all"><summary>Jump to a phrase <span class="ar" style="color:var(--muted);font-size:14px">انتقل لأي جملة</span></summary><div class="bank-list">${items.map((y,j)=>`<div class="bank-row ${j===i?"cur":""}"><button class="say sm" data-j="${j}" aria-label="Go">${j+1}</button><span>${fmtLine(y.s)}</span></div>`).join("")}</div></details>`;
