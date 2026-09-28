@@ -940,7 +940,7 @@ function becHome(){ L=null;
   app.innerHTML=`<div class="wrap"><section class="phead"><a class="back" href="#/">← Home</a><h1>Business English Conversation</h1>
    <p>Real conversations about building your career at work: listen, read along, learn the key expressions, answer quick questions, then retell it yourself.</p>
    <p class="ar">محادثات حقيقية عن تطوير مسارك في الشغل: اسمع واقرا، اتعلم التعبيرات المهمة، جاوب أسئلة سريعة، وبعدين احكيها بنفسك.</p>${voicePick()}<a class="btn alt" href="https://claude.ai/artifact/WYJP4UDiFnmbtpL55sfiPc" target="_blank" rel="noopener" style="margin-top:12px">📚 My original lessons · دروسي الأصلية</a></section>
-   <div class="sgrid">${Object.entries(BEC).map(([id,b],i)=>`<a class="scard" href="#/bec/${id}"><span class="sico">${b.icon}</span><span class="kicker">Conversation ${i+1}</span><h3>${esc(b.title)}</h3><p class="ar">${esc(b.ar)}</p><p class="sl">${esc(b.scene)}</p><span class="smeta">${b.lines.length} lines · ${b.vocab.length} expressions · ${b.qa.length} questions</span></a>`).join("")}</div></div>`;
+   <div class="sgrid">${Object.entries(BEC).map(([id,b],i)=>`<a class="scard" href="#/bec/${id}"><span class="sico">${b.icon}</span><span class="kicker">Episode ${i+1}</span><h3>${esc(b.title)}</h3><p class="ar">${esc(b.ar)}</p><p class="sl">${esc(b.scene)}</p><span class="smeta">${b.lines.length} lines · ${b.vocab.length} expressions · ${b.qa.length} questions</span></a>`).join("")}</div></div>`;
 }
 function becUnit(id){ const b=BEC[id]; if(!b){becHome();return}
   L={id,cards:[],reading:[],title:b.title};

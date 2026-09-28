@@ -1,0 +1,1076 @@
+{
+ "bc14": {
+  "title": "Too Much on My Plate",
+  "ar": "عندي شغل فوق طاقتي",
+  "intro": "The subcontractor problem is solved, but Mr. Sherif has now given Karim two more sites: a factory in 10th of Ramadan and the hospital in Heliopolis, on top of the bank data centre. Karim is exhausted, and Mona helps him set priorities, delegate and say no politely.",
+  "introAr": "مشكلة المقاول اتحلّت، بس أستاذ شريف ادّى كريم موقعين كمان: مصنع في العاشر من رمضان والمستشفى اللي في مصر الجديدة، غير الداتا سنتر بتاع البنك. كريم مهدود، ومنى بتساعده يرتّب أولوياته ويوزّع الشغل ويقول \"لأ\" بذوق.",
+  "dialogue": [
+   {
+    "sp": "Karim",
+    "en": "Mona, have you got five minutes? To be honest, I've got too much on my plate since I took over the factory and the hospital on top of the bank.",
+    "ar": "يا منى، فاضية خمس دقايق؟ بصراحة أنا عندي شغل فوق طاقتي من ساعة ما مسكت المصنع والمستشفى فوق شغل البنك."
+   },
+   {
+    "sp": "Mona",
+    "en": "I noticed. You answered my email at one in the morning. What's going on?",
+    "ar": "أنا لاحظت. إنت رديت على إيميلي الساعة واحدة بالليل. إيه اللي بيحصل؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Look, every morning I plan to finish the bank's commissioning report, and then the phone rings. A battery alarm at the factory, a breaker trip at the hospital... I spend the whole day putting out fires.",
+    "ar": "بصي، كل يوم الصبح بخطط أخلّص تقرير الـ ‎commissioning‎ بتاع البنك، وبعدين التليفون يرن. إنذار بطاريات في المصنع، ‎breaker‎ فصل في المستشفى... بقضي اليوم كله أطفّي حرايق."
+   },
+   {
+    "sp": "Mona",
+    "en": "And the report?",
+    "ar": "والتقرير؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Still not done. I feel stretched too thin, and I'm scared I'll drop the ball on something big.",
+    "ar": "لسه ماخلصش. حاسس إني متقسّم على حاجات كتير أوي، وخايف أقع في غلطة في حاجة كبيرة."
+   },
+   {
+    "sp": "Mona",
+    "en": "Okay, first things first. Write down everything you're juggling right now. All of it.",
+    "ar": "طيب، نبدأ بالأهم الأول. اكتب كل الحاجات اللي إنت شايلها مع بعض دلوقتي. كلها."
+   },
+   {
+    "sp": "Karim",
+    "en": "The bank's report, a battery replacement at the factory, a generator changeover test for Eng. Hisham, a technical check on Laila's solar carport quotation, and training the two new technicians.",
+    "ar": "تقرير البنك، تغيير بطاريات في المصنع، اختبار تحويل المولّد لبشمهندس هشام، مراجعة فنية لعرض سعر الـ ‎solar carport‎ بتاع ليلى، وتدريب الفنيين الجداد الاتنين."
+   },
+   {
+    "sp": "Mona",
+    "en": "Good. Now ask two questions about each one: is it urgent, and is it important? Urgent things shout at you. Important things move the business forward.",
+    "ar": "كويس. دلوقتي اسأل سؤالين عن كل واحدة: هي مستعجلة؟ وهي مهمة؟ الحاجات المستعجلة بتزعّق لك. الحاجات المهمة هي اللي بتقدّم الشغل لقدام."
+   },
+   {
+    "sp": "Karim",
+    "en": "Well, the factory alarm shouted very loudly yesterday. But it was only a loose sensor cable. Tarek could have handled it.",
+    "ar": "بصراحة إنذار المصنع زعّق جامد امبارح. بس طلع مجرد سلك حساس مفكوك. طارق كان يقدر يتعامل معاه."
+   },
+   {
+    "sp": "Mona",
+    "en": "Exactly. So why did you drive ninety kilometres?",
+    "ar": "بالظبط. أمال إنت سايق تسعين كيلو ليه؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Because I didn't want the client to think we don't care. And, well, I find it hard to let go of things.",
+    "ar": "عشان ماكنتش عايز العميل يفتكر إننا مش مهتمين. وكمان، بصراحة، صعب عليّا أسيب الحاجات من إيدي."
+   },
+   {
+    "sp": "Mona",
+    "en": "That's normal for a new supervisor. But if you do everything yourself, the important things will fall through the cracks. Tarek has fifteen years' experience. Hand over the factory to him.",
+    "ar": "ده طبيعي لمشرف جديد. بس لو عملت كل حاجة بنفسك، الحاجات المهمة هتقع منك من غير ما تاخد بالك. طارق عنده خبرة خمستاشر سنة. سلّمه المصنع."
+   },
+   {
+    "sp": "Karim",
+    "en": "Completely? Without me checking every visit?",
+    "ar": "خالص؟ من غير ما أراجع كل زيارة؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Give him the goal, the budget and the authority, and ask him to keep you in the loop with a short WhatsApp update every evening. That's delegating, not dumping.",
+    "ar": "اديله الهدف والميزانية والصلاحية، واطلب منه يبلّغك بكل جديد برسالة ‎WhatsApp‎ قصيرة كل يوم بالليل. ده اسمه تفويض، مش رمي شغل."
+   },
+   {
+    "sp": "Karim",
+    "en": "Fine. What about Laila? She says her quotation is urgent because the client wants a price by Thursday.",
+    "ar": "ماشي. وليلى؟ بتقول إن عرض السعر بتاعها مستعجل عشان العميل عايز السعر يوم الخميس."
+   },
+   {
+    "sp": "Mona",
+    "en": "It's urgent for her. Is it your job to price it, or only to check the technical part?",
+    "ar": "هو مستعجل بالنسبة لها. شغلتك إنك تسعّره، ولا بس تراجع الجزء الفني؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Only the technical part: the panel layout and the cable sizes. An hour, maybe.",
+    "ar": "الجزء الفني بس: توزيع الألواح ومقاسات الكابلات. ساعة يمكن."
+   },
+   {
+    "sp": "Mona",
+    "en": "Then block out time on Wednesday morning, one hour, and tell her. Now, the generator test for Eng. Hisham?",
+    "ar": "يبقى احجز وقت يوم الأربع الصبح، ساعة واحدة، وقولها. طيب، اختبار المولّد بتاع بشمهندس هشام؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "He wants it next week, but the hospital's new UPS hasn't even been delivered. Honestly, the test makes no sense before then.",
+    "ar": "هو عايزه الأسبوع الجاي، بس الـ ‎UPS‎ الجديد بتاع المستشفى لسه ماوصلش أصلاً. بصراحة الاختبار مالوش لازمة قبل كده."
+   },
+   {
+    "sp": "Mona",
+    "en": "Then push back, politely. Say, \"I understand why it matters to you. The best time is after the UPS arrives, so the test covers the full system. Can we book it for the 15th?\"",
+    "ar": "يبقى اعترض، بس بأدب. قوله: \"أنا فاهم ليه ده مهم بالنسبة لك. أحسن وقت بعد ما الـ ‎UPS‎ يوصل، عشان الاختبار يغطي السيستم كله. ينفع نحجزه يوم ١٥؟\""
+   },
+   {
+    "sp": "Karim",
+    "en": "That sounds much better than just saying no. And the training for the new guys?",
+    "ar": "كده أحسن بكتير من إني أقول لأ وخلاص. وتدريب الشباب الجداد؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Important but not urgent, so it's the first thing people put on the back burner, and they always regret it. Keep it, one hour twice a week.",
+    "ar": "مهم بس مش مستعجل، فهو أول حاجة الناس بتأجلها، وبيندموا على طول. خليه، ساعة مرتين في الأسبوع."
+   },
+   {
+    "sp": "Karim",
+    "en": "And if Mr. Sherif asks me to take on a fourth site next month?",
+    "ar": "ولو أستاذ شريف طلب مني أمسك موقع رابع الشهر الجاي؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Then be honest about your bandwidth and ask him which task should come off your list. Saying no politely isn't weakness, Karim. It's how you protect the work that really matters.",
+    "ar": "ساعتها كن صريح في قد إيه عندك طاقة، واسأله أنهي مهمة تتشال من على قايمتك. إنك تقول لأ بأدب مش ضعف يا كريم. ده الطريقة اللي بتحمي بيها الشغل المهم بجد."
+   }
+  ],
+  "vocab": [
+   {
+    "w": "too much on my plate",
+    "ar": "عندي شغل فوق طاقتي",
+    "def": "Having more work or responsibilities than you can manage at the moment.",
+    "eg": "With three solar sites and a tender to prepare, Hany has too much on his plate this month."
+   },
+   {
+    "w": "putting out fires",
+    "ar": "بيطفّي حرايق / بيحل مشاكل طارئة طول الوقت",
+    "def": "Spending your time dealing with sudden problems instead of planned work.",
+    "eg": "The service desk spent the whole Ramadan week putting out fires after the power cuts."
+   },
+   {
+    "w": "stretched too thin",
+    "ar": "متقسّم على حاجات كتير أوي",
+    "def": "Trying to do so many things that you cannot do any of them well.",
+    "eg": "One engineer for five data centres? He's stretched too thin to do proper maintenance."
+   },
+   {
+    "w": "drop the ball",
+    "ar": "يقع في غلطة / يقصّر في حاجة",
+    "def": "To make a mistake by forgetting or failing to do something you were responsible for.",
+    "eg": "We dropped the ball on the battery warranty, and it expired before we claimed it."
+   },
+   {
+    "w": "first things first",
+    "ar": "نبدأ بالأهم الأول",
+    "def": "Deal with the most important thing before anything else.",
+    "eg": "First things first: isolate the UPS, then we can open the battery cabinet."
+   },
+   {
+    "w": "juggling",
+    "ar": "شايل حاجات كتير مع بعض",
+    "def": "Trying to handle several jobs or responsibilities at the same time.",
+    "eg": "Laila is juggling four quotations and a client visit today."
+   },
+   {
+    "w": "let go of",
+    "ar": "يسيب الحاجة من إيده",
+    "def": "To stop controlling or holding on to something.",
+    "eg": "It took Samir months to let go of the small repairs and trust his team."
+   },
+   {
+    "w": "fall through the cracks",
+    "ar": "تقع من غير ما حد ياخد باله",
+    "def": "To be forgotten or missed because nobody is clearly responsible.",
+    "eg": "The spare fan order fell through the cracks when the storekeeper went on leave."
+   },
+   {
+    "w": "hand over",
+    "ar": "يسلّم الشغل لحد تاني",
+    "def": "To give responsibility for something to another person.",
+    "eg": "Before his holiday, Karim handed over the hospital site to Tarek."
+   },
+   {
+    "w": "keep in the loop",
+    "ar": "يبلّغ بكل جديد",
+    "def": "To keep someone informed about what is happening.",
+    "eg": "Please keep me in the loop about the inverter delivery date."
+   },
+   {
+    "w": "block out time",
+    "ar": "يحجز وقت مخصوص",
+    "def": "To reserve a fixed period in your calendar for one task.",
+    "eg": "I block out time every Sunday morning to review the weekly service reports."
+   },
+   {
+    "w": "push back",
+    "ar": "يعترض / يرفض بأدب",
+    "def": "To resist a request or suggest another option instead of simply agreeing.",
+    "eg": "The engineer pushed back on the deadline because the batteries were still at customs."
+   },
+   {
+    "w": "on the back burner",
+    "ar": "متأجّل لبعدين",
+    "def": "Postponed because it is not treated as a priority right now.",
+    "eg": "The solar training plan has been on the back burner since the big bank project started."
+   },
+   {
+    "w": "take on",
+    "ar": "يمسك / ياخد مسؤولية",
+    "def": "To accept a new job, task or responsibility.",
+    "eg": "Our small team can't take on another maintenance contract before we hire."
+   },
+   {
+    "w": "bandwidth",
+    "ar": "طاقة / قدرة على شغل زيادة",
+    "def": "The time and energy a person has available for more work.",
+    "eg": "I'd love to help with the VFD project, but I don't have the bandwidth this month."
+   }
+  ],
+  "qa": [
+   {
+    "q": "How does Karim describe his workload?",
+    "a": "He has too much on his plate",
+    "opts": [
+     "He has too much on his plate",
+     "He is looking for more work"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Karim spend his day doing?",
+    "a": "Putting out fires",
+    "opts": [
+     "Writing his report",
+     "Putting out fires"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Why is Karim scared?",
+    "a": "He might drop the ball on something big",
+    "opts": [
+     "He might drop the ball on something big",
+     "He might lose a client to Laila"
+    ],
+    "k": 0
+   },
+   {
+    "q": "How does Karim feel with three sites?",
+    "a": "Stretched too thin",
+    "opts": [
+     "Bored and relaxed",
+     "Stretched too thin"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What does Mona say first?",
+    "a": "First things first",
+    "opts": [
+     "First things first",
+     "Take a holiday"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Mona ask Karim to write down?",
+    "a": "Everything he is juggling",
+    "opts": [
+     "Only the urgent tasks",
+     "Everything he is juggling"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What was the real cause of the factory alarm?",
+    "a": "A loose sensor cable",
+    "opts": [
+     "A loose sensor cable",
+     "A failed battery string"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Karim find hard?",
+    "a": "To let go of things",
+    "opts": [
+     "To talk to clients",
+     "To let go of things"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What happens if Karim does everything himself?",
+    "a": "Important things fall through the cracks",
+    "opts": [
+     "Important things fall through the cracks",
+     "The team works faster"
+    ],
+    "k": 0
+   },
+   {
+    "q": "Who should Karim hand over the factory to?",
+    "a": "Laila",
+    "opts": [
+     "Tarek",
+     "Laila"
+    ],
+    "k": 1
+   },
+   {
+    "q": "How will Tarek keep Karim in the loop?",
+    "a": "With a short WhatsApp update every evening",
+    "opts": [
+     "With a short WhatsApp update every evening",
+     "With a long report every month"
+    ],
+    "k": 0
+   },
+   {
+    "q": "How will Karim handle Laila's request?",
+    "a": "He'll block out time on Wednesday morning",
+    "opts": [
+     "He'll do the whole pricing himself",
+     "He'll block out time on Wednesday morning"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Why does Karim push back on Eng. Hisham's test date?",
+    "a": "The new UPS hasn't been delivered",
+    "opts": [
+     "The new UPS hasn't been delivered",
+     "He doesn't like Eng. Hisham"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What do people usually put on the back burner?",
+    "a": "Urgent client calls",
+    "opts": [
+     "Important but not urgent tasks like training",
+     "Urgent client calls"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What should Karim do if asked to take on a fourth site?",
+    "a": "Be honest about his bandwidth",
+    "opts": [
+     "Be honest about his bandwidth",
+     "Accept it without saying anything"
+    ],
+    "k": 0
+   }
+  ],
+  "pov": "Retell the conversation as Karim: why you were exhausted, how Mona helped you sort your tasks, and what you'll do now. Use: too much on my plate, putting out fires, hand over, push back, bandwidth."
+ },
+ "bc15": {
+  "title": "Giving Feedback",
+  "ar": "إزاي تدّي ملاحظات",
+  "intro": "A month after Karim handed the factory over to Tarek, a battery terminal overheated because a check was skipped. Karim must give Tarek tough feedback, and then Mona has some feedback for Karim too.",
+  "introAr": "بعد شهر من ما كريم سلّم المصنع لطارق، طرف بطارية سخن جامد عشان خطوة فحص اتنطّت. كريم لازم يدّي طارق ملاحظات صعبة، وبعدها منى كمان عندها ملاحظات لكريم.",
+  "dialogue": [
+   {
+    "sp": "Mona",
+    "en": "So, have you talked to Tarek about the factory job yet?",
+    "ar": "ها، كلمت طارق عن شغلانة المصنع ولا لسه؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Not yet. To be honest, I keep putting it off. He's older than me and he trained half the team. How do I tell him his work isn't good enough?",
+    "ar": "لسه. بصراحة كل شوية بأجّلها. هو أكبر مني وهو اللي درّب نص الفريق. أقوله إزاي إن شغله مش كويس كفاية؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Well, you don't say that. It's vague and it attacks the person. Talk about behaviour and impact. What exactly happened?",
+    "ar": "بص، إنت ماتقولش كده. ده كلام مش واضح وبيهاجم الشخص نفسه. اتكلم عن التصرف وتأثيره. إيه اللي حصل بالظبط؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "On Sunday's battery replacement he skipped the torque check on the terminals, and there are no readings in the report. On Tuesday a terminal overheated and the UPS went to bypass. The plant manager called me, furious.",
+    "ar": "في تغيير البطاريات يوم الحد نطّ فحص العزم على الأطراف، ومفيش أي قراءات في التقرير. يوم التلات طرف سخن والـ ‎UPS‎ حوّل على الـ ‎bypass‎. مدير المصنع كلمني وهو متعصب جداً."
+   },
+   {
+    "sp": "Mona",
+    "en": "That's specific. So say exactly that. Don't beat around the bush, and don't sugarcoat it either, but don't turn it into a trial. What happened, the impact, then ask for his side.",
+    "ar": "ده كلام محدد. قوله كده بالظبط. ماتلفّش وتدور، وماتجمّلش الكلام كمان، بس ماتحوّلهاش لمحاكمة. إيه اللي حصل، تأثيره إيه، وبعدين اسمع وجهة نظره."
+   },
+   {
+    "sp": "Karim",
+    "en": "And then?",
+    "ar": "وبعدين؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Then agree on what happens going forward. Feedback should be constructive: it's about the next job, not just the last one. And listen more than you talk.",
+    "ar": "وبعدين تتفقوا على اللي هيحصل من هنا ورايح. الملاحظات لازم تكون بنّاءة: عن الشغلانة الجاية، مش بس اللي فاتت. واسمع أكتر ما تتكلم."
+   },
+   {
+    "sp": "Karim",
+    "en": "Tarek, thanks for coming. I want to talk about the factory job on Sunday, so I'll get to the point: the torque check on the new terminals wasn't done, and there are no readings in the report.",
+    "ar": "يا طارق، شكراً إنك جيت. عايز أتكلم عن شغلانة المصنع يوم الحد، فهدخل في الموضوع على طول: فحص العزم على الأطراف الجديدة ماتعملش، ومفيش قراءات في التقرير."
+   },
+   {
+    "sp": "Tarek",
+    "en": "Who told you that? The plant manager? He calls every week about something.",
+    "ar": "مين قالك كده؟ مدير المصنع؟ ده بيتصل كل أسبوع على أي حاجة."
+   },
+   {
+    "sp": "Karim",
+    "en": "It's in our own checklist, Tarek. The torque column is empty. On Tuesday terminal twelve overheated, and the UPS was on bypass for forty minutes. Nobody got hurt, but the production line was at risk.",
+    "ar": "ده في الـ ‎checklist‎ بتاعتنا إحنا يا طارق. خانة العزم فاضية. يوم التلات طرف رقم ١٢ سخن، والـ ‎UPS‎ فضل على الـ ‎bypass‎ أربعين دقيقة. محدش اتأذى، بس خط الإنتاج كان في خطر."
+   },
+   {
+    "sp": "Tarek",
+    "en": "Okay. We were late, the factory wanted us out before the second shift, and I thought the new batteries were fine. I cut corners. I'll own up to that.",
+    "ar": "ماشي. كنا متأخرين، والمصنع كان عايزنا نمشي قبل الوردية التانية، وأنا افتكرت إن البطاريات الجديدة سليمة. استسهلت ونطّيت خطوات. وأنا معترف بده."
+   },
+   {
+    "sp": "Karim",
+    "en": "I appreciate you saying that. And please don't take it personally. You're the best technician I've got, and that's exactly why the team copies what you do.",
+    "ar": "مقدّر إنك قلت كده. ومن فضلك ماتاخدهاش على نفسك. إنت أحسن فني عندي، وعشان كده بالظبط الفريق بيقلّد اللي بتعمله."
+   },
+   {
+    "sp": "Tarek",
+    "en": "Fair point. If I skip steps, the young guys will skip them too.",
+    "ar": "عندك حق. لو أنا نطّيت خطوات، الشباب الصغيرين هينطّوها برضه."
+   },
+   {
+    "sp": "Karim",
+    "en": "Right. So going forward, what would help you finish the checklist even when the client is pushing you?",
+    "ar": "بالظبط. طيب من هنا ورايح، إيه اللي يساعدك تخلّص الـ ‎checklist‎ حتى لو العميل مستعجلك؟"
+   },
+   {
+    "sp": "Tarek",
+    "en": "Honestly? Realistic time. You booked four hours for forty batteries. That's not enough to do it properly.",
+    "ar": "بصراحة؟ وقت منطقي. إنت حجزت أربع ساعات لأربعين بطارية. ده مش كفاية عشان الشغل يتعمل صح."
+   },
+   {
+    "sp": "Karim",
+    "en": "That's fair, and that's on me. I'll plan six hours for jobs that size. But I'll hold you accountable for a full checklist with readings on every job. Are we on the same page?",
+    "ar": "كلامك مظبوط، ودي غلطتي أنا. هخطط ست ساعات للشغلانات اللي بالحجم ده. بس هحاسبك على ‎checklist‎ كاملة بالقراءات في كل شغلانة. إحنا متفقين؟"
+   },
+   {
+    "sp": "Tarek",
+    "en": "We are. And maybe I can step up and run a short torque-check refresher for the new technicians.",
+    "ar": "متفقين. ويمكن كمان أبادر وأعمل تدريب سريع على فحص العزم للفنيين الجداد."
+   },
+   {
+    "sp": "Karim",
+    "en": "Mona, it went better than I expected. He admitted the mistake, and he even offered to train the new guys.",
+    "ar": "يا منى، الموضوع مشي أحسن ما كنت متوقع. اعترف بالغلطة، وكمان عرض يدرّب الشباب الجداد."
+   },
+   {
+    "sp": "Mona",
+    "en": "Well done. Now, can I give you some feedback too? It's about your monthly report to Mr. Sherif.",
+    "ar": "برافو عليك. طيب، ممكن أنا كمان أقولك ملاحظة؟ عن تقريرك الشهري لأستاذ شريف."
+   },
+   {
+    "sp": "Karim",
+    "en": "Of course. Go ahead.",
+    "ar": "طبعاً. اتفضلي."
+   },
+   {
+    "sp": "Mona",
+    "en": "It was eleven pages. The most important point, that the bank project is two weeks ahead of schedule, was on page nine. Mr. Sherif reads page one and stops.",
+    "ar": "كان ١١ صفحة. أهم نقطة فيه، إن مشروع البنك سابق الجدول بأسبوعين، كانت في صفحة تسعة. أستاذ شريف بيقرا أول صفحة ويقف."
+   },
+   {
+    "sp": "Karim",
+    "en": "Ouch. So there's room for improvement.",
+    "ar": "آه. يعني فيه حاجات محتاجة تتحسن."
+   },
+   {
+    "sp": "Mona",
+    "en": "Yes, but it's easy to fix. Put the three key messages on page one and move the details to an appendix. You've raised the bar on site; now do the same on paper.",
+    "ar": "آه، بس سهل تتصلّح. حط أهم تلات رسايل في أول صفحة وانقل التفاصيل لملحق. إنت رفعت المستوى في الموقع، دلوقتي اعمل نفس الحكاية على الورق."
+   },
+   {
+    "sp": "Karim",
+    "en": "That's food for thought. And I noticed you did exactly what you taught me: specific, about the impact, and about next time.",
+    "ar": "ده كلام يخليني أفكر. وأنا واخد بالي إنك عملتي بالظبط اللي علمتيهولي: كلام محدد، عن التأثير، وعن المرة الجاية."
+   }
+  ],
+  "vocab": [
+   {
+    "w": "beat around the bush",
+    "ar": "يلف ويدور",
+    "def": "To avoid saying the main point directly, usually because it's uncomfortable.",
+    "eg": "Don't beat around the bush with the client: tell him the inverter needs replacing."
+   },
+   {
+    "w": "sugarcoat",
+    "ar": "يجمّل الكلام / يخفف الحقيقة",
+    "def": "To make bad news sound nicer than it really is.",
+    "eg": "The engineer didn't sugarcoat it: the battery bank was at the end of its life."
+   },
+   {
+    "w": "constructive",
+    "ar": "بنّاء",
+    "def": "Helpful and aimed at improving things, not just criticising them.",
+    "eg": "Hany gave constructive comments on my solar quotation, and the client accepted it."
+   },
+   {
+    "w": "get to the point",
+    "ar": "يدخل في الموضوع على طول",
+    "def": "To talk about the most important thing directly, without a long introduction.",
+    "eg": "The client only had ten minutes, so we got to the point quickly."
+   },
+   {
+    "w": "cut corners",
+    "ar": "يستسهل / ينط خطوات",
+    "def": "To do something badly or skip steps to save time or money.",
+    "eg": "Never cut corners when you commission a UPS; one missed test can cost a hospital its power."
+   },
+   {
+    "w": "own up to",
+    "ar": "يعترف بغلطته",
+    "def": "To admit that you did something wrong.",
+    "eg": "The storekeeper owned up to sending the wrong cable size to the site."
+   },
+   {
+    "w": "take it personally",
+    "ar": "ياخدها على نفسه",
+    "def": "To feel hurt because you think criticism is an attack on you as a person.",
+    "eg": "When the client complained about the delay, Samir took it personally."
+   },
+   {
+    "w": "fair point",
+    "ar": "عندك حق / نقطة مظبوطة",
+    "def": "A comment or argument that is reasonable and should be accepted.",
+    "eg": "\"We need more spare fuses on site.\" \"Fair point, I'll order them today.\""
+   },
+   {
+    "w": "going forward",
+    "ar": "من هنا ورايح",
+    "def": "From now on, in the future.",
+    "eg": "Going forward, every site visit report must include battery temperature readings."
+   },
+   {
+    "w": "hold accountable",
+    "ar": "يحاسب / يخلّي حد مسؤول",
+    "def": "To make someone responsible for a result and expect them to explain failures.",
+    "eg": "The project manager holds each supervisor accountable for safety on his site."
+   },
+   {
+    "w": "on the same page",
+    "ar": "متفقين / فاهمين نفس الحاجة",
+    "def": "Agreeing about something and understanding it in the same way.",
+    "eg": "Before the shutdown, let's make sure the client and our team are on the same page."
+   },
+   {
+    "w": "step up",
+    "ar": "يبادر / ياخد مسؤولية أكبر",
+    "def": "To take more responsibility or make extra effort when it's needed.",
+    "eg": "When the supervisor was sick, Ahmed stepped up and led the night shift."
+   },
+   {
+    "w": "room for improvement",
+    "ar": "فيه حاجات محتاجة تتحسن",
+    "def": "Parts of something that are not yet as good as they could be.",
+    "eg": "Our response time is good, but there's room for improvement in our reports."
+   },
+   {
+    "w": "raise the bar",
+    "ar": "يرفع المستوى",
+    "def": "To set a higher standard of quality for yourself or others.",
+    "eg": "The new installation checklist really raised the bar for the whole solar team."
+   },
+   {
+    "w": "food for thought",
+    "ar": "حاجة تخلّيك تفكر",
+    "def": "An idea or comment that makes you think carefully.",
+    "eg": "The client's question about remote alarms gave us some food for thought."
+   }
+  ],
+  "qa": [
+   {
+    "q": "Why has Karim been putting off the talk with Tarek?",
+    "a": "Tarek is older and trained half the team",
+    "opts": [
+     "Tarek is older and trained half the team",
+     "Tarek is on holiday"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What should Karim focus on, according to Mona?",
+    "a": "Tarek's personality",
+    "opts": [
+     "Behaviour and its impact",
+     "Tarek's personality"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What does Mona tell Karim not to do?",
+    "a": "Beat around the bush or sugarcoat it",
+    "opts": [
+     "Beat around the bush or sugarcoat it",
+     "Mention the checklist"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What kind of feedback should it be?",
+    "a": "Angry and fast",
+    "opts": [
+     "Constructive and about the next job",
+     "Angry and fast"
+    ],
+    "k": 1
+   },
+   {
+    "q": "How does Karim start the conversation?",
+    "a": "He gets to the point",
+    "opts": [
+     "He gets to the point",
+     "He talks about football first"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What was missing from Tarek's report?",
+    "a": "The client's signature",
+    "opts": [
+     "The torque readings",
+     "The client's signature"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What does Tarek admit?",
+    "a": "He cut corners",
+    "opts": [
+     "He cut corners",
+     "He broke a battery"
+    ],
+    "k": 0
+   },
+   {
+    "q": "How does Tarek respond after admitting it?",
+    "a": "He blames the new technicians",
+    "opts": [
+     "He owns up to the mistake",
+     "He blames the new technicians"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What does Karim ask Tarek not to do?",
+    "a": "Take it personally",
+    "opts": [
+     "Take it personally",
+     "Tell the plant manager"
+    ],
+    "k": 0
+   },
+   {
+    "q": "Why does Tarek say \"fair point\"?",
+    "a": "The young technicians copy him",
+    "opts": [
+     "The young technicians copy him",
+     "He wants a pay rise"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What did Tarek need going forward?",
+    "a": "A new van",
+    "opts": [
+     "More realistic time for each job",
+     "A new van"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What will Karim hold Tarek accountable for?",
+    "a": "A full checklist with readings",
+    "opts": [
+     "A full checklist with readings",
+     "Finishing every job in four hours"
+    ],
+    "k": 0
+   },
+   {
+    "q": "How does Tarek step up?",
+    "a": "He offers a torque-check refresher for new staff",
+    "opts": [
+     "He offers a torque-check refresher for new staff",
+     "He asks to move to the bank site"
+    ],
+    "k": 0
+   },
+   {
+    "q": "Where was the report's key point, and what was the problem?",
+    "a": "On page one, so it was too short",
+    "opts": [
+     "On page nine, so there was room for improvement",
+     "On page one, so it was too short"
+    ],
+    "k": 1
+   },
+   {
+    "q": "How does Karim react to Mona's feedback?",
+    "a": "He says it's food for thought",
+    "opts": [
+     "He says it's food for thought",
+     "He takes it personally"
+    ],
+    "k": 0
+   }
+  ],
+  "pov": "Retell the episode as Karim: how you gave Tarek feedback and what Mona told you about your report. Use: get to the point, cut corners, own up to, going forward, room for improvement."
+ },
+ "bc16": {
+  "title": "Think Like an Owner",
+  "ar": "فكّر كأنك صاحب الشغل",
+  "intro": "Karim has rewritten his monthly report, and while doing it he noticed a pattern: clients only discover weak batteries when the UPS fails. In the season finale he builds a business case for a remote battery-monitoring service and pitches it to Mr. Sherif, the CEO.",
+  "introAr": "كريم عاد كتابة تقريره الشهري، وهو بيعمل كده لاحظ حاجة بتتكرر: العملاء مابيعرفوش إن البطاريات ضعفت غير لما الـ ‎UPS‎ يقع. في آخر حلقة في الموسم بيجهّز دراسة جدوى لخدمة مراقبة بطاريات عن بُعد ويعرضها على أستاذ شريف، المدير التنفيذي.",
+  "dialogue": [
+   {
+    "sp": "Mona",
+    "en": "You look like you haven't slept, but in a good way. What's up?",
+    "ar": "شكلك مانمتش، بس بمعنى حلو. فيه إيه؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "While I was fixing my report, I noticed something. Last year we replaced battery strings at eleven sites after they failed. Every time, the client found out when the UPS dropped the load. That's their biggest pain point.",
+    "ar": "وأنا بصلّح التقرير لاحظت حاجة. السنة اللي فاتت غيّرنا مجموعات بطاريات في ١١ موقع بعد ما باظت. وكل مرة العميل كان بيعرف لما الـ ‎UPS‎ يوقّع الأحمال. دي أكبر مشكلة بتوجعهم."
+   },
+   {
+    "sp": "Mona",
+    "en": "And ours too: night call-outs, angry clients, penalty clauses.",
+    "ar": "وبتوجعنا إحنا كمان: استدعاءات بالليل، وعملاء متعصبين، وغرامات في العقود."
+   },
+   {
+    "sp": "Karim",
+    "en": "So what if we sold remote battery monitoring? A small sensor on each battery block measures voltage, internal resistance and temperature, and a gateway sends the data to a dashboard in our office. We'd see a weak battery weeks before it fails.",
+    "ar": "طب ما نبيع خدمة مراقبة بطاريات عن بُعد؟ حساس صغير على كل بطارية يقيس الجهد والمقاومة الداخلية والحرارة، و‎gateway‎ يبعت البيانات لشاشة متابعة في مكتبنا. هنشوف البطارية الضعيفة قبل ما تبوظ بأسابيع."
+   },
+   {
+    "sp": "Mona",
+    "en": "Now you're starting to think like an owner, not an employee. But Mr. Sherif will ask one thing: where's the money?",
+    "ar": "كده إنت بدأت تفكر كأنك صاحب الشغل، مش موظف. بس أستاذ شريف هيسأل سؤال واحد: فين الفلوس؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "I've built a business case. Hardware for a typical forty-block string costs about sixty thousand pounds installed. Then we charge four thousand pounds a month per site. That's recurring revenue, not a one-off sale.",
+    "ar": "أنا عملت دراسة جدوى. الأجهزة لمجموعة عادية فيها أربعين بطارية تتكلف حوالي ستين ألف جنيه بالتركيب. وبعدين ناخد أربعة آلاف جنيه في الشهر على كل موقع. ده دخل ثابت بيتكرر، مش بيعة مرة واحدة وخلاص."
+   },
+   {
+    "sp": "Mona",
+    "en": "And how many of our maintenance clients would buy it?",
+    "ar": "وكام واحد من عملاء الصيانة بتوعنا هيشتري؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "We have a hundred and twenty sites under contract. If only thirty sign up in the first year, that's almost one and a half million pounds a year in subscriptions. Right now we're leaving money on the table.",
+    "ar": "عندنا ١٢٠ موقع عليهم عقود. لو تلاتين بس اشتركوا في أول سنة، يبقى تقريباً مليون ونص جنيه في السنة اشتراكات. إحنا دلوقتي بنسيب فلوس على الترابيزة."
+   },
+   {
+    "sp": "Mona",
+    "en": "Good. I'll book you thirty minutes with him. Lead with the client's problem, not with the gadget.",
+    "ar": "كويس. هحجز لك نص ساعة معاه. ابدأ بمشكلة العميل، مش بالجهاز."
+   },
+   {
+    "sp": "Mr. Sherif",
+    "en": "Mona tells me you have an idea that will make us money. You have my attention, Karim.",
+    "ar": "منى بتقولي إن عندك فكرة هتكسّبنا فلوس. أنا سامعك يا كريم."
+   },
+   {
+    "sp": "Karim",
+    "en": "Thank you, sir. Last year eleven clients lost battery strings without warning. At the hospital in Heliopolis we nearly lost power to an operating theatre. I'd like to propose a remote battery-monitoring service so that never happens again.",
+    "ar": "شكراً يا فندم. السنة اللي فاتت ١١ عميل باظت منهم مجموعات بطاريات من غير أي إنذار. في المستشفى اللي في مصر الجديدة كانت الكهربا هتقطع عن أوضة عمليات. عايز أقترح خدمة مراقبة بطاريات عن بُعد عشان ده مايحصلش تاني."
+   },
+   {
+    "sp": "Mr. Sherif",
+    "en": "A good story. What's the return on investment for us?",
+    "ar": "حكاية حلوة. طب العائد على الاستثمار بالنسبة لنا إيه؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "We need about three hundred thousand pounds up front: the monitoring software licence, a test bench and training for two engineers. With thirty sites we pay that back in about eight months, and Eng. Hisham has already said he'd try it.",
+    "ar": "محتاجين حوالي تلتمية ألف جنيه في الأول: رخصة برنامج المراقبة، وبنش اختبار، وتدريب لمهندسين اتنين. مع تلاتين موقع هنرجّعهم في حوالي تمن شهور، وبشمهندس هشام قال خلاص إنه هيجرّبها."
+   },
+   {
+    "sp": "Mr. Sherif",
+    "en": "And if the clients don't want it? I've seen plenty of good ideas die in this building.",
+    "ar": "ولو العملاء ماعاوزينهاش؟ أنا شفت أفكار حلوة كتير ماتت في المبنى ده."
+   },
+   {
+    "sp": "Karim",
+    "en": "That's why I'm not asking for everything at once. Let's run a pilot at two sites, the hospital and the bank data centre, for three months. If the numbers work, we scale up. If not, we've lost very little.",
+    "ar": "عشان كده أنا مش طالب كل حاجة مرة واحدة. خلينا نعمل تجربة في موقعين، المستشفى والداتا سنتر بتاع البنك، لمدة تلات شهور. لو الأرقام طلعت كويسة، نكبّر المشروع. ولو لأ، نبقى خسرنا حاجة بسيطة."
+   },
+   {
+    "sp": "Mr. Sherif",
+    "en": "And what's in it for the client?",
+    "ar": "والعميل هيستفيد إيه؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Fewer failures, planned replacements instead of emergencies, and monthly reports they can show their auditors. It's a win-win: they sleep better, and we get steady income and fewer two a.m. call-outs.",
+    "ar": "أعطال أقل، وتغيير بطاريات متخطط بدل الطوارئ، وتقارير شهرية يوروها للمراجعين بتوعهم. المكسب للطرفين: هما يناموا مرتاحين، وإحنا ناخد دخل ثابت واستدعاءات أقل الساعة اتنين الفجر."
+   },
+   {
+    "sp": "Mona",
+    "en": "If I may add something, sir: Karim isn't just pitching an idea. He's offering to run it himself, on top of his sites.",
+    "ar": "لو تسمح لي أضيف حاجة يا فندم: كريم مش بس بيعرض فكرة. هو عارض إنه يمسكها بنفسه، فوق مواقعه."
+   },
+   {
+    "sp": "Karim",
+    "en": "Yes. I want to have skin in the game. If the pilot fails, it's my name on it.",
+    "ar": "أيوه. عايز أبقى شريك في المخاطرة. لو التجربة فشلت، اسمي أنا اللي عليها."
+   },
+   {
+    "sp": "Mr. Sherif",
+    "en": "Honestly, this could be a game changer for our service division. You have the green light for the pilot. And I want you to take ownership of it as Service Development Manager, starting next month. Ms. Dalia will send you the details.",
+    "ar": "بصراحة، ده ممكن يغيّر قواعد اللعبة في قسم الصيانة عندنا. عندك الضوء الأخضر للتجربة. وعايزك تمسك مسؤوليتها كاملة بصفتك مدير تطوير الخدمات، من أول الشهر الجاي. أستاذة داليا هتبعت لك التفاصيل."
+   },
+   {
+    "sp": "Karim",
+    "en": "I... thank you, sir. I won't let you down.",
+    "ar": "أنا... شكراً يا فندم. مش هخذلك."
+   },
+   {
+    "sp": "Mona",
+    "en": "Do you remember our first real conversation, Karim? You were afraid of losing your job.",
+    "ar": "فاكر أول كلام جد بينا يا كريم؟ كنت خايف تخسر شغلك."
+   },
+   {
+    "sp": "Karim",
+    "en": "I remember. You told me to think like a free agent. Back then I thought it only meant protecting myself.",
+    "ar": "فاكر. قلتي لي أفكر زي الـ ‎free agent‎. ساعتها كنت فاكر إن المعنى إني أحمي نفسي وبس."
+   },
+   {
+    "sp": "Mona",
+    "en": "It does mean that, but in the long run the best free agents build something new wherever they are. Congratulations. You've earned it.",
+    "ar": "هو معناه كده فعلاً، بس على المدى البعيد أحسن ناس بتفكر كده هما اللي بيبنوا حاجة جديدة في أي مكان يكونوا فيه. مبروك. إنت تستاهلها."
+   }
+  ],
+  "vocab": [
+   {
+    "w": "pain point",
+    "ar": "مشكلة بتوجع العميل",
+    "def": "A problem that really bothers a customer and that they would pay to solve.",
+    "eg": "Long repair times are the biggest pain point for our factory clients."
+   },
+   {
+    "w": "think like an owner",
+    "ar": "يفكر كأنه صاحب الشغل",
+    "def": "To make decisions as if the company's money and future were your own.",
+    "eg": "When Samir negotiated the diesel price himself, he was thinking like an owner."
+   },
+   {
+    "w": "business case",
+    "ar": "دراسة جدوى / مبررات مالية",
+    "def": "An explanation, with numbers, of why a project is worth the money.",
+    "eg": "We wrote a business case for buying our own battery test equipment."
+   },
+   {
+    "w": "recurring revenue",
+    "ar": "دخل ثابت بيتكرر",
+    "def": "Income that comes in regularly, for example every month, from the same customers.",
+    "eg": "Annual maintenance contracts give the company recurring revenue even when sales are slow."
+   },
+   {
+    "w": "leaving money on the table",
+    "ar": "بيضيّع فلوس كان ممكن يكسبها",
+    "def": "Missing a chance to earn money that you could easily have earned.",
+    "eg": "We sold the solar plant without a cleaning contract, so we left money on the table."
+   },
+   {
+    "w": "return on investment",
+    "ar": "العائد على الاستثمار",
+    "def": "How much money you gain compared with how much you spent.",
+    "eg": "The client asked about the return on investment of replacing old motors with VFDs."
+   },
+   {
+    "w": "run a pilot",
+    "ar": "يعمل تجربة على نطاق صغير",
+    "def": "To test a new idea on a small scale before doing it fully.",
+    "eg": "Let's run a pilot of the new app with two technicians before the whole team uses it."
+   },
+   {
+    "w": "scale up",
+    "ar": "يكبّر المشروع / يوسّعه",
+    "def": "To make a project or business bigger after it has worked on a small scale.",
+    "eg": "After the first rooftop succeeded, the client scaled up to five factories."
+   },
+   {
+    "w": "win-win",
+    "ar": "مكسب للطرفين",
+    "def": "A situation where both sides get something good.",
+    "eg": "Paying the installer per finished site was a win-win for both companies."
+   },
+   {
+    "w": "skin in the game",
+    "ar": "شريك في المخاطرة",
+    "def": "Personal risk in a project, so you share in its success or failure.",
+    "eg": "The distributor has skin in the game because he paid for the stock himself."
+   },
+   {
+    "w": "game changer",
+    "ar": "حاجة بتغيّر قواعد اللعبة",
+    "def": "Something that completely changes how things are done.",
+    "eg": "Lithium batteries were a game changer for small data rooms with no space."
+   },
+   {
+    "w": "green light",
+    "ar": "الضوء الأخضر / الموافقة",
+    "def": "Official permission to start a project.",
+    "eg": "The bank gave us the green light to begin the UPS upgrade next Friday."
+   },
+   {
+    "w": "take ownership",
+    "ar": "يمسك المسؤولية كاملة",
+    "def": "To accept full responsibility for a task and its results.",
+    "eg": "Tarek took ownership of the spare-parts list and hasn't missed an item since."
+   },
+   {
+    "w": "in the long run",
+    "ar": "على المدى البعيد",
+    "def": "Over a long period of time, in the future.",
+    "eg": "Good preventive maintenance costs money now but saves a lot in the long run."
+   },
+   {
+    "w": "free agent",
+    "ar": "شخص حر ينقل بمهاراته لأي مكان",
+    "def": "A worker who manages his own career and whose skills are valued by any company.",
+    "eg": "A free agent keeps learning new systems, whether he stays or moves."
+   }
+  ],
+  "qa": [
+   {
+    "q": "What is the clients' biggest pain point?",
+    "a": "They find out about weak batteries when the UPS fails",
+    "opts": [
+     "They find out about weak batteries when the UPS fails",
+     "Their monthly bills are too high"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Mona say Karim is starting to do?",
+    "a": "Think like an employee",
+    "opts": [
+     "Think like an owner",
+     "Think like an employee"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What has Karim prepared for Mr. Sherif?",
+    "a": "A business case",
+    "opts": [
+     "A business case",
+     "A new resume"
+    ],
+    "k": 0
+   },
+   {
+    "q": "Why is the monthly fee attractive?",
+    "a": "It's a one-off sale",
+    "opts": [
+     "It's recurring revenue",
+     "It's a one-off sale"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What does Karim say the company is doing right now?",
+    "a": "Leaving money on the table",
+    "opts": [
+     "Leaving money on the table",
+     "Spending too much on sensors"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Mona advise Karim to lead with?",
+    "a": "The gadget's technical specs",
+    "opts": [
+     "The client's problem",
+     "The gadget's technical specs"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What is Mr. Sherif's first question?",
+    "a": "What's the return on investment?",
+    "opts": [
+     "What's the return on investment?",
+     "Who will install the sensors?"
+    ],
+    "k": 0
+   },
+   {
+    "q": "How long will it take to pay back the investment with thirty sites?",
+    "a": "About eight months",
+    "opts": [
+     "About eight months",
+     "About three years"
+    ],
+    "k": 0
+   },
+   {
+    "q": "Instead of asking for everything, what does Karim suggest?",
+    "a": "Hiring ten new engineers",
+    "opts": [
+     "Running a pilot at two sites",
+     "Hiring ten new engineers"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What happens if the numbers work?",
+    "a": "They scale up",
+    "opts": [
+     "They scale up",
+     "They stop the service"
+    ],
+    "k": 0
+   },
+   {
+    "q": "Why is it a win-win?",
+    "a": "Clients get fewer failures and the company gets steady income",
+    "opts": [
+     "Clients get fewer failures and the company gets steady income",
+     "Only the company benefits"
+    ],
+    "k": 0
+   },
+   {
+    "q": "How does Karim show he has skin in the game?",
+    "a": "He offers to run it and put his name on it",
+    "opts": [
+     "He offers to run it and put his name on it",
+     "He invests his own savings"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Mr. Sherif call the idea?",
+    "a": "A risky distraction",
+    "opts": [
+     "A possible game changer",
+     "A risky distraction"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What does Karim get besides the green light?",
+    "a": "A new car",
+    "opts": [
+     "A promotion to Service Development Manager",
+     "A new car"
+    ],
+    "k": 1
+   },
+   {
+    "q": "According to Mona, what do the best free agents do in the long run?",
+    "a": "Build something new wherever they are",
+    "opts": [
+     "Build something new wherever they are",
+     "Change jobs every year"
+    ],
+    "k": 0
+   }
+  ],
+  "pov": "Retell the season finale as Karim: the problem you noticed, your proposal, and Mr. Sherif's decision. Use: pain point, business case, run a pilot, green light, free agent."
+ }
+}

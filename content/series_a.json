@@ -1,0 +1,1424 @@
+{
+ "bc3": {
+  "title": "Networking That Works",
+  "ar": "العلاقات المهنية اللي بتجيب نتيجة",
+  "intro": "Karim has sent Mona his new resume, and now she wants him to meet people who matter. She takes him to the Egypt Energy exhibition and shows him how to start conversations, exchange cards and follow up afterwards.",
+  "introAr": "كريم بعت لمنى الـ ‎CV‎ الجديد، ودلوقتي هي عايزاه يتعرف على ناس مهمة. بتاخده معرض ‎Egypt Energy‎ وبتوريه إزاي يبدأ كلام مع الناس، ويبادل الكروت، ويتابع معاهم بعد كده.",
+  "dialogue": [
+   {
+    "sp": "Mona",
+    "en": "Morning, Karim. I read your new resume last night, and it's much better. Now let's put it to work. Ready for Egypt Energy?",
+    "ar": "صباح الخير يا كريم. قريت الـ ‎CV‎ الجديد بتاعك امبارح بالليل، وبقى أحسن بكتير. يلا بقى نشغّله. جاهز لمعرض ‎Egypt Energy‎؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Ready, but to be honest, I'm nervous. I never know what to say to strangers at these exhibitions.",
+    "ar": "جاهز، بس بصراحة أنا متوتر. عمري ما بعرف أقول إيه لناس معرفهاش في المعارض دي."
+   },
+   {
+    "sp": "Mona",
+    "en": "Most people feel the same. The trick is to break the ice with a simple question, something like, 'What brings you to the show?'",
+    "ar": "أغلب الناس بيحسوا بنفس الإحساس. السر إنك تكسر الجليد بسؤال بسيط، حاجة زي: 'إيه اللي جابك المعرض؟'"
+   },
+   {
+    "sp": "Karim",
+    "en": "That's it? No big speech?",
+    "ar": "بس كده؟ من غير خطبة كبيرة؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Not at first. Start with small talk: the traffic, the new solar pavilion, the heat inside Hall 2. Then listen more than you talk.",
+    "ar": "مش في الأول. ابدأ بكلام خفيف: الزحمة، جناح الطاقة الشمسية الجديد، الحر اللي جوه صالة ٢. وبعدين اسمع أكتر ما تتكلم."
+   },
+   {
+    "sp": "Karim",
+    "en": "And when they ask me what I do?",
+    "ar": "ولما يسألوني بشتغل إيه؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "That's where your elevator pitch comes in. Thirty seconds, no more. Go on, try it on me.",
+    "ar": "هنا بييجي دور الـ ‎elevator pitch‎ بتاعك. تلاتين ثانية، مش أكتر. يلا جرّبه عليّا."
+   },
+   {
+    "sp": "Karim",
+    "en": "Well... I'm Karim, a service engineer at Nile Power Care. I keep UPS systems and battery banks running for hospitals and banks, and last year I cut emergency call-outs at one hospital by forty percent.",
+    "ar": "طيب... أنا كريم، مهندس صيانة في ‎Nile Power Care‎. بخلّي أجهزة الـ ‎UPS‎ ومجموعات البطاريات شغالة في مستشفيات وبنوك، والسنة اللي فاتت قللت بلاغات الطوارئ في مستشفى واحدة بنسبة أربعين في المية."
+   },
+   {
+    "sp": "Mona",
+    "en": "Clear and concrete. Now look over there, that's the stand of a precision-cooling supplier. Their regional manager, Eng. Waleed, is a mutual connection. We both worked with him on the hospital project, and he's heard your name from me.",
+    "ar": "واضح ومحدد. بص بقى هناك، ده جناح مورّد تكييف دقيق. المدير الإقليمي بتاعهم، م. وليد، معرفة مشتركة بينا. إحنا الاتنين اشتغلنا معاه في مشروع المستشفى، وهو سمع اسمك مني."
+   },
+   {
+    "sp": "Karim",
+    "en": "Should I just walk up to him?",
+    "ar": "أروح له كده على طول؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Come on, I'll introduce you. This is your chance to rub shoulders with the people who actually build data centres.",
+    "ar": "تعالى، أنا هعرّفك عليه. دي فرصتك تحتك بالناس اللي بيبنوا الداتا سنترات فعلاً."
+   },
+   {
+    "sp": "Karim",
+    "en": "Mona, that went really well! We hit it off straight away. He's into lithium batteries too, so we were on the same wavelength from the first minute.",
+    "ar": "يا منى، الموضوع مشي حلو جداً! اتفاهمنا من أول لحظة. هو كمان مهتم ببطاريات الليثيوم، فكنا متفاهمين من أول دقيقة."
+   },
+   {
+    "sp": "Mona",
+    "en": "I could see that. Did you exchange business cards?",
+    "ar": "أنا شفت ده. بدّلتوا الكروت؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Yes, and I wrote a note on the back of his card: 'asked about a lithium retrofit for a bank server room.'",
+    "ar": "آه، وكتبت ملحوظة على ضهر الكارت بتاعه: 'سأل عن تحويل غرفة سيرفرات في بنك لبطاريات ليثيوم.'"
+   },
+   {
+    "sp": "Mona",
+    "en": "Smart. That note will help you follow up properly. Most people collect fifty cards and never reach out to anyone.",
+    "ar": "شاطر. الملحوظة دي هتساعدك تتابع معاه صح. أغلب الناس بيلمّوا خمسين كارت وعمرهم ما بيكلموا حد."
+   },
+   {
+    "sp": "Karim",
+    "en": "So when should I contact him?",
+    "ar": "طيب أكلمه إمتى؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Within forty-eight hours. Send a short email, mention the lithium conversation, and connect on LinkedIn with a personal message, not the default one.",
+    "ar": "في خلال تمانية وأربعين ساعة. ابعت إيميل قصير، افكره بكلامكم عن الليثيوم، وضيفه على ‎LinkedIn‎ برسالة شخصية، مش الرسالة الجاهزة."
+   },
+   {
+    "sp": "Karim",
+    "en": "What should I say, exactly?",
+    "ar": "أقول إيه بالظبط؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Something like: 'It was great to put a face to the name today. I'd be happy to touch base next month about your bank project.' Short and friendly.",
+    "ar": "حاجة زي: 'كان جميل إني أشوفك وش لوش النهارده بعد ما سمعت عنك كتير. يسعدني نتواصل الشهر الجاي بخصوص مشروع البنك بتاعك.' قصير وودود."
+   },
+   {
+    "sp": "Karim",
+    "en": "And after that?",
+    "ar": "وبعد كده؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Keep in touch without being pushy. Share a useful article, congratulate him on a new contract. In our business, a lot of work comes by word of mouth.",
+    "ar": "خليك على تواصل من غير ما تبقى لزقة. ابعت له مقال مفيد، باركله على عقد جديد. في شغلنا، شغل كتير بييجي بالسمعة والترشيحات."
+   },
+   {
+    "sp": "Karim",
+    "en": "I get it. Networking isn't selling, it's building relationships.",
+    "ar": "فهمت. الـ ‎networking‎ مش بيع، ده بناء علاقات."
+   },
+   {
+    "sp": "Mona",
+    "en": "Exactly. And keep me in the loop. If he mentions that bank project again, Laila in sales will want to know.",
+    "ar": "بالظبط. وخليني في الصورة. لو جاب سيرة مشروع البنك ده تاني، ليلى في المبيعات هتحب تعرف."
+   }
+  ],
+  "vocab": [
+   {
+    "w": "break the ice",
+    "ar": "يكسر الجليد / يفتح الكلام",
+    "def": "Say or do something to make strangers feel relaxed and start talking.",
+    "eg": "At the site meeting, I broke the ice by asking the client about his new generator."
+   },
+   {
+    "w": "small talk",
+    "ar": "كلام خفيف / دردشة",
+    "def": "Light, polite conversation about simple topics like weather or traffic.",
+    "eg": "We made small talk about the traffic before the UPS handover meeting started."
+   },
+   {
+    "w": "elevator pitch",
+    "ar": "تعريف سريع ومقنع بنفسك",
+    "def": "A very short, clear summary of who you are and what you offer.",
+    "eg": "Laila's elevator pitch for our solar maintenance contracts takes only twenty seconds."
+   },
+   {
+    "w": "mutual connection",
+    "ar": "معرفة مشتركة",
+    "def": "A person that both you and someone else know.",
+    "eg": "A mutual connection introduced me to the facilities manager of the new mall."
+   },
+   {
+    "w": "rub shoulders with",
+    "ar": "يحتك بـ / يتعامل عن قرب مع",
+    "def": "Spend time with important or experienced people.",
+    "eg": "At the conference I rubbed shoulders with engineers who design Tier IV data centres."
+   },
+   {
+    "w": "hit it off",
+    "ar": "يتفاهموا بسرعة / يرتاحوا لبعض",
+    "def": "Like each other and get along well immediately.",
+    "eg": "Tarek and the new client hit it off because they both love old diesel engines."
+   },
+   {
+    "w": "on the same wavelength",
+    "ar": "متفاهمين / بيفكروا بنفس الطريقة",
+    "def": "Thinking in a similar way and understanding each other easily.",
+    "eg": "The consultant and I were on the same wavelength about using modular UPS units."
+   },
+   {
+    "w": "exchange business cards",
+    "ar": "يبدّلوا الكروت الشخصية",
+    "def": "Give your card to someone and take theirs.",
+    "eg": "We exchanged business cards after the demo of the new VFD panel."
+   },
+   {
+    "w": "follow up",
+    "ar": "يتابع / يرجع يتواصل",
+    "def": "Contact someone again after a first meeting or action.",
+    "eg": "I followed up with the hospital two days after sending the battery quotation."
+   },
+   {
+    "w": "reach out",
+    "ar": "يتواصل مع / يكلّم",
+    "def": "Contact someone, often for the first time, to start a conversation.",
+    "eg": "Reach out to the factory manager and offer a free inspection of their inverters."
+   },
+   {
+    "w": "put a face to the name",
+    "ar": "يشوف الشخص اللي كان بيسمع اسمه بس",
+    "def": "Finally meet someone you only knew by name, email or phone.",
+    "eg": "The site visit helped me put a face to the name of the bank's IT manager."
+   },
+   {
+    "w": "touch base",
+    "ar": "يتواصل بشكل سريع / يطمّن",
+    "def": "Make brief contact with someone to share updates.",
+    "eg": "Let's touch base on Thursday about the solar plant commissioning."
+   },
+   {
+    "w": "keep in touch",
+    "ar": "يفضل على تواصل",
+    "def": "Continue to contact someone from time to time.",
+    "eg": "I keep in touch with my old clients by sending them maintenance tips."
+   },
+   {
+    "w": "word of mouth",
+    "ar": "السمعة / الترشيح من الناس لبعض",
+    "def": "When people recommend a business or person to others by talking.",
+    "eg": "Most of our clinic customers found us through word of mouth."
+   },
+   {
+    "w": "in the loop",
+    "ar": "في الصورة / متابع آخر الأخبار",
+    "def": "Informed about the latest news or decisions.",
+    "eg": "Please keep the sales team in the loop about the delayed battery shipment."
+   }
+  ],
+  "qa": [
+   {
+    "q": "Where does Mona take Karim?",
+    "a": "To the Egypt Energy exhibition",
+    "opts": [
+     "To the Egypt Energy exhibition",
+     "To a client's data centre"
+    ],
+    "k": 0
+   },
+   {
+    "q": "How does Karim feel about talking to strangers?",
+    "a": "Happy and confident",
+    "opts": [
+     "Nervous",
+     "Happy and confident"
+    ],
+    "k": 1
+   },
+   {
+    "q": "How does Mona suggest he breaks the ice?",
+    "a": "With a simple question",
+    "opts": [
+     "With a simple question",
+     "With a long speech"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What should he start with before business?",
+    "a": "A technical presentation",
+    "opts": [
+     "Small talk",
+     "A technical presentation"
+    ],
+    "k": 1
+   },
+   {
+    "q": "How long should an elevator pitch be?",
+    "a": "About thirty seconds",
+    "opts": [
+     "About thirty seconds",
+     "About five minutes"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What achievement does Karim put in his elevator pitch?",
+    "a": "He won a sales award",
+    "opts": [
+     "He cut hospital call-outs by forty percent",
+     "He won a sales award"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Who is Eng. Waleed to Mona and Karim?",
+    "a": "A mutual connection",
+    "opts": [
+     "A mutual connection",
+     "Karim's old manager"
+    ],
+    "k": 0
+   },
+   {
+    "q": "Why is the exhibition a good chance for Karim?",
+    "a": "He can sell UPS units directly",
+    "opts": [
+     "He can rub shoulders with people who build data centres",
+     "He can sell UPS units directly"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Why were Karim and Waleed on the same wavelength?",
+    "a": "They both care about lithium batteries",
+    "opts": [
+     "They both care about lithium batteries",
+     "They grew up in the same area"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What did Karim write on the back of the card?",
+    "a": "Waleed's home address",
+    "opts": [
+     "A note about their conversation",
+     "Waleed's home address"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What do most people do with the cards they collect?",
+    "a": "They never reach out to anyone",
+    "opts": [
+     "They never reach out to anyone",
+     "They call everyone the next day"
+    ],
+    "k": 0
+   },
+   {
+    "q": "How soon should Karim follow up?",
+    "a": "After a month",
+    "opts": [
+     "Within forty-eight hours",
+     "After a month"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What does Mona suggest he writes in his email?",
+    "a": "That it was great to put a face to the name",
+    "opts": [
+     "That it was great to put a face to the name",
+     "That he wants a new job"
+    ],
+    "k": 0
+   },
+   {
+    "q": "According to Mona, how does a lot of work come in their business?",
+    "a": "Through newspaper ads",
+    "opts": [
+     "By word of mouth",
+     "Through newspaper ads"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Why should Karim keep Mona in the loop?",
+    "a": "Laila in sales may want to know about the bank project",
+    "opts": [
+     "Laila in sales may want to know about the bank project",
+     "Mona needs to approve his LinkedIn posts"
+    ],
+    "k": 0
+   }
+  ],
+  "pov": "Retell the exhibition day as Karim: who you met and what you will do next. Use: break the ice, elevator pitch, hit it off, follow up, word of mouth."
+ },
+ "bc4": {
+  "title": "The Interview",
+  "ar": "الإنترفيو",
+  "intro": "Karim followed up with his new contacts, and now Ms. Dalia from HR has called: he is on the shortlist for the site-supervisor role on the bank's data-centre project. Mona prepares him, he faces the panel, and afterwards they debrief.",
+  "introAr": "كريم تابع مع المعارف الجديدة، ودلوقتي أ. داليا من الـ ‎HR‎ كلمته: هو في القايمة النهائية لوظيفة مشرف الموقع في مشروع الداتا سنتر بتاع البنك. منى بتجهّزه، وبعدين بيقابل اللجنة، وفي الآخر بيراجعوا اللي حصل مع بعض.",
+  "dialogue": [
+   {
+    "sp": "Mona",
+    "en": "So, Dalia called you. You're shortlisted for the site-supervisor role on the bank project. Congratulations!",
+    "ar": "ها، داليا كلمتك. إنت في القايمة النهائية لوظيفة مشرف الموقع في مشروع البنك. مبروك!"
+   },
+   {
+    "sp": "Karim",
+    "en": "Thanks, but the interview is tomorrow at ten, and my stomach is already in knots.",
+    "ar": "شكراً، بس الإنترفيو بكرة الساعة عشرة، وبطني مقلوبة من دلوقتي."
+   },
+   {
+    "sp": "Mona",
+    "en": "Then let's use that energy. First, did you do your homework on the project?",
+    "ar": "طيب يلا نستغل الطاقة دي. أول حاجة، ذاكرت كويس عن المشروع؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Yes. It's a Tier III data centre with two 500 kVA modular UPS systems, lithium batteries, and a tight handover date in March.",
+    "ar": "آه. داتا سنتر ‎Tier III‎ فيه نظامين ‎UPS‎ موديولار ‎500 kVA‎، وبطاريات ليثيوم، وميعاد تسليم ضيق في مارس."
+   },
+   {
+    "sp": "Mona",
+    "en": "Good. Tomorrow you'll face Ms. Dalia and Eng. Adel, the project director. Dalia will test your soft skills, and Adel will test the technical side. Don't be shy, you need to sell yourself.",
+    "ar": "كويس. بكرة هتقابل أ. داليا وم. عادل، مدير المشروع. داليا هتختبر مهاراتك الشخصية، وعادل هيختبر الجانب الفني. ماتتكسفش، لازم تسوّق لنفسك."
+   },
+   {
+    "sp": "Karim",
+    "en": "Selling myself feels like bragging.",
+    "ar": "إني أسوّق لنفسي حاسس إنه تفاخر."
+   },
+   {
+    "sp": "Mona",
+    "en": "It's not bragging if it's backed by facts. Use real examples: the problem, what you did, and the result.",
+    "ar": "مش تفاخر لو وراه حقايق. استخدم أمثلة حقيقية: المشكلة، عملت إيه، والنتيجة."
+   },
+   {
+    "sp": "Karim",
+    "en": "Like the night at the hospital when the static switch failed?",
+    "ar": "زي الليلة اللي في المستشفى لما الـ ‎static switch‎ باظ؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Perfect. And if they ask something you didn't expect, take a breath. They want to see if you can think on your feet.",
+    "ar": "بالظبط. ولو سألوك حاجة ماكنتش متوقعها، خد نفَس. هما عايزين يشوفوا إذا كنت تقدر تتصرف بسرعة في اللحظة."
+   },
+   {
+    "sp": "Ms. Dalia",
+    "en": "Welcome, Karim. Let's start simple. Walk me through your career so far.",
+    "ar": "أهلاً يا كريم. نبدأ بحاجة بسيطة. احكي لي مشوارك المهني خطوة بخطوة لحد دلوقتي."
+   },
+   {
+    "sp": "Karim",
+    "en": "Sure. I joined Nile Power Care six years ago as a junior technician, became a service engineer in 2022, and for the last two years I've led the maintenance on our hospital contracts.",
+    "ar": "أكيد. دخلت ‎Nile Power Care‎ من ست سنين كفني جونيور، بقيت مهندس صيانة في ٢٠٢٢، وآخر سنتين بقود الصيانة في عقود المستشفيات بتاعتنا."
+   },
+   {
+    "sp": "Eng. Adel",
+    "en": "Tell me about a time you worked under pressure.",
+    "ar": "احكي لي عن موقف اشتغلت فيه تحت ضغط."
+   },
+   {
+    "sp": "Karim",
+    "en": "Well, last winter a hospital's UPS went into bypass at 2 a.m. with the ICU on it. I decided to take ownership, called Tarek in, and we replaced the faulty module before the morning shift. Zero downtime.",
+    "ar": "بص، الشتا اللي فات الـ ‎UPS‎ بتاع مستشفى دخل على الـ ‎bypass‎ الساعة اتنين بالليل والعناية المركزة عليه. قررت أشيل المسؤولية بنفسي، كلمت طارق ييجي، وغيّرنا الموديول البايظ قبل وردية الصبح. من غير أي توقف."
+   },
+   {
+    "sp": "Eng. Adel",
+    "en": "Impressive. But as a supervisor you'll manage subcontractors, not just technicians. How would you handle a contractor who's behind schedule?",
+    "ar": "حلو. بس كمشرف هتدير مقاولين باطن، مش فنيين بس. هتتعامل إزاي مع مقاول متأخر عن الجدول؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "To be honest, I haven't managed subcontractors directly. But I'd sit with them, find the real bottleneck, and agree on a recovery plan with daily checks. I'm a team player, but I don't let deadlines slide.",
+    "ar": "بصراحة، ماأدرتش مقاولين باطن بشكل مباشر قبل كده. بس هقعد معاهم، أعرف فين الاختناق الحقيقي، ونتفق على خطة تعويض بمتابعة يومية. أنا بحب الشغل الجماعي، بس مابسيبش المواعيد تفلت."
+   },
+   {
+    "sp": "Ms. Dalia",
+    "en": "Last question, and I'm going to put you on the spot: what's your biggest weakness?",
+    "ar": "آخر سؤال، وهحطك في موقف محرج شوية: إيه أكبر نقطة ضعف عندك؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "I used to fix everything myself instead of delegating. I've been working on it. This year I trained two juniors, and now they handle battery testing alone. There's still room for improvement, though.",
+    "ar": "كنت بصلّح كل حاجة بنفسي بدل ما أوزّع الشغل. وبشتغل على ده. السنة دي درّبت اتنين جونيور، ودلوقتي بيعملوا اختبار البطاريات لوحدهم. بس لسه فيه مساحة للتحسن."
+   },
+   {
+    "sp": "Mona",
+    "en": "So? How did it go?",
+    "ar": "ها؟ عملت إيه؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "I think I nailed it, mostly. The subcontractor question caught me off guard, but I kept my answer short and sweet, and honest.",
+    "ar": "أعتقد إني جبتها، في أغلبها. سؤال مقاولين الباطن فاجئني، بس خليت إجابتي قصيرة ومباشرة، وصادقة."
+   },
+   {
+    "sp": "Mona",
+    "en": "That was the right call. Did you tell them you can hit the ground running?",
+    "ar": "ده كان التصرف الصح. قلت لهم إنك تقدر تبدأ شغل على طول من أول يوم؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Yes. I told them I already know the bank's facilities team from the tender visits. Adel seemed to like that.",
+    "ar": "آه. قلت لهم إني أصلاً أعرف فريق المنشآت في البنك من زيارات المناقصة. عادل كان باين عليه إنه عجبه ده."
+   },
+   {
+    "sp": "Mona",
+    "en": "Great. Now send each of them a short thank-you email today and mention one thing you discussed. It's a small way to go the extra mile.",
+    "ar": "هايل. دلوقتي ابعت لكل واحد فيهم إيميل شكر قصير النهارده واذكر حاجة واحدة اتكلمتوا فيها. دي طريقة بسيطة تعمل فيها أكتر من المطلوب."
+   },
+   {
+    "sp": "Karim",
+    "en": "Will do. And after that?",
+    "ar": "حاضر. وبعد كده؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "After that, the ball is in their court. Relax, and let's get back to the Maadi site survey.",
+    "ar": "بعد كده، الكورة في ملعبهم. استريح، ويلا نرجع لمعاينة موقع المعادي."
+   }
+  ],
+  "vocab": [
+   {
+    "w": "shortlisted",
+    "ar": "في القايمة النهائية للمرشحين",
+    "def": "Chosen as one of a small group of final candidates.",
+    "eg": "Three suppliers were shortlisted for the hospital's new battery contract."
+   },
+   {
+    "w": "do your homework",
+    "ar": "يذاكر / يحضّر كويس قبل حاجة",
+    "def": "Prepare by learning the important facts before a meeting or task.",
+    "eg": "Do your homework on the factory's load profile before you size the solar inverter."
+   },
+   {
+    "w": "sell yourself",
+    "ar": "يسوّق لنفسه",
+    "def": "Show others clearly why you are valuable and the right choice.",
+    "eg": "In a tender presentation, you have to sell yourself and your team."
+   },
+   {
+    "w": "walk me through",
+    "ar": "اشرح لي خطوة بخطوة",
+    "def": "Explain something to me step by step.",
+    "eg": "Walk me through the steps for transferring the UPS to maintenance bypass."
+   },
+   {
+    "w": "think on your feet",
+    "ar": "يتصرف بسرعة وذكاء في اللحظة",
+    "def": "Make quick, good decisions without time to prepare.",
+    "eg": "When the generator failed during the test, Tarek had to think on his feet."
+   },
+   {
+    "w": "under pressure",
+    "ar": "تحت ضغط",
+    "def": "In a stressful situation, often with little time.",
+    "eg": "We commissioned the server room under pressure, two days before the bank opened."
+   },
+   {
+    "w": "take ownership",
+    "ar": "يشيل المسؤولية / يتبنّى المشكلة",
+    "def": "Accept full responsibility for a task or problem and its result.",
+    "eg": "I took ownership of the late shipment and called the client myself."
+   },
+   {
+    "w": "team player",
+    "ar": "بيحب الشغل الجماعي",
+    "def": "A person who works well with others to reach a shared goal.",
+    "eg": "Our best technicians are team players who share tools and knowledge."
+   },
+   {
+    "w": "put you on the spot",
+    "ar": "يحطك في موقف محرج / يفاجئك بسؤال",
+    "def": "Ask you a difficult question you must answer immediately.",
+    "eg": "Sorry to put you on the spot, but can you give the client a delivery date now?"
+   },
+   {
+    "w": "room for improvement",
+    "ar": "مساحة للتحسين",
+    "def": "A chance to make something better than it is now.",
+    "eg": "Our response time is good, but there's still room for improvement at night."
+   },
+   {
+    "w": "nail it",
+    "ar": "يجيبها / يعملها بامتياز",
+    "def": "Do something perfectly or very successfully.",
+    "eg": "Laila practised the presentation twice and nailed it in front of the client."
+   },
+   {
+    "w": "short and sweet",
+    "ar": "قصير ومباشر",
+    "def": "Brief and pleasant, without unnecessary details.",
+    "eg": "Keep the site report short and sweet: status, problems, next steps."
+   },
+   {
+    "w": "hit the ground running",
+    "ar": "يبدأ شغل بقوة من أول يوم",
+    "def": "Start a new job or project quickly and effectively from day one.",
+    "eg": "The new engineer already knew our VFD models, so he hit the ground running."
+   },
+   {
+    "w": "go the extra mile",
+    "ar": "يعمل أكتر من المطلوب",
+    "def": "Make more effort than people expect from you.",
+    "eg": "We went the extra mile and cleaned the battery room after the installation."
+   },
+   {
+    "w": "the ball is in their court",
+    "ar": "الكورة في ملعبهم / القرار عندهم",
+    "def": "It is now their turn to decide or act.",
+    "eg": "We sent the final solar quotation, so the ball is in their court."
+   }
+  ],
+  "qa": [
+   {
+    "q": "Who told Karim he was shortlisted?",
+    "a": "Ms. Dalia from HR",
+    "opts": [
+     "Ms. Dalia from HR",
+     "Eng. Adel"
+    ],
+    "k": 0
+   },
+   {
+    "q": "When is the interview?",
+    "a": "Next week",
+    "opts": [
+     "Tomorrow at ten",
+     "Next week"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What does Mona ask him first?",
+    "a": "Whether he did his homework on the project",
+    "opts": [
+     "Whether he did his homework on the project",
+     "Whether he bought a new suit"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What will Eng. Adel test?",
+    "a": "His soft skills",
+    "opts": [
+     "The technical side",
+     "His soft skills"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Why does Karim not like to sell himself at first?",
+    "a": "It feels like bragging",
+    "opts": [
+     "It feels like bragging",
+     "He thinks it's too expensive"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Mona say examples should include?",
+    "a": "The price, the date and the client",
+    "opts": [
+     "The problem, what you did and the result",
+     "The price, the date and the client"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What do interviewers want to see with unexpected questions?",
+    "a": "Whether he can think on his feet",
+    "opts": [
+     "Whether he can think on his feet",
+     "Whether he can speak French"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Ms. Dalia ask him to do first?",
+    "a": "Show his certificates",
+    "opts": [
+     "Walk her through his career",
+     "Show his certificates"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What story does Karim tell about working under pressure?",
+    "a": "The hospital UPS failure at 2 a.m.",
+    "opts": [
+     "The hospital UPS failure at 2 a.m.",
+     "A late solar delivery"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What did Karim decide to do that night?",
+    "a": "Wait for the morning shift",
+    "opts": [
+     "Take ownership and call Tarek in",
+     "Wait for the morning shift"
+    ],
+    "k": 1
+   },
+   {
+    "q": "How does Karim describe himself with subcontractors?",
+    "a": "A team player who doesn't let deadlines slide",
+    "opts": [
+     "A team player who doesn't let deadlines slide",
+     "A strict boss who never listens"
+    ],
+    "k": 0
+   },
+   {
+    "q": "How does Dalia introduce her last question?",
+    "a": "She says it's easy",
+    "opts": [
+     "She says she'll put him on the spot",
+     "She says it's easy"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What does Karim admit about his weakness?",
+    "a": "There's still room for improvement",
+    "opts": [
+     "There's still room for improvement",
+     "He has no weaknesses"
+    ],
+    "k": 0
+   },
+   {
+    "q": "Why can Karim hit the ground running?",
+    "a": "He lives next to the site",
+    "opts": [
+     "He already knows the bank's facilities team",
+     "He lives next to the site"
+    ],
+    "k": 1
+   },
+   {
+    "q": "After the thank-you emails, whose turn is it?",
+    "a": "The ball is in their court",
+    "opts": [
+     "The ball is in their court",
+     "Karim must call every day"
+    ],
+    "k": 0
+   }
+  ],
+  "pov": "Retell your interview day as Karim: how you prepared and what they asked you. Use: do your homework, sell yourself, under pressure, put you on the spot, the ball is in their court."
+ },
+ "bc5": {
+  "title": "Negotiating the Offer",
+  "ar": "التفاوض على العرض",
+  "intro": "A week after his interview and thank-you emails, Karim receives the offer for the site-supervisor role. Before he signs, Mona helps him negotiate his salary, a car allowance and training, looking for a deal that works for both sides.",
+  "introAr": "بعد أسبوع من الإنترفيو وإيميلات الشكر، كريم بيستلم عرض وظيفة مشرف الموقع. قبل ما يمضي، منى بتساعده يتفاوض على المرتب وبدل العربية والتدريب، ويدوّر على اتفاق يكسب فيه الطرفين.",
+  "dialogue": [
+   {
+    "sp": "Karim",
+    "en": "Mona! Dalia just emailed me the offer letter. I got the site-supervisor job!",
+    "ar": "يا منى! داليا لسه باعتة لي جواب العرض. أخدت وظيفة مشرف الموقع!"
+   },
+   {
+    "sp": "Mona",
+    "en": "I knew it! Congratulations. You must be over the moon.",
+    "ar": "كنت عارفة! مبروك. أكيد إنت طاير من الفرحة."
+   },
+   {
+    "sp": "Karim",
+    "en": "I am. Honestly, my first reaction was to jump at it and sign today.",
+    "ar": "جداً. بصراحة أول رد فعل عندي كان إني أوافق على طول وأمضي النهارده."
+   },
+   {
+    "sp": "Mona",
+    "en": "Hold on. Never sign on the same day. Sleep on it, read every line, and then we'll talk. What are the numbers?",
+    "ar": "استنى. عمرك ما تمضي في نفس اليوم. نام عليها، اقرا كل سطر، وبعدين نتكلم. الأرقام إيه؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "A twenty percent raise on my current salary, a company phone, and the standard medical insurance.",
+    "ar": "زيادة عشرين في المية على مرتبي الحالي، وموبايل من الشركة، والتأمين الطبي العادي."
+   },
+   {
+    "sp": "Mona",
+    "en": "Hmm. Did you check the market rate for site supervisors on data-centre projects?",
+    "ar": "همم. شفت سعر السوق لمشرفين المواقع في مشاريع الداتا سنتر؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "I asked two friends at other integrators. The ballpark figure is thirty to thirty-five percent above what I earn now.",
+    "ar": "سألت اتنين صحابي في شركات تانية. الرقم التقريبي من تلاتين لخمسة وتلاتين في المية فوق اللي باخده دلوقتي."
+   },
+   {
+    "sp": "Mona",
+    "en": "So if you accept twenty percent without a word, you'll leave money on the table. But remember, this isn't a fight. We want a win-win.",
+    "ar": "يبقى لو وافقت على عشرين في المية من غير ولا كلمة، هتسيب فلوس كان ممكن تاخدها. بس افتكر، دي مش خناقة. إحنا عايزين الطرفين يكسبوا."
+   },
+   {
+    "sp": "Karim",
+    "en": "What does win-win look like here?",
+    "ar": "يعني إيه الطرفين يكسبوا هنا؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "The company gets a supervisor who delivers the bank project on time, and you get a package that matches the responsibility. Think about what you bring to the table: you know the client, the equipment and the team.",
+    "ar": "الشركة تاخد مشرف يسلّم مشروع البنك في ميعاده، وإنت تاخد باكدج على قد المسؤولية. فكّر في اللي إنت بتضيفه: إنت عارف العميل، والأجهزة، والفريق."
+   },
+   {
+    "sp": "Karim",
+    "en": "So I make a counteroffer of thirty-five percent?",
+    "ar": "يعني أقدّم عرض مضاد بخمسة وتلاتين في المية؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Ask for thirty-two and explain why. Leave yourself some wiggle room, and be ready to meet halfway. What else matters to you?",
+    "ar": "اطلب اتنين وتلاتين واشرح ليه. سيب لنفسك مساحة للمناورة، وخليك مستعد تقابلهم في نص الطريق. إيه كمان مهم بالنسبة لك؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Transport. The bank site is in the New Capital. That's two hours a day from Shubra, and I'll be driving between sites too.",
+    "ar": "المواصلات. موقع البنك في العاصمة الإدارية. ده ساعتين في اليوم من شبرا، وكمان هتنقل بين المواقع بالعربية."
+   },
+   {
+    "sp": "Mona",
+    "en": "Then ask for a car allowance. Mr. Sherif approved one for the last two supervisors, so it's realistic.",
+    "ar": "يبقى اطلب بدل عربية. أ. شريف وافق على بدل للمشرفين اللي قبلك الاتنين، فده طلب واقعي."
+   },
+   {
+    "sp": "Karim",
+    "en": "And training? I really want the lithium battery and data-centre design certificates.",
+    "ar": "والتدريب؟ أنا نفسي أوي في شهادات بطاريات الليثيوم وتصميم الداتا سنتر."
+   },
+   {
+    "sp": "Mona",
+    "en": "That's a great one, because it helps the company too. If they can't move much on salary, training can sweeten the deal.",
+    "ar": "ده طلب ممتاز، لأنه بيفيد الشركة كمان. لو مش هيقدروا يتحركوا كتير في المرتب، التدريب ممكن يحلّي العرض."
+   },
+   {
+    "sp": "Karim",
+    "en": "What if Dalia says no to everything?",
+    "ar": "ولو داليا رفضت كل حاجة؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Decide beforehand: what's a deal-breaker for you? For me, it would be the car allowance. Without it, the commute eats your raise.",
+    "ar": "حدد من الأول: إيه الحاجة اللي من غيرها مش هتوافق؟ لو أنا، هيبقى بدل العربية. من غيره، المشوار هياكل الزيادة بتاعتك."
+   },
+   {
+    "sp": "Ms. Dalia",
+    "en": "Karim, I looked at your request. We can't do thirty-two percent, but we can offer twenty-eight, plus a monthly car allowance of four thousand pounds.",
+    "ar": "يا كريم، بصيت على طلبك. مش هنقدر نعمل اتنين وتلاتين في المية، بس نقدر نعرض تمانية وعشرين، وبدل عربية شهري أربعة آلاف جنيه."
+   },
+   {
+    "sp": "Karim",
+    "en": "I appreciate that. Could we also add the lithium certification course in my first six months? It'll make me more useful on the bank project.",
+    "ar": "متشكر جداً. ممكن كمان نضيف كورس شهادة الليثيوم في أول ست شهور؟ ده هيخليني مفيد أكتر في مشروع البنك."
+   },
+   {
+    "sp": "Ms. Dalia",
+    "en": "I think Mr. Sherif will agree to that. It makes sense for both sides.",
+    "ar": "أعتقد إن أ. شريف هيوافق على ده. منطقي للطرفين."
+   },
+   {
+    "sp": "Karim",
+    "en": "Then we have a deal. Could you please send me the revised offer? I'd like to get it in writing before I sign.",
+    "ar": "يبقى اتفقنا. ممكن لو سمحتي تبعتي لي العرض المعدّل؟ حابب آخده مكتوب قبل ما أمضي."
+   },
+   {
+    "sp": "Mona",
+    "en": "Well done. The bottom line: you got more money, a car allowance and training, and Dalia is happy too.",
+    "ar": "برافو. الخلاصة: أخدت فلوس أكتر، وبدل عربية، وتدريب، وداليا كمان مبسوطة."
+   }
+  ],
+  "vocab": [
+   {
+    "w": "over the moon",
+    "ar": "طاير من الفرحة",
+    "def": "Extremely happy about something.",
+    "eg": "The client was over the moon when the solar plant beat its production target."
+   },
+   {
+    "w": "jump at",
+    "ar": "يوافق على طول / يتلقف الفرصة",
+    "def": "Accept an opportunity quickly and eagerly.",
+    "eg": "When they offered us the maintenance contract, we jumped at it."
+   },
+   {
+    "w": "sleep on it",
+    "ar": "ينام عليها / ياخد وقته يفكر",
+    "def": "Wait until the next day before making a decision.",
+    "eg": "The factory owner wanted to sleep on it before approving the VFD upgrade."
+   },
+   {
+    "w": "market rate",
+    "ar": "سعر السوق",
+    "def": "The usual price or salary for something at the moment.",
+    "eg": "Our price for battery replacement is close to the market rate."
+   },
+   {
+    "w": "ballpark figure",
+    "ar": "رقم تقريبي",
+    "def": "A rough estimate of a number or price.",
+    "eg": "Can you give me a ballpark figure for a 100 kW solar system?"
+   },
+   {
+    "w": "leave money on the table",
+    "ar": "يسيب فلوس كان ممكن ياخدها",
+    "def": "Accept less than you could have got in a deal.",
+    "eg": "Don't give the discount too early, or you'll leave money on the table."
+   },
+   {
+    "w": "win-win",
+    "ar": "الطرفين كسبانين",
+    "def": "A result that is good for everyone involved.",
+    "eg": "A longer contract with a lower monthly fee was a win-win for us and the hospital."
+   },
+   {
+    "w": "bring to the table",
+    "ar": "يضيف / يقدّم كقيمة",
+    "def": "Offer skills, experience or value in a deal or team.",
+    "eg": "Tarek brings twenty years of generator experience to the table."
+   },
+   {
+    "w": "counteroffer",
+    "ar": "عرض مضاد",
+    "def": "A new offer you make in reply to someone else's offer.",
+    "eg": "The bank rejected our first price and sent a counteroffer the next day."
+   },
+   {
+    "w": "wiggle room",
+    "ar": "مساحة للمناورة / للتعديل",
+    "def": "A little freedom to change a plan, price or decision.",
+    "eg": "Quote a bit higher so you have some wiggle room for discounts."
+   },
+   {
+    "w": "meet halfway",
+    "ar": "يقابله في نص الطريق / يتنازلوا الاتنين",
+    "def": "Agree to a compromise where both sides give something.",
+    "eg": "The client wanted a 15 percent discount; we met halfway at seven."
+   },
+   {
+    "w": "sweeten the deal",
+    "ar": "يحلّي العرض",
+    "def": "Add something extra to make an offer more attractive.",
+    "eg": "We sweetened the deal with free battery testing for the first year."
+   },
+   {
+    "w": "deal-breaker",
+    "ar": "شرط أساسي لو مش موجود الاتفاق يبوظ",
+    "def": "Something so important that without it you will not agree.",
+    "eg": "For the hospital, a four-hour response time was a deal-breaker."
+   },
+   {
+    "w": "get it in writing",
+    "ar": "ياخدها مكتوبة",
+    "def": "Make sure an agreement is written down and signed.",
+    "eg": "The client promised to pay the variation, but get it in writing first."
+   },
+   {
+    "w": "the bottom line",
+    "ar": "الخلاصة / النتيجة النهائية",
+    "def": "The most important fact or final result.",
+    "eg": "The bottom line is that the new UPS will cut their energy bill by ten percent."
+   }
+  ],
+  "qa": [
+   {
+    "q": "How does Karim feel when he gets the offer?",
+    "a": "Over the moon",
+    "opts": [
+     "Over the moon",
+     "Disappointed"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What was Karim's first reaction?",
+    "a": "To reject it",
+    "opts": [
+     "To jump at it and sign today",
+     "To reject it"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What does Mona advise before signing?",
+    "a": "Sleep on it and read every line",
+    "opts": [
+     "Sleep on it and read every line",
+     "Sign quickly before they change their mind"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What raise does the first offer include?",
+    "a": "Thirty-five percent",
+    "opts": [
+     "Twenty percent",
+     "Thirty-five percent"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What is the ballpark figure Karim's friends gave him?",
+    "a": "Thirty to thirty-five percent above his salary",
+    "opts": [
+     "Thirty to thirty-five percent above his salary",
+     "Ten percent below his salary"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What happens if he accepts the first offer without a word?",
+    "a": "He will get a car automatically",
+    "opts": [
+     "He will leave money on the table",
+     "He will get a car automatically"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What kind of result does Mona want?",
+    "a": "A win-win",
+    "opts": [
+     "A win-win",
+     "A win for Karim only"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Karim bring to the table?",
+    "a": "Many years in sales",
+    "opts": [
+     "Knowledge of the client, the equipment and the team",
+     "Many years in sales"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What counteroffer does Mona suggest?",
+    "a": "Thirty-two percent",
+    "opts": [
+     "Thirty-two percent",
+     "Fifty percent"
+    ],
+    "k": 0
+   },
+   {
+    "q": "Why shouldn't he ask for exactly what he wants?",
+    "a": "To finish quickly",
+    "opts": [
+     "To leave himself some wiggle room",
+     "To finish quickly"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Why does Karim need a car allowance?",
+    "a": "The bank site is two hours a day from his home",
+    "opts": [
+     "The bank site is two hours a day from his home",
+     "He wants a new car for his family"
+    ],
+    "k": 0
+   },
+   {
+    "q": "How can training help if salary doesn't move much?",
+    "a": "It can replace the medical insurance",
+    "opts": [
+     "It can sweeten the deal",
+     "It can replace the medical insurance"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What would be Mona's deal-breaker?",
+    "a": "The car allowance",
+    "opts": [
+     "The car allowance",
+     "The company phone"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Karim ask for before signing?",
+    "a": "A meeting with the CEO",
+    "opts": [
+     "To get the revised offer in writing",
+     "A meeting with the CEO"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What is the bottom line of the negotiation?",
+    "a": "More money, a car allowance and training",
+    "opts": [
+     "More money, a car allowance and training",
+     "The same offer as before"
+    ],
+    "k": 0
+   }
+  ],
+  "pov": "Retell the negotiation as Karim: what you asked for and what you got. Use: sleep on it, market rate, leave money on the table, meet halfway, win-win."
+ },
+ "bc6": {
+  "title": "The First 90 Days",
+  "ar": "أول ٩٠ يوم",
+  "intro": "Karim signed the revised offer and has just started as site supervisor on the bank's data-centre project in the New Capital. Mona coaches him on his first 90 days: learning the site, winning over Tarek and the crew, and setting expectations with his new boss, Eng. Adel.",
+  "introAr": "كريم مضى على العرض المعدّل ولسه بادئ شغله كمشرف موقع في مشروع الداتا سنتر بتاع البنك في العاصمة الإدارية. منى بتوجّهه في أول ٩٠ يوم: إنه يفهم الموقع، ويكسب طارق والفريق، ويتفق على التوقعات مع مديره الجديد م. عادل.",
+  "dialogue": [
+   {
+    "sp": "Mona",
+    "en": "So, Mr. Site Supervisor! How does the first week feel?",
+    "ar": "ها يا سيادة مشرف الموقع! إيه إحساس أول أسبوع؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Exciting and scary. The learning curve is steep: permits, subcontractors, the bank's security rules... I'm not in the battery room anymore.",
+    "ar": "مثير ومخيف. في حاجات كتير لازم أتعلمها بسرعة: التصاريح، ومقاولين الباطن، وقواعد الأمن بتاعة البنك... أنا مابقتش في أوضة البطاريات."
+   },
+   {
+    "sp": "Mona",
+    "en": "That's normal. Your first 90 days are about three things: learning, quick wins, and expectations. Let's start with learning. How are you getting up to speed?",
+    "ar": "ده طبيعي. أول ٩٠ يوم ليك بيدوروا حوالين تلات حاجات: التعلم، والمكاسب السريعة، والتوقعات. نبدأ بالتعلم. بتلحق نفسك إزاي؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "I walk the site every morning with the civil contractor and read every method statement. I want to get the lay of the land before I change anything.",
+    "ar": "بلف في الموقع كل يوم الصبح مع مقاول المدني وبقرا كل ‎method statement‎. عايز أفهم الوضع كويس قبل ما أغيّر أي حاجة."
+   },
+   {
+    "sp": "Mona",
+    "en": "Good instinct. People watch a new supervisor closely. If you change everything in week one, you'll step on toes.",
+    "ar": "إحساس صح. الناس بتراقب المشرف الجديد كويس. لو غيّرت كل حاجة في أول أسبوع، هتضايق ناس كتير."
+   },
+   {
+    "sp": "Karim",
+    "en": "Especially Tarek. He's been on the team longer than me, and now I'm his boss. It's a bit awkward.",
+    "ar": "خصوصاً طارق. هو في الفريق من قبلي، ودلوقتي أنا بقيت مديره. الموضوع محرج شوية."
+   },
+   {
+    "sp": "Mona",
+    "en": "Then don't pretend it isn't. Sit with him, tell him you respect his experience, and ask him, 'Can I pick your brain about the crew?' You have to earn his trust, not demand it.",
+    "ar": "يبقى ماتعملش نفسك مش واخد بالك. اقعد معاه، قول له إنك مقدّر خبرته، واسأله: 'ممكن أستفيد من خبرتك في موضوع الفريق؟' لازم تكسب ثقته، مش تفرضها."
+   },
+   {
+    "sp": "Karim",
+    "en": "I actually talked to him yesterday. He said the crew wastes an hour every morning waiting for tools from the main store.",
+    "ar": "أنا فعلاً اتكلمت معاه امبارح. قال إن الفريق بيضيّع ساعة كل صبح مستني العدة من المخزن الرئيسي."
+   },
+   {
+    "sp": "Mona",
+    "en": "There's your low-hanging fruit. Fix that, and everyone feels it immediately.",
+    "ar": "أهو ده المكسب السهل بتاعك. صلّح دي، والكل هيحس بالفرق على طول."
+   },
+   {
+    "sp": "Karim",
+    "en": "I was thinking of a tool cage on site with a sign-out sheet. Tarek could run it.",
+    "ar": "كنت بفكر في قفص عِدة في الموقع بكشف استلام وتسليم. وطارق ممكن يمسكه."
+   },
+   {
+    "sp": "Mona",
+    "en": "Perfect. A quick win, and Tarek owns it. What about safety?",
+    "ar": "ممتاز. مكسب سريع، وطارق هو صاحبه. وإيه أخبار السلامة؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "I'll be at the toolbox talk every morning at seven, in full PPE. If I skip my helmet, why would they wear theirs?",
+    "ar": "هبقى موجود في الـ ‎toolbox talk‎ كل يوم الساعة سبعة الصبح، لابس الـ ‎PPE‎ كامل. لو أنا مالبستش الخوذة، هما هيلبسوها ليه؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Exactly. Lead by example. Now the harder part: Eng. Adel. Have you sat down with him to set expectations?",
+    "ar": "بالظبط. خليك قدوة. دلوقتي الجزء الأصعب: م. عادل. قعدت معاه عشان تتفقوا على التوقعات؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Not formally. He's so busy that I only see him in the weekly progress meeting.",
+    "ar": "مش بشكل رسمي. هو مشغول جداً لدرجة إني مابشوفوش غير في اجتماع المتابعة الأسبوعي."
+   },
+   {
+    "sp": "Mona",
+    "en": "Book thirty minutes this week. Ask him how he'll measure your success at 30, 60 and 90 days, and how often he wants reports. You two need to be on the same page.",
+    "ar": "احجز معاه نص ساعة الأسبوع ده. اسأله هيقيس نجاحك إزاي بعد ٣٠ و٦٠ و٩٠ يوم، وعايز تقارير كل قد إيه. لازم تكونوا متفقين على نفس الحاجة."
+   },
+   {
+    "sp": "Karim",
+    "en": "What if he wants daily reports? That could be a lot.",
+    "ar": "ولو عايز تقارير يومية؟ ده ممكن يبقى كتير."
+   },
+   {
+    "sp": "Mona",
+    "en": "Then agree on a short format, a one-page daily log. Some directors micromanage at first, until they trust you. Give him visibility, and he'll back off.",
+    "ar": "يبقى اتفقوا على شكل قصير، سجل يومي صفحة واحدة. في مديرين بيدخلوا في كل صغيرة وكبيرة في الأول، لحد ما يثقوا فيك. خليه شايف الصورة، وهو هيسيبك تشتغل."
+   },
+   {
+    "sp": "Karim",
+    "en": "And if he asks me to promise the UPS installation will finish early?",
+    "ar": "ولو طلب مني أوعده إن تركيب الـ ‎UPS‎ هيخلص بدري؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Careful. Underpromise and overdeliver. Commit to the date you're sure of, then beat it.",
+    "ar": "خلي بالك. اوعد بأقل واعمل أكتر. التزم بالميعاد اللي إنت متأكد منه، وبعدين خلّص قبله."
+   },
+   {
+    "sp": "Eng. Adel",
+    "en": "Karim, I've noticed the crew starts on time now. Whose idea was the tool cage?",
+    "ar": "يا كريم، لاحظت إن الفريق بقى بيبدأ في ميعاده. فكرة قفص العدة دي بتاعة مين؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Tarek runs it, actually. I just asked the crew what was slowing them down.",
+    "ar": "طارق هو اللي ماسكه في الحقيقة. أنا بس سألت الفريق إيه اللي بيعطّلهم."
+   },
+   {
+    "sp": "Eng. Adel",
+    "en": "Good. Keep it up. And remember, I have an open-door policy. If something's going wrong, I want to hear it from you first.",
+    "ar": "كويس. كمّل كده. وافتكر، بابي مفتوح دايماً. لو فيه حاجة ماشية غلط، عايز أسمعها منك إنت الأول."
+   },
+   {
+    "sp": "Karim",
+    "en": "Understood. I'll check in with you every Thursday before the progress meeting.",
+    "ar": "مفهوم. هعدّي عليك وأطمنك كل خميس قبل اجتماع المتابعة."
+   },
+   {
+    "sp": "Mona",
+    "en": "See? Credit to Tarek, a clear plan with Adel, and a quick win in two weeks. That's how you start a new role.",
+    "ar": "شفت؟ الفضل لطارق، وخطة واضحة مع عادل، ومكسب سريع في أسبوعين. هي دي الطريقة اللي تبدأ بيها دور جديد."
+   }
+  ],
+  "vocab": [
+   {
+    "w": "learning curve",
+    "ar": "منحنى التعلم / قد إيه محتاج تتعلم",
+    "def": "How fast you must learn new skills in a new job or task.",
+    "eg": "The learning curve on the new lithium UPS was steep for our junior technicians."
+   },
+   {
+    "w": "get up to speed",
+    "ar": "يلحق نفسه / يبقى فاهم الوضع",
+    "def": "Learn the latest information so you can work fully.",
+    "eg": "Read last month's reports to get up to speed on the solar project."
+   },
+   {
+    "w": "the lay of the land",
+    "ar": "الوضع العام / طبيعة المكان",
+    "def": "The general situation, people and rules in a new place.",
+    "eg": "Spend your first week getting the lay of the land at the factory before proposing changes."
+   },
+   {
+    "w": "step on toes",
+    "ar": "يضايق حد بالتدخل في شغله",
+    "def": "Upset people by interfering in their area of work.",
+    "eg": "I checked with the electrical contractor first so I wouldn't step on toes."
+   },
+   {
+    "w": "pick your brain",
+    "ar": "يستفيد من خبرتك / يسألك عن رأيك",
+    "def": "Ask you questions to learn from your knowledge and experience.",
+    "eg": "Can I pick your brain about sizing batteries for a remote telecom site?"
+   },
+   {
+    "w": "earn trust",
+    "ar": "يكسب الثقة",
+    "def": "Make people trust you through your actions over time.",
+    "eg": "We earned the hospital's trust by answering every call within two hours."
+   },
+   {
+    "w": "low-hanging fruit",
+    "ar": "المكسب السهل",
+    "def": "An easy task or improvement that gives quick results.",
+    "eg": "Cleaning the dusty UPS filters was low-hanging fruit that cut alarms immediately."
+   },
+   {
+    "w": "quick win",
+    "ar": "مكسب سريع",
+    "def": "A small success achieved early that builds confidence and support.",
+    "eg": "Labeling every breaker in the panel was a quick win for the new team."
+   },
+   {
+    "w": "lead by example",
+    "ar": "يكون قدوة",
+    "def": "Show others how to behave by doing it yourself first.",
+    "eg": "Our CEO leads by example and wears a helmet on every site visit."
+   },
+   {
+    "w": "set expectations",
+    "ar": "يتفق على التوقعات / يوضّح المطلوب",
+    "def": "Agree clearly on what will be done, how and when.",
+    "eg": "At the kickoff meeting we set expectations about response times with the client."
+   },
+   {
+    "w": "on the same page",
+    "ar": "متفقين / فاهمين نفس الحاجة",
+    "def": "Agreeing and understanding a situation in the same way.",
+    "eg": "Before the shutdown, make sure the bank's IT team and our crew are on the same page."
+   },
+   {
+    "w": "micromanage",
+    "ar": "يدخل في كل صغيرة وكبيرة",
+    "def": "Control every small detail of other people's work.",
+    "eg": "Don't micromanage Tarek; he has installed more generators than anyone here."
+   },
+   {
+    "w": "underpromise and overdeliver",
+    "ar": "اوعد بأقل واعمل أكتر",
+    "def": "Promise a little less than you can do, then do more.",
+    "eg": "We said four weeks for the solar install and finished in three: underpromise and overdeliver."
+   },
+   {
+    "w": "open-door policy",
+    "ar": "سياسة الباب المفتوح",
+    "def": "A manager lets employees come and talk to them any time.",
+    "eg": "Mona has an open-door policy, so technicians bring her problems early."
+   },
+   {
+    "w": "check in",
+    "ar": "يطمّن / يتابع مع حد بشكل منتظم",
+    "def": "Talk to someone briefly to give or get an update.",
+    "eg": "I check in with the site foreman every afternoon about the cable pulling."
+   }
+  ],
+  "qa": [
+   {
+    "q": "How does Karim describe the learning curve in his new role?",
+    "a": "Steep",
+    "opts": [
+     "Steep",
+     "Very easy"
+    ],
+    "k": 0
+   },
+   {
+    "q": "How is Karim getting up to speed?",
+    "a": "By reading old emails at home",
+    "opts": [
+     "By walking the site and reading method statements",
+     "By reading old emails at home"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Why does Karim want to get the lay of the land first?",
+    "a": "To understand things before changing anything",
+    "opts": [
+     "To understand things before changing anything",
+     "To find someone to blame"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What happens if he changes everything in week one?",
+    "a": "He will get a bonus",
+    "opts": [
+     "He will step on toes",
+     "He will get a bonus"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Why is the situation with Tarek awkward?",
+    "a": "Tarek was on the team longer and is now Karim's junior",
+    "opts": [
+     "Tarek was on the team longer and is now Karim's junior",
+     "Tarek wanted to leave the company"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What should Karim ask Tarek?",
+    "a": "To work longer hours",
+    "opts": [
+     "If he can pick his brain about the crew",
+     "To work longer hours"
+    ],
+    "k": 1
+   },
+   {
+    "q": "According to Mona, how do you get Tarek's trust?",
+    "a": "You earn it, not demand it",
+    "opts": [
+     "You earn it, not demand it",
+     "You give him a raise"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What problem does Tarek mention?",
+    "a": "The site has no electricity",
+    "opts": [
+     "The crew wastes an hour waiting for tools",
+     "The site has no electricity"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What does Mona call fixing the tool problem?",
+    "a": "Low-hanging fruit",
+    "opts": [
+     "Low-hanging fruit",
+     "A deal-breaker"
+    ],
+    "k": 0
+   },
+   {
+    "q": "Who runs the tool cage?",
+    "a": "Eng. Adel",
+    "opts": [
+     "Tarek",
+     "Eng. Adel"
+    ],
+    "k": 1
+   },
+   {
+    "q": "How does Karim lead by example on safety?",
+    "a": "He wears full PPE at every toolbox talk",
+    "opts": [
+     "He wears full PPE at every toolbox talk",
+     "He sends safety emails"
+    ],
+    "k": 0
+   },
+   {
+    "q": "Why should Karim book a meeting with Eng. Adel?",
+    "a": "To ask for more money",
+    "opts": [
+     "To set expectations and be on the same page",
+     "To ask for more money"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What might some directors do at first?",
+    "a": "Micromanage",
+    "opts": [
+     "Micromanage",
+     "Ignore the project"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Mona say about promising an early UPS installation?",
+    "a": "Promise the earliest possible date",
+    "opts": [
+     "Underpromise and overdeliver",
+     "Promise the earliest possible date"
+    ],
+    "k": 1
+   },
+   {
+    "q": "How often will Karim check in with Eng. Adel?",
+    "a": "Every Thursday before the progress meeting",
+    "opts": [
+     "Every Thursday before the progress meeting",
+     "Once a month"
+    ],
+    "k": 0
+   }
+  ],
+  "pov": "Retell your first weeks as Karim: what you learned and what you changed. Use: learning curve, the lay of the land, low-hanging fruit, set expectations, underpromise and overdeliver."
+ }
+}

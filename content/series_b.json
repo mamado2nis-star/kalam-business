@@ -1,0 +1,1458 @@
+{
+ "bc7": {
+  "title": "Managing Up",
+  "ar": "إدارة مديرك",
+  "intro": "Two weeks into his new job as site supervisor on the bank's data-centre project, Karim clashes with Eng. Rami, a demanding project director. Mona teaches him how to manage up: short status updates, early warnings and realistic promises.",
+  "introAr": "بعد أسبوعين من شغله الجديد كمشرف موقع في مشروع الداتا سنتر بتاع البنك، كريم بيتصادم مع م. رامي، مدير المشروع اللي طلباته كتير. منى بتعلّمه إزاي يعمل ‎manage up‎: تحديثات قصيرة، تنبيه بدري للمشاكل، ووعود واقعية.",
+  "dialogue": [
+   {
+    "sp": "Karim",
+    "en": "Mona, have you got five minutes? I think I've got off on the wrong foot with Eng. Rami, the new project director.",
+    "ar": "يا منى، فاضية خمس دقايق؟ حاسس إني بدأت غلط مع م. رامي، مدير المشروع الجديد."
+   },
+   {
+    "sp": "Mona",
+    "en": "Sure, sit down. What happened?",
+    "ar": "أكيد، اقعد. إيه اللي حصل؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "He called me at ten last night asking where we are with the UPS installation. So this morning I sent him a two-page email with every detail, and he replied, \"Too long. What's the bottom line?\"",
+    "ar": "كلّمني الساعة عشرة بالليل امبارح يسأل وصلنا لفين في تركيب الـ ‎UPS‎. فالصبح بعتّ له إيميل صفحتين فيه كل التفاصيل، ردّ عليّا: \"طويل أوي. الخلاصة إيه؟\""
+   },
+   {
+    "sp": "Mona",
+    "en": "Well, that's Rami. He runs three projects at the same time, so he doesn't have time to read essays. You need to learn to manage up.",
+    "ar": "بص، ده رامي. هو ماسك تلات مشاريع في نفس الوقت، فمش فاضي يقرا مواضيع تعبير. محتاج تتعلم تعمل ‎manage up‎."
+   },
+   {
+    "sp": "Karim",
+    "en": "Manage up? I thought managing was something you do with the people below you.",
+    "ar": "‎Manage up‎؟ أنا كنت فاكر إن الإدارة دي حاجة بتعملها مع اللي تحت منك."
+   },
+   {
+    "sp": "Mona",
+    "en": "Look, managing up means making your boss's job easier: giving him what he needs, the way he likes it, before he has to ask.",
+    "ar": "بص، الـ ‎managing up‎ معناها إنك تسهّل شغل مديرك: تديله اللي محتاجه، بالطريقة اللي بيحبها، قبل ما يضطر يسأل."
+   },
+   {
+    "sp": "Karim",
+    "en": "So what does he actually need from me?",
+    "ar": "طب هو محتاج مني إيه بالظبط؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Short status updates. Three lines: what's done, what's next, and any problems. Get to the point in the first sentence.",
+    "ar": "تحديثات قصيرة عن الوضع. تلات سطور: إيه اللي خلص، إيه اللي جاي، وفي مشاكل ولا لأ. ادخل في الموضوع من أول جملة."
+   },
+   {
+    "sp": "Karim",
+    "en": "Three lines? But the project is complicated. There are two 400 kVA UPS modules, four battery strings, the precision cooling...",
+    "ar": "تلات سطور؟ بس المشروع معقد. في موديولين ‎UPS‎ قدرة 400 ‎kVA‎، وأربع سلاسل بطاريات، والتبريد الدقيق..."
+   },
+   {
+    "sp": "Mona",
+    "en": "I know, and so does he. Put the details in an attachment. In a nutshell, he wants to know one thing: are we on track or not?",
+    "ar": "عارفة، وهو كمان عارف. حط التفاصيل في ملف مرفق. باختصار، هو عايز يعرف حاجة واحدة: إحنا ماشيين حسب الخطة ولا لأ؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "To be honest, we're mostly on track. The UPS modules are installed and the battery racks are in. But there's a problem with the in-row cooling units.",
+    "ar": "بصراحة، إحنا ماشيين حسب الخطة في أغلب الحاجات. موديولات الـ ‎UPS‎ اتركبت وحوامل البطاريات اتحطت. بس في مشكلة في وحدات التبريد الـ ‎in-row‎."
+   },
+   {
+    "sp": "Mona",
+    "en": "What kind of problem?",
+    "ar": "مشكلة من أنهي نوع؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "The supplier told me yesterday that the lead time is now ten weeks instead of six. It could push commissioning back by a month.",
+    "ar": "المورّد قال لي امبارح إن مدة التوريد بقت عشر أسابيع بدل ستة. ده ممكن يأخّر التشغيل التجريبي شهر."
+   },
+   {
+    "sp": "Mona",
+    "en": "And does Rami know?",
+    "ar": "ورامي يعرف؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Not yet. I was hoping to find a solution first, so I don't look bad.",
+    "ar": "لسه. كنت عايز ألاقي حل الأول، عشان منظري مايبقاش وحش."
+   },
+   {
+    "sp": "Mona",
+    "en": "That's the classic mistake. If he hears it from the bank before he hears it from you, that's a real red flag for him. Flag risks early, even when you don't have the answer yet.",
+    "ar": "دي الغلطة المشهورة. لو سمعها من البنك قبل ما يسمعها منك، دي هتبقى علامة خطر كبيرة بالنسبة له. نبّه على المخاطر بدري، حتى لو لسه مامعاكش الحل."
+   },
+   {
+    "sp": "Karim",
+    "en": "Even without a solution?",
+    "ar": "حتى من غير حل؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Yes. Give him a heads-up today, then say, \"I'm working on options and I'll come back to you by Thursday.\" Directors hate surprises much more than bad news.",
+    "ar": "آه. اديله تنبيه النهارده، وبعدين قول: \"أنا بدوّر على بدائل وهرجع لحضرتك قبل الخميس.\" المديرين بيكرهوا المفاجآت أكتر بكتير من الأخبار الوحشة."
+   },
+   {
+    "sp": "Karim",
+    "en": "Okay. And what if he asks me to promise we'll still finish on the original date?",
+    "ar": "ماشي. وافرضي طلب مني أوعده إننا هنخلّص في الميعاد الأصلي برضه؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Then push back politely. Don't promise what you can't control. It's all about managing expectations; it's better to under-promise and over-deliver than the other way round.",
+    "ar": "ساعتها اعترض بأدب. ماتوعدش بحاجة مش في إيدك. الموضوع كله إنك تظبط توقعاته؛ أحسن توعد بأقل وتنفّذ أكتر، مش العكس."
+   },
+   {
+    "sp": "Karim",
+    "en": "And if it gets worse? If the supplier delays again?",
+    "ar": "ولو الدنيا اتعقدت أكتر؟ لو المورّد أخّر تاني؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Then you escalate it to him straight away, and he can call the supplier's regional manager. That's his job, not yours. Just keep him in the loop at every step.",
+    "ar": "ساعتها تصعّد الموضوع له على طول، وهو يكلّم المدير الإقليمي بتاع المورّد. ده شغله هو مش شغلك. بس خليه في الصورة في كل خطوة."
+   },
+   {
+    "sp": "Karim",
+    "en": "Right. I'll call him now, then send a three-line email so we're on the same page.",
+    "ar": "تمام. هكلّمه دلوقتي، وبعدين أبعت إيميل تلات سطور عشان نبقى متفقين على نفس الكلام."
+   },
+   {
+    "sp": "Mona",
+    "en": "Perfect. And Karim, next Sunday send your weekly update before he asks. You'll see how quickly he relaxes.",
+    "ar": "ممتاز. ويا كريم، الأحد الجاي ابعت التحديث الأسبوعي قبل ما يسأل. هتشوف هيهدى بسرعة إزاي."
+   }
+  ],
+  "vocab": [
+   {
+    "w": "manage up",
+    "ar": "تدير علاقتك بمديرك وتسهّل له شغله",
+    "def": "To make your boss's job easier by giving him what he needs before he asks.",
+    "eg": "Karim learned to manage up by sending Rami a short report every Sunday morning."
+   },
+   {
+    "w": "the bottom line",
+    "ar": "الخلاصة / أهم نقطة",
+    "def": "The most important fact or result, without the details.",
+    "eg": "The bottom line is that the solar plant will be ready two weeks late."
+   },
+   {
+    "w": "status update",
+    "ar": "تحديث عن وضع الشغل",
+    "def": "A short report that tells people how a task or project is progressing.",
+    "eg": "Every Thursday I send the client a status update on the battery replacement."
+   },
+   {
+    "w": "get to the point",
+    "ar": "يدخل في الموضوع على طول",
+    "def": "To say the important thing directly, without a long introduction.",
+    "eg": "Please get to the point: is the UPS working or not?"
+   },
+   {
+    "w": "in a nutshell",
+    "ar": "باختصار",
+    "def": "Using very few words to describe the main idea.",
+    "eg": "In a nutshell, the VFD failed because the panel was too hot."
+   },
+   {
+    "w": "on track",
+    "ar": "ماشي حسب الخطة",
+    "def": "Making progress as planned and likely to finish on time.",
+    "eg": "The hospital project is on track; the inverters arrive next week."
+   },
+   {
+    "w": "lead time",
+    "ar": "مدة التوريد / وقت التجهيز",
+    "def": "The time between ordering something and receiving it.",
+    "eg": "The lead time for lithium battery cabinets is about eight weeks."
+   },
+   {
+    "w": "red flag",
+    "ar": "علامة خطر / إنذار",
+    "def": "A sign that something is wrong or may become a problem.",
+    "eg": "Three alarms from the same UPS in one week is a red flag."
+   },
+   {
+    "w": "flag risks early",
+    "ar": "ينبّه على المخاطر بدري",
+    "def": "To warn the right people about possible problems before they become serious.",
+    "eg": "Good supervisors flag risks early, like a late cable delivery, not on the last day."
+   },
+   {
+    "w": "heads-up",
+    "ar": "تنبيه مسبق",
+    "def": "A short warning or piece of information given before something happens.",
+    "eg": "Just a heads-up: the client's electrician will cut the power on Friday morning."
+   },
+   {
+    "w": "push back",
+    "ar": "يعترض / يرفض بأدب",
+    "def": "To resist a request or demand, usually politely, with reasons.",
+    "eg": "When the client asked for a free extra site visit, Laila pushed back and offered a discount instead."
+   },
+   {
+    "w": "manage expectations",
+    "ar": "يظبط توقعات الناس",
+    "def": "To make sure people expect what is realistic, so they aren't disappointed later.",
+    "eg": "We managed expectations by telling the factory that the repair might take three days."
+   },
+   {
+    "w": "under-promise and over-deliver",
+    "ar": "توعد بأقل وتنفّذ أكتر",
+    "def": "To promise less than you think you can do, then do more.",
+    "eg": "We said Thursday, finished on Tuesday; under-promise and over-deliver."
+   },
+   {
+    "w": "escalate",
+    "ar": "يصعّد الموضوع لمستوى أعلى",
+    "def": "To pass a problem to a more senior person because you can't solve it alone.",
+    "eg": "If the spare parts don't arrive by Monday, I'll escalate it to the purchasing manager."
+   },
+   {
+    "w": "keep in the loop",
+    "ar": "يخلّي حد في الصورة",
+    "def": "To keep someone informed about what is happening.",
+    "eg": "Please keep me in the loop about the generator test at the hospital."
+   },
+   {
+    "w": "on the same page",
+    "ar": "متفقين / فاهمين نفس الحاجة",
+    "def": "Agreeing about something or understanding it in the same way.",
+    "eg": "Before the site visit, let's make sure sales and service are on the same page about the price."
+   }
+  ],
+  "qa": [
+   {
+    "q": "How did Rami react to Karim's two-page email?",
+    "a": "He asked for the bottom line",
+    "opts": [
+     "He asked for the bottom line",
+     "He thanked him for the details"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Mona say Karim needs to learn?",
+    "a": "To manage up",
+    "opts": [
+     "To write longer reports",
+     "To manage up"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What does managing up mean?",
+    "a": "Making your boss's job easier",
+    "opts": [
+     "Making your boss's job easier",
+     "Giving orders to your boss"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What should Karim send Rami regularly?",
+    "a": "Short status updates",
+    "opts": [
+     "Daily photos of the site",
+     "Short status updates"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What should Karim do in the first sentence?",
+    "a": "Get to the point",
+    "opts": [
+     "Get to the point",
+     "Explain the background"
+    ],
+    "k": 0
+   },
+   {
+    "q": "In a nutshell, what does Rami want to know?",
+    "a": "Whether the project is on track",
+    "opts": [
+     "Whether the project is on track",
+     "How many technicians are on site"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What is the problem with the cooling units?",
+    "a": "The lead time is now ten weeks",
+    "opts": [
+     "The units are the wrong size",
+     "The lead time is now ten weeks"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Why hadn't Karim told Rami about the delay?",
+    "a": "He wanted a solution first",
+    "opts": [
+     "He wanted a solution first",
+     "He forgot about it"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What would it be if Rami heard the news from the bank first?",
+    "a": "A red flag",
+    "opts": [
+     "A small joke",
+     "A red flag"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What should Karim give Rami today?",
+    "a": "A heads-up",
+    "opts": [
+     "A heads-up",
+     "A final solution"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Mona say about risks?",
+    "a": "Flag risks early",
+    "opts": [
+     "Wait until you're sure",
+     "Flag risks early"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What should Karim do if Rami asks for an unrealistic promise?",
+    "a": "Push back politely",
+    "opts": [
+     "Agree immediately",
+     "Push back politely"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What is the rule for managing expectations?",
+    "a": "Under-promise and over-deliver",
+    "opts": [
+     "Under-promise and over-deliver",
+     "Promise the fastest date"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What should Karim do if the supplier delays again?",
+    "a": "Escalate it to Rami",
+    "opts": [
+     "Cancel the order himself",
+     "Escalate it to Rami"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Why will Karim send a three-line email after the call?",
+    "a": "So they are on the same page",
+    "opts": [
+     "So they are on the same page",
+     "So he doesn't have to call again"
+    ],
+    "k": 0
+   }
+  ],
+  "pov": "Retell the conversation as Karim: what went wrong with Rami, the cooling problem, and your new way of reporting. Use: manage up, the bottom line, heads-up, on track, keep in the loop."
+ },
+ "bc8": {
+  "title": "Leading the Team",
+  "ar": "قيادة الفريق",
+  "intro": "Karim's short weekly updates have calmed Rami down, but now he has a new challenge: leading six technicians, including Tarek. After a mistake on the bank's battery installation, Mona helps him learn to delegate, build trust and handle errors fairly.",
+  "introAr": "التحديثات القصيرة بتاعة كريم هدّت رامي، بس دلوقتي عنده تحدي جديد: إنه يقود ست فنيين، منهم طارق. بعد غلطة في تركيب البطاريات بتاعة البنك، منى بتساعده يتعلم يوزّع الشغل ويبني ثقة ويتعامل مع الأخطاء بعدل.",
+  "dialogue": [
+   {
+    "sp": "Mona",
+    "en": "You look exhausted, Karim. How's the new team treating you?",
+    "ar": "شكلك مهدود يا كريم. الفريق الجديد عامل معاك إيه؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "The team's fine. It's me. I've got six technicians, and I'm still checking every cable tie myself. I'm stretched too thin.",
+    "ar": "الفريق كويس. المشكلة فيّا أنا. عندي ست فنيين، ولسه بشيّك على كل رباط كابل بنفسي. أنا مضغوط ومش ملاحق."
+   },
+   {
+    "sp": "Mona",
+    "en": "Let me guess. You don't want to delegate because you think it's faster to do it yourself.",
+    "ar": "خليني أخمّن. مش عايز توزّع الشغل عشان فاكر إنك لو عملته بنفسك هيخلص أسرع."
+   },
+   {
+    "sp": "Karim",
+    "en": "Well, to be honest, yes. And the one time I did delegate, something went wrong.",
+    "ar": "بصراحة، آه. والمرة الوحيدة اللي وزّعت فيها الشغل، حصلت مشكلة."
+   },
+   {
+    "sp": "Mona",
+    "en": "Go on.",
+    "ar": "كمّل."
+   },
+   {
+    "sp": "Karim",
+    "en": "Last week I gave Tarek the battery installation in the bank's battery room: four strings of forty 12-volt blocks. Yesterday, during the load test, my thermal camera showed one connector on string three at seventy degrees.",
+    "ar": "الأسبوع اللي فات إدّيت لطارق تركيب البطاريات في أوضة البطاريات بتاعة البنك: أربع سلاسل، كل سلسلة فيها أربعين بطارية 12 فولت. امبارح، وإحنا بنعمل اختبار الحمل، الكاميرا الحرارية بتاعتي طلّعت وصلة في السلسلة التالتة حرارتها سبعين درجة."
+   },
+   {
+    "sp": "Mona",
+    "en": "Seventy? That's a loose connection. Was anything damaged?",
+    "ar": "سبعين؟ دي وصلة سايبة. حاجة باظت؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "No, thank God. We caught it in time and isolated the string. But I was furious. My first reaction was to take the whole job back and do it myself.",
+    "ar": "لأ، الحمد لله. لحقناها في الوقت المناسب وفصلنا السلسلة. بس أنا كنت متعصب جداً. أول رد فعل ليّا كان إني آخد الشغل كله منهم وأعمله بنفسي."
+   },
+   {
+    "sp": "Mona",
+    "en": "That's the worst thing you could do. If you micromanage now, your technicians will stop thinking. Delegating isn't just handing out tasks; it's building trust.",
+    "ar": "دي أسوأ حاجة ممكن تعملها. لو بقيت تدخّل في كل صغيرة وكبيرة دلوقتي، الفنيين بتوعك هيبطّلوا يفكروا. توزيع الشغل مش مجرد إنك تدّي مهام؛ ده بناء ثقة."
+   },
+   {
+    "sp": "Karim",
+    "en": "But how can I trust them after this?",
+    "ar": "بس إزاي أثق فيهم بعد اللي حصل؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Start by finding the root cause, not someone to blame. Have you talked to Tarek?",
+    "ar": "ابدأ بإنك تدوّر على السبب الحقيقي، مش على حد تلومه. اتكلمت مع طارق؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Briefly. He said Youssef, the new guy, tightened that string, and they were rushing to finish before the cooling contractor arrived. I think they cut corners on the torque check.",
+    "ar": "كلام سريع. قال إن يوسف، الفني الجديد، هو اللي ربط السلسلة دي، وكانوا مستعجلين يخلّصوا قبل مقاول التبريد ما يوصل. أعتقد إنهم استسهلوا في مراجعة عزم الربط."
+   },
+   {
+    "sp": "Mona",
+    "en": "So the real problem might be the pressure you put on them, not just Youssef. Don't start a blame game. If you point fingers in front of the team, nobody will tell you about the next mistake.",
+    "ar": "يبقى المشكلة الحقيقية ممكن تكون الضغط اللي إنت حاطه عليهم، مش يوسف بس. ماتبدأش لعبة مين الغلطان. لو شاورت على حد قدام الفريق، محدش هيقولك على الغلطة الجاية."
+   },
+   {
+    "sp": "Karim",
+    "en": "Fair enough. So what should I do?",
+    "ar": "عندك حق. طب أعمل إيه؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Have a one-on-one with Tarek. Ask him to take ownership of the fix: re-torque every connection, mark each one with a paint pen, and add a sign-off sheet for every string.",
+    "ar": "اقعد مع طارق لوحدكم. اطلب منه يتحمّل مسؤولية الإصلاح: يعيد ربط كل الوصلات بالعزم الصح، يعلّم على كل واحدة بقلم بوية، ويعمل ورقة توقيع واستلام لكل سلسلة."
+   },
+   {
+    "sp": "Karim",
+    "en": "And Youssef?",
+    "ar": "ويوسف؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Give him the benefit of the doubt. He's still on the learning curve. Pair him with Tarek, and let him do the next string with supervision, not without it.",
+    "ar": "افترض فيه حسن النية. هو لسه بيتعلم. خليه يشتغل مع طارق، وسيبه يعمل السلسلة الجاية تحت إشراف، مش من غير إشراف."
+   },
+   {
+    "sp": "Karim",
+    "en": "And what do I tell the bank's engineer? He saw us isolate the string.",
+    "ar": "وأقول إيه لمهندس البنك؟ هو شافنا واحنا بنفصل السلسلة."
+   },
+   {
+    "sp": "Mona",
+    "en": "Tell him the truth: we found a hot connection during our own test, we fixed it, and we changed our procedure. Own up to it. Clients respect a contractor who finds his own mistakes.",
+    "ar": "قول له الحقيقة: لقينا وصلة سخنة في الاختبار بتاعنا إحنا، صلّحناها، وغيّرنا طريقة الشغل. اعترف بيها. العملاء بيحترموا المقاول اللي بيكتشف غلطاته بنفسه."
+   },
+   {
+    "sp": "Karim",
+    "en": "That makes sense. But I don't want the client to think my technicians are careless.",
+    "ar": "كلام منطقي. بس مش عايز العميل يفتكر إن الفنيين بتوعي مهملين."
+   },
+   {
+    "sp": "Mona",
+    "en": "Then have your team's back. Inside the team you correct them; outside the team you protect them. And lead by example: if you want them to double-check, let them see you double-check your own work too.",
+    "ar": "يبقى خليك في ضهر فريقك. جوه الفريق بتصحّح لهم؛ برا الفريق بتحميهم. وكن قدوة: لو عايزهم يراجعوا شغلهم مرتين، خليهم يشوفوك بتراجع شغلك إنت كمان."
+   },
+   {
+    "sp": "Karim",
+    "en": "Right. Actually, Tarek's just outside. Tarek! Have you got a minute?",
+    "ar": "تمام. بالمناسبة، طارق برا. يا طارق! معاك دقيقة؟"
+   },
+   {
+    "sp": "Tarek",
+    "en": "Sure, boss. Look, about string three, it was my responsibility. I should've checked Youssef's work before we left.",
+    "ar": "أكيد يا باشمهندس. بص، موضوع السلسلة التالتة ده مسؤوليتي. كان لازم أراجع شغل يوسف قبل ما نمشي."
+   },
+   {
+    "sp": "Karim",
+    "en": "Thanks for saying that. Let's fix it together, and from now on you're in charge of the battery sign-off. I'll touch base with you every morning, but it's your call.",
+    "ar": "شكراً إنك قلت كده. يلا نصلّحها سوا، ومن النهارده إنت المسؤول عن توقيع استلام البطاريات. هتواصل معاك كل يوم الصبح، بس القرار قرارك."
+   }
+  ],
+  "vocab": [
+   {
+    "w": "stretched too thin",
+    "ar": "مضغوط ومش ملاحق على كل حاجة",
+    "def": "Having too many tasks, so you can't do any of them well.",
+    "eg": "With five sites and one engineer, our solar team is stretched too thin."
+   },
+   {
+    "w": "delegate",
+    "ar": "يوزّع الشغل / يفوّض",
+    "def": "To give part of your work or responsibility to someone else.",
+    "eg": "Karim delegated the VFD programming to a technician who knows the software well."
+   },
+   {
+    "w": "micromanage",
+    "ar": "يتدخّل في كل صغيرة وكبيرة",
+    "def": "To control every small detail of other people's work.",
+    "eg": "Don't micromanage the team; tell them the goal and let them plan the cable route."
+   },
+   {
+    "w": "root cause",
+    "ar": "السبب الأساسي / الحقيقي",
+    "def": "The main reason a problem happened, not just what you see.",
+    "eg": "The fuse blew three times; the root cause was a faulty rectifier."
+   },
+   {
+    "w": "cut corners",
+    "ar": "يستسهل / يختصر على حساب الجودة",
+    "def": "To do something quickly or cheaply by skipping important steps.",
+    "eg": "Never cut corners on earthing, even if the client is in a hurry."
+   },
+   {
+    "w": "blame game",
+    "ar": "لعبة مين الغلطان",
+    "def": "A situation where people keep blaming each other instead of solving the problem.",
+    "eg": "After the outage, the blame game between the electrician and the IT team lasted a week."
+   },
+   {
+    "w": "point fingers",
+    "ar": "يشاور على حد ويلومه",
+    "def": "To blame a specific person for something that went wrong.",
+    "eg": "Let's fix the inverter first and not point fingers."
+   },
+   {
+    "w": "one-on-one",
+    "ar": "مقابلة بين اتنين بس",
+    "def": "A private meeting between two people, often a manager and one team member.",
+    "eg": "Mona has a one-on-one with each engineer every month."
+   },
+   {
+    "w": "take ownership",
+    "ar": "يتحمّل المسؤولية كاملة",
+    "def": "To accept full responsibility for a task and its results.",
+    "eg": "Tarek took ownership of the preventive-maintenance schedule for the hospital."
+   },
+   {
+    "w": "benefit of the doubt",
+    "ar": "افتراض حسن النية",
+    "def": "Believing someone is honest or right when you aren't sure.",
+    "eg": "He arrived late, but I gave him the benefit of the doubt because of the traffic on the Ring Road."
+   },
+   {
+    "w": "learning curve",
+    "ar": "فترة التعلّم",
+    "def": "The time and effort needed to learn a new skill or job.",
+    "eg": "The new battery monitoring software has a steep learning curve."
+   },
+   {
+    "w": "own up to",
+    "ar": "يعترف بـ (غلطة)",
+    "def": "To admit that you did something wrong.",
+    "eg": "The installer owned up to the wrong breaker size and replaced it the same day."
+   },
+   {
+    "w": "have your team's back",
+    "ar": "تبقى في ضهر فريقك",
+    "def": "To support and protect your team, especially in difficult situations.",
+    "eg": "When the client complained, Mona had her team's back and explained the real delay."
+   },
+   {
+    "w": "lead by example",
+    "ar": "يكون قدوة",
+    "def": "To show others how to behave by doing it yourself first.",
+    "eg": "Karim leads by example; he wears his safety gloves in the battery room every time."
+   },
+   {
+    "w": "double-check",
+    "ar": "يراجع تاني للتأكد",
+    "def": "To check something again to make sure it's correct.",
+    "eg": "Always double-check the polarity before you connect a battery string."
+   },
+   {
+    "w": "touch base",
+    "ar": "يتواصل / يطمّن على الشغل",
+    "def": "To contact someone briefly to share news or check progress.",
+    "eg": "I'll touch base with the solar site team after lunch."
+   }
+  ],
+  "qa": [
+   {
+    "q": "Why is Karim so tired?",
+    "a": "He's stretched too thin",
+    "opts": [
+     "He's working on a second job",
+     "He's stretched too thin"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Why doesn't Karim like to delegate?",
+    "a": "He thinks it's faster to do it himself",
+    "opts": [
+     "He thinks it's faster to do it himself",
+     "He doesn't trust Mona"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What did the thermal camera find?",
+    "a": "A hot connector on string three",
+    "opts": [
+     "A hot connector on string three",
+     "A broken UPS fan"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What was Karim's first reaction?",
+    "a": "To take the job back and do it himself",
+    "opts": [
+     "To call the battery supplier",
+     "To take the job back and do it himself"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What happens if Karim micromanages now?",
+    "a": "The technicians will stop thinking",
+    "opts": [
+     "The work will finish faster",
+     "The technicians will stop thinking"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What should Karim look for first?",
+    "a": "The root cause",
+    "opts": [
+     "The root cause",
+     "Someone to blame"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What did the technicians probably do?",
+    "a": "They cut corners on the torque check",
+    "opts": [
+     "They cut corners on the torque check",
+     "They used the wrong batteries"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Mona warn Karim not to start?",
+    "a": "A blame game",
+    "opts": [
+     "A new project",
+     "A blame game"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What happens if Karim points fingers in front of the team?",
+    "a": "Nobody will report the next mistake",
+    "opts": [
+     "Nobody will report the next mistake",
+     "Everyone will work harder"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What kind of meeting should Karim have with Tarek?",
+    "a": "A one-on-one",
+    "opts": [
+     "A meeting with the whole bank",
+     "A one-on-one"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What should Tarek do about the fix?",
+    "a": "Take ownership of it",
+    "opts": [
+     "Take ownership of it",
+     "Give it to Youssef"
+    ],
+    "k": 0
+   },
+   {
+    "q": "How should Karim treat Youssef?",
+    "a": "Give him the benefit of the doubt",
+    "opts": [
+     "Send him to another site",
+     "Give him the benefit of the doubt"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What should Karim tell the bank's engineer?",
+    "a": "The truth; he should own up to it",
+    "opts": [
+     "The truth; he should own up to it",
+     "Nothing at all"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does it mean to have your team's back?",
+    "a": "Protect them in front of the client",
+    "opts": [
+     "Criticise them in front of the client",
+     "Protect them in front of the client"
+    ],
+    "k": 1
+   },
+   {
+    "q": "How often will Karim touch base with Tarek?",
+    "a": "Every morning",
+    "opts": [
+     "Every morning",
+     "Once a month"
+    ],
+    "k": 0
+   }
+  ],
+  "pov": "Retell the conversation as Karim: the battery mistake, what Mona advised, and how you handled Tarek and Youssef. Use: delegate, root cause, blame game, take ownership, touch base."
+ },
+ "bc9": {
+  "title": "Meetings That Matter",
+  "ar": "اجتماعات ليها لازمة",
+  "intro": "With Tarek now in charge of the battery sign-off, Karim has more time, but his weekly site meetings keep eating it up. Mona shows him how to use an agenda, time-boxing, action items and a quick follow-up email.",
+  "introAr": "بعد ما بقى طارق مسؤول عن توقيع استلام البطاريات، كريم بقى عنده وقت أكتر، بس اجتماعات الموقع الأسبوعية بتاكله كله. منى بتوريه إزاي يستخدم أجندة، ووقت محدد لكل بند، ومهام واضحة، وإيميل متابعة سريع.",
+  "dialogue": [
+   {
+    "sp": "Mona",
+    "en": "Karim, I called you at eleven and again at twelve. Where were you?",
+    "ar": "يا كريم، كلمتك الساعة حداشر وتاني الساعة اتناشر. كنت فين؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Sorry, Mona. I was stuck in the weekly site meeting. It was supposed to take an hour, but it ended up running over by ninety minutes. Again.",
+    "ar": "آسف يا منى. كنت محبوس في اجتماع الموقع الأسبوعي. كان المفروض ياخد ساعة، بس في الآخر زاد ساعة ونص عن ميعاده. زي كل مرة."
+   },
+   {
+    "sp": "Mona",
+    "en": "Again? What's eating up all the time?",
+    "ar": "زي كل مرة؟ إيه اللي بياكل الوقت ده كله؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Honestly, everything. We start with the cooling contractor, then somebody mentions the cable trays, and the electrical and cooling guys go around in circles about who's blocking whom.",
+    "ar": "بصراحة، كل حاجة. بنبدأ بمقاول التبريد، وبعدين حد يجيب سيرة حوامل الكابلات، وبتاعين الكهربا والتبريد يفضلوا يلفّوا في نفس الدايرة مين معطّل مين."
+   },
+   {
+    "sp": "Mona",
+    "en": "Do you send an agenda before the meeting?",
+    "ar": "بتبعت أجندة قبل الاجتماع؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Not really. Everybody knows it's the weekly meeting, so we just talk.",
+    "ar": "مش أوي. الكل عارف إنه الاجتماع الأسبوعي، فبنتكلم وخلاص."
+   },
+   {
+    "sp": "Mona",
+    "en": "That's why it drags on. No agenda means no finish line. Send a short agenda the day before: four or five items, each with a name and a time.",
+    "ar": "عشان كده بيطوّل ويمط. من غير أجندة مفيش خط نهاية. ابعت أجندة قصيرة قبلها بيوم: أربع خمس بنود، كل بند عليه اسم ووقت."
+   },
+   {
+    "sp": "Karim",
+    "en": "A time for each item?",
+    "ar": "وقت لكل بند؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Yes, time-box everything. UPS progress, ten minutes. Cooling, ten minutes. Safety, five. When the time's up, you move on.",
+    "ar": "آه، حدد وقت لكل حاجة. تقدّم الـ ‎UPS‎، عشر دقايق. التبريد، عشر دقايق. السلامة، خمسة. لما الوقت يخلص، تنقل للبند اللي بعده."
+   },
+   {
+    "sp": "Karim",
+    "en": "But what if someone goes off on a tangent? Last week the bank's IT guy spent twenty minutes on the network switches, and they aren't even in our scope.",
+    "ar": "طب لو حد خرج برا الموضوع؟ الأسبوع اللي فات بتاع الـ ‎IT‎ في البنك قعد عشرين دقيقة يتكلم عن سويتشات الشبكة، وهي أصلاً مش في نطاق شغلنا."
+   },
+   {
+    "sp": "Mona",
+    "en": "Then you stop him politely: \"Good point, let's take it offline after the meeting.\" Or you write it in a parking lot on the whiteboard and come back to it if there's time.",
+    "ar": "ساعتها توقّفه بأدب: \"نقطة مهمة، خلينا نتكلم فيها بعد الاجتماع.\" أو تكتبها في ركن مؤجَّل على السبورة وترجع لها لو فضل وقت."
+   },
+   {
+    "sp": "Karim",
+    "en": "A parking lot? I like that. It sounds less rude than cutting him off.",
+    "ar": "ركن مؤجَّل؟ عجبتني. شكلها أقل قلة ذوق من إني أقاطعه."
+   },
+   {
+    "sp": "Mona",
+    "en": "Exactly. And set some ground rules at the start: phones on silent, one conversation at a time, and we finish on time, no matter what.",
+    "ar": "بالظبط. وحط شوية قواعد أساسية في الأول: الموبايلات صامت، كلام واحد في المرة، وبنخلّص في ميعادنا مهما حصل."
+   },
+   {
+    "sp": "Karim",
+    "en": "Okay. But what about the cable-tray argument? It really is a problem. The cooling pipes clash with the tray route above rack row C.",
+    "ar": "ماشي. بس خناقة حوامل الكابلات؟ دي مشكلة بجد. مواسير التبريد بتتعارض مع مسار الحوامل فوق صف الراكات ‎C‎."
+   },
+   {
+    "sp": "Mona",
+    "en": "Then it deserves its own slot, maybe a separate thirty-minute meeting with just the two contractors and the drawings. Don't let one issue hijack the whole agenda.",
+    "ar": "يبقى تستاهل وقت لوحدها، يمكن اجتماع منفصل نص ساعة مع المقاولين الاتنين والرسومات بس. ماتسيبش موضوع واحد يخطف الأجندة كلها."
+   },
+   {
+    "sp": "Karim",
+    "en": "Makes sense. And honestly, the other problem is that we agree on things, and a week later nothing has happened.",
+    "ar": "منطقي. وبصراحة المشكلة التانية إننا بنتفق على حاجات، وبعد أسبوع مايكونش حصل أي حاجة."
+   },
+   {
+    "sp": "Mona",
+    "en": "Because nobody leaves with action items. Every decision needs three things: what, who and by when. \"Hassan will re-route the tray by Wednesday,\" not \"somebody should look at the trays.\"",
+    "ar": "عشان محدش بيخرج ومعاه مهام محددة. كل قرار محتاج تلات حاجات: إيه، مين، وإمتى. \"حسن هيغيّر مسار الحامل قبل الأربع\"، مش \"حد يبص على الحوامل.\""
+   },
+   {
+    "sp": "Karim",
+    "en": "Right. I usually just say, \"Okay, let's do that,\" and wrap up.",
+    "ar": "صح. أنا عادةً بقول \"تمام، يلا نعمل كده\" وأقفل الاجتماع."
+   },
+   {
+    "sp": "Mona",
+    "en": "Before you wrap up, take two minutes to recap the action items out loud. Then, within an hour, send a follow-up email with the list.",
+    "ar": "قبل ما تقفل، خد دقيقتين تلخّص المهام بصوت عالي. وبعدين، خلال ساعة، ابعت إيميل متابعة فيه القايمة."
+   },
+   {
+    "sp": "Karim",
+    "en": "Within an hour? I'm usually back on the floor by then.",
+    "ar": "خلال ساعة؟ أنا عادةً بكون رجعت الموقع ساعتها."
+   },
+   {
+    "sp": "Mona",
+    "en": "Keep it short and sweet, and cut to the chase: five bullet points and the next meeting date. It takes ten minutes, and it saves you ten phone calls.",
+    "ar": "خليه قصير ومفيد، وادخل في المهم على طول: خمس نقط وميعاد الاجتماع الجاي. بياخد عشر دقايق، وبيوفّر عليك عشر مكالمات."
+   },
+   {
+    "sp": "Karim",
+    "en": "And next week I'll start the meeting by checking last week's action items first.",
+    "ar": "والأسبوع الجاي هبدأ الاجتماع بمراجعة مهام الأسبوع اللي فات الأول."
+   },
+   {
+    "sp": "Mona",
+    "en": "Now you're getting it. That way people know you'll follow up, and they come prepared.",
+    "ar": "كده إنت فهمت. بالطريقة دي الناس هتعرف إنك هتتابع، وهيجوا محضّرين."
+   },
+   {
+    "sp": "Karim",
+    "en": "Deal. I'll send the agenda tomorrow and aim for forty-five minutes. If we finish early, the coffee's on me.",
+    "ar": "اتفقنا. هبعت الأجندة بكرة وهحاول نخلّص في خمسة وأربعين دقيقة. لو خلّصنا بدري، القهوة عليّا."
+   }
+  ],
+  "vocab": [
+   {
+    "w": "run over",
+    "ar": "يزيد عن الوقت المحدد",
+    "def": "To continue longer than the planned time.",
+    "eg": "The commissioning test ran over, so we left the factory at nine p.m."
+   },
+   {
+    "w": "go around in circles",
+    "ar": "يلف في نفس الدايرة",
+    "def": "To keep discussing the same thing without making progress.",
+    "eg": "We went around in circles about the inverter brand for an hour."
+   },
+   {
+    "w": "agenda",
+    "ar": "جدول أعمال / أجندة",
+    "def": "A list of topics to discuss in a meeting, in order.",
+    "eg": "The first item on the agenda is the battery replacement at the clinic."
+   },
+   {
+    "w": "drag on",
+    "ar": "يطوّل ويمط",
+    "def": "To continue for longer than necessary, in a boring way.",
+    "eg": "The contract discussion dragged on for three weeks."
+   },
+   {
+    "w": "time-box",
+    "ar": "يحدد وقت ثابت لحاجة",
+    "def": "To give a task or topic a fixed amount of time and stop when it ends.",
+    "eg": "Let's time-box the solar design review to twenty minutes."
+   },
+   {
+    "w": "go off on a tangent",
+    "ar": "يخرج برا الموضوع",
+    "def": "To suddenly start talking about a different, unrelated subject.",
+    "eg": "The client went off on a tangent about his old generator and forgot the UPS."
+   },
+   {
+    "w": "take it offline",
+    "ar": "نتكلم فيه بعدين برا الاجتماع",
+    "def": "To discuss a topic later, outside the meeting, with only the people involved.",
+    "eg": "That's a pricing detail; let's take it offline with Laila."
+   },
+   {
+    "w": "parking lot",
+    "ar": "ركن للمواضيع المؤجلة",
+    "def": "A list of off-topic ideas saved to discuss later.",
+    "eg": "I put the VFD training request in the parking lot for next week."
+   },
+   {
+    "w": "ground rules",
+    "ar": "قواعد أساسية",
+    "def": "Basic rules that everyone agrees to follow in a meeting or activity.",
+    "eg": "Our ground rules for site meetings: be on time and no side conversations."
+   },
+   {
+    "w": "hijack",
+    "ar": "يخطف (الاجتماع / النقاش)",
+    "def": "To take control of a meeting or discussion for your own topic.",
+    "eg": "One angry complaint about invoices hijacked the whole service meeting."
+   },
+   {
+    "w": "action items",
+    "ar": "مهام محددة للتنفيذ",
+    "def": "Specific tasks, each with an owner and a deadline, agreed in a meeting.",
+    "eg": "We left the meeting with four action items and clear owners."
+   },
+   {
+    "w": "wrap up",
+    "ar": "يختم / يقفل",
+    "def": "To finish a meeting, talk or piece of work.",
+    "eg": "Let's wrap up; the technicians need to get back to the battery room."
+   },
+   {
+    "w": "recap",
+    "ar": "يلخّص اللي اتقال",
+    "def": "To repeat the main points of something briefly.",
+    "eg": "Let me recap: Tarek orders the fuses, and I call the hospital."
+   },
+   {
+    "w": "follow-up email",
+    "ar": "إيميل متابعة",
+    "def": "An email sent after a meeting or call to confirm what was agreed.",
+    "eg": "Karim sent a follow-up email to the factory with the new maintenance dates."
+   },
+   {
+    "w": "short and sweet",
+    "ar": "قصير ومفيد",
+    "def": "Brief and pleasant, without extra details.",
+    "eg": "Keep your WhatsApp update to the client short and sweet."
+   },
+   {
+    "w": "cut to the chase",
+    "ar": "يدخل في المهم على طول",
+    "def": "To talk about the most important point immediately.",
+    "eg": "Let's cut to the chase: can you deliver the batteries by Sunday?"
+   }
+  ],
+  "qa": [
+   {
+    "q": "Why didn't Karim answer Mona's calls?",
+    "a": "His site meeting was running over",
+    "opts": [
+     "His phone was broken",
+     "His site meeting was running over"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What do the electrical and cooling contractors do in the meeting?",
+    "a": "They go around in circles",
+    "opts": [
+     "They go around in circles",
+     "They agree quickly"
+    ],
+    "k": 0
+   },
+   {
+    "q": "Does Karim send an agenda before the meeting?",
+    "a": "Not really",
+    "opts": [
+     "Yes, every week",
+     "Not really"
+    ],
+    "k": 1
+   },
+   {
+    "q": "According to Mona, why does the meeting drag on?",
+    "a": "Because there is no agenda",
+    "opts": [
+     "Because there is no agenda",
+     "Because the room is too small"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Mona mean by time-box everything?",
+    "a": "Give each item a fixed time",
+    "opts": [
+     "Give each item a fixed time",
+     "Put the documents in a box"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What did the bank's IT guy do last week?",
+    "a": "He went off on a tangent",
+    "opts": [
+     "He left the meeting early",
+     "He went off on a tangent"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What can Karim say to stop an off-topic discussion politely?",
+    "a": "Let's take it offline",
+    "opts": [
+     "Let's take it offline",
+     "Please be quiet"
+    ],
+    "k": 0
+   },
+   {
+    "q": "Where can off-topic ideas be written?",
+    "a": "In a parking lot on the whiteboard",
+    "opts": [
+     "In the meeting invitation",
+     "In a parking lot on the whiteboard"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What should Karim set at the start of the meeting?",
+    "a": "Some ground rules",
+    "opts": [
+     "Some ground rules",
+     "A long presentation"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Mona suggest for the cable-tray problem?",
+    "a": "A separate short meeting so it doesn't hijack the agenda",
+    "opts": [
+     "Ignoring it until commissioning",
+     "A separate short meeting so it doesn't hijack the agenda"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Why does nothing happen a week after the meeting?",
+    "a": "Nobody leaves with action items",
+    "opts": [
+     "Nobody leaves with action items",
+     "The contractors are on holiday"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What should every action item include?",
+    "a": "What, who and by when",
+    "opts": [
+     "Only a short title",
+     "What, who and by when"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What should Karim do before he wraps up?",
+    "a": "Recap the action items out loud",
+    "opts": [
+     "Recap the action items out loud",
+     "Ask everyone for feedback forms"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What should Karim send within an hour?",
+    "a": "A follow-up email",
+    "opts": [
+     "A new agenda",
+     "A follow-up email"
+    ],
+    "k": 1
+   },
+   {
+    "q": "How should the follow-up email be?",
+    "a": "Short and sweet",
+    "opts": [
+     "Short and sweet",
+     "Long and detailed"
+    ],
+    "k": 0
+   }
+  ],
+  "pov": "Retell the conversation as Karim: why your meetings ran over and the changes you'll make next week. Use: agenda, time-box, parking lot, action items, follow-up email."
+ },
+ "bc10": {
+  "title": "Presenting to the Client",
+  "ar": "العرض قدام العميل",
+  "intro": "Karim's shorter, better-run site meetings have impressed Rami, so he asks Karim to present the project's progress to the bank's committee. The night before, Mona helps him rehearse the structure, the visuals and the tough questions.",
+  "introAr": "اجتماعات الموقع الأقصر والأكثر تنظيماً بتاعة كريم عجبت رامي، فطلب منه يعرض تقدّم المشروع قدام لجنة البنك. بالليل قبل العرض، منى بتساعده يتمرّن على الترتيب، والشكل، والأسئلة الصعبة.",
+  "dialogue": [
+   {
+    "sp": "Karim",
+    "en": "Mona, thanks for staying late. The bank's committee meeting is tomorrow at ten, and I've got butterflies in my stomach.",
+    "ar": "يا منى، شكراً إنك استنيتي لحد دلوقتي. اجتماع لجنة البنك بكرة الساعة عشرة، وأنا قلبي مقبوض ومتوتر."
+   },
+   {
+    "sp": "Mona",
+    "en": "That's normal. Let's do a dry run. How many slides have you got?",
+    "ar": "ده طبيعي. يلا نعمل بروفة. عندك كام شريحة؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Twenty-six. I've included the single-line diagram, the battery test results, the cooling load calculations...",
+    "ar": "ستة وعشرين. حاطط الـ ‎single-line diagram‎، ونتايج اختبارات البطاريات، وحسابات حمل التبريد..."
+   },
+   {
+    "sp": "Mona",
+    "en": "Twenty-six slides in fifteen minutes? That's death by PowerPoint. The committee members are bankers, not engineers. Less is more.",
+    "ar": "ستة وعشرين شريحة في ربع ساعة؟ ده هيموّتهم ملل من الشرايح. أعضاء اللجنة مصرفيين مش مهندسين. القليل أحسن."
+   },
+   {
+    "sp": "Karim",
+    "en": "But if I cut the technical slides, won't they think we haven't done the work?",
+    "ar": "بس لو شلت الشرايح الفنية، مش هيفتكروا إننا ماعملناش الشغل؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Put them in an appendix. If someone asks, you can show them. For the main part, think of three key takeaways you want them to remember when they walk out of the room.",
+    "ar": "حطها في ملحق. لو حد سأل، تقدر تعرضها. أما الجزء الأساسي، فكّر في تلات رسايل رئيسية عايزهم يفتكروها وهما خارجين من الأوضة."
+   },
+   {
+    "sp": "Karim",
+    "en": "Okay... One: the UPS system is installed and tested. Two: cooling is delayed but under control. Three: commissioning is on schedule for the fifteenth of December.",
+    "ar": "ماشي... واحد: نظام الـ ‎UPS‎ اتركب واتختبر. اتنين: التبريد متأخر بس تحت السيطرة. تلاتة: التشغيل التجريبي في ميعاده يوم خمستاشر ديسمبر."
+   },
+   {
+    "sp": "Mona",
+    "en": "Good. That's your structure. Start with a headline slide that says exactly that, then one slide for each point, then the next steps.",
+    "ar": "حلو. ده الترتيب بتاعك. ابدأ بشريحة عنوان رئيسي بتقول الكلام ده بالظبط، بعدها شريحة لكل نقطة، وبعدين الخطوات الجاية."
+   },
+   {
+    "sp": "Karim",
+    "en": "Should I use a table for the status?",
+    "ar": "أستخدم جدول للوضع الحالي؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Use a simple traffic-light chart: UPS green, cooling amber, commissioning green. They should see the status at a glance, in five seconds.",
+    "ar": "استخدم رسم بسيط بألوان إشارة المرور: الـ ‎UPS‎ أخضر، التبريد أصفر، التشغيل التجريبي أخضر. لازم يفهموا الوضع من أول نظرة، في خمس ثواني."
+   },
+   {
+    "sp": "Karim",
+    "en": "That's much clearer than my twelve-row table. And photos?",
+    "ar": "ده أوضح بكتير من الجدول بتاعي اللي فيه اتناشر صف. وصور؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "One or two good ones. A photo of the finished UPS room is worth more than ten slides of text. Now, walk me through the cooling slide as if I'm the committee.",
+    "ar": "صورة ولا اتنين حلوين. صورة لأوضة الـ ‎UPS‎ وهي خلصانة أحسن من عشر شرايح كلام. يلا دلوقتي، اشرح لي شريحة التبريد خطوة بخطوة كأني أنا اللجنة."
+   },
+   {
+    "sp": "Karim",
+    "en": "Right. \"The in-row cooling units were delayed by four weeks at the factory. They arrived last Tuesday, and installation will finish by the end of November. We've protected the commissioning date by running the UPS and battery tests in parallel.\"",
+    "ar": "تمام. \"وحدات التبريد الـ ‎in-row‎ اتأخرت أربع أسابيع في المصنع. وصلت يوم التلات اللي فات، والتركيب هيخلص آخر نوفمبر. وحافظنا على ميعاد التشغيل التجريبي لما عملنا اختبارات الـ ‎UPS‎ والبطاريات بالتوازي.\""
+   },
+   {
+    "sp": "Mona",
+    "en": "Very good. Clear and calm, and you stick to the facts. Now let me put you on the spot: \"Mr. Karim, I heard there was a battery problem last month. Is our data centre safe?\"",
+    "ar": "ممتاز. واضح وهادي، وملتزم بالحقايق. دلوقتي هحطك في موقف محرج فجأة: \"أستاذ كريم، سمعت إن كان في مشكلة في البطاريات الشهر اللي فات. الداتا سنتر بتاعنا في أمان؟\""
+   },
+   {
+    "sp": "Karim",
+    "en": "Uh... well... it was just a small connection issue, nothing serious really...",
+    "ar": "آآ... يعني... كانت مشكلة صغيرة في وصلة، مش حاجة كبيرة خالص..."
+   },
+   {
+    "sp": "Mona",
+    "en": "Stop. You sound defensive. First say, \"That's a fair question.\" Then answer in three parts: what happened, what you did, and what's changed.",
+    "ar": "استنى. كلامك فيه دفاع عن النفس. قول الأول: \"ده سؤال في محله.\" وبعدين جاوب على تلات أجزاء: إيه اللي حصل، عملت إيه، وإيه اللي اتغيّر."
+   },
+   {
+    "sp": "Karim",
+    "en": "Let me try again. \"That's a fair question. During our own load test, we found one loose connection on one battery string. We fixed it the same day, re-checked all four strings, and added a sign-off sheet for every connection. The system passed its full load test last week.\"",
+    "ar": "خليني أجرّب تاني. \"ده سؤال في محله. في اختبار الحمل بتاعنا، لقينا وصلة سايبة في سلسلة بطاريات واحدة. صلّحناها في نفس اليوم، وراجعنا السلاسل الأربعة كلها، وعملنا ورقة توقيع لكل وصلة. والنظام نجح في اختبار الحمل الكامل الأسبوع اللي فات.\""
+   },
+   {
+    "sp": "Mona",
+    "en": "Excellent. That turns a weakness into proof that your process works. And what if they ask something you don't know, like the exact power consumption per rack?",
+    "ar": "ممتاز. كده حوّلت نقطة ضعف لدليل إن طريقة شغلك ناجحة. وافرض سألوك عن حاجة ماتعرفهاش، زي استهلاك الكهربا بالظبط لكل راك؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "I'd probably try to guess.",
+    "ar": "غالباً هحاول أخمّن."
+   },
+   {
+    "sp": "Mona",
+    "en": "Never guess in front of a client. You can give a rough figure off the top of your head only if you're sure. Otherwise say, \"I'll check and get back to you by tomorrow,\" and then actually do it.",
+    "ar": "أوعى تخمّن قدام العميل. ممكن تقول رقم تقريبي من دماغك على طول بس لو إنت متأكد. غير كده قول: \"هراجع وأرد على حضرتك بكرة\"، وبعدين اعملها فعلاً."
+   },
+   {
+    "sp": "Karim",
+    "en": "Got it. And how do I finish?",
+    "ar": "فهمت. وأختم إزاي؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Finish with the next steps and dates, then say, \"I'd like to open the floor to questions.\" Don't just end with \"That's all, thank you.\"",
+    "ar": "اختم بالخطوات الجاية والمواعيد، وبعدين قول: \"أحب أفتح باب الأسئلة.\" ماتختمش بـ \"بس كده، شكراً\" وخلاص."
+   },
+   {
+    "sp": "Karim",
+    "en": "Okay. I'll cut it down to eight slides tonight and rehearse twice with a timer.",
+    "ar": "ماشي. هقلّلها لتمن شرايح الليلة وهتمرّن مرتين بالتايمر."
+   },
+   {
+    "sp": "Mona",
+    "en": "Good. And remember, you know this project better than anyone in that room. Just breathe, and speak slowly.",
+    "ar": "حلو. وافتكر إنك عارف المشروع ده أحسن من أي حد في الأوضة دي. بس خد نفسك، واتكلم على مهلك."
+   }
+  ],
+  "vocab": [
+   {
+    "w": "butterflies in my stomach",
+    "ar": "متوتر وقلبي مقبوض",
+    "def": "A nervous feeling before something important.",
+    "eg": "I always get butterflies in my stomach before a commissioning test in front of the client."
+   },
+   {
+    "w": "dry run",
+    "ar": "بروفة / تجربة قبل الحقيقي",
+    "def": "A practice of an event before the real thing.",
+    "eg": "We did a dry run of the generator changeover on Friday, when the factory was closed."
+   },
+   {
+    "w": "death by PowerPoint",
+    "ar": "ملل من كتر الشرايح",
+    "def": "A boring presentation with too many slides full of text.",
+    "eg": "Twenty slides of battery specifications is death by PowerPoint for a hospital board."
+   },
+   {
+    "w": "less is more",
+    "ar": "القليل أحسن",
+    "def": "Something simple is often more effective than something with a lot of detail.",
+    "eg": "On a quotation, less is more: one clear price is better than ten options."
+   },
+   {
+    "w": "key takeaways",
+    "ar": "أهم الرسايل / الخلاصات",
+    "def": "The main points you want people to remember.",
+    "eg": "The key takeaway from the audit: two battery strings need replacing this year."
+   },
+   {
+    "w": "headline",
+    "ar": "عنوان رئيسي",
+    "def": "A short, strong sentence that gives the main message.",
+    "eg": "Make the headline of your report 'Solar output up 12% after cleaning'."
+   },
+   {
+    "w": "traffic-light",
+    "ar": "بألوان إشارة المرور (أخضر/أصفر/أحمر)",
+    "def": "Using green, amber and red to show status quickly.",
+    "eg": "Our maintenance dashboard uses a traffic-light system for every UPS on contract."
+   },
+   {
+    "w": "at a glance",
+    "ar": "من أول نظرة",
+    "def": "Quickly and easily, just by looking.",
+    "eg": "The monitoring screen shows the battery health of all sites at a glance."
+   },
+   {
+    "w": "walk me through",
+    "ar": "اشرح لي خطوة بخطوة",
+    "def": "To explain something to someone step by step.",
+    "eg": "Can you walk me through the VFD settings before we start the pump?"
+   },
+   {
+    "w": "stick to the facts",
+    "ar": "يلتزم بالحقايق",
+    "def": "To say only what is true and proven, without guessing or exaggerating.",
+    "eg": "In the incident report, stick to the facts: time, alarm and action taken."
+   },
+   {
+    "w": "put on the spot",
+    "ar": "يحط حد في موقف محرج فجأة",
+    "def": "To ask someone a difficult question they have to answer immediately.",
+    "eg": "The client put me on the spot when he asked for a discount in front of his manager."
+   },
+   {
+    "w": "fair question",
+    "ar": "سؤال في محله",
+    "def": "A reasonable question that deserves a proper answer.",
+    "eg": "\"Why is the new UPS more expensive?\" That's a fair question; it has a longer warranty."
+   },
+   {
+    "w": "defensive",
+    "ar": "بيدافع عن نفسه بعصبية",
+    "def": "Reacting as if you're being attacked, instead of listening calmly.",
+    "eg": "Don't get defensive when the client complains; listen first."
+   },
+   {
+    "w": "off the top of my head",
+    "ar": "من دماغي على طول (من غير ما أراجع)",
+    "def": "Without checking or thinking for long.",
+    "eg": "Off the top of my head, the inverter is about eight years old."
+   },
+   {
+    "w": "get back to you",
+    "ar": "أرجع لك بالرد",
+    "def": "To reply to someone later after you've found the information.",
+    "eg": "Let me check the stock and get back to you before five."
+   },
+   {
+    "w": "open the floor",
+    "ar": "يفتح باب الأسئلة / النقاش",
+    "def": "To invite the audience to ask questions or give opinions.",
+    "eg": "After the solar proposal, Laila opened the floor to the factory managers."
+   }
+  ],
+  "qa": [
+   {
+    "q": "How does Karim feel before the presentation?",
+    "a": "He has butterflies in his stomach",
+    "opts": [
+     "He has butterflies in his stomach",
+     "He feels completely relaxed"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Mona suggest doing first?",
+    "a": "A dry run",
+    "opts": [
+     "Sending the slides by email",
+     "A dry run"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What does Mona call twenty-six slides in fifteen minutes?",
+    "a": "Death by PowerPoint",
+    "opts": [
+     "Death by PowerPoint",
+     "A great visual"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What is Mona's advice about the number of slides?",
+    "a": "Less is more",
+    "opts": [
+     "More is better",
+     "Less is more"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Where should the technical slides go?",
+    "a": "In an appendix",
+    "opts": [
+     "In an appendix",
+     "At the very beginning"
+    ],
+    "k": 0
+   },
+   {
+    "q": "How many key takeaways does Karim choose?",
+    "a": "Three",
+    "opts": [
+     "Six",
+     "Three"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What should the first slide be?",
+    "a": "A headline slide with the main message",
+    "opts": [
+     "A headline slide with the main message",
+     "A photo of the team"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What kind of chart does Mona suggest for the status?",
+    "a": "A traffic-light chart",
+    "opts": [
+     "A twelve-row table",
+     "A traffic-light chart"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Why use a traffic-light chart?",
+    "a": "To see the status at a glance",
+    "opts": [
+     "To see the status at a glance",
+     "To show every test result"
+    ],
+    "k": 0
+   },
+   {
+    "q": "How did Karim protect the commissioning date?",
+    "a": "By running tests in parallel",
+    "opts": [
+     "By skipping the cooling test",
+     "By running tests in parallel"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What does Mona do with the battery question?",
+    "a": "She puts Karim on the spot",
+    "opts": [
+     "She puts Karim on the spot",
+     "She answers it for him"
+    ],
+    "k": 0
+   },
+   {
+    "q": "How did Karim sound in his first answer?",
+    "a": "Defensive",
+    "opts": [
+     "Confident and clear",
+     "Defensive"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What should Karim say first to a tough question?",
+    "a": "That's a fair question",
+    "opts": [
+     "That's a fair question",
+     "That's not my problem"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What should Karim say if he doesn't know an answer?",
+    "a": "I'll check and get back to you",
+    "opts": [
+     "Probably about ten kilowatts",
+     "I'll check and get back to you"
+    ],
+    "k": 1
+   },
+   {
+    "q": "How should Karim finish the presentation?",
+    "a": "Open the floor to questions",
+    "opts": [
+     "Say 'That's all, thank you'",
+     "Open the floor to questions"
+    ],
+    "k": 1
+   }
+  ],
+  "pov": "Retell the conversation as Karim: how you prepared for the bank's committee and how you'll handle tough questions. Use: dry run, key takeaways, at a glance, fair question, get back to you."
+ }
+}

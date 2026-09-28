@@ -1,0 +1,788 @@
+{
+ "bc1": {
+  "title": "Think Like a Free Agent",
+  "ar": "فكّر كأنك لاعب حر",
+  "intro": "Karim hears that a competitor has cut its service team and starts worrying about his job. His manager Mona explains how to protect his career by thinking like a free agent.",
+  "introAr": "كريم بيسمع إن شركة منافسة استغنت عن فريق الصيانة بتاعها ويبدأ يقلق على شغله. مديرته منى بتشرح له إزاي يحمي مستقبله المهني لما يفكر زي الـ ‎free agent‎.",
+  "dialogue": [
+   {
+    "sp": "Karim",
+    "en": "Mona, did you hear that one of our competitors downsized its whole service team last week? Twenty engineers are gone.",
+    "ar": "يا منى، سمعتي إن واحدة من الشركات المنافسة عملت ‎downsize‎ لفريق الصيانة كله الأسبوع اللي فات؟ عشرين مهندس مشيوا."
+   },
+   {
+    "sp": "Mona",
+    "en": "I heard. They had a budget crunch after two big solar projects were delayed, so the cutbacks started with the field staff.",
+    "ar": "سمعت. كان عندهم عجز في الميزانية بعد ما مشروعين طاقة شمسية كبار اتأجلوا، فالتخفيضات بدأت بفريق الموقع."
+   },
+   {
+    "sp": "Karim",
+    "en": "It scares me. I always thought that if I worked hard here, I'd have a job for life.",
+    "ar": "الموضوع ده مخوّفني. أنا طول عمري فاكر إني لو اشتغلت بضمير هنا هفضل في الوظيفة دي العمر كله."
+   },
+   {
+    "sp": "Mona",
+    "en": "I hate to throw cold water on that idea, but a job for life doesn't really exist anymore. You need a different mindset.",
+    "ar": "مش حابة أحبطك في الفكرة دي، بس الوظيفة اللي على طول العمر مابقتش موجودة خلاص. محتاج طريقة تفكير مختلفة."
+   },
+   {
+    "sp": "Karim",
+    "en": "What kind of mindset?",
+    "ar": "طريقة تفكير عاملة إزاي يعني؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Think like a free agent. Imagine you're a football player: your skills belong to you, and any team could want you tomorrow.",
+    "ar": "فكّر كأنك ‎free agent‎. تخيّل إنك لاعب كورة: مهاراتك ملكك إنت، وأي فريق ممكن يطلبك بكرة."
+   },
+   {
+    "sp": "Karim",
+    "en": "So you're telling me to look for another job?",
+    "ar": "يعني إنتي بتقولي لي أدوّر على شغل تاني؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Not at all. A free agent can stay loyal and still manage his own career. It's about being business minded, not about leaving.",
+    "ar": "خالص. الـ ‎free agent‎ ممكن يفضل مخلص لشركته وفي نفس الوقت هو اللي بيدير مستقبله. الفكرة إنك تفكر بعقلية رجل أعمال، مش إنك تمشي."
+   },
+   {
+    "sp": "Karim",
+    "en": "What does business minded mean for a service engineer like me?",
+    "ar": "يعني إيه أفكر بعقلية رجل أعمال لمهندس صيانة زيي؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "It means you treat yourself like a small company. What do you sell? Who are your customers? And what do you bring to the table that others don't?",
+    "ar": "يعني تعامل نفسك كأنك شركة صغيرة. بتبيع إيه؟ مين عملاءك؟ وإيه اللي إنت بتضيفه وغيرك مابيضيفوش؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Well, I can repair UPS units and replace battery banks quickly.",
+    "ar": "بصراحة أنا بصلّح أجهزة ‎UPS‎ وبغيّر مجموعات البطاريات بسرعة."
+   },
+   {
+    "sp": "Mona",
+    "en": "Good, but many engineers can do that. Time for a reality check: do you understand the total picture, how cooling, power and servers in a data centre depend on each other?",
+    "ar": "كويس، بس مهندسين كتير يقدروا يعملوا كده. خلينا نبقى واقعيين: إنت فاهم الصورة كاملة؟ إزاي التبريد والكهربا والسيرفرات في الداتا سنتر معتمدين على بعض؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Honestly, not really. I mostly stay in the battery room.",
+    "ar": "بصراحة لأ أوي. أنا أغلب الوقت قاعد في أوضة البطاريات."
+   },
+   {
+    "sp": "Mona",
+    "en": "That's the problem. Don't stay secluded in one corner. Spend a day with the VFD team and ask the sales people how they price a solar plant.",
+    "ar": "هي دي المشكلة. ماتفضلش منعزل في ركن واحد. اقعد يوم مع فريق الـ ‎VFD‎ واسأل ناس المبيعات بيسعّروا محطة الطاقة الشمسية إزاي."
+   },
+   {
+    "sp": "Karim",
+    "en": "And that will help me move up the ranks?",
+    "ar": "وده هيساعدني أترقى وأطلع لقدام؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Over time, yes. Also, build your brand. When a hospital calls and asks for the engineer who fixed their UPS in one night, that's your brand.",
+    "ar": "مع الوقت آه. وكمان ابني اسمك. لما مستشفى تتصل وتطلب المهندس اللي صلّح الـ ‎UPS‎ بتاعهم في ليلة واحدة، ده هو الـ ‎brand‎ بتاعك."
+   },
+   {
+    "sp": "Karim",
+    "en": "That actually happened last month at a clinic in Nasr City!",
+    "ar": "ده حصل فعلاً الشهر اللي فات في عيادة في مدينة نصر!"
+   },
+   {
+    "sp": "Mona",
+    "en": "Exactly. Now make it happen on purpose. Share short case studies on LinkedIn and generate a buzz about the work you do.",
+    "ar": "بالظبط. دلوقتي خليه يحصل وإنت قاصد. انشر قصص قصيرة عن شغلك على ‎LinkedIn‎ وخلّي الناس تتكلم عن اللي بتعمله."
+   },
+   {
+    "sp": "Karim",
+    "en": "Isn't that showing off?",
+    "ar": "مش ده يبقى استعراض؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Not if it's useful. Be a purple cow, the engineer people remember because he's different, not because he's loud.",
+    "ar": "لأ، طالما مفيد. خليك ‎purple cow‎، المهندس اللي الناس فاكراه عشان مختلف، مش عشان صوته عالي."
+   },
+   {
+    "sp": "Karim",
+    "en": "What else should I do?",
+    "ar": "أعمل إيه كمان؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Join a trade organization, like a solar energy association. You'll meet engineers from many companies and learn things you'd never see here.",
+    "ar": "اشترك في جمعية مهنية، زي جمعية للطاقة الشمسية. هتقابل مهندسين من شركات كتير وتتعلم حاجات عمرك ما هتشوفها هنا."
+   },
+   {
+    "sp": "Karim",
+    "en": "Okay. I'll write a plan this week and actually implement it, not just talk about it.",
+    "ar": "تمام. هكتب خطة الأسبوع ده وهنفذها بجد، مش مجرد كلام."
+   },
+   {
+    "sp": "Mona",
+    "en": "That's the spirit. It won't pay off in a month, but in two or three years you'll see the difference.",
+    "ar": "هو ده الكلام. مش هتجيب نتيجة في شهر، بس بعد سنتين تلاتة هتشوف الفرق."
+   }
+  ],
+  "vocab": [
+   {
+    "w": "free agent",
+    "ar": "شخص حر ينقل بمهاراته لأي شركة",
+    "def": "A worker who is free to move to any company that values his skills.",
+    "eg": "After ten years with inverters, Hany sees himself as a free agent in the solar market."
+   },
+   {
+    "w": "throw cold water on",
+    "ar": "يحبط / يقلل من حماس فكرة",
+    "def": "To say an idea is unrealistic and kill the excitement about it.",
+    "eg": "The finance manager threw cold water on our plan to buy a second crane truck."
+   },
+   {
+    "w": "mindset",
+    "ar": "طريقة تفكير",
+    "def": "Your attitude and set of beliefs about something.",
+    "eg": "A service engineer with a customer-first mindset answers the phone even on Friday."
+   },
+   {
+    "w": "business minded",
+    "ar": "بيفكر بعقلية رجل أعمال",
+    "def": "Thinking about costs, customers and value like a businessperson does.",
+    "eg": "She is very business minded; she always asks how a repair affects the client's profit."
+   },
+   {
+    "w": "brand",
+    "ar": "اسم / سمعة مميزة",
+    "def": "A special name or reputation that makes people choose you over others.",
+    "eg": "His brand in the company is 'the man who never leaves a site with a problem'."
+   },
+   {
+    "w": "budget crunch",
+    "ar": "عجز / ضغط في الميزانية",
+    "def": "A situation where there isn't enough money in the budget.",
+    "eg": "Because of the budget crunch, we postponed the new battery tester until next year."
+   },
+   {
+    "w": "cutbacks",
+    "ar": "تخفيضات في المصاريف",
+    "def": "Reductions in spending, such as fewer staff or less advertising.",
+    "eg": "The cutbacks meant only one engineer could attend the training in Dubai."
+   },
+   {
+    "w": "downsize",
+    "ar": "يقلّص عدد الموظفين",
+    "def": "To reduce the number of employees, usually to save money.",
+    "eg": "When the factory downsized, it also cancelled its UPS maintenance contract."
+   },
+   {
+    "w": "trade organization",
+    "ar": "جمعية / نقابة مهنية",
+    "def": "A group of people from many companies in the same field who share knowledge.",
+    "eg": "I met our biggest client at a trade organization event for data-centre professionals."
+   },
+   {
+    "w": "secluded",
+    "ar": "منعزل",
+    "def": "Alone and away from other people.",
+    "eg": "Don't stay secluded in the workshop; visit the sales office and learn what customers ask for."
+   },
+   {
+    "w": "the total picture",
+    "ar": "الصورة كاملة",
+    "def": "An understanding of the whole situation, not only one small part.",
+    "eg": "To design a good solar plant, you need the total picture: roof, load, budget and grid."
+   },
+   {
+    "w": "purple cow",
+    "ar": "حاجة مميزة ولافتة للنظر",
+    "def": "Something so unusual and remarkable that people notice and remember it.",
+    "eg": "Our 2-hour emergency response is a purple cow; no competitor offers it."
+   },
+   {
+    "w": "implement",
+    "ar": "ينفّذ",
+    "def": "To put a plan or decision into action.",
+    "eg": "We implemented a new checklist, and battery failures dropped by half."
+   },
+   {
+    "w": "move up the ranks",
+    "ar": "يترقّى في السلم الوظيفي",
+    "def": "To get promoted to higher positions step by step.",
+    "eg": "Sara started as a technician and moved up the ranks to service manager."
+   },
+   {
+    "w": "reality check",
+    "ar": "وقفة مع النفس بواقعية",
+    "def": "An honest look at a situation, including your weaknesses.",
+    "eg": "The failed tender was a reality check: our proposal was too technical and too long."
+   },
+   {
+    "w": "generate a buzz",
+    "ar": "يخلّي الناس تتكلم عنه",
+    "def": "To create excitement and positive talk about something or someone.",
+    "eg": "The video of our 1 MW solar plant generated a buzz among local factory owners."
+   },
+   {
+    "w": "bring to the table",
+    "ar": "يضيف / يقدّم قيمة",
+    "def": "To offer something useful, such as skills, experience or contacts.",
+    "eg": "Mahmoud brings to the table ten years of experience with large VFDs."
+   },
+   {
+    "w": "pay off",
+    "ar": "يجيب نتيجة / يستاهل",
+    "def": "To bring a good result after effort or time.",
+    "eg": "All those night shifts paid off when the bank renewed our contract."
+   }
+  ],
+  "qa": [
+   {
+    "q": "What did the competitor do to its service team?",
+    "a": "It downsized it",
+    "opts": [
+     "It downsized it",
+     "It trained it"
+    ],
+    "k": 0
+   },
+   {
+    "q": "Why did the cutbacks start?",
+    "a": "Because of a budget crunch",
+    "opts": [
+     "Because of a new manager",
+     "Because of a budget crunch"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What did Karim believe before this conversation?",
+    "a": "He would have a job for life",
+    "opts": [
+     "He would have a job for life",
+     "He would become a manager soon"
+    ],
+    "k": 0
+   },
+   {
+    "q": "How did Mona react to the idea of a job for life?",
+    "a": "She threw cold water on it",
+    "opts": [
+     "She agreed with it",
+     "She threw cold water on it"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What does Mona say Karim needs?",
+    "a": "A different mindset",
+    "opts": [
+     "A different mindset",
+     "A different job"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Mona compare a free agent to?",
+    "a": "A football player",
+    "opts": [
+     "A shop owner",
+     "A football player"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Does thinking like a free agent mean leaving the company?",
+    "a": "No, it means being business minded",
+    "opts": [
+     "No, it means being business minded",
+     "Yes, as soon as possible"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What question should Karim ask himself as a 'small company'?",
+    "a": "What do I bring to the table?",
+    "opts": [
+     "How many hours do I work?",
+     "What do I bring to the table?"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What did Mona call it when she asked Karim to be honest about his knowledge?",
+    "a": "A reality check",
+    "opts": [
+     "A reality check",
+     "A purple cow"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What doesn't Karim fully understand yet?",
+    "a": "The total picture of a data centre",
+    "opts": [
+     "How to replace batteries",
+     "The total picture of a data centre"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Why does Mona tell Karim to visit the VFD team?",
+    "a": "So he isn't secluded in one corner",
+    "opts": [
+     "So he isn't secluded in one corner",
+     "So he can leave the battery team"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What will visiting other teams help Karim do?",
+    "a": "Move up the ranks",
+    "opts": [
+     "Move up the ranks",
+     "Downsize the department"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What is Karim's brand, according to the story?",
+    "a": "The engineer who fixed a UPS in one night",
+    "opts": [
+     "The cheapest engineer in Cairo",
+     "The engineer who fixed a UPS in one night"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Why should Karim share case studies on LinkedIn?",
+    "a": "To generate a buzz about his work",
+    "opts": [
+     "To find a new employer",
+     "To generate a buzz about his work"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What kind of engineer does Mona want Karim to be?",
+    "a": "A purple cow",
+    "opts": [
+     "A purple cow",
+     "A loud salesman"
+    ],
+    "k": 0
+   },
+   {
+    "q": "Where can Karim meet engineers from many companies?",
+    "a": "At a trade organization",
+    "opts": [
+     "At a trade organization",
+     "In the battery room"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What will Karim do with his plan?",
+    "a": "Implement it",
+    "opts": [
+     "Keep it secret",
+     "Implement it"
+    ],
+    "k": 1
+   },
+   {
+    "q": "When will the plan pay off?",
+    "a": "In two or three years",
+    "opts": [
+     "In one month",
+     "In two or three years"
+    ],
+    "k": 1
+   }
+  ],
+  "pov": "Retell the conversation as Karim: what worried you, what Mona advised, and your plan. Use: free agent, mindset, reality check, brand, pay off."
+ },
+ "bc2": {
+  "title": "Writing a Strong Resume",
+  "ar": "إزاي تكتب سي في قوي",
+  "intro": "A bank client wants the resumes of the engineers on a new data-centre project, and Karim's resume is years old. Mona shows him how to turn a list of duties into real achievements.",
+  "introAr": "بنك عميل عايز الـ ‎CV‎ بتاع المهندسين اللي هيشتغلوا على مشروع داتا سنتر جديد، والـ ‎CV‎ بتاع كريم قديم من سنين. منى بتوريه إزاي يحوّل قايمة المهام لإنجازات حقيقية.",
+  "dialogue": [
+   {
+    "sp": "Mona",
+    "en": "Karim, the bank wants the resumes of every engineer on the data-centre project. Can you send me yours by Thursday?",
+    "ar": "يا كريم، البنك عايز الـ ‎CV‎ بتاع كل مهندس في مشروع الداتا سنتر. تقدر تبعتلي بتاعك قبل الخميس؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Sure, but mine is really out of date. The last time I touched it was right after graduation.",
+    "ar": "أكيد، بس بتاعي قديم أوي. آخر مرة فتحته كان بعد التخرج على طول."
+   },
+   {
+    "sp": "Mona",
+    "en": "Then this is a good chance to fix it. Keep a copy for yourself too; the new site supervisor job opens in January.",
+    "ar": "يبقى دي فرصة كويسة تظبطه. واحتفظ بنسخة لنفسك كمان، وظيفة مشرف الموقع الجديدة هتفتح في يناير."
+   },
+   {
+    "sp": "Karim",
+    "en": "Really? I heard something about it over the water cooler, but I wasn't sure.",
+    "ar": "بجد؟ أنا سمعت كلام عنها في الدردشة بين الزملاء بس ماكنتش متأكد."
+   },
+   {
+    "sp": "Mona",
+    "en": "It's true. Management approved one extra head count for our department. So what's in your resume right now?",
+    "ar": "صح. الإدارة وافقت على عدد موظف زيادة لقسمنا. طب الـ ‎CV‎ بتاعك فيه إيه دلوقتي؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "A list of jobs and duties: responsible for UPS maintenance, responsible for battery replacement, and so on.",
+    "ar": "قايمة بالوظايف والمهام: مسؤول عن صيانة الـ ‎UPS‎، مسؤول عن تغيير البطاريات، وهكذا."
+   },
+   {
+    "sp": "Mona",
+    "en": "That tells the reader what you were supposed to do, not what you achieved. The big ticket item in any resume is concrete accomplishments.",
+    "ar": "ده بيقول للي بيقرا إنت كان المفروض تعمل إيه، مش إنت حققت إيه. أهم حاجة في أي ‎CV‎ هي الإنجازات الملموسة."
+   },
+   {
+    "sp": "Karim",
+    "en": "Such as?",
+    "ar": "زي إيه مثلاً؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Numbers and results. How many sites did you cover? Did you reduce downtime? Did you save a customer money?",
+    "ar": "أرقام ونتايج. غطيت كام موقع؟ قللت وقت التوقف؟ وفّرت فلوس لعميل؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Well, last year I coordinated the battery replacement at the Alexandria factory: 240 batteries in one weekend with zero downtime.",
+    "ar": "بصي، السنة اللي فاتت نسّقت تغيير البطاريات في مصنع إسكندرية: 240 بطارية في ويك إند واحد من غير أي توقف."
+   },
+   {
+    "sp": "Mona",
+    "en": "Perfect. Write exactly that. And no fluff like hard-working team player; everybody writes that.",
+    "ar": "ممتاز. اكتبها كده بالظبط. ومن غير كلام حشو زي ‎hard-working team player‎، ده الكل بيكتبه."
+   },
+   {
+    "sp": "Karim",
+    "en": "What about my training? I finished a VFD course and a solar installation course.",
+    "ar": "وبالنسبة للكورسات؟ أنا خلّصت كورس ‎VFD‎ وكورس تركيب طاقة شمسية."
+   },
+   {
+    "sp": "Mona",
+    "en": "Include them, but keep it short. The bank cares more about your track record on real sites than about certificates.",
+    "ar": "حطهم، بس باختصار. البنك يهمه تاريخك وخبرتك في مواقع حقيقية أكتر من الشهادات."
+   },
+   {
+    "sp": "Karim",
+    "en": "How long should it be? Two pages? Three?",
+    "ar": "المفروض يبقى طوله قد إيه؟ صفحتين؟ تلاتة؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "One page is ideal, two at most. Treat it like a sales pitch: short, clear and focused on what the reader needs.",
+    "ar": "صفحة واحدة أحسن حاجة، وبالكتير صفحتين. اتعامل معاه كأنه عرض بيع: قصير وواضح ومركّز على اللي القارئ محتاجه."
+   },
+   {
+    "sp": "Karim",
+    "en": "Got it. And the supervisor interview? I haven't been an interviewee since my first job, and that interview was traumatic.",
+    "ar": "فهمت. وبالنسبة لإنترفيو المشرف؟ أنا مادخلتش إنترفيو من أول شغلانة، والإنترفيو ده كان صدمة بصراحة."
+   },
+   {
+    "sp": "Mona",
+    "en": "Everyone has a story like that! Remember, the interviewer will have your resume in front of him, so be ready to explain every line.",
+    "ar": "كلنا عندنا حكاية زي دي! افتكر إن اللي بيعمل الإنترفيو هيبقى الـ ‎CV‎ بتاعك قدامه، فخليك جاهز تشرح كل سطر."
+   },
+   {
+    "sp": "Karim",
+    "en": "So I need to know the nuts and bolts of each project I mention.",
+    "ar": "يعني لازم أكون عارف التفاصيل الأساسية لكل مشروع هذكره."
+   },
+   {
+    "sp": "Mona",
+    "en": "Exactly: the budget, the team size, the problems you solved. And check everything; dot your i's and cross your t's. A spelling mistake in uninterruptible looks bad for an engineer.",
+    "ar": "بالظبط: الميزانية، حجم الفريق، المشاكل اللي حليتها. وراجع كل حاجة بدقة. غلطة إملائية في كلمة ‎uninterruptible‎ شكلها وحش على مهندس."
+   },
+   {
+    "sp": "Karim",
+    "en": "Ha, I'd better run a spell check. Should I also network with people in other departments before the interview?",
+    "ar": "ها، يبقى أحسن أعمل تدقيق إملائي. وأعمل علاقات مع ناس في الأقسام التانية قبل الإنترفيو؟"
+   },
+   {
+    "sp": "Mona",
+    "en": "Yes, but naturally. Last year Hany helped the sales team with a technical proposal, and lo and behold, he was the first name they suggested for the key accounts role.",
+    "ar": "آه، بس بشكل طبيعي. السنة اللي فاتت هاني ساعد فريق المبيعات في عرض فني، وفجأة لقيناه أول اسم رشحوه لوظيفة كبار العملاء."
+   },
+   {
+    "sp": "Karim",
+    "en": "That's a useful lesson. I'll send you the new resume on Wednesday.",
+    "ar": "درس مفيد. هبعتلك الـ ‎CV‎ الجديد يوم الأربع."
+   },
+   {
+    "sp": "Mona",
+    "en": "Great. And don't let it get old again: update it every time you finish a big project.",
+    "ar": "هايل. وماتسيبوش يقدم تاني: حدّثه كل ما تخلّص مشروع كبير."
+   }
+  ],
+  "vocab": [
+   {
+    "w": "resume",
+    "ar": "السيرة الذاتية (‎CV‎)",
+    "def": "A short document listing your work history, skills and achievements.",
+    "eg": "Before the tender, every engineer updated his resume with his latest data-centre projects."
+   },
+   {
+    "w": "out of date",
+    "ar": "قديم / مش محدّث",
+    "def": "Old and no longer correct or useful.",
+    "eg": "The wiring diagram in the panel was out of date, so we drew a new one."
+   },
+   {
+    "w": "over the water cooler",
+    "ar": "في دردشة الزملاء غير الرسمية",
+    "def": "In informal chat between colleagues at work.",
+    "eg": "News of the new solar contract spread over the water cooler before the official email."
+   },
+   {
+    "w": "head count",
+    "ar": "عدد الموظفين",
+    "def": "The number of people working in a team or company.",
+    "eg": "We need more head count in maintenance because we signed twelve new contracts."
+   },
+   {
+    "w": "big ticket item",
+    "ar": "أهم / أكبر بند",
+    "def": "The most important or most valuable part of something.",
+    "eg": "The big ticket item in this quotation is the 400 kVA UPS, not the cables."
+   },
+   {
+    "w": "concrete accomplishments",
+    "ar": "إنجازات ملموسة",
+    "def": "Real, specific results you can prove, often with numbers.",
+    "eg": "Cutting the site's diesel use by 30% is one of her concrete accomplishments."
+   },
+   {
+    "w": "fluff",
+    "ar": "كلام حشو / مالوش لازمة",
+    "def": "Words that sound nice but add no real information.",
+    "eg": "Remove the fluff from the proposal and keep only the technical data and prices."
+   },
+   {
+    "w": "coordinate",
+    "ar": "ينسّق",
+    "def": "To organize people or tasks so they work well together.",
+    "eg": "Karim coordinated the crane, the electricians and the client's IT team for the installation."
+   },
+   {
+    "w": "track record",
+    "ar": "سجل الإنجازات / الخبرة السابقة",
+    "def": "Your past performance, showing how well you have done a job.",
+    "eg": "Our track record of 50 hospital UPS installations helped us win the contract."
+   },
+   {
+    "w": "sales pitch",
+    "ar": "عرض بيع / كلام إقناع",
+    "def": "A short, persuasive talk or text that tries to sell something.",
+    "eg": "His sales pitch to the factory owner focused on savings from the new VFDs."
+   },
+   {
+    "w": "interviewee",
+    "ar": "الشخص اللي بيتعمله إنترفيو",
+    "def": "The person who is being interviewed for a job.",
+    "eg": "The interviewee brought photos of the solar plants he had installed."
+   },
+   {
+    "w": "traumatic",
+    "ar": "صادم / مؤلم نفسياً",
+    "def": "Very upsetting and difficult to forget.",
+    "eg": "The server-room fire was a traumatic night for the whole team."
+   },
+   {
+    "w": "interviewer",
+    "ar": "اللي بيعمل الإنترفيو",
+    "def": "The person who asks the questions in an interview.",
+    "eg": "The interviewer asked me how I would handle an angry client during a blackout."
+   },
+   {
+    "w": "nuts and bolts",
+    "ar": "التفاصيل الأساسية العملية",
+    "def": "The basic, practical details of how something works.",
+    "eg": "New technicians must learn the nuts and bolts of battery testing before visiting sites."
+   },
+   {
+    "w": "dot your i's and cross your t's",
+    "ar": "يراجع كل التفاصيل بدقة",
+    "def": "To check every small detail carefully so nothing is wrong.",
+    "eg": "Before submitting the tender, dot your i's and cross your t's; one wrong price can lose it."
+   },
+   {
+    "w": "network",
+    "ar": "يعمل علاقات مهنية",
+    "def": "To meet and build relationships with people who can help your career.",
+    "eg": "I networked with the data-centre team at the exhibition and got two new leads."
+   },
+   {
+    "w": "lo and behold",
+    "ar": "وفجأة / وشوف بقى",
+    "def": "Used before saying a surprising result.",
+    "eg": "We cleaned the inverter's fans, and lo and behold, the overheating alarm stopped."
+   }
+  ],
+  "qa": [
+   {
+    "q": "What does the bank want from every engineer?",
+    "a": "Their resumes",
+    "opts": [
+     "Their resumes",
+     "Their certificates only"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What is the problem with Karim's resume?",
+    "a": "It is out of date",
+    "opts": [
+     "It is too long",
+     "It is out of date"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Where did Karim first hear about the supervisor job?",
+    "a": "Over the water cooler",
+    "opts": [
+     "Over the water cooler",
+     "In an official email"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What did management approve for the department?",
+    "a": "One extra head count",
+    "opts": [
+     "A bigger budget for training",
+     "One extra head count"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What does Karim's resume list now?",
+    "a": "Jobs and duties",
+    "opts": [
+     "Jobs and duties",
+     "Numbers and results"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What is the big ticket item in a resume, according to Mona?",
+    "a": "Concrete accomplishments",
+    "opts": [
+     "A nice photo",
+     "Concrete accomplishments"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What did Karim coordinate in Alexandria?",
+    "a": "A battery replacement",
+    "opts": [
+     "A battery replacement",
+     "A solar plant installation"
+    ],
+    "k": 0
+   },
+   {
+    "q": "How does Mona describe phrases like 'hard-working team player'?",
+    "a": "Fluff",
+    "opts": [
+     "Concrete accomplishments",
+     "Fluff"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What does the bank care about more than certificates?",
+    "a": "Karim's track record on real sites",
+    "opts": [
+     "Karim's track record on real sites",
+     "Karim's university grades"
+    ],
+    "k": 0
+   },
+   {
+    "q": "How long should a resume be?",
+    "a": "One page, two at most",
+    "opts": [
+     "Three or four pages",
+     "One page, two at most"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What should a resume be like, according to Mona?",
+    "a": "A sales pitch",
+    "opts": [
+     "A sales pitch",
+     "A technical manual"
+    ],
+    "k": 0
+   },
+   {
+    "q": "How did Karim describe his first job interview?",
+    "a": "Traumatic",
+    "opts": [
+     "Traumatic",
+     "Easy"
+    ],
+    "k": 0
+   },
+   {
+    "q": "Who will have Karim's resume in front of him?",
+    "a": "The interviewer",
+    "opts": [
+     "The interviewee",
+     "The interviewer"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What must Karim know about each project he mentions?",
+    "a": "The nuts and bolts",
+    "opts": [
+     "Only the client's name",
+     "The nuts and bolts"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What does 'dot your i's and cross your t's' mean here?",
+    "a": "Check every detail",
+    "opts": [
+     "Check every detail",
+     "Write in capital letters"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Karim ask about doing with other departments?",
+    "a": "Networking with them",
+    "opts": [
+     "Networking with them",
+     "Avoiding them"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What happened to Hany after he helped the sales team?",
+    "a": "Lo and behold, he was suggested for a new role",
+    "opts": [
+     "He was moved to the battery room",
+     "Lo and behold, he was suggested for a new role"
+    ],
+    "k": 1
+   }
+  ],
+  "pov": "Retell the conversation as Karim: why you updated your resume and what Mona taught you. Use: out of date, concrete accomplishments, track record, fluff, interviewer."
+ }
+}

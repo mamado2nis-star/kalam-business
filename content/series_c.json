@@ -1,0 +1,1067 @@
+{
+ "bc11": {
+  "title": "Selling Value, Not Price",
+  "ar": "بيع القيمة مش السعر",
+  "intro": "After Karim's presentation to the bank went well, Mona asks him to help Laila from sales. She is pitching an annual maintenance contract to Eng. Hisham at a big hospital, and the client says a competitor is cheaper.",
+  "introAr": "بعد ما العرض بتاع كريم للبنك نجح، منى طلبت منه يساعد ليلى من المبيعات. ليلى بتعرض عقد صيانة سنوي على الباشمهندس هشام في مستشفى كبيرة، والعميل بيقول إن فيه منافس أرخص.",
+  "dialogue": [
+   {
+    "sp": "Laila",
+    "en": "Karim, thanks for coming along. To be honest, I'm worried. Eng. Hisham already has a quote from another company, and their price tag is about fifteen percent lower than ours.",
+    "ar": "كريم، شكراً إنك جيت معايا. بصراحة أنا قلقانة. الباشمهندس هشام معاه عرض سعر من شركة تانية، وسعرهم أقل من سعرنا بحوالي خمستاشر في المية."
+   },
+   {
+    "sp": "Karim",
+    "en": "Fifteen percent is a lot. But do we know what's actually inside their offer?",
+    "ar": "خمستاشر في المية كتير. بس إحنا عارفين إيه اللي جوه العرض بتاعهم فعلاً؟"
+   },
+   {
+    "sp": "Laila",
+    "en": "That's exactly why you're here. I need an engineer who can compare the two offers apples to apples.",
+    "ar": "هو ده بالظبط سبب إنك هنا. محتاجة مهندس يقارن العرضين مقارنة عادلة بنفس المقاييس."
+   },
+   {
+    "sp": "Eng. Hisham",
+    "en": "Welcome, both of you. Let me be frank: I like your team, but my finance director looks at one number only, and yours is higher.",
+    "ar": "أهلاً بيكم انتوا الاتنين. هكون صريح معاكم: أنا بحب فريقكم، بس المدير المالي عندي بيبص على رقم واحد بس، ورقمكم أعلى."
+   },
+   {
+    "sp": "Laila",
+    "en": "We understand, Eng. Hisham. Before we talk numbers, could Karim ask you a couple of questions about the site?",
+    "ar": "فاهمين يا باشمهندس هشام. قبل ما نتكلم في الأرقام، ممكن كريم يسألك كام سؤال عن الموقع؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Thanks. Well, how many of your UPS systems are critical? What happens if the ICU or the operating theatres lose power for even a few seconds?",
+    "ar": "شكراً. طيب، كام جهاز ‎UPS‎ عندكم حرج؟ إيه اللي يحصل لو العناية المركزة أو أوض العمليات فصلت عنها الكهربا ولو كام ثانية؟"
+   },
+   {
+    "sp": "Eng. Hisham",
+    "en": "We have six UPS systems, and two of them feed the ICU and the theatres. A failure there is simply not an option.",
+    "ar": "عندنا ستة أجهزة ‎UPS‎، واتنين منهم مغذّيين العناية والعمليات. العطل هناك ببساطة مش مسموح بيه."
+   },
+   {
+    "sp": "Karim",
+    "en": "Then for you, uptime is everything. May I look at the other offer? ... Look, they include two preventive visits a year. We include four, with battery testing on every visit.",
+    "ar": "يبقى بالنسبة لك استمرار التشغيل هو كل حاجة. ممكن أبص على العرض التاني؟ ... بص، هما حاطين زيارتين صيانة وقائية في السنة. إحنا حاطين أربعة، ومعاها اختبار بطاريات في كل زيارة."
+   },
+   {
+    "sp": "Eng. Hisham",
+    "en": "Is that really necessary? Two visits sounds reasonable to me.",
+    "ar": "هو ده ضروري فعلاً؟ زيارتين شكلهم معقول بالنسبة لي."
+   },
+   {
+    "sp": "Karim",
+    "en": "For batteries that are four years old, yes. Most UPS failures we see start with one weak battery. Honestly, when an offer is that cheap, someone is cutting corners somewhere.",
+    "ar": "لبطاريات عمرها أربع سنين، أيوه. أغلب أعطال الـ ‎UPS‎ اللي بنشوفها بتبدأ من بطارية واحدة ضعيفة. وبصراحة، لما عرض يبقى رخيص كده، يبقى حد بيقصّر في حتة ما."
+   },
+   {
+    "sp": "Laila",
+    "en": "And there are hidden costs. Their offer doesn't cover spare parts or emergency call-outs. Those are charged separately, and they're not cheap.",
+    "ar": "وكمان فيه تكاليف مخفية. عرضهم مش شامل قطع الغيار ولا زيارات الطوارئ. دول بيتحاسبوا لوحدهم، ومش رخاص."
+   },
+   {
+    "sp": "Eng. Hisham",
+    "en": "Hmm, I hadn't noticed that. So on paper they're cheaper, but...",
+    "ar": "همم، ماكنتش واخد بالي من ده. يعني على الورق هما أرخص، بس..."
+   },
+   {
+    "sp": "Karim",
+    "en": "But in the long run you might pay much more. That's why we suggest you look at the total cost of ownership, not just the annual fee.",
+    "ar": "بس على المدى الطويل ممكن تدفع أكتر بكتير. علشان كده بنقترح تبص على التكلفة الإجمالية للملكية، مش الرسوم السنوية بس."
+   },
+   {
+    "sp": "Eng. Hisham",
+    "en": "Give me a real example.",
+    "ar": "اديني مثال حقيقي."
+   },
+   {
+    "sp": "Karim",
+    "en": "Last year a factory in Tenth of Ramadan skipped battery testing to save money. One string failed during a power cut, the UPS dropped the load, and the repairs and lost production cost them three times our contract value.",
+    "ar": "السنة اللي فاتت مصنع في العاشر من رمضان لغى اختبار البطاريات علشان يوفّر. خط بطاريات واحد وقع وقت انقطاع الكهربا، والـ ‎UPS‎ فصل الحمل، والتصليح والإنتاج اللي ضاع كلّفوهم تلات أضعاف قيمة عقدنا."
+   },
+   {
+    "sp": "Laila",
+    "en": "And our response time is guaranteed in the contract: a technician on site within four hours, twenty-four seven.",
+    "ar": "وكمان سرعة الاستجابة عندنا مضمونة في العقد: فني في الموقع خلال أربع ساعات، أربعة وعشرين ساعة طول الأسبوع."
+   },
+   {
+    "sp": "Eng. Hisham",
+    "en": "Four hours, even on a Friday night?",
+    "ar": "أربع ساعات، حتى يوم جمعة بالليل؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Even on a Friday night. Plus a short report after every visit, so you'll always know the condition of every unit. That gives you peace of mind.",
+    "ar": "حتى يوم جمعة بالليل. وكمان تقرير قصير بعد كل زيارة، فهتبقى دايماً عارف حالة كل جهاز. وده بيديك راحة بال."
+   },
+   {
+    "sp": "Eng. Hisham",
+    "en": "I believe you, but I still need something for finance. For them, the bottom line is what counts.",
+    "ar": "أنا مصدقك، بس لسه محتاج حاجة أقدمها للمالية. بالنسبة لهم، الخلاصة المالية هي اللي بتفرق."
+   },
+   {
+    "sp": "Laila",
+    "en": "Of course. And to sweeten the deal, if you sign for two years, we'll include remote monitoring free for the first year.",
+    "ar": "طبعاً. وعلشان نحلّي العرض، لو مضيت على سنتين، هنضيف المراقبة عن بُعد ببلاش أول سنة."
+   },
+   {
+    "sp": "Karim",
+    "en": "Remote monitoring pays for itself, by the way. We can see a battery alarm on our screen before it turns into an outage.",
+    "ar": "وعلى فكرة، المراقبة عن بُعد بتغطّي تمنها بنفسها. بنقدر نشوف إنذار البطارية على الشاشة عندنا قبل ما يتحول لانقطاع."
+   },
+   {
+    "sp": "Eng. Hisham",
+    "en": "Alright. Send me a table comparing the total cost over three years. If it shows real value for money, it comes down to one meeting with finance.",
+    "ar": "تمام. ابعتولي جدول بيقارن التكلفة الإجمالية على تلات سنين. لو بيبيّن إن فيه قيمة حقيقية مقابل الفلوس، الموضوع هيتوقف على اجتماع واحد مع المالية."
+   },
+   {
+    "sp": "Laila",
+    "en": "You'll have it by Sunday. ... Karim, nice work in there. You didn't argue about the price once.",
+    "ar": "هيبقى عندك قبل الحد. ... كريم، شغل حلو جوه. ماتخانقتش على السعر ولا مرة."
+   },
+   {
+    "sp": "Karim",
+    "en": "Mona told me once: never fight on price, show them what the price protects. I guess she was right.",
+    "ar": "منى قالتلي مرة: ماتحاربش على السعر، وريهم السعر ده بيحمي إيه. شكلها كان عندها حق."
+   }
+  ],
+  "vocab": [
+   {
+    "w": "price tag",
+    "ar": "السعر / التمن",
+    "def": "The price of something, often when it seems high.",
+    "eg": "The price tag on the lithium batteries scared the client until we showed their fifteen-year life."
+   },
+   {
+    "w": "apples to apples",
+    "ar": "مقارنة عادلة بنفس المقاييس",
+    "def": "Comparing two things that are really similar, in a fair way.",
+    "eg": "Put both UPS quotes in one table so we can compare them apples to apples."
+   },
+   {
+    "w": "uptime",
+    "ar": "مدة التشغيل المستمر من غير توقف",
+    "def": "The time a system is working without stopping.",
+    "eg": "The bank's data centre needs 99.99% uptime, so every UPS has a backup."
+   },
+   {
+    "w": "cut corners",
+    "ar": "يقصّر / يعمل الشغل بأقل مجهود",
+    "def": "To do something cheaply or quickly by skipping important steps.",
+    "eg": "Don't cut corners on the cable glands; a loose one can cause a fire."
+   },
+   {
+    "w": "hidden costs",
+    "ar": "تكاليف مخفية",
+    "def": "Extra costs that are not clear when you first see the price.",
+    "eg": "The cheap inverter had hidden costs: a new cooling unit and yearly firmware fees."
+   },
+   {
+    "w": "on paper",
+    "ar": "على الورق / نظرياً",
+    "def": "In theory or in documents, but maybe not in real life.",
+    "eg": "On paper the plan finishes in May, but the panels haven't arrived yet."
+   },
+   {
+    "w": "in the long run",
+    "ar": "على المدى الطويل",
+    "def": "After a long period of time.",
+    "eg": "Good batteries cost more today but save money in the long run."
+   },
+   {
+    "w": "total cost of ownership",
+    "ar": "التكلفة الإجمالية للملكية",
+    "def": "The full cost of something over its life, not only the buying price.",
+    "eg": "When you add fuel and service, the diesel generator's total cost of ownership is much higher."
+   },
+   {
+    "w": "response time",
+    "ar": "سرعة / مدة الاستجابة",
+    "def": "How fast someone reacts or arrives after a request or problem.",
+    "eg": "Our response time in Cairo is four hours; in Upper Egypt it's twelve."
+   },
+   {
+    "w": "peace of mind",
+    "ar": "راحة البال",
+    "def": "A calm feeling because you know everything is safe.",
+    "eg": "Remote monitoring gives the factory owner peace of mind while he's travelling."
+   },
+   {
+    "w": "the bottom line",
+    "ar": "الخلاصة / النتيجة المالية",
+    "def": "The most important fact, often the final money result.",
+    "eg": "The bottom line is that the VFDs cut the plant's electricity bill by 25%."
+   },
+   {
+    "w": "sweeten the deal",
+    "ar": "يحلّي العرض / يضيف ميزة",
+    "def": "To add something extra to make an offer more attractive.",
+    "eg": "To sweeten the deal, we added free training for the client's technicians."
+   },
+   {
+    "w": "pay for itself",
+    "ar": "يغطي تمنه بنفسه",
+    "def": "To save enough money over time to cover its own cost.",
+    "eg": "The rooftop solar plant will pay for itself in about five years."
+   },
+   {
+    "w": "value for money",
+    "ar": "قيمة مقابل الفلوس",
+    "def": "Good quality or benefit compared with the price you pay.",
+    "eg": "The four-visit contract is better value for money than paying for emergency repairs."
+   },
+   {
+    "w": "come down to",
+    "ar": "يتوقف على / في الآخر يرجع لـ",
+    "def": "To depend mainly on one thing in the end.",
+    "eg": "Winning the tender will come down to our delivery time, not the price."
+   }
+  ],
+  "qa": [
+   {
+    "q": "Why is Laila worried before the meeting?",
+    "a": "The competitor's price tag is lower",
+    "opts": [
+     "The competitor's price tag is lower",
+     "The client wants to cancel the contract"
+    ],
+    "k": 0
+   },
+   {
+    "q": "Why does Laila need Karim?",
+    "a": "To compare the offers apples to apples",
+    "opts": [
+     "To install a new UPS",
+     "To compare the offers apples to apples"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What does the finance director look at?",
+    "a": "One number only",
+    "opts": [
+     "One number only",
+     "The technical report"
+    ],
+    "k": 0
+   },
+   {
+    "q": "Why is uptime everything for the hospital?",
+    "a": "The ICU and theatres can't lose power",
+    "opts": [
+     "The hospital sells electricity",
+     "The ICU and theatres can't lose power"
+    ],
+    "k": 1
+   },
+   {
+    "q": "How many preventive visits does Nile Power Care offer?",
+    "a": "Four, with battery testing",
+    "opts": [
+     "Four, with battery testing",
+     "Two, without battery testing"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Karim think a very cheap offer means?",
+    "a": "Someone is cutting corners",
+    "opts": [
+     "The competitor is more efficient",
+     "Someone is cutting corners"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What hidden costs does Laila mention?",
+    "a": "Spare parts and emergency call-outs",
+    "opts": [
+     "Spare parts and emergency call-outs",
+     "Training and transport"
+    ],
+    "k": 0
+   },
+   {
+    "q": "How does Hisham describe the competitor after hearing this?",
+    "a": "Cheaper on paper",
+    "opts": [
+     "Better value for money",
+     "Cheaper on paper"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What does Karim ask Hisham to look at?",
+    "a": "The total cost of ownership",
+    "opts": [
+     "Only the annual fee",
+     "The total cost of ownership"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What happened at the factory that skipped battery testing?",
+    "a": "It paid three times the contract value",
+    "opts": [
+     "It paid three times the contract value",
+     "It saved a lot of money"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What is the guaranteed response time?",
+    "a": "Four hours, twenty-four seven",
+    "opts": [
+     "Four hours, twenty-four seven",
+     "Two days on working days"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What gives Hisham peace of mind?",
+    "a": "A report after every visit",
+    "opts": [
+     "A lower price",
+     "A report after every visit"
+    ],
+    "k": 1
+   },
+   {
+    "q": "How does Laila sweeten the deal?",
+    "a": "Free remote monitoring for a year",
+    "opts": [
+     "Free remote monitoring for a year",
+     "A fifteen percent discount"
+    ],
+    "k": 0
+   },
+   {
+    "q": "Why does remote monitoring pay for itself?",
+    "a": "It catches alarms before an outage",
+    "opts": [
+     "It replaces the batteries",
+     "It catches alarms before an outage"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What will the decision come down to?",
+    "a": "One meeting with finance",
+    "opts": [
+     "One meeting with finance",
+     "A new tender next year"
+    ],
+    "k": 0
+   }
+  ],
+  "pov": "Retell the meeting as Karim: how you and Laila answered the cheaper competitor. Use: price tag, cut corners, hidden costs, total cost of ownership, peace of mind."
+ },
+ "bc12": {
+  "title": "When the Customer Is Angry",
+  "ar": "لما العميل يكون متضايق",
+  "intro": "Three weeks after the hospital signed the maintenance contract, a UPS alarm leads to a short power outage in radiology. Eng. Hisham calls Karim, and he is furious.",
+  "introAr": "بعد تلات أسابيع من توقيع المستشفى على عقد الصيانة، إنذار في جهاز ‎UPS‎ أدى لانقطاع كهربا قصير في قسم الأشعة. الباشمهندس هشام بيكلم كريم، وهو متعصب جداً.",
+  "dialogue": [
+   {
+    "sp": "Eng. Hisham",
+    "en": "Karim, do you know what just happened? Radiology lost power for almost a minute! The CT scanner rebooted in the middle of a scan. Is this the peace of mind you sold us?",
+    "ar": "كريم، إنت عارف إيه اللي لسه حاصل؟ قسم الأشعة الكهربا قطعت عنه حوالي دقيقة! جهاز الأشعة المقطعية عمل ريستارت في نص الفحص. هي دي راحة البال اللي بعتوهالنا؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Eng. Hisham, I'm very sorry. Please tell me exactly what happened. I'm listening.",
+    "ar": "يا باشمهندس هشام، أنا آسف جداً. قولّي بالظبط إيه اللي حصل. أنا سامعك."
+   },
+   {
+    "sp": "Eng. Hisham",
+    "en": "The mains dropped when they switched to the generator, and your UPS did nothing! We had a patient on the table. The radiology manager has been shouting at me for half an hour.",
+    "ar": "الكهربا العمومية وقعت وهما بيحوّلوا على المولد، والـ ‎UPS‎ بتاعكم ماعملش أي حاجة! كان عندنا مريض على الجهاز. ومدير الأشعة بيزعّقلي بقاله نص ساعة."
+   },
+   {
+    "sp": "Karim",
+    "en": "I completely understand why you're upset. If I were in your place, I'd feel the same. Is everything back up and running now?",
+    "ar": "أنا فاهم تماماً إنت متضايق ليه. لو كنت مكانك كنت هحس بنفس الإحساس. هو كل حاجة رجعت اشتغلت دلوقتي؟"
+   },
+   {
+    "sp": "Eng. Hisham",
+    "en": "The scanner is working again, and the patient is fine, thank God. But the scan had to be repeated, and the PACS server was down for twenty minutes.",
+    "ar": "الجهاز رجع اشتغل، والمريض كويس الحمد لله. بس الفحص اتعاد، وسيرفر الـ ‎PACS‎ كان واقف عشرين دقيقة."
+   },
+   {
+    "sp": "Karim",
+    "en": "I'm glad the patient is OK. I'm not going to make excuses. Tarek is on his way to you now, and I'll be there within the hour. We'll get to the bottom of this today.",
+    "ar": "الحمد لله إن المريض بخير. أنا مش هقدّم أعذار. طارق في الطريق ليك دلوقتي، وأنا هكون عندك خلال ساعة. وهنعرف أصل المشكلة النهارده."
+   },
+   {
+    "sp": "Eng. Hisham",
+    "en": "You'd better. I'll be waiting.",
+    "ar": "يا ريت. أنا مستنيك."
+   },
+   {
+    "sp": "Mona",
+    "en": "I heard the end of that. How bad is it?",
+    "ar": "أنا سمعت آخر المكالمة. الموضوع وحش قد إيه؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Bad. A short outage in radiology. He was shouting, and to be honest, I wanted to explain that generators cause transfers like this all the time.",
+    "ar": "وحش. انقطاع قصير في الأشعة. كان بيزعّق، وبصراحة كان نفسي أشرحله إن المولدات بتعمل تحويلات زي دي طول الوقت."
+   },
+   {
+    "sp": "Mona",
+    "en": "Good thing you didn't. When someone is angry, first hear them out. Let them let off steam. Explanations come later, after you know the facts.",
+    "ar": "كويس إنك ماعملتش كده. لما حد يكون متعصب، الأول اسمعه للآخر. سيبه يطلّع اللي جواه. الشرح ييجي بعدين، بعد ما تعرف الحقايق."
+   },
+   {
+    "sp": "Karim",
+    "en": "Right. ... Tarek just called from the site. The UPS showed a 'battery disconnected' alarm since last Thursday. The battery breaker was open.",
+    "ar": "صح. ... طارق لسه كلّمني من الموقع. الـ ‎UPS‎ كان مطلّع إنذار ‎battery disconnected‎ من الخميس اللي فات. قاطع البطاريات كان مفتوح."
+   },
+   {
+    "sp": "Mona",
+    "en": "Last Thursday? That was our preventive visit.",
+    "ar": "الخميس اللي فات؟ ده كان يوم زيارة الصيانة الوقائية بتاعتنا."
+   },
+   {
+    "sp": "Karim",
+    "en": "Exactly. So that's the root cause: after the battery test, nobody closed the breaker, and nobody checked the alarm list before leaving. We dropped the ball.",
+    "ar": "بالظبط. يبقى ده السبب الجذري: بعد اختبار البطاريات، محدش قفل القاطع، ومحدش راجع قايمة الإنذارات قبل ما يمشي. إحنا اللي قصّرنا."
+   },
+   {
+    "sp": "Mona",
+    "en": "Then we take ownership. The buck stops with us, not with the technician, and not with the generator. How are you going to tell Hisham?",
+    "ar": "يبقى نتحمّل المسؤولية. المسؤولية في الآخر علينا، مش على الفني ومش على المولد. هتقول لهشام إزاي؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Face to face, honestly. What happened, why, what we've fixed, and what we'll change so it never happens again.",
+    "ar": "وش لوش، وبصراحة. إيه اللي حصل، وليه، صلّحنا إيه، وهنغيّر إيه علشان ماتتكررش تاني."
+   },
+   {
+    "sp": "Mona",
+    "en": "Good. And keep a cool head in there, even if he starts shouting again. Do you have a plan to put things right?",
+    "ar": "كويس. وخلّي أعصابك هادية جوه، حتى لو بدأ يزعّق تاني. عندك خطة تصلّح بيها الموقف؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Yes. A two-person sign-off checklist after every visit, including the alarm list. And we'll connect all six units to remote monitoring this week, at our cost.",
+    "ar": "أيوه. تشيك ليست بتوقيع اتنين بعد كل زيارة، ومعاها قايمة الإنذارات. وهنوصّل الستة أجهزة كلهم على المراقبة عن بُعد الأسبوع ده، على حسابنا."
+   },
+   {
+    "sp": "Mona",
+    "en": "I'll approve that. We should bend over backwards on this one. Trust is hard to build and very easy to lose.",
+    "ar": "أنا هوافق على ده. لازم نعمل كل اللي نقدر عليه في الحالة دي. الثقة صعب تتبني وسهل أوي تضيع."
+   },
+   {
+    "sp": "Karim",
+    "en": "Agreed. I'll also keep him in the loop: a written report tonight and a daily update until monitoring is live.",
+    "ar": "متفق. وكمان هخليه متابع معانا أول بأول: تقرير مكتوب النهارده بالليل وتحديث يومي لحد ما المراقبة تشتغل."
+   },
+   {
+    "sp": "Eng. Hisham",
+    "en": "(A week later) Karim, I got your final report. I have to say, I didn't expect a supplier to admit a mistake so clearly.",
+    "ar": "(بعد أسبوع) كريم، وصلني التقرير النهائي بتاعك. لازم أقول، ماكنتش متوقع إن مورّد يعترف بغلطته بالوضوح ده."
+   },
+   {
+    "sp": "Karim",
+    "en": "It was our mistake, Eng. Hisham. I'll follow up again next month to review the monitoring alarms with your team.",
+    "ar": "كانت غلطتنا يا باشمهندس هشام. وهتابع معاك تاني الشهر الجاي علشان نراجع إنذارات المراقبة مع فريقك."
+   },
+   {
+    "sp": "Eng. Hisham",
+    "en": "Fine. And you'll be happy to hear I told the radiology manager we're staying with you.",
+    "ar": "تمام. وهيبسطك تعرف إني قلت لمدير الأشعة إننا مكمّلين معاكم."
+   },
+   {
+    "sp": "Mona",
+    "en": "Well done, Karim. That's how you win back trust: not with words, with action and follow-up.",
+    "ar": "برافو يا كريم. هي دي الطريقة اللي بترجّع بيها الثقة: مش بالكلام، بالفعل والمتابعة."
+   }
+  ],
+  "vocab": [
+   {
+    "w": "back up and running",
+    "ar": "رجع يشتغل تاني",
+    "def": "Working normally again after a problem or stop.",
+    "eg": "After we replaced the fan, the server was back up and running in ten minutes."
+   },
+   {
+    "w": "make excuses",
+    "ar": "يقدّم أعذار / يبرّر",
+    "def": "To give reasons to avoid blame for a mistake.",
+    "eg": "Don't make excuses to the client; tell him when the spare part will arrive."
+   },
+   {
+    "w": "get to the bottom of",
+    "ar": "يعرف أصل المشكلة",
+    "def": "To find the real cause of a problem.",
+    "eg": "We tested every cell to get to the bottom of the battery failures."
+   },
+   {
+    "w": "hear someone out",
+    "ar": "يسمع حد للآخر",
+    "def": "To listen to someone completely before you answer.",
+    "eg": "Hear the factory manager out before you explain the VFD settings."
+   },
+   {
+    "w": "let off steam",
+    "ar": "يطلّع اللي جواه / يفضفض",
+    "def": "To express anger or stress so you feel calmer.",
+    "eg": "Let the client let off steam first; then he'll listen to your solution."
+   },
+   {
+    "w": "root cause",
+    "ar": "السبب الجذري",
+    "def": "The main, original reason why a problem happened.",
+    "eg": "The root cause of the overheating was a blocked air filter, not the UPS."
+   },
+   {
+    "w": "drop the ball",
+    "ar": "يقصّر / يغلط في مسؤوليته",
+    "def": "To make a mistake by not doing something you were responsible for.",
+    "eg": "Purchasing dropped the ball and forgot to order the batteries."
+   },
+   {
+    "w": "take ownership",
+    "ar": "يتحمل المسؤولية",
+    "def": "To accept full responsibility for a problem and for fixing it.",
+    "eg": "The site supervisor took ownership of the delay and called the client himself."
+   },
+   {
+    "w": "the buck stops with",
+    "ar": "المسؤولية النهائية على",
+    "def": "The final responsibility belongs to this person or team.",
+    "eg": "It's my project, so the buck stops with me if the handover is late."
+   },
+   {
+    "w": "keep a cool head",
+    "ar": "يفضل هادي الأعصاب",
+    "def": "To stay calm in a difficult or stressful situation.",
+    "eg": "During the data-centre blackout, Tarek kept a cool head and followed the procedure."
+   },
+   {
+    "w": "put things right",
+    "ar": "يصلّح الموقف",
+    "def": "To correct a problem or a mistake.",
+    "eg": "We sent a new inverter free of charge to put things right with the client."
+   },
+   {
+    "w": "bend over backwards",
+    "ar": "يعمل كل اللي يقدر عليه",
+    "def": "To try very hard to help or please someone.",
+    "eg": "The team bent over backwards to finish the solar plant before Ramadan."
+   },
+   {
+    "w": "keep someone in the loop",
+    "ar": "يخلّي حد متابع أول بأول",
+    "def": "To keep giving someone the latest information.",
+    "eg": "Keep the bank's IT manager in the loop about every shutdown."
+   },
+   {
+    "w": "follow up",
+    "ar": "يتابع",
+    "def": "To contact someone again to check or continue something.",
+    "eg": "Follow up with the hospital a week after the battery replacement."
+   },
+   {
+    "w": "win back trust",
+    "ar": "يرجّع الثقة",
+    "def": "To make someone trust you again after a mistake.",
+    "eg": "It took six months of good service to win back the factory's trust."
+   }
+  ],
+  "qa": [
+   {
+    "q": "What happened in radiology?",
+    "a": "It lost power for almost a minute",
+    "opts": [
+     "It lost power for almost a minute",
+     "The generator caught fire"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What did Karim do first on the phone?",
+    "a": "He apologized and listened",
+    "opts": [
+     "He explained how generators work",
+     "He apologized and listened"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What did Karim ask about the equipment?",
+    "a": "If everything was back up and running",
+    "opts": [
+     "If everything was back up and running",
+     "Who had switched off the UPS"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What did Karim promise not to do?",
+    "a": "Make excuses",
+    "opts": [
+     "Visit the site",
+     "Make excuses"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What did Karim promise to do today?",
+    "a": "Get to the bottom of the problem",
+    "opts": [
+     "Get to the bottom of the problem",
+     "Replace all six UPS units"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What is Mona's first rule with an angry customer?",
+    "a": "Hear them out",
+    "opts": [
+     "Explain the technical facts",
+     "Hear them out"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Why should you let a customer let off steam?",
+    "a": "So they calm down and can listen",
+    "opts": [
+     "So they calm down and can listen",
+     "So they forget the problem"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What was the root cause of the outage?",
+    "a": "The battery breaker was left open",
+    "opts": [
+     "The generator was too small",
+     "The battery breaker was left open"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Who dropped the ball, according to Karim?",
+    "a": "Nile Power Care's team",
+    "opts": [
+     "Nile Power Care's team",
+     "The hospital's electricians"
+    ],
+    "k": 0
+   },
+   {
+    "q": "Where does the buck stop, according to Mona?",
+    "a": "With the company",
+    "opts": [
+     "With the technician",
+     "With the company"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What should Karim do if Hisham shouts again?",
+    "a": "Keep a cool head",
+    "opts": [
+     "Keep a cool head",
+     "Leave the meeting"
+    ],
+    "k": 0
+   },
+   {
+    "q": "How will Karim put things right?",
+    "a": "A two-person checklist and free remote monitoring",
+    "opts": [
+     "A discount on next year's contract",
+     "A two-person checklist and free remote monitoring"
+    ],
+    "k": 1
+   },
+   {
+    "q": "How will Karim keep Hisham in the loop?",
+    "a": "A report tonight and daily updates",
+    "opts": [
+     "A report tonight and daily updates",
+     "A phone call next month only"
+    ],
+    "k": 0
+   },
+   {
+    "q": "Why will Karim follow up next month?",
+    "a": "To review monitoring alarms with the team",
+    "opts": [
+     "To sell a new UPS",
+     "To review monitoring alarms with the team"
+    ],
+    "k": 1
+   },
+   {
+    "q": "How do you win back trust, according to Mona?",
+    "a": "With action and follow-up",
+    "opts": [
+     "With action and follow-up",
+     "With a nice apology letter"
+    ],
+    "k": 0
+   }
+  ],
+  "pov": "Retell the day as Karim: the angry call, the cause and how you fixed it. Use: hear someone out, root cause, drop the ball, take ownership, follow up."
+ },
+ "bc13": {
+  "title": "Handling Conflict",
+  "ar": "التعامل مع الخلافات",
+  "intro": "With the hospital calm again, Karim is back on the bank data-centre project. The cabling subcontractor is behind schedule, and the commissioning date is in three weeks. Karim and Mona meet Samir, the subcontractor's project manager.",
+  "introAr": "بعد ما الأمور هديت مع المستشفى، كريم رجع لمشروع الداتا سنتر بتاع البنك. مقاول الكابلات متأخر عن الجدول، وميعاد التشغيل والاستلام بعد تلات أسابيع. كريم ومنى بيقابلوا سمير، مدير المشروع بتاع المقاول.",
+  "dialogue": [
+   {
+    "sp": "Mona",
+    "en": "Before Samir arrives, how bad is the delay, really?",
+    "ar": "قبل ما سمير ييجي، التأخير وحش قد إيه بجد؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Bad. The data cabling is at forty percent, and it should be at eighty. Everything else is waiting for it. It's the bottleneck for the whole project.",
+    "ar": "وحش. كابلات الداتا خلصانة أربعين في المية، والمفروض تبقى تمانين. وكل حاجة تانية مستنياها. هي عنق الزجاجة للمشروع كله."
+   },
+   {
+    "sp": "Mona",
+    "en": "And commissioning is on the fifteenth. The bank has a penalty clause. OK, one rule for today: no pointing fingers. We need a solution, not someone to blame.",
+    "ar": "والتشغيل والاستلام يوم خمستاشر. والبنك عنده شرط غرامة. تمام، قاعدة واحدة النهارده: محدش يرمي اللوم على حد. إحنا محتاجين حل، مش حد نلومه."
+   },
+   {
+    "sp": "Samir",
+    "en": "Good morning. Look, before you start, I know what you're going to say, and it isn't fair. My crew can't work faster when the site isn't ready.",
+    "ar": "صباح الخير. بصوا، قبل ما تبدأوا، أنا عارف انتوا هتقولوا إيه، وده مش عدل. العمال بتوعي مايقدروش يشتغلوا أسرع والموقع مش جاهز."
+   },
+   {
+    "sp": "Karim",
+    "en": "(Feeling his face get hot, then slowing down) Samir, thanks for coming. We're not here to blame anyone. Let's clear the air first. What's stopping your team?",
+    "ar": "(حاسس إن وشه سخن، وبعدين هدّى نفسه) يا سمير، شكراً إنك جيت. إحنا مش هنا علشان نلوم حد. خلّينا نصفّي الجو الأول. إيه اللي موقّف فريقك؟"
+   },
+   {
+    "sp": "Samir",
+    "en": "Two things. The raised floor was finished a week late, and then the bank changed the rack layout. Now I need three more weeks and a variation order for the extra cable.",
+    "ar": "حاجتين. الأرضية المرفوعة خلصت متأخرة أسبوع، وبعدين البنك غيّر ترتيب الراكات. دلوقتي أنا محتاج تلات أسابيع زيادة وأمر تغيير على الكابلات الزيادة."
+   },
+   {
+    "sp": "Mona",
+    "en": "Three weeks means we miss commissioning. That can't be our answer. But I don't want you to take it personally, Samir. Let's understand the problem properly.",
+    "ar": "تلات أسابيع معناها إننا هنفوّت ميعاد التشغيل. ده مش ممكن يبقى الرد بتاعنا. بس مش عايزاك تاخدها على نفسك يا سمير. خلّينا نفهم المشكلة كويس."
+   },
+   {
+    "sp": "Karim",
+    "en": "Can I ask something? Three weeks is your position. But what do you actually need? They say you should put yourself in someone's shoes, and if I do that, I think it's not only time, is it?",
+    "ar": "ممكن أسأل حاجة؟ تلات أسابيع دي موقفك. بس إنت فعلاً محتاج إيه؟ بيقولوا لازم تحط نفسك مكان التاني، ولو عملت كده، أظن الموضوع مش وقت بس، صح؟"
+   },
+   {
+    "sp": "Samir",
+    "en": "(Pauses) Well, to be honest... half my crew is on another project in New Cairo, because that client pays on time. Your last invoice has been waiting for sixty days.",
+    "ar": "(يسكت شوية) بصراحة يعني... نص العمال بتوعي على مشروع تاني في القاهرة الجديدة، علشان العميل ده بيدفع في ميعاده. والفاتورة الأخيرة بتاعتكم مستنية بقالها ستين يوم."
+   },
+   {
+    "sp": "Mona",
+    "en": "Thank you for saying that. So that's the elephant in the room: the payment. And I'm sorry, sixty days is too long.",
+    "ar": "شكراً إنك قلت كده. يبقى ده الموضوع الكبير اللي محدش بيتكلم فيه: الدفع. وأنا آسفة، ستين يوم كتير فعلاً."
+   },
+   {
+    "sp": "Karim",
+    "en": "So we have some common ground. We need the cabling finished by the tenth, and you need your cash flow and a fair deal on the extra work. We both want this project to finish well.",
+    "ar": "يبقى فيه أرضية مشتركة بينا. إحنا محتاجين الكابلات تخلص يوم عشرة، وإنت محتاج السيولة بتاعتك وتسوية عادلة للشغل الزيادة. وإحنا الاتنين عايزين المشروع يخلص كويس."
+   },
+   {
+    "sp": "Samir",
+    "en": "That's true. But the variation order is still a sticking point. The new layout added almost two kilometres of cable.",
+    "ar": "ده صحيح. بس أمر التغيير لسه نقطة خلاف. الترتيب الجديد زوّد حوالي اتنين كيلو كابلات."
+   },
+   {
+    "sp": "Mona",
+    "en": "Here's what I can put on the table. I'll get finance to release your pending invoice this week. The variation we'll measure together and settle after commissioning, based on the real quantities.",
+    "ar": "ده اللي أقدر أقدّمه. هخلّي المالية تصرف الفاتورة المعلّقة بتاعتك الأسبوع ده. وأمر التغيير هنقيسه مع بعض ونسوّيه بعد التشغيل، على حسب الكميات الحقيقية."
+   },
+   {
+    "sp": "Samir",
+    "en": "If the invoice is paid this week, I can bring the second crew back on Sunday. But the tenth is still tight.",
+    "ar": "لو الفاتورة اتدفعت الأسبوع ده، أقدر أرجّع الطاقم التاني يوم الحد. بس يوم عشرة لسه ضيق."
+   },
+   {
+    "sp": "Karim",
+    "en": "Then let's meet halfway on the work. My team can dress and label the power cables inside the racks, so your people only do the data cabling. Tarek can start tomorrow.",
+    "ar": "يبقى نتقابل في النص في الشغل. فريقي يقدر يرتّب ويعلّم كابلات الباور جوه الراكات، علشان الناس بتوعك يعملوا كابلات الداتا بس. طارق يقدر يبدأ بكرة."
+   },
+   {
+    "sp": "Samir",
+    "en": "That would save us four or five days. With two crews and Friday shifts, the tenth is possible.",
+    "ar": "ده هيوفّرلنا أربع خمس أيام. بطاقمين وورديات يوم الجمعة، يوم عشرة ممكن."
+   },
+   {
+    "sp": "Mona",
+    "en": "So we see eye to eye on the date. Karim, can you write it down so there are no surprises later?",
+    "ar": "يبقى إحنا متفقين على الميعاد. كريم، ممكن تكتبه علشان مايبقاش فيه مفاجآت بعدين؟"
+   },
+   {
+    "sp": "Karim",
+    "en": "Sure. Invoice released this week, second crew on Sunday, my team on the power cables, variation measured after commissioning, and a fifteen-minute site check every morning at eight.",
+    "ar": "أكيد. الفاتورة تتصرف الأسبوع ده، الطاقم التاني يوم الحد، فريقي على كابلات الباور، أمر التغيير يتقاس بعد التشغيل، ومتابعة في الموقع ربع ساعة كل يوم الصبح الساعة تمانية."
+   },
+   {
+    "sp": "Samir",
+    "en": "Agreed. Honestly, I came in ready for a fight. This is a win-win, and I didn't expect that.",
+    "ar": "متفقين. بصراحة، أنا جيت وأنا مستعد للخناق. ده حل كسبان للطرفين، وماكنتش متوقعه."
+   },
+   {
+    "sp": "Mona",
+    "en": "Neither of us wants anything to hold up the project. Thanks for being open, Samir.",
+    "ar": "ولا حد فينا عايز أي حاجة تعطّل المشروع. شكراً إنك كنت صريح يا سمير."
+   },
+   {
+    "sp": "Karim",
+    "en": "(After Samir leaves) I nearly lost my temper when he said it wasn't fair. I'm glad I stayed calm.",
+    "ar": "(بعد ما سمير مشي) أنا كنت هفقد أعصابي لما قال إن ده مش عدل. كويس إني فضلت هادي."
+   },
+   {
+    "sp": "Mona",
+    "en": "You did well. You managed to keep your cool, and you stopped arguing about positions and asked about his interests. That's what gave us a way forward.",
+    "ar": "إنت عملت كويس. قدرت تفضل هادي، وبطّلت تتخانق على المواقف وسألت عن مصالحه. وده اللي ادّانا طريق للحل."
+   }
+  ],
+  "vocab": [
+   {
+    "w": "bottleneck",
+    "ar": "عنق الزجاجة",
+    "def": "One slow part that delays the whole process.",
+    "eg": "The single crane on site became the bottleneck for installing the solar panels."
+   },
+   {
+    "w": "point fingers",
+    "ar": "يرمي اللوم على حد",
+    "def": "To blame other people for a problem.",
+    "eg": "Instead of pointing fingers at the supplier, let's find another source for the breakers."
+   },
+   {
+    "w": "clear the air",
+    "ar": "يصفّي الجو",
+    "def": "To talk openly to remove tension or misunderstanding.",
+    "eg": "After the argument over overtime, the supervisor met the technicians to clear the air."
+   },
+   {
+    "w": "variation order",
+    "ar": "أمر تغيير (شغل إضافي)",
+    "def": "A formal change to a contract's work, usually with extra cost or time.",
+    "eg": "The client added two inverters, so we issued a variation order."
+   },
+   {
+    "w": "take it personally",
+    "ar": "ياخدها على نفسه",
+    "def": "To feel hurt because you think criticism is about you.",
+    "eg": "Don't take it personally; the client complains about every contractor."
+   },
+   {
+    "w": "put yourself in someone's shoes",
+    "ar": "يحط نفسه مكان حد",
+    "def": "To imagine how another person feels in their situation.",
+    "eg": "Put yourself in the hospital's shoes: one minute without power is a disaster."
+   },
+   {
+    "w": "the elephant in the room",
+    "ar": "الموضوع الكبير اللي محدش بيتكلم فيه",
+    "def": "A big, obvious problem that people avoid talking about.",
+    "eg": "The elephant in the room was the budget cut, and nobody mentioned it."
+   },
+   {
+    "w": "common ground",
+    "ar": "أرضية مشتركة",
+    "def": "Things two sides agree on or both want.",
+    "eg": "Our common ground with the factory is that nobody wants the line to stop."
+   },
+   {
+    "w": "sticking point",
+    "ar": "نقطة خلاف",
+    "def": "A problem that stops people from reaching agreement.",
+    "eg": "The payment schedule was the only sticking point in the solar contract."
+   },
+   {
+    "w": "put on the table",
+    "ar": "يقدّم / يطرح للنقاش",
+    "def": "To offer something for discussion in a negotiation.",
+    "eg": "We put a free training day on the table to close the deal."
+   },
+   {
+    "w": "meet halfway",
+    "ar": "يتقابلوا في النص",
+    "def": "To agree to a compromise where each side gives something.",
+    "eg": "The client wanted six weeks, we wanted four, so we met halfway at five."
+   },
+   {
+    "w": "see eye to eye",
+    "ar": "متفقين في الرأي",
+    "def": "To agree completely with someone.",
+    "eg": "Karim and the IT manager finally saw eye to eye on the shutdown date."
+   },
+   {
+    "w": "win-win",
+    "ar": "مكسب للطرفين",
+    "def": "A result that is good for both sides.",
+    "eg": "Sharing the crane with the other contractor was a win-win for both projects."
+   },
+   {
+    "w": "hold up",
+    "ar": "يعطّل / يأخّر",
+    "def": "To delay something or stop it from moving forward.",
+    "eg": "Customs held up the batteries for ten days."
+   },
+   {
+    "w": "keep your cool",
+    "ar": "يفضل هادي",
+    "def": "To stay calm and not get angry.",
+    "eg": "Even when the client shouted, Laila kept her cool and took notes."
+   },
+   {
+    "w": "a way forward",
+    "ar": "طريق للحل / خطوة جاية",
+    "def": "A practical plan for what to do next.",
+    "eg": "After the failed test, the engineers agreed on a way forward by Monday."
+   }
+  ],
+  "qa": [
+   {
+    "q": "Why is the data cabling the bottleneck?",
+    "a": "Everything else is waiting for it",
+    "opts": [
+     "Everything else is waiting for it",
+     "It is the most expensive item"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What is Mona's rule for the meeting?",
+    "a": "No pointing fingers",
+    "opts": [
+     "Always talk about penalties first",
+     "No pointing fingers"
+    ],
+    "k": 1
+   },
+   {
+    "q": "How does Karim react when Samir says it isn't fair?",
+    "a": "He slows down and offers to clear the air",
+    "opts": [
+     "He slows down and offers to clear the air",
+     "He raises his voice"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Samir first ask for?",
+    "a": "Three more weeks and a variation order",
+    "opts": [
+     "A new rack layout",
+     "Three more weeks and a variation order"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What does Mona not want Samir to do?",
+    "a": "Take it personally",
+    "opts": [
+     "Take it personally",
+     "Bring a second crew"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Karim do to understand Samir?",
+    "a": "He puts himself in Samir's shoes",
+    "opts": [
+     "He reads the contract aloud",
+     "He puts himself in Samir's shoes"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What is the elephant in the room?",
+    "a": "The unpaid invoice",
+    "opts": [
+     "The unpaid invoice",
+     "The raised floor"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What common ground do both sides have?",
+    "a": "They want the project to finish well",
+    "opts": [
+     "They both want a longer schedule",
+     "They want the project to finish well"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What is still a sticking point for Samir?",
+    "a": "The variation order for extra cable",
+    "opts": [
+     "The variation order for extra cable",
+     "The Friday shifts"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does Mona put on the table?",
+    "a": "Releasing the invoice this week",
+    "opts": [
+     "A bonus for every crew member",
+     "Releasing the invoice this week"
+    ],
+    "k": 1
+   },
+   {
+    "q": "How does Karim meet Samir halfway?",
+    "a": "His team takes the power cables in the racks",
+    "opts": [
+     "His team takes the power cables in the racks",
+     "He moves the commissioning date"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What do they see eye to eye on?",
+    "a": "Finishing the cabling by the tenth",
+    "opts": [
+     "Cancelling the penalty clause",
+     "Finishing the cabling by the tenth"
+    ],
+    "k": 1
+   },
+   {
+    "q": "Why does Samir call the result a win-win?",
+    "a": "Both sides get what they really need",
+    "opts": [
+     "Both sides get what they really need",
+     "Only his company gains"
+    ],
+    "k": 0
+   },
+   {
+    "q": "What does neither side want?",
+    "a": "Anything to hold up the project",
+    "opts": [
+     "The project to finish early",
+     "Anything to hold up the project"
+    ],
+    "k": 1
+   },
+   {
+    "q": "What gave them a way forward, according to Mona?",
+    "a": "Asking about interests, not positions",
+    "opts": [
+     "Asking about interests, not positions",
+     "Threatening a penalty"
+    ],
+    "k": 0
+   }
+  ],
+  "pov": "Retell the meeting as Karim: how you and Mona solved the cabling delay with Samir. Use: bottleneck, point fingers, the elephant in the room, meet halfway, win-win."
+ }
+}
