@@ -258,7 +258,21 @@ a{color:inherit}
 @media (max-width:560px){.dd{grid-template-columns:1fr}}
 .story-hero h2{font-size:clamp(26px,4vw,34px);margin:6px 0 4px}
 .story{font-size:19px;line-height:1.8;max-width:65ch;margin:14px 0}
-.story p{margin:0 0 10px}
+.story p{margin:0 0 10px;padding:4px 8px;margin-inline:-8px;border-radius:10px;cursor:pointer;transition:background .2s}
+.story p.on{background:var(--saffron-soft)}
+.story-play{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin-top:14px}.story-play .btn svg{width:16px;height:16px;vertical-align:-2px}
+.spk{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--cobalt-soft);color:var(--cobalt);vertical-align:middle;margin-inline-start:6px;cursor:pointer;flex:none}
+.spk svg{width:15px;height:15px}.spk.big{width:48px;height:48px}.spk.big svg{width:22px;height:22px}
+.spk:hover,.spk:focus-visible{outline:2px solid var(--cobalt);outline-offset:1px}
+.vpick{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:14px 0}
+.vpick .kicker{width:100%}
+.vpick button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:8px 14px;font:inherit;font-size:14px;font-weight:600;cursor:pointer}
+.vpick button[aria-pressed="true"]{background:var(--cobalt);border-color:var(--cobalt);color:#fff}
+.vbtn{border:0;background:var(--cobalt-soft);color:var(--cobalt);border-radius:999px;padding:6px 12px;font:inherit;font-size:13px;font-weight:700;cursor:pointer;white-space:nowrap}
+@media (max-width:520px){.vbtn span{display:none}}
+@media (max-width:430px){.stat.s{display:none}}
+.say-note{font-size:13px;color:var(--muted);margin:4px 0 0}
+.msg small .spk{width:24px;height:24px}.msg small .spk svg{width:12px;height:12px}
 .techw{margin-top:14px}.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
 .chip{display:inline-flex;flex-direction:column;gap:2px;padding:8px 12px;border-radius:12px;background:var(--cobalt-soft);font-size:14px}
 .chip b{color:var(--cobalt)}.chip .ar{font-size:13px;color:var(--muted)}
@@ -288,6 +302,7 @@ footer{margin-top:40px;border-top:1px solid var(--line);padding-block:26px;color
     <a href="#/">Home</a><a href="#/path">Learning path</a><a href="#/lessons">Lessons</a><a href="#/phrases">My phrases</a><a href="#/stories">Stories</a><a href="#/decoder">Office talk</a>
   </nav>
   <div class="stats">
+    <button class="vbtn" id="vbtn" title="Listening level — tap to change" onclick="const i=VOICES.findIndex(v=>v[0]===VOICE);const n=VOICES.filter(v=>typeof SAY!=='undefined'&&SAY[v[0]]);const cur=n.findIndex(v=>v[0]===VOICE);setVoice((n[(cur+1)%n.length]||VOICES[0])[0])"></button>
     <span class="stat s" title="Day streak"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c1 4 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3-1-6 1-9z"/></svg><span id="s-streak">0</span></span>
     <span class="stat x" title="XP"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg><span id="s-xp">0</span></span>
   </div>
@@ -1180,6 +1195,407 @@ const STORY_MORE={
  }
 };
 
+/* MINI STORIES — part 2: one story for every remaining lesson, each in a different technical field. */
+Object.assign(STORY_MORE,{
+ pi1:{ field:"Generators & ATS", hero:"Mostafa", icon:"🛢️",
+  title:"The call during the blackout", ar:"المكالمة اللي جت وقت انقطاع الكهربا",
+  scene:"Mostafa maintains standby generators. A recruiter calls him at the worst possible moment.",
+  words:["tied up","call you back","tell me a little about yourself","thrive on new challenges","goal-oriented and ambitious","self-starter","detail-oriented"],
+  tech:[["standby generator","مولد احتياطي"],["ATS (automatic transfer switch)","مفتاح التحويل الأوتوماتيكي"],["starting battery","بطارية التشغيل"],["battery terminal","طرف (قطب) البطارية"],["load test","اختبار على حمل"]],
+  lines:[
+   "Mostafa is a generator technician. He looks after twenty standby generators in shopping malls and office towers in New Cairo.",
+   "One evening, the power went off in a big mall. The generator was supposed to start in ten seconds. It didn't.",
+   "Mostafa was standing in the dark generator room when his phone rang. It was a recruiter from an energy company.",
+   "\"I'm a little tied up just now,\" he said. \"Is it OK if I call you back in an hour?\"",
+   "He is very detail-oriented, so he checked everything, step by step. The fuel was full. The ATS was fine.",
+   "Then he found it: a loose, dirty terminal on the starting battery. The generator couldn't get enough current to start.",
+   "He cleaned and tightened the terminal. The engine started, the ATS transferred the load, and the lights came back on.",
+   "An hour later, he called the recruiter back. \"Can you tell me a little about yourself?\" she asked.",
+   "\"I thrive on new challenges,\" Mostafa said. \"Tonight, for example, a generator failed to start during a blackout.\"",
+   "\"I'm also a self-starter. Nobody asked me, but I created a monthly load test for all twenty generators.\"",
+   "\"I'm goal-oriented and ambitious. My goal this year is zero failed starts.\"",
+   "The recruiter smiled. \"Tonight wasn't zero,\" she said. \"But it sounds like you're the right person to get there.\""
+  ],
+  qa:[
+   {q:"What does Mostafa look after?", a:"Twenty standby generators in malls and office towers.", opts:["Generators","Elevators"], k:0},
+   {q:"What happened in the mall?", a:"The power went off, and the generator didn't start.", opts:["A fire","A blackout"], k:1},
+   {q:"How fast was the generator supposed to start?", a:"In ten seconds.", opts:["Ten seconds","Ten minutes"], k:0},
+   {q:"Who called him?", a:"A recruiter from an energy company.", opts:["His mother","A recruiter"], k:1},
+   {q:"Could he talk right then?", a:"No. He was a little tied up, so he asked to call her back.", opts:["Yes","No, he was tied up"], k:1},
+   {q:"Was the fuel tank empty?", a:"No, the fuel was full. And the ATS was fine.", opts:["Empty","Full"], k:1},
+   {q:"What was the real problem?", a:"A loose, dirty terminal on the starting battery.", opts:["A battery terminal","No fuel"], k:0},
+   {q:"How did he find it?", a:"He's detail-oriented — he checked everything, step by step.", opts:["By luck","Step by step"], k:1},
+   {q:"Did he call the recruiter back?", a:"Yes, an hour later.", opts:["Yes","No"], k:0},
+   {q:"What does he thrive on?", a:"He thrives on new challenges.", opts:["New challenges","Long holidays"], k:0},
+   {q:"Did someone ask him to create the load test?", a:"No! He's a self-starter — nobody asked him.", opts:["Yes, his boss","No, nobody asked"], k:1},
+   {q:"What's his goal this year?", a:"Zero failed starts. He's goal-oriented and ambitious.", opts:["Zero failed starts","More overtime"], k:0}
+  ],
+  pov:"Now be Mostafa on the phone: \"I'm a little tied up just now — is it OK if I call you back?… I thrive on new challenges… I'm a self-starter… I'm detail-oriented… I'm goal-oriented and ambitious.\""
+ },
+
+ pi3:{ field:"EV chargers", hero:"Dina", icon:"🚗",
+  title:"The charger that must never sleep", ar:"الشاحن اللي لازم يفضل شغال",
+  scene:"Dina is an electrical engineer. An electric-car charging company wants to hire her, and now it's time to talk money.",
+  words:["fan of your products","somewhere between","open to negotiating based on the entire package","Benefits matter to me as well","give me an idea of the salary range","next steps in the process","most important indicator of success"],
+  tech:[["EV (electric vehicle)","عربية كهربا"],["DC fast charger","شاحن سريع DC"],["uptime","نسبة وقت التشغيل"],["connector","الوصلة (الفيشة)"],["remote reset","إعادة تشغيل عن بُعد"]],
+  lines:[
+   "Dina is an electrical engineer. For three years, she has maintained UPS systems and power panels in office buildings.",
+   "Now an electric-car charging company wants to hire her. They are installing DC fast chargers on the roads between Cairo and the coast.",
+   "In the interview, she said, \"I've always been a fan of your products. I charged my brother's car at your station in Sokhna.\"",
+   "Then the manager asked about salary. Dina asked first: \"Could you give me an idea of the salary range for this role?\"",
+   "The manager told her. Dina said, \"I'm looking for somewhere between 35,000 and 42,000 pounds a month.\"",
+   "\"But I'm open to negotiating based on the entire package. Benefits matter to me as well — medical insurance, a car and training.\"",
+   "Then it was her turn. \"What is the most important indicator of success in this position?\"",
+   "\"Uptime,\" said the manager. \"A driver with an empty battery can't wait. Our chargers must work 98% of the time.\"",
+   "\"Most faults are simple: a damaged connector, a network problem, or a charger that needs a remote reset.\"",
+   "Dina smiled. \"That's like UPS work. The load must never lose power, so you check, you monitor, and you fix before it fails.\"",
+   "Finally, she asked, \"What are the next steps in the process?\" — \"A technical test next week,\" said the manager, \"at the Sokhna station.\""
+  ],
+  qa:[
+   {q:"What has Dina maintained for three years?", a:"UPS systems and power panels in office buildings.", opts:["UPS systems","Cars"], k:0},
+   {q:"What does the new company install?", a:"DC fast chargers for electric cars.", opts:["EV chargers","Solar panels"], k:0},
+   {q:"Is she a fan of their products?", a:"Yes — she charged her brother's car at their station in Sokhna.", opts:["Yes","No"], k:0},
+   {q:"Who talked about the salary range first?", a:"Dina asked: \"Could you give me an idea of the salary range?\"", opts:["Dina asked","She never asked"], k:0},
+   {q:"What salary is she looking for?", a:"Somewhere between 35,000 and 42,000 pounds a month.", opts:["Exactly 35,000","Between 35,000 and 42,000"], k:1},
+   {q:"Is her number fixed?", a:"No. She's open to negotiating based on the entire package.", opts:["Fixed","Open to negotiating"], k:1},
+   {q:"Does she care only about salary?", a:"No. Benefits matter to her as well — insurance, a car and training.", opts:["Only salary","Benefits too"], k:1},
+   {q:"What's the most important indicator of success?", a:"Uptime — the chargers must work 98% of the time.", opts:["Uptime","Number of emails"], k:0},
+   {q:"Why is uptime so important?", a:"Because a driver with an empty battery can't wait.", opts:["Drivers can't wait","It isn't important"], k:0},
+   {q:"Are most faults complicated?", a:"No, most are simple: a connector, the network, or a remote reset.", opts:["Very complicated","Mostly simple"], k:1},
+   {q:"Why is this job like UPS work?", a:"Because the load must never lose power — you monitor and fix before it fails.", opts:["Power must never stop","It's in an office"], k:0},
+   {q:"What's the next step in the process?", a:"A technical test next week at the Sokhna station.", opts:["A technical test","Nothing"], k:0}
+  ],
+  pov:"Now be Dina: \"I've always been a fan of your products… I'm looking for somewhere between… and… I'm open to negotiating based on the entire package… What are the next steps in the process?\""
+ },
+
+ ff2:{ field:"Transformers & telecom sites", hero:"Laila", icon:"🗼",
+  title:"Two internships and a village pump", ar:"تدريبين وطلمبة للقرية",
+  scene:"Laila is a fresh graduate in electrical power engineering. In her first interview, she talks about her grades, her internships — and a mistake.",
+  words:["grades reflect my work","not necessarily a good indication","not an easy feat","managed to succeed","serve my community","voracious reader","two internships under my belt","take ownership of my actions"],
+  tech:[["transformer","محوّل كهربا"],["oil test","تحليل زيت المحول"],["telecom tower site","موقع برج اتصالات"],["rectifier","الريكتيفاير (موحّد التيار)"],["solar water pump","طلمبة مياه بالطاقة الشمسية"]],
+  lines:[
+   "Laila studied electrical power engineering in Assiut. Now she is in her first job interview.",
+   "\"Your grades are good, but not excellent,\" said the manager. \"Why?\"",
+   "\"I think my grades reflect my work in the subjects I love, like power systems,\" Laila said. \"But grades are not necessarily a good indication of what I can achieve.\"",
+   "\"I have two internships under my belt.\" The first was in a transformer workshop. She helped with oil tests and learned how heat and moisture damage a transformer.",
+   "The second was on telecom tower sites. She checked rectifiers, batteries and small generators in the desert heat.",
+   "In her free time, Laila volunteers. \"It allows me to serve my community,\" she said.",
+   "Last summer, her team installed a solar water pump for a village school. They had almost no money and no crane. It was not an easy feat, but they managed to succeed.",
+   "\"And I have always been a voracious reader,\" she added. \"I read manuals for fun!\"",
+   "Then the manager asked, \"Tell me about a mistake.\"",
+   "\"On a tower site, I labelled two battery cables the wrong way round. My supervisor found it before power-up.\"",
+   "\"I didn't hide it. I told the team, fixed the labels and made a checklist. I learned how to take ownership of my actions.\"",
+   "The manager wrote one word in his notes: honest."
+  ],
+  qa:[
+   {q:"What did Laila study?", a:"Electrical power engineering, in Assiut.", opts:["Power engineering","Medicine"], k:0},
+   {q:"Are her grades excellent?", a:"Good, but not excellent.", opts:["Excellent","Good, not excellent"], k:1},
+   {q:"Are grades everything?", a:"No. They're not necessarily a good indication of what she can achieve.", opts:["Yes","No"], k:1},
+   {q:"How many internships does she have under her belt?", a:"Two internships.", opts:["One","Two"], k:1},
+   {q:"What did she do in the transformer workshop?", a:"She helped with oil tests.", opts:["Oil tests","Painting"], k:0},
+   {q:"What did she check on the tower sites?", a:"Rectifiers, batteries and small generators.", opts:["Rectifiers and batteries","Mobile phones"], k:0},
+   {q:"Why does she volunteer?", a:"It allows her to serve her community.", opts:["To serve her community","For money"], k:0},
+   {q:"What did her team install?", a:"A solar water pump for a village school.", opts:["A solar pump","A swimming pool"], k:0},
+   {q:"Was it easy?", a:"No, it was not an easy feat — no money, no crane. But they managed to succeed.", opts:["Easy","Not an easy feat"], k:1},
+   {q:"What does she read for fun?", a:"Manuals! She's a voracious reader.", opts:["Manuals","Nothing"], k:0},
+   {q:"What was her mistake?", a:"She labelled two battery cables the wrong way round.", opts:["Wrong cable labels","She was late"], k:0},
+   {q:"Did she hide the mistake?", a:"No. She told the team and made a checklist — she took ownership of her actions.", opts:["She hid it","She took ownership"], k:1},
+   {q:"What word did the manager write?", a:"Honest.", opts:["Honest","Lazy"], k:0}
+  ],
+  pov:"Now be Laila: \"My grades are not necessarily a good indication of what I can achieve… I have two internships under my belt… It was not an easy feat, but I managed to succeed… I learned how to take ownership of my actions.\""
+ },
+
+ ff3:{ field:"Electrical panels & safety", hero:"Tamer", icon:"⚡",
+  title:"The hot breaker", ar:"البريكر السخن",
+  scene:"Tamer is a new maintenance engineer. His thermal camera finds a problem — and his manager asks him to take a dangerous shortcut.",
+  words:["bring a lot to the table","play by the rules","follow company guidelines","go-to person","further job progression","fast learner","keen to acquire new skills","critical of myself","OK to say no"],
+  tech:[["main switchboard","اللوحة الرئيسية"],["circuit breaker","بريكر (قاطع)"],["thermal camera","كاميرا حرارية"],["hot spot","نقطة سخونة"],["LOTO (lock-out/tag-out)","عزل وقفل وتعليق كارت أمان"],["torque","عزم الربط"]],
+  lines:[
+   "Tamer joined a factory six months ago as a junior maintenance engineer. As a fresh graduate, he knew he could bring a lot to the table.",
+   "He's a fast learner and very keen to acquire new skills, so he took a course in thermal imaging.",
+   "One Tuesday, he pointed his thermal camera at the main switchboard. One breaker was 95°C. The others were 40.",
+   "It was a hot spot — a loose cable connection. If nobody fixed it, it could start a fire.",
+   "His manager said, \"Just tighten it now. Don't stop the production line.\"",
+   "But the panel was live. Tamer always plays by the rules and follows company guidelines: never work on a live panel.",
+   "\"I'm sorry,\" he said. \"I've learned that it's OK to say no. Let's shut it down safely on Friday, when the line stops.\"",
+   "Until Friday, he checked the breaker every two hours with the camera.",
+   "On Friday, the team followed LOTO: switch off, lock, tag, test. Then Tamer tightened the cable to the correct torque.",
+   "The next scan showed 42°C. Problem solved — and nobody got hurt.",
+   "Tamer can be quite critical of himself. \"I should have scanned that panel months ago,\" he said. So he made a monthly thermal-scan schedule for every panel in the factory.",
+   "Now he wants to be the go-to person for solving problems — and he'd be interested in further job progression, maybe to reliability engineer."
+  ],
+  qa:[
+   {q:"How long has Tamer worked at the factory?", a:"Six months. He's a fresh graduate.", opts:["Six months","Six years"], k:0},
+   {q:"What course did he take?", a:"Thermal imaging — he's keen to acquire new skills.", opts:["Thermal imaging","Cooking"], k:0},
+   {q:"How hot was the bad breaker?", a:"95°C. The others were 40.", opts:["45°C","95°C"], k:1},
+   {q:"What caused the hot spot?", a:"A loose cable connection.", opts:["A loose connection","The sun"], k:0},
+   {q:"What could happen if nobody fixed it?", a:"It could start a fire.", opts:["A fire","Nothing"], k:0},
+   {q:"What did his manager want?", a:"To tighten it now, without stopping production.", opts:["Tighten it now","Wait a year"], k:0},
+   {q:"Did Tamer work on the live panel?", a:"No. He plays by the rules — never work on a live panel.", opts:["Yes","No"], k:1},
+   {q:"What has Tamer learned?", a:"That it's OK to say no.", opts:["It's OK to say no","Always say yes"], k:0},
+   {q:"What did he do until Friday?", a:"He checked the breaker every two hours with the camera.", opts:["Nothing","Checked it every two hours"], k:1},
+   {q:"What is LOTO?", a:"Switch off, lock, tag and test — before you touch anything.", opts:["A safety procedure","A lottery"], k:0},
+   {q:"What was the temperature after the fix?", a:"42°C. Problem solved.", opts:["42°C","95°C"], k:0},
+   {q:"Is Tamer easy on himself?", a:"No. He can be quite critical of himself.", opts:["Very easy","Quite critical"], k:1},
+   {q:"What does he want to be?", a:"The go-to person for solving problems.", opts:["The go-to person","Invisible"], k:0}
+  ],
+  pov:"Now be Tamer in an interview: \"As a fresh graduate, I bring a lot to the table… I always play by the rules and follow company guidelines… I've learned that it's OK to say no… I want to be the go-to person for solving problems.\""
+ },
+
+ in1:{ field:"Battery monitoring (IoT)", hero:"Rania", icon:"📡",
+  title:"The sensor on every battery", ar:"الحسّاس اللي على كل بطارية",
+  scene:"Rania manages a new product: a small sensor that watches every battery in a UPS. Now she wants a bigger job in the same company.",
+  words:["in charge of managing the creation and release of new products","quite varied","to ensure we stay on schedule","reached a plateau","oversee the day-to-day operations","eager to leverage my expertise","aligns perfectly with my career goals"],
+  tech:[["battery monitoring system","نظام مراقبة البطاريات"],["internal resistance","المقاومة الداخلية"],["sensor","حسّاس"],["dashboard","لوحة المتابعة"],["firmware","السوفتوير الداخلي للجهاز"],["field test","تجربة في الموقع"]],
+  lines:[
+   "Rania works at a company that makes UPS systems. She is in charge of managing the creation and release of new products.",
+   "Her latest product is a small battery sensor. You put one on every battery in a UPS, and it measures voltage, temperature and internal resistance.",
+   "When a battery starts to get weak, its internal resistance goes up. The sensor sees it months before the battery fails.",
+   "Her days are usually quite varied. On Monday, she talks to the engineers about the firmware. On Tuesday, she visits a data centre for a field test.",
+   "Every morning, she has a short call with the factory to ensure they stay on schedule.",
+   "The launch was a success. Three banks bought the sensors in the first month, and one found forty weak batteries before a power cut.",
+   "But after four years, Rania feels she has reached a plateau in her growth.",
+   "Now the company wants a new operations manager for the monitoring centre — a room with big screens and a dashboard for every customer's batteries.",
+   "In her internal interview, Rania said, \"In this role, I would oversee the day-to-day operations of the monitoring centre.\"",
+   "\"I built this product, so I'm eager to leverage my expertise to make the service even better.\"",
+   "\"And honestly, this role aligns perfectly with my career goals.\""
+  ],
+  qa:[
+   {q:"What is Rania in charge of?", a:"Managing the creation and release of new products.", opts:["New products","The cafeteria"], k:0},
+   {q:"What is her latest product?", a:"A small sensor for every battery in a UPS.", opts:["A battery sensor","A phone app"], k:0},
+   {q:"What does the sensor measure?", a:"Voltage, temperature and internal resistance.", opts:["Voltage and temperature","Only the weather"], k:0},
+   {q:"What happens to internal resistance when a battery gets weak?", a:"It goes up.", opts:["It goes up","It goes down"], k:0},
+   {q:"Are her days all the same?", a:"No, they're usually quite varied.", opts:["All the same","Quite varied"], k:1},
+   {q:"Why does she call the factory every morning?", a:"To ensure they stay on schedule.", opts:["To stay on schedule","To chat"], k:0},
+   {q:"How many banks bought the sensors in the first month?", a:"Three banks.", opts:["Three","Thirty"], k:0},
+   {q:"How many weak batteries did one bank find?", a:"Forty — before a power cut!", opts:["Four","Forty"], k:1},
+   {q:"How does Rania feel after four years?", a:"She feels she has reached a plateau in her growth.", opts:["Reached a plateau","Very new"], k:0},
+   {q:"What is the new role?", a:"Operations manager for the monitoring centre.", opts:["Operations manager","Driver"], k:0},
+   {q:"What would she do in that role?", a:"Oversee the day-to-day operations of the monitoring centre.", opts:["Oversee operations","Sell cars"], k:0},
+   {q:"Why is she eager?", a:"She built the product, so she's eager to leverage her expertise.", opts:["To leverage her expertise","To travel"], k:0},
+   {q:"Does the role fit her plans?", a:"Yes — it aligns perfectly with her career goals.", opts:["Yes, perfectly","Not at all"], k:0}
+  ],
+  pov:"Now be Rania: \"I'm in charge of managing the creation and release of new products… My days are usually quite varied… I've reached a plateau in my growth… I'm eager to leverage my expertise… It aligns perfectly with my career goals.\""
+ },
+
+ ex1:{ field:"Data-centre build", hero:"Sherif", icon:"🏗️",
+  title:"Forty days to power on", ar:"٤٠ يوم علشان الداتا سنتر يشتغل",
+  scene:"Sherif builds data centres. In a senior interview, he tells the story of his hardest project.",
+  words:["heard great things about your work","worked my way up","significant impact on the company's bottom line","complex project with many moving parts","diverse background","led my team","reiterate my enthusiasm"],
+  tech:[["Tier III","مستوى اعتمادية للداتا سنتر"],["commissioning","الاستلام والتشغيل التجريبي"],["fire suppression","نظام إطفاء الحريق"],["load bank","حمل صناعي للاختبار"],["handover","التسليم"]],
+  lines:[
+   "Sherif is interviewing for director of engineering at a large telecom company.",
+   "The CEO began, \"I've heard great things about your work on the Smart Village data centre.\"",
+   "\"Thank you,\" said Sherif. \"I started as a site electrician twenty years ago, and I worked my way up to my current role.\"",
+   "\"I have a diverse background in the industry: power, cooling, networks — and a few years in sales.\"",
+   "Then he told the story. The data centre was a Tier III project, and the client wanted it running in forty days.",
+   "It was a complex project with many moving parts: two generators, four UPS modules, six chillers, fire suppression and three hundred racks.",
+   "Every supplier had a different schedule. The generators arrived late, and the chillers arrived early with no place to put them.",
+   "Sherif held a stand-up meeting every morning at seven. Every problem had an owner and a deadline.",
+   "For commissioning, his team tested everything with load banks: they cut the utility power again and again and watched the UPS and generators take over.",
+   "The handover was on day thirty-nine. The client signed two more sites, and it had a significant impact on the company's bottom line.",
+   "\"In the same year, I led my team to exceed sales targets by thirty percent.\"",
+   "At the end, Sherif said, \"I'd like to reiterate my enthusiasm for the role. I'd love to build your next ten sites.\""
+  ],
+  qa:[
+   {q:"What role is Sherif interviewing for?", a:"Director of engineering at a telecom company.", opts:["Director","Intern"], k:0},
+   {q:"What has the CEO heard?", a:"Great things about his work on the Smart Village data centre.", opts:["Great things","Bad news"], k:0},
+   {q:"How did Sherif start?", a:"As a site electrician. He worked his way up.", opts:["As a site electrician","As a CEO"], k:0},
+   {q:"Is his background narrow?", a:"No, it's diverse: power, cooling, networks and sales.", opts:["Narrow","Diverse"], k:1},
+   {q:"How many days did the client give him?", a:"Forty days.", opts:["Forty","Four hundred"], k:0},
+   {q:"Was it a simple project?", a:"No. It was a complex project with many moving parts.", opts:["Simple","Complex"], k:1},
+   {q:"Which equipment arrived late?", a:"The generators.", opts:["The generators","The chillers"], k:0},
+   {q:"When was the daily meeting?", a:"Every morning at seven.", opts:["At seven","At midnight"], k:0},
+   {q:"What did they test with during commissioning?", a:"Load banks — they cut the power again and again.", opts:["Load banks","Nothing"], k:0},
+   {q:"When was the handover?", a:"On day thirty-nine — one day early.", opts:["Day 39","Day 60"], k:0},
+   {q:"What was the impact on the company?", a:"A significant impact on the bottom line — two more sites.", opts:["Significant","None"], k:0},
+   {q:"What did he want to reiterate?", a:"His enthusiasm for the role.", opts:["His enthusiasm","His complaints"], k:0}
+  ],
+  pov:"Now be Sherif: \"I worked my way up to my current role… It was a complex project with many moving parts… It had a significant impact on the company's bottom line… I'd like to reiterate my enthusiasm for the role.\""
+ },
+
+ em1:{ field:"CCTV & security systems", hero:"Mahmoud", icon:"📹",
+  title:"The camera that forgot everything", ar:"الكاميرا اللي نسيت كل حاجة",
+  scene:"Mahmoud looks after the CCTV system at a hotel. Three days of video are missing, and he needs help from a stranger — by email.",
+  words:["subject line","I hope this email finds you well","I was referred to you by","The purpose of this email is to address","reaching out to you today to ask a quick question","look forward to hearing back from you soon"],
+  tech:[["CCTV","كاميرات المراقبة"],["NVR (network video recorder)","جهاز تسجيل الكاميرات"],["hard disk / RAID","الهارد ديسك / مصفوفة الهاردات"],["footage","التسجيلات"],["firmware update","تحديث السوفتوير الداخلي"]],
+  lines:[
+   "Mahmoud is the security-systems technician at a big hotel in Hurghada. He looks after 180 cameras and four NVRs.",
+   "One morning, the manager asked for video from the car park. A guest's car had been damaged.",
+   "Mahmoud opened the NVR. There was no footage for the last three days.",
+   "He checked the hard disks. One disk in the RAID had failed, and after a firmware update, the NVR had stopped recording.",
+   "He needed an expert. A friend at another hotel gave him the name of the supplier's senior engineer, Mr. Adel.",
+   "Mahmoud wrote the email carefully. First, he made sure the subject line was clear: \"NVR stopped recording after firmware update — urgent\".",
+   "\"Dear Mr. Adel, I hope this email finds you well. I was referred to you by Hassan Fathy at the Sunrise Hotel.\"",
+   "\"The purpose of this email is to address a recording failure on two of our NVRs.\"",
+   "\"I'm also reaching out to you today to ask a quick question: can the missing footage be recovered from the failed disk?\"",
+   "\"I have attached the logs and photos. I look forward to hearing back from you soon.\"",
+   "Mr. Adel replied in one hour. The footage was lost, but he sent a fix for the firmware — and Mahmoud added an alarm that tells him when any camera stops recording."
+  ],
+  qa:[
+   {q:"Where does Mahmoud work?", a:"At a big hotel in Hurghada.", opts:["A hotel","A hospital"], k:0},
+   {q:"How many cameras does he look after?", a:"180 cameras and four NVRs.", opts:["18","180"], k:1},
+   {q:"What video did the manager want?", a:"Video from the car park — a guest's car was damaged.", opts:["The car park","The pool"], k:0},
+   {q:"How much footage was missing?", a:"The last three days.", opts:["Three hours","Three days"], k:1},
+   {q:"What had failed?", a:"One disk in the RAID — and the NVR stopped recording after a firmware update.", opts:["A disk","The camera lens"], k:0},
+   {q:"Who referred him to Mr. Adel?", a:"His friend Hassan Fathy at another hotel.", opts:["A friend","His mother"], k:0},
+   {q:"Was his subject line vague?", a:"No, it was clear: \"NVR stopped recording after firmware update — urgent\".", opts:["Vague","Clear"], k:1},
+   {q:"How did he start the email?", a:"\"Dear Mr. Adel, I hope this email finds you well.\"", opts:["\"Hey man\"","\"Dear Mr. Adel\""], k:1},
+   {q:"What was the purpose of the email?", a:"To address a recording failure on two NVRs.", opts:["A recording failure","A party"], k:0},
+   {q:"What quick question did he ask?", a:"Can the missing footage be recovered?", opts:["Can it be recovered?","What's the weather?"], k:0},
+   {q:"How did he end the email?", a:"\"I look forward to hearing back from you soon.\"", opts:["\"Bye\"","\"I look forward to hearing back\""], k:1},
+   {q:"How fast did Mr. Adel reply?", a:"In one hour.", opts:["One hour","One month"], k:0},
+   {q:"What did Mahmoud add?", a:"An alarm that tells him when any camera stops recording.", opts:["An alarm","More cameras"], k:0}
+  ],
+  pov:"Now write Mahmoud's email out loud: \"Dear Mr. Adel, I hope this email finds you well. I was referred to you by… The purpose of this email is to address… I'm reaching out to you today to ask a quick question… I look forward to hearing back from you soon.\""
+ },
+
+ em3:{ field:"Cybersecurity & backups", hero:"Heba", icon:"🛡️",
+  title:"The email that asked for passwords", ar:"الإيميل اللي طلب الباسوردات",
+  scene:"Heba is the IT security officer at a pharmaceutical company. A fake email is spreading, and she must warn everyone — fast and clearly.",
+  words:["It's important to note that","As a result","EOD","Please don't hesitate to reach out","confirm that you've received","Best regards","Sincerely"],
+  tech:[["phishing","إيميل احتيال"],["ransomware","فيروس الفدية"],["backup","النسخة الاحتياطية"],["patch","تحديث أمني"],["MFA (multi-factor authentication)","التحقق بخطوتين"]],
+  lines:[
+   "Heba is the IT security officer at a pharmaceutical company in 6th of October City.",
+   "On Sunday morning, twelve employees received a fake email. It looked like it came from IT: \"Your password expires today. Click here.\"",
+   "It was phishing. Two people clicked the link and typed their passwords.",
+   "Heba acted fast. She reset both passwords and checked the servers for ransomware. Nothing was encrypted — the backups were safe.",
+   "Then she wrote to all staff: \"It's important to note that IT will never ask for your password by email.\"",
+   "\"As a result of this attack, we will turn on multi-factor authentication for every account.\"",
+   "\"All laptops must install the new security patch by EOD today.\"",
+   "\"Please don't hesitate to reach out if you have any questions.\" And she ended with \"Best regards, Heba\".",
+   "Next, she wrote a formal letter to the company's bank, because one of the two users worked in finance.",
+   "\"Could you please confirm that you've received this message?\" she wrote. This time, she ended with \"Sincerely\".",
+   "The bank confirmed in twenty minutes. No money moved, and on Monday, every employee had a two-minute training on how to spot phishing."
+  ],
+  qa:[
+   {q:"What is Heba's job?", a:"IT security officer at a pharmaceutical company.", opts:["IT security officer","Accountant"], k:0},
+   {q:"What did the fake email say?", a:"\"Your password expires today. Click here.\"", opts:["Password expires","You won a prize"], k:0},
+   {q:"What kind of attack was it?", a:"Phishing.", opts:["Phishing","A power cut"], k:0},
+   {q:"How many people typed their passwords?", a:"Two people.", opts:["Two","Twelve"], k:0},
+   {q:"Were the backups safe?", a:"Yes, nothing was encrypted — the backups were safe.", opts:["Yes","No"], k:0},
+   {q:"Will IT ever ask for your password by email?", a:"Never. It's important to note that.", opts:["Sometimes","Never"], k:1},
+   {q:"What will happen as a result of the attack?", a:"Multi-factor authentication for every account.", opts:["MFA for everyone","Nothing"], k:0},
+   {q:"When must the patch be installed?", a:"By EOD — by the end of the day today.", opts:["By EOD today","Next month"], k:0},
+   {q:"How did she close the email to staff?", a:"\"Best regards\" — friendly but professional.", opts:["\"Best regards\"","\"Love\""], k:0},
+   {q:"Why did she write to the bank?", a:"Because one of the two users worked in finance.", opts:["A finance user clicked","To open an account"], k:0},
+   {q:"What did she ask the bank?", a:"\"Could you please confirm that you've received this message?\"", opts:["To confirm receipt","For a loan"], k:0},
+   {q:"How did she close the formal letter?", a:"\"Sincerely\" — more formal.", opts:["\"Sincerely\"","\"Cheers\""], k:0},
+   {q:"Did any money move?", a:"No. And on Monday everyone had phishing training.", opts:["Yes","No"], k:1}
+  ],
+  pov:"Now be Heba writing to staff: \"It's important to note that… As a result,… by EOD today… Please don't hesitate to reach out if you have any questions. Best regards.\""
+ },
+
+ em4:{ field:"Battery storage (BESS)", hero:"Ziad", icon:"🌾",
+  title:"Sun by day, batteries by night", ar:"الشمس بالنهار والبطاريات بالليل",
+  scene:"Ziad sells solar systems to farms. Farmers want power at night too — so he needs a battery partner.",
+  words:["take a moment to introduce myself","potential synergies between our organizations","kindly provide the following information","appreciate your prompt attention","follow up on our meeting","keep the momentum going","As per our recent discussion"],
+  tech:[["BESS (battery energy storage system)","نظام تخزين طاقة بالبطاريات"],["kWh","كيلووات ساعة (سعة التخزين)"],["hybrid inverter","إنفرتر هايبرد"],["cycle life","عدد دورات الشحن"],["diesel savings","توفير السولار"]],
+  lines:[
+   "Ziad sells solar systems to farms in Minya. The farmers love free power in the day, but at night their pumps still run on diesel.",
+   "Ziad found a company that makes battery energy storage systems — big lithium batteries in a container.",
+   "He wrote to their sales director: \"I wanted to take a moment to introduce myself. I'm Ziad, and my company has installed solar on sixty farms.\"",
+   "\"I believe there may be potential synergies between our organizations: we have the farms, and you have the batteries.\"",
+   "They met in Cairo. The director liked the idea, and they agreed on a pilot farm.",
+   "The next day, Ziad wrote again: \"I wanted to follow up on our meeting. As per our recent discussion, we will start with one farm: 200 kWh of storage and a hybrid inverter.\"",
+   "\"To keep the momentum going, I'd like to propose the following next steps: a site visit next week, then a price offer.\"",
+   "\"Could you kindly provide the following information? The cycle life of the batteries, the warranty, and the delivery time.\"",
+   "\"We appreciate your prompt attention to this matter.\"",
+   "Three months later, the pilot farm ran its pumps all night on solar energy stored in the batteries.",
+   "The farmer saved 60% on diesel — and his neighbours started calling Ziad."
+  ],
+  qa:[
+   {q:"Where are Ziad's customers?", a:"On farms in Minya.", opts:["In Minya","In Dubai"], k:0},
+   {q:"What runs the pumps at night?", a:"Diesel — the sun is gone.", opts:["Diesel","The moon"], k:0},
+   {q:"What does the other company make?", a:"Battery energy storage systems.", opts:["Batteries","Tractors"], k:0},
+   {q:"How did Ziad start his first email?", a:"\"I wanted to take a moment to introduce myself.\"", opts:["\"Introduce myself\"","\"Pay me now\""], k:0},
+   {q:"What synergies did he see?", a:"He has the farms, and they have the batteries.", opts:["Farms + batteries","Nothing"], k:0},
+   {q:"What did they agree in Cairo?", a:"A pilot farm.", opts:["A pilot farm","A holiday"], k:0},
+   {q:"How much storage for the pilot?", a:"200 kWh, with a hybrid inverter.", opts:["20 kWh","200 kWh"], k:1},
+   {q:"How did he write about the meeting?", a:"\"I wanted to follow up on our meeting. As per our recent discussion…\"", opts:["\"As per our recent discussion\"","\"Forget the meeting\""], k:0},
+   {q:"Why did he propose next steps?", a:"To keep the momentum going.", opts:["To keep the momentum going","To stop the project"], k:0},
+   {q:"What information did he ask for?", a:"Cycle life, warranty and delivery time.", opts:["Cycle life and warranty","Their home address"], k:0},
+   {q:"What did he appreciate?", a:"Their prompt attention to this matter.", opts:["Prompt attention","A slow reply"], k:0},
+   {q:"How much diesel did the farmer save?", a:"60%.", opts:["6%","60%"], k:1}
+  ],
+  pov:"Now be Ziad writing: \"I wanted to take a moment to introduce myself… There may be potential synergies between our organizations… I wanted to follow up on our meeting… To keep the momentum going, I'd like to propose the following next steps.\""
+ },
+
+ em5:{ field:"Maintenance contracts", hero:"Salma", icon:"🧰",
+  title:"The shutdown nobody wanted", ar:"الفصل اللي محدش كان عايزه",
+  scene:"Salma coordinates maintenance for a UPS service company. She has to book a shutdown, announce good news — and chase an unpaid invoice.",
+  words:["proposed dates and times","which option works best for you","We're excited to announce","Your input is invaluable","gentle reminder","remains unpaid","kindly arrange for the payment","Thank you for your business"],
+  tech:[["AMC (annual maintenance contract)","عقد صيانة سنوي"],["preventive maintenance (PM)","صيانة وقائية"],["battery replacement","تغيير البطاريات"],["maintenance bypass","التحويل على الباي باس للصيانة"],["24/7 hotline","خط طوارئ ٢٤ ساعة"]],
+  lines:[
+   "Salma is the service coordinator at a company that maintains UPS systems. She manages sixty annual maintenance contracts.",
+   "A bank's UPS needs new batteries. To replace them safely, the UPS must go to maintenance bypass for four hours.",
+   "Nobody likes a shutdown, so Salma wrote carefully: \"Here are my proposed dates and times: Friday the 10th from 6 a.m., or Saturday the 11th from 10 p.m.\"",
+   "\"Please let me know which option works best for you.\" The bank chose Friday morning.",
+   "The battery replacement went perfectly. The team finished in three hours.",
+   "The next week, Salma sent an email to all customers: \"We're excited to announce our new 24/7 hotline for UPS emergencies.\"",
+   "She also added a short survey: \"Your input is invaluable. Tell us how we can serve you better.\"",
+   "But one customer, a plastics factory, had not paid for its preventive maintenance visit two months ago.",
+   "Salma didn't get angry. She wrote: \"This is a gentle reminder that your invoice remains unpaid.\"",
+   "\"Please kindly arrange for the payment by the end of the month.\"",
+   "She ended with \"Thank you for your business.\" The payment arrived four days later."
+  ],
+  qa:[
+   {q:"What does Salma's company maintain?", a:"UPS systems — sixty annual contracts.", opts:["UPS systems","Cars"], k:0},
+   {q:"What does the bank's UPS need?", a:"New batteries.", opts:["New batteries","A new paint"], k:0},
+   {q:"How long must the UPS be on bypass?", a:"Four hours.", opts:["Four hours","Four days"], k:0},
+   {q:"Did Salma choose the date herself?", a:"No, she sent proposed dates and times.", opts:["She chose","She proposed options"], k:1},
+   {q:"What did she ask the bank?", a:"Which option works best for them.", opts:["Which option works best","Why they're late"], k:0},
+   {q:"Which option did the bank choose?", a:"Friday morning.", opts:["Friday morning","Saturday night"], k:0},
+   {q:"How long did the job take?", a:"Three hours — one hour early.", opts:["Three hours","Eight hours"], k:0},
+   {q:"What were they excited to announce?", a:"A new 24/7 hotline for UPS emergencies.", opts:["A 24/7 hotline","Higher prices"], k:0},
+   {q:"Why did she add a survey?", a:"Because customers' input is invaluable.", opts:["Input is invaluable","To waste time"], k:0},
+   {q:"Who didn't pay?", a:"A plastics factory.", opts:["The bank","A plastics factory"], k:1},
+   {q:"Was her reminder angry?", a:"No, it was a gentle reminder.", opts:["Angry","Gentle"], k:1},
+   {q:"How did she end the email?", a:"\"Thank you for your business.\"", opts:["\"Thank you for your business\"","\"Pay or else\""], k:0},
+   {q:"When did the payment arrive?", a:"Four days later.", opts:["Four days later","Never"], k:0}
+  ],
+  pov:"Now be Salma: \"Here are my proposed dates and times… Please let me know which option works best for you… We're excited to announce… This is a gentle reminder that your invoice remains unpaid… Thank you for your business.\""
+ },
+
+ em6:{ field:"Energy exhibitions & careers", hero:"Adel", icon:"🎟️",
+  title:"The hybrid inverter at booth 12", ar:"الإنفرتر الهايبرد في جناح ١٢",
+  scene:"Adel is an energy engineer looking for his next job. An exhibition, a demo and a few good emails change everything.",
+  words:["excited to invite you to our upcoming event","friendly reminder that the deadline is fast approaching","express my interest in the position","great fit for the role","Thank you for considering my application","acknowledge receipt of your message","available for a 15–20 minute call"],
+  tech:[["exhibition booth","جناح في المعرض"],["hybrid inverter","إنفرتر هايبرد (شمس + بطاريات + شبكة)"],["demo","عرض عملي"],["grid","الشبكة القومية"],["off-grid","منفصل عن الشبكة"]],
+  lines:[
+   "Adel has worked for eight years with UPS systems and solar inverters. He wants to join a company that designs its own products.",
+   "One day, he got an email: \"We're excited to invite you to our upcoming event: the Egypt Energy exhibition, booth 12.\"",
+   "At booth 12, a company was showing a new hybrid inverter. It could run from solar, batteries or the grid — and switch between them in milliseconds.",
+   "Adel asked so many good questions that the product manager gave him her card.",
+   "A week later, she wrote again: \"This is just a friendly reminder that the deadline for our field engineer position is fast approaching.\"",
+   "Adel sent his CV the same evening: \"I am writing to express my interest in the position of senior field engineer.\"",
+   "\"With eight years of UPS and inverter experience, I believe I would be a great fit for the role.\"",
+   "\"Thank you for considering my application.\"",
+   "The HR manager replied: \"I wanted to acknowledge receipt of your message. The team will review it this week.\"",
+   "Two days later: \"Would you be available for a 15–20 minute call on Thursday?\"",
+   "On the call, they asked him to explain how a hybrid inverter works off-grid. Adel explained it clearly — and in simple English.",
+   "He got the job."
+  ],
+  qa:[
+   {q:"How long has Adel worked with UPS and inverters?", a:"Eight years.", opts:["Eight years","Eight months"], k:0},
+   {q:"What was he invited to?", a:"The Egypt Energy exhibition, booth 12.", opts:["An exhibition","A wedding"], k:0},
+   {q:"What was shown at booth 12?", a:"A new hybrid inverter.", opts:["A hybrid inverter","A new car"], k:0},
+   {q:"What can the inverter run from?", a:"Solar, batteries or the grid.", opts:["Solar, batteries or grid","Only diesel"], k:0},
+   {q:"Why did the product manager give him her card?", a:"Because he asked so many good questions.", opts:["Good questions","He was lost"], k:0},
+   {q:"What was the friendly reminder about?", a:"The deadline for the position was fast approaching.", opts:["The deadline","A party"], k:0},
+   {q:"When did he send his CV?", a:"The same evening.", opts:["The same evening","Next year"], k:0},
+   {q:"How did his email begin?", a:"\"I am writing to express my interest in the position.\"", opts:["\"Express my interest\"","\"Give me a job\""], k:0},
+   {q:"Why is he a great fit?", a:"Eight years of UPS and inverter experience.", opts:["His experience","His car"], k:0},
+   {q:"What did HR do first?", a:"Acknowledged receipt of his message.", opts:["Acknowledged receipt","Ignored him"], k:0},
+   {q:"How long was the call?", a:"15 to 20 minutes.", opts:["15–20 minutes","Two hours"], k:0},
+   {q:"What did he explain on the call?", a:"How a hybrid inverter works off-grid.", opts:["A hybrid inverter","Football"], k:0},
+   {q:"Did he get the job?", a:"Yes, he did!", opts:["Yes","No"], k:0}
+  ],
+  pov:"Now be Adel writing: \"I am writing to express my interest in the position… I believe I would be a great fit for the role… Thank you for considering my application.\" Then be HR: \"I wanted to acknowledge receipt of your message… Would you be available for a 15–20 minute call?\""
+ }
+});
+
+const SAY={"l1":{"pi1":{"Mostafa is a generator technician. He looks after twenty standby generators in shopping malls and office towers in New Cairo.":[0.0,10.67],"One evening, the power went off in a big mall. The generator was supposed to start in ten seconds. It didn't.":[11.12,19.24],"Mostafa was standing in the dark generator room when his phone rang. It was a recruiter from an energy company.":[19.69,27.85],"\"I'm a little tied up just now,\" he said. \"Is it OK if I call you back in an hour?\"":[28.3,34.08],"He is very detail-oriented, so he checked everything, step by step. The fuel was full. The ATS was fine.":[34.53,43.31],"Then he found it: a loose, dirty terminal on the starting battery. The generator couldn't get enough current to start.":[43.76,52.12],"He cleaned and tightened the terminal. The engine started, the ATS transferred the load, and the lights came back on.":[52.57,61.5],"An hour later, he called the recruiter back. \"Can you tell me a little about yourself?\" she asked.":[61.95,68.03],"\"I thrive on new challenges,\" Mostafa said. \"Tonight, for example, a generator failed to start during a blackout.\"":[68.48,77.47],"\"I'm also a self-starter. Nobody asked me, but I created a monthly load test for all twenty generators.\"":[77.92,86.17],"\"I'm goal-oriented and ambitious. My goal this year is zero failed starts.\"":[86.62,92.29],"The recruiter smiled. \"Tonight wasn't zero,\" she said. \"But it sounds like you're the right person to get there.\"":[92.74,100.64],"standby generator":[101.09,102.79],"ATS (automatic transfer switch)":[103.24,105.54],"starting battery":[105.99,107.27],"battery terminal":[107.72,109.09],"load test":[109.54,110.67],"What does Mostafa look after?":[111.12,113.24],"Twenty standby generators in malls and office towers.":[113.69,117.92],"What happened in the mall?":[118.37,119.92],"The power went off, and the generator didn't start.":[120.37,123.67],"How fast was the generator supposed to start?":[124.12,127.4],"In ten seconds.":[127.85,129.32],"Who called him?":[129.77,130.95],"A recruiter from an energy company.":[131.4,133.81],"Could he talk right then?":[134.26,135.91],"No. He was a little tied up, so he asked to call her back.":[136.36,140.13],"Was the fuel tank empty?":[140.58,142.44],"No, the fuel was full. And the ATS was fine.":[142.89,146.63],"What was the real problem?":[147.08,148.98],"A loose, dirty terminal on the starting battery.":[149.43,152.6],"How did he find it?":[153.05,154.5],"He's detail-oriented — he checked everything, step by step.":[154.95,159.4],"Did he call the recruiter back?":[159.85,161.65],"Yes, an hour later.":[162.1,163.69],"What does he thrive on?":[164.14,165.6],"He thrives on new challenges.":[166.05,168.32],"Did someone ask him to create the load test?":[168.77,171.78],"No! He's a self-starter — nobody asked him.":[172.23,175.43],"What's his goal this year?":[175.88,177.5],"Zero failed starts. He's goal-oriented and ambitious.":[177.95,182.25],"Is it OK if I call you back?":[182.7,184.95],"I'm a little tied up just now.":[185.4,187.23],"Can you tell me a little about yourself?":[187.68,189.88],"I thrive on new challenges.":[190.33,192.49],"I'm goal-oriented and ambitious.":[192.94,195.3],"I'm a self-starter.":[195.75,197.16],"I'm detail-oriented.":[197.61,199.36],"I'm eating. Call later.":[199.81,201.6],"I'm just about to sit down for dinner. Do you mind if I call you back in half an hour?":[202.05,207.32],"No time, sorry.":[207.77,209.25],"I adapt well to new situations and thrive on new challenges.":[209.7,214.45],"I can work without supervision":[214.9,216.9],"I was born in 1999 in Cairo…":[217.35,221.0],"I am an enthusiastic engineering graduate with freelance experience.":[221.45,226.63],"I don't know what to say.":[227.08,228.64],"self-starter":[229.09,230.23],"detail-oriented":[230.68,232.16],"resourceful":[232.61,233.7],"reliable":[234.15,235.19],"punctual":[235.64,236.64],"team player":[237.09,238.2],"Hello, this is Susan from Human Resources. Have you got time to answer a few questions about your application?":[238.65,246.57],"Not now.":[247.02,248.01],"Who gave you my number?":[248.46,250.04],"Thanks for calling back. Can you tell me a little about yourself?":[250.49,254.46],"I'm an enthusiastic engineering graduate with freelance experience. I'm a team player and I thrive on new challenges.":[254.91,263.83],"I like football and sleeping.":[264.28,266.17],"Everything is in my CV.":[266.62,268.7],"And what are you looking for in your first job?":[269.15,271.58],"A position where I can use my skills and grow. Professional development is really important to me.":[272.03,279.31],"Just money.":[279.76,280.77],"Anything is fine.":[281.22,282.66]}}};
 Object.assign(STORY.pi2,{field:"UPS & batteries",fieldAr:"الـ UPS والبطاريات",hero:"Karim",icon:"🔋",tech:[["UPS","جهاز الـ UPS"],["kVA","كيلو فولت أمبير (قدرة الجهاز)"],["battery bank","مجموعة بطاريات"],["lead-acid","بطاريات رصاص حمضية"],["lithium-ion","بطاريات ليثيوم أيون"]]});
 if(typeof STORY_MORE!=="undefined") Object.assign(STORY,STORY_MORE);
 LESSONS.forEach(l=>{const f=typeof CARD_FIX!=="undefined"&&CARD_FIX[l.id]; if(f) l.cards=l.cards.map((c,i)=>f[i]?{...c,ex:f[i].ex}:c)});
@@ -1231,6 +1647,26 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",
 const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
 const SPK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
 let CLIP=null;
+/* ---------- pronunciation audio (natural voice, one file per lesson) ---------- */
+const sclean=s=>String(s).replace(/<[^>]+>/g,"").replace(/[\u200e\u200f]/g,"").replace(/\s+/g," ").trim();
+const SAYA={}; let SAYCUR=null;
+const VOICES=[["l1","🐢","Slow & clear","بطيء وواضح — Heart 🇺🇸"],["l2","🎧","Normal","سرعة عادية — Michael 🇺🇸"],["l3","🇬🇧","Real-life","سرعة الشغل الحقيقي — George 🇬🇧"]];
+let VOICE="l1"; try{VOICE=localStorage.getItem("kalam-voice")||"l1"}catch(e){}
+function setVoice(v){VOICE=v; try{localStorage.setItem("kalam-voice",v)}catch(e){} document.querySelectorAll("[data-voice]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.voice===v)); const vb=document.getElementById("vbtn"); if(vb){const x=VOICES.find(y=>y[0]===v); vb.innerHTML=`${x[1]} <span>${x[2]}</span>`}}
+const voicePick=()=>typeof SAY==="undefined"?"":`<div class="vpick" role="group" aria-label="Listening level"><span class="kicker">Listening level</span>${VOICES.filter(v=>SAY[v[0]]).map(v=>`<button data-voice="${v[0]}" aria-pressed="${v[0]===VOICE}" title="${v[3]}">${v[1]} ${v[2]}</button>`).join("")}</div>`;
+document.addEventListener("click",e=>{const b=e.target.closest("[data-voice]"); if(b){setVoice(b.dataset.voice); const s=b.closest("[data-demo]"); sayPlay(s?s.dataset.demo:"")}});
+function sayFind(t){ if(typeof SAY==="undefined")return null; const c=sclean(t), c2=sclean(String(t).replace(/…/g,""));
+  const lvs=[VOICE].concat(Object.keys(SAY).filter(x=>x!==VOICE)), gid=(typeof L!=="undefined"&&L)?L.id:null;
+  for(const lv of lvs){ const S2=SAY[lv]; if(!S2)continue; for(const k of [gid].concat(Object.keys(S2))){ const m=k&&S2[k]; if(m&&(m[c]||m[c2])) return [lv+"/"+k].concat(m[c]||m[c2]) } } return null }
+function stopSay(){ if(SAYCUR){SAYCUR.pause();SAYCUR.ontimeupdate=null} }
+function sayPlay(t,onend){ const f=sayFind(t); if(!f){ onend&&onend(); return false }
+  stopSay(); if(CLIP){CLIP.pause();CLIP=null} if(typeof SEG!=="undefined"&&SEG){SEG.pause()}
+  const a=SAYA[f[0]]||(SAYA[f[0]]=Object.assign(new Audio("audio/say/"+f[0]+".mp3"),{preload:"auto"})); SAYCUR=a;
+  const go=()=>{ a.currentTime=f[1]; a.play().catch(()=>{}); a.ontimeupdate=()=>{ if(a.currentTime>=f[2]){ a.pause(); a.ontimeupdate=null; onend&&onend() } } };
+  if(a.readyState>=1) go(); else a.addEventListener("loadedmetadata",go,{once:true}); return true }
+const spk=(t,cls="")=>sayFind(t)?`<span role="button" tabindex="0" class="spk ${cls}" data-say="${esc(sclean(String(t).replace(/…/g,"")))}" aria-label="Listen" title="Listen">${SPK}</span>`:"";
+document.addEventListener("click",e=>{const b=e.target.closest("[data-say]"); if(b){e.stopPropagation();e.preventDefault();sayPlay(b.dataset.say)}},true);
+document.addEventListener("keydown",e=>{const b=e.target.closest&&e.target.closest("[data-say]"); if(b&&(e.key==="Enter"||e.key===" ")){e.preventDefault();sayPlay(b.dataset.say)}});
 function play(card){ if(CLIP){CLIP.pause();CLIP=null} if(card&&card.clip){CLIP=new Audio(card.clip);CLIP.play().catch(()=>{})} }
 const chapter=id=>CHAPTERS.find(c=>c.id===id);
 const real=()=>LESSONS.filter(l=>!l.soon);
@@ -1286,7 +1722,8 @@ function home(){
    </section>
    <section class="sec">
     <div class="sec-head"><h2>Stories from your field</h2><p class="ar">نفس عبارات الكتاب، بس في قصص من شغل الـ IT والطاقة والصيانة.</p></div>
-    <div class="sgrid">${storyCards()}</div>
+    <div class="sgrid">${storyCards(6)}</div>
+    <p style="text-align:center;margin-top:22px"><a class="btn alt" href="#/stories">All ${Object.keys(STORY).length} stories</a></p>
    </section></div>`;
 }
 const ICONS={book:'<path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5M9 8h6"/>',cards:'<rect x="3" y="6" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/>',game:'<rect x="2" y="7" width="20" height="11" rx="5"/><path d="M7 11v3M5.5 12.5h3M16 12h.01M18 14h.01"/>',chat:'<path d="M4 5h16v10H9l-5 4z"/><path d="M8 9h8M8 12h5"/>'};
@@ -1370,7 +1807,7 @@ function nextTab(){const i=TABS.findIndex(x=>x[0]===tab); if(i<TABS.length-1){hi
 
 /* ---------- read & listen ---------- */
 let AUD=null, rafId=0;
-function stopAudio(){ if(AUD){AUD.pause();AUD=null} cancelAnimationFrame(rafId); if(CLIP){CLIP.pause();CLIP=null} if(typeof SEG!=="undefined"&&SEG){SEG.pause();SEG=null} }
+function stopAudio(){ stopSay(); if(AUD){AUD.pause();AUD=null} cancelAnimationFrame(rafId); if(CLIP){CLIP.pause();CLIP=null} if(typeof SEG!=="undefined"&&SEG){SEG.pause();SEG=null} }
 const fmt=s=>isFinite(s)?`${s/60|0}:${String(s%60|0).padStart(2,"0")}`:"0:00";
 function readTab(p){
   let cur=0;
@@ -1418,7 +1855,8 @@ function learnTab(p){
   const draw=()=>{const c=L.cards[i];
     p.innerHTML=`<div class="prog"><i style="width:${(i+1)/L.cards.length*100}%"></i></div>
      <span class="kicker">Phrase ${i+1} of ${L.cards.length} · <span class="ar">عبارة ${i+1} من ${L.cards.length}</span></span>
-     <div class="phrase"><h2>${esc(c.en)}</h2>${c.clip?`<button class="say" id="sp" aria-label="Listen from the book">${SPK}</button>`:""}</div>
+     <div class="phrase"><h2>${esc(c.en)}</h2>${c.clip?`<button class="say" id="sp" aria-label="Listen from the book" title="From the book">${SPK}</button>`:""}${spk(c.en,"big")}</div>
+     ${sayFind(c.en)?`<p class="say-note">🟡 Book audio · 🔵 Clear pronunciation, a little slower <span class="ar">— الأصفر من الكتاب، والأزرق نطق واضح وأبطأ</span></p>`:""}
      <div class="meaning ar">${esc(c.ar)}</div>
      <div class="example"><span class="kicker">Example</span><div>${c.ex}</div></div>
      <p class="tip ar">${esc(c.tip)}</p>
@@ -1449,14 +1887,14 @@ function quizTab(p){
         p.querySelectorAll("#bt .w").forEach(x=>x.onclick=()=>{built.splice(+x.dataset.j,1);d()});
         p.querySelectorAll("#bk .w").forEach(x=>x.onclick=()=>{built.push(bank.find(b=>b.k==x.dataset.k));d()});
         p.querySelector("#ck").disabled=built.length!==q.words.length};
-      d(); p.querySelector("#ck").onclick=function(){this.hidden=true;p.querySelectorAll(".w").forEach(w=>w.disabled=true);const ok=built.map(b=>b.w).join(" ")===q.answer;fb(ok);if(!ok)p.querySelector("#fb").innerHTML+=`<div style="margin-top:6px">${esc(q.answer)}</div>`};
+      d(); p.querySelector("#ck").onclick=function(){this.hidden=true;p.querySelectorAll(".w").forEach(w=>w.disabled=true);const ok=built.map(b=>b.w).join(" ")===q.answer;fb(ok);p.querySelector("#fb").innerHTML+=`<div style="margin-top:6px">${esc(q.answer)} ${spk(q.answer)}</div>`;sayPlay(q.answer)};
       return; }
-    const prompt=q.type==="gap"?`<p class="q">${esc(q.sentence).replace("___",'<span class="gap">?</span>')}</p>`:`<p class="q ar">${esc(q.q)}</p>`;
+    const prompt=q.type==="gap"?`<p class="q">${esc(q.sentence).replace("___",'<span class="gap">?</span>')}</p>`:`<p class="q ${/[؀-ۿ]/.test(q.q)?"ar":""}">${esc(q.q)} ${spk(q.q)}</p>`;
     const arx=/[؀-ۿ]/.test(q.options[0]);
-    p.innerHTML=`${top}${prompt}<div class="opts">${q.options.map((o,k)=>`<button class="opt ${arx?"arx":""}" data-k="${k}">${esc(o)}</button>`).join("")}</div><div id="fb" hidden></div><div class="actions"><button class="btn" id="go" hidden>${last?"See score":"Next"}</button></div>`;
+    p.innerHTML=`${top}${prompt}<div class="opts">${q.options.map((o,k)=>`<button class="opt ${arx?"arx":""}" data-k="${k}">${esc(o)}${q.type==="mcq"?spk(o):""}</button>`).join("")}</div><div id="fb" hidden></div><div class="actions"><button class="btn" id="go" hidden>${last?"See score":"Next"}</button></div>`;
     p.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{const k=+b.dataset.k,ok=k===q.answer;
       p.querySelectorAll(".opt").forEach(x=>{x.disabled=true;if(+x.dataset.k===q.answer)x.classList.add("right")}); if(!ok)b.classList.add("wrong");
-      if(q.type==="gap")p.querySelector(".gap").textContent=q.options[q.answer]; fb(ok)});
+      if(q.type==="gap"){p.querySelector(".gap").textContent=q.options[q.answer]; const full=q.sentence.replace(/_{2,}/,q.options[q.answer]); fb(ok); p.querySelector("#fb").innerHTML+=spk(full); sayPlay(full)} else fb(ok)});
   };
   draw();
 }
@@ -1470,7 +1908,7 @@ function matchTab(p){
   clearInterval(tick); tick=setInterval(()=>{const e=document.getElementById("tmr"); if(!e){clearInterval(tick);return} e.textContent=((Date.now()-t0)/1000).toFixed(1)+"s"},100);
   p.querySelectorAll(".tile").forEach(b=>b.onclick=()=>{
     if(!sel||sel.dataset.s===b.dataset.s){sel&&sel.classList.remove("sel");sel=b;b.classList.add("sel");return}
-    if(sel.dataset.k===b.dataset.k){[sel,b].forEach(x=>x.classList.add("gone"));found++;sel=null;
+    if(sel.dataset.k===b.dataset.k){sayPlay(pairs[+b.dataset.k].en);[sel,b].forEach(x=>x.classList.add("gone"));found++;sel=null;
       if(found===pairs.length){clearInterval(tick);const s=(Date.now()-t0)/1000;SC.time=s;
         setTimeout(()=>{p.innerHTML=`<div class="done-box"><h2>${s.toFixed(1)}s</h2><p>${miss} mistakes · ${s<20?"Lightning fast ⚡":"Try to beat your time!"}</p><div class="actions" style="justify-content:center"><button class="btn alt" id="again">Play again</button><button class="btn" id="nx">Role-play</button></div></div>`;p.querySelector("#again").onclick=()=>matchTab(p);p.querySelector("#nx").onclick=nextTab},400)}}
     else{miss++;const a=sel;[a,b].forEach(x=>{x.classList.remove("sel");x.classList.add("shake")});setTimeout(()=>[a,b].forEach(x=>x.classList.remove("shake")),320);sel=null}});
@@ -1482,9 +1920,10 @@ function talkTab(p){
   const draw=()=>{while(idx<turns.length&&turns[idx].them){hist.push({w:"them",t:turns[idx].them});idx++}
     const cur=turns[idx];
     p.innerHTML=`<div class="scene"><span class="kicker">The situation</span><div class="ar">${esc(L.roleplay.scene)}</div></div>
-     <div class="chat">${hist.map(h=>`<div class="msg ${h.w}"><small>${h.w==="them"?"Them":"You"}</small>${esc(h.t)}</div>`).join("")}</div>
-     ${cur?`<p class="kicker" style="margin-top:14px">What do you say?</p><div class="opts">${shuffle(cur.you.map((o,k)=>({...o,k}))).map(o=>`<button class="opt" data-k="${o.k}">${esc(o.t)}</button>`).join("")}</div>`:""}
+     <div class="chat">${hist.map(h=>`<div class="msg ${h.w}"><small>${h.w==="them"?"Them":"You"} ${spk(h.t)}</small>${esc(h.t)}</div>`).join("")}</div>
+     ${cur?`<p class="kicker" style="margin-top:14px">What do you say?</p><div class="opts">${shuffle(cur.you.map((o,k)=>({...o,k}))).map(o=>`<button class="opt" data-k="${o.k}">${esc(o.t)}${spk(o.t)}</button>`).join("")}</div>`:""}
      <div id="fb" hidden></div><div class="actions"><button class="btn" id="go" ${cur?"hidden":""}>${cur?"Continue":"Finish the lesson"}</button></div>`;
+    const lastThem=hist.length&&hist[hist.length-1]; if(lastThem&&lastThem.w==="them"&&!lastThem.said){lastThem.said=1; sayPlay(lastThem.t)}
     if(!cur){p.querySelector("#go").onclick=()=>finish(p,good,total);return}
     p.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{const o=cur.you[+b.dataset.k];
       p.querySelectorAll(".opt").forEach(x=>{x.disabled=true;if(cur.you[+x.dataset.k].ok)x.classList.add("right")}); if(!o.ok)b.classList.add("wrong"); else good++;
@@ -1518,16 +1957,17 @@ function wordsTab(p){
   const draw=()=>{const w=ws[i];
     p.innerHTML=`<div class="prog"><i style="width:${(i+1)/ws.length*100}%"></i></div>
      <span class="kicker">Word ${i+1} of ${ws.length} · real-world English</span>
-     <div class="spot-head"><h2>${esc(w.w)}</h2><span class="chip">${w.pos}</span><span class="lvl" title="How formal">${["","Casual","Neutral","Formal"][w.level]}</span></div>
+     <div class="spot-head"><h2>${esc(w.w)}</h2>${spk(w.w,"big")}<span class="chip">${w.pos}</span><span class="lvl" title="How formal">${["","Casual","Neutral","Formal"][w.level]}</span></div>
      <p class="spot-def">${esc(w.def)}</p><p class="ar spot-ar">${esc(w.ar)}</p>
-     <div class="book-line"><span class="kicker">In the book</span><div>${esc(w.book)}</div></div>
+     <div class="book-line"><span class="kicker">In the book</span><div>${esc(w.book)} ${spk(w.book)}</div></div>
      <span class="kicker">Where you'll use it</span>
-     <div class="uses">${w.uses.map(([c,t])=>`<div class="use u-${c.toLowerCase()}"><b>${CH_ICON[c]} ${c}</b><span>${esc(t)}</span></div>`).join("")}</div>
+     <div class="uses">${w.uses.map(([c,t])=>`<div class="use u-${c.toLowerCase()}"><b>${CH_ICON[c]} ${c}</b><span>${esc(t)} ${spk(t)}</span></div>`).join("")}</div>
      <span class="kicker">Words that go with it</span><div class="goes">${w.goes.map(g=>`<span class="chip">${esc(g)}</span>`).join("")}</div>
      <div class="dd"><div class="dont"><b>✗ Don't say</b>${w.dont.map(esc).join("<br>")}</div><div class="do"><b>✓ Say</b>${w.doo.map(esc).join("<br>")}</div></div>
      <div class="actions">${i?'<button class="btn alt" id="bk">Back</button>':""}<button class="btn" id="go">${i<ws.length-1?"Next word":"Read the mini story"}</button></div>`;
     p.querySelector("#go").onclick=()=>{if(i<ws.length-1){i++;draw()}else nextTab()};
     const bk=p.querySelector("#bk"); if(bk)bk.onclick=()=>{i--;draw()};
+    if(i||tab==="words") sayPlay(w.w);
   }; draw();
 }
 
@@ -1538,19 +1978,26 @@ function storyTab(p){
   const hl=s=>{let h=esc(s); WL.forEach(w=>{const pat=w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&").replace(/[-\s]+/g,"[-\\s]?"); const re=new RegExp("\\b("+pat+"\\w*)","i"); h=h.replace(re,'<mark>$1</mark>')}); return h};
   const draw=()=>{
     if(step===0){ p.innerHTML=`<div class="story-hero"><span class="kicker">Mini story · AJ Hoge method</span><h2>${st.icon?st.icon+" ":""}${esc(st.title)}</h2><p class="ar" style="color:var(--muted)">${esc(st.ar)}</p><p>${esc(st.scene)}</p>
-        ${st.tech?`<div class="techw"><span class="kicker">Tech words in this story · كلمات فنية</span><div class="chips">${st.tech.map(([e,a])=>`<span class="chip"><b>${esc(e)}</b><span class="ar">${esc(a)}</span></span>`).join("")}</div></div>`:""}</div>
-       <div class="hint"><span>💡</span><span>Read the story once. Then answer lots of quick, easy questions — fast, without thinking too much. The repetition is what makes the words stick.<br><span class="ar">اقرا القصة مرة، وبعدين جاوب بسرعة على أسئلة كتير سهلة. التكرار هو اللي بيثبّت الكلمات.</span></span></div>
-       <div class="story">${st.lines.map(l=>`<p>${hl(l)}</p>`).join("")}</div>
+        ${st.tech?`<div class="techw"><span class="kicker">Tech words in this story · كلمات فنية</span><div class="chips">${st.tech.map(([e,a])=>`<span class="chip"><b>${esc(e)} ${spk(e)}</b><span class="ar">${esc(a)}</span></span>`).join("")}</div></div>`:""}</div>
+       ${voicePick()}<div class="hint"><span>💡</span><span>Read the story once. Then answer lots of quick, easy questions — fast, without thinking too much. The repetition is what makes the words stick.<br><span class="ar">اقرا القصة مرة، وبعدين جاوب بسرعة على أسئلة كتير سهلة. التكرار هو اللي بيثبّت الكلمات.</span></span></div>
+       ${sayFind(st.lines[0])?`<div class="story-play"><button class="btn" id="lsn">${PLAY} Listen to the story</button><span class="ar" style="color:var(--muted)">اسمع القصة واتابع السطر اللي بيتقري — واضغط على أي سطر تسمعه لوحده</span></div>`:""}
+       <div class="story">${st.lines.map((l,i)=>`<p data-li="${i}">${hl(l)}</p>`).join("")}</div>
        <div class="actions"><button class="btn" id="go">Start the questions</button></div>`;
-      p.querySelector("#go").onclick=()=>{step=1;draw()}; return }
+      const ps=[...p.querySelectorAll(".story p")], lb=p.querySelector("#lsn"); let run=false;
+      const mark=i=>ps.forEach((x,j)=>x.classList.toggle("on",j===i));
+      const playFrom=i=>{ if(!run||i>=ps.length){run=false;mark(-1);if(lb)lb.innerHTML=PLAY+" Listen again";return} mark(i); ps[i].scrollIntoView({block:"nearest",behavior:"smooth"}); sayPlay(st.lines[i],()=>setTimeout(()=>playFrom(i+1),250)) };
+      if(lb) lb.onclick=()=>{ if(run){run=false;stopSay();mark(-1);lb.innerHTML=PLAY+" Listen to the story";return} run=true; lb.innerHTML=PAUSE+" Stop"; playFrom(0) };
+      ps.forEach((x,i)=>x.onclick=()=>{ run=false; if(lb)lb.innerHTML=PLAY+" Listen to the story"; mark(i); sayPlay(st.lines[i],()=>mark(-1)) });
+      p.querySelector("#go").onclick=()=>{run=false;stopSay();step=1;draw()}; return }
     if(step===1){ const q=st.qa[qi];
       p.innerHTML=`<div class="prog"><i style="width:${qi/st.qa.length*100}%"></i></div><span class="kicker">Question ${qi+1} of ${st.qa.length} · answer fast!</span>
-       <p class="q" style="font-size:24px">${esc(q.q)}</p><div class="opts two">${q.opts.map((o,k)=>`<button class="opt" data-k="${k}">${esc(o)}</button>`).join("")}</div>
+       <p class="q" style="font-size:24px">${esc(q.q)} ${spk(q.q)}</p><div class="opts two">${q.opts.map((o,k)=>`<button class="opt" data-k="${k}">${esc(o)}</button>`).join("")}</div>
        <div id="fb" hidden></div><div class="actions"><button class="btn" id="go" hidden>Next</button></div>`;
       p.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{const ok=+b.dataset.k===q.k; if(ok)right++;
         p.querySelectorAll(".opt").forEach(x=>{x.disabled=true;if(+x.dataset.k===q.k)x.classList.add("right")}); if(!ok)b.classList.add("wrong");
-        const f=p.querySelector("#fb");f.hidden=false;f.className="fb "+(ok?"good":"bad");f.innerHTML=`<b>${ok?"Yes!":"Not quite"}</b><span>${hl(q.a)}</span>`;
-        const g=p.querySelector("#go");g.hidden=false;g.focus();g.onclick=()=>{qi++; if(qi<st.qa.length)draw(); else {step=2;draw()}}}); return }
+        const f=p.querySelector("#fb");f.hidden=false;f.className="fb "+(ok?"good":"bad");f.innerHTML=`<b>${ok?"Yes!":"Not quite"}</b><span>${hl(q.a)} ${spk(q.a)}</span>`; sayPlay(q.a);
+        const g=p.querySelector("#go");g.hidden=false;g.focus();g.onclick=()=>{qi++; if(qi<st.qa.length)draw(); else {step=2;draw()}}});
+      sayPlay(q.q); return }
     p.innerHTML=`<div class="done-box"><h2>${right} / ${st.qa.length}</h2><p>You just used the lesson's words ${st.qa.length*2}+ times.</p></div>
      <div class="hint"><span>🎤</span><span><b>Point of view:</b> ${esc(st.pov)}<br><span class="ar">احكي القصة بصوت عالي كأنك انت ${esc(st.hero||"Karim")}.</span></span></div>
      <div class="actions"><button class="btn alt" id="again">Read again</button><button class="btn" id="nx">Practise</button></div>`;
@@ -1564,11 +2011,11 @@ function upgradeTab(p){
   const draw=()=>{ if(i>=it.length){p.innerHTML=`<div class="done-box"><h2>${good} / ${it.length}</h2><p>Upgraded sentences sound natural at work.</p><div class="actions" style="justify-content:center"><button class="btn alt" id="again">Again</button><button class="btn" id="nx">Match game</button></div></div>`;p.querySelector("#again").onclick=()=>upgradeTab(p);p.querySelector("#nx").onclick=nextTab;return}
     const u=it[i];
     p.innerHTML=`<div class="prog"><i style="width:${i/it.length*100}%"></i></div><span class="kicker">Say it like a pro · ${i+1} of ${it.length}</span>
-     <div class="plain"><span class="kicker">What we often say</span><div class="bad-say">“${esc(u.plain)}”</div><div class="ar" style="color:var(--muted)">${esc(u.ar)}</div></div>
+     <div class="plain"><span class="kicker">What we often say</span><div class="bad-say">“${esc(u.plain)}” ${spk(u.plain)}</div><div class="ar" style="color:var(--muted)">${esc(u.ar)}</div></div>
      <p class="q">Which one sounds natural at work?</p>
-     <div class="opts">${u.pro.map((o,k)=>`<button class="opt" data-k="${k}">${esc(o)}</button>`).join("")}</div>
+     <div class="opts">${u.pro.map((o,k)=>`<button class="opt" data-k="${k}">${esc(o)}${spk(o)}</button>`).join("")}</div>
      <div id="fb" hidden></div><div class="actions"><button class="btn" id="go" hidden>Next</button></div>`;
-    p.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{const ok=+b.dataset.k===u.a; if(ok)good++;
+    p.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{const ok=+b.dataset.k===u.a; sayPlay(u.pro[u.a]); if(ok)good++;
       p.querySelectorAll(".opt").forEach(x=>{x.disabled=true;if(+x.dataset.k===u.a)x.classList.add("right")}); if(!ok)b.classList.add("wrong");
       const f=p.querySelector("#fb");f.hidden=false;f.className="fb "+(ok?"good":"bad");f.innerHTML=`<b>${ok?"That's how pros say it":"The natural version is highlighted"}</b><span class="ar">${esc(u.why)}</span>`;
       const g=p.querySelector("#go");g.hidden=false;g.focus();g.onclick=()=>{i++;draw()}}); };
@@ -1576,13 +2023,13 @@ function upgradeTab(p){
 }
 
 /* ---------- stories from your field ---------- */
-function storyCards(){return Object.entries(STORY).map(([id,st])=>{const l=LESSONS.find(x=>x.id===id); if(!l)return "";
+function storyCards(n){return Object.entries(STORY).slice(0,n||99).map(([id,st])=>{const l=LESSONS.find(x=>x.id===id); if(!l)return "";
   return `<a class="scard" href="#/lesson/${id}/story"><span class="sico">${st.icon||"📖"}</span><span class="kicker">${esc(st.field||"")}</span><h3>${esc(st.title)}</h3><p class="ar">${esc(st.ar)}</p>
    <p class="sl">Words from: <b>${esc(l.title)}</b></p><span class="smeta">${st.qa.length} quick questions · ${S.done[id]?"✓ lesson done":"hero: "+esc(st.hero||"")}</span></a>`}).join("")}
 function storiesPage(){
   app.innerHTML=`<div class="wrap"><section class="phead"><a class="back" href="#/">← Home</a><h1>Stories from your field</h1>
    <p>Short stories from real technical work — UPS, servers, solar plants, control cards and VFDs. Each one reuses the phrases of a book lesson, then asks lots of quick questions so the words stick (the AJ Hoge mini-story method).</p>
-   <p class="ar">قصص قصيرة من شغلك الحقيقي. كل قصة فيها عبارات درس من الكتاب، وبعدها أسئلة سريعة كتير عشان الكلمات تثبت.</p></section>
+   <p class="ar">قصص قصيرة من شغلك الحقيقي. كل قصة فيها عبارات درس من الكتاب، وبعدها أسئلة سريعة كتير عشان الكلمات تثبت.</p>${voicePick()}</section>
    <div class="sgrid">${storyCards()}</div></div>`;
 }
 
@@ -1591,9 +2038,9 @@ function decoder(){
   let f="all";
   const draw=()=>{const list=JARGON.filter(j=>f==="all"||j.ch===f);
    app.innerHTML=`<div class="wrap"><section class="phead"><a class="back" href="#/">← Home</a><h1>Office talk</h1>
-    <p>The English people really use at work today — in chats, emails and meetings — and what it actually means.</p><p class="ar">الكلام اللي بيتقال في الشركات فعلًا، ومعناه الحقيقي بالمصري.</p>
+    <p>The English people really use at work today — in chats, emails and meetings — and what it actually means.</p><p class="ar">الكلام اللي بيتقال في الشركات فعلًا، ومعناه الحقيقي بالمصري.</p>${voicePick()}
     <div class="filters">${[["all","All"],["chat","💬 Chat"],["email","✉️ Email"],["meeting","👥 Meeting"]].map(([k,t])=>`<button data-f="${k}" aria-pressed="${k===f}">${t}</button>`).join("")}</div></section>
-    <div class="jar">${list.map(j=>`<button class="jcard" aria-expanded="false"><span class="jt">${esc(j.t)}</span><span class="jm">${esc(j.m)}</span><span class="ja ar">${esc(j.ar)}</span><span class="je">“${esc(j.eg)}”</span><span class="jhint">Tap to see the meaning</span></button>`).join("")}</div></div>`;
+    <div class="jar">${list.map(j=>`<button class="jcard" aria-expanded="false"><span class="jt">${esc(j.t)} ${spk(j.t)}</span><span class="jm">${esc(j.m)}</span><span class="ja ar">${esc(j.ar)}</span><span class="je">“${esc(j.eg)}” ${spk(j.eg)}</span><span class="jhint">Tap to see the meaning</span></button>`).join("")}</div></div>`;
    app.querySelectorAll("[data-f]").forEach(b=>b.onclick=()=>{f=b.dataset.f;draw()});
    app.querySelectorAll(".jcard").forEach(b=>b.onclick=()=>b.setAttribute("aria-expanded",b.getAttribute("aria-expanded")==="true"?"false":"true"));
   }; draw();
@@ -1608,6 +2055,7 @@ function finish(p,good,total){
    <div class="actions" style="justify-content:center">${nxt?`<a class="btn" href="#/lesson/${nxt.id}">Next lesson: ${esc(nxt.title)}</a>`:`<a class="btn" href="#/path">Back to the path</a>`}</div></div>`;
 }
 
+setVoice(VOICE);
 route();
 </script>
 </body>
