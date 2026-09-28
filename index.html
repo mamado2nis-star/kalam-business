@@ -265,6 +265,8 @@ a{color:inherit}
 .story-hero h2{font-size:clamp(26px,4vw,34px);margin:6px 0 4px}
 .story{font-size:19px;line-height:1.8;max-width:65ch;margin:14px 0}
 .story p{margin:0 0 10px;padding:4px 8px;margin-inline:-8px;border-radius:10px;cursor:pointer;transition:background .2s}
+.lnar{display:block;direction:rtl;text-align:left;font-size:.82em;line-height:1.7;color:var(--muted);margin:2px 0 4px}
+.reader.noar .lnar{display:none}
 .lar{display:block;direction:rtl;text-align:right;font-family:inherit;font-size:16px;line-height:1.7;color:var(--muted);margin-top:2px}
 .story.noar .lar{display:none}
 .story-tools{display:flex;justify-content:flex-end;margin:10px 0 -4px}
@@ -2486,6 +2488,7 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",
 const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
 const SPK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
 let CLIP=null;
+let SHOWAR=true; try{SHOWAR=localStorage.getItem("kalam-storyar")!=="0"}catch(e){}
 /* ---------- pronunciation audio (natural voice, one file per lesson) ---------- */
 const sclean=s=>String(s).replace(/<[^>]+>/g,"").replace(/[\u200e\u200f]/g,"").replace(/\s+/g," ").trim();
 const SAYA={}; let SAYCUR=null;
@@ -2663,7 +2666,8 @@ function readTab(p){
      <div class="player"><button class="pp" id="pp" aria-label="Play">${PLAY}</button>
       <div><div class="ttl">${esc(R.title.replace(/^\d+\.\s*/,""))}</div><div class="bar" id="bar"><i id="fill" style="width:0"></i></div></div>
       <div style="display:grid;gap:4px;justify-items:end"><span class="tm" id="tm">0:00</span><button class="sp" id="sp">1×</button></div></div>
-     <div class="reader" id="reader">${R.lines.map((l,i)=>l.k==="h"?`<h4>${esc(l.s)}</h4>`:`<span class="ln" data-i="${i}" ${l.t!=null?`data-t="${l.t}"`:""}>${fmtLine(l.s)}</span>`).join("")}</div>
+     <div class="story-tools"><button class="btn alt sm" id="rar">${SHOWAR?"إخفاء الترجمة":"عرض الترجمة بالعربي"}</button></div>
+     <div class="reader ${SHOWAR?"":"noar"}" id="reader">${R.lines.map((l,i)=>l.k==="h"?`<h4>${esc(l.s)}</h4>`:`<span class="ln" data-i="${i}" ${l.t!=null?`data-t="${l.t}"`:""}>${fmtLine(l.s)}${(typeof BANK_AR!=="undefined"&&BANK_AR[l.s]&&BANK_AR[l.s][0])?`<span class="lnar">${esc(BANK_AR[l.s][0])}</span>`:""}</span>`).join("")}</div>
      <div class="actions"><button class="btn" id="go">Next: learn the phrases</button></div>`;
     stopAudio(); const A=new Audio(R.src); AUD=A; A.preload="metadata";
     const pp=p.querySelector("#pp"), fill=p.querySelector("#fill"), tm=p.querySelector("#tm"), lines=[...p.querySelectorAll(".ln[data-t]")];
@@ -2684,6 +2688,7 @@ function readTab(p){
     lines.forEach(el=>el.onclick=()=>{A.currentTime=Math.max(0,+el.dataset.t-.2);A.play().catch(()=>{})});
     p.querySelectorAll("[data-k]").forEach(b=>b.onclick=()=>{cur=+b.dataset.k;draw()});
     p.querySelector("#go").onclick=()=>{S.read[L.id]=true;save();nextTab()};
+    p.querySelector("#rar").onclick=function(){SHOWAR=!SHOWAR; try{localStorage.setItem("kalam-storyar",SHOWAR?"1":"0")}catch(e){} p.querySelector("#reader").classList.toggle("noar",!SHOWAR); this.textContent=SHOWAR?"إخفاء الترجمة":"عرض الترجمة بالعربي"};
   };
   draw();
 }
@@ -2844,7 +2849,6 @@ function wordsTab(p){
 }
 
 /* ---------- mini story: story, then many quick questions ---------- */
-let SHOWAR=true; try{SHOWAR=localStorage.getItem("kalam-storyar")!=="0"}catch(e){}
 function storyTab(p){
   const st=STORY[L.id]; let step=0, qi=0, right=0; const words=(WORDS[L.id]||[]).map(w=>w.w).concat(L.cards.map(c=>c.en.replace(/[.…,?]+$/,"").split(" ").slice(0,4).join(" ")));
   const WL=st.words||(WORDS[L.id]||[]).map(w=>w.w);
