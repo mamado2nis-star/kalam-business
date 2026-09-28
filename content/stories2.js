@@ -319,7 +319,7 @@ Object.assign(STORY_MORE,{
    {q:"Why did he propose next steps?", a:"To keep the momentum going.", opts:["To keep the momentum going","To stop the project"], k:0},
    {q:"What information did he ask for?", a:"Cycle life, warranty and delivery time.", opts:["Cycle life and warranty","Their home address"], k:0},
    {q:"What did he appreciate?", a:"Their prompt attention to this matter.", opts:["Prompt attention","A slow reply"], k:0},
-   {q:"How much diesel did the farmer save?", a:"60%.", opts:["6%","60%"], k:1}
+   {q:"How much diesel did the farmer save?", a:"He saved 60% on diesel.", opts:["6%","60%"], k:1}
   ],
   pov:"Now be Ziad writing: \"I wanted to take a moment to introduce myself… There may be potential synergies between our organizations… I wanted to follow up on our meeting… To keep the momentum going, I'd like to propose the following next steps.\""
  },
