@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "approach",
+   "pos": "noun",
+   "ar": "طريقة / أسلوب للتعامل مع حاجة",
+   "def": "a way of dealing with a problem or doing a task.",
+   "book": "I don't think that's the best approach.",
+   "uses": [
+    [
+     "Email",
+     "We suggest a phased approach: replace the batteries first, then upgrade the UPS."
+    ],
+    [
+     "Chat",
+     "not sure that's the best approach tbh, client wants it done in one visit"
+    ],
+    [
+     "Meeting",
+     "I think we need a different approach to overdue payments."
+    ]
+   ],
+   "goes": [
+    "a different approach",
+    "the best approach",
+    "a phased approach"
+   ],
+   "dont": [
+    "This way is not the best way to solve it."
+   ],
+   "doo": [
+    "I don't think that's the best approach."
+   ],
+   "level": 2
+  },
+  {
+   "w": "in line with",
+   "pos": "phrase",
+   "ar": "متماشي مع / متوافق مع",
+   "def": "matching or agreeing with something, such as a plan, rule or opinion.",
+   "book": "That's not in line with my thinking.",
+   "uses": [
+    [
+     "Email",
+     "Our new prices are in line with market rates for lithium batteries."
+    ],
+    [
+     "Chat",
+     "is this discount in line with our policy? 🤔"
+    ],
+    [
+     "Meeting",
+     "Our Q3 service revenue is in line with the forecast."
+    ]
+   ],
+   "goes": [
+    "in line with expectations",
+    "in line with the policy",
+    "in line with the budget"
+   ],
+   "dont": [
+    "This price is suitable with the market."
+   ],
+   "doo": [
+    "This price is in line with the market."
+   ],
+   "level": 2
+  },
+  {
+   "w": "jump in",
+   "pos": "phrasal verb",
+   "ar": "يدخل في الكلام / يشارك فجأة",
+   "def": "to join a conversation, often by politely interrupting.",
+   "book": "Excuse me, may I jump in for a moment?",
+   "uses": [
+    [
+     "Email",
+     "Feel free to jump in on this thread if I've missed anything about the site survey."
+    ],
+    [
+     "Chat",
+     "can i jump in here? the VFD was already replaced last week"
+    ],
+    [
+     "Meeting",
+     "Sorry, may I jump in? The customer already approved that budget."
+    ]
+   ],
+   "goes": [
+    "jump in for a moment",
+    "feel free to jump in",
+    "jump in with a point"
+   ],
+   "dont": [
+    "Can I enter in the talk?"
+   ],
+   "doo": [
+    "May I jump in for a moment?"
+   ],
+   "level": 1
+  },
+  {
+   "w": "unforeseen",
+   "pos": "adjective",
+   "ar": "مش متوقع / حصل فجأة",
+   "def": "not expected or planned before it happened.",
+   "book": "Due to unforeseen circumstances, I won't be able to attend the meeting.",
+   "uses": [
+    [
+     "Email",
+     "Due to unforeseen delays at customs, the batteries will arrive next week."
+    ],
+    [
+     "Chat",
+     "unforeseen issue at the site, running 30 min late 🙏"
+    ],
+    [
+     "Meeting",
+     "We've added a 10% buffer for unforeseen costs."
+    ]
+   ],
+   "goes": [
+    "unforeseen circumstances",
+    "unforeseen delays",
+    "unforeseen costs"
+   ],
+   "dont": [
+    "Because of circumstances not expected, I can't come."
+   ],
+   "doo": [
+    "Due to unforeseen circumstances, I can't attend."
+   ],
+   "level": 3
+  },
+  {
+   "w": "pressing",
+   "pos": "adjective",
+   "ar": "مستعجل / ضاغط ومحتاج يتعمل دلوقتي",
+   "def": "urgent and needing attention now.",
+   "book": "I must apologize, but I am unable to be present at the meeting, as I have a pressing deadline that I need to meet.",
+   "uses": [
+    [
+     "Email",
+     "I have a pressing matter with a client this morning, so I'll join at 11."
+    ],
+    [
+     "Chat",
+     "sorry, something pressing came up with the bank, call u later"
+    ],
+    [
+     "Meeting",
+     "The most pressing issue is the overdue invoices from the hospital."
+    ]
+   ],
+   "goes": [
+    "a pressing deadline",
+    "a pressing issue",
+    "a pressing matter"
+   ],
+   "dont": [
+    "I have a very hurry deadline."
+   ],
+   "doo": [
+    "I have a pressing deadline."
+   ],
+   "level": 3
+  },
+  {
+   "w": "conflicting",
+   "pos": "adjective",
+   "ar": "متعارض / في نفس الوقت مع حاجة تانية",
+   "def": "happening at the same time as something else, or disagreeing with it.",
+   "book": "Unfortunately, I won't be able to make it to the meeting, as I have a conflicting obligation that I must attend to.",
+   "uses": [
+    [
+     "Email",
+     "I have a conflicting appointment on Tuesday; could we move the site visit to Wednesday?"
+    ],
+    [
+     "Chat",
+     "got a conflicting call at 3, can we push to 4?"
+    ],
+    [
+     "Meeting",
+     "We've received conflicting reports about the cause of the UPS failure."
+    ]
+   ],
+   "goes": [
+    "a conflicting appointment",
+    "conflicting reports",
+    "conflicting priorities"
+   ],
+   "dont": [
+    "I have another meeting in the same time."
+   ],
+   "doo": [
+    "I have a conflicting meeting at that time."
+   ],
+   "level": 2
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "No, this is wrong.",
+   "ar": "لأ، ده غلط",
+   "pro": [
+    "No, you are wrong.",
+    "This is wrong totally.",
+    "I see your point, but I have a different perspective."
+   ],
+   "a": 2,
+   "why": "في الاجتماع اعترض بأدب: اعترف برأيه الأول وبعدين قول رأيك بـ ‎different perspective‎."
+  },
+  {
+   "plain": "I am not comfortable with this suggestion.",
+   "ar": "أنا مش مرتاح للاقتراح ده",
+   "pro": [
+    "I have reservations about that proposal.",
+    "I am not comfortable from this suggestion.",
+    "This suggestion is not comfortable."
+   ],
+   "a": 0,
+   "why": "‎have reservations about‎ = عندي تحفظات، أهدى من الرفض المباشر."
+  },
+  {
+   "plain": "What? Say again.",
+   "ar": "إيه؟ قول تاني",
+   "pro": [
+    "What? Repeat.",
+    "I didn't catch the last part. Would you mind repeating it?",
+    "Say it another time please."
+   ],
+   "a": 1,
+   "why": "‎I didn't catch …‎ بتحط المشكلة عندك انت مش عند اللي بيتكلم."
+  },
+  {
+   "plain": "Sorry for cutting you, I have a question.",
+   "ar": "آسف إني قاطعتك، عندي سؤال",
+   "pro": [
+    "Sorry for cutting you.",
+    "I'm sorry to interrupt, but I have a quick question.",
+    "Sorry I cut your talk."
+   ],
+   "a": 1,
+   "why": "‎cut you‎ ترجمة حرفية؛ الصح ‎interrupt‎."
+  },
+  {
+   "plain": "I want to add another point.",
+   "ar": "عايز أضيف نقطة تانية",
+   "pro": [
+    "I want to add other point.",
+    "I want to put a point more.",
+    "I'd like to bring up an additional point."
+   ],
+   "a": 2,
+   "why": "‎bring up‎ = يفتح نقطة جديدة، و‎I'd like to‎ أذوق من ‎I want‎."
+  },
+  {
+   "plain": "I can't come to the meeting.",
+   "ar": "مش هقدر آجي الاجتماع",
+   "pro": [
+    "I regret to inform you that I won't be able to attend the meeting.",
+    "I can't come to the meeting, sorry.",
+    "I will not can attend the meeting."
+   ],
+   "a": 0,
+   "why": "في الإيميل الرسمي: ‎I regret to inform you …‎ وبعدها ‎won't be able to attend‎."
+  }
+ ]
+}

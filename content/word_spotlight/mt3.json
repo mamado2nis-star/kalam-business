@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "objection",
+   "pos": "noun",
+   "ar": "اعتراض",
+   "def": "a reason you give for not agreeing with or not accepting something.",
+   "book": "Do you have any objections to this idea?",
+   "uses": [
+    [
+     "Email",
+     "If there are no objections, we'll send the revised quotation to the client tomorrow."
+    ],
+    [
+     "Chat",
+     "any objections if i move the PM visit to sunday?"
+    ],
+    [
+     "Meeting",
+     "Does anyone have any objections to extending the warranty to two years?"
+    ]
+   ],
+   "goes": [
+    "any objections to",
+    "raise an objection",
+    "no objections"
+   ],
+   "dont": [
+    "Is there anyone who refuses this idea?"
+   ],
+   "doo": [
+    "Does anyone have any objections to this idea?"
+   ],
+   "level": 2
+  },
+  {
+   "w": "break down",
+   "pos": "phrasal verb",
+   "ar": "يفصّص / يقسّم الحاجة لتفاصيل أبسط",
+   "def": "to explain something by dividing it into smaller, simpler parts.",
+   "book": "Could you break that down for me?",
+   "uses": [
+    [
+     "Email",
+     "Could you break down the quotation into equipment, installation and maintenance costs?"
+    ],
+    [
+     "Chat",
+     "can u break down the 45k? client is asking what's in it"
+    ],
+    [
+     "Meeting",
+     "Let me break down the downtime causes: batteries, fans and power cuts."
+    ]
+   ],
+   "goes": [
+    "break down the costs",
+    "break it down for me",
+    "a cost breakdown"
+   ],
+   "dont": [
+    "Can you divide me the price into details?"
+   ],
+   "doo": [
+    "Can you break down the price for me?"
+   ],
+   "level": 2
+  },
+  {
+   "w": "change gears",
+   "pos": "idiom",
+   "ar": "نغيّر الموضوع / ننتقل لحاجة تانية",
+   "def": "to move from one topic or activity to a different one.",
+   "book": "Can we change gears and talk about the next item?",
+   "uses": [
+    [
+     "Email",
+     "Changing gears slightly, I'd also like to discuss the solar project timeline."
+    ],
+    [
+     "Chat",
+     "ok changing gears — who's covering the Giza site tomorrow?"
+    ],
+    [
+     "Meeting",
+     "Let's change gears and look at the collections report."
+    ]
+   ],
+   "goes": [
+    "change gears",
+    "shift gears",
+    "switch gears"
+   ],
+   "dont": [
+    "Let's change the subject to another subject."
+   ],
+   "doo": [
+    "Let's change gears and talk about collections."
+   ],
+   "level": 1
+  },
+  {
+   "w": "on track",
+   "pos": "phrase",
+   "ar": "ماشي صح / في مساره",
+   "def": "making the expected progress, or staying on the main subject.",
+   "book": "Can we keep the conversation on track?",
+   "uses": [
+    [
+     "Email",
+     "The installation is on track for completion by the end of the month."
+    ],
+    [
+     "Chat",
+     "are we still on track for thursday delivery?"
+    ],
+    [
+     "Meeting",
+     "Let's keep the meeting on track — we have four items left."
+    ]
+   ],
+   "goes": [
+    "keep something on track",
+    "on track for",
+    "back on track"
+   ],
+   "dont": [
+    "The project is walking good."
+   ],
+   "doo": [
+    "The project is on track."
+   ],
+   "level": 2
+  },
+  {
+   "w": "steer",
+   "pos": "verb",
+   "ar": "يوجّه / يرجّع الكلام لاتجاه معيّن",
+   "def": "to guide a conversation or situation in a particular direction.",
+   "book": "Can we steer the conversation back to the original agenda?",
+   "uses": [
+    [
+     "Email",
+     "At Thursday's meeting, I'd like to steer the discussion toward the renewal terms."
+    ],
+    [
+     "Chat",
+     "try to steer the client to the lithium option, better margin 😉"
+    ],
+    [
+     "Meeting",
+     "Let me steer us back to the main issue — the late payments."
+    ]
+   ],
+   "goes": [
+    "steer the conversation",
+    "steer something back to",
+    "steer the client toward"
+   ],
+   "dont": [
+    "Let's return the talk to the original subject."
+   ],
+   "doo": [
+    "Let's steer the conversation back to the agenda."
+   ],
+   "level": 2
+  },
+  {
+   "w": "hold off",
+   "pos": "phrasal verb",
+   "ar": "يأجّل / يستنّى شوية قبل ما يعمل حاجة",
+   "def": "to delay doing something until later.",
+   "book": "Can we hold off on that discussion until later?",
+   "uses": [
+    [
+     "Email",
+     "Please hold off on ordering the batteries until the customer confirms the PO."
+    ],
+    [
+     "Chat",
+     "hold off on the invoice pls, they're disputing the amount"
+    ],
+    [
+     "Meeting",
+     "Let's hold off on the discount decision until we see the final numbers."
+    ]
+   ],
+   "goes": [
+    "hold off on something",
+    "hold off until",
+    "hold off for now"
+   ],
+   "dont": [
+    "Let's postpone this discussion to after."
+   ],
+   "doo": [
+    "Let's hold off on this discussion until later."
+   ],
+   "level": 2
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "What is your opinion, Ahmed? Talk.",
+   "ar": "إيه رأيك يا أحمد؟ اتكلم",
+   "pro": [
+    "Ahmed, say your opinion.",
+    "Can I have your input on this matter, Ahmed?",
+    "Ahmed, give us your opinions now."
+   ],
+   "a": 1,
+   "why": "اطلب الرأي بأدب بـ ‎Can I have your input …?‎"
+  },
+  {
+   "plain": "Now Mona will talk.",
+   "ar": "دلوقتي منى هتتكلم",
+   "pro": [
+    "I'll now turn the floor over to Mona.",
+    "Now it is the turn of Mona to talk.",
+    "Mona, take the talk."
+   ],
+   "a": 0,
+   "why": "لتسليم الكلمة لحد: ‎turn the floor over to‎ + الاسم."
+  },
+  {
+   "plain": "I didn't understand, say more.",
+   "ar": "مفهمتش، قول أكتر",
+   "pro": [
+    "I didn't understand, say more.",
+    "Explain more to me please.",
+    "Could you elaborate on that a bit more, please?"
+   ],
+   "a": 2,
+   "why": "‎elaborate‎ = يشرح بتفصيل أكتر، وبتبان مؤدبة."
+  },
+  {
+   "plain": "Enough about this, next point.",
+   "ar": "كفاية كده في الموضوع ده، النقطة اللي بعدها",
+   "pro": [
+    "Enough, go to next point.",
+    "Shall we proceed to the next item on the agenda?",
+    "We finished, next point please."
+   ],
+   "a": 1,
+   "why": "‎Shall we …?‎ بتنقل الاجتماع بلطف من غير ما تقطع حد."
+  },
+  {
+   "plain": "We are going far from the subject.",
+   "ar": "إحنا بعدنا عن الموضوع",
+   "pro": [
+    "We are going far from the subject.",
+    "We are out of the subject now.",
+    "Let's not get sidetracked."
+   ],
+   "a": 2,
+   "why": "‎get sidetracked‎ = نخرج عن الموضوع الأساسي."
+  },
+  {
+   "plain": "I am with this idea.",
+   "ar": "أنا مع الفكرة دي",
+   "pro": [
+    "I'm on board with that.",
+    "I am with this idea.",
+    "I am inside this idea."
+   ],
+   "a": 0,
+   "why": "‎I am with this idea‎ ترجمة حرفية؛ قول ‎I'm on board with that‎."
+  }
+ ]
+}

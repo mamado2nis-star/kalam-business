@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "cost-cutting",
+   "pos": "noun",
+   "ar": "تخفيض المصاريف / تقليل التكاليف",
+   "def": "reducing the money a company spends in order to save money or improve profit.",
+   "book": "I understand the importance of cost-cutting.",
+   "uses": [
+    [
+     "Email",
+     "As part of our cost-cutting plan, we'll combine the PM visits for the Alex sites into one trip."
+    ],
+    [
+     "Chat",
+     "more cost-cutting?? so no overtime this month 😬"
+    ],
+    [
+     "Meeting",
+     "Cost-cutting alone won't fix this — we also need new maintenance contracts."
+    ]
+   ],
+   "goes": [
+    "cost-cutting measures",
+    "a cost-cutting plan",
+    "a cost-cutting exercise"
+   ],
+   "dont": [
+    "We need to make cutting in the costs."
+   ],
+   "doo": [
+    "We need to cut costs."
+   ],
+   "level": 2
+  },
+  {
+   "w": "fiscal year",
+   "pos": "noun",
+   "ar": "السنة المالية",
+   "def": "the 12-month period a company uses for its accounts and budgets.",
+   "book": "I'd like to suggest that we set a specific target for the end of the fiscal year.",
+   "uses": [
+    [
+     "Email",
+     "Please send all pending invoices before the end of the fiscal year on 30 June."
+    ],
+    [
+     "Chat",
+     "is the solar project in this fiscal year's budget or next?"
+    ],
+    [
+     "Meeting",
+     "Our target is to renew 40 maintenance contracts by the end of the fiscal year."
+    ]
+   ],
+   "goes": [
+    "the end of the fiscal year",
+    "the current fiscal year",
+    "the fiscal year budget"
+   ],
+   "dont": [
+    "At the end of the money year we close the accounts."
+   ],
+   "doo": [
+    "We close the accounts at the end of the fiscal year."
+   ],
+   "level": 2
+  },
+  {
+   "w": "feasibility",
+   "pos": "noun",
+   "ar": "إمكانية التنفيذ / الجدوى",
+   "def": "how possible and practical it is to do something successfully.",
+   "book": "We should consider the market demand and feasibility of this new product line.",
+   "uses": [
+    [
+     "Email",
+     "Before we quote, we need to check the feasibility of installing solar panels on the customer's roof."
+    ],
+    [
+     "Chat",
+     "did anyone do a feasibility check on the 3-phase UPS for that site?"
+    ],
+    [
+     "Meeting",
+     "Let's run a feasibility study before we commit to the data-centre project."
+    ]
+   ],
+   "goes": [
+    "a feasibility study",
+    "check the feasibility of",
+    "technical feasibility"
+   ],
+   "dont": [
+    "We will study if this thing can happen or not."
+   ],
+   "doo": [
+    "We'll look into the feasibility of this."
+   ],
+   "level": 3
+  },
+  {
+   "w": "vet",
+   "pos": "verb",
+   "ar": "يفحص ويدقّق كويس قبل ما يوافق",
+   "def": "to check someone or something carefully before you accept or trust them.",
+   "book": "We need to carefully vet any potential partners and make sure they align with our values and mission.",
+   "uses": [
+    [
+     "Email",
+     "All new battery suppliers must be vetted by Purchasing before we issue a PO."
+    ],
+    [
+     "Chat",
+     "has anyone vetted this subcontractor? never heard of them 🤔"
+    ],
+    [
+     "Meeting",
+     "We vet every installation partner for safety certificates and references."
+    ]
+   ],
+   "goes": [
+    "vet suppliers",
+    "carefully vet",
+    "thoroughly vetted"
+   ],
+   "dont": [
+    "We must make a check on the supplier very well."
+   ],
+   "doo": [
+    "We need to vet the supplier carefully."
+   ],
+   "level": 2
+  },
+  {
+   "w": "reassess",
+   "pos": "verb",
+   "ar": "يعيد تقييم",
+   "def": "to think again about something to decide whether you need to change it.",
+   "book": "The group agreed to aim for a 5% increase in revenue, with a plan in place to reassess and adjust the target if necessary.",
+   "uses": [
+    [
+     "Email",
+     "We'll reassess the service schedule after the first three months of the contract."
+    ],
+    [
+     "Chat",
+     "prices went up again, we need to reassess the quote before sending it"
+    ],
+    [
+     "Meeting",
+     "If collections don't improve by Q3, we'll reassess our payment terms."
+    ]
+   ],
+   "goes": [
+    "reassess the situation",
+    "reassess the target",
+    "reassess our priorities"
+   ],
+   "dont": [
+    "We will evaluate again the situation."
+   ],
+   "doo": [
+    "We'll reassess the situation."
+   ],
+   "level": 2
+  },
+  {
+   "w": "reconvene",
+   "pos": "verb",
+   "ar": "نرجع نكمّل الاجتماع / نتجمّع تاني",
+   "def": "to meet again after a break, usually to continue the same meeting.",
+   "book": "Let's reconvene in ten minutes to continue our discussion.",
+   "uses": [
+    [
+     "Email",
+     "Let's reconvene on Thursday once we have the updated battery prices from the supplier."
+    ],
+    [
+     "Chat",
+     "coffee break? reconvene at 11:15 ☕"
+    ],
+    [
+     "Meeting",
+     "We're out of time, so let's reconvene tomorrow to finalise the tender."
+    ]
+   ],
+   "goes": [
+    "reconvene after lunch",
+    "reconvene next week",
+    "reconvene in ten minutes"
+   ],
+   "dont": [
+    "We will return to meet again after the break."
+   ],
+   "doo": [
+    "We'll reconvene after the break."
+   ],
+   "level": 3
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "I am agree with you 100%.",
+   "ar": "أنا موافقك جدًا",
+   "pro": [
+    "I am agree with you totally.",
+    "I couldn't agree more.",
+    "I agree you too much."
+   ],
+   "a": 1,
+   "why": "‎agree‎ فعل مش صفة، فمن غير ‎am‎؛ و‎I couldn't agree more‎ = موافق جدًا."
+  },
+  {
+   "plain": "What do you mean? I don't understand anything.",
+   "ar": "قصدك إيه؟ أنا مش فاهم حاجة",
+   "pro": [
+    "I have a question for clarification.",
+    "Explain me what you mean.",
+    "I didn't understand nothing."
+   ],
+   "a": 0,
+   "why": "اطلب التوضيح بأدب؛ و‎explain‎ مبتاخدش ‎me‎ على طول."
+  },
+  {
+   "plain": "We must cut the employees to save money.",
+   "ar": "لازم نمشّي موظفين عشان نوفّر فلوس",
+   "pro": [
+    "We must fire people to make saving.",
+    "We must cut the employees.",
+    "We may need to reduce the workforce to cut costs."
+   ],
+   "a": 2,
+   "why": "‎reduce the workforce‎ أهدى وأكثر احترافية من ‎cut the employees‎."
+  },
+  {
+   "plain": "Let's write this in the tasks to do it later.",
+   "ar": "خلينا نكتب دي في المهام ونعملها بعدين",
+   "pro": [
+    "Let's write it in the to-do to make it after.",
+    "Let's put that on the action item list.",
+    "We add this to the jobs list."
+   ],
+   "a": 1,
+   "why": "في الاجتماعات بنقول ‎action item list‎ للمهام المطلوبة بعد الاجتماع."
+  },
+  {
+   "plain": "Who agrees, raise his hand.",
+   "ar": "اللي موافق يرفع إيده",
+   "pro": [
+    "All in favour, raise your hands.",
+    "Who is agree raise his hand.",
+    "The agreeing people raise hands."
+   ],
+   "a": 0,
+   "why": "للتصويت الرسمي: ‎All in favour‎ وبعدها ‎raise your hands‎."
+  },
+  {
+   "plain": "The target 10% is very big, we can't reach it.",
+   "ar": "تارجت ١٠٪ كبير أوي، مش هنقدر نوصله",
+   "pro": [
+    "This target is too much big.",
+    "We can't reach it, it is impossible.",
+    "I'm not sure a 10% target is realistic in our current situation."
+   ],
+   "a": 2,
+   "why": "اعترض بلطف بـ ‎I'm not sure … is realistic‎ بدل ما تقول مستحيل."
+  }
+ ]
+}

@@ -20,8 +20,12 @@ ch2={}
 for sec in json.load(open('/home/claude/asr/read_email.json')):
     ch2[sec['key']]={'title':sec['title'],'src':f"audio/ch2/book-{sec['key']}.mp3",'lines':sec['lines']}
 t=t.replace('/*__CH2__*/','const READING_CH2='+json.dumps(ch2,ensure_ascii=False)+';\n'+open('/home/claude/asr/ch2_lessons.js').read())
+ch3={}
+for sec in json.load(open('/home/claude/asr/read_meetings.json')):
+    ch3[sec['key']]={'title':sec['title'],'src':f"audio/ch3/book-{sec['key']}.mp3",'lines':sec['lines']}
+t=t.replace('/*__CH3__*/','const READING_CH3='+json.dumps(ch3,ensure_ascii=False)+';\n'+open('/home/claude/asr/ch3_lessons.js').read())
 t=t.replace('/*__PILOT__*/',open('/home/claude/asr/pilot.js').read())
-t=t.replace('/*__STORIES__*/',open('/home/claude/asr/stories.js').read()+'\n'+open('/home/claude/asr/stories2.js').read())
+t=t.replace('/*__STORIES__*/',open('/home/claude/asr/stories.js').read()+'\n'+open('/home/claude/asr/stories2.js').read()+'\n'+open('/home/claude/asr/stories3.js').read())
 import glob,os
 say={}
 for f in sorted(glob.glob('/home/claude/tts/maps/*/*.json')):

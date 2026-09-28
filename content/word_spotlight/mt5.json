@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "scheduling conflict",
+   "pos": "noun",
+   "ar": "تعارض في المواعيد",
+   "def": "a situation where two meetings or events are planned for the same time.",
+   "book": "I regret to inform you that our scheduled meeting for next Monday, the 10th of February, has to be postponed due to a last-minute scheduling conflict.",
+   "uses": [
+    [
+     "Email",
+     "Due to a scheduling conflict, could we move our call to Wednesday at 11?"
+    ],
+    [
+     "Chat",
+     "scheduling conflict with the bank meeting, can we do 2 instead?"
+    ],
+    [
+     "Meeting",
+     "To avoid scheduling conflicts, please book all PM visits in the shared calendar."
+    ]
+   ],
+   "goes": [
+    "a scheduling conflict",
+    "a last-minute scheduling conflict",
+    "resolve a scheduling conflict"
+   ],
+   "dont": [
+    "There is an interference in my appointments."
+   ],
+   "doo": [
+    "I have a scheduling conflict."
+   ],
+   "level": 2
+  },
+  {
+   "w": "accordingly",
+   "pos": "adverb",
+   "ar": "على هذا الأساس / حسب كده",
+   "def": "in a way that suits what has just been said or decided.",
+   "book": "Please let me know which option works best for everyone, and I will make arrangements accordingly.",
+   "uses": [
+    [
+     "Email",
+     "Please confirm the delivery date and we'll plan the installation accordingly."
+    ],
+    [
+     "Chat",
+     "prices changed, update the quote accordingly pls"
+    ],
+    [
+     "Meeting",
+     "Once we know the total load, we'll size the UPS accordingly."
+    ]
+   ],
+   "goes": [
+    "plan accordingly",
+    "adjust accordingly",
+    "act accordingly"
+   ],
+   "dont": [
+    "Tell me and I will arrange on this base."
+   ],
+   "doo": [
+    "Let me know and I'll make arrangements accordingly."
+   ],
+   "level": 3
+  },
+  {
+   "w": "allocate",
+   "pos": "verb",
+   "ar": "يخصّص (فلوس / وقت / ناس)",
+   "def": "to decide that money, time or people will be used for a particular purpose.",
+   "book": "Can you clarify how much we have allocated for this?",
+   "uses": [
+    [
+     "Email",
+     "We've allocated two technicians to the data-centre project for the next month."
+    ],
+    [
+     "Chat",
+     "how much did we allocate for spare parts this quarter?"
+    ],
+    [
+     "Meeting",
+     "I suggest we allocate more budget to preventive maintenance."
+    ]
+   ],
+   "goes": [
+    "allocate a budget",
+    "allocate resources",
+    "allocate time to"
+   ],
+   "dont": [
+    "We specified money for the marketing."
+   ],
+   "doo": [
+    "We allocated a budget for marketing."
+   ],
+   "level": 2
+  },
+  {
+   "w": "projections",
+   "pos": "noun",
+   "ar": "توقعات / أرقام متوقعة للمستقبل",
+   "def": "estimates of future numbers, such as sales or revenue, based on current data.",
+   "book": "What about the revenue projections for the next quarter?",
+   "uses": [
+    [
+     "Email",
+     "Attached are the sales projections for the solar division for Q4."
+    ],
+    [
+     "Chat",
+     "are the Q1 projections final or still draft?"
+    ],
+    [
+     "Meeting",
+     "Our projections show a 15% rise in maintenance contract renewals."
+    ]
+   ],
+   "goes": [
+    "revenue projections",
+    "sales projections",
+    "financial projections"
+   ],
+   "dont": [
+    "The expectations of the sales next year are good."
+   ],
+   "doo": [
+    "The sales projections for next year look good."
+   ],
+   "level": 2
+  },
+  {
+   "w": "wrap up",
+   "pos": "phrasal verb",
+   "ar": "نخلّص / نقفل الموضوع",
+   "def": "to finish a meeting, task or discussion.",
+   "book": "Are there any final comments or questions before we wrap up?",
+   "uses": [
+    [
+     "Email",
+     "We expect to wrap up the installation by Thursday afternoon."
+    ],
+    [
+     "Chat",
+     "let's wrap up, i have a site visit at 3"
+    ],
+    [
+     "Meeting",
+     "Before we wrap up, let's confirm who's following up on the overdue invoices."
+    ]
+   ],
+   "goes": [
+    "wrap up the meeting",
+    "wrap things up",
+    "before we wrap up"
+   ],
+   "dont": [
+    "Let's close the meeting and finish it."
+   ],
+   "doo": [
+    "Let's wrap up the meeting."
+   ],
+   "level": 1
+  },
+  {
+   "w": "adjourn",
+   "pos": "verb",
+   "ar": "يرفع / ينهي الاجتماع (رسمي)",
+   "def": "to formally end or pause a meeting.",
+   "book": "Are there any final comments or concerns before we adjourn?",
+   "uses": [
+    [
+     "Email",
+     "The board meeting was adjourned until next Monday because the figures were missing."
+    ],
+    [
+     "Chat",
+     "meeting adjourned 😂 finally, lunch?"
+    ],
+    [
+     "Meeting",
+     "If there's nothing else, the meeting is adjourned."
+    ]
+   ],
+   "goes": [
+    "adjourn the meeting",
+    "the meeting is adjourned",
+    "adjourn until"
+   ],
+   "dont": [
+    "The meeting is ended now officially."
+   ],
+   "doo": [
+    "The meeting is adjourned."
+   ],
+   "level": 3
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "I will cancel the meeting because I have a problem.",
+   "ar": "هلغي الاجتماع عشان عندي مشكلة",
+   "pro": [
+    "I apologize, but I will have to reschedule our meeting.",
+    "I will cancel the meeting, I have problem.",
+    "The meeting is cancelled from my side because problem."
+   ],
+   "a": 0,
+   "why": "اعتذر الأول، وقول ‎reschedule‎ لو هتحدد ميعاد تاني."
+  },
+  {
+   "plain": "The meeting is delayed to another time.",
+   "ar": "الاجتماع اتأجل لوقت تاني",
+   "pro": [
+    "The meeting is delayed to other time.",
+    "The meeting is late for another day.",
+    "The meeting needs to be postponed."
+   ],
+   "a": 2,
+   "why": "لتأجيل ميعاد بنقول ‎postpone‎ مش ‎delay‎."
+  },
+  {
+   "plain": "Which time is good for you all?",
+   "ar": "أنهي معاد مناسب ليكم كلكم؟",
+   "pro": [
+    "Which time is suitable for you all?",
+    "Please let me know which option works best for everyone.",
+    "Tell me what time is good for all of you."
+   ],
+   "a": 1,
+   "why": "‎works best for‎ هي الطريقة الطبيعية للسؤال عن الميعاد المناسب."
+  },
+  {
+   "plain": "Let's make voting on this.",
+   "ar": "يلا نعمل تصويت على ده",
+   "pro": [
+    "Shall we put it to a vote?",
+    "Let's make voting on this.",
+    "We do a vote now for this."
+   ],
+   "a": 0,
+   "why": "‎put it to a vote‎ = نطرح الموضوع للتصويت."
+  },
+  {
+   "plain": "Raise your hands so I count.",
+   "ar": "ارفعوا إيديكم عشان أعدّ",
+   "pro": [
+    "Raise your hands for I count.",
+    "Can we get a show of hands?",
+    "Everybody up your hands."
+   ],
+   "a": 1,
+   "why": "‎a show of hands‎ = تصويت سريع برفع الإيد."
+  },
+  {
+   "plain": "OK, the meeting finished. Bye.",
+   "ar": "خلاص، الاجتماع خلص. سلام",
+   "pro": [
+    "The meeting finished, bye bye.",
+    "The meeting is over now, you can go.",
+    "That concludes our meeting for today. Thank you all."
+   ],
+   "a": 2,
+   "why": "اقفل الاجتماع بجملة رسمية وشكر: ‎That concludes …‎"
+  }
+ ]
+}

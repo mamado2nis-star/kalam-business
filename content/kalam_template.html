@@ -361,13 +361,14 @@ const CHAPTERS=[
 /*__UNIT__*/
 /*__CH1__*/
 /*__CH2__*/
+/*__CH3__*/
 const LESSONS=[
  ...UNIT_PHONE_INTERVIEW.lessons.map((l,i)=>({...l,chapter:"c1",part:"Phone interview",art:["phone","cv","money"][i],
    desc:["Answer the first HR call, ask to call back politely, and describe yourself in strong words.","Talk about your past roles with numbers, and explain why you want to move on.","Give a salary range, ask about benefits, and close the call with smart questions."][i],
    minutes:[15,15,15][i], reading:READING_PHONE.slice(i*2,i*2+2)})),
  ...CH1_MORE.map(l=>({...l,chapter:"c1",reading:l.reading.map(k=>READING_CH1[k]),cards:l.cards.map((c,i)=>({...c,clip:`audio/ch1/${l.id}-${i+1}.mp3`}))})),
  ...CH2.map(l=>({...l,chapter:"c2",reading:l.reading.map(k=>READING_CH2[k]),cards:l.cards.map((c,i)=>({...c,clip:`audio/ch2/${l.id}-${i+1}.mp3`}))})),
- {id:"s5",chapter:"c3",art:"meeting",title:"Running and joining meetings",ar:"إدارة الاجتماعات والمشاركة فيها",desc:"Opening, staying on track, disagreeing and interrupting politely.",soon:true},
+ ...CH3.map(l=>({...l,chapter:"c3",reading:l.reading.map(k=>READING_CH3[k]),cards:l.cards.map((c,i)=>({...c,clip:`audio/ch3/${l.id}-${i+1}.mp3`}))})),
  {id:"s6",chapter:"c4",art:"chart",title:"Presenting with confidence",ar:"عرض تقديمي بثقة",desc:"Structure, signposting, and handling questions.",soon:true},
  {id:"s7",chapter:"c5",art:"deal",title:"Negotiating a deal",ar:"التفاوض على صفقة",desc:"Proposals, counter-offers, and closing.",soon:true},
  {id:"s8",chapter:"c6",art:"laptop",title:"Video calls and LinkedIn",ar:"مكالمات الفيديو ولينكدإن",desc:"Virtual meeting phrases and a strong LinkedIn bio.",soon:true},

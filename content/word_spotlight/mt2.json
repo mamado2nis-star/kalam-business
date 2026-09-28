@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "make the most of",
+   "pos": "verb phrase",
+   "ar": "نستغل الحاجة أحسن استغلال",
+   "def": "to use a time, chance or resource in the best possible way.",
+   "book": "To ensure we make the most of our time together, let's proceed with the agenda.",
+   "uses": [
+    [
+     "Email",
+     "To make the most of the site visit, please have the UPS logs ready before we arrive."
+    ],
+    [
+     "Chat",
+     "we only have 30 min with the client, let's make the most of it 💪"
+    ],
+    [
+     "Meeting",
+     "Let's make the most of this slot and agree on the maintenance scope today."
+    ]
+   ],
+   "goes": [
+    "make the most of our time",
+    "make the most of the opportunity",
+    "make the most of the budget"
+   ],
+   "dont": [
+    "We want to benefit from the time very well."
+   ],
+   "doo": [
+    "Let's make the most of our time."
+   ],
+   "level": 2
+  },
+  {
+   "w": "instrumental",
+   "pos": "adjective",
+   "ar": "له دور أساسي / كان سبب رئيسي",
+   "def": "very important in making something happen.",
+   "book": "He has been with the company for several years and has played an instrumental role in delivering several successful projects.",
+   "uses": [
+    [
+     "Email",
+     "Ahmed was instrumental in closing the data-centre deal with the bank."
+    ],
+    [
+     "Chat",
+     "tbh omar was instrumental in fixing that VFD issue 🙌"
+    ],
+    [
+     "Meeting",
+     "Our service team played an instrumental role in keeping the hospital's UPS running."
+    ]
+   ],
+   "goes": [
+    "play an instrumental role",
+    "instrumental in + -ing",
+    "instrumental to the success"
+   ],
+   "dont": [
+    "He was a main reason in the success of the project."
+   ],
+   "doo": [
+    "He was instrumental in the project's success."
+   ],
+   "level": 3
+  },
+  {
+   "w": "specialize in",
+   "pos": "verb",
+   "ar": "متخصص في",
+   "def": "to focus mainly on one type of product, service or skill.",
+   "book": "Our company specializes in technology solutions, and we're interested in exploring new marketing strategies.",
+   "uses": [
+    [
+     "Email",
+     "We specialize in the supply and maintenance of UPS systems and battery banks."
+    ],
+    [
+     "Chat",
+     "do they specialize in solar or just resell panels?"
+    ],
+    [
+     "Meeting",
+     "Our team specializes in data-centre power solutions, from design to maintenance."
+    ]
+   ],
+   "goes": [
+    "specialize in power solutions",
+    "highly specialized",
+    "a specialized team"
+   ],
+   "dont": [
+    "Our company is specialist on UPS."
+   ],
+   "doo": [
+    "Our company specializes in UPS systems."
+   ],
+   "level": 2
+  },
+  {
+   "w": "overview",
+   "pos": "noun",
+   "ar": "نظرة عامة / ملخص سريع",
+   "def": "a short description of the main points of something, without the details.",
+   "book": "Can you each introduce yourselves and give us a brief overview of your organization?",
+   "uses": [
+    [
+     "Email",
+     "Attached is a brief overview of our preventive maintenance packages."
+    ],
+    [
+     "Chat",
+     "can u give me a quick overview of the Heliopolis site before the call?"
+    ],
+    [
+     "Meeting",
+     "Let me start with a quick overview of last quarter's service tickets."
+    ]
+   ],
+   "goes": [
+    "a brief overview",
+    "give an overview of",
+    "a general overview"
+   ],
+   "dont": [
+    "I will give you a general idea summary about the company."
+   ],
+   "doo": [
+    "Let me give you a brief overview of the company."
+   ],
+   "level": 2
+  },
+  {
+   "w": "adjustment",
+   "pos": "noun",
+   "ar": "تعديل",
+   "def": "a small change made to improve something or make it work better.",
+   "book": "Our purpose today is to discuss the progress we've made on our current project, as well as to make any necessary adjustments to our plan.",
+   "uses": [
+    [
+     "Email",
+     "We've made a few adjustments to the quotation based on your feedback."
+    ],
+    [
+     "Chat",
+     "small adjustment: site visit moved to 10 am 👍"
+    ],
+    [
+     "Meeting",
+     "We may need to make some adjustments to the delivery schedule."
+    ]
+   ],
+   "goes": [
+    "make adjustments",
+    "necessary adjustments",
+    "a minor adjustment"
+   ],
+   "dont": [
+    "We will do some modifies on the plan."
+   ],
+   "doo": [
+    "We'll make some adjustments to the plan."
+   ],
+   "level": 2
+  },
+  {
+   "w": "eager to",
+   "pos": "adjective",
+   "ar": "متحمّس ونفسه يعمل حاجة",
+   "def": "wanting very much to do or have something.",
+   "book": "Our company provides a range of financial services, and we're eager to learn more about your ideas for marketing.",
+   "uses": [
+    [
+     "Email",
+     "We're eager to start the installation as soon as the PO is issued."
+    ],
+    [
+     "Chat",
+     "client is eager to get the new batteries in asap"
+    ],
+    [
+     "Meeting",
+     "We're eager to hear your feedback on the pilot solar system."
+    ]
+   ],
+   "goes": [
+    "eager to learn",
+    "eager to start",
+    "eager to hear"
+   ],
+   "dont": [
+    "We are very excited for to start the project."
+   ],
+   "doo": [
+    "We're eager to start the project."
+   ],
+   "level": 2
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "Sorry, I am late because of the traffic.",
+   "ar": "آسف، اتأخرت بسبب الزحمة",
+   "pro": [
+    "Sorry for late, the traffic.",
+    "My apologies for running behind schedule.",
+    "I am sorry for my lateness because traffic."
+   ],
+   "a": 1,
+   "why": "اعتذار مهني قصير من غير أعذار كتير: ‎My apologies for …‎"
+  },
+  {
+   "plain": "I will introduce myself. I am Ahmed from the sales.",
+   "ar": "هعرّفكم بنفسي، أنا أحمد من المبيعات",
+   "pro": [
+    "Allow me to introduce myself. I'm Ahmed, from the sales team.",
+    "I will present me. I am Ahmed from the sales.",
+    "Let me to introduce myself, Ahmed."
+   ],
+   "a": 0,
+   "why": "ابدأ بـ ‎Allow me to introduce myself‎، ومتقولش ‎present me‎."
+  },
+  {
+   "plain": "Tell us who are you and what is your job.",
+   "ar": "قولّنا انت مين وشغلتك إيه",
+   "pro": [
+    "Tell us who are you and your job.",
+    "Say your name and what you do.",
+    "Could you please introduce yourself and your role in the company?"
+   ],
+   "a": 2,
+   "why": "السؤال المباشر ده حاد؛ ابدأ بـ ‎Could you please …‎ عشان يبقى مؤدب."
+  },
+  {
+   "plain": "Welcome to the guests.",
+   "ar": "أهلاً بالضيوف",
+   "pro": [
+    "I'd like to extend a warm welcome to our guests.",
+    "We welcome with the guests.",
+    "Welcome for our guests."
+   ],
+   "a": 0,
+   "why": "‎extend a warm welcome to‎ = ترحيب رسمي ودافي بالضيوف."
+  },
+  {
+   "plain": "The meeting today is for talking about the new contract.",
+   "ar": "الاجتماع النهارده عشان نتكلم عن عقد الصيانة الجديد",
+   "pro": [
+    "The meeting is for speak about the contract.",
+    "The meeting today, we will talk in the new contract.",
+    "Our objective for this meeting is to review the new maintenance contract."
+   ],
+   "a": 2,
+   "why": "افتح الاجتماع بهدف واضح: ‎Our objective for this meeting is to …‎"
+  },
+  {
+   "plain": "Let's see the points of the meeting first so we are all same.",
+   "ar": "خلينا نشوف نقط الاجتماع الأول عشان نبقى كلنا فاهمين نفس الحاجة",
+   "pro": [
+    "Let's see the points first so we are all same.",
+    "Let's go over the agenda to make sure we're on the same page.",
+    "We look on the agenda to be same idea."
+   ],
+   "a": 1,
+   "why": "‎on the same page‎ = متفقين وفاهمين نفس الحاجة."
+  }
+ ]
+}
