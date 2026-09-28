@@ -1,10 +1,10 @@
 import json
 t=open('/home/claude/asr/kalam_template.html').read()
-r=json.load(open('/home/claude/asr/reading_phone.json'))
+r=[{'title':s['title'],'src':'audio/phone/book-p'+s['key'].split('_')[1]+'.mp3','lines':s['lines']} for s in json.load(open('/home/claude/asr/read_phone_book.json'))]
 for sec in r:
     last=0
     for l in sec['lines']:
-        if l['t'] is None: l['t']=last
+        if l.get('t') is None: l['t']=last
         else:
             if l['t']<last: l['t']=last
             last=l['t']
@@ -31,6 +31,7 @@ say={}
 for f in sorted(glob.glob('/home/claude/tts/maps/*/*.json')):
     lv=f.split('/')[-2]; say.setdefault(lv,{})[os.path.basename(f)[:-5]]=json.load(open(f))
 t=t.replace('/*__SAY__*/',('const SAY='+json.dumps(say,ensure_ascii=False,separators=(',',':'))+';') if say else '')
+t=t.replace('/*__BANK__*/',open('/home/claude/asr/bank_ar.js').read())
 t=t.replace('/*__WUE__*/',open('/home/claude/asr/wu_emails.js').read())
 t=t.replace('/*__FIX__*/','const CARD_FIX='+open('/home/claude/asr/card_fixes.json').read()+';')
 open('/home/claude/worktalk/index.html','w').write(t)

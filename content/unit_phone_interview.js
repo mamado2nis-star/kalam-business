@@ -1,5 +1,5 @@
 /* ============================================================
-   Kalam Business — Unit: Job Interview · Phone Interview
+   WorkTalk — Unit: Job Interview · Phone Interview
    Source: Main Book, Chapter 1, pages 9–31 (6 audio tracks).
    Same shape as COURSE units in business-english/index.html:
    each lesson = cards (learn) → quiz (practice) → match (game) → roleplay (speak).
@@ -27,9 +27,9 @@ const UNIT_PHONE_INTERVIEW = { id:"u0", time:"08:00", title:"Job Interview · Ph
     {type:"mcq", q:"أحسن بداية لـ ‎Tell me about yourself‎ لخريج جديد:", options:["I was born in 1999 in Cairo…","I am an enthusiastic engineering graduate with freelance experience.","I don't know what to say."], answer:1, why:"ابدأ بمين انت مهنيًا، مش قصة حياتك."}
    ],
    match:[["self-starter","بيبدأ لوحده"],["detail-oriented","مهتم بالتفاصيل"],["resourceful","بيتصرف بالمتاح"],["reliable","يُعتمد عليه"],["punctual","ملتزم بالمواعيد"],["team player","بيحب الشغل الجماعي"]],
-   roleplay:{ scene:"الساعة ٨ بالليل. Susan من الـ HR بتتصل بيك تعمل screening interview وانت قاعد تتعشى.",
+   roleplay:{ scene:"الساعة ٨ بالليل. Sozan من الـ HR بتتصل بيك تعمل screening interview وانت قاعد تتعشى.",
      turns:[
-      {them:"Hello, this is Susan from Human Resources. Have you got time to answer a few questions about your application?"},
+      {them:"Hello, this is Sozan from Human Resources. Have you got time to answer a few questions about your application?"},
       {you:[{t:"I'm just about to sit down for dinner. Do you mind if I call you back in half an hour?",ok:1,fb:"ممتاز: مؤدب وحددت وقت."},{t:"Not now.",ok:0,fb:"جافة، وممكن تضيّع الفرصة."},{t:"Who gave you my number?",ok:0,fb:"انت اللي قدّمت! الرد ده غريب."}]},
       {them:"Thanks for calling back. Can you tell me a little about yourself?"},
       {you:[{t:"I'm an enthusiastic engineering graduate with freelance experience. I'm a team player and I thrive on new challenges.",ok:1,fb:"مختصر ومهني، ومليان صفات قوية."},{t:"I like football and sleeping.",ok:0,fb:"مش ده المقصود في مقابلة شغل."},{t:"Everything is in my CV.",ok:0,fb:"بتضيّع فرصة تبيع نفسك."}]},
@@ -85,7 +85,7 @@ const UNIT_PHONE_INTERVIEW = { id:"u0", time:"08:00", title:"Job Interview · Ph
     {type:"mcq", q:"إيه معنى ‎perks‎؟", options:["مزايا إضافية","خصومات من المرتب","ساعات إضافي"], answer:0, why:"‎perks‎ = مزايا زي عربية، تأمين، تدريب."}
    ],
    match:[["salary range","رينج المرتب"],["benefits","مزايا"],["perks","مزايا إضافية"],["negotiate","يتفاوض"],["shortlisted","اتختار في القايمة المختصرة"],["onboarding","فترة الاستلام والتأهيل"]],
-   roleplay:{ scene:"آخر المكالمة. Susan بتسأل عن المرتب المتوقع وبعدين بتسألك لو عندك أسئلة.",
+   roleplay:{ scene:"آخر المكالمة. Sozan بتسأل عن المرتب المتوقع وبعدين بتسألك لو عندك أسئلة.",
      turns:[
       {them:"Can you tell me a little about your salary expectations for this position?"},
       {you:[{t:"I'm looking for somewhere between 25,000 and 30,000, but benefits matter to me as well, so I'm a bit flexible.",ok:1,fb:"رينج واضح مع مرونة. ده بالظبط اللي في الكتاب."},{t:"As much as possible.",ok:0,fb:"مش احترافية وماتدّيش معلومة."},{t:"50,000 or I won't come.",ok:0,fb:"بتقفل التفاوض من أوله."}]},

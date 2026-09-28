@@ -295,6 +295,12 @@ a{color:inherit}
 .rightord{margin:8px 0 0;padding-inline-start:20px}.kit{margin-top:18px}.kit h3{margin:18px 0 4px}
 .plist{display:grid;gap:8px;margin-top:8px}.prow{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 14px;border-radius:12px;background:var(--card);border:1px solid var(--line)}
 .prow>span{display:flex;flex-direction:column;gap:2px}.prow .ar{font-size:13px;color:var(--muted)}
+.lmode{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.lmode button{flex:1;min-width:140px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:14px;padding:10px 12px;font:inherit;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px}
+.lmode button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.lmode button[aria-pressed="true"] .chip{background:color-mix(in srgb,var(--paper) 20%,transparent);color:inherit}
+.phrase.all h2{font-size:clamp(20px,3.2vw,26px);line-height:1.45}.phrase.all mark{background:var(--saffron-soft);color:inherit;border-radius:4px;padding:0 2px}
+.bank-row.cur{background:var(--cobalt-soft);border-radius:10px}
 .say-note{font-size:13px;color:var(--muted);margin:4px 0 0}
 .msg small .spk{width:24px;height:24px}.msg small .spk svg{width:12px;height:12px}
 .techw{margin-top:14px}.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
@@ -377,6 +383,7 @@ const LESSONS=[
 
 /*__FIX__*/
 /*__PILOT__*/
+/*__BANK__*/
 /*__WUE__*/
 /*__STORIES__*/
 /*__SAY__*/
@@ -639,10 +646,37 @@ function fmtLine(s){
 }
 
 /* ---------- learn ---------- */
+let LMODE="key"; try{LMODE=localStorage.getItem("kalam-lmode")||"key"}catch(e){}
+function allItems(){
+  return (L.reading||[]).flatMap(r=>{const ps=r.lines.filter(l=>l.k==="p");
+    return ps.map((l,i)=>({src:r.src,t:l.t,t2:(ps.slice(i+1).find(n=>n.t>l.t)||{}).t,s:l.s,sec:r.title}))
+      .filter(x=>!/^(Subject|Dear|Best regards|Warm regards|Sincerely)/.test(x.s)&&x.s.split(" ").length>2)});
+}
+function modeBar(n){ return `<div class="lmode" role="tablist"><button data-lm="key" aria-pressed="${LMODE==="key"}">⭐ Key phrases <span class="chip">${L.cards.length}</span></button><button data-lm="all" aria-pressed="${LMODE==="all"}">📚 All phrases <span class="chip">${n}</span></button></div>` }
+function bindMode(p){ p.querySelectorAll("[data-lm]").forEach(b=>b.onclick=()=>{LMODE=b.dataset.lm; try{localStorage.setItem("kalam-lmode",LMODE)}catch(e){} stopAudio(); learnTab(p)}) }
+function learnAll(p){
+  const items=allItems(); let i=0;
+  const draw=()=>{ const x=items[i], m=(typeof BANK_AR!=="undefined"&&BANK_AR[x.s])||["",""];
+    let h=fmtLine(x.s); if(m[1]){ const e=esc(m[1]); const k=h.indexOf(e); if(k>=0) h=h.slice(0,k)+"<mark>"+e+"</mark>"+h.slice(k+e.length) }
+    p.innerHTML=`${modeBar(items.length)}<div class="prog"><i style="width:${(i+1)/items.length*100}%"></i></div>
+     <span class="kicker">Phrase ${i+1} of ${items.length} · ${esc(x.sec)}</span>
+     <div class="phrase all"><h2>${h}</h2><button class="say" id="sp" aria-label="Listen from the book" title="From the book">${SPK}</button>${spk(x.s,"big")}</div>
+     ${m[0]?`<div class="meaning ar">${esc(m[0])}</div>`:""}
+     ${m[1]?`<p class="tip">Useful phrase: <b>${esc(m[1])}</b></p>`:""}
+     <div class="actions">${i?'<button class="btn alt" id="bk">Back</button>':""}<button class="btn" id="go">${i<items.length-1?"Next phrase":"Practise"}</button></div>
+     <details class="bank-all"><summary>Jump to a phrase <span class="ar" style="color:var(--muted);font-size:14px">انتقل لأي جملة</span></summary><div class="bank-list">${items.map((y,j)=>`<div class="bank-row ${j===i?"cur":""}"><button class="say sm" data-j="${j}" aria-label="Go">${j+1}</button><span>${fmtLine(y.s)}</span></div>`).join("")}</div></details>`;
+    bindMode(p);
+    const play=()=>playSeg(x.src,x.t,x.t2); p.querySelector("#sp").onclick=play; play();
+    p.querySelector("#go").onclick=()=>{if(i<items.length-1){i++;draw()}else nextTab()};
+    const bk=p.querySelector("#bk"); if(bk)bk.onclick=()=>{i--;draw()};
+    p.querySelectorAll("[data-j]").forEach(b=>b.onclick=()=>{i=+b.dataset.j;draw();p.scrollIntoView({block:"start"})});
+  }; if(!items.length){LMODE="key";return learnTab(p)} draw();
+}
 function learnTab(p){
+  if(LMODE==="all") return learnAll(p);
   let i=0;
   const draw=()=>{const c=L.cards[i];
-    p.innerHTML=`<div class="prog"><i style="width:${(i+1)/L.cards.length*100}%"></i></div>
+    p.innerHTML=`${modeBar(allItems().length)}<div class="prog"><i style="width:${(i+1)/L.cards.length*100}%"></i></div>
      <span class="kicker">Phrase ${i+1} of ${L.cards.length} · <span class="ar">عبارة ${i+1} من ${L.cards.length}</span></span>
      <div class="phrase"><h2>${esc(c.en)}</h2>${c.clip?`<button class="say" id="sp" aria-label="Listen from the book" title="From the book">${SPK}</button>`:""}${spk(c.en,"big")}</div>
      ${sayFind(c.en)?`<p class="say-note">🟡 Book audio · 🔵 Clear pronunciation, a little slower <span class="ar">— الأصفر من الكتاب، والأزرق نطق واضح وأبطأ</span></p>`:""}
@@ -652,7 +686,7 @@ function learnTab(p){
      <div class="actions">${i?'<button class="btn alt" id="bk">Back</button>':""}<button class="btn" id="go">${i<L.cards.length-1?"Next phrase":"Keep going"}</button></div>
      ${phraseBank()}`;
     const sp=p.querySelector("#sp"); if(sp){sp.onclick=()=>play(c)}
-    bindBank(p);
+    bindBank(p); bindMode(p);
     if(i||tab==="learn") play(c);
     p.querySelector("#go").onclick=()=>{if(i<L.cards.length-1){i++;draw()}else nextTab()};
     const bk=p.querySelector("#bk"); if(bk)bk.onclick=()=>{i--;draw()};
