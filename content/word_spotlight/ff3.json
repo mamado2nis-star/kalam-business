@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "asset",
+   "pos": "noun",
+   "ar": "حد أو حاجة ليها قيمة كبيرة للشركة",
+   "def": "a person or thing that is very useful and valuable to a team or company.",
+   "book": "I'm confident I will be a valuable asset to your team.",
+   "uses": [
+    [
+     "Email",
+     "Ahmed's experience with lithium batteries makes him a real asset to the service team."
+    ],
+    [
+     "Chat",
+     "honestly Mona is a huge asset on the solar projects 💪"
+    ],
+    [
+     "Meeting",
+     "Our maintenance contracts are our most valuable asset — they bring steady income."
+    ]
+   ],
+   "goes": [
+    "a valuable asset",
+    "a real asset to the team",
+    "a key asset"
+   ],
+   "dont": [
+    "I will be a very important thing for your team."
+   ],
+   "doo": [
+    "I will be a valuable asset to your team."
+   ],
+   "level": 2
+  },
+  {
+   "w": "prioritize",
+   "pos": "verb",
+   "ar": "يرتب الأولويات / يقدّم الأهم",
+   "def": "to decide which tasks are most important and do them first.",
+   "book": "After working part-time as a ___, I learned how to multitask and prioritize responsibilities.",
+   "uses": [
+    [
+     "Email",
+     "We will prioritize the hospital's UPS failure and schedule the other visits for Thursday."
+    ],
+    [
+     "Chat",
+     "too many tickets today — which one do we prioritize?"
+    ],
+    [
+     "Meeting",
+     "Let's prioritize customers with expired maintenance contracts this week."
+    ]
+   ],
+   "goes": [
+    "prioritize tasks",
+    "prioritize customers",
+    "set priorities"
+   ],
+   "dont": [
+    "I put the important things first before the not important."
+   ],
+   "doo": [
+    "I prioritize the most urgent tasks."
+   ],
+   "level": 2
+  },
+  {
+   "w": "disgruntled",
+   "pos": "adjective",
+   "ar": "متضايق / مش راضي وزعلان",
+   "def": "unhappy and annoyed, usually because of bad service or unfair treatment.",
+   "book": "At my internship over the summer, I was working the support line and received a call from a disgruntled customer who had been dropped from our service.",
+   "uses": [
+    [
+     "Email",
+     "We received a complaint from a disgruntled customer about the delayed battery replacement."
+    ],
+    [
+     "Chat",
+     "got a disgruntled client on the line, can you join? 😬"
+    ],
+    [
+     "Meeting",
+     "How do we handle disgruntled customers when spare parts are late?"
+    ]
+   ],
+   "goes": [
+    "a disgruntled customer",
+    "a disgruntled employee",
+    "deal with disgruntled clients"
+   ],
+   "dont": [
+    "The customer was very angry and not happy from us."
+   ],
+   "doo": [
+    "The customer was disgruntled with our service."
+   ],
+   "level": 3
+  },
+  {
+   "w": "put out a fire",
+   "pos": "phrasal verb",
+   "ar": "يحل مشكلة عاجلة فجأة ظهرت",
+   "def": "to deal quickly with an urgent problem at work (not a real fire).",
+   "book": "In both personal and professional interactions, I think it's important to always approach things with a positive mindset — whether it's getting a positive response from a difficult client or putting out a fire in a chaotic situation.",
+   "uses": [
+    [
+     "Email",
+     "Apologies for the late reply — I spent the morning putting out fires at the data centre site."
+    ],
+    [
+     "Chat",
+     "sorry, putting out a fire with the inverter at the factory 🔥 call you later"
+    ],
+    [
+     "Meeting",
+     "I don't want us to spend every week putting out fires — we need preventive maintenance."
+    ]
+   ],
+   "goes": [
+    "put out fires",
+    "spend the day putting out fires",
+    "constantly putting out fires"
+   ],
+   "dont": [
+    "I was extinguishing problems all day."
+   ],
+   "doo": [
+    "I was putting out fires all day."
+   ],
+   "level": 1
+  },
+  {
+   "w": "meet a deadline",
+   "pos": "verb phrase",
+   "ar": "يخلّص الشغل في الميعاد المحدد",
+   "def": "to finish work by the date or time that was agreed.",
+   "book": "I'm also committed to meeting deadlines and completing all tasks to high standards.",
+   "uses": [
+    [
+     "Email",
+     "To meet the tender deadline, please send the final quotation by Wednesday noon."
+    ],
+    [
+     "Chat",
+     "we're tight on time but we'll meet the deadline 👍"
+    ],
+    [
+     "Meeting",
+     "If the batteries arrive late, we won't meet the installation deadline."
+    ]
+   ],
+   "goes": [
+    "meet a deadline",
+    "miss a deadline",
+    "a tight deadline"
+   ],
+   "dont": [
+    "We will catch the deadline."
+   ],
+   "doo": [
+    "We will meet the deadline."
+   ],
+   "level": 2
+  },
+  {
+   "w": "put off",
+   "pos": "phrasal verb",
+   "ar": "يأجّل / يكسل يعمل حاجة",
+   "def": "to delay doing something, often because you don't want to do it.",
+   "book": "Crossing things off my to-do list makes me feel accomplished, and I've learned to tackle harder tasks early in the day, when I'm refreshed and less likely to put them off.",
+   "uses": [
+    [
+     "Email",
+     "We can't put off the battery replacement any longer — the site had two outages last month."
+    ],
+    [
+     "Chat",
+     "stop putting off the collections calls 😅"
+    ],
+    [
+     "Meeting",
+     "The customer keeps putting off the payment, so let's escalate it."
+    ]
+   ],
+   "goes": [
+    "put off a decision",
+    "put off a payment",
+    "keep putting it off"
+   ],
+   "dont": [
+    "I make it later and later."
+   ],
+   "doo": [
+    "I keep putting it off."
+   ],
+   "level": 1
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "I am a person who learns fast.",
+   "ar": "أنا واحد بيتعلم بسرعة",
+   "pro": [
+    "I am learning fastly.",
+    "I pick things up quickly.",
+    "I am a fast-learning person very much."
+   ],
+   "a": 1,
+   "why": "‎pick things up quickly‎ أطبع من الترجمة الحرفية، و‎fastly‎ غلط."
+  },
+  {
+   "plain": "I don't have experience, but I will learn.",
+   "ar": "معنديش خبرة بس هتعلم",
+   "pro": [
+    "I don't have any experience, sorry.",
+    "I'm without experience but I learn.",
+    "While I'm still building my experience, I'm a quick learner and eager to grow."
+   ],
+   "a": 2,
+   "why": "ماتبدأش بالنقص؛ قول ‎while I'm still building…‎ وبعدها ميزتك."
+  },
+  {
+   "plain": "I can't say no to anyone.",
+   "ar": "مبعرفش أقول لأ لحد",
+   "pro": [
+    "I've learned that it's OK to say no when my plate is full.",
+    "I can't refuse anybody never.",
+    "I say yes always to everyone."
+   ],
+   "a": 0,
+   "why": "في المقابلة اذكر العيب ومعاه اللي اتعلمته: ‎I've learned…‎."
+  },
+  {
+   "plain": "I am perfect in my work.",
+   "ar": "أنا مظبوط جدًا في شغلي",
+   "pro": [
+    "I am perfect in everything.",
+    "I tend to be a perfectionist, so I've learned to balance quality with deadlines.",
+    "I am a perfection person."
+   ],
+   "a": 1,
+   "why": "‎perfectionist‎ هي الكلمة، و‎tend to‎ تخليها أهدى."
+  },
+  {
+   "plain": "I respect the rules of the company.",
+   "ar": "أنا بحترم قوانين الشركة",
+   "pro": [
+    "I always play by the rules and follow company guidelines.",
+    "I am obeying all rules of the company.",
+    "I make the rules always."
+   ],
+   "a": 0,
+   "why": "التعبير الجاهز ‎play by the rules‎ + ‎company guidelines‎."
+  },
+  {
+   "plain": "I solve the problems of the customers when they are angry.",
+   "ar": "بحل مشاكل العملاء لما يكونوا متعصبين",
+   "pro": [
+    "I solve the angry customers.",
+    "I make the angry customer cool.",
+    "I'm good at calming down upset customers and finding solutions."
+   ],
+   "a": 2,
+   "why": "‎calm down upset customers‎ أدق ومهني أكتر من ‎angry‎."
+  }
+ ]
+}

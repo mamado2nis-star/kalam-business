@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "prioritize",
+   "pos": "verb",
+   "ar": "يرتّب الأولويات / يقدّم الأهم",
+   "def": "to decide which things are most important and do them first.",
+   "book": "Regardless of what was going on in my personal life, I always prioritized my studies, and I think this will be a good indication of my performance at work.",
+   "uses": [
+    [
+     "Email",
+     "We'll prioritize the hospital's UPS repair over routine maintenance visits this week."
+    ],
+    [
+     "Chat",
+     "too many tickets today — which ones should I prioritize?"
+    ],
+    [
+     "Meeting",
+     "Let's prioritize collections from the three biggest customers."
+    ]
+   ],
+   "goes": [
+    "prioritize tasks",
+    "prioritize customers",
+    "top priority"
+   ],
+   "dont": [
+    "I put the important things in the first."
+   ],
+   "doo": [
+    "I prioritize the most important tasks."
+   ],
+   "level": 2
+  },
+  {
+   "w": "resolve",
+   "pos": "verb",
+   "ar": "يحل (مشكلة / شكوى)",
+   "def": "to find a solution to a problem, complaint or disagreement.",
+   "book": "For example, a customer complained about a wrong price, but I was able to work with them to resolve the issue.",
+   "uses": [
+    [
+     "Email",
+     "The issue with the invoice has been resolved; a corrected copy is attached."
+    ],
+    [
+     "Chat",
+     "resolved the battery alarm ✅ closing the ticket"
+    ],
+    [
+     "Meeting",
+     "Our target is to resolve every service call within 24 hours."
+    ]
+   ],
+   "goes": [
+    "resolve an issue",
+    "resolve a complaint",
+    "resolve a dispute"
+   ],
+   "dont": [
+    "We solved the complain of the customer."
+   ],
+   "doo": [
+    "We resolved the customer's complaint."
+   ],
+   "level": 2
+  },
+  {
+   "w": "dealing with complaints",
+   "pos": "phrase",
+   "ar": "التعامل مع الشكاوى",
+   "def": "handling customers who are unhappy and trying to fix their problem.",
+   "book": "I have worked for two years as a shopkeeper, and I enjoyed working with customers, even when dealing with complaints.",
+   "uses": [
+    [
+     "Email",
+     "Our after-sales team is experienced in dealing with complaints quickly and politely."
+    ],
+    [
+     "Chat",
+     "dealing with an angry client rn 😤 the UPS tripped twice"
+    ],
+    [
+     "Meeting",
+     "The key to dealing with complaints is to listen first, then offer a solution."
+    ]
+   ],
+   "goes": [
+    "deal with complaints",
+    "handle a complaint",
+    "file a complaint"
+   ],
+   "dont": [
+    "I am good in dealing with the complains."
+   ],
+   "doo": [
+    "I'm good at dealing with complaints."
+   ],
+   "level": 2
+  },
+  {
+   "w": "accountability",
+   "pos": "noun",
+   "ar": "تحمّل المسؤولية والمحاسبة على النتيجة",
+   "def": "being responsible for your actions and results, and accepting blame if things go wrong.",
+   "book": "Accountability: taking ownership of your actions and being responsible for your own and your team's results in the workplace.",
+   "uses": [
+    [
+     "Email",
+     "We need clear accountability for each site: one engineer per contract."
+    ],
+    [
+     "Chat",
+     "who's accountable for the late delivery? 🤔"
+    ],
+    [
+     "Meeting",
+     "I take full accountability for the delay, and here's how we'll fix it."
+    ]
+   ],
+   "goes": [
+    "take accountability",
+    "be accountable for",
+    "a culture of accountability"
+   ],
+   "dont": [
+    "It is not my mistake, it is the store mistake."
+   ],
+   "doo": [
+    "I take accountability for the delay."
+   ],
+   "level": 3
+  },
+  {
+   "w": "keep up with",
+   "pos": "phrasal verb",
+   "ar": "يواكب / يتابع الجديد",
+   "def": "to stay informed about the latest developments in something.",
+   "book": "I keep up with my area of expertise by reading professional journals, attending seminars, and taking occasional classes, either online or in a traditional classroom.",
+   "uses": [
+    [
+     "Email",
+     "Our engineers attend annual training to keep up with the latest lithium-ion technology."
+    ],
+    [
+     "Chat",
+     "hard to keep up with all these new inverter models 😅"
+    ],
+    [
+     "Meeting",
+     "We need to keep up with competitors' prices on solar panels."
+    ]
+   ],
+   "goes": [
+    "keep up with the latest",
+    "keep up with technology",
+    "keep up with demand"
+   ],
+   "dont": [
+    "I follow the new things in my field."
+   ],
+   "doo": [
+    "I keep up with the latest developments in my field."
+   ],
+   "level": 2
+  },
+  {
+   "w": "quadrupled",
+   "pos": "verb",
+   "ar": "زاد أربع أضعاف",
+   "def": "increased to four times the original amount.",
+   "book": "Under my direction, the club has grown from 30 to over 100 members and quadrupled the number of places where students can volunteer.",
+   "uses": [
+    [
+     "Email",
+     "Our solar sales have quadrupled since last year."
+    ],
+    [
+     "Chat",
+     "demand for batteries has literally quadrupled this summer 📈"
+    ],
+    [
+     "Meeting",
+     "If we win this tender, our service revenue will quadruple."
+    ]
+   ],
+   "goes": [
+    "double",
+    "triple",
+    "quadruple"
+   ],
+   "dont": [
+    "Sales became four times."
+   ],
+   "doo": [
+    "Sales quadrupled."
+   ],
+   "level": 2
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "My grades are good, this shows I am working hard.",
+   "ar": "درجاتي كويسة، ده بيبيّن إني بشتغل جامد",
+   "pro": [
+    "I think my grades reflect my work.",
+    "My grades shows my hard.",
+    "My grades is showing my working."
+   ],
+   "a": 0,
+   "why": "‎reflect‎ معناها تعكس، جملة قصيرة وقوية."
+  },
+  {
+   "plain": "It was very difficult, but I did it.",
+   "ar": "كانت صعبة جدًا بس عملتها",
+   "pro": [
+    "It was very hard but I make it.",
+    "It was very difficult, but I did it.",
+    "It was not an easy feat, but I managed to succeed."
+   ],
+   "a": 2,
+   "why": "‎not an easy feat‎ و‎managed to‎ بيوصفوا نجاح بعد تعب."
+  },
+  {
+   "plain": "I did two trainings in companies.",
+   "ar": "عملت تدريبين في شركات",
+   "pro": [
+    "I did two trainings in companies.",
+    "I have two internships under my belt.",
+    "I made two trainings."
+   ],
+   "a": 1,
+   "why": "‎training‎ مش بتتجمع كده، والصح ‎internships‎."
+  },
+  {
+   "plain": "I read too much.",
+   "ar": "بقرا كتير",
+   "pro": [
+    "I have always been a voracious reader.",
+    "I read too much.",
+    "I am reading very much."
+   ],
+   "a": 0,
+   "why": "‎too much‎ سلبية. ‎voracious reader‎ يعني بتحب القراية جدًا."
+  },
+  {
+   "plain": "I learned to be responsible about my mistakes.",
+   "ar": "اتعلمت أكون مسؤول عن غلطاتي",
+   "pro": [
+    "I learned to be responsible about my mistakes.",
+    "I learned to carry my mistakes.",
+    "I learned how to take ownership of my actions."
+   ],
+   "a": 2,
+   "why": "‎take ownership of‎ أقوى، و‎responsible for‎ مش ‎about‎."
+  },
+  {
+   "plain": "My grades are not showing my real level.",
+   "ar": "درجاتي مش بتبيّن مستوايا الحقيقي",
+   "pro": [
+    "My grades don't show my real level.",
+    "My grades are not necessarily a good indication of what I can achieve.",
+    "My grades are lying."
+   ],
+   "a": 1,
+   "why": "‎not necessarily a good indication‎ بتقولها بلباقة من غير تبرير."
+  }
+ ]
+}

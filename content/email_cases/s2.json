@@ -1,0 +1,1558 @@
+[
+ {
+  "id": "s2e1",
+  "season": "s2",
+  "title": "Reporting a network and ERP outage",
+  "ar": "الإبلاغ عن عطل في الشبكة والـ ‎ERP‎",
+  "field": "IT · Network",
+  "icon": "🌐",
+  "scene": "At 08:30 on a Sunday, nobody at the NPS head office can reach the ERP server or the internet, and month-end invoicing is blocked. You open a ticket with NetServe, your IT support provider, give clear details and agree on troubleshooting steps until the fault is fixed.",
+  "sceneAr": "الساعة 8:30 الصبح الشبكة وقعت في المكتب الرئيسي ومحدش قادر يدخل على الـ ‎ERP‎ ولا النت، والفواتير واقفة في آخر الشهر. هتفتح تذكرة عند شركة الـ ‎IT‎ وتديهم تفاصيل واضحة وتتفقوا على خطوات الحل.",
+  "thread": [
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "URGENT – Network down at head office, ERP not reachable",
+    "date": "Sun, 19 Oct · 09:05",
+    "task": "افتح بلاغ عطل عند شركة الـ ‎IT‎: قول المشكلة إيه، من إمتى، مين متأثر، وجربت إيه لحد دلوقتي.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening line",
+      "opts": [
+       "The network is broken again and nobody is doing anything.",
+       "I would like to report an urgent network fault at our head office in Nasr City.",
+       "Kindly be informed that the net is fallen since the morning."
+      ],
+      "a": 1,
+      "why": "جملة واضحة ومهذبة بتقول إنك بتبلّغ عن عطل ومكانه؛ التانية فيها لوم والتالتة مترجمة حرفي من العربي."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Since 08:30 today, none of our 25 users can reach the ERP server or the internet.",
+       "We have already restarted the main router and two PCs, but the problem is still the same.",
+       "This is affecting our invoicing on the ETA portal and our month-end closing."
+      ],
+      "why": "الترتيب: المشكلة من إمتى ومين متأثر ← جربنا إيه ← تأثيرها على الشغل."
+     },
+     {
+      "type": "gap",
+      "sentence": "Could you please open a ___ with high priority and advise the next steps?",
+      "opts": [
+       "paper",
+       "ticket",
+       "complaint letter"
+      ],
+      "a": 1,
+      "why": "مع شركات الدعم الفني بنقول ‎open a ticket‎ يعني نفتح بلاغ/تذكرة."
+     }
+    ],
+    "body": [
+     "Dear Mr. Amr,",
+     "I would like to report an urgent network fault at our head office in Nasr City. Since 08:30 today, none of our 25 users can reach the ERP server or the internet.",
+     "We have already restarted the main router and two PCs, but the problem is still the same. The Wi-Fi is on, but it shows \"No internet\".",
+     "This is affecting our invoicing on the ETA portal and our month-end closing. Could you please open a ticket with high priority and advise the next steps?",
+     "Best regards,\n<Your name>\nIT Coordinator | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Amr Fathy — NetServe IT Services",
+    "subject": "RE: URGENT – Network down at head office, ERP not reachable [INC-24817]",
+    "date": "Sun, 19 Oct · 09:20",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for your email. We have opened ticket INC-24817 with Priority 2, and our engineer is checking your firewall remotely.",
+     "The firewall is online, so the problem seems to be inside your LAN. Could you please check the core switch in the server room (SW-CORE-01) and tell us which port lights are amber or off?",
+     "Please also send us a photo of the front panel. If needed, we can send an engineer on site this afternoon.",
+     "Best regards,\nAmr Fathy\nSupport Team Leader | NetServe IT Services"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: URGENT – Network down at head office, ERP not reachable [INC-24817]",
+    "date": "Sun, 19 Oct · 10:05",
+    "task": "قولهم نتيجة الفحص وابعت الصورة، واطلب رفع الأولوية ويبعتوا مهندس قبل الساعة 1.",
+    "steps": [
+     {
+      "type": "gap",
+      "sentence": "As requested, please find ___ a photo of the core switch front panel.",
+      "opts": [
+       "attached",
+       "joined",
+       "included here"
+      ],
+      "a": 0,
+      "why": "التعبير الثابت في الإيميلات: ‎please find attached‎."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "The uplink port 24 shows an amber light, and all other ports are green.",
+       "We restarted the switch at 09:50, but the port is still amber.",
+       "Since invoicing is completely stopped, could you please raise the ticket to Priority 1?"
+      ],
+      "why": "الأول اللي شفته ← اللي عملته ونتيجته ← الطلب مع السبب."
+     },
+     {
+      "type": "pick",
+      "q": "Choose the best way to ask for an engineer",
+      "opts": [
+       "Send your engineer now, we cannot wait any more.",
+       "We need that you send engineer to us today before one o'clock.",
+       "We would appreciate it if your engineer could come on site by 13:00 today."
+      ],
+      "a": 2,
+      "why": "‎We would appreciate it if‎ طلب مهذب ومحدد بميعاد؛ الأولى أمر جاف والتانية قواعدها غلط."
+     }
+    ],
+    "body": [
+     "Dear Mr. Amr,",
+     "Thank you for the quick response. As requested, please find attached a photo of the core switch front panel.",
+     "The uplink port 24 shows an amber light, and all other ports are green. We restarted the switch at 09:50, but the port is still amber.",
+     "Since invoicing is completely stopped, could you please raise the ticket to Priority 1? We would appreciate it if your engineer could come on site by 13:00 today.",
+     "Best regards,\n<Your name>\nIT Coordinator | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Amr Fathy — NetServe IT Services",
+    "subject": "RE: URGENT – Network down at head office, ERP not reachable [INC-24817] – Resolved",
+    "date": "Sun, 19 Oct · 14:30",
+    "body": [
+     "Dear <Your name>,",
+     "Our engineer, Mahmoud, arrived at your office at 12:45. He found a faulty SFP fibre module on port 24 of the core switch, which connects the switch to the firewall.",
+     "He replaced it with a spare from our stock, and the service was restored at 13:40. All 25 users can now reach the ERP and the internet.",
+     "We will send the incident report tomorrow. We also recommend keeping one spare SFP module on site. Please confirm if we can close the ticket.",
+     "Best regards,\nAmr Fathy\nSupport Team Leader | NetServe IT Services"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: URGENT – Network down at head office, ERP not reachable [INC-24817] – Resolved",
+    "date": "Sun, 19 Oct · 15:10",
+    "task": "أكّد إن الخدمة رجعت، وافق يقفلوا التذكرة، واطلب التقرير وعرض سعر لقطعتين احتياطي.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best way to confirm the fix",
+      "opts": [
+       "It is working, finally.",
+       "I can confirm that the network and the ERP are working normally now.",
+       "We confirm you that the network returned to work."
+      ],
+      "a": 1,
+      "why": "‎I can confirm that‎ رسمية وواضحة؛ الأولى فيها تريقة والتالتة ترجمة حرفية."
+     },
+     {
+      "type": "gap",
+      "sentence": "Please go ahead and ___ ticket INC-24817.",
+      "opts": [
+       "close",
+       "finish",
+       "terminate"
+      ],
+      "a": 0,
+      "why": "التذكرة بنقول عليها ‎close a ticket‎."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "We look forward to receiving the incident report tomorrow.",
+       "We agree with your recommendation.",
+       "Kindly send us a quotation for two spare SFP modules, so we can keep them in the server room."
+      ],
+      "why": "بعد قفل التذكرة: التقرير ← الموافقة على التوصية ← طلب عرض السعر."
+     }
+    ],
+    "body": [
+     "Dear Mr. Amr,",
+     "Many thanks to you and Mahmoud for the fast support. I can confirm that the network and the ERP are working normally now.",
+     "Please go ahead and close ticket INC-24817. We look forward to receiving the incident report tomorrow.",
+     "We agree with your recommendation. Kindly send us a quotation for two spare SFP modules, so we can keep them in the server room.",
+     "Best regards,\n<Your name>\nIT Coordinator | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "I would like to report an urgent fault",
+    "حابب أبلّغ عن عطل عاجل"
+   ],
+   [
+    "We have already restarted …, but the problem is still the same",
+    "عملنا ريستارت لـ … بس المشكلة زي ما هي"
+   ],
+   [
+    "Could you please open a ticket with high priority?",
+    "ممكن تفتحوا تذكرة بأولوية عالية؟"
+   ],
+   [
+    "As requested, please find attached …",
+    "زي ما طلبت، مرفق …"
+   ],
+   [
+    "Could you please raise the ticket to Priority 1?",
+    "ممكن ترفعوا التذكرة لـ ‎Priority 1‎؟"
+   ],
+   [
+    "We would appreciate it if your engineer could come on site",
+    "نكون شاكرين لو المهندس ييجي الموقع"
+   ],
+   [
+    "I can confirm that … is working normally now",
+    "أأكد إن … شغال طبيعي دلوقتي"
+   ],
+   [
+    "Please go ahead and close the ticket",
+    "اتفضلوا اقفلوا التذكرة"
+   ]
+  ],
+  "glossary": [
+   [
+    "ticket / incident number",
+    "رقم التذكرة / البلاغ"
+   ],
+   [
+    "core switch",
+    "السويتش الرئيسي"
+   ],
+   [
+    "uplink port",
+    "البورت اللي بيوصّل السويتش بالشبكة الأعلى"
+   ],
+   [
+    "SFP fibre module",
+    "موديول الفايبر اللي بيتركب في السويتش"
+   ],
+   [
+    "on site",
+    "في الموقع"
+   ],
+   [
+    "incident report",
+    "تقرير العطل"
+   ]
+  ]
+ },
+ {
+  "id": "s2e2",
+  "season": "s2",
+  "title": "Discussing a server disk failure",
+  "ar": "مناقشة عطل هارد في السيرفر",
+  "field": "Service · Servers",
+  "icon": "🖥️",
+  "scene": "The main HIS server at Horizon Hospital, maintained by NPS, shows a failed disk and the server room is overheating. You explain the root cause and the options to the Facilities Manager, and agree on a decision and a time for the work.",
+  "sceneAr": "سيرفر نظام المستشفى في ‎Horizon Hospital‎ فيه هارد باظ وأوضة السيرفرات حرّانة جدًا. هتشرح للعميل السبب والحلول المتاحة وتتفقوا على قرار وميعاد للشغل.",
+  "thread": [
+   {
+    "dir": "in",
+    "from": "Mr. Tarek Nabil — Horizon Hospital",
+    "subject": "HIS server alarm – disk failure and high temperature",
+    "date": "Tue, 21 Oct · 08:40",
+    "body": [
+     "Dear <Your name>,",
+     "Since early this morning, our main HIS server has been beeping, and there is an amber light on disk bay 3. The system is still working, but it feels slower than usual.",
+     "Also, the server room feels very hot today. Our team says one of the two air conditioners stopped last night.",
+     "Please check urgently and tell us what we should do. We cannot risk losing patient data.",
+     "Best regards,\nTarek Nabil\nFacilities Manager | Horizon Hospital"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: HIS server alarm – disk failure and high temperature",
+    "date": "Tue, 21 Oct · 12:15",
+    "task": "اشرح للعميل نتيجة الفحص وسبب المشكلة، واعرض عليه اختيارين بالأسعار مع توصيتك.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best sentence to explain the finding",
+      "opts": [
+       "Our engineer found that disk 3 has failed, so the RAID 5 array is now running in degraded mode.",
+       "Your server is dead, one disk is gone.",
+       "There is a small issue in disk 3 but don't worry about it."
+      ],
+      "a": 0,
+      "why": "بتقول الحقيقة بشكل فني وواضح؛ الأولى مخيفة وغير مهنية والتالتة بتهوّن من مشكلة خطيرة."
+     },
+     {
+      "type": "gap",
+      "sentence": "In our opinion, the main root ___ is the high temperature in the server room.",
+      "opts": [
+       "cause",
+       "reason",
+       "source"
+      ],
+      "a": 0,
+      "why": "المصطلح الثابت في تقارير الأعطال: ‎root cause‎ يعني السبب الأساسي."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Option A: replace disk 3 only, at EGP 14,500.",
+       "Option B: replace disks 3 and 5 together, at EGP 27,000.",
+       "We recommend Option B, because a second failure would stop the server completely."
+      ],
+      "why": "اعرض الاختيارات الأول وبعدين توصيتك وسببها."
+     }
+    ],
+    "body": [
+     "Dear Mr. Tarek,",
+     "Our engineer found that disk 3 has failed, so the RAID 5 array is now running in degraded mode. Disk 5 also shows a predictive failure warning.",
+     "The room temperature was 31°C at 10:00. In our opinion, the main root cause is the high temperature in the server room.",
+     "Option A: replace disk 3 only, at EGP 14,500. Option B: replace disks 3 and 5 together, at EGP 27,000. We recommend Option B, because a second failure would stop the server completely.",
+     "Best regards,\n<Your name>\nService Engineer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Tarek Nabil — Horizon Hospital",
+    "subject": "RE: HIS server alarm – disk failure and high temperature",
+    "date": "Tue, 21 Oct · 14:05",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for the clear explanation. We approve Option B, and our PO will follow today.",
+     "However, the HIS is used 24 hours a day. Can you replace the disks without shutting down the server? If there is any risk, we prefer to do it at night.",
+     "Regarding the air conditioner, our maintenance contractor will only come on Thursday. Can you help with this until then?",
+     "Best regards,\nTarek Nabil\nFacilities Manager | Horizon Hospital"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: HIS server alarm – disk failure and high temperature",
+    "date": "Tue, 21 Oct · 15:30",
+    "task": "طمّن العميل إن التغيير من غير وقف السيرفر، حدّد ميعاد بالليل، اطلب باك أب، واقترح حل مؤقت للتكييف.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best way to answer about downtime",
+      "opts": [
+       "Yes, no problem at all, nothing will happen.",
+       "The server will be shut down for maybe a few hours, we are not sure.",
+       "The disks are hot-swappable, so there is no need to shut down the server."
+      ],
+      "a": 2,
+      "why": "إجابة دقيقة وفنية؛ الأولى وعد مبالغ فيه والتانية بتقلق العميل من غير سبب."
+     },
+     {
+      "type": "gap",
+      "sentence": "During the rebuild, which takes about six hours, the system may be a little ___.",
+      "opts": [
+       "slower",
+       "lazy",
+       "late"
+      ],
+      "a": 0,
+      "why": "عن الأداء بنقول ‎slower‎؛ ‎lazy‎ للأشخاص مش للسيستم."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "We propose to start at 22:00 on Wednesday, 22 October.",
+       "Before we start, please confirm that a full backup of the HIS database has been completed.",
+       "In the meantime, we can install a portable cooling unit in the server room tomorrow morning at no extra charge."
+      ],
+      "why": "الميعاد ← الشرط قبل البدء ← الحل المؤقت للتكييف."
+     }
+    ],
+    "body": [
+     "Dear Mr. Tarek,",
+     "Thank you for your approval. The disks are hot-swappable, so there is no need to shut down the server. During the rebuild, which takes about six hours, the system may be a little slower.",
+     "We propose to start at 22:00 on Wednesday, 22 October. Before we start, please confirm that a full backup of the HIS database has been completed.",
+     "In the meantime, we can install a portable cooling unit in the server room tomorrow morning at no extra charge.",
+     "Best regards,\n<Your name>\nService Engineer | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "Our engineer found that …",
+    "المهندس بتاعنا لقى إن …"
+   ],
+   [
+    "In our opinion, the main root cause is …",
+    "في رأينا السبب الأساسي هو …"
+   ],
+   [
+    "We recommend Option B, because …",
+    "بنرشّح الاختيار ‎B‎ علشان …"
+   ],
+   [
+    "There is no need to shut down the server",
+    "مش محتاجين نطفّي السيرفر"
+   ],
+   [
+    "We propose to start at …",
+    "بنقترح نبدأ الساعة …"
+   ],
+   [
+    "Before we start, please confirm that …",
+    "قبل ما نبدأ، من فضلك أكّد إن …"
+   ],
+   [
+    "In the meantime, …",
+    "لحد ما ده يحصل، …"
+   ],
+   [
+    "at no extra charge",
+    "من غير أي تكلفة زيادة"
+   ]
+  ],
+  "glossary": [
+   [
+    "RAID array",
+    "مجموعة الهاردات المربوطة مع بعض"
+   ],
+   [
+    "degraded mode",
+    "شغال بكفاءة ناقصة بعد عطل هارد"
+   ],
+   [
+    "predictive failure",
+    "تحذير إن الهارد قرّب يبوظ"
+   ],
+   [
+    "hot-swappable",
+    "ممكن يتغيّر والجهاز شغال"
+   ],
+   [
+    "rebuild",
+    "إعادة بناء البيانات على الهارد الجديد"
+   ],
+   [
+    "root cause",
+    "السبب الأساسي للمشكلة"
+   ]
+  ]
+ },
+ {
+  "id": "s2e3",
+  "season": "s2",
+  "title": "Chasing a repair service centre",
+  "ar": "المتابعة مع مركز الصيانة",
+  "field": "Service · Repairs",
+  "icon": "🔧",
+  "scene": "Two weeks ago NPS sent a 10 kVA UPS power board to TechCare for repair. They promised 7 working days, but there is no update, and your client Delta Pharma is waiting. You chase for an ETA and escalate politely when the answer is not good enough.",
+  "sceneAr": "من أسبوعين بعتنا بوردة باور لـ ‎UPS 10 kVA‎ لمركز صيانة ‎TechCare‎ ووعدونا بـ 7 أيام شغل، ولحد دلوقتي مفيش أي أخبار والعميل ‎Delta Pharma‎ مستني. هتتابع معاهم وتطلب ميعاد تسليم، ولو الرد مش كويس تصعّد بأدب.",
+  "thread": [
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Status of job card JC-5521 – 10 kVA UPS power board",
+    "date": "Mon, 20 Oct · 10:00",
+    "task": "ابعت إيميل متابعة مهذب: فكّرهم بالتفاصيل، واسأل الشغل وصل لفين وإمتى هيخلص.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening line",
+      "opts": [
+       "Where is our board? It is two weeks now!",
+       "I am following up on job card JC-5521 for the 10 kVA UPS power board we sent you on 2 October.",
+       "I want to ask you about the board, what happened to it?"
+      ],
+      "a": 1,
+      "why": "متابعة مهذبة وفيها رقم الشغلانة والتاريخ؛ الأولى هجومية والتالتة مش واضحة."
+     },
+     {
+      "type": "gap",
+      "sentence": "At that time, you estimated a repair ___ of 7 working days.",
+      "opts": [
+       "time",
+       "period long",
+       "duration time"
+      ],
+      "a": 0,
+      "why": "‎repair time‎ مدة التصليح؛ الاختيارات التانية تكرار غلط."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Could you please let us know the current status of the repair?",
+       "We would also appreciate an estimated completion date.",
+       "The unit belongs to our client, Delta Pharma, and they are running without UPS backup."
+      ],
+      "why": "السؤال عن الحالة ← طلب الميعاد ← ليه الموضوع مهم."
+     }
+    ],
+    "body": [
+     "Dear Mr. Sherif,",
+     "I am following up on job card JC-5521 for the 10 kVA UPS power board we sent you on 2 October. At that time, you estimated a repair time of 7 working days.",
+     "Could you please let us know the current status of the repair? We would also appreciate an estimated completion date.",
+     "The unit belongs to our client, Delta Pharma, and they are running without UPS backup. Your quick reply will be highly appreciated.",
+     "Best regards,\n<Your name>\nService Engineer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Sherif Mansour — TechCare",
+    "subject": "RE: Status of job card JC-5521 – 10 kVA UPS power board",
+    "date": "Tue, 21 Oct · 13:20",
+    "body": [
+     "Dear <Your name>,",
+     "Sorry for the late update. Our technician found that the IGBT module on the board is damaged, and we do not have it in stock.",
+     "We have ordered it from our supplier in Germany. It should arrive in about two weeks, so we expect to finish the repair by 6 November.",
+     "The additional cost for the part is EGP 9,800. Please confirm so we can continue.",
+     "Best regards,\nSherif Mansour\nService Center Manager | TechCare"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Status of job card JC-5521 – 10 kVA UPS power board",
+    "date": "Tue, 21 Oct · 15:00",
+    "task": "قول إن الميعاد ده طويل على العميل، اطلب بدائل (جهاز بديل أو قطعة من السوق المحلي)، واطلب تحديث مكتوب منتظم.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best way to show the date is not acceptable",
+      "opts": [
+       "Unfortunately, 6 November is too late for our client, who has been without backup since early October.",
+       "6 November? Are you joking?",
+       "This date is not good for us, please change it."
+      ],
+      "a": 0,
+      "why": "بتوضّح المشكلة بأدب ومع السبب؛ التانية قليلة الذوق والتالتة من غير سبب."
+     },
+     {
+      "type": "gap",
+      "sentence": "We ___ the additional cost of EGP 9,800 for the IGBT module.",
+      "opts": [
+       "approve",
+       "agree",
+       "okay"
+      ],
+      "a": 0,
+      "why": "‎approve the cost‎ من غير حرف جر؛ ‎agree‎ محتاجة ‎to‎."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Could you please check if the part is available from a local distributor?",
+       "If not, could you provide a loan unit until the repair is completed?",
+       "I have copied our Service Manager, as our client is asking us for a firm date."
+      ],
+      "why": "الحل الأول ← الحل البديل ← التصعيد المهذب بنسخة للمدير."
+     },
+     {
+      "type": "gap",
+      "sentence": "Please keep us ___ every two days until the board is ready.",
+      "opts": [
+       "updated",
+       "informed of",
+       "news"
+      ],
+      "a": 0,
+      "why": "‎keep someone updated‎ يعني ابعتلي أخبار أول بأول."
+     }
+    ],
+    "body": [
+     "Dear Mr. Sherif,",
+     "Thank you for the update. We approve the additional cost of EGP 9,800 for the IGBT module. Unfortunately, 6 November is too late for our client, who has been without backup since early October.",
+     "Could you please check if the part is available from a local distributor? If not, could you provide a loan unit until the repair is completed?",
+     "I have copied our Service Manager, as our client is asking us for a firm date. Please keep us updated every two days until the board is ready.",
+     "Best regards,\n<Your name>\nService Engineer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Sherif Mansour — TechCare",
+    "subject": "RE: Status of job card JC-5521 – 10 kVA UPS power board",
+    "date": "Wed, 22 Oct · 11:45",
+    "body": [
+     "Dear <Your name>,",
+     "Good news. We found the IGBT module with a local distributor in Heliopolis, and it will arrive tomorrow.",
+     "We will finish the repair and the load test by Tuesday, 28 October. If you need a loan unit for these few days, we can deliver a 10 kVA unit to Delta Pharma tomorrow.",
+     "Thank you for your patience, and sorry again for the delay.",
+     "Best regards,\nSherif Mansour\nService Center Manager | TechCare"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "I am following up on job card …",
+    "بتابع بخصوص أمر الشغل رقم …"
+   ],
+   [
+    "Could you please let us know the current status?",
+    "ممكن تعرّفنا الموضوع وصل لفين؟"
+   ],
+   [
+    "We would appreciate an estimated completion date",
+    "نكون شاكرين لو تدّونا ميعاد متوقع للخلوص"
+   ],
+   [
+    "Your quick reply will be highly appreciated",
+    "ردّك السريع هيفرق معانا جدًا"
+   ],
+   [
+    "Unfortunately, … is too late for our client",
+    "للأسف … متأخر جدًا على العميل"
+   ],
+   [
+    "Could you provide a loan unit?",
+    "ممكن توفّروا جهاز بديل مؤقت؟"
+   ],
+   [
+    "I have copied our Service Manager",
+    "حطّيت مدير الصيانة ‎CC‎"
+   ],
+   [
+    "Please keep us updated",
+    "ابعتولنا أخبار أول بأول"
+   ]
+  ],
+  "glossary": [
+   [
+    "job card",
+    "أمر شغل الصيانة"
+   ],
+   [
+    "ETA (estimated time of arrival/completion)",
+    "الميعاد المتوقع"
+   ],
+   [
+    "loan unit",
+    "جهاز بديل مؤقت"
+   ],
+   [
+    "IGBT module",
+    "قطعة الباور الإلكترونية في الـ ‎UPS‎"
+   ],
+   [
+    "load test",
+    "اختبار الجهاز تحت حمل"
+   ],
+   [
+    "escalate",
+    "تصعيد الموضوع لمستوى أعلى"
+   ]
+  ]
+ },
+ {
+  "id": "s2e4",
+  "season": "s2",
+  "title": "Warranty return and RMA",
+  "ar": "مرتجع ضمان ورقم ‎RMA‎",
+  "field": "Purchasing · Warranty",
+  "icon": "📦",
+  "scene": "Two 3 kVA rack UPS units imported from Shenzhen VoltTech failed with fault code E07 only two months after installation. You request an RMA, send the evidence, and negotiate a replacement that avoids expensive return shipping and customs.",
+  "sceneAr": "جهازين ‎UPS 3 kVA‎ مستوردين من ‎VoltTech‎ في الصين باظوا بكود عطل ‎E07‎ بعد شهرين بس من التركيب. هتطلب رقم ‎RMA‎ وتبعت الإثباتات وتتفاوض على بديل من غير ما نشحنهم تاني للصين وندفع جمارك.",
+  "thread": [
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Warranty claim – 2 x VT-3KR UPS units, fault E07 (PO-2025-096)",
+    "date": "Sun, 26 Oct · 09:30",
+    "task": "بلّغ المورّد بالعطل بالتفاصيل (الموديل، السيريال، الكود) واطلب رقم ‎RMA‎ تحت الضمان.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening line",
+      "opts": [
+       "Your UPS units are very bad quality.",
+       "Two units are spoiled and we want new ones.",
+       "I am writing to report a fault in two VT-3KR UPS units from our order PO-2025-096."
+      ],
+      "a": 2,
+      "why": "افتتاحية مهنية فيها الموديل ورقم الأوردر؛ الأولى هجوم والتانية ‎spoiled‎ للأكل مش للأجهزة."
+     },
+     {
+      "type": "gap",
+      "sentence": "Both units are still under ___, as they were delivered in July 2025.",
+      "opts": [
+       "warranty",
+       "guarantee paper",
+       "insurance"
+      ],
+      "a": 0,
+      "why": "‎under warranty‎ يعني لسه في فترة الضمان."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Both units show fault code E07 (inverter fault) and switch to bypass.",
+       "The serial numbers are VT3K2504118 and VT3K2504131.",
+       "Could you please issue an RMA number and advise the return procedure?"
+      ],
+      "why": "العطل ← بيانات الأجهزة ← الطلب."
+     }
+    ],
+    "body": [
+     "Dear Mr. Wang,",
+     "I am writing to report a fault in two VT-3KR UPS units from our order PO-2025-096. Both units show fault code E07 (inverter fault) and switch to bypass.",
+     "The serial numbers are VT3K2504118 and VT3K2504131. Both units are still under warranty, as they were delivered in July 2025.",
+     "Could you please issue an RMA number and advise the return procedure? Photos of the display and the rating labels are attached.",
+     "Best regards,\n<Your name>\nPurchasing & Import | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Wang Lei — Shenzhen VoltTech Co.",
+    "subject": "RE: Warranty claim – 2 x VT-3KR UPS units, fault E07 (PO-2025-096)",
+    "date": "Mon, 27 Oct · 08:15",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for your message, and sorry for the trouble. We have created RMA-VT-25-0619 for the two units.",
+     "To help our engineers, please send a short video of the fault and the event log from each unit (USB export).",
+     "According to our warranty policy, the customer ships the faulty units to our factory in Shenzhen. After testing, we will repair or replace them within 15 days of receipt.",
+     "Best regards,\nWang Lei\nExport Sales | Shenzhen VoltTech Co."
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Warranty claim – 2 x VT-3KR UPS units, fault E07 (PO-2025-096) [RMA-VT-25-0619]",
+    "date": "Mon, 27 Oct · 13:40",
+    "task": "ابعت الفيديو واللوج، واشرح إن الشحن للصين مكلف، واقترح إنهم يبعتوا البديل مع الأوردر الجاي.",
+    "steps": [
+     {
+      "type": "gap",
+      "sentence": "Please find attached the videos and event logs for both units, as ___.",
+      "opts": [
+       "requested",
+       "you ordered",
+       "demanded"
+      ],
+      "a": 0,
+      "why": "‎as requested‎ مهذبة؛ ‎demanded‎ فيها معنى أمر وضغط."
+     },
+     {
+      "type": "pick",
+      "q": "Choose the best way to explain the problem with shipping",
+      "opts": [
+       "Shipping the units back to China is not practical for us, because freight and customs costs would be higher than their value.",
+       "We will not ship anything to China, forget it.",
+       "Shipping to China is very expensive and also customs, so it is impossible."
+      ],
+      "a": 0,
+      "why": "بتشرح السبب بالأرقام وبأدب؛ التانية رفض جاف والتالتة الجملة ركيكة."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "As an alternative, could you send two replacement units with our next order, PO-2025-131?",
+       "We can keep the faulty units here and send you photos of the serial labels.",
+       "Alternatively, we can return them if VoltTech covers the freight cost."
+      ],
+      "why": "الاقتراح الأساسي ← إزاي نثبت ← اقتراح بديل."
+     }
+    ],
+    "body": [
+     "Dear Mr. Wang,",
+     "Thank you for the RMA number. Please find attached the videos and event logs for both units, as requested.",
+     "Shipping the units back to China is not practical for us, because freight and customs costs would be higher than their value.",
+     "As an alternative, could you send two replacement units with our next order, PO-2025-131? We can keep the faulty units here and send you photos of the serial labels. Alternatively, we can return them if VoltTech covers the freight cost.",
+     "Best regards,\n<Your name>\nPurchasing & Import | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Wang Lei — Shenzhen VoltTech Co.",
+    "subject": "RE: Warranty claim – 2 x VT-3KR UPS units, fault E07 (PO-2025-096) [RMA-VT-25-0619]",
+    "date": "Tue, 28 Oct · 09:05",
+    "body": [
+     "Dear <Your name>,",
+     "Our engineers checked the logs. The fault was caused by a bad batch of inverter drivers, so the claim is accepted.",
+     "We agree to send two new VT-3KR units free of charge with PO-2025-131, which will ship on 10 November.",
+     "Please do not return the faulty units. Just send us photos of the serial labels, and then you may scrap them locally.",
+     "Best regards,\nWang Lei\nExport Sales | Shenzhen VoltTech Co."
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Warranty claim – 2 x VT-3KR UPS units, fault E07 (PO-2025-096) [RMA-VT-25-0619]",
+    "date": "Tue, 28 Oct · 11:20",
+    "task": "اشكره، وأكّد إنك هتبعت الصور، واطلب إن البديل يظهر في الفاتورة بقيمة للجمارك ومكتوب إنه بدل ضمان.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best thank-you line",
+      "opts": [
+       "Thanks, that is what we expected from you.",
+       "We are thanking you too much for your acceptance.",
+       "Thank you very much for your quick support and for accepting our claim."
+      ],
+      "a": 2,
+      "why": "شكر طبيعي ومهني؛ الأولى فيها نبرة لوم والتالتة ترجمة حرفية."
+     },
+     {
+      "type": "gap",
+      "sentence": "Please show the two units on the commercial ___ as \"Free warranty replacement – RMA-VT-25-0619\".",
+      "opts": [
+       "invoice",
+       "bill paper",
+       "receipt"
+      ],
+      "a": 0,
+      "why": "المستند اللي بيروح الجمارك اسمه ‎commercial invoice‎."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "We will send the photos of the serial labels by tomorrow.",
+       "Please show the two units on the commercial invoice as \"Free warranty replacement – RMA-VT-25-0619\".",
+       "Please also state a nominal value of USD 150 per unit, as Egyptian customs need a value for clearance."
+      ],
+      "why": "اللي هتعمله ← طلب الفاتورة ← التفصيلة الخاصة بالجمارك."
+     }
+    ],
+    "body": [
+     "Dear Mr. Wang,",
+     "Thank you very much for your quick support and for accepting our claim. We will send the photos of the serial labels by tomorrow.",
+     "Please show the two units on the commercial invoice as \"Free warranty replacement – RMA-VT-25-0619\".",
+     "Please also state a nominal value of USD 150 per unit, as Egyptian customs need a value for clearance. This will help us avoid any delay at Alexandria port.",
+     "Best regards,\n<Your name>\nPurchasing & Import | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "I am writing to report a fault in …",
+    "بكتب علشان أبلّغ عن عطل في …"
+   ],
+   [
+    "The units are still under warranty",
+    "الأجهزة لسه في الضمان"
+   ],
+   [
+    "Could you please issue an RMA number?",
+    "ممكن تطلعوا رقم ‎RMA‎؟"
+   ],
+   [
+    "… is not practical for us, because …",
+    "… مش عملي بالنسبالنا علشان …"
+   ],
+   [
+    "As an alternative, could you …?",
+    "كبديل، ممكن …؟"
+   ],
+   [
+    "Thank you for accepting our claim",
+    "شكرًا إنكم وافقتوا على المطالبة"
+   ],
+   [
+    "free of charge",
+    "ببلاش / من غير مقابل"
+   ],
+   [
+    "as Egyptian customs need a value for clearance",
+    "علشان الجمارك المصرية محتاجة قيمة للإفراج"
+   ]
+  ],
+  "glossary": [
+   [
+    "RMA (Return Merchandise Authorization)",
+    "رقم تصريح إرجاع البضاعة"
+   ],
+   [
+    "fault code",
+    "كود العطل"
+   ],
+   [
+    "event log",
+    "سجل الأحداث في الجهاز"
+   ],
+   [
+    "bypass mode",
+    "وضع التحويل المباشر من غير الـ ‎UPS‎"
+   ],
+   [
+    "warranty replacement",
+    "بديل تحت الضمان"
+   ],
+   [
+    "nominal value",
+    "قيمة رمزية على الفاتورة"
+   ]
+  ]
+ },
+ {
+  "id": "s2e5",
+  "season": "s2",
+  "title": "Data-centre incident report",
+  "ar": "تقرير حادثة في الداتا سنتر",
+  "field": "Service · Data centre",
+  "icon": "⚡",
+  "scene": "During a power cut at Delta Pharma, the UPS batteries failed before the generator took the load, and the server room was down for 38 minutes. The client wants answers. You acknowledge, send a clear incident report with the root cause and corrective actions, and agree on the next step.",
+  "sceneAr": "في ‎Delta Pharma‎ الكهربا قطعت والبطاريات بتاعة الـ ‎UPS‎ وقعت قبل ما المولّد يشيل الحمل، والسيرفرات فصلت 38 دقيقة. العميل عايز تفسير. هترد وتبعت تقرير واضح بالسبب والإجراءات التصحيحية وتتفقوا على الخطوة الجاية.",
+  "thread": [
+   {
+    "dir": "in",
+    "from": "Mr. Ayman Ragab — Delta Pharma",
+    "subject": "Server room downtime – 23 October",
+    "date": "Thu, 23 Oct · 16:30",
+    "body": [
+     "Dear <Your name>,",
+     "At 14:12 today we had a power cut, and our whole server room went down. The UPS that NPS maintains did not hold the load until the generator started.",
+     "Our ERP and production systems were down for 38 minutes, and this is not acceptable for a pharmaceutical plant.",
+     "Please send us a full incident report with the root cause and your corrective actions within 48 hours.",
+     "Regards,\nAyman Ragab\nIT Manager | Delta Pharma"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Server room downtime – 23 October",
+    "date": "Thu, 23 Oct · 17:15",
+    "task": "اعتذر بوضوح، قول إن فيه فريق راح الموقع، وحدد إمتى التقرير هيوصل.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening",
+      "opts": [
+       "We are sorry, but power cuts are not our responsibility.",
+       "Sorry for what happened, these things happen sometimes.",
+       "Please accept our sincere apologies for the downtime your team experienced today."
+      ],
+      "a": 2,
+      "why": "اعتذار صريح ومهني؛ الأولى بتتهرّب من المسؤولية والتالتة بتقلل من المشكلة."
+     },
+     {
+      "type": "gap",
+      "sentence": "Our engineers are on ___ now and have already started the investigation.",
+      "opts": [
+       "site",
+       "place",
+       "field area"
+      ],
+      "a": 0,
+      "why": "‎on site‎ يعني في موقع العميل."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Our initial check shows that the battery string could not support the load during the transfer to the generator.",
+       "We will send you the full incident report by Sunday, 26 October at 12:00.",
+       "In the meantime, the UPS is running normally on mains power."
+      ],
+      "why": "اللي عرفناه لحد دلوقتي ← إمتى التقرير ← طمأنة عن الوضع الحالي."
+     }
+    ],
+    "body": [
+     "Dear Mr. Ayman,",
+     "Please accept our sincere apologies for the downtime your team experienced today. Our engineers are on site now and have already started the investigation.",
+     "Our initial check shows that the battery string could not support the load during the transfer to the generator.",
+     "We will send you the full incident report by Sunday, 26 October at 12:00. In the meantime, the UPS is running normally on mains power.",
+     "Best regards,\n<Your name>\nService Manager | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Incident report IR-2025-017 – server room downtime, 23 October",
+    "date": "Sun, 26 Oct · 11:30",
+    "task": "ابعت التقرير: التسلسل الزمني، السبب الجذري، والإجراءات اللي اتعملت واللي مقترحة، بلهجة محترمة من غير لوم.",
+    "steps": [
+     {
+      "type": "gap",
+      "sentence": "At 14:12 the mains failed, and the UPS ___ to battery as expected.",
+      "opts": [
+       "transferred",
+       "moved itself",
+       "went out"
+      ],
+      "a": 0,
+      "why": "‎transferred to battery‎ التعبير الفني لتحويل الـ ‎UPS‎ على البطارية."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "After 22 seconds, three battery blocks dropped below the minimum voltage and the UPS shut down.",
+       "The generator took the load at 14:13, but the servers needed 37 minutes to restart.",
+       "The root cause was three weak blocks in a five-year-old battery string."
+      ],
+      "why": "التسلسل الزمني ← النتيجة ← السبب الجذري."
+     },
+     {
+      "type": "pick",
+      "q": "Choose the best way to present the corrective action",
+      "opts": [
+       "We replaced the three weak blocks on 24 October, and we recommend replacing the full string of 40 blocks as soon as possible.",
+       "We changed some batteries but you should have approved our quotation in July.",
+       "Some batteries are fixed, maybe you need to change the rest."
+      ],
+      "a": 0,
+      "why": "بتقول اللي اتعمل واللي مطلوب بوضوح ومن غير لوم؛ التانية فيها لوم للعميل والتالتة مش واضحة."
+     }
+    ],
+    "body": [
+     "Dear Mr. Ayman,",
+     "Please find attached incident report IR-2025-017. At 14:12 the mains failed, and the UPS transferred to battery as expected. After 22 seconds, three battery blocks dropped below the minimum voltage and the UPS shut down.",
+     "The generator took the load at 14:13, but the servers needed 37 minutes to restart. The root cause was three weak blocks in a five-year-old battery string.",
+     "We replaced the three weak blocks on 24 October, and we recommend replacing the full string of 40 blocks as soon as possible.",
+     "Best regards,\n<Your name>\nService Manager | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Ayman Ragab — Delta Pharma",
+    "subject": "RE: Incident report IR-2025-017 – server room downtime, 23 October",
+    "date": "Mon, 27 Oct · 10:10",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for the clear report. I understand that the batteries were old, but we expected NPS to warn us more strongly before this happened.",
+     "We are ready to replace the full string. However, after this incident we need a better price and a way to see problems before they cause downtime.",
+     "Please send us your best offer this week.",
+     "Regards,\nAyman Ragab\nIT Manager | Delta Pharma"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Incident report IR-2025-017 – server room downtime, 23 October",
+    "date": "Tue, 28 Oct · 12:00",
+    "task": "اعترف بالنقطة بتاعته، قدّم عرض فيه خصم ومتابعة للبطاريات، واقترح ميعاد تركيب.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best way to accept the feedback",
+      "opts": [
+       "You are right, but it was your decision not to approve.",
+       "We agree that we should have escalated the battery warning more clearly, and we have improved our process.",
+       "OK, noted."
+      ],
+      "a": 1,
+      "why": "بتعترف بالغلط وبتقول إيه اللي اتحسّن؛ الأولى بترجّع اللوم والتالتة باردة جدًا."
+     },
+     {
+      "type": "gap",
+      "sentence": "Please find attached our revised quotation Q-2025-244 with a 10% ___ on the 40 battery blocks.",
+      "opts": [
+       "discount",
+       "reduction money",
+       "sale"
+      ],
+      "a": 0,
+      "why": "في العروض بنقول ‎a 10% discount‎."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "We will also install a battery monitoring system free of charge for the first six months.",
+       "It will send an alarm to your team and ours if any block becomes weak.",
+       "If you approve by Thursday, we can replace the string on Saturday, 1 November, with no downtime."
+      ],
+      "why": "الميزة الإضافية ← بتفيد في إيه ← الخطوة الجاية والميعاد."
+     }
+    ],
+    "body": [
+     "Dear Mr. Ayman,",
+     "Thank you for your feedback. We agree that we should have escalated the battery warning more clearly, and we have improved our process.",
+     "Please find attached our revised quotation Q-2025-244 with a 10% discount on the 40 battery blocks. We will also install a battery monitoring system free of charge for the first six months. It will send an alarm to your team and ours if any block becomes weak.",
+     "If you approve by Thursday, we can replace the string on Saturday, 1 November, with no downtime.",
+     "Best regards,\n<Your name>\nService Manager | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "Please accept our sincere apologies for …",
+    "نعتذر بشدة عن …"
+   ],
+   [
+    "Our initial check shows that …",
+    "الفحص المبدئي بيوضح إن …"
+   ],
+   [
+    "We will send you the full incident report by …",
+    "هنبعتلك تقرير الحادثة كامل قبل …"
+   ],
+   [
+    "In the meantime, …",
+    "لحد ما ده يحصل، …"
+   ],
+   [
+    "The root cause was …",
+    "السبب الجذري كان …"
+   ],
+   [
+    "We recommend … as soon as possible",
+    "بنوصي بـ … في أقرب وقت"
+   ],
+   [
+    "We should have escalated … more clearly",
+    "كان المفروض نصعّد … بشكل أوضح"
+   ],
+   [
+    "If you approve by Thursday, we can …",
+    "لو وافقتوا قبل الخميس نقدر …"
+   ]
+  ],
+  "glossary": [
+   [
+    "downtime",
+    "وقت توقف السيستم"
+   ],
+   [
+    "incident report / RCA (root cause analysis)",
+    "تقرير الحادثة / تحليل السبب الجذري"
+   ],
+   [
+    "battery string",
+    "مجموعة البطاريات المتوصلة ورا بعض"
+   ],
+   [
+    "transfer to battery / generator",
+    "التحويل على البطارية / المولّد"
+   ],
+   [
+    "corrective actions",
+    "الإجراءات التصحيحية"
+   ],
+   [
+    "battery monitoring system",
+    "نظام مراقبة البطاريات"
+   ]
+  ]
+ },
+ {
+  "id": "s2e6",
+  "season": "s2",
+  "title": "Handling an SLA complaint",
+  "ar": "التعامل مع شكوى مخالفة الـ ‎SLA‎",
+  "field": "Service · Maintenance contract",
+  "icon": "📉",
+  "scene": "Pyramid Foods has an annual maintenance contract with a 4-hour response time for critical calls. On Friday night your engineer arrived after 11 hours, and the client is angry and asks for compensation. You apologise, explain what happened, and propose a fair credit and a fix.",
+  "sceneAr": "‎Pyramid Foods‎ عندهم عقد صيانة سنوي فيه وقت استجابة 4 ساعات للأعطال الحرجة، ويوم الجمعة بالليل المهندس وصل بعد 11 ساعة والعميل متضايق وعايز تعويض. هتعتذر وتشرح اللي حصل وتقترح خصم عادل وحل للمشكلة.",
+  "thread": [
+   {
+    "dir": "in",
+    "from": "Eng. Omar Hegazy — Pyramid Foods",
+    "subject": "Complaint – late response to breakdown call, AMC-2025-014",
+    "date": "Sat, 25 Oct · 10:30",
+    "body": [
+     "Dear <Your name>,",
+     "Yesterday at 20:15 our 80 kVA UPS on Line 2 failed, and we called your hotline immediately (call ref. SR-3390).",
+     "Your engineer arrived at 07:30 this morning, more than 11 hours later. Our contract AMC-2025-014 clearly states a 4-hour response time for critical calls.",
+     "Line 2 was stopped all night. We lost around EGP 250,000 in production, and we expect NPS to compensate us for this loss.",
+     "Regards,\nOmar Hegazy\nOperations Manager | Pyramid Foods"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Complaint – late response to breakdown call, AMC-2025-014",
+    "date": "Sat, 25 Oct · 12:00",
+    "task": "اعتذر من غير أعذار، اعترف إن الـ ‎SLA‎ اتكسر، وقول إنك بتحقق وهترد رسمي إمتى.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening",
+      "opts": [
+       "We are sorry, but Friday is a weekend day in Egypt.",
+       "Our engineer was busy with another client, so it is not our fault.",
+       "Please accept our apologies. You are right that our response time did not meet the SLA in your contract."
+      ],
+      "a": 2,
+      "why": "اعتذار واعتراف بالمشكلة؛ أول اختيارين أعذار بتزوّد غضب العميل."
+     },
+     {
+      "type": "gap",
+      "sentence": "I am personally ___ what went wrong with our on-call process.",
+      "opts": [
+       "investigating",
+       "searching",
+       "digging"
+      ],
+      "a": 0,
+      "why": "‎investigate‎ يعني يحقق في مشكلة؛ ‎search‎ معناها يدوّر على حاجة."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "I am personally investigating what went wrong with our on-call process.",
+       "I will send you a full reply with our proposal by Tuesday, 28 October.",
+       "Meanwhile, our engineer will stay in contact with your team until Line 2 is fully stable."
+      ],
+      "why": "اللي بتعمله ← إمتى الرد ← الطمأنة دلوقتي."
+     }
+    ],
+    "body": [
+     "Dear Eng. Omar,",
+     "Please accept our apologies. You are right that our response time did not meet the SLA in your contract. I understand the impact on your production.",
+     "I am personally investigating what went wrong with our on-call process. I will send you a full reply with our proposal by Tuesday, 28 October.",
+     "Meanwhile, our engineer will stay in contact with your team until Line 2 is fully stable.",
+     "Best regards,\n<Your name>\nService Manager | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Eng. Omar Hegazy — Pyramid Foods",
+    "subject": "RE: Complaint – late response to breakdown call, AMC-2025-014",
+    "date": "Sun, 26 Oct · 09:45",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for the quick apology, and I appreciate that the UPS is now working well after your engineer replaced the failed rectifier board.",
+     "However, apologies do not cover our loss. Our management expects compensation, and they are asking me if we should renew the contract in January.",
+     "I look forward to your proposal.",
+     "Regards,\nOmar Hegazy\nOperations Manager | Pyramid Foods"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Complaint – late response to breakdown call, AMC-2025-014",
+    "date": "Tue, 28 Oct · 11:00",
+    "task": "اشرح السبب باختصار، وضّح بند العقد بأدب، واعرض خصم على الفاتورة وتحسينات عملية علشان يجدّد.",
+    "steps": [
+     {
+      "type": "gap",
+      "sentence": "Our on-call engineer was at another emergency in Suez, and the call was not ___ to our backup engineer.",
+      "opts": [
+       "escalated",
+       "raised up",
+       "transferred up"
+      ],
+      "a": 0,
+      "why": "‎escalate a call‎ يعني يتحوّل لمستوى أو شخص تاني."
+     },
+     {
+      "type": "pick",
+      "q": "Choose the best way to mention the contract limit",
+      "opts": [
+       "We will not pay you anything for production loss, read the contract.",
+       "Under clause 9.2 of the contract, compensation for SLA breaches is a service credit, not production losses.",
+       "Legally we are not responsible at all."
+      ],
+      "a": 1,
+      "why": "بتشاور على البند بهدوء؛ الأولى هجومية والتالتة بتقفل باب التفاوض."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "However, we are offering a service credit of EGP 18,500, which is 25% of your quarterly fee.",
+       "We will also add a free preventive maintenance visit in December.",
+       "From 1 November, we will have two on-call engineers every weekend and a direct escalation number."
+      ],
+      "why": "التعويض ← ميزة إضافية ← الحل اللي يمنع التكرار."
+     }
+    ],
+    "body": [
+     "Dear Eng. Omar,",
+     "Our on-call engineer was at another emergency in Suez, and the call was not escalated to our backup engineer. This was our mistake.",
+     "Under clause 9.2 of the contract, compensation for SLA breaches is a service credit, not production losses. However, we are offering a service credit of EGP 18,500, which is 25% of your quarterly fee. We will also add a free preventive maintenance visit in December.",
+     "From 1 November, we will have two on-call engineers every weekend and a direct escalation number.",
+     "Best regards,\n<Your name>\nService Manager | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Eng. Omar Hegazy — Pyramid Foods",
+    "subject": "RE: Complaint – late response to breakdown call, AMC-2025-014",
+    "date": "Wed, 29 Oct · 13:20",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for the clear explanation and the fair proposal. Our management accepts the service credit and the extra PM visit.",
+     "Please deduct the credit from your next invoice and send us the new escalation number in writing.",
+     "If the new on-call system works well, we will renew AMC-2025-014 for 2026.",
+     "Regards,\nOmar Hegazy\nOperations Manager | Pyramid Foods"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "You are right that … did not meet the SLA",
+    "عندك حق إن … ما التزمش بالـ ‎SLA‎"
+   ],
+   [
+    "I understand the impact on your production",
+    "فاهم تأثير ده على الإنتاج عندكم"
+   ],
+   [
+    "I am personally investigating what went wrong",
+    "أنا بنفسي بحقق في اللي حصل"
+   ],
+   [
+    "I will send you a full reply by …",
+    "هبعتلك رد كامل قبل …"
+   ],
+   [
+    "This was our mistake",
+    "ده كان غلطنا"
+   ],
+   [
+    "Under clause 9.2 of the contract, …",
+    "بناءً على البند 9.2 في العقد، …"
+   ],
+   [
+    "We are offering a service credit of …",
+    "بنعرض خصم خدمة بقيمة …"
+   ],
+   [
+    "From 1 November, we will …",
+    "من أول نوفمبر هنبدأ …"
+   ]
+  ],
+  "glossary": [
+   [
+    "AMC (annual maintenance contract)",
+    "عقد الصيانة السنوي"
+   ],
+   [
+    "SLA (service level agreement)",
+    "اتفاقية مستوى الخدمة"
+   ],
+   [
+    "response time",
+    "وقت الاستجابة"
+   ],
+   [
+    "on-call engineer",
+    "مهندس النوبتجية / الطوارئ"
+   ],
+   [
+    "service credit",
+    "خصم تعويضي على الفاتورة"
+   ],
+   [
+    "preventive maintenance (PM)",
+    "الصيانة الوقائية"
+   ]
+  ]
+ },
+ {
+  "id": "s2e7",
+  "season": "s2",
+  "title": "Diagnosing a VFD fault with the supplier",
+  "ar": "تشخيص عطل ‎VFD‎ مع المورّد",
+  "field": "Service · VFD / Warranty",
+  "icon": "🌀",
+  "scene": "A 75 kW EuroDrive VFD at a client's water pumping station keeps tripping with fault code F0034. You send the logs and photos to the Italian supplier, answer their technical questions, and make a warranty claim for the failed part.",
+  "sceneAr": "‎VFD 75 kW‎ من ‎EuroDrive‎ في محطة مياه عند عميل بيفصل كل شوية بكود ‎F0034‎. هتبعت اللوجات والصور للمورّد الإيطالي، وترد على أسئلته الفنية، وتقدّم مطالبة ضمان على القطعة البايظة.",
+  "thread": [
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "ED-600 75 kW VFD tripping – fault F0034, request for support",
+    "date": "Sun, 2 Nov · 09:10",
+    "task": "اوصف العطل للمورّد بالتفاصيل (الموديل، السيريال، الكود، إمتى بيحصل) وابعت اللوج والصور واطلب مساعدة.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening line",
+      "opts": [
+       "We need your support with an ED-600 75 kW drive that keeps tripping at our client's pumping station.",
+       "Your drive is not working, please solve.",
+       "Hello Marco, we have a big problem with the inverter, what to do?"
+      ],
+      "a": 0,
+      "why": "بتوضح الطلب والجهاز والمكان؛ التانية أمر جاف والتالتة مش مهنية ومفيهاش تفاصيل."
+     },
+     {
+      "type": "gap",
+      "sentence": "The drive trips with fault code F0034 (heatsink over-temperature) after about 40 minutes of ___.",
+      "opts": [
+       "operation",
+       "working time",
+       "running on"
+      ],
+      "a": 0,
+      "why": "‎after X minutes of operation‎ التعبير الفني للتشغيل."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Please find attached the fault log exported from the keypad.",
+       "I have also attached photos of the display and the inside of the panel.",
+       "Could you please help us find the cause and confirm if this is covered by the warranty?"
+      ],
+      "why": "المرفقات ← المرفقات الإضافية ← الطلب."
+     }
+    ],
+    "body": [
+     "Dear Mr. Marco,",
+     "We need your support with an ED-600 75 kW drive that keeps tripping at our client's pumping station. The serial number is ED6-75-24-00871, and it was commissioned in March 2025.",
+     "The drive trips with fault code F0034 (heatsink over-temperature) after about 40 minutes of operation. Please find attached the fault log exported from the keypad. I have also attached photos of the display and the inside of the panel.",
+     "Could you please help us find the cause and confirm if this is covered by the warranty?",
+     "Best regards,\n<Your name>\nService Engineer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Marco Bianchi — EuroDrive S.r.l.",
+    "subject": "RE: ED-600 75 kW VFD tripping – fault F0034, request for support",
+    "date": "Mon, 3 Nov · 10:25",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for the log and photos. The log shows the heatsink temperature rising to 95°C, while the output current is only 60% of rated current. This suggests a cooling problem.",
+     "Could you please check if the main cooling fan is spinning, and measure the air temperature inside the panel?",
+     "Please also tell me the deceleration time set in parameter P1121.",
+     "Best regards,\nMarco Bianchi\nSales & Technical Support | EuroDrive S.r.l."
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: ED-600 75 kW VFD tripping – fault F0034, request for support",
+    "date": "Mon, 3 Nov · 15:40",
+    "task": "رد على أسئلته الفنية بالأرقام، وابعت فيديو المروحة، وقدّم مطالبة ضمان واطلب شحن سريع.",
+    "steps": [
+     {
+      "type": "gap",
+      "sentence": "Our engineer ___ the drive today, and the main cooling fan is not spinning at all.",
+      "opts": [
+       "inspected",
+       "saw over",
+       "looked"
+      ],
+      "a": 0,
+      "why": "‎inspect the drive‎ يعني فحصه؛ ‎looked‎ محتاجة ‎at‎."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "The air temperature inside the panel is 41°C.",
+       "The deceleration time in P1121 is set to 5 seconds.",
+       "A short video of the fan is attached."
+      ],
+      "why": "إجابة الأسئلة بنفس ترتيب ما اتسألت، وبعدين المرفق."
+     },
+     {
+      "type": "pick",
+      "q": "Choose the best way to make the warranty claim",
+      "opts": [
+       "The fan is broken so you must send a new one free.",
+       "As the drive is only eight months old, we would like to claim a replacement fan under warranty.",
+       "Please give us warranty for the fan because it is new drive."
+      ],
+      "a": 1,
+      "why": "مطالبة مهذبة ومعاها السبب؛ الأولى أمر والتالتة قواعدها غلط."
+     }
+    ],
+    "body": [
+     "Dear Mr. Marco,",
+     "Thank you for your quick analysis. Our engineer inspected the drive today, and the main cooling fan is not spinning at all.",
+     "The air temperature inside the panel is 41°C. The deceleration time in P1121 is set to 5 seconds. A short video of the fan is attached.",
+     "As the drive is only eight months old, we would like to claim a replacement fan under warranty. Since the pumping station is running at reduced flow, could you please ship it by express courier?",
+     "Best regards,\n<Your name>\nService Engineer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Marco Bianchi — EuroDrive S.r.l.",
+    "subject": "RE: ED-600 75 kW VFD tripping – fault F0034, request for support",
+    "date": "Tue, 4 Nov · 09:30",
+    "body": [
+     "Dear <Your name>,",
+     "The video confirms that the fan has failed. We have approved warranty claim WC-2025-077, and the fan kit will ship today by DHL, AWB 7734 2291 05.",
+     "I also recommend increasing the deceleration time to 15 seconds and adding a ventilation fan to the panel, as 41°C is above our recommended 35°C.",
+     "Please send the old fan back with the next shipment, or send photos of its label.",
+     "Best regards,\nMarco Bianchi\nSales & Technical Support | EuroDrive S.r.l."
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: ED-600 75 kW VFD tripping – fault F0034, request for support [WC-2025-077]",
+    "date": "Tue, 4 Nov · 11:15",
+    "task": "اشكره، أكّد إنك هتنفّذ التوصيات، واطلب إن الفاتورة مكتوب عليها إنها ضمان ببلاش علشان الجمارك.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best way to confirm the recommendations",
+      "opts": [
+       "We will follow your recommendations and fit a ventilation fan in the panel next week.",
+       "OK we will see about the fan maybe later.",
+       "Your recommendations is noted and will be take in consideration."
+      ],
+      "a": 0,
+      "why": "تأكيد واضح بخطوة وميعاد؛ التانية مش جادة والتالتة فيها أخطاء قواعد."
+     },
+     {
+      "type": "gap",
+      "sentence": "Could you please make sure the commercial invoice states \"Free of charge – warranty replacement, WC-2025-077\"? This will help us ___ the parcel quickly.",
+      "opts": [
+       "clear",
+       "free",
+       "release out"
+      ],
+      "a": 0,
+      "why": "‎clear a parcel/shipment‎ يعني نخلّصها من الجمارك."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for approving the claim so quickly.",
+       "We will follow your recommendations and fit a ventilation fan in the panel next week.",
+       "We will send you photos of the old fan label once the new fan is installed."
+      ],
+      "why": "الشكر ← تنفيذ التوصيات ← المطلوب مننا بخصوص القطعة القديمة."
+     }
+    ],
+    "body": [
+     "Dear Mr. Marco,",
+     "Thank you for approving the claim so quickly. We will follow your recommendations and fit a ventilation fan in the panel next week.",
+     "We will send you photos of the old fan label once the new fan is installed.",
+     "Could you please make sure the commercial invoice states \"Free of charge – warranty replacement, WC-2025-077\"? This will help us clear the parcel quickly.",
+     "Best regards,\n<Your name>\nService Engineer | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "We need your support with …",
+    "محتاجين مساعدتكم في …"
+   ],
+   [
+    "The drive trips with fault code …",
+    "الجهاز بيفصل بكود عطل …"
+   ],
+   [
+    "Please find attached the fault log",
+    "مرفق سجل الأعطال"
+   ],
+   [
+    "Could you please confirm if this is covered by the warranty?",
+    "ممكن تأكد لو ده داخل في الضمان؟"
+   ],
+   [
+    "Our engineer inspected the drive today",
+    "المهندس بتاعنا فحص الجهاز النهارده"
+   ],
+   [
+    "We would like to claim a replacement under warranty",
+    "حابين نطالب ببديل تحت الضمان"
+   ],
+   [
+    "We will follow your recommendations",
+    "هننفذ توصياتكم"
+   ],
+   [
+    "This will help us clear the parcel quickly",
+    "ده هيساعدنا نخلّص الطرد بسرعة"
+   ]
+  ],
+  "glossary": [
+   [
+    "VFD (variable frequency drive)",
+    "جهاز التحكم في سرعة الموتور (انفرتر)"
+   ],
+   [
+    "trip",
+    "فصل الجهاز بسبب حماية"
+   ],
+   [
+    "heatsink over-temperature",
+    "سخونة زيادة في مشتت الحرارة"
+   ],
+   [
+    "deceleration time",
+    "وقت التهدئة لحد ما الموتور يقف"
+   ],
+   [
+    "warranty claim",
+    "مطالبة ضمان"
+   ],
+   [
+    "AWB (air waybill)",
+    "بوليصة الشحن الجوي"
+   ]
+  ]
+ }
+]

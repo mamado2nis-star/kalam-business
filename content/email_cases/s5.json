@@ -1,0 +1,1563 @@
+[
+ {
+  "id": "s5e1",
+  "season": "s5",
+  "title": "Buying the tender documents",
+  "ar": "شراء كراسة الشروط وأسئلة الاستيضاح",
+  "field": "Tenders · Hospital UPS",
+  "icon": "📂",
+  "scene": "Horizon Hospital has published a tender for the UPS systems of its new ICU and data-centre wing. You must buy the tender documents, register as a bidder and send your clarification questions before the deadline, because some technical specs are not clear.",
+  "sceneAr": "مستشفى هورايزن طارح مناقصة لأجهزة الـ‎UPS‎ بتاعة مبنى الرعاية المركزة والداتا سنتر الجديد. لازم تشتري كراسة الشروط وتسجل الشركة وتبعت أسئلة الاستيضاح قبل الميعاد، لأن فيه مواصفات فنية مش واضحة.",
+  "thread": [
+   {
+    "dir": "in",
+    "from": "Ms. Rania Mostafa — Horizon Hospital (Tender Committee)",
+    "subject": "Invitation to Tender HH/T/2026/014 – UPS Systems, ICU & Data Centre Wing",
+    "date": "Sun, 4 Oct · 09:30",
+    "body": [
+     "Dear Sir/Madam,",
+     "Horizon Hospital invites qualified companies to submit bids for Tender No. HH/T/2026/014: supply, installation and 3-year maintenance of UPS systems for the new ICU and data-centre wing.",
+     "The tender has two lots. Lot 1 covers 2 × 400 kVA modular UPS systems with battery banks. Lot 2 covers the 3-year maintenance of the existing UPS units in the main building.",
+     "The tender documents can be purchased for EGP 2,000 (non-refundable) by bank transfer or at the Procurement Office. Clarification questions must be sent in writing by Thursday, 15 October. The bid submission deadline is Thursday, 29 October 2026 at 12:00.",
+     "Best regards,\nRania Mostafa\nTender Committee Secretary | Horizon Hospital"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Invitation to Tender HH/T/2026/014 – UPS Systems, ICU & Data Centre Wing",
+    "date": "Sun, 4 Oct · 13:10",
+    "task": "أكد إن الشركة عايزة تشارك في الـ2 ‎Lots‎، قول إنك حولت رسوم الكراسة 2,000 جنيه وابعت إيصال التحويل، واطلب الكراسة وتسجيل الشركة.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening line after the greeting.",
+      "opts": [
+       "We want to enter your tender, so send us the papers.",
+       "Thank you for the invitation. Nile Power Solutions would like to participate in Tender No. HH/T/2026/014 for both lots.",
+       "Regarding your tender, we are hereby informing you that we will join it."
+      ],
+      "a": 1,
+      "why": "الاختيار الصح مؤدب وواضح وفيه رقم المناقصة؛ الأول ناشف والتالت مترجم حرفي وتقيل."
+     },
+     {
+      "type": "gap",
+      "sentence": "We have transferred the tender document ___ of EGP 2,000 today.",
+      "opts": [
+       "money",
+       "price",
+       "fee"
+      ],
+      "a": 2,
+      "why": "رسوم شراء الكراسة اسمها ‎fee‎، مش ‎price‎ ولا ‎money‎."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "We have transferred the tender document fee of EGP 2,000 today.",
+       "Please find attached the bank transfer receipt (Ref. TRF-884120).",
+       "Could you please send us the tender documents and register our company as a bidder?"
+      ],
+      "why": "الأول الدفع، بعدين الإثبات، وبعدين الطلب."
+     }
+    ],
+    "body": [
+     "Dear Ms. Rania,",
+     "Thank you for the invitation. Nile Power Solutions would like to participate in Tender No. HH/T/2026/014 for both lots.",
+     "We have transferred the tender document fee of EGP 2,000 today. Please find attached the bank transfer receipt (Ref. TRF-884120).",
+     "Could you please send us the tender documents and register our company as a bidder? The undersigned will be our contact person for this tender.",
+     "Best regards,\n<Your name>\nTender Engineer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Rania Mostafa — Horizon Hospital (Tender Committee)",
+    "subject": "RE: Invitation to Tender HH/T/2026/014 – UPS Systems, ICU & Data Centre Wing",
+    "date": "Mon, 5 Oct · 10:20",
+    "body": [
+     "Dear Eng. <Your name>,",
+     "We confirm receipt of your payment. Nile Power Solutions is now registered as Bidder No. 07.",
+     "Please find attached the tender documents: the RFP, the technical specifications, the Bill of Quantities (BOQ) and the compliance sheet.",
+     "Kindly note that all clarification questions must be sent by email by 15 October at 15:00. The answers will be shared with all bidders in an addendum.",
+     "Best regards,\nRania Mostafa\nTender Committee Secretary | Horizon Hospital"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Clarification Questions – Tender HH/T/2026/014",
+    "date": "Sun, 11 Oct · 11:45",
+    "task": "ابعت أسئلة الاستيضاح قبل الميعاد: المواصفات مش واضحة في موضوع الـ‎N+1‎، وزمن تشغيل البطاريات محسوب على أنهي حمل، وهل الكابلات ضمن النطاق.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best sentence to introduce your questions.",
+      "opts": [
+       "I didn't understand some things in your specs.",
+       "Your specifications are not clear and have many mistakes.",
+       "Further to our review of the tender documents, we would be grateful for clarification on the following points:"
+      ],
+      "a": 2,
+      "why": "الصح رسمي ومحايد؛ التاني بيتهم اللجنة، والأول كاجوال زيادة."
+     },
+     {
+      "type": "gap",
+      "sentence": "Section 4.2 requires N+1 ___.",
+      "opts": [
+       "repetition",
+       "redundancy",
+       "backup copy"
+      ],
+      "a": 1,
+      "why": "‎redundancy‎ يعني وجود وحدة احتياطية زيادة عن المطلوب."
+     },
+     {
+      "type": "gap",
+      "sentence": "The battery ___ is 15 minutes, but the load is not stated.",
+      "opts": [
+       "autonomy",
+       "life",
+       "age"
+      ],
+      "a": 0,
+      "why": "‎autonomy‎ = مدة تشغيل البطارية وقت انقطاع الكهرباء؛ ‎life‎ = عمرها الافتراضي."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Section 4.2 requires N+1 redundancy.",
+       "Please confirm whether this is at module level or at system level.",
+       "Are the input and output cables to the main switchboard within the scope of Lot 1?"
+      ],
+      "why": "كل سؤال بيبدأ بالمرجع وبعدين الطلب، والأسئلة مترقمة بالترتيب."
+     }
+    ],
+    "body": [
+     "Dear Ms. Rania,",
+     "Further to our review of the tender documents, we would be grateful for clarification on the following points:",
+     "1. Section 4.2 requires N+1 redundancy. Please confirm whether this is at module level or at system level.",
+     "2. The battery autonomy is 15 minutes, but the load is not stated. Should we calculate it at full load or at 80% load?",
+     "3. Are the input and output cables to the main switchboard within the scope of Lot 1?",
+     "We look forward to your reply.",
+     "Best regards,\n<Your name>\nTender Engineer | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "would like to participate in Tender No. ...",
+    "حابين نشارك في المناقصة رقم ..."
+   ],
+   [
+    "Please find attached the bank transfer receipt",
+    "مرفق إيصال التحويل البنكي"
+   ],
+   [
+    "register our company as a bidder",
+    "تسجيل شركتنا كمتقدم في المناقصة"
+   ],
+   [
+    "The undersigned will be our contact person",
+    "الموقّع أدناه هو مسؤول التواصل"
+   ],
+   [
+    "Further to our review of the tender documents",
+    "بعد مراجعتنا لكراسة الشروط"
+   ],
+   [
+    "we would be grateful for clarification on the following points",
+    "نكون شاكرين لو توضحولنا النقط الجاية"
+   ],
+   [
+    "Please confirm whether ... or ...",
+    "برجاء التأكيد هل ... ولا ..."
+   ],
+   [
+    "within the scope of Lot 1",
+    "ضمن نطاق أعمال ‎Lot 1‎"
+   ]
+  ],
+  "glossary": [
+   [
+    "tender documents / RFP",
+    "كراسة الشروط / طلب تقديم العروض"
+   ],
+   [
+    "non-refundable fee",
+    "رسوم غير مستردة"
+   ],
+   [
+    "clarification",
+    "استيضاح رسمي"
+   ],
+   [
+    "addendum",
+    "ملحق للكراسة بيعدّل أو يوضح"
+   ],
+   [
+    "compliance sheet",
+    "جدول المطابقة للمواصفات"
+   ],
+   [
+    "Bill of Quantities (BOQ)",
+    "جدول الكميات"
+   ]
+  ]
+ },
+ {
+  "id": "s5e2",
+  "season": "s5",
+  "title": "Site visit & pre-bid meeting",
+  "ar": "زيارة الموقع والاجتماع التمهيدي",
+  "field": "Tenders · Site visit",
+  "icon": "🏗️",
+  "scene": "Before pricing, your team needs to see the UPS and battery rooms in the new wing. You request a site visit, the hospital combines it with the pre-bid meeting, and later the minutes contain a mistake about the cable scope.",
+  "sceneAr": "قبل التسعير لازم الفريق يعاين أوض الـ‎UPS‎ والبطاريات في المبنى الجديد. هتطلب زيارة موقع، والمستشفى هيدمجها مع الاجتماع التمهيدي، وبعدين المحضر هييجي فيه غلطة في نطاق الكابلات.",
+  "thread": [
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Site Visit Request – Tender HH/T/2026/014",
+    "date": "Tue, 6 Oct · 09:40",
+    "task": "اطلب زيارة للموقع قبل التسعير، واشرح الهدف منها، واذكر أسماء المهندسين، واسأل عن الميعاد وشروط الدخول.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best way to request the visit.",
+      "opts": [
+       "To prepare an accurate bid, we would like to request a site visit to the UPS and battery rooms in the new ICU and data-centre wing.",
+       "We must visit the site, otherwise we cannot give a price.",
+       "Kindly we need to come and see the place."
+      ],
+      "a": 0,
+      "why": "الأول بيوضح السبب وبيطلب بأدب؛ التاني فيه تهديد، والتالت مترجم من العربي."
+     },
+     {
+      "type": "gap",
+      "sentence": "The purpose of the visit is to check the room dimensions, floor ___ and the existing cable routes.",
+      "opts": [
+       "weight",
+       "loading",
+       "heaviness"
+      ],
+      "a": 1,
+      "why": "‎floor loading‎ = أقصى حمل تستحمله الأرضية، ومهم جدًا لبطاريات تقيلة."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "The purpose of the visit is to check the room dimensions, floor loading and the existing cable routes.",
+       "Our team will include three engineers: Eng. Mahmoud Adel, Eng. Sara Kamal and the undersigned.",
+       "Could you please let us know a suitable date and any access requirements?"
+      ],
+      "why": "الهدف، بعدين مين جاي، وبعدين السؤال عن الميعاد."
+     }
+    ],
+    "body": [
+     "Dear Ms. Rania,",
+     "To prepare an accurate bid, we would like to request a site visit to the UPS and battery rooms in the new ICU and data-centre wing.",
+     "The purpose of the visit is to check the room dimensions, floor loading and the existing cable routes.",
+     "Our team will include three engineers: Eng. Mahmoud Adel, Eng. Sara Kamal and the undersigned. Could you please let us know a suitable date and any access requirements?",
+     "Best regards,\n<Your name>\nTender Engineer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Rania Mostafa — Horizon Hospital (Tender Committee)",
+    "subject": "RE: Site Visit Request – Tender HH/T/2026/014",
+    "date": "Wed, 7 Oct · 12:05",
+    "body": [
+     "Dear Eng. <Your name>,",
+     "The site visit will be combined with the pre-bid meeting on Tuesday, 13 October at 10:00 in the Procurement Office, Building B.",
+     "Please note that each bidder may send a maximum of two representatives. Kindly send their names and copies of their national IDs by 11 October.",
+     "Attendance is not mandatory, but no additional site visits will be arranged. The minutes of the meeting will be shared with all bidders.",
+     "Best regards,\nRania Mostafa\nTender Committee Secretary | Horizon Hospital"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Site Visit Request – Tender HH/T/2026/014",
+    "date": "Thu, 8 Oct · 10:15",
+    "task": "أكد الحضور باسم اتنين بس زي ما طلبوا، وابعت صور البطايق، واطلب رسومات أوضة البطاريات لأنها لسه تحت الإنشاء.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "How do you confirm attendance?",
+      "opts": [
+       "Only two people will come because you don't allow three.",
+       "OK, we will come.",
+       "We confirm that two representatives will attend: Eng. Mahmoud Adel and the undersigned."
+      ],
+      "a": 2,
+      "why": "الصح بيأكد بالأسماء؛ الأول فيه شكوى، والتاني ناقص معلومات."
+     },
+     {
+      "type": "gap",
+      "sentence": "Could you kindly ___ the architectural drawings of this room, so we can check the space and the floor loading?",
+      "opts": [
+       "give us",
+       "share",
+       "throw"
+      ],
+      "a": 1,
+      "why": "‎share‎ أنسب وألطف في الإيميلات الرسمية من ‎give us‎."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for arranging the pre-bid meeting.",
+       "We confirm that two representatives will attend: Eng. Mahmoud Adel and the undersigned.",
+       "Copies of their national IDs are attached."
+      ],
+      "why": "شكر، تأكيد الحضور، وبعدين المرفقات."
+     }
+    ],
+    "body": [
+     "Dear Ms. Rania,",
+     "Thank you for arranging the pre-bid meeting. We confirm that two representatives will attend: Eng. Mahmoud Adel and the undersigned. Copies of their national IDs are attached.",
+     "We understand that the battery room is still under construction. Could you kindly share the architectural drawings of this room, so we can check the space and the floor loading?",
+     "We will send any further questions after the meeting.",
+     "Best regards,\n<Your name>\nTender Engineer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Rania Mostafa — Horizon Hospital (Tender Committee)",
+    "subject": "Minutes of Pre-Bid Meeting – Tender HH/T/2026/014",
+    "date": "Wed, 14 Oct · 14:30",
+    "body": [
+     "Dear Bidders,",
+     "Please find attached the minutes of the pre-bid meeting held on 13 October, together with the drawings of the battery room.",
+     "Key points: the maximum floor loading in the battery room is 1,000 kg/m², and the input and output cables are excluded from the scope of Lot 1.",
+     "The answers to all clarification questions will be issued in Addendum No. 1 by 20 October.",
+     "Best regards,\nRania Mostafa\nTender Committee Secretary | Horizon Hospital"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Minutes of Pre-Bid Meeting – Tender HH/T/2026/014",
+    "date": "Wed, 14 Oct · 16:20",
+    "task": "بلّغهم بأدب إن المحضر فيه غلطة: في الاجتماع م. طارق نبيل قال إن الكابلات ضمن النطاق، واطلب تصحيحها في ‎Addendum No. 1‎.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "How do you point out the mistake politely?",
+      "opts": [
+       "You wrote the minutes wrong.",
+       "However, we noticed a difference in Item 3.",
+       "There is a big mistake that you must correct now."
+      ],
+      "a": 1,
+      "why": "‎However + noticed a difference‎ طريقة هادية ومحترمة؛ الباقي هجومي."
+     },
+     {
+      "type": "gap",
+      "sentence": "As this has a direct ___ on the price, we would appreciate it if you could confirm the correct scope in Addendum No. 1.",
+      "opts": [
+       "impact",
+       "hit",
+       "touch"
+      ],
+      "a": 0,
+      "why": "‎direct impact on the price‎ تعبير ثابت = بيأثر مباشرة على السعر."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for the minutes and the drawings.",
+       "However, we noticed a difference in Item 3.",
+       "As this has a direct impact on the price, we would appreciate it if you could confirm the correct scope in Addendum No. 1."
+      ],
+      "why": "شكر، بعدين المشكلة، وبعدين الطلب وسببه."
+     }
+    ],
+    "body": [
+     "Dear Ms. Rania,",
+     "Thank you for the minutes and the drawings.",
+     "However, we noticed a difference in Item 3. During the meeting, Eng. Tarek Nabil confirmed that the input and output cables are included in the scope of Lot 1, but the minutes state that they are excluded.",
+     "As this has a direct impact on the price, we would appreciate it if you could confirm the correct scope in Addendum No. 1.",
+     "Best regards,\n<Your name>\nTender Engineer | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "To prepare an accurate bid, we would like to request a site visit",
+    "عشان نجهز عرض دقيق، حابين نطلب زيارة للموقع"
+   ],
+   [
+    "The purpose of the visit is to check ...",
+    "الهدف من الزيارة إننا نراجع ..."
+   ],
+   [
+    "Could you please let us know a suitable date?",
+    "ممكن تبلغونا بميعاد مناسب؟"
+   ],
+   [
+    "We confirm that two representatives will attend",
+    "بنأكد إن اتنين مندوبين هيحضروا"
+   ],
+   [
+    "Could you kindly share the drawings?",
+    "ممكن تبعتولنا الرسومات؟"
+   ],
+   [
+    "However, we noticed a difference in Item 3.",
+    "بس لاحظنا اختلاف في البند 3."
+   ],
+   [
+    "As this has a direct impact on the price",
+    "وبما إن ده بيأثر مباشرة على السعر"
+   ]
+  ],
+  "glossary": [
+   [
+    "site visit",
+    "زيارة / معاينة الموقع"
+   ],
+   [
+    "pre-bid meeting",
+    "الاجتماع التمهيدي قبل تقديم العروض"
+   ],
+   [
+    "minutes of meeting",
+    "محضر الاجتماع"
+   ],
+   [
+    "floor loading",
+    "الحمل المسموح على الأرضية"
+   ],
+   [
+    "attendance is not mandatory",
+    "الحضور مش إجباري"
+   ],
+   [
+    "scope of work",
+    "نطاق الأعمال"
+   ]
+  ]
+ },
+ {
+  "id": "s5e3",
+  "season": "s5",
+  "title": "Getting the bid bond right",
+  "ar": "خطاب الضمان الابتدائي",
+  "field": "Tenders · Bid bond",
+  "icon": "🏦",
+  "scene": "The RFP requires a bid bond (bid security) of EGP 250,000 for Lot 1 and EGP 30,000 for Lot 2, valid for 120 days from the bid opening. You ask the bank to issue them, but the draft comes back with the wrong amount and the wrong expiry date.",
+  "sceneAr": "الكراسة طالبة خطاب ضمان ابتدائي 250,000 جنيه لـ‎Lot 1‎ و30,000 جنيه لـ‎Lot 2‎، صالح 120 يوم من فتح المظاريف. هتطلبهم من البنك، بس المسودة هترجع بمبلغ غلط وتاريخ انتهاء غلط.",
+  "thread": [
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Request to Issue Bid Bonds – Tender HH/T/2026/014",
+    "date": "Sun, 18 Oct · 10:00",
+    "task": "اطلب من البنك إصدار خطابين ضمان ابتدائي بالمبالغ والصلاحية المطلوبة، واذكر المستفيد ورقم المناقصة والصيغة المرفقة وآخر ميعاد للاستلام.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening request.",
+      "opts": [
+       "Make for us two guarantee letters for the hospital.",
+       "Please issue two bid bonds (letters of guarantee) in favour of Horizon Hospital for Tender No. HH/T/2026/014, as follows:",
+       "We want bonds for the tender, you know the details."
+      ],
+      "a": 1,
+      "why": "لازم تحدد النوع والمستفيد ورقم المناقصة؛ الباقي ناقص ومش مهني."
+     },
+     {
+      "type": "gap",
+      "sentence": "Both bonds must be ___ until 26 February 2027 (120 days from the bid opening).",
+      "opts": [
+       "alive",
+       "open",
+       "valid"
+      ],
+      "a": 2,
+      "why": "صلاحية الضمان = ‎valid until‎."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Both bonds must be valid until 26 February 2027 (120 days from the bid opening).",
+       "Please use the hospital's wording attached, and debit the charges and cash margin from our account No. 1002-458-773.",
+       "We need the originals by Monday, 26 October at the latest."
+      ],
+      "why": "الصلاحية، بعدين الصيغة والحساب، وبعدين الميعاد."
+     }
+    ],
+    "body": [
+     "Dear Mr. Amr,",
+     "Please issue two bid bonds (letters of guarantee) in favour of Horizon Hospital for Tender No. HH/T/2026/014, as follows:",
+     "Lot 1: EGP 250,000. Lot 2: EGP 30,000. Both bonds must be valid until 26 February 2027 (120 days from the bid opening).",
+     "Please use the hospital's wording attached, and debit the charges and cash margin from our account No. 1002-458-773.",
+     "We need the originals by Monday, 26 October at the latest.",
+     "Best regards,\n<Your name>\nTender Engineer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Amr Fathy — Cairo Crescent Bank (Letters of Guarantee)",
+    "subject": "RE: Request to Issue Bid Bonds – Tender HH/T/2026/014",
+    "date": "Wed, 21 Oct · 13:30",
+    "body": [
+     "Dear Eng. <Your name>,",
+     "Please find attached the drafts of Letters of Guarantee No. LG-2026-7731 (Lot 1) and LG-2026-7732 (Lot 2) for your review.",
+     "The 10% cash margin has been blocked on your account, and the bank charges are EGP 1,850 per guarantee.",
+     "Kindly confirm the drafts by tomorrow, so that we can issue the originals.",
+     "Best regards,\nAmr Fathy\nLetters of Guarantee Dept. | Cairo Crescent Bank"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Request to Issue Bid Bonds – Tender HH/T/2026/014",
+    "date": "Wed, 21 Oct · 15:10",
+    "task": "راجعت المسودة ولقيت غلطتين في ‎LG-2026-7731‎: المبلغ 25,000 بدل 250,000، والصلاحية لحد 28 يناير بدل 26 فبراير. اطلب التصحيح النهارده.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "How do you start?",
+      "opts": [
+       "The draft is wrong, do it again.",
+       "You made the same mistakes as last time.",
+       "Thank you for the drafts. The draft for Lot 2 is correct, but we found two errors in LG-2026-7731 (Lot 1):"
+      ],
+      "a": 2,
+      "why": "ابدأ بالشكر وحدد بالظبط فين الغلط؛ الباقي ناشف أو فيه لوم."
+     },
+     {
+      "type": "gap",
+      "sentence": "The ___ date is 28 January 2027.",
+      "opts": [
+       "expiry",
+       "finish",
+       "dead"
+      ],
+      "a": 0,
+      "why": "‎expiry date‎ = تاريخ انتهاء الصلاحية."
+     },
+     {
+      "type": "gap",
+      "sentence": "A bond with the wrong amount or validity will lead to the ___ of our bid.",
+      "opts": [
+       "refusal",
+       "rejection",
+       "cancelling"
+      ],
+      "a": 1,
+      "why": "‎rejection of the bid‎ هو التعبير المستخدم في المناقصات."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "1. The amount is EGP 25,000.",
+       "It should be EGP 250,000 (two hundred and fifty thousand Egyptian pounds).",
+       "Could you please send a corrected draft today?"
+      ],
+      "why": "الغلط، بعدين الصح، وبعدين الطلب."
+     }
+    ],
+    "body": [
+     "Dear Mr. Amr,",
+     "Thank you for the drafts. The draft for Lot 2 is correct, but we found two errors in LG-2026-7731 (Lot 1):",
+     "1. The amount is EGP 25,000. It should be EGP 250,000 (two hundred and fifty thousand Egyptian pounds).",
+     "2. The expiry date is 28 January 2027. It should be 26 February 2027.",
+     "A bond with the wrong amount or validity will lead to the rejection of our bid. Could you please send a corrected draft today?",
+     "Best regards,\n<Your name>\nTender Engineer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Amr Fathy — Cairo Crescent Bank (Letters of Guarantee)",
+    "subject": "RE: Request to Issue Bid Bonds – Tender HH/T/2026/014",
+    "date": "Thu, 22 Oct · 11:00",
+    "body": [
+     "Dear Eng. <Your name>,",
+     "Please accept our apologies for the error.",
+     "Letter of Guarantee LG-2026-7731 has been reissued for EGP 250,000, valid until 26 February 2027. The corrected draft is attached for your records.",
+     "Both originals are ready for collection from our Heliopolis branch from 12:00 today. Please send an authorisation letter with the person collecting them.",
+     "Best regards,\nAmr Fathy\nLetters of Guarantee Dept. | Cairo Crescent Bank"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Bid Bonds Ready – Horizon Hospital Tender",
+    "date": "Thu, 22 Oct · 13:40",
+    "task": "بلّغ المدير المالي أ. هاني زكي إن خطابات الضمان اتصححت وجاهزة، واطلب منه يمضي خطاب التفويض عشان المندوب يستلمها النهارده.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best way to report the problem to your manager.",
+      "opts": [
+       "The bank made a disaster, but I fixed it.",
+       "The bank had issued the Lot 1 bond for EGP 25,000 instead of EGP 250,000, but this has now been corrected.",
+       "There was a small thing with the bank, nothing important."
+      ],
+      "a": 1,
+      "why": "الصح بيوضح المشكلة والحل بالأرقام؛ الأول مبالغ والتالت بيخبي معلومة مهمة."
+     },
+     {
+      "type": "gap",
+      "sentence": "Could you please sign the attached ___ letter, so that our driver can collect the originals from the Heliopolis branch today?",
+      "opts": [
+       "permission",
+       "authorisation",
+       "allowing"
+      ],
+      "a": 1,
+      "why": "‎authorisation letter‎ = خطاب تفويض."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "The two bid bonds for the Horizon Hospital tender are now ready.",
+       "The bank had issued the Lot 1 bond for EGP 25,000 instead of EGP 250,000, but this has now been corrected.",
+       "I will keep the originals in the treasury safe until the submission on 29 October."
+      ],
+      "why": "الخبر، بعدين اللي حصل، وبعدين الخطوة الجاية."
+     }
+    ],
+    "body": [
+     "Dear Mr. Hany,",
+     "The two bid bonds for the Horizon Hospital tender are now ready. The bank had issued the Lot 1 bond for EGP 25,000 instead of EGP 250,000, but this has now been corrected.",
+     "Could you please sign the attached authorisation letter, so that our driver can collect the originals from the Heliopolis branch today?",
+     "I will keep the originals in the treasury safe until the submission on 29 October.",
+     "Best regards,\n<Your name>\nTender Engineer"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "Please issue ... in favour of Horizon Hospital",
+    "برجاء إصدار ... لصالح مستشفى هورايزن"
+   ],
+   [
+    "must be valid until 26 February 2027",
+    "لازم يكون ساري لحد 26 فبراير 2027"
+   ],
+   [
+    "debit the charges from our account",
+    "اخصموا المصاريف من حسابنا"
+   ],
+   [
+    "We need the originals by ... at the latest",
+    "محتاجين الأصول بحد أقصى يوم ..."
+   ],
+   [
+    "we found two errors in ...",
+    "لقينا غلطتين في ..."
+   ],
+   [
+    "It should be ...",
+    "المفروض يكون ..."
+   ],
+   [
+    "will lead to the rejection of our bid",
+    "هيؤدي لاستبعاد عرضنا"
+   ]
+  ],
+  "glossary": [
+   [
+    "bid bond / bid security",
+    "خطاب الضمان الابتدائي / التأمين الابتدائي"
+   ],
+   [
+    "letter of guarantee (LG)",
+    "خطاب ضمان"
+   ],
+   [
+    "beneficiary",
+    "المستفيد"
+   ],
+   [
+    "cash margin",
+    "الغطاء النقدي"
+   ],
+   [
+    "expiry date / validity",
+    "تاريخ الانتهاء / مدة السريان"
+   ],
+   [
+    "authorisation letter",
+    "خطاب تفويض"
+   ]
+  ]
+ },
+ {
+  "id": "s5e4",
+  "season": "s5",
+  "title": "Submitting the sealed envelopes",
+  "ar": "تقديم المظروف الفني والمالي",
+  "field": "Tenders · Submission",
+  "icon": "📨",
+  "scene": "The deadline is Thursday, 29 October at 12:00. The technical and financial proposals must be in separate sealed envelopes. You confirm the rules with the committee, send a checklist to your team, deliver the bid and ask for a confirmation of receipt.",
+  "sceneAr": "آخر ميعاد الخميس 29 أكتوبر الساعة 12. العرض الفني والمالي لازم يكونوا في مظروفين منفصلين ومتشمعين. هتتأكد من الشروط مع اللجنة، وتبعت ‎checklist‎ للفريق، وتسلّم العرض وتطلب إيصال استلام.",
+  "thread": [
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Submission Requirements – Tender HH/T/2026/014",
+    "date": "Mon, 26 Oct · 10:30",
+    "task": "قبل التقديم، اسأل اللجنة: خطاب الضمان الأصلي يتحط في المظروف الفني ولا في مظروف لوحده؟ وهل مطلوب نسخة على فلاشة ‎USB‎؟",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening sentence.",
+      "opts": [
+       "We are finalising our bid for Tender No. HH/T/2026/014 and would like to confirm two points before submission:",
+       "We have two stupid questions before we submit.",
+       "Answer these questions quickly because the deadline is close."
+      ],
+      "a": 0,
+      "why": "الأول مهني وبيحدد الموضوع؛ التاني بيقلل من نفسك والتالت فيه أمر."
+     },
+     {
+      "type": "gap",
+      "sentence": "Should the original bid bond be ___ in the technical envelope or submitted in a separate envelope?",
+      "opts": [
+       "put",
+       "placed",
+       "thrown"
+      ],
+      "a": 1,
+      "why": "‎placed in the envelope‎ أرسمي من ‎put‎."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "We are finalising our bid for Tender No. HH/T/2026/014 and would like to confirm two points before submission:",
+       "1. Should the original bid bond be placed in the technical envelope or submitted in a separate envelope?",
+       "2. The RFP asks for one original and two copies."
+      ],
+      "why": "المقدمة بعدين السؤالين بالترتيب."
+     }
+    ],
+    "body": [
+     "Dear Ms. Rania,",
+     "We are finalising our bid for Tender No. HH/T/2026/014 and would like to confirm two points before submission:",
+     "1. Should the original bid bond be placed in the technical envelope or submitted in a separate envelope?",
+     "2. The RFP asks for one original and two copies. Is a soft copy on a USB flash drive also required?",
+     "Thank you in advance for your support.",
+     "Best regards,\n<Your name>\nTender Engineer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Rania Mostafa — Horizon Hospital (Tender Committee)",
+    "subject": "RE: Submission Requirements – Tender HH/T/2026/014",
+    "date": "Mon, 26 Oct · 14:00",
+    "body": [
+     "Dear Eng. <Your name>,",
+     "1. The original bid bond must be placed in the technical envelope. A bid without a bid bond will not be opened.",
+     "2. Yes, please include a USB flash drive in each envelope. The financial proposal must not appear in the technical envelope in any form.",
+     "Both envelopes must be sealed, stamped and marked with the tender number, the lot number and the bidder's name. Late bids will not be accepted.",
+     "Best regards,\nRania Mostafa\nTender Committee Secretary | Horizon Hospital"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Final Checklist – Horizon Hospital Tender Submission",
+    "date": "Tue, 27 Oct · 09:15",
+    "task": "ابعت لم. محمود ‎checklist‎ نهائية للمظروفين، ونبّه إن الأسعار ماتظهرش خالص في المظروف الفني ولا حتى في ملفات الفلاشة.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best line to introduce the checklist.",
+      "opts": [
+       "Here are some things, check them if you have time.",
+       "Do everything below and don't make mistakes.",
+       "Please use the checklist below before we seal the envelopes on Wednesday:"
+      ],
+      "a": 2,
+      "why": "الصح واضح ومحدد بميعاد؛ الأول مش جاد والتاني فيه ضغط وقلة ذوق."
+     },
+     {
+      "type": "gap",
+      "sentence": "Important: no prices should ___ anywhere in the technical envelope, not even in the USB files.",
+      "opts": [
+       "appear",
+       "come",
+       "sit"
+      ],
+      "a": 0,
+      "why": "‎appear‎ = تظهر؛ ده الفعل اللي اللجنة نفسها استخدمته."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Technical envelope: the original bid bonds, the signed compliance sheet, the datasheets, the manufacturer's authorisation letter, the signed Addendum No. 1 and a USB drive.",
+       "Financial envelope: the priced BOQ, the price schedule and a USB drive.",
+       "Important: no prices should appear anywhere in the technical envelope, not even in the USB files."
+      ],
+      "why": "الفني الأول، بعدين المالي، وبعدين التحذير المهم."
+     }
+    ],
+    "body": [
+     "Dear Mahmoud,",
+     "Please use the checklist below before we seal the envelopes on Wednesday:",
+     "Technical envelope: the original bid bonds, the signed compliance sheet, the datasheets, the manufacturer's authorisation letter, the signed Addendum No. 1 and a USB drive.",
+     "Financial envelope: the priced BOQ, the price schedule and a USB drive.",
+     "Important: no prices should appear anywhere in the technical envelope, not even in the USB files. Please check every file twice.",
+     "Thanks,\n<Your name>"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Bid Submission – Tender HH/T/2026/014 – Nile Power Solutions",
+    "date": "Thu, 29 Oct · 11:20",
+    "task": "بعد ما سلّمت المظاريف باليد، ابعت إيميل يوثّق التسليم (الساعة ومحتوى العرض) واطلب تأكيد استلام مكتوب برقم تسجيل.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best first sentence.",
+      "opts": [
+       "We gave you our envelopes today, did you take them?",
+       "We are pleased to confirm that our bid for Tender No. HH/T/2026/014 (Lots 1 and 2) was delivered by hand to the Procurement Office today at 11:05.",
+       "Our bid reached you before the deadline, so it must be accepted."
+      ],
+      "a": 1,
+      "why": "الصح بيوثّق الوقت والمكان؛ الأول كاجوال والتالت فيه ضغط مش لازمه."
+     },
+     {
+      "type": "gap",
+      "sentence": "We would appreciate it if you could send us a written confirmation of ___ with the registration number.",
+      "opts": [
+       "receiving",
+       "receipt",
+       "reception"
+      ],
+      "a": 1,
+      "why": "‎confirmation of receipt‎ = تأكيد استلام."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "We are pleased to confirm that our bid for Tender No. HH/T/2026/014 (Lots 1 and 2) was delivered by hand to the Procurement Office today at 11:05.",
+       "The bid consists of one sealed technical envelope and one sealed financial envelope for each lot.",
+       "We would appreciate it if you could send us a written confirmation of receipt with the registration number."
+      ],
+      "why": "حصل إيه، العرض فيه إيه، وبعدين الطلب."
+     }
+    ],
+    "body": [
+     "Dear Ms. Rania,",
+     "We are pleased to confirm that our bid for Tender No. HH/T/2026/014 (Lots 1 and 2) was delivered by hand to the Procurement Office today at 11:05.",
+     "The bid consists of one sealed technical envelope and one sealed financial envelope for each lot.",
+     "We would appreciate it if you could send us a written confirmation of receipt with the registration number.",
+     "Best regards,\n<Your name>\nTender Engineer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Rania Mostafa — Horizon Hospital (Tender Committee)",
+    "subject": "RE: Bid Submission – Tender HH/T/2026/014 – Nile Power Solutions",
+    "date": "Thu, 29 Oct · 13:40",
+    "body": [
+     "Dear Eng. <Your name>,",
+     "We confirm receipt of your bid at 11:05 today. It has been registered as No. 07/2026/014.",
+     "The technical envelopes were opened in public at 12:30, and your bid bonds were found in order. The financial envelopes will remain sealed until the technical evaluation is complete.",
+     "The date of the financial bid opening will be announced later.",
+     "Best regards,\nRania Mostafa\nTender Committee Secretary | Horizon Hospital"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "would like to confirm two points before submission",
+    "حابين نتأكد من نقطتين قبل التقديم"
+   ],
+   [
+    "Thank you in advance for your support.",
+    "شكرًا مقدمًا على تعاونكم."
+   ],
+   [
+    "Please use the checklist below",
+    "استخدم القائمة اللي تحت"
+   ],
+   [
+    "not even in the USB files",
+    "ولا حتى في ملفات الفلاشة"
+   ],
+   [
+    "was delivered by hand to the Procurement Office",
+    "اتسلّم باليد لإدارة المشتريات"
+   ],
+   [
+    "The bid consists of ...",
+    "العرض بيتكون من ..."
+   ],
+   [
+    "a written confirmation of receipt",
+    "تأكيد استلام مكتوب"
+   ]
+  ],
+  "glossary": [
+   [
+    "technical proposal / envelope",
+    "العرض / المظروف الفني"
+   ],
+   [
+    "financial proposal / envelope",
+    "العرض / المظروف المالي"
+   ],
+   [
+    "sealed and stamped",
+    "مقفول ومختوم"
+   ],
+   [
+    "bid opening",
+    "فتح المظاريف"
+   ],
+   [
+    "late bid",
+    "عرض متأخر (بيترفض)"
+   ],
+   [
+    "priced BOQ",
+    "جدول الكميات مسعّر"
+   ]
+  ]
+ },
+ {
+  "id": "s5e5",
+  "season": "s5",
+  "title": "Postponement & extension request",
+  "ar": "تأجيل الفتح وطلب مهلة إضافية",
+  "field": "Tenders · Extension",
+  "icon": "⏳",
+  "scene": "The hospital postpones the financial bid opening and asks all bidders to extend their bid validity and bid bonds by 60 days. Your bank needs more time than the committee gave you, so you must request an extension of the deadline.",
+  "sceneAr": "المستشفى أجّل فتح المظاريف المالية وطلب من كل المتقدمين يمدوا صلاحية العروض وخطابات الضمان 60 يوم. البنك محتاج وقت أكتر من المهلة اللي اللجنة ادتها، فلازم تطلب مد الميعاد.",
+  "thread": [
+   {
+    "dir": "in",
+    "from": "Ms. Rania Mostafa — Horizon Hospital (Tender Committee)",
+    "subject": "Addendum No. 2 – Postponement of Financial Bid Opening – Tender HH/T/2026/014",
+    "date": "Thu, 5 Nov · 10:00",
+    "body": [
+     "Dear Bidders,",
+     "Please be informed that the financial bid opening has been postponed from 12 November to 10 December 2026, as the technical evaluation needs more time.",
+     "All bidders are therefore requested to extend the validity of their bids by 60 days and to extend their bid bonds until 27 April 2027.",
+     "Please send your written confirmation and the bank amendments by Tuesday, 10 November. Bidders who do not extend their bid bonds will be excluded.",
+     "Best regards,\nRania Mostafa\nTender Committee Secretary | Horizon Hospital"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Addendum No. 2 – Postponement of Financial Bid Opening – Tender HH/T/2026/014",
+    "date": "Thu, 5 Nov · 12:30",
+    "task": "أكد إنكم موافقين تمدوا صلاحية العرض بنفس الأسعار، بس اطلب مهلة لحد 17 نوفمبر لتعديل خطابات الضمان عشان البنك محتاج 5 أيام عمل وموافقة لجنة الائتمان.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "How do you confirm the bid validity extension?",
+      "opts": [
+       "OK, no problem, extend it.",
+       "We confirm that Nile Power Solutions agrees to extend the validity of its bid by 60 days, under the same terms and prices.",
+       "We accept, but we may change our prices later."
+      ],
+      "a": 1,
+      "why": "الصح بيأكد المدة وإن الشروط والأسعار زي ما هي؛ التالت مرفوض في المناقصات."
+     },
+     {
+      "type": "gap",
+      "sentence": "We would therefore like to request an ___ of the deadline for the bond amendments until Tuesday, 17 November 2026.",
+      "opts": [
+       "extension",
+       "extending time",
+       "delay"
+      ],
+      "a": 0,
+      "why": "‎request an extension of the deadline‎ = طلب مد الميعاد."
+     },
+     {
+      "type": "gap",
+      "sentence": "However, our bank requires five working days and the ___ of its credit committee to issue the amendments.",
+      "opts": [
+       "okay",
+       "approval",
+       "agreeing"
+      ],
+      "a": 1,
+      "why": "‎approval of the credit committee‎ = موافقة لجنة الائتمان."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "We confirm that Nile Power Solutions agrees to extend the validity of its bid by 60 days, under the same terms and prices.",
+       "However, our bank requires five working days and the approval of its credit committee to issue the amendments.",
+       "We would therefore like to request an extension of the deadline for the bond amendments until Tuesday, 17 November 2026."
+      ],
+      "why": "الموافقة، بعدين المشكلة (‎However‎)، وبعدين الطلب (‎therefore‎)."
+     }
+    ],
+    "body": [
+     "Dear Ms. Rania,",
+     "Thank you for Addendum No. 2. We confirm that Nile Power Solutions agrees to extend the validity of its bid by 60 days, under the same terms and prices.",
+     "However, our bank requires five working days and the approval of its credit committee to issue the amendments.",
+     "We would therefore like to request an extension of the deadline for the bond amendments until Tuesday, 17 November 2026. The bank's letter confirming this is attached.",
+     "Best regards,\n<Your name>\nTender Engineer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Rania Mostafa — Horizon Hospital (Tender Committee)",
+    "subject": "RE: Addendum No. 2 – Postponement of Financial Bid Opening – Tender HH/T/2026/014",
+    "date": "Sun, 8 Nov · 11:15",
+    "body": [
+     "Dear Eng. <Your name>,",
+     "The committee has approved your request. Addendum No. 3, issued today to all bidders, extends the deadline for the bond amendments to Tuesday, 17 November 2026.",
+     "The financial bid opening remains on Thursday, 10 December 2026 at 11:00.",
+     "Please find the addendum attached, and kindly return a signed and stamped copy with your bank amendments.",
+     "Best regards,\nRania Mostafa\nTender Committee Secretary | Horizon Hospital"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Amendment Request – LG-2026-7731 and LG-2026-7732",
+    "date": "Sun, 8 Nov · 12:40",
+    "task": "اطلب من البنك تعديل صلاحية خطابي الضمان من 26 فبراير لـ27 أبريل 2027 من غير تغيير المبلغ، وقبل 15 نوفمبر عشان تلحق ميعاد المستشفى.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best first sentence.",
+      "opts": [
+       "Horizon Hospital has postponed the financial bid opening and asked all bidders to extend their bid bonds.",
+       "The hospital changed its mind again, so we need more work from you.",
+       "Please make the letters longer."
+      ],
+      "a": 0,
+      "why": "الأول بيشرح السبب بوضوح؛ التاني فيه شكوى والتالت معناه غلط."
+     },
+     {
+      "type": "gap",
+      "sentence": "Please ___ Letters of Guarantee LG-2026-7731 and LG-2026-7732 to extend their validity from 26 February 2027 to 27 April 2027.",
+      "opts": [
+       "change",
+       "amend",
+       "renew"
+      ],
+      "a": 1,
+      "why": "‎amend‎ = تعديل رسمي على خطاب الضمان (‎amendment‎)."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Please amend Letters of Guarantee LG-2026-7731 and LG-2026-7732 to extend their validity from 26 February 2027 to 27 April 2027.",
+       "The amounts and all other terms remain unchanged.",
+       "The hospital's deadline is 17 November 2026, so we would appreciate receiving the amendments by 15 November at the latest."
+      ],
+      "why": "المطلوب، بعدين اللي مش هيتغير، وبعدين الميعاد."
+     }
+    ],
+    "body": [
+     "Dear Mr. Amr,",
+     "Horizon Hospital has postponed the financial bid opening and asked all bidders to extend their bid bonds.",
+     "Please amend Letters of Guarantee LG-2026-7731 and LG-2026-7732 to extend their validity from 26 February 2027 to 27 April 2027. The amounts and all other terms remain unchanged.",
+     "The hospital's deadline is 17 November 2026, so we would appreciate receiving the amendments by 15 November at the latest.",
+     "Best regards,\n<Your name>\nTender Engineer | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "Please be informed that ... has been postponed",
+    "برجاء العلم إن ... اتأجل"
+   ],
+   [
+    "agrees to extend the validity of its bid by 60 days",
+    "موافقة تمد صلاحية عرضها 60 يوم"
+   ],
+   [
+    "under the same terms and prices",
+    "بنفس الشروط والأسعار"
+   ],
+   [
+    "We would therefore like to request an extension of the deadline",
+    "وعشان كده حابين نطلب مد الميعاد"
+   ],
+   [
+    "The committee has approved your request.",
+    "اللجنة وافقت على طلبكم."
+   ],
+   [
+    "All other terms remain unchanged.",
+    "كل الشروط التانية زي ما هي."
+   ],
+   [
+    "by 15 November at the latest",
+    "بحد أقصى 15 نوفمبر"
+   ]
+  ],
+  "glossary": [
+   [
+    "postponement",
+    "تأجيل"
+   ],
+   [
+    "bid validity",
+    "مدة سريان العرض"
+   ],
+   [
+    "extension",
+    "مد / مهلة إضافية"
+   ],
+   [
+    "amendment (to an LG)",
+    "تعديل على خطاب الضمان"
+   ],
+   [
+    "credit committee",
+    "لجنة الائتمان في البنك"
+   ],
+   [
+    "signed and stamped copy",
+    "نسخة ممضية ومختومة"
+   ]
+  ]
+ },
+ {
+  "id": "s5e6",
+  "season": "s5",
+  "title": "Clarifications during evaluation",
+  "ar": "استيضاحات لجنة الفحص الفني",
+  "field": "Tenders · Evaluation",
+  "icon": "🔍",
+  "scene": "The technical evaluation committee finds problems in your compliance sheet and an expired authorisation letter. You must answer clearly and on time, without changing your price or the substance of your offer, even though your sales manager wants to add a discount.",
+  "sceneAr": "لجنة الفحص الفني لقت مشاكل في جدول المطابقة وخطاب تفويض المصنع منتهي. لازم ترد بوضوح وفي الميعاد، من غير ما تغيّر السعر أو جوهر العرض، حتى لو مدير المبيعات عايز يضيف خصم.",
+  "thread": [
+   {
+    "dir": "in",
+    "from": "Ms. Rania Mostafa — Horizon Hospital (Tender Committee)",
+    "subject": "Request for Clarification No. 1 – Tender HH/T/2026/014 – Lot 1",
+    "date": "Thu, 19 Nov · 09:30",
+    "body": [
+     "Dear Eng. <Your name>,",
+     "During the technical evaluation of your bid for Lot 1, the committee noted the following:",
+     "1. In the compliance sheet, Item 4.7 (efficiency of at least 96% in double-conversion mode) is marked \"Comply\", but the attached datasheet shows 95.5%.",
+     "2. The manufacturer's authorisation letter expired on 30 September 2026.",
+     "Please reply by 24 November. Clarifications must not change the offered prices or the substance of your technical proposal.",
+     "Best regards,\nRania Mostafa\nTender Committee Secretary | Horizon Hospital"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Request for Clarification No. 1 – Tender HH/T/2026/014 – Lot 1",
+    "date": "Sun, 22 Nov · 14:00",
+    "task": "رد على النقطتين: الداتاشيت اللي في المظروف كان لموديل قديم بالغلط، ابعت الداتاشيت الصح لنفس الموديل المعروض؛ وابعت خطاب تفويض المصنع المجدد. من غير أي تغيير في السعر.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening line.",
+      "opts": [
+       "Sorry, we made a big mess in our bid.",
+       "Your committee did not read our bid carefully.",
+       "Thank you for giving us the opportunity to clarify our bid."
+      ],
+      "a": 2,
+      "why": "الصح مهني وإيجابي؛ الأول بيضعف موقفك، والتاني بيهاجم اللجنة."
+     },
+     {
+      "type": "gap",
+      "sentence": "The datasheet in our technical envelope was for the previous model by ___.",
+      "opts": [
+       "mistake",
+       "wrong",
+       "error way"
+      ],
+      "a": 0,
+      "why": "‎by mistake‎ = بالغلط."
+     },
+     {
+      "type": "gap",
+      "sentence": "Please find attached the ___ manufacturer's authorisation letter, valid until 31 December 2027.",
+      "opts": [
+       "renewed",
+       "new-made",
+       "refreshed"
+      ],
+      "a": 0,
+      "why": "‎renewed letter‎ = خطاب مجدد."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "The datasheet in our technical envelope was for the previous model by mistake.",
+       "The offered model, VT-MOD 400, achieves 96.2% efficiency in double-conversion mode.",
+       "The correct datasheet is attached; the model and price remain as offered."
+      ],
+      "why": "اعترف بالغلط، وضّح الحقيقة، وأكد إن مفيش تغيير."
+     }
+    ],
+    "body": [
+     "Dear Ms. Rania,",
+     "Thank you for giving us the opportunity to clarify our bid.",
+     "1. The datasheet in our technical envelope was for the previous model by mistake. The offered model, VT-MOD 400, achieves 96.2% efficiency in double-conversion mode. The correct datasheet is attached; the model and price remain as offered.",
+     "2. Please find attached the renewed manufacturer's authorisation letter, valid until 31 December 2027.",
+     "We therefore confirm full compliance with Item 4.7.",
+     "Best regards,\n<Your name>\nTender Engineer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Rania Mostafa — Horizon Hospital (Tender Committee)",
+    "subject": "RE: Request for Clarification No. 1 – Tender HH/T/2026/014 – Lot 1",
+    "date": "Wed, 25 Nov · 10:45",
+    "body": [
+     "Dear Eng. <Your name>,",
+     "Thank you. The committee accepts your clarification on both points.",
+     "We have one more question: please confirm that your delivery period of 14 weeks includes installation, testing and commissioning, and that the 3-year maintenance period starts from the date of the handover certificate.",
+     "Please reply by 29 November. As before, no price changes will be accepted.",
+     "Best regards,\nRania Mostafa\nTender Committee Secretary | Horizon Hospital"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Request for Clarification No. 1 – Tender HH/T/2026/014 – Lot 1",
+    "date": "Thu, 26 Nov · 11:30",
+    "task": "أكد إن الـ14 أسبوع شاملة التوريد والتركيب والاختبار والتشغيل، وإن الصيانة بتبدأ من شهادة التسليم. متضيفش أي خصم رغم إن مدير المبيعات عايز كده.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Your sales manager wants to add a 3% discount. What do you write?",
+      "opts": [
+       "We are also happy to offer an extra 3% discount.",
+       "This clarification does not change our offered prices or any other part of our proposal.",
+       "Maybe we can talk about the price later."
+      ],
+      "a": 1,
+      "why": "بعد فتح المظاريف ممنوع تغيّر السعر؛ أي خصم ممكن يستبعد عرضك."
+     },
+     {
+      "type": "gap",
+      "sentence": "We confirm that the 14-week period includes delivery, installation, testing and ___.",
+      "opts": [
+       "commissioning",
+       "starting",
+       "running"
+      ],
+      "a": 0,
+      "why": "‎testing and commissioning‎ = الاختبار والتشغيل الابتدائي."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "We confirm that the 14-week period includes delivery, installation, testing and commissioning.",
+       "We also confirm that the 3-year maintenance period starts from the date of the handover certificate.",
+       "This clarification does not change our offered prices or any other part of our proposal."
+      ],
+      "why": "رد على السؤال الأول، التاني، وبعدين الجملة اللي بتحميك."
+     }
+    ],
+    "body": [
+     "Dear Ms. Rania,",
+     "We confirm that the 14-week period includes delivery, installation, testing and commissioning. It consists of 11 weeks for delivery to site and 3 weeks for installation and commissioning.",
+     "We also confirm that the 3-year maintenance period starts from the date of the handover certificate.",
+     "This clarification does not change our offered prices or any other part of our proposal.",
+     "Best regards,\n<Your name>\nTender Engineer | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "Thank you for giving us the opportunity to clarify our bid.",
+    "شكرًا على إتاحة الفرصة لتوضيح عرضنا."
+   ],
+   [
+    "was ... by mistake",
+    "كان ... بالغلط"
+   ],
+   [
+    "the model and price remain as offered",
+    "الموديل والسعر زي ما اتقدموا"
+   ],
+   [
+    "We therefore confirm full compliance with Item 4.7.",
+    "وبالتالي بنأكد المطابقة الكاملة للبند 4.7."
+   ],
+   [
+    "The committee accepts your clarification",
+    "اللجنة قبلت توضيحكم"
+   ],
+   [
+    "We confirm that the 14-week period includes ...",
+    "بنأكد إن مدة الـ14 أسبوع شاملة ..."
+   ],
+   [
+    "does not change our offered prices",
+    "مش بيغيّر أسعارنا المقدمة"
+   ]
+  ],
+  "glossary": [
+   [
+    "technical evaluation committee",
+    "لجنة الفحص / البت الفني"
+   ],
+   [
+    "comply / compliance",
+    "مطابق / المطابقة"
+   ],
+   [
+    "manufacturer's authorisation letter (MAF)",
+    "خطاب تفويض من المصنع"
+   ],
+   [
+    "substance of the proposal",
+    "جوهر العرض"
+   ],
+   [
+    "testing and commissioning",
+    "الاختبار والتشغيل"
+   ],
+   [
+    "handover certificate",
+    "شهادة / محضر التسليم"
+   ]
+  ]
+ },
+ {
+  "id": "s5e7",
+  "season": "s5",
+  "title": "Award, performance bond & bid bond release",
+  "ar": "الترسية وخطاب الضمان النهائي",
+  "field": "Tenders · Award",
+  "icon": "🏆",
+  "scene": "Good news and bad news: NPS won Lot 1 but lost Lot 2. You must accept the award, provide a 5% performance bond within 10 days, get your bid bonds released, and reply politely about Lot 2.",
+  "sceneAr": "خبر حلو وخبر وحش: الشركة كسبت ‎Lot 1‎ وخسرت ‎Lot 2‎. لازم تقبل الترسية، وتقدم خطاب ضمان نهائي 5% خلال 10 أيام، وتسترد خطابات الضمان الابتدائي، وترد بذوق على خسارة ‎Lot 2‎.",
+  "thread": [
+   {
+    "dir": "in",
+    "from": "Ms. Rania Mostafa — Horizon Hospital (Tender Committee)",
+    "subject": "Letter of Award – Tender HH/T/2026/014 – Lot 1",
+    "date": "Sun, 20 Dec · 11:00",
+    "body": [
+     "Dear Eng. <Your name>,",
+     "We are pleased to inform you that Horizon Hospital has awarded Lot 1 to Nile Power Solutions for a total contract value of EGP 17,860,000, including 14% VAT. The Letter of Award is attached.",
+     "Please submit a performance bond of 5% of the contract value within 10 days. It must remain valid until 90 days after the end of the warranty period.",
+     "We regret to inform you that Lot 2 has been awarded to another bidder.",
+     "Best regards,\nRania Mostafa\nTender Committee Secretary | Horizon Hospital"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Letter of Award – Tender HH/T/2026/014 – Lot 1",
+    "date": "Sun, 20 Dec · 14:30",
+    "task": "اشكرهم واقبل الترسية وابعت خطاب الترسية ممضي، وأكد إنكم هتقدموا ضمان حسن التنفيذ في الميعاد، واسأل إمتى هيفرجوا عن الضمان الابتدائي.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best way to accept the award.",
+      "opts": [
+       "Thank you for your letter. Nile Power Solutions is pleased to accept the award of Lot 1, and we attach the signed Letter of Award.",
+       "Finally we won! We accept of course.",
+       "We accept Lot 1, but why didn't we get Lot 2?"
+      ],
+      "a": 0,
+      "why": "الأول رسمي وفيه المرفق؛ التاني كاجوال والتالت مش وقت الاعتراض."
+     },
+     {
+      "type": "gap",
+      "sentence": "We will submit the performance ___ of EGP 893,000 (5% of the contract value) by 30 December 2026.",
+      "opts": [
+       "guarantee money",
+       "bond",
+       "insurance"
+      ],
+      "a": 1,
+      "why": "‎performance bond‎ = خطاب الضمان النهائي."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Nile Power Solutions is pleased to accept the award of Lot 1, and we attach the signed Letter of Award.",
+       "We will submit the performance bond of EGP 893,000 (5% of the contract value) by 30 December 2026.",
+       "Could you please confirm that our bid bond LG-2026-7731 will be released once the performance bond is received?"
+      ],
+      "why": "القبول، الالتزام بالضمان النهائي، وبعدين السؤال عن الإفراج."
+     }
+    ],
+    "body": [
+     "Dear Ms. Rania,",
+     "Thank you for your letter. Nile Power Solutions is pleased to accept the award of Lot 1, and we attach the signed Letter of Award.",
+     "We will submit the performance bond of EGP 893,000 (5% of the contract value) by 30 December 2026.",
+     "Could you please confirm that our bid bond LG-2026-7731 will be released once the performance bond is received?",
+     "Best regards,\n<Your name>\nTender Engineer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Request to Issue Performance Bond – Horizon Hospital, Lot 1",
+    "date": "Mon, 21 Dec · 10:00",
+    "task": "اطلب من البنك خطاب ضمان نهائي 893,000 جنيه لصالح المستشفى، صالح لحد 31 يوليو 2030، بالصيغة المرفقة، والأصل قبل 28 ديسمبر.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best request sentence.",
+      "opts": [
+       "Please issue a performance bond (final guarantee) in favour of Horizon Hospital for EGP 893,000, which is 5% of the contract value of EGP 17,860,000.",
+       "We need another guarantee, the same as last time but bigger.",
+       "Give the hospital a final letter for 5%."
+      ],
+      "a": 0,
+      "why": "لازم النوع والمستفيد والمبلغ بالظبط؛ الباقي غامض."
+     },
+     {
+      "type": "gap",
+      "sentence": "The bond must be valid until 31 July 2030, which is 90 days after the end of the 3-year ___.",
+      "opts": [
+       "guarantee time",
+       "warranty",
+       "insurance"
+      ],
+      "a": 1,
+      "why": "‎warranty‎ = فترة الضمان على الأجهزة؛ مختلفة عن ‎guarantee‎ البنكي."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Good news: we have been awarded Lot 1 of the Horizon Hospital tender.",
+       "Please issue a performance bond (final guarantee) in favour of Horizon Hospital for EGP 893,000, which is 5% of the contract value of EGP 17,860,000.",
+       "We need the original by 28 December 2026."
+      ],
+      "why": "الخبر، الطلب بالتفاصيل، وبعدين الميعاد."
+     }
+    ],
+    "body": [
+     "Dear Mr. Amr,",
+     "Good news: we have been awarded Lot 1 of the Horizon Hospital tender.",
+     "Please issue a performance bond (final guarantee) in favour of Horizon Hospital for EGP 893,000, which is 5% of the contract value of EGP 17,860,000.",
+     "The bond must be valid until 31 July 2030, which is 90 days after the end of the 3-year warranty. Please use the hospital's wording attached.",
+     "We need the original by 28 December 2026.",
+     "Best regards,\n<Your name>\nTender Engineer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Rania Mostafa — Horizon Hospital (Tender Committee)",
+    "subject": "Performance Bond Received & Release of Bid Bonds",
+    "date": "Tue, 29 Dec · 12:30",
+    "body": [
+     "Dear Eng. <Your name>,",
+     "We confirm receipt of your performance bond No. LG-2026-9105 for EGP 893,000. Accordingly, your bid bond LG-2026-7731 (Lot 1) has been released, and your bid bond LG-2026-7732 (Lot 2) is also released.",
+     "Both originals can be collected from the Finance Department from Sunday, 3 January 2027.",
+     "Regarding Lot 2, both bids were technically compliant, but the winning price was 12% lower than yours.",
+     "Best regards,\nRania Mostafa\nTender Committee Secretary | Horizon Hospital"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Performance Bond Received & Release of Bid Bonds",
+    "date": "Tue, 29 Dec · 15:00",
+    "task": "اشكرهم، وأكد إن المندوب هيستلم خطابات الضمان يوم 3 يناير، ورد بذوق على خسارة ‎Lot 2‎ واطلب إنكم تتدعوا في المناقصات الجاية.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "How do you reply about losing Lot 2?",
+      "opts": [
+       "We think the other bidder's price is not realistic.",
+       "Although we are disappointed with the result, we respect the committee's decision and congratulate the winning bidder.",
+       "Never mind, we don't care about Lot 2."
+      ],
+      "a": 1,
+      "why": "الرد المحترم بيحافظ على العلاقة للمناقصات الجاية."
+     },
+     {
+      "type": "gap",
+      "sentence": "Our representative will ___ the two original bid bonds on Sunday, 3 January.",
+      "opts": [
+       "take",
+       "collect",
+       "bring"
+      ],
+      "a": 1,
+      "why": "‎collect‎ = يستلم ويجيب من مكان."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "We also appreciate your feedback on Lot 2.",
+       "Although we are disappointed with the result, we respect the committee's decision and congratulate the winning bidder.",
+       "We would be pleased to be invited to future tenders at Horizon Hospital."
+      ],
+      "why": "شكر على الملاحظة، رد محترم، وبعدين نظرة للمستقبل."
+     }
+    ],
+    "body": [
+     "Dear Ms. Rania,",
+     "Thank you for the confirmation. Our representative will collect the two original bid bonds on Sunday, 3 January.",
+     "We also appreciate your feedback on Lot 2. Although we are disappointed with the result, we respect the committee's decision and congratulate the winning bidder.",
+     "We would be pleased to be invited to future tenders at Horizon Hospital. We look forward to a successful project on Lot 1.",
+     "Best regards,\n<Your name>\nTender Engineer | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "We are pleased to inform you that ... has awarded",
+    "يسعدنا نبلغكم إن ... رسّت عليكم"
+   ],
+   [
+    "is pleased to accept the award of Lot 1",
+    "يسعدها تقبل ترسية ‎Lot 1‎"
+   ],
+   [
+    "will be released once the performance bond is received",
+    "هيتفرج عنه أول ما الضمان النهائي يوصل"
+   ],
+   [
+    "We regret to inform you that ...",
+    "نأسف نبلغكم إن ..."
+   ],
+   [
+    "Although we are disappointed with the result",
+    "رغم إننا زعلانين من النتيجة"
+   ],
+   [
+    "we respect the committee's decision",
+    "بنحترم قرار اللجنة"
+   ],
+   [
+    "We would be pleased to be invited to future tenders",
+    "يسعدنا نتدعى في المناقصات الجاية"
+   ]
+  ],
+  "glossary": [
+   [
+    "letter of award (LOA)",
+    "خطاب الترسية"
+   ],
+   [
+    "performance bond / final guarantee",
+    "خطاب ضمان حسن التنفيذ / الضمان النهائي"
+   ],
+   [
+    "release of the bid bond",
+    "الإفراج عن الضمان الابتدائي"
+   ],
+   [
+    "contract value",
+    "قيمة العقد"
+   ],
+   [
+    "warranty period",
+    "فترة الضمان على الأجهزة"
+   ],
+   [
+    "winning bidder",
+    "المتقدم الفائز"
+   ]
+  ]
+ }
+]

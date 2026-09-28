@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "stakeholders",
+   "pos": "noun",
+   "ar": "الأطراف المعنية / كل اللي ليهم علاقة بالمشروع",
+   "def": "people or groups who are affected by or interested in a project or decision.",
+   "book": "I also make sure to communicate with my team and stakeholders so everyone is aware of the priorities and we're all working toward the same goals.",
+   "uses": [
+    [
+     "Email",
+     "I'll share the revised solar project timeline with all stakeholders by Thursday."
+    ],
+    [
+     "Chat",
+     "did we loop in all the stakeholders? finance too?"
+    ],
+    [
+     "Meeting",
+     "Key stakeholders include the client's IT manager, facilities and procurement."
+    ]
+   ],
+   "goes": [
+    "key stakeholders",
+    "keep stakeholders informed",
+    "stakeholder management"
+   ],
+   "dont": [
+    "All the people that have relation with the project."
+   ],
+   "doo": [
+    "All the project stakeholders."
+   ],
+   "level": 3
+  },
+  {
+   "w": "time-sensitive",
+   "pos": "adjective",
+   "ar": "مستعجل / مرتبط بميعاد",
+   "def": "needing to be done quickly because a deadline or time limit matters.",
+   "book": "I prioritize competing tasks by first identifying the most critical and time-sensitive ones.",
+   "uses": [
+    [
+     "Email",
+     "Please note this offer is time-sensitive and valid until 30 September."
+    ],
+    [
+     "Chat",
+     "time-sensitive: client needs the PO signed today ⚠️"
+    ],
+    [
+     "Meeting",
+     "Let's start with the time-sensitive items, like the data centre shutdown window."
+    ]
+   ],
+   "goes": [
+    "time-sensitive issue",
+    "time-sensitive offer",
+    "time-sensitive request"
+   ],
+   "dont": [
+    "This thing is urgent in the time."
+   ],
+   "doo": [
+    "This is time-sensitive."
+   ],
+   "level": 2
+  },
+  {
+   "w": "allocate",
+   "pos": "verb",
+   "ar": "يخصص / يوزّع (وقت، فلوس، موارد)",
+   "def": "to decide to use time, money or people for a particular purpose.",
+   "book": "I prioritize competing tasks by using the 80/20 rule: I focus on the 20% of tasks that will have the greatest impact, and then allocate the rest of my time to the less important tasks.",
+   "uses": [
+    [
+     "Email",
+     "We've allocated two engineers to the UPS installation next week."
+    ],
+    [
+     "Chat",
+     "how much budget did they allocate for spare parts?"
+    ],
+    [
+     "Meeting",
+     "We need to allocate more resources to preventive maintenance."
+    ]
+   ],
+   "goes": [
+    "allocate resources",
+    "allocate a budget",
+    "allocate time to"
+   ],
+   "dont": [
+    "We put two engineers for this project."
+   ],
+   "doo": [
+    "We allocated two engineers to this project."
+   ],
+   "level": 3
+  },
+  {
+   "w": "optimize",
+   "pos": "verb",
+   "ar": "يحسّن لأقصى درجة / يظبط عشان يطلع أحسن نتيجة",
+   "def": "to make something work as well or efficiently as possible.",
+   "book": "I worked with management to acquire the necessary tools and resources, and also developed a new workflow process to optimize the team's performance.",
+   "uses": [
+    [
+     "Email",
+     "We can optimize your energy costs by adding a solar system to the site."
+    ],
+    [
+     "Chat",
+     "trying to optimize the technicians' routes, too much driving 🚗"
+    ],
+    [
+     "Meeting",
+     "The new ticketing system will optimize how we handle service requests."
+    ]
+   ],
+   "goes": [
+    "optimize performance",
+    "optimize costs",
+    "optimize a process"
+   ],
+   "dont": [
+    "We want to make the performance better to the maximum."
+   ],
+   "doo": [
+    "We want to optimize performance."
+   ],
+   "level": 2
+  },
+  {
+   "w": "bottom line",
+   "pos": "noun",
+   "ar": "صافي الربح / النتيجة النهائية على الفلوس",
+   "def": "a company's final profit; also, the most important point.",
+   "book": "This led to an increase in customer satisfaction and a positive impact on the company's bottom line.",
+   "uses": [
+    [
+     "Email",
+     "Reducing unpaid invoices will have a direct impact on our bottom line."
+    ],
+    [
+     "Chat",
+     "bottom line: we can't deliver before the 15th"
+    ],
+    [
+     "Meeting",
+     "Service contracts are small, but they add a lot to the bottom line."
+    ]
+   ],
+   "goes": [
+    "impact the bottom line",
+    "improve the bottom line",
+    "the bottom line is…"
+   ],
+   "dont": [
+    "This will make the company gain more money in the end."
+   ],
+   "doo": [
+    "This will improve our bottom line."
+   ],
+   "level": 2
+  },
+  {
+   "w": "secure",
+   "pos": "verb",
+   "ar": "يضمن / يحصل على (بعد مجهود)",
+   "def": "to get something important, often after effort (approval, a deal, funding).",
+   "book": "I communicated effectively with management to secure the necessary resources.",
+   "uses": [
+    [
+     "Email",
+     "I'm pleased to confirm we've secured the maintenance contract for all 12 branches."
+    ],
+    [
+     "Chat",
+     "we secured the deal!! 🎉"
+    ],
+    [
+     "Meeting",
+     "We need to secure budget approval before we order the batteries."
+    ]
+   ],
+   "goes": [
+    "secure a deal",
+    "secure funding",
+    "secure approval"
+   ],
+   "dont": [
+    "We took the contract finally."
+   ],
+   "doo": [
+    "We secured the contract."
+   ],
+   "level": 2
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "I read the news of the field always.",
+   "ar": "بقرا أخبار المجال على طول",
+   "pro": [
+    "I read the field news always.",
+    "I stay current by reading industry news and publications.",
+    "I know every news in the field."
+   ],
+   "a": 1,
+   "why": "‎stay current‎ + ‎industry news‎ هي الطريقة المهنية."
+  },
+  {
+   "plain": "I watch the market with my eye.",
+   "ar": "بحط عيني على السوق",
+   "pro": [
+    "I keep an eye on the market.",
+    "I put my eye on the market.",
+    "I watch the market by my eyes."
+   ],
+   "a": 0,
+   "why": "التعبير الصح ‎keep an eye on‎."
+  },
+  {
+   "plain": "I decided based on the numbers.",
+   "ar": "قررت على أساس الأرقام",
+   "pro": [
+    "I decided from the numbers only.",
+    "I made the decision by the numbers way.",
+    "I took a data-driven approach."
+   ],
+   "a": 2,
+   "why": "‎data-driven‎ تعبير قوي ومستخدم جدًا."
+  },
+  {
+   "plain": "I made a meeting every day to check everyone.",
+   "ar": "عملت اجتماع كل يوم أتابع الكل",
+   "pro": [
+    "I made a meeting daily for checking.",
+    "I implemented a daily check-in meeting.",
+    "I did every day meeting to control them."
+   ],
+   "a": 1,
+   "why": "‎implemented a check-in‎ بدل ‎made a meeting‎."
+  },
+  {
+   "plain": "I do first the urgent and important thing.",
+   "ar": "بعمل الأول الحاجة المستعجلة والمهمة",
+   "pro": [
+    "I analyze the urgency and importance of each task.",
+    "I do first the most urgent.",
+    "I make the important before the other."
+   ],
+   "a": 0,
+   "why": "‎urgency and importance‎ = أسلوب ترتيب الأولويات."
+  },
+  {
+   "plain": "In the future I want to be a manager.",
+   "ar": "في المستقبل عايز أبقى مدير",
+   "pro": [
+    "In future I want to be manager.",
+    "I want to become a boss later.",
+    "My long-term goal is to advance to a leadership position."
+   ],
+   "a": 2,
+   "why": "‎long-term goal‎ و‎advance to‎ أحسن في المقابلات."
+  }
+ ]
+}

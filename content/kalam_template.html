@@ -271,6 +271,30 @@ a{color:inherit}
 .vbtn{border:0;background:var(--cobalt-soft);color:var(--cobalt);border-radius:999px;padding:6px 12px;font:inherit;font-size:13px;font-weight:700;cursor:pointer;white-space:nowrap}
 @media (max-width:520px){.vbtn span{display:none}}
 @media (max-width:430px){.stat.s{display:none}}
+.wrap.narrow{max-width:760px}
+.season{margin:26px 0}.season-h{display:flex;gap:14px;align-items:flex-start}.season-h h2{margin:0;font-size:22px}.season-h p{margin:2px 0}.season-h .chip{margin-inline-start:auto;flex:none}
+.sdesc{font-size:14px;color:var(--muted)}
+.eps{list-style:none;padding:0;margin:12px 0 0;display:grid;gap:8px}
+.ep{display:flex;align-items:center;gap:12px;padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:var(--card);text-decoration:none;color:inherit}
+.ep>span:nth-child(2){display:flex;flex-direction:column;gap:2px;flex:1;min-width:0}.ep .ar{font-size:13px;color:var(--muted)}
+.epn{flex:none;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:var(--cobalt-soft);color:var(--cobalt);font-weight:700;font-size:14px}
+.ep.done .epn{background:var(--mint-soft);color:var(--mint)}.epf{font-size:12px;color:var(--muted);white-space:nowrap}
+@media (max-width:560px){.epf{display:none}}
+.thread{display:grid;gap:14px;margin-top:18px}
+.mail{border:1px solid var(--line);border-radius:18px;background:var(--card);padding:16px 18px;scroll-margin-top:80px}
+.mail.new{animation:pop .35s ease}@keyframes pop{from{transform:translateY(8px);opacity:.4}to{transform:none;opacity:1}}
+.mail.sent{border-color:color-mix(in srgb,var(--mint) 45%,var(--line));background:color-mix(in srgb,var(--mint-soft) 45%,var(--card))}
+.mail header{display:flex;gap:10px;align-items:center}.av{flex:none;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:var(--saffron-soft);color:var(--saffron);font-weight:800;font-size:13px}
+.mail.sent .av{background:var(--mint-soft);color:var(--mint)}
+.mh{display:flex;flex-direction:column;min-width:0}.mh b{font-size:15px}.mh span{font-size:12px;color:var(--muted)}
+.subj{font-weight:700;margin:10px 0 6px}.mbody p{margin:0 0 10px;line-height:1.65}
+.mfoot{display:flex;flex-wrap:wrap;align-items:center;gap:10px;border-top:1px dashed var(--line);padding-top:10px}
+.btn.sm{padding:8px 14px;font-size:14px}
+.task{margin-top:18px;padding:14px 16px;border-radius:14px;background:var(--cobalt-soft)}.task .ar{margin:4px 0}.re{font-size:13px;color:var(--muted)}
+.bank.sent .w,.built.sent .w{display:block;width:100%;text-align:start;white-space:normal;line-height:1.45}
+.rightord{margin:8px 0 0;padding-inline-start:20px}.kit{margin-top:18px}.kit h3{margin:18px 0 4px}
+.plist{display:grid;gap:8px;margin-top:8px}.prow{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 14px;border-radius:12px;background:var(--card);border:1px solid var(--line)}
+.prow>span{display:flex;flex-direction:column;gap:2px}.prow .ar{font-size:13px;color:var(--muted)}
 .say-note{font-size:13px;color:var(--muted);margin:4px 0 0}
 .msg small .spk{width:24px;height:24px}.msg small .spk svg{width:12px;height:12px}
 .techw{margin-top:14px}.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
@@ -299,7 +323,7 @@ footer{margin-top:40px;border-top:1px solid var(--line);padding-block:26px;color
 <header class="nav"><div class="nav-in">
   <a class="brand" href="#/"><span class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 5h10a6 6 0 0 1 0 12H9l-5 3z" fill="#E9A93A"/><path d="M8 9h6M8 13h4" stroke="#18233F" stroke-width="2" stroke-linecap="round"/></svg></span>Kalam Business</a>
   <nav class="links" aria-label="Main">
-    <a href="#/">Home</a><a href="#/path">Learning path</a><a href="#/lessons">Lessons</a><a href="#/phrases">My phrases</a><a href="#/stories">Stories</a><a href="#/decoder">Office talk</a>
+    <a href="#/">Home</a><a href="#/path">Learning path</a><a href="#/lessons">Lessons</a><a href="#/phrases">My phrases</a><a href="#/stories">Stories</a><a href="#/email">Email Lab</a><a href="#/decoder">Office talk</a>
   </nav>
   <div class="stats">
     <button class="vbtn" id="vbtn" title="Listening level — tap to change" onclick="const i=VOICES.findIndex(v=>v[0]===VOICE);const n=VOICES.filter(v=>typeof SAY!=='undefined'&&SAY[v[0]]);const cur=n.findIndex(v=>v[0]===VOICE);setVoice((n[(cur+1)%n.length]||VOICES[0])[0])"></button>
@@ -309,7 +333,7 @@ footer{margin-top:40px;border-top:1px solid var(--line);padding-block:26px;color
 </div></header>
 <nav class="tabbar" aria-label="Main">
   <a href="#/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>Home</a>
-  <a href="#/path"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M8.5 6H15a3 3 0 0 1 0 6H9a3 3 0 0 0 0 6h6.5"/></svg>Path</a>
+  <a href="#/email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Email Lab</a>
   <a href="#/lessons"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5"/></svg>Lessons</a>
   <a href="#/phrases"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 4h14v16l-7-4-7 4z"/></svg>Phrases</a>
   <a href="#/stories"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 6c-2-2-5-2-8-1v14c3-1 6-1 8 1 2-2 5-2 8-1V5c-3-1-6-1-8 1z"/><path d="M12 6v14"/></svg>Stories</a>
@@ -352,6 +376,7 @@ const LESSONS=[
 
 /*__FIX__*/
 /*__PILOT__*/
+/*__WUE__*/
 /*__STORIES__*/
 /*__SAY__*/
 Object.assign(STORY.pi2,{field:"UPS & batteries",fieldAr:"الـ UPS والبطاريات",hero:"Karim",icon:"🔋",tech:[["UPS","جهاز الـ UPS"],["kVA","كيلو فولت أمبير (قدرة الجهاز)"],["battery bank","مجموعة بطاريات"],["lead-acid","بطاريات رصاص حمضية"],["lithium-ion","بطاريات ليثيوم أيون"]]});
@@ -445,6 +470,7 @@ function route(){
   else if(page==="phrases") phrases();
   else if(page==="decoder") decoder();
   else if(page==="stories") storiesPage();
+  else if(page==="email") (h[1]?emailCase(h[1]):emailHome());
   else if(page==="lesson") lesson(h[1],h[2]);
   else home();
   window.scrollTo(0,0); stats();
@@ -477,6 +503,10 @@ function home(){
     <div class="sec-head"><h2>From the book, chapter by chapter</h2><p class="ar">الكتاب كله هيتحول لدروس، فصل ورا فصل.</p></div>
     ${cardGrid(LESSONS.slice(0,6))}
     <p style="text-align:center;margin-top:22px"><a class="btn alt" href="#/lessons">See all lessons</a></p>
+   </section>
+   <section class="sec">
+    <div class="sec-head"><h2>Email Lab</h2><p class="ar">إيميلات الشغل الحقيقية: عروض أسعار، تحصيل، شيكات، استيراد وجمارك، مناقصات، وأعطال.</p></div>
+    <div class="sgrid">${SEASONS.map(([sid,ic,en,ar])=>`<a class="scard" href="#/email"><span class="sico">${ic}</span><h3>${esc(en)}</h3><p class="ar">${esc(ar)}</p><span class="smeta">${EMAILS.filter(c=>c.season===sid).length} email threads</span></a>`).join("")}</div>
    </section>
    <section class="sec">
     <div class="sec-head"><h2>Stories from your field</h2><p class="ar">نفس عبارات الكتاب، بس في قصص من شغل الـ IT والطاقة والصيانة.</p></div>
@@ -778,6 +808,84 @@ function upgradeTab(p){
       const f=p.querySelector("#fb");f.hidden=false;f.className="fb "+(ok?"good":"bad");f.innerHTML=`<b>${ok?"That's how pros say it":"The natural version is highlighted"}</b><span class="ar">${esc(u.why)}</span>`;
       const g=p.querySelector("#go");g.hidden=false;g.focus();g.onclick=()=>{i++;draw()}}); };
   draw();
+}
+
+/* ---------- EMAIL LAB: real work email threads ---------- */
+const SEASONS=[
+ ["s1","🧾","From quotation to cash","من عرض السعر لحد التحصيل","Quotation, PO, e-invoice, payment terms, cheques, statement of account, collections."],
+ ["s2","🛠️","Service, IT & data-centre problems","أعطال الـ IT ومراكز الصيانة والداتا سنتر","Fault tickets, server problems, repair centres, RMA returns, incident reports, SLA complaints."],
+ ["s3","🚢","Purchasing, import & the warehouse","المشتريات والاستيراد والمخازن","Supplier RFQs, negotiation, bank forms, Nafeza/ACI, bill of lading, customs, release, reorder level."],
+ ["s4","🏦","Accounts, treasury & payroll","الحسابات والخزنة والمرتبات","Cash flow, salaries, advances, bank letters, supplier payments, month-end closing."],
+ ["s5","📑","Tenders","المناقصات","Clarifications, site visits, bid bond, sealed envelopes, extensions, evaluation, award & performance bond."]];
+const EDONE=()=>S.email||(S.email={});
+const para=s=>esc(s).replace(/\n/g,"<br>");
+function emailHome(){
+  L=null;
+  app.innerHTML=`<div class="wrap"><section class="phead"><a class="back" href="#/">← Home</a><h1>Email Lab</h1>
+   <p>Real email threads from a maintenance &amp; sales company: read the email, build your reply step by step, then compare with a model reply you can copy and reuse at work.</p>
+   <p class="ar">مواقف إيميلات حقيقية من شغل شركات الصيانة والمبيعات: اقرا الإيميل، ابني ردك خطوة بخطوة، وقارنه بنموذج جاهز تنسخه وتستخدمه.</p>${voicePick()}</section>
+   ${SEASONS.map(([sid,ic,en,ar,desc])=>{const cs=EMAILS.filter(c=>c.season===sid), d=cs.filter(c=>EDONE()[c.id]).length;
+     return `<section class="season"><div class="season-h"><span class="sico">${ic}</span><div><h2>${esc(en)}</h2><p class="ar">${esc(ar)}</p><p class="sdesc">${esc(desc)}</p></div><span class="chip">${d}/${cs.length}</span></div>
+      <ol class="eps">${cs.map((c,i)=>`<li><a href="#/email/${c.id}" class="ep ${EDONE()[c.id]?"done":""}"><span class="epn">${EDONE()[c.id]?"✓":i+1}</span><span><b>${esc(c.title)}</b><span class="ar">${esc(c.ar)}</span></span><span class="epf">${c.icon} ${esc(c.field)}</span></a></li>`).join("")}</ol></section>`}).join("")}</div>`;
+}
+function mailCard(m,sent){
+  return `<article class="mail ${sent?"sent":""}"><header><div class="av">${sent?"You":esc(m.from.replace(/^(Mr\.|Ms\.|Eng\.|Dr\.)\s*/,"").slice(0,1))}</div><div class="mh"><b>${esc(m.from)}</b><span>${esc(m.date||"")}</span></div></header>
+   <div class="subj">${esc(m.subject)}</div><div class="mbody">${m.body.map(b=>`<p>${para(b)} ${spk(b)}</p>`).join("")}</div>
+   ${sent?`<div class="mfoot"><button class="btn alt sm" data-copy>Copy this reply</button><span class="ar" style="color:var(--muted);font-size:13px">انسخه وعدّل الأسماء والأرقام</span></div>`:""}</article>`;
+}
+function emailCase(id){
+  const c=EMAILS.find(x=>x.id===id); if(!c){emailHome();return} L=null;
+  const cs=EMAILS.filter(x=>x.season===c.season), ix=cs.indexOf(c), nxt=cs[ix+1]||EMAILS[EMAILS.indexOf(c)+1];
+  let mi=0, si=0, good=0, total=0; const shown=[];
+  app.innerHTML=`<div class="wrap narrow"><section class="phead"><a class="back" href="#/email">← Email Lab</a>
+    <span class="kicker">${c.icon} ${esc(c.field)} · Episode ${ix+1} of ${cs.length}</span><h1>${esc(c.title)}</h1><p class="ar" style="color:var(--muted)">${esc(c.ar)}</p>
+    <div class="scene"><span class="kicker">The situation</span><div>${esc(c.scene)} ${spk(c.scene)}</div><div class="ar" style="margin-top:6px">${esc(c.sceneAr)}</div></div>${voicePick()}</section>
+    <div id="thr" class="thread"></div><div id="work"></div></div>`;
+  const thr=app.querySelector("#thr"), work=app.querySelector("#work");
+  const bindCopy=()=>thr.querySelectorAll("[data-copy]").forEach(b=>b.onclick=()=>{const txt=[...b.closest(".mail").querySelectorAll(".mbody p")].map(p=>p.innerText.trim()).join("\n\n");
+     const done=()=>{b.textContent="Copied ✓";setTimeout(()=>b.textContent="Copy this reply",1500)};
+     try{navigator.clipboard.writeText(txt).then(done,()=>{sel(b)})}catch(e){sel(b)} });
+  const sel=b=>{const r=document.createRange();r.selectNodeContents(b.closest(".mail").querySelector(".mbody"));const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent="Selected — press copy"};
+  const paint=()=>{thr.innerHTML=shown.map(m=>mailCard(m,m.dir==="out")).join(""); bindCopy()};
+  const step=()=>{
+    if(mi>=c.thread.length){ return finishCase() }
+    const m=c.thread[mi];
+    if(m.dir==="in"){ shown.push(m); paint(); const el=thr.lastElementChild; el.classList.add("new"); el.scrollIntoView({behavior:"smooth",block:"start"});
+      work.innerHTML=`<div class="actions"><button class="btn" id="go">${c.thread[mi+1]&&c.thread[mi+1].dir==="out"?"Write your reply":"Next email"}</button></div>`;
+      work.querySelector("#go").onclick=()=>{mi++;si=0;step()}; return }
+    // out: build the reply
+    if(si>=m.steps.length){ shown.push(m); paint(); const el=thr.lastElementChild; el.classList.add("new"); el.scrollIntoView({behavior:"smooth",block:"start"});
+      work.innerHTML=`<div class="hint"><span>✉️</span><span>This is a model reply. Listen to it, then read it aloud once.<br><span class="ar">ده نموذج للرد. اسمعه وبعدين اقراه بصوت عالي مرة.</span></span></div><div class="actions"><button class="btn" id="go">${mi<c.thread.length-1?"Continue the thread":"Finish"}</button></div>`;
+      work.querySelector("#go").onclick=()=>{mi++;si=0;step()}; return }
+    const s=m.steps[si]; total++;
+    const head=`<div class="task"><span class="kicker">Your reply · step ${si+1} of ${m.steps.length}</span><div class="ar">${esc(m.task)}</div><div class="re">RE: ${esc(m.subject.replace(/^RE:\s*/i,""))}</div></div>`;
+    const fin=(ok,extra)=>{ if(ok)good++; const f=work.querySelector("#fb"); f.hidden=false; f.className="fb "+(ok?"good":"bad"); f.innerHTML=`<b>${ok?"Good choice":"Not quite"}</b><span class="ar">${esc(s.why||"")}</span>${extra||""}`;
+      const g=work.querySelector("#go"); g.hidden=false; g.focus(); g.onclick=()=>{si++;step()} };
+    if(s.type==="order"){ let built=[]; const bank=shuffle(s.parts.map((w,k)=>({w,k})));
+      work.innerHTML=`${head}<p class="q">Put the sentences in the right order</p><div class="built sent" id="bt"></div><div class="bank sent" id="bk"></div><div id="fb" hidden></div><div class="actions"><button class="btn" id="ck" disabled>Check</button><button class="btn" id="go" hidden>Next</button></div>`;
+      const d=()=>{work.querySelector("#bt").innerHTML=built.map((b,j)=>`<button class="w" data-j="${j}">${esc(b.w)}</button>`).join("");
+        work.querySelector("#bk").innerHTML=bank.map(b=>`<button class="w" data-k="${b.k}" ${built.includes(b)?"disabled":""}>${esc(b.w)}</button>`).join("");
+        work.querySelectorAll("#bt .w").forEach(x=>x.onclick=()=>{built.splice(+x.dataset.j,1);d()});
+        work.querySelectorAll("#bk .w").forEach(x=>x.onclick=()=>{built.push(bank.find(b=>b.k==x.dataset.k));d()});
+        work.querySelector("#ck").disabled=built.length!==s.parts.length};
+      d(); work.querySelector("#ck").onclick=function(){this.hidden=true;work.querySelectorAll(".w").forEach(w=>w.disabled=true);const ok=built.every((b,j)=>b.k===j);
+        fin(ok, ok?"":`<ol class="rightord">${s.parts.map(x=>`<li>${esc(x)}</li>`).join("")}</ol>`)}; return }
+    const prompt=s.type==="gap"?`<p class="q">${esc(s.sentence).replace(/_{2,}/,'<span class="gap">?</span>')}</p>`:`<p class="q">${esc(s.q)}</p>`;
+    work.innerHTML=`${head}${prompt}<div class="opts">${s.opts.map((o,k)=>`<button class="opt" data-k="${k}">${esc(o)}</button>`).join("")}</div><div id="fb" hidden></div><div class="actions"><button class="btn" id="go" hidden>Next</button></div>`;
+    work.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{const ok=+b.dataset.k===s.a;
+      work.querySelectorAll(".opt").forEach(x=>{x.disabled=true;if(+x.dataset.k===s.a)x.classList.add("right")}); if(!ok)b.classList.add("wrong");
+      let full=s.type==="gap"?s.sentence.replace(/_{2,}/,s.opts[s.a]):s.opts[s.a];
+      if(s.type==="gap") work.querySelector(".gap").textContent=s.opts[s.a];
+      fin(ok, spk(full)); sayPlay(full)});
+  };
+  const finishCase=()=>{ const first=!EDONE()[c.id]; EDONE()[c.id]=1; if(first){S.xp+=15+good*3; bump(); save(); stats()}
+    work.innerHTML=`<div class="done-box"><h2>Thread complete ✉️</h2><p>${good} / ${total} steps right${first?` · +${15+good*3} XP`:""}</p></div>
+     <section class="kit"><h3>Phrases to reuse</h3><p class="ar" style="color:var(--muted)">عبارات تنفعك في أي إيميل شبه ده</p>
+      <div class="plist">${c.phrases.map(([e,a])=>`<div class="prow"><span><b>${esc(e)}</b><span class="ar">${esc(a)}</span></span>${spk(e)}</div>`).join("")}</div>
+      <h3>Words for this situation</h3><div class="chips">${c.glossary.map(([e,a])=>`<span class="chip"><b>${esc(e)} ${spk(e)}</b><span class="ar">${esc(a)}</span></span>`).join("")}</div></section>
+     <div class="actions" style="justify-content:center"><a class="btn alt" href="#/email">All threads</a>${nxt?`<a class="btn" href="#/email/${nxt.id}">Next: ${esc(nxt.title)}</a>`:""}</div>`;
+    work.scrollIntoView({behavior:"smooth",block:"start"}) };
+  step();
 }
 
 /* ---------- stories from your field ---------- */

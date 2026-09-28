@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "timely",
+   "pos": "adjective",
+   "ar": "في الوقت المناسب / في ميعاده",
+   "def": "done at the right time or without delay.",
+   "book": "Thank you for your attention to this matter, and we appreciate your timely submission.",
+   "uses": [
+    [
+     "Email",
+     "We appreciate your timely payment of the attached invoice."
+    ],
+    [
+     "Chat",
+     "thanks for the timely update 🙏"
+    ],
+    [
+     "Meeting",
+     "Timely maintenance visits prevent most battery failures."
+    ]
+   ],
+   "goes": [
+    "timely payment",
+    "a timely response",
+    "in a timely manner"
+   ],
+   "dont": [
+    "Thank you for sending in the good time."
+   ],
+   "doo": [
+    "Thank you for your timely submission."
+   ],
+   "level": 3
+  },
+  {
+   "w": "resolution",
+   "pos": "noun",
+   "ar": "حل (للمشكلة)",
+   "def": "a solution to a problem or complaint.",
+   "book": "I'll get back to you with more information or a resolution as soon as possible, no later than ___.",
+   "uses": [
+    [
+     "Email",
+     "Our service team is working on a resolution and will update you within 24 hours."
+    ],
+    [
+     "Chat",
+     "any resolution on the Heliopolis site alarm?"
+    ],
+    [
+     "Meeting",
+     "We need a quick resolution before the customer escalates."
+    ]
+   ],
+   "goes": [
+    "find a resolution",
+    "a quick resolution",
+    "reach a resolution"
+   ],
+   "dont": [
+    "We will find a solving for the problem."
+   ],
+   "doo": [
+    "We'll find a resolution to the issue."
+   ],
+   "level": 3
+  },
+  {
+   "w": "in the meantime",
+   "pos": "phrase",
+   "ar": "وفي نفس الوقت / لحد ما",
+   "def": "during the time before something else happens.",
+   "book": "In the meantime, if you have any further questions or concerns, please don't hesitate to reach out.",
+   "uses": [
+    [
+     "Email",
+     "The spare part will arrive next week; in the meantime, we've installed a temporary unit."
+    ],
+    [
+     "Chat",
+     "in the meantime can you send me the serial numbers?"
+    ],
+    [
+     "Meeting",
+     "In the meantime, let's run the site on the generator."
+    ]
+   ],
+   "goes": [
+    "in the meantime,",
+    "and in the meantime",
+    "but in the meantime"
+   ],
+   "dont": [
+    "Until this time, use the generator."
+   ],
+   "doo": [
+    "In the meantime, please use the generator."
+   ],
+   "level": 2
+  },
+  {
+   "w": "data-driven",
+   "pos": "adjective",
+   "ar": "مبني على البيانات والأرقام",
+   "def": "based on facts and numbers, not on opinions or guesses.",
+   "book": "I achieved this by implementing targeted content strategies, monitoring analytics, and adjusting our approach based on data-driven insights.",
+   "uses": [
+    [
+     "Email",
+     "Our proposal is data-driven: it is based on 12 months of load readings from your site."
+    ],
+    [
+     "Chat",
+     "let's keep this data-driven — send me the numbers"
+    ],
+    [
+     "Meeting",
+     "We need a data-driven approach to decide which sites get new batteries first."
+    ]
+   ],
+   "goes": [
+    "data-driven decisions",
+    "a data-driven approach",
+    "data-driven insights"
+   ],
+   "dont": [
+    "We decided from our feeling."
+   ],
+   "doo": [
+    "We made a data-driven decision."
+   ],
+   "level": 3
+  },
+  {
+   "w": "boost",
+   "pos": "verb",
+   "ar": "يرفع / يزوّد",
+   "def": "to increase or improve something.",
+   "book": "Additionally, I collaborated with the content creation team to develop attention-grabbing graphics and videos that further boosted engagement and conversions.",
+   "uses": [
+    [
+     "Email",
+     "The new solar package boosted our Q3 sales by 20%."
+    ],
+    [
+     "Chat",
+     "that promo really boosted leads 🚀"
+    ],
+    [
+     "Meeting",
+     "Adding a second battery string will boost the backup time."
+    ]
+   ],
+   "goes": [
+    "boost sales",
+    "boost engagement",
+    "a big boost"
+   ],
+   "dont": [
+    "This made the sales go up very much."
+   ],
+   "doo": [
+    "This boosted sales significantly."
+   ],
+   "level": 1
+  },
+  {
+   "w": "expertise",
+   "pos": "noun",
+   "ar": "خبرة متخصصة",
+   "def": "special knowledge or skill in a particular field.",
+   "book": "I look forward to the possibility of connecting with you and learning from your expertise.",
+   "uses": [
+    [
+     "Email",
+     "Our team has extensive expertise in data centre power systems."
+    ],
+    [
+     "Chat",
+     "we need someone with VFD expertise on this job"
+    ],
+    [
+     "Meeting",
+     "Her expertise in solar design helped us win the tender."
+    ]
+   ],
+   "goes": [
+    "technical expertise",
+    "expertise in …",
+    "draw on someone's expertise"
+   ],
+   "dont": [
+    "He has big experiences in UPS."
+   ],
+   "doo": [
+    "He has a lot of expertise in UPS systems."
+   ],
+   "level": 3
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "I apply for the job that I saw it on LinkedIn.",
+   "ar": "بقدّم على الوظيفة اللي شفتها على لينكدإن",
+   "pro": [
+    "I apply for the job that I saw it on LinkedIn.",
+    "I apply for your job from LinkedIn.",
+    "I'm writing to apply for the Sales Engineer position advertised on LinkedIn."
+   ],
+   "a": 2,
+   "why": "ماتكررش الضمير: ‎that I saw‎ مش ‎that I saw it‎، وابدأ بـ ‎I'm writing to apply for‎."
+  },
+  {
+   "plain": "I think I am good for this job.",
+   "ar": "أعتقد إني مناسب للشغلانة دي",
+   "pro": [
+    "I believe I would be a great fit for the role.",
+    "I think I am good for this job.",
+    "I am suitable person for job."
+   ],
+   "a": 0,
+   "why": "‎a great fit for the role‎ هي الصيغة المستخدمة في طلبات التوظيف."
+  },
+  {
+   "plain": "I received your mail and I will see the problem.",
+   "ar": "استلمت الميل بتاعك وهشوف المشكلة",
+   "pro": [
+    "I received your mail and I will see the problem.",
+    "I wanted to acknowledge receipt of your message; I'm currently looking into the matter.",
+    "Your mail reached, I see problem."
+   ],
+   "a": 1,
+   "why": "‎look into‎ = يدرس المشكلة؛ ‎see the problem‎ معناها يبص عليها بس."
+  },
+  {
+   "plain": "Don't forget, the last day for the tender is near.",
+   "ar": "ماتنساش آخر يوم للمناقصة قرّب",
+   "pro": [
+    "Don't forget, the last day is near!",
+    "The tender last day is coming near.",
+    "This is just a friendly reminder that the tender deadline is fast approaching."
+   ],
+   "a": 2,
+   "why": "‎deadline‎ بدل ‎last day‎، و ‎friendly reminder‎ أذوق من ‎don't forget‎."
+  },
+  {
+   "plain": "Can I take from your time 15 minutes?",
+   "ar": "ممكن آخد من وقتك ربع ساعة؟",
+   "pro": [
+    "Can I take from your time 15 minutes?",
+    "Would you be available for a 15–20 minute call next week?",
+    "Give me 15 minutes from your time."
+   ],
+   "a": 1,
+   "why": "‎take from your time‎ ترجمة حرفية؛ اسأل ‎Would you be available for …?‎"
+  },
+  {
+   "plain": "I want to know people in the solar field.",
+   "ar": "عايز أتعرف على ناس في مجال الطاقة الشمسية",
+   "pro": [
+    "I'm always looking to expand my professional network in the solar industry.",
+    "I want to know people in the solar field.",
+    "I want to make knowing with solar people."
+   ],
+   "a": 0,
+   "why": "في النتووركنج قول ‎expand my professional network‎."
+  }
+ ]
+}

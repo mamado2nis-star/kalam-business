@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "in charge of",
+   "pos": "phrase",
+   "ar": "مسؤول عن",
+   "def": "responsible for managing or controlling something or someone.",
+   "book": "He is being interviewed for an electronics engineer job by Rehab Osama, who is in charge of recruiting for the company, and two of her colleagues: Mazen, an engineering manager, and Mona, the new HR manager.",
+   "uses": [
+    [
+     "Email",
+     "Eng. Hany is in charge of the maintenance contract for the hospital's UPS systems."
+    ],
+    [
+     "Chat",
+     "who's in charge of collections this month?"
+    ],
+    [
+     "Meeting",
+     "I'll be in charge of the site installation; Sara will handle the paperwork."
+    ]
+   ],
+   "goes": [
+    "be in charge of",
+    "put someone in charge of",
+    "the person in charge"
+   ],
+   "dont": [
+    "I am the responsible about the service team."
+   ],
+   "doo": [
+    "I'm in charge of the service team."
+   ],
+   "level": 2
+  },
+  {
+   "w": "troubleshooter",
+   "pos": "noun",
+   "ar": "حد شاطر في تشخيص الأعطال وحلها",
+   "def": "a person who finds and fixes the causes of technical or business problems.",
+   "book": "I'm an effective troubleshooter and I like taking care of details, but I always keep an eye on the big picture — and it all comes down to end users and making sure they have a positive experience with the company.",
+   "uses": [
+    [
+     "Email",
+     "Our field engineer troubleshot the inverter fault remotely and restored power within an hour."
+    ],
+    [
+     "Chat",
+     "can you troubleshoot the VFD alarm? client's line is down 🔧"
+    ],
+    [
+     "Meeting",
+     "Mohamed is our best troubleshooter — send him to the data centre."
+    ]
+   ],
+   "goes": [
+    "troubleshoot a fault",
+    "troubleshoot remotely",
+    "an effective troubleshooter"
+   ],
+   "dont": [
+    "I make the diagnosis of the problem and repair it."
+   ],
+   "doo": [
+    "I troubleshoot and fix the fault."
+   ],
+   "level": 2
+  },
+  {
+   "w": "end users",
+   "pos": "noun",
+   "ar": "المستخدم النهائي للمنتج",
+   "def": "the people who actually use a product or system, not those who buy or sell it.",
+   "book": "The experience taught me more about how people use products, and it helped me put faces on the people who are our end users.",
+   "uses": [
+    [
+     "Email",
+     "We'll provide training to the end users after the UPS installation."
+    ],
+    [
+     "Chat",
+     "is the reseller buying it or the end user?"
+    ],
+    [
+     "Meeting",
+     "Let's think about the end users — the nurses need the power to never drop."
+    ]
+   ],
+   "goes": [
+    "end users",
+    "end-user training",
+    "end-user needs"
+   ],
+   "dont": [
+    "The final people who use the device."
+   ],
+   "doo": [
+    "The end users of the device."
+   ],
+   "level": 2
+  },
+  {
+   "w": "vendors",
+   "pos": "noun",
+   "ar": "الموردين / البائعين",
+   "def": "companies or people that supply goods or services to another company.",
+   "book": "Well, I could see myself in a supervisory role, coordinating with other test engineers, developers and vendors.",
+   "uses": [
+    [
+     "Email",
+     "We are currently comparing three battery vendors on price and warranty."
+    ],
+    [
+     "Chat",
+     "the vendor still hasn't sent the spare parts 🙄"
+    ],
+    [
+     "Meeting",
+     "Let's get quotations from at least two vendors before we decide."
+    ]
+   ],
+   "goes": [
+    "approved vendors",
+    "vendor list",
+    "deal with vendors"
+   ],
+   "dont": [
+    "We will bring the parts from the sellers."
+   ],
+   "doo": [
+    "We'll source the parts from our vendors."
+   ],
+   "level": 2
+  },
+  {
+   "w": "wrap up",
+   "pos": "phrasal verb",
+   "ar": "يختم / يقفل الموضوع",
+   "def": "to finish a meeting, task or discussion.",
+   "book": "Well, I think it's time to start wrapping up.",
+   "uses": [
+    [
+     "Email",
+     "Let's wrap up the site acceptance by Thursday so we can issue the invoice."
+    ],
+    [
+     "Chat",
+     "ok let's wrap up, I have a site visit at 3"
+    ],
+    [
+     "Meeting",
+     "Before we wrap up, any questions about the new price list?"
+    ]
+   ],
+   "goes": [
+    "wrap up a meeting",
+    "wrap up a project",
+    "to wrap up …"
+   ],
+   "dont": [
+    "Let's close the meeting now."
+   ],
+   "doo": [
+    "Let's wrap up the meeting."
+   ],
+   "level": 1
+  },
+  {
+   "w": "leverage",
+   "pos": "verb",
+   "ar": "يستغل / يستفيد من حاجة لأقصى درجة",
+   "def": "to use something you have (skills, relationships, resources) to get the best result.",
+   "book": "Now I'm looking to leverage everything I've learned in university and get some hands-on work experience.",
+   "uses": [
+    [
+     "Email",
+     "We can leverage our existing contract with the bank to offer them solar solutions."
+    ],
+    [
+     "Chat",
+     "let's leverage the Schneider promo this month 💡"
+    ],
+    [
+     "Meeting",
+     "We should leverage our service data to sell more battery replacements."
+    ]
+   ],
+   "goes": [
+    "leverage experience",
+    "leverage relationships",
+    "leverage data"
+   ],
+   "dont": [
+    "We will make benefit from our relations."
+   ],
+   "doo": [
+    "We'll leverage our relationships."
+   ],
+   "level": 3
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "Can I write while you are talking?",
+   "ar": "ممكن أكتب وانتوا بتتكلموا؟",
+   "pro": [
+    "Can I write while you are talking?",
+    "Do you mind if I take notes while we're speaking?",
+    "I will write, OK?"
+   ],
+   "a": 1,
+   "why": "‎take notes‎ هي الكلمة الصح، و‎Do you mind if‎ مؤدبة."
+  },
+  {
+   "plain": "I can give you also the customer service thing.",
+   "ar": "أقدر كمان أديكم موضوع خدمة العملا",
+   "pro": [
+    "There's something else I can bring to the table: customer relations.",
+    "I can give you also the customer service thing.",
+    "I have also customer thing."
+   ],
+   "a": 0,
+   "why": "‎bring to the table‎ يعني تقدّم ميزة إضافية."
+  },
+  {
+   "plain": "I studied finance in the university.",
+   "ar": "درست فاينانس في الجامعة",
+   "pro": [
+    "I studied finance in the university.",
+    "My study was finance.",
+    "I majored in finance."
+   ],
+   "a": 2,
+   "why": "‎majored in‎ أدق لتخصصك، ومن غير ‎the‎ قبل ‎university‎."
+  },
+  {
+   "plain": "I want to use what I studied in real work.",
+   "ar": "عايز أستخدم اللي درسته في شغل حقيقي",
+   "pro": [
+    "I'm ready to put my knowledge into practice.",
+    "I want to use my study in real work.",
+    "I want apply my study."
+   ],
+   "a": 0,
+   "why": "‎put my knowledge into practice‎ عبارة جاهزة للمقابلات."
+  },
+  {
+   "plain": "I see all the small details and the big thing also.",
+   "ar": "باخد بالي من التفاصيل الصغيرة والصورة الكبيرة كمان",
+   "pro": [
+    "I see small and big things.",
+    "I see all the small details and the big thing also.",
+    "I pay attention to detail, but I always keep an eye on the big picture."
+   ],
+   "a": 2,
+   "why": "‎the big picture‎ هي الصورة الكاملة."
+  },
+  {
+   "plain": "I was the one who must make it work with what we had.",
+   "ar": "كان عليا أنا أشغّلها باللي عندنا",
+   "pro": [
+    "I was the one who must make it work.",
+    "It was up to me to adapt them to our needs.",
+    "It was on my head to fix it."
+   ],
+   "a": 1,
+   "why": "‎It was up to me‎ يعني المسؤولية كانت عليك."
+  }
+ ]
+}

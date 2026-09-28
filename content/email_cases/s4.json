@@ -1,0 +1,1159 @@
+[
+ {
+  "id": "s4e1",
+  "season": "s4",
+  "title": "Weekly cash-flow update",
+  "ar": "متابعة التدفق النقدي الأسبوعية",
+  "field": "Treasury · Cash flow",
+  "icon": "💰",
+  "scene": "Every Sunday you send the Finance Director the weekly cash position. This week payments are higher than expected collections, and there is a shortfall on the day salaries are due. You must explain the numbers and propose priorities.",
+  "sceneAr": "كل حد بتبعت للمدير المالي موقف الكاش الأسبوعي. الأسبوع ده المدفوعات أكتر من التحصيلات المتوقعة وفيه عجز يوم المرتبات، ولازم تشرح الأرقام وتقترح أولويات.",
+  "thread": [
+   {
+    "dir": "in",
+    "from": "Mr. Hany Zaki — NPS Finance",
+    "subject": "Cash position – week of 4–10 October",
+    "date": "Sun, 4 Oct · 09:05",
+    "body": [
+     "Hi,",
+     "Please send me the cash-flow update for this week before the management meeting at 1 pm today.",
+     "I am worried about 8 October. We have salaries, the VAT return and the second payment to Shenzhen VoltTech on the same week, and Delta Pharma has not paid INV-0457 yet.",
+     "I need the opening balance, expected collections, planned payments and your suggestion if we are short.",
+     "Thanks,\nHany Zaki\nFinance Director"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Cash position – week of 4–10 October",
+    "date": "Sun, 4 Oct · 11:20",
+    "task": "ابعت موقف الكاش: الرصيد، التحصيلات، المدفوعات، العجز، واقترح ترتيب أولويات الدفع.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening line",
+      "opts": [
+       "Here is the numbers you asked.",
+       "Please find below the cash-flow update for the week of 4–10 October.",
+       "I send to you the cash flow now."
+      ],
+      "a": 1,
+      "why": "جملة مهنية وواضحة ومحددة بالأسبوع؛ التانيين فيهم أخطاء نحوية."
+     },
+     {
+      "type": "gap",
+      "sentence": "This leaves a ___ of about EGP 1.6 million on 8 October.",
+      "opts": [
+       "lack",
+       "hole",
+       "shortfall"
+      ],
+      "a": 2,
+      "why": "‎shortfall‎ هي الكلمة المالية المظبوطة للعجز في الكاش."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Our opening balance today is EGP 4.2 million.",
+       "We expect collections of EGP 6.1 million and payments of EGP 7.9 million this week.",
+       "This leaves a shortfall of about EGP 1.6 million on 8 October."
+      ],
+      "why": "الرصيد الأول، بعدين الداخل والخارج، وبعدين النتيجة (العجز)."
+     },
+     {
+      "type": "pick",
+      "q": "How do you propose the priorities?",
+      "opts": [
+       "You must pay salaries first, it is obvious.",
+       "I suggest we protect salaries and VAT first and ask VoltTech to accept their payment one week later.",
+       "Maybe we don't pay anybody until money comes."
+      ],
+      "a": 1,
+      "why": "اقتراح مؤدب وواضح بـ ‎I suggest‎ مش أمر ولا كلام مش عملي."
+     }
+    ],
+    "body": [
+     "Dear Mr. Hany,",
+     "Please find below the cash-flow update for the week of 4–10 October.",
+     "Our opening balance today is EGP 4.2 million. We expect collections of EGP 6.1 million and payments of EGP 7.9 million this week. This leaves a shortfall of about EGP 1.6 million on 8 October.",
+     "The main payments are salaries (EGP 3.4 million), September VAT (EGP 1.1 million) and USD 38,000 to Shenzhen VoltTech.",
+     "I suggest we protect salaries and VAT first and ask VoltTech to accept their payment one week later. I will also chase Delta Pharma for INV-0457 (EGP 1.35 million) today.",
+     "Best regards,\n<Your name>\nTreasury Accountant | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Hany Zaki — NPS Finance",
+    "subject": "RE: Cash position – week of 4–10 October",
+    "date": "Sun, 4 Oct · 14:30",
+    "body": [
+     "Thanks, clear.",
+     "I agree with the priorities. Salaries must go out on 8 October, no delay. VAT also cannot be late, because the penalty is high.",
+     "I called Mr. Wang Lei and he can accept the VoltTech payment on 15 October, but he wants it in writing. Please also confirm with Delta Pharma when exactly they will transfer, and send me an updated position on Tuesday.",
+     "Hany"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Cash position – week of 4–10 October",
+    "date": "Tue, 6 Oct · 10:15",
+    "task": "ابعت التحديث يوم التلات: تأكيد تحويل دلتا فارما، تأجيل ‎VoltTech‎ كتابةً، والموقف الجديد.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening line",
+      "opts": [
+       "As requested, here is the updated cash position.",
+       "Like you said me, this is the new position.",
+       "Update below. Read it."
+      ],
+      "a": 0,
+      "why": "‎As requested‎ مؤدبة ومختصرة؛ التانية ترجمة حرفية والتالتة ناشفة."
+     },
+     {
+      "type": "gap",
+      "sentence": "Ms. Dalia Fawzy has ___ that Delta Pharma will transfer EGP 1.35 million on 7 October.",
+      "opts": [
+       "confirmed",
+       "assured us",
+       "said maybe"
+      ],
+      "a": 0,
+      "why": "‎confirmed‎ معناها أكدت رسمي، ودي أهم حاجة في التحصيل."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Ms. Dalia Fawzy has confirmed that Delta Pharma will transfer EGP 1.35 million on 7 October.",
+       "Mr. Wang Lei has also confirmed by email that VoltTech accepts payment on 15 October.",
+       "With these two changes, we no longer have a shortfall on 8 October."
+      ],
+      "why": "التحصيل، بعدين التأجيل، بعدين النتيجة."
+     }
+    ],
+    "body": [
+     "Dear Mr. Hany,",
+     "As requested, here is the updated cash position.",
+     "Ms. Dalia Fawzy has confirmed that Delta Pharma will transfer EGP 1.35 million on 7 October. Mr. Wang Lei has also confirmed by email that VoltTech accepts payment on 15 October.",
+     "With these two changes, we no longer have a shortfall on 8 October. The expected closing balance on 8 October is about EGP 0.6 million after salaries and VAT.",
+     "I will check the Delta Pharma transfer tomorrow morning and update you immediately if it does not arrive.",
+     "Best regards,\n<Your name>\nTreasury Accountant | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "Please find below the cash-flow update",
+    "لقيت تحت تحديث التدفق النقدي"
+   ],
+   [
+    "This leaves a shortfall of about…",
+    "ده بيسيب عجز حوالي…"
+   ],
+   [
+    "I suggest we protect salaries first",
+    "باقترح نأمّن المرتبات الأول"
+   ],
+   [
+    "As requested, here is…",
+    "زي ما طلبت، ده…"
+   ],
+   [
+    "has confirmed that … will transfer",
+    "أكد إن … هيحوّل"
+   ],
+   [
+    "we no longer have a shortfall",
+    "مبقاش عندنا عجز"
+   ],
+   [
+    "I will update you immediately if…",
+    "هبلغك فورًا لو…"
+   ]
+  ],
+  "glossary": [
+   [
+    "cash position",
+    "موقف الكاش / السيولة"
+   ],
+   [
+    "opening balance",
+    "الرصيد الافتتاحي"
+   ],
+   [
+    "expected collections",
+    "التحصيلات المتوقعة"
+   ],
+   [
+    "shortfall",
+    "عجز"
+   ],
+   [
+    "closing balance",
+    "الرصيد الختامي"
+   ],
+   [
+    "VAT return",
+    "إقرار ضريبة القيمة المضافة"
+   ]
+  ]
+ },
+ {
+  "id": "s4e2",
+  "season": "s4",
+  "title": "The failed salary transfer",
+  "ar": "تحويل مرتب اترفض في البنك",
+  "field": "Payroll · Bank",
+  "icon": "🏦",
+  "scene": "You uploaded the September payroll file to the bank. The bank processed all transfers except one, because the account number is wrong. Salaries must reach employees on 29 September.",
+  "sceneAr": "رفعت ملف مرتبات سبتمبر على البنك. البنك نفّذ كل التحويلات إلا واحد عشان رقم الحساب غلط، والمرتبات لازم توصل يوم 29 سبتمبر.",
+  "thread": [
+   {
+    "dir": "in",
+    "from": "Ms. Rania Fouad — Nile Commercial Bank",
+    "subject": "Payroll file PAY-SEP-2026 – 1 rejected transfer",
+    "date": "Sun, 27 Sep · 12:40",
+    "body": [
+     "Dear Sir/Madam,",
+     "Your payroll file PAY-SEP-2026 (212 transfers, total EGP 3,412,800) was processed with value date 29 September.",
+     "211 transfers were successful. One transfer was rejected: employee ID 1047, Mr. Mahmoud Adel, EGP 14,650. Reason: invalid account number.",
+     "Please send the correct account details before 1 pm on Monday 28 September to keep the same value date.",
+     "Kind regards,\nRania Fouad\nCorporate Payroll Services\nNile Commercial Bank"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Payroll file PAY-SEP-2026 – 1 rejected transfer",
+    "date": "Sun, 27 Sep · 15:10",
+    "task": "اشكر البنك، ابعت رقم الحساب الصح للموظف، واطلب نفس تاريخ القيمة.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening line",
+      "opts": [
+       "Why you rejected the transfer?",
+       "Thank you for your email and for processing the payroll file.",
+       "OK received."
+      ],
+      "a": 1,
+      "why": "تبدأ بشكر مهني قبل الطلب؛ الأولى فيها اتهام وغلط نحوي."
+     },
+     {
+      "type": "gap",
+      "sentence": "We checked with Mr. Mahmoud Adel, and one ___ was missing from his account number.",
+      "opts": [
+       "number letter",
+       "digit",
+       "cipher"
+      ],
+      "a": 1,
+      "why": "‎digit‎ = رقم واحد من الأرقام."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "We checked with Mr. Mahmoud Adel, and one digit was missing from his account number.",
+       "The correct account number is 1002 4587 3316 0 at your Heliopolis branch.",
+       "Could you please process the transfer of EGP 14,650 with the same value date, 29 September?"
+      ],
+      "why": "السبب، بعدين البيانات الصح، بعدين الطلب."
+     }
+    ],
+    "body": [
+     "Dear Ms. Rania,",
+     "Thank you for your email and for processing the payroll file.",
+     "We checked with Mr. Mahmoud Adel, and one digit was missing from his account number. The correct account number is 1002 4587 3316 0 at your Heliopolis branch.",
+     "Could you please process the transfer of EGP 14,650 with the same value date, 29 September? I have attached a copy of his bank card for your reference.",
+     "Please let me know if you need anything else.",
+     "Best regards,\n<Your name>\nPayroll Accountant | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Rania Fouad — Nile Commercial Bank",
+    "subject": "RE: Payroll file PAY-SEP-2026 – 1 rejected transfer",
+    "date": "Mon, 28 Sep · 09:25",
+    "body": [
+     "Dear Sir,",
+     "Thank you for the details. Unfortunately, we cannot change payroll data based on an email only.",
+     "We need a signed instruction letter from one of your authorised signatories, with the company stamp, showing the employee name, the correct account number and the amount.",
+     "If we receive it before 1 pm today, the salary will be credited on 29 September.",
+     "Kind regards,\nRania Fouad"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Payroll file PAY-SEP-2026 – 1 rejected transfer",
+    "date": "Mon, 28 Sep · 11:05",
+    "task": "ابعت خطاب التعليمات الموقّع قبل الساعة 1 واطلب تأكيد التنفيذ.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening line",
+      "opts": [
+       "Please find attached the signed instruction letter, as requested.",
+       "I attach you the paper you want.",
+       "This is the letter, do it fast please."
+      ],
+      "a": 0,
+      "why": "‎Please find attached‎ … ‎as requested‎ هي الصيغة المعتادة لإرسال مستند."
+     },
+     {
+      "type": "gap",
+      "sentence": "The letter is signed by Mr. Hany Zaki, our Finance Director, and ___ with the company stamp.",
+      "opts": [
+       "stamped",
+       "printed",
+       "closed"
+      ],
+      "a": 0,
+      "why": "‎stamped‎ = مختوم بختم الشركة."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Please find attached the signed instruction letter, as requested.",
+       "The letter is signed by Mr. Hany Zaki, our Finance Director, and stamped with the company stamp.",
+       "The original will be delivered to your branch by our courier this afternoon.",
+       "Could you kindly confirm once the transfer is done?"
+      ],
+      "why": "المرفق، تفاصيله، الأصل، وبعدين طلب التأكيد في الآخر."
+     }
+    ],
+    "body": [
+     "Dear Ms. Rania,",
+     "Please find attached the signed instruction letter, as requested.",
+     "The letter is signed by Mr. Hany Zaki, our Finance Director, and stamped with the company stamp. It shows Mr. Mahmoud Adel, account number 1002 4587 3316 0 and the amount of EGP 14,650.",
+     "The original will be delivered to your branch by our courier this afternoon.",
+     "Could you kindly confirm once the transfer is done? The employee is waiting for his salary.",
+     "Thank you for your help.",
+     "Best regards,\n<Your name>\nPayroll Accountant | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "Thank you for processing the payroll file",
+    "شكرًا على تنفيذ ملف المرتبات"
+   ],
+   [
+    "One digit was missing from…",
+    "كان فيه رقم ناقص من…"
+   ],
+   [
+    "with the same value date",
+    "بنفس تاريخ القيمة"
+   ],
+   [
+    "Please find attached …, as requested",
+    "مرفق … زي ما طلبتوا"
+   ],
+   [
+    "The original will be delivered to your branch",
+    "الأصل هيتسلّم للفرع"
+   ],
+   [
+    "Could you kindly confirm once … is done?",
+    "ممكن تأكدوا لما … يخلص؟"
+   ]
+  ],
+  "glossary": [
+   [
+    "payroll file",
+    "ملف المرتبات"
+   ],
+   [
+    "value date",
+    "تاريخ القيمة (يوم وصول الفلوس)"
+   ],
+   [
+    "rejected transfer",
+    "تحويل مرفوض"
+   ],
+   [
+    "authorised signatory",
+    "المفوّض بالتوقيع"
+   ],
+   [
+    "instruction letter",
+    "خطاب تعليمات للبنك"
+   ],
+   [
+    "cut-off time",
+    "آخر ميعاد لتنفيذ العمليات"
+   ]
+  ]
+ },
+ {
+  "id": "s4e3",
+  "season": "s4",
+  "title": "Salary advance request",
+  "ar": "طلب سلفة على المرتب",
+  "field": "HR · Payroll",
+  "icon": "🤝",
+  "scene": "A service technician asks for a salary advance for a family emergency. The amount is higher than company policy allows. You must explain the policy kindly, offer a solution, and then send the approval.",
+  "sceneAr": "فني صيانة طالب سلفة عشان ظرف عائلي. المبلغ أكبر من المسموح في سياسة الشركة، فلازم تشرح السياسة بلطف وتقترح حل وبعدين تبعت الموافقة.",
+  "thread": [
+   {
+    "dir": "in",
+    "from": "Mr. Ahmed Ragab — NPS Service",
+    "subject": "Request for salary advance",
+    "date": "Wed, 30 Sep · 08:50",
+    "body": [
+     "Dear Accounts team,",
+     "I would like to request a salary advance of EGP 30,000. My mother needs an operation next week and the hospital asked for payment in advance.",
+     "I can repay the amount from my salary over six months.",
+     "I am sorry for the short notice. Please tell me what I need to do.",
+     "Thank you,\nAhmed Ragab\nService Technician, Maintenance Dept."
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Request for salary advance",
+    "date": "Wed, 30 Sep · 11:30",
+    "task": "اتعاطف معاه، اشرح السياسة (بحد أقصى شهرين من الأساسي و6 أقساط)، واقترح مبلغ وخطوات.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening line",
+      "opts": [
+       "Your request is refused because of the policy.",
+       "I am sorry to hear about your mother, and I hope the operation goes well.",
+       "We received your mail about the money problem."
+      ],
+      "a": 1,
+      "why": "تبدأ بتعاطف إنساني قبل ما تدخل في السياسة؛ الأولى ناشفة وغلط."
+     },
+     {
+      "type": "gap",
+      "sentence": "According to our policy, a salary advance can be up to two months of basic ___.",
+      "opts": [
+       "salary",
+       "payment",
+       "money"
+      ],
+      "a": 0,
+      "why": "‎basic salary‎ = المرتب الأساسي، تعبير ثابت."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "According to our policy, a salary advance can be up to two months of basic salary.",
+       "In your case, this is EGP 24,000, repaid in six monthly instalments of EGP 4,000.",
+       "If this works for you, please fill in the attached advance form and ask Eng. Mostafa to sign it."
+      ],
+      "why": "القاعدة، تطبيقها عليه، وبعدين الخطوة الجاية."
+     }
+    ],
+    "body": [
+     "Dear Ahmed,",
+     "I am sorry to hear about your mother, and I hope the operation goes well.",
+     "According to our policy, a salary advance can be up to two months of basic salary. In your case, this is EGP 24,000, repaid in six monthly instalments of EGP 4,000.",
+     "If this works for you, please fill in the attached advance form and ask Eng. Mostafa to sign it. Once we receive it, Ms. Nadia Hassan can approve it the same day.",
+     "Please let me know if you have any questions.",
+     "Best regards,\n<Your name>\nPayroll Accountant | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Ahmed Ragab — NPS Service",
+    "subject": "RE: Request for salary advance",
+    "date": "Wed, 30 Sep · 15:15",
+    "body": [
+     "Dear Sir,",
+     "Thank you very much for your quick reply. EGP 24,000 is fine, and my family will cover the rest.",
+     "Please find attached the form, signed by Eng. Mostafa Saleh, Service Manager.",
+     "Can the money be transferred before Sunday? The operation is on Monday 5 October, and the hospital needs the payment one day before.",
+     "Many thanks,\nAhmed Ragab"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Request for salary advance – approved",
+    "date": "Thu, 1 Oct · 10:40",
+    "task": "ابعت إيميل الموافقة: المبلغ، ميعاد التحويل، وجدول خصم الأقساط، مع نسخة لنادية.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening line",
+      "opts": [
+       "Congrats!! You got the money :)",
+       "We accepted to give you the advance after discussion.",
+       "Good news, your advance has been approved."
+      ],
+      "a": 2,
+      "why": "إيجابية ومهنية؛ التانية كاجوال زيادة والتالتة ترجمة حرفية."
+     },
+     {
+      "type": "gap",
+      "sentence": "The amount of EGP 24,000 will be ___ to your salary account on Saturday 3 October.",
+      "opts": [
+       "moved",
+       "sent out",
+       "transferred"
+      ],
+      "a": 2,
+      "why": "‎transferred to your account‎ هي الصيغة البنكية المعتادة."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "The amount of EGP 24,000 will be transferred to your salary account on Saturday 3 October.",
+       "EGP 4,000 will be deducted from your salary each month, from October 2026 to March 2027.",
+       "You will see the deduction on your payslip as \"Salary advance\"."
+      ],
+      "why": "التحويل، بعدين الخصم، بعدين إزاي هيظهر في قسيمة المرتب."
+     },
+     {
+      "type": "gap",
+      "sentence": "We wish your mother a quick ___.",
+      "opts": [
+       "recovery",
+       "healing time",
+       "getting better"
+      ],
+      "a": 0,
+      "why": "‎a quick recovery‎ تعبير ثابت للتمني بالشفاء."
+     }
+    ],
+    "body": [
+     "Dear Ahmed,",
+     "Good news, your advance has been approved.",
+     "The amount of EGP 24,000 will be transferred to your salary account on Saturday 3 October. EGP 4,000 will be deducted from your salary each month, from October 2026 to March 2027.",
+     "You will see the deduction on your payslip as \"Salary advance\". Our reference for this advance is ADV-2026-014.",
+     "We wish your mother a quick recovery.",
+     "Best regards,\n<Your name>\nPayroll Accountant | Nile Power Solutions\n\nCc: Ms. Nadia Hassan, Chief Accountant"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "I am sorry to hear about…",
+    "آسف إني أسمع عن…"
+   ],
+   [
+    "According to our policy,…",
+    "حسب سياسة الشركة،…"
+   ],
+   [
+    "repaid in six monthly instalments",
+    "بيتسدد على ست أقساط شهرية"
+   ],
+   [
+    "If this works for you,…",
+    "لو ده مناسب لك،…"
+   ],
+   [
+    "Good news, your … has been approved",
+    "أخبار حلوة، … بتاعك اتوافق عليه"
+   ],
+   [
+    "will be deducted from your salary each month",
+    "هيتخصم من مرتبك كل شهر"
+   ],
+   [
+    "We wish … a quick recovery",
+    "بنتمنى لـ… الشفا العاجل"
+   ]
+  ],
+  "glossary": [
+   [
+    "salary advance",
+    "سلفة على المرتب"
+   ],
+   [
+    "basic salary",
+    "المرتب الأساسي"
+   ],
+   [
+    "instalment",
+    "قسط"
+   ],
+   [
+    "deduction",
+    "خصم"
+   ],
+   [
+    "payslip",
+    "قسيمة المرتب"
+   ]
+  ]
+ },
+ {
+  "id": "s4e4",
+  "season": "s4",
+  "title": "Bank letter & signatories",
+  "ar": "خطاب بنك وتحديث المفوضين بالتوقيع",
+  "field": "Treasury · Bank",
+  "icon": "📝",
+  "scene": "The Finance Director asks you to get an account statement and a bank letter for a hospital tender, and to update the authorised signatories. The bank replies that some documents are missing, and the tender deadline is close.",
+  "sceneAr": "المدير المالي طلب منك كشف حساب وخطاب بنك لمناقصة المستشفى، وكمان تحديث المفوضين بالتوقيع. البنك رد إن فيه ورق ناقص، وميعاد المناقصة قرّب.",
+  "thread": [
+   {
+    "dir": "in",
+    "from": "Mr. Hany Zaki — NPS Finance",
+    "subject": "Bank documents – Horizon Hospital tender",
+    "date": "Sun, 4 Oct · 09:30",
+    "body": [
+     "Hi,",
+     "For the Horizon Hospital tender (closing 12 October) we need a bank letter confirming our account and good standing, plus the account statement for July–September.",
+     "Also, please ask the bank to update our authorised signatories: add Ms. Nadia Hassan and remove Mr. Samy Wahba, who left the company last month.",
+     "Please send the request today and copy me. The bank usually needs a few days, so we should not wait.",
+     "Thanks,\nHany"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Request: bank letter, statement and update of signatories – A/C 1002 3390 118",
+    "date": "Sun, 4 Oct · 11:00",
+    "task": "اكتب للمسؤول في البنك: اطلب خطاب وكشف حساب وتحديث المفوضين، ووضّح الميعاد.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening line",
+      "opts": [
+       "I hope you are well. I am writing to request three items for our account no. 1002 3390 118.",
+       "We want some papers from the bank quickly.",
+       "Kindly do the needful for our account."
+      ],
+      "a": 0,
+      "why": "واضحة ومحددة برقم الحساب؛ ‎do the needful‎ قديمة ومش واضحة."
+     },
+     {
+      "type": "gap",
+      "sentence": "A bank letter confirming that our account is in good ___, addressed to Horizon Hospital.",
+      "opts": [
+       "position",
+       "standing",
+       "situation"
+      ],
+      "a": 1,
+      "why": "‎in good standing‎ = الحساب سليم ومفيش عليه مشاكل، تعبير ثابت."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "A bank letter confirming that our account is in good standing, addressed to Horizon Hospital.",
+       "The account statement for July, August and September 2026.",
+       "An update of our authorised signatories: adding Ms. Nadia Hassan and removing Mr. Samy Wahba."
+      ],
+      "why": "نفس ترتيب طلب المدير: الخطاب، الكشف، بعدين المفوضين."
+     }
+    ],
+    "body": [
+     "Dear Mr. Omar,",
+     "I hope you are well. I am writing to request three items for our account no. 1002 3390 118:",
+     "1) A bank letter confirming that our account is in good standing, addressed to Horizon Hospital.\n2) The account statement for July, August and September 2026.\n3) An update of our authorised signatories: adding Ms. Nadia Hassan and removing Mr. Samy Wahba.",
+     "We need the letter and statement by 8 October for a tender. Could you please tell us which documents you need for the signatory change?",
+     "Best regards,\n<Your name>\nTreasury Accountant | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Omar Sabry — Nile Commercial Bank",
+    "subject": "RE: Request: bank letter, statement and update of signatories – A/C 1002 3390 118",
+    "date": "Mon, 5 Oct · 10:10",
+    "body": [
+     "Dear Sir,",
+     "The statement and the bank letter will be ready within two working days.",
+     "For the signatory change, we need: a board resolution signed by the chairman, a copy of Ms. Nadia's national ID, a commercial register extract issued less than 3 months ago, and Ms. Nadia must sign the specimen signature card at the branch.",
+     "Also, the bank letter fee is EGP 250, which will be debited from your account.",
+     "Best regards,\nOmar Sabry\nRelationship Manager"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Request: bank letter, statement and update of signatories – A/C 1002 3390 118",
+    "date": "Mon, 5 Oct · 13:45",
+    "task": "ابعت الورق الموجود، قول إمتى الناقص هيوصل، حدد ميعاد لنادية في الفرع، وأكّد على ميعاد الخطاب.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "How do you explain the missing document?",
+      "opts": [
+       "The commercial register is not with us, sorry, we can't.",
+       "We have requested a new commercial register extract, and we expect to send it to you by 8 October.",
+       "Commercial register later, don't worry."
+      ],
+      "a": 1,
+      "why": "بتقول عملت إيه وإمتى هيوصل؛ ده بيطمّن البنك."
+     },
+     {
+      "type": "gap",
+      "sentence": "Please find attached the board resolution and a copy of Ms. Nadia's national ___.",
+      "opts": [
+       "ID",
+       "card identity",
+       "paper"
+      ],
+      "a": 0,
+      "why": "‎national ID‎ = البطاقة الشخصية."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Please find attached the board resolution and a copy of Ms. Nadia's national ID.",
+       "We have requested a new commercial register extract, and we expect to send it to you by 8 October.",
+       "Ms. Nadia can visit the branch on Tuesday 6 October at 11 am to sign the specimen card.",
+       "Meanwhile, could you please release the bank letter and the statement, as they are not linked to the signatory change?"
+      ],
+      "why": "اللي معاك، اللي ناقص، الزيارة، وبعدين الطلب المهم في الآخر."
+     }
+    ],
+    "body": [
+     "Dear Mr. Omar,",
+     "Thank you for the quick reply.",
+     "Please find attached the board resolution and a copy of Ms. Nadia's national ID. We have requested a new commercial register extract, and we expect to send it to you by 8 October.",
+     "Ms. Nadia can visit the branch on Tuesday 6 October at 11 am to sign the specimen card. Please confirm if this time suits you.",
+     "Meanwhile, could you please release the bank letter and the statement, as they are not linked to the signatory change? We agree to the EGP 250 fee.",
+     "Best regards,\n<Your name>\nTreasury Accountant | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "I am writing to request…",
+    "بكتب لحضرتك عشان أطلب…"
+   ],
+   [
+    "a bank letter confirming that…",
+    "خطاب من البنك بيأكد إن…"
+   ],
+   [
+    "Could you please tell us which documents you need?",
+    "ممكن تقولولنا محتاجين أنهي مستندات؟"
+   ],
+   [
+    "We expect to send it to you by…",
+    "متوقعين نبعتهولكم قبل…"
+   ],
+   [
+    "Please confirm if this time suits you",
+    "ياريت تأكد لو الميعاد ده مناسب"
+   ],
+   [
+    "Meanwhile, could you please release…",
+    "وفي نفس الوقت، ممكن تطلّعوا…"
+   ]
+  ],
+  "glossary": [
+   [
+    "account statement",
+    "كشف حساب"
+   ],
+   [
+    "in good standing",
+    "الحساب سليم ومنتظم"
+   ],
+   [
+    "authorised signatories",
+    "المفوضين بالتوقيع"
+   ],
+   [
+    "board resolution",
+    "قرار مجلس الإدارة"
+   ],
+   [
+    "commercial register extract",
+    "مستخرج السجل التجاري"
+   ],
+   [
+    "specimen signature card",
+    "كارت نموذج التوقيع"
+   ]
+  ]
+ },
+ {
+  "id": "s4e5",
+  "season": "s4",
+  "title": "Early payment to a supplier",
+  "ar": "طلب دفع فاتورة مورد بدري",
+  "field": "Accounts payable · Purchasing",
+  "icon": "💶",
+  "scene": "Purchasing asks you to pay an Italian supplier's invoice now, although the payment terms are 60 days, because the supplier offers a discount. You need the right documents and approval, and then you find that not all goods were received.",
+  "sceneAr": "المشتريات طالبين تدفع فاتورة مورد إيطالي دلوقتي رغم إن شروط الدفع 60 يوم، عشان المورد عارض خصم. محتاج الورق والموافقة، وبعدين تكتشف إن البضاعة موصلتش كلها.",
+  "thread": [
+   {
+    "dir": "in",
+    "from": "Mr. Amr Lotfy — NPS Purchasing",
+    "subject": "Urgent: early payment – EuroDrive invoice INV-ED-2291",
+    "date": "Thu, 1 Oct · 10:20",
+    "body": [
+     "Hi,",
+     "Can you please pay EuroDrive invoice INV-ED-2291 (EUR 18,400) this week?",
+     "Our terms are 60 days, but Mr. Marco Bianchi offers a 2% discount if we pay within 10 days. He also promised to ship our next order of VFDs one week earlier.",
+     "The drives are for the Delta Pharma project, so this is important for sales.",
+     "Thanks,\nAmr Lotfy\nPurchasing Officer"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Urgent: early payment – EuroDrive invoice INV-ED-2291",
+    "date": "Thu, 1 Oct · 12:05",
+    "task": "وافق مبدئيًا بس اطلب الورق: أمر الشراء، إذن الاستلام، تأكيد الخصم كتابةً، وموافقة المدير المالي.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening line",
+      "opts": [
+       "No, the terms are 60 days. Finish.",
+       "Thanks for your email. A 2% discount is a good offer, and we are happy to look at it.",
+       "Okay I will pay it now directly."
+      ],
+      "a": 1,
+      "why": "إيجابي من غير ما توعد بالدفع قبل الورق والموافقة."
+     },
+     {
+      "type": "gap",
+      "sentence": "Before we can pay ahead of the due ___, I need the following:",
+      "opts": [
+       "date",
+       "day time",
+       "limit"
+      ],
+      "a": 0,
+      "why": "‎due date‎ = تاريخ الاستحقاق."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Before we can pay ahead of the due date, I need the following:",
+       "Once I have these, I will ask Mr. Hany Zaki to approve the early payment.",
+       "If everything is complete by Sunday, we can pay on Tuesday 6 October."
+      ],
+      "why": "المطلوب، بعدين الموافقة، بعدين ميعاد الدفع المتوقع."
+     }
+    ],
+    "body": [
+     "Hi Amr,",
+     "Thanks for your email. A 2% discount is a good offer, and we are happy to look at it.",
+     "Before we can pay ahead of the due date, I need the following:\n- PO-2026-142 and the goods received note (GRN)\n- Mr. Marco's written confirmation of the 2% discount",
+     "Once I have these, I will ask Mr. Hany Zaki to approve the early payment. If everything is complete by Sunday, we can pay on Tuesday 6 October.",
+     "Best regards,\n<Your name>\nAccountant | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Amr Lotfy — NPS Purchasing",
+    "subject": "RE: Urgent: early payment – EuroDrive invoice INV-ED-2291",
+    "date": "Sun, 4 Oct · 09:40",
+    "body": [
+     "Hi,",
+     "Attached are PO-2026-142, GRN-0931 and Marco's email confirming the 2% discount.",
+     "One small point: the GRN shows 18 drives received, not 20. Youssef says two drives are still with FastClear at Alexandria port because of a customs document. Marco says they will arrive next week.",
+     "Can we still pay the full invoice? Marco says the discount is only valid until 9 October.",
+     "Amr"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Urgent: early payment – EuroDrive invoice INV-ED-2291",
+    "date": "Sun, 4 Oct · 12:30",
+    "task": "وضّح إنك هتدفع بس اللي اتستلم (18 درايف) بعد الخصم، والباقي لما يوصل، واطلب فاتورة معدّلة.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "How do you say no to the full payment?",
+      "opts": [
+       "Of course not, we are not stupid.",
+       "I'm afraid we can only pay for the goods we have received.",
+       "Full payment is not possible because Youssef made a mistake."
+      ],
+      "a": 1,
+      "why": "‎I‎'‎m afraid‎ بترفض بأدب ومن غير ما تلوم حد."
+     },
+     {
+      "type": "gap",
+      "sentence": "Mr. Hany has ___ an early payment for 18 drives, which is EUR 16,560.",
+      "opts": [
+       "agreed",
+       "accepted on",
+       "approved"
+      ],
+      "a": 2,
+      "why": "‎approve‎ + مفعول مباشر = وافق على (من غير ‎on‎)."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Mr. Hany has approved an early payment for 18 drives, which is EUR 16,560.",
+       "After the 2% discount, we will transfer EUR 16,228.80 on Tuesday 6 October.",
+       "We will pay the remaining two drives when Youssef confirms delivery."
+      ],
+      "why": "الموافقة، بعدين المبلغ بعد الخصم، بعدين الباقي."
+     },
+     {
+      "type": "gap",
+      "sentence": "Could you please ask Mr. Marco to send us a revised invoice for the ___ amount?",
+      "opts": [
+       "partial",
+       "half",
+       "cut"
+      ],
+      "a": 0,
+      "why": "‎partial amount‎ = مبلغ جزئي."
+     }
+    ],
+    "body": [
+     "Hi Amr,",
+     "Thanks for the documents. I'm afraid we can only pay for the goods we have received.",
+     "Mr. Hany has approved an early payment for 18 drives, which is EUR 16,560. After the 2% discount, we will transfer EUR 16,228.80 on Tuesday 6 October.",
+     "We will pay the remaining two drives when Youssef confirms delivery.",
+     "Could you please ask Mr. Marco to send us a revised invoice for the partial amount? The bank will need it for the transfer.",
+     "Best regards,\n<Your name>\nAccountant | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "We are happy to look at it",
+    "يسعدنا ندرسه"
+   ],
+   [
+    "Before we can pay ahead of the due date,…",
+    "قبل ما نقدر ندفع قبل ميعاد الاستحقاق،…"
+   ],
+   [
+    "Once I have these, I will…",
+    "أول ما يكون معايا ده، هـ…"
+   ],
+   [
+    "I'm afraid we can only pay for…",
+    "للأسف نقدر ندفع بس تمن…"
+   ],
+   [
+    "has approved an early payment",
+    "وافق على دفع مبكر"
+   ],
+   [
+    "a revised invoice for the partial amount",
+    "فاتورة معدّلة بالمبلغ الجزئي"
+   ]
+  ],
+  "glossary": [
+   [
+    "payment terms",
+    "شروط الدفع"
+   ],
+   [
+    "early payment discount",
+    "خصم تعجيل الدفع"
+   ],
+   [
+    "due date",
+    "تاريخ الاستحقاق"
+   ],
+   [
+    "goods received note (GRN)",
+    "إذن استلام بضاعة"
+   ],
+   [
+    "purchase order (PO)",
+    "أمر شراء"
+   ],
+   [
+    "revised invoice",
+    "فاتورة معدّلة"
+   ]
+  ]
+ },
+ {
+  "id": "s4e6",
+  "season": "s4",
+  "title": "Month-end closing",
+  "ar": "قفلة آخر الشهر والتسويات",
+  "field": "Accounts · Closing",
+  "icon": "📅",
+  "scene": "The Chief Accountant needs to close September by 5 October. Some departments have not sent their invoices and reports yet. You must chase them politely and handle a stock difference from the warehouse.",
+  "sceneAr": "رئيسة الحسابات لازم تقفل شهر سبتمبر قبل 5 أكتوبر، وفيه إدارات لسه مبعتتش الفواتير والتقارير. لازم تتابع معاهم بأدب وتتعامل مع فرق في جرد المخزن.",
+  "thread": [
+   {
+    "dir": "in",
+    "from": "Ms. Nadia Hassan — NPS Accounts",
+    "subject": "September closing – missing documents",
+    "date": "Wed, 30 Sep · 16:20",
+    "body": [
+     "Hi,",
+     "We must close September and send the reports to Mr. Hany by Monday 5 October.",
+     "We are still missing: supplier invoices from Purchasing (at least 7), signed service job cards from Maintenance for the Horizon Hospital contract, and the month-end stock count from the Warehouse.",
+     "Please chase the three departments tomorrow morning and give them a clear deadline.",
+     "Thanks,\nNadia"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Reminder: September closing – documents needed by Thursday 2 Oct",
+    "date": "Thu, 1 Oct · 09:10",
+    "task": "اكتب تذكير مهذب لرؤساء الإدارات التلاتة: مين محتاج يبعت إيه، والميعاد النهائي، ولماذا.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening line",
+      "opts": [
+       "You are late again with the documents.",
+       "This is a friendly reminder that we are closing the September accounts this week.",
+       "Send me everything now please."
+      ],
+      "a": 1,
+      "why": "‎friendly reminder‎ بتتابع من غير ما تلوم حد."
+     },
+     {
+      "type": "gap",
+      "sentence": "Could you please send the following documents by Thursday 2 October at 3 pm at the ___?",
+      "opts": [
+       "latest",
+       "maximum",
+       "last"
+      ],
+      "a": 0,
+      "why": "‎at the latest‎ = بحد أقصى (للمواعيد)."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "This is a friendly reminder that we are closing the September accounts this week.",
+       "Could you please send the following documents by Thursday 2 October at 3 pm at the latest?",
+       "If any document will be late, please let me know today so we can plan around it."
+      ],
+      "why": "السبب، الطلب والميعاد، وبعدين باب مفتوح للمشاكل."
+     }
+    ],
+    "body": [
+     "Dear colleagues,",
+     "This is a friendly reminder that we are closing the September accounts this week.",
+     "Could you please send the following documents by Thursday 2 October at 3 pm at the latest?\n- Purchasing: all September supplier invoices (7 are still missing)\n- Maintenance: signed job cards for the Horizon Hospital contract\n- Warehouse: the month-end stock count sheets",
+     "If any document will be late, please let me know today so we can plan around it.",
+     "Thank you for your support.",
+     "Best regards,\n<Your name>\nAccountant | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Youssef Gamal — NPS Warehouse",
+    "subject": "RE: Reminder: September closing – documents needed by Thursday 2 Oct",
+    "date": "Thu, 1 Oct · 13:35",
+    "body": [
+     "Hi,",
+     "The stock count is done, but there is a difference: the system shows 148 batteries 12V 100Ah and we counted 145.",
+     "I think the 3 units went to the Horizon Hospital site without a delivery note. I am checking with the service team.",
+     "Can I send the count sheets on Sunday after I find the answer? I don't want to send a report with a difference that I cannot explain.",
+     "Youssef"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Reminder: September closing – documents needed by Thursday 2 Oct",
+    "date": "Thu, 1 Oct · 14:20",
+    "task": "اشكره، اطلب الكشوف في الميعاد مع ملاحظة الفرق، واقترح حل للتلات وحدات من غير ما تأخر القفلة.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening line",
+      "opts": [
+       "Why is there a difference in your stock?",
+       "Sunday is too late, sorry.",
+       "Thanks for the update, and well done for finding the difference early."
+      ],
+      "a": 2,
+      "why": "بتشكره الأول عشان يفضل متعاون؛ التانية فيها لوم."
+     },
+     {
+      "type": "gap",
+      "sentence": "We can record the 3 batteries as a pending ___ item and close the month on time.",
+      "opts": [
+       "matching",
+       "reconciliation",
+       "settlement"
+      ],
+      "a": 1,
+      "why": "‎reconciliation‎ = تسوية/مطابقة، الكلمة المحاسبية المظبوطة."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Please send the count sheets tomorrow by 12 noon, with a short note about the difference.",
+       "We can record the 3 batteries as a pending reconciliation item and close the month on time.",
+       "Once the service team confirms, please ask them to issue the missing delivery note."
+      ],
+      "why": "المطلوب منه دلوقتي، الحل المحاسبي، وبعدين الخطوة اللي بعدها."
+     }
+    ],
+    "body": [
+     "Hi Youssef,",
+     "Thanks for the update, and well done for finding the difference early.",
+     "Please send the count sheets tomorrow by 12 noon, with a short note about the difference. We can record the 3 batteries as a pending reconciliation item and close the month on time.",
+     "Once the service team confirms, please ask them to issue the missing delivery note. We will then charge the batteries to the Horizon Hospital contract.",
+     "Thanks again for your help.",
+     "Best regards,\n<Your name>\nAccountant | Nile Power Solutions\n\nCc: Ms. Nadia Hassan"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "This is a friendly reminder that…",
+    "ده تذكير ودّي إن…"
+   ],
+   [
+    "by … at the latest",
+    "بحد أقصى يوم…"
+   ],
+   [
+    "If any document will be late, please let me know",
+    "لو فيه أي مستند هيتأخر، ياريت تبلغني"
+   ],
+   [
+    "so we can plan around it",
+    "عشان نقدر نرتب نفسنا"
+   ],
+   [
+    "well done for finding … early",
+    "برافو إنك لقيت … بدري"
+   ],
+   [
+    "close the month on time",
+    "نقفل الشهر في ميعاده"
+   ],
+   [
+    "Thank you for your support",
+    "شكرًا على تعاونكم"
+   ]
+  ],
+  "glossary": [
+   [
+    "month-end closing",
+    "قفلة آخر الشهر"
+   ],
+   [
+    "reconciliation",
+    "تسوية / مطابقة"
+   ],
+   [
+    "stock count",
+    "جرد المخزن"
+   ],
+   [
+    "job card",
+    "أمر شغل / كارت الشغلانة"
+   ],
+   [
+    "delivery note",
+    "إذن تسليم"
+   ],
+   [
+    "pending item",
+    "بند معلّق"
+   ]
+  ]
+ }
+]

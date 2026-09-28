@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "suitability",
+   "pos": "noun",
+   "ar": "مدى المناسبة / الملاءمة",
+   "def": "how right or appropriate something is for a particular need or purpose.",
+   "book": "We recently discovered your ___ and are interested in gathering more information to help us evaluate its suitability for our needs.",
+   "uses": [
+    [
+     "Email",
+     "Before we order, we need to confirm the suitability of the batteries for high-temperature sites."
+    ],
+    [
+     "Chat",
+     "can you check the suitability of this VFD for a 75 kW pump?"
+    ],
+    [
+     "Meeting",
+     "Our engineer will assess the site's suitability for rooftop solar."
+    ]
+   ],
+   "goes": [
+    "evaluate the suitability",
+    "suitability for …",
+    "assess suitability"
+   ],
+   "dont": [
+    "We want to know if it is suitable or no suitable for us."
+   ],
+   "doo": [
+    "We'd like to evaluate its suitability for our needs."
+   ],
+   "level": 3
+  },
+  {
+   "w": "bulk",
+   "pos": "noun / adjective",
+   "ar": "بالجملة / كميات كبيرة",
+   "def": "a large quantity — buying lots of the same item, usually at a lower price.",
+   "book": "2. Pricing details, including any available discounts, packages or special offers for bulk purchases.",
+   "uses": [
+    [
+     "Email",
+     "We can offer an 8% discount on bulk orders of 100 batteries or more."
+    ],
+    [
+     "Chat",
+     "do we have bulk pricing for 12V 100Ah?"
+    ],
+    [
+     "Meeting",
+     "If they buy in bulk, we can absorb the shipping cost."
+    ]
+   ],
+   "goes": [
+    "bulk purchases",
+    "buy in bulk",
+    "a bulk discount"
+   ],
+   "dont": [
+    "If you buy a big amount together, we make you discount."
+   ],
+   "doo": [
+    "We offer a discount for bulk purchases."
+   ],
+   "level": 2
+  },
+  {
+   "w": "time frame",
+   "pos": "noun",
+   "ar": "المدة الزمنية / الإطار الزمني",
+   "def": "the period of time in which something is planned to happen.",
+   "book": "3. Estimated delivery or implementation time frames, as well as any associated shipping or set-up costs.",
+   "uses": [
+    [
+     "Email",
+     "Could you confirm the delivery time frame for the 200 kVA UPS?"
+    ],
+    [
+     "Chat",
+     "what's the time frame for the install?"
+    ],
+    [
+     "Meeting",
+     "The time frame for commissioning is three weeks from delivery."
+    ]
+   ],
+   "goes": [
+    "a tight time frame",
+    "within the time frame",
+    "delivery time frame"
+   ],
+   "dont": [
+    "What is the time the delivery will take it?"
+   ],
+   "doo": [
+    "What's the delivery time frame?"
+   ],
+   "level": 2
+  },
+  {
+   "w": "warranty",
+   "pos": "noun",
+   "ar": "الضمان",
+   "def": "a written promise to repair or replace a product if it fails within a certain period.",
+   "book": "4. Information regarding warranty, support and maintenance services, if applicable.",
+   "uses": [
+    [
+     "Email",
+     "All inverters come with a five-year manufacturer's warranty."
+    ],
+    [
+     "Chat",
+     "is this unit still under warranty?"
+    ],
+    [
+     "Meeting",
+     "The failure isn't covered by the warranty because the room had no AC."
+    ]
+   ],
+   "goes": [
+    "under warranty",
+    "extend the warranty",
+    "a warranty claim"
+   ],
+   "dont": [
+    "The UPS is inside the guarantee."
+   ],
+   "doo": [
+    "The UPS is still under warranty."
+   ],
+   "level": 2
+  },
+  {
+   "w": "momentum",
+   "pos": "noun",
+   "ar": "الزخم / الحماس اللي شغال",
+   "def": "the energy or progress that keeps something moving forward.",
+   "book": "To keep the momentum going, I would like to propose the following next steps: ___.",
+   "uses": [
+    [
+     "Email",
+     "To keep the momentum going, I've attached a draft schedule for the site survey."
+    ],
+    [
+     "Chat",
+     "great meeting today — let's keep the momentum 💪"
+    ],
+    [
+     "Meeting",
+     "We lost momentum on this tender when the client changed the specs."
+    ]
+   ],
+   "goes": [
+    "keep the momentum going",
+    "build momentum",
+    "lose momentum"
+   ],
+   "dont": [
+    "Let's continue the hot of the meeting."
+   ],
+   "doo": [
+    "Let's keep the momentum going."
+   ],
+   "level": 2
+  },
+  {
+   "w": "proceed",
+   "pos": "verb",
+   "ar": "يكمّل / يمشي في الموضوع",
+   "def": "to continue with something, or to go ahead and start it.",
+   "book": "If you have any questions or wish to proceed, feel free to contact me at ___.",
+   "uses": [
+    [
+     "Email",
+     "Once we receive the signed PO, we'll proceed with the order."
+    ],
+    [
+     "Chat",
+     "client approved, ok to proceed?"
+    ],
+    [
+     "Meeting",
+     "Shall we proceed with the installation next week?"
+    ]
+   ],
+   "goes": [
+    "proceed with the order",
+    "wish to proceed",
+    "before we proceed"
+   ],
+   "dont": [
+    "If you are okay, we will go on the order."
+   ],
+   "doo": [
+    "If you're happy with the quote, we'll proceed with the order."
+   ],
+   "level": 3
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "I want the price of the UPS.",
+   "ar": "عايز سعر الـ UPS",
+   "pro": [
+    "Give me UPS price.",
+    "I want the price of the UPS quickly.",
+    "Could you kindly send us a quotation for the UPS?"
+   ],
+   "a": 2,
+   "why": "‎I want‎ ناشفة في الإيميل؛ ‎Could you kindly …‎ أشيك."
+  },
+  {
+   "plain": "I am Ahmed from company ABC for UPS.",
+   "ar": "أنا أحمد من شركة ABC للـ UPS",
+   "pro": [
+    "My name is Ahmed, and I'm an account manager at ABC Power Solutions.",
+    "I am Ahmed from company ABC for UPS.",
+    "Me Ahmed, ABC company, UPS."
+   ],
+   "a": 0,
+   "why": "عرّف نفسك بالاسم والوظيفة والشركة: ‎My name is … and I'm … at …‎."
+  },
+  {
+   "plain": "Kindly find attached the quotation.",
+   "ar": "مرفق عرض السعر",
+   "pro": [
+    "Kindly find attach quotation.",
+    "Please find the quotation attached.",
+    "Find attached the quotation kindly."
+   ],
+   "a": 1,
+   "why": "‎Please find … attached‎ هي الصيغة الطبيعية النهارده."
+  },
+  {
+   "plain": "I want to follow our meeting.",
+   "ar": "عايز أتابع على الاجتماع بتاعنا",
+   "pro": [
+    "I want to follow our meeting.",
+    "I follow you about the meeting.",
+    "I wanted to follow up on our meeting last Tuesday."
+   ],
+   "a": 2,
+   "why": "‎follow up on‎ = تتابع؛ ‎follow‎ لوحدها معناها تمشي ورا حد."
+  },
+  {
+   "plain": "If you agree, we will begin to make the order.",
+   "ar": "لو موافق هنبدأ نعمل الأوردر",
+   "pro": [
+    "If you agree, we begin to make the order.",
+    "If you're happy to proceed, we'll place the order.",
+    "If agree, order will be make."
+   ],
+   "a": 1,
+   "why": "‎place an order‎ و ‎proceed‎ هما الكلمات المستخدمة في المبيعات."
+  },
+  {
+   "plain": "Your offer maybe good together with us.",
+   "ar": "ممكن نشتغل مع بعض وتبقى حاجة كويسة",
+   "pro": [
+    "I believe there may be potential synergies between our companies.",
+    "Your offer maybe good together with us.",
+    "We can make together good things maybe."
+   ],
+   "a": 0,
+   "why": "‎potential synergies‎ = فرصة تعاون تفيد الطرفين، بصيغة مهنية."
+  }
+ ]
+}

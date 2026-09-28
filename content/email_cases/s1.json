@@ -1,0 +1,2102 @@
+[
+ {
+  "id": "s1e1",
+  "season": "s1",
+  "title": "Sending the quotation",
+  "ar": "إرسال عرض السعر",
+  "field": "Sales · UPS",
+  "icon": "🧾",
+  "scene": "Delta Pharma is opening a new QC lab and needs a 60 kVA UPS with batteries. Their Procurement Manager sends an RFQ. You send the quotation, then he asks about validity and delivery.",
+  "sceneAr": "شركة ‎Delta Pharma‎ بتفتح معمل ‎QC‎ جديد ومحتاجة ‎UPS‎ قدرة 60 ‎kVA‎ ببطاريات. مدير المشتريات بعت طلب عرض سعر، وانت هتبعت العرض وبعدين ترد على أسئلته عن مدة السريان والتوريد.",
+  "thread": [
+   {
+    "dir": "in",
+    "from": "Eng. Khaled Samir — Delta Pharma",
+    "subject": "RFQ – 60 kVA UPS for the QC lab",
+    "date": "Sun, 12 Oct · 10:14",
+    "body": [
+     "Dear NPS Sales Team,",
+     "We are upgrading the power backup for our new QC lab in 6th of October City. We need a 60 kVA online UPS with batteries for 30 minutes of backup at full load.",
+     "Please send us your best quotation, including installation, commissioning and warranty. Kindly mention the delivery time and payment terms.",
+     "We would appreciate your offer by Thursday, 16 October.",
+     "Best regards,\nKhaled Samir\nProcurement Manager\nDelta Pharma"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: RFQ – 60 kVA UPS for the QC lab",
+    "date": "Tue, 14 Oct · 15:40",
+    "task": "ابعت عرض السعر للعميل، واذكر أهم البنود باختصار: المحتويات، السعر، الضمان، وشروط الدفع.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening line",
+      "opts": [
+       "Kindly find the price down.",
+       "Thank you for your enquiry.",
+       "Hey Khaled, here's the price!"
+      ],
+      "a": 1,
+      "why": "‎Thank you for your enquiry‎ هي البداية المهنية المعتادة؛ الباقي يا ترجمة حرفية يا كاجوال زيادة."
+     },
+     {
+      "type": "gap",
+      "sentence": "Please find attached our ___ Q-2025-231 for the 60 kVA online UPS and battery bank.",
+      "opts": [
+       "quotation",
+       "price paper",
+       "offer list"
+      ],
+      "a": 0,
+      "why": "‎quotation‎ هو المصطلح الرسمي لعرض السعر؛ ‎price paper‎ ترجمة حرفية."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for your enquiry.",
+       "Please find attached our quotation Q-2025-231 for the 60 kVA online UPS and battery bank.",
+       "Payment terms are 60 days from the invoice date, subject to a signed PO.",
+       "Please let me know if you have any questions."
+      ],
+      "why": "شكر ← المرفق ← الشروط ← عرض المساعدة في الآخر."
+     }
+    ],
+    "body": [
+     "Dear Eng. Khaled,",
+     "Thank you for your enquiry. Please find attached our quotation Q-2025-231 for the 60 kVA online UPS and battery bank.",
+     "The offer includes one 60 kVA UPS, 40 batteries (12V 100Ah) for 30 minutes of backup, installation, commissioning and a two-year warranty. The total is EGP 1,575,000, excluding 14% VAT.",
+     "Payment terms are 60 days from the invoice date, subject to a signed PO.",
+     "Please let me know if you have any questions.",
+     "Best regards,\n<Your name>\nSales Engineer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Eng. Khaled Samir — Delta Pharma",
+    "subject": "RE: RFQ – 60 kVA UPS for the QC lab",
+    "date": "Wed, 15 Oct · 09:05",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for the quick reply. Two points are not clear in your offer.",
+     "How long is the quotation valid? Also, what is the exact delivery time? Our lab opening is planned for early December.",
+     "Please also confirm if the price includes delivery to our site. Our site is about 40 km from Cairo, and we need a clear total cost for our internal approval.",
+     "Best regards,\nKhaled Samir\nProcurement Manager\nDelta Pharma"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: RFQ – 60 kVA UPS for the QC lab",
+    "date": "Wed, 15 Oct · 12:30",
+    "task": "وضّح مدة سريان العرض وميعاد التوريد بالظبط، وأكّد إن السعر شامل التوصيل للموقع.",
+    "steps": [
+     {
+      "type": "gap",
+      "sentence": "The quotation is ___ for 30 days, until 13 November 2025.",
+      "opts": [
+       "alive",
+       "available",
+       "valid"
+      ],
+      "a": 2,
+      "why": "بنقول ‎valid for 30 days‎ عن مدة سريان العرض."
+     },
+     {
+      "type": "pick",
+      "q": "Choose the best way to confirm delivery is included",
+      "opts": [
+       "Yes, the price includes delivery and offloading at your 6th of October site.",
+       "Delivery is on you, of course no.",
+       "Yes, the price is including the delivery to your site sure."
+      ],
+      "a": 0,
+      "why": "الأولى واضحة وصحيحة؛ التالتة غلط في القواعد، والتانية معناها عكس المطلوب."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for your questions.",
+       "Please see our answers below.",
+       "The quotation is valid for 30 days, until 13 November 2025.",
+       "I hope this is clear."
+      ],
+      "why": "شكر ← تمهيد للإجابات ← الإجابات بالترتيب ← جملة ختام."
+     }
+    ],
+    "body": [
+     "Dear Eng. Khaled,",
+     "Thank you for your questions. Please see our answers below.",
+     "1. Validity: The quotation is valid for 30 days, until 13 November 2025.",
+     "2. Delivery: The UPS is in stock. The batteries need 3–4 weeks from the PO date. If we receive your PO by 26 October, we can install before 25 November.",
+     "3. Delivery to site: Yes, the price includes delivery and offloading at your 6th of October site.",
+     "I hope this is clear. Please do not hesitate to contact me.",
+     "Best regards,\n<Your name>\nSales Engineer | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "Thank you for your enquiry.",
+    "شكراً على استفسارك / طلبك."
+   ],
+   [
+    "Please find attached our quotation",
+    "مرفق عرض السعر بتاعنا"
+   ],
+   [
+    "The offer includes ...",
+    "العرض بيشمل ..."
+   ],
+   [
+    "excluding 14% VAT",
+    "غير شامل ضريبة القيمة المضافة 14%"
+   ],
+   [
+    "subject to a signed PO",
+    "بشرط وجود أمر شراء موقّع"
+   ],
+   [
+    "Please see our answers below.",
+    "برجاء الاطلاع على ردودنا تحت."
+   ],
+   [
+    "The quotation is valid for 30 days.",
+    "العرض ساري لمدة 30 يوم."
+   ],
+   [
+    "Please do not hesitate to contact me.",
+    "ما تترددش تتواصل معايا."
+   ]
+  ],
+  "glossary": [
+   [
+    "RFQ (request for quotation)",
+    "طلب عرض سعر"
+   ],
+   [
+    "quotation validity",
+    "مدة سريان العرض"
+   ],
+   [
+    "commissioning",
+    "التشغيل والاختبار المبدئي"
+   ],
+   [
+    "backup time",
+    "زمن التشغيل الاحتياطي على البطاريات"
+   ],
+   [
+    "offloading",
+    "تنزيل البضاعة في الموقع"
+   ]
+  ]
+ },
+ {
+  "id": "s1e2",
+  "season": "s1",
+  "title": "Following up on the quotation",
+  "ar": "المتابعة على عرض السعر",
+  "field": "Sales · Negotiation",
+  "icon": "📞",
+  "scene": "A week has passed and Delta Pharma has not replied to your quotation. You follow up, and the client says a competitor is 8% cheaper. You defend your value and offer a limited discount.",
+  "sceneAr": "عدّى أسبوع والعميل ما ردّش على العرض. هتتابع معاه، وهو هيقولك إن في منافس أرخص بـ 8%. لازم توضّح قيمة عرضك وتدّي خصم محدود بشروط.",
+  "thread": [
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Follow-up – Quotation Q-2025-231 (60 kVA UPS)",
+    "date": "Wed, 22 Oct · 10:00",
+    "task": "تابع مع العميل بأدب من غير ضغط، وفكّره إن التوريد محتاج وقت، واعرض مساعدة.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best follow-up opening",
+      "opts": [
+       "Why did you not reply to our offer yet?",
+       "Kindly revert back urgently regarding the offer.",
+       "I am following up on our quotation Q-2025-231 for the 60 kVA UPS, sent on 14 October."
+      ],
+      "a": 2,
+      "why": "التالتة مهذبة ومحددة؛ الأولى فيها لوم، والتانية فيها ‎revert back‎ وضغط مالوش لازمة."
+     },
+     {
+      "type": "gap",
+      "sentence": "Have you had a ___ to review it?",
+      "opts": [
+       "chance",
+       "time chance",
+       "possibility"
+      ],
+      "a": 0,
+      "why": "التعبير الثابت: ‎Have you had a chance to‎...?"
+     },
+     {
+      "type": "gap",
+      "sentence": "Looking forward to your ___.",
+      "opts": [
+       "answering",
+       "feedback",
+       "return"
+      ],
+      "a": 1,
+      "why": "‎Looking forward to your feedback‎ ختام شائع ومؤدب."
+     }
+    ],
+    "body": [
+     "Dear Eng. Khaled,",
+     "I hope you are well. I am following up on our quotation Q-2025-231 for the 60 kVA UPS, sent on 14 October.",
+     "Have you had a chance to review it? I would be happy to arrange a short call or a site visit if you need more details.",
+     "As a reminder, the batteries need 3–4 weeks, so an early PO will help us meet your December opening.",
+     "Looking forward to your feedback.",
+     "Best regards,\n<Your name>\nSales Engineer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Eng. Khaled Samir — Delta Pharma",
+    "subject": "RE: Follow-up – Quotation Q-2025-231 (60 kVA UPS)",
+    "date": "Thu, 23 Oct · 11:20",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for following up.",
+     "To be honest, we received another offer for a similar 60 kVA UPS that is about 8% cheaper than yours. Management is asking me to go with the lower price.",
+     "I prefer to work with NPS because of your good service on our other sites. If you can improve your price, we can issue the PO next week.",
+     "Best regards,\nKhaled Samir\nProcurement Manager\nDelta Pharma"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Follow-up – Quotation Q-2025-231 (60 kVA UPS)",
+    "date": "Thu, 23 Oct · 16:10",
+    "task": "ما تنزلش السعر على طول؛ وضّح قيمة عرضك الأول، وبعدين اعرض خصم محدود مربوط بميعاد أمر الشراء.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "How do you start a price negotiation politely?",
+      "opts": [
+       "Thank you for being open with us.",
+       "The other company is bad quality, trust me.",
+       "Impossible, our price is final and fixed."
+      ],
+      "a": 0,
+      "why": "ابدأ بشكر وهدوء؛ ما تهاجمش المنافس وما تقفلش الباب."
+     },
+     {
+      "type": "gap",
+      "sentence": "To support this project, we can offer a special ___ of EGP 75,000.",
+      "opts": [
+       "sale",
+       "discount",
+       "reduction money"
+      ],
+      "a": 1,
+      "why": "‎discount‎ هي الكلمة الصح للخصم؛ ‎sale‎ يعني تخفيضات المحلات."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for being open with us.",
+       "We value Delta Pharma as a long-term client.",
+       "Our price also includes a local service team with a 4-hour response time.",
+       "The new total is EGP 1,500,000, excluding VAT, if we receive your PO by 30 October."
+      ],
+      "why": "شكر ← تقدير العلاقة ← القيمة ← العرض الجديد بشرط."
+     }
+    ],
+    "body": [
+     "Dear Eng. Khaled,",
+     "Thank you for being open with us. We value Delta Pharma as a long-term client.",
+     "Before comparing prices, please check that the other offer includes the same backup time, installation, commissioning and a two-year warranty. Our price also includes a local service team with a 4-hour response time.",
+     "To support this project, we can offer a special discount of EGP 75,000. The new total is EGP 1,500,000, excluding VAT, if we receive your PO by 30 October.",
+     "Best regards,\n<Your name>\nSales Engineer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Eng. Khaled Samir — Delta Pharma",
+    "subject": "RE: Follow-up – Quotation Q-2025-231 (60 kVA UPS)",
+    "date": "Sun, 26 Oct · 09:40",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for the revised offer and for the clear comparison points.",
+     "I shared your answer with our management, and they agreed that the service and warranty make a real difference.",
+     "Management has approved your price of EGP 1,500,000, excluding VAT. Please send us the revised quotation so we can raise the PO this week.",
+     "Best regards,\nKhaled Samir\nProcurement Manager\nDelta Pharma"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Follow-up – Quotation Q-2025-231 (60 kVA UPS)",
+    "date": "Sun, 26 Oct · 11:15",
+    "task": "اشكر العميل على الموافقة، وابعت العرض المعدّل، ووضّح الخطوة الجاية بعد أمر الشراء.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best reaction to the good news",
+      "opts": [
+       "Finally! We were waiting a long time.",
+       "OK received.",
+       "Great news, thank you for your confirmation."
+      ],
+      "a": 2,
+      "why": "رد إيجابي ومهني؛ الأولى فيها عتاب، والتانية ناشفة."
+     },
+     {
+      "type": "gap",
+      "sentence": "All other terms ___ the same.",
+      "opts": [
+       "keep",
+       "remain",
+       "stay still"
+      ],
+      "a": 1,
+      "why": "‎All other terms remain the same‎ جملة ثابتة في العروض المعدلة."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Great news, thank you for your confirmation.",
+       "All other terms remain the same.",
+       "Once we receive your PO, we will confirm the delivery schedule within 24 hours.",
+       "We look forward to working with you on this project."
+      ],
+      "why": "الرد على الخبر ← تفاصيل العرض ← الخطوة الجاية ← ختام."
+     }
+    ],
+    "body": [
+     "Dear Eng. Khaled,",
+     "Great news, thank you for your confirmation.",
+     "Please find attached our revised quotation Q-2025-231 Rev.1 with the new total of EGP 1,500,000, excluding 14% VAT. All other terms remain the same.",
+     "Once we receive your PO, we will confirm the delivery schedule within 24 hours.",
+     "We look forward to working with you on this project.",
+     "Best regards,\n<Your name>\nSales Engineer | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "I am following up on our quotation ...",
+    "بتابع معاك بخصوص عرض السعر بتاعنا ..."
+   ],
+   [
+    "Have you had a chance to review it?",
+    "لحقت تراجعه؟"
+   ],
+   [
+    "Looking forward to your feedback.",
+    "في انتظار رأيك / ردّك."
+   ],
+   [
+    "Thank you for being open with us.",
+    "شكراً إنك كنت صريح معانا."
+   ],
+   [
+    "Before comparing prices, please check that ...",
+    "قبل ما تقارن الأسعار، اتأكد إن ..."
+   ],
+   [
+    "To support this project, we can offer ...",
+    "علشان ندعم المشروع ده، نقدر نقدّم ..."
+   ],
+   [
+    "All other terms remain the same.",
+    "باقي الشروط زي ما هي."
+   ]
+  ],
+  "glossary": [
+   [
+    "revised quotation (Rev.1)",
+    "عرض سعر معدّل"
+   ],
+   [
+    "special discount",
+    "خصم خاص"
+   ],
+   [
+    "response time",
+    "زمن الاستجابة للأعطال"
+   ],
+   [
+    "long-term client",
+    "عميل على المدى الطويل"
+   ],
+   [
+    "to raise a PO",
+    "إصدار أمر شراء"
+   ]
+  ]
+ },
+ {
+  "id": "s1e3",
+  "season": "s1",
+  "title": "Following up on the PO",
+  "ar": "المتابعة على أمر الشراء",
+  "field": "Sales · Orders",
+  "icon": "📄",
+  "scene": "Delta Pharma promised the PO last week, but it has not arrived and the battery order deadline is close. When the PO finally comes, the battery quantity and the total price are wrong. You ask for a corrected PO.",
+  "sceneAr": "العميل وعد يبعت أمر الشراء الأسبوع اللي فات ولسه ما وصلش، وميعاد طلب البطاريات قرّب. ولما أمر الشراء وصل، كان فيه غلط في عدد البطاريات وفي السعر، فهتطلب أمر شراء مصحح.",
+  "thread": [
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "PO status – Quotation Q-2025-231 Rev.1",
+    "date": "Mon, 3 Nov · 10:05",
+    "task": "العميل وعد بأمر الشراء وما بعتوش؛ اسأل عليه بلطف، ووضّح تأثير التأخير على ميعاد التركيب.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best way to remind the client of his promise",
+      "opts": [
+       "You promised the PO and you did not send it.",
+       "On 26 October, you mentioned that the PO would be issued last week, but we have not received it yet.",
+       "Where is the PO??"
+      ],
+      "a": 1,
+      "why": "التانية بتفكّر بالحقيقة من غير اتهام؛ الأولى لوم مباشر، والتالتة وقحة."
+     },
+     {
+      "type": "gap",
+      "sentence": "Could you please let me know the ___?",
+      "opts": [
+       "status",
+       "situation of it",
+       "news"
+      ],
+      "a": 0,
+      "why": "‎Could you please let me know the status‎? طريقة مهنية للسؤال عن حاجة متأخرة."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Could you please let me know the status?",
+       "The battery supplier needs our order by 6 November to deliver on time.",
+       "Any delay after that may move the installation to December.",
+       "Thank you for your support."
+      ],
+      "why": "السؤال ← السبب ← تأثير التأخير ← شكر."
+     }
+    ],
+    "body": [
+     "Dear Eng. Khaled,",
+     "I hope you are doing well. On 26 October, you mentioned that the PO would be issued last week, but we have not received it yet.",
+     "Could you please let me know the status? The battery supplier needs our order by 6 November to deliver on time. Any delay after that may move the installation to December.",
+     "Thank you for your support.",
+     "Best regards,\n<Your name>\nSales Engineer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Eng. Khaled Samir — Delta Pharma",
+    "subject": "PO-2025-118 – 60 kVA UPS",
+    "date": "Wed, 5 Nov · 14:20",
+    "body": [
+     "Dear <Your name>,",
+     "Sorry for the delay. The PO was waiting for our Plant Director's signature, and he was travelling last week.",
+     "Please find attached PO-2025-118 for the 60 kVA UPS project. Kindly confirm receipt and the delivery date, as the lab opening is still planned for early December.",
+     "Our facilities team will be your contact for the installation.",
+     "Best regards,\nKhaled Samir\nProcurement Manager\nDelta Pharma"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: PO-2025-118 – 60 kVA UPS",
+    "date": "Wed, 5 Nov · 16:30",
+    "task": "لاحظت إن أمر الشراء فيه غلط في عدد البطاريات وفي الإجمالي؛ وضّح الفرق بالأرقام واطلب أمر شراء مصحح.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "How do you point out a mistake politely?",
+      "opts": [
+       "You made two mistakes in the PO.",
+       "However, we noticed two differences from our revised quotation Q-2025-231 Rev.1:",
+       "The PO is wrong, please make it again."
+      ],
+      "a": 1,
+      "why": "‎we noticed two differences‎ بتوصف المشكلة من غير ما تلوم حد."
+     },
+     {
+      "type": "gap",
+      "sentence": "Could you please send us a ___ PO?",
+      "opts": [
+       "repaired",
+       "fixed-up",
+       "corrected"
+      ],
+      "a": 2,
+      "why": "بنقول ‎corrected PO‎ أو ‎revised PO‎."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for sending PO-2025-118.",
+       "We confirm receipt.",
+       "Could you please send us a corrected PO?",
+       "We will start the order as soon as we receive it."
+      ],
+      "why": "شكر وتأكيد استلام ← (توضيح الفروق) ← الطلب ← الخطوة الجاية."
+     }
+    ],
+    "body": [
+     "Dear Eng. Khaled,",
+     "Thank you for sending PO-2025-118. We confirm receipt.",
+     "However, we noticed two differences from our revised quotation Q-2025-231 Rev.1:",
+     "1. Batteries: the PO shows 32 units, but the quotation includes 40 units (12V 100Ah) for 30 minutes of backup.",
+     "2. Total price: the PO shows EGP 1,575,000, but the agreed total is EGP 1,500,000, excluding VAT.",
+     "Could you please send us a corrected PO? We will start the order as soon as we receive it.",
+     "Best regards,\n<Your name>\nSales Engineer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Eng. Khaled Samir — Delta Pharma",
+    "subject": "RE: PO-2025-118 – 60 kVA UPS",
+    "date": "Thu, 6 Nov · 09:10",
+    "body": [
+     "Dear <Your name>,",
+     "You are right, and thank you for checking. Our team used the first version of your quotation.",
+     "Please find attached PO-2025-118 Rev.1 with 40 batteries and a total of EGP 1,500,000, excluding VAT. The old PO is now cancelled.",
+     "Please go ahead with the battery order today, so we do not lose any more time. Our facilities contact is Eng. Mona Adel.",
+     "Best regards,\nKhaled Samir\nProcurement Manager\nDelta Pharma"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: PO-2025-118 – 60 kVA UPS",
+    "date": "Thu, 6 Nov · 10:00",
+    "task": "أكّد استلام أمر الشراء المصحح، وحدد ميعاد التوريد والتركيب.",
+    "steps": [
+     {
+      "type": "gap",
+      "sentence": "We confirm ___ of PO-2025-118 Rev.1",
+      "opts": [
+       "reception",
+       "receipt",
+       "receiving"
+      ],
+      "a": 1,
+      "why": "التعبير الصح: ‎confirm receipt of‎؛ ‎reception‎ معناها الاستقبال في الفندق."
+     },
+     {
+      "type": "pick",
+      "q": "Choose the best sentence about the schedule",
+      "opts": [
+       "Delivery to your site is planned for 20 November.",
+       "We will deliver maybe around 20 November, inshallah we see.",
+       "Delivery is 20 November if God wants and the supplier also."
+      ],
+      "a": 0,
+      "why": "الأولى واضحة ومحددة؛ الباقي مش مؤكد وترجمة حرفية."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for the quick correction.",
+       "We have placed the battery order today.",
+       "Delivery to your site is planned for 20 November, and installation and commissioning will be on 23–24 November.",
+       "Our project engineer will contact your facilities team to arrange site access."
+      ],
+      "why": "شكر ← اللي اتعمل ← المواعيد ← الخطوة الجاية."
+     }
+    ],
+    "body": [
+     "Dear Eng. Khaled,",
+     "Thank you for the quick correction. We confirm receipt of PO-2025-118 Rev.1, and everything is now in line with our quotation.",
+     "We have placed the battery order today. Delivery to your site is planned for 20 November, and installation and commissioning will be on 23–24 November.",
+     "Our project engineer will contact your facilities team to arrange site access.",
+     "Best regards,\n<Your name>\nSales Engineer | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "Could you please let me know the status?",
+    "ممكن تعرّفني الموضوع وصل لفين؟"
+   ],
+   [
+    "We have not received it yet.",
+    "لسه ما استلمناهوش."
+   ],
+   [
+    "We confirm receipt.",
+    "بنأكد الاستلام."
+   ],
+   [
+    "We noticed two differences from ...",
+    "لاحظنا اختلافين عن ..."
+   ],
+   [
+    "Could you please send us a corrected PO?",
+    "ممكن تبعتولنا أمر شراء مصحح؟"
+   ],
+   [
+    "everything is now in line with our quotation",
+    "كل حاجة دلوقتي مطابقة للعرض"
+   ],
+   [
+    "to arrange site access",
+    "نرتّب تصريح الدخول للموقع"
+   ]
+  ],
+  "glossary": [
+   [
+    "purchase order (PO)",
+    "أمر شراء"
+   ],
+   [
+    "PO revision (Rev.1)",
+    "نسخة معدلة من أمر الشراء"
+   ],
+   [
+    "lead time",
+    "مدة التوريد"
+   ],
+   [
+    "site access",
+    "تصريح دخول الموقع"
+   ],
+   [
+    "project engineer",
+    "مهندس المشروع"
+   ]
+  ]
+ },
+ {
+  "id": "s1e4",
+  "season": "s1",
+  "title": "Issuing the e-invoice",
+  "ar": "إصدار الفاتورة الإلكترونية",
+  "field": "Accounts · ETA e-invoice",
+  "icon": "🧮",
+  "scene": "The UPS is installed and you issue the e-invoice on the Egyptian Tax Authority (ETA) system. Delta Pharma rejects it because their tax registration number is wrong. You apologise, cancel the invoice and issue a new one.",
+  "sceneAr": "الـ ‎UPS‎ اتركب وانت أصدرت الفاتورة الإلكترونية على منظومة الضرايب. الحسابات عند العميل رفضتها علشان رقم التسجيل الضريبي غلط. هتعتذر وتلغي الفاتورة وتصدر واحدة جديدة.",
+  "thread": [
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "E-invoice INV-0457 – PO-2025-118 Rev.1",
+    "date": "Tue, 25 Nov · 11:00",
+    "task": "ابعت لحسابات العميل الفاتورة الإلكترونية ومحضر التسليم، ووضّح المبلغ والضريبة.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best way to link the invoice to the work",
+      "opts": [
+       "The 60 kVA UPS was installed and commissioned on 24 November, and the handover report was signed by your facilities team.",
+       "We finished the work, so now pay us.",
+       "The UPS is done and working very good."
+      ],
+      "a": 0,
+      "why": "الأولى بتذكر التاريخ والمستند الموقّع، وده اللي الحسابات محتاجاه."
+     },
+     {
+      "type": "gap",
+      "sentence": "We have ___ e-invoice INV-0457 on the ETA system for PO-2025-118 Rev.1.",
+      "opts": [
+       "issued",
+       "cut",
+       "made out"
+      ],
+      "a": 0,
+      "why": "بنقول ‎issue an invoice‎؛ ‎cut an invoice‎ ترجمة حرفية من «قطعنا فاتورة»."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "We have issued e-invoice INV-0457 on the ETA system for PO-2025-118 Rev.1.",
+       "The amount is EGP 1,500,000 plus 14% VAT (EGP 210,000), a total of EGP 1,710,000.",
+       "Please find attached the invoice PDF and the signed handover report."
+      ],
+      "why": "رقم الفاتورة ← المبلغ ← المرفقات."
+     }
+    ],
+    "body": [
+     "Dear Ms. Dalia,",
+     "I hope you are well. The 60 kVA UPS was installed and commissioned on 24 November, and the handover report was signed by your facilities team.",
+     "We have issued e-invoice INV-0457 on the ETA system for PO-2025-118 Rev.1. The amount is EGP 1,500,000 plus 14% VAT (EGP 210,000), a total of EGP 1,710,000.",
+     "Please find attached the invoice PDF and the signed handover report.",
+     "Best regards,\n<Your name>\nAccounts Receivable | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Dalia Fawzy — Delta Pharma",
+    "subject": "RE: E-invoice INV-0457 – PO-2025-118 Rev.1",
+    "date": "Wed, 26 Nov · 10:25",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for the invoice. Unfortunately, we cannot accept it.",
+     "The tax registration number on the invoice is 318-452-907, but our correct number is 318-425-907, so our system rejected it.",
+     "Please cancel this invoice and issue a new one with the correct number. We cannot process the payment until then.",
+     "Best regards,\nDalia Fawzy\nAccounts Payable\nDelta Pharma"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: E-invoice INV-0457 – PO-2025-118 Rev.1",
+    "date": "Wed, 26 Nov · 12:40",
+    "task": "اعتذر عن الغلط بشكل مختصر، واشرح سببه، وأكّد إنك هتلغي الفاتورة وتصدر جديدة وامتى.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best apology",
+      "opts": [
+       "Sorry, it's the system's fault, not ours.",
+       "Thank you for letting us know, and I apologise for the mistake.",
+       "OK no problem, we will see."
+      ],
+      "a": 1,
+      "why": "اعترف بالغلط واشكرهم إنهم نبهوك؛ ما ترميش اللوم على السيستم."
+     },
+     {
+      "type": "gap",
+      "sentence": "We will ___ INV-0457 on the ETA system today and issue a new e-invoice with the correct number, 318-425-907.",
+      "opts": [
+       "delete",
+       "cancel",
+       "kill"
+      ],
+      "a": 1,
+      "why": "على المنظومة الفاتورة بتتعمل لها ‎cancel‎ مش ‎delete‎."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for letting us know, and I apologise for the mistake.",
+       "Two digits in your tax registration number were entered in the wrong order.",
+       "You should receive it by tomorrow at the latest.",
+       "Please accept our apologies for the inconvenience."
+      ],
+      "why": "اعتذار ← السبب ← (الإجراء) ← الميعاد ← اعتذار ختامي."
+     }
+    ],
+    "body": [
+     "Dear Ms. Dalia,",
+     "Thank you for letting us know, and I apologise for the mistake. Two digits in your tax registration number were entered in the wrong order.",
+     "We will cancel INV-0457 on the ETA system today and issue a new e-invoice with the correct number, 318-425-907. You should receive it by tomorrow at the latest.",
+     "Please accept our apologies for the inconvenience.",
+     "Best regards,\n<Your name>\nAccounts Receivable | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Reissued e-invoice INV-0461 (replaces INV-0457)",
+    "date": "Thu, 27 Nov · 10:15",
+    "task": "ابعت الفاتورة الجديدة، ووضّح إنها بدل القديمة وإن المبلغ ما اتغيرش، واطلب تأكيد قبولها على البوابة.",
+    "steps": [
+     {
+      "type": "gap",
+      "sentence": "The amount has not ___: EGP 1,710,000, including 14% VAT.",
+      "opts": [
+       "moved",
+       "differed",
+       "changed"
+      ],
+      "a": 2,
+      "why": "‎The amount has not changed‎ = المبلغ زي ما هو."
+     },
+     {
+      "type": "pick",
+      "q": "Choose the best request",
+      "opts": [
+       "Accept the invoice now please.",
+       "Could you please accept the invoice on the ETA portal and confirm that it has been registered in your system?",
+       "I hope you will maybe accept it if possible."
+      ],
+      "a": 1,
+      "why": "طلب واضح ومؤدب ومحدد؛ الأولى أمر، والتالتة مش واضحة."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "As promised, we have cancelled INV-0457 and issued a new e-invoice, INV-0461, with your correct tax registration number, 318-425-907.",
+       "The amount has not changed: EGP 1,710,000, including 14% VAT.",
+       "The invoice date is 27 November 2025."
+      ],
+      "why": "اللي اتعمل ← المبلغ ← التاريخ (وده مهم لحساب الاستحقاق)."
+     }
+    ],
+    "body": [
+     "Dear Ms. Dalia,",
+     "As promised, we have cancelled INV-0457 and issued a new e-invoice, INV-0461, with your correct tax registration number, 318-425-907.",
+     "The amount has not changed: EGP 1,710,000, including 14% VAT. The invoice date is 27 November 2025.",
+     "Could you please accept the invoice on the ETA portal and confirm that it has been registered in your system?",
+     "Best regards,\n<Your name>\nAccounts Receivable | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Dalia Fawzy — Delta Pharma",
+    "subject": "RE: Reissued e-invoice INV-0461 (replaces INV-0457)",
+    "date": "Thu, 27 Nov · 13:30",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for the quick action. INV-0461 has been accepted on the ETA portal and registered in our system.",
+     "It will now follow our normal payment cycle. I will share the expected payment date with you once our finance team prepares the payment plan for next month.",
+     "Thank you for your support.",
+     "Best regards,\nDalia Fawzy\nAccounts Payable\nDelta Pharma"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "We have issued e-invoice ...",
+    "أصدرنا الفاتورة الإلكترونية ..."
+   ],
+   [
+    "plus 14% VAT",
+    "زائد ضريبة القيمة المضافة 14%"
+   ],
+   [
+    "Thank you for letting us know.",
+    "شكراً إنك نبهتنا."
+   ],
+   [
+    "I apologise for the mistake.",
+    "بعتذر عن الغلط."
+   ],
+   [
+    "by tomorrow at the latest",
+    "بكرة بالكتير"
+   ],
+   [
+    "Please accept our apologies for the inconvenience.",
+    "نعتذر عن الإزعاج."
+   ],
+   [
+    "As promised, ...",
+    "زي ما وعدنا، ..."
+   ],
+   [
+    "The amount has not changed.",
+    "المبلغ ما اتغيرش."
+   ]
+  ],
+  "glossary": [
+   [
+    "e-invoice (ETA system)",
+    "فاتورة إلكترونية على منظومة مصلحة الضرائب"
+   ],
+   [
+    "tax registration number",
+    "رقم التسجيل الضريبي"
+   ],
+   [
+    "to cancel an invoice",
+    "إلغاء فاتورة"
+   ],
+   [
+    "handover report",
+    "محضر الاستلام والتسليم"
+   ],
+   [
+    "ETA portal",
+    "بوابة المنظومة الإلكترونية"
+   ]
+  ]
+ },
+ {
+  "id": "s1e5",
+  "season": "s1",
+  "title": "Payment terms and the due date",
+  "ar": "شروط الدفع وميعاد الاستحقاق",
+  "field": "Collections · Terms",
+  "icon": "📅",
+  "scene": "INV-0461 has 60-day payment terms. You write to Delta Pharma's accounts to confirm the due date. They ask to split the payment into two cheques with an extra month, so you agree to a shorter schedule.",
+  "sceneAr": "الفاتورة شروط دفعها 60 يوم. هتكلم حسابات العميل تأكد ميعاد الاستحقاق. هما هيطلبوا يقسموا المبلغ على شيكين وياخدوا شهر زيادة، وانت هتوافق على جدول أقصر.",
+  "thread": [
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Payment due date – INV-0461",
+    "date": "Sun, 7 Dec · 10:20",
+    "task": "أكّد مع حسابات العميل ميعاد الاستحقاق حسب شروط الدفع، واسأل عن طريقة الدفع.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening for a payment email",
+      "opts": [
+       "When will you pay us?",
+       "I would like to confirm the payment details for INV-0461 (EGP 1,710,000), which was accepted on 27 November.",
+       "Please give us our money on time."
+      ],
+      "a": 1,
+      "why": "‎I would like to confirm‎... بداية لطيفة ومحددة؛ الباقي مباشر زيادة."
+     },
+     {
+      "type": "gap",
+      "sentence": "According to our agreed terms of 60 days from the invoice date, the payment is ___ on 26 January 2026.",
+      "opts": [
+       "due",
+       "deserved",
+       "owing time"
+      ],
+      "a": 0,
+      "why": "‎due on‎ = مستحق في تاريخ معين."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "I would like to confirm the payment details for INV-0461 (EGP 1,710,000), which was accepted on 27 November.",
+       "According to our agreed terms of 60 days from the invoice date, the payment is due on 26 January 2026.",
+       "Could you please confirm this date and let us know the payment method, bank transfer or cheque?",
+       "Thank you in advance."
+      ],
+      "why": "الموضوع ← التاريخ وسببه ← الطلب ← شكر."
+     }
+    ],
+    "body": [
+     "Dear Ms. Dalia,",
+     "I hope you are well. I would like to confirm the payment details for INV-0461 (EGP 1,710,000), which was accepted on 27 November.",
+     "According to our agreed terms of 60 days from the invoice date, the payment is due on 26 January 2026.",
+     "Could you please confirm this date and let us know the payment method, bank transfer or cheque?",
+     "Thank you in advance.",
+     "Best regards,\n<Your name>\nAccounts Receivable | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Dalia Fawzy — Delta Pharma",
+    "subject": "RE: Payment due date – INV-0461",
+    "date": "Tue, 9 Dec · 11:45",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for your email. I confirm the due date of 26 January.",
+     "However, because of our cash flow plan, our finance department would like to pay in two post-dated cheques: 50% on 26 January and 50% on 26 February.",
+     "We have always paid on time, and we would like to keep a good relationship with NPS. Please let me know if this is acceptable.",
+     "Best regards,\nDalia Fawzy\nAccounts Payable\nDelta Pharma"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Payment due date – INV-0461",
+    "date": "Tue, 9 Dec · 15:00",
+    "task": "العميل عايز شهر زيادة للقسط التاني؛ وافق على التقسيط بس قرّب ميعاد الشيك التاني لـ 15 فبراير، واطلب استلام الشيكين قبلها.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "How do you say no politely to part of a request?",
+      "opts": [
+       "No, this is not acceptable at all.",
+       "However, our agreed terms are 60 days, so a full extra month is difficult for us.",
+       "We cannot do it because it is against the rules."
+      ],
+      "a": 1,
+      "why": "التانية بتشرح السبب بهدوء وتسيب مساحة لحل وسط."
+     },
+     {
+      "type": "gap",
+      "sentence": "We can accept two ___ cheques as follows:",
+      "opts": [
+       "post-dated",
+       "late-dated",
+       "future"
+      ],
+      "a": 0,
+      "why": "الشيك الآجل اسمه ‎post-dated cheque‎."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for confirming the due date.",
+       "We understand your cash flow plan and we are happy to support Delta Pharma.",
+       "We can accept two post-dated cheques as follows:",
+       "Could you please confirm this schedule?"
+      ],
+      "why": "شكر ← تفهّم ← الحل الوسط ← طلب التأكيد."
+     }
+    ],
+    "body": [
+     "Dear Ms. Dalia,",
+     "Thank you for confirming the due date.",
+     "We understand your cash flow plan and we are happy to support Delta Pharma. However, our agreed terms are 60 days, so a full extra month is difficult for us.",
+     "We can accept two post-dated cheques as follows:",
+     "- Cheque 1: EGP 855,000, dated 26 January 2026\n- Cheque 2: EGP 855,000, dated 15 February 2026",
+     "We would also need to receive both cheques by 20 January. Could you please confirm this schedule?",
+     "Best regards,\n<Your name>\nAccounts Receivable | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Dalia Fawzy — Delta Pharma",
+    "subject": "RE: Payment due date – INV-0461",
+    "date": "Wed, 10 Dec · 10:10",
+    "body": [
+     "Dear <Your name>,",
+     "Our Finance Manager has approved your proposal: two cheques of EGP 855,000 each, dated 26 January and 15 February 2026.",
+     "Both cheques will be ready by 20 January. Please let me know who will collect them, and ask him to bring an authorisation letter from NPS.",
+     "Thank you for your flexibility on this matter.",
+     "Best regards,\nDalia Fawzy\nAccounts Payable\nDelta Pharma"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Payment due date – INV-0461",
+    "date": "Wed, 10 Dec · 11:00",
+    "task": "أكّد جدول الدفع المتفق عليه كتابةً ولخّصه بالأرقام والتواريخ.",
+    "steps": [
+     {
+      "type": "gap",
+      "sentence": "For our ___, please find the agreed payment schedule for INV-0461 below:",
+      "opts": [
+       "memory",
+       "archive",
+       "records"
+      ],
+      "a": 2,
+      "why": "‎For our records‎ = للتوثيق عندنا."
+     },
+     {
+      "type": "pick",
+      "q": "Choose the best closing",
+      "opts": [
+       "Thank you again for your cooperation.",
+       "Don't forget the cheques!",
+       "Please be on time this time."
+      ],
+      "a": 0,
+      "why": "ختام إيجابي؛ الباقي فيه تهديد أو قلة ثقة."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for your quick approval.",
+       "For our records, please find the agreed payment schedule for INV-0461 below:",
+       "I will contact you a few days before to arrange the pick-up.",
+       "Thank you again for your cooperation."
+      ],
+      "why": "شكر ← التوثيق ← الخطوة الجاية ← ختام."
+     }
+    ],
+    "body": [
+     "Dear Ms. Dalia,",
+     "Thank you for your quick approval. For our records, please find the agreed payment schedule for INV-0461 below:",
+     "- Cheque 1: EGP 855,000, dated 26 January 2026\n- Cheque 2: EGP 855,000, dated 15 February 2026",
+     "Both cheques will be ready for collection by 20 January. I will contact you a few days before to arrange the pick-up.",
+     "Thank you again for your cooperation.",
+     "Best regards,\n<Your name>\nAccounts Receivable | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "I would like to confirm the payment details for ...",
+    "حابب أأكد تفاصيل الدفع الخاصة بـ ..."
+   ],
+   [
+    "The payment is due on ...",
+    "الدفع مستحق يوم ..."
+   ],
+   [
+    "Thank you in advance.",
+    "شكراً مقدماً."
+   ],
+   [
+    "We understand your cash flow plan.",
+    "متفهمين خطة السيولة عندكم."
+   ],
+   [
+    "... is difficult for us.",
+    "... صعب علينا."
+   ],
+   [
+    "Could you please confirm this schedule?",
+    "ممكن تأكدوا الجدول ده؟"
+   ],
+   [
+    "For our records, ...",
+    "للتوثيق عندنا، ..."
+   ]
+  ],
+  "glossary": [
+   [
+    "payment terms",
+    "شروط الدفع"
+   ],
+   [
+    "due date",
+    "تاريخ الاستحقاق"
+   ],
+   [
+    "post-dated cheque",
+    "شيك آجل"
+   ],
+   [
+    "cash flow",
+    "التدفق النقدي / السيولة"
+   ],
+   [
+    "payment schedule",
+    "جدول السداد"
+   ]
+  ]
+ },
+ {
+  "id": "s1e6",
+  "season": "s1",
+  "title": "Collecting the cheques",
+  "ar": "استلام الشيكات",
+  "field": "Collections · Cheques",
+  "icon": "🏦",
+  "scene": "The two post-dated cheques are ready. You arrange the pick-up with Delta Pharma's accounts and confirm the amount and payee name. Before pick-up, you discover that the payee name on the cheques is wrong.",
+  "sceneAr": "الشيكين جاهزين. هترتب مع الحسابات ميعاد استلامهم وتأكد المبلغ واسم المستفيد. وقبل الاستلام هتكتشف إن اسم المستفيد مكتوب غلط.",
+  "thread": [
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Cheque collection – INV-0461",
+    "date": "Sun, 18 Jan · 10:00",
+    "task": "رتّب ميعاد المندوب لاستلام الشيكين، وأكّد اسم المستفيد الصحيح والمبلغ.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best way to suggest a time",
+      "opts": [
+       "Our courier will come Tuesday 11 am, be ready.",
+       "Our courier, Mr. Mahmoud Ali, can collect them from your office on Tuesday, 20 January, at 11:00 am.",
+       "Tell me when you are free and maybe we come."
+      ],
+      "a": 1,
+      "why": "التانية بتحدد مين وامتى وفين بأدب؛ الأولى أمر، والتالتة مش واضحة."
+     },
+     {
+      "type": "gap",
+      "sentence": "Please let me know if another time ___ you better.",
+      "opts": [
+       "suits",
+       "fits with",
+       "is comfortable to"
+      ],
+      "a": 0,
+      "why": "‎suits you better‎ = يناسبك أكتر."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "As agreed, the two cheques for INV-0461 should be ready by 20 January.",
+       "Our courier, Mr. Mahmoud Ali, can collect them from your office on Tuesday, 20 January, at 11:00 am.",
+       "Please let me know if another time suits you better.",
+       "For your reference, the cheques should be payable to 'Nile Power Solutions S.A.E.', EGP 855,000 each."
+      ],
+      "why": "تذكير بالاتفاق ← الميعاد ← المرونة ← التفاصيل للمرجع."
+     }
+    ],
+    "body": [
+     "Dear Ms. Dalia,",
+     "I hope you are well. As agreed, the two cheques for INV-0461 should be ready by 20 January.",
+     "Our courier, Mr. Mahmoud Ali, can collect them from your office on Tuesday, 20 January, at 11:00 am. Please let me know if another time suits you better.",
+     "For your reference, the cheques should be payable to 'Nile Power Solutions S.A.E.', EGP 855,000 each.",
+     "Best regards,\n<Your name>\nAccounts Receivable | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Dalia Fawzy — Delta Pharma",
+    "subject": "RE: Cheque collection – INV-0461",
+    "date": "Mon, 19 Jan · 14:30",
+    "body": [
+     "Dear <Your name>,",
+     "The time is fine. The cheques are signed and ready. Mr. Mahmoud should ask for me at reception on the 2nd floor and bring his company ID.",
+     "Please note that the cheques are payable to 'Nile Power Solutions Co.' Our office is open from 9:00 am to 4:00 pm, so he should not be late.",
+     "Best regards,\nDalia Fawzy\nAccounts Payable\nDelta Pharma"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Cheque collection – INV-0461",
+    "date": "Mon, 19 Jan · 15:20",
+    "task": "اسم المستفيد على الشيكات مختلف عن اسم الحساب؛ اطلب إعادة كتابة الشيكين قبل الاستلام، ووضّح السبب بلطف.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best way to explain the problem",
+      "opts": [
+       "The name is wrong, change it.",
+       "Our bank account name is 'Nile Power Solutions S.A.E.', so the bank may refuse the cheques if the name does not match exactly.",
+       "Why did you write our name like this?"
+      ],
+      "a": 1,
+      "why": "اشرح السبب (البنك) علشان الطلب يبان منطقي مش شخصي."
+     },
+     {
+      "type": "gap",
+      "sentence": "Could you please reissue both cheques with the correct ___ name before tomorrow's pick-up?",
+      "opts": [
+       "payer",
+       "owner",
+       "payee"
+      ],
+      "a": 2,
+      "why": "‎payee‎ = المستفيد (اللي بيقبض)، ‎payer‎ = اللي بيدفع."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for arranging this.",
+       "I noticed that the cheques are payable to 'Nile Power Solutions Co.'",
+       "Could you please reissue both cheques with the correct payee name before tomorrow's pick-up?",
+       "I am sorry for the extra work, and thank you for your understanding."
+      ],
+      "why": "شكر ← الملاحظة ← الطلب ← اعتذار وتقدير."
+     }
+    ],
+    "body": [
+     "Dear Ms. Dalia,",
+     "Thank you for arranging this.",
+     "I noticed that the cheques are payable to 'Nile Power Solutions Co.' Our bank account name is 'Nile Power Solutions S.A.E.', so the bank may refuse the cheques if the name does not match exactly.",
+     "Could you please reissue both cheques with the correct payee name before tomorrow's pick-up? I am sorry for the extra work, and thank you for your understanding.",
+     "Best regards,\n<Your name>\nAccounts Receivable | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Dalia Fawzy — Delta Pharma",
+    "subject": "RE: Cheque collection – INV-0461",
+    "date": "Tue, 20 Jan · 09:15",
+    "body": [
+     "Dear <Your name>,",
+     "No problem, thank you for noticing. Our finance manager signed the new cheques this morning.",
+     "Both cheques have been reissued to 'Nile Power Solutions S.A.E.' and are ready for Mr. Mahmoud at 11:00. The old cheques have been cancelled.",
+     "Please ask him to sign our cheque delivery form at reception before he leaves.",
+     "Best regards,\nDalia Fawzy\nAccounts Payable\nDelta Pharma"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Cheque collection – INV-0461",
+    "date": "Tue, 20 Jan · 13:05",
+    "task": "أكّد استلام الشيكين بأرقامهم ومبالغهم وتواريخهم، ووضّح إمتى هتبعت الإيصال.",
+    "steps": [
+     {
+      "type": "gap",
+      "sentence": "I confirm that our courier ___ the two cheques today:",
+      "opts": [
+       "collected",
+       "picked",
+       "took up"
+      ],
+      "a": 0,
+      "why": "‎collect a cheque‎ = استلام شيك؛ ‎picked‎ لوحدها ناقصة ‎up‎."
+     },
+     {
+      "type": "pick",
+      "q": "Choose the best sentence about the receipt",
+      "opts": [
+       "Receipt later.",
+       "We will send you an official receipt once the cheques are cleared.",
+       "We will send the receipt when we feel like it."
+      ],
+      "a": 1,
+      "why": "‎once the cheques are cleared‎ = بعد ما الشيكات تتصرف."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for your help.",
+       "I confirm that our courier collected the two cheques today:",
+       "Both cheques are payable to Nile Power Solutions S.A.E. and are signed correctly.",
+       "We will send you an official receipt once the cheques are cleared."
+      ],
+      "why": "شكر ← تأكيد الاستلام ← التفاصيل ← الخطوة الجاية."
+     }
+    ],
+    "body": [
+     "Dear Ms. Dalia,",
+     "Thank you for your help. I confirm that our courier collected the two cheques today:",
+     "- Cheque No. 10245871: EGP 855,000, dated 26 January 2026\n- Cheque No. 10245872: EGP 855,000, dated 15 February 2026",
+     "Both cheques are payable to Nile Power Solutions S.A.E. and are signed correctly.",
+     "We will send you an official receipt once the cheques are cleared.",
+     "Best regards,\n<Your name>\nAccounts Receivable | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "As agreed, ...",
+    "زي ما اتفقنا، ..."
+   ],
+   [
+    "Please let me know if another time suits you better.",
+    "قولّي لو في ميعاد تاني يناسبك أكتر."
+   ],
+   [
+    "For your reference, ...",
+    "للعلم / للرجوع إليه، ..."
+   ],
+   [
+    "payable to ...",
+    "لأمر / باسم ..."
+   ],
+   [
+    "I noticed that ...",
+    "لاحظت إن ..."
+   ],
+   [
+    "Thank you for your understanding.",
+    "شكراً على تفهمك."
+   ],
+   [
+    "once the cheques are cleared",
+    "بعد ما الشيكات تتصرف"
+   ]
+  ],
+  "glossary": [
+   [
+    "payee name",
+    "اسم المستفيد"
+   ],
+   [
+    "courier",
+    "مندوب / ساعي"
+   ],
+   [
+    "to reissue a cheque",
+    "إعادة إصدار شيك"
+   ],
+   [
+    "official receipt",
+    "إيصال استلام رسمي"
+   ],
+   [
+    "cheque clearing",
+    "تحصيل / صرف الشيك"
+   ]
+  ]
+ },
+ {
+  "id": "s1e7",
+  "season": "s1",
+  "title": "A returned cheque",
+  "ar": "شيك مرتجع",
+  "field": "Collections · Cheques",
+  "icon": "↩️",
+  "scene": "The first cheque cleared, but the bank returned the second cheque for EGP 855,000 because of insufficient funds. You inform Delta Pharma firmly but politely. They ask to delay it by two weeks, and you agree to a shorter new date.",
+  "sceneAr": "الشيك الأول اتصرف، بس البنك رجّع الشيك التاني علشان مفيش رصيد كافي. هتبلّغ العميل بحزم وأدب. هما هيطلبوا تأجيل أسبوعين، وانت هتوافق على ميعاد أقرب.",
+  "thread": [
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Returned cheque No. 10245872 – INV-0461",
+    "date": "Tue, 17 Feb · 12:10",
+    "task": "البنك رجّع الشيك؛ بلّغ العميل بالحقيقة بهدوء، واطلب ميعاد جديد لإعادة الإيداع وتأكيد مكتوب.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best way to start this difficult email",
+      "opts": [
+       "Your cheque bounced! This is unacceptable.",
+       "Thank you for the first cheque, which was cleared on 27 January.",
+       "We are very very angry about the cheque."
+      ],
+      "a": 1,
+      "why": "ابدأ بحاجة إيجابية حصلت فعلاً، وبعدين ادخل في المشكلة بهدوء."
+     },
+     {
+      "type": "gap",
+      "sentence": "Unfortunately, our bank ___ the second cheque, No. 10245872 for EGP 855,000, dated 15 February, with the reason 'insufficient funds'.",
+      "opts": [
+       "refused back",
+       "returned",
+       "threw"
+      ],
+      "a": 1,
+      "why": "‎returned cheque‎ هو التعبير الرسمي للشيك المرتجع."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for the first cheque, which was cleared on 27 January.",
+       "Could you please look into this urgently and let us know when we can redeposit it?",
+       "We would appreciate a written confirmation of the new date by Thursday, 19 February."
+      ],
+      "why": "حاجة إيجابية ← (المشكلة) ← الطلب ← ميعاد للرد."
+     }
+    ],
+    "body": [
+     "Dear Ms. Dalia,",
+     "Thank you for the first cheque, which was cleared on 27 January.",
+     "Unfortunately, our bank returned the second cheque, No. 10245872 for EGP 855,000, dated 15 February, with the reason 'insufficient funds'.",
+     "Could you please look into this urgently and let us know when we can redeposit it? We would appreciate a written confirmation of the new date by Thursday, 19 February.",
+     "Best regards,\n<Your name>\nAccounts Receivable | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Dalia Fawzy — Delta Pharma",
+    "subject": "RE: Returned cheque No. 10245872 – INV-0461",
+    "date": "Wed, 18 Feb · 10:40",
+    "body": [
+     "Dear <Your name>,",
+     "Please accept our apologies. A large payment from one of our customers reached us later than expected, and our bank balance was not enough on 15 February.",
+     "This is not usual for us, and our finance manager is following it personally.",
+     "Could you please hold the cheque and redeposit it on 5 March? The funds will be available by then.",
+     "Best regards,\nDalia Fawzy\nAccounts Payable\nDelta Pharma"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Returned cheque No. 10245872 – INV-0461",
+    "date": "Wed, 18 Feb · 13:15",
+    "task": "اقبل تأجيل قصير بس مش لحد الميعاد اللي طلبوه؛ حدد 26 فبراير بحد أقصى، ووضّح بأدب تأثير أي رجوع تاني للشيك.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the most professional firm sentence",
+      "opts": [
+       "If it bounces again, we will go to court immediately.",
+       "Please note that a second return would affect your credit limit and future orders with us.",
+       "Please try, if you can, to maybe not return it again."
+      ],
+      "a": 1,
+      "why": "حازمة ومهذبة وبتوضح نتيجة واقعية؛ الأولى تهديد، والتالتة ضعيفة."
+     },
+     {
+      "type": "gap",
+      "sentence": "We can hold the cheque and redeposit it on 26 February at the ___.",
+      "opts": [
+       "maximum",
+       "last",
+       "latest"
+      ],
+      "a": 2,
+      "why": "‎at the latest‎ = بحد أقصى (بالنسبة للتواريخ)."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for your quick reply and for explaining the situation.",
+       "We understand, but this payment is already past the agreed date.",
+       "We can hold the cheque and redeposit it on 26 February at the latest.",
+       "Could you please confirm the new date in writing today?"
+      ],
+      "why": "شكر ← تفهّم مع حزم ← الميعاد الجديد ← طلب تأكيد مكتوب."
+     }
+    ],
+    "body": [
+     "Dear Ms. Dalia,",
+     "Thank you for your quick reply and for explaining the situation.",
+     "We understand, but this payment is already past the agreed date. We can hold the cheque and redeposit it on 26 February at the latest.",
+     "Please note that a second return would affect your credit limit and future orders with us. Could you please confirm the new date in writing today?",
+     "Best regards,\n<Your name>\nAccounts Receivable | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Dalia Fawzy — Delta Pharma",
+    "subject": "RE: Returned cheque No. 10245872 – INV-0461",
+    "date": "Wed, 18 Feb · 16:00",
+    "body": [
+     "Dear <Your name>,",
+     "Confirmed. Please redeposit cheque No. 10245872 on Thursday, 26 February. The funds will be available on that date.",
+     "Our finance manager has approved this date, and he has asked the bank to keep the amount reserved for this cheque.",
+     "Thank you for your flexibility, and sorry again for the trouble.",
+     "Best regards,\nDalia Fawzy\nAccounts Payable\nDelta Pharma"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Cheque No. 10245872 cleared – INV-0461 fully paid",
+    "date": "Sun, 1 Mar · 10:30",
+    "task": "بلّغ العميل إن الشيك اتصرف والفاتورة اتسددت بالكامل، وابعت الإيصال واشكرهم.",
+    "steps": [
+     {
+      "type": "gap",
+      "sentence": "I am pleased to confirm that cheque No. 10245872 was ___ today.",
+      "opts": [
+       "cleared",
+       "cashed out",
+       "passed"
+      ],
+      "a": 0,
+      "why": "‎cleared‎ = اتصرف واتحصّل في الحساب."
+     },
+     {
+      "type": "pick",
+      "q": "Choose the best closing",
+      "opts": [
+       "Finally, after all this trouble.",
+       "Thank you for your cooperation, and we look forward to supporting Delta Pharma on future projects.",
+       "Next time please pay on time."
+      ],
+      "a": 1,
+      "why": "اقفل بعلاقة كويسة؛ المشكلة اتحلت خلاص."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "I am pleased to confirm that cheque No. 10245872 was cleared today.",
+       "Invoice INV-0461 is now fully paid.",
+       "Please find attached our official receipt for EGP 1,710,000.",
+       "We appreciate your quick action on this matter."
+      ],
+      "why": "الخبر ← النتيجة ← المرفق ← تقدير."
+     }
+    ],
+    "body": [
+     "Dear Ms. Dalia,",
+     "I am pleased to confirm that cheque No. 10245872 was cleared today. Invoice INV-0461 is now fully paid.",
+     "Please find attached our official receipt for EGP 1,710,000. We appreciate your quick action on this matter.",
+     "Thank you for your cooperation, and we look forward to supporting Delta Pharma on future projects.",
+     "Best regards,\n<Your name>\nAccounts Receivable | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "Unfortunately, our bank returned ...",
+    "للأسف البنك رجّع ..."
+   ],
+   [
+    "Could you please look into this urgently?",
+    "ممكن تشوفوا الموضوع ده بشكل عاجل؟"
+   ],
+   [
+    "We would appreciate a written confirmation.",
+    "نكون شاكرين لو وصلنا تأكيد مكتوب."
+   ],
+   [
+    "this payment is already past the agreed date",
+    "الدفعة دي أصلاً عدّت الميعاد المتفق عليه"
+   ],
+   [
+    "at the latest",
+    "بحد أقصى"
+   ],
+   [
+    "Please note that ...",
+    "برجاء العلم إن ..."
+   ],
+   [
+    "I am pleased to confirm that ...",
+    "يسعدني أأكد إن ..."
+   ],
+   [
+    "is now fully paid",
+    "اتسددت بالكامل"
+   ]
+  ],
+  "glossary": [
+   [
+    "returned (bounced) cheque",
+    "شيك مرتجع"
+   ],
+   [
+    "insufficient funds",
+    "عدم كفاية الرصيد"
+   ],
+   [
+    "to redeposit a cheque",
+    "إعادة إيداع الشيك"
+   ],
+   [
+    "credit limit",
+    "الحد الائتماني"
+   ],
+   [
+    "cleared",
+    "اتصرف / اتحصّل"
+   ]
+  ]
+ },
+ {
+  "id": "s1e8",
+  "season": "s1",
+  "title": "The statement of account",
+  "ar": "كشف الحساب",
+  "field": "Accounts · Reconciliation",
+  "icon": "📊",
+  "scene": "After the UPS project, Delta Pharma signed a maintenance contract and bought replacement batteries. You send their statement of account, but they dispute the balance because they already paid one invoice by bank transfer. You reconcile and send a revised statement.",
+  "sceneAr": "بعد مشروع الـ ‎UPS‎، العميل مضى عقد صيانة واشترى بطاريات بديلة. هتبعت له كشف الحساب، وهو هيعترض على الرصيد علشان دفع فاتورة بتحويل بنكي. هتراجع وتبعت كشف معدّل.",
+  "thread": [
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Statement of account – Delta Pharma – as of 31 March 2026",
+    "date": "Sun, 5 Apr · 10:00",
+    "task": "ابعت كشف الحساب، ووضّح الرصيد والفواتير المفتوحة وتواريخ استحقاقها، واطلب ميعاد دفع.",
+    "steps": [
+     {
+      "type": "gap",
+      "sentence": "Please find attached your statement of ___ as of 31 March 2026.",
+      "opts": [
+       "account",
+       "accounting",
+       "balance paper"
+      ],
+      "a": 0,
+      "why": "‎statement of account‎ (‎SOA‎) = كشف حساب العميل."
+     },
+     {
+      "type": "pick",
+      "q": "Choose the best request at the end",
+      "opts": [
+       "Pay the balance immediately.",
+       "Could you please review the statement and let us know the payment date?",
+       "We hope maybe you will check it one day."
+      ],
+      "a": 1,
+      "why": "اطلب المراجعة وميعاد الدفع في نفس الجملة، بأدب ووضوح."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Please find attached your statement of account as of 31 March 2026.",
+       "The open balance is EGP 153,900, which includes two invoices:",
+       "Both invoices are now past due.",
+       "Could you please review the statement and let us know the payment date?"
+      ],
+      "why": "المرفق ← الرصيد ← الوضع ← الطلب."
+     }
+    ],
+    "body": [
+     "Dear Ms. Dalia,",
+     "I hope you are well. Please find attached your statement of account as of 31 March 2026.",
+     "The open balance is EGP 153,900, which includes two invoices:",
+     "- INV-0512 (Q1 maintenance contract): EGP 57,000, due 16 March\n- INV-0538 (replacement batteries): EGP 96,900, due 23 March",
+     "Both invoices are now past due. Could you please review the statement and let us know the payment date?",
+     "Best regards,\n<Your name>\nAccounts Receivable | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Dalia Fawzy — Delta Pharma",
+    "subject": "RE: Statement of account – Delta Pharma – as of 31 March 2026",
+    "date": "Mon, 6 Apr · 11:30",
+    "body": [
+     "Dear <Your name>,",
+     "We do not agree with this balance. We paid INV-0512 in full by bank transfer on 12 March, EGP 57,000, to your account ending in 4471.",
+     "Please find attached the transfer confirmation from our bank. According to our records, the balance should be EGP 96,900 only.",
+     "Could you please check with your accounts team and send us a revised statement?",
+     "Best regards,\nDalia Fawzy\nAccounts Payable\nDelta Pharma"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Statement of account – Delta Pharma – as of 31 March 2026",
+    "date": "Mon, 6 Apr · 15:45",
+    "task": "راجع مع حسابات الشركة، واشرح سبب الفرق، وابعت الكشف المعدّل، واطلب إضافة رقم الفاتورة في التحويلات الجاية.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best way to start",
+      "opts": [
+       "You are wrong, we did not receive anything.",
+       "Thank you for sending the transfer confirmation.",
+       "OK, maybe you paid, maybe not."
+      ],
+      "a": 1,
+      "why": "اشكرهم على المستند وبعدين وضّح نتيجة المراجعة."
+     },
+     {
+      "type": "gap",
+      "sentence": "The transfer of EGP 57,000 was received on 12 March, but the bank reference did not include the invoice number, so it was recorded as an ___ payment.",
+      "opts": [
+       "unknown",
+       "lost",
+       "unallocated"
+      ],
+      "a": 2,
+      "why": "‎unallocated payment‎ = مبلغ متحصّل بس مش متسوّي على فاتورة."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for sending the transfer confirmation.",
+       "We checked with our accounts team.",
+       "We have now allocated it to INV-0512 and attached the revised statement.",
+       "In future, please add the invoice number to the transfer reference."
+      ],
+      "why": "شكر ← المراجعة ← التصحيح ← طلب للمستقبل."
+     }
+    ],
+    "body": [
+     "Dear Ms. Dalia,",
+     "Thank you for sending the transfer confirmation. We checked with our accounts team.",
+     "The transfer of EGP 57,000 was received on 12 March, but the bank reference did not include the invoice number, so it was recorded as an unallocated payment.",
+     "We have now allocated it to INV-0512 and attached the revised statement. The correct open balance is EGP 96,900 for INV-0538.",
+     "Sorry for the confusion. In future, please add the invoice number to the transfer reference.",
+     "Best regards,\n<Your name>\nAccounts Receivable | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Dalia Fawzy — Delta Pharma",
+    "subject": "RE: Statement of account – Delta Pharma – as of 31 March 2026",
+    "date": "Tue, 7 Apr · 09:50",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for the quick reconciliation. We agree with the revised balance of EGP 96,900.",
+     "However, INV-0538 is on hold in our system because we do not have a signed delivery note from our warehouse. Please send us a signed copy.",
+     "Once we receive it, I will release the invoice for payment in our next payment run.",
+     "Best regards,\nDalia Fawzy\nAccounts Payable\nDelta Pharma"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Statement of account – Delta Pharma – as of 31 March 2026",
+    "date": "Tue, 7 Apr · 12:00",
+    "task": "ابعت إذن التسليم الموقّع، وذكّرهم إن الفاتورة مستحقة من 23 مارس، واطلب ميعاد دفع.",
+    "steps": [
+     {
+      "type": "gap",
+      "sentence": "Please find attached delivery note DN-0391 for INV-0538, ___ by Mr. Ashraf from your warehouse on 25 January.",
+      "opts": [
+       "signed",
+       "signatured",
+       "stamped by hand"
+      ],
+      "a": 0,
+      "why": "‎signed by‎ = موقّع من."
+     },
+     {
+      "type": "pick",
+      "q": "Choose the best way to ask for payment here",
+      "opts": [
+       "As this invoice has been due since 23 March, could you please arrange the payment of EGP 96,900 this month and share the expected date?",
+       "Now you have no excuse, pay today.",
+       "Pay when you can, no problem."
+      ],
+      "a": 0,
+      "why": "بتفكّر بتاريخ الاستحقاق وتطلب ميعاد محدد من غير هجوم ومن غير تساهل."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for confirming the revised balance.",
+       "Please find attached delivery note DN-0391 for INV-0538, signed by Mr. Ashraf from your warehouse on 25 January.",
+       "As this invoice has been due since 23 March, could you please arrange the payment of EGP 96,900 this month and share the expected date?",
+       "Thank you for your support."
+      ],
+      "why": "شكر ← المستند المطلوب ← طلب الدفع ← ختام."
+     }
+    ],
+    "body": [
+     "Dear Ms. Dalia,",
+     "Thank you for confirming the revised balance.",
+     "Please find attached delivery note DN-0391 for INV-0538, signed by Mr. Ashraf from your warehouse on 25 January.",
+     "As this invoice has been due since 23 March, could you please arrange the payment of EGP 96,900 this month and share the expected date?",
+     "Thank you for your support.",
+     "Best regards,\n<Your name>\nAccounts Receivable | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "Please find attached your statement of account as of ...",
+    "مرفق كشف حسابكم لغاية ..."
+   ],
+   [
+    "The open balance is ...",
+    "الرصيد المفتوح ..."
+   ],
+   [
+    "Both invoices are now past due.",
+    "الفاتورتين عدّوا ميعاد الاستحقاق."
+   ],
+   [
+    "We checked with our accounts team.",
+    "راجعنا مع فريق الحسابات."
+   ],
+   [
+    "it was recorded as an unallocated payment",
+    "اتسجل كمبلغ غير مخصص لفاتورة"
+   ],
+   [
+    "Sorry for the confusion.",
+    "آسفين على اللخبطة."
+   ],
+   [
+    "In future, please add ...",
+    "بعد كده، برجاء إضافة ..."
+   ],
+   [
+    "has been due since ...",
+    "مستحقة من يوم ..."
+   ]
+  ],
+  "glossary": [
+   [
+    "statement of account (SOA)",
+    "كشف حساب"
+   ],
+   [
+    "reconciliation",
+    "مطابقة الحسابات"
+   ],
+   [
+    "unallocated payment",
+    "دفعة غير مخصصة لفاتورة"
+   ],
+   [
+    "past due / overdue",
+    "متأخر عن ميعاد الاستحقاق"
+   ],
+   [
+    "delivery note",
+    "إذن تسليم"
+   ],
+   [
+    "on hold",
+    "موقوف / معلّق"
+   ]
+  ]
+ },
+ {
+  "id": "s1e9",
+  "season": "s1",
+  "title": "Collection escalation",
+  "ar": "تصعيد التحصيل",
+  "field": "Collections · Escalation",
+  "icon": "🚨",
+  "scene": "INV-0538 for EGP 96,900 is now 90 days overdue and Delta Pharma has ignored three reminders. You send a final reminder, then escalate internally to the NPS Finance Director. He reaches an agreement, and you confirm it in writing.",
+  "sceneAr": "الفاتورة ‎INV-0538‎ متأخرة 90 يوم والعميل طنّش تلات تذكيرات. هتبعت تذكير نهائي، وبعدين تصعّد الموضوع للمدير المالي عندنا، وهو يوصل لاتفاق، وانت تأكده كتابةً مع العميل.",
+  "thread": [
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Final reminder – INV-0538 overdue 90 days",
+    "date": "Sun, 21 Jun · 10:00",
+    "task": "ابعت تذكير نهائي بحزم: المبلغ ومدة التأخير وآخر ميعاد، والخطوة اللي هتحصل لو مفيش رد.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best firm opening",
+      "opts": [
+       "Despite our reminders of 7 April, 10 May and 4 June, invoice INV-0538 for EGP 96,900 is still unpaid.",
+       "You are ignoring us since April, this is very bad.",
+       "Sorry to disturb you again about the small invoice."
+      ],
+      "a": 0,
+      "why": "بتسرد الحقايق والتواريخ من غير عصبية ومن غير اعتذار مالوش لازمة."
+     },
+     {
+      "type": "gap",
+      "sentence": "It is now 90 days ___.",
+      "opts": [
+       "late-due",
+       "overdue",
+       "over time"
+      ],
+      "a": 1,
+      "why": "‎overdue‎ = متأخر عن ميعاد الاستحقاق."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "It is now 90 days overdue.",
+       "This is our final reminder.",
+       "Please arrange payment or send us a confirmed payment date by Thursday, 25 June.",
+       "If we do not hear from you by then, we will have to escalate the matter to our Finance Director and put your account on hold for new orders."
+      ],
+      "why": "الوضع ← تحذير ← المطلوب وآخر ميعاد ← النتيجة لو مفيش رد."
+     }
+    ],
+    "body": [
+     "Dear Ms. Dalia,",
+     "Despite our reminders of 7 April, 10 May and 4 June, invoice INV-0538 for EGP 96,900 is still unpaid. It is now 90 days overdue.",
+     "This is our final reminder. Please arrange payment or send us a confirmed payment date by Thursday, 25 June.",
+     "If we do not hear from you by then, we will have to escalate the matter to our Finance Director and put your account on hold for new orders.",
+     "Best regards,\n<Your name>\nAccounts Receivable | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Escalation – Delta Pharma – INV-0538 (EGP 96,900)",
+    "date": "Sun, 28 Jun · 09:30",
+    "task": "العميل ما ردّش؛ صعّد للمدير المالي ‎Mr. Hany Zaki‎ داخلياً: لخّص المشكلة واللي عملته، واقترح الخطوة الجاية.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best first line for an internal escalation",
+      "opts": [
+       "Delta Pharma are bad payers, do something.",
+       "I would like to escalate an overdue payment from Delta Pharma.",
+       "Hi, just FYI, some client didn't pay."
+      ],
+      "a": 1,
+      "why": "خش في الموضوع على طول بوضوح واحترام."
+     },
+     {
+      "type": "gap",
+      "sentence": "I ___ that you contact their Finance Manager directly",
+      "opts": [
+       "suggest",
+       "advise you to",
+       "propose you"
+      ],
+      "a": 0,
+      "why": "‎I suggest that you‎... صح؛ ‎propose you‎ غلط في التركيب."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "I would like to escalate an overdue payment from Delta Pharma.",
+       "We sent four reminders, the last one a final reminder on 21 June, but we have received no reply.",
+       "I suggest that you contact their Finance Manager directly, and that we put new orders on hold until payment.",
+       "Please let me know how you would like to proceed."
+      ],
+      "why": "الموضوع ← اللي اتعمل ← الاقتراح ← طلب القرار."
+     }
+    ],
+    "body": [
+     "Dear Mr. Hany,",
+     "I would like to escalate an overdue payment from Delta Pharma.",
+     "Invoice INV-0538 for EGP 96,900 (replacement batteries) was due on 23 March. We sent four reminders, the last one a final reminder on 21 June, but we have received no reply.",
+     "Delta Pharma is an important client, and they paid the UPS project in full, although one cheque was returned in February.",
+     "I suggest that you contact their Finance Manager directly, and that we put new orders on hold until payment. Please let me know how you would like to proceed.",
+     "Best regards,\n<Your name>\nAccounts Receivable | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Hany Zaki — NPS (Finance Director)",
+    "subject": "RE: Escalation – Delta Pharma – INV-0538 (EGP 96,900)",
+    "date": "Mon, 29 Jun · 13:10",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for the clear summary. I called their Finance Manager, Mr. Samy Ragab, this morning.",
+     "They agreed to pay EGP 50,000 by bank transfer on 2 July and the balance of EGP 46,900 by 16 July.",
+     "Please confirm the agreement with Ms. Dalia in writing and keep me posted.",
+     "Best regards,\nHany Zaki\nFinance Director | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Payment agreement – INV-0538",
+    "date": "Mon, 29 Jun · 15:00",
+    "task": "أكّد الاتفاق مع العميل كتابةً: المبالغ والتواريخ وطريقة الدفع، ووضّح إمتى الإيقاف هيتشال.",
+    "steps": [
+     {
+      "type": "gap",
+      "sentence": "Following the call today between our Finance Director, Mr. Hany Zaki, and Mr. Samy Ragab, I would like to confirm the ___ payment plan for INV-0538:",
+      "opts": [
+       "agreed",
+       "agreeing",
+       "accorded"
+      ],
+      "a": 0,
+      "why": "‎the agreed payment plan‎ = خطة السداد المتفق عليها."
+     },
+     {
+      "type": "pick",
+      "q": "Choose the best sentence about the account hold",
+      "opts": [
+       "We will open the account only if you behave.",
+       "Once the full amount is received, we will release the hold on your account.",
+       "The hold stays forever until we decide."
+      ],
+      "a": 1,
+      "why": "بتوضح الشرط بشكل مهني ومحايد."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Following the call today between our Finance Director, Mr. Hany Zaki, and Mr. Samy Ragab, I would like to confirm the agreed payment plan for INV-0538:",
+       "Please add the invoice number to the transfer reference.",
+       "Once the full amount is received, we will release the hold on your account.",
+       "Thank you for your cooperation."
+      ],
+      "why": "المرجع ← (الخطة) ← طلب عملي ← النتيجة ← شكر."
+     }
+    ],
+    "body": [
+     "Dear Ms. Dalia,",
+     "Following the call today between our Finance Director, Mr. Hany Zaki, and Mr. Samy Ragab, I would like to confirm the agreed payment plan for INV-0538:",
+     "- EGP 50,000 by bank transfer on 2 July 2026\n- EGP 46,900 by bank transfer on 16 July 2026",
+     "Please add the invoice number to the transfer reference. Once the full amount is received, we will release the hold on your account.",
+     "Thank you for your cooperation.",
+     "Best regards,\n<Your name>\nAccounts Receivable | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Dalia Fawzy — Delta Pharma",
+    "subject": "RE: Payment agreement – INV-0538",
+    "date": "Tue, 30 Jun · 10:20",
+    "body": [
+     "Dear <Your name>,",
+     "We confirm the payment plan above. Sorry for the delay, and thank you for your patience.",
+     "Our treasury team has already scheduled the first transfer. I will send you the transfer confirmation on 2 July, with the invoice number in the reference.",
+     "Please also send us the new statement of account after the final payment.",
+     "Best regards,\nDalia Fawzy\nAccounts Payable\nDelta Pharma"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "Despite our reminders of ...",
+    "بالرغم من تذكيراتنا بتاريخ ..."
+   ],
+   [
+    "This is our final reminder.",
+    "ده آخر تذكير مننا."
+   ],
+   [
+    "If we do not hear from you by then, ...",
+    "لو ما وصلناش رد منكم لغاية الميعاد ده، ..."
+   ],
+   [
+    "we will have to escalate the matter",
+    "هنضطر نصعّد الموضوع"
+   ],
+   [
+    "I would like to escalate ...",
+    "حابب أصعّد موضوع ..."
+   ],
+   [
+    "Please let me know how you would like to proceed.",
+    "قولّي حابب نمشي إزاي."
+   ],
+   [
+    "I would like to confirm the agreed payment plan.",
+    "حابب أأكد خطة السداد المتفق عليها."
+   ],
+   [
+    "keep me posted",
+    "بلّغني بالجديد أول بأول"
+   ]
+  ],
+  "glossary": [
+   [
+    "overdue",
+    "متأخر السداد"
+   ],
+   [
+    "final reminder",
+    "تذكير نهائي"
+   ],
+   [
+    "escalation",
+    "تصعيد"
+   ],
+   [
+    "account on hold",
+    "إيقاف التعامل على الحساب"
+   ],
+   [
+    "payment plan",
+    "خطة سداد"
+   ],
+   [
+    "instalment",
+    "قسط"
+   ]
+  ]
+ }
+]

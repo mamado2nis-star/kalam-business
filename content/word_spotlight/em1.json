@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "deliverables",
+   "pos": "noun",
+   "ar": "المطلوب تسليمه في المشروع",
+   "def": "the specific things (reports, equipment, results) you must hand over in a project.",
+   "book": "I have a few questions about the timeline and deliverables, and I was hoping you could help me out.",
+   "uses": [
+    [
+     "Email",
+     "Please find the project deliverables below: site survey, single-line diagram and final quotation."
+    ],
+    [
+     "Chat",
+     "what are the deliverables for phase 1?"
+    ],
+    [
+     "Meeting",
+     "Let's agree on the deliverables and dates before we sign."
+    ]
+   ],
+   "goes": [
+    "key deliverables",
+    "project deliverables",
+    "deliver on the deliverables"
+   ],
+   "dont": [
+    "What are the things we must give in the project?"
+   ],
+   "doo": [
+    "What are the project deliverables?"
+   ],
+   "level": 3
+  },
+  {
+   "w": "hit the deadline",
+   "pos": "phrase",
+   "ar": "نلحق الميعاد / نسلّم في الميعاد",
+   "def": "to finish something by the time it is due.",
+   "book": "Is there anything I can do to help ensure we hit the deadline?",
+   "uses": [
+    [
+     "Email",
+     "We're confident we'll hit the deadline for commissioning the UPS system."
+    ],
+    [
+     "Chat",
+     "are we gonna hit the deadline on friday? 😬"
+    ],
+    [
+     "Meeting",
+     "If the batteries arrive late, we won't hit the deadline."
+    ]
+   ],
+   "goes": [
+    "hit the deadline",
+    "meet a deadline",
+    "miss a deadline"
+   ],
+   "dont": [
+    "We will catch the deadline."
+   ],
+   "doo": [
+    "We will hit the deadline."
+   ],
+   "level": 1
+  },
+  {
+   "w": "wrap up",
+   "pos": "phrasal verb",
+   "ar": "يخلّص / يقفل الموضوع",
+   "def": "to finish something, like a meeting, email or project.",
+   "book": "When it comes time to wrap things up, don't forget to include a closing line.",
+   "uses": [
+    [
+     "Email",
+     "We expect to wrap up the installation by the end of next week."
+    ],
+    [
+     "Chat",
+     "let's wrap this up, i have a site visit at 3"
+    ],
+    [
+     "Meeting",
+     "To wrap up, the next step is to send the revised quotation."
+    ]
+   ],
+   "goes": [
+    "wrap up a meeting",
+    "wrap things up",
+    "to wrap up, …"
+   ],
+   "dont": [
+    "Let's close the meeting now."
+   ],
+   "doo": [
+    "Let's wrap up the meeting."
+   ],
+   "level": 1
+  },
+  {
+   "w": "sign off",
+   "pos": "phrasal verb",
+   "ar": "يختم الإيميل / يقفل الرسالة",
+   "def": "to end an email or letter with a closing phrase and your name.",
+   "book": "This is where you politely sign off and thank the reader for their time.",
+   "uses": [
+    [
+     "Email",
+     "Always sign off with \"Best regards\" when writing to a new customer."
+    ],
+    [
+     "Chat",
+     "how do u usually sign off with clients? cheers or regards?"
+    ],
+    [
+     "Meeting",
+     "A friendly sign-off can make a collection reminder sound less harsh."
+    ]
+   ],
+   "goes": [
+    "sign off an email",
+    "sign off with",
+    "a friendly sign-off"
+   ],
+   "dont": [
+    "How I finish the email in the end?"
+   ],
+   "doo": [
+    "How should I sign off?"
+   ],
+   "level": 2
+  },
+  {
+   "w": "check in",
+   "pos": "phrasal verb",
+   "ar": "يطمن / يسأل عن آخر الأخبار",
+   "def": "to contact someone briefly to see how things are going or get an update.",
+   "book": "I wanted to check in and see if there have been any updates since our last conversation.",
+   "uses": [
+    [
+     "Email",
+     "I'm just checking in to see if you had a chance to review our quotation."
+    ],
+    [
+     "Chat",
+     "checking in: any news from the client on the PO?"
+    ],
+    [
+     "Meeting",
+     "Let's check in with the site team on Monday."
+    ]
+   ],
+   "goes": [
+    "check in with someone",
+    "just checking in",
+    "a quick check-in"
+   ],
+   "dont": [
+    "I am asking about the quotation what happened."
+   ],
+   "doo": [
+    "I'm just checking in on the quotation."
+   ],
+   "level": 2
+  },
+  {
+   "w": "bring to your attention",
+   "pos": "phrase",
+   "ar": "ألفت نظرك لـ",
+   "def": "to tell someone formally about something they should notice or deal with.",
+   "book": "I wanted to bring to your attention the problem we've been experiencing with ___.",
+   "uses": [
+    [
+     "Email",
+     "I'd like to bring to your attention that invoice #2051 is now 60 days overdue."
+    ],
+    [
+     "Chat",
+     "just bringing this to your attention: site B UPS is on bypass"
+    ],
+    [
+     "Meeting",
+     "Thanks for bringing this to our attention — we'll send an engineer today."
+    ]
+   ],
+   "goes": [
+    "bring something to someone's attention",
+    "thank you for bringing this to our attention",
+    "draw attention to"
+   ],
+   "dont": [
+    "I want to make you notice this problem."
+   ],
+   "doo": [
+    "I'd like to bring this issue to your attention."
+   ],
+   "level": 3
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "Subject: Hello",
+   "ar": "موضوع الإيميل: أهلاً",
+   "pro": [
+    "Subject: Hi from me",
+    "Subject: Quotation for 20 kVA UPS – Cairo branch",
+    "Subject: Important!!!"
+   ],
+   "a": 1,
+   "why": "الـ‎subject line‎ لازم يكون واضح ويقول الموضوع."
+  },
+  {
+   "plain": "I send you this email to ask you a question.",
+   "ar": "ببعتلك الإيميل ده عشان أسألك سؤال",
+   "pro": [
+    "I'm reaching out to ask a quick question.",
+    "I send you this email for asking.",
+    "I write you to ask you one question."
+   ],
+   "a": 0,
+   "why": "‎I'm reaching out‎ افتتاحية طبيعية ومهنية."
+  },
+  {
+   "plain": "Waiting your reply.",
+   "ar": "في انتظار ردك",
+   "pro": [
+    "Waiting your reply.",
+    "I am waiting you to answer.",
+    "I look forward to hearing back from you soon."
+   ],
+   "a": 2,
+   "why": "‎waiting your reply‎ ناقصها ‎for‎ وناشفة؛ ‎look forward to‎ ألطف."
+  },
+  {
+   "plain": "Dear Sir, I want the job.",
+   "ar": "يا فندم، أنا عايز الوظيفة",
+   "pro": [
+    "Dear Sir, give me the job please.",
+    "Dear Hiring Manager, I'm writing to express my interest in the position.",
+    "Hi boss, I want this job."
+   ],
+   "a": 1,
+   "why": "لو مش عارف الاسم قول ‎Dear Hiring Manager‎ وادخل في الموضوع بأدب."
+  },
+  {
+   "plain": "I write this email to talk about the problem.",
+   "ar": "بكتب الإيميل ده عشان أتكلم في المشكلة",
+   "pro": [
+    "The purpose of this email is to address the issue.",
+    "This email is for talking on the problem.",
+    "I write to you about problem."
+   ],
+   "a": 0,
+   "why": "‎The purpose of this email is to‎ افتتاحية رسمية واضحة."
+  },
+  {
+   "plain": "Ahmed told me to talk to you.",
+   "ar": "أحمد قالي أكلمك",
+   "pro": [
+    "Ahmed said me to talk with you.",
+    "Ahmed sent me to you.",
+    "I was referred to you by Ahmed."
+   ],
+   "a": 2,
+   "why": "‎referred to you by‎ هي الصيغة المهنية للترشيح."
+  }
+ ]
+}

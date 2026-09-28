@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "root cause",
+   "pos": "noun",
+   "ar": "السبب الأساسي للمشكلة",
+   "def": "the main, underlying reason a problem happens.",
+   "book": "I try to understand the root cause of the problem and identify all the potential options for resolving it.",
+   "uses": [
+    [
+     "Email",
+     "Our engineer has identified the root cause of the repeated UPS shutdowns: a faulty bypass switch."
+    ],
+    [
+     "Chat",
+     "did we find the root cause or just reset it again? 🤔"
+    ],
+    [
+     "Meeting",
+     "Before we replace anything, let's agree on the root cause."
+    ]
+   ],
+   "goes": [
+    "root cause analysis",
+    "identify the root cause",
+    "get to the root cause"
+   ],
+   "dont": [
+    "We need to know the reason of the reason."
+   ],
+   "doo": [
+    "We need to find the root cause."
+   ],
+   "level": 2
+  },
+  {
+   "w": "stakeholders",
+   "pos": "noun",
+   "ar": "الأطراف المعنية / أصحاب المصلحة",
+   "def": "people or groups who are affected by or involved in a project or decision.",
+   "book": "I also consult with my team or other stakeholders to gather different perspectives and insights.",
+   "uses": [
+    [
+     "Email",
+     "I will share the project timeline with all stakeholders, including the client's facility manager."
+    ],
+    [
+     "Chat",
+     "need sign-off from all stakeholders before we order the batteries"
+    ],
+    [
+     "Meeting",
+     "Who are the key stakeholders on the hospital solar project?"
+    ]
+   ],
+   "goes": [
+    "key stakeholders",
+    "consult stakeholders",
+    "stakeholder meeting"
+   ],
+   "dont": [
+    "All the people who have relation with the project."
+   ],
+   "doo": [
+    "All the stakeholders."
+   ],
+   "level": 3
+  },
+  {
+   "w": "in a timely manner",
+   "pos": "phrase",
+   "ar": "في الوقت المناسب / من غير تأخير",
+   "def": "quickly and at the right time, without delay.",
+   "book": "To overcome these challenges, I implemented a clear project plan and communication strategy, and I also made sure to regularly check in with all team members to ensure everyone was on the same page and that any issues were addressed in a timely manner.",
+   "uses": [
+    [
+     "Email",
+     "We kindly ask that outstanding invoices be settled in a timely manner."
+    ],
+    [
+     "Chat",
+     "pls reply to the client in a timely manner, they're chasing us"
+    ],
+    [
+     "Meeting",
+     "Service requests must be handled in a timely manner to protect our SLA."
+    ]
+   ],
+   "goes": [
+    "in a timely manner",
+    "timely payment",
+    "a timely response"
+   ],
+   "dont": [
+    "Please pay in the suitable time."
+   ],
+   "doo": [
+    "Please pay in a timely manner."
+   ],
+   "level": 3
+  },
+  {
+   "w": "common ground",
+   "pos": "noun",
+   "ar": "نقطة اتفاق مشتركة",
+   "def": "points or interests that two sides agree on or share.",
+   "book": "Then I try to find common ground and identify areas of agreement.",
+   "uses": [
+    [
+     "Email",
+     "I'm confident we can find common ground on the payment terms."
+    ],
+    [
+     "Chat",
+     "let's find some common ground with purchasing before the call"
+    ],
+    [
+     "Meeting",
+     "We didn't agree on price, but we found common ground on the warranty."
+    ]
+   ],
+   "goes": [
+    "find common ground",
+    "reach common ground",
+    "look for common ground"
+   ],
+   "dont": [
+    "We need to find a middle point."
+   ],
+   "doo": [
+    "We need to find common ground."
+   ],
+   "level": 2
+  },
+  {
+   "w": "win-win",
+   "pos": "adjective",
+   "ar": "مكسب للطرفين",
+   "def": "good for everyone involved.",
+   "book": "It ended up being a win-win situation, and the project was a success.",
+   "uses": [
+    [
+     "Email",
+     "An extended maintenance contract would be a win-win: lower costs for you and guaranteed response times."
+    ],
+    [
+     "Chat",
+     "sounds like a win-win to me 🤝"
+    ],
+    [
+     "Meeting",
+     "We're looking for a win-win deal with the distributor."
+    ]
+   ],
+   "goes": [
+    "a win-win situation",
+    "a win-win deal",
+    "a win-win solution"
+   ],
+   "dont": [
+    "Both of us will be benefited."
+   ],
+   "doo": [
+    "It's a win-win."
+   ],
+   "level": 1
+  },
+  {
+   "w": "keep an eye on",
+   "pos": "phrasal verb",
+   "ar": "يراقب / يخلي عينه على",
+   "def": "to watch something carefully so you notice any changes or problems.",
+   "book": "In addition, I always take the time to stay informed about my competitors, keeping an eye on their product releases, marketing strategies and customer feedback, to know what they're doing and how they are performing.",
+   "uses": [
+    [
+     "Email",
+     "We will keep an eye on the battery temperature after the replacement and report back."
+    ],
+    [
+     "Chat",
+     "keep an eye on that overdue account pls 👀"
+    ],
+    [
+     "Meeting",
+     "Let's keep an eye on competitor pricing for solar inverters this quarter."
+    ]
+   ],
+   "goes": [
+    "keep an eye on prices",
+    "keep a close eye on",
+    "keep an eye on the competition"
+   ],
+   "dont": [
+    "I will put my eye on the site."
+   ],
+   "doo": [
+    "I'll keep an eye on the site."
+   ],
+   "level": 1
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "I heard about you many good things.",
+   "ar": "سمعت عنك حاجات حلوة كتير",
+   "pro": [
+    "I've heard great things about your work.",
+    "I heard about you many good things.",
+    "I listened good things about you."
+   ],
+   "a": 0,
+   "why": "الترتيب الصح: ‎heard great things about‎."
+  },
+  {
+   "plain": "I started small and I grew up in the company until I became manager.",
+   "ar": "بدأت صغير وكبرت في الشركة لحد ما بقيت مدير",
+   "pro": [
+    "I grew up in the company until manager.",
+    "I worked my way up to my current role.",
+    "I raised in the company step by step."
+   ],
+   "a": 1,
+   "why": "‎work my way up‎ = اترقيت خطوة بخطوة؛ ‎grew up‎ يعني كبرت في السن."
+  },
+  {
+   "plain": "The project affected on the profit of the company very much.",
+   "ar": "المشروع أثّر على أرباح الشركة جامد",
+   "pro": [
+    "The project affected on the company profit.",
+    "The project made big effect in the profit.",
+    "The project had a significant impact on the company's bottom line."
+   ],
+   "a": 2,
+   "why": "‎affect‎ من غير ‎on‎، و‎bottom line‎ = صافي الربح."
+  },
+  {
+   "plain": "The project was very complicated and has many things.",
+   "ar": "المشروع كان معقد وفيه حاجات كتير",
+   "pro": [
+    "It was a complex project with many moving parts.",
+    "The project was very complicated and many things.",
+    "The project had a lot of details things."
+   ],
+   "a": 0,
+   "why": "‎many moving parts‎ = أجزاء كتير لازم تتنسق مع بعض."
+  },
+  {
+   "plain": "I want to say again I am very excited for the job.",
+   "ar": "عايز أقول تاني إني متحمس جدًا للوظيفة",
+   "pro": [
+    "I want to say again I am excited on the job.",
+    "I'd like to reiterate my enthusiasm for the role.",
+    "I repeat that I am very excited."
+   ],
+   "a": 1,
+   "why": "‎reiterate‎ = أكرر بشكل رسمي في آخر المقابلة."
+  },
+  {
+   "plain": "I made my team pass the target.",
+   "ar": "خليت فريقي يعدّي التارجت",
+   "pro": [
+    "I made my team to pass the target.",
+    "My team passed the target by me.",
+    "I led my team to exceed sales targets."
+   ],
+   "a": 2,
+   "why": "‎led my team to exceed‎ بتبين قيادتك، و‎exceed‎ أحسن من ‎pass‎."
+  }
+ ]
+}

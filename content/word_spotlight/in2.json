@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "under pressure",
+   "pos": "phrase",
+   "ar": "تحت ضغط",
+   "def": "while dealing with stress, tight deadlines or a heavy workload.",
+   "book": "Additionally, my ___ has given me the ability to think strategically, solve problems effectively and work well under pressure, all of which I believe are essential for success in this role.",
+   "uses": [
+    [
+     "Email",
+     "The team worked well under pressure to restore power at the bank's data centre overnight."
+    ],
+    [
+     "Chat",
+     "we're under a lot of pressure this week with the tender 😮‍💨"
+    ],
+    [
+     "Meeting",
+     "I stay calm under pressure, especially during emergency call-outs."
+    ]
+   ],
+   "goes": [
+    "work well under pressure",
+    "under pressure to deliver",
+    "stay calm under pressure"
+   ],
+   "dont": [
+    "I can work in the pressure."
+   ],
+   "doo": [
+    "I work well under pressure."
+   ],
+   "level": 2
+  },
+  {
+   "w": "deployment",
+   "pos": "noun",
+   "ar": "تركيب وتشغيل نظام (خصوصًا IT)",
+   "def": "the process of installing and putting a system into use.",
+   "book": "I was responsible for leading a team of ten employees and coordinating with other departments to ensure the successful deployment of the system.",
+   "uses": [
+    [
+     "Email",
+     "The deployment of the new monitoring software is scheduled for the weekend to avoid downtime."
+    ],
+    [
+     "Chat",
+     "deployment done ✅ all racks reporting to the dashboard"
+    ],
+    [
+     "Meeting",
+     "Let's plan the server deployment in two phases."
+    ]
+   ],
+   "goes": [
+    "successful deployment",
+    "deployment plan",
+    "deploy a system"
+   ],
+   "dont": [
+    "We finished putting the system and working it."
+   ],
+   "doo": [
+    "We completed the deployment of the system."
+   ],
+   "level": 3
+  },
+  {
+   "w": "implement",
+   "pos": "verb",
+   "ar": "ينفّذ / يطبّق",
+   "def": "to start using a plan, system or idea and make it work.",
+   "book": "For example, I have experience in ___, and I believe implementing ___ could help the team achieve better results.",
+   "uses": [
+    [
+     "Email",
+     "We plan to implement a new ticketing system for service requests next quarter."
+    ],
+    [
+     "Chat",
+     "when are we implementing the new price list?"
+    ],
+    [
+     "Meeting",
+     "If we implement remote monitoring, we can cut site visits by 30%."
+    ]
+   ],
+   "goes": [
+    "implement a system",
+    "implement a plan",
+    "implement changes"
+   ],
+   "dont": [
+    "We will make the new system work in the company."
+   ],
+   "doo": [
+    "We will implement the new system."
+   ],
+   "level": 2
+  },
+  {
+   "w": "revamp",
+   "pos": "verb",
+   "ar": "يجدّد / يعمل تطوير شامل",
+   "def": "to change and improve something so it looks or works better.",
+   "book": "Recently, I was part of a team assigned to revamp the company's internal communications system.",
+   "uses": [
+    [
+     "Email",
+     "We are revamping our maintenance contract packages and will share the new offer soon."
+    ],
+    [
+     "Chat",
+     "the website finally got revamped 🎉"
+    ],
+    [
+     "Meeting",
+     "It's time to revamp our quotation template — it looks outdated."
+    ]
+   ],
+   "goes": [
+    "revamp a website",
+    "revamp a process",
+    "a complete revamp"
+   ],
+   "dont": [
+    "We will make the system new again."
+   ],
+   "doo": [
+    "We will revamp the system."
+   ],
+   "level": 1
+  },
+  {
+   "w": "streamline",
+   "pos": "verb",
+   "ar": "يبسّط ويسرّع الإجراءات",
+   "def": "to make a process simpler and more efficient by removing unnecessary steps.",
+   "book": "I have experience using agile methodologies to develop mobile apps, and I know they can help streamline the development process and improve the quality of the final product.",
+   "uses": [
+    [
+     "Email",
+     "We have streamlined the ordering process, so quotations now go out within 24 hours."
+    ],
+    [
+     "Chat",
+     "can we streamline the approval chain? 5 signatures is too many"
+    ],
+    [
+     "Meeting",
+     "Our goal is to streamline purchasing and cut lead times."
+    ]
+   ],
+   "goes": [
+    "streamline a process",
+    "streamline operations",
+    "streamlined workflow"
+   ],
+   "dont": [
+    "We will make the process more easy and fast."
+   ],
+   "doo": [
+    "We will streamline the process."
+   ],
+   "level": 3
+  },
+  {
+   "w": "drive results",
+   "pos": "verb phrase",
+   "ar": "يحقق نتايج فعلية",
+   "def": "to make things happen and achieve clear, measurable outcomes.",
+   "book": "This accomplishment demonstrates my ability to lead and drive results in a fast-paced environment.",
+   "uses": [
+    [
+     "Email",
+     "Our new service team leader has a clear focus on driving results in customer retention."
+    ],
+    [
+     "Chat",
+     "she really drives results — renewals up 20% 🚀"
+    ],
+    [
+     "Meeting",
+     "We need a plan that drives results, not just more meetings."
+    ]
+   ],
+   "goes": [
+    "drive results",
+    "drive sales",
+    "drive growth"
+   ],
+   "dont": [
+    "I make results come."
+   ],
+   "doo": [
+    "I drive results."
+   ],
+   "level": 2
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "My experience is suitable very much with this job.",
+   "ar": "خبرتي مناسبة جدًا للوظيفة دي",
+   "pro": [
+    "My experience is suitable very much for this job.",
+    "My experience and skills align very well with this role.",
+    "My experience fits with the job very much."
+   ],
+   "a": 1,
+   "why": "‎align very well with‎ أحسن، و‎very much‎ مكانها مش في النص."
+  },
+  {
+   "plain": "I have history of good results.",
+   "ar": "عندي تاريخ من النتايج الكويسة",
+   "pro": [
+    "I have a proven track record of delivering results.",
+    "I have a history of good results.",
+    "I have many good results before."
+   ],
+   "a": 0,
+   "why": "التعبير الاحترافي ‎a proven track record‎."
+  },
+  {
+   "plain": "We finished the project in the time and less than the budget.",
+   "ar": "خلّصنا المشروع في ميعاده وبأقل من الميزانية",
+   "pro": [
+    "We finished the project in time and less than budget.",
+    "The project finished on the time with less money.",
+    "The project was completed on time and under budget."
+   ],
+   "a": 2,
+   "why": "الجملة الثابتة ‎on time and under budget‎."
+  },
+  {
+   "plain": "We made the sales more than the target by 20%.",
+   "ar": "عملنا مبيعات أكتر من التارجت بـ ٢٠٪",
+   "pro": [
+    "We exceeded sales targets by 20%.",
+    "We passed the target with 20%.",
+    "We made more sales from the target 20%."
+   ],
+   "a": 0,
+   "why": "‎exceed targets by‎ + النسبة."
+  },
+  {
+   "plain": "I have new ideas can help the team.",
+   "ar": "عندي أفكار جديدة ممكن تساعد الفريق",
+   "pro": [
+    "I have new ideas can help the team.",
+    "I have a few ideas I believe could benefit the team.",
+    "I have some new ideas for help the team."
+   ],
+   "a": 1,
+   "why": "محتاج فعل واضح: ‎ideas that could benefit the team‎."
+  },
+  {
+   "plain": "The most thing I am proud of it is the UPS project.",
+   "ar": "أكتر حاجة فخور بيها مشروع الـ UPS",
+   "pro": [
+    "The thing I am most proud of it is the UPS project.",
+    "The most thing I'm proud is the UPS project.",
+    "One accomplishment that stands out is the UPS roll-out for a major bank."
+   ],
+   "a": 2,
+   "why": "في الإنجليزي مفيش ‎it‎ زيادة بعد ‎of‎، و‎stands out‎ أشيك."
+  }
+ ]
+}

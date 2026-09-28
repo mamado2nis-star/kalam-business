@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "shortlisted",
+   "pos": "verb (passive)",
+   "ar": "اتختار في القايمة المختصرة",
+   "def": "chosen as one of a small group of best candidates or suppliers for the final decision.",
+   "book": "Well, if you are shortlisted, we will contact you for a panel interview within the next few days.",
+   "uses": [
+    [
+     "Email",
+     "Good news: we've been shortlisted for the data-centre UPS tender at the bank."
+    ],
+    [
+     "Chat",
+     "we got shortlisted for the solar project 🎉"
+    ],
+    [
+     "Meeting",
+     "Three suppliers were shortlisted; the final decision is next week."
+    ]
+   ],
+   "goes": [
+    "be shortlisted for",
+    "make the shortlist",
+    "a shortlist of suppliers"
+   ],
+   "dont": [
+    "We entered the short list of the tender."
+   ],
+   "doo": [
+    "We've been shortlisted for the tender."
+   ],
+   "level": 2
+  },
+  {
+   "w": "deadline",
+   "pos": "noun",
+   "ar": "آخر ميعاد للتسليم",
+   "def": "the latest time or date by which something must be finished.",
+   "book": "I have completed several client projects, including small consulting and research jobs, and delivered each job on budget and before the deadline.",
+   "uses": [
+    [
+     "Email",
+     "Please note the deadline for submitting the quotation is Thursday at 3 pm."
+    ],
+    [
+     "Chat",
+     "what's the deadline for the battery replacement report?"
+    ],
+    [
+     "Meeting",
+     "We can't miss this deadline — the client's site handover is on the 15th."
+    ]
+   ],
+   "goes": [
+    "meet a deadline",
+    "miss a deadline",
+    "a tight deadline"
+   ],
+   "dont": [
+    "We must finish before the last date."
+   ],
+   "doo": [
+    "We need to meet the deadline."
+   ],
+   "level": 2
+  },
+  {
+   "w": "under pressure",
+   "pos": "phrase",
+   "ar": "تحت ضغط",
+   "def": "while facing stress, urgency or a lot of work at the same time.",
+   "book": "I can work well under pressure.",
+   "uses": [
+    [
+     "Email",
+     "The service team handled the outage very well under pressure."
+    ],
+    [
+     "Chat",
+     "crazy day 😅 three UPS failures at once, but we're managing under pressure"
+    ],
+    [
+     "Meeting",
+     "I work best under pressure — give me the urgent site visits."
+    ]
+   ],
+   "goes": [
+    "work well under pressure",
+    "be under pressure",
+    "put someone under pressure"
+   ],
+   "dont": [
+    "I can work under the pressure of work."
+   ],
+   "doo": [
+    "I work well under pressure."
+   ],
+   "level": 2
+  },
+  {
+   "w": "delegate",
+   "pos": "verb",
+   "ar": "يوزّع / يفوّض المهام",
+   "def": "to give part of your work or responsibility to someone else in your team.",
+   "book": "I am the type of manager who always delegates effectively.",
+   "uses": [
+    [
+     "Email",
+     "I've delegated the preventive-maintenance schedule to Ahmed; please contact him directly."
+    ],
+    [
+     "Chat",
+     "can you delegate the invoices to someone? you're swamped"
+    ],
+    [
+     "Meeting",
+     "I'll delegate the site survey to the junior engineers and review the results myself."
+    ]
+   ],
+   "goes": [
+    "delegate tasks",
+    "delegate responsibility",
+    "delegate effectively"
+   ],
+   "dont": [
+    "I give my work to my team to do it."
+   ],
+   "doo": [
+    "I delegate tasks to my team."
+   ],
+   "level": 2
+  },
+  {
+   "w": "anticipate",
+   "pos": "verb",
+   "ar": "يتوقع حاجة قبل ما تحصل ويستعد لها",
+   "def": "to see a problem or need before it happens and prepare for it.",
+   "book": "My ability to anticipate problems and explore alternative solutions has made me a decisive leader.",
+   "uses": [
+    [
+     "Email",
+     "We anticipate a delay in the battery shipment due to customs clearance."
+    ],
+    [
+     "Chat",
+     "i'm anticipating a busy week with the summer load peaks ☀️"
+    ],
+    [
+     "Meeting",
+     "We should anticipate the client's questions about the maintenance contract price."
+    ]
+   ],
+   "goes": [
+    "anticipate problems",
+    "anticipate demand",
+    "anticipate a delay"
+   ],
+   "dont": [
+    "I expect the problems before they come."
+   ],
+   "doo": [
+    "I anticipate problems before they happen."
+   ],
+   "level": 3
+  },
+  {
+   "w": "stretch targets",
+   "pos": "noun",
+   "ar": "أهداف صعبة وطموحة أعلى من العادي",
+   "def": "goals that are deliberately set higher than normal to push you to perform better.",
+   "book": "I am goal-oriented and ambitious; I welcome goals and stretch targets because I really enjoy challenging work.",
+   "uses": [
+    [
+     "Email",
+     "This year's sales plan includes a stretch target of EGP 20M for solar systems."
+    ],
+    [
+     "Chat",
+     "mgmt just sent the stretch targets for Q4 😬"
+    ],
+    [
+     "Meeting",
+     "The base target is 100 UPS units; the stretch target is 130."
+    ]
+   ],
+   "goes": [
+    "set stretch targets",
+    "hit a stretch target",
+    "a stretch goal"
+   ],
+   "dont": [
+    "I like the very high targets that are difficult."
+   ],
+   "doo": [
+    "I welcome stretch targets."
+   ],
+   "level": 2
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "Sorry, I am eating now, call me after.",
+   "ar": "آسف أنا باكل دلوقتي، كلمني بعدين",
+   "pro": [
+    "I'm a little tied up just now. Is it OK if I call you back in half an hour?",
+    "Sorry, I eat now, call me after.",
+    "I am in the food, talk later."
+   ],
+   "a": 0,
+   "why": "‎call me after‎ ناقصة. قول ‎Is it OK if I call you back‎ وحدد الوقت."
+  },
+  {
+   "plain": "I finished all projects before the dead time.",
+   "ar": "خلّصت كل المشاريع قبل الميعاد",
+   "pro": [
+    "I finished all projects before the dead time.",
+    "I finished all projects before the last time.",
+    "I delivered every project on time and on budget."
+   ],
+   "a": 2,
+   "why": "الكلمة الصح ‎deadline‎، و‎on time and on budget‎ عبارة جاهزة."
+  },
+  {
+   "plain": "I am very good in solving problems.",
+   "ar": "أنا شاطر جدًا في حل المشاكل",
+   "pro": [
+    "I'm a problem-solver — I resolve issues quickly and logically.",
+    "I am very good in solving problems.",
+    "I solve the problems very good."
+   ],
+   "a": 0,
+   "why": "‎good at‎ مش ‎good in‎، و‎problem-solver‎ أقوى في المقابلة."
+  },
+  {
+   "plain": "I want to learn more and take a higher position.",
+   "ar": "عايز أتعلم أكتر وآخد منصب أعلى",
+   "pro": [
+    "I want take higher position.",
+    "I'm looking for a role where I can grow and take on more responsibility.",
+    "I want to be up in the company."
+   ],
+   "a": 1,
+   "why": "‎grow‎ و‎take on more responsibility‎ بتوصل الطموح بشكل مهني."
+  },
+  {
+   "plain": "What will happen after this?",
+   "ar": "إيه اللي هيحصل بعد كده؟",
+   "pro": [
+    "What will happen after this?",
+    "What is after?",
+    "What are the next steps in the process?"
+   ],
+   "a": 2,
+   "why": "في آخر المكالمة اسأل عن ‎the next steps‎ بدل سؤال عام."
+  },
+  {
+   "plain": "I can work alone without anybody watch me.",
+   "ar": "أقدر أشتغل لوحدي من غير ما حد يراقبني",
+   "pro": [
+    "I can work alone without anybody watch me.",
+    "I can work independently, without supervision.",
+    "Nobody need to watch me."
+   ],
+   "a": 1,
+   "why": "‎work independently‎ و‎without supervision‎ هي الصيغة المهنية."
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "at your earliest convenience",
+   "pos": "phrase",
+   "ar": "في أقرب وقت يناسبك",
+   "def": "as soon as you can — a polite way to ask for something quickly.",
+   "book": "I'd like to request a ___ with you to discuss ___ at your earliest convenience.",
+   "uses": [
+    [
+     "Email",
+     "Please return the signed contract at your earliest convenience."
+    ],
+    [
+     "Chat",
+     "call me at your earliest convenience 🙏"
+    ],
+    [
+     "Meeting",
+     "Could you share the site drawings at your earliest convenience?"
+    ]
+   ],
+   "goes": [
+    "reply at your earliest convenience",
+    "pay at your earliest convenience",
+    "meet at your earliest convenience"
+   ],
+   "dont": [
+    "Please answer me in the nearest time."
+   ],
+   "doo": [
+    "Please reply at your earliest convenience."
+   ],
+   "level": 3
+  },
+  {
+   "w": "alternative",
+   "pos": "adjective / noun",
+   "ar": "بديل",
+   "def": "another possible choice instead of the first one.",
+   "book": "Please let me know which option works best for you, or suggest an alternative date and time.",
+   "uses": [
+    [
+     "Email",
+     "If Sunday doesn't work, please suggest an alternative date for the site visit."
+    ],
+    [
+     "Chat",
+     "that model is out of stock — any alternative?"
+    ],
+    [
+     "Meeting",
+     "The 10 kVA isn't available, but we can offer an alternative from another brand."
+    ]
+   ],
+   "goes": [
+    "an alternative date",
+    "suggest an alternative",
+    "a cheaper alternative"
+   ],
+   "dont": [
+    "Give me another date other."
+   ],
+   "doo": [
+    "Could you suggest an alternative date?"
+   ],
+   "level": 2
+  },
+  {
+   "w": "enhance",
+   "pos": "verb",
+   "ar": "يحسّن / يطوّر",
+   "def": "to improve the quality or value of something.",
+   "book": "Your input is invaluable in helping us enhance our ___ and serve you better.",
+   "uses": [
+    [
+     "Email",
+     "We've added remote monitoring to enhance our service contracts."
+    ],
+    [
+     "Chat",
+     "new dashboard really enhances the customer experience 👌"
+    ],
+    [
+     "Meeting",
+     "Upgrading the batteries will enhance backup time by 30%."
+    ]
+   ],
+   "goes": [
+    "enhance performance",
+    "enhance the customer experience",
+    "enhance our services"
+   ],
+   "dont": [
+    "We want to make our service more better."
+   ],
+   "doo": [
+    "We want to enhance our service."
+   ],
+   "level": 3
+  },
+  {
+   "w": "outstanding",
+   "pos": "adjective",
+   "ar": "متأخر / لسه ماتدفعش",
+   "def": "not yet paid or not yet done.",
+   "book": "Here are the details of the outstanding invoice: invoice number, invoice date, due date, amount due.",
+   "uses": [
+    [
+     "Email",
+     "Please find attached a statement of all outstanding invoices."
+    ],
+    [
+     "Chat",
+     "we still have 3 outstanding invoices from them"
+    ],
+    [
+     "Meeting",
+     "The outstanding balance is EGP 450,000 — mostly from Q2."
+    ]
+   ],
+   "goes": [
+    "an outstanding invoice",
+    "outstanding balance",
+    "outstanding payments"
+   ],
+   "dont": [
+    "There is invoices still not paying."
+   ],
+   "doo": [
+    "There are still some outstanding invoices."
+   ],
+   "level": 2
+  },
+  {
+   "w": "due date",
+   "pos": "noun",
+   "ar": "ميعاد الاستحقاق",
+   "def": "the date by which a payment or task must be completed.",
+   "book": "Here are the details of the outstanding invoice: invoice number, invoice date, due date, amount due.",
+   "uses": [
+    [
+     "Email",
+     "Invoice 1045 passed its due date on 30 June."
+    ],
+    [
+     "Chat",
+     "when's the due date for the Nile Tower invoice?"
+    ],
+    [
+     "Meeting",
+     "Let's move the due date to the 15th to match their payment cycle."
+    ]
+   ],
+   "goes": [
+    "the due date",
+    "past the due date",
+    "before the due date"
+   ],
+   "dont": [
+    "The last day of the payment is passed."
+   ],
+   "doo": [
+    "The invoice is past its due date."
+   ],
+   "level": 2
+  },
+  {
+   "w": "overview",
+   "pos": "noun",
+   "ar": "نظرة عامة / ملخص",
+   "def": "a short general description of something, without all the details.",
+   "book": "Here's a quick overview of what's new: ___.",
+   "uses": [
+    [
+     "Email",
+     "Below is a quick overview of the new maintenance packages."
+    ],
+    [
+     "Chat",
+     "can you send me an overview of the project status?"
+    ],
+    [
+     "Meeting",
+     "Let me start with a brief overview of the proposal."
+    ]
+   ],
+   "goes": [
+    "a quick overview",
+    "a brief overview",
+    "give an overview of"
+   ],
+   "dont": [
+    "I will give you an idea general about the project."
+   ],
+   "doo": [
+    "Let me give you a quick overview of the project."
+   ],
+   "level": 2
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "You didn't pay the invoice until now.",
+   "ar": "إنت لسه مادفعتش الفاتورة لحد دلوقتي",
+   "pro": [
+    "You didn't pay until now, please pay.",
+    "This is a gentle reminder that invoice 1045 remains unpaid.",
+    "Why you didn't pay the invoice?"
+   ],
+   "a": 1,
+   "why": "في التحصيل خليك مؤدب: ‎gentle reminder‎ و ‎remains unpaid‎ بدل اللوم."
+  },
+  {
+   "plain": "Please transfer the money quickly.",
+   "ar": "حوّل الفلوس بسرعة لو سمحت",
+   "pro": [
+    "Please kindly arrange for the payment at your earliest convenience.",
+    "Please transfer the money quickly quickly.",
+    "Do the transfer fast please."
+   ],
+   "a": 0,
+   "why": "‎arrange for the payment‎ أرقى وأقل حدة من ‎transfer the money quickly‎."
+  },
+  {
+   "plain": "I want to make a meeting with you.",
+   "ar": "عايز أعمل معاك اجتماع",
+   "pro": [
+    "I want to do a meeting with you.",
+    "I'd like to request a meeting with you to discuss the renewal.",
+    "Me and you make meeting."
+   ],
+   "a": 1,
+   "why": "بنقول ‎request / schedule a meeting‎ مش ‎make a meeting‎."
+  },
+  {
+   "plain": "Which day is good for you?",
+   "ar": "أنهي يوم مناسب ليك؟",
+   "pro": [
+    "Which day is comfortable for you?",
+    "What day you are free?",
+    "Please let me know which option works best for you."
+   ],
+   "a": 2,
+   "why": "‎comfortable‎ للكراسي مش للمواعيد؛ قول ‎works best for you‎."
+  },
+  {
+   "plain": "We have new good news to tell you.",
+   "ar": "عندنا أخبار حلوة جديدة عايزين نقولها لك",
+   "pro": [
+    "We have new good news to tell you.",
+    "We're excited to announce the launch of our new lithium battery range.",
+    "We announce you new news."
+   ],
+   "a": 1,
+   "why": "في الإعلانات ابدأ بـ ‎We're excited to announce …‎."
+  },
+  {
+   "plain": "Thank you for dealing with us.",
+   "ar": "شكرًا على تعاملك معانا",
+   "pro": [
+    "Thank you for your business.",
+    "Thank you for dealing with us.",
+    "Thanks for your dealing."
+   ],
+   "a": 0,
+   "why": "‎dealing with‎ ترجمة حرفية؛ الإنجليزي بيقول ‎Thank you for your business‎."
+  }
+ ]
+}

@@ -1,0 +1,1774 @@
+[
+ {
+  "id": "s3e1",
+  "season": "s3",
+  "title": "Requesting prices from suppliers",
+  "ar": "طلب أسعار من الموردين",
+  "field": "Purchasing · RFQ",
+  "icon": "📨",
+  "scene": "NPS needs 120 lithium battery modules for the Horizon Hospital UPS project and Q4 stock. The Finance Director asks you to get offers from three suppliers. You send an RFQ to Shenzhen VoltTech, but their reply is not what you asked for.",
+  "sceneAr": "الشركة محتاجة 120 موديول بطارية ليثيوم لمشروع ‎UPS‎ مستشفى حورايزون، والمدير المالي طالب عروض من 3 موردين. إنت بعت ‎RFQ‎ لـ ‎VoltTech‎ بس ردهم جه ناقص ومش بالشروط اللي طلبتها.",
+  "thread": [
+   {
+    "dir": "in",
+    "from": "Mr. Hany Zaki — NPS",
+    "subject": "Lithium battery modules for Q4 projects",
+    "date": "Sun, 7 Sep · 09:10",
+    "body": [
+     "Hi,",
+     "We need 120 lithium battery modules (51.2V 100Ah) for the Horizon Hospital UPS project and our Q4 stock. Please send an RFQ to at least three suppliers this week.",
+     "Ask for CFR Alexandria prices, lead time, warranty and payment terms. Also check the MOQ, because some factories only sell full pallets.",
+     "I want a comparison sheet on my desk by Thursday, 18 September.",
+     "Thanks,\nHany Zaki\nFinance Director"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RFQ – 120 x LiFePO4 battery modules 51.2V 100Ah",
+    "date": "Sun, 7 Sep · 11:20",
+    "task": "ابعت ‎RFQ‎ واضح لـ ‎Mr. Wang‎: المواصفات، الكمية، شرط التسليم ‎CFR‎ إسكندرية، واطلب مدة التوريد والضمان وشروط الدفع والشهادات.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best line to request the offer",
+      "opts": [
+       "Please send me your prices quickly.",
+       "I want to ask about the price of batteries if possible.",
+       "We would like to receive your best offer for the following item:"
+      ],
+      "a": 2,
+      "why": "الجملة التالتة مهذبة ومباشرة؛ الأولى ناشفة والتانية مترجمة من العربي."
+     },
+     {
+      "type": "gap",
+      "sentence": "Please quote CFR Alexandria and confirm the ___ time, warranty period, MOQ and payment terms.",
+      "opts": [
+       "lead",
+       "waiting",
+       "delivery date"
+      ],
+      "a": 0,
+      "why": "‎lead time‎ هو المصطلح المعروف لمدة التصنيع والتوريد."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "I hope you are well.",
+       "We would like to receive your best offer for the following item:",
+       "Please also send the datasheet, MSDS and UN38.3 test report.",
+       "We would appreciate your offer by Thursday, 11 September."
+      ],
+      "why": "تحية ← الطلب ← المستندات المطلوبة ← آخر ميعاد للرد."
+     }
+    ],
+    "body": [
+     "Dear Mr. Wang,",
+     "I hope you are well. We would like to receive your best offer for the following item:",
+     "120 x LiFePO4 rack battery modules, 51.2V 100Ah, with built-in BMS and RS485/CAN communication. The modules will be used with 60 kVA UPS systems.",
+     "Please quote CFR Alexandria and confirm the lead time, warranty period, MOQ and payment terms. Please also send the datasheet, MSDS and UN38.3 test report.",
+     "We would appreciate your offer by Thursday, 11 September.",
+     "Best regards,\n<Your name>\nPurchasing Officer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Wang Lei — Shenzhen VoltTech Co.",
+    "subject": "RE: RFQ – 120 x LiFePO4 battery modules 51.2V 100Ah",
+    "date": "Tue, 9 Sep · 09:05",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for your inquiry. Our price for model VT-LFP51100 is USD 1,080 per unit, FOB Shenzhen. Lead time is 35 days after we receive the deposit.",
+     "Payment terms are 30% deposit by T/T and 70% before shipment. The warranty is 3 years. Please find the datasheet attached.",
+     "Please let us know if you need anything else.",
+     "Best regards,\nWang Lei\nExport Sales | Shenzhen VoltTech Co."
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: RFQ – 120 x LiFePO4 battery modules 51.2V 100Ah",
+    "date": "Tue, 9 Sep · 13:30",
+    "task": "المورد سعّر ‎FOB‎ مش ‎CFR‎ ونسي الـ ‎MSDS‎ وتقرير ‎UN38.3‎. اطلب منه بأدب يعدّل العرض ويبعت الشهادات، واسأل عن الـ ‎MOQ‎ وضمان 5 سنين.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "How do you point out the supplier's mistake politely?",
+      "opts": [
+       "However, we asked for a CFR Alexandria price, not FOB Shenzhen.",
+       "You made a mistake, we said CFR.",
+       "Why did you send FOB? Please read my email again."
+      ],
+      "a": 0,
+      "why": "‎However‎ + توضيح الطلب من غير لوم؛ الباقي فيه اتهام للمورد."
+     },
+     {
+      "type": "gap",
+      "sentence": "Could you please revise your offer to include sea ___ to Alexandria port?",
+      "opts": [
+       "transport",
+       "freight",
+       "shipping money"
+      ],
+      "a": 1,
+      "why": "‎sea freight‎ = الشحن البحري، وهو اللي بيفرق بين ‎FOB‎ و ‎CFR‎."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for your quick reply and the datasheet.",
+       "However, we asked for a CFR Alexandria price, not FOB Shenzhen.",
+       "Also, please send the MSDS and UN38.3 test report.",
+       "Finally, could you confirm the MOQ and whether a 5-year warranty is possible?"
+      ],
+      "why": "شكر ← المشكلة الأساسية ← المستندات الناقصة ← أسئلة إضافية بـ ‎Finally‎."
+     }
+    ],
+    "body": [
+     "Dear Mr. Wang,",
+     "Thank you for your quick reply and the datasheet.",
+     "However, we asked for a CFR Alexandria price, not FOB Shenzhen. Could you please revise your offer to include sea freight to Alexandria port?",
+     "Also, please send the MSDS and UN38.3 test report. Without them, we cannot clear lithium batteries at Egyptian customs.",
+     "Finally, could you confirm the MOQ and whether a 5-year warranty is possible?",
+     "Best regards,\n<Your name>\nPurchasing Officer | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "We would like to receive your best offer for …",
+    "حابين نستلم أحسن عرض عندكم لـ …"
+   ],
+   [
+    "Please quote CFR Alexandria",
+    "ياريت تسعّر ‎CFR‎ إسكندرية"
+   ],
+   [
+    "Please confirm the lead time and payment terms",
+    "ياريت تأكد مدة التوريد وشروط الدفع"
+   ],
+   [
+    "We would appreciate your offer by …",
+    "هنكون شاكرين لو العرض وصل قبل …"
+   ],
+   [
+    "Thank you for your quick reply",
+    "شكراً على ردك السريع"
+   ],
+   [
+    "However, we asked for …",
+    "بس إحنا كنا طالبين …"
+   ],
+   [
+    "Could you please revise your offer to include …",
+    "ممكن تعدّل العرض بحيث يشمل …"
+   ]
+  ],
+  "glossary": [
+   [
+    "RFQ (request for quotation)",
+    "طلب عرض سعر"
+   ],
+   [
+    "FOB / CFR (Incoterms)",
+    "شروط التسليم الدولية: تسليم ظهر المركب / شامل الشحن"
+   ],
+   [
+    "lead time",
+    "مدة التوريد"
+   ],
+   [
+    "MOQ (minimum order quantity)",
+    "أقل كمية ممكن تطلبها"
+   ],
+   [
+    "MSDS",
+    "ورقة بيانات السلامة للمنتج"
+   ],
+   [
+    "UN38.3 test report",
+    "تقرير اختبار أمان نقل بطاريات الليثيوم"
+   ]
+  ]
+ },
+ {
+  "id": "s3e2",
+  "season": "s3",
+  "title": "Comparing offers & negotiating",
+  "ar": "مقارنة العروض والتفاوض",
+  "field": "Purchasing · Negotiation",
+  "icon": "⚖️",
+  "scene": "You now have three offers. VoltTech quotes USD 1,080 CFR Alexandria with a 3-year warranty, while Ningbo HexaCell quotes USD 1,020 but needs 55 days and an MOQ of 200. You prefer VoltTech's quality, so you negotiate the price and warranty, then place the order.",
+  "sceneAr": "معاك 3 عروض. ‎VoltTech‎ بـ 1,080 دولار وضمان 3 سنين، و ‎Ningbo HexaCell‎ أرخص بس التوريد 55 يوم وأقل كمية 200. إنت عايز ‎VoltTech‎ عشان الجودة، فهتفاوض على السعر والضمان وبعدين تبعت أمر الشراء.",
+  "thread": [
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Revised offer VT-2025-0912 – price and warranty",
+    "date": "Tue, 16 Sep · 10:10",
+    "task": "فاوض ‎Mr. Wang‎: قوله إن سعره أعلى من أرخص عرض، واطلب 1,030 دولار وضمان 5 سنين، واقترح دفع 30% مقدم و70% مقابل صورة البوليصة.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best way to ask for a discount",
+      "opts": [
+       "Your price is too expensive, give us a discount.",
+       "Can you make it cheaper for us please my friend?",
+       "We prefer your quality, but we need a better price."
+      ],
+      "a": 2,
+      "why": "بتمدح الجودة وبتطلب سعر أحسن باحترافية؛ الباقي ناشف أو كاجوال زيادة."
+     },
+     {
+      "type": "gap",
+      "sentence": "If you can offer USD 1,030 per unit with a 5-year warranty, we are ready to ___ an order for 120 units this week.",
+      "opts": [
+       "make",
+       "place",
+       "do"
+      ],
+      "a": 1,
+      "why": "بنقول ‎place an order‎ مش ‎make/do an order‎."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for your revised offer VT-2025-0912 at USD 1,080 per unit, CFR Alexandria.",
+       "We prefer your quality, but we need a better price.",
+       "If you can offer USD 1,030 per unit with a 5-year warranty, we are ready to place an order for 120 units this week.",
+       "We also propose 30% deposit and 70% against a copy of the B/L."
+      ],
+      "why": "شكر ← سبب التفاوض ← العرض بتاعك ← شروط الدفع."
+     }
+    ],
+    "body": [
+     "Dear Mr. Wang,",
+     "Thank you for your revised offer VT-2025-0912 at USD 1,080 per unit, CFR Alexandria.",
+     "We are comparing three offers, and your price is about 6% higher than the lowest one. We prefer your quality, but we need a better price.",
+     "If you can offer USD 1,030 per unit with a 5-year warranty, we are ready to place an order for 120 units this week.",
+     "We also propose 30% deposit and 70% against a copy of the B/L.",
+     "Best regards,\n<Your name>\nPurchasing Officer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Wang Lei — Shenzhen VoltTech Co.",
+    "subject": "RE: Revised offer VT-2025-0912 – price and warranty",
+    "date": "Wed, 17 Sep · 08:40",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for your interest. USD 1,030 is below our cost, but we can offer USD 1,045 per unit with a 5-year warranty.",
+     "We accept 30% deposit and 70% against a copy of the B/L. Please note that the MOQ for this price is 120 units.",
+     "Lead time is still 35 days after we receive the deposit.",
+     "Best regards,\nWang Lei\nExport Sales | Shenzhen VoltTech Co."
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Revised offer VT-2025-0912 – price and warranty",
+    "date": "Wed, 17 Sep · 12:15",
+    "task": "اقترح حل وسط 1,040 دولار، وقوله إنك هتبعت أمر الشراء النهارده والمقدم خلال 5 أيام عمل من استلام الفاتورة المبدئية.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "How do you suggest a compromise?",
+      "opts": [
+       "OK, final price 1,040, take it or leave it.",
+       "Let's meet in the middle: USD 1,040 per unit.",
+       "We will split the difference if you want or not."
+      ],
+      "a": 1,
+      "why": "‎meet in the middle‎ تعبير ودود ومعروف للحل الوسط؛ الأول تهديد والتالت ركيك."
+     },
+     {
+      "type": "gap",
+      "sentence": "If you agree, we will issue the purchase ___ today and send the deposit within five working days of receiving your proforma invoice.",
+      "opts": [
+       "request",
+       "paper",
+       "order"
+      ],
+      "a": 2,
+      "why": "‎purchase order (PO)‎ = أمر الشراء."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for your flexibility.",
+       "Let's meet in the middle: USD 1,040 per unit, CFR Alexandria, 5-year warranty, for 120 units.",
+       "Please confirm by reply."
+      ],
+      "why": "شكر ← الاقتراح النهائي ← طلب تأكيد."
+     }
+    ],
+    "body": [
+     "Dear Mr. Wang,",
+     "Thank you for your flexibility. We are very close now.",
+     "Let's meet in the middle: USD 1,040 per unit, CFR Alexandria, 5-year warranty, for 120 units. This gives a total of USD 124,800.",
+     "If you agree, we will issue the purchase order today and send the deposit within five working days of receiving your proforma invoice.",
+     "Please confirm by reply.",
+     "Best regards,\n<Your name>\nPurchasing Officer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Wang Lei — Shenzhen VoltTech Co.",
+    "subject": "RE: Revised offer VT-2025-0912 – price and warranty",
+    "date": "Thu, 18 Sep · 09:02",
+    "body": [
+     "Dear <Your name>,",
+     "Agreed. USD 1,040 per unit, CFR Alexandria, 5-year warranty, 120 units, total USD 124,800.",
+     "Our production team has already reserved the cells for your order. Delivery will be 35 days after we receive the deposit, as discussed.",
+     "Please send your purchase order, and we will issue the proforma invoice on the same day.",
+     "Best regards,\nWang Lei\nExport Sales | Shenzhen VoltTech Co."
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "PO-2025-164 – 120 x VT-LFP51100 lithium battery modules",
+    "date": "Thu, 18 Sep · 11:30",
+    "task": "ابعت أمر الشراء ‎PO-2025-164‎ واطلب الفاتورة المبدئية فيها بيانات البنك والـ ‎HS code‎ والأوزان، واطلب تأكيد ميعاد الشحن.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best line to send the PO",
+      "opts": [
+       "I send you the order in the attachment.",
+       "Please find attached our purchase order PO-2025-164.",
+       "Here is PO, check it."
+      ],
+      "a": 1,
+      "why": "‎Please find attached‎ هي الصيغة المعتادة لإرسال مرفق."
+     },
+     {
+      "type": "gap",
+      "sentence": "Kindly send us your ___ invoice with your bank details, HS code and net and gross weights.",
+      "opts": [
+       "commercial",
+       "proforma",
+       "tax"
+      ],
+      "a": 1,
+      "why": "قبل الشحن بنطلب ‎proforma invoice‎؛ الـ ‎commercial invoice‎ بتيجي مع الشحنة."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for confirming.",
+       "Please find attached our purchase order PO-2025-164 for 120 x VT-LFP51100 modules, total USD 124,800, CFR Alexandria.",
+       "Our bank needs these details to process the deposit.",
+       "Please also confirm the expected shipment date."
+      ],
+      "why": "شكر ← المرفق ← سبب طلب البيانات ← طلب أخير."
+     }
+    ],
+    "body": [
+     "Dear Mr. Wang,",
+     "Thank you for confirming. Please find attached our purchase order PO-2025-164 for 120 x VT-LFP51100 modules, total USD 124,800, CFR Alexandria.",
+     "Kindly send us your proforma invoice with your bank details, HS code and net and gross weights. Our bank needs these details to process the deposit.",
+     "Please also confirm the expected shipment date.",
+     "Best regards,\n<Your name>\nPurchasing Officer | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "We prefer your quality, but we need a better price.",
+    "بنفضّل جودتكم، بس محتاجين سعر أحسن."
+   ],
+   [
+    "We are ready to place an order",
+    "إحنا جاهزين نأكد الطلب"
+   ],
+   [
+    "We propose 30% deposit and 70% against …",
+    "بنقترح 30% مقدم و70% مقابل …"
+   ],
+   [
+    "Thank you for your flexibility.",
+    "شكراً على مرونتكم."
+   ],
+   [
+    "Let's meet in the middle",
+    "خلّينا نتقابل في النص"
+   ],
+   [
+    "Please confirm by reply.",
+    "ياريت تأكد بالرد."
+   ],
+   [
+    "Please find attached our purchase order",
+    "مرفق أمر الشراء بتاعنا"
+   ]
+  ],
+  "glossary": [
+   [
+    "purchase order (PO)",
+    "أمر شراء"
+   ],
+   [
+    "proforma invoice (PI)",
+    "فاتورة مبدئية"
+   ],
+   [
+    "deposit / advance payment",
+    "دفعة مقدمة"
+   ],
+   [
+    "against a copy of the B/L",
+    "مقابل صورة بوليصة الشحن"
+   ],
+   [
+    "gross / net weight",
+    "الوزن القائم / الصافي"
+   ]
+  ]
+ },
+ {
+  "id": "s3e3",
+  "season": "s3",
+  "title": "Bank forms & payment",
+  "ar": "إجراءات البنك والدفع",
+  "field": "Treasury · Payment",
+  "icon": "🏦",
+  "scene": "Nadia from Accounts tries to transfer the 30% deposit, but the bank rejects the proforma invoice. After the supplier corrects it, the money is sent, but the supplier receives USD 45 less because of bank charges. You fix both problems without delaying production.",
+  "sceneAr": "نادية في الحسابات حاولت تحوّل الـ 30% مقدم والبنك رفض الفاتورة المبدئية. وبعد ما اتصلحت واتحولت الفلوس، المورد استلم 45 دولار أقل بسبب مصاريف البنك. لازم تحل المشكلتين من غير ما الإنتاج يتأخر.",
+  "thread": [
+   {
+    "dir": "in",
+    "from": "Ms. Nadia Hassan — NPS",
+    "subject": "Deposit for PO-2025-164 – bank needs documents",
+    "date": "Sun, 21 Sep · 10:05",
+    "body": [
+     "Hi <Your name>,",
+     "I submitted the transfer request for the 30% deposit (USD 37,440) to our bank this morning, together with the import form. The bank rejected it for two reasons.",
+     "First, the proforma invoice is not signed or stamped by the supplier. Second, the beneficiary name on the PI is 'Shenzhen Volt Tech Co.', but the bank account name is 'Shenzhen VoltTech Co., Ltd.'",
+     "Please get a corrected PI today so we can resubmit tomorrow.",
+     "Thanks,\nNadia Hassan\nChief Accountant"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "PI-VT-250918 – corrections needed for bank transfer",
+    "date": "Sun, 21 Sep · 11:00",
+    "task": "اطلب من ‎Mr. Wang‎ فاتورة مبدئية معدّلة: موقّعة ومختومة، واسم المستفيد مطابق لاسم الحساب بالظبط.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Explain the problem without blaming the supplier",
+      "opts": [
+       "Your PI is wrong, so the bank refused it.",
+       "The bank is angry because of your mistakes.",
+       "Unfortunately, our bank could not process the deposit because of two issues."
+      ],
+      "a": 2,
+      "why": "‎Unfortunately‎ + وصف المشكلة بشكل محايد من غير اتهام."
+     },
+     {
+      "type": "gap",
+      "sentence": "The PI is not signed or stamped, and the beneficiary name does not ___ the bank account name exactly.",
+      "opts": [
+       "match",
+       "same",
+       "equal"
+      ],
+      "a": 0,
+      "why": "‎match‎ فعل؛ ‎same‎ و ‎equal‎ مش مناسبين هنا."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for your proforma invoice PI-VT-250918.",
+       "Unfortunately, our bank could not process the deposit because of two issues.",
+       "Could you please send a corrected, signed and stamped PI today?",
+       "We will transfer the deposit as soon as we receive it."
+      ],
+      "why": "شكر ← المشكلة ← الطلب ← الخطوة الجاية من عندك."
+     }
+    ],
+    "body": [
+     "Dear Mr. Wang,",
+     "Thank you for your proforma invoice PI-VT-250918. Unfortunately, our bank could not process the deposit because of two issues.",
+     "The PI is not signed or stamped, and the beneficiary name does not match the bank account name exactly. It should read 'Shenzhen VoltTech Co., Ltd.'",
+     "Could you please send a corrected, signed and stamped PI today? We will transfer the deposit as soon as we receive it.",
+     "Best regards,\n<Your name>\nPurchasing Officer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Wang Lei — Shenzhen VoltTech Co.",
+    "subject": "RE: PI-VT-250918 – corrections needed for bank transfer",
+    "date": "Thu, 25 Sep · 09:30",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for the transfer. However, our bank received USD 37,395, which is USD 45 less than the deposit amount. It seems the intermediary bank deducted its charges.",
+     "According to our PI, all bank charges outside China are for the buyer's account. Could you please transfer the USD 45 difference? We can then start production.",
+     "Best regards,\nWang Lei\nExport Sales | Shenzhen VoltTech Co."
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: PI-VT-250918 – corrections needed for bank transfer",
+    "date": "Thu, 25 Sep · 12:10",
+    "task": "اعترف إن التحويل اتعمل ‎SHA‎ بالغلط، واقترح تضيف الـ 45 دولار على الدفعة الأخيرة وتبعتها ‎OUR‎، واطلب إنه يبدأ الإنتاج.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "How do you accept responsibility?",
+      "opts": [
+       "You are right, the transfer was sent with SHA charges by mistake.",
+       "It's not our fault, the bank took the money.",
+       "Maybe yes, maybe no. We will check."
+      ],
+      "a": 0,
+      "why": "بتعترف بالغلط بوضوح وده بيبني ثقة؛ التانية بتهرب من المسؤولية."
+     },
+     {
+      "type": "gap",
+      "sentence": "The balance will then be USD 87,405, and we will send it with ___ charges so you receive the full amount.",
+      "opts": [
+       "SHA",
+       "BEN",
+       "OUR"
+      ],
+      "a": 2,
+      "why": "‎OUR‎ = الراسل بيدفع كل المصاريف فالمستفيد بيستلم المبلغ كامل."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for letting us know.",
+       "To avoid delaying production, we suggest adding the USD 45 to the balance payment.",
+       "Please confirm that you can start production on this basis."
+      ],
+      "why": "شكر ← الحل المقترح ← طلب التأكيد."
+     }
+    ],
+    "body": [
+     "Dear Mr. Wang,",
+     "Thank you for letting us know. You are right, the transfer was sent with SHA charges by mistake.",
+     "To avoid delaying production, we suggest adding the USD 45 to the balance payment. The balance will then be USD 87,405, and we will send it with OUR charges so you receive the full amount.",
+     "Please confirm that you can start production on this basis.",
+     "Best regards,\n<Your name>\nPurchasing Officer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Wang Lei — Shenzhen VoltTech Co.",
+    "subject": "RE: PI-VT-250918 – corrections needed for bank transfer",
+    "date": "Thu, 25 Sep · 15:45",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for your quick solution. We agree to add the USD 45 to the balance payment of USD 87,405.",
+     "Production of your 120 modules starts tomorrow, 26 September. We expect the goods to be ready on 20 October, and we will send you photos before packing.",
+     "We will keep you updated about the shipping booking.",
+     "Best regards,\nWang Lei\nExport Sales | Shenzhen VoltTech Co."
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "Our bank could not process the payment because …",
+    "البنك مقدرش ينفّذ التحويل عشان …"
+   ],
+   [
+    "It should read …",
+    "المفروض يكون مكتوب …"
+   ],
+   [
+    "We will transfer the deposit as soon as we receive it.",
+    "هنحوّل المقدم أول ما نستلمها."
+   ],
+   [
+    "Thank you for letting us know.",
+    "شكراً إنك بلّغتنا."
+   ],
+   [
+    "… by mistake",
+    "… بالغلط"
+   ],
+   [
+    "To avoid delaying production, we suggest …",
+    "عشان الإنتاج ما يتأخرش، بنقترح …"
+   ],
+   [
+    "on this basis",
+    "على الأساس ده"
+   ]
+  ],
+  "glossary": [
+   [
+    "beneficiary",
+    "المستفيد (صاحب الحساب)"
+   ],
+   [
+    "intermediary bank",
+    "البنك الوسيط"
+   ],
+   [
+    "SHA / OUR / BEN charges",
+    "توزيع مصاريف التحويل بين الراسل والمستفيد"
+   ],
+   [
+    "balance payment",
+    "باقي المبلغ / الدفعة الأخيرة"
+   ],
+   [
+    "signed and stamped",
+    "موقّع ومختوم"
+   ]
+  ]
+ },
+ {
+  "id": "s3e4",
+  "season": "s3",
+  "title": "Pre-shipment & import registration",
+  "ar": "التسجيل المسبق للشحنة (نافذة / ‎ACI)‎",
+  "field": "Import · Nafeza / ACI",
+  "icon": "📋",
+  "scene": "The batteries will be ready on 20 October. Under Egypt's ACI system, you must pre-register the shipment on Nafeza and the supplier must upload the documents on CargoX. The supplier's draft invoice and packing list contain errors that could cause fines at Alexandria port.",
+  "sceneAr": "البطاريات هتجهز 20 أكتوبر. بنظام ‎ACI‎ لازم تسجّل الشحنة مسبقاً على نافذة، والمورد يرفع المستندات على ‎CargoX‎. بس مسودة الفاتورة وقائمة التعبئة فيهم أخطاء ممكن تعمل غرامات في ميناء إسكندرية.",
+  "thread": [
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "ACID number for PO-2025-164 – please register on CargoX",
+    "date": "Sun, 12 Oct · 10:30",
+    "task": "ابعت لـ ‎Mr. Wang‎ رقم الـ ‎ACID‎، وقوله لازم يتكتب على الفاتورة وقائمة التعبئة والبوليصة، واطلب يبعت المسودات قبل ما يرفعها على ‎CargoX‎.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the clearest sentence",
+      "opts": [
+       "We made the Nafeza thing for the shipment.",
+       "The shipment is registered in Nafeza by us already done.",
+       "We have pre-registered the shipment on Nafeza."
+      ],
+      "a": 2,
+      "why": "جملة قصيرة وواضحة بالمصطلح الصح ‎pre-registered‎."
+     },
+     {
+      "type": "gap",
+      "sentence": "Please make sure this ACID number ___ on the commercial invoice, packing list and bill of lading.",
+      "opts": [
+       "appears",
+       "is found written",
+       "shows it"
+      ],
+      "a": 0,
+      "why": "‎appears on‎ = يكون مكتوب على المستند."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "As the goods will be ready on 20 October, we have pre-registered the shipment on Nafeza.",
+       "Please make sure this ACID number appears on the commercial invoice, packing list and bill of lading.",
+       "Customs in Egypt will reject any document without it."
+      ],
+      "why": "إيه اللي عملته ← المطلوب منه ← ليه ده مهم."
+     }
+    ],
+    "body": [
+     "Dear Mr. Wang,",
+     "As the goods will be ready on 20 October, we have pre-registered the shipment on Nafeza. Our ACID number is 4412587632025100087.",
+     "Please make sure this ACID number appears on the commercial invoice, packing list and bill of lading. Customs in Egypt will reject any document without it.",
+     "Please also upload the final documents on CargoX before shipment, but send us the drafts first for checking.",
+     "Best regards,\n<Your name>\nPurchasing Officer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Wang Lei — Shenzhen VoltTech Co.",
+    "subject": "RE: ACID number for PO-2025-164 – please register on CargoX",
+    "date": "Tue, 14 Oct · 09:15",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for the ACID number. We are already registered on CargoX. Please find attached the draft commercial invoice CI-VT-251014 and the packing list for your review.",
+     "The goods will be packed on 8 pallets. The total gross weight is 3,960 kg.",
+     "We will upload the documents as soon as you approve them.",
+     "Best regards,\nWang Lei\nExport Sales | Shenzhen VoltTech Co."
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: ACID number for PO-2025-164 – please register on CargoX",
+    "date": "Tue, 14 Oct · 13:40",
+    "task": "راجع المسودات واطلب 3 تصحيحات: رقم الـ ‎ACID‎ ناقص من قائمة التعبئة، الـ ‎HS code‎ غلط، والوزن القائم مختلف بين المستندين.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "How do you introduce a list of corrections?",
+      "opts": [
+       "There are many mistakes, fix them:",
+       "Before you upload them on CargoX, please correct the following points:",
+       "Kindly find the below mistakes to be corrected by you:"
+      ],
+      "a": 1,
+      "why": "مهذبة وبتوضح التوقيت (قبل الرفع)؛ التالتة ترجمة حرفية تقيلة."
+     },
+     {
+      "type": "gap",
+      "sentence": "The documents must match exactly, or we may face fines and ___ at Alexandria port.",
+      "opts": [
+       "lateness",
+       "slowness",
+       "delays"
+      ],
+      "a": 2,
+      "why": "‎delays‎ هي الكلمة الطبيعية للتأخير في الشحن والجمارك."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for the drafts.",
+       "Before you upload them on CargoX, please correct the following points:",
+       "The documents must match exactly, or we may face fines and delays at Alexandria port."
+      ],
+      "why": "شكر ← قائمة التصحيحات ← النتيجة لو ما اتصلحتش."
+     }
+    ],
+    "body": [
+     "Dear Mr. Wang,",
+     "Thank you for the drafts. Before you upload them on CargoX, please correct the following points:",
+     "1. The ACID number is missing from the packing list.",
+     "2. The HS code on the invoice is 8506.50; it should be 8507.60 for lithium-ion accumulators.",
+     "3. The gross weight is 3,960 kg on the invoice but 3,690 kg on the packing list.",
+     "The documents must match exactly, or we may face fines and delays at Alexandria port.",
+     "Best regards,\n<Your name>\nPurchasing Officer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Wang Lei — Shenzhen VoltTech Co.",
+    "subject": "RE: ACID number for PO-2025-164 – please register on CargoX",
+    "date": "Wed, 15 Oct · 10:20",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for checking. We have corrected all three points. The correct gross weight is 3,960 kg; the packing list had a typing error.",
+     "The final commercial invoice and packing list are now uploaded on CargoX under your ACID number. The booking is confirmed on a vessel leaving Shekou on 22 October.",
+     "Best regards,\nWang Lei\nExport Sales | Shenzhen VoltTech Co."
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: ACID number for PO-2025-164 – please register on CargoX",
+    "date": "Wed, 15 Oct · 12:05",
+    "task": "أكّد إن المستندات ظهرت مظبوطة على نافذة، واطلب مسودة البوليصة قبل إصدارها، وفكّره بعلامات البضاعة الخطرة ‎UN3480‎.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best confirmation",
+      "opts": [
+       "Documents are okay now I think.",
+       "We saw the documents, it is matching all.",
+       "We can now see the documents on Nafeza, and everything matches."
+      ],
+      "a": 2,
+      "why": "واضحة وصحيحة لغوياً؛ التانية فيها غلط في القواعد."
+     },
+     {
+      "type": "gap",
+      "sentence": "Could you please send us the ___ bill of lading before the shipping line issues it?",
+      "opts": [
+       "first try",
+       "sample",
+       "draft"
+      ],
+      "a": 2,
+      "why": "‎draft B/L‎ = مسودة البوليصة للمراجعة قبل الإصدار."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for the quick corrections.",
+       "Could you please send us the draft bill of lading before the shipping line issues it?",
+       "Please also mark the cartons as UN3480, Class 9, as required for lithium batteries."
+      ],
+      "why": "شكر ← الطلب الرئيسي ← طلب إضافي بـ ‎Please also‎."
+     }
+    ],
+    "body": [
+     "Dear Mr. Wang,",
+     "Thank you for the quick corrections. We can now see the documents on Nafeza, and everything matches.",
+     "Could you please send us the draft bill of lading before the shipping line issues it? We need to check the consignee name, the ACID number and the description of goods.",
+     "Please also mark the cartons as UN3480, Class 9, as required for lithium batteries.",
+     "Best regards,\n<Your name>\nPurchasing Officer | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "We have pre-registered the shipment on Nafeza.",
+    "سجّلنا الشحنة مسبقاً على نافذة."
+   ],
+   [
+    "Please make sure … appears on …",
+    "اتأكد إن … مكتوب على …"
+   ],
+   [
+    "Please send us the drafts first for checking.",
+    "ابعتلنا المسودات الأول نراجعها."
+   ],
+   [
+    "Please correct the following points:",
+    "ياريت تصحّح النقط دي:"
+   ],
+   [
+    "The documents must match exactly.",
+    "المستندات لازم تكون متطابقة بالظبط."
+   ],
+   [
+    "Everything matches.",
+    "كله مطابق."
+   ],
+   [
+    "as required for …",
+    "زي ما هو مطلوب لـ …"
+   ]
+  ],
+  "glossary": [
+   [
+    "ACID (Advance Cargo Information Declaration)",
+    "رقم التسجيل المسبق للشحنة"
+   ],
+   [
+    "commercial invoice",
+    "الفاتورة التجارية"
+   ],
+   [
+    "packing list",
+    "قائمة التعبئة"
+   ],
+   [
+    "HS code",
+    "البند الجمركي"
+   ],
+   [
+    "bill of lading (B/L)",
+    "بوليصة الشحن"
+   ],
+   [
+    "consignee",
+    "المرسل إليه"
+   ]
+  ]
+ },
+ {
+  "id": "s3e5",
+  "season": "s3",
+  "title": "Receiving the bill of lading",
+  "ar": "استلام بوليصة الشحن",
+  "field": "Import · Shipping documents",
+  "icon": "🚢",
+  "scene": "The supplier sent the original B/L by DHL, but the envelope is stuck in Hong Kong. The vessel arrives in Alexandria on 18 November, and without the original B/L you cannot get the delivery order. You follow up and arrange a telex release.",
+  "sceneAr": "المورد بعت البوليصة الأصلية بـ ‎DHL‎ بس الظرف واقف في هونج كونج. المركب واصلة إسكندرية 18 نوفمبر، ومن غير البوليصة الأصلية مش هتعرف تطلع إذن التسليم. هتتابع مع المورد وتطلب ‎telex release‎.",
+  "thread": [
+   {
+    "dir": "in",
+    "from": "Mr. Wang Lei — Shenzhen VoltTech Co.",
+    "subject": "PO-2025-164 – original documents sent by DHL",
+    "date": "Thu, 30 Oct · 10:00",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for the balance payment of USD 87,405, which we received in full.",
+     "Today we sent the original documents by DHL, AWB 7738 2215 904. The set includes 3 original B/Ls, the commercial invoice, the packing list and the certificate of origin.",
+     "The vessel ETA at Alexandria is 18 November. Please let us know when you receive the envelope.",
+     "Best regards,\nWang Lei\nExport Sales | Shenzhen VoltTech Co."
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: PO-2025-164 – original documents sent by DHL",
+    "date": "Wed, 12 Nov · 09:30",
+    "task": "المستندات ما وصلتش والمركب قربت. تابع بأدب واطلب يكلّم ‎DHL‎، ولو مش هتوصل قبل 16 نوفمبر هتطلب ‎telex release‎.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best follow-up opening",
+      "opts": [
+       "Where are the documents? We didn't receive anything.",
+       "We are still waiting for the original documents sent on 30 October.",
+       "Documents did not come until now, why?"
+      ],
+      "a": 1,
+      "why": "متابعة هادية وفيها التاريخ؛ الباقي فيه نبرة اتهام أو ركاكة."
+     },
+     {
+      "type": "gap",
+      "sentence": "The vessel arrives in Alexandria on 18 November, and we cannot get the ___ order without the original B/L.",
+      "opts": [
+       "delivery",
+       "release paper",
+       "exit"
+      ],
+      "a": 0,
+      "why": "‎delivery order (D/O)‎ = إذن التسليم من الخط الملاحي."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "I hope you are well.",
+       "We are still waiting for the original documents sent on 30 October under DHL AWB 7738 2215 904.",
+       "Could you please check with DHL urgently?",
+       "If the documents cannot arrive by 16 November, we would ask for a telex release instead."
+      ],
+      "why": "تحية ← المشكلة ← الطلب ← الخطة البديلة."
+     }
+    ],
+    "body": [
+     "Dear Mr. Wang,",
+     "I hope you are well. We are still waiting for the original documents sent on 30 October under DHL AWB 7738 2215 904.",
+     "The tracking has shown 'Shipment on hold' in Hong Kong since 3 November. The vessel arrives in Alexandria on 18 November, and we cannot get the delivery order without the original B/L.",
+     "Could you please check with DHL urgently? If the documents cannot arrive by 16 November, we would ask for a telex release instead.",
+     "Best regards,\n<Your name>\nPurchasing Officer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Wang Lei — Shenzhen VoltTech Co.",
+    "subject": "RE: PO-2025-164 – original documents sent by DHL",
+    "date": "Thu, 13 Nov · 11:20",
+    "body": [
+     "Dear <Your name>,",
+     "Sorry for this trouble. DHL told us the envelope was held because the receiver's phone number was missing. They now expect delivery on 20 November.",
+     "To avoid any delay, we can request a telex release from the shipping line against our letter of indemnity. The line charges USD 100 for this service.",
+     "Please confirm if we should go ahead.",
+     "Best regards,\nWang Lei\nExport Sales | Shenzhen VoltTech Co."
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: PO-2025-164 – original documents sent by DHL",
+    "date": "Thu, 13 Nov · 13:05",
+    "task": "وافق على الـ ‎telex release‎ ومصاريف الـ 100 دولار، واطلب التأكيد من الخط الملاحي بسرعة عشان المخلص.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "How do you approve the supplier's suggestion?",
+      "opts": [
+       "Do it.",
+       "Okay no problem, go ahead and we pay the 100.",
+       "Yes, please go ahead with the telex release, and we agree to cover the USD 100 fee."
+      ],
+      "a": 2,
+      "why": "موافقة واضحة وكاملة ومهذبة؛ الأولى قصيرة زيادة والتانية كاجوال."
+     },
+     {
+      "type": "gap",
+      "sentence": "Please send us the telex release ___ from the shipping line as soon as it is issued.",
+      "opts": [
+       "approval paper",
+       "confirmation",
+       "proof paper"
+      ],
+      "a": 1,
+      "why": "‎telex release confirmation‎ هو المستند اللي بيثبت إن البضاعة اتفرج عنها من غير الأصل."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for your fast action.",
+       "Yes, please go ahead with the telex release, and we agree to cover the USD 100 fee.",
+       "Our customs broker needs it before the vessel arrives on 18 November."
+      ],
+      "why": "شكر ← الموافقة ← سبب الاستعجال."
+     }
+    ],
+    "body": [
+     "Dear Mr. Wang,",
+     "Thank you for your fast action. Yes, please go ahead with the telex release, and we agree to cover the USD 100 fee.",
+     "Please send us the telex release confirmation from the shipping line as soon as it is issued. Our customs broker needs it before the vessel arrives on 18 November.",
+     "When the DHL envelope arrives, we will keep the originals safe and return them if the line asks for them.",
+     "Best regards,\n<Your name>\nPurchasing Officer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Telex release – B/L SZX-ALX-25-7781 (PO-2025-164)",
+    "date": "Sun, 16 Nov · 10:00",
+    "task": "ابعت لـ ‎Ms. Heba‎ المخلصة تأكيد الـ ‎telex release‎ وبيانات الشحنة، واسألها لو ناقصها حاجة عشان تبدأ الشهادة الجمركية.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening for the broker",
+      "opts": [
+       "Please find attached the telex release confirmation for B/L SZX-ALX-25-7781.",
+       "I am sending to you the telex.",
+       "Attached telex, take it and start."
+      ],
+      "a": 0,
+      "why": "بتحدد المستند ورقم البوليصة بوضوح."
+     },
+     {
+      "type": "gap",
+      "sentence": "Please confirm that you have everything you need to start the customs ___.",
+      "opts": [
+       "declaration",
+       "papers work",
+       "announcement"
+      ],
+      "a": 0,
+      "why": "‎customs declaration‎ = الشهادة / البيان الجمركي."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Please find attached the telex release confirmation for B/L SZX-ALX-25-7781.",
+       "The original B/Ls were delayed by DHL, so the supplier requested a telex release.",
+       "Please confirm that you have everything you need to start the customs declaration."
+      ],
+      "why": "المرفق ← الخلفية ← الطلب."
+     }
+    ],
+    "body": [
+     "Dear Ms. Heba,",
+     "Please find attached the telex release confirmation for B/L SZX-ALX-25-7781. The original B/Ls were delayed by DHL, so the supplier requested a telex release.",
+     "The vessel is due at Alexandria on 18 November with one 20ft container of lithium batteries (UN3480, Class 9). Our ACID number is 4412587632025100087.",
+     "Please confirm that you have everything you need to start the customs declaration.",
+     "Best regards,\n<Your name>\nPurchasing Officer | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "We are still waiting for …",
+    "لسه مستنيين …"
+   ],
+   [
+    "Could you please check with … urgently?",
+    "ممكن تراجع مع … بشكل عاجل؟"
+   ],
+   [
+    "… instead",
+    "… بدل كده"
+   ],
+   [
+    "Thank you for your fast action.",
+    "شكراً على سرعة تحرّكك."
+   ],
+   [
+    "Please go ahead with …",
+    "اتفضل كمّل في …"
+   ],
+   [
+    "We agree to cover the fee.",
+    "موافقين نتحمّل المصاريف."
+   ],
+   [
+    "as soon as it is issued",
+    "أول ما يصدر"
+   ]
+  ],
+  "glossary": [
+   [
+    "original B/L",
+    "بوليصة الشحن الأصلية"
+   ],
+   [
+    "telex release",
+    "الإفراج عن البضاعة من غير البوليصة الأصلية"
+   ],
+   [
+    "delivery order (D/O)",
+    "إذن التسليم"
+   ],
+   [
+    "AWB (air waybill)",
+    "رقم بوليصة الشحن الجوي / التتبع"
+   ],
+   [
+    "ETA (estimated time of arrival)",
+    "الميعاد المتوقع للوصول"
+   ],
+   [
+    "letter of indemnity",
+    "خطاب ضمان / تعويض"
+   ]
+  ]
+ },
+ {
+  "id": "s3e6",
+  "season": "s3",
+  "title": "Customs inspection",
+  "ar": "الكشف الجمركي",
+  "field": "Import · Customs",
+  "icon": "🔍",
+  "scene": "Customs selects the container for physical inspection and takes 2 modules for lab testing. They also ask for the MSDS and the UN38.3 test summary, but the certificate shows a slightly different model number. You must get the right document from the supplier quickly.",
+  "sceneAr": "الجمارك اختارت الكونتينر للكشف الفعلي وأخدت 2 موديول عينة للمعمل، وطلبت الـ ‎MSDS‎ وملخص اختبار ‎UN38.3‎. بس الشهادة طالعة بموديل مختلف شوية عن الفاتورة، ولازم تجيب المستند الصح من المورد بسرعة.",
+  "thread": [
+   {
+    "dir": "in",
+    "from": "Ms. Heba Adel — FastClear Logistics",
+    "subject": "Container TGHU 204518-7 – customs inspection",
+    "date": "Wed, 19 Nov · 14:10",
+    "body": [
+     "Dear <Your name>,",
+     "The container was discharged yesterday, and customs selected it for physical inspection (red lane). The inspection took place this morning.",
+     "Customs need two documents before release: the UN38.3 test summary for the battery model and the MSDS in English. They also took 2 modules as samples for testing at the GOEIC lab.",
+     "Test results usually take 5–7 working days. Please send the documents as soon as possible.",
+     "Best regards,\nHeba Adel\nCustoms Broker | FastClear Logistics"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Container TGHU 204518-7 – customs inspection",
+    "date": "Wed, 19 Nov · 16:00",
+    "task": "ابعت لـ ‎Ms. Heba‎ المستندين، واسألها لو ينفع المعمل يستعجل عشان مشروع المستشفى، واسأل عن مصاريف الأرضيات.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "How do you ask for faster service politely?",
+      "opts": [
+       "Tell the lab to hurry up.",
+       "Could you please ask the lab if the sample test can be done faster?",
+       "The lab must finish quickly or we will lose the project."
+      ],
+      "a": 1,
+      "why": "طلب مهذب بـ ‎Could you please‎ ومن غير ضغط زيادة."
+     },
+     {
+      "type": "gap",
+      "sentence": "Please find attached the MSDS in English and the UN38.3 test ___ for model VT-LFP51100.",
+      "opts": [
+       "summary",
+       "short",
+       "résumé"
+      ],
+      "a": 0,
+      "why": "‎test summary‎ = ملخص الاختبار."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for the update.",
+       "Could you please ask the lab if the sample test can be done faster?",
+       "This shipment is for a hospital project, and the installation is planned for 4 December.",
+       "Also, please let me know the storage charges at the port while we wait."
+      ],
+      "why": "شكر ← الطلب ← سبب الاستعجال ← سؤال إضافي."
+     }
+    ],
+    "body": [
+     "Dear Ms. Heba,",
+     "Thank you for the update. Please find attached the MSDS in English and the UN38.3 test summary for model VT-LFP51100.",
+     "Could you please ask the lab if the sample test can be done faster? This shipment is for a hospital project, and the installation is planned for 4 December.",
+     "Also, please let me know the storage charges at the port while we wait.",
+     "Best regards,\n<Your name>\nPurchasing Officer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Heba Adel — FastClear Logistics",
+    "subject": "RE: Container TGHU 204518-7 – customs inspection",
+    "date": "Thu, 20 Nov · 10:25",
+    "body": [
+     "Dear <Your name>,",
+     "Thank you for the documents. Unfortunately, customs did not accept the UN38.3 test summary. It was issued for model VT-LFP51100A, but the invoice shows VT-LFP51100.",
+     "We need either a test summary for the exact model or an official letter from the manufacturer confirming that both models are the same. The lab test has started and should finish by 27 November.",
+     "Storage is EGP 1,850 per day after the free period.",
+     "Best regards,\nHeba Adel\nCustoms Broker | FastClear Logistics"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "URGENT: UN38.3 document – model mismatch (PO-2025-164)",
+    "date": "Thu, 20 Nov · 11:00",
+    "task": "بلّغ ‎Mr. Wang‎ إن شهادة ‎UN38.3‎ لموديل مختلف، واطلب شهادة للموديل الصح أو خطاب مختوم إن الموديلين واحد، قبل يوم الأحد.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best way to show urgency",
+      "opts": [
+       "We have an urgent issue at Alexandria customs.",
+       "Big disaster in customs because of you!!",
+       "Hello, small thing, when you are free please check."
+      ],
+      "a": 0,
+      "why": "بتوضح الاستعجال من غير مبالغة ولا تقليل."
+     },
+     {
+      "type": "gap",
+      "sentence": "Could you please send one of these documents by Sunday, 23 November? Every day in port adds ___ costs.",
+      "opts": [
+       "keeping",
+       "storage",
+       "parking"
+      ],
+      "a": 1,
+      "why": "‎storage costs‎ = مصاريف الأرضيات / التخزين في الميناء."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "We have an urgent issue at Alexandria customs.",
+       "The UN38.3 test summary you sent is for model VT-LFP51100A, but your invoice shows VT-LFP51100.",
+       "Customs will not release the goods until we provide a test summary for the exact model, or a signed and stamped letter confirming that the two models are identical.",
+       "Could you please send one of these documents by Sunday, 23 November?"
+      ],
+      "why": "التنبيه ← المشكلة ← المطلوب من الجمارك ← الطلب والموعد."
+     }
+    ],
+    "body": [
+     "Dear Mr. Wang,",
+     "We have an urgent issue at Alexandria customs. The UN38.3 test summary you sent is for model VT-LFP51100A, but your invoice shows VT-LFP51100.",
+     "Customs will not release the goods until we provide a test summary for the exact model, or a signed and stamped letter confirming that the two models are identical.",
+     "Could you please send one of these documents by Sunday, 23 November? Every day in port adds storage costs.",
+     "Best regards,\n<Your name>\nPurchasing Officer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: Container TGHU 204518-7 – customs inspection",
+    "date": "Mon, 24 Nov · 09:40",
+    "task": "ابعت لـ ‎Ms. Heba‎ خطاب المصنع المختوم، واسألها لو الجمارك محتاجة الأصل بالبريد، وقولها إنك جاهز تدفع الرسوم.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best line to send the letter",
+      "opts": [
+       "Here is the letter from China.",
+       "The letter is attached, I hope customs will not refuse it again.",
+       "Please find attached the manufacturer's letter, signed and stamped."
+      ],
+      "a": 2,
+      "why": "بتوصف المستند بدقة (مختوم وموقّع) بشكل رسمي."
+     },
+     {
+      "type": "gap",
+      "sentence": "Please submit it to customs and let me know if they need the ___ by courier.",
+      "opts": [
+       "original",
+       "first",
+       "real one"
+      ],
+      "a": 0,
+      "why": "‎the original‎ = النسخة الأصلية من المستند."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Please find attached the manufacturer's letter, signed and stamped, confirming that VT-LFP51100 and VT-LFP51100A are the same product.",
+       "Please submit it to customs and let me know if they need the original by courier.",
+       "We will prepare the payment for duties once you send the final assessment."
+      ],
+      "why": "المرفق ← المطلوب منها ← الخطوة الجاية."
+     }
+    ],
+    "body": [
+     "Dear Ms. Heba,",
+     "Please find attached the manufacturer's letter, signed and stamped, confirming that VT-LFP51100 and VT-LFP51100A are the same product. The only difference is the label for different markets.",
+     "Please submit it to customs and let me know if they need the original by courier.",
+     "We will prepare the payment for duties once you send the final assessment.",
+     "Best regards,\n<Your name>\nPurchasing Officer | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "Thank you for the update.",
+    "شكراً على التحديث."
+   ],
+   [
+    "Could you please ask … if … can be done faster?",
+    "ممكن تسأل … لو ينفع يخلصوا أسرع؟"
+   ],
+   [
+    "We have an urgent issue at …",
+    "عندنا مشكلة عاجلة في …"
+   ],
+   [
+    "… will not release the goods until …",
+    "… مش هيفرجوا عن البضاعة غير لما …"
+   ],
+   [
+    "confirming that … are identical",
+    "بيأكد إن … متطابقين"
+   ],
+   [
+    "Every day in port adds storage costs.",
+    "كل يوم في الميناء بيزوّد مصاريف الأرضيات."
+   ],
+   [
+    "once you send the final assessment",
+    "أول ما تبعت التقدير النهائي"
+   ]
+  ],
+  "glossary": [
+   [
+    "physical inspection (red lane)",
+    "الكشف الفعلي (المسار الأحمر)"
+   ],
+   [
+    "customs broker",
+    "مخلّص جمركي"
+   ],
+   [
+    "sample test",
+    "تحليل عينة"
+   ],
+   [
+    "discharged",
+    "اتنزّل من المركب"
+   ],
+   [
+    "storage charges",
+    "مصاريف الأرضيات"
+   ],
+   [
+    "final assessment",
+    "التقدير / التثمين الجمركي النهائي"
+   ]
+  ]
+ },
+ {
+  "id": "s3e7",
+  "season": "s3",
+  "title": "Releasing the goods",
+  "ar": "الإفراج عن البضاعة",
+  "field": "Import · Release & transport",
+  "icon": "🚚",
+  "scene": "The lab test passed and customs issued the final assessment. You must get duties and VAT paid quickly, because the container's free time ends on 2 December and demurrage costs USD 75 per day. Then you arrange transport to the warehouse.",
+  "sceneAr": "تحليل المعمل عدّى والجمارك طلّعت التقدير النهائي. لازم الرسوم والضريبة تتدفع بسرعة لأن الـ ‎free time‎ بتاع الكونتينر بيخلص 2 ديسمبر والغرامة 75 دولار في اليوم. وبعدها ترتّب النقل للمخزن.",
+  "thread": [
+   {
+    "dir": "in",
+    "from": "Ms. Heba Adel — FastClear Logistics",
+    "subject": "PO-2025-164 – customs assessment and release",
+    "date": "Thu, 27 Nov · 12:30",
+    "body": [
+     "Dear <Your name>,",
+     "Good news: the lab test passed, and customs accepted the manufacturer's letter. The final assessment is ready.",
+     "Customs duty and 14% VAT total EGP 1,284,500. Please transfer the amount to the customs account by Sunday, 30 November.",
+     "Please note that the free time for the container ends on 2 December. After that, the shipping line charges demurrage of USD 75 per day.",
+     "Best regards,\nHeba Adel\nCustoms Broker | FastClear Logistics"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Urgent payment – customs duties PO-2025-164",
+    "date": "Thu, 27 Nov · 13:15",
+    "task": "اكتب لـ ‎Ms. Nadia‎ داخلياً: المبلغ المطلوب وآخر ميعاد، ووضّح خطر الـ ‎demurrage‎، واطلب تأكيد لما التحويل يتم.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best subject line",
+      "opts": [
+       "Money needed",
+       "Urgent payment – customs duties PO-2025-164",
+       "Please pay fast!!!"
+      ],
+      "a": 1,
+      "why": "عنوان فيه الاستعجال والموضوع ورقم أمر الشراء."
+     },
+     {
+      "type": "gap",
+      "sentence": "After that, we will pay ___ of USD 75 per day, so any delay will cost us money.",
+      "opts": [
+       "demurrage",
+       "late fees money",
+       "penalty rent"
+      ],
+      "a": 0,
+      "why": "‎demurrage‎ = غرامة تأخير الكونتينر عند الخط الملاحي."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Customs has approved the release of our lithium battery shipment.",
+       "The duties and 14% VAT total EGP 1,284,500, and the payment must be made by Sunday, 30 November.",
+       "I have attached the customs assessment and the broker's payment details.",
+       "Could you please confirm once the transfer is done?"
+      ],
+      "why": "الخبر ← المبلغ والميعاد ← المرفقات ← طلب التأكيد."
+     }
+    ],
+    "body": [
+     "Hi Nadia,",
+     "Customs has approved the release of our lithium battery shipment. The duties and 14% VAT total EGP 1,284,500, and the payment must be made by Sunday, 30 November.",
+     "Please note that the container free time ends on 2 December. After that, we will pay demurrage of USD 75 per day, so any delay will cost us money.",
+     "I have attached the customs assessment and the broker's payment details. Could you please confirm once the transfer is done?",
+     "Thanks,\n<Your name>\nPurchasing Officer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Ms. Nadia Hassan — NPS",
+    "subject": "RE: Urgent payment – customs duties PO-2025-164",
+    "date": "Sun, 30 Nov · 10:40",
+    "body": [
+     "Hi <Your name>,",
+     "The transfer was done this morning, ref. TRF-2025-1130-07. The bank receipt is attached.",
+     "Please send me the customs release and the final duty receipt when you get them. I need them for the landed cost file and to claim the import VAT.",
+     "Also, if there is any demurrage or storage invoice, please send it to me by 5 December so we can close the November accounts on time.",
+     "Thanks,\nNadia Hassan\nChief Accountant"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "RE: PO-2025-164 – customs assessment and release",
+    "date": "Sun, 30 Nov · 11:10",
+    "task": "ابعت لـ ‎Ms. Heba‎ إيصال الدفع، واطلب تخلّص الإفراج النهارده وتحجز عربية بكرة، وفكّرها برجوع الكونتينر قبل 2 ديسمبر.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "How do you ask the broker to act quickly?",
+      "opts": [
+       "Could you please finish the release today and book the truck for Monday, 1 December?",
+       "Finish today, no excuses.",
+       "If you have time, maybe you can do the release someday."
+      ],
+      "a": 0,
+      "why": "طلب واضح بميعاد محدد ومهذب في نفس الوقت."
+     },
+     {
+      "type": "gap",
+      "sentence": "The container must be returned before the free time ends on 2 December to ___ demurrage.",
+      "opts": [
+       "prevent from",
+       "avoid",
+       "escape"
+      ],
+      "a": 1,
+      "why": "‎avoid demurrage‎ هو التعبير المعتاد."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Please find attached the bank receipt for EGP 1,284,500, transfer ref. TRF-2025-1130-07.",
+       "Could you please finish the release today and book the truck for Monday, 1 December?",
+       "The container must be returned before the free time ends on 2 December to avoid demurrage."
+      ],
+      "why": "المرفق ← الطلب ← السبب."
+     }
+    ],
+    "body": [
+     "Dear Ms. Heba,",
+     "Please find attached the bank receipt for EGP 1,284,500, transfer ref. TRF-2025-1130-07.",
+     "Could you please finish the release today and book the truck for Monday, 1 December? The container must be returned before the free time ends on 2 December to avoid demurrage.",
+     "The delivery address is our warehouse in Obour City. Mr. Youssef Gamal will receive the goods between 9:00 and 16:00.",
+     "Best regards,\n<Your name>\nPurchasing Officer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "PO-2025-164 – lithium batteries arriving today",
+    "date": "Mon, 1 Dec · 08:30",
+    "task": "بلّغ ‎Mr. Youssef‎ في المخزن بميعاد وصول العربية، واطلب يجهّز ونش ومكان مناسب للبضاعة الخطرة، ويعدّ ويبعت تقرير الاستلام.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the clearest instruction",
+      "opts": [
+       "Please prepare a forklift and a dry area away from heat.",
+       "Make ready a forklift and a place, you know.",
+       "Maybe you need a forklift or something."
+      ],
+      "a": 0,
+      "why": "تعليمات محددة وواضحة؛ الباقي مبهم."
+     },
+     {
+      "type": "gap",
+      "sentence": "Please prepare a forklift and a dry area away from heat, as these are Class 9 dangerous ___.",
+      "opts": [
+       "things",
+       "goods",
+       "stuff"
+      ],
+      "a": 1,
+      "why": "‎dangerous goods‎ = بضائع خطرة، مصطلح الشحن الرسمي."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "The lithium battery shipment (PO-2025-164) left Alexandria port this morning and should arrive at the warehouse around 14:00 today.",
+       "It is one 20ft container with 8 pallets, 120 modules in total.",
+       "Please count and check every carton and send me the receiving report."
+      ],
+      "why": "إمتى هتوصل ← إيه اللي جاي ← المطلوب بعد الاستلام."
+     }
+    ],
+    "body": [
+     "Hi Youssef,",
+     "The lithium battery shipment (PO-2025-164) left Alexandria port this morning and should arrive at the warehouse around 14:00 today.",
+     "It is one 20ft container with 8 pallets, 120 modules in total. Please prepare a forklift and a dry area away from heat, as these are Class 9 dangerous goods.",
+     "The truck must return the empty container by tomorrow. Please count and check every carton and send me the receiving report.",
+     "Thanks,\n<Your name>\nPurchasing Officer | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "Good news: …",
+    "خبر حلو: …"
+   ],
+   [
+    "Please note that …",
+    "خد بالك إن …"
+   ],
+   [
+    "… so any delay will cost us money",
+    "… فأي تأخير هيكلّفنا فلوس"
+   ],
+   [
+    "Could you please confirm once … is done?",
+    "ممكن تأكد أول ما … يخلص؟"
+   ],
+   [
+    "Could you please finish … today?",
+    "ممكن تخلّص … النهارده؟"
+   ],
+   [
+    "to avoid demurrage",
+    "عشان نتجنّب غرامة التأخير"
+   ],
+   [
+    "should arrive around …",
+    "المفروض توصل حوالي …"
+   ]
+  ],
+  "glossary": [
+   [
+    "customs duty",
+    "الرسوم الجمركية"
+   ],
+   [
+    "free time",
+    "المدة المجانية للكونتينر"
+   ],
+   [
+    "demurrage",
+    "غرامة تأخير الكونتينر"
+   ],
+   [
+    "release",
+    "الإفراج"
+   ],
+   [
+    "landed cost",
+    "التكلفة الكاملة للبضاعة لحد المخزن"
+   ],
+   [
+    "dangerous goods (Class 9)",
+    "بضائع خطرة (الفئة 9)"
+   ]
+  ]
+ },
+ {
+  "id": "s3e8",
+  "season": "s3",
+  "title": "Warehouse receiving & reorder level",
+  "ar": "استلام المخزن وحد إعادة الطلب",
+  "field": "Warehouse · Stock control",
+  "icon": "🏬",
+  "scene": "The warehouse counts 118 modules instead of 120, and 3 arrive with broken cases. You send a claim to the supplier. Then the Warehouse Supervisor sets a reorder level and warns that stock is already too low, so you place a new order.",
+  "sceneAr": "المخزن عدّ 118 موديول بدل 120، و3 منهم جايين مكسورين. هتبعت مطالبة للمورد. وبعدها مشرف المخزن حدد حد إعادة الطلب ونبّه إن الرصيد نازل تحته، فلازم تطلب طلبية جديدة.",
+  "thread": [
+   {
+    "dir": "in",
+    "from": "Mr. Youssef Gamal — NPS",
+    "subject": "GRN-2025-341 – PO-2025-164 received with shortage and damage",
+    "date": "Mon, 1 Dec · 17:20",
+    "body": [
+     "Hi <Your name>,",
+     "We unloaded the container at 15:30. The packing list shows 120 modules, but we counted 118. Pallet 6 had 13 modules instead of 15.",
+     "Also, 3 modules on pallet 2 have broken cases, probably because of weak packing. I've attached photos and the goods received note GRN-2025-341.",
+     "The damaged modules are in quarantine and are not in available stock.",
+     "Youssef Gamal\nWarehouse Supervisor"
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "Claim – shortage and damage, PO-2025-164",
+    "date": "Tue, 2 Dec · 10:00",
+    "task": "ابعت مطالبة لـ ‎Mr. Wang‎: 2 ناقصين و3 مكسورين، مع الصور وتقرير الاستلام، واطلب استبدال 5 موديول أو إشعار دائن 5,200 دولار.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "Choose the best opening for a claim",
+      "opts": [
+       "Your shipment is bad and we are very angry.",
+       "We received the shipment for PO-2025-164 yesterday. Unfortunately, we found a shortage and damaged goods.",
+       "Hi, some small problem, nothing serious."
+      ],
+      "a": 1,
+      "why": "بتذكر الحقائق بهدوء ووضوح من غير عصبية ولا تقليل."
+     },
+     {
+      "type": "gap",
+      "sentence": "We therefore request replacement of 5 modules, shipped with your next order at no cost, or a credit ___ of USD 5,200.",
+      "opts": [
+       "paper",
+       "return",
+       "note"
+      ],
+      "a": 2,
+      "why": "‎credit note‎ = إشعار دائن بيتخصم من الحساب."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "We received the shipment for PO-2025-164 yesterday.",
+       "We counted 118 modules instead of 120, and 3 modules arrived with broken cases because of weak packing.",
+       "Photos and our receiving report GRN-2025-341 are attached.",
+       "Please let us know which option you prefer by 9 December."
+      ],
+      "why": "الاستلام ← المشكلة ← الإثبات ← الطلب والموعد."
+     }
+    ],
+    "body": [
+     "Dear Mr. Wang,",
+     "We received the shipment for PO-2025-164 yesterday. Unfortunately, we found a shortage and damaged goods.",
+     "We counted 118 modules instead of 120, and 3 modules arrived with broken cases because of weak packing. Photos and our receiving report GRN-2025-341 are attached.",
+     "We therefore request replacement of 5 modules, shipped with your next order at no cost, or a credit note of USD 5,200. Please let us know which option you prefer by 9 December.",
+     "Best regards,\n<Your name>\nPurchasing Officer | Nile Power Solutions"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Youssef Gamal — NPS",
+    "subject": "Reorder level – lithium modules VT-LFP51100",
+    "date": "Wed, 3 Dec · 09:15",
+    "body": [
+     "Hi <Your name>,",
+     "After this delivery, we have 115 usable modules. The Horizon Hospital project will take 64 next week, so only 51 will remain.",
+     "We use about 25 modules per month, and the total lead time from China is about 10 weeks. I have set a minimum stock of 20 and a reorder level of 80 modules in the system.",
+     "So we are already below the reorder level. Please start a new order this month.",
+     "Youssef Gamal\nWarehouse Supervisor"
+    ]
+   },
+   {
+    "dir": "in",
+    "from": "Mr. Wang Lei — Shenzhen VoltTech Co.",
+    "subject": "RE: Claim – shortage and damage, PO-2025-164",
+    "date": "Thu, 4 Dec · 08:50",
+    "body": [
+     "Dear <Your name>,",
+     "We are sorry for this problem. We checked our records, and pallet 6 was packed short by mistake.",
+     "We will send 5 replacement modules free of charge with your next order. We will also use stronger pallets and corner boards for all future shipments.",
+     "Thank you for your understanding.",
+     "Best regards,\nWang Lei\nExport Sales | Shenzhen VoltTech Co."
+    ]
+   },
+   {
+    "dir": "out",
+    "from": "You — NPS",
+    "subject": "New order – 100 x VT-LFP51100 + 5 replacement modules",
+    "date": "Sun, 7 Dec · 10:30",
+    "task": "اقبل حل المورد، واطلب عرض سعر لـ 100 موديول بنفس السعر عشان الرصيد تحت حد إعادة الطلب، وأكّد على التغليف الأقوى.",
+    "steps": [
+     {
+      "type": "pick",
+      "q": "How do you accept the supplier's solution?",
+      "opts": [
+       "Thank you for accepting our claim. We agree to receive the 5 replacement modules with our next order.",
+       "Fine, but don't do it again.",
+       "OK, as you like."
+      ],
+      "a": 0,
+      "why": "شكر وقبول واضح للحل؛ التانية فيها تهديد والتالتة باردة."
+     },
+     {
+      "type": "gap",
+      "sentence": "Our stock has dropped below our ___ level, so we would like the goods ready by mid-January.",
+      "opts": [
+       "reorder",
+       "again order",
+       "repeat"
+      ],
+      "a": 0,
+      "why": "‎reorder level‎ = حد إعادة الطلب."
+     },
+     {
+      "type": "order",
+      "parts": [
+       "Thank you for accepting our claim.",
+       "Please send us a quotation for 100 more VT-LFP51100 modules at the same price, USD 1,040 per unit, CFR Alexandria.",
+       "Our stock has dropped below our reorder level, so we would like the goods ready by mid-January.",
+       "Please also confirm that the new packing will include corner boards and stronger pallets."
+      ],
+      "why": "شكر ← الطلب الجديد ← سبب الاستعجال ← شرط التغليف."
+     }
+    ],
+    "body": [
+     "Dear Mr. Wang,",
+     "Thank you for accepting our claim. We agree to receive the 5 replacement modules with our next order.",
+     "Please send us a quotation for 100 more VT-LFP51100 modules at the same price, USD 1,040 per unit, CFR Alexandria. Our stock has dropped below our reorder level, so we would like the goods ready by mid-January.",
+     "Please also confirm that the new packing will include corner boards and stronger pallets.",
+     "Best regards,\n<Your name>\nPurchasing Officer | Nile Power Solutions"
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "Unfortunately, we found a shortage and damaged goods.",
+    "للأسف لقينا عجز وبضاعة تالفة."
+   ],
+   [
+    "… instead of …",
+    "… بدل …"
+   ],
+   [
+    "We therefore request …",
+    "وبالتالي بنطلب …"
+   ],
+   [
+    "Please let us know which option you prefer.",
+    "بلّغنا أنهي اختيار تفضّله."
+   ],
+   [
+    "Thank you for accepting our claim.",
+    "شكراً على قبول المطالبة."
+   ],
+   [
+    "at the same price",
+    "بنفس السعر"
+   ],
+   [
+    "Our stock has dropped below …",
+    "الرصيد نزل تحت …"
+   ]
+  ],
+  "glossary": [
+   [
+    "goods received note (GRN)",
+    "إذن استلام بضاعة"
+   ],
+   [
+    "shortage",
+    "عجز في الكمية"
+   ],
+   [
+    "claim",
+    "مطالبة / شكوى رسمية"
+   ],
+   [
+    "credit note",
+    "إشعار دائن"
+   ],
+   [
+    "minimum stock",
+    "الحد الأدنى للمخزون"
+   ],
+   [
+    "reorder level",
+    "حد إعادة الطلب"
+   ]
+  ]
+ }
+]

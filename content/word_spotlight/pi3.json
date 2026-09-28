@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "in line with",
+   "pos": "phrase",
+   "ar": "متماشي مع / على نفس مستوى",
+   "def": "matching or consistent with something, such as a standard, market level or policy.",
+   "book": "I feel that a salary between ___ and ___ is in line with the industry average and reflects my skills and experience level well.",
+   "uses": [
+    [
+     "Email",
+     "Our maintenance rates are in line with the market for 80 kVA UPS systems."
+    ],
+    [
+     "Chat",
+     "is this discount in line with the pricing policy?"
+    ],
+    [
+     "Meeting",
+     "The new payment terms are in line with what we agreed with finance."
+    ]
+   ],
+   "goes": [
+    "in line with the market",
+    "in line with expectations",
+    "in line with company policy"
+   ],
+   "dont": [
+    "The price is suitable with the market."
+   ],
+   "doo": [
+    "The price is in line with the market."
+   ],
+   "level": 2
+  },
+  {
+   "w": "perks",
+   "pos": "noun",
+   "ar": "مزايا إضافية جنب المرتب",
+   "def": "extra benefits you get from a job besides salary, like a car, phone or training.",
+   "book": "Your training programs, the commuter benefits and other perks could definitely allow me to be a bit flexible with salary.",
+   "uses": [
+    [
+     "Email",
+     "The package includes a company car, mobile allowance and other perks."
+    ],
+    [
+     "Chat",
+     "one of the perks of the service team: free lunch on site visits 😄"
+    ],
+    [
+     "Meeting",
+     "Let's talk about perks — is there a transportation allowance?"
+    ]
+   ],
+   "goes": [
+    "job perks",
+    "a company car and other perks",
+    "perks and benefits"
+   ],
+   "dont": [
+    "The job has additional advantages besides the money."
+   ],
+   "doo": [
+    "The job comes with some nice perks."
+   ],
+   "level": 1
+  },
+  {
+   "w": "competitive",
+   "pos": "adjective",
+   "ar": "منافس / في مستوى السوق أو أحسن",
+   "def": "as good as or better than what others offer, especially about prices or salaries.",
+   "book": "I'm confident that you're offering a salary that's competitive in the current market.",
+   "uses": [
+    [
+     "Email",
+     "Please find attached our most competitive offer for the 40 kW solar system."
+    ],
+    [
+     "Chat",
+     "can we give them a more competitive price on the batteries?"
+    ],
+    [
+     "Meeting",
+     "Our service contract is very competitive compared to the other vendors."
+    ]
+   ],
+   "goes": [
+    "a competitive price",
+    "a competitive salary",
+    "a competitive offer"
+   ],
+   "dont": [
+    "Our price is very fighting."
+   ],
+   "doo": [
+    "Our price is very competitive."
+   ],
+   "level": 2
+  },
+  {
+   "w": "onboarding",
+   "pos": "noun",
+   "ar": "تهيئة الموظف أو العميل الجديد",
+   "def": "the process of helping a new employee or customer get started and settled in.",
+   "book": "Can you describe your onboarding process?",
+   "uses": [
+    [
+     "Email",
+     "Your onboarding will include a two-day workshop on UPS installation and safety."
+    ],
+    [
+     "Chat",
+     "onboarding the new client tomorrow — can you prep the site checklist?"
+    ],
+    [
+     "Meeting",
+     "Good onboarding means new engineers can visit sites alone after a month."
+    ]
+   ],
+   "goes": [
+    "the onboarding process",
+    "customer onboarding",
+    "onboard new staff"
+   ],
+   "dont": [
+    "What is the program of receiving new employees?"
+   ],
+   "doo": [
+    "What does the onboarding process look like?"
+   ],
+   "level": 2
+  },
+  {
+   "w": "metrics",
+   "pos": "noun",
+   "ar": "مقاييس / مؤشرات أداء بالأرقام",
+   "def": "numbers used to measure performance or progress.",
+   "book": "What metrics or goals would you use to evaluate my performance?",
+   "uses": [
+    [
+     "Email",
+     "Key metrics this month: response time, first-time fix rate and collections."
+    ],
+    [
+     "Chat",
+     "what metrics does the boss care about most?"
+    ],
+    [
+     "Meeting",
+     "We track two metrics for the service team: response time and customer satisfaction."
+    ]
+   ],
+   "goes": [
+    "key metrics",
+    "track metrics",
+    "performance metrics"
+   ],
+   "dont": [
+    "How will you measure me with numbers?"
+   ],
+   "doo": [
+    "What metrics will you use to measure my performance?"
+   ],
+   "level": 2
+  },
+  {
+   "w": "top-notch",
+   "pos": "adjective",
+   "ar": "ممتاز / درجة أولى",
+   "def": "of the highest quality; excellent.",
+   "book": "He told me that the culture here is top-notch, and that management supports continuing education and learning on the job while rewarding hard work.",
+   "uses": [
+    [
+     "Email",
+     "The client said our after-sales service was top-notch."
+    ],
+    [
+     "Chat",
+     "the new server room looks top-notch 🔥"
+    ],
+    [
+     "Meeting",
+     "We need top-notch technicians for the data-centre contract."
+    ]
+   ],
+   "goes": [
+    "top-notch service",
+    "top-notch quality",
+    "a top-notch team"
+   ],
+   "dont": [
+    "The service is first degree."
+   ],
+   "doo": [
+    "The service is top-notch."
+   ],
+   "level": 1
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "I want 10,000 salary, no less.",
+   "ar": "عايز مرتب ١٠٬٠٠٠ مش أقل",
+   "pro": [
+    "I want 10,000, not less.",
+    "Give me 10,000 or no.",
+    "I'm looking for somewhere between 10,000 and 12,000, depending on the overall package."
+   ],
+   "a": 2,
+   "why": "إدي نطاق (‎range‎) مش رقم ناشف، واربطه بالـ‎package‎."
+  },
+  {
+   "plain": "How much is the salary of this job?",
+   "ar": "المرتب بتاع الوظيفة دي كام؟",
+   "pro": [
+    "Could you give me an idea of the salary range for this position?",
+    "How much you pay?",
+    "How much is the salary of this job?"
+   ],
+   "a": 0,
+   "why": "‎Could you give me an idea of‎ أهدى وأشيك من السؤال المباشر."
+  },
+  {
+   "plain": "I can accept less money if there are other advantages.",
+   "ar": "ممكن أقبل فلوس أقل لو فيه مزايا تانية",
+   "pro": [
+    "I accept less money if advantages.",
+    "Benefits matter to me as well, so I'm open to negotiating based on the entire package.",
+    "Less money is OK if other things."
+   ],
+   "a": 1,
+   "why": "استخدم ‎benefits‎ و‎the entire package‎ عشان تفاوض بذكاء."
+  },
+  {
+   "plain": "I love your company too much.",
+   "ar": "بحب شركتكم جدًا",
+   "pro": [
+    "I love your company too much.",
+    "I've always been a fan of your products and your focus on quality.",
+    "Your company is very very good."
+   ],
+   "a": 1,
+   "why": "‎too much‎ معناها زيادة عن اللزوم. قول ليه معجب بالشركة."
+  },
+  {
+   "plain": "How will you know I am good in the job?",
+   "ar": "هتعرفوا إزاي إني كويس في الشغل؟",
+   "pro": [
+    "How you know I am good?",
+    "How will you know I am good in the job?",
+    "What is the most important indicator of success in this position?"
+   ],
+   "a": 2,
+   "why": "‎indicator of success‎ سؤال مهني بيبين إنك مهتم بالنتايج."
+  },
+  {
+   "plain": "I don't have number, give me what you want.",
+   "ar": "مفيش رقم في دماغي، إدوني اللي انتوا عايزينه",
+   "pro": [
+    "I don't have a specific figure in mind, so I'm willing to consider an offer you feel is fair.",
+    "I don't have number, give me what you want.",
+    "Any money is OK for me."
+   ],
+   "a": 0,
+   "why": "‎a specific figure‎ و‎an offer you feel is fair‎ بتحافظ على موقفك."
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "ETA",
+   "pos": "abbreviation",
+   "ar": "الميعاد المتوقع للوصول",
+   "def": "estimated time of arrival — when something or someone is expected to arrive.",
+   "book": "TBD: to be determined · ETA: estimated time of arrival · ETD: estimated time of departure",
+   "uses": [
+    [
+     "Email",
+     "Could you share the ETA for the 40 kVA UPS units ordered under PO 2231?"
+    ],
+    [
+     "Chat",
+     "what's the ETA on the batteries? client keeps calling 😅"
+    ],
+    [
+     "Meeting",
+     "The shipment is at the port; ETA to our warehouse is Thursday."
+    ]
+   ],
+   "goes": [
+    "the ETA for the shipment",
+    "give an ETA",
+    "a revised ETA"
+   ],
+   "dont": [
+    "When the batteries will reach?"
+   ],
+   "doo": [
+    "What's the ETA on the batteries?"
+   ],
+   "level": 1
+  },
+  {
+   "w": "TBC",
+   "pos": "abbreviation",
+   "ar": "لسه هيتأكد",
+   "def": "to be confirmed — planned, but not final yet.",
+   "book": "ROI: return on investment · SOP: standard operating procedure · TBA: to be announced · TBC: to be confirmed",
+   "uses": [
+    [
+     "Email",
+     "Site visit: Tuesday, 10 a.m. (TBC by the customer)."
+    ],
+    [
+     "Chat",
+     "training date is TBC, will update you"
+    ],
+    [
+     "Meeting",
+     "The handover date is still TBC — it depends on the civil works."
+    ]
+   ],
+   "goes": [
+    "date TBC",
+    "venue TBC",
+    "price TBC"
+   ],
+   "dont": [
+    "The date is not sure yet, maybe."
+   ],
+   "doo": [
+    "The date is TBC."
+   ],
+   "level": 1
+  },
+  {
+   "w": "as per",
+   "pos": "preposition",
+   "ar": "حسب / طبقًا لـ",
+   "def": "according to — used to refer to an agreement, request or document.",
+   "book": "Providing support or evidence: according to · as stated by · based on · as per",
+   "uses": [
+    [
+     "Email",
+     "As per the maintenance contract, preventive visits are carried out every quarter."
+    ],
+    [
+     "Chat",
+     "as per our call, sending the revised quote now"
+    ],
+    [
+     "Meeting",
+     "As per the SOP, the load must be on bypass before we replace the batteries."
+    ]
+   ],
+   "goes": [
+    "as per our discussion",
+    "as per the contract",
+    "as per your request"
+   ],
+   "dont": [
+    "According on the contract, the visit is every 3 months."
+   ],
+   "doo": [
+    "As per the contract, visits are quarterly."
+   ],
+   "level": 3
+  },
+  {
+   "w": "provided that",
+   "pos": "conjunction",
+   "ar": "بشرط إن",
+   "def": "only if a certain condition is met.",
+   "book": "Conditional or hypothetical situations: if · unless · provided that · in case · otherwise",
+   "uses": [
+    [
+     "Email",
+     "We can deliver by the end of the month, provided that the advance payment is received this week."
+    ],
+    [
+     "Chat",
+     "we can go tomorrow provided that site access is ok"
+    ],
+    [
+     "Meeting",
+     "The warranty is valid provided that the units are installed by our engineers."
+    ]
+   ],
+   "goes": [
+    "provided that payment is received",
+    "provided that the conditions are met",
+    "valid provided that …"
+   ],
+   "dont": [
+    "We will deliver with condition you pay first."
+   ],
+   "doo": [
+    "We will deliver provided that the advance payment is received."
+   ],
+   "level": 3
+  },
+  {
+   "w": "consequently",
+   "pos": "adverb",
+   "ar": "وبالتالي / ونتيجة لكده",
+   "def": "as a result of what was just mentioned.",
+   "book": "Showing cause and effect: due to · because · consequently · therefore · as a result",
+   "uses": [
+    [
+     "Email",
+     "The inverter supplier delayed the shipment; consequently, commissioning has moved to 15 May."
+    ],
+    [
+     "Chat",
+     "battery bank failed, consequently the whole server room went down 😬"
+    ],
+    [
+     "Meeting",
+     "Fuel prices went up; consequently, our transport costs increased by 10%."
+    ]
+   ],
+   "goes": [
+    "and consequently",
+    "consequently, the price …",
+    "consequently delayed"
+   ],
+   "dont": [
+    "The shipment delayed, so for that the project delayed."
+   ],
+   "doo": [
+    "The shipment was delayed; consequently, the project was delayed."
+   ],
+   "level": 3
+  },
+  {
+   "w": "notably",
+   "pos": "adverb",
+   "ar": "خصوصًا / بالذات",
+   "def": "especially — used to point out an important example.",
+   "book": "Indicating importance: significantly · notably · essentially · above all",
+   "uses": [
+    [
+     "Email",
+     "Service revenue grew this year, notably in solar maintenance contracts."
+    ],
+    [
+     "Chat",
+     "sales were up everywhere, notably Alex 🔥"
+    ],
+    [
+     "Meeting",
+     "Several clients, notably the two hospitals, renewed their contracts early."
+    ]
+   ],
+   "goes": [
+    "most notably",
+    "notably in …",
+    "notably higher"
+   ],
+   "dont": [
+    "Sales increased, specially in Alex."
+   ],
+   "doo": [
+    "Sales increased, notably in Alexandria."
+   ],
+   "level": 3
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "I send you this mail to inform you the batteries arrived.",
+   "ar": "ببعتلك الميل ده عشان أبلغك إن البطاريات وصلت",
+   "pro": [
+    "I send you this mail to inform you the batteries arrived.",
+    "I'm pleased to let you know that the batteries have arrived.",
+    "I inform you by this mail that batteries reached."
+   ],
+   "a": 1,
+   "why": "ادخل في الموضوع على طول: ‎let you know that‎ أكتر طبيعية من الترجمة الحرفية."
+  },
+  {
+   "plain": "Waiting your reply.",
+   "ar": "في انتظار ردك",
+   "pro": [
+    "I look forward to hearing from you.",
+    "Waiting your reply.",
+    "I am waiting for your reply fastly."
+   ],
+   "a": 0,
+   "why": "‎waiting your reply‎ ناقصها ‎for‎ وتبان زنّ. الختام المهني ‎I look forward to hearing from you‎."
+  },
+  {
+   "plain": "Please send me the report today before you go home.",
+   "ar": "ابعتلي التقرير النهارده قبل ما تروّح",
+   "pro": [
+    "Please send me the report today before you go to your house.",
+    "Send the report today before home.",
+    "Please send me the report by EOD."
+   ],
+   "a": 2,
+   "why": "‎EOD‎ = آخر اليوم، اختصار معروف وقصير في الشغل."
+  },
+  {
+   "plain": "Please confirm you took my mail.",
+   "ar": "أكدلي إنك خدت الميل بتاعي",
+   "pro": [
+    "Please confirm you took my mail.",
+    "Could you please confirm that you've received this message?",
+    "Confirm me receiving."
+   ],
+   "a": 1,
+   "why": "الإيميل بيتـ ‎receive‎ مش بيتـ ‎take‎."
+  },
+  {
+   "plain": "The price will change because of this the dollar went up.",
+   "ar": "السعر هيتغير بسبب إن الدولار زاد",
+   "pro": [
+    "Due to the rise in the exchange rate, prices will be revised.",
+    "Because of this the dollar went up, price change.",
+    "The price will change due to the dollar is up."
+   ],
+   "a": 0,
+   "why": "‎due to‎ بعدها اسم (‎the rise‎) مش جملة كاملة."
+  },
+  {
+   "plain": "Also, in addition, the warranty is 2 years also.",
+   "ar": "وكمان كمان الضمان سنتين",
+   "pro": [
+    "Also in addition the warranty also is 2 years.",
+    "In addition also, warranty 2 years.",
+    "In addition, the warranty covers two years."
+   ],
+   "a": 2,
+   "why": "كلمة ربط واحدة كفاية؛ ماتكررش ‎also‎ و ‎in addition‎ مع بعض."
+  }
+ ]
+}

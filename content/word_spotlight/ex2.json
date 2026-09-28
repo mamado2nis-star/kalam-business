@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "delegate",
+   "pos": "verb",
+   "ar": "يوزّع / يسلّم مهام لحد تاني",
+   "def": "to give part of your work or responsibility to someone else in your team.",
+   "book": "I consider myself a natural leader, and I have experience managing teams and delegating tasks to ensure projects are completed on time and within budget.",
+   "uses": [
+    [
+     "Email",
+     "I've delegated the site survey to Karim so I can focus on the quotation."
+    ],
+    [
+     "Chat",
+     "can u delegate the battery replacement to the night shift? i'm swamped 😅"
+    ],
+    [
+     "Meeting",
+     "As a manager, I delegate routine PM visits and handle the key accounts myself."
+    ]
+   ],
+   "goes": [
+    "delegate tasks",
+    "delegate responsibility",
+    "delegate something to someone"
+   ],
+   "dont": [
+    "I gave my work to Ahmed to make it."
+   ],
+   "doo": [
+    "I delegated the task to Ahmed."
+   ],
+   "level": 2
+  },
+  {
+   "w": "mitigate",
+   "pos": "verb",
+   "ar": "يقلّل من أثر حاجة وحشة / يحدّ من الضرر",
+   "def": "to make a problem or risk less serious or less harmful.",
+   "book": "I prioritize and focus on the most important tasks, and I look for ways to mitigate any potential negative impact.",
+   "uses": [
+    [
+     "Email",
+     "To mitigate the risk of downtime, we'll install a temporary UPS during the upgrade."
+    ],
+    [
+     "Chat",
+     "any way to mitigate the delay? customer's not happy"
+    ],
+    [
+     "Meeting",
+     "Regular battery testing helps us mitigate the risk of sudden failures."
+    ]
+   ],
+   "goes": [
+    "mitigate the risk",
+    "mitigate the impact",
+    "mitigation plan"
+   ],
+   "dont": [
+    "We will make the problem smaller."
+   ],
+   "doo": [
+    "We'll take steps to mitigate the risk."
+   ],
+   "level": 3
+  },
+  {
+   "w": "proactive",
+   "pos": "adjective",
+   "ar": "مبادر / بيتحرك قبل ما المشكلة تحصل",
+   "def": "acting early to prevent problems instead of waiting for them to happen.",
+   "book": "I handle challenging situations by taking a proactive approach.",
+   "uses": [
+    [
+     "Email",
+     "We're taking a proactive approach and replacing the batteries before they reach end of life."
+    ],
+    [
+     "Chat",
+     "nice, very proactive of you to call the client first 👍"
+    ],
+    [
+     "Meeting",
+     "We need to be more proactive with overdue invoices, not wait 90 days."
+    ]
+   ],
+   "goes": [
+    "a proactive approach",
+    "proactive maintenance",
+    "be proactive about"
+   ],
+   "dont": [
+    "I solve the problem before it comes."
+   ],
+   "doo": [
+    "I take a proactive approach to problems."
+   ],
+   "level": 2
+  },
+  {
+   "w": "on the same page",
+   "pos": "idiom",
+   "ar": "متفقين وفاهمين نفس الحاجة",
+   "def": "when everyone understands and agrees about the plan or situation.",
+   "book": "I also remain flexible and open to new ideas, and I communicate effectively with my team to ensure everyone is on the same page.",
+   "uses": [
+    [
+     "Email",
+     "Just to make sure we're on the same page, the warranty covers parts but not labour."
+    ],
+    [
+     "Chat",
+     "quick call so we're all on the same page before the client meeting?"
+    ],
+    [
+     "Meeting",
+     "Before we send the offer, let's make sure sales and service are on the same page."
+    ]
+   ],
+   "goes": [
+    "be on the same page",
+    "get everyone on the same page",
+    "make sure we're on the same page"
+   ],
+   "dont": [
+    "We must all be understanding the same thing."
+   ],
+   "doo": [
+    "Let's make sure we're all on the same page."
+   ],
+   "level": 1
+  },
+  {
+   "w": "in a timely manner",
+   "pos": "phrase",
+   "ar": "في الوقت المناسب / من غير تأخير",
+   "def": "quickly, without unnecessary delay.",
+   "book": "I also established a regular communication schedule with the client to ensure their needs were being met and any issues were addressed in a timely manner.",
+   "uses": [
+    [
+     "Email",
+     "We kindly ask that the outstanding invoice be settled in a timely manner."
+    ],
+    [
+     "Chat",
+     "pls reply to the ticket in a timely manner, SLA is 4 hrs ⏱️"
+    ],
+    [
+     "Meeting",
+     "Our contract commits us to responding to service calls in a timely manner."
+    ]
+   ],
+   "goes": [
+    "respond in a timely manner",
+    "be addressed in a timely manner",
+    "deliver in a timely manner"
+   ],
+   "dont": [
+    "We will answer you in the fast time."
+   ],
+   "doo": [
+    "We will respond in a timely manner."
+   ],
+   "level": 3
+  },
+  {
+   "w": "retain",
+   "pos": "verb",
+   "ar": "يحافظ على / يخلّي العميل يفضل معانا",
+   "def": "to keep something or someone, especially a customer or employee.",
+   "book": "Through my efforts, I was able to retain the client and even expand our business with them.",
+   "uses": [
+    [
+     "Email",
+     "Our priority this year is to retain our key accounts and renew all maintenance contracts."
+    ],
+    [
+     "Chat",
+     "we retained the hospital contract 🎉"
+    ],
+    [
+     "Meeting",
+     "Offering a free health check helped us retain the client."
+    ]
+   ],
+   "goes": [
+    "retain a client",
+    "retain customers",
+    "customer retention"
+   ],
+   "dont": [
+    "I made the client stay with us."
+   ],
+   "doo": [
+    "I managed to retain the client."
+   ],
+   "level": 3
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "I am a leader by nature.",
+   "ar": "أنا قائد بطبعي",
+   "pro": [
+    "I am leader naturally.",
+    "I consider myself a natural leader.",
+    "I am born to be the boss."
+   ],
+   "a": 1,
+   "why": "‎consider myself‎ + صفة أهدى وأكثر احترافية."
+  },
+  {
+   "plain": "When the customer shouted, I shouted too.",
+   "ar": "لما العميل زعق، زعقت أنا كمان",
+   "pro": [
+    "I stayed calm and composed, even when the customer raised his voice.",
+    "I shouted on him because he shouted first.",
+    "I became angry like him."
+   ],
+   "a": 0,
+   "why": "في المقابلة بيّن إنك ‎calm and composed‎ مش عصبي."
+  },
+  {
+   "plain": "I want to know the real reason of the problem.",
+   "ar": "عايز أعرف السبب الحقيقي للمشكلة",
+   "pro": [
+    "I want to know the real reason of the problem.",
+    "I want to know why the problem is problem.",
+    "I try to understand the root cause of the problem."
+   ],
+   "a": 2,
+   "why": "‎root cause‎ هو المصطلح المستخدم في الشغل."
+  },
+  {
+   "plain": "I don't take it personal.",
+   "ar": "ماباخدهاش على صدري",
+   "pro": [
+    "I don't take it on my chest.",
+    "I avoid getting defensive or personal.",
+    "I don't take it personal never."
+   ],
+   "a": 1,
+   "why": "‎on my chest‎ ترجمة حرفية؛ قول ‎avoid getting defensive or personal‎."
+  },
+  {
+   "plain": "I want both of us to win.",
+   "ar": "عايز الطرفين يكسبوا",
+   "pro": [
+    "I always strive for a win-win solution.",
+    "I want we are both winners.",
+    "I want the two sides to take."
+   ],
+   "a": 0,
+   "why": "‎win-win solution‎ تعبير شائع جدًا في التفاوض."
+  },
+  {
+   "plain": "The project was late, and we returned it to the right way.",
+   "ar": "المشروع كان متأخر ورجّعناه على السكة",
+   "pro": [
+    "We returned the project to the right way.",
+    "We made the project go correct again.",
+    "We were able to get the project back on track."
+   ],
+   "a": 2,
+   "why": "‎back on track‎ = رجع ماشي صح في ميعاده."
+  }
+ ]
+}

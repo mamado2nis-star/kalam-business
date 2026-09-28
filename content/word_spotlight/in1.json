@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "upkeep",
+   "pos": "noun",
+   "ar": "الصيانة والمحافظة على الحاجة شغالة",
+   "def": "the work and cost of keeping something in good condition.",
+   "book": "I'm in charge of managing the creation and release of new products, as well as the improvement and upkeep of the ones we already have.",
+   "uses": [
+    [
+     "Email",
+     "The quotation covers installation and one year of upkeep for the solar system."
+    ],
+    [
+     "Chat",
+     "who's handling the upkeep of the gen sets at the branch?"
+    ],
+    [
+     "Meeting",
+     "Upkeep costs for old lead-acid batteries are higher than lithium over five years."
+    ]
+   ],
+   "goes": [
+    "the upkeep of equipment",
+    "upkeep costs",
+    "routine upkeep"
+   ],
+   "dont": [
+    "The keeping of the machines costs a lot."
+   ],
+   "doo": [
+    "The upkeep of the machines is expensive."
+   ],
+   "level": 2
+  },
+  {
+   "w": "cross-functional",
+   "pos": "adjective",
+   "ar": "بين أكتر من قسم",
+   "def": "involving people from different departments working together.",
+   "book": "I spend a lot of time meeting with cross-functional teams to discuss new product ideas and gather feedback.",
+   "uses": [
+    [
+     "Email",
+     "I've set up a cross-functional meeting with sales, service and accounts to review overdue invoices."
+    ],
+    [
+     "Chat",
+     "cross-functional call at 2 — sales + tech + purchasing"
+    ],
+    [
+     "Meeting",
+     "This data-centre project needs a cross-functional team from day one."
+    ]
+   ],
+   "goes": [
+    "a cross-functional team",
+    "cross-functional collaboration",
+    "cross-functional meeting"
+   ],
+   "dont": [
+    "A team from all the departments mixed."
+   ],
+   "doo": [
+    "A cross-functional team."
+   ],
+   "level": 3
+  },
+  {
+   "w": "delegate",
+   "pos": "verb",
+   "ar": "يوزّع / يسند مهام لحد تاني",
+   "def": "to give part of your work or responsibility to someone else.",
+   "book": "I've also been trying to delegate tasks more effectively, to make sure I don't take on too much at once.",
+   "uses": [
+    [
+     "Email",
+     "I have delegated the site survey to Karim, who will send you the report by Monday."
+    ],
+    [
+     "Chat",
+     "can't do the visit today, i'll delegate it to Hany"
+    ],
+    [
+     "Meeting",
+     "As a team leader, you need to delegate the routine PM visits."
+    ]
+   ],
+   "goes": [
+    "delegate tasks",
+    "delegate responsibility",
+    "delegate to someone"
+   ],
+   "dont": [
+    "I will give the work to another one."
+   ],
+   "doo": [
+    "I'll delegate it to a colleague."
+   ],
+   "level": 2
+  },
+  {
+   "w": "troubleshoot",
+   "pos": "verb",
+   "ar": "يدوّر على سبب العطل ويصلحه",
+   "def": "to find the cause of a technical problem and fix it.",
+   "book": "I also worked closely with the engineering team to troubleshoot any issues that arose, and with the marketing team to develop the go-to-market strategy.",
+   "uses": [
+    [
+     "Email",
+     "Our engineer will visit tomorrow to troubleshoot the UPS alarm on site."
+    ],
+    [
+     "Chat",
+     "troubleshooting the VFD now, looks like an overcurrent fault ⚡"
+    ],
+    [
+     "Meeting",
+     "Can we troubleshoot remotely before we send a technician?"
+    ]
+   ],
+   "goes": [
+    "troubleshoot a problem",
+    "troubleshoot remotely",
+    "troubleshooting steps"
+   ],
+   "dont": [
+    "The engineer will search about the problem."
+   ],
+   "doo": [
+    "The engineer will troubleshoot the problem."
+   ],
+   "level": 2
+  },
+  {
+   "w": "proactive",
+   "pos": "adjective",
+   "ar": "بيسبق الأحداث / بياخد المبادرة",
+   "def": "acting early to prevent problems instead of waiting for them to happen.",
+   "book": "I always try to be proactive and think creatively about how we can improve our products and processes.",
+   "uses": [
+    [
+     "Email",
+     "To be proactive, we recommend replacing the batteries before the summer peak."
+    ],
+    [
+     "Chat",
+     "love how proactive the service team was with that client 👏"
+    ],
+    [
+     "Meeting",
+     "We need a more proactive approach to collections, not just chasing late payments."
+    ]
+   ],
+   "goes": [
+    "a proactive approach",
+    "be proactive",
+    "proactive maintenance"
+   ],
+   "dont": [
+    "I do the things before somebody tells me."
+   ],
+   "doo": [
+    "I'm proactive."
+   ],
+   "level": 2
+  },
+  {
+   "w": "reconcile",
+   "pos": "verb",
+   "ar": "يطابق الحسابات",
+   "def": "to check that two sets of financial records match and agree.",
+   "book": "My main responsibilities include preparing and analyzing financial statements, reconciling accounts, and managing and reporting on the company's financial performance.",
+   "uses": [
+    [
+     "Email",
+     "Could you send your statement of account so we can reconcile it with our records?"
+    ],
+    [
+     "Chat",
+     "still reconciling the client's payments, numbers don't match yet 🙈"
+    ],
+    [
+     "Meeting",
+     "We reconcile supplier accounts at the end of every month."
+    ]
+   ],
+   "goes": [
+    "reconcile accounts",
+    "bank reconciliation",
+    "reconcile invoices"
+   ],
+   "dont": [
+    "We will match the account with the customer."
+   ],
+   "doo": [
+    "We will reconcile the account with the customer."
+   ],
+   "level": 3
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "I am responsible on the maintenance team.",
+   "ar": "أنا مسؤول عن فريق الصيانة",
+   "pro": [
+    "I am responsible on the maintenance team.",
+    "I'm in charge of the maintenance team.",
+    "I am the responsible of maintenance."
+   ],
+   "a": 1,
+   "why": "بنقول ‎in charge of‎ أو ‎responsible for‎، مش ‎on‎."
+  },
+  {
+   "plain": "Every day my work is different different.",
+   "ar": "كل يوم شغلي مختلف",
+   "pro": [
+    "My days are usually quite varied.",
+    "My work is every day another thing.",
+    "Each day different work."
+   ],
+   "a": 0,
+   "why": "‎My days are quite varied‎ طريقة طبيعية تقول بيها إن يومك متنوع."
+  },
+  {
+   "plain": "I stopped growing in my job.",
+   "ar": "وقفت ومبقتش بتطور في شغلي",
+   "pro": [
+    "I stopped to grow in my job.",
+    "My job is stopped.",
+    "I feel I've reached a plateau in my current role."
+   ],
+   "a": 2,
+   "why": "‎reached a plateau‎ معناها وصلت لحد ومبقاش في تطور."
+  },
+  {
+   "plain": "I want to use my experience in the new job.",
+   "ar": "عايز أستخدم خبرتي في الشغلانة الجديدة",
+   "pro": [
+    "I want to use my experiences in the new job.",
+    "I'm eager to leverage my expertise in the new role.",
+    "I want to benefit from my experience to the new job."
+   ],
+   "a": 1,
+   "why": "‎leverage my expertise‎ أقوى وأكثر احترافية من ‎use my experience‎."
+  },
+  {
+   "plain": "I follow the work of the technicians every day.",
+   "ar": "بتابع شغل الفنيين كل يوم",
+   "pro": [
+    "I oversee the day-to-day work of our field technicians.",
+    "I follow the technicians daily.",
+    "I am following up the technicians' work every day."
+   ],
+   "a": 0,
+   "why": "‎oversee‎ = يشرف، و‎follow‎ معناها يمشي وراه."
+  },
+  {
+   "plain": "This job is the same like my goals.",
+   "ar": "الوظيفة دي زي أهدافي بالظبط",
+   "pro": [
+    "This job is same my goals.",
+    "This role is like my dreams exactly.",
+    "This role aligns perfectly with my career goals."
+   ],
+   "a": 2,
+   "why": "‎aligns with‎ = متوافق مع؛ ماتقولش ‎same like‎."
+  }
+ ]
+}

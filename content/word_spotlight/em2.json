@@ -1,0 +1,270 @@
+{
+ "words": [
+  {
+   "w": "milestone",
+   "pos": "noun",
+   "ar": "مرحلة مهمة / محطة في المشروع",
+   "def": "an important stage or event that shows progress in a project.",
+   "book": "I am pleased to share that we have achieved the latest milestone.",
+   "uses": [
+    [
+     "Email",
+     "We've reached a key milestone: all 40 battery strings are installed and tested."
+    ],
+    [
+     "Chat",
+     "milestone unlocked: phase 1 handed over 🎯"
+    ],
+    [
+     "Meeting",
+     "Payment will be linked to three milestones: delivery, installation and commissioning."
+    ]
+   ],
+   "goes": [
+    "reach a milestone",
+    "a key milestone",
+    "milestone payment"
+   ],
+   "dont": [
+    "We finished an important step in the project."
+   ],
+   "doo": [
+    "We've reached an important milestone."
+   ],
+   "level": 2
+  },
+  {
+   "w": "recap",
+   "pos": "noun / verb",
+   "ar": "تلخيص سريع للي اتقال",
+   "def": "a short summary of what was already said or agreed.",
+   "book": "As a brief recap, we discussed ___.",
+   "uses": [
+    [
+     "Email",
+     "As a brief recap, we agreed to replace the batteries at both sites in October."
+    ],
+    [
+     "Chat",
+     "can someone recap the call? i joined late"
+    ],
+    [
+     "Meeting",
+     "Let me quickly recap the action points before we finish."
+    ]
+   ],
+   "goes": [
+    "a quick recap",
+    "as a brief recap",
+    "recap the meeting"
+   ],
+   "dont": [
+    "I will say again what we said in short."
+   ],
+   "doo": [
+    "Let me quickly recap."
+   ],
+   "level": 1
+  },
+  {
+   "w": "authorize",
+   "pos": "verb",
+   "ar": "يوافق رسميًا / يدّي تصريح",
+   "def": "to give official permission for something.",
+   "book": "Could you please authorize ___ so that we can move forward with the project/task?",
+   "uses": [
+    [
+     "Email",
+     "Could you please authorize the purchase order so we can release the equipment?"
+    ],
+    [
+     "Chat",
+     "who can authorize the discount? need it today"
+    ],
+    [
+     "Meeting",
+     "Only the finance manager can authorize payments over 100,000 EGP."
+    ]
+   ],
+   "goes": [
+    "authorize a payment",
+    "authorize a purchase",
+    "authorization"
+   ],
+   "dont": [
+    "Please give me the permission to buy."
+   ],
+   "doo": [
+    "Could you please authorize the purchase?"
+   ],
+   "level": 3
+  },
+  {
+   "w": "in compliance with",
+   "pos": "phrase",
+   "ar": "مطابق لـ / ملتزم بـ (قوانين أو معايير)",
+   "def": "following a rule, law, standard or contract.",
+   "book": "In order to proceed with ___, I need your authorization to ensure that we're in compliance with ___.",
+   "uses": [
+    [
+     "Email",
+     "All installations are carried out in compliance with IEC safety standards."
+    ],
+    [
+     "Chat",
+     "is the new site in compliance with the fire code?"
+    ],
+    [
+     "Meeting",
+     "We need to stay in compliance with the SLA terms."
+    ]
+   ],
+   "goes": [
+    "in compliance with standards",
+    "be in compliance with",
+    "compliance requirements"
+   ],
+   "dont": [
+    "This is according with the rules."
+   ],
+   "doo": [
+    "This is in compliance with the regulations."
+   ],
+   "level": 3
+  },
+  {
+   "w": "payment terms",
+   "pos": "noun",
+   "ar": "شروط الدفع",
+   "def": "the agreed rules about when and how a customer pays (e.g. 30 days, 50% advance).",
+   "book": "Could we schedule a call to go over the pricing/payment terms in more detail?",
+   "uses": [
+    [
+     "Email",
+     "Our payment terms are 50% advance and 50% upon delivery."
+    ],
+    [
+     "Chat",
+     "can we give them 60-day payment terms? they're asking"
+    ],
+    [
+     "Meeting",
+     "The client accepted the price but wants to renegotiate the payment terms."
+    ]
+   ],
+   "goes": [
+    "standard payment terms",
+    "negotiate payment terms",
+    "payment terms of 30 days"
+   ],
+   "dont": [
+    "The conditions of paying are 30 days."
+   ],
+   "doo": [
+    "Our payment terms are 30 days."
+   ],
+   "level": 2
+  },
+  {
+   "w": "amend",
+   "pos": "verb",
+   "ar": "يعدّل (في عقد أو مستند)",
+   "def": "to make a small official change to a contract, document or agreement.",
+   "book": "Would it be possible to add/amend a specific clause or provision in the contract/agreement to better protect our interests?",
+   "uses": [
+    [
+     "Email",
+     "Please find attached the amended contract with the updated warranty period."
+    ],
+    [
+     "Chat",
+     "can u amend the quote? they want 3 years warranty"
+    ],
+    [
+     "Meeting",
+     "We'd like to amend clause 7 regarding response times."
+    ]
+   ],
+   "goes": [
+    "amend a contract",
+    "amend a clause",
+    "an amendment"
+   ],
+   "dont": [
+    "We want to change something in the contract."
+   ],
+   "doo": [
+    "We'd like to amend the contract."
+   ],
+   "level": 3
+  }
+ ],
+ "upgrade": [
+  {
+   "plain": "I send you the file in the attachment.",
+   "ar": "ببعتلك الفايل في المرفقات",
+   "pro": [
+    "I send you the file attached in the attachment.",
+    "Please find attached the quotation for your review.",
+    "The file is in the attach."
+   ],
+   "a": 1,
+   "why": "‎Please find attached‎ هي الجملة المعتادة في الإيميلات."
+  },
+  {
+   "plain": "You remember we talked before about this?",
+   "ar": "فاكر إحنا اتكلمنا قبل كده في الموضوع ده؟",
+   "pro": [
+    "As you may recall, we previously discussed this.",
+    "You remember we talked before?",
+    "Do you remember what we said before or no?"
+   ],
+   "a": 0,
+   "why": "‎As you may recall‎ أرقّ وأكثر احترافية من ‎You remember‎."
+  },
+  {
+   "plain": "The project is going good and we will finish in time.",
+   "ar": "المشروع ماشي كويس وهنخلص في ميعادنا",
+   "pro": [
+    "The project is going good.",
+    "The project is walking well.",
+    "We're on track to meet the project's objectives."
+   ],
+   "a": 2,
+   "why": "‎on track‎ = ماشيين صح في الميعاد."
+  },
+  {
+   "plain": "Answer me quickly please.",
+   "ar": "رد عليا بسرعة لو سمحت",
+   "pro": [
+    "Answer me fast.",
+    "Please reply at your earliest convenience.",
+    "Reply me quickly please."
+   ],
+   "a": 1,
+   "why": "‎at your earliest convenience‎ مؤدبة بس بتوصّل الاستعجال."
+  },
+  {
+   "plain": "You understood me wrong.",
+   "ar": "إنت فهمتني غلط",
+   "pro": [
+    "There seems to have been a misunderstanding.",
+    "You understood wrong.",
+    "You are mistaken in understanding me."
+   ],
+   "a": 0,
+   "why": "ماتلومش العميل؛ ‎There seems to have been‎ بتشيل اللوم."
+  },
+  {
+   "plain": "Sorry, it's my mistake, I will fix it.",
+   "ar": "آسف، غلطتي، هصلحها",
+   "pro": [
+    "Sorry, my mistake, I repair it.",
+    "It's not my fault but sorry.",
+    "I apologize for my mistake, and I am committed to making things right."
+   ],
+   "a": 2,
+   "why": "‎committed to making things right‎ بتبيّن مسؤولية واحترافية."
+  }
+ ]
+}
