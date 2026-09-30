@@ -7,25 +7,33 @@
     "w": "price",
     "pos": "verb",
     "ex": "We priced the 10 kVA UPS at 85,000 EGP.",
-    "ar": "سعّرنا الـ‎UPS‎ الـ10 ‎kVA‎ بـ85,000 جنيه."
+    "ar": "سعّرنا الـ‎UPS‎ الـ10 ‎kVA‎ بـ85,000 جنيه.",
+    "ex2": "We priced it to beat the imported brands.",
+    "ar2": "سعّرناه عشان يغلب الماركات المستوردة."
    },
    {
     "w": "pricing",
     "pos": "noun",
     "ex": "Our pricing includes installation and one year of service.",
-    "ar": "تسعيرنا شامل التركيب وسنة خدمة."
+    "ar": "تسعيرنا شامل التركيب وسنة خدمة.",
+    "ex2": "That pricing makes comparison easier for the client.",
+    "ar2": "التسعير ده بيسهّل المقارنة على العميل."
    },
    {
     "w": "pricey",
     "pos": "adjective",
     "ex": "The German batteries are good but a bit pricey.",
-    "ar": "البطاريات الألماني كويسة بس غالية شوية."
+    "ar": "البطاريات الألماني كويسة بس غالية شوية.",
+    "ex2": "Pricey or not, they last twice as long.",
+    "ar2": "غالية أو لأ، عمرها ضعف التانية."
    },
    {
     "w": "price point",
     "pos": "noun",
     "ex": "This inverter sits at a good price point for small shops.",
-    "ar": "الإنفرتر ده سعره مناسب للمحلات الصغيرة."
+    "ar": "الإنفرتر ده سعره مناسب للمحلات الصغيرة.",
+    "ex2": "At that price point, we can sell a lot.",
+    "ar2": "عند السعر ده، نقدر نبيع كتير."
    }
   ],
   "meanings": [],
@@ -34,19 +42,25 @@
     "w": "price range",
     "note": "a band between low and high prices",
     "ex": "Customers in this price range want reliability, not features.",
-    "ar": "العملاء في الفئة السعرية دي عايزين اعتمادية، مش مميزات."
+    "ar": "العملاء في الفئة السعرية دي عايزين اعتمادية، مش مميزات.",
+    "ex2": "In that price range, warranty matters more than extras.",
+    "ar2": "في الفئة السعرية دي، الضمان أهم من الإضافات."
    },
    {
     "w": "price level",
     "note": "general height of prices in a market",
     "ex": "Import price levels went up after the devaluation.",
-    "ar": "مستوى أسعار الاستيراد زاد بعد التعويم."
+    "ar": "مستوى أسعار الاستيراد زاد بعد التعويم.",
+    "ex2": "Higher price levels made clients delay their orders.",
+    "ar2": "مستوى الأسعار الأعلى خلّى العملاء يأخّروا طلباتهم."
    },
    {
     "w": "tier",
     "note": "one of several product levels, e.g. basic or premium",
     "ex": "The premium tier includes remote monitoring software.",
-    "ar": "الفئة البريميوم فيها سوفت وير مراقبة عن بعد."
+    "ar": "الفئة البريميوم فيها سوفت وير مراقبة عن بعد.",
+    "ex2": "The basic tier doesn't include any monitoring.",
+    "ar2": "الفئة الأساسية مفيهاش أي مراقبة."
    }
   ],
   "ant": [],
@@ -57,17 +71,23 @@
     {
      "w": "budget",
      "ex": "The budget UPS is fine for small offices.",
-     "ar": "الـ‎UPS‎ الاقتصادي كويس للمكاتب الصغيرة."
+     "ar": "الـ‎UPS‎ الاقتصادي كويس للمكاتب الصغيرة.",
+     "ex2": "For servers, the budget model isn't enough.",
+     "ar2": "للسيرفرات، الموديل الاقتصادي مش كفاية."
     },
     {
      "w": "mid-range",
      "ex": "Most clinics choose the mid-range inverter.",
-     "ar": "أغلب العيادات بتختار الإنفرتر المتوسط."
+     "ar": "أغلب العيادات بتختار الإنفرتر المتوسط.",
+     "ex2": "The mid-range model balances price and features.",
+     "ar2": "الموديل المتوسط بيوازن بين السعر والمميزات."
     },
     {
      "w": "premium",
      "ex": "Data centres usually go for premium lithium batteries.",
-     "ar": "الداتا سنترز عادةً بتختار بطاريات ليثيوم بريميوم."
+     "ar": "الداتا سنترز عادةً بتختار بطاريات ليثيوم بريميوم.",
+     "ex2": "Premium models come with remote monitoring.",
+     "ar2": "الموديلات البريميوم بتيجي بمراقبة عن بعد."
     }
    ]
   },
@@ -102,7 +122,9 @@
     "a": 2,
     "ar": "الداتا سنترز عادةً بتختار بطاريات ليثيوم بريميوم."
    }
-  ]
+  ],
+  "ctx": "At this price point, the inverter is perfect for small shops. Above 20,000 EGP, they usually walk away.",
+  "ctx_ar": "عند المستوى ده من السعر، الإنفرتر مناسب جدًا للمحلات الصغيرة. فوق 20,000 جنيه عادةً بيمشوا."
  },
  {
   "w": "value for money",
@@ -112,25 +134,33 @@
     "w": "value",
     "pos": "noun",
     "ex": "The real value of the contract is fast response time.",
-    "ar": "القيمة الحقيقية للعقد هي سرعة الاستجابة."
+    "ar": "القيمة الحقيقية للعقد هي سرعة الاستجابة.",
+    "ex2": "That value is why banks renew every year.",
+    "ar2": "القيمة دي هي السبب إن البنوك بتجدد كل سنة."
    },
    {
     "w": "value",
     "pos": "verb",
     "ex": "We value long-term customers like the university.",
-    "ar": "إحنا بنقدّر العملاء القدام زي الجامعة."
+    "ar": "إحنا بنقدّر العملاء القدام زي الجامعة.",
+    "ex2": "We value them, so they get priority service.",
+    "ar2": "بنقدّرهم، فبياخدوا خدمة بأولوية."
    },
    {
     "w": "valuable",
     "pos": "adjective",
     "ex": "Your feedback on the VFD installation is very valuable.",
-    "ar": "رأيك في تركيب الـ‎VFD‎ مهم جدًا."
+    "ar": "رأيك في تركيب الـ‎VFD‎ مهم جدًا.",
+    "ex2": "Your valuable comments will improve our next project.",
+    "ar2": "ملاحظاتك المهمة هتحسّن مشروعنا الجاي."
    },
    {
     "w": "value for money",
     "pos": "noun",
     "ex": "Our maintenance contract offers real value for money.",
-    "ar": "عقد الصيانة بتاعنا يستاهل فلوسه فعلًا."
+    "ar": "عقد الصيانة بتاعنا يستاهل فلوسه فعلًا.",
+    "ex2": "That value for money is why clients renew.",
+    "ar2": "إنه يستاهل فلوسه هو السبب إن العملاء بيجددوا."
    }
   ],
   "meanings": [],
@@ -139,31 +169,41 @@
     "w": "cost-effective",
     "note": "good results for the money spent; formal",
     "ex": "Solar is cost-effective for factories that work by day.",
-    "ar": "الطاقة الشمسية موفّرة للمصانع اللي شغالة بالنهار."
+    "ar": "الطاقة الشمسية موفّرة للمصانع اللي شغالة بالنهار.",
+    "ex2": "It's cost-effective because payback takes only four years.",
+    "ar2": "موفّر عشان الفلوس بترجع في أربع سنين بس."
    },
    {
     "w": "affordable",
     "note": "cheap enough to buy; says nothing about quality",
     "ex": "The small UPS is affordable for home offices.",
-    "ar": "الـ‎UPS‎ الصغير سعره في المتناول للمكاتب المنزلية."
+    "ar": "الـ‎UPS‎ الصغير سعره في المتناول للمكاتب المنزلية.",
+    "ex2": "Affordable models sell fast before the summer.",
+    "ar2": "الموديلات اللي في المتناول بتتباع بسرعة قبل الصيف."
    },
    {
     "w": "good deal",
     "note": "informal: a good price for what you get",
     "ex": "Two years' warranty at that price is a good deal.",
-    "ar": "ضمان سنتين بالسعر ده صفقة حلوة."
+    "ar": "ضمان سنتين بالسعر ده صفقة حلوة.",
+    "ex2": "A good deal like this won't last long.",
+    "ar2": "صفقة حلوة زي دي مش هتفضل كتير."
    }
   ],
   "ant": [
    {
     "w": "overpriced",
     "ex": "Their servers are overpriced for such basic specs.",
-    "ar": "السيرفرات بتاعتهم سعرها مبالغ فيه بالنسبة لمواصفاتها."
+    "ar": "السيرفرات بتاعتهم سعرها مبالغ فيه بالنسبة لمواصفاتها.",
+    "ex2": "Overpriced offers like that lose tenders.",
+    "ar2": "العروض المبالغ في سعرها كده بتخسر المناقصات."
    },
    {
     "w": "poor value",
     "ex": "Cheap batteries are poor value if they fail in a year.",
-    "ar": "البطاريات الرخيصة متستاهلش لو باظت في سنة."
+    "ar": "البطاريات الرخيصة متستاهلش لو باظت في سنة.",
+    "ex2": "Poor value products hurt our reputation too.",
+    "ar2": "المنتجات اللي متستاهلش بتضر سمعتنا كمان."
    }
   ],
   "ladder": {
@@ -173,17 +213,23 @@
     {
      "w": "reasonable value",
      "ex": "The basic contract is reasonable value for small sites.",
-     "ar": "العقد الأساسي معقول للمواقع الصغيرة."
+     "ar": "العقد الأساسي معقول للمواقع الصغيرة.",
+     "ex2": "Reasonable value is enough for small clients.",
+     "ar2": "القيمة المعقولة كفاية للعملاء الصغيرين."
     },
     {
      "w": "good value for money",
      "ex": "The mid-range UPS is good value for money.",
-     "ar": "الـ‎UPS‎ المتوسط يستاهل فلوسه."
+     "ar": "الـ‎UPS‎ المتوسط يستاهل فلوسه.",
+     "ex2": "Good value for money makes it our best seller.",
+     "ar2": "إنه يستاهل فلوسه بيخليه الأكثر مبيعًا عندنا."
     },
     {
      "w": "excellent value",
      "ex": "Free installation makes this offer excellent value.",
-     "ar": "التركيب ببلاش بيخلّي العرض ده لقطة."
+     "ar": "التركيب ببلاش بيخلّي العرض ده لقطة.",
+     "ex2": "With excellent value, clients sign quickly.",
+     "ar2": "بقيمة ممتازة كده، العملاء بيمضوا بسرعة."
     }
    ]
   },
@@ -218,7 +264,9 @@
     "a": 2,
     "ar": "السيرفرات بتاعتهم سعرها مبالغ فيه بالنسبة لمواصفاتها."
    }
-  ]
+  ],
+  "ctx": "Our UPS isn't the cheapest, but it's real value for money. The batteries last twice as long as the competitors'.",
+  "ctx_ar": "الـ‎UPS‎ بتاعنا مش أرخص حاجة، بس بيستاهل فلوسه فعلًا. البطاريات بتعيش ضعف المنافسين."
  },
  {
   "w": "hesitation",
@@ -228,19 +276,25 @@
     "w": "hesitate",
     "pos": "verb",
     "ex": "Don't hesitate to call me if the UPS alarm goes off.",
-    "ar": "متتردّدش تكلمني لو إنذار الـ‎UPS‎ اشتغل."
+    "ar": "متتردّدش تكلمني لو إنذار الـ‎UPS‎ اشتغل.",
+    "ex2": "I'm available all night, so don't hesitate.",
+    "ar2": "أنا موجود طول الليل، فمتتردّدش."
    },
    {
     "w": "hesitation",
     "pos": "noun",
     "ex": "There was some hesitation about the 50% advance.",
-    "ar": "كان فيه شوية تردد في موضوع مقدم الـ50%."
+    "ar": "كان فيه شوية تردد في موضوع مقدم الـ50%.",
+    "ex2": "To reduce the hesitation, we offered two instalments.",
+    "ar2": "عشان نقلل التردد، عرضنا قسطين."
    },
    {
     "w": "hesitant",
     "pos": "adjective",
     "ex": "The client is hesitant about switching to lithium.",
-    "ar": "العميل متردد إنه يحوّل لليثيوم."
+    "ar": "العميل متردد إنه يحوّل لليثيوم.",
+    "ex2": "She's hesitant because of the higher upfront cost.",
+    "ar2": "هي مترددة عشان التكلفة الأولية أعلى."
    }
   ],
   "meanings": [],
@@ -249,26 +303,34 @@
     "w": "doubt",
     "note": "not sure it's true or right",
     "ex": "The client has doubts about lithium battery safety.",
-    "ar": "العميل عنده شكوك في أمان بطاريات الليثيوم."
+    "ar": "العميل عنده شكوك في أمان بطاريات الليثيوم.",
+    "ex2": "To remove those doubts, we sent test certificates.",
+    "ar2": "عشان نشيل الشكوك دي، بعتنا شهادات الاختبار."
    },
    {
     "w": "reluctance",
     "note": "you don't really want to do it",
     "ex": "There's some reluctance to pay the 50% advance.",
-    "ar": "فيه عدم رغبة إنهم يدفعوا مقدم الـ50%."
+    "ar": "فيه عدم رغبة إنهم يدفعوا مقدم الـ50%.",
+    "ex2": "That reluctance may delay the PO.",
+    "ar2": "عدم الرغبة ده ممكن يأخّر الـ‎PO‎."
    },
    {
     "w": "reservation",
     "note": "formal: a specific concern about part of an offer",
     "ex": "We have one reservation about the delivery time.",
-    "ar": "عندنا تحفظ واحد على ميعاد التسليم."
+    "ar": "عندنا تحفظ واحد على ميعاد التسليم.",
+    "ex2": "Apart from that reservation, the offer is fine.",
+    "ar2": "غير التحفظ ده، العرض كويس."
    }
   ],
   "ant": [
    {
     "w": "confidence",
     "ex": "The client signed with full confidence in our service team.",
-    "ar": "العميل مضى وهو واثق تمامًا في فريق الخدمة بتاعنا."
+    "ar": "العميل مضى وهو واثق تمامًا في فريق الخدمة بتاعنا.",
+    "ex2": "That confidence came from our quick response last year.",
+    "ar2": "الثقة دي جت من استجابتنا السريعة السنة اللي فاتت."
    }
   ],
   "ladder": {
@@ -278,17 +340,23 @@
     {
      "w": "slight hesitation",
      "ex": "There was a slight hesitation before he agreed to the price.",
-     "ar": "اتردد شوية قبل ما يوافق على السعر."
+     "ar": "اتردد شوية قبل ما يوافق على السعر.",
+     "ex2": "After that slight hesitation, he signed.",
+     "ar2": "بعد التردد البسيط ده، مضى."
     },
     {
      "w": "reluctance",
      "ex": "They showed reluctance to sign a three-year contract.",
-     "ar": "مكانوش حابين يمضوا عقد تلات سنين."
+     "ar": "مكانوش حابين يمضوا عقد تلات سنين.",
+     "ex2": "Because of that reluctance, we offered a one-year trial.",
+     "ar2": "بسبب عدم الرغبة ده، عرضنا تجربة سنة."
     },
     {
      "w": "refusal",
      "ex": "Their refusal to pay the advance stopped the order.",
-     "ar": "رفضهم يدفعوا المقدم وقّف الأوردر."
+     "ar": "رفضهم يدفعوا المقدم وقّف الأوردر.",
+     "ex2": "After the refusal, we released the stock to another client.",
+     "ar2": "بعد الرفض، ادّينا المخزون لعميل تاني."
     }
    ]
   },
@@ -323,7 +391,9 @@
     "a": 2,
     "ar": "عندنا تحفظ واحد على ميعاد التسليم في العرض."
    }
-  ]
+  ],
+  "ctx": "I noticed some hesitation when we mentioned the advance payment. Maybe we can offer two instalments instead.",
+  "ctx_ar": "لاحظت شوية تردد لما جبنا سيرة المقدم. يمكن نقدر نعرض قسطين بدل كده."
  },
  {
   "w": "straightforward",
@@ -333,19 +403,25 @@
     "w": "straightforward",
     "pos": "adjective",
     "ex": "Replacing the UPS batteries is a straightforward job.",
-    "ar": "تغيير بطاريات الـ‎UPS‎ شغلانة سهلة."
+    "ar": "تغيير بطاريات الـ‎UPS‎ شغلانة سهلة.",
+    "ex2": "A straightforward job like this takes about an hour.",
+    "ar2": "شغلانة سهلة زي دي بتاخد حوالي ساعة."
    },
    {
     "w": "straight",
     "pos": "adverb",
     "ex": "Send the signed PO straight to finance.",
-    "ar": "ابعت الـ‎PO‎ المتمضي على الحسابات على طول."
+    "ar": "ابعت الـ‎PO‎ المتمضي على الحسابات على طول.",
+    "ex2": "If it goes straight there, payment is faster.",
+    "ar2": "لو راح على طول هناك، الدفع بيبقى أسرع."
    },
    {
     "w": "straight",
     "pos": "adjective",
     "ex": "Give me a straight answer on the delivery date.",
-    "ar": "إدّيني رد صريح على ميعاد التسليم."
+    "ar": "إدّيني رد صريح على ميعاد التسليم.",
+    "ex2": "A straight answer helps me plan the team.",
+    "ar2": "رد صريح بيساعدني أخطط للفريق."
    }
   ],
   "meanings": [
@@ -353,13 +429,17 @@
     "m": "simple, not complicated",
     "mar": "سهل ومش معقد",
     "ex": "Installing the small UPS is straightforward.",
-    "ar": "تركيب الـ‎UPS‎ الصغير سهل."
+    "ar": "تركيب الـ‎UPS‎ الصغير سهل.",
+    "ex2": "It's straightforward, so one technician is enough.",
+    "ar2": "ده سهل، فكفاية فني واحد."
    },
    {
     "m": "honest and direct (a person)",
     "mar": "صريح ودغري",
     "ex": "Mr. Hany is straightforward; he tells you the real price.",
-    "ar": "أستاذ ‎Hany‎ دغري، بيقولك السعر الحقيقي."
+    "ar": "أستاذ ‎Hany‎ دغري، بيقولك السعر الحقيقي.",
+    "ex2": "Being straightforward, he's easy to negotiate with.",
+    "ar2": "وعشان هو دغري، سهل تتفاوض معاه."
    }
   ],
   "syn": [
@@ -367,31 +447,41 @@
     "w": "simple",
     "note": "easy to do or understand; everyday",
     "ex": "The ordering process is simple: just email the PO.",
-    "ar": "طريقة الطلب بسيطة: ابعت الـ‎PO‎ بالإيميل وخلاص."
+    "ar": "طريقة الطلب بسيطة: ابعت الـ‎PO‎ بالإيميل وخلاص.",
+    "ex2": "A simple process means fewer mistakes.",
+    "ar2": "إجراءات بسيطة معناها أخطاء أقل."
    },
    {
     "w": "clear",
     "note": "easy to understand, no confusion",
     "ex": "The quotation is clear about what's included.",
-    "ar": "عرض السعر واضح في اللي شامله."
+    "ar": "عرض السعر واضح في اللي شامله.",
+    "ex2": "A clear quotation avoids arguments later.",
+    "ar2": "عرض سعر واضح بيمنع الخناقات بعدين."
    },
    {
     "w": "direct",
     "note": "about people: says things openly",
     "ex": "Be direct with the client about the delay.",
-    "ar": "خليك صريح مع العميل في موضوع التأخير."
+    "ar": "خليك صريح مع العميل في موضوع التأخير.",
+    "ex2": "Being direct keeps their trust.",
+    "ar2": "إنك تبقى صريح بيحافظ على ثقتهم."
    }
   ],
   "ant": [
    {
     "w": "complicated",
     "ex": "The import procedure for inverters is complicated.",
-    "ar": "إجراءات استيراد الإنفرترات معقدة."
+    "ar": "إجراءات استيراد الإنفرترات معقدة.",
+    "ex2": "Because it's complicated, we use a clearing agent.",
+    "ar2": "وعشان معقدة، بنستعين بمخلّص جمركي."
    },
    {
     "w": "confusing",
     "ex": "The old invoice format was confusing for customers.",
-    "ar": "شكل الفاتورة القديم كان بيلخبط العملاء."
+    "ar": "شكل الفاتورة القديم كان بيلخبط العملاء.",
+    "ex2": "The new format is less confusing and clearer.",
+    "ar2": "الشكل الجديد أقل لخبطة وأوضح."
    }
   ],
   "ladder": {
@@ -401,17 +491,23 @@
     {
      "w": "straightforward",
      "ex": "Installing the small UPS is straightforward.",
-     "ar": "تركيب الـ‎UPS‎ الصغير سهل."
+     "ar": "تركيب الـ‎UPS‎ الصغير سهل.",
+     "ex2": "It's straightforward enough for one technician.",
+     "ar2": "ده سهل لدرجة إن فني واحد يكفي."
     },
     {
      "w": "tricky",
      "ex": "Connecting the VFD to the old panel is tricky.",
-     "ar": "توصيل الـ‎VFD‎ باللوحة القديمة محتاج حرص."
+     "ar": "توصيل الـ‎VFD‎ باللوحة القديمة محتاج حرص.",
+     "ex2": "It's tricky, so we'll send our senior engineer.",
+     "ar2": "ده محتاج حرص، فهنبعت المهندس الكبير."
     },
     {
      "w": "complicated",
      "ex": "Customs clearance for lithium batteries is complicated.",
-     "ar": "التخليص الجمركي لبطاريات الليثيوم معقد."
+     "ar": "التخليص الجمركي لبطاريات الليثيوم معقد.",
+     "ex2": "Because it's complicated, it can take two weeks.",
+     "ar2": "وعشان معقد، ممكن ياخد أسبوعين."
     }
    ]
   },
@@ -446,7 +542,9 @@
     "a": 2,
     "ar": "إجراءات الاستيراد معقدة، محتاجة خمس موافقات."
    }
-  ]
+  ],
+  "ctx": "The installation is straightforward: two hours and no shutdown. The client was happy to hear that.",
+  "ctx_ar": "التركيب سهل: ساعتين ومن غير ما نفصل الكهربا. العميل انبسط لما سمع كده."
  },
  {
   "w": "roadblock",
@@ -456,19 +554,25 @@
     "w": "roadblock",
     "pos": "noun",
     "ex": "The missing import licence is a major roadblock.",
-    "ar": "رخصة الاستيراد الناقصة عقبة كبيرة."
+    "ar": "رخصة الاستيراد الناقصة عقبة كبيرة.",
+    "ex2": "Until we remove this roadblock, the shipment stays at the port.",
+    "ar2": "لحد ما نشيل العقبة دي، الشحنة هتفضل في الميناء."
    },
    {
     "w": "block",
     "pos": "verb",
     "ex": "Customs blocked the shipment because of missing papers.",
-    "ar": "الجمارك وقفت الشحنة عشان ورق ناقص."
+    "ar": "الجمارك وقفت الشحنة عشان ورق ناقص.",
+    "ex2": "Once the papers arrive, they'll unblock it.",
+    "ar2": "أول ما الورق يوصل، هيفرجوا عنها."
    },
    {
     "w": "blocker",
     "pos": "noun",
     "ex": "The missing test certificate is the main blocker.",
-    "ar": "شهادة الاختبار الناقصة هي أكبر حاجة معطّلانا."
+    "ar": "شهادة الاختبار الناقصة هي أكبر حاجة معطّلانا.",
+    "ex2": "That blocker should be solved by Tuesday.",
+    "ar2": "المشكلة المعطّلة دي المفروض تتحل يوم التلات."
    }
   ],
   "meanings": [],
@@ -477,26 +581,34 @@
     "w": "obstacle",
     "note": "general word for anything in your way",
     "ex": "Price is the only obstacle to closing the deal.",
-    "ar": "السعر هو العقبة الوحيدة قدام قفل الصفقة."
+    "ar": "السعر هو العقبة الوحيدة قدام قفل الصفقة.",
+    "ex2": "If we remove that obstacle, they'll sign today.",
+    "ar2": "لو شلنا العقبة دي، هيمضوا النهارده."
    },
    {
     "w": "hurdle",
     "note": "a difficulty you can get over with effort",
     "ex": "Getting the bank approval is the last hurdle.",
-    "ar": "موافقة البنك هي آخر عقبة."
+    "ar": "موافقة البنك هي آخر عقبة.",
+    "ex2": "Once we pass that hurdle, installation can start.",
+    "ar2": "أول ما نعدّي العقبة دي، التركيب يقدر يبدأ."
    },
    {
     "w": "bottleneck",
     "note": "a point that slows the whole process",
     "ex": "Customs clearance is the bottleneck in our supply chain.",
-    "ar": "التخليص الجمركي هو اللي بيبطّأ سلسلة التوريد كلها."
+    "ar": "التخليص الجمركي هو اللي بيبطّأ سلسلة التوريد كلها.",
+    "ex2": "To fix the bottleneck, we hired a second clearing agent.",
+    "ar2": "عشان نحل الاختناق ده، جبنا مخلّص جمركي تاني."
    }
   ],
   "ant": [
    {
     "w": "breakthrough",
     "ex": "We had a breakthrough when the client accepted 60 days.",
-    "ar": "حصلت انفراجة لما العميل وافق على 60 يوم."
+    "ar": "حصلت انفراجة لما العميل وافق على 60 يوم.",
+    "ex2": "After that breakthrough, the PO came in two days.",
+    "ar2": "بعد الانفراجة دي، الـ‎PO‎ جه في يومين."
    }
   ],
   "ladder": {
@@ -506,22 +618,30 @@
     {
      "w": "hiccup",
      "ex": "A small hiccup with the invoice delayed payment by a day.",
-     "ar": "مشكلة صغيرة في الفاتورة أخّرت الدفع يوم."
+     "ar": "مشكلة صغيرة في الفاتورة أخّرت الدفع يوم.",
+     "ex2": "The hiccup was fixed with a corrected invoice.",
+     "ar2": "المشكلة الصغيرة اتحلت بفاتورة متصححة."
     },
     {
      "w": "hurdle",
      "ex": "The last hurdle is the technical approval.",
-     "ar": "آخر عقبة هي الموافقة الفنية."
+     "ar": "آخر عقبة هي الموافقة الفنية.",
+     "ex2": "Once we pass this hurdle, we start work.",
+     "ar2": "أول ما نعدّي العقبة دي، نبدأ الشغل."
     },
     {
      "w": "roadblock",
      "ex": "The missing import licence is a major roadblock.",
-     "ar": "رخصة الاستيراد الناقصة عقبة كبيرة."
+     "ar": "رخصة الاستيراد الناقصة عقبة كبيرة.",
+     "ex2": "Until we fix this roadblock, nothing moves.",
+     "ar2": "لحد ما نحل العقبة دي، مفيش حاجة هتتحرك."
     },
     {
      "w": "deal breaker",
      "ex": "No local service centre is a deal breaker for them.",
-     "ar": "عدم وجود مركز خدمة محلي بيبوّظ الصفقة معاهم."
+     "ar": "عدم وجود مركز خدمة محلي بيبوّظ الصفقة معاهم.",
+     "ex2": "That deal breaker made us open a branch there.",
+     "ar2": "الشرط اللي كان هيبوّظ الصفقة ده خلّانا نفتح فرع هناك."
     }
    ]
   },
@@ -556,7 +676,9 @@
     "a": 2,
     "ar": "حصلت انفراجة لما العميل وافق على 60 يوم آجل."
    }
-  ]
+  ],
+  "ctx": "The missing import licence is a major roadblock. Until we get it, the batteries stay at the port.",
+  "ctx_ar": "رخصة الاستيراد الناقصة عقبة كبيرة. لحد ما نطلّعها، البطاريات هتفضل في الميناء."
  },
  {
   "w": "mediate",
@@ -566,19 +688,25 @@
     "w": "mediate",
     "pos": "verb",
     "ex": "The consultant mediated between us and the contractor.",
-    "ar": "الاستشاري اتوسّط بينا وبين المقاول."
+    "ar": "الاستشاري اتوسّط بينا وبين المقاول.",
+    "ex2": "Thanks to him mediating, the project restarted.",
+    "ar2": "بفضل وساطته، المشروع رجع اشتغل تاني."
    },
    {
     "w": "mediation",
     "pos": "noun",
     "ex": "The payment dispute went to mediation after two months.",
-    "ar": "خلاف الدفع راح للوساطة بعد شهرين."
+    "ar": "خلاف الدفع راح للوساطة بعد شهرين.",
+    "ex2": "The mediation saved both sides a court case.",
+    "ar2": "الوساطة وفّرت على الطرفين قضية في المحكمة."
    },
    {
     "w": "mediator",
     "pos": "person",
     "ex": "Our sales director acted as mediator between finance and the client.",
-    "ar": "مدير المبيعات عندنا لعب دور الوسيط بين الحسابات والعميل."
+    "ar": "مدير المبيعات عندنا لعب دور الوسيط بين الحسابات والعميل.",
+    "ex2": "As mediator, he found a payment plan everyone accepted.",
+    "ar2": "وهو كوسيط، لقى خطة دفع الكل قبلها."
    }
   ],
   "meanings": [],
@@ -587,19 +715,25 @@
     "w": "intervene",
     "note": "step in to stop a problem; not always neutral",
     "ex": "The manager intervened to stop the argument with the supplier.",
-    "ar": "المدير دخل عشان يوقف الخناقة مع المورد."
+    "ar": "المدير دخل عشان يوقف الخناقة مع المورد.",
+    "ex2": "After he intervened, both sides calmed down.",
+    "ar2": "بعد ما دخل، الطرفين هديوا."
    },
    {
     "w": "negotiate",
     "note": "discuss to reach a deal, as one of the sides",
     "ex": "Mona will negotiate the new service fees.",
-    "ar": "‎Mona‎ هتتفاوض على رسوم الخدمة الجديدة."
+    "ar": "‎Mona‎ هتتفاوض على رسوم الخدمة الجديدة.",
+    "ex2": "She'll negotiate for us, not as a neutral party.",
+    "ar2": "هي هتتفاوض باسمنا، مش كطرف محايد."
    },
    {
     "w": "facilitate",
     "note": "make a discussion or process easier",
     "ex": "Our account manager will facilitate the meeting with the factory.",
-    "ar": "مدير الحساب بتاعنا هيسهّل الاجتماع مع المصنع."
+    "ar": "مدير الحساب بتاعنا هيسهّل الاجتماع مع المصنع.",
+    "ex2": "To facilitate things, he prepared a clear agenda.",
+    "ar2": "عشان يسهّل الدنيا، جهّز أجندة واضحة."
    }
   ],
   "ant": [],
@@ -610,17 +744,23 @@
     {
      "w": "facilitate",
      "ex": "Sara will facilitate the kickoff meeting with both teams.",
-     "ar": "‎Sara‎ هتدير اجتماع البداية مع الفريقين."
+     "ar": "‎Sara‎ هتدير اجتماع البداية مع الفريقين.",
+     "ex2": "She'll facilitate, but the teams make the decisions.",
+     "ar2": "هي هتدير الاجتماع، بس الفرق هي اللي بتقرر."
     },
     {
      "w": "mediate",
      "ex": "The consultant mediated between us and the contractor.",
-     "ar": "الاستشاري اتوسّط بينا وبين المقاول."
+     "ar": "الاستشاري اتوسّط بينا وبين المقاول.",
+     "ex2": "Because he mediated, both sides agreed on new dates.",
+     "ar2": "وعشان هو اتوسّط، الطرفين اتفقوا على مواعيد جديدة."
     },
     {
      "w": "arbitrate",
      "ex": "If we can't agree, a lawyer will arbitrate the dispute.",
-     "ar": "لو ماتفقناش، محامي هيحكم في الخلاف."
+     "ar": "لو ماتفقناش، محامي هيحكم في الخلاف.",
+     "ex2": "If he arbitrates, both sides must accept his decision.",
+     "ar2": "لو هو حكّم، الطرفين لازم يقبلوا قراره."
     }
    ]
   },
@@ -655,6 +795,8 @@
     "a": 1,
     "ar": "الاستشاري اتوسّط بينا وبين المقاول."
    }
-  ]
+  ],
+  "ctx": "Our account manager had to mediate between the client and the installer. Both sides agreed on a new date.",
+  "ctx_ar": "مدير الحساب بتاعنا اضطر يتوسّط بين العميل والمركّب. الطرفين اتفقوا على ميعاد جديد."
  }
 ]

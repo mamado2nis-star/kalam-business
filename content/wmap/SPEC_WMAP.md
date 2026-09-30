@@ -16,6 +16,8 @@ Write /home/claude/asr/wmap/out/<id>.json = JSON array of 6 objects, SAME ORDER 
  "ant":   [ {"w":"...","ex":"...","ar":"..."}, ... ],                          // 1–3, or [] if no real opposite
  "ladder": {"label":"<what grows, e.g. 'how urgent'>","lar":"<Arabic label>",
             "steps":[ {"w":"...","ex":"...","ar":"..."}, ... ] },             // 3–4 steps weak→strong, or null
+ "ctx": "<2-sentence mini example using w naturally, ≤30 words total>",
+ "ctx_ar": "<Egyptian Arabic of ctx>",
  "quiz": [ {"s":"The ___ contract expires in March.","opts":["maintain","maintenance","maintained"],"a":1,
             "ar":"<Arabic of the full sentence>"}, ... ]                         // exactly 3
 }
@@ -34,8 +36,16 @@ Rules
   Egyptian names/places allowed. The headword of that item must appear in "ex" (inflection OK).
 - "ar"/"mar"/"lar": natural short Egyptian Arabic (not MSA, not word-for-word). Wrap English words inside Arabic
   with U+200E on both sides. Keep names in English letters.
+- ex2/ar2: EVERY item in family, meanings, syn, ant and ladder.steps also has "ex2" = one more short sentence
+  (≤ 16 words) that continues the situation of "ex" and makes the meaning clearer (same learner world), and
+  "ar2" = its natural Egyptian Arabic (U+200E around English words). ex + ex2 read like a tiny 2-sentence scene.
+  The item's headword must appear in ex OR ex2 (ideally both).
+- ctx/ctx_ar: top-level on each word object. "ctx" = a 2-sentence mini example using the main word "w"
+  naturally (≤ 30 words total); "ctx_ar" = its Egyptian Arabic (U+200E around English words).
 - quiz: each sentence has exactly one "___"; opts are 3 forms/alternatives from THIS map; "a" is the index of the
   correct one; test word form (family) or choosing the right synonym/ladder step. Vary "a".
 - No mention of any teaching method or course author.
 - Validate with python: JSON loads; 6 items; w matches wu/out order; required keys present; counts in range;
-  each quiz has one "___", 3 opts, 0<=a<=2; each ex contains its headword stem (first 4+ letters, case-insensitive).
+  each quiz has one "___", 3 opts, 0<=a<=2; each ex contains its headword stem (first 4+ letters, case-insensitive);
+  every family/meanings/syn/ant/ladder item has non-empty ex2 + ar2, ex2 ≤ 16 words; every word has non-empty
+  ctx + ctx_ar, ctx ≤ 30 words and contains the stem of w.

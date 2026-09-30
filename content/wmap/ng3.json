@@ -7,19 +7,25 @@
     "w": "phrase",
     "pos": "noun",
     "ex": "Avoid the phrase 'final price' until management approves it.",
-    "ar": "متقولش كلمة '‎final price‎' غير لما الإدارة توافق."
+    "ar": "متقولش كلمة '‎final price‎' غير لما الإدارة توافق.",
+    "ex2": "That phrase makes the client stop negotiating too early.",
+    "ar2": "الكلمة دي بتخلّي العميل يبطّل تفاوض بدري."
    },
    {
     "w": "rephrase",
     "pos": "verb",
     "ex": "Let me rephrase that: the price includes installation.",
-    "ar": "خليني أقولها بطريقة تانية: السعر شامل التركيب."
+    "ar": "خليني أقولها بطريقة تانية: السعر شامل التركيب.",
+    "ex2": "I rephrase it this way so the client isn't confused.",
+    "ar2": "بقولها كده عشان العميل ميتلخبطش."
    },
    {
     "w": "phrasing",
     "pos": "noun",
     "ex": "The phrasing in the quotation sounds too harsh.",
-    "ar": "صياغة عرض السعر ناشفة شوية."
+    "ar": "صياغة عرض السعر ناشفة شوية.",
+    "ex2": "Softer phrasing will keep the client relationship good.",
+    "ar2": "صياغة ألطف هتحافظ على العلاقة مع العميل."
    }
   ],
   "meanings": [],
@@ -28,19 +34,25 @@
     "w": "reword",
     "note": "change the words, usually in writing",
     "ex": "Please reword the email before sending it to the client.",
-    "ar": "لو سمحت غيّر صياغة الإيميل قبل ما تبعته للعميل."
+    "ar": "لو سمحت غيّر صياغة الإيميل قبل ما تبعته للعميل.",
+    "ex2": "Reword the second paragraph; it sounds like we're blaming them.",
+    "ar2": "غيّر صياغة الفقرة التانية، شكلها بنلوم عليهم."
    },
    {
     "w": "put it another way",
     "note": "spoken, to explain again more clearly",
     "ex": "To put it another way, the UPS needs new batteries.",
-    "ar": "بمعنى تاني، الـ‎UPS‎ محتاج بطاريات جديدة."
+    "ar": "بمعنى تاني، الـ‎UPS‎ محتاج بطاريات جديدة.",
+    "ex2": "Put another way, the old ones can't hold the load anymore.",
+    "ar2": "بمعنى تاني، القديمة مبقتش تستحمل الحمل."
    },
    {
     "w": "clarify",
     "note": "make meaning clearer, not only change words",
     "ex": "Could you clarify the delivery terms in the PO?",
-    "ar": "ممكن توضّح شروط التسليم اللي في الـ‎PO‎؟"
+    "ar": "ممكن توضّح شروط التسليم اللي في الـ‎PO‎؟",
+    "ex2": "Once they clarify it, we can plan the shipment.",
+    "ar2": "أول ما يوضّحوها، نقدر نخطط للشحنة."
    }
   ],
   "ant": [],
@@ -76,7 +88,9 @@
     "a": 2,
     "ar": "ممكن توضّح شروط التسليم؟ أنا مش فاهمها."
    }
-  ]
+  ],
+  "ctx": "Sorry, that sounded unclear. Let me rephrase: we can deliver in May, but installation starts in June.",
+  "ctx_ar": "معلش، الكلام مكانش واضح. خليني أقولها بطريقة تانية: نقدر نسلّم في مايو، بس التركيب يبدأ في يونيو."
  },
  {
   "w": "firm",
@@ -86,25 +100,33 @@
     "w": "firm",
     "pos": "adjective",
     "ex": "Can you give me a firm price by Thursday?",
-    "ar": "ممكن تدّيني سعر نهائي قبل الخميس؟"
+    "ar": "ممكن تدّيني سعر نهائي قبل الخميس؟",
+    "ex2": "Without a firm price, I can't issue the PO.",
+    "ar2": "من غير سعر نهائي، مقدرش أطلّع الـ‎PO‎."
    },
    {
     "w": "firmly",
     "pos": "adverb",
     "ex": "We firmly believe lithium batteries are the better choice.",
-    "ar": "إحنا مقتنعين جدًا إن بطاريات الليثيوم هي الاختيار الأحسن."
+    "ar": "إحنا مقتنعين جدًا إن بطاريات الليثيوم هي الاختيار الأحسن.",
+    "ex2": "We firmly recommend them for data centres.",
+    "ar2": "إحنا بننصح بيها بقوة للداتا سنترز."
    },
    {
     "w": "firmness",
     "pos": "noun",
     "ex": "The client respected our firmness on the payment terms.",
-    "ar": "العميل احترم إننا كنا ثابتين في شروط الدفع."
+    "ar": "العميل احترم إننا كنا ثابتين في شروط الدفع.",
+    "ex2": "That firmness helped us get paid on time.",
+    "ar2": "الثبات ده ساعدنا ناخد فلوسنا في ميعادها."
    },
    {
     "w": "firm up",
     "pos": "verb",
     "ex": "Let's firm up the delivery date this week.",
-    "ar": "خلّينا نثبّت ميعاد التسليم الأسبوع ده."
+    "ar": "خلّينا نثبّت ميعاد التسليم الأسبوع ده.",
+    "ex2": "Once we firm up the date, I'll book the crane.",
+    "ar2": "أول ما نثبّت الميعاد، هحجز الونش."
    }
   ],
   "meanings": [
@@ -112,19 +134,25 @@
     "m": "fixed, not changing",
     "mar": "ثابت ونهائي",
     "ex": "This is our firm price for the 20 kVA UPS.",
-    "ar": "ده سعرنا النهائي للـ‎UPS‎ الـ20 ‎kVA‎."
+    "ar": "ده سعرنا النهائي للـ‎UPS‎ الـ20 ‎kVA‎.",
+    "ex2": "The firm price is valid until the end of the month.",
+    "ar2": "السعر النهائي ساري لآخر الشهر."
    },
    {
     "m": "a company",
     "mar": "شركة",
     "ex": "We work with an engineering firm in Alexandria.",
-    "ar": "بنشتغل مع شركة هندسية في إسكندرية."
+    "ar": "بنشتغل مع شركة هندسية في إسكندرية.",
+    "ex2": "That firm also handles our solar installations there.",
+    "ar2": "الشركة دي كمان بتعمل تركيبات الطاقة الشمسية بتاعتنا هناك."
    },
    {
     "m": "strong and decisive",
     "mar": "حازم",
     "ex": "Be firm with customers who pay late.",
-    "ar": "خليك حازم مع العملاء اللي بيتأخروا في الدفع."
+    "ar": "خليك حازم مع العملاء اللي بيتأخروا في الدفع.",
+    "ex2": "Being firm but polite gets invoices paid faster.",
+    "ar2": "إنك تبقى حازم بس مؤدب بيخلّي الفواتير تتدفع أسرع."
    }
   ],
   "syn": [
@@ -132,31 +160,41 @@
     "w": "fixed",
     "note": "set and won't change; used for prices and dates",
     "ex": "The price is fixed for 30 days.",
-    "ar": "السعر ثابت لمدة 30 يوم."
+    "ar": "السعر ثابت لمدة 30 يوم.",
+    "ex2": "After that, the fixed price may change with the dollar.",
+    "ar2": "بعد كده، السعر الثابت ممكن يتغير مع الدولار."
    },
    {
     "w": "final",
     "note": "last offer, no more negotiation",
     "ex": "This is our final offer on the batteries.",
-    "ar": "ده آخر عرض عندنا في البطاريات."
+    "ar": "ده آخر عرض عندنا في البطاريات.",
+    "ex2": "If you accept today, the final price includes delivery.",
+    "ar2": "لو وافقت النهارده، السعر النهائي شامل التوصيل."
    },
    {
     "w": "binding",
     "note": "legally you must follow it",
     "ex": "Once signed, the PO is binding for both sides.",
-    "ar": "أول ما الـ‎PO‎ يتمضي بيبقى ملزم للطرفين."
+    "ar": "أول ما الـ‎PO‎ يتمضي بيبقى ملزم للطرفين.",
+    "ex2": "Cancelling a binding order will cost them a fee.",
+    "ar2": "إلغاء أوردر ملزم هيكلّفهم رسوم."
    }
   ],
   "ant": [
    {
     "w": "flexible",
     "ex": "We're flexible on the delivery schedule.",
-    "ar": "إحنا مرنين في جدول التسليم."
+    "ar": "إحنا مرنين في جدول التسليم.",
+    "ex2": "Being flexible helps the client plan the site work.",
+    "ar2": "إننا مرنين بيساعد العميل يخطط لشغل الموقع."
    },
    {
     "w": "tentative",
     "ex": "The installation date is tentative for now.",
-    "ar": "ميعاد التركيب مبدئي لحد دلوقتي."
+    "ar": "ميعاد التركيب مبدئي لحد دلوقتي.",
+    "ex2": "We'll confirm the tentative date when the parts clear customs.",
+    "ar2": "هنأكد الميعاد المبدئي لما القطع تخلص جمارك."
    }
   ],
   "ladder": {
@@ -166,22 +204,30 @@
     {
      "w": "tentative",
      "ex": "We have a tentative date for commissioning.",
-     "ar": "عندنا ميعاد مبدئي للتشغيل."
+     "ar": "عندنا ميعاد مبدئي للتشغيل.",
+     "ex2": "It's tentative until the client confirms site access.",
+     "ar2": "ده مبدئي لحد ما العميل يأكد الدخول للموقع."
     },
     {
      "w": "firm",
      "ex": "Can you give me a firm price by Thursday?",
-     "ar": "ممكن تدّيني سعر نهائي قبل الخميس؟"
+     "ar": "ممكن تدّيني سعر نهائي قبل الخميس؟",
+     "ex2": "Once I have a firm price, I'll raise the PO.",
+     "ar2": "أول ما يبقى معايا سعر نهائي، هطلّع الـ‎PO‎."
     },
     {
      "w": "final",
      "ex": "This is our final offer; we can't go lower.",
-     "ar": "ده آخر عرض، مش هنقدر ننزل أكتر."
+     "ar": "ده آخر عرض، مش هنقدر ننزل أكتر.",
+     "ex2": "If you accept the final price, we deliver next week.",
+     "ar2": "لو وافقت على السعر النهائي، نسلّم الأسبوع الجاي."
     },
     {
      "w": "binding",
      "ex": "The signed contract is binding for three years.",
-     "ar": "العقد المتمضي ملزم لمدة تلات سنين."
+     "ar": "العقد المتمضي ملزم لمدة تلات سنين.",
+     "ex2": "Ending a binding contract early means paying a penalty.",
+     "ar2": "إنهاء عقد ملزم بدري معناه دفع غرامة."
     }
    ]
   },
@@ -216,7 +262,9 @@
     "a": 2,
     "ar": "الميعاد مبدئي لحد ما العميل يأكد."
    }
-  ]
+  ],
+  "ctx": "This is our firm price for the 40 kVA UPS. It's valid until the end of the month.",
+  "ctx_ar": "ده سعرنا النهائي للـ‎UPS‎ الـ40 ‎kVA‎. ساري لآخر الشهر."
  },
  {
   "w": "align with",
@@ -226,25 +274,33 @@
     "w": "align with",
     "pos": "verb",
     "ex": "Our offer aligns with the client's budget.",
-    "ar": "عرضنا متماشي مع ميزانية العميل."
+    "ar": "عرضنا متماشي مع ميزانية العميل.",
+    "ex2": "Because it aligns with their plan, approval should be quick.",
+    "ar2": "وعشان متماشي مع خطتهم، الموافقة المفروض تبقى سريعة."
    },
    {
     "w": "alignment",
     "pos": "noun",
     "ex": "The engineer checked the shaft alignment on the chiller pump.",
-    "ar": "المهندس شيّك على محاذاة العمود في طلمبة التشيلر."
+    "ar": "المهندس شيّك على محاذاة العمود في طلمبة التشيلر.",
+    "ex2": "Poor alignment can wear out the bearings fast.",
+    "ar2": "المحاذاة الوحشة ممكن تبوّظ البلي بسرعة."
    },
    {
     "w": "aligned",
     "pos": "adjective",
     "ex": "Our targets are fully aligned with the sales plan.",
-    "ar": "أهدافنا ماشية تمامًا مع خطة المبيعات."
+    "ar": "أهدافنا ماشية تمامًا مع خطة المبيعات.",
+    "ex2": "Being aligned means everyone pushes the same products.",
+    "ar2": "إننا ماشيين مع بعض معناه إن الكل بيبيع نفس المنتجات."
    },
    {
     "w": "misalignment",
     "pos": "noun",
     "ex": "Motor misalignment caused the vibration on the pump.",
-    "ar": "عدم المحاذاة في الموتور هو اللي عمل الاهتزاز في الطلمبة."
+    "ar": "عدم المحاذاة في الموتور هو اللي عمل الاهتزاز في الطلمبة.",
+    "ex2": "After fixing the misalignment, the vibration stopped.",
+    "ar2": "بعد ما صلّحنا عدم المحاذاة، الاهتزاز وقف."
    }
   ],
   "meanings": [
@@ -252,13 +308,17 @@
     "m": "match or agree with plans or goals",
     "mar": "يتماشى مع الخطة أو الهدف",
     "ex": "The new service plan aligns with our growth targets.",
-    "ar": "خطة الخدمة الجديدة ماشية مع أهداف النمو بتاعتنا."
+    "ar": "خطة الخدمة الجديدة ماشية مع أهداف النمو بتاعتنا.",
+    "ex2": "Aligning it with targets helped us get budget approval.",
+    "ar2": "إننا ظبطناها على الأهداف ساعدنا ناخد موافقة على الميزانية."
    },
    {
     "m": "physically line up parts",
     "mar": "يظبط محاذاة القطع",
     "ex": "The technician aligned the motor with the pump shaft.",
-    "ar": "الفني ظبط محاذاة الموتور مع عمود الطلمبة."
+    "ar": "الفني ظبط محاذاة الموتور مع عمود الطلمبة.",
+    "ex2": "Once aligned, the pump runs quietly and uses less power.",
+    "ar2": "أول ما اتظبطت المحاذاة، الطلمبة اشتغلت هادية وبتستهلك كهربا أقل."
    }
   ],
   "syn": [
@@ -266,26 +326,34 @@
     "w": "match",
     "note": "simple, everyday: two things fit together",
     "ex": "The UPS specs match the tender requirements.",
-    "ar": "مواصفات الـ‎UPS‎ مطابقة لشروط المناقصة."
+    "ar": "مواصفات الـ‎UPS‎ مطابقة لشروط المناقصة.",
+    "ex2": "Because they match, we can bid without exceptions.",
+    "ar2": "وعشان مطابقة، نقدر ندخل المناقصة من غير استثناءات."
    },
    {
     "w": "consistent with",
     "note": "formal, for data, reports and policies",
     "ex": "The invoice is consistent with the PO.",
-    "ar": "الفاتورة مطابقة للـ‎PO‎."
+    "ar": "الفاتورة مطابقة للـ‎PO‎.",
+    "ex2": "Since it's consistent with the PO, finance can pay today.",
+    "ar2": "وبما إنها مطابقة للـ‎PO‎، الحسابات تقدر تدفع النهارده."
    },
    {
     "w": "in line with",
     "note": "formal phrase, often for rules or targets",
     "ex": "Our prices are in line with the market.",
-    "ar": "أسعارنا ماشية مع السوق."
+    "ar": "أسعارنا ماشية مع السوق.",
+    "ex2": "Being in line with the market makes us competitive.",
+    "ar2": "إننا ماشيين مع السوق بيخلّينا منافسين."
    }
   ],
   "ant": [
    {
     "w": "conflict with",
     "ex": "The new delivery date conflicts with the site shutdown.",
-    "ar": "ميعاد التسليم الجديد متعارض مع إيقاف الموقع."
+    "ar": "ميعاد التسليم الجديد متعارض مع إيقاف الموقع.",
+    "ex2": "Because of this conflict, we need to change the date.",
+    "ar2": "بسبب التعارض ده، لازم نغيّر الميعاد."
    }
   ],
   "ladder": null,
@@ -320,7 +388,9 @@
     "a": 2,
     "ar": "ميعاد التسليم الجديد متعارض مع إيقاف الموقع المخطط."
    }
-  ]
+  ],
+  "ctx": "Our proposal needs to align with the client's five-year plan. Otherwise, their board won't approve it.",
+  "ctx_ar": "عرضنا لازم يتماشى مع خطة العميل الخمسية. وإلا مجلس الإدارة بتاعهم مش هيوافق."
  },
  {
   "w": "advantageous",
@@ -330,19 +400,25 @@
     "w": "advantage",
     "pos": "noun",
     "ex": "Our local service team is a big advantage over importers.",
-    "ar": "فريق الخدمة المحلي ميزة كبيرة لينا عن المستوردين."
+    "ar": "فريق الخدمة المحلي ميزة كبيرة لينا عن المستوردين.",
+    "ex2": "That advantage helps us win hospital contracts.",
+    "ar2": "الميزة دي بتساعدنا نكسب عقود المستشفيات."
    },
    {
     "w": "advantageous",
     "pos": "adjective",
     "ex": "Buying batteries in bulk is advantageous before the price rise.",
-    "ar": "شرا البطاريات بالجملة في مصلحتنا قبل ما الأسعار تزيد."
+    "ar": "شرا البطاريات بالجملة في مصلحتنا قبل ما الأسعار تزيد.",
+    "ex2": "It's advantageous because we save around 10%.",
+    "ar2": "ده في مصلحتنا عشان بنوفّر حوالي 10%."
    },
    {
     "w": "disadvantage",
     "pos": "noun",
     "ex": "The main disadvantage of lead-acid is its short life.",
-    "ar": "أكبر عيب في الـ‎lead-acid‎ إن عمرها قصير."
+    "ar": "أكبر عيب في الـ‎lead-acid‎ إن عمرها قصير.",
+    "ex2": "That disadvantage makes lithium worth the higher price.",
+    "ar2": "العيب ده بيخلّي الليثيوم يستاهل السعر الأعلى."
    }
   ],
   "meanings": [],
@@ -351,26 +427,34 @@
     "w": "beneficial",
     "note": "has good results, often long-term",
     "ex": "Solar is beneficial for factories with high daytime loads.",
-    "ar": "الطاقة الشمسية مفيدة للمصانع اللي أحمالها عالية بالنهار."
+    "ar": "الطاقة الشمسية مفيدة للمصانع اللي أحمالها عالية بالنهار.",
+    "ex2": "It's beneficial because it cuts their electricity bills.",
+    "ar2": "ده مفيد عشان بيقلل فواتير الكهربا بتاعتهم."
    },
    {
     "w": "favourable",
     "note": "good conditions or terms, e.g. payment terms",
     "ex": "They gave us favourable payment terms: 90 days.",
-    "ar": "ادّونا شروط دفع كويسة: 90 يوم."
+    "ar": "ادّونا شروط دفع كويسة: 90 يوم.",
+    "ex2": "Favourable terms like these help our cash flow.",
+    "ar2": "شروط كويسة زي دي بتساعد السيولة بتاعتنا."
    },
    {
     "w": "worthwhile",
     "note": "worth the time or money spent",
     "ex": "A maintenance contract is worthwhile for critical servers.",
-    "ar": "عقد الصيانة يستاهل للسيرفرات المهمة."
+    "ar": "عقد الصيانة يستاهل للسيرفرات المهمة.",
+    "ex2": "It's worthwhile because one outage costs more than a year's contract.",
+    "ar2": "ده يستاهل عشان عطل واحد بيكلّف أكتر من عقد سنة."
    }
   ],
   "ant": [
    {
     "w": "unfavourable",
     "ex": "The exchange rate is unfavourable for imports this month.",
-    "ar": "سعر الصرف مش في صالح الاستيراد الشهر ده."
+    "ar": "سعر الصرف مش في صالح الاستيراد الشهر ده.",
+    "ex2": "With unfavourable rates, we'll delay the next shipment.",
+    "ar2": "مع أسعار مش في صالحنا، هنأجّل الشحنة الجاية."
    }
   ],
   "ladder": {
@@ -380,22 +464,30 @@
     {
      "w": "acceptable",
      "ex": "Sixty days' credit is acceptable for us.",
-     "ar": "ستين يوم آجل مقبول بالنسبالنا."
+     "ar": "ستين يوم آجل مقبول بالنسبالنا.",
+     "ex2": "It's acceptable if they pay on the due date.",
+     "ar2": "ده مقبول لو دفعوا في الميعاد."
     },
     {
      "w": "favourable",
      "ex": "These are favourable terms for a first order.",
-     "ar": "دي شروط كويسة لأول أوردر."
+     "ar": "دي شروط كويسة لأول أوردر.",
+     "ex2": "With favourable terms, the first order is low-risk.",
+     "ar2": "بشروط كويسة، أول أوردر مخاطرته قليلة."
     },
     {
      "w": "advantageous",
      "ex": "Buying in bulk is advantageous before the price rise.",
-     "ar": "الشرا بالجملة في مصلحتنا قبل زيادة الأسعار."
+     "ar": "الشرا بالجملة في مصلحتنا قبل زيادة الأسعار.",
+     "ex2": "It's advantageous since prices go up next month.",
+     "ar2": "ده في مصلحتنا عشان الأسعار هتزيد الشهر الجاي."
     },
     {
      "w": "ideal",
      "ex": "A local stock in Cairo would be ideal for fast service.",
-     "ar": "مخزن محلي في القاهرة هيبقى مثالي للخدمة السريعة."
+     "ar": "مخزن محلي في القاهرة هيبقى مثالي للخدمة السريعة.",
+     "ex2": "That ideal setup would cut response time to two hours.",
+     "ar2": "الترتيب المثالي ده هيقلل وقت الاستجابة لساعتين."
     }
    ]
   },
@@ -430,7 +522,9 @@
     "a": 2,
     "ar": "سعر الصرف مش في صالح الاستيراد الشهر ده."
    }
-  ]
+  ],
+  "ctx": "Paying 50% upfront is advantageous for us. The supplier gives a 6% discount for early payment.",
+  "ctx_ar": "دفع 50% مقدم في مصلحتنا. المورد بيدّي خصم 6% على الدفع بدري."
  },
  {
   "w": "appealing",
@@ -440,19 +534,25 @@
     "w": "appeal",
     "pos": "noun",
     "ex": "The main appeal of solar is lower electricity bills.",
-    "ar": "أهم حاجة بتشد في الطاقة الشمسية إن فاتورة الكهربا بتقل."
+    "ar": "أهم حاجة بتشد في الطاقة الشمسية إن فاتورة الكهربا بتقل.",
+    "ex2": "That appeal is why factories ask for quotes.",
+    "ar2": "الجاذبية دي هي السبب إن المصانع بتطلب عروض أسعار."
    },
    {
     "w": "appeal",
     "pos": "verb",
     "ex": "The instalment plan appeals to small factories.",
-    "ar": "نظام التقسيط بيعجب المصانع الصغيرة."
+    "ar": "نظام التقسيط بيعجب المصانع الصغيرة.",
+    "ex2": "It appeals to them because they don't have big budgets.",
+    "ar2": "بيعجبهم عشان معندهمش ميزانيات كبيرة."
    },
    {
     "w": "appealing",
     "pos": "adjective",
     "ex": "The instalment plan is appealing to small clinics.",
-    "ar": "نظام التقسيط مغري للعيادات الصغيرة."
+    "ar": "نظام التقسيط مغري للعيادات الصغيرة.",
+    "ex2": "It's appealing because they don't need a big upfront payment.",
+    "ar2": "مغري لأنهم مش محتاجين يدفعوا مبلغ كبير مقدم."
    }
   ],
   "meanings": [],
@@ -461,26 +561,34 @@
     "w": "attractive",
     "note": "most common; for offers, prices, terms",
     "ex": "Ten percent off is an attractive offer.",
-    "ar": "خصم عشرة في المية عرض حلو."
+    "ar": "خصم عشرة في المية عرض حلو.",
+    "ex2": "That attractive offer brought in three new customers.",
+    "ar2": "العرض الحلو ده جاب تلات عملاء جداد."
    },
    {
     "w": "tempting",
     "note": "you want it, maybe against better judgement",
     "ex": "The cheap batteries are tempting, but quality is risky.",
-    "ar": "البطاريات الرخيصة مغرية، بس الجودة مخاطرة."
+    "ar": "البطاريات الرخيصة مغرية، بس الجودة مخاطرة.",
+    "ex2": "They're tempting, but warranty claims will cost us later.",
+    "ar2": "مغرية، بس مطالبات الضمان هتكلّفنا بعدين."
    },
    {
     "w": "compelling",
     "note": "convincing, with strong reasons",
     "ex": "The ROI figures make a compelling case for solar.",
-    "ar": "أرقام العائد بتدّي سبب مقنع جدًا للطاقة الشمسية."
+    "ar": "أرقام العائد بتدّي سبب مقنع جدًا للطاقة الشمسية.",
+    "ex2": "That compelling case convinced the factory owner.",
+    "ar2": "السبب المقنع ده أقنع صاحب المصنع."
    }
   ],
   "ant": [
    {
     "w": "unappealing",
     "ex": "A 12-week lead time is unappealing to most clients.",
-    "ar": "مدة توريد 12 أسبوع مش بتعجب أغلب العملاء."
+    "ar": "مدة توريد 12 أسبوع مش بتعجب أغلب العملاء.",
+    "ex2": "Because it's unappealing, we're looking for local stock.",
+    "ar2": "وعشان مش مغري، بندوّر على مخزون محلي."
    }
   ],
   "ladder": {
@@ -490,17 +598,23 @@
     {
      "w": "interesting",
      "ex": "The hybrid inverter is an interesting option.",
-     "ar": "الإنفرتر الهايبرد اختيار يستاهل نبص عليه."
+     "ar": "الإنفرتر الهايبرد اختيار يستاهل نبص عليه.",
+     "ex2": "It's interesting, but we need the price first.",
+     "ar2": "ده يستاهل نبص عليه، بس محتاجين السعر الأول."
     },
     {
      "w": "appealing",
      "ex": "The payment plan is appealing to small clinics.",
-     "ar": "خطة الدفع مغرية للعيادات الصغيرة."
+     "ar": "خطة الدفع مغرية للعيادات الصغيرة.",
+     "ex2": "It's appealing because they pay monthly.",
+     "ar2": "مغري عشان بيدفعوا شهري."
     },
     {
      "w": "irresistible",
      "ex": "Free installation made the offer irresistible.",
-     "ar": "التركيب ببلاش خلّى العرض ميترفضش."
+     "ar": "التركيب ببلاش خلّى العرض ميترفضش.",
+     "ex2": "The irresistible deal closed in one meeting.",
+     "ar2": "الصفقة اللي متترفضش دي اتقفلت في اجتماع واحد."
     }
    ]
   },
@@ -535,7 +649,9 @@
     "a": 2,
     "ar": "أرقام العائد بتدّي سبب مقنع جدًا للطاقة الشمسية."
    }
-  ]
+  ],
+  "ctx": "The idea of paying monthly is very appealing to small clinics. They don't have big budgets upfront.",
+  "ctx_ar": "فكرة الدفع الشهري مغرية جدًا للعيادات الصغيرة. معندهمش ميزانيات كبيرة مقدم."
  },
  {
   "w": "in line with",
@@ -545,19 +661,25 @@
     "w": "line",
     "pos": "noun",
     "ex": "Our new product line includes lithium UPS systems.",
-    "ar": "خط المنتجات الجديد عندنا فيه أنظمة ‎UPS‎ ليثيوم."
+    "ar": "خط المنتجات الجديد عندنا فيه أنظمة ‎UPS‎ ليثيوم.",
+    "ex2": "The new line will be launched at the exhibition.",
+    "ar2": "الخط الجديد هيتطلق في المعرض."
    },
    {
     "w": "line up",
     "pos": "verb",
     "ex": "Let's line up the installation team for Sunday.",
-    "ar": "نجهّز فريق التركيب ليوم الحد."
+    "ar": "نجهّز فريق التركيب ليوم الحد.",
+    "ex2": "Please line up the crane and the cables too.",
+    "ar2": "لو سمحت جهّز الونش والكابلات كمان."
    },
    {
     "w": "in line with",
     "pos": "adverb",
     "ex": "Prices were increased in line with the new exchange rate.",
-    "ar": "الأسعار زادت حسب سعر الصرف الجديد."
+    "ar": "الأسعار زادت حسب سعر الصرف الجديد.",
+    "ex2": "Staying in line with the rate protects our margin.",
+    "ar2": "إننا نمشي مع السعر ده بيحمي هامشنا."
    }
   ],
   "meanings": [],
@@ -566,26 +688,34 @@
     "w": "according to",
     "note": "following a rule, document or someone's words",
     "ex": "According to the contract, visits are quarterly.",
-    "ar": "حسب العقد، الزيارات كل تلات شهور."
+    "ar": "حسب العقد، الزيارات كل تلات شهور.",
+    "ex2": "According to our records, the last visit was in May.",
+    "ar2": "حسب سجلاتنا، آخر زيارة كانت في مايو."
    },
    {
     "w": "consistent with",
     "note": "formal; data or actions match without contradiction",
     "ex": "The meter readings are consistent with the invoice.",
-    "ar": "قراءات العداد مطابقة للفاتورة."
+    "ar": "قراءات العداد مطابقة للفاتورة.",
+    "ex2": "Since they're consistent with the invoice, there's no dispute.",
+    "ar2": "وبما إنها مطابقة للفاتورة، مفيش خلاف."
    },
    {
     "w": "aligned with",
     "note": "planned to match goals or strategy",
     "ex": "Our offer is aligned with the client's budget.",
-    "ar": "عرضنا مظبوط على ميزانية العميل."
+    "ar": "عرضنا مظبوط على ميزانية العميل.",
+    "ex2": "Being aligned with their budget makes approval easier.",
+    "ar2": "إنه متظبط على ميزانيتهم بيخلّي الموافقة أسهل."
    }
   ],
   "ant": [
    {
     "w": "out of line with",
     "ex": "Their quote is way out of line with market prices.",
-    "ar": "عرض سعرهم بعيد خالص عن أسعار السوق."
+    "ar": "عرض سعرهم بعيد خالص عن أسعار السوق.",
+    "ex2": "Being out of line with the market, they'll lose the tender.",
+    "ar2": "وهما بعيد عن السوق كده، هيخسروا المناقصة."
    }
   ],
   "ladder": null,
@@ -620,6 +750,8 @@
     "a": 2,
     "ar": "عرض سعرهم بعيد خالص عن أسعار السوق."
    }
-  ]
+  ],
+  "ctx": "We raised our prices in line with the new exchange rate. Customers accepted it because competitors did the same.",
+  "ctx_ar": "رفعنا أسعارنا حسب سعر الصرف الجديد. العملاء قبلوا عشان المنافسين عملوا نفس الحاجة."
  }
 ]

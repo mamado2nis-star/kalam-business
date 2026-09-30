@@ -7,19 +7,25 @@
     "w": "parameters",
     "pos": "noun",
     "ex": "We need to agree on the parameters of the deal first.",
-    "ar": "لازم نتفق على حدود الصفقة الأول."
+    "ar": "لازم نتفق على حدود الصفقة الأول.",
+    "ex2": "Once the parameters are clear, I'll prepare the quotation.",
+    "ar2": "أول ما الحدود تبقى واضحة، هجهّز عرض السعر."
    },
    {
     "w": "parameter",
     "pos": "noun",
     "ex": "The technician changed one parameter and the pump stabilized.",
-    "ar": "الفني غيّر إعداد واحد والطلمبة استقرت."
+    "ar": "الفني غيّر إعداد واحد والطلمبة استقرت.",
+    "ex2": "That parameter controls the motor's acceleration time.",
+    "ar2": "الإعداد ده بيتحكم في وقت تسارع الموتور."
    },
    {
     "w": "parameterize",
     "pos": "verb",
     "ex": "Karim will parameterize the new drive before commissioning.",
-    "ar": "‎Karim‎ هيظبط إعدادات الدرايف الجديد قبل التشغيل."
+    "ar": "‎Karim‎ هيظبط إعدادات الدرايف الجديد قبل التشغيل.",
+    "ex2": "If he doesn't parameterize it, the pump can trip.",
+    "ar2": "لو مظبطش إعداداته، الطلمبة ممكن تفصل."
    }
   ],
   "meanings": [
@@ -27,13 +33,17 @@
     "m": "limits of a deal or project",
     "mar": "حدود الاتفاق أو المشروع",
     "ex": "Within these parameters, we can offer 10% off.",
-    "ar": "في الحدود دي نقدر ندّي خصم 10%."
+    "ar": "في الحدود دي نقدر ندّي خصم 10%.",
+    "ex2": "Outside these parameters, I need the manager's approval.",
+    "ar2": "برّه الحدود دي محتاج موافقة المدير."
    },
    {
     "m": "technical settings on a device",
     "mar": "إعدادات فنية على جهاز",
     "ex": "Check the VFD parameters before starting the chiller.",
-    "ar": "راجع إعدادات الـ‎VFD‎ قبل ما تشغّل التشيلر."
+    "ar": "راجع إعدادات الـ‎VFD‎ قبل ما تشغّل التشيلر.",
+    "ex2": "Wrong parameters can damage the compressor motor.",
+    "ar2": "الإعدادات الغلط ممكن تبوّظ موتور الكمبروسر."
    }
   ],
   "syn": [
@@ -41,19 +51,25 @@
     "w": "limits",
     "note": "simple word for boundaries you can't go past",
     "ex": "Our limits are 60 days' credit and 8% discount.",
-    "ar": "حدودنا 60 يوم آجل وخصم 8%."
+    "ar": "حدودنا 60 يوم آجل وخصم 8%.",
+    "ex2": "Anything beyond those limits needs the CFO's approval.",
+    "ar2": "أي حاجة فوق الحدود دي محتاجة موافقة المدير المالي."
    },
    {
     "w": "terms",
     "note": "the agreed conditions written in a contract or PO",
     "ex": "The terms of the PO include delivery within four weeks.",
-    "ar": "شروط الـ‎PO‎ فيها تسليم خلال أربع أسابيع."
+    "ar": "شروط الـ‎PO‎ فيها تسليم خلال أربع أسابيع.",
+    "ex2": "If we miss those terms, there's a penalty.",
+    "ar2": "لو ملتزمناش بالشروط دي، فيه غرامة."
    },
    {
     "w": "settings",
     "note": "technical values on a device, e.g. VFD or UPS",
     "ex": "Save the UPS settings before the firmware update.",
-    "ar": "احفظ إعدادات الـ‎UPS‎ قبل تحديث السوفت وير."
+    "ar": "احفظ إعدادات الـ‎UPS‎ قبل تحديث السوفت وير.",
+    "ex2": "Otherwise, you'll have to re-enter all the settings by hand.",
+    "ar2": "وإلا هتضطر تدخّل كل الإعدادات تاني بإيدك."
    }
   ],
   "ant": [],
@@ -89,7 +105,9 @@
     "a": 1,
     "ar": "احفظ إعدادات الـ‎UPS‎ قبل تحديث السوفت وير."
    }
-  ]
+  ],
+  "ctx": "Before we quote, let's agree on the parameters: budget, delivery time and warranty. Then I'll prepare the offer.",
+  "ctx_ar": "قبل ما نسعّر، نتفق على الحدود: الميزانية وميعاد التسليم والضمان. وبعدين هجهّز العرض."
  },
  {
   "w": "stance",
@@ -99,19 +117,25 @@
     "w": "stance",
     "pos": "noun",
     "ex": "What's the client's stance on the payment schedule?",
-    "ar": "إيه موقف العميل من جدول الدفع؟"
+    "ar": "إيه موقف العميل من جدول الدفع؟",
+    "ex2": "If their stance is flexible, we can offer 60 days.",
+    "ar2": "لو موقفهم مرن، نقدر نعرض 60 يوم."
    },
    {
     "w": "stand",
     "pos": "verb",
     "ex": "Where does finance stand on the 60-day credit request?",
-    "ar": "الحسابات رأيها إيه في طلب الـ60 يوم آجل؟"
+    "ar": "الحسابات رأيها إيه في طلب الـ60 يوم آجل؟",
+    "ex2": "I need to know where they stand before Sunday's meeting.",
+    "ar2": "محتاج أعرف رأيهم قبل اجتماع الحد."
    },
    {
     "w": "standpoint",
     "pos": "noun",
     "ex": "From a finance standpoint, the deal is risky.",
-    "ar": "من وجهة نظر الحسابات، الصفقة فيها مخاطرة."
+    "ar": "من وجهة نظر الحسابات، الصفقة فيها مخاطرة.",
+    "ex2": "From a technical standpoint, though, it's a strong project.",
+    "ar2": "بس من الناحية الفنية، المشروع قوي."
    }
   ],
   "meanings": [],
@@ -120,19 +144,25 @@
     "w": "position",
     "note": "neutral, formal; common in emails and negotiations",
     "ex": "Our position on the 30% advance hasn't changed.",
-    "ar": "موقفنا من مقدم الـ30% متغيرش."
+    "ar": "موقفنا من مقدم الـ30% متغيرش.",
+    "ex2": "That position protects our cash flow on big orders.",
+    "ar2": "الموقف ده بيحمي السيولة بتاعتنا في الأوردرات الكبيرة."
    },
    {
     "w": "view",
     "note": "personal opinion, softer than stance",
     "ex": "In my view, the supplier's price is still high.",
-    "ar": "في رأيي سعر المورد لسه عالي."
+    "ar": "في رأيي سعر المورد لسه عالي.",
+    "ex2": "In my view, we should ask for a second quote.",
+    "ar2": "في رأيي، لازم نطلب عرض سعر تاني."
    },
    {
     "w": "attitude",
     "note": "feeling toward something, positive or negative",
     "ex": "The client's attitude toward the solar project is very positive.",
-    "ar": "العميل متحمس جدًا لمشروع الطاقة الشمسية."
+    "ar": "العميل متحمس جدًا لمشروع الطاقة الشمسية.",
+    "ex2": "With that attitude, they'll likely sign quickly.",
+    "ar2": "بالحماس ده، غالبًا هيمضوا بسرعة."
    }
   ],
   "ant": [],
@@ -143,17 +173,23 @@
     {
      "w": "flexible position",
      "ex": "We have a flexible position on the delivery date.",
-     "ar": "إحنا مرنين في ميعاد التسليم."
+     "ar": "إحنا مرنين في ميعاد التسليم.",
+     "ex2": "That flexible position helped us win the order.",
+     "ar2": "الموقف المرن ده ساعدنا نكسب الأوردر."
     },
     {
      "w": "firm stance",
      "ex": "Finance took a firm stance on the 30% advance payment.",
-     "ar": "الحسابات أخدت موقف حاسم في مقدم الـ30%."
+     "ar": "الحسابات أخدت موقف حاسم في مقدم الـ30%.",
+     "ex2": "No invoice gets released until that stance is respected.",
+     "ar2": "مفيش فاتورة هتطلع غير لما الموقف ده يتحترم."
     },
     {
      "w": "hard line",
      "ex": "The supplier is taking a hard line on price increases.",
-     "ar": "المورد متشدد جدًا في زيادة الأسعار."
+     "ar": "المورد متشدد جدًا في زيادة الأسعار.",
+     "ex2": "With that hard line, we may look for another supplier.",
+     "ar2": "مع التشدد ده، ممكن ندوّر على مورد تاني."
     }
    ]
   },
@@ -188,7 +224,9 @@
     "a": 2,
     "ar": "الحسابات أخدت موقف حاسم في مقدم الـ30%."
    }
-  ]
+  ],
+  "ctx": "Finance's stance is clear: no delivery before the advance payment. The client isn't happy, but we won't move.",
+  "ctx_ar": "موقف الحسابات واضح: مفيش تسليم قبل المقدم. العميل مش مبسوط، بس إحنا مش هنتحرك."
  },
  {
   "w": "renegotiate",
@@ -198,31 +236,41 @@
     "w": "negotiate",
     "pos": "verb",
     "ex": "Mona will negotiate the new service fees with the bank.",
-    "ar": "‎Mona‎ هتتفاوض مع البنك على رسوم الخدمة الجديدة."
+    "ar": "‎Mona‎ هتتفاوض مع البنك على رسوم الخدمة الجديدة.",
+    "ex2": "She'll negotiate hard for a three-year term.",
+    "ar2": "هتتفاوض بقوة على مدة تلات سنين."
    },
    {
     "w": "negotiation",
     "pos": "noun",
     "ex": "The negotiation with the battery supplier took two weeks.",
-    "ar": "التفاوض مع مورد البطاريات خد أسبوعين."
+    "ar": "التفاوض مع مورد البطاريات خد أسبوعين.",
+    "ex2": "The negotiation ended with a 7% discount.",
+    "ar2": "التفاوض خلص بخصم 7%."
    },
    {
     "w": "negotiator",
     "pos": "person",
     "ex": "Mona is our best negotiator; she closed the bank deal.",
-    "ar": "‎Mona‎ أشطر واحدة عندنا في التفاوض، هي اللي قفلت صفقة البنك."
+    "ar": "‎Mona‎ أشطر واحدة عندنا في التفاوض، هي اللي قفلت صفقة البنك.",
+    "ex2": "As a negotiator, she always prepares three options.",
+    "ar2": "وهي كمفاوِضة، دايمًا بتجهّز تلات اختيارات."
    },
    {
     "w": "renegotiate",
     "pos": "verb",
     "ex": "The client wants to renegotiate the whole maintenance contract.",
-    "ar": "العميل عايز يعيد التفاوض على عقد الصيانة كله."
+    "ar": "العميل عايز يعيد التفاوض على عقد الصيانة كله.",
+    "ex2": "They'll renegotiate because their budget was cut by 30%.",
+    "ar2": "هيعيدوا التفاوض عشان ميزانيتهم اتخفضت 30%."
    },
    {
     "w": "renegotiation",
     "pos": "noun",
     "ex": "The contract renegotiation took three weeks.",
-    "ar": "إعادة التفاوض على العقد خدت تلات أسابيع."
+    "ar": "إعادة التفاوض على العقد خدت تلات أسابيع.",
+    "ex2": "After the renegotiation, the monthly fee dropped slightly.",
+    "ar2": "بعد إعادة التفاوض، الرسوم الشهرية نزلت شوية."
    }
   ],
   "meanings": [],
@@ -231,26 +279,34 @@
     "w": "revise",
     "note": "change the terms, usually on paper, without long talks",
     "ex": "Can we revise the payment schedule in the contract?",
-    "ar": "ممكن نعدّل جدول الدفع في العقد؟"
+    "ar": "ممكن نعدّل جدول الدفع في العقد؟",
+    "ex2": "If we revise it, can you pay by the 15th?",
+    "ar2": "لو عدّلناه، تقدر تدفع يوم 15؟"
    },
    {
     "w": "rework",
     "note": "informal: redo a deal or offer from scratch",
     "ex": "We need to rework the offer after the dollar went up.",
-    "ar": "محتاجين نعمل العرض من جديد بعد ما الدولار زاد."
+    "ar": "محتاجين نعمل العرض من جديد بعد ما الدولار زاد.",
+    "ex2": "Let's rework the offer with local batteries.",
+    "ar2": "خلّينا نعيد العرض ببطاريات محلية."
    },
    {
     "w": "revisit",
     "note": "just open the topic again; softer",
     "ex": "Let's revisit the maintenance fees next quarter.",
-    "ar": "نرجع نتكلم في رسوم الصيانة الربع الجاي."
+    "ar": "نرجع نتكلم في رسوم الصيانة الربع الجاي.",
+    "ex2": "We'll revisit them after the new tax rates.",
+    "ar2": "هنرجع لها بعد أسعار الضرايب الجديدة."
    }
   ],
   "ant": [
    {
     "w": "stick to",
     "ex": "We'll stick to the original contract price.",
-    "ar": "هنلتزم بسعر العقد الأصلي."
+    "ar": "هنلتزم بسعر العقد الأصلي.",
+    "ex2": "We'll stick to it, even if costs rise.",
+    "ar2": "هنلتزم بيه حتى لو التكاليف زادت."
    }
   ],
   "ladder": {
@@ -260,17 +316,23 @@
     {
      "w": "tweak",
      "ex": "Let's tweak the delivery date by one week.",
-     "ar": "نزحزح ميعاد التسليم أسبوع."
+     "ar": "نزحزح ميعاد التسليم أسبوع.",
+     "ex2": "A small tweak like this won't affect the price.",
+     "ar2": "تعديل صغير زي ده مش هيأثر على السعر."
     },
     {
      "w": "revise",
      "ex": "We revised the quotation after the exchange rate changed.",
-     "ar": "عدّلنا عرض السعر بعد ما سعر الصرف اتغير."
+     "ar": "عدّلنا عرض السعر بعد ما سعر الصرف اتغير.",
+     "ex2": "The revised version was sent to the client this morning.",
+     "ar2": "النسخة المعدّلة اتبعتت للعميل الصبح."
     },
     {
      "w": "renegotiate",
      "ex": "The client wants to renegotiate the whole contract.",
-     "ar": "العميل عايز يعيد التفاوض على العقد كله."
+     "ar": "العميل عايز يعيد التفاوض على العقد كله.",
+     "ex2": "To renegotiate everything will take at least a month.",
+     "ar2": "إننا نعيد التفاوض على كل حاجة هياخد شهر على الأقل."
     }
    ]
   },
@@ -305,7 +367,9 @@
     "a": 0,
     "ar": "العميل عايز يعيد التفاوض على عقد الصيانة كله."
    }
-  ]
+  ],
+  "ctx": "The dollar rose 20%, so we had to renegotiate the supply contract. The supplier agreed to split the difference.",
+  "ctx_ar": "الدولار زاد 20%، فاضطرينا نعيد التفاوض على عقد التوريد. المورد وافق نقسم الفرق."
  },
  {
   "w": "common ground",
@@ -315,19 +379,25 @@
     "w": "common",
     "pos": "adjective",
     "ex": "It's common for customers to ask for 60 days' credit.",
-    "ar": "طبيعي العملاء يطلبوا 60 يوم آجل."
+    "ar": "طبيعي العملاء يطلبوا 60 يوم آجل.",
+    "ex2": "It's common, but we usually offer 30 days.",
+    "ar2": "ده عادي، بس إحنا عادةً بنعرض 30 يوم."
    },
    {
     "w": "commonly",
     "pos": "adverb",
     "ex": "Lithium batteries are commonly used in new data centres.",
-    "ar": "بطاريات الليثيوم بتتستخدم كتير في الداتا سنترز الجديدة."
+    "ar": "بطاريات الليثيوم بتتستخدم كتير في الداتا سنترز الجديدة.",
+    "ex2": "They're commonly chosen because they last longer.",
+    "ar2": "بيتختاروا كتير عشان عمرهم أطول."
    },
    {
     "w": "common ground",
     "pos": "noun",
     "ex": "We found common ground on the delivery schedule.",
-    "ar": "لقينا أرضية مشتركة في جدول التسليم."
+    "ar": "لقينا أرضية مشتركة في جدول التسليم.",
+    "ex2": "That common ground helped us close the deal.",
+    "ar2": "الأرضية المشتركة دي ساعدتنا نقفل الصفقة."
    }
   ],
   "meanings": [],
@@ -336,26 +406,34 @@
     "w": "middle ground",
     "note": "a compromise point between two positions",
     "ex": "Let's find a middle ground between 30 and 60 days.",
-    "ar": "نلاقي حل وسط بين 30 و60 يوم."
+    "ar": "نلاقي حل وسط بين 30 و60 يوم.",
+    "ex2": "A middle ground like 45 days works for both sides.",
+    "ar2": "حل وسط زي 45 يوم يناسب الطرفين."
    },
    {
     "w": "shared interest",
     "note": "something both sides want",
     "ex": "Server uptime is our shared interest.",
-    "ar": "إن السيرفرات تفضل شغالة ده مصلحة مشتركة بينا."
+    "ar": "إن السيرفرات تفضل شغالة ده مصلحة مشتركة بينا.",
+    "ex2": "Because of that shared interest, they accepted our SLA.",
+    "ar2": "وعشان المصلحة المشتركة دي، قبلوا اتفاقية مستوى الخدمة بتاعتنا."
    },
    {
     "w": "agreement",
     "note": "the final result after finding common ground",
     "ex": "We reached an agreement on the warranty terms.",
-    "ar": "وصلنا لاتفاق على شروط الضمان."
+    "ar": "وصلنا لاتفاق على شروط الضمان.",
+    "ex2": "The agreement will be added to the contract.",
+    "ar2": "الاتفاق هيتضاف للعقد."
    }
   ],
   "ant": [
    {
     "w": "deadlock",
     "ex": "Talks with the supplier reached a deadlock over price.",
-    "ar": "الكلام مع المورد وقف خالص بسبب السعر."
+    "ar": "الكلام مع المورد وقف خالص بسبب السعر.",
+    "ex2": "To break the deadlock, we suggested a smaller first order.",
+    "ar2": "عشان نكسر حالة الجمود، اقترحنا أوردر أول أصغر."
    }
   ],
   "ladder": {
@@ -365,17 +443,23 @@
     {
      "w": "some common ground",
      "ex": "We found some common ground on delivery, but not price.",
-     "ar": "لقينا شوية نقط مشتركة في التسليم، بس مش في السعر."
+     "ar": "لقينا شوية نقط مشتركة في التسليم، بس مش في السعر.",
+     "ex2": "Even some common ground is a good start.",
+     "ar2": "حتى شوية نقط مشتركة بداية كويسة."
     },
     {
      "w": "broad agreement",
      "ex": "There's broad agreement on the scope of the solar project.",
-     "ar": "فيه اتفاق عام على نطاق مشروع الطاقة الشمسية."
+     "ar": "فيه اتفاق عام على نطاق مشروع الطاقة الشمسية.",
+     "ex2": "With broad agreement, the details should be easy.",
+     "ar2": "مع الاتفاق العام ده، التفاصيل المفروض تبقى سهلة."
     },
     {
      "w": "full agreement",
      "ex": "We reached full agreement and the PO was signed.",
-     "ar": "اتفقنا على كل حاجة والـ‎PO‎ اتمضى."
+     "ar": "اتفقنا على كل حاجة والـ‎PO‎ اتمضى.",
+     "ex2": "After full agreement, installation starts next week.",
+     "ar2": "بعد الاتفاق الكامل، التركيب يبدأ الأسبوع الجاي."
     }
    ]
   },
@@ -410,7 +494,9 @@
     "a": 2,
     "ar": "نلاقي حل وسط بين 30 و60 يوم آجل."
    }
-  ]
+  ],
+  "ctx": "We disagreed on price, but we found common ground on the warranty. That was enough to keep talking.",
+  "ctx_ar": "اختلفنا على السعر، بس لقينا أرضية مشتركة في الضمان. ده كان كفاية إننا نكمّل كلام."
  },
  {
   "w": "arrangement",
@@ -420,19 +506,25 @@
     "w": "arrange",
     "pos": "verb",
     "ex": "Can you arrange a meeting with their IT manager?",
-    "ar": "ممكن ترتّب اجتماع مع مدير الـ‎IT‎ عندهم؟"
+    "ar": "ممكن ترتّب اجتماع مع مدير الـ‎IT‎ عندهم؟",
+    "ex2": "Please arrange it before we send the server quote.",
+    "ar2": "لو سمحت رتّبه قبل ما نبعت عرض السيرفرات."
    },
    {
     "w": "arrangement",
     "pos": "noun",
     "ex": "The payment arrangement was confirmed by email.",
-    "ar": "اتفاق الدفع اتأكد بالإيميل."
+    "ar": "اتفاق الدفع اتأكد بالإيميل.",
+    "ex2": "Under this arrangement, they pay in three instalments.",
+    "ar2": "بالاتفاق ده، بيدفعوا على تلات أقساط."
    },
    {
     "w": "arranged",
     "pos": "adjective",
     "ex": "The arranged site visit was moved to Tuesday.",
-    "ar": "زيارة الموقع اللي كانت مترتبة اتنقلت ليوم التلات."
+    "ar": "زيارة الموقع اللي كانت مترتبة اتنقلت ليوم التلات.",
+    "ex2": "The arranged visit now includes the battery test.",
+    "ar2": "الزيارة المترتبة دلوقتي فيها اختبار البطاريات."
    }
   ],
   "meanings": [
@@ -440,13 +532,17 @@
     "m": "an agreement or deal",
     "mar": "اتفاق",
     "ex": "Our arrangement with the supplier is 60 days' credit.",
-    "ar": "اتفاقنا مع المورد 60 يوم آجل."
+    "ar": "اتفاقنا مع المورد 60 يوم آجل.",
+    "ex2": "This arrangement helps our cash flow a lot.",
+    "ar2": "الاتفاق ده بيساعد السيولة بتاعتنا جدًا."
    },
    {
     "m": "plans made for an event",
     "mar": "ترتيبات لحاجة",
     "ex": "I'll make arrangements for the site visit on Monday.",
-    "ar": "هعمل الترتيبات لزيارة الموقع يوم الاتنين."
+    "ar": "هعمل الترتيبات لزيارة الموقع يوم الاتنين.",
+    "ex2": "The arrangements include transport and a site permit.",
+    "ar2": "الترتيبات فيها المواصلات وتصريح الدخول للموقع."
    }
   ],
   "syn": [
@@ -454,19 +550,25 @@
     "w": "agreement",
     "note": "formal, often written and signed",
     "ex": "The service agreement covers four visits a year.",
-    "ar": "عقد الخدمة بيغطي أربع زيارات في السنة."
+    "ar": "عقد الخدمة بيغطي أربع زيارات في السنة.",
+    "ex2": "Extra visits are charged outside the agreement.",
+    "ar2": "الزيارات الزيادة بتتحاسب برّه العقد."
    },
    {
     "w": "deal",
     "note": "informal; usually about buying and selling",
     "ex": "We got a good deal on the inverters.",
-    "ar": "أخدنا الإنفرترات بسعر حلو."
+    "ar": "أخدنا الإنفرترات بسعر حلو.",
+    "ex2": "The deal saved us 12% compared to last year.",
+    "ar2": "الصفقة وفّرت لنا 12% عن السنة اللي فاتت."
    },
    {
     "w": "setup",
     "note": "informal: how things are organised between people",
     "ex": "Our setup with the courier works well for spare parts.",
-    "ar": "الترتيب اللي بينا وبين شركة الشحن ماشي كويس في قطع الغيار."
+    "ar": "الترتيب اللي بينا وبين شركة الشحن ماشي كويس في قطع الغيار.",
+    "ex2": "With this setup, parts arrive the next day.",
+    "ar2": "بالترتيب ده، القطع بتوصل تاني يوم."
    }
   ],
   "ant": [],
@@ -477,17 +579,23 @@
     {
      "w": "understanding",
      "ex": "We have an understanding that they pay within 30 days.",
-     "ar": "فيه اتفاق بينا إنهم يدفعوا خلال 30 يوم."
+     "ar": "فيه اتفاق بينا إنهم يدفعوا خلال 30 يوم.",
+     "ex2": "The understanding isn't written, but they always respect it.",
+     "ar2": "الاتفاق ده مش مكتوب، بس هما دايمًا بيحترموه."
     },
     {
      "w": "arrangement",
      "ex": "The payment arrangement was confirmed by email.",
-     "ar": "اتفاق الدفع اتأكد بالإيميل."
+     "ar": "اتفاق الدفع اتأكد بالإيميل.",
+     "ex2": "The arrangement is now in writing, so everyone is clear.",
+     "ar2": "الاتفاق بقى مكتوب، فالكل فاهم."
     },
     {
      "w": "contract",
      "ex": "Both sides signed the maintenance contract today.",
-     "ar": "الطرفين مضوا عقد الصيانة النهارده."
+     "ar": "الطرفين مضوا عقد الصيانة النهارده.",
+     "ex2": "The signed contract starts on the first of next month.",
+     "ar2": "العقد المتمضي بيبدأ أول الشهر الجاي."
     }
    ]
   },
@@ -522,7 +630,9 @@
     "a": 2,
     "ar": "الطرفين مضوا عقد صيانة لمدة تلات سنين."
    }
-  ]
+  ],
+  "ctx": "We have a special arrangement with the hospital: they pay quarterly. It helps their budget and keeps them loyal.",
+  "ctx_ar": "عندنا اتفاق خاص مع المستشفى: بيدفعوا كل تلات شهور. ده بيريّح ميزانيتهم وبيخليهم معانا."
  },
  {
   "w": "committed to",
@@ -532,19 +642,25 @@
     "w": "commit",
     "pos": "verb",
     "ex": "We can commit to delivery by the end of May.",
-    "ar": "نقدر نلتزم بالتسليم آخر مايو."
+    "ar": "نقدر نلتزم بالتسليم آخر مايو.",
+    "ex2": "Before we commit, we must confirm stock with the factory.",
+    "ar2": "قبل ما نلتزم، لازم نأكد المخزون مع المصنع."
    },
    {
     "w": "commitment",
     "pos": "noun",
     "ex": "We made a commitment to a four-hour response time.",
-    "ar": "التزمنا بوقت استجابة أربع ساعات."
+    "ar": "التزمنا بوقت استجابة أربع ساعات.",
+    "ex2": "That commitment is written in the maintenance contract.",
+    "ar2": "الالتزام ده مكتوب في عقد الصيانة."
    },
    {
     "w": "committed to",
     "pos": "adjective",
     "ex": "We're committed to keeping your servers running 24/7.",
-    "ar": "إحنا ملتزمين إن السيرفرات بتاعتك تفضل شغالة 24/7."
+    "ar": "إحنا ملتزمين إن السيرفرات بتاعتك تفضل شغالة 24/7.",
+    "ex2": "Being committed to uptime is why banks choose us.",
+    "ar2": "إننا ملتزمين بإن الأجهزة تفضل شغالة هو السبب إن البنوك بتختارنا."
    }
   ],
   "meanings": [],
@@ -553,26 +669,34 @@
     "w": "dedicated to",
     "note": "shows effort and care, less about promises",
     "ex": "Our team is dedicated to fast after-sales service.",
-    "ar": "فريقنا حاطط كل مجهوده في خدمة ما بعد البيع السريعة."
+    "ar": "فريقنا حاطط كل مجهوده في خدمة ما بعد البيع السريعة.",
+    "ex2": "Being dedicated to service keeps our renewal rate high.",
+    "ar2": "إننا مخلصين للخدمة بيخلّي نسبة التجديد عالية."
    },
    {
     "w": "bound by",
     "note": "legally required by a contract",
     "ex": "We are bound by the contract to respond within four hours.",
-    "ar": "العقد ملزمنا نرد خلال أربع ساعات."
+    "ar": "العقد ملزمنا نرد خلال أربع ساعات.",
+    "ex2": "If we're late, we're bound by a penalty clause.",
+    "ar2": "لو اتأخرنا، إحنا ملزمين بشرط الغرامة."
    },
    {
     "w": "determined to",
     "note": "strong personal will to achieve something",
     "ex": "We're determined to finish the solar station before summer.",
-    "ar": "إحنا مصممين نخلّص محطة الطاقة الشمسية قبل الصيف."
+    "ar": "إحنا مصممين نخلّص محطة الطاقة الشمسية قبل الصيف.",
+    "ex2": "We're determined to finish it, even if we work Fridays.",
+    "ar2": "مصممين نخلّصه حتى لو اشتغلنا يوم الجمعة."
    }
   ],
   "ant": [
    {
     "w": "non-committal",
     "ex": "The client stayed non-committal about the extra batteries.",
-    "ar": "العميل فضل مش بيدّي رد واضح في موضوع البطاريات الزيادة."
+    "ar": "العميل فضل مش بيدّي رد واضح في موضوع البطاريات الزيادة.",
+    "ex2": "A non-committal answer means we can't order stock yet.",
+    "ar2": "الرد اللي مش واضح ده معناه إننا لسه منقدرش نطلب مخزون."
    }
   ],
   "ladder": {
@@ -582,22 +706,30 @@
     {
      "w": "interested in",
      "ex": "They're interested in a maintenance contract for the chillers.",
-     "ar": "هما مهتمين بعقد صيانة للتشيلرات."
+     "ar": "هما مهتمين بعقد صيانة للتشيلرات.",
+     "ex2": "Being interested in it isn't a PO, so let's follow up.",
+     "ar2": "إنهم مهتمين مش معناه ‎PO‎، فخلّينا نتابع."
     },
     {
      "w": "willing to",
      "ex": "We're willing to extend the warranty by six months.",
-     "ar": "إحنا مستعدين نمد الضمان ست شهور."
+     "ar": "إحنا مستعدين نمد الضمان ست شهور.",
+     "ex2": "We're willing to do it if they sign for three years.",
+     "ar2": "إحنا مستعدين نعمل كده لو مضوا لتلات سنين."
     },
     {
      "w": "committed to",
      "ex": "We're committed to a four-hour response time.",
-     "ar": "إحنا ملتزمين بوقت استجابة أربع ساعات."
+     "ar": "إحنا ملتزمين بوقت استجابة أربع ساعات.",
+     "ex2": "That's why we're committed to keeping engineers on call.",
+     "ar2": "عشان كده إحنا ملتزمين يبقى عندنا مهندسين تحت الطلب."
     },
     {
      "w": "bound by",
      "ex": "Legally, we are bound by the delivery dates in the PO.",
-     "ar": "قانونيًا إحنا ملزمين بمواعيد التسليم اللي في الـ‎PO‎."
+     "ar": "قانونيًا إحنا ملزمين بمواعيد التسليم اللي في الـ‎PO‎.",
+     "ex2": "If we're late, we're bound by the 1% weekly penalty.",
+     "ar2": "لو اتأخرنا، إحنا ملزمين بغرامة 1% في الأسبوع."
     }
    ]
   },
@@ -632,6 +764,8 @@
     "a": 2,
     "ar": "هما مهتمين بعقد بس، لسه مفيش حاجة اتمضت."
    }
-  ]
+  ],
+  "ctx": "We're committed to a four-hour response time. If a UPS fails at night, an engineer is on site by morning.",
+  "ctx_ar": "إحنا ملتزمين بوقت استجابة أربع ساعات. لو ‎UPS‎ وقع بالليل، المهندس يبقى في الموقع الصبح."
  }
 ]
