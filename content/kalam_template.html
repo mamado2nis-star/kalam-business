@@ -336,6 +336,39 @@ a{color:inherit}
 .jcard[aria-expanded="true"] .jhint{display:none}
 footer{margin-top:40px;border-top:1px solid var(--line);padding-block:26px;color:var(--muted);font-size:14px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+
+/* ---------- word map ---------- */
+.wm-pick{display:flex;gap:8px;flex-wrap:wrap;margin:4px 0 18px}
+.wm-pick button{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:7px 14px;font-weight:700}
+.wm-pick button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.wm{display:grid;grid-template-columns:minmax(200px,260px) 1fr;gap:26px;align-items:start}
+.wm-core{position:sticky;top:170px;display:grid;place-items:center;text-align:center;gap:6px;aspect-ratio:1;max-width:100%;border-radius:50%;background:var(--card);border:10px solid var(--paper);box-shadow:0 0 0 2px var(--line),var(--lift);padding:18px}
+.wm-core h2{font-size:var(--fs,32px);font-weight:800;overflow-wrap:normal;hyphens:none}
+.wm-core .ar{color:var(--ink-2);font-size:17px}
+.wm-branches{display:grid;gap:16px;position:relative;padding-inline-start:26px;border-inline-start:4px solid var(--line)}
+.wm-br{position:relative;background:var(--card);border-radius:var(--r-md);padding:14px 16px 12px;box-shadow:var(--lift);border-top:5px solid var(--c)}
+.wm-br::before{content:"";position:absolute;inset-inline-start:-38px;top:18px;width:18px;height:18px;border-radius:50%;background:var(--card);border:5px solid var(--c)}
+.wm-br h3{font-size:19px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.wm-br h3 .ar{font-size:15px;color:var(--muted);font-weight:500}
+.wm-br.fam{--c:var(--saffron)} .wm-br.mean{--c:var(--cobalt)} .wm-br.syn{--c:var(--mint)} .wm-br.ant{--c:var(--rose)} .wm-br.lad{--c:var(--ink-2)} .wm-br.chk{--c:var(--good)}
+.wm-it{display:grid;gap:2px;padding:10px 0;border-top:1px dashed var(--line)}
+.wm-it:first-of-type{border-top:0}
+.wm-w{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-weight:800;font-size:17px}
+.wm-w .pos{font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--paper);color:var(--ink-2);text-transform:uppercase;letter-spacing:.04em}
+.wm-note{color:var(--ink-2);font-size:14px}
+.wm-ex{font-size:16px}
+.wm-ex b{color:var(--c)}
+.wm-it .ar{color:var(--muted);font-size:15px}
+.wm-ne{font-size:22px;font-weight:800;color:var(--rose);line-height:1}
+.wm-steps{display:grid;gap:8px;margin-top:8px}
+.wm-step{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;align-items:center}
+.wm-bar{height:10px;border-radius:999px;background:var(--ink-2);opacity:.85}
+.wm-q{padding:10px 0;border-top:1px dashed var(--line)}
+.wm-q:first-of-type{border-top:0}
+.wm-q p{margin:0 0 8px;font-size:17px}
+.wm-q .opts{display:flex;gap:8px;flex-wrap:wrap}
+.wm-q .opt{padding:8px 14px}
+@media (max-width:760px){.wm{grid-template-columns:1fr}.wm-core{position:static;width:220px;margin-inline:auto}}
 </style>
 </head>
 <body>
@@ -405,6 +438,7 @@ const LESSONS=[
 /*__SAR__*/
 /*__BANK__*/
 /*__WUE__*/
+/*__WMAP__*/
 /*__STORIES__*/
 /*__SAY__*/
 Object.assign(STORY.pi2,{field:"UPS & batteries",fieldAr:"الـ UPS والبطاريات",hero:"Karim",icon:"🔋",tech:[["UPS","جهاز الـ UPS"],["kVA","كيلو فولت أمبير (قدرة الجهاز)"],["battery bank","مجموعة بطاريات"],["lead-acid","بطاريات رصاص حمضية"],["lithium-ion","بطاريات ليثيوم أيون"]]});
@@ -596,9 +630,9 @@ function phrases(){
 /* ============================================================
    LESSON PAGE
    ============================================================ */
-const ALL_TABS=[["read","Read & listen"],["learn","Learn"],["words","Word spotlight"],["story","Mini story"],["quiz","Practise"],["upgrade","Say it like a pro"],["match","Match game"],["talk","Role-play"]];
+const ALL_TABS=[["read","Read & listen"],["learn","Learn"],["words","Word spotlight"],["wmap","Word map"],["story","Mini story"],["quiz","Practise"],["upgrade","Say it like a pro"],["match","Match game"],["talk","Role-play"]];
 let TABS=ALL_TABS;
-function tabsFor(l){return ALL_TABS.filter(([k])=>k==="words"?WORDS[l.id]:k==="story"?STORY[l.id]:k==="upgrade"?UPGRADE[l.id]:true)}
+function tabsFor(l){return ALL_TABS.filter(([k])=>k==="words"?WORDS[l.id]:k==="story"?STORY[l.id]:k==="upgrade"?UPGRADE[l.id]:k==="wmap"?(typeof WMAP!=="undefined"&&WMAP[l.id]):true)}
 let L,tab,tick;
 function lesson(id,t){
   L=LESSONS.find(l=>l.id===id&&!l.soon); if(!L){location.hash="#/lessons";return}
@@ -613,7 +647,7 @@ function lesson(id,t){
      <p class="ar" style="color:var(--muted);font-size:18px;margin:6px 0 0">${esc(L.ar)}</p>
      <p style="color:var(--ink-2);margin:10px 0 0">${esc(L.desc)}</p>
    </div><div class="art">${art(L.art)}</div></section>
-   <div class="ltabs" role="tablist">${TABS.map(([k,e])=>`<button role="tab" data-t="${k}" aria-selected="${k===tab}">${["words","story","upgrade"].includes(k)?'<span class="new">New</span>':""}${e}${k==="read"&&S.read[L.id]||k==="talk"&&S.done[L.id]?' <span class="ok">✓</span>':""}</button>`).join("")}</div>
+   <div class="ltabs" role="tablist">${TABS.map(([k,e])=>`<button role="tab" data-t="${k}" aria-selected="${k===tab}">${["words","story","upgrade","wmap"].includes(k)?'<span class="new">New</span>':""}${e}${k==="read"&&S.read[L.id]||k==="talk"&&S.done[L.id]?' <span class="ok">✓</span>':""}</button>`).join("")}</div>
    <div class="panel" id="panel"></div></div>`;
   app.querySelectorAll("[data-t]").forEach(b=>b.onclick=()=>{history.replaceState(null,"",`#/lesson/${L.id}/${b.dataset.t}`);setTab(b.dataset.t)});
   setTab(tab);
@@ -623,7 +657,7 @@ function setTab(t){
   app.querySelectorAll("[data-t]").forEach(b=>b.setAttribute("aria-selected",b.dataset.t===t));
   const sel=app.querySelector(`[data-t="${t}"]`); if(sel&&sel.scrollIntoView) sel.scrollIntoView({inline:"center",block:"nearest"});
   const p=document.getElementById("panel");
-  ({read:readTab,learn:learnTab,words:wordsTab,story:storyTab,quiz:quizTab,upgrade:upgradeTab,match:matchTab,talk:talkTab})[t](p);
+  ({read:readTab,learn:learnTab,words:wordsTab,wmap:wmapTab,story:storyTab,quiz:quizTab,upgrade:upgradeTab,match:matchTab,talk:talkTab})[t](p);
 }
 function nextTab(){const i=TABS.findIndex(x=>x[0]===tab); if(i<TABS.length-1){history.replaceState(null,"",`#/lesson/${L.id}/${TABS[i+1][0]}`);setTab(TABS[i+1][0]);document.querySelector(".ltabs").scrollIntoView({block:"start"})}}
 
@@ -820,6 +854,40 @@ function wordsTab(p){
     p.querySelector("#go").onclick=()=>{if(i<ws.length-1){i++;draw()}else nextTab()};
     const bk=p.querySelector("#bk"); if(bk)bk.onclick=()=>{i--;draw()};
     if(i||tab==="words") sayPlay(w.w);
+  }; draw();
+}
+
+
+/* ---------- word map: family, meanings, synonyms, opposites, ladder ---------- */
+function wmapTab(p){
+  const ws=WMAP[L.id]; let i=0;
+  const bold=(s,w)=>{let h=esc(s); const st=String(w).toLowerCase().replace(/[^a-z\- ]/g,"").slice(0,Math.max(4,Math.min(6,String(w).length-1))); if(!st) return h;
+    const re=new RegExp("\\b("+st.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+"[\\w-]*)","i"); return h.replace(re,"<b>$1</b>")};
+  const item=(x,extra="")=>`<div class="wm-it"><div class="wm-w">${extra}${esc(x.w)} ${spk(x.w)}${x.pos?`<span class="pos">${esc(x.pos)}</span>`:""}</div>
+     ${x.note?`<div class="wm-note">${esc(x.note)}</div>`:""}<div class="wm-ex">${bold(x.ex,x.w)} ${spk(x.ex)}</div><div class="ar">${esc(x.ar)}</div></div>`;
+  const draw=()=>{const w=ws[i];
+    const sec=(cls,en,ar,body)=>`<section class="wm-br ${cls}"><h3>${en}<span class="ar">${ar}</span></h3>${body}</section>`;
+    let out="";
+    if(w.family&&w.family.length) out+=sec("fam","Word family","عيلة الكلمة",w.family.map(x=>item(x)).join(""));
+    if(w.meanings&&w.meanings.length) out+=sec("mean","Different meanings","معاني مختلفة",w.meanings.map(m=>`<div class="wm-it"><div class="wm-w">${esc(m.m)}</div><div class="ar" style="color:var(--ink-2)">${esc(m.mar)}</div><div class="wm-ex">${bold(m.ex,w.w)} ${spk(m.ex)}</div><div class="ar">${esc(m.ar)}</div></div>`).join(""));
+    if(w.syn&&w.syn.length) out+=sec("syn","Synonyms — and the difference","مترادفات — والفرق بينها",w.syn.map(x=>item(x,'<span class="wm-ne" style="color:var(--mint)">=</span>')).join(""));
+    if(w.ant&&w.ant.length) out+=sec("ant","Opposites","العكس",w.ant.map(x=>item(x,'<span class="wm-ne">≠</span>')).join(""));
+    if(w.ladder&&w.ladder.steps&&w.ladder.steps.length){const n=w.ladder.steps.length;
+      out+=sec("lad","Word ladder · "+esc(w.ladder.label),"سلّم الكلمات · "+esc(w.ladder.lar||""),`<div class="wm-steps">${w.ladder.steps.map((x,k)=>`<div class="wm-step"><div class="wm-bar" style="width:${Math.round(40+(k/(Math.max(1,n-1)))*80)}px"></div>${item(x)}</div>`).join("")}</div>`)}
+    out+=sec("chk","Check yourself","اختبر نفسك",(w.quiz||[]).map((q,k)=>`<div class="wm-q" data-q="${k}"><p>${esc(q.s).replace("___","<b>_____</b>")}</p><div class="opts">${q.opts.map((o,j)=>`<button class="opt" data-j="${j}">${esc(o)}</button>`).join("")}</div><div class="ar" hidden style="color:var(--muted);margin-top:6px">${esc(q.ar)}</div></div>`).join(""));
+    p.innerHTML=`<span class="kicker">Word map · ${ws.length} words from this lesson</span>
+     <div class="wm-pick">${ws.map((x,k)=>`<button data-k="${k}" aria-pressed="${k===i}">${esc(x.w)}</button>`).join("")}</div>
+     <div class="wm"><div class="wm-core"><div><h2 style="--fs:${w.w.length>14?20:w.w.length>9?25:32}px">${esc(w.w)}</h2>${spk(w.w,"big")}<div class="ar">${esc(w.ar)}</div></div></div>
+     <div class="wm-branches">${out}</div></div>
+     <div class="actions">${i?'<button class="btn alt" id="bk">Back</button>':""}<button class="btn" id="go">${i<ws.length-1?"Next word":"Next"}</button></div>`;
+    p.querySelectorAll(".wm-pick button").forEach(b=>b.onclick=()=>{i=+b.dataset.k;draw();p.scrollIntoView({block:"start",behavior:"smooth"})});
+    p.querySelectorAll(".wm-q").forEach(qd=>{const q=w.quiz[+qd.dataset.q];
+      qd.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{const ok=+b.dataset.j===q.a;
+        qd.querySelectorAll(".opt").forEach(x=>{x.disabled=true;if(+x.dataset.j===q.a)x.classList.add("right")}); if(!ok)b.classList.add("wrong");
+        const full=q.s.replace("___",q.opts[q.a]); qd.querySelector("p").innerHTML=esc(full).replace(esc(q.opts[q.a]),"<b>"+esc(q.opts[q.a])+"</b>")+" "+spk(full);
+        qd.querySelector(".ar").hidden=false; sayPlay(full)})});
+    p.querySelector("#go").onclick=()=>{if(i<ws.length-1){i++;draw();p.scrollIntoView({block:"start",behavior:"smooth"})}else nextTab()};
+    const bk=p.querySelector("#bk"); if(bk)bk.onclick=()=>{i--;draw()};
   }; draw();
 }
 

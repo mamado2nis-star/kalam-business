@@ -1,0 +1,640 @@
+[
+ {
+  "w": "profit margin",
+  "ar": "هامش الربح",
+  "family": [
+   {
+    "w": "profit",
+    "pos": "noun",
+    "ex": "We made a good profit on the solar station project.",
+    "ar": "كسبنا ربح كويس في مشروع محطة الطاقة الشمسية."
+   },
+   {
+    "w": "profitable",
+    "pos": "adjective",
+    "ex": "Maintenance contracts are more profitable than one-off battery sales.",
+    "ar": "عقود الصيانة بتكسّب أكتر من بيع البطاريات مرة واحدة."
+   },
+   {
+    "w": "profitability",
+    "pos": "noun",
+    "ex": "Management wants a report on the profitability of each UPS model.",
+    "ar": "الإدارة عايزة تقرير عن ربحية كل موديل ‎UPS‎."
+   },
+   {
+    "w": "profit margin",
+    "pos": "noun",
+    "ex": "A 20% discount would kill our profit margin on this VFD order.",
+    "ar": "خصم 20% هيموّت هامش الربح بتاعنا في أوردر الـ‎VFD‎ ده."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "margin",
+    "note": "short form sales people use in daily talk",
+    "ex": "What's our margin on the 10 kVA UPS?",
+    "ar": "هامشنا كام في الـ‎UPS‎ الـ10 ‎kVA‎؟"
+   },
+   {
+    "w": "markup",
+    "note": "amount added on top of cost; margin is share of selling price",
+    "ex": "We usually put a 25% markup on imported batteries.",
+    "ar": "عادةً بنحط زيادة 25% على تكلفة البطاريات المستوردة."
+   },
+   {
+    "w": "profit",
+    "note": "general money gained, not a percentage",
+    "ex": "The server deal brought in a decent profit.",
+    "ar": "صفقة السيرفرات جابت ربح محترم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "loss",
+    "ex": "We sold the inverters at a loss to win the tender.",
+    "ar": "بعنا الإنفرترات بخسارة عشان نكسب المناقصة."
+   }
+  ],
+  "ladder": {
+   "label": "how big the margin is",
+   "lar": "الهامش قد إيه",
+   "steps": [
+    {
+     "w": "thin margin",
+     "ex": "Battery replacements have a thin margin because of strong competition.",
+     "ar": "تغيير البطاريات هامشه ضعيف بسبب المنافسة الجامدة."
+    },
+    {
+     "w": "reasonable margin",
+     "ex": "We still keep a reasonable margin at 12% off.",
+     "ar": "لسه محافظين على هامش معقول حتى بخصم 12%."
+    },
+    {
+     "w": "healthy margin",
+     "ex": "Service contracts give us a healthy margin every year.",
+     "ar": "عقود الخدمة بتدّينا هامش ممتاز كل سنة."
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "s": "Selling below cost means we make a ___ on every unit.",
+    "opts": [
+     "profit",
+     "loss",
+     "margin"
+    ],
+    "a": 1,
+    "ar": "البيع بأقل من التكلفة معناه إننا بنخسر في كل وحدة."
+   },
+   {
+    "s": "Maintenance contracts are our most ___ business line.",
+    "opts": [
+     "profit",
+     "profitable",
+     "profitability"
+    ],
+    "a": 1,
+    "ar": "عقود الصيانة هي أكتر نشاط بيكسّبنا."
+   },
+   {
+    "s": "We add a 25% ___ on top of the import cost.",
+    "opts": [
+     "markup",
+     "loss",
+     "profitable"
+    ],
+    "a": 0,
+    "ar": "بنزوّد 25% فوق تكلفة الاستيراد."
+   }
+  ]
+ },
+ {
+  "w": "sidetracked",
+  "ar": "اتشتتنا / خرجنا عن الموضوع",
+  "family": [
+   {
+    "w": "sidetrack",
+    "pos": "verb",
+    "ex": "Let's not let the delivery issue sidetrack the price discussion.",
+    "ar": "متخليش موضوع التسليم يشتتنا عن كلام السعر."
+   },
+   {
+    "w": "sidetracked",
+    "pos": "adjective",
+    "ex": "We got sidetracked talking about the old invoices.",
+    "ar": "خرجنا عن الموضوع واتكلمنا في الفواتير القديمة."
+   },
+   {
+    "w": "sidetracking",
+    "pos": "noun",
+    "ex": "Sidetracking the meeting with old complaints wastes everyone's time.",
+    "ar": "إنك تشتت الاجتماع بشكاوى قديمة بيضيّع وقت الكل."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "distracted",
+    "note": "lost focus in general, not only in a discussion",
+    "ex": "I got distracted by calls and forgot to send the quotation.",
+    "ar": "اتلهيت في المكالمات ونسيت أبعت عرض السعر."
+   },
+   {
+    "w": "off track",
+    "note": "discussion moved away from the topic; informal, meetings",
+    "ex": "We're going off track; back to the VFD pricing, please.",
+    "ar": "إحنا بعدنا عن الموضوع، نرجع لتسعير الـ‎VFD‎ لو سمحتم."
+   },
+   {
+    "w": "digress",
+    "note": "formal: speaker leaves the subject for a moment",
+    "ex": "Sorry to digress, but the solar panels arrived today.",
+    "ar": "معلش هخرج عن الموضوع شوية، بس ألواح الطاقة الشمسية وصلت النهارده."
+   }
+  ],
+  "ant": [
+   {
+    "w": "focused",
+    "ex": "Let's stay focused on the payment terms today.",
+    "ar": "خلّينا مركّزين على شروط الدفع النهارده."
+   },
+   {
+    "w": "on track",
+    "ex": "The meeting stayed on track and we closed the PO.",
+    "ar": "الاجتماع فضل ماشي صح وقفلنا الـ‎PO‎."
+   }
+  ],
+  "ladder": {
+   "label": "how far the talk drifted",
+   "lar": "الكلام بعد عن الموضوع قد إيه",
+   "steps": [
+    {
+     "w": "off topic",
+     "ex": "That's a bit off topic, but the servers are ready.",
+     "ar": "ده بعيد شوية عن الموضوع، بس السيرفرات جاهزة."
+    },
+    {
+     "w": "sidetracked",
+     "ex": "We got sidetracked by the warranty question.",
+     "ar": "سؤال الضمان خرّجنا عن الموضوع."
+    },
+    {
+     "w": "derailed",
+     "ex": "The meeting was completely derailed by the late-payment argument.",
+     "ar": "الاجتماع باظ خالص بسبب الخناقة على التأخير في الدفع."
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "s": "Let's not ___ the meeting with old complaints.",
+    "opts": [
+     "sidetrack",
+     "sidetracked",
+     "focused"
+    ],
+    "a": 0,
+    "ar": "متشتتش الاجتماع بشكاوى قديمة."
+   },
+   {
+    "s": "We got ___ talking about the old invoices.",
+    "opts": [
+     "sidetrack",
+     "sidetracked",
+     "sidetracking"
+    ],
+    "a": 1,
+    "ar": "خرجنا عن الموضوع واتكلمنا في الفواتير القديمة."
+   },
+   {
+    "s": "Please stay ___ on the payment terms.",
+    "opts": [
+     "distracted",
+     "sidetracked",
+     "focused"
+    ],
+    "a": 2,
+    "ar": "لو سمحتم خلّيكم مركّزين على شروط الدفع."
+   }
+  ]
+ },
+ {
+  "w": "incentive",
+  "ar": "حافز",
+  "family": [
+   {
+    "w": "incentive",
+    "pos": "noun",
+    "ex": "Free delivery is a good incentive for small orders.",
+    "ar": "التوصيل المجاني حافز كويس للأوردرات الصغيرة."
+   },
+   {
+    "w": "incentivize",
+    "pos": "verb",
+    "ex": "We incentivize customers to renew early with a free battery check.",
+    "ar": "بنشجّع العملاء يجددوا بدري بفحص بطاريات ببلاش."
+   },
+   {
+    "w": "incentivized",
+    "pos": "adjective",
+    "ex": "The sales team is incentivized on collections, not just sales.",
+    "ar": "فريق المبيعات بياخد حوافز على التحصيل، مش البيع بس."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "bonus",
+    "note": "extra money paid to staff for results",
+    "ex": "Ahmed got a bonus for closing the data-centre deal.",
+    "ar": "‎Ahmed‎ أخد بونص عشان قفل صفقة الداتا سنتر."
+   },
+   {
+    "w": "motivation",
+    "note": "the inner reason to act, not a concrete offer",
+    "ex": "Their main motivation is cutting downtime at the factory.",
+    "ar": "أهم دافع عندهم إنهم يقللوا التوقف في المصنع."
+   },
+   {
+    "w": "perk",
+    "note": "small extra benefit, often a free service",
+    "ex": "Free annual UPS inspection is a nice perk for contract customers.",
+    "ar": "فحص الـ‎UPS‎ السنوي ببلاش ميزة حلوة لعملاء العقود."
+   }
+  ],
+  "ant": [
+   {
+    "w": "disincentive",
+    "ex": "Long delivery times are a real disincentive for new customers.",
+    "ar": "مدة التوريد الطويلة بتنفّر العملاء الجداد فعلًا."
+   },
+   {
+    "w": "penalty",
+    "ex": "Late delivery carries a penalty of 1% per week.",
+    "ar": "التأخير في التسليم عليه غرامة 1% كل أسبوع."
+   }
+  ],
+  "ladder": {
+   "label": "how strong the push is",
+   "lar": "الدفعة قوية قد إيه",
+   "steps": [
+    {
+     "w": "small incentive",
+     "ex": "A small incentive like free delivery can close the deal.",
+     "ar": "حافز صغير زي التوصيل ببلاش ممكن يقفل الصفقة."
+    },
+    {
+     "w": "strong incentive",
+     "ex": "A 5% early-payment discount is a strong incentive to pay on time.",
+     "ar": "خصم 5% على الدفع بدري حافز قوي إنهم يدفعوا في ميعادهم."
+    },
+    {
+     "w": "irresistible offer",
+     "ex": "Free installation plus two-year warranty was an irresistible offer.",
+     "ar": "تركيب ببلاش وضمان سنتين كان عرض ميترفضش."
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "s": "We ___ customers to renew early with a free battery check.",
+    "opts": [
+     "incentive",
+     "incentivize",
+     "incentivized"
+    ],
+    "a": 1,
+    "ar": "بنشجّع العملاء يجددوا بدري بفحص بطاريات ببلاش."
+   },
+   {
+    "s": "Free delivery is a good ___ for small orders.",
+    "opts": [
+     "incentive",
+     "incentivize",
+     "penalty"
+    ],
+    "a": 0,
+    "ar": "التوصيل المجاني حافز كويس للأوردرات الصغيرة."
+   },
+   {
+    "s": "Late delivery carries a ___ of 1% per week.",
+    "opts": [
+     "bonus",
+     "perk",
+     "penalty"
+    ],
+    "a": 2,
+    "ar": "التأخير في التسليم عليه غرامة 1% كل أسبوع."
+   }
+  ]
+ },
+ {
+  "w": "revisit",
+  "ar": "نرجع نتكلم فيه تاني / نراجعه",
+  "family": [
+   {
+    "w": "revisit",
+    "pos": "verb",
+    "ex": "Can we revisit the payment terms next week?",
+    "ar": "ممكن نرجع نتكلم في شروط الدفع الأسبوع الجاي؟"
+   },
+   {
+    "w": "revisit",
+    "pos": "noun",
+    "ex": "The engineer booked a revisit to check the VFD again.",
+    "ar": "المهندس حجز زيارة تانية يشيّك على الـ‎VFD‎."
+   },
+   {
+    "w": "visit",
+    "pos": "noun",
+    "ex": "The technician's first visit to the site is on Sunday.",
+    "ar": "أول زيارة للفني للموقع يوم الحد."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "discuss a topic again",
+    "mar": "نرجع نتكلم في موضوع",
+    "ex": "Let's revisit the discount once we see the final quantities.",
+    "ar": "نرجع للخصم لما نشوف الكميات النهائية."
+   },
+   {
+    "m": "go back to a site or customer",
+    "mar": "نروح الموقع تاني",
+    "ex": "The technician will revisit the site to replace the faulty card.",
+    "ar": "الفني هيرجع الموقع تاني يغيّر الكارت البايظ."
+   }
+  ],
+  "syn": [
+   {
+    "w": "review",
+    "note": "check carefully again, often in writing",
+    "ex": "Finance will review the quotation before we send it.",
+    "ar": "الحسابات هتراجع عرض السعر قبل ما نبعته."
+   },
+   {
+    "w": "reconsider",
+    "note": "think again and maybe change a decision",
+    "ex": "Would you reconsider the price if we order 50 batteries?",
+    "ar": "ممكن تعيد التفكير في السعر لو طلبنا 50 بطارية؟"
+   },
+   {
+    "w": "go back to",
+    "note": "informal, spoken: return to a point later",
+    "ex": "Let's go back to the delivery date later.",
+    "ar": "نرجع لميعاد التسليم بعدين."
+   }
+  ],
+  "ant": [
+   {
+    "w": "drop",
+    "ex": "Let's drop the extended-warranty idea for now.",
+    "ar": "خلّينا نسيب فكرة الضمان الممتد دلوقتي."
+   }
+  ],
+  "ladder": {
+   "label": "how deeply we look again",
+   "lar": "بنبص تاني بعمق قد إيه",
+   "steps": [
+    {
+     "w": "go back to",
+     "ex": "Let's go back to the delivery point after lunch.",
+     "ar": "نرجع لنقطة التسليم بعد الغدا."
+    },
+    {
+     "w": "revisit",
+     "ex": "We need to revisit the service prices this year.",
+     "ar": "محتاجين نراجع أسعار الخدمة السنة دي."
+    },
+    {
+     "w": "reconsider",
+     "ex": "Management asked us to reconsider the whole supplier choice.",
+     "ar": "الإدارة طلبت نعيد التفكير في اختيار المورد كله."
+    },
+    {
+     "w": "overhaul",
+     "ex": "We plan to overhaul our pricing for all UPS models.",
+     "ar": "ناويين نغيّر تسعير كل موديلات الـ‎UPS‎ من الأساس."
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "s": "Let's ___ the payment terms next month when cash flow improves.",
+    "opts": [
+     "revisit",
+     "visit",
+     "drop"
+    ],
+    "a": 0,
+    "ar": "نرجع لشروط الدفع الشهر الجاي لما السيولة تتحسن."
+   },
+   {
+    "s": "The technician's first ___ to the site is on Sunday.",
+    "opts": [
+     "revisit",
+     "visit",
+     "review"
+    ],
+    "a": 1,
+    "ar": "أول زيارة للفني للموقع يوم الحد."
+   },
+   {
+    "s": "Finance will ___ the quotation carefully before we send it.",
+    "opts": [
+     "drop",
+     "revisit",
+     "review"
+    ],
+    "a": 2,
+    "ar": "الحسابات هتراجع عرض السعر كويس قبل ما نبعته."
+   }
+  ]
+ },
+ {
+  "w": "deal breaker",
+  "ar": "حاجة تبوّظ الصفقة",
+  "family": [
+   {
+    "w": "deal",
+    "pos": "noun",
+    "ex": "We closed the deal on 40 lithium batteries.",
+    "ar": "قفلنا صفقة 40 بطارية ليثيوم."
+   },
+   {
+    "w": "dealer",
+    "pos": "person",
+    "ex": "We are the authorised dealer for these UPS units in Egypt.",
+    "ar": "إحنا الوكيل المعتمد لأجهزة الـ‎UPS‎ دي في مصر."
+   },
+   {
+    "w": "deal breaker",
+    "pos": "noun",
+    "ex": "No local warranty is a deal breaker for the hospital.",
+    "ar": "عدم وجود ضمان محلي بيبوّظ الصفقة مع المستشفى."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "red line",
+    "note": "a limit you will never cross; sounds firmer",
+    "ex": "Payment after 120 days is a red line for our finance team.",
+    "ar": "الدفع بعد 120 يوم خط أحمر عند الحسابات."
+   },
+   {
+    "w": "sticking point",
+    "note": "blocks agreement but can still be negotiated",
+    "ex": "The warranty period is the main sticking point in the contract.",
+    "ar": "مدة الضمان هي النقطة اللي واقفة في العقد."
+   },
+   {
+    "w": "non-negotiable",
+    "note": "adjective for a condition you won't change",
+    "ex": "The 30% advance payment is non-negotiable.",
+    "ar": "مقدم الـ30% مفيهوش نقاش."
+   }
+  ],
+  "ant": [
+   {
+    "w": "selling point",
+    "ex": "Local after-sales service is our biggest selling point.",
+    "ar": "خدمة ما بعد البيع المحلية أقوى ميزة بنبيع بيها."
+   }
+  ],
+  "ladder": {
+   "label": "how serious the problem is",
+   "lar": "المشكلة كبيرة قد إيه",
+   "steps": [
+    {
+     "w": "minor issue",
+     "ex": "The cable colour is a minor issue; we can fix it.",
+     "ar": "لون الكابل مشكلة صغيرة، نقدر نحلها."
+    },
+    {
+     "w": "sticking point",
+     "ex": "Delivery time is still a sticking point with the client.",
+     "ar": "ميعاد التسليم لسه نقطة خلاف مع العميل."
+    },
+    {
+     "w": "deal breaker",
+     "ex": "No local warranty is a deal breaker for them.",
+     "ar": "من غير ضمان محلي مفيش صفقة بالنسبالهم."
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "s": "No local warranty is a ___ for the hospital; they'll walk away.",
+    "opts": [
+     "selling point",
+     "deal breaker",
+     "minor issue"
+    ],
+    "a": 1,
+    "ar": "من غير ضمان محلي المستشفى هتمشي، دي حاجة تبوّظ الصفقة."
+   },
+   {
+    "s": "We are the authorised ___ for these UPS units in Egypt.",
+    "opts": [
+     "deal",
+     "deal breaker",
+     "dealer"
+    ],
+    "a": 2,
+    "ar": "إحنا الوكيل المعتمد لأجهزة الـ‎UPS‎ دي في مصر."
+   },
+   {
+    "s": "Local after-sales service is our biggest ___.",
+    "opts": [
+     "selling point",
+     "sticking point",
+     "deal breaker"
+    ],
+    "a": 0,
+    "ar": "خدمة ما بعد البيع المحلية أقوى ميزة بنبيع بيها."
+   }
+  ]
+ },
+ {
+  "w": "allocate",
+  "ar": "نخصّص / نوزّع",
+  "family": [
+   {
+    "w": "allocate",
+    "pos": "verb",
+    "ex": "We allocated 200,000 EGP for engineer training this year.",
+    "ar": "خصصنا 200,000 جنيه لتدريب المهندسين السنة دي."
+   },
+   {
+    "w": "allocation",
+    "pos": "noun",
+    "ex": "The budget allocation for spare parts is too small.",
+    "ar": "الميزانية المخصصة لقطع الغيار قليلة أوي."
+   },
+   {
+    "w": "allocated",
+    "pos": "adjective",
+    "ex": "The allocated budget covers only two site visits.",
+    "ar": "الميزانية المخصصة تغطي زيارتين بس للموقع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "assign",
+    "note": "give a task or person a job, not money",
+    "ex": "I'll assign Karim to the Smart Village site.",
+    "ar": "هكلّف ‎Karim‎ بموقع القرية الذكية."
+   },
+   {
+    "w": "set aside",
+    "note": "keep money or stock for later use",
+    "ex": "Let's set aside five batteries for emergency replacements.",
+    "ar": "نشيل خمس بطاريات على جنب للطوارئ."
+   },
+   {
+    "w": "distribute",
+    "note": "share out among many people or places",
+    "ex": "We distribute the spare parts to three branches.",
+    "ar": "بنوزّع قطع الغيار على تلات فروع."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "quiz": [
+   {
+    "s": "The budget ___ for spare parts is too small this year.",
+    "opts": [
+     "allocate",
+     "allocation",
+     "allocated"
+    ],
+    "a": 1,
+    "ar": "الميزانية المخصصة لقطع الغيار قليلة أوي السنة دي."
+   },
+   {
+    "s": "Let's ___ five batteries for emergency replacements.",
+    "opts": [
+     "set aside",
+     "assign",
+     "allocation"
+    ],
+    "a": 0,
+    "ar": "نشيل خمس بطاريات على جنب للطوارئ."
+   },
+   {
+    "s": "The ___ budget covers only two site visits.",
+    "opts": [
+     "allocate",
+     "allocation",
+     "allocated"
+    ],
+    "a": 2,
+    "ar": "الميزانية المخصصة تغطي زيارتين بس للموقع."
+   }
+  ]
+ }
+]

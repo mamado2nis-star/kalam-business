@@ -1,0 +1,657 @@
+[
+ {
+  "w": "fall short of",
+  "ar": "ميوصلش للمطلوب",
+  "family": [
+   {
+    "w": "fall short of",
+    "pos": "verb",
+    "ex": "The supplier's offer falls short of what we expected.",
+    "ar": "عرض المورد أقل من اللي كنا متوقعينه."
+   },
+   {
+    "w": "shortfall",
+    "pos": "noun",
+    "ex": "There's a shortfall of 50,000 EGP in this month's collections.",
+    "ar": "فيه عجز 50,000 جنيه في تحصيل الشهر ده."
+   },
+   {
+    "w": "short",
+    "pos": "adjective",
+    "ex": "We're short of ten batteries for the bank order.",
+    "ar": "ناقصنا عشر بطاريات لأوردر البنك."
+   },
+   {
+    "w": "shortage",
+    "pos": "noun",
+    "ex": "A chip shortage delayed the server delivery.",
+    "ar": "نقص الشيبات أخّر توريد السيرفرات."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "miss",
+    "note": "simple: didn't reach a target or deadline",
+    "ex": "We missed the sales target by 5%.",
+    "ar": "مجبناش التارجت بفرق 5%."
+   },
+   {
+    "w": "not meet",
+    "note": "formal, for requirements or specs",
+    "ex": "The inverter does not meet the tender specs.",
+    "ar": "الإنفرتر مش مطابق لمواصفات المناقصة."
+   },
+   {
+    "w": "lag behind",
+    "note": "slower or weaker than plan or others",
+    "ex": "Collections lag behind sales this quarter.",
+    "ar": "التحصيل متأخر عن المبيعات الربع ده."
+   }
+  ],
+  "ant": [
+   {
+    "w": "exceed",
+    "ex": "Great news: sales exceeded the target by 12%.",
+    "ar": "خبر حلو: المبيعات عدّت التارجت بـ12%."
+   },
+   {
+    "w": "meet",
+    "ex": "The new UPS meets all the client's requirements.",
+    "ar": "الـ‎UPS‎ الجديد مطابق لكل طلبات العميل."
+   }
+  ],
+  "ladder": {
+   "label": "how far below the target",
+   "lar": "بعيد عن المطلوب قد إيه",
+   "steps": [
+    {
+     "w": "slightly miss",
+     "ex": "We slightly missed the deadline, by one day.",
+     "ar": "فوّتنا الديدلاين بحاجة بسيطة، يوم واحد."
+    },
+    {
+     "w": "fall short of",
+     "ex": "The offer falls short of what we expected.",
+     "ar": "العرض أقل من اللي كنا متوقعينه."
+    },
+    {
+     "w": "fall far short of",
+     "ex": "This delivery falls far short of the promised quantity.",
+     "ar": "التوريد كان أقل بكتير من الكمية اللي اتوعدنا بيها."
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "s": "There's a ___ of 50,000 EGP in this month's collections.",
+    "opts": [
+     "shortfall",
+     "shortage",
+     "short"
+    ],
+    "a": 0,
+    "ar": "فيه عجز 50,000 جنيه في تحصيل الشهر ده."
+   },
+   {
+    "s": "A chip ___ delayed the server delivery.",
+    "opts": [
+     "shortfall",
+     "shortage",
+     "short"
+    ],
+    "a": 1,
+    "ar": "نقص الشيبات أخّر توريد السيرفرات."
+   },
+   {
+    "s": "Great news: sales ___ the target by 12%.",
+    "opts": [
+     "fell short of",
+     "missed",
+     "exceeded"
+    ],
+    "a": 2,
+    "ar": "خبر حلو: المبيعات عدّت التارجت بـ12%."
+   }
+  ]
+ },
+ {
+  "w": "hold off",
+  "ar": "نستنى / نأجّل شوية",
+  "family": [
+   {
+    "w": "hold",
+    "pos": "verb",
+    "ex": "Please hold the order until we confirm the voltage.",
+    "ar": "لو سمحت وقّف الأوردر لحد ما نأكد الفولت."
+   },
+   {
+    "w": "hold",
+    "pos": "noun",
+    "ex": "The PO is on hold until the advance payment arrives.",
+    "ar": "الـ‎PO‎ متوقف لحد ما المقدم يوصل."
+   },
+   {
+    "w": "hold off",
+    "pos": "verb",
+    "ex": "Let's hold off on the order until Monday.",
+    "ar": "نستنى في الأوردر لحد الاتنين."
+   },
+   {
+    "w": "holdup",
+    "pos": "noun",
+    "ex": "What's the holdup with the customs release?",
+    "ar": "إيه اللي معطّل الإفراج الجمركي؟"
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "postpone",
+    "note": "move to a later, often set date; formal",
+    "ex": "We postponed the installation to next week.",
+    "ar": "أجّلنا التركيب للأسبوع الجاي."
+   },
+   {
+    "w": "put on hold",
+    "note": "stop for now, no new date yet",
+    "ex": "The client put the solar project on hold.",
+    "ar": "العميل وقّف مشروع الطاقة الشمسية مؤقتًا."
+   },
+   {
+    "w": "wait",
+    "note": "general, simple, informal",
+    "ex": "Let's wait for the new price list.",
+    "ar": "نستنى قايمة الأسعار الجديدة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "go ahead",
+    "ex": "You can go ahead with the battery order.",
+    "ar": "تقدر تمشي في أوردر البطاريات."
+   },
+   {
+    "w": "proceed",
+    "ex": "Please proceed with the shipment.",
+    "ar": "لو سمحت كمّل في الشحنة."
+   }
+  ],
+  "ladder": {
+   "label": "how long we delay",
+   "lar": "بنأجل قد إيه",
+   "steps": [
+    {
+     "w": "hold off",
+     "ex": "Let's hold off on the order until Monday.",
+     "ar": "نستنى في الأوردر لحد الاتنين."
+    },
+    {
+     "w": "postpone",
+     "ex": "We postponed the site visit to next Thursday.",
+     "ar": "أجّلنا زيارة الموقع للخميس الجاي."
+    },
+    {
+     "w": "put on hold",
+     "ex": "The data-centre project was put on hold indefinitely.",
+     "ar": "مشروع الداتا سنتر اتوقف لأجل غير مسمى."
+    },
+    {
+     "w": "cancel",
+     "ex": "They cancelled the PO after the budget cut.",
+     "ar": "لغوا الـ‎PO‎ بعد تخفيض الميزانية."
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "s": "The PO is on ___ until the advance payment arrives.",
+    "opts": [
+     "hold",
+     "hold off",
+     "holdup"
+    ],
+    "a": 0,
+    "ar": "الـ‎PO‎ متوقف لحد ما المقدم يوصل."
+   },
+   {
+    "s": "What's the ___ with the customs release?",
+    "opts": [
+     "hold",
+     "holdup",
+     "hold off"
+    ],
+    "a": 1,
+    "ar": "إيه اللي معطّل الإفراج الجمركي؟"
+   },
+   {
+    "s": "The price is confirmed, so please ___ with the shipment.",
+    "opts": [
+     "postpone",
+     "hold off",
+     "proceed"
+    ],
+    "a": 2,
+    "ar": "السعر اتأكد، فلو سمحت كمّل في الشحنة."
+   }
+  ]
+ },
+ {
+  "w": "non-committal",
+  "ar": "مش بيدّي رد واضح",
+  "family": [
+   {
+    "w": "commit",
+    "pos": "verb",
+    "ex": "The client won't commit until the board meets.",
+    "ar": "العميل مش هيلتزم بحاجة غير لما مجلس الإدارة يجتمع."
+   },
+   {
+    "w": "commitment",
+    "pos": "noun",
+    "ex": "Signing the PO shows real commitment.",
+    "ar": "مضي الـ‎PO‎ بيبيّن التزام حقيقي."
+   },
+   {
+    "w": "committed",
+    "pos": "adjective",
+    "ex": "The client is committed to the three-year contract.",
+    "ar": "العميل ملتزم بالعقد التلات سنين."
+   },
+   {
+    "w": "non-committal",
+    "pos": "adjective",
+    "ex": "He gave a non-committal answer about renewing the contract.",
+    "ar": "إدّى رد مش واضح عن تجديد العقد."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "vague",
+    "note": "unclear, missing details",
+    "ex": "His answer about the payment date was vague.",
+    "ar": "رده على ميعاد الدفع كان مش واضح."
+   },
+   {
+    "w": "evasive",
+    "note": "avoids answering on purpose; negative",
+    "ex": "The client was evasive about the overdue invoice.",
+    "ar": "العميل كان بيتهرب من الكلام عن الفاتورة المتأخرة."
+   },
+   {
+    "w": "undecided",
+    "note": "hasn't made a decision yet; neutral",
+    "ex": "They're still undecided between lithium and lead-acid.",
+    "ar": "لسه محتارين بين الليثيوم والـ‎lead-acid‎."
+   }
+  ],
+  "ant": [
+   {
+    "w": "committed",
+    "ex": "The client is committed to the three-year contract.",
+    "ar": "العميل ملتزم بالعقد التلات سنين."
+   },
+   {
+    "w": "decisive",
+    "ex": "Their IT manager was decisive and signed the PO.",
+    "ar": "مدير الـ‎IT‎ عندهم كان حاسم ومضى الـ‎PO‎."
+   }
+  ],
+  "ladder": {
+   "label": "how unclear the answer is",
+   "lar": "الرد مش واضح قد إيه",
+   "steps": [
+    {
+     "w": "undecided",
+     "ex": "The customer is undecided about the battery brand.",
+     "ar": "العميل لسه محتار في ماركة البطاريات."
+    },
+    {
+     "w": "non-committal",
+     "ex": "He gave a non-committal answer about renewing.",
+     "ar": "إدّى رد مش واضح عن التجديد."
+    },
+    {
+     "w": "evasive",
+     "ex": "Their accountant was evasive when we asked about payment.",
+     "ar": "المحاسب بتاعهم اتهرب لما سألنا على الدفع."
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "s": "He gave a ___ answer: 'maybe, we'll see.'",
+    "opts": [
+     "non-committal",
+     "committed",
+     "commitment"
+    ],
+    "a": 0,
+    "ar": "إدّى رد مش واضح: 'يمكن، نشوف.'"
+   },
+   {
+    "s": "Signing the PO shows real ___.",
+    "opts": [
+     "commit",
+     "commitment",
+     "non-committal"
+    ],
+    "a": 1,
+    "ar": "مضي الـ‎PO‎ بيبيّن التزام حقيقي."
+   },
+   {
+    "s": "Their IT manager was ___ and signed the PO in one meeting.",
+    "opts": [
+     "vague",
+     "evasive",
+     "decisive"
+    ],
+    "a": 2,
+    "ar": "مدير الـ‎IT‎ عندهم كان حاسم ومضى الـ‎PO‎ في اجتماع واحد."
+   }
+  ]
+ },
+ {
+  "w": "leverage",
+  "ar": "ورقة ضغط / نستغل",
+  "family": [
+   {
+    "w": "leverage",
+    "pos": "noun",
+    "ex": "Our large order volume gives us leverage with the supplier.",
+    "ar": "حجم أوردراتنا الكبير بيدّينا ورقة ضغط على المورد."
+   },
+   {
+    "w": "leverage",
+    "pos": "verb",
+    "ex": "We can leverage our partnership with the manufacturer to win the tender.",
+    "ar": "نقدر نستغل شراكتنا مع المصنّع عشان نكسب المناقصة."
+   },
+   {
+    "w": "leveraged",
+    "pos": "adjective",
+    "ex": "A highly leveraged client may struggle to pay on time.",
+    "ar": "عميل عليه ديون كتير ممكن يتعب في الدفع في ميعاده."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "power in a negotiation",
+    "mar": "ورقة ضغط في التفاوض",
+    "ex": "With stock in Cairo, we have leverage on delivery time.",
+    "ar": "عشان عندنا مخزون في القاهرة، معانا ورقة ضغط في ميعاد التسليم."
+   },
+   {
+    "m": "use something to get an advantage",
+    "mar": "نستفيد من حاجة",
+    "ex": "Let's leverage our bank references to win the new client.",
+    "ar": "نستفيد من مراجعنا في البنوك عشان نكسب العميل الجديد."
+   }
+  ],
+  "syn": [
+   {
+    "w": "bargaining power",
+    "note": "the strength to push price or terms",
+    "ex": "With three competing offers, the client has strong bargaining power.",
+    "ar": "مع تلات عروض منافسة، العميل عنده قوة تفاوض كبيرة."
+   },
+   {
+    "w": "use",
+    "note": "simple verb; plain-English choice instead of leverage",
+    "ex": "Use our hospital references to convince the bank.",
+    "ar": "استخدم مراجعنا في المستشفيات عشان تقنع البنك."
+   },
+   {
+    "w": "influence",
+    "note": "ability to affect decisions, not only in deals",
+    "ex": "Their consultant has a lot of influence on the final choice.",
+    "ar": "الاستشاري بتاعهم ليه تأثير كبير على الاختيار النهائي."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how much power we have",
+   "lar": "معانا قوة قد إيه",
+   "steps": [
+    {
+     "w": "some leverage",
+     "ex": "We have some leverage because they need delivery fast.",
+     "ar": "معانا شوية ضغط عشان هما محتاجين التسليم بسرعة."
+    },
+    {
+     "w": "strong leverage",
+     "ex": "Being the only local stockist gives us strong leverage.",
+     "ar": "إننا الوحيدين اللي عندنا مخزون محلي بيدّينا ورقة ضغط قوية."
+    },
+    {
+     "w": "the upper hand",
+     "ex": "With stock in Cairo, we have the upper hand.",
+     "ar": "بالمخزون اللي في القاهرة، الكفة في صالحنا."
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "s": "Our large volume gives us ___ with the supplier.",
+    "opts": [
+     "leverage",
+     "leveraged",
+     "use"
+    ],
+    "a": 0,
+    "ar": "حجم أوردراتنا الكبير بيدّينا ورقة ضغط على المورد."
+   },
+   {
+    "s": "With three competing offers, the client had the ___ in the talks.",
+    "opts": [
+     "influence",
+     "upper hand",
+     "leveraged"
+    ],
+    "a": 1,
+    "ar": "مع تلات عروض منافسة، الكفة كانت في صالح العميل في التفاوض."
+   },
+   {
+    "s": "Their consultant has a lot of ___ on the final choice.",
+    "opts": [
+     "leveraged",
+     "use",
+     "influence"
+    ],
+    "a": 2,
+    "ar": "الاستشاري بتاعهم ليه تأثير كبير على الاختيار النهائي."
+   }
+  ]
+ },
+ {
+  "w": "strike a balance",
+  "ar": "نوازن",
+  "family": [
+   {
+    "w": "balance",
+    "pos": "noun",
+    "ex": "The remaining balance of 30% is due on delivery.",
+    "ar": "الباقي 30% مستحق عند التسليم."
+   },
+   {
+    "w": "balance",
+    "pos": "verb",
+    "ex": "We need to balance price and quality in this tender.",
+    "ar": "لازم نوازن بين السعر والجودة في المناقصة دي."
+   },
+   {
+    "w": "balanced",
+    "pos": "adjective",
+    "ex": "We need a balanced offer that works for both sides.",
+    "ar": "محتاجين عرض متوازن يناسب الطرفين."
+   },
+   {
+    "w": "strike a balance",
+    "pos": "verb",
+    "ex": "We must strike a balance between discount and profit margin.",
+    "ar": "لازم نوازن بين الخصم وهامش الربح."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "compromise",
+    "note": "each side gives something up",
+    "ex": "We agreed a compromise: 45 days' credit.",
+    "ar": "اتفقنا على حل وسط: 45 يوم آجل."
+   },
+   {
+    "w": "find a middle ground",
+    "note": "reach a point between two positions",
+    "ex": "Let's find a middle ground on the warranty period.",
+    "ar": "نلاقي حل وسط في مدة الضمان."
+   },
+   {
+    "w": "trade off",
+    "note": "accept less of one thing to get more of another",
+    "ex": "We traded off a shorter warranty for a lower price.",
+    "ar": "قبلنا ضمان أقصر مقابل سعر أقل."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "quiz": [
+   {
+    "s": "We need a ___ offer that works for both sides.",
+    "opts": [
+     "balance",
+     "balanced",
+     "strike a balance"
+    ],
+    "a": 1,
+    "ar": "محتاجين عرض متوازن يناسب الطرفين."
+   },
+   {
+    "s": "The remaining ___ of 30% is due on delivery.",
+    "opts": [
+     "balance",
+     "balanced",
+     "compromise"
+    ],
+    "a": 0,
+    "ar": "الباقي 30% مستحق عند التسليم."
+   },
+   {
+    "s": "We ___ a shorter warranty for a lower price.",
+    "opts": [
+     "balanced",
+     "compromise",
+     "traded off"
+    ],
+    "a": 2,
+    "ar": "قبلنا ضمان أقصر مقابل سعر أقل."
+   }
+  ]
+ },
+ {
+  "w": "re-evaluate",
+  "ar": "نعيد التقييم",
+  "family": [
+   {
+    "w": "evaluate",
+    "pos": "verb",
+    "ex": "We evaluate every supplier on price, quality and delivery.",
+    "ar": "بنقيّم كل مورد على السعر والجودة والتسليم."
+   },
+   {
+    "w": "evaluation",
+    "pos": "noun",
+    "ex": "The technical evaluation of the three offers is ready.",
+    "ar": "التقييم الفني للتلات عروض جاهز."
+   },
+   {
+    "w": "re-evaluate",
+    "pos": "verb",
+    "ex": "After the price increase, we'll re-evaluate the supplier.",
+    "ar": "بعد زيادة الأسعار، هنعيد تقييم المورد."
+   },
+   {
+    "w": "re-evaluation",
+    "pos": "noun",
+    "ex": "A re-evaluation of the old UPS units showed weak batteries.",
+    "ar": "إعادة تقييم أجهزة الـ‎UPS‎ القديمة بيّنت إن البطاريات ضعيفة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "reassess",
+    "note": "formal; look again at a situation or risk",
+    "ex": "We need to reassess the risk of late payment.",
+    "ar": "محتاجين نعيد تقدير خطر التأخير في الدفع."
+   },
+   {
+    "w": "review",
+    "note": "general check, often routine",
+    "ex": "We review our supplier prices every quarter.",
+    "ar": "بنراجع أسعار الموردين كل ربع سنة."
+   },
+   {
+    "w": "rethink",
+    "note": "informal; possibly change your plan completely",
+    "ex": "Maybe we should rethink the lead-acid option.",
+    "ar": "يمكن لازم نفكر من جديد في اختيار الـ‎lead-acid‎."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how deeply we check again",
+   "lar": "بنراجع بعمق قد إيه",
+   "steps": [
+    {
+     "w": "review",
+     "ex": "We review the service prices every January.",
+     "ar": "بنراجع أسعار الخدمة كل يناير."
+    },
+    {
+     "w": "re-evaluate",
+     "ex": "After the price increase, we'll re-evaluate the supplier.",
+     "ar": "بعد زيادة الأسعار، هنعيد تقييم المورد."
+    },
+    {
+     "w": "overhaul",
+     "ex": "Management decided to overhaul the whole pricing policy.",
+     "ar": "الإدارة قررت تغيّر سياسة التسعير كلها من الأساس."
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "s": "The technical ___ of the three offers is ready.",
+    "opts": [
+     "evaluate",
+     "evaluation",
+     "re-evaluate"
+    ],
+    "a": 1,
+    "ar": "التقييم الفني للتلات عروض جاهز."
+   },
+   {
+    "s": "After the price increase, we'll ___ the supplier.",
+    "opts": [
+     "re-evaluate",
+     "evaluation",
+     "re-evaluation"
+    ],
+    "a": 0,
+    "ar": "بعد زيادة الأسعار، هنعيد تقييم المورد."
+   },
+   {
+    "s": "Maybe we should completely ___ the lead-acid option.",
+    "opts": [
+     "evaluation",
+     "re-evaluation",
+     "rethink"
+    ],
+    "a": 2,
+    "ar": "يمكن لازم نفكر من جديد خالص في اختيار الـ‎lead-acid‎."
+   }
+  ]
+ }
+]
