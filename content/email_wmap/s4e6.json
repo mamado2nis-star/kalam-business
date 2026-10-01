@@ -1,0 +1,692 @@
+[
+ {
+  "w": "reconciliation",
+  "ar": "مطابقة / تسوية",
+  "book": "We can record the 3 batteries as a pending reconciliation item and close the month on time.",
+  "family": [
+   {
+    "w": "reconcile",
+    "pos": "verb",
+    "ex": "Please reconcile the bank statement with the cash book every week.",
+    "ar": "من فضلك طابق كشف البنك مع دفتر النقدية كل أسبوع.",
+    "ex2": "Any difference must be explained before Thursday.",
+    "ar2": "أي فرق لازم يتفسر قبل الخميس."
+   },
+   {
+    "w": "reconciliation",
+    "pos": "noun",
+    "ex": "The bank reconciliation for September is almost finished.",
+    "ar": "مطابقة البنك لشهر سبتمبر قربت تخلص.",
+    "ex2": "Only two small differences are left.",
+    "ar2": "فاضل فرقين صغيرين بس."
+   },
+   {
+    "w": "reconciled",
+    "pos": "adjective",
+    "ex": "All supplier accounts are reconciled except EuroDrive.",
+    "ar": "كل حسابات الموردين متطابقة ماعدا ‎EuroDrive‎.",
+    "ex2": "Their statement shows a credit note we never received.",
+    "ar2": "الكشف بتاعهم فيه إشعار دائن عمره ما وصلنا."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "matching",
+    "note": "simple word: checking that two records agree",
+    "ex": "Invoice matching checks the PO, GRN and invoice together.",
+    "ar": "مطابقة الفواتير بتراجع أمر الشراء وإذن الاستلام والفاتورة مع بعض.",
+    "ex2": "If one doesn't match, payment is blocked.",
+    "ar2": "لو واحد مش مطابق، الدفع بيتوقف."
+   },
+   {
+    "w": "cross-check",
+    "note": "quick check of one figure against another source",
+    "ex": "Please cross-check the stock count with the delivery notes.",
+    "ar": "من فضلك راجع الجرد على أذون التسليم.",
+    "ex2": "That will show where the 3 batteries went.",
+    "ar2": "ده هيوضح البطاريات التلاتة راحوا فين."
+   },
+   {
+    "w": "audit",
+    "note": "formal, deeper review, often by outside auditors",
+    "ex": "The external auditors start the year-end audit in January.",
+    "ar": "المراجعين الخارجيين هيبدأوا مراجعة آخر السنة في يناير.",
+    "ex2": "They will check our stock and bank reconciliations.",
+    "ar2": "هيراجعوا المخزون ومطابقات البنوك."
+   }
+  ],
+  "ant": [
+   {
+    "w": "discrepancy",
+    "ex": "There is a discrepancy of 3 batteries between the system and the count.",
+    "ar": "فيه فرق 3 بطاريات بين السيستم والجرد.",
+    "ex2": "Youssef is checking with the service team.",
+    "ar2": "يوسف بيراجع مع فريق الخدمة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The system shows 148 batteries, but we counted 145. We will record the difference as a reconciliation item until the service team confirms.",
+  "ctx_ar": "السيستم بيبين 148 بطارية، بس إحنا عدّينا 145. هنسجل الفرق كبند مطابقة لحد ما فريق الخدمة يأكد.",
+  "quiz": [
+   {
+    "s": "Please ___ the bank statement with the cash book.",
+    "opts": [
+     "reconcile",
+     "reconciliation",
+     "reconciled"
+    ],
+    "a": 0,
+    "ar": "من فضلك طابق كشف البنك مع دفتر النقدية."
+   },
+   {
+    "s": "All supplier accounts are ___ except one.",
+    "opts": [
+     "reconcile",
+     "reconciliation",
+     "reconciled"
+    ],
+    "a": 2,
+    "ar": "كل حسابات الموردين متطابقة ماعدا واحد."
+   },
+   {
+    "s": "There's a ___ of 3 batteries between the system and the count.",
+    "opts": [
+     "audit",
+     "discrepancy",
+     "matching"
+    ],
+    "a": 1,
+    "ar": "فيه فرق 3 بطاريات بين السيستم والجرد."
+   }
+  ]
+ },
+ {
+  "w": "chase",
+  "ar": "يلاحق / يتابع بإلحاح",
+  "book": "Please chase the three departments tomorrow morning and give them a clear deadline.",
+  "family": [
+   {
+    "w": "chase",
+    "pos": "verb",
+    "ex": "I will chase Delta Pharma for INV-0457 today.",
+    "ar": "هتابع مع ‎Delta Pharma‎ على ‎INV-0457‎ النهارده.",
+    "ex2": "If they don't reply, I'll call Ms. Dalia.",
+    "ar2": "لو مردوش، هكلم أستاذة داليا."
+   },
+   {
+    "w": "chaser",
+    "pos": "noun",
+    "ex": "Send a short chaser email if the invoices don't arrive by noon.",
+    "ar": "ابعت إيميل متابعة قصير لو الفواتير موصلتش قبل الضهر.",
+    "ex2": "Keep the chaser polite and clear.",
+    "ar2": "خلي إيميل المتابعة مؤدب وواضح."
+   },
+   {
+    "w": "chasing",
+    "pos": "noun",
+    "ex": "Payment chasing takes half of my week at month-end.",
+    "ar": "متابعة التحصيل بتاخد نص أسبوعي آخر الشهر.",
+    "ex2": "Better reminders would save us time.",
+    "ar2": "تذكيرات أحسن هتوفر علينا وقت."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "follow up",
+    "note": "neutral; check progress after an earlier request",
+    "ex": "Please follow up with Purchasing on the missing supplier invoices.",
+    "ar": "من فضلك تابع مع المشتريات على فواتير الموردين الناقصة.",
+    "ex2": "We need all seven by Thursday.",
+    "ar2": "محتاجين السبعة كلهم قبل الخميس."
+   },
+   {
+    "w": "remind",
+    "note": "gentle; help someone not to forget",
+    "ex": "Can you remind Maintenance about the signed job cards?",
+    "ar": "ممكن تفكّر الصيانة بكروت الشغل الممضية؟",
+    "ex2": "The deadline is Thursday at 3 pm.",
+    "ar2": "آخر ميعاد الخميس الساعة 3."
+   },
+   {
+    "w": "push",
+    "note": "informal and stronger; put pressure on someone",
+    "ex": "We need to push the customer for the signed acceptance certificate.",
+    "ar": "لازم نضغط على العميل عشان شهادة الاستلام الممضية.",
+    "ex2": "Without it, we can't issue the final invoice.",
+    "ar2": "من غيرها مش هنقدر نطلع الفاتورة النهائية."
+   }
+  ],
+  "ant": [
+   {
+    "w": "drop",
+    "ex": "We decided to drop the small EGP 300 difference.",
+    "ar": "قررنا نسيب فرق الـ300 جنيه الصغير.",
+    "ex2": "Chasing it costs more than it's worth.",
+    "ar2": "متابعته بتكلف أكتر من قيمته."
+   }
+  ],
+  "ladder": {
+   "label": "how strong the follow-up is",
+   "lar": "المتابعة قوية قد إيه",
+   "steps": [
+    {
+     "w": "remind",
+     "ex": "I'll remind Youssef about the count sheets this afternoon.",
+     "ar": "هفكّر يوسف بشيتات الجرد بعد الضهر.",
+     "ex2": "He promised them for tomorrow.",
+     "ar2": "وعد بيهم بكرة."
+    },
+    {
+     "w": "follow up",
+     "ex": "I followed up with Maintenance twice this week.",
+     "ar": "تابعت مع الصيانة مرتين الأسبوع ده.",
+     "ex2": "They say the job cards are with the engineer.",
+     "ar2": "بيقولوا الكروت مع المهندس."
+    },
+    {
+     "w": "chase",
+     "ex": "Please chase Purchasing again; seven invoices are still missing.",
+     "ar": "من فضلك تابع مع المشتريات تاني، لسه 7 فواتير ناقصة.",
+     "ex2": "We close the month on Monday.",
+     "ar2": "هنقفل الشهر يوم الاتنين."
+    },
+    {
+     "w": "escalate",
+     "ex": "If nothing arrives by Thursday, I'll escalate it to Ms. Nadia.",
+     "ar": "لو مفيش حاجة وصلت الخميس، هصعّد الموضوع لأستاذة نادية.",
+     "ex2": "She can talk to the department heads directly.",
+     "ar2": "تقدر تكلم رؤساء الأقسام مباشرة."
+    }
+   ]
+  },
+  "ctx": "Three departments are late with their documents. Please chase them tomorrow and give them a clear deadline of Thursday.",
+  "ctx_ar": "تلات أقسام متأخرين في مستنداتهم. من فضلك تابع معاهم بكرة واديهم آخر ميعاد واضح يوم الخميس.",
+  "quiz": [
+   {
+    "s": "Send a polite ___ email if nothing arrives by noon.",
+    "opts": [
+     "chase",
+     "chaser",
+     "chasing"
+    ],
+    "a": 1,
+    "ar": "ابعت إيميل متابعة مؤدب لو مفيش حاجة وصلت قبل الضهر."
+   },
+   {
+    "s": "Payment ___ takes a lot of time at month-end.",
+    "opts": [
+     "chase",
+     "chaser",
+     "chasing"
+    ],
+    "a": 2,
+    "ar": "متابعة التحصيل بتاخد وقت كتير آخر الشهر."
+   },
+   {
+    "s": "If they still don't reply, I'll ___ it to the Chief Accountant.",
+    "opts": [
+     "escalate",
+     "remind",
+     "follow up"
+    ],
+    "a": 0,
+    "ar": "لو لسه مردوش، هصعّد الموضوع لرئيسة الحسابات."
+   }
+  ]
+ },
+ {
+  "w": "issue",
+  "ar": "يطلّع مستند / مشكلة",
+  "book": "Once the service team confirms, please ask them to issue the missing delivery note.",
+  "family": [
+   {
+    "w": "issue",
+    "pos": "verb",
+    "ex": "We issue e-invoices through the tax portal within 24 hours.",
+    "ar": "بنطلع الفواتير الإلكترونية على بوابة الضرايب خلال 24 ساعة.",
+    "ex2": "The portal gives each invoice a unique code.",
+    "ar2": "البوابة بتدّي كل فاتورة كود مميز."
+   },
+   {
+    "w": "issue",
+    "pos": "noun",
+    "ex": "There's an issue with the delivery note for the hospital batteries.",
+    "ar": "فيه مشكلة في إذن التسليم لبطاريات المستشفى.",
+    "ex2": "It was never printed or signed.",
+    "ar2": "عمره ما اتطبع ولا اتمضى."
+   },
+   {
+    "w": "issuer",
+    "pos": "person",
+    "ex": "The issuer of the guarantee is Nile Commercial Bank.",
+    "ar": "الجهة المصدرة للضمان هي ‎Nile Commercial Bank‎.",
+    "ex2": "The hospital accepts guarantees from local banks only.",
+    "ar2": "المستشفى بتقبل ضمانات من البنوك المحلية بس."
+   },
+   {
+    "w": "reissue",
+    "pos": "verb",
+    "ex": "Please reissue the invoice with the correct tax number.",
+    "ar": "من فضلك طلّع الفاتورة تاني بالرقم الضريبي الصح.",
+    "ex2": "Then cancel the old one in the system.",
+    "ar2": "وبعدين الغي القديمة في السيستم."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "produce an official document",
+    "mar": "يطلّع مستند رسمي",
+    "ex": "Please ask the service team to issue the missing delivery note.",
+    "ar": "من فضلك خلي فريق الخدمة يطلّع إذن التسليم الناقص.",
+    "ex2": "Then we can charge the batteries to the contract.",
+    "ar2": "وبعدين نقدر نحمّل البطاريات على العقد."
+   },
+   {
+    "m": "a problem",
+    "mar": "مشكلة",
+    "ex": "We have an issue with the UPS in the hospital's data room.",
+    "ar": "عندنا مشكلة في الـ‎UPS‎ في غرفة الداتا بتاعة المستشفى.",
+    "ex2": "A technician is on the way.",
+    "ar2": "فيه فني في الطريق."
+   },
+   {
+    "m": "give out items from stock",
+    "mar": "يصرف من المخزن",
+    "ex": "The warehouse issued 3 batteries to the service team without paperwork.",
+    "ar": "المخزن صرف 3 بطاريات لفريق الخدمة من غير ورق.",
+    "ex2": "That's why the stock count shows a difference.",
+    "ar2": "عشان كده الجرد فيه فرق."
+   }
+  ],
+  "syn": [
+   {
+    "w": "raise",
+    "note": "create a document in a system, e.g. raise a PO",
+    "ex": "Purchasing will raise a PO for the new batteries today.",
+    "ar": "المشتريات هتعمل أمر شراء للبطاريات الجديدة النهارده.",
+    "ex2": "The supplier won't ship without it.",
+    "ar2": "المورد مش هيشحن من غيره."
+   },
+   {
+    "w": "problem",
+    "note": "general word for any kind of trouble",
+    "ex": "The problem is that the job cards are not signed.",
+    "ar": "المشكلة إن كروت الشغل مش ممضية.",
+    "ex2": "We can't invoice the hospital without signatures.",
+    "ar2": "مش هنقدر نعمل فاتورة للمستشفى من غير توقيعات."
+   },
+   {
+    "w": "produce",
+    "note": "make a report or file, often from a system",
+    "ex": "The system can produce the stock report in two minutes.",
+    "ar": "السيستم يقدر يطلع تقرير المخزون في دقيقتين.",
+    "ex2": "Please attach it to the closing file.",
+    "ar2": "من فضلك ارفقه مع ملف الإقفال."
+   }
+  ],
+  "ant": [
+   {
+    "w": "cancel",
+    "ex": "Please cancel the wrong delivery note in the system.",
+    "ar": "من فضلك الغي إذن التسليم الغلط في السيستم.",
+    "ex2": "Then issue a new one with the right quantity.",
+    "ar2": "وبعدين طلّع واحد جديد بالكمية الصح."
+   }
+  ],
+  "ladder": {
+   "label": "how serious the problem is",
+   "lar": "المشكلة خطيرة قد إيه",
+   "steps": [
+    {
+     "w": "minor issue",
+     "ex": "There's a minor issue with the invoice date; I'll fix it.",
+     "ar": "فيه مشكلة صغيرة في تاريخ الفاتورة، هصلحها.",
+     "ex2": "It won't delay the payment.",
+     "ar2": "مش هتأخر الدفع."
+    },
+    {
+     "w": "issue",
+     "ex": "The missing delivery note is an issue for month-end closing.",
+     "ar": "إذن التسليم الناقص مشكلة في إقفال آخر الشهر.",
+     "ex2": "We'll record it as a pending item.",
+     "ar2": "هنسجله كبند معلق."
+    },
+    {
+     "w": "serious problem",
+     "ex": "Losing three batteries every month would be a serious problem.",
+     "ar": "لو بنخسر 3 بطاريات كل شهر دي هتبقى مشكلة كبيرة.",
+     "ex2": "We would need a full stock audit.",
+     "ar2": "هنحتاج جرد كامل للمخزون."
+    },
+    {
+     "w": "crisis",
+     "ex": "A cash crisis on payday would badly hurt staff trust.",
+     "ar": "أزمة سيولة يوم القبض هتضر ثقة الموظفين جامد.",
+     "ex2": "That's why we plan cash every week.",
+     "ar2": "عشان كده بنخطط للسيولة كل أسبوع."
+    }
+   ]
+  },
+  "ctx": "Three batteries went to the hospital without a delivery note. Please ask the service team to issue it today.",
+  "ctx_ar": "تلات بطاريات راحوا المستشفى من غير إذن تسليم. من فضلك خلي فريق الخدمة يطلّعه النهارده.",
+  "quiz": [
+   {
+    "s": "The ___ of the guarantee is Nile Commercial Bank.",
+    "opts": [
+     "reissue",
+     "issue",
+     "issuer"
+    ],
+    "a": 2,
+    "ar": "الجهة المصدرة للضمان هي ‎Nile Commercial Bank‎."
+   },
+   {
+    "s": "We ___ e-invoices through the tax portal within 24 hours.",
+    "opts": [
+     "issuer",
+     "issue",
+     "reissue"
+    ],
+    "a": 1,
+    "ar": "بنطلع الفواتير الإلكترونية على بوابة الضرايب خلال 24 ساعة."
+   },
+   {
+    "s": "There's a ___ with the invoice date, but it won't delay payment.",
+    "opts": [
+     "minor issue",
+     "crisis",
+     "serious problem"
+    ],
+    "a": 0,
+    "ar": "فيه مشكلة صغيرة في تاريخ الفاتورة، بس مش هتأخر الدفع."
+   }
+  ]
+ },
+ {
+  "w": "charge",
+  "ar": "يحمّل تكلفة / رسوم",
+  "book": "We will then charge the batteries to the Horizon Hospital contract.",
+  "family": [
+   {
+    "w": "charge",
+    "pos": "verb",
+    "ex": "We will charge the 3 batteries to the Horizon Hospital contract.",
+    "ar": "هنحمّل البطاريات التلاتة على عقد مستشفى ‎Horizon‎.",
+    "ex2": "They were used during a service visit.",
+    "ar2": "اتستخدموا في زيارة صيانة."
+   },
+   {
+    "w": "charge",
+    "pos": "noun",
+    "ex": "There's no charge for the first inspection visit.",
+    "ar": "مفيش رسوم على أول زيارة فحص.",
+    "ex2": "Repairs after that are billed per hour.",
+    "ar2": "التصليحات بعد كده بتتحاسب بالساعة."
+   },
+   {
+    "w": "chargeable",
+    "pos": "adjective",
+    "ex": "Battery replacements are chargeable under this contract.",
+    "ar": "تغيير البطاريات بيتحاسب عليه في العقد ده.",
+    "ex2": "Only labour is free of charge.",
+    "ar2": "المصنعية بس اللي ببلاش."
+   },
+   {
+    "w": "recharge",
+    "pos": "verb",
+    "ex": "The technician will recharge the batteries after the discharge test.",
+    "ar": "الفني هيشحن البطاريات تاني بعد اختبار التفريغ.",
+    "ex2": "A full recharge takes about eight hours.",
+    "ar2": "الشحن الكامل بياخد حوالي 8 ساعات."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "put a cost on an account or contract",
+    "mar": "يحمّل تكلفة على حساب",
+    "ex": "Charge the cable cost to the solar project.",
+    "ar": "حمّل تكلفة الكابلات على مشروع الطاقة الشمسية.",
+    "ex2": "It's not part of the maintenance contract.",
+    "ar2": "دي مش جزء من عقد الصيانة."
+   },
+   {
+    "m": "ask a price for a service",
+    "mar": "ياخد / يطلب سعر",
+    "ex": "We charge EGP 1,500 per emergency visit.",
+    "ar": "بناخد 1,500 جنيه على زيارة الطوارئ.",
+    "ex2": "Contract customers get two free visits a year.",
+    "ar2": "عملا العقود ليهم زيارتين مجانًا في السنة."
+   },
+   {
+    "m": "fill a battery with power",
+    "mar": "يشحن بطارية",
+    "ex": "Charge the new batteries fully before installation.",
+    "ar": "اشحن البطاريات الجديدة على الآخر قبل التركيب.",
+    "ex2": "A full charge protects their life.",
+    "ar2": "الشحن الكامل بيحافظ على عمرها."
+   },
+   {
+    "m": "be responsible for (in charge of)",
+    "mar": "مسؤول عن",
+    "ex": "Youssef is in charge of the month-end stock count.",
+    "ar": "يوسف مسؤول عن جرد آخر الشهر.",
+    "ex2": "He reports any difference to Accounts.",
+    "ar2": "بيبلّغ الحسابات بأي فرق."
+   }
+  ],
+  "syn": [
+   {
+    "w": "bill",
+    "note": "send an invoice to the customer",
+    "ex": "We'll bill the hospital for the batteries at month-end.",
+    "ar": "هنعمل فاتورة للمستشفى بالبطاريات آخر الشهر.",
+    "ex2": "The invoice will reference the maintenance contract.",
+    "ar2": "الفاتورة هتشير لعقد الصيانة."
+   },
+   {
+    "w": "fee",
+    "note": "fixed price for a service, e.g. a bank fee",
+    "ex": "The bank letter fee is EGP 250.",
+    "ar": "رسوم خطاب البنك 250 جنيه.",
+    "ex2": "It will be debited from our account.",
+    "ar2": "هتتخصم من حسابنا."
+   },
+   {
+    "w": "allocate",
+    "note": "accounting: assign a cost to a project or cost centre",
+    "ex": "Please allocate the overtime cost to the Horizon Hospital project.",
+    "ar": "من فضلك وزّع تكلفة الأوفر تايم على مشروع مستشفى ‎Horizon‎.",
+    "ex2": "The project manager wants the true cost.",
+    "ar2": "مدير المشروع عايز التكلفة الحقيقية."
+   }
+  ],
+  "ant": [
+   {
+    "w": "free of charge",
+    "ex": "The first inspection is free of charge for contract customers.",
+    "ar": "أول فحص مجاني لعملا العقود.",
+    "ex2": "Spare parts are still charged separately.",
+    "ar2": "قطع الغيار بتتحاسب لوحدها."
+   },
+   {
+    "w": "waive",
+    "ex": "We agreed to waive the visit charge because of our mistake.",
+    "ar": "وافقنا نلغي رسوم الزيارة عشان الغلطة كانت مننا.",
+    "ex2": "The customer was happy with that.",
+    "ar2": "العميل اتبسط من كده."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The 3 batteries were used at the hospital site. Once the delivery note is issued, we will charge them to the Horizon Hospital contract.",
+  "ctx_ar": "البطاريات التلاتة اتستخدموا في موقع المستشفى. أول ما إذن التسليم يطلع، هنحمّلهم على عقد مستشفى ‎Horizon‎.",
+  "quiz": [
+   {
+    "s": "Battery replacements are ___ under this contract.",
+    "opts": [
+     "charge",
+     "chargeable",
+     "recharge"
+    ],
+    "a": 1,
+    "ar": "تغيير البطاريات بيتحاسب عليه في العقد ده."
+   },
+   {
+    "s": "The technician will ___ the batteries after the test.",
+    "opts": [
+     "chargeable",
+     "fee",
+     "recharge"
+    ],
+    "a": 2,
+    "ar": "الفني هيشحن البطاريات تاني بعد الاختبار."
+   },
+   {
+    "s": "We won't send a bill; the first inspection is ___.",
+    "opts": [
+     "free of charge",
+     "chargeable",
+     "allocate"
+    ],
+    "a": 0,
+    "ar": "مش هنبعت فاتورة؛ أول فحص مجاني."
+   }
+  ]
+ },
+ {
+  "w": "record",
+  "ar": "يسجّل / سجل",
+  "book": "We can record the 3 batteries as a pending reconciliation item and close the month on time.",
+  "family": [
+   {
+    "w": "record",
+    "pos": "verb",
+    "ex": "Please record the bank fee in the cash book today.",
+    "ar": "من فضلك سجل رسوم البنك في دفتر النقدية النهارده.",
+    "ex2": "Small fees are easy to forget at month-end.",
+    "ar2": "الرسوم الصغيرة سهل تتنسي آخر الشهر."
+   },
+   {
+    "w": "record",
+    "pos": "noun",
+    "ex": "Keep a record of every battery that leaves the warehouse.",
+    "ar": "خلي سجل لكل بطارية بتخرج من المخزن.",
+    "ex2": "A delivery note is the best record.",
+    "ar2": "إذن التسليم هو أحسن سجل."
+   },
+   {
+    "w": "recording",
+    "pos": "noun",
+    "ex": "Recording of September invoices must finish by Friday.",
+    "ar": "تسجيل فواتير سبتمبر لازم يخلص قبل الجمعة.",
+    "ex2": "Late invoices go into October.",
+    "ar2": "الفواتير المتأخرة بتروح على أكتوبر."
+   },
+   {
+    "w": "recorded",
+    "pos": "adjective",
+    "ex": "The system shows 148 recorded batteries in stock.",
+    "ar": "السيستم بيبين 148 بطارية متسجلة في المخزون.",
+    "ex2": "But the physical count found only 145.",
+    "ar2": "بس الجرد الفعلي لقى 145 بس."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "write something in the accounts",
+    "mar": "يسجل في الحسابات",
+    "ex": "We recorded the 3 batteries as a pending item.",
+    "ar": "سجلنا البطاريات التلاتة كبند معلق.",
+    "ex2": "It will be cleared next month.",
+    "ar2": "هيتقفل الشهر الجاي."
+   },
+   {
+    "m": "files kept as proof",
+    "mar": "سجلات / ملفات",
+    "ex": "Keep all payroll records for at least five years.",
+    "ar": "احتفظ بكل سجلات المرتبات خمس سنين على الأقل.",
+    "ex2": "The tax office can ask for them anytime.",
+    "ar2": "مصلحة الضرايب ممكن تطلبها في أي وقت."
+   },
+   {
+    "m": "best result ever",
+    "mar": "رقم قياسي",
+    "ex": "September was a record month for UPS sales.",
+    "ar": "سبتمبر كان شهر قياسي في مبيعات الـ‎UPS‎.",
+    "ex2": "We sold 85 units in four weeks.",
+    "ar2": "بعنا 85 جهاز في 4 أسابيع."
+   }
+  ],
+  "syn": [
+   {
+    "w": "post",
+    "note": "accounting: enter a transaction into the ledger",
+    "ex": "Please post all September invoices before we close the period.",
+    "ar": "من فضلك رحّل كل فواتير سبتمبر قبل ما نقفل الفترة.",
+    "ex2": "After closing, nobody can post to September.",
+    "ar2": "بعد الإقفال، محدش يقدر يرحّل على سبتمبر."
+   },
+   {
+    "w": "log",
+    "note": "note events quickly, e.g. in a service system",
+    "ex": "Technicians log every site visit in the service system.",
+    "ar": "الفنيين بيسجلوا كل زيارة موقع في سيستم الخدمة.",
+    "ex2": "The log shows who took the batteries.",
+    "ar2": "السجل بيبين مين اللي خد البطاريات."
+   },
+   {
+    "w": "enter",
+    "note": "type data into a system",
+    "ex": "Sara will enter the supplier invoices into the ERP today.",
+    "ar": "سارة هتدخل فواتير الموردين على الـ‎ERP‎ النهارده.",
+    "ex2": "Each invoice needs a PO number.",
+    "ar2": "كل فاتورة محتاجة رقم أمر شراء."
+   }
+  ],
+  "ant": [
+   {
+    "w": "reverse",
+    "ex": "We will reverse the pending entry once the delivery note arrives.",
+    "ar": "هنعكس القيد المعلق أول ما إذن التسليم يوصل.",
+    "ex2": "Then we charge the batteries to the contract.",
+    "ar2": "وبعدين نحمّل البطاريات على العقد."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We can record the 3 batteries as a pending item. That way we close September on time and fix it next month.",
+  "ctx_ar": "نقدر نسجل البطاريات التلاتة كبند معلق. كده نقفل سبتمبر في ميعاده ونظبطها الشهر الجاي.",
+  "quiz": [
+   {
+    "s": "Keep a ___ of every battery that leaves the warehouse.",
+    "opts": [
+     "record",
+     "recording",
+     "recorded"
+    ],
+    "a": 0,
+    "ar": "خلي سجل لكل بطارية بتخرج من المخزن."
+   },
+   {
+    "s": "The system shows 148 ___ batteries.",
+    "opts": [
+     "record",
+     "recording",
+     "recorded"
+    ],
+    "a": 2,
+    "ar": "السيستم بيبين 148 بطارية متسجلة."
+   },
+   {
+    "s": "Please ___ all September invoices to the ledger before closing.",
+    "opts": [
+     "log",
+     "post",
+     "reverse"
+    ],
+    "a": 1,
+    "ar": "من فضلك رحّل كل فواتير سبتمبر على الدفتر قبل الإقفال."
+   }
+  ]
+ }
+]

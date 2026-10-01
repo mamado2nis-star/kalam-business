@@ -1,0 +1,620 @@
+[
+ {
+  "w": "arrange",
+  "ar": "يرتّب / ينظّم",
+  "book": "Thank you for arranging the pre-bid meeting.",
+  "family": [
+   {
+    "w": "arrange",
+    "pos": "verb",
+    "ex": "Could you arrange a site visit to the battery room next week?",
+    "ar": "ممكن ترتّب زيارة لغرفة البطاريات الأسبوع الجاي؟",
+    "ex2": "Please arrange security access for our three engineers.",
+    "ar2": "وياريت ترتّب تصريح دخول لمهندسينا التلاتة."
+   },
+   {
+    "w": "arrangement",
+    "pos": "noun",
+    "ex": "We made an arrangement with the client to service the UPS on Fridays.",
+    "ar": "اتفقنا مع العميل نعمل صيانة الـ‎UPS‎ يوم الجمعة.",
+    "ex2": "This arrangement avoids shutting down the data centre on workdays.",
+    "ar2": "الاتفاق ده بيمنع إننا نطفي الداتا سنتر في أيام الشغل."
+   },
+   {
+    "w": "arranged",
+    "pos": "adjective",
+    "ex": "The arranged delivery date for the inverters is 5 November.",
+    "ar": "ميعاد التسليم المتفق عليه للإنفرترات 5 نوفمبر.",
+    "ex2": "If the arranged date changes, please inform the warehouse.",
+    "ar2": "لو الميعاد المتفق عليه اتغير بلّغ المخزن."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "to organise a meeting, visit or event",
+    "mar": "ينظّم اجتماع أو زيارة",
+    "ex": "The hospital arranged a pre-bid meeting for all bidders.",
+    "ar": "المستشفى نظّمت اجتماع تمهيدي لكل المتقدمين.",
+    "ex2": "It was arranged in Building B at 10:00.",
+    "ar2": "اتعمل في مبنى ‎B‎ الساعة 10."
+   },
+   {
+    "m": "to make sure something happens (payment, transport)",
+    "mar": "يظبط / يدبّر حاجة تحصل",
+    "ex": "Finance will arrange payment of the supplier's invoice on Sunday.",
+    "ar": "الحسابات هتظبط دفع فاتورة المورد يوم الأحد.",
+    "ex2": "I also arranged a truck to collect the batteries.",
+    "ar2": "وأنا كمان ظبطت عربية نقل تاخد البطاريات."
+   }
+  ],
+  "syn": [
+   {
+    "w": "organise",
+    "note": "general word for planning events and tasks",
+    "ex": "HR will organise a safety training for the service team.",
+    "ar": "الـ‎HR‎ هتنظّم تدريب سلامة لفريق الصيانة.",
+    "ex2": "They organised it before the start of the solar project.",
+    "ar2": "نظّموه قبل بداية مشروع الطاقة الشمسية."
+   },
+   {
+    "w": "set up",
+    "note": "informal; used a lot for meetings and calls",
+    "ex": "Let's set up a call with the supplier about the late shipment.",
+    "ar": "يلا نعمل كول مع المورد بخصوص الشحنة المتأخرة.",
+    "ex2": "I will set up the meeting invite for 2 pm.",
+    "ar2": "أنا هعمل دعوة الاجتماع الساعة 2."
+   },
+   {
+    "w": "schedule",
+    "note": "fixing the exact date and time",
+    "ex": "We scheduled the UPS maintenance visit for 12 October.",
+    "ar": "حددنا زيارة صيانة الـ‎UPS‎ يوم 12 أكتوبر.",
+    "ex2": "The visit is scheduled outside working hours to avoid downtime.",
+    "ar2": "الزيارة متحددة برّه مواعيد الشغل عشان مفيش توقف."
+   }
+  ],
+  "ant": [
+   {
+    "w": "cancel",
+    "ex": "The client cancelled the site visit because the room was not ready.",
+    "ar": "العميل لغى زيارة الموقع لأن الغرفة مكانتش جاهزة.",
+    "ex2": "We asked them to cancel only if they give us a new date.",
+    "ar2": "طلبنا يلغوا بس لو هيدّونا ميعاد جديد."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our engineers need to see the battery room before pricing. Could you arrange a site visit on Monday or Tuesday morning?",
+  "ctx_ar": "مهندسينا محتاجين يشوفوا غرفة البطاريات قبل التسعير. ممكن ترتّبوا زيارة موقع يوم الاتنين أو التلات الصبح؟",
+  "quiz": [
+   {
+    "s": "Thank you for ___ the site visit so quickly.",
+    "opts": [
+     "arranging",
+     "arrangement",
+     "arranged"
+    ],
+    "a": 0,
+    "ar": "شكرًا إنك رتّبت زيارة الموقع بسرعة كده."
+   },
+   {
+    "s": "We have a special payment ___ with this customer.",
+    "opts": [
+     "arrange",
+     "arranged",
+     "arrangement"
+    ],
+    "a": 2,
+    "ar": "عندنا اتفاق دفع خاص مع العميل ده."
+   },
+   {
+    "s": "The visit is ___ for Tuesday at 10:00.",
+    "opts": [
+     "scheduled",
+     "cancel",
+     "organise"
+    ],
+    "a": 0,
+    "ar": "الزيارة متحددة يوم التلات الساعة 10."
+   }
+  ]
+ },
+ {
+  "w": "attend",
+  "ar": "يحضر",
+  "book": "We confirm that two representatives will attend: Eng. Mahmoud Adel and the undersigned.",
+  "family": [
+   {
+    "w": "attend",
+    "pos": "verb",
+    "ex": "Two of our engineers will attend the pre-bid meeting on Tuesday.",
+    "ar": "اتنين من مهندسينا هيحضروا الاجتماع التمهيدي يوم التلات.",
+    "ex2": "They will attend with their national IDs.",
+    "ar2": "هيحضروا ومعاهم بطاقاتهم."
+   },
+   {
+    "w": "attendance",
+    "pos": "noun",
+    "ex": "Attendance at the pre-bid meeting is not mandatory.",
+    "ar": "حضور الاجتماع التمهيدي مش إجباري.",
+    "ex2": "But attendance helps us understand the cable scope.",
+    "ar2": "بس الحضور بيساعدنا نفهم نطاق الكابلات."
+   },
+   {
+    "w": "attendee",
+    "pos": "person",
+    "ex": "Each attendee must sign the attendance sheet at the gate.",
+    "ar": "كل حاضر لازم يمضي كشف الحضور على البوابة.",
+    "ex2": "The list of attendees will be attached to the minutes.",
+    "ar2": "كشف الحاضرين هيترفق مع المحضر."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "join",
+    "note": "informal; common for calls and online meetings",
+    "ex": "Can you join the Teams call with the inverter supplier at 3?",
+    "ar": "ممكن تدخل كول التيمز مع مورد الإنفرتر الساعة 3؟",
+    "ex2": "Sara will join too, to discuss the warranty.",
+    "ar2": "سارة هتدخل كمان عشان نتكلم عن الضمان."
+   },
+   {
+    "w": "be present",
+    "note": "formal; often in minutes and legal texts",
+    "ex": "A bank representative must be present at the bid opening.",
+    "ar": "لازم مندوب من البنك يكون موجود في فتح المظاريف.",
+    "ex2": "Our engineer will also be present to note the prices.",
+    "ar2": "ومهندسنا هيكون موجود برضه عشان يسجّل الأسعار."
+   },
+   {
+    "w": "go to",
+    "note": "everyday spoken English",
+    "ex": "I will go to the Procurement Office to pay the fee.",
+    "ar": "هروح مكتب المشتريات أدفع الرسوم.",
+    "ex2": "Then I will go to the site to check the cable routes.",
+    "ar2": "بعدين هروح الموقع أشوف مسارات الكابلات."
+   }
+  ],
+  "ant": [
+   {
+    "w": "miss",
+    "ex": "We missed the pre-bid meeting because of traffic on the Ring Road.",
+    "ar": "فاتنا الاجتماع التمهيدي بسبب زحمة الدائري.",
+    "ex2": "Luckily, the minutes covered everything we missed.",
+    "ar2": "لحسن الحظ المحضر غطّى كل اللي فاتنا."
+   },
+   {
+    "w": "be absent",
+    "ex": "The site engineer will be absent on Monday, so we moved the visit.",
+    "ar": "مهندس الموقع هيغيب يوم الاتنين، فنقلنا الزيارة.",
+    "ex2": "Please tell us early if anyone will be absent.",
+    "ar2": "من فضلك بلّغنا بدري لو حد هيغيب."
+   }
+  ],
+  "ladder": {
+   "label": "how required attendance is",
+   "lar": "الحضور ملزم قد إيه",
+   "steps": [
+    {
+     "w": "optional",
+     "ex": "The training session on lithium batteries is optional.",
+     "ar": "جلسة تدريب بطاريات الليثيوم اختيارية.",
+     "ex2": "Optional, but we recommend it for new technicians.",
+     "ar2": "اختيارية، بس بننصح بيها للفنيين الجداد."
+    },
+    {
+     "w": "recommended",
+     "ex": "Attendance at the site visit is strongly recommended.",
+     "ar": "حضور زيارة الموقع منصوح بيه جدًا.",
+     "ex2": "It is recommended because no extra visits will be arranged.",
+     "ar2": "منصوح بيه لأن مفيش زيارات زيادة هتترتّب."
+    },
+    {
+     "w": "mandatory",
+     "ex": "Attendance at the safety briefing is mandatory for all contractors.",
+     "ar": "حضور شرح السلامة إجباري لكل المقاولين.",
+     "ex2": "Without it, the mandatory work permit will not be issued.",
+     "ar2": "من غيره تصريح الشغل الإجباري مش هيطلع."
+    }
+   ]
+  },
+  "ctx": "Two of our engineers will attend the pre-bid meeting on 13 October. Their names and national ID copies are attached.",
+  "ctx_ar": "اتنين من مهندسينا هيحضروا الاجتماع التمهيدي يوم 13 أكتوبر. أساميهم وصور بطايقهم مرفقة.",
+  "quiz": [
+   {
+    "s": "___ at the meeting is not mandatory.",
+    "opts": [
+     "Attend",
+     "Attendance",
+     "Attendee"
+    ],
+    "a": 1,
+    "ar": "الحضور في الاجتماع مش إجباري."
+   },
+   {
+    "s": "Safety training is ___, so every technician must come.",
+    "opts": [
+     "optional",
+     "recommended",
+     "mandatory"
+    ],
+    "a": 2,
+    "ar": "تدريب السلامة إجباري، فكل فني لازم يجي."
+   },
+   {
+    "s": "We ___ the meeting because our car broke down.",
+    "opts": [
+     "missed",
+     "attended",
+     "joined"
+    ],
+    "a": 0,
+    "ar": "الاجتماع فاتنا لأن العربية عطلت."
+   }
+  ]
+ },
+ {
+  "w": "representative",
+  "ar": "مندوب / ممثل",
+  "book": "Please note that each bidder may send a maximum of two representatives.",
+  "family": [
+   {
+    "w": "represent",
+    "pos": "verb",
+    "ex": "Eng. Mahmoud will represent our company at the bid opening.",
+    "ar": "م. محمود هيمثّل شركتنا في فتح المظاريف.",
+    "ex2": "He will represent us with a signed authorisation letter.",
+    "ar2": "هيمثّلنا بجواب تفويض متمضي."
+   },
+   {
+    "w": "representative",
+    "pos": "person",
+    "ex": "Our representative will collect the bid bonds from the bank.",
+    "ar": "مندوبنا هيستلم خطابات الضمان من البنك.",
+    "ex2": "Please give the representative a stamped receipt.",
+    "ar2": "من فضلك ادّي المندوب إيصال مختوم."
+   },
+   {
+    "w": "representation",
+    "pos": "noun",
+    "ex": "We have exclusive representation of the Italian UPS brand in Egypt.",
+    "ar": "إحنا الوكيل الحصري لماركة الـ‎UPS‎ الإيطالي في مصر.",
+    "ex2": "This representation lets us offer the official warranty.",
+    "ar2": "التوكيل ده بيخلّينا نقدّم الضمان الرسمي."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "delegate",
+    "note": "person sent to a meeting or conference",
+    "ex": "Each company may send two delegates to the energy conference.",
+    "ar": "كل شركة تقدر تبعت اتنين مندوبين لمؤتمر الطاقة.",
+    "ex2": "Our delegates will present the hybrid solar station.",
+    "ar2": "مندوبينا هيعرضوا محطة الطاقة الشمسية الهجينة."
+   },
+   {
+    "w": "agent",
+    "note": "acts commercially for a foreign manufacturer",
+    "ex": "We are the local agent for a German battery manufacturer.",
+    "ar": "إحنا الوكيل المحلي لمصنّع بطاريات ألماني.",
+    "ex2": "The agent handles imports, stock and warranty claims.",
+    "ar2": "الوكيل بيمسك الاستيراد والمخزون ومطالبات الضمان."
+   },
+   {
+    "w": "rep",
+    "note": "informal short form, usually a sales rep",
+    "ex": "Our sales rep visited the hospital to discuss the UPS upgrade.",
+    "ar": "مندوب المبيعات بتاعنا زار المستشفى عشان تحديث الـ‎UPS.‎",
+    "ex2": "The rep left a brochure and a budget quotation.",
+    "ar2": "المندوب ساب بروشور وعرض سعر مبدئي."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Each bidder may send two representatives to the site visit. Please email their names and ID copies by Sunday.",
+  "ctx_ar": "كل متقدم يقدر يبعت مندوبين اتنين لزيارة الموقع. ياريت تبعتوا أساميهم وصور بطايقهم بالإيميل قبل الأحد.",
+  "quiz": [
+   {
+    "s": "Our ___ will sign the attendance sheet.",
+    "opts": [
+     "represent",
+     "representative",
+     "representation"
+    ],
+    "a": 1,
+    "ar": "مندوبنا هيمضي كشف الحضور."
+   },
+   {
+    "s": "Who will ___ the company at the bid opening?",
+    "opts": [
+     "represent",
+     "representation",
+     "rep"
+    ],
+    "a": 0,
+    "ar": "مين هيمثّل الشركة في فتح المظاريف؟"
+   },
+   {
+    "s": "We are the official ___ of the manufacturer in Egypt.",
+    "opts": [
+     "delegate",
+     "rep",
+     "agent"
+    ],
+    "a": 2,
+    "ar": "إحنا الوكيل الرسمي للمصنّع في مصر."
+   }
+  ]
+ },
+ {
+  "w": "accurate",
+  "ar": "دقيق",
+  "book": "To prepare an accurate bid, we would like to request a site visit to the UPS and battery rooms in the new ICU and data-centre wing.",
+  "family": [
+   {
+    "w": "accurate",
+    "pos": "adjective",
+    "ex": "We need accurate room dimensions before we choose the UPS cabinets.",
+    "ar": "محتاجين مقاسات الغرفة بالظبط قبل ما نختار كبائن الـ‎UPS.‎",
+    "ex2": "An accurate drawing saves us a second visit.",
+    "ar2": "رسمة دقيقة بتوفّر علينا زيارة تانية."
+   },
+   {
+    "w": "accuracy",
+    "pos": "noun",
+    "ex": "Please check the accuracy of the quantities in the BOQ.",
+    "ar": "من فضلك راجع دقة الكميات في المقايسة.",
+    "ex2": "Poor accuracy here means losses later on the project.",
+    "ar2": "قلة الدقة هنا معناها خسارة بعدين في المشروع."
+   },
+   {
+    "w": "accurately",
+    "pos": "adverb",
+    "ex": "The meter measures the battery voltage accurately.",
+    "ar": "الجهاز ده بيقيس جهد البطارية بدقة.",
+    "ex2": "We can now accurately predict when the cells will fail.",
+    "ar2": "دلوقتي نقدر نتوقع بدقة إمتى الخلايا هتبوظ."
+   },
+   {
+    "w": "inaccurate",
+    "pos": "adjective",
+    "ex": "The load figures in the old report were inaccurate.",
+    "ar": "أرقام الأحمال في التقرير القديم كانت غلط.",
+    "ex2": "Inaccurate figures led us to undersize the UPS.",
+    "ar2": "الأرقام الغلط خلّتنا نختار ‎UPS‎ أصغر من اللازم."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "precise",
+    "note": "very exact, usually numbers or measurements",
+    "ex": "Please send the precise cable lengths from the UPS to the switchboard.",
+    "ar": "ابعت أطوال الكابلات بالظبط من الـ‎UPS‎ للوحة.",
+    "ex2": "Precise lengths help us avoid buying extra copper.",
+    "ar2": "الأطوال المظبوطة بتخلّينا مانشتريش نحاس زيادة."
+   },
+   {
+    "w": "correct",
+    "note": "simply has no mistakes",
+    "ex": "The invoice amount is now correct after the credit note.",
+    "ar": "مبلغ الفاتورة بقى صح بعد الإشعار الدائن.",
+    "ex2": "Please confirm the correct amount before we pay.",
+    "ar2": "من فضلك أكد المبلغ الصح قبل ما ندفع."
+   },
+   {
+    "w": "exact",
+    "note": "no difference at all from the real value",
+    "ex": "I need the exact delivery date for the solar panels.",
+    "ar": "محتاج ميعاد التسليم بالظبط للألواح الشمسية.",
+    "ex2": "The client wants the exact date for the crane booking.",
+    "ar2": "العميل عايز الميعاد بالظبط عشان يحجز الونش."
+   }
+  ],
+  "ant": [
+   {
+    "w": "inaccurate",
+    "ex": "An inaccurate BOQ can make our bid too high or too low.",
+    "ar": "مقايسة مش دقيقة ممكن تخلّي عرضنا عالي أوي أو واطي أوي.",
+    "ex2": "That is why we check inaccurate quantities with the client.",
+    "ar2": "عشان كده بنراجع الكميات الغلط مع العميل."
+   },
+   {
+    "w": "rough",
+    "ex": "This is only a rough estimate for the server room cooling.",
+    "ar": "ده مجرد تقدير تقريبي لتبريد غرفة السيرفرات.",
+    "ex2": "A rough figure is enough for the budget meeting.",
+    "ar2": "رقم تقريبي كفاية لاجتماع الميزانية."
+   }
+  ],
+  "ladder": {
+   "label": "how exact the figure is",
+   "lar": "الرقم مظبوط قد إيه",
+   "steps": [
+    {
+     "w": "rough",
+     "ex": "A rough price for the 200 kVA UPS is EGP 1.2 million.",
+     "ar": "سعر تقريبي للـ‎UPS 200 kVA‎ حوالي 1.2 مليون جنيه.",
+     "ex2": "It is rough because the battery brand is not fixed.",
+     "ar2": "تقريبي لأن ماركة البطاريات لسه متحددتش."
+    },
+    {
+     "w": "approximate",
+     "ex": "The approximate delivery time is 10 to 12 weeks.",
+     "ar": "مدة التوريد التقريبية من 10 لـ12 أسبوع.",
+     "ex2": "We will replace the approximate time with a firm date after the PO.",
+     "ar2": "هنبدّل المدة التقريبية بميعاد ثابت بعد أمر الشراء."
+    },
+    {
+     "w": "accurate",
+     "ex": "After the site visit, we sent an accurate quotation.",
+     "ar": "بعد زيارة الموقع بعتنا عرض سعر دقيق.",
+     "ex2": "It was accurate to the last metre of cable.",
+     "ar2": "كان دقيق لآخر متر كابل."
+    },
+    {
+     "w": "precise",
+     "ex": "The final drawing gives the precise position of each cabinet.",
+     "ar": "الرسمة النهائية فيها مكان كل كابينة بالظبط.",
+     "ex2": "Precise positions matter because the floor loading is limited.",
+     "ar2": "الأماكن المظبوطة مهمة لأن تحمّل الأرضية محدود."
+    }
+   ]
+  },
+  "ctx": "Our last quotation was based on old drawings. To make it accurate, we need to measure the battery room ourselves.",
+  "ctx_ar": "عرض السعر اللي فات كان مبني على رسومات قديمة. عشان يبقى دقيق محتاجين نقيس غرفة البطاريات بنفسنا.",
+  "quiz": [
+   {
+    "s": "Please check the ___ of the BOQ quantities.",
+    "opts": [
+     "accurate",
+     "accuracy",
+     "accurately"
+    ],
+    "a": 1,
+    "ar": "من فضلك راجع دقة كميات المقايسة."
+   },
+   {
+    "s": "This is only a ___ estimate; the final price may change.",
+    "opts": [
+     "precise",
+     "accurate",
+     "rough"
+    ],
+    "a": 2,
+    "ar": "ده تقدير تقريبي بس، والسعر النهائي ممكن يتغير."
+   },
+   {
+    "s": "The meter reads the voltage ___.",
+    "opts": [
+     "accurately",
+     "accurate",
+     "inaccurate"
+    ],
+    "a": 0,
+    "ar": "الجهاز بيقرا الجهد بدقة."
+   }
+  ]
+ },
+ {
+  "w": "impact",
+  "ar": "تأثير",
+  "book": "As this has a direct impact on the price, we would appreciate it if you could confirm the correct scope in Addendum No. 1.",
+  "family": [
+   {
+    "w": "impact",
+    "pos": "noun",
+    "ex": "The new customs fees will have a big impact on battery prices.",
+    "ar": "رسوم الجمارك الجديدة هيبقى ليها تأثير كبير على أسعار البطاريات.",
+    "ex2": "We must explain this impact to customers before renewal.",
+    "ar2": "لازم نشرح التأثير ده للعملا قبل التجديد."
+   },
+   {
+    "w": "impact",
+    "pos": "verb",
+    "ex": "The power cut impacted three servers in the client's data centre.",
+    "ar": "انقطاع الكهربا أثّر على تلات سيرفرات في داتا سنتر العميل.",
+    "ex2": "Luckily, it did not impact the hospital systems.",
+    "ar2": "لحسن الحظ ماأثّرش على أنظمة المستشفى."
+   },
+   {
+    "w": "impacted",
+    "pos": "adjective",
+    "ex": "Our engineers visited all impacted sites after the storm.",
+    "ar": "مهندسينا زاروا كل المواقع اللي اتأثرت بعد العاصفة.",
+    "ex2": "The impacted UPS units were back online by evening.",
+    "ar2": "وحدات الـ‎UPS‎ اللي اتأثرت رجعت تشتغل بالليل."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "effect",
+    "note": "general result of a change; slightly less strong",
+    "ex": "The new tariff had little effect on our solar sales.",
+    "ar": "التعريفة الجديدة كان تأثيرها بسيط على مبيعات الطاقة الشمسية.",
+    "ex2": "The effect may grow when prices rise next year.",
+    "ar2": "التأثير ممكن يزيد لما الأسعار تعلى السنة الجاية."
+   },
+   {
+    "w": "influence",
+    "note": "indirect power over decisions or people",
+    "ex": "The consultant has strong influence on the hospital's choice of UPS brand.",
+    "ar": "الاستشاري ليه تأثير قوي على اختيار المستشفى لماركة الـ‎UPS.‎",
+    "ex2": "We should present our solution to him early because of that influence.",
+    "ar2": "لازم نعرض حلّنا عليه بدري بسبب التأثير ده."
+   },
+   {
+    "w": "consequence",
+    "note": "usually a negative result that follows",
+    "ex": "One consequence of the late PO is a later delivery date.",
+    "ar": "من نتايج تأخير أمر الشراء إن التسليم هيتأخر.",
+    "ex2": "Please accept this consequence or approve air freight.",
+    "ar2": "ياريت تقبلوا النتيجة دي أو توافقوا على الشحن الجوي."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how big the impact is",
+   "lar": "التأثير كبير قد إيه",
+   "steps": [
+    {
+     "w": "minor impact",
+     "ex": "The change of cable colour has a minor impact on cost.",
+     "ar": "تغيير لون الكابل تأثيره بسيط على التكلفة.",
+     "ex2": "A minor impact like this does not need a revised quote.",
+     "ar2": "تأثير بسيط زي ده مش محتاج عرض سعر معدّل."
+    },
+    {
+     "w": "significant impact",
+     "ex": "The new floor loading limit has a significant impact on our layout.",
+     "ar": "حد تحمّل الأرضية الجديد له تأثير كبير على التوزيع بتاعنا.",
+     "ex2": "Because of this significant impact, we need new drawings.",
+     "ar2": "وبسبب التأثير الكبير ده محتاجين رسومات جديدة."
+    },
+    {
+     "w": "major impact",
+     "ex": "Removing the cables from Lot 1 has a major impact on the price.",
+     "ar": "شيل الكابلات من الـ‎Lot 1‎ له تأثير ضخم على السعر.",
+     "ex2": "With such a major impact, the scope must be confirmed in writing.",
+     "ar2": "مع تأثير ضخم كده لازم النطاق يتأكد كتابة."
+    }
+   ]
+  },
+  "ctx": "The minutes exclude the cables from Lot 1. This has a big impact on our price, so please confirm the scope.",
+  "ctx_ar": "المحضر شال الكابلات من الـ‎Lot 1.‎ ده له تأثير كبير على سعرنا، فياريت تأكدوا النطاق.",
+  "quiz": [
+   {
+    "s": "The delay ___ our delivery schedule for the solar station.",
+    "opts": [
+     "impact",
+     "impacted",
+     "influence"
+    ],
+    "a": 1,
+    "ar": "التأخير أثّر على جدول تسليم محطة الطاقة الشمسية."
+   },
+   {
+    "s": "A colour change has only a ___ on cost.",
+    "opts": [
+     "minor impact",
+     "major impact",
+     "significant impact"
+    ],
+    "a": 0,
+    "ar": "تغيير اللون تأثيره بسيط بس على التكلفة."
+   },
+   {
+    "s": "One ___ of the late payment is that the shipment is on hold.",
+    "opts": [
+     "influence",
+     "effect",
+     "consequence"
+    ],
+    "a": 2,
+    "ar": "من نتايج تأخير الدفع إن الشحنة متوقفة."
+   }
+  ]
+ }
+]

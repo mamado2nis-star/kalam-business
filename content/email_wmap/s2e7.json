@@ -1,0 +1,687 @@
+[
+ {
+  "w": "trip",
+  "ar": "يفصل (للحماية)",
+  "book": "We need your support with an ED-600 75 kW drive that keeps tripping at our client's pumping station.",
+  "family": [
+   {
+    "w": "trip",
+    "pos": "verb",
+    "ex": "The VFD trips every time the pump starts.",
+    "ar": "الـ‎VFD‎ بيفصل كل ما الطلمبة تشتغل.",
+    "ex2": "The fault code points to over-current.",
+    "ar2": "كود العطل بيقول إن فيه تيار زيادة."
+   },
+   {
+    "w": "trip",
+    "pos": "noun",
+    "ex": "We counted six trips on the drive this week.",
+    "ar": "عدّينا ست فصلات على الـ‎drive‎ الأسبوع ده.",
+    "ex2": "All of them happened in the afternoon heat.",
+    "ar2": "كلهم حصلوا في حر الضهر."
+   },
+   {
+    "w": "tripping",
+    "pos": "noun",
+    "ex": "Tripping of the main breaker stopped the chiller plant.",
+    "ar": "فصل البريكر الرئيسي وقّف محطة الـ‎chillers‎.",
+    "ex2": "The electrician found an overloaded cable.",
+    "ar2": "الكهربائي لقى كابل عليه حمل زيادة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "a device or breaker switches off for protection",
+    "mar": "جهاز أو بريكر يفصل عشان يحمي نفسه",
+    "ex": "The breaker tripped when we connected the second UPS.",
+    "ar": "البريكر فصل لما وصّلنا الـ‎UPS‎ التاني.",
+    "ex2": "Its rating was too small for the load.",
+    "ar2": "قدرته كانت صغيرة على الحمل."
+   },
+   {
+    "m": "a journey for work",
+    "mar": "مشوار أو سفرية شغل",
+    "ex": "The site trip to Aswan takes a full day.",
+    "ar": "مشوار الموقع لأسوان بياخد يوم كامل.",
+    "ex2": "We will check all three solar stations.",
+    "ar2": "هنكشف على التلات محطات شمسية."
+   }
+  ],
+  "syn": [
+   {
+    "w": "shut down",
+    "note": "stops, planned or not; trip is an automatic protection stop",
+    "ex": "The UPS shut down when the batteries dropped too low.",
+    "ar": "الـ‎UPS‎ قفل لما البطاريات نزلت قوي.",
+    "ex2": "Then the servers lost power.",
+    "ar2": "وبعدها السيرفرات فصلت."
+   },
+   {
+    "w": "cut out",
+    "note": "informal; power or a machine suddenly stops",
+    "ex": "The pump keeps cutting out after 40 minutes.",
+    "ar": "الطلمبة بتفصل كل 40 دقيقة.",
+    "ex2": "It starts again once it cools down.",
+    "ar2": "بترجع تشتغل أول ما تبرد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "reset",
+    "ex": "After cooling, the technician reset the drive from the keypad.",
+    "ar": "بعد ما برد، الفني عمل ‎reset‎ للـ‎drive‎ من الكيباد.",
+    "ex2": "It is running normally now.",
+    "ar2": "شغال عادي دلوقتي."
+   },
+   {
+    "w": "run",
+    "ex": "The drive should run all day without stopping.",
+    "ar": "المفروض الـ‎drive‎ يشتغل طول اليوم من غير ما يقف.",
+    "ex2": "Right now it stops every 40 minutes.",
+    "ar2": "دلوقتي بيقف كل 40 دقيقة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The 75 kW drive trips with fault F0034 after 40 minutes. We need your support to find the cause.",
+  "ctx_ar": "الـ‎drive‎ الـ75 ‎kW‎ بيفصل بعطل ‎F0034‎ بعد 40 دقيقة. محتاجين دعمكم عشان نعرف السبب.",
+  "quiz": [
+   {
+    "s": "We counted six ___ on the drive this week.",
+    "opts": [
+     "trip",
+     "trips",
+     "tripping"
+    ],
+    "a": 1,
+    "ar": "عدّينا ست فصلات على الـ‎drive‎ الأسبوع ده."
+   },
+   {
+    "s": "After cooling, the technician ___ the drive from the keypad, and it runs normally.",
+    "opts": [
+     "reset",
+     "tripped",
+     "cut out"
+    ],
+    "a": 0,
+    "ar": "بعد ما برد، الفني عمل ‎reset‎ للـ‎drive‎ من الكيباد، وهو شغال عادي."
+   },
+   {
+    "s": "The breaker ___ when we connected the second UPS.",
+    "opts": [
+     "ran",
+     "reset",
+     "tripped"
+    ],
+    "a": 2,
+    "ar": "البريكر فصل لما وصّلنا الـ‎UPS‎ التاني."
+   }
+  ]
+ },
+ {
+  "w": "inspect",
+  "ar": "يكشف على / يفحص",
+  "book": "Our engineer inspected the drive today, and the main cooling fan is not spinning at all.",
+  "family": [
+   {
+    "w": "inspect",
+    "pos": "verb",
+    "ex": "Our engineer will inspect the battery room on Monday.",
+    "ar": "المهندس بتاعنا هيكشف على أوضة البطاريات يوم الاتنين.",
+    "ex2": "He will check the temperature and the cables.",
+    "ar2": "هيشوف الحرارة والكابلات."
+   },
+   {
+    "w": "inspection",
+    "pos": "noun",
+    "ex": "The yearly inspection of the solar station is due in March.",
+    "ar": "الكشف السنوي على محطة الطاقة الشمسية ميعاده في مارس.",
+    "ex2": "We clean the panels during the same visit.",
+    "ar2": "بننضّف الألواح في نفس الزيارة."
+   },
+   {
+    "w": "inspector",
+    "pos": "person",
+    "ex": "The civil defence inspector checked the fire system in the UPS room.",
+    "ar": "مفتش الدفاع المدني كشف على نظام الحريق في أوضة الـ‎UPS‎.",
+    "ex2": "He asked for a new extinguisher.",
+    "ar2": "طلب طفاية جديدة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "check",
+    "note": "general and quick; the most common in emails",
+    "ex": "Could you check if the cooling fan is spinning?",
+    "ar": "ممكن تشوف مروحة التبريد بتلف ولا لأ؟",
+    "ex2": "If not, the drive will overheat.",
+    "ar2": "لو مش بتلف، الـ‎drive‎ هيسخن."
+   },
+   {
+    "w": "examine",
+    "note": "careful, detailed look, often by an expert",
+    "ex": "The supplier will examine the failed board in Italy.",
+    "ar": "المورّد هيفحص البورد البايظة في إيطاليا.",
+    "ex2": "Then they will decide on the warranty.",
+    "ar2": "وبعدها هيقرروا موضوع الضمان."
+   },
+   {
+    "w": "survey",
+    "note": "visit a site to measure and plan",
+    "ex": "We will survey the roof before quoting the solar system.",
+    "ar": "هنعاين السطح قبل ما نعمل عرض سعر للطاقة الشمسية.",
+    "ex2": "We need to know the area and the shade.",
+    "ar2": "محتاجين نعرف المساحة والضل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "overlook",
+    "ex": "During visits, we must not overlook the panel filters.",
+    "ar": "في الزيارات، لازم مانسهاش عن فلاتر اللوحة.",
+    "ex2": "Blocked filters can stop the air flow.",
+    "ar2": "الفلاتر المسدودة ممكن توقّف الهوا."
+   }
+  ],
+  "ladder": {
+   "label": "how deep the check is",
+   "lar": "الكشف عميق قد إيه",
+   "steps": [
+    {
+     "w": "look at",
+     "ex": "Can you look at the UPS display and tell me the alarm?",
+     "ar": "ممكن تبص على شاشة الـ‎UPS‎ وتقولي الإنذار إيه؟",
+     "ex2": "A photo would also help.",
+     "ar2": "صورة كمان هتساعد."
+    },
+    {
+     "w": "check",
+     "ex": "Please check the air temperature inside the panel.",
+     "ar": "من فضلك شوف درجة حرارة الهوا جوه اللوحة.",
+     "ex2": "Use a small thermometer.",
+     "ar2": "استخدم ترمومتر صغير."
+    },
+    {
+     "w": "inspect",
+     "ex": "We inspected every fan and filter in the panel.",
+     "ar": "كشفنا على كل مروحة وفلتر في اللوحة.",
+     "ex2": "Only the main fan had failed.",
+     "ar2": "المروحة الرئيسية بس اللي كانت بايظة."
+    },
+    {
+     "w": "test",
+     "ex": "Finally, we tested the drive under full load for two hours.",
+     "ar": "في الآخر، اختبرنا الـ‎drive‎ على حمل كامل ساعتين.",
+     "ex2": "It did not trip once.",
+     "ar2": "مافصلش ولا مرة."
+    }
+   ]
+  },
+  "ctx": "Our engineer inspected the drive today. The main cooling fan is not spinning, and the panel is at 41°C.",
+  "ctx_ar": "المهندس بتاعنا كشف على الـ‎drive‎ النهارده. مروحة التبريد الرئيسية مش بتلف، واللوحة حرارتها 41 درجة.",
+  "quiz": [
+   {
+    "s": "The yearly ___ of the solar station is due in March.",
+    "opts": [
+     "inspect",
+     "inspection",
+     "inspector"
+    ],
+    "a": 1,
+    "ar": "الكشف السنوي على المحطة الشمسية ميعاده في مارس."
+   },
+   {
+    "s": "The civil defence ___ checked the fire system.",
+    "opts": [
+     "inspector",
+     "inspection",
+     "inspect"
+    ],
+    "a": 0,
+    "ar": "مفتش الدفاع المدني كشف على نظام الحريق."
+   },
+   {
+    "s": "We will ___ the roof before quoting the solar system.",
+    "opts": [
+     "overlook",
+     "examine",
+     "survey"
+    ],
+    "a": 2,
+    "ar": "هنعاين السطح قبل ما نعمل عرض سعر للطاقة الشمسية."
+   }
+  ]
+ },
+ {
+  "w": "analysis",
+  "ar": "تحليل",
+  "book": "Thank you for your quick analysis.",
+  "family": [
+   {
+    "w": "analyse",
+    "pos": "verb",
+    "ex": "Our team will analyse the fault log from the keypad.",
+    "ar": "فريقنا هيحلّل لوج الأعطال من الكيباد.",
+    "ex2": "It shows every trip with time and temperature.",
+    "ar2": "بيبيّن كل فصلة بالوقت والحرارة."
+   },
+   {
+    "w": "analysis",
+    "pos": "noun",
+    "ex": "The supplier's analysis showed a cooling problem.",
+    "ar": "تحليل المورّد بيّن إن فيه مشكلة تبريد.",
+    "ex2": "The fan had stopped.",
+    "ar2": "المروحة كانت واقفة."
+   },
+   {
+    "w": "analyst",
+    "pos": "person",
+    "ex": "Our data analyst compares battery failures across all sites.",
+    "ar": "محلل البيانات عندنا بيقارن أعطال البطاريات في كل المواقع.",
+    "ex2": "Hot rooms show the most failures.",
+    "ar2": "الأوض السخنة فيها أكتر أعطال."
+   },
+   {
+    "w": "analytical",
+    "pos": "adjective",
+    "ex": "Good service engineers need strong analytical skills.",
+    "ar": "مهندسين الخدمة الشاطرين محتاجين مهارات تحليل قوية.",
+    "ex2": "They must read logs, not only replace parts.",
+    "ar2": "لازم يقروا اللوجز، مش يغيّروا قطع وبس."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "diagnosis",
+    "note": "finding the technical cause of a fault",
+    "ex": "The diagnosis was a failed fan, not a bad power board.",
+    "ar": "التشخيص كان مروحة بايظة، مش باور بورد بايظة.",
+    "ex2": "That saved the client a lot of money.",
+    "ar2": "ده وفّر على العميل فلوس كتير."
+   },
+   {
+    "w": "assessment",
+    "note": "judging a situation, a value or a risk",
+    "ex": "We sent a risk assessment before the battery replacement.",
+    "ar": "بعتنا تقييم للمخاطر قبل تغيير البطاريات.",
+    "ex2": "It explains each step and the backup plan.",
+    "ar2": "بيشرح كل خطوة وخطة الطوارئ."
+   },
+   {
+    "w": "evaluation",
+    "note": "formal; judging quality or performance",
+    "ex": "Our evaluation of the two inverter brands is attached.",
+    "ar": "مرفق تقييمنا لماركتين الإنفرتر.",
+    "ex2": "Brand A has better efficiency.",
+    "ar2": "الماركة ‎A‎ كفاءتها أحسن."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how deep the study is",
+   "lar": "الدراسة عميقة قد إيه",
+   "steps": [
+    {
+     "w": "quick look",
+     "ex": "I had a quick look at the photos you sent.",
+     "ar": "بصّيت بصة سريعة على الصور اللي بعتها.",
+     "ex2": "The fan seems to be stopped.",
+     "ar2": "المروحة شكلها واقفة."
+    },
+    {
+     "w": "analysis",
+     "ex": "Our analysis of the log points to overheating.",
+     "ar": "تحليلنا للوج بيشاور على سخونية زيادة.",
+     "ex2": "The current was only 60%.",
+     "ar2": "التيار كان 60% بس."
+    },
+    {
+     "w": "in-depth analysis",
+     "ex": "The factory will do an in-depth analysis of the old fan.",
+     "ar": "المصنع هيعمل تحليل مفصّل للمروحة القديمة.",
+     "ex2": "They want to know why it failed so early.",
+     "ar2": "عايزين يعرفوا ليه باظت بدري كده."
+    }
+   ]
+  },
+  "ctx": "Thank you for your quick analysis. The fan is not spinning, just as the log suggested.",
+  "ctx_ar": "شكرًا على تحليلك السريع. المروحة مش بتلف، زي ما اللوج كان بيقول بالظبط.",
+  "quiz": [
+   {
+    "s": "Our team will ___ the fault log.",
+    "opts": [
+     "analysis",
+     "analyse",
+     "analyst"
+    ],
+    "a": 1,
+    "ar": "فريقنا هيحلّل لوج الأعطال."
+   },
+   {
+    "s": "Good engineers need strong ___ skills.",
+    "opts": [
+     "analytical",
+     "analysis",
+     "analyst"
+    ],
+    "a": 0,
+    "ar": "المهندسين الشاطرين محتاجين مهارات تحليل قوية."
+   },
+   {
+    "s": "The ___ was a failed fan, not a bad power board.",
+    "opts": [
+     "evaluation",
+     "assessment",
+     "diagnosis"
+    ],
+    "a": 2,
+    "ar": "التشخيص كان مروحة بايظة، مش باور بورد بايظة."
+   }
+  ]
+ },
+ {
+  "w": "confirm",
+  "ar": "يأكّد",
+  "book": "The video confirms that the fan has failed.",
+  "family": [
+   {
+    "w": "confirm",
+    "pos": "verb",
+    "ex": "Please confirm the delivery address for the battery cabinet.",
+    "ar": "من فضلك أكّد عنوان التسليم لكابينة البطاريات.",
+    "ex2": "The driver leaves at 8 am.",
+    "ar2": "السواق هيتحرك الساعة 8 الصبح."
+   },
+   {
+    "w": "confirmation",
+    "pos": "noun",
+    "ex": "We are waiting for your order confirmation before we ship.",
+    "ar": "مستنيين تأكيد الأوردر منكم قبل ما نشحن.",
+    "ex2": "Please sign and stamp the PO.",
+    "ar2": "من فضلك امضي واختم الـ‎PO‎."
+   },
+   {
+    "w": "confirmed",
+    "pos": "adjective",
+    "ex": "The confirmed date for the UPS installation is 3 November.",
+    "ar": "الميعاد المؤكد لتركيب الـ‎UPS‎ هو 3 نوفمبر.",
+    "ex2": "Our team will arrive at 9 am.",
+    "ar2": "فريقنا هيوصل الساعة 9 الصبح."
+   },
+   {
+    "w": "unconfirmed",
+    "pos": "adjective",
+    "ex": "The shipping date is still unconfirmed by the factory.",
+    "ar": "ميعاد الشحن لسه المصنع ماأكّدوش.",
+    "ex2": "We expect news by Thursday.",
+    "ar2": "متوقعين أخبار قبل الخميس."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "say that a plan or detail is final",
+    "mar": "تثبّت ميعاد أو تفصيلة",
+    "ex": "Can you confirm 10:00 for the site visit?",
+    "ar": "ممكن تأكّد الساعة 10 لزيارة الموقع؟",
+    "ex2": "Our engineer needs to plan his day.",
+    "ar2": "المهندس بتاعنا محتاج يرتّب يومه."
+   },
+   {
+    "m": "show that something is true",
+    "mar": "تثبت إن حاجة صح",
+    "ex": "The test confirmed that the batteries are weak.",
+    "ar": "الاختبار أكّد إن البطاريات ضعيفة.",
+    "ex2": "Three blocks were below 11 volts.",
+    "ar2": "تلات بلوكات كانوا تحت 11 فولت."
+   }
+  ],
+  "syn": [
+   {
+    "w": "verify",
+    "note": "check carefully that something is correct",
+    "ex": "Please verify the serial numbers before sending the RMA.",
+    "ar": "من فضلك راجع الأرقام التسلسلية قبل ما تبعت الـ‎RMA‎.",
+    "ex2": "One wrong digit can delay the claim.",
+    "ar2": "رقم واحد غلط ممكن يأخّر الكليم."
+   },
+   {
+    "w": "acknowledge",
+    "note": "say you received something; not that you agree",
+    "ex": "Please acknowledge receipt of our PO.",
+    "ar": "من فضلك أكّد إنك استلمت الـ‎PO‎ بتاعنا.",
+    "ex2": "A short reply is enough.",
+    "ar2": "رد قصير كفاية."
+   },
+   {
+    "w": "prove",
+    "note": "strong evidence that leaves no doubt",
+    "ex": "The video proves that the fan is not spinning.",
+    "ar": "الفيديو بيثبت إن المروحة مش بتلف.",
+    "ex2": "The supplier approved the claim at once.",
+    "ar2": "المورّد وافق على الكليم على طول."
+   }
+  ],
+  "ant": [
+   {
+    "w": "deny",
+    "ex": "The supplier may deny that the fault is a manufacturing defect.",
+    "ar": "المورّد ممكن ينفي إن العطل عيب صناعة.",
+    "ex2": "They may say the room was too hot.",
+    "ar2": "ممكن يقولوا إن الأوضة كانت سخنة قوي."
+   }
+  ],
+  "ladder": {
+   "label": "how sure it is",
+   "lar": "متأكدين قد إيه",
+   "steps": [
+    {
+     "w": "suggest",
+     "ex": "The log suggests a cooling problem.",
+     "ar": "اللوج بيلمّح لمشكلة في التبريد.",
+     "ex2": "We still need to check the fan.",
+     "ar2": "لسه لازم نكشف على المروحة."
+    },
+    {
+     "w": "indicate",
+     "ex": "The high heatsink temperature indicates a fan fault.",
+     "ar": "حرارة الـ‎heatsink‎ العالية بتدل على عطل في المروحة.",
+     "ex2": "The current is only 60%.",
+     "ar2": "التيار 60% بس."
+    },
+    {
+     "w": "confirm",
+     "ex": "The site test confirms that the fan has stopped completely.",
+     "ar": "اختبار الموقع بيأكّد إن المروحة واقفة خالص.",
+     "ex2": "Now we can claim the part.",
+     "ar2": "دلوقتي نقدر نطالب بالقطعة."
+    }
+   ]
+  },
+  "ctx": "The video confirms that the fan has failed. Please confirm the AWB number so we can track the parcel.",
+  "ctx_ar": "الفيديو بيأكّد إن المروحة باظت. من فضلك أكّد رقم الـ‎AWB‎ عشان نتابع الطرد.",
+  "quiz": [
+   {
+    "s": "We are waiting for your order ___.",
+    "opts": [
+     "confirm",
+     "confirmation",
+     "confirmed"
+    ],
+    "a": 1,
+    "ar": "مستنيين تأكيد الأوردر منكم."
+   },
+   {
+    "s": "The shipping date is still ___.",
+    "opts": [
+     "unconfirmed",
+     "confirmed",
+     "confirmation"
+    ],
+    "a": 0,
+    "ar": "ميعاد الشحن لسه مش متأكد."
+   },
+   {
+    "s": "The log ___ a cooling problem, but we must check the fan first.",
+    "opts": [
+     "confirms",
+     "proves",
+     "suggests"
+    ],
+    "a": 2,
+    "ar": "اللوج بيلمّح لمشكلة تبريد، بس لازم نكشف على المروحة الأول."
+   }
+  ]
+ },
+ {
+  "w": "claim",
+  "ar": "يطالب بـ / طلب (ضمان)",
+  "book": "As the drive is only eight months old, we would like to claim a replacement fan under warranty.",
+  "family": [
+   {
+    "w": "claim",
+    "pos": "verb",
+    "ex": "We would like to claim a new battery under warranty.",
+    "ar": "حابين نطالب ببطارية جديدة تحت الضمان.",
+    "ex2": "It failed after only four months.",
+    "ar2": "باظت بعد أربع شهور بس."
+   },
+   {
+    "w": "claim",
+    "pos": "noun",
+    "ex": "The supplier approved our warranty claim within two days.",
+    "ar": "المورّد وافق على طلب الضمان بتاعنا في خلال يومين.",
+    "ex2": "The new fan ships today by DHL.",
+    "ar2": "المروحة الجديدة هتتشحن النهارده ‎DHL‎."
+   },
+   {
+    "w": "claimant",
+    "pos": "person",
+    "ex": "The claimant must send photos of the serial label.",
+    "ar": "صاحب الطلب لازم يبعت صور الليبل اللي عليه السيريال.",
+    "ex2": "Without them, the claim is not processed.",
+    "ar2": "من غيرها، الطلب مش هيمشي."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "ask for something you have a right to",
+    "mar": "تطلب حاجة من حقك",
+    "ex": "We will claim the freight cost back from the supplier.",
+    "ar": "هنطالب المورّد بمصاريف الشحن.",
+    "ex2": "The fault was their mistake.",
+    "ar2": "العطل كان غلطتهم."
+   },
+   {
+    "m": "say something is true, without proof yet",
+    "mar": "تقول إن حاجة صح من غير إثبات",
+    "ex": "The client claims the UPS was never tested.",
+    "ar": "العميل بيقول إن الـ‎UPS‎ عمره ما اتختبر.",
+    "ex2": "Our commissioning report shows a full load test.",
+    "ar2": "تقرير التشغيل بتاعنا فيه اختبار حمل كامل."
+   }
+  ],
+  "syn": [
+   {
+    "w": "request",
+    "note": "polite general ask; no right implied",
+    "ex": "We request a replacement fan by express courier.",
+    "ar": "بنطلب مروحة بديلة بشحن سريع.",
+    "ex2": "The pumps are running at reduced flow.",
+    "ar2": "الطلمبات شغالة بتصرف أقل."
+   },
+   {
+    "w": "demand",
+    "note": "strong and forceful; use carefully with clients",
+    "ex": "The client demanded compensation for the downtime.",
+    "ar": "العميل طالب بتعويض عن وقت التوقف.",
+    "ex2": "We offered a service credit instead.",
+    "ar2": "عرضنا خصم خدمة بداله."
+   }
+  ],
+  "ant": [
+   {
+    "w": "waive",
+    "ex": "We will waive the claim for freight costs this time.",
+    "ar": "هنتنازل عن مطالبة مصاريف الشحن المرة دي.",
+    "ex2": "We value our long relationship.",
+    "ar2": "إحنا مقدّرين علاقتنا الطويلة."
+   },
+   {
+    "w": "reject",
+    "ex": "They may reject the claim if the panel was too hot.",
+    "ar": "ممكن يرفضوا الطلب لو اللوحة كانت سخنة زيادة.",
+    "ex2": "So we must show the room temperature was normal.",
+    "ar2": "فلازم نثبت إن حرارة الأوضة كانت عادية."
+   }
+  ],
+  "ladder": {
+   "label": "how strongly you ask",
+   "lar": "بتطلب بقوة قد إيه",
+   "steps": [
+    {
+     "w": "ask for",
+     "ex": "Can we ask for an express shipment of the fan?",
+     "ar": "ينفع نطلب شحن سريع للمروحة؟",
+     "ex2": "It is a small parcel.",
+     "ar2": "ده طرد صغير."
+    },
+    {
+     "w": "request",
+     "ex": "We formally request a replacement under warranty.",
+     "ar": "بنطلب رسميًا بديل تحت الضمان.",
+     "ex2": "Please find the log attached.",
+     "ar2": "مرفق اللوج."
+    },
+    {
+     "w": "claim",
+     "ex": "We claim the full cost of the failed unit.",
+     "ar": "بنطالب بالتكلفة الكاملة للجهاز البايظ.",
+     "ex2": "It failed within the warranty period.",
+     "ar2": "باظ جوه فترة الضمان."
+    },
+    {
+     "w": "demand",
+     "ex": "The client demands a refund if the unit fails again.",
+     "ar": "العميل بيطالب بفلوسه لو الجهاز باظ تاني.",
+     "ex2": "We must fix it properly this time.",
+     "ar2": "لازم نصلّحه صح المرة دي."
+    }
+   ]
+  },
+  "ctx": "The drive is only eight months old, so we would like to claim the fan under warranty. Could you ship it by express courier?",
+  "ctx_ar": "الـ‎drive‎ عمره تمن شهور بس، فحابين نطالب بالمروحة تحت الضمان. ممكن تشحنوها بشحن سريع؟",
+  "quiz": [
+   {
+    "s": "The supplier approved our warranty ___ within two days.",
+    "opts": [
+     "claimant",
+     "claim",
+     "waive"
+    ],
+    "a": 1,
+    "ar": "المورّد وافق على طلب الضمان بتاعنا في خلال يومين."
+   },
+   {
+    "s": "The ___ must send photos of the serial label.",
+    "opts": [
+     "claimant",
+     "claim",
+     "request"
+    ],
+    "a": 0,
+    "ar": "صاحب الطلب لازم يبعت صور ليبل السيريال."
+   },
+   {
+    "s": "As a goodwill gesture, we will ___ the freight claim this time.",
+    "opts": [
+     "claim",
+     "demand",
+     "waive"
+    ],
+    "a": 2,
+    "ar": "كبادرة حسن نية، هنتنازل عن مطالبة الشحن المرة دي."
+   }
+  ]
+ }
+]

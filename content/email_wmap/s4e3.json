@@ -1,0 +1,610 @@
+[
+ {
+  "w": "advance",
+  "ar": "سلفة / مقدّم",
+  "book": "I would like to request a salary advance of EGP 30,000.",
+  "family": [
+   {
+    "w": "advance",
+    "pos": "noun",
+    "ex": "Ahmed asked for an advance to pay a hospital bill.",
+    "ar": "أحمد طلب سلفة عشان يدفع فاتورة مستشفى.",
+    "ex2": "It will be repaid from his salary over six months.",
+    "ar2": "هتتسدد من مرتبه على 6 شهور."
+   },
+   {
+    "w": "advance",
+    "pos": "verb",
+    "ex": "The company can advance up to two months of basic salary.",
+    "ar": "الشركة ممكن تسلّف لحد شهرين من المرتب الأساسي.",
+    "ex2": "Anything above that needs the Finance Director's approval.",
+    "ar2": "أي حاجة أكتر من كده محتاجة موافقة المدير المالي."
+   },
+   {
+    "w": "advanced",
+    "pos": "adjective",
+    "ex": "Our technicians attended an advanced training on VFD repair.",
+    "ar": "الفنيين بتوعنا حضروا تدريب متقدم على تصليح الـ‎VFD‎.",
+    "ex2": "Now they can fix control cards in our workshop.",
+    "ar2": "دلوقتي يقدروا يصلحوا كروت الكنترول في الورشة."
+   },
+   {
+    "w": "in advance",
+    "pos": "adverb",
+    "ex": "The hospital asked for payment in advance before the operation.",
+    "ar": "المستشفى طلبت الدفع مقدم قبل العملية.",
+    "ex2": "So the money must arrive by Sunday.",
+    "ar2": "فالفلوس لازم توصل قبل الأحد."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "money paid to an employee before payday",
+    "mar": "سلفة من المرتب",
+    "ex": "Salary advances are repaid in monthly instalments.",
+    "ar": "سلف المرتبات بتتسدد على أقساط شهرية.",
+    "ex2": "The deduction shows on the payslip.",
+    "ar2": "الخصم بيظهر في قسيمة المرتب."
+   },
+   {
+    "m": "part of the price paid before delivery",
+    "mar": "دفعة مقدمة",
+    "ex": "The customer paid a 30% advance on the solar station.",
+    "ar": "العميل دفع 30% مقدم على محطة الطاقة الشمسية.",
+    "ex2": "We use it to order the panels from the supplier.",
+    "ar2": "بنستخدمها عشان نطلب الألواح من المورد."
+   },
+   {
+    "m": "before the time (in advance)",
+    "mar": "قبلها / مقدمًا",
+    "ex": "Please book the crane two days in advance.",
+    "ar": "من فضلك احجز الونش قبلها بيومين.",
+    "ex2": "The site needs it for the transformer delivery.",
+    "ar2": "الموقع محتاجه لتوريد المحول."
+   }
+  ],
+  "syn": [
+   {
+    "w": "loan",
+    "note": "usually bigger, often from a bank, with interest",
+    "ex": "The company took a bank loan to import the inverters.",
+    "ar": "الشركة خدت قرض من البنك عشان تستورد الإنفرترات.",
+    "ex2": "The loan has 12% interest and two years to repay.",
+    "ar2": "القرض فايدته 12% وسداده على سنتين."
+   },
+   {
+    "w": "prepayment",
+    "note": "formal; paying a supplier before shipment or due date",
+    "ex": "VoltTech asks for a 30% prepayment on every order.",
+    "ar": "‎VoltTech‎ بتطلب دفعة مقدمة 30% على كل أوردر.",
+    "ex2": "The rest is paid before shipment.",
+    "ar2": "والباقي بيتدفع قبل الشحن."
+   },
+   {
+    "w": "down payment",
+    "note": "first part paid when buying a big item or project",
+    "ex": "The hospital made a down payment of EGP 500,000 on the UPS project.",
+    "ar": "المستشفى دفعت مقدم 500,000 جنيه على مشروع الـ‎UPS‎.",
+    "ex2": "The balance is due after commissioning.",
+    "ar2": "والباقي مستحق بعد التشغيل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "in arrears",
+    "ex": "Rent for the warehouse is paid in arrears at the end of each month.",
+    "ar": "إيجار المخزن بيتدفع متأخر آخر كل شهر.",
+    "ex2": "So September's rent goes out on 30 September.",
+    "ar2": "فإيجار سبتمبر بيخرج يوم 30 سبتمبر."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Ahmed asked for a salary advance of EGP 30,000. Our policy allows EGP 24,000, repaid over six months.",
+  "ctx_ar": "أحمد طلب سلفة 30,000 جنيه. السياسة بتاعتنا بتسمح بـ24,000 جنيه، تتسدد على 6 شهور.",
+  "quiz": [
+   {
+    "s": "The hospital wants the payment in ___.",
+    "opts": [
+     "advance",
+     "advanced",
+     "loan"
+    ],
+    "a": 0,
+    "ar": "المستشفى عايزة الدفع مقدم."
+   },
+   {
+    "s": "Our technicians took an ___ course on VFD repair.",
+    "opts": [
+     "advance",
+     "advanced",
+     "prepayment"
+    ],
+    "a": 1,
+    "ar": "الفنيين بتوعنا خدوا كورس متقدم في تصليح الـ‎VFD‎."
+   },
+   {
+    "s": "We took a bank ___ with 12% interest to import the inverters.",
+    "opts": [
+     "advance",
+     "down payment",
+     "loan"
+    ],
+    "a": 2,
+    "ar": "خدنا قرض من البنك بفايدة 12% عشان نستورد الإنفرترات."
+   }
+  ]
+ },
+ {
+  "w": "repay",
+  "ar": "يسدّد / يرجّع الفلوس",
+  "book": "I can repay the amount from my salary over six months.",
+  "family": [
+   {
+    "w": "repay",
+    "pos": "verb",
+    "ex": "Ahmed will repay the advance over six months.",
+    "ar": "أحمد هيسدد السلفة على 6 شهور.",
+    "ex2": "He can repay it faster if he wants.",
+    "ar2": "ويقدر يسددها أسرع لو عايز."
+   },
+   {
+    "w": "repayment",
+    "pos": "noun",
+    "ex": "The first repayment will be deducted from the October salary.",
+    "ar": "أول قسط سداد هيتخصم من مرتب أكتوبر.",
+    "ex2": "The last repayment is in March 2027.",
+    "ar2": "وآخر قسط في مارس 2027."
+   },
+   {
+    "w": "repayable",
+    "pos": "adjective",
+    "ex": "The bank loan is repayable in 24 monthly instalments.",
+    "ar": "قرض البنك بيتسدد على 24 قسط شهري.",
+    "ex2": "The first instalment is repayable next January.",
+    "ar2": "أول قسط مستحق السداد يناير الجاي."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "pay back",
+    "note": "informal; everyday spoken English",
+    "ex": "Can I pay back the advance in four months instead of six?",
+    "ar": "ينفع أرجّع السلفة في 4 شهور بدل 6؟",
+    "ex2": "Yes, the deduction will just be bigger each month.",
+    "ar2": "أيوه، الخصم بس هيبقى أكبر كل شهر."
+   },
+   {
+    "w": "settle",
+    "note": "pay the full amount of a bill or debt",
+    "ex": "Delta Pharma settled INV-0457 in full on 7 October.",
+    "ar": "‎Delta Pharma‎ سددوا ‎INV-0457‎ بالكامل يوم 7 أكتوبر.",
+    "ex2": "Now their account has no open invoices.",
+    "ar2": "دلوقتي حسابهم مفيهوش فواتير مفتوحة."
+   },
+   {
+    "w": "reimburse",
+    "note": "pay someone back money they spent for work",
+    "ex": "We will reimburse your taxi costs to the Alexandria site.",
+    "ar": "هنرجّعلك مصاريف التاكسي لموقع إسكندرية.",
+    "ex2": "Please attach the receipts to the expense form.",
+    "ar2": "من فضلك ارفق الإيصالات مع استمارة المصروفات."
+   }
+  ],
+  "ant": [
+   {
+    "w": "borrow",
+    "ex": "Ahmed had to borrow money for his mother's operation.",
+    "ar": "أحمد اضطر يستلف فلوس لعملية والدته.",
+    "ex2": "He borrowed it from the company, not from a bank.",
+    "ar2": "استلفها من الشركة، مش من البنك."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Ahmed can repay the advance from his salary. EGP 4,000 will be deducted each month for six months.",
+  "ctx_ar": "أحمد يقدر يسدد السلفة من مرتبه. هيتخصم 4,000 جنيه كل شهر لمدة 6 شهور.",
+  "quiz": [
+   {
+    "s": "The first ___ will come from your October salary.",
+    "opts": [
+     "repay",
+     "repayment",
+     "repayable"
+    ],
+    "a": 1,
+    "ar": "أول قسط هيتخصم من مرتب أكتوبر بتاعك."
+   },
+   {
+    "s": "The loan is ___ in 24 monthly instalments.",
+    "opts": [
+     "repayable",
+     "repayment",
+     "repay"
+    ],
+    "a": 0,
+    "ar": "القرض بيتسدد على 24 قسط شهري."
+   },
+   {
+    "s": "We will ___ your taxi costs; please attach the receipts.",
+    "opts": [
+     "borrow",
+     "settle",
+     "reimburse"
+    ],
+    "a": 2,
+    "ar": "هنرجّعلك مصاريف التاكسي؛ من فضلك ارفق الإيصالات."
+   }
+  ]
+ },
+ {
+  "w": "deduct",
+  "ar": "يخصم",
+  "book": "EGP 4,000 will be deducted from your salary each month, from October 2026 to March 2027.",
+  "family": [
+   {
+    "w": "deduct",
+    "pos": "verb",
+    "ex": "We deduct social insurance from every salary.",
+    "ar": "بنخصم التأمينات الاجتماعية من كل مرتب.",
+    "ex2": "The amount depends on the basic salary.",
+    "ar2": "المبلغ بيعتمد على المرتب الأساسي."
+   },
+   {
+    "w": "deduction",
+    "pos": "noun",
+    "ex": "You will see the deduction on your payslip as 'Salary advance'.",
+    "ar": "هتشوف الخصم في قسيمة المرتب باسم '‎Salary advance‎'.",
+    "ex2": "The deduction stops after March 2027.",
+    "ar2": "الخصم هيقف بعد مارس 2027."
+   },
+   {
+    "w": "deductible",
+    "pos": "adjective",
+    "ex": "Training costs for technicians are tax-deductible.",
+    "ar": "تكاليف تدريب الفنيين بتتخصم من الضرايب.",
+    "ex2": "Keep the invoices so they stay deductible.",
+    "ar2": "احتفظ بالفواتير عشان تفضل تتخصم."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "withhold",
+    "note": "keep back part of a payment, often tax",
+    "ex": "We withhold 1% tax from supplier payments as required by law.",
+    "ar": "بنحجز 1% ضريبة من مدفوعات الموردين زي ما القانون بيقول.",
+    "ex2": "The withheld tax is paid to the tax authority monthly.",
+    "ar2": "الضريبة المحجوزة بتتدفع لمصلحة الضرايب كل شهر."
+   },
+   {
+    "w": "subtract",
+    "note": "maths word: take one number from another",
+    "ex": "Subtract the advance from the total before you calculate tax.",
+    "ar": "اطرح السلفة من الإجمالي قبل ما تحسب الضريبة.",
+    "ex2": "Then check that the net salary is correct.",
+    "ar2": "وبعدين اتأكد إن صافي المرتب مظبوط."
+   },
+   {
+    "w": "take off",
+    "note": "informal; reduce a price, e.g. take 2% off",
+    "ex": "EuroDrive will take 2% off the invoice for early payment.",
+    "ar": "‎EuroDrive‎ هتشيل 2% من الفاتورة عشان الدفع بدري.",
+    "ex2": "That takes about EUR 330 off the total.",
+    "ar2": "ده بيشيل حوالي 330 يورو من الإجمالي."
+   }
+  ],
+  "ant": [
+   {
+    "w": "add",
+    "ex": "Please add the overtime to Ahmed's October salary.",
+    "ar": "من فضلك ضيف الأوفر تايم على مرتب أحمد في أكتوبر.",
+    "ex2": "He worked three Fridays at the hospital site.",
+    "ar2": "اشتغل 3 أيام جمعة في موقع المستشفى."
+   },
+   {
+    "w": "refund",
+    "ex": "We will refund the extra deduction in November.",
+    "ar": "هنرجّع الخصم الزيادة في نوفمبر.",
+    "ex2": "It was a mistake in the payroll system.",
+    "ar2": "كانت غلطة في سيستم المرتبات."
+   }
+  ],
+  "ladder": null,
+  "ctx": "EGP 4,000 will be deducted from Ahmed's salary every month. He will see it on his payslip as 'Salary advance'.",
+  "ctx_ar": "هيتخصم 4,000 جنيه من مرتب أحمد كل شهر. هيشوفه في قسيمة المرتب باسم '‎Salary advance‎'.",
+  "quiz": [
+   {
+    "s": "You will see the ___ on your payslip.",
+    "opts": [
+     "deduct",
+     "deduction",
+     "deductible"
+    ],
+    "a": 1,
+    "ar": "هتشوف الخصم في قسيمة المرتب بتاعتك."
+   },
+   {
+    "s": "Training costs are tax-___.",
+    "opts": [
+     "deduct",
+     "deduction",
+     "deductible"
+    ],
+    "a": 2,
+    "ar": "تكاليف التدريب بتتخصم من الضرايب."
+   },
+   {
+    "s": "We ___ 1% tax from supplier payments as required by law.",
+    "opts": [
+     "withhold",
+     "add",
+     "refund"
+    ],
+    "a": 0,
+    "ar": "بنحجز 1% ضريبة من مدفوعات الموردين زي ما القانون بيقول."
+   }
+  ]
+ },
+ {
+  "w": "approve",
+  "ar": "يوافق / يعتمد",
+  "book": "Good news, your advance has been approved.",
+  "family": [
+   {
+    "w": "approve",
+    "pos": "verb",
+    "ex": "Ms. Nadia can approve salary advances the same day.",
+    "ar": "أستاذة نادية تقدر توافق على السلف في نفس اليوم.",
+    "ex2": "Larger amounts need Mr. Hany to approve them too.",
+    "ar2": "المبالغ الأكبر محتاجة موافقة أستاذ هاني كمان."
+   },
+   {
+    "w": "approval",
+    "pos": "noun",
+    "ex": "The PO is waiting for the Finance Director's approval.",
+    "ar": "أمر الشراء مستني موافقة المدير المالي.",
+    "ex2": "After approval, Purchasing will send it to EuroDrive.",
+    "ar2": "بعد الموافقة، المشتريات هتبعته لـ‎EuroDrive‎."
+   },
+   {
+    "w": "approved",
+    "pos": "adjective",
+    "ex": "Please process only approved invoices this week.",
+    "ar": "من فضلك نفّذ الفواتير المعتمدة بس الأسبوع ده.",
+    "ex2": "Unapproved ones go back to the department head.",
+    "ar2": "اللي مش معتمدة ترجع لرئيس القسم."
+   },
+   {
+    "w": "approver",
+    "pos": "person",
+    "ex": "The system sends the request to the next approver automatically.",
+    "ar": "السيستم بيبعت الطلب للمعتمد اللي بعده أوتوماتيك.",
+    "ex2": "If the approver is on leave, it goes to his deputy.",
+    "ar2": "لو المعتمد في أجازة، بيروح لنائبه."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "sign off",
+    "note": "informal; give the final OK, often by signing",
+    "ex": "Eng. Mostafa signed off the advance form this morning.",
+    "ar": "الباشمهندس مصطفى مضى على استمارة السلفة النهارده الصبح.",
+    "ex2": "Now Accounts can process it.",
+    "ar2": "دلوقتي الحسابات تقدر تنفذها."
+   },
+   {
+    "w": "accept",
+    "note": "say yes to an offer you receive",
+    "ex": "Ahmed accepted the EGP 24,000 offer.",
+    "ar": "أحمد وافق على عرض الـ24,000 جنيه.",
+    "ex2": "His family will cover the rest of the hospital bill.",
+    "ar2": "عيلته هتغطي باقي فاتورة المستشفى."
+   },
+   {
+    "w": "endorse",
+    "note": "formal; publicly support a plan or policy",
+    "ex": "The board endorsed the new advance policy for all staff.",
+    "ar": "مجلس الإدارة أيّد سياسة السلف الجديدة لكل الموظفين.",
+    "ex2": "It starts on 1 January.",
+    "ar2": "هتبدأ 1 يناير."
+   }
+  ],
+  "ant": [
+   {
+    "w": "decline",
+    "ex": "Finance declined the advance because the employee already had one.",
+    "ar": "الحسابات رفضت السلفة عشان الموظف عنده واحدة أصلًا.",
+    "ex2": "He can apply again after it is repaid.",
+    "ar2": "يقدر يقدم تاني بعد ما يسددها."
+   }
+  ],
+  "ladder": {
+   "label": "how final the yes is",
+   "lar": "الموافقة نهائية قد إيه",
+   "steps": [
+    {
+     "w": "agree in principle",
+     "ex": "Mr. Hany agreed in principle to the early payment.",
+     "ar": "أستاذ هاني وافق مبدئيًا على الدفع بدري.",
+     "ex2": "He still wants to see the GRN first.",
+     "ar2": "بس لسه عايز يشوف إذن الاستلام الأول."
+    },
+    {
+     "w": "approve",
+     "ex": "He approved the payment after checking the documents.",
+     "ar": "وافق على الدفعة بعد ما راجع المستندات.",
+     "ex2": "Treasury can now prepare the transfer.",
+     "ar2": "الخزينة تقدر دلوقتي تجهز التحويل."
+    },
+    {
+     "w": "give final approval",
+     "ex": "The board will give final approval to the solar project on Monday.",
+     "ar": "مجلس الإدارة هيدّي الموافقة النهائية على مشروع الطاقة الشمسية يوم الاتنين.",
+     "ex2": "After that, we can sign the contract.",
+     "ar2": "بعد كده نقدر نمضي العقد."
+    }
+   ]
+  },
+  "ctx": "Your salary advance has been approved. The money will reach your account on Saturday 3 October.",
+  "ctx_ar": "السلفة بتاعتك اتوافق عليها. الفلوس هتوصل حسابك يوم السبت 3 أكتوبر.",
+  "quiz": [
+   {
+    "s": "The PO is waiting for Mr. Hany's ___.",
+    "opts": [
+     "approve",
+     "approval",
+     "approver"
+    ],
+    "a": 1,
+    "ar": "أمر الشراء مستني موافقة أستاذ هاني."
+   },
+   {
+    "s": "Please pay only ___ invoices this week.",
+    "opts": [
+     "approved",
+     "approval",
+     "approver"
+    ],
+    "a": 0,
+    "ar": "من فضلك ادفع الفواتير المعتمدة بس الأسبوع ده."
+   },
+   {
+    "s": "Finance ___ the request because he already had an advance.",
+    "opts": [
+     "endorsed",
+     "signed off",
+     "declined"
+    ],
+    "a": 2,
+    "ar": "الحسابات رفضت الطلب عشان كان عنده سلفة أصلًا."
+   }
+  ]
+ },
+ {
+  "w": "recovery",
+  "ar": "شفا / استرداد",
+  "book": "We wish your mother a quick recovery.",
+  "family": [
+   {
+    "w": "recover",
+    "pos": "verb",
+    "ex": "We recovered EGP 200,000 of old debts from the hospital.",
+    "ar": "استردينا 200,000 جنيه من ديون قديمة من المستشفى.",
+    "ex2": "The rest will be paid in two instalments.",
+    "ar2": "والباقي هيتدفع على قسطين."
+   },
+   {
+    "w": "recovery",
+    "pos": "noun",
+    "ex": "Ahmed's mother is making a good recovery after the operation.",
+    "ar": "والدة أحمد بتتحسن كويس بعد العملية.",
+    "ex2": "He will be back at work on Wednesday.",
+    "ar2": "هيرجع الشغل يوم الأربع."
+   },
+   {
+    "w": "recoverable",
+    "pos": "adjective",
+    "ex": "The import VAT on the inverters is recoverable.",
+    "ar": "ضريبة الاستيراد على الإنفرترات ممكن تتسترد.",
+    "ex2": "We'll deduct it in next month's VAT return.",
+    "ar2": "هنخصمها في إقرار الضريبة الشهر الجاي."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "getting better after an illness",
+    "mar": "الشفا / التحسن",
+    "ex": "We wish your father a quick recovery.",
+    "ar": "بنتمنى لوالدك الشفا العاجل.",
+    "ex2": "Take the days you need; Eng. Mostafa will cover your visits.",
+    "ar2": "خد الأيام اللي محتاجها؛ الباشمهندس مصطفى هيغطي زياراتك."
+   },
+   {
+    "m": "getting money back",
+    "mar": "استرداد فلوس",
+    "ex": "Debt recovery from government customers can take months.",
+    "ar": "تحصيل الديون من العملا الحكوميين ممكن ياخد شهور.",
+    "ex2": "We send reminders every two weeks.",
+    "ar2": "بنبعت تذكيرات كل أسبوعين."
+   },
+   {
+    "m": "getting a system working again",
+    "mar": "استعادة السيستم",
+    "ex": "The data centre's disaster recovery test is on Friday night.",
+    "ar": "اختبار استعادة الداتا سنتر بعد الكوارث يوم الجمعة بالليل.",
+    "ex2": "We will switch the servers to the backup site.",
+    "ar2": "هنحوّل السيرفرات للموقع الاحتياطي."
+   }
+  ],
+  "syn": [
+   {
+    "w": "improvement",
+    "note": "gradual change for the better; health, sales or systems",
+    "ex": "There's a big improvement in collections since we started weekly calls.",
+    "ar": "فيه تحسن كبير في التحصيل من ساعة ما بدأنا مكالمات أسبوعية.",
+    "ex2": "Delta Pharma now pays within 45 days.",
+    "ar2": "‎Delta Pharma‎ بقت تدفع خلال 45 يوم."
+   },
+   {
+    "w": "restoration",
+    "note": "bringing power or a service back to normal",
+    "ex": "Power restoration at the hospital took 20 minutes after the UPS failure.",
+    "ar": "رجوع الكهربا في المستشفى خد 20 دقيقة بعد عطل الـ‎UPS‎.",
+    "ex2": "The generator carried the critical loads until then.",
+    "ar2": "المولد شال الأحمال الحرجة لحد ساعتها."
+   }
+  ],
+  "ant": [
+   {
+    "w": "deterioration",
+    "ex": "The battery test shows deterioration in three cells.",
+    "ar": "اختبار البطاريات بيوضح تدهور في 3 خلايا.",
+    "ex2": "We recommend replacing the string before summer.",
+    "ar2": "بننصح نغير الصف كله قبل الصيف."
+   },
+   {
+    "w": "write-off",
+    "ex": "The old debt is a write-off; the customer has closed down.",
+    "ar": "الدين القديم ده اتشطب؛ العميل قفل.",
+    "ex2": "Finance will record the write-off in December.",
+    "ar2": "الحسابات هتسجل الشطب في ديسمبر."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We hope the operation goes well. We wish your mother a quick recovery.",
+  "ctx_ar": "نتمنى إن العملية تعدّي على خير. وبنتمنى لوالدتك الشفا العاجل.",
+  "quiz": [
+   {
+    "s": "The import VAT is ___, so we can claim it back.",
+    "opts": [
+     "recover",
+     "recovery",
+     "recoverable"
+    ],
+    "a": 2,
+    "ar": "ضريبة الاستيراد ممكن تتسترد، فنقدر نطالب بيها."
+   },
+   {
+    "s": "We need to ___ the old debts before the year ends.",
+    "opts": [
+     "recover",
+     "recovery",
+     "recoverable"
+    ],
+    "a": 0,
+    "ar": "لازم نسترد الديون القديمة قبل ما السنة تخلص."
+   },
+   {
+    "s": "The test shows ___ in three cells, so we must replace them.",
+    "opts": [
+     "improvement",
+     "deterioration",
+     "restoration"
+    ],
+    "a": 1,
+    "ar": "الاختبار بيوضح تدهور في 3 خلايا، فلازم نغيرهم."
+   }
+  ]
+ }
+]

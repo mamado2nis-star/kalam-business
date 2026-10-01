@@ -1,0 +1,566 @@
+[
+ {
+  "w": "downtime",
+  "ar": "وقت التوقف / الوقفة",
+  "book": "Please accept our sincere apologies for the downtime your team experienced today.",
+  "family": [
+   {
+    "w": "downtime",
+    "pos": "noun",
+    "ex": "Battery failure caused 38 minutes of downtime in the server room.",
+    "ar": "عطل البطاريات عمل 38 دقيقة توقف في أوضة السيرفرات.",
+    "ex2": "Production systems were offline the whole time.",
+    "ar2": "أنظمة الإنتاج كانت فاصلة طول الوقت ده."
+   },
+   {
+    "w": "down",
+    "pos": "adjective",
+    "ex": "The ERP server is down, so nobody can issue invoices.",
+    "ar": "سيرفر الـ‎ERP‎ واقع، فمحدش يقدر يطلّع فواتير.",
+    "ex2": "IT is working on it now.",
+    "ar2": "الـ‎IT‎ شغالين عليه دلوقتي."
+   },
+   {
+    "w": "go down",
+    "pos": "verb",
+    "ex": "If the UPS fails, all servers go down at once.",
+    "ar": "لو الـ‎UPS‎ وقع، كل السيرفرات بتقع مرة واحدة.",
+    "ex2": "That is why battery health is so important.",
+    "ar2": "عشان كده صحة البطاريات مهمة جدًا."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "outage",
+    "note": "power or network is lost; downtime is how long systems stop",
+    "ex": "The power outage lasted two hours in 6th of October City.",
+    "ar": "انقطاع الكهربا استمر ساعتين في مدينة 6 أكتوبر.",
+    "ex2": "Our UPS and generator covered the load.",
+    "ar2": "الـ‎UPS‎ والمولد بتوعنا غطّوا الحمل."
+   },
+   {
+    "w": "interruption",
+    "note": "a short break in service; softer word",
+    "ex": "There will be a short interruption during the UPS transfer.",
+    "ar": "هيبقى فيه انقطاع قصير وقت نقل الـ‎UPS‎.",
+    "ex2": "It will last less than one minute.",
+    "ar2": "هيستمر أقل من دقيقة."
+   },
+   {
+    "w": "shutdown",
+    "note": "systems are switched off, planned or unplanned",
+    "ex": "A planned shutdown is needed to replace the battery string.",
+    "ar": "محتاجين إيقاف مخطط عشان نغيّر صف البطاريات.",
+    "ex2": "We will do it on Saturday morning.",
+    "ar2": "هنعمله يوم السبت الصبح."
+   }
+  ],
+  "ant": [
+   {
+    "w": "uptime",
+    "ex": "Our goal is 99.9% uptime for your data centre.",
+    "ar": "هدفنا إن الداتا سنتر بتاعكم يفضل شغال 99.9% من الوقت.",
+    "ex2": "Battery monitoring helps us reach it.",
+    "ar2": "مراقبة البطاريات بتساعدنا نوصل له."
+   }
+  ],
+  "ladder": {
+   "label": "how long systems stop",
+   "lar": "الوقفة طويلة قد إيه",
+   "steps": [
+    {
+     "w": "brief interruption",
+     "ex": "Users saw a brief interruption when the switch restarted.",
+     "ar": "اليوزرز لاحظوا انقطاع قصير لما السويتش عمل ريستارت.",
+     "ex2": "Everything came back in 30 seconds.",
+     "ar2": "كل حاجة رجعت في 30 ثانية."
+    },
+    {
+     "w": "downtime",
+     "ex": "The faulty module caused five hours of downtime.",
+     "ar": "الموديول البايظ عمل خمس ساعات توقف.",
+     "ex2": "Month-end invoicing was delayed.",
+     "ar2": "فواتير آخر الشهر اتأخرت."
+    },
+    {
+     "w": "major outage",
+     "ex": "A major outage hit the whole plant for a full day.",
+     "ar": "انقطاع كبير ضرب المصنع كله يوم كامل.",
+     "ex2": "Both the grid and the generator failed.",
+     "ar2": "الكهربا العمومية والمولد الاتنين وقعوا."
+    }
+   ]
+  },
+  "ctx": "The UPS did not hold the load, and the server room had 38 minutes of downtime. Please accept our sincere apologies.",
+  "ctx_ar": "الـ‎UPS‎ ماشالش الحمل، وأوضة السيرفرات وقفت 38 دقيقة. من فضلك اقبل اعتذارنا الصادق.",
+  "quiz": [
+   {
+    "s": "The ERP server is ___, so nobody can issue invoices.",
+    "opts": [
+     "down",
+     "downtime",
+     "uptime"
+    ],
+    "a": 0,
+    "ar": "سيرفر الـ‎ERP‎ واقع، فمحدش يقدر يطلّع فواتير."
+   },
+   {
+    "s": "Our goal is 99.9% ___ for your data centre.",
+    "opts": [
+     "downtime",
+     "shutdown",
+     "uptime"
+    ],
+    "a": 2,
+    "ar": "هدفنا إن الداتا سنتر بتاعكم يفضل شغال 99.9% من الوقت."
+   },
+   {
+    "s": "A planned ___ is needed to replace the battery string.",
+    "opts": [
+     "uptime",
+     "shutdown",
+     "down"
+    ],
+    "a": 1,
+    "ar": "محتاجين إيقاف مخطط عشان نغيّر صف البطاريات."
+   }
+  ]
+ },
+ {
+  "w": "investigation",
+  "ar": "تحقيق / فحص",
+  "book": "Our engineers are on site now and have already started the investigation.",
+  "family": [
+   {
+    "w": "investigate",
+    "pos": "verb",
+    "ex": "We are investigating why the battery alarm was not escalated.",
+    "ar": "بنحقق ليه إنذار البطاريات ماتصعّدش.",
+    "ex2": "We will share the results by Sunday.",
+    "ar2": "هنبعت النتايج قبل الحد."
+   },
+   {
+    "w": "investigation",
+    "pos": "noun",
+    "ex": "Our investigation found three weak blocks in the battery string.",
+    "ar": "الفحص بتاعنا لقى تلات بلوكات ضعيفة في صف البطاريات.",
+    "ex2": "They dropped below the minimum voltage.",
+    "ar2": "الجهد بتاعهم نزل تحت الحد الأدنى."
+   },
+   {
+    "w": "investigator",
+    "pos": "person",
+    "ex": "The insurance investigator asked for our incident report.",
+    "ar": "محقق التأمين طلب تقرير الحادثة بتاعنا.",
+    "ex2": "He needs it to process the client's claim.",
+    "ar2": "محتاجه عشان يمشّي مطالبة العميل."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "inspection",
+    "note": "physical check on site; investigation looks for the cause",
+    "ex": "During the inspection, we found loose battery cables.",
+    "ar": "أثناء الكشف، لقينا كابلات بطاريات سايبة.",
+    "ex2": "We tightened them before closing the cabinet.",
+    "ar2": "ربطناها قبل ما نقفل الكابينة."
+   },
+   {
+    "w": "check",
+    "note": "short and simple; common in quick updates",
+    "ex": "Our initial check shows a problem in the battery string.",
+    "ar": "الكشف المبدئي بتاعنا بيبيّن إن فيه مشكلة في صف البطاريات.",
+    "ex2": "The full report will follow.",
+    "ar2": "التقرير الكامل هييجي بعدين."
+   },
+   {
+    "w": "review",
+    "note": "look again at data or a process, often by managers",
+    "ex": "We will review our escalation process after this incident.",
+    "ar": "هنراجع طريقة التصعيد عندنا بعد الحادثة دي.",
+    "ex2": "Critical alarms will go to the Service Manager.",
+    "ar2": "الإنذارات الحرجة هتروح لمدير الخدمة."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how deep the check is",
+   "lar": "الفحص عميق قد إيه",
+   "steps": [
+    {
+     "w": "quick check",
+     "ex": "A quick check showed the UPS running on mains.",
+     "ar": "كشف سريع بيّن إن الـ‎UPS‎ شغال على الكهربا العمومية.",
+     "ex2": "No alarms were active.",
+     "ar2": "مكانش فيه أي إنذار شغال."
+    },
+    {
+     "w": "inspection",
+     "ex": "A full inspection of the battery room takes two hours.",
+     "ar": "الكشف الكامل على أوضة البطاريات بياخد ساعتين.",
+     "ex2": "We test every block one by one.",
+     "ar2": "بنختبر كل بلوك لوحده."
+    },
+    {
+     "w": "full investigation",
+     "ex": "The client asked for a full investigation and an RCA report.",
+     "ar": "العميل طلب تحقيق كامل وتقرير ‎RCA‎.",
+     "ex2": "Management wants to know who missed the warning.",
+     "ar2": "الإدارة عايزة تعرف مين اللي فوّت التحذير."
+    }
+   ]
+  },
+  "ctx": "Our engineers are on site and have already started the investigation. We will send the full incident report by Sunday.",
+  "ctx_ar": "مهندسينا في الموقع وبدأوا الفحص فعلًا. هنبعت تقرير الحادثة الكامل قبل الحد.",
+  "quiz": [
+   {
+    "s": "We are ___ why the alarm was not escalated.",
+    "opts": [
+     "investigation",
+     "investigating",
+     "investigator"
+    ],
+    "a": 1,
+    "ar": "بنحقق ليه الإنذار ماتصعّدش."
+   },
+   {
+    "s": "The insurance ___ asked for our report.",
+    "opts": [
+     "investigator",
+     "investigate",
+     "investigation"
+    ],
+    "a": 0,
+    "ar": "محقق التأمين طلب التقرير بتاعنا."
+   },
+   {
+    "s": "The client asked for a ___ and an RCA report.",
+    "opts": [
+     "quick check",
+     "review",
+     "full investigation"
+    ],
+    "a": 2,
+    "ar": "العميل طلب تحقيق كامل وتقرير ‎RCA‎."
+   }
+  ]
+ },
+ {
+  "w": "warn",
+  "ar": "ينبّه / يحذّر",
+  "book": "I understand that the batteries were old, but we expected NPS to warn us more strongly before this happened.",
+  "family": [
+   {
+    "w": "warn",
+    "pos": "verb",
+    "ex": "Please warn the client before we switch the UPS to bypass.",
+    "ar": "من فضلك نبّه العميل قبل ما نحوّل الـ‎UPS‎ على الـ‎bypass‎.",
+    "ex2": "Their servers will have no backup for ten minutes.",
+    "ar2": "السيرفرات بتاعتهم هتبقى من غير باك أب عشر دقايق."
+   },
+   {
+    "w": "warning",
+    "pos": "noun",
+    "ex": "The UPS gave a low battery warning last week.",
+    "ar": "الـ‎UPS‎ طلّع تحذير بطارية ضعيفة الأسبوع اللي فات.",
+    "ex2": "Nobody acted on it, and the batteries failed.",
+    "ar2": "محدش اتصرّف، والبطاريات وقعت."
+   },
+   {
+    "w": "early-warning",
+    "pos": "adjective",
+    "ex": "The monitoring system works as an early-warning tool for weak blocks.",
+    "ar": "نظام المراقبة بيشتغل كأداة إنذار مبكر للبلوكات الضعيفة.",
+    "ex2": "It sends an alarm before a block fails.",
+    "ar2": "بيبعت إنذار قبل ما البلوك يقع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "alert",
+    "note": "quick message about a problem now, often automatic",
+    "ex": "The system will alert your team by SMS.",
+    "ar": "النظام هينبّه فريقكم بـ‎SMS‎.",
+    "ex2": "Our engineers get the same alert.",
+    "ar2": "مهندسينا بيوصلهم نفس التنبيه."
+   },
+   {
+    "w": "notify",
+    "note": "formal; give official information, not always about danger",
+    "ex": "Please notify us 48 hours before the planned shutdown.",
+    "ar": "من فضلك بلّغنا قبل الإيقاف المخطط بـ48 ساعة.",
+    "ex2": "We need time to arrange an engineer.",
+    "ar2": "محتاجين وقت نرتّب مهندس."
+   },
+   {
+    "w": "advise",
+    "note": "formal email word: inform or recommend",
+    "ex": "We advise you to replace the full battery string.",
+    "ar": "بننصحكم تغيّروا صف البطاريات كله.",
+    "ex2": "The blocks are five years old.",
+    "ar2": "البلوكات عمرها خمس سنين."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how strong the message is",
+   "lar": "الرسالة قوية قد إيه",
+   "steps": [
+    {
+     "w": "mention",
+     "ex": "Our last visit report only mentioned the old batteries.",
+     "ar": "تقرير آخر زيارة ذكر البطاريات القديمة وخلاص.",
+     "ex2": "It was just one line at the end.",
+     "ar2": "كانت سطر واحد في الآخر."
+    },
+    {
+     "w": "warn",
+     "ex": "We warned the client twice that the batteries were weak.",
+     "ar": "نبّهنا العميل مرتين إن البطاريات ضعيفة.",
+     "ex2": "We sent emails in June and August.",
+     "ar2": "بعتنا إيميلات في يونيو وأغسطس."
+    },
+    {
+     "w": "raise the alarm",
+     "ex": "We should have raised the alarm with your management.",
+     "ar": "كان المفروض ندق جرس الإنذار عند الإدارة بتاعتكم.",
+     "ex2": "A short email to IT was not enough.",
+     "ar2": "إيميل قصير للـ‎IT‎ ماكانش كفاية."
+    }
+   ]
+  },
+  "ctx": "The batteries were five years old. We should have warned you more strongly before the power cut.",
+  "ctx_ar": "البطاريات كان عمرها خمس سنين. كان المفروض ننبّهكم بشكل أقوى قبل ما الكهربا تقطع.",
+  "quiz": [
+   {
+    "s": "The UPS gave a low battery ___ last week.",
+    "opts": [
+     "warn",
+     "warning",
+     "early-warning"
+    ],
+    "a": 1,
+    "ar": "الـ‎UPS‎ طلّع تحذير بطارية ضعيفة الأسبوع اللي فات."
+   },
+   {
+    "s": "Please ___ us 48 hours before the shutdown.",
+    "opts": [
+     "notify",
+     "alert",
+     "warning"
+    ],
+    "a": 0,
+    "ar": "من فضلك بلّغنا قبل الإيقاف بـ48 ساعة."
+   },
+   {
+    "s": "The monitoring system works as an ___ tool.",
+    "opts": [
+     "warn",
+     "alert",
+     "early-warning"
+    ],
+    "a": 2,
+    "ar": "نظام المراقبة بيشتغل كأداة إنذار مبكر."
+   }
+  ]
+ },
+ {
+  "w": "corrective",
+  "ar": "تصحيحي",
+  "book": "Please send us a full incident report with the root cause and your corrective actions within 48 hours.",
+  "family": [
+   {
+    "w": "correct",
+    "pos": "verb",
+    "ex": "Please correct the tax number on invoice 3315.",
+    "ar": "من فضلك صحّح الرقم الضريبي على فاتورة 3315.",
+    "ex2": "The ETA portal rejected it this morning.",
+    "ar2": "بوابة الـ‎ETA‎ رفضتها النهارده الصبح."
+   },
+   {
+    "w": "correction",
+    "pos": "noun",
+    "ex": "We will send a correction to the incident report today.",
+    "ar": "هنبعت تصحيح لتقرير الحادثة النهارده.",
+    "ex2": "The time of the transfer was wrong.",
+    "ar2": "وقت التحويل كان غلط."
+   },
+   {
+    "w": "corrective",
+    "pos": "adjective",
+    "ex": "Corrective actions include replacing the weak blocks and adding monitoring.",
+    "ar": "الإجراءات التصحيحية بتشمل تغيير البلوكات الضعيفة وإضافة مراقبة.",
+    "ex2": "Both will be done before the end of October.",
+    "ar2": "الاتنين هيخلصوا قبل آخر أكتوبر."
+   },
+   {
+    "w": "correctly",
+    "pos": "adverb",
+    "ex": "The generator started correctly, but the batteries failed first.",
+    "ar": "المولد اشتغل صح، بس البطاريات وقعت الأول.",
+    "ex2": "So the servers lost power for a few seconds.",
+    "ar2": "فالسيرفرات فصلت كام ثانية."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "remedial",
+    "note": "formal; work done to fix a problem",
+    "ex": "Remedial work on the cabling will take one day.",
+    "ar": "شغل إصلاح الكابلات هياخد يوم.",
+    "ex2": "We will do it on Friday when the office is closed.",
+    "ar2": "هنعمله يوم الجمعة والمكتب قافل."
+   },
+   {
+    "w": "fix",
+    "note": "simple everyday verb for the same idea",
+    "ex": "We fixed the root cause, not only the symptom.",
+    "ar": "صلّحنا السبب الأساسي، مش العَرَض بس.",
+    "ex2": "The weak blocks are already replaced.",
+    "ar2": "البلوكات الضعيفة اتغيّرت خلاص."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Please find attached our incident report. It explains the root cause and the corrective actions we have already taken.",
+  "ctx_ar": "مرفق تقرير الحادثة بتاعنا. بيشرح السبب الأساسي والإجراءات التصحيحية اللي عملناها خلاص.",
+  "quiz": [
+   {
+    "s": "Please ___ the tax number on the invoice.",
+    "opts": [
+     "correction",
+     "correct",
+     "corrective"
+    ],
+    "a": 1,
+    "ar": "من فضلك صحّح الرقم الضريبي على الفاتورة."
+   },
+   {
+    "s": "___ actions include replacing the weak blocks.",
+    "opts": [
+     "Corrective",
+     "Correctly",
+     "Correction"
+    ],
+    "a": 0,
+    "ar": "الإجراءات التصحيحية بتشمل تغيير البلوكات الضعيفة."
+   },
+   {
+    "s": "The generator started ___, but the batteries failed first.",
+    "opts": [
+     "correct",
+     "correction",
+     "correctly"
+    ],
+    "a": 2,
+    "ar": "المولد اشتغل صح، بس البطاريات وقعت الأول."
+   }
+  ]
+ },
+ {
+  "w": "revised",
+  "ar": "معدّل / متعدّل",
+  "book": "Please find attached our revised quotation Q-2025-244 with a 10% discount on the 40 battery blocks.",
+  "family": [
+   {
+    "w": "revise",
+    "pos": "verb",
+    "ex": "We revised the quotation after the client asked for a discount.",
+    "ar": "عدّلنا عرض السعر بعد ما العميل طلب خصم.",
+    "ex2": "The new total is 10% lower.",
+    "ar2": "الإجمالي الجديد أقل بـ10%."
+   },
+   {
+    "w": "revised",
+    "pos": "adjective",
+    "ex": "Please find attached our revised quotation Q-2025-244.",
+    "ar": "مرفق عرض السعر المعدّل ‎Q-2025-244‎.",
+    "ex2": "It now includes battery monitoring for six months.",
+    "ar2": "دلوقتي بيشمل مراقبة البطاريات لمدة ست شهور."
+   },
+   {
+    "w": "revision",
+    "pos": "noun",
+    "ex": "This is revision 2 of the solar station layout.",
+    "ar": "دي النسخة المعدّلة رقم 2 من تصميم المحطة الشمسية.",
+    "ex2": "We moved the inverters closer to the panels.",
+    "ar2": "قرّبنا الإنفرترات من الألواح."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "updated",
+    "note": "newest version with fresh info; very common",
+    "ex": "Here is the updated delivery schedule for the batteries.",
+    "ar": "ده جدول التسليم المحدّث للبطاريات.",
+    "ex2": "Two blocks will arrive one day early.",
+    "ar2": "بلوكين هيوصلوا قبل ميعادهم بيوم."
+   },
+   {
+    "w": "amended",
+    "note": "formal; a change to a contract or official document",
+    "ex": "Please sign the amended contract with the new response time.",
+    "ar": "من فضلك امضي العقد المعدّل بوقت الاستجابة الجديد.",
+    "ex2": "Clause 9.2 now includes service credits.",
+    "ar2": "البند 9.2 دلوقتي فيه الـ‎service credits‎."
+   },
+   {
+    "w": "adjusted",
+    "note": "a small change in numbers, like price or settings",
+    "ex": "We adjusted the deceleration time to 15 seconds.",
+    "ar": "ظبطنا وقت التباطؤ على 15 ثانية.",
+    "ex2": "The drive has not tripped since.",
+    "ar2": "الـ‎drive‎ مافصلش من ساعتها."
+   }
+  ],
+  "ant": [
+   {
+    "w": "original",
+    "ex": "The original quotation did not include installation.",
+    "ar": "عرض السعر الأصلي ماكانش فيه التركيب.",
+    "ex2": "The revised one does.",
+    "ar2": "المعدّل فيه."
+   }
+  ],
+  "ladder": null,
+  "ctx": "After our call, we revised the offer. Please find attached the revised quotation with a 10% discount.",
+  "ctx_ar": "بعد مكالمتنا، عدّلنا العرض. مرفق عرض السعر المعدّل بخصم 10%.",
+  "quiz": [
+   {
+    "s": "This is ___ 2 of the solar layout.",
+    "opts": [
+     "revise",
+     "revised",
+     "revision"
+    ],
+    "a": 2,
+    "ar": "دي النسخة المعدّلة رقم 2 من تصميم المحطة الشمسية."
+   },
+   {
+    "s": "We ___ the quotation after the client asked for a discount.",
+    "opts": [
+     "revised",
+     "revision",
+     "original"
+    ],
+    "a": 0,
+    "ar": "عدّلنا عرض السعر بعد ما العميل طلب خصم."
+   },
+   {
+    "s": "Please sign the ___ contract with the new response time.",
+    "opts": [
+     "adjusted",
+     "amended",
+     "original"
+    ],
+    "a": 1,
+    "ar": "من فضلك امضي العقد المعدّل بوقت الاستجابة الجديد."
+   }
+  ]
+ }
+]

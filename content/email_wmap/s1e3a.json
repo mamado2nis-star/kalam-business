@@ -1,0 +1,582 @@
+[
+ {
+  "w": "acknowledgement",
+  "ar": "تأكيد استلام",
+  "book": "An order acknowledgement is requested no later than one week after receipt of the PO.",
+  "family": [
+   {
+    "w": "acknowledge",
+    "pos": "verb",
+    "ex": "Please acknowledge receipt of this PO within one week.",
+    "ar": "لو سمحت أكّد استلام الـ‎PO‎ ده خلال أسبوع.",
+    "ex2": "We acknowledged it the same afternoon.",
+    "ar2": "أكّدنا استلامه في نفس اليوم بعد الضهر."
+   },
+   {
+    "w": "acknowledgement",
+    "pos": "noun",
+    "ex": "Thank you for the quick acknowledgement.",
+    "ar": "شكراً على تأكيد الاستلام السريع.",
+    "ex2": "The acknowledgement included the delivery ETA.",
+    "ar2": "التأكيد كان فيه ميعاد التسليم المتوقع."
+   },
+   {
+    "w": "acknowledged",
+    "pos": "adjective",
+    "ex": "All acknowledged orders appear in the system with a green tick.",
+    "ar": "كل الأوردرات اللي اتأكد استلامها بتظهر في السيستم بعلامة خضرا.",
+    "ex2": "Unacknowledged ones get a reminder after three days.",
+    "ar2": "اللي متأكدش استلامها بيجيلها تذكير بعد تلات أيام."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "confirm you received something",
+    "mar": "تأكّد إنك استلمت حاجة",
+    "ex": "We acknowledge receipt of PO-44817.",
+    "ar": "بنأكّد استلام ‎PO-44817.‎",
+    "ex2": "Delivery is planned for Thursday.",
+    "ar2": "التسليم متخطط له يوم الخميس."
+   },
+   {
+    "m": "admit or accept something is true",
+    "mar": "تعترف بحاجة",
+    "ex": "We acknowledge that the delay was our fault.",
+    "ar": "بنعترف إن التأخير كان غلطتنا.",
+    "ex2": "To make up for it, delivery is free.",
+    "ar2": "وعشان نعوّض، التوصيل ببلاش."
+   }
+  ],
+  "syn": [
+   {
+    "w": "confirmation",
+    "note": "general; can confirm dates, prices, anything",
+    "ex": "Please send written confirmation of the delivery date.",
+    "ar": "لو سمحت ابعت تأكيد مكتوب لميعاد التسليم.",
+    "ex2": "Their confirmation came by email within an hour.",
+    "ar2": "تأكيدهم جه بالإيميل خلال ساعة."
+   },
+   {
+    "w": "order confirmation",
+    "note": "supplier's formal reply accepting an order",
+    "ex": "The battery supplier sent an order confirmation with the ship date.",
+    "ar": "مورد البطاريات بعت تأكيد الأوردر بميعاد الشحن.",
+    "ex2": "We forwarded the order confirmation to Delta Pharma.",
+    "ar2": "حوّلنا تأكيد الأوردر لـ‎Delta Pharma.‎"
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Arcadia asked for an order acknowledgement within one week. I sent our acknowledgement today with the delivery ETA.",
+  "ctx_ar": "‎Arcadia‎ طلبت تأكيد استلام الأوردر خلال أسبوع. بعت التأكيد بتاعنا النهارده بميعاد التسليم المتوقع.",
+  "quiz": [
+   {
+    "s": "Please ___ receipt of this PO within one week.",
+    "opts": [
+     "acknowledge",
+     "acknowledgement",
+     "acknowledged"
+    ],
+    "a": 0,
+    "ar": "لو سمحت أكّد استلام الـ‎PO‎ ده خلال أسبوع."
+   },
+   {
+    "s": "We sent the order ___ the same day.",
+    "opts": [
+     "acknowledge",
+     "acknowledged",
+     "acknowledgement"
+    ],
+    "a": 2,
+    "ar": "بعتنا تأكيد استلام الأوردر في نفس اليوم."
+   },
+   {
+    "s": "The supplier's order ___ shows the ship date.",
+    "opts": [
+     "acknowledge",
+     "confirmation",
+     "acknowledged"
+    ],
+    "a": 1,
+    "ar": "تأكيد الأوردر من المورد فيه ميعاد الشحن."
+   }
+  ]
+ },
+ {
+  "w": "line item",
+  "ar": "بند",
+  "book": "Invoices MUST match all PO line items.",
+  "family": [
+   {
+    "w": "item",
+    "pos": "noun",
+    "ex": "Each item on the quotation has a part number.",
+    "ar": "كل صنف في عرض السعر ليه رقم قطعة.",
+    "ex2": "Please quote the item code when you order spares.",
+    "ar2": "لو سمحت اذكر كود الصنف لما تطلب قطع غيار."
+   },
+   {
+    "w": "line item",
+    "pos": "noun",
+    "ex": "The invoice must match every PO line item.",
+    "ar": "الفاتورة لازم تطابق كل بند في الـ‎PO.‎",
+    "ex2": "Line item 3 is the battery cabinet.",
+    "ar2": "البند 3 هو كابينة البطاريات."
+   },
+   {
+    "w": "itemise",
+    "pos": "verb",
+    "ex": "Could you itemise the spare parts on the invoice?",
+    "ar": "ممكن تفصّل قطع الغيار بند بند على الفاتورة؟",
+    "ex2": "The client wants each part itemised separately.",
+    "ar2": "العميل عايز كل قطعة لوحدها."
+   },
+   {
+    "w": "itemised",
+    "pos": "adjective",
+    "ex": "Please send an itemised quotation for the server room.",
+    "ar": "لو سمحت ابعت عرض سعر مفصّل لغرفة السيرفرات.",
+    "ex2": "An itemised offer is easier for their procurement team.",
+    "ar2": "العرض المفصّل أسهل لفريق المشتريات عندهم."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "item",
+    "note": "short form; any product or service on a list",
+    "ex": "Item 2 on the PO is the installation service.",
+    "ar": "الصنف 2 في الـ‎PO‎ هو خدمة التركيب.",
+    "ex2": "Please check the item price against our quotation.",
+    "ar2": "لو سمحت راجع سعر الصنف مع عرض السعر."
+   },
+   {
+    "w": "entry",
+    "note": "a line in a ledger or statement, not a PO",
+    "ex": "There is a duplicate entry in the statement.",
+    "ar": "فيه قيد متكرر في كشف الحساب.",
+    "ex2": "Our accountant deleted the duplicate entry.",
+    "ar2": "المحاسب بتاعنا مسح القيد المتكرر."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "The PO has three line items: the phones, cases and delivery. Our invoice must match each line item exactly.",
+  "ctx_ar": "الـ‎PO‎ فيه تلات بنود: الموبايلات والجرابات والتوصيل. الفاتورة بتاعتنا لازم تطابق كل بند بالظبط.",
+  "quiz": [
+   {
+    "s": "The invoice must match every PO ___.",
+    "opts": [
+     "itemise",
+     "line item",
+     "itemised"
+    ],
+    "a": 1,
+    "ar": "الفاتورة لازم تطابق كل بند في الـ‎PO.‎"
+   },
+   {
+    "s": "Please send an ___ quotation with each part priced separately.",
+    "opts": [
+     "itemised",
+     "itemise",
+     "item"
+    ],
+    "a": 0,
+    "ar": "لو سمحت ابعت عرض سعر مفصّل وكل قطعة بسعرها."
+   },
+   {
+    "s": "There is a duplicate ___ in the statement of account.",
+    "opts": [
+     "itemise",
+     "line item",
+     "entry"
+    ],
+    "a": 2,
+    "ar": "فيه قيد متكرر في كشف الحساب."
+   }
+  ]
+ },
+ {
+  "w": "ETA",
+  "ar": "الميعاد المتوقع للوصول",
+  "book": "Delivery ETA: Thursday, 2 October, to your head office as stated on the PO.",
+  "family": [
+   {
+    "w": "ETA",
+    "pos": "noun",
+    "ex": "The shipping line gave us an ETA of 12 March.",
+    "ar": "الخط الملاحي إدّانا ميعاد وصول متوقع 12 مارس.",
+    "ex2": "We shared the ETA with the client.",
+    "ar2": "بعتنا الميعاد للعميل."
+   },
+   {
+    "w": "estimate",
+    "pos": "verb",
+    "ex": "We estimate delivery within three weeks of the PO.",
+    "ar": "بنقدّر التسليم خلال تلات أسابيع من الـ‎PO.‎",
+    "ex2": "The final date depends on the battery supplier.",
+    "ar2": "التاريخ النهائي على حسب مورد البطاريات."
+   },
+   {
+    "w": "estimated",
+    "pos": "adjective",
+    "ex": "The estimated delivery date is next Thursday.",
+    "ar": "ميعاد التسليم المتوقع الخميس الجاي.",
+    "ex2": "We will confirm the exact time a day before.",
+    "ar2": "هنأكّد الساعة بالظبط قبلها بيوم."
+   },
+   {
+    "w": "estimate",
+    "pos": "noun",
+    "ex": "Our estimate is two days for installation.",
+    "ar": "تقديرنا يومين للتركيب.",
+    "ex2": "The estimate assumes the site is ready.",
+    "ar2": "التقدير ده على أساس إن الموقع جاهز."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "estimated time of arrival",
+    "mar": "الميعاد المتوقع للوصول",
+    "ex": "What is the ETA for the UPS shipment?",
+    "ar": "ميعاد وصول شحنة الـ‎UPS‎ المتوقع إمتى؟",
+    "ex2": "The client needs it before the lab opening.",
+    "ar2": "العميل محتاجها قبل افتتاح المعمل."
+   },
+   {
+    "m": "Egyptian Tax Authority (e-invoice system)",
+    "mar": "مصلحة الضرايب المصرية (سيستم الفاتورة الإلكترونية)",
+    "ex": "We issued the e-invoice on the ETA portal.",
+    "ar": "طلّعنا الفاتورة الإلكترونية على بوابة الـ‎ETA.‎",
+    "ex2": "The ETA system checks the tax number automatically.",
+    "ar2": "سيستم الـ‎ETA‎ بيتأكد من الرقم الضريبي أوتوماتيك."
+   }
+  ],
+  "syn": [
+   {
+    "w": "delivery date",
+    "note": "a fixed, agreed date; ETA is only expected",
+    "ex": "The delivery date in the contract is 20 November.",
+    "ar": "ميعاد التسليم في العقد 20 نوفمبر.",
+    "ex2": "Our ETA is earlier, on 18 November.",
+    "ar2": "الميعاد المتوقع بتاعنا قبلها، 18 نوفمبر."
+   },
+   {
+    "w": "lead time",
+    "note": "number of days from PO to delivery",
+    "ex": "Batteries have a lead time of four weeks.",
+    "ar": "البطاريات مدة توريدها أربع أسابيع.",
+    "ex2": "So the lead time decides the installation date.",
+    "ar2": "فمدة التوريد هي اللي بتحدد ميعاد التركيب."
+   },
+   {
+    "w": "ETD",
+    "note": "estimated time of departure; used in shipping",
+    "ex": "The ETD from Shanghai is 1 March.",
+    "ar": "ميعاد القيام المتوقع من شنغهاي 1 مارس.",
+    "ex2": "With 20 days at sea, the ETA is 21 March.",
+    "ar2": "مع 20 يوم في البحر، ميعاد الوصول 21 مارس."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how sure the date is",
+   "lar": "التاريخ مؤكد قد إيه",
+   "steps": [
+    {
+     "w": "rough ETA",
+     "ex": "The rough ETA is the end of next week.",
+     "ar": "الميعاد التقريبي آخر الأسبوع الجاي.",
+     "ex2": "I'll confirm once the truck leaves the warehouse.",
+     "ar2": "هأكّد أول ما العربية تخرج من المخزن."
+    },
+    {
+     "w": "estimated date",
+     "ex": "The estimated date for delivery is Thursday, 2 October.",
+     "ar": "الميعاد المتوقع للتسليم الخميس 2 أكتوبر.",
+     "ex2": "It may move by a day if customs are slow.",
+     "ar2": "ممكن يتحرك يوم لو الجمارك اتأخرت."
+    },
+    {
+     "w": "confirmed date",
+     "ex": "The confirmed date is Thursday at 10 am.",
+     "ar": "الميعاد المؤكد الخميس الساعة 10 الصبح.",
+     "ex2": "Our driver is booked for that confirmed slot.",
+     "ar2": "السواق بتاعنا محجوز للميعاد ده."
+    }
+   ]
+  },
+  "ctx": "Delivery ETA is Thursday, 2 October, before 1 pm. I will update you if the ETA changes.",
+  "ctx_ar": "ميعاد التسليم المتوقع الخميس 2 أكتوبر قبل الساعة 1. هبلّغك لو الميعاد اتغيّر.",
+  "quiz": [
+   {
+    "s": "The shipping line gave us an ___ of 12 March at Alexandria port.",
+    "opts": [
+     "ETA",
+     "estimate",
+     "estimated"
+    ],
+    "a": 0,
+    "ar": "الخط الملاحي إدّانا ميعاد وصول متوقع 12 مارس في ميناء إسكندرية."
+   },
+   {
+    "s": "The ___ delivery date is next Thursday.",
+    "opts": [
+     "estimate",
+     "estimated",
+     "ETA"
+    ],
+    "a": 1,
+    "ar": "ميعاد التسليم المتوقع الخميس الجاي."
+   },
+   {
+    "s": "The batteries have a ___ of four weeks from the PO date.",
+    "opts": [
+     "ETD",
+     "ETA",
+     "lead time"
+    ],
+    "a": 2,
+    "ar": "البطاريات مدة توريدها أربع أسابيع من تاريخ الـ‎PO.‎"
+   }
+  ]
+ },
+ {
+  "w": "reference",
+  "ar": "تذكر الرقم / مرجع",
+  "book": "Our invoice will reference PO-44817, match all PO line items, and be sent to the invoice email address noted on the PO.",
+  "family": [
+   {
+    "w": "refer",
+    "pos": "verb",
+    "ex": "Please refer to clause 4 for the payment terms.",
+    "ar": "لو سمحت ارجع للبند 4 بخصوص شروط الدفع.",
+    "ex2": "Clause 4 refers to 60 days from invoice.",
+    "ar2": "البند 4 بيتكلم عن 60 يوم من الفاتورة."
+   },
+   {
+    "w": "reference",
+    "pos": "noun",
+    "ex": "Please add the invoice number to the transfer reference.",
+    "ar": "لو سمحت حط رقم الفاتورة في مرجع التحويل.",
+    "ex2": "Without a reference, we can't match the payment.",
+    "ar2": "من غير مرجع مش هنقدر نطابق الدفعة."
+   },
+   {
+    "w": "reference",
+    "pos": "verb",
+    "ex": "All invoices must reference the correct PO number.",
+    "ar": "كل الفواتير لازم يكون عليها رقم الـ‎PO‎ الصح.",
+    "ex2": "Invoices that don't reference it may be rejected.",
+    "ar2": "الفواتير اللي مش عليها الرقم ممكن تترفض."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "mention a number or document",
+    "mar": "تذكر رقم أو مستند",
+    "ex": "Our invoice will reference PO-44817.",
+    "ar": "الفاتورة بتاعتنا هيكون عليها ‎PO-44817.‎",
+    "ex2": "This helps Accounts Payable match it quickly.",
+    "ar2": "ده بيساعد الحسابات تطابقها بسرعة."
+   },
+   {
+    "m": "a code that identifies a payment or file",
+    "mar": "رقم مرجعي",
+    "ex": "The bank reference did not include the invoice number.",
+    "ar": "مرجع البنك مكانش فيه رقم الفاتورة.",
+    "ex2": "So the payment stayed unallocated.",
+    "ar2": "فالدفعة فضلت مش متوزعة."
+   },
+   {
+    "m": "a past customer who can recommend you",
+    "mar": "عميل سابق يشهد لك",
+    "ex": "Can you give us two references from data centre projects?",
+    "ar": "ممكن تدّينا اتنين عملاء سابقين من مشاريع داتا سنتر؟",
+    "ex2": "They will call both references this week.",
+    "ar2": "هيكلّموا العميلين الأسبوع ده."
+   }
+  ],
+  "syn": [
+   {
+    "w": "quote",
+    "note": "repeat a number in your message",
+    "ex": "Please quote our PO number in all emails.",
+    "ar": "لو سمحت اذكر رقم الـ‎PO‎ بتاعنا في كل الإيميلات.",
+    "ex2": "Quoting it saves us time searching.",
+    "ar2": "ذكره بيوفّر علينا وقت في البحث."
+   },
+   {
+    "w": "mention",
+    "note": "general; not always an exact number",
+    "ex": "Please mention the delivery address on the note.",
+    "ar": "لو سمحت اذكر عنوان التسليم على الإذن.",
+    "ex2": "He didn't mention the floor number.",
+    "ar2": "مذكرش رقم الدور."
+   },
+   {
+    "w": "cite",
+    "note": "very formal; legal or contract language",
+    "ex": "The client cited clause 7 on late delivery penalties.",
+    "ar": "العميل استشهد بالبند 7 عن غرامات التأخير.",
+    "ex2": "We replied by citing clause 9 on force majeure.",
+    "ar2": "ردّينا واستشهدنا بالبند 9 عن القوة القاهرة."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Please make sure the invoice references the PO number. Arcadia's Accounts Payable rejects invoices without a PO reference.",
+  "ctx_ar": "اتأكد إن الفاتورة عليها رقم الـ‎PO.‎ الحسابات في ‎Arcadia‎ بترفض الفواتير اللي من غير مرجع ‎PO.‎",
+  "quiz": [
+   {
+    "s": "Please ___ to clause 4 for the payment terms.",
+    "opts": [
+     "refer",
+     "reference",
+     "quote"
+    ],
+    "a": 0,
+    "ar": "لو سمحت ارجع للبند 4 بخصوص شروط الدفع."
+   },
+   {
+    "s": "Please add the invoice number to the transfer ___.",
+    "opts": [
+     "refer",
+     "cite",
+     "reference"
+    ],
+    "a": 2,
+    "ar": "لو سمحت حط رقم الفاتورة في مرجع التحويل."
+   },
+   {
+    "s": "When you pay, please ___ our invoice number.",
+    "opts": [
+     "cite",
+     "quote",
+     "refer"
+    ],
+    "a": 1,
+    "ar": "وانت بتدفع، اذكر رقم الفاتورة بتاعتنا."
+   }
+  ]
+ },
+ {
+  "w": "accompany",
+  "ar": "يكون مع / يرافق",
+  "book": "A delivery note will accompany the devices.",
+  "family": [
+   {
+    "w": "accompany",
+    "pos": "verb",
+    "ex": "A delivery note will accompany the batteries.",
+    "ar": "إذن تسليم هيكون مع البطاريات.",
+    "ex2": "The store keeper signs it on receipt.",
+    "ar2": "أمين المخزن بيمضيه وهو بيستلم."
+   },
+   {
+    "w": "accompanying",
+    "pos": "adjective",
+    "ex": "Please check the accompanying documents before signing.",
+    "ar": "لو سمحت راجع المستندات اللي مع الشحنة قبل ما تمضي.",
+    "ex2": "The accompanying packing list shows all serial numbers.",
+    "ar2": "قايمة التعبئة اللي معاها فيها كل الأرقام التسلسلية."
+   },
+   {
+    "w": "accompanied",
+    "pos": "adjective",
+    "ex": "The UPS arrived accompanied by its test certificate.",
+    "ar": "الـ‎UPS‎ وصل ومعاه شهادة الاختبار.",
+    "ex2": "Every unit accompanied by a certificate passes inspection faster.",
+    "ar2": "كل وحدة معاها شهادة بتعدّي الفحص أسرع."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "go with a document or item",
+    "mar": "يكون مرفق مع حاجة",
+    "ex": "The warranty card accompanies each server.",
+    "ar": "كارت الضمان بيكون مع كل سيرفر.",
+    "ex2": "Please keep it for future service requests.",
+    "ar2": "لو سمحت احتفظ بيه لطلبات الصيانة."
+   },
+   {
+    "m": "go somewhere with a person",
+    "mar": "تروح مع حد",
+    "ex": "Our engineer will accompany the client during the inspection.",
+    "ar": "المهندس بتاعنا هيكون مع العميل وقت الفحص.",
+    "ex2": "He can answer any technical questions.",
+    "ar2": "يقدر يجاوب على أي أسئلة فنية."
+   }
+  ],
+  "syn": [
+   {
+    "w": "come with",
+    "note": "informal and everyday",
+    "ex": "The phones come with chargers and cases.",
+    "ar": "الموبايلات جاية بشواحن وجرابات.",
+    "ex2": "They also come with a one-year warranty.",
+    "ar2": "وكمان جاية بضمان سنة."
+   },
+   {
+    "w": "attached",
+    "note": "for files added to an email",
+    "ex": "The invoice PDF is attached to this email.",
+    "ar": "ملف الفاتورة مرفق في الإيميل ده.",
+    "ex2": "The handover report is attached as well.",
+    "ar2": "ومحضر التسليم مرفق كمان."
+   },
+   {
+    "w": "enclosed",
+    "note": "formal; documents inside a package or letter",
+    "ex": "Please find enclosed the original contract.",
+    "ar": "مرفق طيه أصل العقد.",
+    "ex2": "The enclosed copy is for your records.",
+    "ar2": "النسخة المرفقة لسجلاتكم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "separately",
+    "ex": "The invoice will be sent separately by email.",
+    "ar": "الفاتورة هتتبعت لوحدها بالإيميل.",
+    "ex2": "It is sent separately after delivery.",
+    "ar2": "بتتبعت لوحدها بعد التسليم."
+   }
+  ],
+  "ladder": null,
+  "ctx": "A delivery note will accompany the three devices. It will list the IMEI numbers, and Mr. Hany can sign it on receipt.",
+  "ctx_ar": "إذن تسليم هيكون مع الأجهزة التلاتة. هيكون فيه أرقام الـ‎IMEI‎، و‎Mr. Hany‎ يقدر يمضيه وهو بيستلم.",
+  "quiz": [
+   {
+    "s": "A delivery note will ___ the batteries.",
+    "opts": [
+     "accompany",
+     "accompanying",
+     "accompanied"
+    ],
+    "a": 0,
+    "ar": "إذن تسليم هيكون مع البطاريات."
+   },
+   {
+    "s": "Please check the ___ documents before signing.",
+    "opts": [
+     "accompany",
+     "accompanying",
+     "separately"
+    ],
+    "a": 1,
+    "ar": "لو سمحت راجع المستندات اللي معاها قبل ما تمضي."
+   },
+   {
+    "s": "The invoice will be sent ___ by email after delivery.",
+    "opts": [
+     "accompanied",
+     "enclosed",
+     "separately"
+    ],
+    "a": 2,
+    "ar": "الفاتورة هتتبعت لوحدها بالإيميل بعد التسليم."
+   }
+  ]
+ }
+]

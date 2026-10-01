@@ -1,0 +1,570 @@
+[
+ {
+  "w": "payable",
+  "ar": "يُصرف لـ / واجب الدفع",
+  "book": "For your reference, the cheques should be payable to 'Nile Power Solutions S.A.E.', EGP 855,000 each.",
+  "family": [
+   {
+    "w": "pay",
+    "pos": "verb",
+    "ex": "Delta Pharma will pay in two cheques.",
+    "ar": "‎Delta Pharma‎ هتدفع على شيكين.",
+    "ex2": "They always pay on time.",
+    "ar2": "دايماً بيدفعوا في ميعادهم."
+   },
+   {
+    "w": "payment",
+    "pos": "noun",
+    "ex": "The first payment is due on 26 January.",
+    "ar": "أول دفعة مستحقة يوم 26 يناير.",
+    "ex2": "The second payment follows in February.",
+    "ar2": "الدفعة التانية في فبراير."
+   },
+   {
+    "w": "payable",
+    "pos": "adjective",
+    "ex": "Please make the cheques payable to Nile Power Solutions S.A.E.",
+    "ar": "لو سمحت اكتب الشيكات باسم ‎Nile Power Solutions S.A.E.‎",
+    "ex2": "Cheques payable to any other name will be refused.",
+    "ar2": "الشيكات بأي اسم تاني هتترفض."
+   },
+   {
+    "w": "payee",
+    "pos": "person",
+    "ex": "The payee name must match our bank account exactly.",
+    "ar": "اسم المستفيد لازم يطابق حساب البنك بالظبط.",
+    "ex2": "Our bank checks the payee name on every cheque.",
+    "ar2": "البنك بتاعنا بيراجع اسم المستفيد على كل شيك."
+   },
+   {
+    "w": "payer",
+    "pos": "person",
+    "ex": "The payer's signature must match the bank's records.",
+    "ar": "إمضة صاحب الشيك لازم تطابق سجلات البنك.",
+    "ex2": "If not, the bank returns the cheque to the payer.",
+    "ar2": "لو لأ، البنك بيرجّع الشيك لصاحبه."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "the name a cheque is written to",
+    "mar": "الاسم اللي الشيك مكتوب له",
+    "ex": "The cheque is payable to NPS, not to the courier.",
+    "ar": "الشيك باسم ‎NPS‎ مش باسم المندوب.",
+    "ex2": "The courier only collects it.",
+    "ar2": "المندوب بيستلمه بس."
+   },
+   {
+    "m": "must be paid",
+    "mar": "واجب الدفع",
+    "ex": "The amount is payable within 60 days.",
+    "ar": "المبلغ واجب الدفع خلال 60 يوم.",
+    "ex2": "Late payment may affect your credit limit.",
+    "ar2": "التأخير في الدفع ممكن يأثر على حد الائتمان بتاعكم."
+   },
+   {
+    "m": "Accounts Payable: the team that pays suppliers",
+    "mar": "الحسابات الدائنة: الفريق اللي بيدفع للموردين",
+    "ex": "Please send the invoice to Accounts Payable.",
+    "ar": "لو سمحت ابعت الفاتورة للحسابات الدائنة.",
+    "ex2": "Ms. Dalia in Accounts Payable will process it.",
+    "ar2": "‎Ms. Dalia‎ في الحسابات هتخلّصها."
+   }
+  ],
+  "syn": [
+   {
+    "w": "in favour of",
+    "note": "formal cheque wording; same as payable to",
+    "ex": "Please issue the cheque in favour of NPS S.A.E.",
+    "ar": "لو سمحت اكتب الشيك لصالح ‎NPS S.A.E.‎",
+    "ex2": "A cheque in favour of the wrong name will bounce.",
+    "ar2": "شيك لصالح اسم غلط هيرتد."
+   },
+   {
+    "w": "due",
+    "note": "focus on the date, not the name",
+    "ex": "The second cheque is due on 15 February.",
+    "ar": "الشيك التاني مستحق يوم 15 فبراير.",
+    "ex2": "We'll deposit it on the due date.",
+    "ar2": "هنودّعه في ميعاد استحقاقه."
+   }
+  ],
+  "ant": [
+   {
+    "w": "receivable",
+    "ex": "Accounts receivable collect money from customers.",
+    "ar": "الحسابات المدينة بتحصّل الفلوس من العملا.",
+    "ex2": "Our receivable balance dropped after the cheques cleared.",
+    "ar2": "رصيد المستحقات عندنا قل بعد ما الشيكات اتصرفت."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The cheques should be payable to 'Nile Power Solutions S.A.E.' If the payee name is different, our bank may refuse them.",
+  "ctx_ar": "الشيكات لازم تبقى باسم '‎Nile Power Solutions S.A.E.'‎ لو اسم المستفيد مختلف، البنك بتاعنا ممكن يرفضهم.",
+  "quiz": [
+   {
+    "s": "The cheque should be ___ to Nile Power Solutions S.A.E.",
+    "opts": [
+     "pay",
+     "payable",
+     "payee"
+    ],
+    "a": 1,
+    "ar": "الشيك لازم يكون باسم ‎Nile Power Solutions S.A.E.‎"
+   },
+   {
+    "s": "The ___ name on the cheque must match our bank account.",
+    "opts": [
+     "payee",
+     "payer",
+     "payment"
+    ],
+    "a": 0,
+    "ar": "اسم المستفيد على الشيك لازم يطابق حساب البنك بتاعنا."
+   },
+   {
+    "s": "Accounts ___ follows up with customers who owe us money.",
+    "opts": [
+     "payable",
+     "payee",
+     "receivable"
+    ],
+    "a": 2,
+    "ar": "الحسابات المدينة بتتابع مع العملا اللي عليهم فلوس لينا."
+   }
+  ]
+ },
+ {
+  "w": "courier",
+  "ar": "مندوب / شركة شحن سريع",
+  "book": "Our courier, Mr. Mahmoud Ali, can collect them from your office on Tuesday, 20 January, at 11:00 am.",
+  "family": [
+   {
+    "w": "courier",
+    "pos": "person",
+    "ex": "Our courier will collect the cheques at 11:00.",
+    "ar": "المندوب بتاعنا هيستلم الشيكات الساعة 11.",
+    "ex2": "He will bring his company ID.",
+    "ar2": "هيجيب كارنيه الشركة."
+   },
+   {
+    "w": "courier",
+    "pos": "verb",
+    "ex": "We will courier the original contract to your office today.",
+    "ar": "هنبعت أصل العقد لمكتبكم مع مندوب النهارده.",
+    "ex2": "Please sign and courier it back.",
+    "ar2": "لو سمحت امضيه وابعتهولنا تاني."
+   },
+   {
+    "w": "courier service",
+    "pos": "noun",
+    "ex": "We use a courier service for urgent documents.",
+    "ar": "بنستخدم شركة شحن سريع للمستندات المستعجلة.",
+    "ex2": "The courier service delivers in Cairo the same day.",
+    "ar2": "الشركة بتوصّل في القاهرة في نفس اليوم."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "messenger",
+    "note": "office runner, often for internal errands",
+    "ex": "The messenger took the cheques to the bank.",
+    "ar": "الساعي ودّى الشيكات للبنك.",
+    "ex2": "He also brought back the bank statement.",
+    "ar2": "وجاب كشف الحساب البنكي كمان."
+   },
+   {
+    "w": "delivery driver",
+    "note": "brings goods, not documents or money",
+    "ex": "The delivery driver brought the batteries on a truck.",
+    "ar": "سواق التوصيل جاب البطاريات على عربية نقل.",
+    "ex2": "He needs a signed delivery note.",
+    "ar2": "محتاج إذن تسليم ممضي."
+   },
+   {
+    "w": "collector",
+    "note": "collects money or cheques from customers",
+    "ex": "Our collector visits Delta Pharma every month.",
+    "ar": "مندوب التحصيل بتاعنا بيزور ‎Delta Pharma‎ كل شهر.",
+    "ex2": "He brings back cheques and receipts.",
+    "ar2": "بيرجع بشيكات وإيصالات."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Our courier will collect the cheques on Tuesday at 11:00. Please let me know if another time suits you better.",
+  "ctx_ar": "المندوب بتاعنا هيستلم الشيكات يوم التلات الساعة 11. لو سمحت قولّي لو فيه ميعاد تاني أنسب ليك.",
+  "quiz": [
+   {
+    "s": "Can you ___ the signed contract to our office today?",
+    "opts": [
+     "courier service",
+     "courier",
+     "collector"
+    ],
+    "a": 1,
+    "ar": "ممكن تبعت العقد الممضي لمكتبنا مع مندوب النهارده؟"
+   },
+   {
+    "s": "Our ___ collects cheques from clients every Tuesday.",
+    "opts": [
+     "delivery driver",
+     "courier service",
+     "collector"
+    ],
+    "a": 2,
+    "ar": "مندوب التحصيل بتاعنا بيستلم الشيكات من العملا كل تلات."
+   },
+   {
+    "s": "We use a ___ for urgent documents.",
+    "opts": [
+     "courier service",
+     "messenger",
+     "delivery driver"
+    ],
+    "a": 0,
+    "ar": "بنستخدم شركة شحن سريع للمستندات المستعجلة."
+   }
+  ]
+ },
+ {
+  "w": "reissue",
+  "ar": "يعيد إصدار",
+  "book": "Could you please reissue both cheques with the correct payee name before tomorrow's pick-up?",
+  "family": [
+   {
+    "w": "reissue",
+    "pos": "verb",
+    "ex": "Could you please reissue both cheques with the correct name?",
+    "ar": "ممكن تطلّع الشيكين تاني بالاسم الصح؟",
+    "ex2": "We'll collect them once you reissue them.",
+    "ar2": "هنستلمهم أول ما تطلّعهم تاني."
+   },
+   {
+    "w": "reissued",
+    "pos": "adjective",
+    "ex": "The reissued invoice INV-0461 replaces INV-0457.",
+    "ar": "الفاتورة اللي اتطلعت تاني ‎INV-0461‎ بدل ‎INV-0457.‎",
+    "ex2": "The amount on the reissued invoice did not change.",
+    "ar2": "المبلغ على الفاتورة الجديدة متغيّرش."
+   },
+   {
+    "w": "reissue",
+    "pos": "noun",
+    "ex": "The reissue of the cheques took one day.",
+    "ar": "إعادة إصدار الشيكات خدت يوم.",
+    "ex2": "Their finance manager signed the reissue this morning.",
+    "ar2": "المدير المالي عندهم مضى الشيكات الجديدة الصبح."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "replace",
+    "note": "general; put a new one instead of the old",
+    "ex": "INV-0461 replaces the rejected invoice.",
+    "ar": "‎INV-0461‎ بدل الفاتورة المرفوضة.",
+    "ex2": "Please replace the old copy in your file.",
+    "ar2": "لو سمحت بدّل النسخة القديمة في الملف."
+   },
+   {
+    "w": "re-send",
+    "note": "send the same document again, no change",
+    "ex": "I didn't get the attachment; could you re-send it?",
+    "ar": "موصلنيش المرفق؛ ممكن تبعته تاني؟",
+    "ex2": "I re-sent it from my personal email.",
+    "ar2": "بعته تاني من الإيميل الشخصي."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "The cheques were written to the wrong company name. Our finance manager will reissue both cheques this morning.",
+  "ctx_ar": "الشيكات اتكتبت باسم شركة غلط. المدير المالي عندنا هيطلّع الشيكين تاني الصبح.",
+  "quiz": [
+   {
+    "s": "Please ___ both cheques with the correct payee name.",
+    "opts": [
+     "reissued",
+     "reissue",
+     "re-send"
+    ],
+    "a": 1,
+    "ar": "لو سمحت طلّع الشيكين تاني باسم المستفيد الصح."
+   },
+   {
+    "s": "The ___ invoice INV-0461 replaces INV-0457.",
+    "opts": [
+     "reissue",
+     "replace",
+     "reissued"
+    ],
+    "a": 2,
+    "ar": "الفاتورة الجديدة ‎INV-0461‎ بدل ‎INV-0457.‎"
+   },
+   {
+    "s": "I didn't get the attachment; could you ___ it?",
+    "opts": [
+     "re-send",
+     "reissue",
+     "replace"
+    ],
+    "a": 0,
+    "ar": "موصلنيش المرفق؛ ممكن تبعته تاني؟"
+   }
+  ]
+ },
+ {
+  "w": "collect",
+  "ar": "يستلم / يحصّل",
+  "book": "I confirm that our courier collected the two cheques today:",
+  "family": [
+   {
+    "w": "collect",
+    "pos": "verb",
+    "ex": "Our courier will collect the cheques tomorrow.",
+    "ar": "المندوب بتاعنا هيستلم الشيكات بكرة.",
+    "ex2": "He will collect them from reception.",
+    "ar2": "هيستلمهم من الاستقبال."
+   },
+   {
+    "w": "collection",
+    "pos": "noun",
+    "ex": "Our collection rate improved to 92% this quarter.",
+    "ar": "نسبة التحصيل عندنا وصلت 92% الربع ده.",
+    "ex2": "Better collection means better cash flow.",
+    "ar2": "تحصيل أحسن يعني سيولة أحسن."
+   },
+   {
+    "w": "collector",
+    "pos": "person",
+    "ex": "The collector brings the cheques to accounts every evening.",
+    "ar": "مندوب التحصيل بيجيب الشيكات للحسابات كل يوم بالليل.",
+    "ex2": "Each collector has a list of clients to visit.",
+    "ar2": "كل مندوب تحصيل عنده لستة عملا يزورهم."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "pick up from a place",
+    "mar": "تستلم من مكان",
+    "ex": "Our courier collected the two cheques today.",
+    "ar": "المندوب بتاعنا استلم الشيكين النهارده.",
+    "ex2": "He signed the cheque delivery form.",
+    "ar2": "مضى على نموذج تسليم الشيكات."
+   },
+   {
+    "m": "get money that customers owe",
+    "mar": "تحصّل فلوس",
+    "ex": "We need to collect EGP 2 million before month end.",
+    "ar": "محتاجين نحصّل 2 مليون جنيه قبل آخر الشهر.",
+    "ex2": "Most of it is from two big clients.",
+    "ar2": "أغلبها من عميلين كبار."
+   },
+   {
+    "m": "gather data or information",
+    "mar": "تجمع بيانات",
+    "ex": "The engineer collected battery voltage readings during the visit.",
+    "ar": "المهندس جمع قراءات جهد البطاريات وقت الزيارة.",
+    "ex2": "The readings show two weak batteries.",
+    "ar2": "القراءات بتبيّن بطاريتين ضعاف."
+   }
+  ],
+  "syn": [
+   {
+    "w": "pick up",
+    "note": "informal; for items and documents",
+    "ex": "Mahmoud will pick up the cheques at 11:00.",
+    "ar": "‎Mahmoud‎ هيعدّي ياخد الشيكات الساعة 11.",
+    "ex2": "He'll pick up the receipt too.",
+    "ar2": "هياخد الإيصال كمان."
+   },
+   {
+    "w": "recover",
+    "note": "formal; get back late or lost money",
+    "ex": "We recovered the full amount after escalation.",
+    "ar": "استرجعنا المبلغ كله بعد التصعيد.",
+    "ex2": "It took three months to recover it.",
+    "ar2": "خد تلات شهور عشان نسترجعه."
+   }
+  ],
+  "ant": [
+   {
+    "w": "deliver",
+    "ex": "We deliver the batteries; the client doesn't collect them.",
+    "ar": "احنا اللي بنوصّل البطاريات؛ العميل مش بيستلمها من عندنا.",
+    "ex2": "Delivery to site is included in the price.",
+    "ar2": "التوصيل للموقع شامل في السعر."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our courier collected the two cheques today at 11:00. Both are signed correctly and payable to NPS S.A.E.",
+  "ctx_ar": "المندوب بتاعنا استلم الشيكين النهارده الساعة 11. الاتنين ممضيين صح وباسم ‎NPS S.A.E.‎",
+  "quiz": [
+   {
+    "s": "Our courier will ___ the cheques tomorrow.",
+    "opts": [
+     "collect",
+     "collection",
+     "collector"
+    ],
+    "a": 0,
+    "ar": "المندوب بتاعنا هيستلم الشيكات بكرة."
+   },
+   {
+    "s": "Our ___ rate improved to 92% this quarter.",
+    "opts": [
+     "collect",
+     "collector",
+     "collection"
+    ],
+    "a": 2,
+    "ar": "نسبة التحصيل عندنا وصلت 92% الربع ده."
+   },
+   {
+    "s": "The supplier will ___ the old batteries from site on Monday.",
+    "opts": [
+     "deliver",
+     "pick up",
+     "recover"
+    ],
+    "a": 1,
+    "ar": "المورد هيعدّي ياخد البطاريات القديمة من الموقع يوم الاتنين."
+   }
+  ]
+ },
+ {
+  "w": "notice",
+  "ar": "يلاحظ / إخطار",
+  "book": "I noticed that the cheques are payable to 'Nile Power Solutions Co.'",
+  "family": [
+   {
+    "w": "notice",
+    "pos": "verb",
+    "ex": "I noticed that the payee name is wrong.",
+    "ar": "لاحظت إن اسم المستفيد غلط.",
+    "ex2": "Thank you for noticing it before pick-up.",
+    "ar2": "شكراً إنك خدت بالك قبل الاستلام."
+   },
+   {
+    "w": "notice",
+    "pos": "noun",
+    "ex": "Either party can end the contract with one month's notice.",
+    "ar": "أي طرف يقدر ينهي العقد بإخطار قبلها بشهر.",
+    "ex2": "The notice must be in writing.",
+    "ar2": "الإخطار لازم يكون مكتوب."
+   },
+   {
+    "w": "noticeable",
+    "pos": "adjective",
+    "ex": "There was a noticeable drop in battery voltage.",
+    "ar": "كان فيه هبوط واضح في جهد البطاريات.",
+    "ex2": "The drop was noticeable after ten minutes on load.",
+    "ar2": "الهبوط كان واضح بعد عشر دقايق على الحمل."
+   },
+   {
+    "w": "noticeably",
+    "pos": "adverb",
+    "ex": "Response times improved noticeably after we hired two engineers.",
+    "ar": "أوقات الاستجابة اتحسنت بشكل واضح بعد ما عيّنا مهندسين.",
+    "ex2": "Complaints dropped noticeably too.",
+    "ar2": "الشكاوى قلّت بشكل ملحوظ كمان."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "see or become aware of something",
+    "mar": "تاخد بالك من حاجة",
+    "ex": "Did you notice the wrong date on the cheque?",
+    "ar": "خدت بالك من التاريخ الغلط على الشيك؟",
+    "ex2": "Yes, I noticed it this morning.",
+    "ar2": "أيوه، خدت بالي الصبح."
+   },
+   {
+    "m": "formal written information or warning",
+    "mar": "إخطار رسمي مكتوب",
+    "ex": "We received a notice of price increase from the supplier.",
+    "ar": "جالنا إخطار بزيادة الأسعار من المورد.",
+    "ex2": "The notice gives us 30 days.",
+    "ar2": "الإخطار بيدّينا 30 يوم."
+   }
+  ],
+  "syn": [
+   {
+    "w": "spot",
+    "note": "informal; find a small mistake",
+    "ex": "Good catch, you spotted the wrong tax number.",
+    "ar": "عينك حلوة، لقطت الرقم الضريبي الغلط.",
+    "ex2": "I spotted it while checking the PDF.",
+    "ar2": "لقطته وأنا براجع الـ‎PDF.‎"
+   },
+   {
+    "w": "observe",
+    "note": "formal; for technical reports",
+    "ex": "We observed high temperature in the battery room.",
+    "ar": "لاحظنا حرارة عالية في غرفة البطاريات.",
+    "ex2": "This was observed during the quarterly visit.",
+    "ar2": "ده اتلاحظ في الزيارة الربع سنوية."
+   },
+   {
+    "w": "realise",
+    "note": "understand something suddenly",
+    "ex": "I realised the cheques had the wrong company name.",
+    "ar": "اكتشفت إن الشيكات عليها اسم الشركة الغلط.",
+    "ex2": "I realised it just before the pick-up.",
+    "ar2": "فهمت ده قبل الاستلام على طول."
+   }
+  ],
+  "ant": [
+   {
+    "w": "overlook",
+    "ex": "We overlooked the wrong tax number before sending.",
+    "ar": "فاتنا الرقم الضريبي الغلط قبل ما نبعت.",
+    "ex2": "Next time, two people will check it.",
+    "ar2": "المرة الجاية اتنين هيراجعوه."
+   },
+   {
+    "w": "miss",
+    "ex": "I missed the wrong date on the PO.",
+    "ar": "فاتني التاريخ الغلط على الـ‎PO.‎",
+    "ex2": "Luckily, the client's team noticed it.",
+    "ar2": "لحسن الحظ فريق العميل خد باله."
+   }
+  ],
+  "ladder": null,
+  "ctx": "I noticed that the cheques are payable to the wrong company name. Could you please reissue them before tomorrow?",
+  "ctx_ar": "لاحظت إن الشيكات باسم شركة غلط. ممكن تطلّعهم تاني قبل بكرة؟",
+  "quiz": [
+   {
+    "s": "There was a ___ drop in battery voltage.",
+    "opts": [
+     "notice",
+     "noticeable",
+     "noticeably"
+    ],
+    "a": 1,
+    "ar": "كان فيه هبوط واضح في جهد البطاريات."
+   },
+   {
+    "s": "Either party can end the contract with one month's ___.",
+    "opts": [
+     "noticeably",
+     "spot",
+     "notice"
+    ],
+    "a": 2,
+    "ar": "أي طرف يقدر ينهي العقد بإخطار قبلها بشهر."
+   },
+   {
+    "s": "Please don't ___ the small print in the warranty terms.",
+    "opts": [
+     "overlook",
+     "notice",
+     "observe"
+    ],
+    "a": 0,
+    "ar": "لو سمحت متفوّتش التفاصيل الصغيرة في شروط الضمان."
+   }
+  ]
+ }
+]

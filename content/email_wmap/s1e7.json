@@ -1,0 +1,660 @@
+[
+ {
+  "w": "insufficient",
+  "ar": "مش كفاية",
+  "book": "Unfortunately, our bank returned the second cheque, No. 10245872 for EGP 855,000, dated 15 February, with the reason 'insufficient funds'.",
+  "family": [
+   {
+    "w": "suffice",
+    "pos": "verb",
+    "ex": "One 12V battery will not suffice for 30 minutes of backup.",
+    "ar": "بطارية 12‎V‎ واحدة مش هتكفي 30 دقيقة باك أب.",
+    "ex2": "We need a full string of 40 to suffice.",
+    "ar2": "محتاجين سترينج كامل 40 عشان يكفي."
+   },
+   {
+    "w": "sufficient",
+    "pos": "adjective",
+    "ex": "Please make sure there are sufficient funds on 26 February.",
+    "ar": "لو سمحت اتأكد إن فيه رصيد كافي يوم 26 فبراير.",
+    "ex2": "With sufficient funds, the cheque will clear.",
+    "ar2": "لو الرصيد كافي، الشيك هيتصرف."
+   },
+   {
+    "w": "insufficient",
+    "pos": "adjective",
+    "ex": "The cheque was returned for insufficient funds.",
+    "ar": "الشيك رجع لعدم كفاية الرصيد.",
+    "ex2": "Insufficient funds is a serious reason for a return.",
+    "ar2": "عدم كفاية الرصيد سبب خطير لرجوع الشيك."
+   },
+   {
+    "w": "sufficiently",
+    "pos": "adverb",
+    "ex": "The UPS room is not sufficiently cooled.",
+    "ar": "غرفة الـ‎UPS‎ مش متبرّدة كفاية.",
+    "ex2": "The batteries will age faster if it's not sufficiently cool.",
+    "ar2": "البطاريات هتقدّم أسرع لو الأوضة مش باردة كفاية."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "not enough",
+    "note": "everyday, simple English",
+    "ex": "There's not enough money in their account.",
+    "ar": "مفيش فلوس كفاية في حسابهم.",
+    "ex2": "They said there's not enough until 5 March.",
+    "ar2": "قالوا مش هيكفي لحد 5 مارس."
+   },
+   {
+    "w": "inadequate",
+    "note": "quality or amount below what is needed",
+    "ex": "The cable size is inadequate for this load.",
+    "ar": "مقاس الكابل مش مناسب للحمل ده.",
+    "ex2": "Inadequate cables may overheat.",
+    "ar2": "الكابلات اللي مش مناسبة ممكن تسخن."
+   },
+   {
+    "w": "short of",
+    "note": "informal; short of funds or stock",
+    "ex": "The client is short of cash this month.",
+    "ar": "العميل عنده نقص في السيولة الشهر ده.",
+    "ex2": "We are also short of 100Ah batteries in stock.",
+    "ar2": "وإحنا كمان ناقصنا بطاريات 100‎Ah‎ في المخزن."
+   }
+  ],
+  "ant": [
+   {
+    "w": "sufficient",
+    "ex": "The bank confirmed sufficient funds for the cheque.",
+    "ar": "البنك أكّد إن فيه رصيد كافي للشيك.",
+    "ex2": "We redeposited it the same day.",
+    "ar2": "ودّعناه تاني في نفس اليوم."
+   },
+   {
+    "w": "ample",
+    "ex": "We have ample stock of 12V batteries.",
+    "ar": "عندنا مخزون كبير من بطاريات 12‎V.‎",
+    "ex2": "Ample stock means fast delivery.",
+    "ar2": "المخزون الكبير معناه توصيل سريع."
+   }
+  ],
+  "ladder": {
+   "label": "how much money is available",
+   "lar": "الفلوس المتاحة قد إيه",
+   "steps": [
+    {
+     "w": "insufficient",
+     "ex": "The balance was insufficient on 15 February.",
+     "ar": "الرصيد مكانش كافي يوم 15 فبراير.",
+     "ex2": "So the bank returned the cheque.",
+     "ar2": "فالبنك رجّع الشيك."
+    },
+    {
+     "w": "sufficient",
+     "ex": "Funds will be sufficient by 26 February.",
+     "ar": "الرصيد هيكون كافي يوم 26 فبراير.",
+     "ex2": "Their finance manager reserved the amount.",
+     "ar2": "المدير المالي عندهم حجز المبلغ."
+    },
+    {
+     "w": "ample",
+     "ex": "After the tender payment, they had ample funds.",
+     "ar": "بعد دفعة المناقصة كان عندهم رصيد كبير.",
+     "ex2": "All later cheques cleared without problems.",
+     "ar2": "كل الشيكات بعد كده اتصرفت من غير مشاكل."
+    }
+   ]
+  },
+  "ctx": "The bank returned cheque No. 10245872 for insufficient funds. Please confirm a new date when the funds will be available.",
+  "ctx_ar": "البنك رجّع الشيك رقم 10245872 لعدم كفاية الرصيد. لو سمحت أكّد تاريخ جديد الفلوس هتكون متاحة فيه.",
+  "quiz": [
+   {
+    "s": "The cheque was returned for ___ funds.",
+    "opts": [
+     "sufficient",
+     "insufficient",
+     "sufficiently"
+    ],
+    "a": 1,
+    "ar": "الشيك رجع لعدم كفاية الرصيد."
+   },
+   {
+    "s": "One 12V battery will not ___ for 30 minutes of backup.",
+    "opts": [
+     "suffice",
+     "sufficient",
+     "ample"
+    ],
+    "a": 0,
+    "ar": "بطارية 12‎V‎ واحدة مش هتكفي 30 دقيقة باك أب."
+   },
+   {
+    "s": "The cable size is ___ for this load; it may overheat.",
+    "opts": [
+     "ample",
+     "sufficient",
+     "inadequate"
+    ],
+    "a": 2,
+    "ar": "مقاس الكابل مش مناسب للحمل ده؛ ممكن يسخن."
+   }
+  ]
+ },
+ {
+  "w": "redeposit",
+  "ar": "يودّع تاني",
+  "book": "Could you please hold the cheque and redeposit it on 5 March?",
+  "family": [
+   {
+    "w": "deposit",
+    "pos": "verb",
+    "ex": "We deposit all cheques at Banque Misr.",
+    "ar": "بنودّع كل الشيكات في بنك مصر.",
+    "ex2": "We deposit them on the cheque date.",
+    "ar2": "بنودّعهم في تاريخ الشيك."
+   },
+   {
+    "w": "deposit",
+    "pos": "noun",
+    "ex": "The client paid a 30% deposit with the PO.",
+    "ar": "العميل دفع مقدم 30% مع الـ‎PO.‎",
+    "ex2": "The deposit covers the battery import cost.",
+    "ar2": "المقدم بيغطي تكلفة استيراد البطاريات."
+   },
+   {
+    "w": "redeposit",
+    "pos": "verb",
+    "ex": "We will redeposit the cheque on 26 February.",
+    "ar": "هنودّع الشيك تاني يوم 26 فبراير.",
+    "ex2": "Please make sure the funds are there when we redeposit it.",
+    "ar2": "لو سمحت اتأكد إن الفلوس موجودة لما نودّعه."
+   },
+   {
+    "w": "depositor",
+    "pos": "person",
+    "ex": "The depositor must sign the back of the cheque.",
+    "ar": "المودِع لازم يمضي على ضهر الشيك.",
+    "ex2": "Our accountant is the usual depositor.",
+    "ar2": "المحاسب بتاعنا هو اللي عادةً بيودّع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "re-present",
+    "note": "banking term: present the cheque to the bank again",
+    "ex": "The bank allows us to re-present the cheque once.",
+    "ar": "البنك بيسمح لنا نقدّم الشيك تاني مرة واحدة.",
+    "ex2": "We re-presented it on 26 February, and it cleared.",
+    "ar2": "قدّمناه تاني يوم 26 فبراير واتصرف."
+   },
+   {
+    "w": "resubmit",
+    "note": "general; send documents again",
+    "ex": "Please resubmit the invoice with the PO number.",
+    "ar": "لو سمحت ابعت الفاتورة تاني برقم الـ‎PO.‎",
+    "ex2": "We resubmitted it the same day.",
+    "ar2": "بعتناها تاني في نفس اليوم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "withdraw",
+    "ex": "We withdrew cash to pay the customs fees.",
+    "ar": "سحبنا كاش عشان ندفع رسوم الجمارك.",
+    "ex2": "The withdrawal was approved by the Finance Director.",
+    "ar2": "السحب اتوافق عليه من المدير المالي."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We agree to hold the cheque until 26 February. We will redeposit it that morning, so please keep the funds ready.",
+  "ctx_ar": "موافقين نمسك الشيك لحد 26 فبراير. هنودّعه تاني الصبح، فلو سمحت خلّي الفلوس جاهزة.",
+  "quiz": [
+   {
+    "s": "The client paid a 30% ___ with the PO.",
+    "opts": [
+     "redeposit",
+     "deposit",
+     "depositor"
+    ],
+    "a": 1,
+    "ar": "العميل دفع مقدم 30% مع الـ‎PO.‎"
+   },
+   {
+    "s": "The ___ must sign the back of the cheque.",
+    "opts": [
+     "withdraw",
+     "deposit",
+     "depositor"
+    ],
+    "a": 2,
+    "ar": "المودِع لازم يمضي على ضهر الشيك."
+   },
+   {
+    "s": "After the funds arrive, we will ___ the returned cheque.",
+    "opts": [
+     "redeposit",
+     "withdraw",
+     "depositor"
+    ],
+    "a": 0,
+    "ar": "بعد ما الفلوس توصل، هنودّع الشيك الراجع تاني."
+   }
+  ]
+ },
+ {
+  "w": "urgently",
+  "ar": "بشكل عاجل",
+  "book": "Could you please look into this urgently and let us know when we can redeposit it?",
+  "family": [
+   {
+    "w": "urgent",
+    "pos": "adjective",
+    "ex": "This is urgent: the server UPS is on battery.",
+    "ar": "ده مستعجل: الـ‎UPS‎ بتاع السيرفرات شغال على البطارية.",
+    "ex2": "Please send an engineer within the hour.",
+    "ar2": "لو سمحت ابعت مهندس خلال ساعة."
+   },
+   {
+    "w": "urgently",
+    "pos": "adverb",
+    "ex": "Could you please look into this urgently?",
+    "ar": "ممكن تشوف الموضوع ده بشكل عاجل؟",
+    "ex2": "The cheque is already past the agreed date.",
+    "ar2": "الشيك عدّى التاريخ المتفق عليه خلاص."
+   },
+   {
+    "w": "urgency",
+    "pos": "noun",
+    "ex": "Please treat this matter with urgency.",
+    "ar": "لو سمحت اتعامل مع الموضوع ده بسرعة.",
+    "ex2": "Given the urgency, I'm also calling you.",
+    "ar2": "ونظراً للاستعجال، هكلّمك كمان."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "as soon as possible",
+    "note": "polite and common in emails",
+    "ex": "Please send the corrected PO as soon as possible.",
+    "ar": "لو سمحت ابعت الـ‎PO‎ المصحّح في أسرع وقت.",
+    "ex2": "We need it as soon as possible to order batteries.",
+    "ar2": "محتاجينه في أسرع وقت عشان نطلب البطاريات."
+   },
+   {
+    "w": "immediately",
+    "note": "right now; stronger than urgently",
+    "ex": "Please shut down the UPS immediately; the battery is swelling.",
+    "ar": "لو سمحت اقفل الـ‎UPS‎ حالاً؛ البطارية منفوخة.",
+    "ex2": "Our engineer is coming immediately.",
+    "ar2": "المهندس بتاعنا جاي حالاً."
+   },
+   {
+    "w": "promptly",
+    "note": "quickly and on time; formal",
+    "ex": "Thank you for replying so promptly.",
+    "ar": "شكراً إنك ردّيت بسرعة.",
+    "ex2": "Invoices paid promptly keep the account open.",
+    "ar2": "الفواتير اللي بتتدفع في ميعادها بتخلّي الحساب مفتوح."
+   }
+  ],
+  "ant": [
+   {
+    "w": "at your convenience",
+    "ex": "There's no rush; please reply at your convenience.",
+    "ar": "مفيش استعجال؛ رد في الوقت اللي يناسبك.",
+    "ex2": "The visit can be any day next week, at your convenience.",
+    "ar2": "الزيارة ممكن تكون أي يوم الأسبوع الجاي على حسب ظروفك."
+   }
+  ],
+  "ladder": {
+   "label": "how urgent",
+   "lar": "مستعجل قد إيه",
+   "steps": [
+    {
+     "w": "soon",
+     "ex": "Please send us the statement soon.",
+     "ar": "لو سمحت ابعتلنا كشف الحساب قريب.",
+     "ex2": "No rush, this week is fine.",
+     "ar2": "مفيش استعجال، الأسبوع ده تمام."
+    },
+    {
+     "w": "as soon as possible",
+     "ex": "Please confirm the new date as soon as possible.",
+     "ar": "لو سمحت أكّد التاريخ الجديد في أسرع وقت.",
+     "ex2": "We need it for our cash flow plan.",
+     "ar2": "محتاجينه لخطة السيولة بتاعتنا."
+    },
+    {
+     "w": "urgently",
+     "ex": "Please look into the returned cheque urgently.",
+     "ar": "لو سمحت شوف موضوع الشيك الراجع بشكل عاجل.",
+     "ex2": "We need a reply by Thursday.",
+     "ar2": "محتاجين رد قبل الخميس."
+    },
+    {
+     "w": "immediately",
+     "ex": "Please stop using the UPS immediately.",
+     "ar": "لو سمحت وقّف استخدام الـ‎UPS‎ حالاً.",
+     "ex2": "There is a risk of fire.",
+     "ar2": "فيه خطر حريقة."
+    }
+   ]
+  },
+  "ctx": "Our bank returned the second cheque. Could you please look into this urgently and confirm a new date by Thursday?",
+  "ctx_ar": "البنك بتاعنا رجّع الشيك التاني. ممكن تشوف الموضوع ده بشكل عاجل وتأكّد تاريخ جديد قبل الخميس؟",
+  "quiz": [
+   {
+    "s": "Could you please look into this ___?",
+    "opts": [
+     "urgent",
+     "urgently",
+     "urgency"
+    ],
+    "a": 1,
+    "ar": "ممكن تشوف الموضوع ده بشكل عاجل؟"
+   },
+   {
+    "s": "Please treat this matter with ___.",
+    "opts": [
+     "urgently",
+     "urgent",
+     "urgency"
+    ],
+    "a": 2,
+    "ar": "لو سمحت اتعامل مع الموضوع ده بسرعة."
+   },
+   {
+    "s": "There is no rush; please reply ___.",
+    "opts": [
+     "at your convenience",
+     "immediately",
+     "urgently"
+    ],
+    "a": 0,
+    "ar": "مفيش استعجال؛ رد في الوقت اللي يناسبك."
+   }
+  ]
+ },
+ {
+  "w": "clear",
+  "ar": "يتصرف (الشيك) / واضح",
+  "book": "I am pleased to confirm that cheque No. 10245872 was cleared today.",
+  "family": [
+   {
+    "w": "clear",
+    "pos": "verb",
+    "ex": "The cheque should clear in two working days.",
+    "ar": "الشيك المفروض يتصرف في يومين شغل.",
+    "ex2": "We'll send a receipt once it clears.",
+    "ar2": "هنبعت إيصال أول ما يتصرف."
+   },
+   {
+    "w": "clear",
+    "pos": "adjective",
+    "ex": "Thank you for the clear summary of the account.",
+    "ar": "شكراً على الملخص الواضح للحساب.",
+    "ex2": "Clear emails get faster replies.",
+    "ar2": "الإيميلات الواضحة بتاخد رد أسرع."
+   },
+   {
+    "w": "clearance",
+    "pos": "noun",
+    "ex": "The batteries are waiting for customs clearance.",
+    "ar": "البطاريات مستنية الإفراج الجمركي.",
+    "ex2": "Clearance usually takes three days at Alexandria port.",
+    "ar2": "الإفراج عادةً بياخد تلات أيام في ميناء إسكندرية."
+   },
+   {
+    "w": "clearly",
+    "pos": "adverb",
+    "ex": "Please write the invoice number clearly in the reference.",
+    "ar": "لو سمحت اكتب رقم الفاتورة بوضوح في المرجع.",
+    "ex2": "If it's clearly written, we can allocate the payment fast.",
+    "ar2": "لو مكتوب بوضوح نقدر نوزّع الدفعة بسرعة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "a cheque is paid by the bank",
+    "mar": "الشيك يتصرف",
+    "ex": "The first cheque cleared on 27 January.",
+    "ar": "أول شيك اتصرف يوم 27 يناير.",
+    "ex2": "The money is now in our account.",
+    "ar2": "الفلوس دلوقتي في حسابنا."
+   },
+   {
+    "m": "easy to understand",
+    "mar": "واضح",
+    "ex": "Your offer is clear, thank you.",
+    "ar": "عرضك واضح، شكراً.",
+    "ex2": "Just one point about delivery is not clear.",
+    "ar2": "بس نقطة واحدة عن التسليم مش واضحة."
+   },
+   {
+    "m": "get goods through customs",
+    "mar": "تخلّص البضاعة من الجمارك",
+    "ex": "Our agent will clear the UPS shipment on Sunday.",
+    "ar": "المخلّص بتاعنا هيخلّص شحنة الـ‎UPS‎ يوم الحد.",
+    "ex2": "Then we can deliver it on Tuesday.",
+    "ar2": "وبعدين نقدر نسلّمها يوم التلات."
+   },
+   {
+    "m": "pay off a balance completely",
+    "mar": "تسدّد رصيد بالكامل",
+    "ex": "Please clear the open balance before the new order.",
+    "ar": "لو سمحت سدّد الرصيد المفتوح قبل الأوردر الجديد.",
+    "ex2": "Once it's clear, we'll release the hold.",
+    "ar2": "أول ما يتسدّد هنفك الإيقاف."
+   }
+  ],
+  "syn": [
+   {
+    "w": "go through",
+    "note": "informal; the payment worked",
+    "ex": "Did the transfer go through?",
+    "ar": "التحويل عدّى؟",
+    "ex2": "Yes, it went through this morning.",
+    "ar2": "أيوه، عدّى الصبح."
+   },
+   {
+    "w": "credited",
+    "note": "the money appears in our account",
+    "ex": "The amount was credited to our account today.",
+    "ar": "المبلغ نزل في حسابنا النهارده.",
+    "ex2": "It was credited after the cheque cleared.",
+    "ar2": "نزل بعد ما الشيك اتصرف."
+   },
+   {
+    "w": "honoured",
+    "note": "formal banking: the bank pays the cheque",
+    "ex": "The cheque was honoured on its second deposit.",
+    "ar": "الشيك اتصرف في الإيداع التاني.",
+    "ex2": "We were glad it was honoured.",
+    "ar2": "اتبسطنا إنه اتصرف."
+   }
+  ],
+  "ant": [
+   {
+    "w": "bounce",
+    "ex": "The second cheque bounced because of insufficient funds.",
+    "ar": "الشيك التاني ارتد لعدم كفاية الرصيد.",
+    "ex2": "A second bounce would affect their credit limit.",
+    "ar2": "ارتداد تاني هيأثر على حد الائتمان بتاعهم."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Cheque No. 10245872 was cleared today, so INV-0461 is now fully paid. Our official receipt is attached.",
+  "ctx_ar": "الشيك رقم 10245872 اتصرف النهارده، فـ‎INV-0461‎ اتدفعت بالكامل. الإيصال الرسمي بتاعنا مرفق.",
+  "quiz": [
+   {
+    "s": "The batteries are still waiting for customs ___ at the port.",
+    "opts": [
+     "clear",
+     "clearance",
+     "clearly"
+    ],
+    "a": 1,
+    "ar": "البطاريات لسه مستنية الإفراج الجمركي في الميناء."
+   },
+   {
+    "s": "Please write the invoice number ___ in the transfer reference.",
+    "opts": [
+     "clearance",
+     "clear",
+     "clearly"
+    ],
+    "a": 2,
+    "ar": "لو سمحت اكتب رقم الفاتورة بوضوح في مرجع التحويل."
+   },
+   {
+    "s": "If the cheque ___ again, we will stop new orders.",
+    "opts": [
+     "bounces",
+     "goes through",
+     "clears"
+    ],
+    "a": 0,
+    "ar": "لو الشيك ارتد تاني، هنوقف الأوردرات الجديدة."
+   }
+  ]
+ },
+ {
+  "w": "credit limit",
+  "ar": "حد الائتمان",
+  "book": "Please note that a second return would affect your credit limit and future orders with us.",
+  "family": [
+   {
+    "w": "credit",
+    "pos": "noun",
+    "ex": "We give Delta Pharma 60 days' credit.",
+    "ar": "بندّي ‎Delta Pharma‎ مهلة دفع 60 يوم.",
+    "ex2": "New clients get no credit at first.",
+    "ar2": "العملا الجداد مبياخدوش آجل في الأول."
+   },
+   {
+    "w": "credit",
+    "pos": "verb",
+    "ex": "We will credit EGP 5,000 to your account for the returned part.",
+    "ar": "هنضيف 5000 جنيه لحسابكم عن القطعة المرتجعة.",
+    "ex2": "The credit note will follow by email.",
+    "ar2": "الإشعار الدائن هيوصل بالإيميل."
+   },
+   {
+    "w": "credit limit",
+    "pos": "noun",
+    "ex": "Your credit limit with us is EGP 500,000.",
+    "ar": "حد الائتمان بتاعكم عندنا 500 ألف جنيه.",
+    "ex2": "This order would take you over the credit limit.",
+    "ar2": "الأوردر ده هيعدّيكم حد الائتمان."
+   },
+   {
+    "w": "creditworthy",
+    "pos": "adjective",
+    "ex": "Banks lend only to creditworthy companies.",
+    "ar": "البنوك بتسلّف بس للشركات اللي سمعتها المالية كويسة.",
+    "ex2": "Delta Pharma has always been creditworthy.",
+    "ar2": "‎Delta Pharma‎ طول عمرها سمعتها المالية كويسة."
+   },
+   {
+    "w": "creditor",
+    "pos": "person",
+    "ex": "Our battery supplier is our largest creditor.",
+    "ar": "مورد البطاريات أكبر دائن لينا.",
+    "ex2": "We pay that creditor every month on time.",
+    "ar2": "بندفع للدائن ده كل شهر في ميعاده."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "credit line",
+    "note": "a bank facility; money we can borrow",
+    "ex": "The bank increased our credit line for imports.",
+    "ar": "البنك زوّد خط الائتمان بتاعنا للاستيراد.",
+    "ex2": "We use the credit line to pay suppliers in advance.",
+    "ar2": "بنستخدم خط الائتمان عشان ندفع للموردين مقدم."
+   },
+   {
+    "w": "credit facility",
+    "note": "formal banking term for a credit line",
+    "ex": "We have a USD credit facility with the bank.",
+    "ar": "عندنا تسهيل ائتماني بالدولار مع البنك.",
+    "ex2": "The credit facility is renewed every year.",
+    "ar2": "التسهيل ده بيتجدد كل سنة."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how much payment trust",
+   "lar": "الثقة في الدفع قد إيه",
+   "steps": [
+    {
+     "w": "cash in advance",
+     "ex": "New clients pay cash in advance.",
+     "ar": "العملا الجداد بيدفعوا كاش مقدم.",
+     "ex2": "After three orders, we review their terms.",
+     "ar2": "بعد تلات أوردرات بنراجع شروطهم."
+    },
+    {
+     "w": "cash on delivery",
+     "ex": "This client pays cash on delivery.",
+     "ar": "العميل ده بيدفع كاش عند الاستلام.",
+     "ex2": "Our driver collects the cheque on site.",
+     "ar2": "السواق بيستلم الشيك في الموقع."
+    },
+    {
+     "w": "30-day credit",
+     "ex": "We moved them to 30-day credit after a good year.",
+     "ar": "نقلناهم لآجل 30 يوم بعد سنة كويسة.",
+     "ex2": "Their credit limit is EGP 200,000.",
+     "ar2": "حد الائتمان بتاعهم 200 ألف جنيه."
+    },
+    {
+     "w": "60-day credit",
+     "ex": "Long-term clients get 60-day credit.",
+     "ar": "العملا القدام بياخدوا آجل 60 يوم.",
+     "ex2": "Any returned cheque can cancel the 60 days.",
+     "ar2": "أي شيك راجع ممكن يلغي الـ60 يوم."
+    }
+   ]
+  },
+  "ctx": "A second returned cheque would affect your credit limit with us. New orders may then need payment in advance.",
+  "ctx_ar": "شيك راجع تاني هيأثر على حد الائتمان بتاعكم عندنا. ساعتها الأوردرات الجديدة ممكن تحتاج دفع مقدم.",
+  "quiz": [
+   {
+    "s": "This order would take them over their ___ of EGP 500,000.",
+    "opts": [
+     "credit limit",
+     "creditor",
+     "creditworthy"
+    ],
+    "a": 0,
+    "ar": "الأوردر ده هيعدّيهم حد الائتمان بتاعهم 500 ألف جنيه."
+   },
+   {
+    "s": "Banks lend only to ___ companies.",
+    "opts": [
+     "credit",
+     "creditor",
+     "creditworthy"
+    ],
+    "a": 2,
+    "ar": "البنوك بتسلّف بس للشركات اللي سمعتها المالية كويسة."
+   },
+   {
+    "s": "We will ___ EGP 5,000 to your account for the returned part.",
+    "opts": [
+     "credit limit",
+     "credit",
+     "creditor"
+    ],
+    "a": 1,
+    "ar": "هنضيف 5000 جنيه لحسابكم عن القطعة المرتجعة."
+   }
+  ]
+ }
+]

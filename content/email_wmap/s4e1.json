@@ -1,0 +1,702 @@
+[
+ {
+  "w": "shortfall",
+  "ar": "عجز / نقص في الفلوس",
+  "book": "This leaves a shortfall of about EGP 1.6 million on 8 October.",
+  "family": [
+   {
+    "w": "shortfall",
+    "pos": "noun",
+    "ex": "Next week's shortfall comes from late payments by two big customers.",
+    "ar": "العجز بتاع الأسبوع الجاي جاي من تأخير دفع اتنين عملا كبار.",
+    "ex2": "We need to cover the shortfall before salaries go out.",
+    "ar2": "لازم نغطي العجز قبل ما المرتبات تنزل."
+   },
+   {
+    "w": "short",
+    "pos": "adjective",
+    "ex": "We will be short by EGP 900,000 if Delta Pharma doesn't pay.",
+    "ar": "هيبقى ناقصنا 900,000 جنيه لو ‎Delta Pharma‎ مدفعتش.",
+    "ex2": "Being short on payday is not an option.",
+    "ar2": "إننا نبقى ناقصين فلوس يوم القبض ده مش وارد."
+   },
+   {
+    "w": "shortage",
+    "pos": "noun",
+    "ex": "There is a shortage of 100Ah batteries in the local market.",
+    "ar": "فيه نقص في بطاريات ‎100Ah‎ في السوق المحلي.",
+    "ex2": "Because of the shortage, prices went up by 15%.",
+    "ar2": "وبسبب النقص ده، الأسعار زادت 15%."
+   },
+   {
+    "w": "fall short",
+    "pos": "verb",
+    "ex": "Collections may fall short of our forecast by EGP 2 million this month.",
+    "ar": "التحصيلات ممكن تيجي أقل من توقعاتنا بـ2 مليون جنيه الشهر ده.",
+    "ex2": "If they fall short again, we must delay some supplier payments.",
+    "ar2": "لو جت أقل تاني، لازم نأجل شوية مدفوعات للموردين."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "deficit",
+    "note": "formal budget word, often for a whole period or year",
+    "ex": "The project ended the quarter with a cash deficit of EGP 3 million.",
+    "ar": "المشروع قفل الربع بعجز نقدي 3 مليون جنيه.",
+    "ex2": "The board asked for a plan to close the deficit.",
+    "ar2": "مجلس الإدارة طلب خطة لسد العجز."
+   },
+   {
+    "w": "gap",
+    "note": "informal everyday word for the missing amount",
+    "ex": "There's a gap of EGP 1.6 million between collections and payments.",
+    "ar": "فيه فرق 1.6 مليون جنيه بين التحصيلات والمدفوعات.",
+    "ex2": "A bank overdraft could cover the gap for a few days.",
+    "ar2": "سحب على المكشوف من البنك ممكن يغطي الفرق كام يوم."
+   },
+   {
+    "w": "shortage",
+    "note": "not enough goods or stock, not only money",
+    "ex": "A shortage of spare control cards delayed three VFD repairs.",
+    "ar": "نقص كروت الكنترول الاسبير أخّر تصليح 3 ‎VFD‎.",
+    "ex2": "The shortage should end when the next shipment arrives.",
+    "ar2": "النقص ده المفروض يخلص لما الشحنة الجاية توصل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "surplus",
+    "ex": "After the Delta Pharma transfer, we will have a surplus of EGP 600,000.",
+    "ar": "بعد تحويل ‎Delta Pharma‎، هيبقى عندنا فايض 600,000 جنيه.",
+    "ex2": "We can place the surplus in a short-term deposit.",
+    "ar2": "ممكن نحط الفايض في وديعة قصيرة."
+   }
+  ],
+  "ladder": {
+   "label": "how big the missing amount is",
+   "lar": "النقص كبير قد إيه",
+   "steps": [
+    {
+     "w": "slight shortfall",
+     "ex": "We have a slight shortfall of EGP 50,000 on Thursday.",
+     "ar": "عندنا عجز بسيط 50,000 جنيه يوم الخميس.",
+     "ex2": "A slight shortfall like this can wait for Sunday's collections.",
+     "ar2": "عجز صغير زي ده ممكن يستنى تحصيلات الأحد."
+    },
+    {
+     "w": "significant shortfall",
+     "ex": "Without the VoltTech delay, we face a significant shortfall on payday.",
+     "ar": "من غير تأجيل ‎VoltTech‎، هنقابل عجز كبير يوم القبض.",
+     "ex2": "A significant shortfall needs the Finance Director's decision.",
+     "ar2": "العجز الكبير محتاج قرار من المدير المالي."
+    },
+    {
+     "w": "serious shortfall",
+     "ex": "Three unpaid invoices could cause a serious shortfall next month.",
+     "ar": "تلات فواتير مش مدفوعة ممكن يعملوا عجز خطير الشهر الجاي.",
+     "ex2": "A serious shortfall may force us to use the bank facility.",
+     "ar2": "العجز الخطير ممكن يضطرنا نستخدم التسهيل البنكي."
+    }
+   ]
+  },
+  "ctx": "Payments this week are higher than collections. This leaves a shortfall of EGP 1.6 million on salary day.",
+  "ctx_ar": "المدفوعات الأسبوع ده أعلى من التحصيلات. وده بيسيب عجز 1.6 مليون جنيه يوم المرتبات.",
+  "quiz": [
+   {
+    "s": "If Delta Pharma doesn't pay, we will be ___ by EGP 1.35 million.",
+    "opts": [
+     "shortfall",
+     "short",
+     "shortage"
+    ],
+    "a": 1,
+    "ar": "لو ‎Delta Pharma‎ مدفعتش، هيبقى ناقصنا 1.35 مليون جنيه."
+   },
+   {
+    "s": "Prices went up because of a ___ of 100Ah batteries in the market.",
+    "opts": [
+     "shortage",
+     "short",
+     "surplus"
+    ],
+    "a": 0,
+    "ar": "الأسعار زادت بسبب نقص بطاريات ‎100Ah‎ في السوق."
+   },
+   {
+    "s": "After the big transfer arrived, we had a ___ instead of a shortfall.",
+    "opts": [
+     "gap",
+     "deficit",
+     "surplus"
+    ],
+    "a": 2,
+    "ar": "بعد ما التحويل الكبير وصل، بقى عندنا فايض بدل العجز."
+   }
+  ]
+ },
+ {
+  "w": "collection",
+  "ar": "تحصيل (الفلوس من العملا)",
+  "book": "We expect collections of EGP 6.1 million and payments of EGP 7.9 million this week.",
+  "family": [
+   {
+    "w": "collect",
+    "pos": "verb",
+    "ex": "Sara will collect the cheque from Delta Pharma tomorrow morning.",
+    "ar": "سارة هتستلم الشيك من ‎Delta Pharma‎ بكرة الصبح.",
+    "ex2": "Then she will deposit it at the bank before noon.",
+    "ar2": "وبعدين هتودّعه في البنك قبل الضهر."
+   },
+   {
+    "w": "collection",
+    "pos": "noun",
+    "ex": "Collections were weak in September because of the holidays.",
+    "ar": "التحصيل كان ضعيف في سبتمبر بسبب الأجازات.",
+    "ex2": "We need better collection from government customers this month.",
+    "ar2": "محتاجين تحصيل أحسن من العملا الحكوميين الشهر ده."
+   },
+   {
+    "w": "collector",
+    "pos": "person",
+    "ex": "The collector brought back two cheques from the Alexandria customers.",
+    "ar": "المحصّل رجع بشيكين من عملا إسكندرية.",
+    "ex2": "Our collector also reminds customers about overdue invoices.",
+    "ar2": "المحصّل بتاعنا كمان بيفكّر العملا بالفواتير المتأخرة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "money received from customers",
+    "mar": "تحصيل فلوس من العملا",
+    "ex": "Expected collections this week are EGP 6.1 million.",
+    "ar": "التحصيلات المتوقعة الأسبوع ده 6.1 مليون جنيه.",
+    "ex2": "Most of it depends on Delta Pharma's payment.",
+    "ar2": "معظمها متوقف على دفعة ‎Delta Pharma‎."
+   },
+   {
+    "m": "picking up goods from a place",
+    "mar": "استلام بضاعة من مكان",
+    "ex": "The UPS units are ready for collection from our warehouse.",
+    "ar": "أجهزة الـ‎UPS‎ جاهزة للاستلام من المخزن بتاعنا.",
+    "ex2": "The customer's driver will come for collection at 10 am.",
+    "ar2": "سواق العميل هييجي يستلم الساعة 10 الصبح."
+   }
+  ],
+  "syn": [
+   {
+    "w": "receipts",
+    "note": "money that actually came in; used in cash reports",
+    "ex": "Cash receipts last week reached EGP 5.2 million.",
+    "ar": "الفلوس اللي دخلت الأسبوع اللي فات وصلت 5.2 مليون جنيه.",
+    "ex2": "Receipts were higher because two hospitals paid early.",
+    "ar2": "الداخل كان أعلى عشان مستشفيين دفعوا بدري."
+   },
+   {
+    "w": "inflows",
+    "note": "treasury word for all cash coming in, not only customers",
+    "ex": "Our inflows include customer payments and the VAT refund.",
+    "ar": "الفلوس الداخلة عندنا فيها مدفوعات العملا واسترداد الضريبة.",
+    "ex2": "Inflows must cover outflows before Thursday.",
+    "ar2": "الداخل لازم يغطي الخارج قبل الخميس."
+   },
+   {
+    "w": "incoming payments",
+    "note": "plain words; good for lists sent to managers",
+    "ex": "Please list all incoming payments expected before 8 October.",
+    "ar": "من فضلك اكتب كل المدفوعات الجاية المتوقعة قبل 8 أكتوبر.",
+    "ex2": "Mark the incoming payments that customers have already confirmed.",
+    "ar2": "علّم على المدفوعات الجاية اللي العملا أكدوها خلاص."
+   }
+  ],
+  "ant": [
+   {
+    "w": "outflows",
+    "ex": "Outflows this week are EGP 7.9 million, mostly salaries.",
+    "ar": "الخارج الأسبوع ده 7.9 مليون جنيه، أغلبه مرتبات.",
+    "ex2": "We can reduce outflows by delaying the supplier payment.",
+    "ar2": "ممكن نقلل الخارج بتأجيل دفعة المورد."
+   },
+   {
+    "w": "payments",
+    "ex": "Payments this week include salaries, VAT and a supplier transfer.",
+    "ar": "المدفوعات الأسبوع ده فيها مرتبات وضريبة وتحويل لمورد.",
+    "ex2": "Total payments are higher than our expected collections.",
+    "ar2": "إجمالي المدفوعات أعلى من التحصيلات المتوقعة."
+   }
+  ],
+  "ladder": {
+   "label": "how sure we are of the money",
+   "lar": "متأكدين من الفلوس قد إيه",
+   "steps": [
+    {
+     "w": "expected collections",
+     "ex": "Expected collections are based on invoice due dates.",
+     "ar": "التحصيلات المتوقعة محسوبة على مواعيد استحقاق الفواتير.",
+     "ex2": "But some customers always pay late.",
+     "ar2": "بس فيه عملا دايمًا بيدفعوا متأخر."
+    },
+    {
+     "w": "promised payment",
+     "ex": "We have a promised payment from Delta Pharma by Thursday.",
+     "ar": "عندنا وعد بالدفع من ‎Delta Pharma‎ قبل الخميس.",
+     "ex2": "A promised payment is better, but still not in the bank.",
+     "ar2": "الوعد بالدفع أحسن، بس لسه الفلوس مدخلتش البنك."
+    },
+    {
+     "w": "confirmed transfer",
+     "ex": "Ms. Dalia sent a confirmed transfer date of 7 October.",
+     "ar": "أستاذة داليا بعتت ميعاد تحويل مؤكد 7 أكتوبر.",
+     "ex2": "With a confirmed transfer, I can update the cash position.",
+     "ar2": "مع تحويل مؤكد، أقدر أحدّث الموقف النقدي."
+    },
+    {
+     "w": "received",
+     "ex": "The EGP 1.35 million was received this morning.",
+     "ar": "المليون وتلتمية وخمسين ألف وصلوا النهارده الصبح.",
+     "ex2": "Now that the money is in, the shortfall is closed.",
+     "ar2": "دلوقتي الفلوس دخلت، والعجز اتقفل."
+    }
+   ]
+  },
+  "ctx": "Our collections this week depend mainly on Delta Pharma. If they pay on 7 October, we can cover salaries.",
+  "ctx_ar": "التحصيلات بتاعتنا الأسبوع ده معتمدة أساسًا على ‎Delta Pharma‎. لو دفعوا 7 أكتوبر، نقدر نغطي المرتبات.",
+  "quiz": [
+   {
+    "s": "Sara will ___ the cheque from the customer tomorrow.",
+    "opts": [
+     "collection",
+     "collect",
+     "collector"
+    ],
+    "a": 1,
+    "ar": "سارة هتستلم الشيك من العميل بكرة."
+   },
+   {
+    "s": "Our ___ visits the government customers every Tuesday.",
+    "opts": [
+     "collect",
+     "collection",
+     "collector"
+    ],
+    "a": 2,
+    "ar": "المحصّل بتاعنا بيزور العملا الحكوميين كل تلات."
+   },
+   {
+    "s": "Salaries and VAT are our biggest ___ this week.",
+    "opts": [
+     "outflows",
+     "receipts",
+     "inflows"
+    ],
+    "a": 0,
+    "ar": "المرتبات والضريبة أكبر فلوس خارجة عندنا الأسبوع ده."
+   }
+  ]
+ },
+ {
+  "w": "balance",
+  "ar": "رصيد / الباقي",
+  "book": "Our opening balance today is EGP 4.2 million.",
+  "family": [
+   {
+    "w": "balance",
+    "pos": "noun",
+    "ex": "The bank balance was EGP 4.2 million at 9 am.",
+    "ar": "رصيد البنك كان 4.2 مليون جنيه الساعة 9 الصبح.",
+    "ex2": "I check it every morning before approving any payment.",
+    "ar2": "بشوفه كل يوم الصبح قبل ما أوافق على أي دفعة."
+   },
+   {
+    "w": "balance",
+    "pos": "verb",
+    "ex": "The cash book doesn't balance; we're EGP 2,000 out.",
+    "ar": "دفتر النقدية مش متزن، فيه فرق 2,000 جنيه.",
+    "ex2": "I'll balance it once I find the missing receipt.",
+    "ar2": "هظبطه أول ما ألاقي الإيصال الناقص."
+   },
+   {
+    "w": "balanced",
+    "pos": "adjective",
+    "ex": "We need a balanced plan between paying suppliers and keeping cash.",
+    "ar": "محتاجين خطة متوازنة بين الدفع للموردين والاحتفاظ بسيولة.",
+    "ex2": "A balanced plan protects salaries and our supplier relations.",
+    "ar2": "الخطة المتوازنة بتحمي المرتبات وعلاقتنا بالموردين."
+   },
+   {
+    "w": "imbalance",
+    "pos": "noun",
+    "ex": "There's an imbalance between our payments and collections this week.",
+    "ar": "فيه عدم توازن بين المدفوعات والتحصيلات الأسبوع ده.",
+    "ex2": "Most of the imbalance comes from the VAT payment.",
+    "ar2": "معظم عدم التوازن جاي من دفعة الضريبة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "money in an account",
+    "mar": "رصيد الحساب",
+    "ex": "Our opening balance on Sunday was EGP 4.2 million.",
+    "ar": "رصيدنا الافتتاحي يوم الأحد كان 4.2 مليون جنيه.",
+    "ex2": "The closing balance on Thursday should be about EGP 0.6 million.",
+    "ar2": "الرصيد الختامي يوم الخميس المفروض يبقى حوالي 0.6 مليون جنيه."
+   },
+   {
+    "m": "amount still to pay",
+    "mar": "الباقي اللي لسه هيتدفع",
+    "ex": "The customer paid 50% upfront and the balance on delivery.",
+    "ar": "العميل دفع 50% مقدم والباقي عند التسليم.",
+    "ex2": "Please invoice the balance once the solar station is commissioned.",
+    "ar2": "من فضلك اعمل فاتورة بالباقي أول ما محطة الطاقة الشمسية تشتغل."
+   },
+   {
+    "m": "the right mix between two things",
+    "mar": "توازن",
+    "ex": "We need a balance between discounts and healthy margins.",
+    "ar": "محتاجين توازن بين الخصومات والهامش الكويس.",
+    "ex2": "Too many discounts will hurt our profit.",
+    "ar2": "الخصومات الكتير هتضر الربح."
+   }
+  ],
+  "syn": [
+   {
+    "w": "cash position",
+    "note": "whole picture: balance plus expected money in and out",
+    "ex": "Please send me the cash position before the 1 pm meeting.",
+    "ar": "ابعتلي الموقف النقدي قبل اجتماع الساعة 1.",
+    "ex2": "Include all banks and the cash in the safe.",
+    "ar2": "حط كل البنوك والكاش اللي في الخزنة."
+   },
+   {
+    "w": "available funds",
+    "note": "money we can actually use now",
+    "ex": "Available funds are enough for salaries but not for VoltTech.",
+    "ar": "الفلوس المتاحة تكفي المرتبات بس مش ‎VoltTech‎.",
+    "ex2": "So we asked VoltTech to wait one more week.",
+    "ar2": "عشان كده طلبنا من ‎VoltTech‎ تستنى أسبوع كمان."
+   }
+  ],
+  "ant": [
+   {
+    "w": "overdraft",
+    "ex": "We used an overdraft of EGP 500,000 to pay the import duty.",
+    "ar": "استخدمنا سحب على المكشوف 500,000 جنيه عشان ندفع الجمارك.",
+    "ex2": "The bank charges high interest on the overdraft.",
+    "ar2": "البنك بياخد فوايد عالية على السحب على المكشوف."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our opening balance today is EGP 4.2 million. After salaries and VAT, the closing balance will be about EGP 0.6 million.",
+  "ctx_ar": "رصيدنا الافتتاحي النهارده 4.2 مليون جنيه. بعد المرتبات والضريبة، الرصيد الختامي هيبقى حوالي 0.6 مليون جنيه.",
+  "quiz": [
+   {
+    "s": "The cash book doesn't ___; there's a difference of EGP 2,000.",
+    "opts": [
+     "balance",
+     "balanced",
+     "imbalance"
+    ],
+    "a": 0,
+    "ar": "دفتر النقدية مش متزن، فيه فرق 2,000 جنيه."
+   },
+   {
+    "s": "We need a ___ plan between paying suppliers and keeping cash.",
+    "opts": [
+     "balance",
+     "balanced",
+     "imbalance"
+    ],
+    "a": 1,
+    "ar": "محتاجين خطة متوازنة بين الدفع للموردين والاحتفاظ بسيولة."
+   },
+   {
+    "s": "The bank charged interest because we used the ___ for three days.",
+    "opts": [
+     "available funds",
+     "cash position",
+     "overdraft"
+    ],
+    "a": 2,
+    "ar": "البنك أخد فوايد عشان استخدمنا السحب على المكشوف تلات أيام."
+   }
+  ]
+ },
+ {
+  "w": "priority",
+  "ar": "أولوية",
+  "book": "I agree with the priorities.",
+  "family": [
+   {
+    "w": "priority",
+    "pos": "noun",
+    "ex": "Salaries are our first priority on 8 October.",
+    "ar": "المرتبات أولويتنا الأولى يوم 8 أكتوبر.",
+    "ex2": "No other payment goes out before them.",
+    "ar2": "مفيش أي دفعة تانية تخرج قبلهم."
+   },
+   {
+    "w": "prioritise",
+    "pos": "verb",
+    "ex": "We prioritise customers with signed maintenance contracts.",
+    "ar": "بنقدّم العملا اللي معاهم عقود صيانة موقّعة.",
+    "ex2": "Their UPS failures get a technician within four hours.",
+    "ar2": "أعطال الـ‎UPS‎ بتاعتهم بياخدوا فني خلال 4 ساعات."
+   },
+   {
+    "w": "prioritisation",
+    "pos": "noun",
+    "ex": "Payment prioritisation is decided by the Finance Director.",
+    "ar": "ترتيب أولويات الدفع بيقرره المدير المالي.",
+    "ex2": "Treasury only suggests the order of payments.",
+    "ar2": "الخزينة بس بتقترح ترتيب المدفوعات."
+   },
+   {
+    "w": "high-priority",
+    "pos": "adjective",
+    "ex": "The hospital UPS alarm is a high-priority ticket.",
+    "ar": "إنذار الـ‎UPS‎ في المستشفى تذكرة أولوية عالية.",
+    "ex2": "Send the nearest technician to the site now.",
+    "ar2": "ابعت أقرب فني للموقع دلوقتي."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "main concern",
+    "note": "what worries you most, not an order of tasks",
+    "ex": "My main concern is the VAT payment on 8 October.",
+    "ar": "أكتر حاجة قلقاني هي دفعة الضريبة يوم 8 أكتوبر.",
+    "ex2": "The penalty for late VAT is very high.",
+    "ar2": "غرامة تأخير الضريبة عالية جدًا."
+   },
+   {
+    "w": "focus",
+    "note": "what we spend time and effort on now",
+    "ex": "This week our focus is collecting overdue invoices.",
+    "ar": "تركيزنا الأسبوع ده على تحصيل الفواتير المتأخرة.",
+    "ex2": "New quotations can wait until next week.",
+    "ar2": "عروض الأسعار الجديدة ممكن تستنى للأسبوع الجاي."
+   },
+   {
+    "w": "precedence",
+    "note": "formal; used in 'take precedence over'",
+    "ex": "Salaries take precedence over supplier payments.",
+    "ar": "المرتبات ليها الأسبقية على مدفوعات الموردين.",
+    "ex2": "Suppliers can usually wait a week; employees cannot.",
+    "ar2": "الموردين عادةً يقدروا يستنوا أسبوع، الموظفين لأ."
+   }
+  ],
+  "ant": [
+   {
+    "w": "low priority",
+    "ex": "The office furniture order is a low priority this month.",
+    "ar": "طلب عفش المكتب مش أولوية الشهر ده.",
+    "ex2": "We'll postpone it until cash improves.",
+    "ar2": "هنأجله لحد ما السيولة تتحسن."
+   }
+  ],
+  "ladder": {
+   "label": "how important",
+   "lar": "مهم قد إيه",
+   "steps": [
+    {
+     "w": "important",
+     "ex": "Following up on INV-0457 is important this week.",
+     "ar": "متابعة ‎INV-0457‎ مهمة الأسبوع ده.",
+     "ex2": "It is our biggest unpaid invoice.",
+     "ar2": "دي أكبر فاتورة مش مدفوعة عندنا."
+    },
+    {
+     "w": "high priority",
+     "ex": "The VAT return is a high priority because of penalties.",
+     "ar": "إقرار الضريبة أولوية عالية بسبب الغرامات.",
+     "ex2": "Please file it two days before the deadline.",
+     "ar2": "من فضلك قدّمه قبل الميعاد بيومين."
+    },
+    {
+     "w": "top priority",
+     "ex": "Paying salaries on time is our top priority.",
+     "ar": "دفع المرتبات في ميعادها أهم أولوية عندنا.",
+     "ex2": "Everything else waits until salaries are transferred.",
+     "ar2": "كل حاجة تانية تستنى لحد ما المرتبات تتحول."
+    }
+   ]
+  },
+  "ctx": "I suggest salaries and VAT as our priorities this week. The VoltTech payment can move to 15 October.",
+  "ctx_ar": "أقترح إن المرتبات والضريبة يبقوا أولوياتنا الأسبوع ده. دفعة ‎VoltTech‎ ممكن تتأجل لـ15 أكتوبر.",
+  "quiz": [
+   {
+    "s": "We always ___ customers with maintenance contracts.",
+    "opts": [
+     "priority",
+     "prioritise",
+     "high-priority"
+    ],
+    "a": 1,
+    "ar": "إحنا دايمًا بنقدّم العملا اللي معاهم عقود صيانة."
+   },
+   {
+    "s": "Salaries take ___ over supplier payments.",
+    "opts": [
+     "precedence",
+     "focus",
+     "main concern"
+    ],
+    "a": 0,
+    "ar": "المرتبات ليها الأسبقية على مدفوعات الموردين."
+   },
+   {
+    "s": "The office furniture can wait; it's a ___.",
+    "opts": [
+     "top priority",
+     "high priority",
+     "low priority"
+    ],
+    "a": 2,
+    "ar": "عفش المكتب ممكن يستنى، ده مش أولوية."
+   }
+  ]
+ },
+ {
+  "w": "penalty",
+  "ar": "غرامة",
+  "book": "VAT also cannot be late, because the penalty is high.",
+  "family": [
+   {
+    "w": "penalty",
+    "pos": "noun",
+    "ex": "The tax authority charges a penalty for late VAT returns.",
+    "ar": "مصلحة الضرايب بتاخد غرامة على تأخير إقرار القيمة المضافة.",
+    "ex2": "Last year we paid a penalty of EGP 20,000.",
+    "ar2": "السنة اللي فاتت دفعنا غرامة 20,000 جنيه."
+   },
+   {
+    "w": "penalise",
+    "pos": "verb",
+    "ex": "The hospital may penalise us for late commissioning of the UPS.",
+    "ar": "المستشفى ممكن يغرّمنا على تأخير تشغيل الـ‎UPS‎.",
+    "ex2": "So the installation team must finish by Thursday.",
+    "ar2": "عشان كده فريق التركيب لازم يخلص قبل الخميس."
+   },
+   {
+    "w": "penalty clause",
+    "pos": "noun",
+    "ex": "The tender has a penalty clause of 1% per week of delay.",
+    "ar": "المناقصة فيها بند غرامة 1% عن كل أسبوع تأخير.",
+    "ex2": "Read the penalty clause carefully before we sign.",
+    "ar2": "اقرا بند الغرامة كويس قبل ما نمضي."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "fine",
+    "note": "money paid for breaking a law or rule, e.g. tax",
+    "ex": "The company got a fine for a late tax filing.",
+    "ar": "الشركة خدت غرامة على تأخير تقديم الضرايب.",
+    "ex2": "The fine was added to our next VAT payment.",
+    "ar2": "الغرامة اتضافت على دفعة الضريبة الجاية."
+   },
+   {
+    "w": "late fee",
+    "note": "small fixed charge for paying late",
+    "ex": "The bank adds a late fee if the loan instalment is delayed.",
+    "ar": "البنك بيضيف رسوم تأخير لو قسط القرض اتأخر.",
+    "ex2": "The late fee is small but looks bad on our record.",
+    "ar2": "رسوم التأخير صغيرة بس شكلها وحش في سجلنا."
+   },
+   {
+    "w": "liquidated damages",
+    "note": "legal contract term for agreed delay amounts",
+    "ex": "The contract sets liquidated damages for late delivery of the inverters.",
+    "ar": "العقد بيحدد تعويض متفق عليه عن تأخير توريد الإنفرترات.",
+    "ex2": "Lawyers prefer liquidated damages to the word 'penalty'.",
+    "ar2": "المحامين بيفضلوا تعبير ‎liquidated damages‎ عن كلمة ‎penalty‎."
+   }
+  ],
+  "ant": [
+   {
+    "w": "incentive",
+    "ex": "The customer offers an incentive if we finish the solar station early.",
+    "ar": "العميل بيعرض حافز لو خلصنا محطة الطاقة الشمسية بدري.",
+    "ex2": "The incentive is 1% of the contract value.",
+    "ar2": "الحافز 1% من قيمة العقد."
+   },
+   {
+    "w": "bonus",
+    "ex": "Technicians get a bonus for zero repeat failures in a quarter.",
+    "ar": "الفنيين بياخدوا مكافأة لو مفيش أعطال متكررة في الربع.",
+    "ex2": "The bonus is paid with the March salaries.",
+    "ar2": "المكافأة بتتصرف مع مرتبات مارس."
+   }
+  ],
+  "ladder": {
+   "label": "how serious the consequence is",
+   "lar": "العواقب خطيرة قد إيه",
+   "steps": [
+    {
+     "w": "warning",
+     "ex": "The tax office sent us a warning about the missing VAT return.",
+     "ar": "مكتب الضرايب بعتلنا إنذار بخصوص إقرار الضريبة الناقص.",
+     "ex2": "We must file it within seven days.",
+     "ar2": "لازم نقدمه خلال 7 أيام."
+    },
+    {
+     "w": "late fee",
+     "ex": "Our internet supplier charged a late fee of EGP 300.",
+     "ar": "مورد الإنترنت حط رسوم تأخير 300 جنيه.",
+     "ex2": "Set up automatic payment to avoid it next time.",
+     "ar2": "اعمل دفع أوتوماتيك عشان نتجنبها المرة الجاية."
+    },
+    {
+     "w": "penalty",
+     "ex": "A late VAT return brings a penalty plus interest.",
+     "ar": "تأخير إقرار الضريبة بيجيب غرامة وفوايد كمان.",
+     "ex2": "That penalty grows every month we wait.",
+     "ar2": "والغرامة دي بتكبر كل شهر بنستنى فيه."
+    },
+    {
+     "w": "legal action",
+     "ex": "The supplier threatened legal action over the unpaid invoice.",
+     "ar": "المورد هدد برفع قضية بسبب الفاتورة اللي مش مدفوعة.",
+     "ex2": "We paid in full the next day to avoid legal action.",
+     "ar2": "دفعنا كامل تاني يوم عشان نتجنب القضية."
+    }
+   ]
+  },
+  "ctx": "VAT must be paid on 8 October. If we are late, the penalty is high.",
+  "ctx_ar": "الضريبة لازم تتدفع يوم 8 أكتوبر. لو اتأخرنا، الغرامة عالية.",
+  "quiz": [
+   {
+    "s": "The hospital can ___ us for late delivery of the UPS.",
+    "opts": [
+     "penalty",
+     "penalise",
+     "penalty clause"
+    ],
+    "a": 1,
+    "ar": "المستشفى ممكن تغرّمنا على تأخير توريد الـ‎UPS‎."
+   },
+   {
+    "s": "The bank added a small ___ because the instalment was two days late.",
+    "opts": [
+     "late fee",
+     "legal action",
+     "bonus"
+    ],
+    "a": 0,
+    "ar": "البنك ضاف رسوم تأخير صغيرة عشان القسط اتأخر يومين."
+   },
+   {
+    "s": "The tender has a ___ of 1% per week of delay.",
+    "opts": [
+     "penalise",
+     "incentive",
+     "penalty clause"
+    ],
+    "a": 2,
+    "ar": "المناقصة فيها بند غرامة 1% عن كل أسبوع تأخير."
+   }
+  ]
+ }
+]

@@ -1,0 +1,653 @@
+[
+ {
+  "w": "follow up",
+  "ar": "يتابع",
+  "book": "I am following up on job card JC-5521 for the 10 kVA UPS power board we sent you on 2 October.",
+  "family": [
+   {
+    "w": "follow up",
+    "pos": "verb",
+    "ex": "I will follow up with the supplier about the IGBT module tomorrow.",
+    "ar": "هتابع مع المورّد بخصوص موديول الـ‎IGBT‎ بكرة.",
+    "ex2": "If there is no news, I will call them directly.",
+    "ar2": "لو مافيش أخبار، هكلمهم على طول."
+   },
+   {
+    "w": "follow-up",
+    "pos": "noun",
+    "ex": "This is a follow-up to my email of 10 October.",
+    "ar": "ده متابعة لإيميلي بتاريخ 10 أكتوبر.",
+    "ex2": "We still have not received the repaired board.",
+    "ar2": "لسه ماستلمناش البورد المتصلّحة."
+   },
+   {
+    "w": "follow-up",
+    "pos": "adjective",
+    "ex": "We booked a follow-up visit to test the new batteries.",
+    "ar": "حجزنا زيارة متابعة نختبر فيها البطاريات الجديدة.",
+    "ex2": "The engineer will run a full load test.",
+    "ar2": "المهندس هيعمل اختبار حمل كامل."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "check again on something you are waiting for",
+    "mar": "تسأل تاني على حاجة مستنيها",
+    "ex": "Could you follow up on our payment for invoice 2231?",
+    "ar": "ممكن تتابع دفع فاتورة 2231؟",
+    "ex2": "It is now 30 days overdue.",
+    "ar2": "بقالها 30 يوم متأخرة."
+   },
+   {
+    "m": "take the next step after a meeting or call",
+    "mar": "تكمّل بالخطوة الجاية بعد اجتماع أو مكالمة",
+    "ex": "After the site visit, we will follow up with a detailed quotation.",
+    "ar": "بعد زيارة الموقع، هنبعت عرض سعر مفصّل.",
+    "ex2": "It will include the UPS, batteries and installation.",
+    "ar2": "هيشمل الـ‎UPS‎ والبطاريات والتركيب."
+   }
+  ],
+  "syn": [
+   {
+    "w": "chase",
+    "note": "informal and firmer; used when someone is late",
+    "ex": "Please chase TechCare for the repaired power board.",
+    "ar": "من فضلك زنّ على ‎TechCare‎ عشان الباور بورد المتصلّحة.",
+    "ex2": "Our client has waited two weeks already.",
+    "ar2": "العميل بتاعنا مستني بقاله أسبوعين."
+   },
+   {
+    "w": "check on",
+    "note": "neutral; simply ask about progress",
+    "ex": "Can you check on the status of our RMA?",
+    "ar": "ممكن تسأل على حالة الـ‎RMA‎ بتاعنا؟",
+    "ex2": "The supplier promised an answer this week.",
+    "ar2": "المورّد وعد يرد الأسبوع ده."
+   },
+   {
+    "w": "remind",
+    "note": "you tell them something they should not forget",
+    "ex": "I would like to remind you that the payment is due today.",
+    "ar": "حابب أفكّرك إن الدفعة مستحقة النهارده.",
+    "ex2": "Please send the transfer receipt once it is done.",
+    "ar2": "من فضلك ابعت إيصال التحويل أول ما يتعمل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "ignore",
+    "ex": "Please do not ignore the battery alarm on the UPS display.",
+    "ar": "من فضلك ماتطنّشش إنذار البطارية على شاشة الـ‎UPS‎.",
+    "ex2": "It often means a block is getting weak.",
+    "ar2": "غالبًا معناه إن فيه بلوك بيضعف."
+   }
+  ],
+  "ladder": {
+   "label": "how firm the reminder is",
+   "lar": "التذكير حازم قد إيه",
+   "steps": [
+    {
+     "w": "check on",
+     "ex": "Just checking on the status of PO-2025-131.",
+     "ar": "بس بسأل على حالة ‎PO-2025-131‎.",
+     "ex2": "Do you have a shipping date yet?",
+     "ar2": "عندكم ميعاد شحن ولا لسه؟"
+    },
+    {
+     "w": "follow up",
+     "ex": "I am following up on my email from last week.",
+     "ar": "بتابع على إيميلي من الأسبوع اللي فات.",
+     "ex2": "We still need your confirmation of the price.",
+     "ar2": "لسه محتاجين تأكيدكم على السعر."
+    },
+    {
+     "w": "chase",
+     "ex": "I have to chase them again; it is the third reminder.",
+     "ar": "لازم أزنّ عليهم تاني؛ ده التذكير التالت.",
+     "ex2": "The repair is now two weeks late.",
+     "ar2": "التصليح متأخر أسبوعين دلوقتي."
+    },
+    {
+     "w": "escalate",
+     "ex": "If there is no reply today, I will escalate it to the Service Manager.",
+     "ar": "لو مافيش رد النهارده، هصعّد الموضوع لمدير الخدمة.",
+     "ex2": "Our client needs a firm date.",
+     "ar2": "العميل بتاعنا محتاج ميعاد أكيد."
+    }
+   ]
+  },
+  "ctx": "I am following up on job card JC-5521. Could you please let us know when the board will be ready?",
+  "ctx_ar": "بتابع على كارت الشغل ‎JC-5521‎. ممكن تقولولنا البورد هتجهز إمتى؟",
+  "quiz": [
+   {
+    "s": "This is a ___ to my email of 10 October.",
+    "opts": [
+     "follow up",
+     "follow-up",
+     "chase"
+    ],
+    "a": 1,
+    "ar": "ده متابعة لإيميلي بتاريخ 10 أكتوبر."
+   },
+   {
+    "s": "It is the third reminder, so I have to ___ them again.",
+    "opts": [
+     "check on",
+     "ignore",
+     "chase"
+    ],
+    "a": 2,
+    "ar": "ده التذكير التالت، فلازم أزنّ عليهم تاني."
+   },
+   {
+    "s": "Please do not ___ the battery alarm.",
+    "opts": [
+     "ignore",
+     "follow up",
+     "remind"
+    ],
+    "a": 0,
+    "ar": "من فضلك ماتطنّشش إنذار البطارية."
+   }
+  ]
+ },
+ {
+  "w": "available",
+  "ar": "متاح / موجود",
+  "book": "Could you please check if the part is available from a local distributor?",
+  "family": [
+   {
+    "w": "available",
+    "pos": "adjective",
+    "ex": "The 10 kVA UPS is available from stock in Cairo.",
+    "ar": "الـ‎UPS‎ الـ10 ‎kVA‎ موجود في المخزن في القاهرة.",
+    "ex2": "We can deliver it to your site tomorrow.",
+    "ar2": "نقدر نسلّمه في موقعكم بكرة."
+   },
+   {
+    "w": "availability",
+    "pos": "noun",
+    "ex": "Please confirm the availability of 40 battery blocks before Thursday.",
+    "ar": "من فضلك أكّد توفّر 40 بلوك بطارية قبل الخميس.",
+    "ex2": "The client wants the replacement on Saturday.",
+    "ar2": "العميل عايز التغيير يوم السبت."
+   },
+   {
+    "w": "unavailable",
+    "pos": "adjective",
+    "ex": "The IGBT module is unavailable locally, so we ordered it from Germany.",
+    "ar": "موديول الـ‎IGBT‎ مش موجود هنا، فطلبناه من ألمانيا.",
+    "ex2": "Delivery will take about two weeks.",
+    "ar2": "التوصيل هياخد حوالي أسبوعين."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "in stock or ready to use",
+    "mar": "موجود في المخزن أو جاهز",
+    "ex": "Spare SFP modules are available in our warehouse.",
+    "ar": "موديولات الـ‎SFP‎ الاحتياطي موجودة في مخزننا.",
+    "ex2": "We can send two today.",
+    "ar2": "نقدر نبعت اتنين النهارده."
+   },
+   {
+    "m": "free to talk or meet",
+    "mar": "فاضي يتكلم أو يقابل",
+    "ex": "Are you available for a short call at 3 pm?",
+    "ar": "إنت فاضي لمكالمة قصيرة الساعة 3؟",
+    "ex2": "I want to discuss the revised quotation.",
+    "ar2": "عايز أتكلم معاك في عرض السعر المعدّل."
+   }
+  ],
+  "syn": [
+   {
+    "w": "in stock",
+    "note": "for goods in the warehouse only",
+    "ex": "We have 20 inverters in stock right now.",
+    "ar": "عندنا 20 إنفرتر في المخزن دلوقتي.",
+    "ex2": "Larger orders need four weeks from the factory.",
+    "ar2": "الأوردرات الأكبر محتاجة أربع أسابيع من المصنع."
+   },
+   {
+    "w": "on hand",
+    "note": "ready nearby; often spare parts on site",
+    "ex": "Keep one spare fan on hand at the pumping station.",
+    "ar": "خلّوا مروحة احتياطي جاهزة في محطة الرفع.",
+    "ex2": "Then a fan failure will not stop the pumps.",
+    "ar2": "كده عطل المروحة مش هيوقّف الطلمبات."
+   },
+   {
+    "w": "free",
+    "note": "for people's time; informal",
+    "ex": "Is the engineer free to visit Delta Pharma tomorrow?",
+    "ar": "المهندس فاضي يزور ‎Delta Pharma‎ بكرة؟",
+    "ex2": "Their UPS needs a quick check.",
+    "ar2": "الـ‎UPS‎ بتاعهم محتاج كشف سريع."
+   }
+  ],
+  "ant": [
+   {
+    "w": "out of stock",
+    "ex": "The 6 kVA model is out of stock until December.",
+    "ar": "موديل الـ6 ‎kVA‎ خلصان من المخزن لحد ديسمبر.",
+    "ex2": "We can offer the 10 kVA model instead.",
+    "ar2": "نقدر نعرض موديل الـ10 ‎kVA‎ بداله."
+   },
+   {
+    "w": "busy",
+    "ex": "The engineer is busy on another site until noon.",
+    "ar": "المهندس مشغول في موقع تاني لحد الضهر.",
+    "ex2": "He can reach you by 14:00.",
+    "ar2": "يقدر يوصلك الساعة 2."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The IGBT module is available from a local distributor in Heliopolis. It will arrive tomorrow, so the repair can finish this week.",
+  "ctx_ar": "موديول الـ‎IGBT‎ موجود عند موزّع محلي في مصر الجديدة. هيوصل بكرة، فالتصليح يقدر يخلص الأسبوع ده.",
+  "quiz": [
+   {
+    "s": "Please confirm the ___ of 40 battery blocks.",
+    "opts": [
+     "available",
+     "availability",
+     "unavailable"
+    ],
+    "a": 1,
+    "ar": "من فضلك أكّد توفّر 40 بلوك بطارية."
+   },
+   {
+    "s": "The module is ___ locally, so we ordered it from Germany.",
+    "opts": [
+     "unavailable",
+     "available",
+     "availability"
+    ],
+    "a": 0,
+    "ar": "الموديول مش موجود هنا، فطلبناه من ألمانيا."
+   },
+   {
+    "s": "The 6 kVA model is ___ until December.",
+    "opts": [
+     "in stock",
+     "on hand",
+     "out of stock"
+    ],
+    "a": 2,
+    "ar": "موديل الـ6 ‎kVA‎ خلصان لحد ديسمبر."
+   }
+  ]
+ },
+ {
+  "w": "estimate",
+  "ar": "يقدّر / تقدير",
+  "book": "At that time, you estimated a repair time of 7 working days.",
+  "family": [
+   {
+    "w": "estimate",
+    "pos": "verb",
+    "ex": "We estimate the repair will take five working days.",
+    "ar": "متوقعين إن التصليح هياخد خمس أيام شغل.",
+    "ex2": "We will confirm once the part arrives.",
+    "ar2": "هنأكّد أول ما القطعة توصل."
+   },
+   {
+    "w": "estimate",
+    "pos": "noun",
+    "ex": "Can you give us a rough estimate for the solar installation?",
+    "ar": "ممكن تدّينا تقدير تقريبي لتركيب الطاقة الشمسية؟",
+    "ex2": "A final quotation will follow after the site visit.",
+    "ar2": "عرض السعر النهائي هييجي بعد زيارة الموقع."
+   },
+   {
+    "w": "estimated",
+    "pos": "adjective",
+    "ex": "The estimated delivery date for the batteries is 15 November.",
+    "ar": "ميعاد التسليم المتوقع للبطاريات 15 نوفمبر.",
+    "ex2": "We will share the tracking number when they ship.",
+    "ar2": "هنبعت رقم التتبع لما تتشحن."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "ETA",
+    "note": "expected arrival or completion time; very common in emails",
+    "ex": "What is the ETA for the repaired power board?",
+    "ar": "الباور بورد المتصلّحة هتوصل إمتى؟",
+    "ex2": "Our client is asking every day.",
+    "ar2": "العميل بتاعنا بيسأل كل يوم."
+   },
+   {
+    "w": "forecast",
+    "note": "planning future numbers like sales or demand",
+    "ex": "Our sales forecast shows high demand for UPS units in summer.",
+    "ar": "توقعات المبيعات عندنا بتقول إن الطلب على الـ‎UPS‎ هيبقى عالي في الصيف.",
+    "ex2": "We should order batteries early.",
+    "ar2": "لازم نطلب البطاريات بدري."
+   },
+   {
+    "w": "quote",
+    "note": "a firm price for a customer, not a guess",
+    "ex": "Please send a quote for two spare SFP modules.",
+    "ar": "من فضلك ابعت عرض سعر لاتنين ‎SFP‎ احتياطي.",
+    "ex2": "We need the price before Thursday.",
+    "ar2": "محتاجين السعر قبل الخميس."
+   }
+  ],
+  "ant": [
+   {
+    "w": "actual",
+    "ex": "The actual repair time was ten days, not seven.",
+    "ar": "وقت التصليح الفعلي كان عشر أيام مش سبعة.",
+    "ex2": "The estimate did not include the part delay.",
+    "ar2": "التقدير ماكانش حاسب تأخير القطعة."
+   }
+  ],
+  "ladder": {
+   "label": "how certain the date is",
+   "lar": "الميعاد أكيد قد إيه",
+   "steps": [
+    {
+     "w": "rough estimate",
+     "ex": "As a rough estimate, the job will take one week.",
+     "ar": "كتقدير تقريبي، الشغلانة هتاخد أسبوع.",
+     "ex2": "We will know more after testing the board.",
+     "ar2": "هنعرف أكتر بعد ما نختبر البورد."
+    },
+    {
+     "w": "estimated date",
+     "ex": "Our estimated date for completion is 28 October.",
+     "ar": "الميعاد المتوقع للتسليم 28 أكتوبر.",
+     "ex2": "It depends on the part arriving on time.",
+     "ar2": "ده متوقف على إن القطعة توصل في ميعادها."
+    },
+    {
+     "w": "firm date",
+     "ex": "Our client needs a firm date, not another estimate.",
+     "ar": "العميل بتاعنا محتاج ميعاد أكيد، مش تقدير تاني.",
+     "ex2": "Please confirm the exact day the board will be ready.",
+     "ar2": "من فضلك أكّد اليوم بالظبط اللي البورد هتجهز فيه."
+    }
+   ]
+  },
+  "ctx": "You estimated a repair time of seven working days. Could you please send us an updated estimate for completion?",
+  "ctx_ar": "إنتو قدّرتوا وقت التصليح بسبع أيام شغل. ممكن تبعتولنا تقدير جديد لميعاد الانتهاء؟",
+  "quiz": [
+   {
+    "s": "The ___ delivery date is 15 November.",
+    "opts": [
+     "estimate",
+     "estimated",
+     "actual"
+    ],
+    "a": 1,
+    "ar": "ميعاد التسليم المتوقع 15 نوفمبر."
+   },
+   {
+    "s": "Can you give us a rough ___ for the job?",
+    "opts": [
+     "estimate",
+     "estimated",
+     "firm date"
+    ],
+    "a": 0,
+    "ar": "ممكن تدّينا تقدير تقريبي للشغلانة؟"
+   },
+   {
+    "s": "Our client needs a ___, not another estimate.",
+    "opts": [
+     "rough estimate",
+     "estimated date",
+     "firm date"
+    ],
+    "a": 2,
+    "ar": "العميل محتاج ميعاد أكيد، مش تقدير تاني."
+   }
+  ]
+ },
+ {
+  "w": "additional",
+  "ar": "إضافي / زيادة",
+  "book": "The additional cost for the part is EGP 9,800.",
+  "family": [
+   {
+    "w": "add",
+    "pos": "verb",
+    "ex": "Please add two spare fans to our next order.",
+    "ar": "من فضلك زوّد مروحتين احتياطي على الأوردر الجاي.",
+    "ex2": "We want to keep them at the pumping station.",
+    "ar2": "عايزين نحتفظ بيهم في محطة الرفع."
+   },
+   {
+    "w": "addition",
+    "pos": "noun",
+    "ex": "In addition to the UPS, we will install a monitoring card.",
+    "ar": "بالإضافة للـ‎UPS‎، هنركّب كارت مراقبة.",
+    "ex2": "It sends alarms by email.",
+    "ar2": "بيبعت إنذارات على الإيميل."
+   },
+   {
+    "w": "additional",
+    "pos": "adjective",
+    "ex": "The additional cost for express shipping is EGP 2,300.",
+    "ar": "التكلفة الإضافية للشحن السريع 2,300 جنيه.",
+    "ex2": "Please confirm if you want to pay it.",
+    "ar2": "من فضلك أكّد لو عايز تدفعها."
+   },
+   {
+    "w": "additionally",
+    "pos": "adverb",
+    "ex": "Additionally, we recommend a ventilation fan for the panel.",
+    "ar": "وكمان، بننصح بمروحة تهوية للوحة.",
+    "ex2": "The air inside is too hot for the drive.",
+    "ar2": "الهوا جوه سخن قوي على الـ‎drive‎."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "extra",
+    "note": "everyday word; same meaning, very common in emails",
+    "ex": "There is no extra charge for the portable cooling unit.",
+    "ar": "مافيش فلوس زيادة على وحدة التبريد المتنقلة.",
+    "ex2": "It is part of our support.",
+    "ar2": "دي جزء من الدعم بتاعنا."
+   },
+   {
+    "w": "further",
+    "note": "more of something already started, like information or questions",
+    "ex": "Please contact me if you need further information.",
+    "ar": "كلمني لو محتاج معلومات أكتر.",
+    "ex2": "I can send the datasheets too.",
+    "ar2": "أقدر أبعت الداتاشيتس كمان."
+   },
+   {
+    "w": "supplementary",
+    "note": "formal; an extra document added to a main one",
+    "ex": "A supplementary invoice will cover the IGBT module.",
+    "ar": "فاتورة تكميلية هتغطي موديول الـ‎IGBT‎.",
+    "ex2": "The main repair invoice stays the same.",
+    "ar2": "فاتورة التصليح الأساسية زي ما هي."
+   }
+  ],
+  "ant": [
+   {
+    "w": "included",
+    "ex": "Installation is included in the UPS price.",
+    "ar": "التركيب داخل في سعر الـ‎UPS‎.",
+    "ex2": "You only pay extra for the battery cabinet.",
+    "ar2": "بتدفع زيادة بس على كابينة البطاريات."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The repair needs a new IGBT module. The additional cost for the part is EGP 9,800, so please confirm.",
+  "ctx_ar": "التصليح محتاج موديول ‎IGBT‎ جديد. التكلفة الإضافية للقطعة 9,800 جنيه، فمن فضلك أكّد.",
+  "quiz": [
+   {
+    "s": "The ___ cost for express shipping is EGP 2,300.",
+    "opts": [
+     "add",
+     "additional",
+     "additionally"
+    ],
+    "a": 1,
+    "ar": "التكلفة الإضافية للشحن السريع 2,300 جنيه."
+   },
+   {
+    "s": "___, we recommend a ventilation fan.",
+    "opts": [
+     "Additionally",
+     "Addition",
+     "Add"
+    ],
+    "a": 0,
+    "ar": "وكمان، بننصح بمروحة تهوية."
+   },
+   {
+    "s": "Installation is ___ in the UPS price.",
+    "opts": [
+     "extra",
+     "further",
+     "included"
+    ],
+    "a": 2,
+    "ar": "التركيب داخل في سعر الـ‎UPS‎."
+   }
+  ]
+ },
+ {
+  "w": "delay",
+  "ar": "تأخير",
+  "book": "Thank you for your patience, and sorry again for the delay.",
+  "family": [
+   {
+    "w": "delay",
+    "pos": "noun",
+    "ex": "Sorry for the delay in sending the incident report.",
+    "ar": "آسفين على التأخير في إرسال تقرير الحادثة.",
+    "ex2": "You will have it by noon today.",
+    "ar2": "هيوصلك قبل الضهر النهارده."
+   },
+   {
+    "w": "delay",
+    "pos": "verb",
+    "ex": "Customs delayed our battery shipment by one week.",
+    "ar": "الجمارك أخّرت شحنة البطاريات أسبوع.",
+    "ex2": "We will update the client on the new date.",
+    "ar2": "هنبلّغ العميل بالميعاد الجديد."
+   },
+   {
+    "w": "delayed",
+    "pos": "adjective",
+    "ex": "The delayed part has finally arrived from Germany.",
+    "ar": "القطعة المتأخرة وصلت أخيرًا من ألمانيا.",
+    "ex2": "We will finish the repair tomorrow.",
+    "ar2": "هنخلّص التصليح بكرة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "hold-up",
+    "note": "informal; a short unexpected stop",
+    "ex": "Is there any hold-up with our order at the port?",
+    "ar": "فيه أي عطلة في الأوردر بتاعنا في المينا؟",
+    "ex2": "It should have cleared customs by now.",
+    "ar2": "المفروض كان خلّص جمارك من زمان."
+   },
+   {
+    "w": "setback",
+    "note": "a problem that pushes the plan backwards",
+    "ex": "The missing permit was a setback for the solar project.",
+    "ar": "التصريح الناقص أخّر مشروع الطاقة الشمسية.",
+    "ex2": "Installation now starts in December.",
+    "ar2": "التركيب هيبدأ في ديسمبر دلوقتي."
+   },
+   {
+    "w": "postpone",
+    "note": "you decide to move it later; a delay is often unplanned",
+    "ex": "We have to postpone the site visit to Monday.",
+    "ar": "لازم نأجّل زيارة الموقع ليوم الاتنين.",
+    "ex2": "Our engineer is still at another emergency.",
+    "ar2": "المهندس بتاعنا لسه في طوارئ تانية."
+   }
+  ],
+  "ant": [
+   {
+    "w": "on time",
+    "ex": "The batteries arrived on time for the Saturday replacement.",
+    "ar": "البطاريات وصلت في ميعادها لتغيير يوم السبت.",
+    "ex2": "The work finished with no downtime.",
+    "ar2": "الشغل خلص من غير أي توقف."
+   },
+   {
+    "w": "ahead of schedule",
+    "ex": "The solar station was finished ahead of schedule.",
+    "ar": "محطة الطاقة الشمسية خلصت قبل ميعادها.",
+    "ex2": "The client was very happy.",
+    "ar2": "العميل كان مبسوط جدًا."
+   }
+  ],
+  "ladder": {
+   "label": "how late it is",
+   "lar": "متأخر قد إيه",
+   "steps": [
+    {
+     "w": "slight delay",
+     "ex": "There is a slight delay; the courier will arrive at 2 pm.",
+     "ar": "فيه تأخير بسيط؛ المندوب هيوصل الساعة 2.",
+     "ex2": "Everything else is on schedule.",
+     "ar2": "كل حاجة تانية ماشية في ميعادها."
+    },
+    {
+     "w": "long delay",
+     "ex": "A long delay at customs held the inverters for three weeks.",
+     "ar": "تأخير طويل في الجمارك حجز الإنفرترات تلات أسابيع.",
+     "ex2": "We had to rent units for the client.",
+     "ar2": "اضطرينا نأجّر أجهزة للعميل."
+    },
+    {
+     "w": "serious delay",
+     "ex": "This serious delay leaves our client without UPS backup.",
+     "ar": "التأخير الكبير ده سايب العميل بتاعنا من غير باك أب ‎UPS‎.",
+     "ex2": "We need a loan unit today.",
+     "ar2": "محتاجين جهاز بديل النهارده."
+    }
+   ]
+  },
+  "ctx": "Sorry again for the delay in the repair. The board will be ready by Tuesday, 28 October.",
+  "ctx_ar": "آسفين تاني على التأخير في التصليح. البورد هتبقى جاهزة يوم التلات 28 أكتوبر.",
+  "quiz": [
+   {
+    "s": "Customs ___ our battery shipment by one week.",
+    "opts": [
+     "delay",
+     "delayed",
+     "on time"
+    ],
+    "a": 1,
+    "ar": "الجمارك أخّرت شحنة البطاريات أسبوع."
+   },
+   {
+    "s": "We have to ___ the site visit to Monday.",
+    "opts": [
+     "postpone",
+     "setback",
+     "hold-up"
+    ],
+    "a": 0,
+    "ar": "لازم نأجّل زيارة الموقع ليوم الاتنين."
+   },
+   {
+    "s": "The batteries arrived ___ for the replacement.",
+    "opts": [
+     "delayed",
+     "serious delay",
+     "on time"
+    ],
+    "a": 2,
+    "ar": "البطاريات وصلت في ميعادها للتغيير."
+   }
+  ]
+ }
+]

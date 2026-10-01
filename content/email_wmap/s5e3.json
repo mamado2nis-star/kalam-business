@@ -1,0 +1,569 @@
+[
+ {
+  "w": "issue",
+  "ar": "يصدر / مشكلة",
+  "book": "Please issue two bid bonds (letters of guarantee) in favour of Horizon Hospital for Tender No. HH/T/2026/014, as follows:",
+  "family": [
+   {
+    "w": "issue",
+    "pos": "verb",
+    "ex": "Please issue the invoice after the UPS commissioning is complete.",
+    "ar": "من فضلك طلّع الفاتورة بعد ما تشغيل الـ‎UPS‎ يخلص.",
+    "ex2": "Finance can issue it on the e-invoice system the same day.",
+    "ar2": "الحسابات تقدر تطلّعها على سيستم الفاتورة الإلكترونية في نفس اليوم."
+   },
+   {
+    "w": "issue",
+    "pos": "noun",
+    "ex": "We have an issue with the battery charger at the Maadi branch.",
+    "ar": "عندنا مشكلة في شاحن البطاريات في فرع المعادي.",
+    "ex2": "The technician will check the issue this afternoon.",
+    "ar2": "الفني هيشوف المشكلة النهارده بعد الضهر."
+   },
+   {
+    "w": "issuance",
+    "pos": "noun",
+    "ex": "Issuance of the letter of guarantee takes two working days.",
+    "ar": "إصدار خطاب الضمان بياخد يومين شغل.",
+    "ex2": "The bank charges EGP 1,850 for the issuance.",
+    "ar2": "البنك بياخد 1,850 جنيه على الإصدار."
+   },
+   {
+    "w": "reissue",
+    "pos": "verb",
+    "ex": "The bank reissued the guarantee with the correct amount.",
+    "ar": "البنك أصدر الضمان تاني بالمبلغ الصح.",
+    "ex2": "They reissued it within three hours of our email.",
+    "ar2": "أصدروه تاني في خلال تلات ساعات من الإيميل."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "to officially produce a document",
+    "mar": "يصدر مستند رسمي",
+    "ex": "The bank issued the bid bond in favour of the hospital.",
+    "ar": "البنك أصدر خطاب ضمان الابتدائي لصالح المستشفى.",
+    "ex2": "It was issued on the hospital's own wording.",
+    "ar2": "اتصدر بصيغة المستشفى نفسها."
+   },
+   {
+    "m": "a problem to deal with",
+    "mar": "مشكلة",
+    "ex": "There is an issue with the cable scope in the minutes.",
+    "ar": "فيه مشكلة في نطاق الكابلات في المحضر.",
+    "ex2": "We raised the issue with the tender committee.",
+    "ar2": "فتحنا الموضوع مع لجنة المناقصة."
+   },
+   {
+    "m": "to give out items to people",
+    "mar": "يصرف / يسلّم",
+    "ex": "The store issued new safety boots to all technicians.",
+    "ar": "المخزن صرف جزم سيفتي جديدة لكل الفنيين.",
+    "ex2": "Each technician signs when items are issued.",
+    "ar2": "كل فني بيمضي لما الحاجات بتتصرف."
+   }
+  ],
+  "syn": [
+   {
+    "w": "raise",
+    "note": "internal documents like POs, invoices, tickets",
+    "ex": "Please raise a PO for the 40 replacement batteries.",
+    "ar": "من فضلك اعمل أمر شراء للـ40 بطارية البديلة.",
+    "ex2": "Once you raise it, I will send it to the supplier.",
+    "ar2": "أول ما تعمله هبعته للمورد."
+   },
+   {
+    "w": "generate",
+    "note": "produced automatically by a system",
+    "ex": "The ERP will generate the delivery note automatically.",
+    "ar": "الـ‎ERP‎ هيطلّع إذن التسليم أوتوماتيك.",
+    "ex2": "It generates a new number for each shipment.",
+    "ar2": "بيطلّع رقم جديد لكل شحنة."
+   },
+   {
+    "w": "draw up",
+    "note": "to write a contract or plan carefully",
+    "ex": "Legal will draw up the maintenance contract for the hospital.",
+    "ar": "القانونية هتكتب عقد الصيانة للمستشفى.",
+    "ex2": "They will draw it up after the award letter.",
+    "ar2": "هيكتبوه بعد خطاب الترسية."
+   }
+  ],
+  "ant": [
+   {
+    "w": "cancel",
+    "ex": "The bank will cancel the guarantee once the original is returned.",
+    "ar": "البنك هيلغي الضمان أول ما الأصل يرجع.",
+    "ex2": "Then they cancel the cash margin block too.",
+    "ar2": "وبعدها يلغوا تجميد التأمين النقدي كمان."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The hospital needs two bid bonds by Monday. Please issue them on the attached wording and debit the charges from our account.",
+  "ctx_ar": "المستشفى محتاجة خطابين ضمان قبل الاتنين. من فضلك أصدرهم بالصيغة المرفقة واخصم المصاريف من حسابنا.",
+  "quiz": [
+   {
+    "s": "The bank needs two days for the ___ of the guarantee.",
+    "opts": [
+     "issue",
+     "issuance",
+     "reissue"
+    ],
+    "a": 1,
+    "ar": "البنك محتاج يومين لإصدار الضمان."
+   },
+   {
+    "s": "After the error, the bank ___ the bond with the right amount.",
+    "opts": [
+     "issuance",
+     "generate",
+     "reissued"
+    ],
+    "a": 2,
+    "ar": "بعد الغلطة، البنك أصدر الضمان تاني بالمبلغ الصح."
+   },
+   {
+    "s": "Please ___ a PO for the spare fans today.",
+    "opts": [
+     "raise",
+     "cancel",
+     "issuance"
+    ],
+    "a": 0,
+    "ar": "من فضلك اعمل أمر شراء للمراوح الاحتياطي النهارده."
+   }
+  ]
+ },
+ {
+  "w": "guarantee",
+  "ar": "ضمان / خطاب ضمان",
+  "book": "Please find attached the drafts of Letters of Guarantee No. LG-2026-7731 (Lot 1) and LG-2026-7732 (Lot 2) for your review.",
+  "family": [
+   {
+    "w": "guarantee",
+    "pos": "noun",
+    "ex": "The bank issued a letter of guarantee for EGP 250,000.",
+    "ar": "البنك أصدر خطاب ضمان بـ250,000 جنيه.",
+    "ex2": "The guarantee protects the hospital if we withdraw our bid.",
+    "ar2": "الضمان بيحمي المستشفى لو سحبنا عرضنا."
+   },
+   {
+    "w": "guarantee",
+    "pos": "verb",
+    "ex": "We guarantee delivery of the inverters within six weeks.",
+    "ar": "بنضمن توريد الإنفرترات في خلال ست أسابيع.",
+    "ex2": "If we fail, we guarantee a 1% weekly penalty.",
+    "ar2": "ولو اتأخرنا بنضمن غرامة 1% في الأسبوع."
+   },
+   {
+    "w": "guaranteed",
+    "pos": "adjective",
+    "ex": "The UPS has a guaranteed efficiency of 96% at full load.",
+    "ar": "الـ‎UPS‎ كفاءته مضمونة 96% على الحمل الكامل.",
+    "ex2": "This guaranteed figure is written in the compliance sheet.",
+    "ar2": "الرقم المضمون ده مكتوب في جدول المطابقة."
+   },
+   {
+    "w": "guarantor",
+    "pos": "person",
+    "ex": "The parent company acts as guarantor for the supplier's credit line.",
+    "ar": "الشركة الأم ضامنة لحد الائتمان بتاع المورد.",
+    "ex2": "If the supplier fails to pay, the guarantor must pay.",
+    "ar2": "لو المورد مدفعش، الضامن لازم يدفع."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "a bank letter that promises to pay if you fail",
+    "mar": "خطاب ضمان بنكي",
+    "ex": "The hospital can cash the guarantee if we refuse to sign.",
+    "ar": "المستشفى تقدر تسيّل الضمان لو رفضنا نمضي.",
+    "ex2": "That is why the guarantee wording must be exact.",
+    "ar2": "عشان كده صيغة الضمان لازم تبقى مظبوطة."
+   },
+   {
+    "m": "a firm promise that something will happen",
+    "mar": "وعد أكيد",
+    "ex": "We cannot guarantee a 4-week delivery for imported batteries.",
+    "ar": "مانقدرش نضمن توريد في 4 أسابيع لبطاريات مستوردة.",
+    "ex2": "Shipping delays at the port are outside our control.",
+    "ar2": "تأخير الشحن في الميناء برّه إيدينا."
+   }
+  ],
+  "syn": [
+   {
+    "w": "bond",
+    "note": "in tenders: bid bond or performance bond",
+    "ex": "The bid bond must stay valid for 120 days.",
+    "ar": "خطاب الضمان الابتدائي لازم يفضل ساري 120 يوم.",
+    "ex2": "An expired bond means the bid is rejected.",
+    "ar2": "ضمان منتهي معناه إن العرض يترفض."
+   },
+   {
+    "w": "warranty",
+    "note": "covers product defects, not money or bids",
+    "ex": "The batteries have a two-year warranty against defects.",
+    "ar": "البطاريات عليها ضمان سنتين ضد العيوب.",
+    "ex2": "The warranty does not cover deep discharge damage.",
+    "ar2": "الضمان مش بيغطي التلف من التفريغ الكامل."
+   },
+   {
+    "w": "security",
+    "note": "formal tender word for money held as protection",
+    "ex": "The RFP asks for bid security of 2% of the bid value.",
+    "ar": "الـ‎RFP‎ طالب تأمين ابتدائي 2% من قيمة العرض.",
+    "ex2": "The security can be a bank guarantee or a certified cheque.",
+    "ar2": "التأمين ممكن يبقى خطاب ضمان أو شيك مقبول الدفع."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "The guarantee for Lot 1 shows EGP 25,000 instead of EGP 250,000. Please correct it today, or our bid may be rejected.",
+  "ctx_ar": "خطاب الضمان بتاع الـ‎Lot 1‎ مكتوب فيه 25,000 بدل 250,000 جنيه. ياريت يتصلح النهارده وإلا عرضنا ممكن يترفض.",
+  "quiz": [
+   {
+    "s": "We ___ that the spare parts will arrive within 48 hours.",
+    "opts": [
+     "guarantee",
+     "guarantor",
+     "guaranteed"
+    ],
+    "a": 0,
+    "ar": "بنضمن إن قطع الغيار هتوصل في خلال 48 ساعة."
+   },
+   {
+    "s": "The battery ___ covers manufacturing defects for two years.",
+    "opts": [
+     "bond",
+     "warranty",
+     "security"
+    ],
+    "a": 1,
+    "ar": "ضمان البطارية بيغطي عيوب التصنيع لمدة سنتين."
+   },
+   {
+    "s": "The UPS has a ___ efficiency of 96%.",
+    "opts": [
+     "guarantee",
+     "guarantor",
+     "guaranteed"
+    ],
+    "a": 2,
+    "ar": "الـ‎UPS‎ كفاءته المضمونة 96%."
+   }
+  ]
+ },
+ {
+  "w": "valid",
+  "ar": "ساري",
+  "book": "Both bonds must be valid until 26 February 2027 (120 days from the bid opening).",
+  "family": [
+   {
+    "w": "valid",
+    "pos": "adjective",
+    "ex": "Our quotation for the 60 kVA UPS is valid for 30 days.",
+    "ar": "عرض السعر بتاعنا للـ‎UPS 60 kVA‎ ساري 30 يوم.",
+    "ex2": "After that, valid prices depend on the exchange rate.",
+    "ar2": "بعد كده الأسعار السارية بتعتمد على سعر الصرف."
+   },
+   {
+    "w": "validity",
+    "pos": "noun",
+    "ex": "The bid validity is 120 days from the bid opening.",
+    "ar": "مدة سريان العرض 120 يوم من فتح المظاريف.",
+    "ex2": "The bank must match the bond to the same validity.",
+    "ar2": "البنك لازم يظبط الضمان على نفس مدة السريان."
+   },
+   {
+    "w": "validate",
+    "pos": "verb",
+    "ex": "Please validate the e-invoice before sending it to the customer.",
+    "ar": "من فضلك اعمل تحقق للفاتورة الإلكترونية قبل ما تبعتها للعميل.",
+    "ex2": "The tax portal rejects invoices that are not validated.",
+    "ar2": "بوابة الضرايب بترفض الفواتير اللي متعملهاش تحقق."
+   },
+   {
+    "w": "invalid",
+    "pos": "adjective",
+    "ex": "The authorisation letter is invalid because it has no stamp.",
+    "ar": "جواب التفويض مش صالح لأن مفيهوش ختم.",
+    "ex2": "An invalid letter could exclude us from the tender.",
+    "ar2": "جواب مش صالح ممكن يخرّجنا من المناقصة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "in force",
+    "note": "formal; for contracts, laws and agreements",
+    "ex": "The maintenance contract remains in force until June 2027.",
+    "ar": "عقد الصيانة ساري لحد يونيو 2027.",
+    "ex2": "While it is in force, all visits are free.",
+    "ar2": "طول ما هو ساري كل الزيارات ببلاش."
+   },
+   {
+    "w": "effective",
+    "note": "shows the start date of something",
+    "ex": "The new price list is effective from 1 November.",
+    "ar": "قايمة الأسعار الجديدة سارية من 1 نوفمبر.",
+    "ex2": "Orders placed before that date keep the old prices.",
+    "ar2": "الأوردرات اللي اتعملت قبل التاريخ ده بتاخد الأسعار القديمة."
+   },
+   {
+    "w": "current",
+    "note": "in use now, the latest version",
+    "ex": "Please send us your current price list for solar inverters.",
+    "ar": "ابعتلنا قايمة أسعارك الحالية للإنفرترات الشمسية.",
+    "ex2": "Our current list is from August.",
+    "ar2": "القايمة اللي عندنا دلوقتي من أغسطس."
+   }
+  ],
+  "ant": [
+   {
+    "w": "expired",
+    "ex": "The manufacturer's authorisation letter has expired.",
+    "ar": "جواب تفويض المصنّع خلص.",
+    "ex2": "We asked for a new one because expired letters are rejected.",
+    "ar2": "طلبنا واحد جديد لأن الجوابات المنتهية بتترفض."
+   },
+   {
+    "w": "invalid",
+    "ex": "A guarantee without the bank's stamp is invalid.",
+    "ar": "ضمان من غير ختم البنك مش صالح.",
+    "ex2": "Please check every page before we submit; an invalid bond means rejection.",
+    "ar2": "راجع كل صفحة قبل التقديم؛ ضمان مش صالح معناه رفض."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our quotation is valid for 30 days only. After that, we must review the battery prices because of the exchange rate.",
+  "ctx_ar": "عرض السعر بتاعنا ساري 30 يوم بس. بعد كده لازم نراجع أسعار البطاريات بسبب سعر الصرف.",
+  "quiz": [
+   {
+    "s": "The bond ___ must cover 120 days from the opening.",
+    "opts": [
+     "valid",
+     "validity",
+     "validate"
+    ],
+    "a": 1,
+    "ar": "مدة سريان الضمان لازم تغطي 120 يوم من الفتح."
+   },
+   {
+    "s": "The new price list is ___ from 1 January.",
+    "opts": [
+     "effective",
+     "expired",
+     "invalid"
+    ],
+    "a": 0,
+    "ar": "قايمة الأسعار الجديدة سارية من 1 يناير."
+   },
+   {
+    "s": "This letter has no stamp, so it is ___.",
+    "opts": [
+     "validity",
+     "validate",
+     "invalid"
+    ],
+    "a": 2,
+    "ar": "الجواب ده مفيهوش ختم، فهو مش صالح."
+   }
+  ]
+ },
+ {
+  "w": "debit",
+  "ar": "يخصم من الحساب",
+  "book": "Please use the hospital's wording attached, and debit the charges and cash margin from our account No. 1002-458-773.",
+  "family": [
+   {
+    "w": "debit",
+    "pos": "verb",
+    "ex": "Please debit the LG charges from our current account.",
+    "ar": "من فضلك اخصم مصاريف خطاب الضمان من حسابنا الجاري.",
+    "ex2": "The bank debited EGP 3,700 for the two guarantees.",
+    "ar2": "البنك خصم 3,700 جنيه على الضمانين."
+   },
+   {
+    "w": "debit",
+    "pos": "noun",
+    "ex": "We found a debit of EGP 1,850 on our bank statement.",
+    "ar": "لقينا خصم بـ1,850 جنيه في كشف الحساب.",
+    "ex2": "Finance matched the debit with the guarantee charges.",
+    "ar2": "الحسابات طابقت الخصم مع مصاريف الضمان."
+   },
+   {
+    "w": "debit note",
+    "pos": "noun",
+    "ex": "We sent the supplier a debit note for the damaged UPS fans.",
+    "ar": "بعتنا للمورد إشعار مدين للمراوح البايظة في الـ‎UPS.‎",
+    "ex2": "The debit note reduces what we owe them.",
+    "ar2": "الإشعار المدين بيقلل المبلغ اللي علينا."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "charge",
+    "note": "general; to put a cost on an account or customer",
+    "ex": "We will charge the site visit to the maintenance contract.",
+    "ar": "هنحسب زيارة الموقع على عقد الصيانة.",
+    "ex2": "Extra visits are charged at EGP 1,500 each.",
+    "ar2": "الزيارات الزيادة بتتحسب بـ1,500 جنيه للزيارة."
+   },
+   {
+    "w": "deduct",
+    "note": "take an amount away from a total",
+    "ex": "The customer deducted 5% retention from our invoice.",
+    "ar": "العميل خصم 5% محتجزات من فاتورتنا.",
+    "ex2": "They will release the deducted amount after the warranty.",
+    "ar2": "هيرجّعوا المبلغ المخصوم بعد فترة الضمان."
+   }
+  ],
+  "ant": [
+   {
+    "w": "credit",
+    "ex": "The bank will credit the cash margin back to our account.",
+    "ar": "البنك هيرجّع التأمين النقدي على حسابنا.",
+    "ex2": "It will be credited once the bid bond is released.",
+    "ar2": "هيتضاف أول ما خطاب الضمان يتفك."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The bank will debit the guarantee charges from our account today. Please record them under the Horizon Hospital tender costs.",
+  "ctx_ar": "البنك هيخصم مصاريف الضمان من حسابنا النهارده. من فضلك سجّلها تحت تكاليف مناقصة مستشفى ‎Horizon.‎",
+  "quiz": [
+   {
+    "s": "Please ___ the charges from account No. 1002-458-773.",
+    "opts": [
+     "debit",
+     "credit",
+     "debit note"
+    ],
+    "a": 0,
+    "ar": "من فضلك اخصم المصاريف من حساب رقم 1002-458-773."
+   },
+   {
+    "s": "The cash margin will be ___ back to us after the release.",
+    "opts": [
+     "debited",
+     "credited",
+     "deducted"
+    ],
+    "a": 1,
+    "ar": "التأمين النقدي هيرجع على حسابنا بعد فك الضمان."
+   },
+   {
+    "s": "We issued a ___ to the supplier for the missing cables.",
+    "opts": [
+     "debit",
+     "charge",
+     "debit note"
+    ],
+    "a": 2,
+    "ar": "طلّعنا إشعار مدين للمورد عشان الكابلات الناقصة."
+   }
+  ]
+ },
+ {
+  "w": "rejection",
+  "ar": "رفض",
+  "book": "A bond with the wrong amount or validity will lead to the rejection of our bid.",
+  "family": [
+   {
+    "w": "reject",
+    "pos": "verb",
+    "ex": "The committee may reject any bid without a valid bid bond.",
+    "ar": "اللجنة ممكن ترفض أي عرض من غير ضمان ابتدائي ساري.",
+    "ex2": "They rejected two bids last year for this reason.",
+    "ar2": "رفضوا عرضين السنة اللي فاتت للسبب ده."
+   },
+   {
+    "w": "rejection",
+    "pos": "noun",
+    "ex": "The rejection of our bid would waste weeks of work.",
+    "ar": "رفض عرضنا هيضيّع أسابيع شغل.",
+    "ex2": "To avoid rejection, check the bond amount twice.",
+    "ar2": "عشان نتجنب الرفض راجع مبلغ الضمان مرتين."
+   },
+   {
+    "w": "rejected",
+    "pos": "adjective",
+    "ex": "The rejected batteries were returned to the supplier.",
+    "ar": "البطاريات المرفوضة رجعت للمورد.",
+    "ex2": "We asked for a credit note for the rejected items.",
+    "ar2": "طلبنا إشعار دائن للحاجات المرفوضة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "refusal",
+    "note": "someone says no to a request",
+    "ex": "The bank's refusal to extend the LG caused a serious problem.",
+    "ar": "رفض البنك يمد خطاب الضمان عمل مشكلة كبيرة.",
+    "ex2": "After the refusal, we asked another bank.",
+    "ar2": "بعد الرفض روحنا لبنك تاني."
+   },
+   {
+    "w": "disqualification",
+    "note": "removed from a tender for breaking a rule",
+    "ex": "Late submission leads to automatic disqualification.",
+    "ar": "التقديم المتأخر بيؤدي لاستبعاد أوتوماتيك.",
+    "ex2": "A disqualification also means the fee is lost.",
+    "ar2": "والاستبعاد معناه كمان إن الرسوم ضاعت."
+   },
+   {
+    "w": "turn down",
+    "note": "informal phrasal verb for rejecting an offer",
+    "ex": "The client turned down our offer for a 5-year contract.",
+    "ar": "العميل رفض عرضنا لعقد 5 سنين.",
+    "ex2": "He turned it down because the budget was cut.",
+    "ar2": "رفضه لأن الميزانية اتقلّصت."
+   }
+  ],
+  "ant": [
+   {
+    "w": "acceptance",
+    "ex": "We received the client's acceptance of our quotation today.",
+    "ar": "وصلنا قبول العميل لعرض السعر النهارده.",
+    "ex2": "After acceptance, we will ask for the PO.",
+    "ar2": "بعد القبول هنطلب أمر الشراء."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The bond amount is missing a zero. If we submit it like this, the result will be the rejection of our bid.",
+  "ctx_ar": "مبلغ الضمان ناقص صفر. لو قدّمناه كده النتيجة هتبقى رفض عرضنا.",
+  "quiz": [
+   {
+    "s": "The committee will ___ bids without a bid bond.",
+    "opts": [
+     "reject",
+     "rejection",
+     "rejected"
+    ],
+    "a": 0,
+    "ar": "اللجنة هترفض العروض اللي من غير ضمان ابتدائي."
+   },
+   {
+    "s": "Missing the deadline leads to automatic ___.",
+    "opts": [
+     "acceptance",
+     "disqualification",
+     "turn down"
+    ],
+    "a": 1,
+    "ar": "إن الميعاد يفوت بيؤدي لاستبعاد أوتوماتيك."
+   },
+   {
+    "s": "We returned the ___ cells to the factory.",
+    "opts": [
+     "reject",
+     "rejection",
+     "rejected"
+    ],
+    "a": 2,
+    "ar": "رجّعنا الخلايا المرفوضة للمصنع."
+   }
+  ]
+ }
+]

@@ -1,0 +1,614 @@
+[
+ {
+  "w": "follow up",
+  "ar": "تتابع",
+  "book": "I am following up on our quotation Q-2025-231 for the 60 kVA UPS, sent on 14 October.",
+  "family": [
+   {
+    "w": "follow up",
+    "pos": "verb",
+    "ex": "I am following up on our quotation from last week.",
+    "ar": "بتابع معاك بخصوص عرض السعر بتاع الأسبوع اللي فات.",
+    "ex2": "Please follow up again if they don't reply by Thursday.",
+    "ar2": "تابع تاني لو مردّوش لحد الخميس."
+   },
+   {
+    "w": "follow-up",
+    "pos": "noun",
+    "ex": "I sent a follow-up to Delta Pharma yesterday.",
+    "ar": "بعت متابعة لـ‎Delta Pharma‎ امبارح.",
+    "ex2": "Their reply to my follow-up came this morning.",
+    "ar2": "ردّهم على المتابعة بتاعتي جه الصبح."
+   },
+   {
+    "w": "follow-up",
+    "pos": "adjective",
+    "ex": "Let's book a follow-up call for next Tuesday.",
+    "ar": "خلّينا نحجز مكالمة متابعة يوم التلات الجاي.",
+    "ex2": "In the follow-up call, we will discuss the battery lead time.",
+    "ar2": "في مكالمة المتابعة هنتكلم عن مدة توريد البطاريات."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "check on something you sent or asked for",
+    "mar": "تتابع على حاجة بعتها أو طلبتها",
+    "ex": "I am following up on the PO you promised last week.",
+    "ar": "بتابع بخصوص الـ‎PO‎ اللي وعدتنا بيه الأسبوع اللي فات.",
+    "ex2": "The battery supplier needs it by Thursday.",
+    "ar2": "مورد البطاريات محتاجه قبل الخميس."
+   },
+   {
+    "m": "take further action after a meeting or visit",
+    "mar": "تكمّل بخطوة بعد اجتماع أو زيارة",
+    "ex": "Our engineer will follow up with a written report after the site visit.",
+    "ar": "المهندس بتاعنا هيكمّل بتقرير مكتوب بعد زيارة الموقع.",
+    "ex2": "The report will list the faulty batteries.",
+    "ar2": "التقرير هيكتب البطاريات البايظة."
+   }
+  ],
+  "syn": [
+   {
+    "w": "chase",
+    "note": "informal and pushy; for late payments or documents",
+    "ex": "Please chase Delta Pharma for the signed PO.",
+    "ar": "لو سمحت الحق ‎Delta Pharma‎ بخصوص الـ‎PO‎ الممضي.",
+    "ex2": "We have chased them three times already.",
+    "ar2": "احنا لاحقناهم تلات مرات خلاص."
+   },
+   {
+    "w": "check in",
+    "note": "soft and friendly; no pressure",
+    "ex": "I'm just checking in about our UPS offer.",
+    "ar": "بس بطمّن بخصوص عرض الـ‎UPS‎ بتاعنا.",
+    "ex2": "No rush; I just wanted to check in before the weekend.",
+    "ar2": "مفيش استعجال؛ بس حبيت أطمّن قبل الويك إند."
+   },
+   {
+    "w": "remind",
+    "note": "point to a date or promise they forgot",
+    "ex": "Can you remind the client that the offer expires Thursday?",
+    "ar": "ممكن تفكّر العميل إن العرض بيخلص الخميس؟",
+    "ex2": "I reminded him in my email this morning.",
+    "ar2": "فكّرته في الإيميل بتاعي الصبح."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how strong the push is",
+   "lar": "الضغط قد إيه",
+   "steps": [
+    {
+     "w": "gentle reminder",
+     "ex": "This is a gentle reminder about our quotation Q-2025-231.",
+     "ar": "ده تذكير بسيط بخصوص عرض السعر ‎Q-2025-231.‎",
+     "ex2": "We would love to hear your feedback.",
+     "ar2": "يسعدنا نسمع رأيك."
+    },
+    {
+     "w": "follow-up",
+     "ex": "I sent a follow-up because the client did not reply.",
+     "ar": "بعت متابعة عشان العميل مردّش.",
+     "ex2": "The follow-up asked for a short call this week.",
+     "ar2": "المتابعة طلبت مكالمة قصيرة الأسبوع ده."
+    },
+    {
+     "w": "chase",
+     "ex": "We need to chase the payment; it's two weeks late.",
+     "ar": "لازم نلاحق الفلوس؛ متأخرة أسبوعين.",
+     "ex2": "Call their accounts team and chase it today.",
+     "ar2": "كلّم فريق الحسابات عندهم والحقها النهارده."
+    },
+    {
+     "w": "final reminder",
+     "ex": "After three reminders, we sent a final reminder.",
+     "ar": "بعد تلات تذكيرات بعتنا تذكير أخير.",
+     "ex2": "The final reminder mentioned escalation to our Finance Director.",
+     "ar2": "التذكير الأخير ذكر التصعيد للمدير المالي."
+    }
+   ]
+  },
+  "ctx": "I am following up on our quotation for the 60 kVA UPS. Have you had a chance to review it?",
+  "ctx_ar": "بتابع معاك بخصوص عرض السعر للـ‎UPS‎ الـ60 ‎kVA.‎ لحقت تراجعه؟",
+  "quiz": [
+   {
+    "s": "I'm writing to ___ on our quotation for the solar inverters.",
+    "opts": [
+     "follow up",
+     "follow-up",
+     "chase"
+    ],
+    "a": 0,
+    "ar": "بكتب عشان أتابع بخصوص عرض السعر للإنفرترات الشمسية."
+   },
+   {
+    "s": "Please send a ___ email if they don't reply by Thursday.",
+    "opts": [
+     "follow up",
+     "check in",
+     "follow-up"
+    ],
+    "a": 2,
+    "ar": "ابعت إيميل متابعة لو مردّوش لحد الخميس."
+   },
+   {
+    "s": "After two ignored reminders, we sent a ___ before escalation.",
+    "opts": [
+     "gentle reminder",
+     "final reminder",
+     "follow-up"
+    ],
+    "a": 1,
+    "ar": "بعد تذكيرين محدش ردّ عليهم، بعتنا تذكير أخير قبل التصعيد."
+   }
+  ]
+ },
+ {
+  "w": "discount",
+  "ar": "خصم",
+  "book": "To support this project, we can offer a special discount of EGP 75,000.",
+  "family": [
+   {
+    "w": "discount",
+    "pos": "noun",
+    "ex": "We can offer a 5% discount on the battery order.",
+    "ar": "نقدر نعمل خصم 5% على أوردر البطاريات.",
+    "ex2": "The discount is valid if you order this month.",
+    "ar2": "الخصم ساري لو طلبت الشهر ده."
+   },
+   {
+    "w": "discount",
+    "pos": "verb",
+    "ex": "We rarely discount spare parts for VFDs.",
+    "ar": "نادراً ما بنعمل خصم على قطع غيار الـ‎VFD.‎",
+    "ex2": "But we can discount the service visit.",
+    "ar2": "بس نقدر نعمل خصم على زيارة الصيانة."
+   },
+   {
+    "w": "discounted",
+    "pos": "adjective",
+    "ex": "The client got a discounted price for 80 batteries.",
+    "ar": "العميل خد سعر مخفّض لـ80 بطارية.",
+    "ex2": "The discounted price still covers our costs.",
+    "ar2": "السعر المخفّض لسه مغطي تكاليفنا."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "price reduction",
+    "note": "formal; used in official letters",
+    "ex": "We can offer a price reduction of EGP 30,000.",
+    "ar": "نقدر نعمل تخفيض في السعر 30 ألف جنيه.",
+    "ex2": "The price reduction applies only to the UPS, not the batteries.",
+    "ar2": "التخفيض على الـ‎UPS‎ بس، مش البطاريات."
+   },
+   {
+    "w": "rebate",
+    "note": "money paid back later, e.g. for yearly volume",
+    "ex": "The supplier pays us a rebate above 5 million in purchases.",
+    "ar": "المورد بيرجّع لنا مبلغ لو مشترياتنا عدّت 5 مليون.",
+    "ex2": "We received last year's rebate in March.",
+    "ar2": "استلمنا مبلغ السنة اللي فاتت في مارس."
+   },
+   {
+    "w": "concession",
+    "note": "something you give up during a negotiation",
+    "ex": "Free delivery was our only concession on this deal.",
+    "ar": "التوصيل ببلاش كان التنازل الوحيد بتاعنا في الصفقة دي.",
+    "ex2": "The client asked for more, but we made no other concession.",
+    "ar2": "العميل طلب أكتر، بس ما اتنازلناش عن حاجة تانية."
+   }
+  ],
+  "ant": [
+   {
+    "w": "surcharge",
+    "ex": "There is a 5% surcharge for urgent weekend delivery.",
+    "ar": "فيه زيادة 5% على التوصيل المستعجل في الويك إند.",
+    "ex2": "The surcharge covers overtime for our drivers.",
+    "ar2": "الزيادة دي بتغطي الأوفر تايم للسواقين."
+   }
+  ],
+  "ladder": {
+   "label": "how big the discount is",
+   "lar": "الخصم كبير قد إيه",
+   "steps": [
+    {
+     "w": "token discount",
+     "ex": "We offered a token discount of EGP 2,000 as goodwill.",
+     "ar": "عرضنا خصم رمزي 2000 جنيه كبادرة حسن نية.",
+     "ex2": "The client appreciated it, though it was small.",
+     "ar2": "العميل قدّره رغم إنه صغير."
+    },
+    {
+     "w": "special discount",
+     "ex": "For this project, we can offer a special discount of 5%.",
+     "ar": "للمشروع ده نقدر نعمل خصم خاص 5%.",
+     "ex2": "It needs our Sales Manager's approval.",
+     "ar2": "محتاج موافقة مدير المبيعات."
+    },
+    {
+     "w": "maximum discount",
+     "ex": "8% is our maximum discount on imported UPS units.",
+     "ar": "8% هي أقصى نسبة خصم على الـ‎UPS‎ المستورد.",
+     "ex2": "Any more would leave us with no margin.",
+     "ar2": "أكتر من كده مش هيفضل لنا هامش."
+    }
+   ]
+  },
+  "ctx": "To win this order, we can offer a special discount of EGP 40,000. The discount is valid if we receive your PO this month.",
+  "ctx_ar": "عشان نكسب الأوردر ده، نقدر نعمل خصم خاص 40 ألف جنيه. الخصم ساري لو استلمنا الـ‎PO‎ بتاعكم الشهر ده.",
+  "quiz": [
+   {
+    "s": "We can sell the batteries at a ___ price if you order 80 units.",
+    "opts": [
+     "discount",
+     "discounted",
+     "rebate"
+    ],
+    "a": 1,
+    "ar": "نقدر نبيع البطاريات بسعر مخفّض لو طلبت 80 وحدة."
+   },
+   {
+    "s": "Weekend installation has a 10% ___.",
+    "opts": [
+     "surcharge",
+     "discount",
+     "rebate"
+    ],
+    "a": 0,
+    "ar": "التركيب في الويك إند عليه زيادة 10%."
+   },
+   {
+    "s": "The supplier pays us a yearly ___ when our purchases exceed 5 million.",
+    "opts": [
+     "concession",
+     "surcharge",
+     "rebate"
+    ],
+    "a": 2,
+    "ar": "المورد بيرجّع لنا مبلغ سنوي لما مشترياتنا تعدّي 5 مليون."
+   }
+  ]
+ },
+ {
+  "w": "revised",
+  "ar": "معدّل",
+  "book": "Thank you for the revised offer and for the clear comparison points.",
+  "family": [
+   {
+    "w": "revise",
+    "pos": "verb",
+    "ex": "We will revise the offer and remove the cables.",
+    "ar": "هنعدّل العرض ونشيل الكابلات.",
+    "ex2": "I'll send it back once we revise the total.",
+    "ar2": "هبعته تاني أول ما نعدّل الإجمالي."
+   },
+   {
+    "w": "revised",
+    "pos": "adjective",
+    "ex": "Please find attached our revised quotation, Rev.1.",
+    "ar": "مرفق عرض السعر المعدّل، ‎Rev.1.‎",
+    "ex2": "The revised total is EGP 1,500,000.",
+    "ar2": "الإجمالي المعدّل مليون و500 ألف جنيه."
+   },
+   {
+    "w": "revision",
+    "pos": "noun",
+    "ex": "This is the second revision of the offer, Rev.2.",
+    "ar": "ده التعديل التاني للعرض، ‎Rev.2.‎",
+    "ex2": "Each revision gets a new number to avoid confusion.",
+    "ar2": "كل تعديل بياخد رقم جديد عشان منتلخبطش."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "updated",
+    "note": "general; new information was added",
+    "ex": "Here is the updated delivery schedule.",
+    "ar": "ده جدول التسليم المحدّث.",
+    "ex2": "It is updated with the new battery ETA.",
+    "ar2": "اتحدّث بالميعاد الجديد لوصول البطاريات."
+   },
+   {
+    "w": "amended",
+    "note": "formal; small official change to a contract or PO",
+    "ex": "The client sent an amended PO with the new total.",
+    "ar": "العميل بعت ‎PO‎ معدّل بالإجمالي الجديد.",
+    "ex2": "Only the price changed; the amended PO keeps all other terms.",
+    "ar2": "السعر بس اللي اتغيّر؛ باقي الشروط زي ما هي."
+   },
+   {
+    "w": "corrected",
+    "note": "fixing a mistake, not a new decision",
+    "ex": "Please send us a corrected invoice with the right tax number.",
+    "ar": "ابعتلنا فاتورة مصحّحة بالرقم الضريبي الصح.",
+    "ex2": "The corrected invoice will replace the old one.",
+    "ar2": "الفاتورة المصحّحة هتحل محل القديمة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "original",
+    "ex": "The original quotation had 40 batteries and no discount.",
+    "ar": "عرض السعر الأصلي كان فيه 40 بطارية ومن غير خصم.",
+    "ex2": "Their team used the original version by mistake.",
+    "ar2": "فريقهم استخدم النسخة الأصلية بالغلط."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Please find attached our revised quotation, Rev.1. The total is now EGP 1,500,000, and all other terms remain the same.",
+  "ctx_ar": "مرفق عرض السعر المعدّل، ‎Rev.1.‎ الإجمالي دلوقتي مليون و500 ألف جنيه، وباقي الشروط زي ما هي.",
+  "quiz": [
+   {
+    "s": "Please send us the ___ quotation with the new price.",
+    "opts": [
+     "revise",
+     "revised",
+     "revision"
+    ],
+    "a": 1,
+    "ar": "لو سمحت ابعتلنا عرض السعر المعدّل بالسعر الجديد."
+   },
+   {
+    "s": "This is the second ___ of the offer, Rev.2.",
+    "opts": [
+     "revision",
+     "revise",
+     "revised"
+    ],
+    "a": 0,
+    "ar": "ده التعديل التاني للعرض، ‎Rev.2.‎"
+   },
+   {
+    "s": "The contract was ___ to add a second site.",
+    "opts": [
+     "original",
+     "revision",
+     "amended"
+    ],
+    "a": 2,
+    "ar": "العقد اتعدّل عشان يضيف موقع تاني."
+   }
+  ]
+ },
+ {
+  "w": "review",
+  "ar": "تراجع",
+  "book": "Have you had a chance to review it?",
+  "family": [
+   {
+    "w": "review",
+    "pos": "verb",
+    "ex": "Could you please review the attached offer?",
+    "ar": "ممكن تراجع العرض المرفق؟",
+    "ex2": "I can explain any point on a short call.",
+    "ar2": "أقدر أشرح أي نقطة في مكالمة قصيرة."
+   },
+   {
+    "w": "review",
+    "pos": "noun",
+    "ex": "The price review takes place every January.",
+    "ar": "مراجعة الأسعار بتحصل كل يناير.",
+    "ex2": "After the review, we update the service rates.",
+    "ar2": "بعد المراجعة بنحدّث أسعار الخدمة."
+   },
+   {
+    "w": "reviewer",
+    "pos": "person",
+    "ex": "The reviewer found two mistakes in the PO.",
+    "ar": "المراجع لقى غلطتين في الـ‎PO.‎",
+    "ex2": "We fixed them before the reviewer signed it.",
+    "ar2": "صلّحناهم قبل ما المراجع يمضيه."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "read or check something before deciding",
+    "mar": "تقرا أو تراجع حاجة قبل ما تقرّر",
+    "ex": "Our technical team will review your offer this week.",
+    "ar": "الفريق الفني عندنا هيراجع عرضكم الأسبوع ده.",
+    "ex2": "We'll reply with any questions on Sunday.",
+    "ar2": "هنرد بأي أسئلة يوم الحد."
+   },
+   {
+    "m": "an official regular check of performance",
+    "mar": "مراجعة رسمية دورية للأداء",
+    "ex": "The annual contract review is in March.",
+    "ar": "المراجعة السنوية للعقد في مارس.",
+    "ex2": "In the review, we look at response times and faults.",
+    "ar2": "في المراجعة بنبص على أوقات الاستجابة والأعطال."
+   }
+  ],
+  "syn": [
+   {
+    "w": "check",
+    "note": "quick look for mistakes",
+    "ex": "Could you quickly check the PO for typos?",
+    "ar": "ممكن تبص بسرعة على الـ‎PO‎ لو فيه أخطاء كتابة؟",
+    "ex2": "I'll check the totals too.",
+    "ar2": "هراجع الإجماليات كمان."
+   },
+   {
+    "w": "go through",
+    "note": "informal; read carefully, item by item",
+    "ex": "Let's go through the quotation line by line.",
+    "ar": "يلا نعدّي على عرض السعر بند بند.",
+    "ex2": "We went through it together on a call.",
+    "ar2": "عدّينا عليه سوا في مكالمة."
+   },
+   {
+    "w": "evaluate",
+    "note": "formal; judge or compare offers",
+    "ex": "The committee will evaluate all three UPS offers.",
+    "ar": "اللجنة هتقيّم عروض الـ‎UPS‎ التلاتة.",
+    "ex2": "They evaluate price, service and warranty.",
+    "ar2": "بيقيّموا السعر والخدمة والضمان."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how deep the check is",
+   "lar": "المراجعة عميقة قد إيه",
+   "steps": [
+    {
+     "w": "glance at",
+     "ex": "I only had time to glance at your offer.",
+     "ar": "لحقت أبص بصّة سريعة بس على عرضك.",
+     "ex2": "I'll read it properly tomorrow.",
+     "ar2": "هقراه كويس بكرة."
+    },
+    {
+     "w": "check",
+     "ex": "Please check the battery quantity on the PO.",
+     "ar": "لو سمحت راجع عدد البطاريات على الـ‎PO.‎",
+     "ex2": "It should be 40, not 32.",
+     "ar2": "المفروض يبقوا 40 مش 32."
+    },
+    {
+     "w": "review",
+     "ex": "Our team will review the full contract before signing.",
+     "ar": "فريقنا هيراجع العقد كله قبل الإمضا.",
+     "ex2": "Legal will also review the penalty clause.",
+     "ar2": "القانونية كمان هتراجع بند الغرامة."
+    },
+    {
+     "w": "audit",
+     "ex": "The auditors will audit our supplier accounts in June.",
+     "ar": "المراجعين هيعملوا تدقيق على حسابات الموردين في يونيو.",
+     "ex2": "Every invoice must match a PO for the audit.",
+     "ar2": "كل فاتورة لازم تطابق ‎PO‎ عشان التدقيق."
+    }
+   ]
+  },
+  "ctx": "Could you please review the attached offer? I would be happy to arrange a short call if anything is unclear.",
+  "ctx_ar": "ممكن تراجع العرض المرفق؟ يسعدني أرتّب مكالمة قصيرة لو فيه أي حاجة مش واضحة.",
+  "quiz": [
+   {
+    "s": "Have you had a chance to ___ our quotation?",
+    "opts": [
+     "review",
+     "reviewer",
+     "audit"
+    ],
+    "a": 0,
+    "ar": "لحقت تراجع عرض السعر بتاعنا؟"
+   },
+   {
+    "s": "External auditors do a full ___ of our accounts every year.",
+    "opts": [
+     "glance at",
+     "reviewer",
+     "audit"
+    ],
+    "a": 2,
+    "ar": "مراجعين خارجيين بيعملوا تدقيق كامل على حساباتنا كل سنة."
+   },
+   {
+    "s": "Could you quickly ___ the PO for typos before I send it?",
+    "opts": [
+     "evaluate",
+     "check",
+     "audit"
+    ],
+    "a": 1,
+    "ar": "ممكن تبص بسرعة على الـ‎PO‎ لو فيه أخطاء قبل ما أبعته؟"
+   }
+  ]
+ },
+ {
+  "w": "compare",
+  "ar": "تقارن",
+  "book": "Before comparing prices, please check that the other offer includes the same backup time, installation, commissioning and a two-year warranty.",
+  "family": [
+   {
+    "w": "compare",
+    "pos": "verb",
+    "ex": "Please compare both offers line by line.",
+    "ar": "لو سمحت قارن العرضين بند بند.",
+    "ex2": "When you compare them, check the warranty too.",
+    "ar2": "وانت بتقارنهم، بص على الضمان كمان."
+   },
+   {
+    "w": "comparison",
+    "pos": "noun",
+    "ex": "We prepared a technical comparison of the two UPS offers.",
+    "ar": "جهّزنا مقارنة فنية بين عرضين الـ‎UPS.‎",
+    "ex2": "The comparison shows our backup time is longer.",
+    "ar2": "المقارنة بتوضّح إن وقت الباك أب بتاعنا أطول."
+   },
+   {
+    "w": "comparable",
+    "pos": "adjective",
+    "ex": "Is their 60 kVA unit comparable to ours?",
+    "ar": "هل الوحدة الـ60 ‎kVA‎ بتاعتهم تتقارن بتاعتنا؟",
+    "ex2": "It is cheaper, but not comparable in battery quality.",
+    "ar2": "أرخص، بس مش زيها في جودة البطاريات."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "benchmark",
+    "note": "compare against a standard or market price",
+    "ex": "We benchmark our service rates against two competitors.",
+    "ar": "بنقارن أسعار الخدمة بتاعتنا بمنافسَين اتنين.",
+    "ex2": "The benchmark shows we are 5% above the market.",
+    "ar2": "المقارنة بتقول إننا أعلى من السوق بـ5%."
+   },
+   {
+    "w": "weigh up",
+    "note": "think about pros and cons before deciding",
+    "ex": "The client is weighing up our offer and a cheaper one.",
+    "ar": "العميل بيوازن بين عرضنا وعرض أرخص.",
+    "ex2": "Service quality may help him weigh up the choice.",
+    "ar2": "جودة الخدمة ممكن تساعده يحسم الاختيار."
+   },
+   {
+    "w": "contrast",
+    "note": "focus on the differences only",
+    "ex": "In contrast, their offer has a one-year warranty.",
+    "ar": "على العكس، عرضهم فيه ضمان سنة بس.",
+    "ex2": "Ours has two years, which is a clear contrast.",
+    "ar2": "عرضنا فيه سنتين، وده فرق واضح."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Please compare both offers line by line. Our price includes a two-year warranty and a 4-hour response time.",
+  "ctx_ar": "لو سمحت قارن العرضين بند بند. السعر بتاعنا شامل ضمان سنتين ووقت استجابة 4 ساعات.",
+  "quiz": [
+   {
+    "s": "We prepared a technical ___ of the two UPS offers.",
+    "opts": [
+     "compare",
+     "comparison",
+     "comparable"
+    ],
+    "a": 1,
+    "ar": "جهّزنا مقارنة فنية بين عرضين الـ‎UPS.‎"
+   },
+   {
+    "s": "Is their 60 kVA unit ___ to ours in backup time?",
+    "opts": [
+     "comparison",
+     "compare",
+     "comparable"
+    ],
+    "a": 2,
+    "ar": "هل الوحدة الـ60 ‎kVA‎ بتاعتهم زي بتاعتنا في وقت الباك أب؟"
+   },
+   {
+    "s": "Before choosing a supplier, let's ___ the pros and cons.",
+    "opts": [
+     "weigh up",
+     "benchmark",
+     "contrast"
+    ],
+    "a": 0,
+    "ar": "قبل ما نختار مورد، خلّينا نوازن المميزات والعيوب."
+   }
+  ]
+ }
+]

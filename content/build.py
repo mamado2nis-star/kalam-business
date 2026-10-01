@@ -52,6 +52,10 @@ t=t.replace('/*__BANK__*/',open('/home/claude/asr/bank_ar.js').read()+open('/hom
 wm={}
 for f in sorted(glob.glob('/home/claude/asr/wmap/out/*.json')):
     wm[os.path.basename(f)[:-5]]=json.load(open(f))
+ewm={}
+for f in sorted(glob.glob('/home/claude/asr/email/wmap/*.json')):
+    ewm[os.path.basename(f)[:-5]]=json.load(open(f))
+t=t.replace('/*__EWMAP__*/','const EWMAP='+json.dumps(ewm,ensure_ascii=False)+';')
 t=t.replace('/*__WMAP__*/','const WMAP='+json.dumps(wm,ensure_ascii=False)+';')
 t=t.replace('/*__WUE__*/',open('/home/claude/asr/wu_emails.js').read())
 t=t.replace('/*__FIX__*/','const CARD_FIX='+open('/home/claude/asr/card_fixes.json').read()+';')

@@ -1,0 +1,628 @@
+[
+ {
+  "w": "release",
+  "ar": "إفراج / تطلّع",
+  "book": "Customs has approved the release of our lithium battery shipment.",
+  "family": [
+   {
+    "w": "release",
+    "pos": "verb",
+    "ex": "Customs released the container this morning.",
+    "ar": "الجمارك فرجت عن الكونتينر النهارده الصبح.",
+    "ex2": "Once they release it, the truck can leave the port.",
+    "ar2": "أول ما يفرجوا عنه، العربية تقدر تطلع من الميناء."
+   },
+   {
+    "w": "release",
+    "pos": "noun",
+    "ex": "Customs has approved the release of our shipment.",
+    "ar": "الجمارك وافقت على الإفراج عن شحنتنا.",
+    "ex2": "Please send me the release papers today.",
+    "ar2": "من فضلك ابعتلي ورق الإفراج النهارده."
+   },
+   {
+    "w": "released",
+    "pos": "adjective",
+    "ex": "The released goods left Alexandria port at 08:00.",
+    "ar": "البضاعة اللي اتفرج عنها طلعت من ميناء إسكندرية الساعة 8.",
+    "ex2": "Released stock goes straight to our Obour warehouse.",
+    "ar2": "البضاعة المفرج عنها بتروح على طول مخزن العبور."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "let goods leave customs or port",
+    "mar": "إفراج جمركي",
+    "ex": "Customs will release the goods after payment.",
+    "ar": "الجمارك هتفرج عن البضاعة بعد الدفع.",
+    "ex2": "Our broker will collect the release order.",
+    "ar2": "المخلّص هيستلم أمر الإفراج."
+   },
+   {
+    "m": "send money that was held",
+    "mar": "تطلّع دفعة",
+    "ex": "Finance released the payment after the GRN was signed.",
+    "ar": "الحسابات طلّعت الدفعة بعد ما إذن الاستلام اتمضى.",
+    "ex2": "The supplier received it the next day.",
+    "ar2": "المورد استلمها تاني يوم."
+   },
+   {
+    "m": "launch a new version",
+    "mar": "تطلق نسخة جديدة",
+    "ex": "The supplier released new firmware for the BMS.",
+    "ar": "المورد نزّل سوفتوير جديد للـ‎BMS‎.",
+    "ex2": "The new release fixes the CAN communication error.",
+    "ar2": "النسخة الجديدة بتصلّح غلطة اتصال الـ‎CAN‎."
+   }
+  ],
+  "syn": [
+   {
+    "w": "clear",
+    "note": "customs: finish all formalities for goods",
+    "ex": "Our broker cleared the shipment in one day.",
+    "ar": "المخلّص خلّص الشحنة في يوم واحد.",
+    "ex2": "Clearing it fast saved us demurrage.",
+    "ar2": "تخليصها بسرعة وفّر علينا غرامة التأخير."
+   },
+   {
+    "w": "free up",
+    "note": "make stock, money or time available again",
+    "ex": "Cancelling that order will free up 20 modules.",
+    "ar": "إلغاء الأوردر ده هيفضّي 20 موديول.",
+    "ex2": "We can free up cash by collecting overdue invoices.",
+    "ar2": "نقدر نوفّر سيولة لو حصّلنا الفواتير المتأخرة."
+   },
+   {
+    "w": "launch",
+    "note": "products: introduce to the market",
+    "ex": "We will launch the new solar package in January.",
+    "ar": "هنطلق باكدج الطاقة الشمسية الجديد في يناير.",
+    "ex2": "The launch includes a free site survey.",
+    "ar2": "الإطلاق شامل معاينة موقع ببلاش."
+   }
+  ],
+  "ant": [
+   {
+    "w": "hold",
+    "ex": "Customs may hold the goods if a document is missing.",
+    "ar": "الجمارك ممكن توقف البضاعة لو فيه مستند ناقص.",
+    "ex2": "They hold them until the right paper arrives.",
+    "ar2": "بيوقفوها لحد ما الورقة الصح توصل."
+   },
+   {
+    "w": "detain",
+    "ex": "The container was detained for three days at the port.",
+    "ar": "الكونتينر اتحجز تلات أيام في الميناء.",
+    "ex2": "It was detained because of a model mismatch.",
+    "ar2": "اتحجز بسبب عدم تطابق الموديل."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Customs approved the release after we paid the duties. Our broker will book the truck so the container leaves port tomorrow.",
+  "ctx_ar": "الجمارك وافقت على الإفراج بعد ما دفعنا الجمارك. المخلّص هيحجز العربية عشان الكونتينر يطلع من الميناء بكرة.",
+  "quiz": [
+   {
+    "s": "Customs approved the ___ of our shipment.",
+    "opts": [
+     "release",
+     "released",
+     "hold"
+    ],
+    "a": 0,
+    "ar": "الجمارك وافقت على الإفراج عن شحنتنا."
+   },
+   {
+    "s": "The goods were ___ at port because one document was missing.",
+    "opts": [
+     "released",
+     "detained",
+     "release"
+    ],
+    "a": 1,
+    "ar": "البضاعة اتحجزت في الميناء عشان فيه مستند ناقص."
+   },
+   {
+    "s": "Finance has ___ the payment, so the supplier will get it today.",
+    "opts": [
+     "hold",
+     "detain",
+     "released"
+    ],
+    "a": 2,
+    "ar": "الحسابات طلّعت الدفعة، فالمورد هيستلمها النهارده."
+   }
+  ]
+ },
+ {
+  "w": "duty",
+  "ar": "جمرك / رسوم جمركية",
+  "book": "Customs duty and 14% VAT total EGP 1,284,500.",
+  "family": [
+   {
+    "w": "duty",
+    "pos": "noun",
+    "ex": "Customs duty on lithium batteries is calculated on the CIF value.",
+    "ar": "الجمرك على بطاريات الليثيوم بيتحسب على قيمة الـ‎CIF‎.",
+    "ex2": "We add the duty to the landed cost.",
+    "ar2": "بنضيف الجمرك على التكلفة النهائية."
+   },
+   {
+    "w": "dutiable",
+    "pos": "adjective",
+    "ex": "Lithium batteries are dutiable goods in Egypt.",
+    "ar": "بطاريات الليثيوم عليها جمرك في مصر.",
+    "ex2": "All dutiable items must appear on the invoice.",
+    "ar2": "كل البنود اللي عليها جمرك لازم تظهر على الفاتورة."
+   },
+   {
+    "w": "duty-free",
+    "pos": "adjective",
+    "ex": "The spare parts for the hospital were duty-free.",
+    "ar": "قطع الغيار للمستشفى كانت معفية من الجمارك.",
+    "ex2": "Duty-free status saved the project a lot of money.",
+    "ar2": "الإعفاء وفّر على المشروع فلوس كتير."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "tax on imported goods",
+    "mar": "رسوم جمركية",
+    "ex": "Please transfer the customs duty to the broker's account by Sunday.",
+    "ar": "من فضلك حوّل الرسوم الجمركية لحساب المخلّص قبل الحد.",
+    "ex2": "Late payment of duties adds demurrage.",
+    "ar2": "التأخير في دفع الجمارك بيزوّد الغرامات."
+   },
+   {
+    "m": "responsibility at work",
+    "mar": "مسؤولية / مهمة",
+    "ex": "It is my duty to check every import document.",
+    "ar": "من مسؤوليتي إني أراجع كل مستند استيراد.",
+    "ex2": "Tonight Youssef is on duty at the warehouse.",
+    "ar2": "يوسف النهارده مناوب في المخزن."
+   }
+  ],
+  "syn": [
+   {
+    "w": "tariff",
+    "note": "the official rate or list set by government",
+    "ex": "The tariff on solar panels is 5%.",
+    "ar": "التعريفة على الألواح الشمسية 5%.",
+    "ex2": "Check the tariff for each HS code.",
+    "ar2": "شيّك على التعريفة لكل ‎HS code‎."
+   },
+   {
+    "w": "tax",
+    "note": "general word; VAT, income tax, etc.",
+    "ex": "Import VAT is a tax we can claim back.",
+    "ar": "ضريبة القيمة المضافة على الاستيراد ضريبة نقدر نستردّها.",
+    "ex2": "Customs duty is a tax we cannot claim back.",
+    "ar2": "لكن الجمرك ضريبة مش بنستردّها."
+   },
+   {
+    "w": "levy",
+    "note": "formal: an extra official charge",
+    "ex": "The port adds a small levy for dangerous goods.",
+    "ar": "الميناء بيضيف رسم إضافي صغير على البضايع الخطرة.",
+    "ex2": "The levy appears separately on the port invoice.",
+    "ar2": "الرسم ده بيظهر لوحده على فاتورة الميناء."
+   }
+  ],
+  "ant": [
+   {
+    "w": "exemption",
+    "ex": "The hospital project has a customs exemption.",
+    "ar": "مشروع المستشفى عليه إعفاء جمركي.",
+    "ex2": "With the exemption, we pay VAT only.",
+    "ar2": "بالإعفاء، بندفع الضريبة بس."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Customs duty and VAT total EGP 1,284,500. Please pay by Sunday, or the container will start paying demurrage.",
+  "ctx_ar": "الجمرك والضريبة إجمالي 1,284,500 جنيه. من فضلك ادفع قبل الحد، وإلا الكونتينر هيبدأ يدفع غرامة تأخير.",
+  "quiz": [
+   {
+    "s": "Lithium batteries are ___ goods, so we pay customs.",
+    "opts": [
+     "duty",
+     "dutiable",
+     "duty-free"
+    ],
+    "a": 1,
+    "ar": "بطاريات الليثيوم عليها جمرك، فبندفع جمارك."
+   },
+   {
+    "s": "Spare parts for the hospital were ___ under the project agreement.",
+    "opts": [
+     "duty-free",
+     "dutiable",
+     "tariff"
+    ],
+    "a": 0,
+    "ar": "قطع غيار المستشفى كانت معفية من الجمارك حسب اتفاق المشروع."
+   },
+   {
+    "s": "The government raised the import ___ on solar panels to 5%.",
+    "opts": [
+     "duty-free",
+     "dutiable",
+     "tariff"
+    ],
+    "a": 2,
+    "ar": "الحكومة زوّدت تعريفة الاستيراد على الألواح الشمسية لـ5%."
+   }
+  ]
+ },
+ {
+  "w": "landed cost",
+  "ar": "التكلفة لحد المخزن",
+  "book": "I need them for the landed cost file and to claim the import VAT.",
+  "family": [
+   {
+    "w": "cost",
+    "pos": "noun",
+    "ex": "The cost of freight to Alexandria is USD 2,100.",
+    "ar": "تكلفة الشحن لإسكندرية 2,100 دولار.",
+    "ex2": "That cost is already in the CFR price.",
+    "ar2": "التكلفة دي داخلة في سعر الـ‎CFR‎."
+   },
+   {
+    "w": "cost",
+    "pos": "verb",
+    "ex": "Each module costs us USD 1,040 CFR Alexandria.",
+    "ar": "كل موديول بيكلّفنا 1,040 دولار ‎CFR‎ إسكندرية.",
+    "ex2": "After duties, it costs much more.",
+    "ar2": "بعد الجمارك، بيكلّف أكتر بكتير."
+   },
+   {
+    "w": "costing",
+    "pos": "noun",
+    "ex": "Finance is preparing the costing for the solar project.",
+    "ar": "الحسابات بتجهّز حساب التكاليف لمشروع الطاقة الشمسية.",
+    "ex2": "The costing must include installation and transport.",
+    "ar2": "حساب التكاليف لازم يشمل التركيب والنقل."
+   },
+   {
+    "w": "landed cost",
+    "pos": "noun",
+    "ex": "The landed cost of each module is about USD 1,330.",
+    "ar": "التكلفة النهائية لكل موديول حوالي 1,330 دولار.",
+    "ex2": "We use the landed cost to set our selling price.",
+    "ar2": "بنستخدم التكلفة النهائية عشان نحدد سعر البيع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "total cost",
+    "note": "general; any project or order",
+    "ex": "The total cost of the UPS project is EGP 6 million.",
+    "ar": "التكلفة الإجمالية لمشروع الـ‎UPS 6‎ مليون جنيه.",
+    "ex2": "Total cost includes labour and cables.",
+    "ar2": "التكلفة الإجمالية شاملة المصنعية والكابلات."
+   },
+   {
+    "w": "unit cost",
+    "note": "cost per item, may exclude freight",
+    "ex": "The unit cost from the supplier is USD 1,040.",
+    "ar": "تكلفة الوحدة من المورد 1,040 دولار.",
+    "ex2": "Add freight and duties to the unit cost.",
+    "ar2": "ضيف الشحن والجمارك على تكلفة الوحدة."
+   },
+   {
+    "w": "purchase price",
+    "note": "only what the supplier charges",
+    "ex": "The purchase price is fixed in PO-2025-164.",
+    "ar": "سعر الشراء ثابت في ‎PO-2025-164‎.",
+    "ex2": "The purchase price doesn't include customs.",
+    "ar2": "سعر الشراء مش شامل الجمارك."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "what the cost includes",
+   "lar": "التكلفة شاملة إيه",
+   "steps": [
+    {
+     "w": "ex-works price",
+     "ex": "The ex-works price is the cost at the factory gate.",
+     "ar": "سعر المصنع هو التكلفة عند باب المصنع.",
+     "ex2": "We pay all transport from there.",
+     "ar2": "إحنا بندفع كل النقل من هناك."
+    },
+    {
+     "w": "FOB price",
+     "ex": "The FOB price includes loading at Shenzhen port.",
+     "ar": "سعر الـ‎FOB‎ شامل التحميل في ميناء ‎Shenzhen‎.",
+     "ex2": "Sea freight is still not included.",
+     "ar2": "الشحن البحري لسه مش داخل."
+    },
+    {
+     "w": "CFR price",
+     "ex": "The CFR price includes sea freight to Alexandria.",
+     "ar": "سعر الـ‎CFR‎ شامل الشحن البحري لإسكندرية.",
+     "ex2": "Insurance and duties are still extra.",
+     "ar2": "التأمين والجمارك لسه زيادة."
+    },
+    {
+     "w": "landed cost",
+     "ex": "The landed cost includes freight, duties, clearance and trucking.",
+     "ar": "التكلفة النهائية شاملة الشحن والجمارك والتخليص والنقل.",
+     "ex2": "This is the real cost in our warehouse.",
+     "ar2": "دي التكلفة الحقيقية في مخزننا."
+    }
+   ]
+  },
+  "ctx": "Nadia needs the duty receipt for the landed cost file. Without it, she can't calculate the real cost of each module.",
+  "ctx_ar": "نادية محتاجة إيصال الجمارك لملف التكلفة النهائية. من غيره مش هتقدر تحسب التكلفة الحقيقية لكل موديول.",
+  "quiz": [
+   {
+    "s": "Include duty and freight in the ___ of each module.",
+    "opts": [
+     "costing",
+     "landed cost",
+     "cost"
+    ],
+    "a": 1,
+    "ar": "ضيف الجمارك والشحن على التكلفة النهائية لكل موديول."
+   },
+   {
+    "s": "The supplier's ___ price excludes freight to Alexandria.",
+    "opts": [
+     "FOB",
+     "CFR price",
+     "landed cost"
+    ],
+    "a": 0,
+    "ar": "سعر الـ‎FOB‎ بتاع المورد مش شامل الشحن لإسكندرية."
+   },
+   {
+    "s": "How much does a 60 kVA UPS ___ us after duty?",
+    "opts": [
+     "costing",
+     "landed cost",
+     "cost"
+    ],
+    "a": 2,
+    "ar": "الـ‎UPS‎ الـ‎60 kVA‎ بيكلّفنا كام بعد الجمارك؟"
+   }
+  ]
+ },
+ {
+  "w": "receipt",
+  "ar": "إيصال / استلام",
+  "book": "The bank receipt is attached.",
+  "family": [
+   {
+    "w": "receive",
+    "pos": "verb",
+    "ex": "We received the balance payment in full.",
+    "ar": "استلمنا الدفعة الأخيرة كاملة.",
+    "ex2": "Once we receive it, we release the documents.",
+    "ar2": "أول ما نستلمها، بنطلّع المستندات."
+   },
+   {
+    "w": "receipt",
+    "pos": "noun",
+    "ex": "Please send me the bank receipt for the transfer.",
+    "ar": "من فضلك ابعتلي إيصال البنك بتاع التحويل.",
+    "ex2": "I need the receipt to close the November accounts.",
+    "ar2": "محتاج الإيصال عشان أقفل حسابات نوفمبر."
+   },
+   {
+    "w": "receiver",
+    "pos": "person",
+    "ex": "The receiver's phone number was missing on the DHL label.",
+    "ar": "رقم تليفون المستلم كان ناقص على بوليصة ‎DHL‎.",
+    "ex2": "Always add the receiver's mobile for courier shipments.",
+    "ar2": "دايمًا ضيف موبايل المستلم لشحنات الكورييه."
+   },
+   {
+    "w": "recipient",
+    "pos": "person",
+    "ex": "Please add Nadia as a recipient of the customs updates.",
+    "ar": "ضيف نادية في المستلمين لتحديثات الجمارك.",
+    "ex2": "Each recipient gets a copy of the assessment.",
+    "ar2": "كل مستلم بياخد نسخة من الربط."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "paper proving payment",
+    "mar": "إيصال دفع",
+    "ex": "Please keep the duty receipt for the tax file.",
+    "ar": "من فضلك احتفظ بإيصال الجمارك لملف الضرايب.",
+    "ex2": "Nadia needs it to claim the import VAT.",
+    "ar2": "نادية محتاجاه عشان تسترد ضريبة الاستيراد."
+   },
+   {
+    "m": "the act of receiving",
+    "mar": "الاستلام",
+    "ex": "Payment is due within 30 days of receipt of the invoice.",
+    "ar": "الدفع مستحق خلال 30 يوم من استلام الفاتورة.",
+    "ex2": "Please acknowledge receipt of this email.",
+    "ar2": "من فضلك أكّد استلام الإيميل ده."
+   }
+  ],
+  "syn": [
+   {
+    "w": "proof of payment",
+    "note": "any document showing you paid",
+    "ex": "The supplier asked for proof of payment before production.",
+    "ar": "المورد طلب إثبات دفع قبل الإنتاج.",
+    "ex2": "We sent the SWIFT copy as proof of payment.",
+    "ar2": "بعتنا صورة السويفت كإثبات دفع."
+   },
+   {
+    "w": "acknowledgement",
+    "note": "a reply confirming something was received",
+    "ex": "We got an acknowledgement of our PO from VoltTech.",
+    "ar": "وصلنا تأكيد استلام للـ‎PO‎ بتاعنا من ‎VoltTech‎.",
+    "ex2": "The acknowledgement came within one hour.",
+    "ar2": "التأكيد وصل خلال ساعة."
+   },
+   {
+    "w": "voucher",
+    "note": "internal accounting form for a payment",
+    "ex": "Please prepare a payment voucher for the broker's fees.",
+    "ar": "من فضلك جهّز إذن صرف لأتعاب المخلّص.",
+    "ex2": "Attach the receipt to the voucher.",
+    "ar2": "دبّس الإيصال في إذن الصرف."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Nadia sent the bank receipt for the duty payment. Please forward it to the broker so she can finish the release today.",
+  "ctx_ar": "نادية بعتت إيصال البنك بتاع دفع الجمارك. من فضلك ابعته للمخلّصة عشان تخلّص الإفراج النهارده.",
+  "quiz": [
+   {
+    "s": "Please send me the bank ___ for the transfer.",
+    "opts": [
+     "receive",
+     "receipt",
+     "receiver"
+    ],
+    "a": 1,
+    "ar": "من فضلك ابعتلي إيصال البنك بتاع التحويل."
+   },
+   {
+    "s": "Payment is due within 30 days of ___ of the invoice.",
+    "opts": [
+     "receipt",
+     "receive",
+     "recipient"
+    ],
+    "a": 0,
+    "ar": "الدفع مستحق خلال 30 يوم من استلام الفاتورة."
+   },
+   {
+    "s": "Mr. Youssef will ___ the goods at the warehouse.",
+    "opts": [
+     "receipt",
+     "recipient",
+     "receive"
+    ],
+    "a": 2,
+    "ar": "أستاذ يوسف هيستلم البضاعة في المخزن."
+   }
+  ]
+ },
+ {
+  "w": "transfer",
+  "ar": "تحويل",
+  "book": "The transfer was done this morning, ref. TRF-2025-1130-07.",
+  "family": [
+   {
+    "w": "transfer",
+    "pos": "verb",
+    "ex": "Please transfer EGP 1,284,500 to the customs account today.",
+    "ar": "من فضلك حوّل 1,284,500 جنيه لحساب الجمارك النهارده.",
+    "ex2": "Transfer it before noon so it arrives today.",
+    "ar2": "حوّلها قبل الضهر عشان توصل النهارده."
+   },
+   {
+    "w": "transfer",
+    "pos": "noun",
+    "ex": "The transfer was done this morning.",
+    "ar": "التحويل اتعمل النهارده الصبح.",
+    "ex2": "The transfer reference is TRF-2025-1130-07.",
+    "ar2": "رقم التحويل ‎TRF-2025-1130-07‎."
+   },
+   {
+    "w": "transferable",
+    "pos": "adjective",
+    "ex": "The UPS warranty is not transferable to a new owner.",
+    "ar": "ضمان الـ‎UPS‎ مش بيتنقل لمالك جديد.",
+    "ex2": "Only the original buyer can use the transferable part.",
+    "ar2": "المشتري الأصلي بس يقدر يستخدم الجزء اللي بيتنقل."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "send money between accounts",
+    "mar": "تحويل فلوس",
+    "ex": "We will transfer the deposit within five working days.",
+    "ar": "هنحوّل العربون خلال خمس أيام شغل.",
+    "ex2": "The transfer goes through an intermediary bank.",
+    "ar2": "التحويل بيعدّي على بنك وسيط."
+   },
+   {
+    "m": "move a person to another job or place",
+    "mar": "نقل موظف",
+    "ex": "Ahmed was transferred to the Alexandria branch.",
+    "ar": "أحمد اتنقل لفرع إسكندرية.",
+    "ex2": "His transfer starts on the first of the month.",
+    "ar2": "نقله بيبدأ أول الشهر."
+   },
+   {
+    "m": "pass a phone call",
+    "mar": "تحوّل مكالمة",
+    "ex": "Let me transfer you to our service department.",
+    "ar": "هحوّلك لقسم الخدمة.",
+    "ex2": "They can book a technician for the transfer request.",
+    "ar2": "هما يقدروا يحجزوا فني لطلبك."
+   }
+  ],
+  "syn": [
+   {
+    "w": "remit",
+    "note": "formal: send payment, especially abroad",
+    "ex": "Please remit the balance to our account in Shenzhen.",
+    "ar": "من فضلك حوّل الباقي لحسابنا في ‎Shenzhen‎.",
+    "ex2": "Remit it with OUR charges so we get the full amount.",
+    "ar2": "حوّلها بمصاريف ‎OUR‎ عشان نستلم المبلغ كامل."
+   },
+   {
+    "w": "wire",
+    "note": "informal or US: send by bank transfer",
+    "ex": "Can you wire the money today?",
+    "ar": "ممكن تحوّل الفلوس النهارده؟",
+    "ex2": "If you wire it today, production starts tomorrow.",
+    "ar2": "لو حوّلتها النهارده، الإنتاج يبدأ بكرة."
+   },
+   {
+    "w": "pay",
+    "note": "general: give money for something",
+    "ex": "We will pay the customs duties by Sunday.",
+    "ar": "هندفع الجمارك قبل الحد.",
+    "ex2": "We pay by bank transfer, not cash.",
+    "ar2": "بندفع بتحويل بنكي، مش كاش."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Nadia did the transfer this morning and sent the bank receipt. The broker can now finish the release before free time ends.",
+  "ctx_ar": "نادية عملت التحويل النهارده الصبح وبعتت إيصال البنك. المخلّصة تقدر دلوقتي تخلّص الإفراج قبل ما الوقت المجاني يخلص.",
+  "quiz": [
+   {
+    "s": "The ___ was done this morning.",
+    "opts": [
+     "transfer",
+     "transferable",
+     "remit"
+    ],
+    "a": 0,
+    "ar": "التحويل اتعمل النهارده الصبح."
+   },
+   {
+    "s": "This warranty is not ___ to a new owner.",
+    "opts": [
+     "transfer",
+     "transferable",
+     "wire"
+    ],
+    "a": 1,
+    "ar": "الضمان ده مش بيتنقل لمالك جديد."
+   },
+   {
+    "s": "Please ___ the balance to our account in Shenzhen with OUR charges.",
+    "opts": [
+     "transferable",
+     "pay",
+     "remit"
+    ],
+    "a": 2,
+    "ar": "من فضلك حوّل الباقي لحسابنا في ‎Shenzhen‎ بمصاريف ‎OUR‎."
+   }
+  ]
+ }
+]

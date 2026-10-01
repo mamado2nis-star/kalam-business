@@ -1,0 +1,615 @@
+[
+ {
+  "w": "fault",
+  "ar": "عُطل",
+  "book": "I would like to report an urgent network fault at our head office in Nasr City.",
+  "family": [
+   {
+    "w": "fault",
+    "pos": "noun",
+    "ex": "The UPS shows a fault on the rectifier, so it switched to bypass.",
+    "ar": "الـ‎UPS‎ بيطلع عطل في الـ‎rectifier‎، فحوّل على الـ‎bypass‎.",
+    "ex2": "Our engineer will check the fault on site tomorrow morning.",
+    "ar2": "المهندس بتاعنا هيكشف على العطل في الموقع بكرة الصبح."
+   },
+   {
+    "w": "faulty",
+    "pos": "adjective",
+    "ex": "We found a faulty fan inside the VFD panel.",
+    "ar": "لقينا مروحة بايظة جوه لوحة الـ‎VFD‎.",
+    "ex2": "The faulty fan caused the drive to overheat and trip.",
+    "ar2": "المروحة البايظة خلّت الـ‎drive‎ يسخن ويفصل."
+   },
+   {
+    "w": "fault-finding",
+    "pos": "noun",
+    "ex": "Fault-finding on the solar inverter took our team three hours.",
+    "ar": "تتبّع العطل في إنفرتر الطاقة الشمسية خد من فريقنا تلات ساعات.",
+    "ex2": "Good fault-finding saves the client money on unneeded parts.",
+    "ar2": "تتبّع العطل صح بيوفّر على العميل فلوس قطع ملهاش لازمة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "problem",
+    "note": "general everyday word; less technical than fault",
+    "ex": "We have a problem with the server room air conditioner.",
+    "ar": "عندنا مشكلة في تكييف أوضة السيرفرات.",
+    "ex2": "The problem started after the power cut last night.",
+    "ar2": "المشكلة بدأت بعد ما الكهربا قطعت امبارح بالليل."
+   },
+   {
+    "w": "malfunction",
+    "note": "formal; the device works, but not correctly",
+    "ex": "A malfunction in the control card stopped the chiller VFD.",
+    "ar": "خلل في كارت الكنترول وقّف الـ‎VFD‎ بتاع الـ‎chiller‎.",
+    "ex2": "We replaced the card, and the malfunction has not returned.",
+    "ar2": "غيّرنا الكارت، والخلل مارجعش تاني."
+   },
+   {
+    "w": "defect",
+    "note": "problem from manufacturing; usually a warranty matter",
+    "ex": "The supplier admitted a defect in this batch of batteries.",
+    "ar": "المورّد اعترف إن فيه عيب في الدفعة دي من البطاريات.",
+    "ex2": "Because it is a manufacturing defect, the warranty covers it.",
+    "ar2": "وعشان ده عيب صناعة، الضمان بيغطيه."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how serious the fault is",
+   "lar": "العطل خطير قد إيه",
+   "steps": [
+    {
+     "w": "minor fault",
+     "ex": "It was a minor fault, just a loose cable in the UPS panel.",
+     "ar": "كان عطل بسيط، مجرد كابل سايب في لوحة الـ‎UPS‎.",
+     "ex2": "The technician fixed the minor fault in ten minutes.",
+     "ar2": "الفني صلّح العطل البسيط في عشر دقايق."
+    },
+    {
+     "w": "major fault",
+     "ex": "A major fault in the inverter needs a new power board.",
+     "ar": "عطل كبير في الإنفرتر محتاج باور بورد جديدة.",
+     "ex2": "That major fault will take a week to repair.",
+     "ar2": "العطل الكبير ده هياخد أسبوع تصليح."
+    },
+    {
+     "w": "critical fault",
+     "ex": "A critical fault on the core switch stopped the whole office.",
+     "ar": "عطل خطير في الـ‎core switch‎ وقّف المكتب كله.",
+     "ex2": "Every critical fault gets Priority 1 and an engineer on site.",
+     "ar2": "أي عطل خطير بياخد ‎Priority 1‎ ومهندس في الموقع."
+    }
+   ]
+  },
+  "ctx": "Our server room has had a network fault since 08:30. Could you please send an engineer to check it?",
+  "ctx_ar": "أوضة السيرفرات عندنا فيها عطل في الشبكة من 8:30. ممكن تبعتوا مهندس يكشف عليه؟",
+  "quiz": [
+   {
+    "s": "The ___ fan caused the VFD to trip.",
+    "opts": [
+     "fault",
+     "faulty",
+     "fault-finding"
+    ],
+    "a": 1,
+    "ar": "المروحة البايظة خلّت الـ‎VFD‎ يفصل."
+   },
+   {
+    "s": "The supplier accepted that it was a manufacturing ___.",
+    "opts": [
+     "defect",
+     "problem",
+     "minor fault"
+    ],
+    "a": 0,
+    "ar": "المورّد وافق إنه كان عيب صناعة."
+   },
+   {
+    "s": "A ___ on the core switch stopped all 25 users.",
+    "opts": [
+     "minor fault",
+     "faulty",
+     "critical fault"
+    ],
+    "a": 2,
+    "ar": "عطل خطير في الـ‎core switch‎ وقّف الـ25 يوزر كلهم."
+   }
+  ]
+ },
+ {
+  "w": "priority",
+  "ar": "أولوية",
+  "book": "Could you please open a ticket with high priority and advise the next steps?",
+  "family": [
+   {
+    "w": "priority",
+    "pos": "noun",
+    "ex": "Hospital UPS calls always get top priority in our service team.",
+    "ar": "مكالمات ‎UPS‎ المستشفيات دايمًا بتاخد أولوية قصوى عندنا في الخدمة.",
+    "ex2": "Other calls wait until the hospital site is safe.",
+    "ar2": "باقي المكالمات بتستنى لحد ما موقع المستشفى يبقى في أمان."
+   },
+   {
+    "w": "prioritise",
+    "pos": "verb",
+    "ex": "Please prioritise the Delta Pharma order over the smaller battery orders.",
+    "ar": "من فضلك قدّم أوردر ‎Delta Pharma‎ على أوردرات البطاريات الصغيرة.",
+    "ex2": "We prioritise them because their plant is running without backup.",
+    "ar2": "بنقدّمهم عشان المصنع بتاعهم شغال من غير باك أب."
+   },
+   {
+    "w": "prioritisation",
+    "pos": "noun",
+    "ex": "Good prioritisation of tickets keeps our response times within the SLA.",
+    "ar": "ترتيب التيكتات حسب الأولوية صح بيخلّي وقت الاستجابة جوه الـ‎SLA‎.",
+    "ex2": "Without clear prioritisation, small requests block urgent faults.",
+    "ar2": "من غير ترتيب أولويات واضح، الطلبات الصغيرة بتعطّل الأعطال المستعجلة."
+   },
+   {
+    "w": "high-priority",
+    "pos": "adjective",
+    "ex": "This is a high-priority ticket, so assign your best engineer.",
+    "ar": "دي تيكت أولويتها عالية، فحط عليها أشطر مهندس.",
+    "ex2": "High-priority tickets must get a reply within one hour.",
+    "ar2": "التيكتات اللي أولويتها عالية لازم ياخدوا رد خلال ساعة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "urgency",
+    "note": "how fast it must be done; priority is its rank",
+    "ex": "Please treat this request with urgency; invoicing is stopped.",
+    "ar": "من فضلك اتعامل مع الطلب ده بسرعة؛ الفواتير واقفة.",
+    "ex2": "The urgency comes from the month-end deadline.",
+    "ar2": "الاستعجال جاي من ميعاد قفل آخر الشهر."
+   },
+   {
+    "w": "precedence",
+    "note": "formal; one thing comes before another",
+    "ex": "Safety checks take precedence over speed on every UPS installation.",
+    "ar": "فحوصات الأمان ليها الأسبقية على السرعة في أي تركيب ‎UPS‎.",
+    "ex2": "We never skip them, even when the client is in a hurry.",
+    "ar2": "عمرنا ما بنتخطاها، حتى لو العميل مستعجل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "low priority",
+    "ex": "Changing the office printer toner is low priority today.",
+    "ar": "تغيير حبر طابعة المكتب مش أولوية النهارده.",
+    "ex2": "It can wait until the network is back.",
+    "ar2": "ممكن يستنى لحد ما الشبكة ترجع."
+   }
+  ],
+  "ladder": {
+   "label": "how urgent the ticket is",
+   "lar": "التيكت مستعجلة قد إيه",
+   "steps": [
+    {
+     "w": "normal priority",
+     "ex": "A slow printer is logged as normal priority.",
+     "ar": "الطابعة البطيئة بتتسجل أولوية عادية.",
+     "ex2": "Normal priority tickets are handled within two working days.",
+     "ar2": "التيكتات العادية بتتحل خلال يومين شغل."
+    },
+    {
+     "w": "high priority",
+     "ex": "A failed disk in a RAID array is high priority.",
+     "ar": "هارد بايظ في الـ‎RAID array‎ أولويته عالية.",
+     "ex2": "We replace it the same day before a second disk fails.",
+     "ar2": "بنغيّره في نفس اليوم قبل ما هارد تاني يبوظ."
+    },
+    {
+     "w": "top priority",
+     "ex": "A data centre without UPS backup is our top priority.",
+     "ar": "داتا سنتر من غير باك أب ‎UPS‎ هو أولويتنا الأولى.",
+     "ex2": "All other jobs stop until the backup is restored.",
+     "ar2": "كل الشغل التاني بيقف لحد ما الباك أب يرجع."
+    }
+   ]
+  },
+  "ctx": "Our whole office is offline and invoicing has stopped. Please give this ticket the highest priority.",
+  "ctx_ar": "المكتب كله فاصل والفواتير وقفت. من فضلك ادّي التيكت دي أعلى أولوية.",
+  "quiz": [
+   {
+    "s": "Please ___ the hospital order over the others.",
+    "opts": [
+     "priority",
+     "prioritise",
+     "prioritisation"
+    ],
+    "a": 1,
+    "ar": "من فضلك قدّم أوردر المستشفى على الباقيين."
+   },
+   {
+    "s": "A data centre without backup is our ___.",
+    "opts": [
+     "normal priority",
+     "low priority",
+     "top priority"
+    ],
+    "a": 2,
+    "ar": "داتا سنتر من غير باك أب هو أولويتنا الأولى."
+   },
+   {
+    "s": "Safety checks take ___ over speed.",
+    "opts": [
+     "precedence",
+     "urgency",
+     "prioritise"
+    ],
+    "a": 0,
+    "ar": "فحوصات الأمان ليها الأسبقية على السرعة."
+   }
+  ]
+ },
+ {
+  "w": "affect",
+  "ar": "يأثّر على",
+  "book": "This is affecting our invoicing on the ETA portal and our month-end closing.",
+  "family": [
+   {
+    "w": "affect",
+    "pos": "verb",
+    "ex": "The power cut affected all the servers in the data centre.",
+    "ar": "انقطاع الكهربا أثّر على كل السيرفرات في الداتا سنتر.",
+    "ex2": "Only the network switches stayed on, thanks to the UPS.",
+    "ar2": "السويتشات بس اللي فضلت شغالة بفضل الـ‎UPS‎."
+   },
+   {
+    "w": "affected",
+    "pos": "adjective",
+    "ex": "Please send us a list of the affected users and PCs.",
+    "ar": "من فضلك ابعتلنا ليستة باليوزرز والأجهزة اللي اتأثرت.",
+    "ex2": "We will check each affected PC after fixing the switch.",
+    "ar2": "هنكشف على كل جهاز متأثر بعد ما نصلّح السويتش."
+   },
+   {
+    "w": "unaffected",
+    "pos": "adjective",
+    "ex": "The ERP server was unaffected because it has its own UPS.",
+    "ar": "سيرفر الـ‎ERP‎ ماتأثرش عشان عليه ‎UPS‎ لوحده.",
+    "ex2": "So the finance team could continue invoicing as normal.",
+    "ar2": "فريق الحسابات قدر يكمّل الفواتير عادي."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "impact",
+    "note": "stronger; often for business results and reports",
+    "ex": "The outage impacted our month-end invoicing.",
+    "ar": "العطل أثّر على فواتير آخر الشهر.",
+    "ex2": "We could not upload any e-invoices for four hours.",
+    "ar2": "ماقدرناش نرفع ولا فاتورة إلكترونية لمدة أربع ساعات."
+   },
+   {
+    "w": "disrupt",
+    "note": "stops or breaks normal work for a time",
+    "ex": "The maintenance visit will not disrupt your production line.",
+    "ar": "زيارة الصيانة مش هتعطّل خط الإنتاج بتاعكم.",
+    "ex2": "We will work on the spare UPS first, then switch the load.",
+    "ar2": "هنشتغل على الـ‎UPS‎ الاحتياطي الأول، وبعدين ننقل الحمل."
+   },
+   {
+    "w": "influence",
+    "note": "softer; affects decisions or opinions, not equipment",
+    "ex": "Their feedback will influence our choice of battery supplier.",
+    "ar": "رأيهم هيأثّر على اختيارنا لمورّد البطاريات.",
+    "ex2": "Price matters, but after-sales support matters too.",
+    "ar2": "السعر مهم، بس خدمة ما بعد البيع مهمة كمان."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how strongly it hits the work",
+   "lar": "التأثير على الشغل قوي قد إيه",
+   "steps": [
+    {
+     "w": "affect",
+     "ex": "The slow network affects how fast we can issue invoices.",
+     "ar": "الشبكة البطيئة بتأثّر على سرعة إصدار الفواتير.",
+     "ex2": "Each invoice now takes five minutes instead of one.",
+     "ar2": "كل فاتورة بقت بتاخد خمس دقايق بدل دقيقة."
+    },
+    {
+     "w": "disrupt",
+     "ex": "The switch failure disrupted our work for the whole morning.",
+     "ar": "عطل السويتش عطّل شغلنا الصبح كله.",
+     "ex2": "People could work offline, but nothing reached the ERP.",
+     "ar2": "الناس قدرت تشتغل أوفلاين، بس ولا حاجة وصلت للـ‎ERP‎."
+    },
+    {
+     "w": "stop",
+     "ex": "The fault stopped invoicing completely at month-end.",
+     "ar": "العطل وقّف الفواتير خالص في آخر الشهر.",
+     "ex2": "That is why we asked for Priority 1.",
+     "ar2": "عشان كده طلبنا ‎Priority 1‎."
+    }
+   ]
+  },
+  "ctx": "The network fault is affecting all 25 users. Invoicing on the ETA portal is completely stopped.",
+  "ctx_ar": "عطل الشبكة مأثّر على الـ25 يوزر كلهم. الفواتير على بوابة الـ‎ETA‎ واقفة خالص.",
+  "quiz": [
+   {
+    "s": "The ERP server was ___ because it has its own UPS.",
+    "opts": [
+     "affected",
+     "unaffected",
+     "affect"
+    ],
+    "a": 1,
+    "ar": "سيرفر الـ‎ERP‎ ماتأثرش عشان عليه ‎UPS‎ لوحده."
+   },
+   {
+    "s": "Please send a list of the ___ PCs.",
+    "opts": [
+     "affected",
+     "affect",
+     "unaffected"
+    ],
+    "a": 0,
+    "ar": "من فضلك ابعت ليستة بالأجهزة اللي اتأثرت."
+   },
+   {
+    "s": "The maintenance visit will not ___ your production line.",
+    "opts": [
+     "influence",
+     "unaffected",
+     "disrupt"
+    ],
+    "a": 2,
+    "ar": "زيارة الصيانة مش هتعطّل خط الإنتاج بتاعكم."
+   }
+  ]
+ },
+ {
+  "w": "restore",
+  "ar": "يرجّع (الخدمة) تشتغل",
+  "book": "He replaced it with a spare from our stock, and the service was restored at 13:40.",
+  "family": [
+   {
+    "w": "restore",
+    "pos": "verb",
+    "ex": "Our engineer restored power to the server room in 20 minutes.",
+    "ar": "المهندس بتاعنا رجّع الكهربا لأوضة السيرفرات في 20 دقيقة.",
+    "ex2": "He moved the load to the spare UPS first.",
+    "ar2": "نقل الحمل على الـ‎UPS‎ الاحتياطي الأول."
+   },
+   {
+    "w": "restoration",
+    "pos": "noun",
+    "ex": "The restoration of the ERP database took three hours.",
+    "ar": "استرجاع داتابيز الـ‎ERP‎ خد تلات ساعات.",
+    "ex2": "We used last night's backup for the restoration.",
+    "ar2": "استخدمنا باك أب امبارح بالليل في الاسترجاع."
+   },
+   {
+    "w": "restored",
+    "pos": "adjective",
+    "ex": "Once service is restored, please send us the incident report.",
+    "ar": "أول ما الخدمة ترجع، من فضلك ابعتلنا تقرير الحادثة.",
+    "ex2": "We need it for our management meeting on Monday.",
+    "ar2": "محتاجينه لاجتماع الإدارة يوم الاتنين."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "bring a service or power back",
+    "mar": "يرجّع الخدمة أو الكهربا",
+    "ex": "Power was restored at 15:10 after the generator started.",
+    "ar": "الكهربا رجعت الساعة 15:10 بعد ما المولد اشتغل.",
+    "ex2": "All servers restarted without any data loss.",
+    "ar2": "كل السيرفرات اشتغلت تاني من غير ما داتا تضيع."
+   },
+   {
+    "m": "recover data from a backup",
+    "mar": "يسترجع داتا من باك أب",
+    "ex": "We restored the HIS database from Sunday's backup.",
+    "ar": "استرجعنا داتابيز الـ‎HIS‎ من باك أب يوم الحد.",
+    "ex2": "Only two hours of entries had to be typed again.",
+    "ar2": "ساعتين شغل بس اللي اضطرينا نكتبهم تاني."
+   }
+  ],
+  "syn": [
+   {
+    "w": "bring back",
+    "note": "informal spoken phrase; same idea",
+    "ex": "Can you bring back the internet before noon?",
+    "ar": "تقدر ترجّع النت قبل الضهر؟",
+    "ex2": "The finance team needs it to finish month-end.",
+    "ar2": "فريق الحسابات محتاجه عشان يخلّص قفل الشهر."
+   },
+   {
+    "w": "recover",
+    "note": "get lost data or money back",
+    "ex": "IT recovered all files from the failed disk.",
+    "ar": "الـ‎IT‎ رجّع كل الملفات من الهارد البايظ.",
+    "ex2": "Nothing was lost because the RAID copy was complete.",
+    "ar2": "مافيش حاجة ضاعت عشان نسخة الـ‎RAID‎ كانت كاملة."
+   },
+   {
+    "w": "resume",
+    "note": "work or service continues after a stop",
+    "ex": "Production resumed at 14:00 when the UPS came back online.",
+    "ar": "الإنتاج رجع اشتغل الساعة 14:00 لما الـ‎UPS‎ رجع.",
+    "ex2": "The plant lost only one hour.",
+    "ar2": "المصنع خسر ساعة واحدة بس."
+   }
+  ],
+  "ant": [
+   {
+    "w": "interrupt",
+    "ex": "The firmware update will interrupt the service for ten minutes.",
+    "ar": "تحديث الـ‎firmware‎ هيقطع الخدمة عشر دقايق.",
+    "ex2": "We will do it at night to avoid problems.",
+    "ar2": "هنعمله بالليل عشان نتجنب المشاكل."
+   },
+   {
+    "w": "lose",
+    "ex": "If the UPS fails, we lose all the servers at once.",
+    "ar": "لو الـ‎UPS‎ وقع، هنخسر كل السيرفرات مرة واحدة.",
+    "ex2": "That is why we test the batteries every quarter.",
+    "ar2": "عشان كده بنختبر البطاريات كل ربع سنة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The faulty SFP module was replaced, and the service was restored at 13:40. All users can reach the ERP now.",
+  "ctx_ar": "موديول الـ‎SFP‎ البايظ اتغيّر، والخدمة رجعت الساعة 13:40. كل اليوزرز يقدروا يدخلوا على الـ‎ERP‎ دلوقتي.",
+  "quiz": [
+   {
+    "s": "The ___ of the database took three hours.",
+    "opts": [
+     "restore",
+     "restoration",
+     "restored"
+    ],
+    "a": 1,
+    "ar": "استرجاع الداتابيز خد تلات ساعات."
+   },
+   {
+    "s": "Once service is ___, please send the report.",
+    "opts": [
+     "restored",
+     "restore",
+     "restoration"
+    ],
+    "a": 0,
+    "ar": "أول ما الخدمة ترجع، من فضلك ابعت التقرير."
+   },
+   {
+    "s": "Production ___ at 14:00 when the UPS came back.",
+    "opts": [
+     "interrupted",
+     "lost",
+     "resumed"
+    ],
+    "a": 2,
+    "ar": "الإنتاج رجع اشتغل الساعة 14:00 لما الـ‎UPS‎ رجع."
+   }
+  ]
+ },
+ {
+  "w": "recommendation",
+  "ar": "توصية / نصيحة",
+  "book": "We agree with your recommendation.",
+  "family": [
+   {
+    "w": "recommend",
+    "pos": "verb",
+    "ex": "We recommend replacing the batteries every five years.",
+    "ar": "بننصح بتغيير البطاريات كل خمس سنين.",
+    "ex2": "Older batteries may not hold the load in a power cut.",
+    "ar2": "البطاريات القديمة ممكن ماتشيلش الحمل لما الكهربا تقطع."
+   },
+   {
+    "w": "recommendation",
+    "pos": "noun",
+    "ex": "Our engineer's recommendation is to keep a spare SFP on site.",
+    "ar": "توصية المهندس بتاعنا إنكم تحتفظوا بـ‎SFP‎ احتياطي في الموقع.",
+    "ex2": "With a spare, the next repair takes minutes, not hours.",
+    "ar2": "لو فيه قطعة احتياطي، التصليح الجاي هياخد دقايق مش ساعات."
+   },
+   {
+    "w": "recommended",
+    "pos": "adjective",
+    "ex": "The recommended room temperature for the servers is 22°C.",
+    "ar": "درجة الحرارة المنصوح بيها لأوضة السيرفرات 22 درجة.",
+    "ex2": "Above 30°C, disks start to fail faster.",
+    "ar2": "فوق 30 درجة، الهاردات بتبتدي تبوظ أسرع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "advice",
+    "note": "general guidance; uncountable, never 'an advice'",
+    "ex": "Thank you for your advice on the solar inverter size.",
+    "ar": "شكرًا على نصيحتك بخصوص مقاس الإنفرتر الشمسي.",
+    "ex2": "We will choose the 10 kW model, as you said.",
+    "ar2": "هنختار موديل الـ10 ‎kW‎ زي ما قلت."
+   },
+   {
+    "w": "suggestion",
+    "note": "softer idea; the reader can easily say no",
+    "ex": "One suggestion: add a ventilation fan to the VFD panel.",
+    "ar": "اقتراح: ضيفوا مروحة تهوية للوحة الـ‎VFD‎.",
+    "ex2": "It is cheap and keeps the drive cooler.",
+    "ar2": "رخيصة وبتخلّي الـ‎drive‎ أبرد."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how strongly you advise",
+   "lar": "النصيحة قوية قد إيه",
+   "steps": [
+    {
+     "w": "suggest",
+     "ex": "We suggest checking the battery terminals during the next visit.",
+     "ar": "بنقترح نكشف على أطراف البطاريات في الزيارة الجاية.",
+     "ex2": "It only takes a few minutes.",
+     "ar2": "دي بتاخد دقايق بس."
+    },
+    {
+     "w": "recommend",
+     "ex": "We recommend a UPS with at least 15 minutes of backup.",
+     "ar": "بننصح بـ‎UPS‎ فيه باك أب 15 دقيقة على الأقل.",
+     "ex2": "That gives the generator enough time to start.",
+     "ar2": "ده بيدّي المولد وقت كفاية يشتغل."
+    },
+    {
+     "w": "strongly recommend",
+     "ex": "We strongly recommend replacing the full battery string now.",
+     "ar": "بننصح جدًا بتغيير صف البطاريات كله دلوقتي.",
+     "ex2": "Three blocks have already failed this month.",
+     "ar2": "تلات بلوكات باظوا فعلًا الشهر ده."
+    },
+    {
+     "w": "insist",
+     "ex": "We must insist on a full backup before the disk replacement.",
+     "ar": "لازم نصمّم على باك أب كامل قبل تغيير الهارد.",
+     "ex2": "Without it, we cannot accept the risk.",
+     "ar2": "من غيره، مانقدرش نتحمّل المخاطرة."
+    }
+   ]
+  },
+  "ctx": "We agree with your recommendation. Please send us a quotation for two spare SFP modules.",
+  "ctx_ar": "إحنا موافقين على توصيتك. من فضلك ابعتلنا عرض سعر لاتنين موديول ‎SFP‎ احتياطي.",
+  "quiz": [
+   {
+    "s": "The ___ temperature for the server room is 22°C.",
+    "opts": [
+     "recommend",
+     "recommendation",
+     "recommended"
+    ],
+    "a": 2,
+    "ar": "درجة الحرارة المنصوح بيها لأوضة السيرفرات 22 درجة."
+   },
+   {
+    "s": "Our engineer's ___ is to keep a spare on site.",
+    "opts": [
+     "recommendation",
+     "recommend",
+     "recommended"
+    ],
+    "a": 0,
+    "ar": "توصية المهندس بتاعنا إنكم تحتفظوا بقطعة احتياطي في الموقع."
+   },
+   {
+    "s": "Three blocks have failed, so we ___ replacing the full string.",
+    "opts": [
+     "suggestion",
+     "strongly recommend",
+     "advice"
+    ],
+    "a": 1,
+    "ar": "تلات بلوكات باظوا، فبننصح جدًا بتغيير الصف كله."
+   }
+  ]
+ }
+]

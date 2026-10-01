@@ -1,0 +1,563 @@
+[
+ {
+  "w": "evaluation",
+  "ar": "تقييم",
+  "book": "During the technical evaluation of your bid for Lot 1, the committee noted the following:",
+  "family": [
+   {
+    "w": "evaluate",
+    "pos": "verb",
+    "ex": "The committee will evaluate the technical offers first.",
+    "ar": "اللجنة هتقيّم العروض الفنية الأول.",
+    "ex2": "They evaluate efficiency, delivery time and references.",
+    "ar2": "بيقيّموا الكفاءة ومدة التوريد وسابقة الأعمال."
+   },
+   {
+    "w": "evaluation",
+    "pos": "noun",
+    "ex": "The technical evaluation of the UPS bids will take three weeks.",
+    "ar": "التقييم الفني لعروض الـ‎UPS‎ هياخد تلات أسابيع.",
+    "ex2": "Only bids that pass the evaluation reach the financial opening.",
+    "ar2": "العروض اللي بتعدّي التقييم بس بتوصل للفتح المالي."
+   },
+   {
+    "w": "evaluator",
+    "pos": "person",
+    "ex": "One evaluator asked about the battery autonomy at 80% load.",
+    "ar": "واحد من المقيّمين سأل عن مدة تشغيل البطاريات على حمل 80%.",
+    "ex2": "The evaluators are engineers from the hospital and the consultant.",
+    "ar2": "المقيّمين مهندسين من المستشفى ومن الاستشاري."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "assessment",
+    "note": "general judgement of a situation or risk",
+    "ex": "Our engineer made an assessment of the old battery bank.",
+    "ar": "مهندسنا عمل تقييم لبنك البطاريات القديم.",
+    "ex2": "His assessment: replace all 40 cells this year.",
+    "ar2": "تقييمه: نغيّر الـ40 خلية السنة دي."
+   },
+   {
+    "w": "review",
+    "note": "a check of a document or decision",
+    "ex": "Please do a final review of the compliance sheet before printing.",
+    "ar": "من فضلك اعمل مراجعة أخيرة لجدول المطابقة قبل الطباعة.",
+    "ex2": "The review found two items marked wrongly.",
+    "ar2": "المراجعة لقت بندين متعلّمين غلط."
+   },
+   {
+    "w": "appraisal",
+    "note": "used for staff performance or property value",
+    "ex": "Annual appraisals for the service team are in December.",
+    "ar": "تقييمات فريق الصيانة السنوية في ديسمبر.",
+    "ex2": "Your appraisal includes customer feedback scores.",
+    "ar2": "تقييمك فيه درجات رأي العملا."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "The committee is still doing the technical evaluation. They may send clarification questions, so please answer them quickly and carefully.",
+  "ctx_ar": "اللجنة لسه بتعمل التقييم الفني. ممكن يبعتوا أسئلة استيضاح، فياريت ترد عليها بسرعة وبعناية.",
+  "quiz": [
+   {
+    "s": "The committee will ___ all technical offers by 20 November.",
+    "opts": [
+     "evaluate",
+     "evaluation",
+     "evaluator"
+    ],
+    "a": 0,
+    "ar": "اللجنة هتقيّم كل العروض الفنية قبل 20 نوفمبر."
+   },
+   {
+    "s": "Each ___ signs the scoring sheet.",
+    "opts": [
+     "evaluation",
+     "evaluate",
+     "evaluator"
+    ],
+    "a": 2,
+    "ar": "كل مقيّم بيمضي على ورقة الدرجات."
+   },
+   {
+    "s": "Your annual ___ will consider customer complaints.",
+    "opts": [
+     "review",
+     "appraisal",
+     "assessment"
+    ],
+    "a": 1,
+    "ar": "تقييمك السنوي هياخد في اعتباره شكاوى العملا."
+   }
+  ]
+ },
+ {
+  "w": "compliance",
+  "ar": "مطابقة / التزام",
+  "book": "We therefore confirm full compliance with Item 4.7.",
+  "family": [
+   {
+    "w": "comply",
+    "pos": "verb",
+    "ex": "The offered UPS complies with all items in Section 4.",
+    "ar": "الـ‎UPS‎ المعروض مطابق لكل بنود القسم 4.",
+    "ex2": "Item 4.7 was the only one we had to check.",
+    "ar2": "البند 4.7 كان الوحيد اللي كان لازم نراجعه."
+   },
+   {
+    "w": "compliance",
+    "pos": "noun",
+    "ex": "Please fill in the compliance sheet for every technical item.",
+    "ar": "من فضلك املا جدول المطابقة لكل بند فني.",
+    "ex2": "Compliance must be proven by datasheets, not words.",
+    "ar2": "المطابقة لازم تتثبت بالداتاشيتس مش بالكلام."
+   },
+   {
+    "w": "compliant",
+    "pos": "adjective",
+    "ex": "Both bids were technically compliant, but ours was more expensive.",
+    "ar": "العرضين كانوا مطابقين فنيًا، بس عرضنا كان أغلى.",
+    "ex2": "A compliant bid is not enough; the price must also win.",
+    "ar2": "العرض المطابق مش كفاية؛ السعر لازم يكسب كمان."
+   },
+   {
+    "w": "non-compliant",
+    "pos": "adjective",
+    "ex": "The committee marked our efficiency item as non-compliant.",
+    "ar": "اللجنة علّمت بند الكفاءة بتاعنا إنه مش مطابق.",
+    "ex2": "We sent the correct datasheet to prove the item is compliant.",
+    "ar2": "بعتنا الداتاشيت الصح عشان نثبت إنه مطابق."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "conformity",
+    "note": "matching a standard, often in certificates",
+    "ex": "The batteries come with a certificate of conformity to IEC 60896.",
+    "ar": "البطاريات جاية بشهادة مطابقة لمواصفة ‎IEC‎ 60896.",
+    "ex2": "Customs asks for the conformity certificate at the port.",
+    "ar2": "الجمارك بتطلب شهادة المطابقة في الميناء."
+   },
+   {
+    "w": "adherence",
+    "note": "following rules, plans or schedules",
+    "ex": "Strict adherence to safety rules is required on hospital sites.",
+    "ar": "الالتزام الصارم بقواعد السلامة مطلوب في مواقع المستشفيات.",
+    "ex2": "Adherence is checked daily by the site engineer.",
+    "ar2": "الالتزام بيتراجع كل يوم من مهندس الموقع."
+   }
+  ],
+  "ant": [
+   {
+    "w": "deviation",
+    "ex": "Please list any deviation from the specs in the deviation sheet.",
+    "ar": "من فضلك اكتب أي اختلاف عن المواصفات في جدول الانحرافات.",
+    "ex2": "A small deviation may be accepted if it is declared.",
+    "ar2": "انحراف بسيط ممكن يتقبل لو اتعلن."
+   },
+   {
+    "w": "non-compliance",
+    "ex": "Non-compliance with Item 4.7 could reject our bid.",
+    "ar": "عدم المطابقة في البند 4.7 ممكن ترفض عرضنا.",
+    "ex2": "We avoided non-compliance by sending the correct datasheet.",
+    "ar2": "تجنبنا عدم المطابقة لما بعتنا الداتاشيت الصح."
+   }
+  ],
+  "ladder": {
+   "label": "how fully the offer meets the spec",
+   "lar": "العرض مطابق للمواصفات قد إيه",
+   "steps": [
+    {
+     "w": "partially compliant",
+     "ex": "Our VFD is partially compliant; it lacks one communication protocol.",
+     "ar": "الـ‎VFD‎ بتاعنا مطابق جزئيًا؛ ناقصه بروتوكول اتصال واحد.",
+     "ex2": "Partially compliant items need a clear explanation.",
+     "ar2": "البنود المطابقة جزئيًا محتاجة شرح واضح."
+    },
+    {
+     "w": "compliant",
+     "ex": "The offered UPS is compliant with all mandatory items.",
+     "ar": "الـ‎UPS‎ المعروض مطابق لكل البنود الإلزامية.",
+     "ex2": "Being compliant lets us move to the financial stage.",
+     "ar2": "إننا مطابقين بيخلّينا نعدّي للمرحلة المالية."
+    },
+    {
+     "w": "fully compliant",
+     "ex": "We confirm the system is fully compliant with Section 4.",
+     "ar": "بنأكد إن السيستم مطابق بالكامل للقسم 4.",
+     "ex2": "Fully compliant bids score the highest technical marks.",
+     "ar2": "العروض المطابقة بالكامل بتاخد أعلى درجات فنية."
+    }
+   ]
+  },
+  "ctx": "The datasheet shows 96.2% efficiency at double conversion. We therefore confirm full compliance with Item 4.7.",
+  "ctx_ar": "الداتاشيت بيوضّح كفاءة 96.2% في الـ‎double conversion‎. وبالتالي بنأكد المطابقة الكاملة للبند 4.7.",
+  "quiz": [
+   {
+    "s": "The offered model ___ with all the technical requirements.",
+    "opts": [
+     "complies",
+     "compliance",
+     "compliant"
+    ],
+    "a": 0,
+    "ar": "الموديل المعروض مطابق لكل المتطلبات الفنية."
+   },
+   {
+    "s": "Please sign the ___ sheet and put it in the technical envelope.",
+    "opts": [
+     "comply",
+     "compliance",
+     "compliant"
+    ],
+    "a": 1,
+    "ar": "من فضلك امضي جدول المطابقة وحطّه في المظروف الفني."
+   },
+   {
+    "s": "Our battery offer is only ___ because the autonomy is 12 minutes, not 15.",
+    "opts": [
+     "fully compliant",
+     "compliant",
+     "partially compliant"
+    ],
+    "a": 2,
+    "ar": "عرض البطاريات بتاعنا مطابق جزئيًا بس لأن مدة التشغيل 12 دقيقة مش 15."
+   }
+  ]
+ },
+ {
+  "w": "expire",
+  "ar": "ينتهي (صلاحيته)",
+  "book": "The manufacturer's authorisation letter expired on 30 September 2026.",
+  "family": [
+   {
+    "w": "expire",
+    "pos": "verb",
+    "ex": "Our maintenance contract with the bank will expire in March.",
+    "ar": "عقد الصيانة بتاعنا مع البنك هيخلص في مارس.",
+    "ex2": "Let's send the renewal offer before it expires.",
+    "ar2": "يلا نبعت عرض التجديد قبل ما يخلص."
+   },
+   {
+    "w": "expiry",
+    "pos": "noun",
+    "ex": "Please check the expiry date of every bid bond.",
+    "ar": "من فضلك راجع تاريخ انتهاء كل خطاب ضمان.",
+    "ex2": "The expiry must be at least 120 days after the opening.",
+    "ar2": "الانتهاء لازم يكون بعد الفتح بـ120 يوم على الأقل."
+   },
+   {
+    "w": "expired",
+    "pos": "adjective",
+    "ex": "The committee found an expired authorisation letter in our bid.",
+    "ar": "اللجنة لقت جواب تفويض منتهي في عرضنا.",
+    "ex2": "We replaced the expired letter with a renewed one.",
+    "ar2": "بدّلنا الجواب المنتهي بواحد متجدد."
+   },
+   {
+    "w": "expiration",
+    "pos": "noun",
+    "ex": "The software licence expiration will stop the UPS monitoring.",
+    "ar": "انتهاء رخصة السوفتوير هيوقف مراقبة الـ‎UPS‎.",
+    "ex2": "We set a reminder 30 days before expiration.",
+    "ar2": "حطّينا تذكير قبل الانتهاء بـ30 يوم."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "run out",
+    "note": "informal; time, stock or validity finishes",
+    "ex": "Our quotation validity will run out on Friday.",
+    "ar": "صلاحية عرض السعر بتاعنا هتخلص يوم الجمعة.",
+    "ex2": "If it runs out, prices may change.",
+    "ar2": "لو خلصت الأسعار ممكن تتغير."
+   },
+   {
+    "w": "lapse",
+    "note": "formal; ends because nobody renewed it",
+    "ex": "The insurance on the warehouse lapsed last month.",
+    "ar": "التأمين على المخزن سقط الشهر اللي فات.",
+    "ex2": "Nobody paid the premium, so it lapsed.",
+    "ar2": "محدش دفع القسط فسقط."
+   },
+   {
+    "w": "end",
+    "note": "neutral, general word",
+    "ex": "The warranty period ends three years after handover.",
+    "ar": "فترة الضمان بتنتهي بعد الاستلام بتلات سنين.",
+    "ex2": "After it ends, we offer a paid maintenance contract.",
+    "ar2": "بعد ما تنتهي بنعرض عقد صيانة بفلوس."
+   }
+  ],
+  "ant": [
+   {
+    "w": "renew",
+    "ex": "The manufacturer renewed our authorisation letter until December 2027.",
+    "ar": "المصنّع جدّد جواب التفويض بتاعنا لحد ديسمبر 2027.",
+    "ex2": "We renew it every year before tender season.",
+    "ar2": "بنجدّده كل سنة قبل موسم المناقصات."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our ISO certificate will expire next month. Please renew it now, because the hospital tender asks for a valid copy.",
+  "ctx_ar": "شهادة الأيزو بتاعتنا هتخلص الشهر الجاي. من فضلك جدّدها دلوقتي لأن مناقصة المستشفى طالبة نسخة سارية.",
+  "quiz": [
+   {
+    "s": "Please check the ___ date on the guarantee.",
+    "opts": [
+     "expire",
+     "expiry",
+     "expired"
+    ],
+    "a": 1,
+    "ar": "من فضلك راجع تاريخ الانتهاء على خطاب الضمان."
+   },
+   {
+    "s": "The letter ___ last month, so we need a new one.",
+    "opts": [
+     "expired",
+     "expiry",
+     "renew"
+    ],
+    "a": 0,
+    "ar": "الجواب خلص الشهر اللي فات، فمحتاجين واحد جديد."
+   },
+   {
+    "s": "The warehouse insurance ___ because nobody paid the premium.",
+    "opts": [
+     "expiry",
+     "renew",
+     "lapsed"
+    ],
+    "a": 2,
+    "ar": "تأمين المخزن سقط لأن محدش دفع القسط."
+   }
+  ]
+ },
+ {
+  "w": "mistake",
+  "ar": "غلطة",
+  "book": "The datasheet in our technical envelope was for the previous model by mistake.",
+  "family": [
+   {
+    "w": "mistake",
+    "pos": "noun",
+    "ex": "There is a mistake in the VAT amount on invoice 2291.",
+    "ar": "فيه غلطة في مبلغ الضريبة في فاتورة 2291.",
+    "ex2": "Please cancel it and issue a corrected e-invoice.",
+    "ar2": "من فضلك الغيها وطلّع فاتورة إلكترونية مصحّحة."
+   },
+   {
+    "w": "mistake",
+    "pos": "verb",
+    "ex": "The technician mistook the 12 V battery for the 6 V model.",
+    "ar": "الفني افتكر البطارية الـ12 فولت إنها الموديل الـ6 فولت.",
+    "ex2": "He mistook them because the cases look the same.",
+    "ar2": "اتلخبط فيهم لأن الكيس شكله واحد."
+   },
+   {
+    "w": "mistaken",
+    "pos": "adjective",
+    "ex": "The committee was mistaken about the cable scope in the minutes.",
+    "ar": "اللجنة كانت غلطانة في نطاق الكابلات في المحضر.",
+    "ex2": "We politely corrected the mistaken point in writing.",
+    "ar2": "صحّحنا النقطة الغلط بأدب كتابةً."
+   },
+   {
+    "w": "mistakenly",
+    "pos": "adverb",
+    "ex": "We mistakenly sent the old datasheet with our bid.",
+    "ar": "بعتنا الداتاشيت القديم بالغلط مع عرضنا.",
+    "ex2": "The new model was mistakenly left out of the file.",
+    "ar2": "الموديل الجديد اتشال من الملف بالغلط."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "error",
+    "note": "more formal; numbers, systems and documents",
+    "ex": "The bank made an error in the guarantee amount.",
+    "ar": "البنك عمل خطأ في مبلغ خطاب الضمان.",
+    "ex2": "The error was corrected the same day.",
+    "ar2": "الخطأ اتصلّح في نفس اليوم."
+   },
+   {
+    "w": "oversight",
+    "note": "something missed by accident; polite in emails",
+    "ex": "Sorry, leaving out the delivery charge was an oversight.",
+    "ar": "آسفين، إننا نسينا مصاريف التوصيل كان سهو.",
+    "ex2": "We will add it to a revised invoice after this oversight.",
+    "ar2": "هنضيفها في فاتورة معدّلة بعد السهو ده."
+   },
+   {
+    "w": "typo",
+    "note": "small typing mistake",
+    "ex": "There is a typo in the PO: 400 kVA, not 40 kVA.",
+    "ar": "فيه غلطة كتابة في أمر الشراء: 400 ‎kVA‎ مش 40 ‎kVA‎.",
+    "ex2": "A small typo like this can change the whole order.",
+    "ar2": "غلطة كتابة صغيرة زي دي ممكن تغيّر الأوردر كله."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how serious the mistake is",
+   "lar": "الغلطة كبيرة قد إيه",
+   "steps": [
+    {
+     "w": "minor slip",
+     "ex": "Writing the wrong date on the cover page was a minor slip.",
+     "ar": "كتابة تاريخ غلط على الغلاف كانت هفوة بسيطة.",
+     "ex2": "A minor slip like this is fixed with a quick email.",
+     "ar2": "هفوة بسيطة زي دي بتتصلّح بإيميل سريع."
+    },
+    {
+     "w": "mistake",
+     "ex": "Sending the old datasheet was a mistake we had to explain.",
+     "ar": "إننا بعتنا الداتاشيت القديم كانت غلطة واضطرينا نشرحها.",
+     "ex2": "The committee accepted our explanation of the mistake.",
+     "ar2": "اللجنة قبلت شرحنا للغلطة."
+    },
+    {
+     "w": "serious error",
+     "ex": "A bond for EGP 25,000 instead of 250,000 is a serious error.",
+     "ar": "ضمان بـ25,000 بدل 250,000 ده خطأ جسيم.",
+     "ex2": "A serious error like this can reject the whole bid.",
+     "ar2": "خطأ جسيم زي ده ممكن يرفض العرض كله."
+    }
+   ]
+  },
+  "ctx": "We sent the previous model's datasheet by mistake. The correct datasheet is attached, and the model and price remain as offered.",
+  "ctx_ar": "بعتنا داتاشيت الموديل القديم بالغلط. الداتاشيت الصح مرفق، والموديل والسعر زي ما هما في العرض.",
+  "quiz": [
+   {
+    "s": "We ___ attached the wrong datasheet.",
+    "opts": [
+     "mistake",
+     "mistaken",
+     "mistakenly"
+    ],
+    "a": 2,
+    "ar": "إحنا رفقنا الداتاشيت الغلط بالغلط."
+   },
+   {
+    "s": "Forgetting the delivery charge was an ___; we will correct the invoice.",
+    "opts": [
+     "oversight",
+     "serious error",
+     "typo"
+    ],
+    "a": 0,
+    "ar": "نسيان مصاريف التوصيل كان سهو؛ هنصحّح الفاتورة."
+   },
+   {
+    "s": "The committee was ___ about the cable scope.",
+    "opts": [
+     "mistake",
+     "mistaken",
+     "mistakenly"
+    ],
+    "a": 1,
+    "ar": "اللجنة كانت غلطانة في نطاق الكابلات."
+   }
+  ]
+ },
+ {
+  "w": "commissioning",
+  "ar": "التشغيل الاختباري / التسليم الفني",
+  "book": "We confirm that the 14-week period includes delivery, installation, testing and commissioning.",
+  "family": [
+   {
+    "w": "commission",
+    "pos": "verb",
+    "ex": "We will commission the 400 kVA UPS next Sunday.",
+    "ar": "هنشغّل الـ‎UPS‎ 400 ‎kVA‎ تشغيل اختباري الأحد الجاي.",
+    "ex2": "The manufacturer's engineer will help us commission it.",
+    "ar2": "مهندس المصنّع هيساعدنا نشغّله."
+   },
+   {
+    "w": "commissioning",
+    "pos": "noun",
+    "ex": "Commissioning includes load tests and battery discharge tests.",
+    "ar": "التشغيل الاختباري شامل اختبارات الحمل والتفريغ للبطاريات.",
+    "ex2": "The client's engineer must attend commissioning.",
+    "ar2": "مهندس العميل لازم يحضر التشغيل الاختباري."
+   },
+   {
+    "w": "commissioned",
+    "pos": "adjective",
+    "ex": "The newly commissioned solar station produced 300 kWh on day one.",
+    "ar": "محطة الطاقة الشمسية اللي اتشغّلت جديد طلّعت 300 ‎kWh‎ أول يوم.",
+    "ex2": "The commissioned system now runs under our warranty.",
+    "ar2": "السيستم اللي اتشغّل بقى تحت ضماننا دلوقتي."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "start-up",
+    "note": "first switching on of equipment; less formal",
+    "ex": "The VFD start-up took two hours because of motor settings.",
+    "ar": "تشغيل الـ‎VFD‎ أول مرة خد ساعتين بسبب إعدادات الموتور.",
+    "ex2": "After start-up, we recorded all parameters.",
+    "ar2": "بعد التشغيل سجّلنا كل الباراميترز."
+   },
+   {
+    "w": "go-live",
+    "note": "for IT systems and software going into real use",
+    "ex": "The go-live of the new monitoring software is on 1 December.",
+    "ar": "تشغيل سوفتوير المراقبة الجديد فعليًا يوم 1 ديسمبر.",
+    "ex2": "Before go-live, all UPS units must be connected.",
+    "ar2": "قبل التشغيل الفعلي كل وحدات الـ‎UPS‎ لازم تتوصّل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "decommissioning",
+    "ex": "Decommissioning the old UPS will take one full day.",
+    "ar": "فك وإخراج الـ‎UPS‎ القديم من الخدمة هياخد يوم كامل.",
+    "ex2": "Old batteries from decommissioning go to an approved recycler.",
+    "ar2": "البطاريات القديمة من الإخراج من الخدمة بتروح لمكان تدوير معتمد."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Installation will finish in week 13. Commissioning and the load tests will be done in week 14, with the hospital's engineer present.",
+  "ctx_ar": "التركيب هيخلص في أسبوع 13. التشغيل الاختباري واختبارات الحمل هيتعملوا في أسبوع 14 بحضور مهندس المستشفى.",
+  "quiz": [
+   {
+    "s": "Our engineers will ___ the system after installation.",
+    "opts": [
+     "commission",
+     "commissioning",
+     "commissioned"
+    ],
+    "a": 0,
+    "ar": "مهندسينا هيشغّلوا السيستم تشغيل اختباري بعد التركيب."
+   },
+   {
+    "s": "Testing and ___ take three weeks on site.",
+    "opts": [
+     "commission",
+     "commissioning",
+     "commissioned"
+    ],
+    "a": 1,
+    "ar": "الاختبار والتشغيل بياخدوا تلات أسابيع في الموقع."
+   },
+   {
+    "s": "Removing the old UPS from service is called ___.",
+    "opts": [
+     "go-live",
+     "start-up",
+     "decommissioning"
+    ],
+    "a": 2,
+    "ar": "شيل الـ‎UPS‎ القديم من الخدمة اسمه ‎decommissioning‎."
+   }
+  ]
+ }
+]

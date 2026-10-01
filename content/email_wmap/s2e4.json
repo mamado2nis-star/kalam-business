@@ -1,0 +1,569 @@
+[
+ {
+  "w": "warranty",
+  "ar": "ضمان",
+  "book": "Both units are still under warranty, as they were delivered in July 2025.",
+  "family": [
+   {
+    "w": "warranty",
+    "pos": "noun",
+    "ex": "All our UPS units come with a two-year warranty.",
+    "ar": "كل أجهزة الـ‎UPS‎ بتاعتنا عليها ضمان سنتين.",
+    "ex2": "Batteries have a separate one-year warranty.",
+    "ar2": "البطاريات ليها ضمان لوحدها سنة واحدة."
+   },
+   {
+    "w": "warranty period",
+    "pos": "noun",
+    "ex": "The warranty period starts from the commissioning date.",
+    "ar": "فترة الضمان بتبدأ من يوم التشغيل.",
+    "ex2": "Please keep the commissioning report safe.",
+    "ar2": "من فضلك احتفظ بتقرير التشغيل كويس."
+   },
+   {
+    "w": "warranty claim",
+    "pos": "noun",
+    "ex": "We submitted a warranty claim for the failed inverter.",
+    "ar": "قدّمنا طلب ضمان للإنفرتر البايظ.",
+    "ex2": "The supplier wants photos and the event log.",
+    "ar2": "المورّد عايز صور والـ‎event log‎."
+   },
+   {
+    "w": "out-of-warranty",
+    "pos": "adjective",
+    "ex": "Out-of-warranty repairs are charged at our normal rates.",
+    "ar": "التصليحات اللي خارج الضمان بتتحاسب بأسعارنا العادية.",
+    "ex2": "We send a quotation before starting any work.",
+    "ar2": "بنبعت عرض سعر قبل ما نبدأ أي شغل."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "guarantee",
+    "note": "general promise; warranty is the written product cover",
+    "ex": "We guarantee a 4-hour response time for critical calls.",
+    "ar": "بنضمن وقت استجابة 4 ساعات للمكالمات الحرجة.",
+    "ex2": "It is written in your AMC.",
+    "ar2": "ده مكتوب في عقد الصيانة بتاعكم."
+   },
+   {
+    "w": "cover",
+    "note": "insurance-style word for what is protected",
+    "ex": "The cover does not include damage from power surges.",
+    "ar": "التغطية مش بتشمل الضرر من ارتفاع الجهد المفاجئ.",
+    "ex2": "We recommend a surge protector for the panel.",
+    "ar2": "بننصح بجهاز حماية من الـ‎surge‎ للوحة."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how well the unit is protected",
+   "lar": "الجهاز متغطّي قد إيه",
+   "steps": [
+    {
+     "w": "out of warranty",
+     "ex": "This server has been out of warranty since last March.",
+     "ar": "السيرفر ده خارج الضمان من مارس اللي فات.",
+     "ex2": "Any new disk will be charged.",
+     "ar2": "أي هارد جديد هيتحاسب."
+    },
+    {
+     "w": "standard warranty",
+     "ex": "The standard warranty covers parts for one year.",
+     "ar": "الضمان العادي بيغطي القطع سنة.",
+     "ex2": "Labour is free only in the first six months.",
+     "ar2": "المصنعية ببلاش في أول ست شهور بس."
+    },
+    {
+     "w": "extended warranty",
+     "ex": "An extended warranty adds two more years of cover.",
+     "ar": "الضمان الممتد بيزوّد سنتين تغطية.",
+     "ex2": "Many hospitals buy it with the UPS.",
+     "ar2": "مستشفيات كتير بتشتريه مع الـ‎UPS‎."
+    }
+   ]
+  },
+  "ctx": "Both units were delivered in July 2025, so they are still under warranty. Could you please issue an RMA number?",
+  "ctx_ar": "الجهازين اتسلّموا في يوليو 2025، فلسه تحت الضمان. ممكن تطلّعوا رقم ‎RMA‎؟",
+  "quiz": [
+   {
+    "s": "We submitted a ___ for the failed inverter.",
+    "opts": [
+     "warranty",
+     "warranty claim",
+     "out-of-warranty"
+    ],
+    "a": 1,
+    "ar": "قدّمنا طلب ضمان للإنفرتر البايظ."
+   },
+   {
+    "s": "___ repairs are charged at our normal rates.",
+    "opts": [
+     "Out-of-warranty",
+     "Warranty period",
+     "Guarantee"
+    ],
+    "a": 0,
+    "ar": "التصليحات اللي خارج الضمان بتتحاسب بأسعارنا العادية."
+   },
+   {
+    "s": "An ___ adds two more years of cover.",
+    "opts": [
+     "standard warranty",
+     "out of warranty",
+     "extended warranty"
+    ],
+    "a": 2,
+    "ar": "الضمان الممتد بيزوّد سنتين تغطية."
+   }
+  ]
+ },
+ {
+  "w": "issue",
+  "ar": "يصدر (مستند) / مشكلة",
+  "book": "Could you please issue an RMA number and advise the return procedure?",
+  "family": [
+   {
+    "w": "issue",
+    "pos": "verb",
+    "ex": "Please issue the e-invoice on the ETA portal today.",
+    "ar": "من فضلك طلّع الفاتورة الإلكترونية على بوابة الـ‎ETA‎ النهارده.",
+    "ex2": "The client cannot pay without it.",
+    "ar2": "العميل مايقدرش يدفع من غيرها."
+   },
+   {
+    "w": "issue",
+    "pos": "noun",
+    "ex": "We have an issue with the new UPS display.",
+    "ar": "عندنا مشكلة في شاشة الـ‎UPS‎ الجديد.",
+    "ex2": "It shows wrong battery values.",
+    "ar2": "بتطلع قراءات بطارية غلط."
+   },
+   {
+    "w": "issued",
+    "pos": "adjective",
+    "ex": "The issued PO number is PO-2025-131.",
+    "ar": "رقم الـ‎PO‎ اللي اتصدر هو ‎PO-2025-131‎.",
+    "ex2": "Please write it on every invoice.",
+    "ar2": "من فضلك اكتبه على كل فاتورة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "officially give out a document or number",
+    "mar": "تطلّع مستند أو رقم رسمي",
+    "ex": "The supplier issued an RMA number within an hour.",
+    "ar": "المورّد طلّع رقم ‎RMA‎ في خلال ساعة.",
+    "ex2": "Now we can send the videos and logs.",
+    "ar2": "دلوقتي نقدر نبعت الفيديوهات واللوجز."
+   },
+   {
+    "m": "a problem or topic to deal with",
+    "mar": "مشكلة أو موضوع محتاج حل",
+    "ex": "The main issue is the high temperature in the server room.",
+    "ar": "المشكلة الأساسية هي الحرارة العالية في أوضة السيرفرات.",
+    "ex2": "New disks will fail too if it stays hot.",
+    "ar2": "الهاردات الجديدة هتبوظ هي كمان لو الأوضة فضلت سخنة."
+   },
+   {
+    "m": "one version of a document",
+    "mar": "إصدار أو نسخة من مستند",
+    "ex": "Please use issue 3 of the drawing for the solar panel layout.",
+    "ar": "من فضلك استخدم الإصدار 3 من الرسمة لتوزيع الألواح الشمسية.",
+    "ex2": "Issue 2 had the wrong cable sizes.",
+    "ar2": "الإصدار 2 كان فيه مقاسات كابلات غلط."
+   }
+  ],
+  "syn": [
+   {
+    "w": "generate",
+    "note": "a system makes it automatically, like invoices or reports",
+    "ex": "The ERP generates the invoice number automatically.",
+    "ar": "الـ‎ERP‎ بيطلّع رقم الفاتورة أوتوماتيك.",
+    "ex2": "You only need to check the customer details.",
+    "ar2": "إنت بس محتاج تراجع بيانات العميل."
+   },
+   {
+    "w": "provide",
+    "note": "general; give something someone needs",
+    "ex": "Could you provide a loan unit until the repair is done?",
+    "ar": "ممكن توفّروا جهاز بديل لحد ما التصليح يخلص؟",
+    "ex2": "Our client has no UPS backup now.",
+    "ar2": "العميل بتاعنا مافيش عنده باك أب ‎UPS‎ دلوقتي."
+   },
+   {
+    "w": "release",
+    "note": "officially let something go, like a payment or order",
+    "ex": "Finance will release the payment once we get the delivery note.",
+    "ar": "الحسابات هتصرف الدفعة أول ما ناخد إذن التسليم.",
+    "ex2": "Please send it with the driver.",
+    "ar2": "من فضلك ابعته مع السواق."
+   }
+  ],
+  "ant": [
+   {
+    "w": "cancel",
+    "ex": "Please cancel the invoice we issued by mistake yesterday.",
+    "ar": "من فضلك الغي الفاتورة اللي طلّعناها غلط امبارح.",
+    "ex2": "We will send a corrected one today.",
+    "ar2": "هنبعت واحدة متصحّحة النهارده."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our two UPS units show fault E07. Could you please issue an RMA number so we can start the return?",
+  "ctx_ar": "جهازين الـ‎UPS‎ بتوعنا بيطلّعوا عطل ‎E07‎. ممكن تطلّعوا رقم ‎RMA‎ عشان نبدأ إجراءات الإرجاع؟",
+  "quiz": [
+   {
+    "s": "The ___ PO number is PO-2025-131.",
+    "opts": [
+     "issue",
+     "issued",
+     "cancel"
+    ],
+    "a": 1,
+    "ar": "رقم الـ‎PO‎ اللي اتصدر هو ‎PO-2025-131‎."
+   },
+   {
+    "s": "The ERP ___ the invoice number automatically.",
+    "opts": [
+     "generates",
+     "cancels",
+     "provides"
+    ],
+    "a": 0,
+    "ar": "الـ‎ERP‎ بيطلّع رقم الفاتورة أوتوماتيك."
+   },
+   {
+    "s": "Please ___ the invoice we sent by mistake.",
+    "opts": [
+     "issue",
+     "provide",
+     "cancel"
+    ],
+    "a": 2,
+    "ar": "من فضلك الغي الفاتورة اللي بعتناها غلط."
+   }
+  ]
+ },
+ {
+  "w": "practical",
+  "ar": "عملي / ينفع",
+  "book": "Shipping the units back to China is not practical for us, because freight and customs costs would be higher than their value.",
+  "family": [
+   {
+    "w": "practical",
+    "pos": "adjective",
+    "ex": "A local spare stock is the most practical solution for SFP modules.",
+    "ar": "مخزون احتياطي هنا هو أكتر حل عملي لموديولات الـ‎SFP‎.",
+    "ex2": "Imports take too long.",
+    "ar2": "الاستيراد بياخد وقت طويل قوي."
+   },
+   {
+    "w": "practically",
+    "pos": "adverb",
+    "ex": "The ERP was practically unusable during the outage.",
+    "ar": "الـ‎ERP‎ كان تقريبًا مش شغال خالص وقت العطل.",
+    "ex2": "Each screen took a minute to open.",
+    "ar2": "كل شاشة كانت بتاخد دقيقة عشان تفتح."
+   },
+   {
+    "w": "practicality",
+    "pos": "noun",
+    "ex": "We doubt the practicality of shipping heavy batteries back to China.",
+    "ar": "مش شايفين إن شحن بطاريات تقيلة لحد الصين حاجة عملية.",
+    "ex2": "Freight would cost more than the batteries.",
+    "ar2": "الشحن هيتكلف أكتر من البطاريات نفسها."
+   },
+   {
+    "w": "impractical",
+    "pos": "adjective",
+    "ex": "A night visit is impractical for our small team this week.",
+    "ar": "زيارة بالليل مش عملية لفريقنا الصغير الأسبوع ده.",
+    "ex2": "Can we do Saturday morning instead?",
+    "ar2": "ينفع نخليها السبت الصبح بدالها؟"
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "feasible",
+    "note": "technically or financially possible; formal",
+    "ex": "Is it feasible to install the solar panels on this roof?",
+    "ar": "ينفع فعلًا نركّب الألواح الشمسية على السطح ده؟",
+    "ex2": "The structure looks old.",
+    "ar2": "الإنشاء شكله قديم."
+   },
+   {
+    "w": "realistic",
+    "note": "fits real time or budget limits",
+    "ex": "Seven days is not a realistic repair time without the part.",
+    "ar": "سبع أيام مش وقت تصليح واقعي من غير القطعة.",
+    "ex2": "Please give us a new date.",
+    "ar2": "من فضلك ادّينا ميعاد جديد."
+   },
+   {
+    "w": "workable",
+    "note": "can be made to work, maybe not perfect",
+    "ex": "Keeping the faulty units here is a workable solution for both sides.",
+    "ar": "إننا نحتفظ بالأجهزة البايظة هنا حل ينفع للطرفين.",
+    "ex2": "VoltTech saves time and we save freight.",
+    "ar2": "‎VoltTech‎ بتوفّر وقت وإحنا بنوفّر الشحن."
+   }
+  ],
+  "ant": [
+   {
+    "w": "impractical",
+    "ex": "Returning the units by air freight is impractical.",
+    "ar": "إرجاع الأجهزة بالشحن الجوي مش عملي.",
+    "ex2": "The cost is higher than their value.",
+    "ar2": "التكلفة أعلى من قيمتها."
+   },
+   {
+    "w": "unrealistic",
+    "ex": "A two-day delivery from Germany is unrealistic.",
+    "ar": "توصيل من ألمانيا في يومين مش واقعي.",
+    "ex2": "Customs alone takes three days.",
+    "ar2": "الجمارك لوحدها بتاخد تلات أيام."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Shipping the faulty units back to China is not practical for us. Could you send two replacements with our next order instead?",
+  "ctx_ar": "شحن الأجهزة البايظة للصين تاني مش عملي بالنسبة لنا. ممكن تبعتوا جهازين بدالهم مع الأوردر الجاي؟",
+  "quiz": [
+   {
+    "s": "The ERP was ___ unusable during the outage.",
+    "opts": [
+     "practical",
+     "practically",
+     "practicality"
+    ],
+    "a": 1,
+    "ar": "الـ‎ERP‎ كان تقريبًا مش شغال خالص وقت العطل."
+   },
+   {
+    "s": "Is it ___ to install panels on this old roof?",
+    "opts": [
+     "feasible",
+     "practically",
+     "practicality"
+    ],
+    "a": 0,
+    "ar": "ينفع نركّب ألواح على السطح القديم ده؟"
+   },
+   {
+    "s": "A two-day delivery from Germany is ___.",
+    "opts": [
+     "workable",
+     "realistic",
+     "unrealistic"
+    ],
+    "a": 2,
+    "ar": "توصيل من ألمانيا في يومين مش واقعي."
+   }
+  ]
+ },
+ {
+  "w": "alternative",
+  "ar": "بديل",
+  "book": "As an alternative, could you send two replacement units with our next order, PO-2025-131?",
+  "family": [
+   {
+    "w": "alternative",
+    "pos": "noun",
+    "ex": "If the 6 kVA unit is not available, is there an alternative?",
+    "ar": "لو الـ6 ‎kVA‎ مش موجود، فيه بديل؟",
+    "ex2": "The client needs it by next week.",
+    "ar2": "العميل محتاجه قبل الأسبوع الجاي."
+   },
+   {
+    "w": "alternative",
+    "pos": "adjective",
+    "ex": "We can offer an alternative brand with the same rating.",
+    "ar": "نقدر نعرض ماركة بديلة بنفس القدرة.",
+    "ex2": "It is in stock and slightly cheaper.",
+    "ar2": "موجودة في المخزن وأرخص شوية."
+   },
+   {
+    "w": "alternatively",
+    "pos": "adverb",
+    "ex": "Alternatively, we can repair the old board in our workshop.",
+    "ar": "أو بدل كده، نقدر نصلّح البورد القديمة في الورشة.",
+    "ex2": "That takes three days but costs less.",
+    "ar2": "ده هياخد تلات أيام بس أرخص."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "option",
+    "note": "one of several choices; neutral",
+    "ex": "Option B replaces both disks at once.",
+    "ar": "الاختيار ‎B‎ بيغيّر الهاردين مرة واحدة.",
+    "ex2": "It costs more but is safer.",
+    "ar2": "أغلى بس أأمن."
+   },
+   {
+    "w": "substitute",
+    "note": "a different product used in place of the original",
+    "ex": "This battery is a good substitute for the discontinued model.",
+    "ar": "البطارية دي بديل كويس للموديل اللي وقف إنتاجه.",
+    "ex2": "It has the same size and capacity.",
+    "ar2": "ليها نفس المقاس والسعة."
+   },
+   {
+    "w": "instead",
+    "note": "adverb; say 'instead of', never 'alternative of'",
+    "ex": "Send us photos of the labels instead of the units.",
+    "ar": "ابعتولنا صور الليبلز بدل الأجهزة نفسها.",
+    "ex2": "That saves freight and customs costs.",
+    "ar2": "ده بيوفّر الشحن والجمارك."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "As an alternative, could you send two replacement units with our next order? This would save us freight and customs costs.",
+  "ctx_ar": "كبديل، ممكن تبعتوا جهازين بدال البايظين مع الأوردر الجاي؟ ده هيوفّر علينا الشحن والجمارك.",
+  "quiz": [
+   {
+    "s": "___, we can repair the old board in our workshop.",
+    "opts": [
+     "Alternative",
+     "Alternatively",
+     "Option"
+    ],
+    "a": 1,
+    "ar": "أو بدل كده، نقدر نصلّح البورد القديمة في الورشة."
+   },
+   {
+    "s": "This battery is a good ___ for the old model.",
+    "opts": [
+     "substitute",
+     "instead",
+     "alternatively"
+    ],
+    "a": 0,
+    "ar": "البطارية دي بديل كويس للموديل القديم."
+   },
+   {
+    "s": "We can offer an ___ brand with the same rating.",
+    "opts": [
+     "alternatively",
+     "instead",
+     "alternative"
+    ],
+    "a": 2,
+    "ar": "نقدر نعرض ماركة بديلة بنفس القدرة."
+   }
+  ]
+ },
+ {
+  "w": "accept",
+  "ar": "يقبل / يوافق على",
+  "book": "The fault was caused by a bad batch of inverter drivers, so the claim is accepted.",
+  "family": [
+   {
+    "w": "accept",
+    "pos": "verb",
+    "ex": "We accept payment by bank transfer or cheque.",
+    "ar": "بنقبل الدفع بتحويل بنكي أو شيك.",
+    "ex2": "Please send the transfer receipt by email.",
+    "ar2": "من فضلك ابعت إيصال التحويل على الإيميل."
+   },
+   {
+    "w": "acceptance",
+    "pos": "noun",
+    "ex": "Please sign the acceptance certificate after commissioning.",
+    "ar": "من فضلك امضي شهادة الاستلام بعد التشغيل.",
+    "ex2": "The warranty starts from that date.",
+    "ar2": "الضمان بيبدأ من التاريخ ده."
+   },
+   {
+    "w": "acceptable",
+    "pos": "adjective",
+    "ex": "A delivery date of 10 November is acceptable to us.",
+    "ar": "ميعاد تسليم 10 نوفمبر مناسب لينا.",
+    "ex2": "Please confirm it in writing.",
+    "ar2": "من فضلك أكّده كتابة."
+   },
+   {
+    "w": "unacceptable",
+    "pos": "adjective",
+    "ex": "Eleven hours to respond is unacceptable for a critical call.",
+    "ar": "11 ساعة عشان ترد ده مش مقبول لمكالمة حرجة.",
+    "ex2": "Our contract says four hours.",
+    "ar2": "العقد بتاعنا بيقول أربع ساعات."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "approve",
+    "note": "official yes from someone with authority",
+    "ex": "The manager approved the warranty claim today.",
+    "ar": "المدير وافق على طلب الضمان النهارده.",
+    "ex2": "The fan will ship by DHL.",
+    "ar2": "المروحة هتتشحن ‎DHL‎."
+   },
+   {
+    "w": "honour",
+    "note": "keep a promise or a contract term",
+    "ex": "VoltTech will honour the warranty for both units.",
+    "ar": "‎VoltTech‎ هتلتزم بالضمان للجهازين.",
+    "ex2": "They will send new units free of charge.",
+    "ar2": "هيبعتوا أجهزة جديدة ببلاش."
+   }
+  ],
+  "ant": [
+   {
+    "w": "reject",
+    "ex": "The supplier rejected our claim because the seal was broken.",
+    "ar": "المورّد رفض الكليم بتاعنا عشان الختم كان مقطوع.",
+    "ex2": "We had opened the unit without permission.",
+    "ar2": "كنا فتحنا الجهاز من غير إذن."
+   },
+   {
+    "w": "refuse",
+    "ex": "The client refused the delivery because one box was damaged.",
+    "ar": "العميل رفض الاستلام عشان كرتونة كانت مضروبة.",
+    "ex2": "We will send a new box tomorrow.",
+    "ar2": "هنبعت كرتونة جديدة بكرة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The fault was caused by a bad batch of drivers, so the supplier accepted our claim. Two new units will ship free of charge.",
+  "ctx_ar": "العطل كان بسبب دفعة ‎drivers‎ وحشة، فالمورّد قبل الكليم بتاعنا. جهازين جداد هيتشحنوا ببلاش.",
+  "quiz": [
+   {
+    "s": "Please sign the ___ certificate after commissioning.",
+    "opts": [
+     "accept",
+     "acceptance",
+     "acceptable"
+    ],
+    "a": 1,
+    "ar": "من فضلك امضي شهادة الاستلام بعد التشغيل."
+   },
+   {
+    "s": "Eleven hours to respond is ___.",
+    "opts": [
+     "acceptable",
+     "accept",
+     "unacceptable"
+    ],
+    "a": 2,
+    "ar": "11 ساعة عشان ترد ده مش مقبول."
+   },
+   {
+    "s": "The supplier ___ our claim because the seal was broken.",
+    "opts": [
+     "rejected",
+     "honoured",
+     "accepted"
+    ],
+    "a": 0,
+    "ar": "المورّد رفض الكليم بتاعنا عشان الختم كان مقطوع."
+   }
+  ]
+ }
+]

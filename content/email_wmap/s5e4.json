@@ -1,0 +1,605 @@
+[
+ {
+  "w": "finalise",
+  "ar": "يقفل / يخلّص النسخة النهائية",
+  "book": "We are finalising our bid for Tender No. HH/T/2026/014 and would like to confirm two points before submission:",
+  "family": [
+   {
+    "w": "finalise",
+    "pos": "verb",
+    "ex": "We will finalise the UPS quotation after the site visit.",
+    "ar": "هنقفل عرض سعر الـ‎UPS‎ بعد زيارة الموقع.",
+    "ex2": "We cannot finalise it before we know the cable scope.",
+    "ar2": "مانقدرش نقفله قبل ما نعرف نطاق الكابلات."
+   },
+   {
+    "w": "final",
+    "pos": "adjective",
+    "ex": "This is our final price for the 400 kVA modular UPS.",
+    "ar": "ده آخر سعر عندنا للـ‎UPS‎ الموديولار 400 ‎kVA.‎",
+    "ex2": "The final offer includes three years of maintenance.",
+    "ar2": "العرض النهائي شامل تلات سنين صيانة."
+   },
+   {
+    "w": "finally",
+    "pos": "adverb",
+    "ex": "The bank finally sent the corrected bid bond at 4 pm.",
+    "ar": "البنك أخيرًا بعت خطاب الضمان المصحّح الساعة 4.",
+    "ex2": "We can finally seal the technical envelope.",
+    "ar2": "أخيرًا نقدر نقفل المظروف الفني."
+   },
+   {
+    "w": "finalised",
+    "pos": "adjective",
+    "ex": "Please send me the finalised BOQ before Wednesday.",
+    "ar": "من فضلك ابعتلي المقايسة النهائية قبل الأربع.",
+    "ex2": "The finalised version must be signed on every page.",
+    "ar2": "النسخة النهائية لازم تتمضي في كل صفحة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "complete",
+    "note": "general; finish all parts of something",
+    "ex": "Please complete the compliance sheet for all 45 items.",
+    "ar": "من فضلك كمّل جدول المطابقة لكل الـ45 بند.",
+    "ex2": "Mark any item you cannot complete in red.",
+    "ar2": "علّم أي بند مش قادر تكمّله بالأحمر."
+   },
+   {
+    "w": "wrap up",
+    "note": "informal; finish the last small tasks",
+    "ex": "Let's wrap up the financial proposal by tomorrow noon.",
+    "ar": "يلا نخلّص العرض المالي بكرة الضهر.",
+    "ex2": "After we wrap up, Mahmoud will print the copies.",
+    "ar2": "بعد ما نخلّص محمود هيطبع النسخ."
+   },
+   {
+    "w": "close",
+    "note": "for deals and negotiations",
+    "ex": "We hope to close the solar station deal this month.",
+    "ar": "بنتمنى نقفل صفقة محطة الطاقة الشمسية الشهر ده.",
+    "ex2": "The client will close after the bank approves the loan.",
+    "ar2": "العميل هيقفل بعد ما البنك يوافق على القرض."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how ready the document is",
+   "lar": "المستند جاهز قد إيه",
+   "steps": [
+    {
+     "w": "draft",
+     "ex": "I sent you the draft of the technical proposal for comments.",
+     "ar": "بعتلك مسودة العرض الفني عشان ملاحظاتك.",
+     "ex2": "The draft still has no datasheets attached.",
+     "ar2": "المسودة لسه مفيهاش داتاشيتس."
+    },
+    {
+     "w": "revised",
+     "ex": "Here is the revised proposal with your comments added.",
+     "ar": "ده العرض المعدّل وفيه ملاحظاتك.",
+     "ex2": "The revised version also fixes the battery autonomy.",
+     "ar2": "النسخة المعدّلة كمان صلّحت مدة تشغيل البطاريات."
+    },
+    {
+     "w": "final",
+     "ex": "This is the final version, ready for signature and stamping.",
+     "ar": "دي النسخة النهائية، جاهزة للإمضا والختم.",
+     "ex2": "No changes are allowed after the final version is sealed.",
+     "ar2": "ممنوع أي تعديل بعد ما النسخة النهائية تتقفل."
+    }
+   ]
+  },
+  "ctx": "We are finalising the technical proposal today. Please send me the signed compliance sheet before 3 pm.",
+  "ctx_ar": "بنخلّص العرض الفني النهارده. من فضلك ابعتلي جدول المطابقة متمضي قبل الساعة 3.",
+  "quiz": [
+   {
+    "s": "We need to ___ the price schedule before Wednesday.",
+    "opts": [
+     "final",
+     "finalise",
+     "finally"
+    ],
+    "a": 1,
+    "ar": "لازم نقفل جدول الأسعار قبل الأربع."
+   },
+   {
+    "s": "After two weeks, the bank ___ corrected the bond.",
+    "opts": [
+     "finally",
+     "final",
+     "finalised"
+    ],
+    "a": 0,
+    "ar": "بعد أسبوعين البنك أخيرًا صلّح الضمان."
+   },
+   {
+    "s": "This is only a ___; please do not send it to the client.",
+    "opts": [
+     "final",
+     "revised",
+     "draft"
+    ],
+    "a": 2,
+    "ar": "دي مسودة بس؛ متبعتهاش للعميل."
+   }
+  ]
+ },
+ {
+  "w": "submit",
+  "ar": "يقدّم",
+  "book": "1. Should the original bid bond be placed in the technical envelope or submitted in a separate envelope?",
+  "family": [
+   {
+    "w": "submit",
+    "pos": "verb",
+    "ex": "We must submit the bid before 12:00 on Thursday.",
+    "ar": "لازم نقدّم العرض قبل الساعة 12 يوم الخميس.",
+    "ex2": "Late bids cannot be submitted, even by five minutes.",
+    "ar2": "العروض المتأخرة مينفعش تتقدّم حتى لو بخمس دقايق."
+   },
+   {
+    "w": "submission",
+    "pos": "noun",
+    "ex": "The submission deadline for the solar tender is 29 October.",
+    "ar": "آخر ميعاد لتقديم مناقصة الطاقة الشمسية 29 أكتوبر.",
+    "ex2": "After submission, prices cannot be changed.",
+    "ar2": "بعد التقديم الأسعار مينفعش تتغير."
+   },
+   {
+    "w": "submittal",
+    "pos": "noun",
+    "ex": "The consultant approved our UPS submittal with minor comments.",
+    "ar": "الاستشاري وافق على الـ‎submittal‎ بتاع الـ‎UPS‎ بملاحظات بسيطة.",
+    "ex2": "The submittal included datasheets and the battery sizing.",
+    "ar2": "الـ‎submittal‎ كان فيه الداتاشيتس وحسابات البطاريات."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "hand in",
+    "note": "informal; give a physical document to someone",
+    "ex": "Please hand in your timesheet to HR by Thursday.",
+    "ar": "من فضلك سلّم الـ‎timesheet‎ بتاعك للـ‎HR‎ قبل الخميس.",
+    "ex2": "Hand it in with your site visit report.",
+    "ar2": "سلّمه مع تقرير زيارة الموقع."
+   },
+   {
+    "w": "send in",
+    "note": "send documents by mail or email",
+    "ex": "Please send in your bank details for the refund.",
+    "ar": "من فضلك ابعت بيانات البنك عشان نرجّعلك الفلوس.",
+    "ex2": "Once you send them in, we transfer within a week.",
+    "ar2": "أول ما تبعتها بنحوّل في خلال أسبوع."
+   },
+   {
+    "w": "lodge",
+    "note": "formal; used for complaints, claims and appeals",
+    "ex": "We lodged a complaint about the evaluation result.",
+    "ar": "قدّمنا شكوى على نتيجة التقييم.",
+    "ex2": "The complaint must be lodged within five days.",
+    "ar2": "الشكوى لازم تتقدّم في خلال خمس أيام."
+   }
+  ],
+  "ant": [
+   {
+    "w": "withdraw",
+    "ex": "A bidder may withdraw its bid before the deadline.",
+    "ar": "المتقدم يقدر يسحب عرضه قبل الميعاد.",
+    "ex2": "After the deadline, it cannot withdraw without losing the bond.",
+    "ar2": "بعد الميعاد مينفعش يسحب من غير ما يخسر الضمان."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The bid must be submitted by hand before 12:00 on Thursday. Please leave the office by 10:30 to avoid traffic.",
+  "ctx_ar": "العرض لازم يتقدّم باليد قبل الساعة 12 يوم الخميس. من فضلك اطلع من المكتب الساعة 10:30 عشان الزحمة.",
+  "quiz": [
+   {
+    "s": "Late ___ will not be accepted.",
+    "opts": [
+     "submit",
+     "submissions",
+     "submittal"
+    ],
+    "a": 1,
+    "ar": "التقديمات المتأخرة مش هتتقبل."
+   },
+   {
+    "s": "We decided to ___ our bid because the delivery time was impossible.",
+    "opts": [
+     "withdraw",
+     "submit",
+     "lodge"
+    ],
+    "a": 0,
+    "ar": "قررنا نسحب عرضنا لأن مدة التوريد كانت مستحيلة."
+   },
+   {
+    "s": "We ___ a formal complaint about the result.",
+    "opts": [
+     "submittal",
+     "hand in",
+     "lodged"
+    ],
+    "a": 2,
+    "ar": "قدّمنا شكوى رسمية على النتيجة."
+   }
+  ]
+ },
+ {
+  "w": "seal",
+  "ar": "يقفل ويختم / يشمّع",
+  "book": "Both envelopes must be sealed, stamped and marked with the tender number, the lot number and the bidder's name.",
+  "family": [
+   {
+    "w": "seal",
+    "pos": "verb",
+    "ex": "Please seal the financial envelope only after I check the prices.",
+    "ar": "من فضلك اقفل المظروف المالي بس بعد ما أراجع الأسعار.",
+    "ex2": "We will seal it with tape and the company stamp.",
+    "ar2": "هنقفله بلزق وختم الشركة."
+   },
+   {
+    "w": "seal",
+    "pos": "noun",
+    "ex": "Do not break the seal on the battery cartons before inspection.",
+    "ar": "متفكّش الختم اللي على كراتين البطاريات قبل الفحص.",
+    "ex2": "A broken seal may cancel the warranty.",
+    "ar2": "الختم لو اتفك ممكن يلغي الضمان."
+   },
+   {
+    "w": "sealed",
+    "pos": "adjective",
+    "ex": "The sealed envelopes were delivered to the Procurement Office.",
+    "ar": "المظاريف المقفولة اتسلّمت لمكتب المشتريات.",
+    "ex2": "The sealed financial envelope stays closed until the opening.",
+    "ar2": "المظروف المالي المقفول بيفضل مقفول لحد الفتح."
+   },
+   {
+    "w": "unsealed",
+    "pos": "adjective",
+    "ex": "An unsealed financial envelope will be rejected by the committee.",
+    "ar": "مظروف مالي مش مقفول هيترفض من اللجنة.",
+    "ex2": "Check that no envelope is unsealed before you leave.",
+    "ar2": "اتأكد إن مفيش مظروف مفتوح قبل ما تمشي."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "to close an envelope or box firmly",
+    "mar": "يقفل مظروف أو كرتونة",
+    "ex": "Seal each envelope and stamp across the flap.",
+    "ar": "اقفل كل مظروف واختم على اللسان.",
+    "ex2": "This shows nobody opened it after sealing.",
+    "ar2": "ده بيبيّن إن محدش فتحه بعد القفل."
+   },
+   {
+    "m": "to make a deal final (seal the deal)",
+    "mar": "يقفل الصفقة",
+    "ex": "A 3-year maintenance offer helped us seal the deal.",
+    "ar": "عرض صيانة 3 سنين ساعدنا نقفل الصفقة.",
+    "ex2": "The client sealed it with a signed PO the next day.",
+    "ar2": "العميل قفلها بأمر شراء متمضي تاني يوم."
+   },
+   {
+    "m": "to close a gap against water or dust",
+    "mar": "يعزل ضد المية أو التراب",
+    "ex": "Seal the cable entries of the outdoor inverter cabinet.",
+    "ar": "اعزل مداخل الكابلات في كابينة الإنفرتر الخارجية.",
+    "ex2": "Dust inside will damage the electronics if it is not sealed.",
+    "ar2": "التراب جوّه هيبوّظ الإلكترونيات لو مش معزول."
+   }
+  ],
+  "syn": [
+   {
+    "w": "close",
+    "note": "general; does not mean it is protected",
+    "ex": "Close the cabinet door after you finish the readings.",
+    "ar": "اقفل باب الكابينة بعد ما تخلّص القراءات.",
+    "ex2": "Close it before you leave the site.",
+    "ar2": "اقفله قبل ما تمشي من الموقع."
+   },
+   {
+    "w": "secure",
+    "note": "fix firmly so it cannot open or move",
+    "ex": "Secure the batteries on the rack with the metal straps.",
+    "ar": "ثبّت البطاريات على الرف بالأحزمة الحديد.",
+    "ex2": "Unsecured batteries can fall during transport.",
+    "ar2": "البطاريات اللي مش متثبّتة ممكن تقع وهي بتتنقل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "open",
+    "ex": "The financial envelopes will be opened on 10 December.",
+    "ar": "المظاريف المالية هتتفتح يوم 10 ديسمبر.",
+    "ex2": "They will be opened in public, so we can attend.",
+    "ar2": "هتتفتح في جلسة علنية، فنقدر نحضر."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Please seal the technical and financial envelopes separately. Stamp each one and write the tender number and lot number clearly.",
+  "ctx_ar": "من فضلك اقفل المظروف الفني والمالي كل واحد لوحده. اختم كل واحد واكتب رقم المناقصة ورقم الـ‎lot‎ بوضوح.",
+  "quiz": [
+   {
+    "s": "Both envelopes must be ___ and stamped.",
+    "opts": [
+     "seal",
+     "sealed",
+     "unsealed"
+    ],
+    "a": 1,
+    "ar": "المظروفين لازم يبقوا مقفولين ومختومين."
+   },
+   {
+    "s": "An ___ envelope will not be accepted.",
+    "opts": [
+     "unsealed",
+     "sealed",
+     "seal"
+    ],
+    "a": 0,
+    "ar": "المظروف المفتوح مش هيتقبل."
+   },
+   {
+    "s": "The financial envelopes will be ___ next month.",
+    "opts": [
+     "secure",
+     "close",
+     "opened"
+    ],
+    "a": 2,
+    "ar": "المظاريف المالية هتتفتح الشهر الجاي."
+   }
+  ]
+ },
+ {
+  "w": "receipt",
+  "ar": "استلام / إيصال",
+  "book": "We would appreciate it if you could send us a written confirmation of receipt with the registration number.",
+  "family": [
+   {
+    "w": "receive",
+    "pos": "verb",
+    "ex": "We received the battery shipment at the warehouse this morning.",
+    "ar": "استلمنا شحنة البطاريات في المخزن النهارده الصبح.",
+    "ex2": "Please check what we received against the packing list.",
+    "ar2": "من فضلك راجع اللي استلمناه على الـ‎packing list.‎"
+   },
+   {
+    "w": "receipt",
+    "pos": "noun",
+    "ex": "Please confirm receipt of our payment of EGP 120,000.",
+    "ar": "من فضلك أكد استلام دفعتنا بـ120,000 جنيه.",
+    "ex2": "Please also send the official receipt for our records.",
+    "ar2": "وابعت كمان الإيصال الرسمي عشان ملفاتنا."
+   },
+   {
+    "w": "recipient",
+    "pos": "person",
+    "ex": "The recipient must sign the delivery note on site.",
+    "ar": "المستلم لازم يمضي إذن التسليم في الموقع.",
+    "ex2": "Write the recipient's name clearly under the signature.",
+    "ar2": "اكتب اسم المستلم بوضوح تحت الإمضا."
+   },
+   {
+    "w": "receivable",
+    "pos": "adjective",
+    "ex": "Our accounts receivable from hospitals reached EGP 3 million.",
+    "ar": "مستحقاتنا عند المستشفيات وصلت 3 مليون جنيه.",
+    "ex2": "Collections must reduce receivable balances before December.",
+    "ar2": "التحصيل لازم يقلل الأرصدة المستحقة قبل ديسمبر."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "the act of receiving something (confirm receipt)",
+    "mar": "الاستلام",
+    "ex": "We confirm receipt of your bid at 11:05 today.",
+    "ar": "بنأكد استلام عرضكم الساعة 11:05 النهارده.",
+    "ex2": "Receipt was recorded in the tender register.",
+    "ar2": "الاستلام اتسجّل في دفتر المناقصة."
+   },
+   {
+    "m": "a paper that proves you paid",
+    "mar": "إيصال دفع",
+    "ex": "Please attach the bank transfer receipt to your email.",
+    "ar": "من فضلك ارفق إيصال التحويل البنكي مع الإيميل.",
+    "ex2": "Without the receipt, we cannot release the tender documents.",
+    "ar2": "من غير الإيصال مانقدرش نسلّم كراسة الشروط."
+   }
+  ],
+  "syn": [
+   {
+    "w": "acknowledgement",
+    "note": "formal reply saying a document arrived",
+    "ex": "We received an acknowledgement of our claim from the insurer.",
+    "ar": "وصلنا إشعار باستلام مطالبتنا من شركة التأمين.",
+    "ex2": "The acknowledgement gives a reference number for follow-up.",
+    "ar2": "الإشعار فيه رقم مرجعي للمتابعة."
+   },
+   {
+    "w": "proof of delivery",
+    "note": "signed proof that goods reached the customer",
+    "ex": "Please send the proof of delivery for the 20 batteries.",
+    "ar": "من فضلك ابعت إثبات التسليم للـ20 بطارية.",
+    "ex2": "Finance needs proof of delivery before issuing the invoice.",
+    "ar2": "الحسابات محتاجة إثبات التسليم قبل ما تطلّع الفاتورة."
+   },
+   {
+    "w": "delivery note",
+    "note": "document that travels with the goods",
+    "ex": "The driver forgot the delivery note for the UPS cabinets.",
+    "ar": "السواق نسي إذن التسليم بتاع كبائن الـ‎UPS.‎",
+    "ex2": "The client refused to sign without a delivery note.",
+    "ar2": "العميل رفض يمضي من غير إذن تسليم."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Our driver delivered the bid at 11:05. Please send us a written confirmation of receipt with the registration number.",
+  "ctx_ar": "السواق بتاعنا سلّم العرض الساعة 11:05. ياريت تبعتولنا تأكيد استلام مكتوب برقم القيد.",
+  "quiz": [
+   {
+    "s": "Please confirm ___ of the signed contract.",
+    "opts": [
+     "receive",
+     "receipt",
+     "recipient"
+    ],
+    "a": 1,
+    "ar": "من فضلك أكد استلام العقد المتمضي."
+   },
+   {
+    "s": "The ___ must sign the delivery note.",
+    "opts": [
+     "recipient",
+     "receipt",
+     "receivable"
+    ],
+    "a": 0,
+    "ar": "المستلم لازم يمضي إذن التسليم."
+   },
+   {
+    "s": "Finance needs the ___ signed by the customer before invoicing.",
+    "opts": [
+     "receivable",
+     "acknowledgement",
+     "proof of delivery"
+    ],
+    "a": 2,
+    "ar": "الحسابات محتاجة إثبات التسليم متمضي من العميل قبل الفوترة."
+   }
+  ]
+ },
+ {
+  "w": "deliver",
+  "ar": "يسلّم",
+  "book": "We are pleased to confirm that our bid for Tender No. HH/T/2026/014 (Lots 1 and 2) was delivered by hand to the Procurement Office today at 11:05.",
+  "family": [
+   {
+    "w": "deliver",
+    "pos": "verb",
+    "ex": "We will deliver the two UPS units to the hospital on Sunday.",
+    "ar": "هنسلّم وحدتين الـ‎UPS‎ للمستشفى يوم الأحد.",
+    "ex2": "Please make sure the loading bay is free when we deliver.",
+    "ar2": "من فضلك اتأكد إن رصيف التحميل فاضي لما نسلّم."
+   },
+   {
+    "w": "delivery",
+    "pos": "noun",
+    "ex": "Delivery of the solar panels is planned for week 46.",
+    "ar": "تسليم الألواح الشمسية متخطط له في أسبوع 46.",
+    "ex2": "Any delay in delivery will affect the installation team.",
+    "ar2": "أي تأخير في التسليم هيأثر على فريق التركيب."
+   },
+   {
+    "w": "deliverables",
+    "pos": "noun",
+    "ex": "The project deliverables include as-built drawings and a test report.",
+    "ar": "مخرجات المشروع شاملة رسومات تنفيذية وتقرير اختبار.",
+    "ex2": "We submit all deliverables before the handover certificate.",
+    "ar2": "بنسلّم كل المخرجات قبل شهادة الاستلام."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "to bring goods or documents to a place",
+    "mar": "يوصّل / يسلّم",
+    "ex": "The courier delivered the bid bonds to our office.",
+    "ar": "المندوب وصّل خطابات الضمان لمكتبنا.",
+    "ex2": "He delivered them in a sealed bank envelope.",
+    "ar2": "سلّمهم في مظروف البنك مقفول."
+   },
+   {
+    "m": "to achieve or provide what was promised",
+    "mar": "ينفّذ / يحقق",
+    "ex": "Our team delivered the project two weeks early.",
+    "ar": "فريقنا خلّص المشروع قبل ميعاده بأسبوعين.",
+    "ex2": "The client was happy because we delivered on our promise.",
+    "ar2": "العميل كان مبسوط لأننا نفّذنا اللي وعدنا بيه."
+   },
+   {
+    "m": "to give a talk or training",
+    "mar": "يقدّم (عرض أو تدريب)",
+    "ex": "Eng. Sara will deliver the training on VFD programming.",
+    "ar": "م. سارة هتقدّم تدريب برمجة الـ‎VFD.‎",
+    "ex2": "She delivered the same session in Alexandria last month.",
+    "ar2": "قدّمت نفس الجلسة في إسكندرية الشهر اللي فات."
+   }
+  ],
+  "syn": [
+   {
+    "w": "hand over",
+    "note": "give officially, with signatures; used at project end",
+    "ex": "We will hand over the UPS room after the final tests.",
+    "ar": "هنسلّم غرفة الـ‎UPS‎ بعد الاختبارات النهائية.",
+    "ex2": "The client signs a certificate when we hand it over.",
+    "ar2": "العميل بيمضي شهادة لما نسلّمها."
+   },
+   {
+    "w": "dispatch",
+    "note": "send goods out from our side; not yet arrived",
+    "ex": "The batteries were dispatched from our warehouse this morning.",
+    "ar": "البطاريات اتشحنت من مخزننا النهارده الصبح.",
+    "ex2": "Once dispatched, they reach Assiut in two days.",
+    "ar2": "أول ما بتطلع بتوصل أسيوط في يومين."
+   },
+   {
+    "w": "ship",
+    "note": "send goods, usually by sea, air or freight company",
+    "ex": "The factory will ship the inverters from China next week.",
+    "ar": "المصنع هيشحن الإنفرترات من الصين الأسبوع الجاي.",
+    "ex2": "Sea freight usually takes 30 days to reach Alexandria port.",
+    "ar2": "الشحن عادة بياخد 30 يوم لحد ميناء إسكندرية."
+   }
+  ],
+  "ant": [
+   {
+    "w": "collect",
+    "ex": "The customer will collect the repaired UPS from our workshop.",
+    "ar": "العميل هييجي ياخد الـ‎UPS‎ المتصلّح من الورشة.",
+    "ex2": "If they collect it, we remove the delivery charge.",
+    "ar2": "لو جه خده بنشيل مصاريف التوصيل."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our bid was delivered by hand at 11:05, before the 12:00 deadline. The committee secretary signed our copy of the delivery letter.",
+  "ctx_ar": "عرضنا اتسلّم باليد الساعة 11:05 قبل ميعاد الساعة 12. سكرتيرة اللجنة مضت على نسختنا من خطاب التسليم.",
+  "quiz": [
+   {
+    "s": "The ___ date for the UPS units is 15 November.",
+    "opts": [
+     "deliver",
+     "delivery",
+     "deliverables"
+    ],
+    "a": 1,
+    "ar": "ميعاد تسليم وحدات الـ‎UPS‎ هو 15 نوفمبر."
+   },
+   {
+    "s": "The batteries were ___ from our warehouse today, so expect them on Monday.",
+    "opts": [
+     "dispatched",
+     "collect",
+     "hand over"
+    ],
+    "a": 0,
+    "ar": "البطاريات طلعت من مخزننا النهارده، فاستنّاها يوم الاتنين."
+   },
+   {
+    "s": "The customer prefers to ___ the spare parts from our office.",
+    "opts": [
+     "deliver",
+     "ship",
+     "collect"
+    ],
+    "a": 2,
+    "ar": "العميل يفضّل ييجي ياخد قطع الغيار من مكتبنا."
+   }
+  ]
+ }
+]

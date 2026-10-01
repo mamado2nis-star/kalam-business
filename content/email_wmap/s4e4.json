@@ -1,0 +1,578 @@
+[
+ {
+  "w": "statement",
+  "ar": "كشف حساب",
+  "book": "For the Horizon Hospital tender (closing 12 October) we need a bank letter confirming our account and good standing, plus the account statement for July–September.",
+  "family": [
+   {
+    "w": "statement",
+    "pos": "noun",
+    "ex": "The bank statement shows the VoltTech transfer on 15 October.",
+    "ar": "كشف الحساب بيبين تحويل ‎VoltTech‎ يوم 15 أكتوبر.",
+    "ex2": "Attach the statement to the payment file.",
+    "ar2": "ارفق الكشف مع ملف الدفع."
+   },
+   {
+    "w": "state",
+    "pos": "verb",
+    "ex": "Please state the PO number on every invoice.",
+    "ar": "من فضلك اكتب رقم أمر الشراء على كل فاتورة.",
+    "ex2": "Invoices without it will be returned to the supplier.",
+    "ar2": "الفواتير اللي من غيره هترجع للمورد."
+   },
+   {
+    "w": "stated",
+    "pos": "adjective",
+    "ex": "The stated delivery time is six weeks from PO.",
+    "ar": "مدة التوريد المذكورة 6 أسابيع من أمر الشراء.",
+    "ex2": "The stated time does not include customs clearance.",
+    "ar2": "والمدة دي مش شاملة التخليص الجمركي."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "list of transactions on a bank account",
+    "mar": "كشف حساب بنكي",
+    "ex": "We need the account statement for July to September.",
+    "ar": "محتاجين كشف الحساب من يوليو لسبتمبر.",
+    "ex2": "The tender committee will check our cash movements.",
+    "ar2": "لجنة المناقصة هتراجع حركة الفلوس عندنا."
+   },
+   {
+    "m": "list of a customer's open invoices",
+    "mar": "كشف حساب عميل",
+    "ex": "Please send Delta Pharma a statement of all open invoices.",
+    "ar": "من فضلك ابعت لـ‎Delta Pharma‎ كشف بكل الفواتير المفتوحة.",
+    "ex2": "Their accountant wants to match it with their records.",
+    "ar2": "المحاسب بتاعهم عايز يطابقه مع سجلاتهم."
+   },
+   {
+    "m": "something said officially",
+    "mar": "بيان رسمي",
+    "ex": "The supplier issued a statement about delays at the port.",
+    "ar": "المورد طلّع بيان عن التأخير في الميناء.",
+    "ex2": "Shipments may arrive one week late.",
+    "ar2": "الشحنات ممكن توصل متأخرة أسبوع."
+   }
+  ],
+  "syn": [
+   {
+    "w": "account activity",
+    "note": "online banking word for recent transactions, not official",
+    "ex": "I checked the account activity online, and the transfer is there.",
+    "ar": "شفت حركة الحساب أونلاين، والتحويل موجود.",
+    "ex2": "The official statement will follow at month-end.",
+    "ar2": "الكشف الرسمي هييجي آخر الشهر."
+   },
+   {
+    "w": "ledger",
+    "note": "our own internal book of entries, not from the bank",
+    "ex": "The customer ledger shows three unpaid invoices for Delta Pharma.",
+    "ar": "دفتر أستاذ العملا بيبين 3 فواتير مش مدفوعة لـ‎Delta Pharma‎.",
+    "ex2": "Let's compare the ledger with their statement.",
+    "ar2": "خلينا نقارن الدفتر بالكشف بتاعهم."
+   },
+   {
+    "w": "summary",
+    "note": "short version with totals only",
+    "ex": "Mr. Hany only wants a one-page summary of the bank balances.",
+    "ar": "أستاذ هاني عايز ملخص صفحة واحدة لأرصدة البنوك بس.",
+    "ex2": "He can ask for the full statements if needed.",
+    "ar2": "ويقدر يطلب الكشوف كاملة لو احتاج."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "The tender needs our account statement for July to September. The bank says it will be ready within two working days.",
+  "ctx_ar": "المناقصة محتاجة كشف حسابنا من يوليو لسبتمبر. البنك بيقول إنه هيبقى جاهز خلال يومين عمل.",
+  "quiz": [
+   {
+    "s": "Please ___ the PO number on every invoice.",
+    "opts": [
+     "state",
+     "statement",
+     "stated"
+    ],
+    "a": 0,
+    "ar": "من فضلك اكتب رقم أمر الشراء على كل فاتورة."
+   },
+   {
+    "s": "The ___ delivery time is six weeks.",
+    "opts": [
+     "state",
+     "statement",
+     "stated"
+    ],
+    "a": 2,
+    "ar": "مدة التوريد المذكورة 6 أسابيع."
+   },
+   {
+    "s": "Compare our customer ___ with the statement the customer sent.",
+    "opts": [
+     "account activity",
+     "ledger",
+     "stated"
+    ],
+    "a": 1,
+    "ar": "قارن دفتر أستاذ العميل عندنا بالكشف اللي العميل بعته."
+   }
+  ]
+ },
+ {
+  "w": "request",
+  "ar": "يطلب / طلب",
+  "book": "I am writing to request three items for our account no. 1002 3390 118:",
+  "family": [
+   {
+    "w": "request",
+    "pos": "verb",
+    "ex": "I am writing to request a quotation for 40 batteries 12V 100Ah.",
+    "ar": "بكتب عشان أطلب عرض سعر لـ40 بطارية ‎12V 100Ah‎.",
+    "ex2": "We need them before the end of October.",
+    "ar2": "محتاجينهم قبل آخر أكتوبر."
+   },
+   {
+    "w": "request",
+    "pos": "noun",
+    "ex": "The bank received our request for a new signatory.",
+    "ar": "البنك استلم طلبنا لإضافة مفوض جديد.",
+    "ex2": "They will reply with the list of documents.",
+    "ar2": "هيردوا بقايمة المستندات."
+   },
+   {
+    "w": "requested",
+    "pos": "adjective",
+    "ex": "Please find attached the requested documents.",
+    "ar": "مرفق المستندات المطلوبة.",
+    "ex2": "The commercial register extract will follow by 8 October.",
+    "ar2": "مستخرج السجل التجاري هيوصل لحد 8 أكتوبر."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "ask for",
+    "note": "everyday and neutral; fine in most emails",
+    "ex": "Can you ask for the statement in PDF and Excel?",
+    "ar": "ممكن تطلب الكشف ‎PDF‎ و‎Excel‎؟",
+    "ex2": "Excel makes the reconciliation much faster.",
+    "ar2": "الـ‎Excel‎ بيخلي المطابقة أسرع بكتير."
+   },
+   {
+    "w": "apply for",
+    "note": "formal request with a form, e.g. loan or guarantee",
+    "ex": "We applied for a letter of guarantee for the hospital tender.",
+    "ar": "قدمنا على خطاب ضمان لمناقصة المستشفى.",
+    "ex2": "The bank needs our latest financial statements to approve it.",
+    "ar2": "البنك محتاج آخر قوايم مالية عشان يوافق."
+   },
+   {
+    "w": "demand",
+    "note": "strong, almost an order; can sound rude",
+    "ex": "The customer demanded a full refund for the late delivery.",
+    "ar": "العميل طالب برد الفلوس كاملة بسبب التأخير في التسليم.",
+    "ex2": "We offered a free maintenance visit instead.",
+    "ar2": "عرضنا زيارة صيانة مجانية بدل كده."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how strong the ask is",
+   "lar": "الطلب قوي قد إيه",
+   "steps": [
+    {
+     "w": "ask",
+     "ex": "Could I ask you to send the statement today?",
+     "ar": "ممكن أطلب منك تبعت الكشف النهارده؟",
+     "ex2": "We need it for the tender file.",
+     "ar2": "محتاجينه لملف المناقصة."
+    },
+    {
+     "w": "request",
+     "ex": "We request the bank letter by 8 October at the latest.",
+     "ar": "بنطلب خطاب البنك بحد أقصى 8 أكتوبر.",
+     "ex2": "The tender closes on 12 October.",
+     "ar2": "المناقصة بتقفل 12 أكتوبر."
+    },
+    {
+     "w": "insist",
+     "ex": "The hospital insists on an original bank letter, not a copy.",
+     "ar": "المستشفى مصممة على خطاب بنك أصلي، مش صورة.",
+     "ex2": "So our courier will collect it from the branch.",
+     "ar2": "فالمندوب بتاعنا هيستلمه من الفرع."
+    },
+    {
+     "w": "demand",
+     "ex": "The supplier demands payment before releasing the next shipment.",
+     "ar": "المورد بيطالب بالدفع قبل ما يطلّع الشحنة الجاية.",
+     "ex2": "We are late on three of their invoices.",
+     "ar2": "إحنا متأخرين عليهم في 3 فواتير."
+    }
+   ]
+  },
+  "ctx": "I am writing to request a bank letter and our account statement. We need both by 8 October for a hospital tender.",
+  "ctx_ar": "بكتب عشان أطلب خطاب من البنك وكشف حسابنا. محتاجين الاتنين لحد 8 أكتوبر عشان مناقصة مستشفى.",
+  "quiz": [
+   {
+    "s": "Please find attached the ___ documents.",
+    "opts": [
+     "request",
+     "requested",
+     "demand"
+    ],
+    "a": 1,
+    "ar": "مرفق المستندات المطلوبة."
+   },
+   {
+    "s": "We ___ a letter of guarantee and filled in the bank's form.",
+    "opts": [
+     "applied for",
+     "insist",
+     "demand"
+    ],
+    "a": 0,
+    "ar": "قدمنا على خطاب ضمان وملينا استمارة البنك."
+   },
+   {
+    "s": "The bank received our ___ for a new signatory.",
+    "opts": [
+     "requested",
+     "insist",
+     "request"
+    ],
+    "a": 2,
+    "ar": "البنك استلم طلبنا لإضافة مفوض جديد."
+   }
+  ]
+ },
+ {
+  "w": "debit",
+  "ar": "يخصم من الحساب",
+  "book": "Also, the bank letter fee is EGP 250, which will be debited from your account.",
+  "family": [
+   {
+    "w": "debit",
+    "pos": "verb",
+    "ex": "The bank will debit EGP 250 for the letter.",
+    "ar": "البنك هيخصم 250 جنيه تمن الخطاب.",
+    "ex2": "We'll see it on tomorrow's statement.",
+    "ar2": "هنشوفه في كشف بكرة."
+   },
+   {
+    "w": "debit",
+    "pos": "noun",
+    "ex": "There's a debit of EGP 1,200 on the statement that I can't explain.",
+    "ar": "فيه خصم 1,200 جنيه في الكشف مش عارف أفسره.",
+    "ex2": "I'll ask Mr. Omar what it is for.",
+    "ar2": "هسأل أستاذ عمر ده عن إيه."
+   },
+   {
+    "w": "debtor",
+    "pos": "person",
+    "ex": "Delta Pharma is our largest debtor this month.",
+    "ar": "‎Delta Pharma‎ أكبر مدين لينا الشهر ده.",
+    "ex2": "They owe us EGP 1.35 million.",
+    "ar2": "عليهم لينا 1.35 مليون جنيه."
+   },
+   {
+    "w": "debt",
+    "pos": "noun",
+    "ex": "The company has no bank debt except the import facility.",
+    "ar": "الشركة مفيش عليها ديون بنكية غير تسهيل الاستيراد.",
+    "ex2": "Low debt helps us win big tenders.",
+    "ar2": "قلة الديون بتساعدنا نكسب مناقصات كبيرة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "withdraw",
+    "note": "we take money out ourselves, e.g. cash",
+    "ex": "Sara withdrew EGP 20,000 in cash for site expenses.",
+    "ar": "سارة سحبت 20,000 جنيه كاش لمصاريف الموقع.",
+    "ex2": "She must bring receipts for every pound.",
+    "ar2": "لازم تجيب إيصالات بكل جنيه."
+   },
+   {
+    "w": "direct debit",
+    "note": "automatic regular payment taken from our account",
+    "ex": "Our electricity bill is paid by direct debit every month.",
+    "ar": "فاتورة الكهربا بتتدفع خصم مباشر من الحساب كل شهر.",
+    "ex2": "So keep enough money in that account.",
+    "ar2": "فخلي فلوس كفاية في الحساب ده."
+   }
+  ],
+  "ant": [
+   {
+    "w": "credit",
+    "ex": "The bank credited the Delta Pharma transfer this morning.",
+    "ar": "البنك نزّل تحويل ‎Delta Pharma‎ في الحساب الصبح.",
+    "ex2": "Our balance went up by EGP 1.35 million.",
+    "ar2": "رصيدنا زاد 1.35 مليون جنيه."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The bank letter costs EGP 250. The bank will debit the fee from our account, so please note it in the cash book.",
+  "ctx_ar": "خطاب البنك تمنه 250 جنيه. البنك هيخصم الرسوم من حسابنا، فمن فضلك سجلها في دفتر النقدية.",
+  "quiz": [
+   {
+    "s": "Delta Pharma is our largest ___ this month.",
+    "opts": [
+     "debit",
+     "debtor",
+     "debt"
+    ],
+    "a": 1,
+    "ar": "‎Delta Pharma‎ أكبر مدين لينا الشهر ده."
+   },
+   {
+    "s": "The bank will ___ EGP 250 from our account.",
+    "opts": [
+     "debit",
+     "debtor",
+     "credit"
+    ],
+    "a": 0,
+    "ar": "البنك هيخصم 250 جنيه من حسابنا."
+   },
+   {
+    "s": "Our electricity bill is paid by ___ every month.",
+    "opts": [
+     "debtor",
+     "withdraw",
+     "direct debit"
+    ],
+    "a": 2,
+    "ar": "فاتورة الكهربا بتتدفع خصم مباشر كل شهر."
+   }
+  ]
+ },
+ {
+  "w": "release",
+  "ar": "يسلّم / يفرج عن",
+  "book": "Meanwhile, could you please release the bank letter and the statement, as they are not linked to the signatory change?",
+  "family": [
+   {
+    "w": "release",
+    "pos": "verb",
+    "ex": "Customs will release the VFDs once we pay the duty.",
+    "ar": "الجمارك هتفرج عن الـ‎VFDs‎ أول ما ندفع الرسوم.",
+    "ex2": "FastClear will then deliver them to our warehouse.",
+    "ar2": "وبعدها ‎FastClear‎ هتوصلهم للمخزن."
+   },
+   {
+    "w": "release",
+    "pos": "noun",
+    "ex": "The release of the payment needs two signatures.",
+    "ar": "صرف الدفعة محتاج توقيعين.",
+    "ex2": "Mr. Hany signs first, then Ms. Nadia.",
+    "ar2": "أستاذ هاني بيمضي الأول، وبعدين أستاذة نادية."
+   },
+   {
+    "w": "released",
+    "pos": "adjective",
+    "ex": "The released goods arrived at the warehouse on Sunday.",
+    "ar": "البضاعة اللي اتفرج عنها وصلت المخزن يوم الأحد.",
+    "ex2": "Youssef checked all 20 released drives.",
+    "ar2": "يوسف راجع الـ20 درايف كلهم."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "hand over something that was held",
+    "mar": "يسلّم حاجة كانت متحجوزة",
+    "ex": "Please release the bank letter before the signatory change is done.",
+    "ar": "من فضلك سلّمونا خطاب البنك قبل ما تغيير المفوضين يخلص.",
+    "ex2": "The tender closes on 12 October.",
+    "ar2": "المناقصة بتقفل 12 أكتوبر."
+   },
+   {
+    "m": "let a payment go out",
+    "mar": "يصرف دفعة",
+    "ex": "Finance will release the supplier payment after the GRN arrives.",
+    "ar": "الحسابات هتصرف دفعة المورد بعد ما إذن الاستلام يوصل.",
+    "ex2": "No GRN, no payment.",
+    "ar2": "مفيش إذن استلام، مفيش دفع."
+   },
+   {
+    "m": "make a new product available",
+    "mar": "ينزّل منتج جديد",
+    "ex": "The supplier will release a new 20 kVA UPS model in January.",
+    "ar": "المورد هينزّل موديل ‎UPS‎ 20 ‎kVA‎ جديد في يناير.",
+    "ex2": "We should update our price list then.",
+    "ar2": "لازم نحدث قايمة الأسعار ساعتها."
+   }
+  ],
+  "syn": [
+   {
+    "w": "issue",
+    "note": "officially produce a document like a letter or invoice",
+    "ex": "The bank will issue the letter within two working days.",
+    "ar": "البنك هيطلع الخطاب خلال يومين عمل.",
+    "ex2": "It will be addressed to Horizon Hospital.",
+    "ar2": "هيبقى موجه لمستشفى ‎Horizon‎."
+   },
+   {
+    "w": "hand over",
+    "note": "give something physically to someone",
+    "ex": "The technician will hand over the UPS to the hospital on Thursday.",
+    "ar": "الفني هيسلم الـ‎UPS‎ للمستشفى يوم الخميس.",
+    "ex2": "The client signs the handover form after testing.",
+    "ar2": "العميل بيمضي استمارة التسليم بعد الاختبار."
+   },
+   {
+    "w": "clear",
+    "note": "customs or a bank lets goods or a cheque pass",
+    "ex": "The two drives will clear customs next week.",
+    "ar": "الدرايفين هيخلصوا جمارك الأسبوع الجاي.",
+    "ex2": "Then FastClear can deliver them.",
+    "ar2": "وبعدها ‎FastClear‎ تقدر توصلهم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "hold",
+    "ex": "The bank will hold the letter until the fee is paid.",
+    "ar": "البنك هيمسك الخطاب لحد ما الرسوم تتدفع.",
+    "ex2": "We agreed to the fee, so they can send it.",
+    "ar2": "وافقنا على الرسوم، فيقدروا يبعتوه."
+   },
+   {
+    "w": "withhold",
+    "ex": "The customer is withholding payment until we fix the alarm.",
+    "ar": "العميل حاجز الدفع لحد ما نصلح الإنذار.",
+    "ex2": "Our engineer is visiting the site tomorrow.",
+    "ar2": "المهندس بتاعنا رايح الموقع بكرة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The bank letter is not linked to the signatory change. Could you please release it now, so we can submit the tender on time?",
+  "ctx_ar": "خطاب البنك مالوش علاقة بتغيير المفوضين. ممكن تسلمونا إياه دلوقتي عشان نقدم المناقصة في ميعادها؟",
+  "quiz": [
+   {
+    "s": "The ___ of the payment needs two signatures.",
+    "opts": [
+     "release",
+     "released",
+     "hold"
+    ],
+    "a": 0,
+    "ar": "صرف الدفعة محتاج توقيعين."
+   },
+   {
+    "s": "Customs will ___ the drives once we pay the duty.",
+    "opts": [
+     "hold",
+     "release",
+     "released"
+    ],
+    "a": 1,
+    "ar": "الجمارك هتفرج عن الدرايفات أول ما ندفع الرسوم."
+   },
+   {
+    "s": "The ___ goods arrived at the warehouse on Sunday.",
+    "opts": [
+     "release",
+     "withhold",
+     "released"
+    ],
+    "a": 2,
+    "ar": "البضاعة اللي اتفرج عنها وصلت المخزن يوم الأحد."
+   }
+  ]
+ },
+ {
+  "w": "signatory",
+  "ar": "المفوّض بالتوقيع",
+  "book": "Also, please ask the bank to update our authorised signatories: add Ms. Nadia Hassan and remove Mr. Samy Wahba, who left the company last month.",
+  "family": [
+   {
+    "w": "sign",
+    "pos": "verb",
+    "ex": "Ms. Nadia must sign the specimen card at the branch.",
+    "ar": "أستاذة نادية لازم تمضي كارت نموذج التوقيع في الفرع.",
+    "ex2": "She will go on Tuesday at 11 am.",
+    "ar2": "هتروح يوم التلات الساعة 11."
+   },
+   {
+    "w": "signature",
+    "pos": "noun",
+    "ex": "The bank compares every cheque with the specimen signature.",
+    "ar": "البنك بيقارن كل شيك بنموذج التوقيع.",
+    "ex2": "A different signature means the cheque is returned.",
+    "ar2": "لو التوقيع مختلف الشيك بيرجع."
+   },
+   {
+    "w": "signatory",
+    "pos": "person",
+    "ex": "Mr. Samy is no longer a signatory on our account.",
+    "ar": "أستاذ سامي مبقاش مفوض بالتوقيع على حسابنا.",
+    "ex2": "He left the company last month.",
+    "ar2": "ساب الشركة الشهر اللي فات."
+   },
+   {
+    "w": "signed",
+    "pos": "adjective",
+    "ex": "Please attach the signed board resolution.",
+    "ar": "من فضلك ارفق قرار مجلس الإدارة الممضي.",
+    "ex2": "The bank won't accept an unsigned copy.",
+    "ar2": "البنك مش هيقبل نسخة مش ممضية."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "signing authority",
+    "note": "the right to sign; also the person who has it",
+    "ex": "Ms. Nadia will have signing authority up to EGP 1 million.",
+    "ar": "أستاذة نادية هيبقى ليها صلاحية توقيع لحد مليون جنيه.",
+    "ex2": "Larger payments still need Mr. Hany.",
+    "ar2": "المدفوعات الأكبر لسه محتاجة أستاذ هاني."
+   },
+   {
+    "w": "authorised representative",
+    "note": "person who may act for the company, not only sign",
+    "ex": "Our authorised representative will sign the tender documents.",
+    "ar": "الممثل المفوض بتاعنا هيمضي مستندات المناقصة.",
+    "ex2": "His name is in the commercial register.",
+    "ar2": "اسمه موجود في السجل التجاري."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "We need to update our authorised signatories. Ms. Nadia will be added as a signatory, and Mr. Samy will be removed.",
+  "ctx_ar": "محتاجين نحدث المفوضين بالتوقيع عندنا. أستاذة نادية هتتضاف كمفوضة، وأستاذ سامي هيتشال.",
+  "quiz": [
+   {
+    "s": "The bank compares each cheque with the specimen ___.",
+    "opts": [
+     "sign",
+     "signature",
+     "signatory"
+    ],
+    "a": 1,
+    "ar": "البنك بيقارن كل شيك بنموذج التوقيع."
+   },
+   {
+    "s": "Mr. Samy is no longer a ___ on our account.",
+    "opts": [
+     "signature",
+     "signed",
+     "signatory"
+    ],
+    "a": 2,
+    "ar": "أستاذ سامي مبقاش مفوض بالتوقيع على حسابنا."
+   },
+   {
+    "s": "Please attach the ___ board resolution.",
+    "opts": [
+     "signed",
+     "sign",
+     "signatory"
+    ],
+    "a": 0,
+    "ar": "من فضلك ارفق قرار مجلس الإدارة الممضي."
+   }
+  ]
+ }
+]

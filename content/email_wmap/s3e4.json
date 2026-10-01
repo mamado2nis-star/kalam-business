@@ -1,0 +1,661 @@
+[
+ {
+  "w": "register",
+  "ar": "تسجّل",
+  "book": "As the goods will be ready on 20 October, we have pre-registered the shipment on Nafeza.",
+  "family": [
+   {
+    "w": "register",
+    "pos": "verb",
+    "ex": "Please register the new customer in the ERP.",
+    "ar": "من فضلك سجّل العميل الجديد على الـ‎ERP‎.",
+    "ex2": "Register his tax number too, for the e-invoice.",
+    "ar2": "سجّل رقمه الضريبي كمان، عشان الفاتورة الإلكترونية."
+   },
+   {
+    "w": "pre-register",
+    "pos": "verb",
+    "ex": "We must pre-register every shipment on Nafeza.",
+    "ar": "لازم نسجّل كل شحنة مسبقًا على نفذة.",
+    "ex2": "Pre-register it before the goods leave China.",
+    "ar2": "سجّلها مسبقًا قبل ما البضاعة تطلع من الصين."
+   },
+   {
+    "w": "registration",
+    "pos": "noun",
+    "ex": "Please send your company registration certificate.",
+    "ar": "من فضلك ابعت شهادة تسجيل الشركة.",
+    "ex2": "We need the registration for the new supplier file.",
+    "ar2": "محتاجين التسجيل لملف المورد الجديد."
+   },
+   {
+    "w": "registered",
+    "pos": "adjective",
+    "ex": "VoltTech is already registered on CargoX.",
+    "ar": "‎VoltTech‎ متسجّلين بالفعل على ‎CargoX‎.",
+    "ex2": "Only registered exporters can upload documents.",
+    "ar2": "المصدّرين المسجّلين بس يقدروا يرفعوا مستندات."
+   },
+   {
+    "w": "register",
+    "pos": "noun",
+    "ex": "Add the new UPS units to the asset register.",
+    "ar": "ضيف وحدات الـ‎UPS‎ الجديدة لسجل الأصول.",
+    "ex2": "The register shows serial numbers and warranty dates.",
+    "ar2": "السجل بيوضح الأرقام المسلسلة وتواريخ الضمان."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "sign up",
+    "note": "informal: create an account on a service",
+    "ex": "We signed up for the DHL business account.",
+    "ar": "اشتركنا في حساب ‎DHL‎ للشركات.",
+    "ex2": "Signing up took ten minutes online.",
+    "ar2": "الاشتراك خد عشر دقايق أونلاين."
+   },
+   {
+    "w": "record",
+    "note": "write data down so it is kept",
+    "ex": "Please record the serial numbers of all 120 modules.",
+    "ar": "من فضلك سجّل الأرقام المسلسلة للـ120 موديول.",
+    "ex2": "We need the record for warranty claims.",
+    "ar2": "محتاجين التسجيل ده لمطالبات الضمان."
+   },
+   {
+    "w": "enrol",
+    "note": "join a course or programme",
+    "ex": "Two engineers enrolled in the VFD training course.",
+    "ar": "اتنين مهندسين اتسجّلوا في كورس الـ‎VFD‎.",
+    "ex2": "They enrolled through the supplier's website.",
+    "ar2": "اتسجّلوا عن طريق موقع المورد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "deregister",
+    "ex": "We deregistered the old warehouse address from the system.",
+    "ar": "شلنا عنوان المخزن القديم من السيستم.",
+    "ex2": "After we deregistered it, deliveries go to Obour City.",
+    "ar2": "بعد ما شلناه، التسليمات بقت تروح العبور."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We have pre-registered the shipment on Nafeza and received our ACID number. The supplier must now register on CargoX and upload the documents.",
+  "ctx_ar": "سجّلنا الشحنة مسبقًا على نفذة وأخدنا رقم الـ‎ACID‎. المورد دلوقتي لازم يتسجّل على ‎CargoX‎ ويرفع المستندات.",
+  "quiz": [
+   {
+    "s": "Please send your tax ___ number with the PI.",
+    "opts": [
+     "register",
+     "registration",
+     "registered"
+    ],
+    "a": 1,
+    "ar": "من فضلك ابعت رقم التسجيل الضريبي مع الـ‎PI‎."
+   },
+   {
+    "s": "We are ___ on Nafeza as an importer.",
+    "opts": [
+     "registered",
+     "registration",
+     "register"
+    ],
+    "a": 0,
+    "ar": "إحنا متسجّلين على نفذة كمستورد."
+   },
+   {
+    "s": "You must ___ the shipment on Nafeza before it leaves China.",
+    "opts": [
+     "registration",
+     "registered",
+     "pre-register"
+    ],
+    "a": 2,
+    "ar": "لازم تسجّل الشحنة مسبقًا على نفذة قبل ما تطلع من الصين."
+   }
+  ]
+ },
+ {
+  "w": "draft",
+  "ar": "مسودة",
+  "book": "Please find attached the draft commercial invoice CI-VT-251014 and the packing list for your review.",
+  "family": [
+   {
+    "w": "draft",
+    "pos": "noun",
+    "ex": "Please send us the drafts first for checking.",
+    "ar": "من فضلك ابعتلنا المسودات الأول للمراجعة.",
+    "ex2": "We check every draft against the PO.",
+    "ar2": "بنراجع كل مسودة على أمر الشراء."
+   },
+   {
+    "w": "draft",
+    "pos": "verb",
+    "ex": "I am drafting the reply to the supplier now.",
+    "ar": "أنا بكتب مسودة الرد على المورد دلوقتي.",
+    "ex2": "I'll draft it and send it to Hany for review.",
+    "ar2": "هكتب المسودة وأبعتها لهاني يراجعها."
+   },
+   {
+    "w": "draft",
+    "pos": "adjective",
+    "ex": "The draft B/L shows the wrong consignee.",
+    "ar": "البوليصة المسودة فيها اسم مستلم غلط.",
+    "ex2": "Fix the draft B/L before the line issues it.",
+    "ar2": "صلّح مسودة البوليصة قبل ما الخط يطلّعها."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "first version of a document",
+    "mar": "مسودة مستند",
+    "ex": "Please review the draft maintenance contract.",
+    "ar": "من فضلك راجع مسودة عقد الصيانة.",
+    "ex2": "Send comments on the draft by Sunday.",
+    "ar2": "ابعت ملاحظاتك على المسودة قبل الحد."
+   },
+   {
+    "m": "bank draft (cheque issued by a bank)",
+    "mar": "شيك بنكي",
+    "ex": "The customer paid by bank draft.",
+    "ar": "العميل دفع بشيك بنكي.",
+    "ex2": "A bank draft is safer than a company cheque.",
+    "ar2": "الشيك البنكي أأمن من شيك الشركة."
+   }
+  ],
+  "syn": [
+   {
+    "w": "first version",
+    "note": "plain words, any document",
+    "ex": "This is only the first version of the proposal.",
+    "ar": "دي النسخة الأولى من الاقتراح بس.",
+    "ex2": "The first version will change after the site visit.",
+    "ar2": "النسخة الأولى هتتغير بعد زيارة الموقع."
+   },
+   {
+    "w": "preliminary",
+    "note": "formal adjective: early, not final",
+    "ex": "Here is our preliminary design for the solar station.",
+    "ar": "ده التصميم المبدئي لمحطة الطاقة الشمسية.",
+    "ex2": "The preliminary design needs the roof measurements.",
+    "ar2": "التصميم المبدئي محتاج مقاسات السطح."
+   },
+   {
+    "w": "outline",
+    "note": "only the main points, not full text",
+    "ex": "Send me an outline of the training plan.",
+    "ar": "ابعتلي الخطوط العريضة لخطة التدريب.",
+    "ex2": "I'll write the details after we agree on the outline.",
+    "ar2": "هكتب التفاصيل بعد ما نتفق على الخطوط العريضة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "final",
+    "ex": "Upload only the final invoice on CargoX.",
+    "ar": "ارفع الفاتورة النهائية بس على ‎CargoX‎.",
+    "ex2": "The final version must match the packing list exactly.",
+    "ar2": "النسخة النهائية لازم تطابق قايمة التعبئة بالظبط."
+   }
+  ],
+  "ladder": {
+   "label": "how finished the document is",
+   "lar": "المستند خلصان قد إيه",
+   "steps": [
+    {
+     "w": "outline",
+     "ex": "Here is an outline of the reply to the supplier.",
+     "ar": "دي الخطوط العريضة للرد على المورد.",
+     "ex2": "It has the three main points only.",
+     "ar2": "فيها التلات نقاط الأساسية بس."
+    },
+    {
+     "w": "draft",
+     "ex": "Here is a draft of the reply for your review.",
+     "ar": "دي مسودة الرد عشان تراجعها.",
+     "ex2": "Please mark any changes in red.",
+     "ar2": "علّم أي تعديلات بالأحمر."
+    },
+    {
+     "w": "revised draft",
+     "ex": "Here is the revised draft with Hany's comments.",
+     "ar": "دي المسودة المعدّلة بملاحظات هاني.",
+     "ex2": "Only small changes are left.",
+     "ar2": "فاضل تعديلات صغيرة بس."
+    },
+    {
+     "w": "final version",
+     "ex": "This is the final version; please send it today.",
+     "ar": "دي النسخة النهائية؛ ابعتها النهارده.",
+     "ex2": "No more changes after this.",
+     "ar2": "مفيش تعديلات تاني بعد كده."
+    }
+   ]
+  },
+  "ctx": "The supplier sent the draft invoice for checking. We found three errors, so they must correct the draft before uploading it on CargoX.",
+  "ctx_ar": "المورد بعت مسودة الفاتورة للمراجعة. لقينا تلات غلطات، فلازم يصلّحوا المسودة قبل ما يرفعوها على ‎CargoX‎.",
+  "quiz": [
+   {
+    "s": "Please send the ___ B/L so we can check it before it is issued.",
+    "opts": [
+     "draft",
+     "final",
+     "outline"
+    ],
+    "a": 0,
+    "ar": "من فضلك ابعت مسودة البوليصة عشان نراجعها قبل ما تطلع."
+   },
+   {
+    "s": "I am ___ the reply to the supplier now.",
+    "opts": [
+     "draft",
+     "drafting",
+     "final"
+    ],
+    "a": 1,
+    "ar": "أنا بكتب مسودة الرد على المورد دلوقتي."
+   },
+   {
+    "s": "Upload only the ___ documents on CargoX after approval.",
+    "opts": [
+     "draft",
+     "outline",
+     "final"
+    ],
+    "a": 2,
+    "ar": "ارفع المستندات النهائية بس على ‎CargoX‎ بعد الموافقة."
+   }
+  ]
+ },
+ {
+  "w": "correct",
+  "ar": "تصحّح / صح",
+  "book": "Before you upload them on CargoX, please correct the following points:",
+  "family": [
+   {
+    "w": "correct",
+    "pos": "verb",
+    "ex": "Please correct the HS code on the invoice.",
+    "ar": "من فضلك صحّح الـ‎HS code‎ على الفاتورة.",
+    "ex2": "Correct it before you upload anything on CargoX.",
+    "ar2": "صحّحه قبل ما ترفع أي حاجة على ‎CargoX‎."
+   },
+   {
+    "w": "correct",
+    "pos": "adjective",
+    "ex": "The correct gross weight is 3,960 kg.",
+    "ar": "الوزن القائم الصح 3,960 كيلو.",
+    "ex2": "Please use the correct weight on all documents.",
+    "ar2": "استخدم الوزن الصح على كل المستندات."
+   },
+   {
+    "w": "correction",
+    "pos": "noun",
+    "ex": "We have made all three corrections.",
+    "ar": "عملنا التلات تصحيحات كلهم.",
+    "ex2": "The corrections are now on the final invoice.",
+    "ar2": "التصحيحات بقت على الفاتورة النهائية."
+   },
+   {
+    "w": "correctly",
+    "pos": "adverb",
+    "ex": "Please fill in the import form correctly.",
+    "ar": "من فضلك املا فورم الاستيراد صح.",
+    "ex2": "If it's filled correctly, the bank accepts it first time.",
+    "ar2": "لو اتملى صح، البنك بيقبله من أول مرة."
+   },
+   {
+    "w": "incorrect",
+    "pos": "adjective",
+    "ex": "The HS code 8506.50 is incorrect for lithium batteries.",
+    "ar": "الـ‎HS code 8506.50‎ غلط لبطاريات الليثيوم.",
+    "ex2": "An incorrect code can mean fines at the port.",
+    "ar2": "كود غلط ممكن يجيب غرامات في الميناء."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "fix",
+    "note": "informal: solve any problem",
+    "ex": "Can you fix the typing error in the packing list?",
+    "ar": "ممكن تصلّح غلطة الكتابة في قايمة التعبئة؟",
+    "ex2": "It's a quick fix: 3,690 should be 3,960.",
+    "ar2": "تصليح سريع: 3,690 المفروض تبقى 3,960."
+   },
+   {
+    "w": "amend",
+    "note": "formal: officially change a document",
+    "ex": "Please amend the B/L to show the ACID number.",
+    "ar": "من فضلك عدّل البوليصة يظهر فيها رقم الـ‎ACID‎.",
+    "ex2": "The line charges a fee to amend a B/L.",
+    "ar2": "الخط بياخد رسوم على تعديل البوليصة."
+   },
+   {
+    "w": "rectify",
+    "note": "very formal: put a mistake right",
+    "ex": "We will rectify the error at no cost to you.",
+    "ar": "هنصحّح الغلطة من غير أي تكلفة عليك.",
+    "ex2": "The supplier promised to rectify it within a day.",
+    "ar2": "المورد وعد يصحّحها خلال يوم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "wrong",
+    "ex": "The weight on the packing list was wrong.",
+    "ar": "الوزن على قايمة التعبئة كان غلط.",
+    "ex2": "A wrong weight can stop the shipment at customs.",
+    "ar2": "وزن غلط ممكن يوقّف الشحنة في الجمارك."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The HS code on the draft invoice is wrong. Please correct it to 8507.60 before you upload the documents.",
+  "ctx_ar": "الـ‎HS code‎ على مسودة الفاتورة غلط. من فضلك صحّحه لـ8507.60 قبل ما ترفع المستندات.",
+  "quiz": [
+   {
+    "s": "Please make the ___ before uploading on CargoX.",
+    "opts": [
+     "correct",
+     "correction",
+     "correctly"
+    ],
+    "a": 1,
+    "ar": "من فضلك اعمل التصحيح قبل الرفع على ‎CargoX‎."
+   },
+   {
+    "s": "The HS code is ___; it should be 8507.60.",
+    "opts": [
+     "incorrect",
+     "correctly",
+     "correction"
+    ],
+    "a": 0,
+    "ar": "الـ‎HS code‎ غلط؛ المفروض يبقى 8507.60."
+   },
+   {
+    "s": "Please fill in the import form ___.",
+    "opts": [
+     "correction",
+     "correct",
+     "correctly"
+    ],
+    "a": 2,
+    "ar": "من فضلك املا فورم الاستيراد صح."
+   }
+  ]
+ },
+ {
+  "w": "match",
+  "ar": "تتطابق",
+  "book": "The documents must match exactly, or we may face fines and delays at Alexandria port.",
+  "family": [
+   {
+    "w": "match",
+    "pos": "verb",
+    "ex": "The invoice and packing list must match exactly.",
+    "ar": "الفاتورة وقايمة التعبئة لازم يتطابقوا بالظبط.",
+    "ex2": "If they don't match, customs may fine us.",
+    "ar2": "لو مش متطابقين، الجمارك ممكن تغرّمنا."
+   },
+   {
+    "w": "match",
+    "pos": "noun",
+    "ex": "The new battery is a perfect match for the old UPS.",
+    "ar": "البطارية الجديدة مناسبة تمامًا للـ‎UPS‎ القديم.",
+    "ex2": "It's a perfect match in size and voltage.",
+    "ar2": "مناسبة تمامًا في المقاس والفولت."
+   },
+   {
+    "w": "matching",
+    "pos": "adjective",
+    "ex": "Please send the matching packing list with the invoice.",
+    "ar": "من فضلك ابعت قايمة التعبئة المطابقة مع الفاتورة.",
+    "ex2": "Matching documents speed up customs release.",
+    "ar2": "المستندات المطابقة بتسرّع الإفراج الجمركي."
+   },
+   {
+    "w": "mismatch",
+    "pos": "noun",
+    "ex": "There is a mismatch in the gross weight.",
+    "ar": "فيه عدم تطابق في الوزن القائم.",
+    "ex2": "The mismatch is 3,960 kg versus 3,690 kg.",
+    "ar2": "الفرق 3,960 كيلو قصاد 3,690 كيلو."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "be the same (data, documents)",
+    "mar": "يتطابقوا",
+    "ex": "The ACID number must match on all documents.",
+    "ar": "رقم الـ‎ACID‎ لازم يكون مطابق على كل المستندات.",
+    "ex2": "Customs checks it on the invoice and the B/L.",
+    "ar2": "الجمارك بتشيّك عليه في الفاتورة والبوليصة."
+   },
+   {
+    "m": "link a payment to an invoice",
+    "mar": "تربط دفعة بفاتورة",
+    "ex": "Nadia matches each payment to its invoice.",
+    "ar": "نادية بتربط كل دفعة بالفاتورة بتاعتها.",
+    "ex2": "She can't match it without the invoice number.",
+    "ar2": "مش بتقدر تربطها من غير رقم الفاتورة."
+   },
+   {
+    "m": "give an equal offer",
+    "mar": "تدّي نفس العرض",
+    "ex": "Can you match the competitor's price of USD 1,020?",
+    "ar": "ممكن تنزل لسعر المنافس 1,020 دولار؟",
+    "ex2": "If you match it, we'll order 120 units.",
+    "ar2": "لو نزلت له، هنطلب 120 وحدة."
+   }
+  ],
+  "syn": [
+   {
+    "w": "agree",
+    "note": "figures or records are the same",
+    "ex": "The two statements don't agree by EGP 4,500.",
+    "ar": "الكشفين مش متفقين بفرق 4,500 جنيه.",
+    "ex2": "Find out why they don't agree before closing.",
+    "ar2": "شوف ليه مش متفقين قبل القفل."
+   },
+   {
+    "w": "tally",
+    "note": "counts or totals are the same",
+    "ex": "Our count doesn't tally with the packing list.",
+    "ar": "العدّ بتاعنا مش مطابق لقايمة التعبئة.",
+    "ex2": "It doesn't tally because pallet 6 is short.",
+    "ar2": "مش مطابق عشان باليتة 6 ناقصة."
+   },
+   {
+    "w": "correspond",
+    "note": "formal: two things are related or equal",
+    "ex": "The serial numbers correspond to the warranty list.",
+    "ar": "الأرقام المسلسلة مطابقة لقايمة الضمان.",
+    "ex2": "Each serial number corresponds to one module.",
+    "ar2": "كل رقم مسلسل بيقابل موديول واحد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "differ",
+    "ex": "The weights on the two documents differ by 270 kg.",
+    "ar": "الأوزان في المستندين بتختلف بـ270 كيلو.",
+    "ex2": "When documents differ, customs asks questions.",
+    "ar2": "لما المستندات تختلف، الجمارك بتسأل."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The gross weight on the invoice and packing list does not match. The documents must match exactly, or customs may fine us.",
+  "ctx_ar": "الوزن القائم في الفاتورة وقايمة التعبئة مش متطابق. المستندات لازم تتطابق بالظبط، وإلا الجمارك ممكن تغرّمنا.",
+  "quiz": [
+   {
+    "s": "There is a ___ between the invoice and packing list weights.",
+    "opts": [
+     "match",
+     "matching",
+     "mismatch"
+    ],
+    "a": 2,
+    "ar": "فيه عدم تطابق بين أوزان الفاتورة وقايمة التعبئة."
+   },
+   {
+    "s": "Can you ___ the competitor's price of USD 1,020?",
+    "opts": [
+     "match",
+     "tally",
+     "differ"
+    ],
+    "a": 0,
+    "ar": "ممكن تنزل لسعر المنافس 1,020 دولار؟"
+   },
+   {
+    "s": "Please send the ___ packing list with the invoice.",
+    "opts": [
+     "mismatch",
+     "matching",
+     "differ"
+    ],
+    "a": 1,
+    "ar": "من فضلك ابعت قايمة التعبئة المطابقة مع الفاتورة."
+   }
+  ]
+ },
+ {
+  "w": "approve",
+  "ar": "توافق / تعتمد",
+  "book": "We will upload the documents as soon as you approve them.",
+  "family": [
+   {
+    "w": "approve",
+    "pos": "verb",
+    "ex": "Please approve the draft invoice so we can upload it.",
+    "ar": "من فضلك وافق على مسودة الفاتورة عشان نرفعها.",
+    "ex2": "Once you approve it, we upload it the same day.",
+    "ar2": "أول ما توافق، هنرفعها في نفس اليوم."
+   },
+   {
+    "w": "approval",
+    "pos": "noun",
+    "ex": "The PO needs the Finance Director's approval.",
+    "ar": "الـ‎PO‎ محتاج موافقة المدير المالي.",
+    "ex2": "Without approval, purchasing cannot send it.",
+    "ar2": "من غير موافقة، المشتريات مينفعش تبعته."
+   },
+   {
+    "w": "approved",
+    "pos": "adjective",
+    "ex": "Only approved suppliers can join the tender.",
+    "ar": "الموردين المعتمدين بس يقدروا يدخلوا المناقصة.",
+    "ex2": "VoltTech became an approved supplier this year.",
+    "ar2": "‎VoltTech‎ بقى مورد معتمد السنة دي."
+   },
+   {
+    "w": "approver",
+    "pos": "person",
+    "ex": "Hany is the approver for payments above USD 50,000.",
+    "ar": "هاني هو اللي بيعتمد المدفوعات فوق 50,000 دولار.",
+    "ex2": "The system sends the request to the approver automatically.",
+    "ar2": "السيستم بيبعت الطلب للمعتمد أوتوماتيك."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "authorize",
+    "note": "give official permission, often for money",
+    "ex": "The CFO must authorize any payment above EGP 500,000.",
+    "ar": "المدير المالي لازم يصرّح بأي دفعة فوق 500,000 جنيه.",
+    "ex2": "He authorized the customs payment this morning.",
+    "ar2": "صرّح بدفعة الجمارك النهارده الصبح."
+   },
+   {
+    "w": "sign off",
+    "note": "informal: give the final OK on work",
+    "ex": "The client signed off the commissioning report.",
+    "ar": "العميل مضى على تقرير التشغيل.",
+    "ex2": "After they sign off, we can invoice.",
+    "ar2": "بعد ما يمضوا، نقدر نعمل فاتورة."
+   },
+   {
+    "w": "accept",
+    "note": "agree to an offer or terms",
+    "ex": "We accept your offer of USD 1,040 per unit.",
+    "ar": "موافقين على عرضك 1,040 دولار للوحدة.",
+    "ex2": "Please send the PI after we accept it in writing.",
+    "ar2": "ابعت الـ‎PI‎ بعد ما نوافق كتابةً."
+   }
+  ],
+  "ant": [
+   {
+    "w": "reject",
+    "ex": "The manager rejected the PO because the budget was over.",
+    "ar": "المدير رفض الـ‎PO‎ عشان الميزانية زادت.",
+    "ex2": "We rejected it and asked for a cheaper option.",
+    "ar2": "رفضناه وطلبنا اختيار أرخص."
+   }
+  ],
+  "ladder": {
+   "label": "how official the OK is",
+   "lar": "الموافقة رسمية قد إيه",
+   "steps": [
+    {
+     "w": "agree",
+     "ex": "I agree with the new delivery date.",
+     "ar": "أنا موافق على ميعاد التسليم الجديد.",
+     "ex2": "Please tell the supplier we agree.",
+     "ar2": "قول للمورد إننا موافقين."
+    },
+    {
+     "w": "approve",
+     "ex": "Hany approved the PO for 120 modules.",
+     "ar": "هاني وافق على الـ‎PO‎ بتاع 120 موديول.",
+     "ex2": "The approved PO is now in the system.",
+     "ar2": "الـ‎PO‎ المعتمد بقى على السيستم."
+    },
+    {
+     "w": "authorize",
+     "ex": "The board authorized the USD 124,800 payment.",
+     "ar": "مجلس الإدارة صرّح بدفعة الـ124,800 دولار.",
+     "ex2": "The bank needs that authorization letter.",
+     "ar2": "البنك محتاج جواب التصريح ده."
+    }
+   ]
+  },
+  "ctx": "VoltTech will upload the documents on CargoX after we approve the drafts. So please check them today and send your approval.",
+  "ctx_ar": "‎VoltTech‎ هيرفعوا المستندات على ‎CargoX‎ بعد ما نوافق على المسودات. فمن فضلك راجعها النهارده وابعت موافقتك.",
+  "quiz": [
+   {
+    "s": "The PO needs the Finance Director's ___.",
+    "opts": [
+     "approve",
+     "approval",
+     "approved"
+    ],
+    "a": 1,
+    "ar": "الـ‎PO‎ محتاج موافقة المدير المالي."
+   },
+   {
+    "s": "Only ___ suppliers can join the tender.",
+    "opts": [
+     "approved",
+     "approval",
+     "approver"
+    ],
+    "a": 0,
+    "ar": "الموردين المعتمدين بس يقدروا يدخلوا المناقصة."
+   },
+   {
+    "s": "The CFO must ___ any payment above EGP 500,000.",
+    "opts": [
+     "reject",
+     "sign off",
+     "authorize"
+    ],
+    "a": 2,
+    "ar": "المدير المالي لازم يصرّح بأي دفعة فوق 500,000 جنيه."
+   }
+  ]
+ }
+]

@@ -1,0 +1,572 @@
+[
+ {
+  "w": "postpone",
+  "ar": "يأجّل",
+  "book": "Please be informed that the financial bid opening has been postponed from 12 November to 10 December 2026, as the technical evaluation needs more time.",
+  "family": [
+   {
+    "w": "postpone",
+    "pos": "verb",
+    "ex": "We had to postpone the UPS shutdown because the hospital had an emergency.",
+    "ar": "اضطرينا نأجّل فصل الـ‎UPS‎ لأن المستشفى كان عندها طوارئ.",
+    "ex2": "We postponed it to Friday night.",
+    "ar2": "أجّلناه لليلة الجمعة."
+   },
+   {
+    "w": "postponement",
+    "pos": "noun",
+    "ex": "The postponement of the bid opening gives us time to renew the MAF.",
+    "ar": "تأجيل فتح المظاريف بيدّينا وقت نجدد تفويض المصنّع.",
+    "ex2": "The postponement was announced in Addendum No. 2.",
+    "ar2": "التأجيل اتعلن في الملحق رقم 2."
+   },
+   {
+    "w": "postponed",
+    "pos": "adjective",
+    "ex": "The postponed site visit will now take place on Monday.",
+    "ar": "زيارة الموقع المتأجلة هتبقى يوم الاتنين.",
+    "ex2": "Please inform the engineers about the postponed date.",
+    "ar2": "من فضلك بلّغ المهندسين بالميعاد المتأجل."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "delay",
+    "note": "often unplanned or someone's fault",
+    "ex": "The shipment was delayed at Alexandria port for customs inspection.",
+    "ar": "الشحنة اتأخرت في ميناء إسكندرية عشان تفتيش الجمارك.",
+    "ex2": "The delay pushed installation to next month.",
+    "ar2": "التأخير زقّ التركيب للشهر الجاي."
+   },
+   {
+    "w": "reschedule",
+    "note": "move to a new, fixed date",
+    "ex": "Can we reschedule the maintenance visit to Thursday?",
+    "ar": "ممكن نغيّر ميعاد زيارة الصيانة ليوم الخميس؟",
+    "ex2": "I will reschedule it in the system once you confirm.",
+    "ar2": "هغيّر الميعاد على السيستم أول ما تأكد."
+   },
+   {
+    "w": "put off",
+    "note": "informal spoken English",
+    "ex": "The client wants to put off the battery replacement again.",
+    "ar": "العميل عايز يأجّل تغيير البطاريات تاني.",
+    "ex2": "If he puts it off again, the UPS may fail.",
+    "ar2": "لو أجّله تاني الـ‎UPS‎ ممكن يقع."
+   },
+   {
+    "w": "defer",
+    "note": "formal; used for payments and decisions",
+    "ex": "The client asked to defer the second payment until handover.",
+    "ar": "العميل طلب يأجّل الدفعة التانية لحد الاستلام.",
+    "ex2": "We can defer it if they extend the bank guarantee.",
+    "ar2": "نقدر نأجّلها لو مدّوا خطاب الضمان."
+   }
+  ],
+  "ant": [
+   {
+    "w": "bring forward",
+    "ex": "The client asked us to bring forward the delivery by one week.",
+    "ar": "العميل طلب نقدّم ميعاد التسليم أسبوع.",
+    "ex2": "We can bring it forward if we use air freight.",
+    "ar2": "نقدر نقدّمه لو شحنّا جوي."
+   }
+  ],
+  "ladder": {
+   "label": "how much the plan changes",
+   "lar": "الخطة بتتغير قد إيه",
+   "steps": [
+    {
+     "w": "delay",
+     "ex": "The meeting is delayed by one hour because of traffic.",
+     "ar": "الاجتماع اتأخر ساعة بسبب الزحمة.",
+     "ex2": "A short delay like this does not change the day.",
+     "ar2": "تأخير بسيط زي ده مش بيغيّر اليوم."
+    },
+    {
+     "w": "postpone",
+     "ex": "The committee postponed the opening by four weeks.",
+     "ar": "اللجنة أجّلت الفتح أربع أسابيع.",
+     "ex2": "Because they postponed it, bonds must be extended.",
+     "ar2": "وعشان أجّلوه، الضمانات لازم تتمد."
+    },
+    {
+     "w": "cancel",
+     "ex": "The hospital may cancel the tender if all prices exceed the budget.",
+     "ar": "المستشفى ممكن تلغي المناقصة لو كل الأسعار عدّت الميزانية.",
+     "ex2": "If they cancel it, our bond will be released.",
+     "ar2": "لو لغوها ضماننا هيتفك."
+    }
+   ]
+  },
+  "ctx": "The financial bid opening has been postponed to 10 December. All bidders must extend their bid bonds until 27 April 2027.",
+  "ctx_ar": "فتح المظاريف المالية اتأجل لـ10 ديسمبر. كل المتقدمين لازم يمدّوا خطابات الضمان لحد 27 أبريل 2027.",
+  "quiz": [
+   {
+    "s": "The ___ of the opening was announced in Addendum No. 2.",
+    "opts": [
+     "postpone",
+     "postponement",
+     "postponed"
+    ],
+    "a": 1,
+    "ar": "تأجيل الفتح اتعلن في الملحق رقم 2."
+   },
+   {
+    "s": "Can we ___ the visit to next Tuesday at 10:00?",
+    "opts": [
+     "reschedule",
+     "bring forward",
+     "cancel"
+    ],
+    "a": 0,
+    "ar": "ممكن نغيّر ميعاد الزيارة للتلات الجاي الساعة 10؟"
+   },
+   {
+    "s": "The client wants the delivery earlier, so we must ___ it.",
+    "opts": [
+     "postpone",
+     "defer",
+     "bring forward"
+    ],
+    "a": 2,
+    "ar": "العميل عايز التسليم بدري، فلازم نقدّمه."
+   }
+  ]
+ },
+ {
+  "w": "extend",
+  "ar": "يمدّ",
+  "book": "All bidders are therefore requested to extend the validity of their bids by 60 days and to extend their bid bonds until 27 April 2027.",
+  "family": [
+   {
+    "w": "extend",
+    "pos": "verb",
+    "ex": "Please extend the bid bond until 27 April 2027.",
+    "ar": "من فضلك مدّ خطاب الضمان لحد 27 أبريل 2027.",
+    "ex2": "The hospital asked all bidders to extend their bonds.",
+    "ar2": "المستشفى طلبت من كل المتقدمين يمدّوا ضماناتهم."
+   },
+   {
+    "w": "extension",
+    "pos": "noun",
+    "ex": "We requested an extension of the deadline by one week.",
+    "ar": "طلبنا مد الميعاد أسبوع.",
+    "ex2": "The committee approved the extension for all bidders.",
+    "ar2": "اللجنة وافقت على المد لكل المتقدمين."
+   },
+   {
+    "w": "extended",
+    "pos": "adjective",
+    "ex": "The extended warranty covers the batteries for five years.",
+    "ar": "الضمان الممدود بيغطي البطاريات خمس سنين.",
+    "ex2": "The extended warranty costs 4% of the UPS price.",
+    "ar2": "الضمان الممدود بيتكلف 4% من سعر الـ‎UPS.‎"
+   }
+  ],
+  "meanings": [
+   {
+    "m": "to make a period longer (validity, deadline)",
+    "mar": "يمد مدة",
+    "ex": "The bank extended the LG validity by 60 days.",
+    "ar": "البنك مدّ سريان خطاب الضمان 60 يوم.",
+    "ex2": "The extension cost us an extra EGP 900.",
+    "ar2": "المد كلّفنا 900 جنيه زيادة."
+   },
+   {
+    "m": "to offer formally (thanks, an invitation)",
+    "mar": "يقدّم رسميًا",
+    "ex": "We would like to extend our thanks to the site team.",
+    "ar": "حابين نقدّم شكرنا لفريق الموقع.",
+    "ex2": "We also extend an invitation to our solar exhibition.",
+    "ar2": "وكمان بنقدّم دعوة لمعرض الطاقة الشمسية بتاعنا."
+   },
+   {
+    "m": "to make something longer in space",
+    "mar": "يطوّل / يمد في المكان",
+    "ex": "We need to extend the cable by 15 metres to reach the panel.",
+    "ar": "محتاجين نطوّل الكابل 15 متر عشان يوصل للوحة.",
+    "ex2": "Extending it needs a proper joint kit.",
+    "ar2": "تطويله محتاج طقم وصلة مظبوط."
+   }
+  ],
+  "syn": [
+   {
+    "w": "prolong",
+    "note": "formal; often makes something last longer than wanted",
+    "ex": "Regular maintenance will prolong the life of your batteries.",
+    "ar": "الصيانة الدورية هتطوّل عمر البطاريات بتاعتك.",
+    "ex2": "It can prolong battery life by two years.",
+    "ar2": "ممكن تطوّل عمر البطارية سنتين."
+   },
+   {
+    "w": "renew",
+    "note": "start a new period after the old one ends",
+    "ex": "We renew the maintenance contract with the bank every January.",
+    "ar": "بنجدّد عقد الصيانة مع البنك كل يناير.",
+    "ex2": "This year they renewed it for two years.",
+    "ar2": "السنة دي جدّدوه لسنتين."
+   }
+  ],
+  "ant": [
+   {
+    "w": "shorten",
+    "ex": "The client asked us to shorten the delivery period to 10 weeks.",
+    "ar": "العميل طلب نقصّر مدة التوريد لـ10 أسابيع.",
+    "ex2": "We cannot shorten it without air freight.",
+    "ar2": "مانقدرش نقصّرها من غير شحن جوي."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our bank needs five working days to extend the bonds. We would like to request an extension of the deadline until 17 November.",
+  "ctx_ar": "البنك بتاعنا محتاج خمس أيام شغل عشان يمد الضمانات. حابين نطلب مد الميعاد لحد 17 نوفمبر.",
+  "quiz": [
+   {
+    "s": "The bank approved the ___ of our guarantee.",
+    "opts": [
+     "extend",
+     "extension",
+     "extended"
+    ],
+    "a": 1,
+    "ar": "البنك وافق على مد خطاب الضمان بتاعنا."
+   },
+   {
+    "s": "We offer an ___ warranty of five years on the UPS.",
+    "opts": [
+     "extended",
+     "extend",
+     "extension"
+    ],
+    "a": 0,
+    "ar": "بنقدّم ضمان ممدود خمس سنين على الـ‎UPS.‎"
+   },
+   {
+    "s": "Good ventilation will ___ the life of the batteries.",
+    "opts": [
+     "shorten",
+     "renew",
+     "prolong"
+    ],
+    "a": 2,
+    "ar": "التهوية الكويسة هتطوّل عمر البطاريات."
+   }
+  ]
+ },
+ {
+  "w": "approval",
+  "ar": "موافقة",
+  "book": "However, our bank requires five working days and the approval of its credit committee to issue the amendments.",
+  "family": [
+   {
+    "w": "approve",
+    "pos": "verb",
+    "ex": "The client approved our quotation for the solar station.",
+    "ar": "العميل وافق على عرض سعر محطة الطاقة الشمسية.",
+    "ex2": "He approved it after we reduced the delivery time.",
+    "ar2": "وافق بعد ما قلّلنا مدة التوريد."
+   },
+   {
+    "w": "approval",
+    "pos": "noun",
+    "ex": "The PO needs the finance manager's approval before we send it.",
+    "ar": "أمر الشراء محتاج موافقة المدير المالي قبل ما نبعته.",
+    "ex2": "Approval usually takes one day.",
+    "ar2": "الموافقة عادة بتاخد يوم."
+   },
+   {
+    "w": "approved",
+    "pos": "adjective",
+    "ex": "We only buy batteries from approved suppliers.",
+    "ar": "بنشتري البطاريات من موردين معتمدين بس.",
+    "ex2": "Our approved supplier list is reviewed every year.",
+    "ar2": "قايمة الموردين المعتمدين بتتراجع كل سنة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "consent",
+    "note": "formal permission, often legal or written",
+    "ex": "We need the owner's written consent to enter the server room.",
+    "ar": "محتاجين موافقة كتابية من صاحب المكان عشان ندخل غرفة السيرفرات.",
+    "ex2": "Without consent, security will not let us in.",
+    "ar2": "من غير الموافقة الأمن مش هيدخّلنا."
+   },
+   {
+    "w": "authorisation",
+    "note": "official permission, usually a document",
+    "ex": "The bank needs an authorisation letter for the driver.",
+    "ar": "البنك محتاج جواب تفويض للسواق.",
+    "ex2": "The authorisation must be signed by the general manager.",
+    "ar2": "التفويض لازم يتمضي من المدير العام."
+   },
+   {
+    "w": "go-ahead",
+    "note": "informal; permission to start",
+    "ex": "We got the go-ahead to start the UPS installation on Sunday.",
+    "ar": "أخدنا الضوء الأخضر نبدأ تركيب الـ‎UPS‎ يوم الأحد.",
+    "ex2": "The go-ahead came after the room was handed over.",
+    "ar2": "الضوء الأخضر جه بعد ما الغرفة اتسلّمت."
+   }
+  ],
+  "ant": [
+   {
+    "w": "refusal",
+    "ex": "The credit committee's refusal delayed our bond amendment.",
+    "ar": "رفض لجنة الائتمان أخّر تعديل الضمان بتاعنا.",
+    "ex2": "After the refusal, we offered a higher cash margin.",
+    "ar2": "بعد الرفض عرضنا تأمين نقدي أعلى."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The bank cannot amend the bonds without the approval of its credit committee. This approval usually takes five working days.",
+  "ctx_ar": "البنك مايقدرش يعدّل الضمانات من غير موافقة لجنة الائتمان. الموافقة دي عادة بتاخد خمس أيام شغل.",
+  "quiz": [
+   {
+    "s": "The finance manager must ___ every PO above EGP 100,000.",
+    "opts": [
+     "approve",
+     "approval",
+     "approved"
+    ],
+    "a": 0,
+    "ar": "المدير المالي لازم يوافق على أي أمر شراء فوق 100,000 جنيه."
+   },
+   {
+    "s": "We only work with ___ subcontractors.",
+    "opts": [
+     "approval",
+     "approve",
+     "approved"
+    ],
+    "a": 2,
+    "ar": "إحنا بنشتغل مع مقاولين باطن معتمدين بس."
+   },
+   {
+    "s": "The driver needs an ___ letter to collect the originals.",
+    "opts": [
+     "authorisation",
+     "refusal",
+     "go-ahead"
+    ],
+    "a": 0,
+    "ar": "السواق محتاج جواب تفويض عشان يستلم الأصول."
+   }
+  ]
+ },
+ {
+  "w": "amendment",
+  "ar": "تعديل",
+  "book": "Please send your written confirmation and the bank amendments by Tuesday, 10 November.",
+  "family": [
+   {
+    "w": "amend",
+    "pos": "verb",
+    "ex": "Please amend the LG to extend its validity to 27 April 2027.",
+    "ar": "من فضلك عدّل خطاب الضمان عشان سريانه يتمد لـ27 أبريل 2027.",
+    "ex2": "Do not amend the amount or any other terms.",
+    "ar2": "متعدّلش المبلغ ولا أي شروط تانية."
+   },
+   {
+    "w": "amendment",
+    "pos": "noun",
+    "ex": "The bank issued the amendment to LG-2026-7731 today.",
+    "ar": "البنك أصدر تعديل خطاب الضمان ‎LG-2026-7731‎ النهارده.",
+    "ex2": "We will attach the amendment to our reply to the hospital.",
+    "ar2": "هنرفق التعديل مع ردّنا على المستشفى."
+   },
+   {
+    "w": "amended",
+    "pos": "adjective",
+    "ex": "Please send the amended PO with the new delivery address.",
+    "ar": "من فضلك ابعت أمر الشراء المعدّل بعنوان التسليم الجديد.",
+    "ex2": "The amended PO replaces the one from last week.",
+    "ar2": "أمر الشراء المعدّل بيلغي بتاع الأسبوع اللي فات."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "revision",
+    "note": "new version of a drawing, quote or document",
+    "ex": "Revision B of the drawing shows the new battery rack.",
+    "ar": "النسخة ‎B‎ من الرسمة فيها رف البطاريات الجديد.",
+    "ex2": "Please always quote from the latest revision.",
+    "ar2": "من فضلك سعّر دايمًا من آخر نسخة."
+   },
+   {
+    "w": "addendum",
+    "note": "extra document added to a tender or contract",
+    "ex": "Addendum No. 1 answered all the clarification questions.",
+    "ar": "الملحق رقم 1 ردّ على كل أسئلة الاستيضاح.",
+    "ex2": "Every bidder must sign and return the addendum.",
+    "ar2": "كل متقدم لازم يمضي على الملحق ويرجّعه."
+   },
+   {
+    "w": "variation",
+    "note": "change to the work in a running contract",
+    "ex": "The client asked for a variation to add two more inverters.",
+    "ar": "العميل طلب أمر تغيير يضيف اتنين إنفرتر كمان.",
+    "ex2": "We priced the variation at EGP 180,000.",
+    "ar2": "سعّرنا التغيير بـ180,000 جنيه."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "The hospital needs the bond amendments by 17 November. Please ask the bank to change only the expiry date, not the amounts.",
+  "ctx_ar": "المستشفى محتاجة تعديلات الضمانات قبل 17 نوفمبر. من فضلك اطلب من البنك يغيّر تاريخ الانتهاء بس مش المبالغ.",
+  "quiz": [
+   {
+    "s": "Please ___ the guarantee to extend the expiry date.",
+    "opts": [
+     "amend",
+     "amendment",
+     "amended"
+    ],
+    "a": 0,
+    "ar": "من فضلك عدّل خطاب الضمان عشان تمد تاريخ الانتهاء."
+   },
+   {
+    "s": "The ___ PO shows the correct quantity of 24 batteries.",
+    "opts": [
+     "amend",
+     "amended",
+     "amendment"
+    ],
+    "a": 1,
+    "ar": "أمر الشراء المعدّل فيه الكمية الصح 24 بطارية."
+   },
+   {
+    "s": "The committee answered all questions in ___ No. 1.",
+    "opts": [
+     "Variation",
+     "Revision",
+     "Addendum"
+    ],
+    "a": 2,
+    "ar": "اللجنة ردّت على كل الأسئلة في الملحق رقم 1."
+   }
+  ]
+ },
+ {
+  "w": "exclude",
+  "ar": "يستبعد / مش شامل",
+  "book": "Bidders who do not extend their bid bonds will be excluded.",
+  "family": [
+   {
+    "w": "exclude",
+    "pos": "verb",
+    "ex": "Our UPS price excludes civil works and cable trays.",
+    "ar": "سعر الـ‎UPS‎ بتاعنا مش شامل الأعمال المدنية ومجاري الكابلات.",
+    "ex2": "We exclude them because the main contractor provides them.",
+    "ar2": "بنستبعدهم لأن المقاول الرئيسي بيعملهم."
+   },
+   {
+    "w": "exclusion",
+    "pos": "noun",
+    "ex": "The exclusion of the cables reduces our price by EGP 400,000.",
+    "ar": "استبعاد الكابلات بيقلل سعرنا 400,000 جنيه.",
+    "ex2": "Please list every exclusion clearly in the offer.",
+    "ar2": "من فضلك اكتب كل الاستثناءات بوضوح في العرض."
+   },
+   {
+    "w": "excluded",
+    "pos": "adjective",
+    "ex": "Excluded items are listed in Section 7 of our proposal.",
+    "ar": "البنود المستبعدة مكتوبة في القسم 7 من عرضنا.",
+    "ex2": "Excluded items can be quoted later if needed.",
+    "ar2": "البنود المستبعدة ممكن تتسعّر بعدين لو احتاجوها."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "to remove a bidder or person from a process",
+    "mar": "يستبعد حد",
+    "ex": "The committee excluded two bidders for missing bid bonds.",
+    "ar": "اللجنة استبعدت اتنين متقدمين عشان مفيش ضمان ابتدائي.",
+    "ex2": "Their financial envelopes were returned unopened.",
+    "ar2": "مظاريفهم المالية رجعت من غير ما تتفتح."
+   },
+   {
+    "m": "to leave something out of a price or scope",
+    "mar": "مش شامل",
+    "ex": "The price excludes 14% VAT.",
+    "ar": "السعر مش شامل ضريبة القيمة المضافة 14%.",
+    "ex2": "VAT will be added on the invoice.",
+    "ar2": "الضريبة هتتضاف على الفاتورة."
+   }
+  ],
+  "syn": [
+   {
+    "w": "disqualify",
+    "note": "remove for breaking a rule",
+    "ex": "Late bids will disqualify the bidder automatically.",
+    "ar": "العروض المتأخرة بتستبعد المتقدم أوتوماتيك.",
+    "ex2": "A disqualified bidder cannot appeal the decision.",
+    "ar2": "المتقدم المستبعد مايقدرش يتظلّم من القرار."
+   },
+   {
+    "w": "leave out",
+    "note": "informal; not include something",
+    "ex": "Please leave out the transport cost from this quote.",
+    "ar": "من فضلك شيل تكلفة النقل من عرض السعر ده.",
+    "ex2": "The client will leave it out because he has trucks.",
+    "ar2": "العميل هيشيلها لأن عنده عربيات."
+   },
+   {
+    "w": "rule out",
+    "note": "decide something is not possible",
+    "ex": "We cannot rule out a delay at the port.",
+    "ar": "مانقدرش نستبعد تأخير في الميناء.",
+    "ex2": "So we have not ruled out air freight.",
+    "ar2": "فلسه ماستبعدناش الشحن الجوي."
+   }
+  ],
+  "ant": [
+   {
+    "w": "include",
+    "ex": "Our price includes installation, testing and commissioning.",
+    "ar": "سعرنا شامل التركيب والاختبار والتشغيل.",
+    "ex2": "It also includes training for two hospital engineers.",
+    "ar2": "وكمان شامل تدريب لاتنين مهندسين من المستشفى."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Bidders who do not extend their bonds will be excluded. Please send our amendments to the hospital before 17 November.",
+  "ctx_ar": "المتقدمين اللي مش هيمدّوا ضماناتهم هيتستبعدوا. من فضلك ابعت تعديلاتنا للمستشفى قبل 17 نوفمبر.",
+  "quiz": [
+   {
+    "s": "The ___ of cables from Lot 1 changes our price.",
+    "opts": [
+     "exclude",
+     "exclusion",
+     "excluded"
+    ],
+    "a": 1,
+    "ar": "استبعاد الكابلات من الـ‎Lot 1‎ بيغيّر سعرنا."
+   },
+   {
+    "s": "Our price ___ VAT, so please add 14%.",
+    "opts": [
+     "excludes",
+     "include",
+     "rule out"
+    ],
+    "a": 0,
+    "ar": "سعرنا مش شامل الضريبة، فضيف 14% من فضلك."
+   },
+   {
+    "s": "The price ___ two years of free maintenance.",
+    "opts": [
+     "excludes",
+     "disqualify",
+     "includes"
+    ],
+    "a": 2,
+    "ar": "السعر شامل سنتين صيانة ببلاش."
+   }
+  ]
+ }
+]

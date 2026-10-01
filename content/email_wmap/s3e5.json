@@ -1,0 +1,676 @@
+[
+ {
+  "w": "ETA",
+  "ar": "الميعاد المتوقع للوصول",
+  "book": "The vessel ETA at Alexandria is 18 November.",
+  "family": [
+   {
+    "w": "ETA",
+    "pos": "noun",
+    "ex": "What is the ETA of the container at Alexandria?",
+    "ar": "الكونتينر متوقع يوصل إسكندرية إمتى؟",
+    "ex2": "The ETA decides when our broker starts work.",
+    "ar2": "ميعاد الوصول المتوقع بيحدد إمتى المخلّص يبدأ شغله."
+   },
+   {
+    "w": "arrive",
+    "pos": "verb",
+    "ex": "The vessel arrives in Alexandria on 18 November.",
+    "ar": "المركب هتوصل إسكندرية يوم 18 نوفمبر.",
+    "ex2": "When it arrives, we need the original B/L.",
+    "ar2": "لما توصل، هنحتاج البوليصة الأصلية."
+   },
+   {
+    "w": "arrival",
+    "pos": "noun",
+    "ex": "Please inform us of the arrival of the DHL envelope.",
+    "ar": "من فضلك بلّغنا بوصول ظرف ‎DHL‎.",
+    "ex2": "On arrival, keep the originals in the safe.",
+    "ar2": "أول ما يوصل، احفظ الأصول في الخزنة."
+   },
+   {
+    "w": "estimated",
+    "pos": "adjective",
+    "ex": "The estimated delivery to the warehouse is 1 December.",
+    "ar": "التسليم المتوقع للمخزن يوم 1 ديسمبر.",
+    "ex2": "The estimated date may change with port traffic.",
+    "ar2": "الميعاد المتوقع ممكن يتغير حسب زحمة الميناء."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "expected arrival",
+    "note": "plain words for customers who don't know ETA",
+    "ex": "The expected arrival of the UPS units is next week.",
+    "ar": "وصول وحدات الـ‎UPS‎ المتوقع الأسبوع الجاي.",
+    "ex2": "We'll confirm the expected arrival on Sunday.",
+    "ar2": "هنأكّد ميعاد الوصول المتوقع يوم الحد."
+   },
+   {
+    "w": "due",
+    "note": "short way to say expected on a date",
+    "ex": "The vessel is due at Alexandria on 18 November.",
+    "ar": "المركب مفروض توصل إسكندرية يوم 18 نوفمبر.",
+    "ex2": "The balance payment is also due that week.",
+    "ar2": "والدفعة الأخيرة كمان مستحقة في نفس الأسبوع."
+   },
+   {
+    "w": "arrival date",
+    "note": "the actual or planned day, not a time",
+    "ex": "Please confirm the arrival date of the spare parts.",
+    "ar": "من فضلك أكّد ميعاد وصول قطع الغيار.",
+    "ex2": "The technician needs the arrival date to plan the visit.",
+    "ar2": "الفني محتاج ميعاد الوصول عشان يخطط الزيارة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "ETD",
+    "ex": "The ETD from Shekou is 22 October.",
+    "ar": "ميعاد القيام من ‎Shekou‎ يوم 22 أكتوبر.",
+    "ex2": "With an ETD of 22 October, the ETA is mid-November.",
+    "ar2": "لو القيام 22 أكتوبر، الوصول نص نوفمبر."
+   }
+  ],
+  "ladder": {
+   "label": "how certain the arrival time is",
+   "lar": "ميعاد الوصول مؤكد قد إيه",
+   "steps": [
+    {
+     "w": "expected around",
+     "ex": "The goods are expected around mid-November.",
+     "ar": "البضاعة متوقعة حوالي نص نوفمبر.",
+     "ex2": "It's a rough idea, not a promise.",
+     "ar2": "دي فكرة تقريبية، مش وعد."
+    },
+    {
+     "w": "ETA",
+     "ex": "The ETA at Alexandria is 18 November.",
+     "ar": "الوصول المتوقع لإسكندرية يوم 18 نوفمبر.",
+     "ex2": "The shipping line may still update it.",
+     "ar2": "الخط الملاحي ممكن لسه يحدّثه."
+    },
+    {
+     "w": "confirmed arrival",
+     "ex": "Confirmed arrival: the vessel berthed at 06:00 today.",
+     "ar": "وصول مؤكد: المركب رست الساعة 6 الصبح النهارده.",
+     "ex2": "Discharge starts this afternoon after the confirmed arrival.",
+     "ar2": "التفريغ هيبدأ بعد الضهر بعد الوصول المؤكد."
+    }
+   ]
+  },
+  "ctx": "The vessel ETA at Alexandria is 18 November. Our broker needs the telex release before that date.",
+  "ctx_ar": "ميعاد وصول المركب المتوقع لإسكندرية 18 نوفمبر. المخلّص بتاعنا محتاج التلكس ريليز قبل التاريخ ده.",
+  "quiz": [
+   {
+    "s": "The vessel's ___ at Alexandria is 18 November.",
+    "opts": [
+     "ETD",
+     "ETA",
+     "arrive"
+    ],
+    "a": 1,
+    "ar": "ميعاد وصول المركب المتوقع لإسكندرية 18 نوفمبر."
+   },
+   {
+    "s": "The ship left Shekou on 22 October; that was its ___.",
+    "opts": [
+     "ETA",
+     "arrival",
+     "ETD"
+    ],
+    "a": 2,
+    "ar": "المركب طلعت من ‎Shekou‎ يوم 22 أكتوبر؛ ده كان ميعاد قيامها."
+   },
+   {
+    "s": "The container should ___ at our warehouse around 14:00.",
+    "opts": [
+     "arrive",
+     "arrival",
+     "ETA"
+    ],
+    "a": 0,
+    "ar": "الكونتينر المفروض يوصل المخزن حوالي الساعة 2."
+   }
+  ]
+ },
+ {
+  "w": "on hold",
+  "ar": "متوقّف مؤقتًا / معلّق",
+  "book": "The tracking has shown 'Shipment on hold' in Hong Kong since 3 November.",
+  "family": [
+   {
+    "w": "hold",
+    "pos": "verb",
+    "ex": "DHL will hold the envelope until we send a phone number.",
+    "ar": "‎DHL‎ هتوقف الظرف لحد ما نبعت رقم تليفون.",
+    "ex2": "They hold any parcel with a missing receiver phone.",
+    "ar2": "بيوقفوا أي شحنة ناقصها تليفون المستلم."
+   },
+   {
+    "w": "hold",
+    "pos": "noun",
+    "ex": "Customs put a hold on the container for inspection.",
+    "ar": "الجمارك وقفت الكونتينر للتفتيش.",
+    "ex2": "The hold was lifted after the lab test.",
+    "ar2": "الإيقاف اتشال بعد اختبار المعمل."
+   },
+   {
+    "w": "on hold",
+    "pos": "adjective",
+    "ex": "The customer's order is on hold until the deposit arrives.",
+    "ar": "أوردر العميل متوقف لحد ما العربون يوصل.",
+    "ex2": "We can't ship anything while it's on hold.",
+    "ar2": "مينفعش نشحن حاجة طول ما هو متوقف."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "stopped for now (shipment, order, project)",
+    "mar": "متوقف مؤقتًا",
+    "ex": "The solar project is on hold until the permit is ready.",
+    "ar": "مشروع الطاقة الشمسية متوقف لحد ما التصريح يطلع.",
+    "ex2": "We moved the team to another site while it's on hold.",
+    "ar2": "نقلنا الفريق لموقع تاني طول ما هو متوقف."
+   },
+   {
+    "m": "waiting on a phone line",
+    "mar": "مستني على الخط",
+    "ex": "I was on hold with the bank for twenty minutes.",
+    "ar": "فضلت مستني على خط البنك عشرين دقيقة.",
+    "ex2": "Finally, an agent answered and checked our transfer.",
+    "ar2": "في الآخر موظف رد وشاف التحويل بتاعنا."
+   }
+  ],
+  "syn": [
+   {
+    "w": "pending",
+    "note": "waiting for a decision or action",
+    "ex": "The PO is pending the Finance Director's approval.",
+    "ar": "الـ‎PO‎ مستني موافقة المدير المالي.",
+    "ex2": "Pending items are reviewed every Sunday.",
+    "ar2": "الحاجات المعلّقة بتتراجع كل حد."
+   },
+   {
+    "w": "suspended",
+    "note": "officially stopped, often by an authority",
+    "ex": "The supplier's account was suspended for unpaid invoices.",
+    "ar": "حساب المورد اتوقف بسبب فواتير مش مدفوعة.",
+    "ex2": "Deliveries stay suspended until payment is made.",
+    "ar2": "التوريدات هتفضل موقوفة لحد الدفع."
+   },
+   {
+    "w": "delayed",
+    "note": "late, but still moving",
+    "ex": "The shipment is delayed by three days because of weather.",
+    "ar": "الشحنة متأخرة تلات أيام بسبب الجو.",
+    "ex2": "Delayed is better than on hold; it's still moving.",
+    "ar2": "التأخير أحسن من الإيقاف؛ لسه ماشية."
+   }
+  ],
+  "ant": [
+   {
+    "w": "released",
+    "ex": "The envelope was released and is now on the way.",
+    "ar": "الظرف اتفرج عنه وهو دلوقتي في الطريق.",
+    "ex2": "After it was released, DHL gave a new delivery date.",
+    "ar2": "بعد ما اتفرج عنه، ‎DHL‎ ادّت ميعاد تسليم جديد."
+   },
+   {
+    "w": "in progress",
+    "ex": "The installation is in progress at Horizon Hospital.",
+    "ar": "التركيب شغّال في مستشفى ‎Horizon‎.",
+    "ex2": "Work in progress should finish on Thursday.",
+    "ar2": "الشغل الجاري المفروض يخلص الخميس."
+   }
+  ],
+  "ladder": {
+   "label": "how stopped it is",
+   "lar": "متوقف قد إيه",
+   "steps": [
+    {
+     "w": "delayed",
+     "ex": "The order is delayed by one week.",
+     "ar": "الأوردر متأخر أسبوع.",
+     "ex2": "It's still coming, just later.",
+     "ar2": "لسه جاي، بس متأخر."
+    },
+    {
+     "w": "on hold",
+     "ex": "The order is on hold until the deposit arrives.",
+     "ar": "الأوردر متوقف لحد ما العربون يوصل.",
+     "ex2": "Nothing moves until we pay.",
+     "ar2": "مفيش حاجة هتتحرك لحد ما ندفع."
+    },
+    {
+     "w": "suspended",
+     "ex": "The order is suspended because of a legal issue.",
+     "ar": "الأوردر موقوف بسبب مشكلة قانونية.",
+     "ex2": "Only management can restart a suspended order.",
+     "ar2": "الإدارة بس تقدر ترجّع أوردر موقوف."
+    },
+    {
+     "w": "cancelled",
+     "ex": "The order was cancelled, and the deposit will be refunded.",
+     "ar": "الأوردر اتلغى، والعربون هيترجع.",
+     "ex2": "A cancelled order cannot be restarted.",
+     "ar2": "الأوردر الملغي مينفعش يرجع."
+    }
+   ]
+  },
+  "ctx": "The DHL tracking shows 'on hold' in Hong Kong. Without the original B/L, we cannot collect the container.",
+  "ctx_ar": "تتبّع ‎DHL‎ بيقول متوقف في هونج كونج. من غير البوليصة الأصلية مش هنقدر نستلم الكونتينر.",
+  "quiz": [
+   {
+    "s": "The order is ___ until the customer pays the deposit.",
+    "opts": [
+     "on hold",
+     "hold",
+     "released"
+    ],
+    "a": 0,
+    "ar": "الأوردر متوقف لحد ما العميل يدفع العربون."
+   },
+   {
+    "s": "Customs put a ___ on the container for inspection.",
+    "opts": [
+     "pending",
+     "on hold",
+     "hold"
+    ],
+    "a": 2,
+    "ar": "الجمارك عملت إيقاف على الكونتينر للتفتيش."
+   },
+   {
+    "s": "The PO is ___; we are waiting for the director's approval.",
+    "opts": [
+     "released",
+     "pending",
+     "hold"
+    ],
+    "a": 1,
+    "ar": "الـ‎PO‎ معلّق؛ مستنيين موافقة المدير."
+   }
+  ]
+ },
+ {
+  "w": "urgent",
+  "ar": "مستعجل",
+  "book": "Could you please check with DHL urgently?",
+  "family": [
+   {
+    "w": "urgent",
+    "pos": "adjective",
+    "ex": "We have an urgent issue with the original documents.",
+    "ar": "عندنا مشكلة مستعجلة في المستندات الأصلية.",
+    "ex2": "It's urgent because the vessel arrives in five days.",
+    "ar2": "مستعجلة عشان المركب هتوصل بعد خمس أيام."
+   },
+   {
+    "w": "urgently",
+    "pos": "adverb",
+    "ex": "Please check with DHL urgently.",
+    "ar": "من فضلك شوف مع ‎DHL‎ بسرعة.",
+    "ex2": "We need an answer urgently, today if possible.",
+    "ar2": "محتاجين رد بسرعة، النهارده لو ينفع."
+   },
+   {
+    "w": "urgency",
+    "pos": "noun",
+    "ex": "Please treat this matter with urgency.",
+    "ar": "من فضلك تعامل مع الموضوع ده بسرعة.",
+    "ex2": "The urgency comes from the storage charges at the port.",
+    "ar2": "الاستعجال جاي من رسوم الأرضيات في الميناء."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "pressing",
+    "note": "formal: needs attention soon, but not an emergency",
+    "ex": "Our most pressing issue is the missing UN38.3 document.",
+    "ar": "أهم مشكلة مستعجلة عندنا هي مستند ‎UN38.3‎ الناقص.",
+    "ex2": "Other pressing points can wait until Sunday.",
+    "ar2": "باقي النقط الملحّة ممكن تستنى للحد."
+   },
+   {
+    "w": "time-sensitive",
+    "note": "has a deadline; delay costs money",
+    "ex": "This payment is time-sensitive; free time ends on 2 December.",
+    "ar": "الدفعة دي مرتبطة بوقت؛ الوقت المجاني بيخلص 2 ديسمبر.",
+    "ex2": "Please mark time-sensitive emails clearly in the subject.",
+    "ar2": "علّم الإيميلات المرتبطة بوقت بوضوح في العنوان."
+   },
+   {
+    "w": "critical",
+    "note": "very serious; big impact if not solved",
+    "ex": "The UPS failure at the data centre is critical.",
+    "ar": "عطل الـ‎UPS‎ في الداتا سنتر خطير.",
+    "ex2": "Critical faults get an engineer within four hours.",
+    "ar2": "الأعطال الخطيرة بيروحلها مهندس خلال أربع ساعات."
+   }
+  ],
+  "ant": [
+   {
+    "w": "routine",
+    "ex": "This is a routine maintenance visit, not an emergency.",
+    "ar": "دي زيارة صيانة عادية، مش طوارئ.",
+    "ex2": "Routine visits are planned one month ahead.",
+    "ar2": "الزيارات العادية بتتخطط قبلها بشهر."
+   }
+  ],
+  "ladder": {
+   "label": "how urgent",
+   "lar": "مستعجل قد إيه",
+   "steps": [
+    {
+     "w": "when you can",
+     "ex": "Please send the datasheet when you can.",
+     "ar": "ابعت الداتاشيت لما تفضى.",
+     "ex2": "There's no deadline yet.",
+     "ar2": "لسه مفيش ميعاد نهائي."
+    },
+    {
+     "w": "as soon as possible",
+     "ex": "Please send the MSDS as soon as possible.",
+     "ar": "ابعت الـ‎MSDS‎ في أسرع وقت.",
+     "ex2": "Customs may ask for it next week.",
+     "ar2": "الجمارك ممكن تطلبه الأسبوع الجاي."
+    },
+    {
+     "w": "urgent",
+     "ex": "Urgent: please send the telex release today.",
+     "ar": "مستعجل: ابعت التلكس ريليز النهارده.",
+     "ex2": "The vessel arrives tomorrow morning.",
+     "ar2": "المركب هتوصل بكرة الصبح."
+    },
+    {
+     "w": "critical",
+     "ex": "Critical: the hospital UPS is down.",
+     "ar": "خطير: الـ‎UPS‎ بتاع المستشفى واقف.",
+     "ex2": "Send an engineer now, whatever the cost.",
+     "ar2": "ابعت مهندس دلوقتي، مهما كانت التكلفة."
+    }
+   ]
+  },
+  "ctx": "This is urgent: the vessel arrives on 18 November. Please check with DHL urgently and tell us if a telex release is needed.",
+  "ctx_ar": "ده مستعجل: المركب هتوصل 18 نوفمبر. من فضلك شوف مع ‎DHL‎ بسرعة وقولنا لو محتاجين تلكس ريليز.",
+  "quiz": [
+   {
+    "s": "Could you please check with DHL ___?",
+    "opts": [
+     "urgent",
+     "urgently",
+     "urgency"
+    ],
+    "a": 1,
+    "ar": "ممكن تشوف مع ‎DHL‎ بسرعة؟"
+   },
+   {
+    "s": "Please treat this matter with ___.",
+    "opts": [
+     "urgency",
+     "urgent",
+     "urgently"
+    ],
+    "a": 0,
+    "ar": "من فضلك تعامل مع الموضوع ده باستعجال."
+   },
+   {
+    "s": "This is a ___ request: the vessel arrives in two days.",
+    "opts": [
+     "urgency",
+     "urgently",
+     "urgent"
+    ],
+    "a": 2,
+    "ar": "ده طلب مستعجل: المركب هتوصل بعد يومين."
+   }
+  ]
+ },
+ {
+  "w": "go ahead",
+  "ar": "تمشي في الموضوع / تبدأ",
+  "book": "Please confirm if we should go ahead.",
+  "family": [
+   {
+    "w": "go ahead",
+    "pos": "verb",
+    "ex": "Yes, please go ahead with the telex release.",
+    "ar": "أيوه، من فضلك امشي في التلكس ريليز.",
+    "ex2": "Go ahead today, so it's ready before the vessel arrives.",
+    "ar2": "ابدأ النهارده، عشان يبقى جاهز قبل وصول المركب."
+   },
+   {
+    "w": "go-ahead",
+    "pos": "noun",
+    "ex": "Hany gave us the go-ahead to order 100 more modules.",
+    "ar": "هاني ادّانا الموافقة نطلب 100 موديول كمان.",
+    "ex2": "With the go-ahead, we sent the RFQ the same day.",
+    "ar2": "بالموافقة دي، بعتنا طلب الأسعار في نفس اليوم."
+   },
+   {
+    "w": "ahead",
+    "pos": "adverb",
+    "ex": "The installation is two days ahead of schedule.",
+    "ar": "التركيب متقدم يومين عن الجدول.",
+    "ex2": "Being ahead gives us time for the battery tests.",
+    "ar2": "إننا متقدمين بيدّينا وقت لاختبارات البطاريات."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "proceed",
+    "note": "formal; common in official emails",
+    "ex": "Please proceed with the shipment booking.",
+    "ar": "من فضلك كمّل في حجز الشحن.",
+    "ex2": "You may proceed once the balance is received.",
+    "ar2": "تقدر تكمّل أول ما الباقي يوصل."
+   },
+   {
+    "w": "move forward",
+    "note": "business-speak for continuing a project",
+    "ex": "We are ready to move forward with the solar project.",
+    "ar": "إحنا جاهزين نكمّل في مشروع الطاقة الشمسية.",
+    "ex2": "To move forward, we need the signed contract.",
+    "ar2": "عشان نكمّل، محتاجين العقد متمضي."
+   },
+   {
+    "w": "start",
+    "note": "plain: begin an activity",
+    "ex": "Production starts tomorrow, 26 September.",
+    "ar": "الإنتاج هيبدأ بكرة 26 سبتمبر.",
+    "ex2": "They start once the deposit is confirmed.",
+    "ar2": "هيبدأوا أول ما العربون يتأكد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "hold off",
+    "ex": "Please hold off on the shipment until the LC is opened.",
+    "ar": "من فضلك استنى في الشحن لحد ما الاعتماد يتفتح.",
+    "ex2": "If you hold off a week, we avoid storage charges.",
+    "ar2": "لو استنيت أسبوع، هنتجنب رسوم الأرضيات."
+   },
+   {
+    "w": "stop",
+    "ex": "Please stop production until we confirm the new model.",
+    "ar": "من فضلك وقّف الإنتاج لحد ما نأكّد الموديل الجديد.",
+    "ex2": "We'll stop it only for two days.",
+    "ar2": "هنوقّفه يومين بس."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The supplier asked if they should request a telex release. We told them to go ahead and agreed to pay the USD 100 fee.",
+  "ctx_ar": "المورد سأل لو يطلب تلكس ريليز. قولناله يمشي فيه ووافقنا ندفع رسوم الـ100 دولار.",
+  "quiz": [
+   {
+    "s": "Please ___ with the telex release.",
+    "opts": [
+     "go-ahead",
+     "go ahead",
+     "ahead"
+    ],
+    "a": 1,
+    "ar": "من فضلك امشي في التلكس ريليز."
+   },
+   {
+    "s": "The Finance Director gave us the ___ to order 100 more modules.",
+    "opts": [
+     "go-ahead",
+     "go ahead",
+     "hold off"
+    ],
+    "a": 0,
+    "ar": "المدير المالي ادّانا الموافقة نطلب 100 موديول كمان."
+   },
+   {
+    "s": "Please ___ on the shipment until the LC is opened.",
+    "opts": [
+     "go ahead",
+     "proceed",
+     "hold off"
+    ],
+    "a": 2,
+    "ar": "من فضلك استنى في الشحن لحد ما الاعتماد يتفتح."
+   }
+  ]
+ },
+ {
+  "w": "cover",
+  "ar": "تغطّي / تتحمّل",
+  "book": "Yes, please go ahead with the telex release, and we agree to cover the USD 100 fee.",
+  "family": [
+   {
+    "w": "cover",
+    "pos": "verb",
+    "ex": "We agree to cover the USD 100 telex release fee.",
+    "ar": "موافقين نتحمّل رسوم التلكس ريليز 100 دولار.",
+    "ex2": "We cover it because time is more important.",
+    "ar2": "هنتحمّلها عشان الوقت أهم."
+   },
+   {
+    "w": "cover",
+    "pos": "noun",
+    "ex": "Our insurance cover includes transport to the warehouse.",
+    "ar": "تغطية التأمين بتاعتنا شاملة النقل للمخزن.",
+    "ex2": "Check the cover before the truck leaves the port.",
+    "ar2": "اتأكد من التغطية قبل ما العربية تطلع من الميناء."
+   },
+   {
+    "w": "coverage",
+    "pos": "noun",
+    "ex": "The maintenance contract gives full coverage for spare parts.",
+    "ar": "عقد الصيانة بيدّي تغطية كاملة لقطع الغيار.",
+    "ex2": "Coverage does not include damage from floods.",
+    "ar2": "التغطية مش شاملة الضرر من الغرق."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "pay for a cost",
+    "mar": "تتحمّل تكلفة",
+    "ex": "Who will cover the bank charges outside Egypt?",
+    "ar": "مين هيتحمّل مصاريف البنك برة مصر؟",
+    "ex2": "According to the PI, the buyer covers them.",
+    "ar2": "حسب الـ‎PI‎، المشتري هو اللي بيتحمّلها."
+   },
+   {
+    "m": "include under warranty or insurance",
+    "mar": "يشمل في الضمان أو التأمين",
+    "ex": "The warranty covers the BMS for five years.",
+    "ar": "الضمان بيغطي الـ‎BMS‎ خمس سنين.",
+    "ex2": "It doesn't cover damage from wrong installation.",
+    "ar2": "مش بيغطي الضرر من التركيب الغلط."
+   },
+   {
+    "m": "do a colleague's work while away",
+    "mar": "تشيل شغل زميل غايب",
+    "ex": "Can you cover for Ahmed while he's on leave?",
+    "ar": "ممكن تمسك شغل أحمد وهو في إجازة؟",
+    "ex2": "Please cover his customer calls too.",
+    "ar2": "وكمان ياريت ترد على مكالمات عملائه."
+   },
+   {
+    "m": "deal with a topic",
+    "mar": "يتكلم عن موضوع",
+    "ex": "The training covers VFD installation and settings.",
+    "ar": "التدريب بيشمل تركيب الـ‎VFD‎ وإعداداته.",
+    "ex2": "Day two covers troubleshooting on site.",
+    "ar2": "اليوم التاني عن حل الأعطال في الموقع."
+   }
+  ],
+  "syn": [
+   {
+    "w": "pay for",
+    "note": "plain words; any cost",
+    "ex": "We will pay for the courier to return the originals.",
+    "ar": "هندفع تمن الكورييه عشان نرجّع الأصول.",
+    "ex2": "The supplier will pay for the replacement modules.",
+    "ar2": "المورد هيدفع تمن الموديولات البديلة."
+   },
+   {
+    "w": "bear",
+    "note": "formal: bear the cost, often in contracts",
+    "ex": "The buyer must bear all bank charges outside China.",
+    "ar": "المشتري لازم يتحمّل كل مصاريف البنك برة الصين.",
+    "ex2": "We bear them as agreed in the PI.",
+    "ar2": "بنتحمّلها زي ما اتفقنا في الـ‎PI‎."
+   },
+   {
+    "w": "absorb",
+    "note": "the company takes the cost, not the customer",
+    "ex": "We will absorb the freight increase on this order.",
+    "ar": "هنشيل زيادة الشحن على الأوردر ده.",
+    "ex2": "We absorb it to keep the hospital happy.",
+    "ar2": "بنشيلها عشان نحافظ على رضا المستشفى."
+   }
+  ],
+  "ant": [
+   {
+    "w": "pass on",
+    "ex": "We must pass on the higher freight cost to the customer.",
+    "ar": "لازم نحمّل زيادة الشحن على العميل.",
+    "ex2": "We'll pass it on in the next quotation.",
+    "ar2": "هنحمّلها في عرض السعر الجاي."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The shipping line charges USD 100 for the telex release. We agreed to cover the fee so the goods are not delayed.",
+  "ctx_ar": "الخط الملاحي بياخد 100 دولار على التلكس ريليز. وافقنا نتحمّل الرسوم عشان البضاعة متتأخرش.",
+  "quiz": [
+   {
+    "s": "We will ___ the price increase ourselves and not charge the customer.",
+    "opts": [
+     "absorb",
+     "pass on",
+     "coverage"
+    ],
+    "a": 0,
+    "ar": "هنشيل زيادة السعر على نفسنا ومش هنحمّلها على العميل."
+   },
+   {
+    "s": "We can't absorb the freight increase; we must ___ it to the customer.",
+    "opts": [
+     "cover",
+     "pass on",
+     "absorb"
+    ],
+    "a": 1,
+    "ar": "مش هنقدر نشيل زيادة الشحن؛ لازم نحمّلها على العميل."
+   },
+   {
+    "s": "The contract gives full ___ for spare parts and labour.",
+    "opts": [
+     "bear",
+     "cover",
+     "coverage"
+    ],
+    "a": 2,
+    "ar": "العقد بيدّي تغطية كاملة لقطع الغيار والمصنعية."
+   }
+  ]
+ }
+]

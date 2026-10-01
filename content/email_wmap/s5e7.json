@@ -1,0 +1,647 @@
+[
+ {
+  "w": "award",
+  "ar": "يرسي (مناقصة) / ترسية",
+  "book": "We are pleased to inform you that Horizon Hospital has awarded Lot 1 to Nile Power Solutions for a total contract value of EGP 17,860,000, including 14% VAT.",
+  "family": [
+   {
+    "w": "award",
+    "pos": "verb",
+    "ex": "The ministry awarded the solar pumping project to our company.",
+    "ar": "الوزارة رست مشروع الطلمبات الشمسية على شركتنا.",
+    "ex2": "They awarded it after a two-month evaluation.",
+    "ar2": "رسّوه بعد تقييم شهرين."
+   },
+   {
+    "w": "award",
+    "pos": "noun",
+    "ex": "The award of Lot 1 was announced on 15 December.",
+    "ar": "ترسية الـ‎Lot‎ 1 اتعلنت يوم 15 ديسمبر.",
+    "ex2": "We signed the award letter the same day.",
+    "ar2": "مضينا خطاب الترسية في نفس اليوم."
+   },
+   {
+    "w": "awarded",
+    "pos": "adjective",
+    "ex": "The awarded bidder must submit a performance bond within 10 days.",
+    "ar": "المتقدم اللي رسيت عليه لازم يقدّم ضمان نهائي في خلال 10 أيام.",
+    "ex2": "The awarded contract value is EGP 17.86 million.",
+    "ar2": "قيمة العقد اللي اترسى 17.86 مليون جنيه."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "to give a contract officially after a tender",
+    "mar": "يرسي عقد / مناقصة",
+    "ex": "The hospital awarded the UPS maintenance to a competitor.",
+    "ar": "المستشفى رست صيانة الـ‎UPS‎ على منافس.",
+    "ex2": "They awarded it because his price was 12% lower.",
+    "ar2": "رسّوها عليه لأن سعره كان أقل بـ12%."
+   },
+   {
+    "m": "to give a prize or honour",
+    "mar": "يمنح جايزة",
+    "ex": "The manufacturer awarded us Best Partner in Africa 2026.",
+    "ar": "المصنّع منحنا جايزة أفضل شريك في أفريقيا 2026.",
+    "ex2": "The award was for our UPS sales growth.",
+    "ar2": "الجايزة كانت على نمو مبيعات الـ‎UPS‎ بتاعتنا."
+   }
+  ],
+  "syn": [
+   {
+    "w": "grant",
+    "note": "for permission, licences and funding",
+    "ex": "The authority granted us a licence to install solar stations.",
+    "ar": "الجهة منحتنا رخصة تركيب محطات طاقة شمسية.",
+    "ex2": "They granted it after checking our engineers' certificates.",
+    "ar2": "منحوها بعد ما راجعوا شهادات مهندسينا."
+   },
+   {
+    "w": "win",
+    "note": "the bidder's side: we win, they award",
+    "ex": "We were happy to win Lot 1 but lost Lot 2 on price.",
+    "ar": "كنا مبسوطين إننا كسبنا الـ‎Lot‎ 1 بس خسرنا الـ‎Lot‎ 2 بسبب السعر.",
+    "ex2": "Winning Lot 1 brings three years of service work.",
+    "ar2": "إننا كسبنا الـ‎Lot‎ 1 بيجيب تلات سنين شغل صيانة."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "The hospital has awarded us Lot 1 of the UPS tender. We must submit the performance bond within 10 days.",
+  "ctx_ar": "المستشفى رست علينا الـ‎Lot‎ 1 في مناقصة الـ‎UPS‎. لازم نقدّم الضمان النهائي في خلال 10 أيام.",
+  "quiz": [
+   {
+    "s": "The committee will ___ the contract to the lowest compliant bidder.",
+    "opts": [
+     "award",
+     "awarded",
+     "win"
+    ],
+    "a": 0,
+    "ar": "اللجنة هترسي العقد على أقل متقدم مطابق."
+   },
+   {
+    "s": "The ___ bidder signed the contract yesterday.",
+    "opts": [
+     "award",
+     "awarded",
+     "grant"
+    ],
+    "a": 1,
+    "ar": "المتقدم اللي رسي عليه مضى العقد امبارح."
+   },
+   {
+    "s": "We hope to ___ Lot 1, so we can start work in January.",
+    "opts": [
+     "awarded",
+     "grant",
+     "win"
+    ],
+    "a": 2,
+    "ar": "بنتمنى نكسب الـ‎Lot‎ 1 عشان نبدأ الشغل في يناير."
+   }
+  ]
+ },
+ {
+  "w": "release",
+  "ar": "يفك / يفرج عن",
+  "book": "Accordingly, your bid bond LG-2026-7731 (Lot 1) has been released, and your bid bond LG-2026-7732 (Lot 2) is also released.",
+  "family": [
+   {
+    "w": "release",
+    "pos": "verb",
+    "ex": "The hospital will release our bid bond after the performance bond arrives.",
+    "ar": "المستشفى هتفك خطاب الضمان الابتدائي بعد ما الضمان النهائي يوصل.",
+    "ex2": "Then the bank will release our cash margin.",
+    "ar2": "وبعدها البنك هيفك التأمين النقدي بتاعنا."
+   },
+   {
+    "w": "release",
+    "pos": "noun",
+    "ex": "Please confirm the release of LG-2026-7732 in writing.",
+    "ar": "من فضلك أكد فك خطاب الضمان ‎LG-2026-7732‎ كتابةً.",
+    "ex2": "The bank needs the release letter to cancel it.",
+    "ar2": "البنك محتاج خطاب الإفراج عشان يلغيه."
+   },
+   {
+    "w": "released",
+    "pos": "adjective",
+    "ex": "The released bonds can be collected from the Finance Department.",
+    "ar": "الضمانات اللي اتفكت ممكن تتستلم من الإدارة المالية.",
+    "ex2": "Return the released originals to the bank this week.",
+    "ar2": "رجّع الأصول اللي اتفكت للبنك الأسبوع ده."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "to return a guarantee so it is no longer active",
+    "mar": "يفك ضمان",
+    "ex": "The client released our performance bond after the warranty.",
+    "ar": "العميل فك الضمان النهائي بتاعنا بعد الضمان.",
+    "ex2": "The release freed EGP 89,000 of our cash margin.",
+    "ar2": "الفك حرّر 89,000 جنيه من التأمين النقدي."
+   },
+   {
+    "m": "to allow money to be paid",
+    "mar": "يصرف دفعة",
+    "ex": "Finance will release the payment once the invoice is approved.",
+    "ar": "الحسابات هتصرف الدفعة أول ما الفاتورة تتعتمد.",
+    "ex2": "They release supplier payments every Thursday.",
+    "ar2": "بيصرفوا دفعات الموردين كل خميس."
+   },
+   {
+    "m": "to let goods leave customs or a warehouse",
+    "mar": "يفرج عن بضاعة",
+    "ex": "Customs released the battery shipment after inspection.",
+    "ar": "الجمارك أفرجت عن شحنة البطاريات بعد التفتيش.",
+    "ex2": "Once released, the truck left the port at night.",
+    "ar2": "أول ما اتفرج عنها العربية خرجت من الميناء بالليل."
+   },
+   {
+    "m": "to make a new product or version available",
+    "mar": "يطلق / ينزّل",
+    "ex": "The manufacturer released new firmware for the 400 kVA UPS.",
+    "ar": "المصنّع نزّل سوفتوير جديد للـ‎UPS‎ 400 ‎kVA‎.",
+    "ex2": "We will install the released version during the next visit.",
+    "ar2": "هننزّل النسخة الجديدة في الزيارة الجاية."
+   }
+  ],
+  "syn": [
+   {
+    "w": "return",
+    "note": "physically give back the original document",
+    "ex": "Please return the original bid bond to our representative.",
+    "ar": "من فضلك رجّع أصل خطاب الضمان لمندوبنا.",
+    "ex2": "He will return it to the bank for cancellation.",
+    "ar2": "هو هيرجّعه للبنك عشان يتلغى."
+   },
+   {
+    "w": "free up",
+    "note": "informal; make money or resources available again",
+    "ex": "Releasing the bonds will free up our credit line.",
+    "ar": "فك الضمانات هيفضّي حد الائتمان بتاعنا.",
+    "ex2": "That freed-up credit will help with the next tender.",
+    "ar2": "الائتمان اللي فضي هيساعدنا في المناقصة الجاية."
+   }
+  ],
+  "ant": [
+   {
+    "w": "hold",
+    "ex": "The client will hold 5% of the invoice until handover.",
+    "ar": "العميل هيحجز 5% من الفاتورة لحد الاستلام.",
+    "ex2": "They hold it to make sure we finish the snag list.",
+    "ar2": "بيحجزوها عشان يتأكدوا إننا نخلّص الملاحظات."
+   },
+   {
+    "w": "retain",
+    "ex": "The hospital will retain the performance bond until 31 July 2030.",
+    "ar": "المستشفى هتحتفظ بالضمان النهائي لحد 31 يوليو 2030.",
+    "ex2": "They retain it to cover the warranty period.",
+    "ar2": "بيحتفظوا بيه عشان يغطي فترة الضمان."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The hospital has received our performance bond. Could you please release our bid bond, so we can return it to the bank?",
+  "ctx_ar": "المستشفى استلمت الضمان النهائي بتاعنا. ممكن تفكّوا خطاب الضمان الابتدائي عشان نرجّعه للبنك؟",
+  "quiz": [
+   {
+    "s": "Please confirm the ___ of our bid bond.",
+    "opts": [
+     "release",
+     "released",
+     "retain"
+    ],
+    "a": 0,
+    "ar": "من فضلك أكد فك خطاب الضمان الابتدائي بتاعنا."
+   },
+   {
+    "s": "The ___ originals are ready at the Finance Department.",
+    "opts": [
+     "release",
+     "released",
+     "hold"
+    ],
+    "a": 1,
+    "ar": "الأصول اللي اتفكت جاهزة في الإدارة المالية."
+   },
+   {
+    "s": "The client will ___ the performance bond until the warranty ends.",
+    "opts": [
+     "release",
+     "free up",
+     "retain"
+    ],
+    "a": 2,
+    "ar": "العميل هيحتفظ بالضمان النهائي لحد ما فترة الضمان تخلص."
+   }
+  ]
+ },
+ {
+  "w": "regret",
+  "ar": "يأسف",
+  "book": "We regret to inform you that Lot 2 has been awarded to another bidder.",
+  "family": [
+   {
+    "w": "regret",
+    "pos": "verb",
+    "ex": "We regret to inform you that the delivery will be two weeks late.",
+    "ar": "يؤسفنا نبلّغك إن التسليم هيتأخر أسبوعين.",
+    "ex2": "We regret any trouble this delay may cause.",
+    "ar2": "بنعتذر عن أي إزعاج ممكن التأخير ده يسببه."
+   },
+   {
+    "w": "regret",
+    "pos": "noun",
+    "ex": "It is with regret that we decline your invitation to tender.",
+    "ar": "بكل أسف بنعتذر عن دعوتكم للمناقصة.",
+    "ex2": "Our regret is that the delivery period is too short for us.",
+    "ar2": "أسفنا إن مدة التوريد قصيرة علينا أوي."
+   },
+   {
+    "w": "regrettable",
+    "pos": "adjective",
+    "ex": "The error in the guarantee amount was regrettable.",
+    "ar": "الغلطة في مبلغ الضمان كانت مؤسفة.",
+    "ex2": "The bank called the regrettable mistake a system issue.",
+    "ar2": "البنك قال إن الغلطة المؤسفة دي مشكلة سيستم."
+   },
+   {
+    "w": "regrettably",
+    "pos": "adverb",
+    "ex": "Regrettably, the batteries arrived damaged.",
+    "ar": "للأسف البطاريات وصلت مكسورة.",
+    "ex2": "Regrettably, the supplier has no stock to replace them now.",
+    "ar2": "وللأسف المورد مفيش عنده مخزون يبدّلهم دلوقتي."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "sorry",
+    "note": "less formal; common in daily emails",
+    "ex": "We are sorry that the technician arrived late.",
+    "ar": "إحنا آسفين إن الفني وصل متأخر.",
+    "ex2": "We are sorry, and we have changed his route.",
+    "ar2": "إحنا آسفين، وغيّرنا خط سيره."
+   },
+   {
+    "w": "apologise",
+    "note": "when it is your own fault",
+    "ex": "We apologise for the wrong amount on the invoice.",
+    "ar": "بنعتذر عن المبلغ الغلط في الفاتورة.",
+    "ex2": "We apologise and attach the corrected e-invoice.",
+    "ar2": "بنعتذر ومرفق الفاتورة الإلكترونية المصحّحة."
+   },
+   {
+    "w": "unfortunately",
+    "note": "adverb at the start of bad news",
+    "ex": "Unfortunately, the shipment is held at customs.",
+    "ar": "للأسف الشحنة متحجوزة في الجمارك.",
+    "ex2": "Unfortunately, this may delay commissioning by a week.",
+    "ar2": "للأسف ده ممكن يأخّر التشغيل أسبوع."
+   }
+  ],
+  "ant": [
+   {
+    "w": "pleased",
+    "ex": "We are pleased to inform you that you won Lot 1.",
+    "ar": "يسعدنا نبلّغكم إنكم كسبتوا الـ‎Lot‎ 1.",
+    "ex2": "We are pleased to work with you again.",
+    "ar2": "يسعدنا نشتغل معاكم تاني."
+   }
+  ],
+  "ladder": {
+   "label": "how formal the bad news is",
+   "lar": "الخبر الوحش رسمي قد إيه",
+   "steps": [
+    {
+     "w": "unfortunately",
+     "ex": "Unfortunately, the inverter will arrive next week.",
+     "ar": "للأسف الإنفرتر هيوصل الأسبوع الجاي.",
+     "ex2": "Unfortunately is fine in daily emails to colleagues.",
+     "ar2": "كلمة للأسف كويسة في إيميلات الزملا اليومية."
+    },
+    {
+     "w": "we are sorry to",
+     "ex": "We are sorry to tell you that the price has increased.",
+     "ar": "آسفين نقولك إن السعر زاد.",
+     "ex2": "We are sorry to say this, but the exchange rate changed.",
+     "ar2": "آسفين نقول كده بس سعر الصرف اتغير."
+    },
+    {
+     "w": "we regret to inform you",
+     "ex": "We regret to inform you that your bid was not successful.",
+     "ar": "يؤسفنا نبلّغكم إن عرضكم مانجحش.",
+     "ex2": "We regret to inform you formally, as the committee requires.",
+     "ar2": "بنبلّغكم بأسف بشكل رسمي زي ما اللجنة بتطلب."
+    }
+   ]
+  },
+  "ctx": "We regret to inform you that the battery shipment is delayed by two weeks. We will send you the new ETA tomorrow.",
+  "ctx_ar": "يؤسفنا نبلّغكم إن شحنة البطاريات متأخرة أسبوعين. هنبعتلكم ميعاد الوصول الجديد بكرة.",
+  "quiz": [
+   {
+    "s": "We ___ to inform you that the price has changed.",
+    "opts": [
+     "regret",
+     "regrettable",
+     "regrettably"
+    ],
+    "a": 0,
+    "ar": "يؤسفنا نبلّغكم إن السعر اتغير."
+   },
+   {
+    "s": "___, the UPS arrived with a broken display.",
+    "opts": [
+     "Regret",
+     "Regrettable",
+     "Regrettably"
+    ],
+    "a": 2,
+    "ar": "للأسف الـ‎UPS‎ وصل بشاشة مكسورة."
+   },
+   {
+    "s": "We ___ for the mistake on our invoice.",
+    "opts": [
+     "pleased",
+     "apologise",
+     "regret"
+    ],
+    "a": 1,
+    "ar": "بنعتذر عن الغلطة في فاتورتنا."
+   }
+  ]
+ },
+ {
+  "w": "disappointed",
+  "ar": "زعلان / محبط",
+  "book": "Although we are disappointed with the result, we respect the committee's decision and congratulate the winning bidder.",
+  "family": [
+   {
+    "w": "disappoint",
+    "pos": "verb",
+    "ex": "We don't want to disappoint the client with another late delivery.",
+    "ar": "مش عايزين نزعّل العميل بتأخير تاني في التسليم.",
+    "ex2": "Late deliveries disappoint even loyal customers.",
+    "ar2": "التأخير بيزعّل حتى العملا المخلصين."
+   },
+   {
+    "w": "disappointed",
+    "pos": "adjective",
+    "ex": "We are disappointed that we lost Lot 2 by 12%.",
+    "ar": "إحنا زعلانين إننا خسرنا الـ‎Lot‎ 2 بفرق 12%.",
+    "ex2": "Though disappointed, we will learn from the result.",
+    "ar2": "رغم إننا زعلانين، هنتعلم من النتيجة."
+   },
+   {
+    "w": "disappointing",
+    "pos": "adjective",
+    "ex": "The sales figures for solar inverters were disappointing this quarter.",
+    "ar": "أرقام مبيعات الإنفرترات الشمسية كانت مخيّبة للأمل الربع ده.",
+    "ex2": "The disappointing result was due to high import costs.",
+    "ar2": "النتيجة المخيّبة كانت بسبب غلو تكلفة الاستيراد."
+   },
+   {
+    "w": "disappointment",
+    "pos": "noun",
+    "ex": "Losing Lot 2 was a disappointment for the whole team.",
+    "ar": "خسارة الـ‎Lot‎ 2 كانت خيبة أمل للفريق كله.",
+    "ex2": "We turned the disappointment into a review of our pricing.",
+    "ar2": "حوّلنا خيبة الأمل لمراجعة لتسعيرنا."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "let down",
+    "note": "informal; someone failed to do what they promised",
+    "ex": "The supplier let us down with a late shipment.",
+    "ar": "المورد خذلنا بشحنة متأخرة.",
+    "ex2": "We felt let down because they promised week 40.",
+    "ar2": "حسّينا إنهم خذلونا لأنهم وعدوا بأسبوع 40."
+   },
+   {
+    "w": "dissatisfied",
+    "note": "formal; used in complaints about service",
+    "ex": "The client is dissatisfied with the response time of our team.",
+    "ar": "العميل مش راضي عن سرعة استجابة فريقنا.",
+    "ex2": "A dissatisfied client may not renew the contract.",
+    "ar2": "عميل مش راضي ممكن مايجددش العقد."
+   },
+   {
+    "w": "unhappy",
+    "note": "general and direct; can sound stronger in emails",
+    "ex": "The hospital is unhappy about the noise from the UPS room.",
+    "ar": "المستشفى مضايقة من الصوت اللي طالع من غرفة الـ‎UPS‎.",
+    "ex2": "We will install acoustic panels to fix it.",
+    "ar2": "هنركّب ألواح عزل صوت عشان نحلّها."
+   }
+  ],
+  "ant": [
+   {
+    "w": "pleased",
+    "ex": "We are pleased with the result of the technical evaluation.",
+    "ar": "إحنا مبسوطين بنتيجة التقييم الفني.",
+    "ex2": "Our engineers are pleased that all items were compliant.",
+    "ar2": "مهندسينا مبسوطين إن كل البنود كانت مطابقة."
+   },
+   {
+    "w": "satisfied",
+    "ex": "The client is satisfied with our maintenance service.",
+    "ar": "العميل راضي عن خدمة الصيانة بتاعتنا.",
+    "ex2": "A satisfied client renewed the contract for three years.",
+    "ar2": "العميل الراضي جدّد العقد تلات سنين."
+   }
+  ],
+  "ladder": {
+   "label": "how unhappy you are",
+   "lar": "زعلان قد إيه",
+   "steps": [
+    {
+     "w": "slightly disappointed",
+     "ex": "We are slightly disappointed that the meeting was moved again.",
+     "ar": "إحنا زعلانين شوية إن الاجتماع اتنقل تاني.",
+     "ex2": "Slightly disappointed, but the new date still works.",
+     "ar2": "زعلانين شوية بس الميعاد الجديد لسه مناسب."
+    },
+    {
+     "w": "disappointed",
+     "ex": "We are disappointed with the result of Lot 2.",
+     "ar": "إحنا زعلانين من نتيجة الـ‎Lot‎ 2.",
+     "ex2": "Still, we respect the committee's decision.",
+     "ar2": "ومع ذلك بنحترم قرار اللجنة."
+    },
+    {
+     "w": "deeply disappointed",
+     "ex": "We are deeply disappointed that the inverters failed again.",
+     "ar": "إحنا زعلانين جدًا إن الإنفرترات وقعت تاني.",
+     "ex2": "Deeply disappointed, we asked the supplier for a full replacement.",
+     "ar2": "وإحنا زعلانين جدًا، طلبنا من المورد يبدّلهم كلهم."
+    }
+   ]
+  },
+  "ctx": "We are disappointed that we lost Lot 2, but we respect the decision. We hope to be invited to your next tender.",
+  "ctx_ar": "إحنا زعلانين إننا خسرنا الـ‎Lot‎ 2، بس بنحترم القرار. نتمنى تدعونا في المناقصة الجاية.",
+  "quiz": [
+   {
+    "s": "The results this quarter were ___.",
+    "opts": [
+     "disappointed",
+     "disappointing",
+     "disappointment"
+    ],
+    "a": 1,
+    "ar": "النتايج الربع ده كانت مخيّبة للأمل."
+   },
+   {
+    "s": "We are ___ that we did not win Lot 2.",
+    "opts": [
+     "disappointed",
+     "disappointing",
+     "disappoint"
+    ],
+    "a": 0,
+    "ar": "إحنا زعلانين إننا ماكسبناش الـ‎Lot‎ 2."
+   },
+   {
+    "s": "The client is ___ with our quick response and renewed the contract.",
+    "opts": [
+     "dissatisfied",
+     "let down",
+     "satisfied"
+    ],
+    "a": 2,
+    "ar": "العميل راضي عن ردّنا السريع وجدّد العقد."
+   }
+  ]
+ },
+ {
+  "w": "appreciate",
+  "ar": "يقدّر",
+  "book": "We also appreciate your feedback on Lot 2.",
+  "family": [
+   {
+    "w": "appreciate",
+    "pos": "verb",
+    "ex": "We appreciate your quick reply about the bid bond.",
+    "ar": "بنقدّر ردّك السريع بخصوص خطاب الضمان.",
+    "ex2": "We really appreciate it, because the deadline was close.",
+    "ar2": "بجد بنقدّره لأن الميعاد كان قرّب."
+   },
+   {
+    "w": "appreciation",
+    "pos": "noun",
+    "ex": "The client sent a letter of appreciation to our service team.",
+    "ar": "العميل بعت جواب شكر وتقدير لفريق الصيانة بتاعنا.",
+    "ex2": "The appreciation letter mentioned the night-time UPS repair.",
+    "ar2": "جواب التقدير ذكر تصليح الـ‎UPS‎ بالليل."
+   },
+   {
+    "w": "appreciative",
+    "pos": "adjective",
+    "ex": "The hospital was very appreciative of our fast response.",
+    "ar": "المستشفى كانت مقدّرة جدًا سرعة استجابتنا.",
+    "ex2": "Appreciative clients often recommend us to others.",
+    "ar2": "العملا اللي بيقدّروا بيرشّحونا لغيرهم كتير."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "to be grateful for something",
+    "mar": "يقدّر / يشكر على",
+    "ex": "We appreciate your support during the evaluation.",
+    "ar": "بنقدّر دعمكم أثناء التقييم.",
+    "ex2": "We appreciate the time your team spent with us.",
+    "ar2": "بنقدّر الوقت اللي فريقكم قضاه معانا."
+   },
+   {
+    "m": "to understand a situation or difficulty",
+    "mar": "يفهم / يقدّر الظروف",
+    "ex": "We appreciate that the deadline is tight for your bank.",
+    "ar": "فاهمين إن الميعاد ضيق على البنك بتاعكم.",
+    "ex2": "However, we appreciate that the hospital cannot change it.",
+    "ar2": "بس برضه فاهمين إن المستشفى مش هتقدر تغيّره."
+   }
+  ],
+  "syn": [
+   {
+    "w": "value",
+    "note": "appreciate over time; a relationship or opinion",
+    "ex": "We value our long relationship with Horizon Hospital.",
+    "ar": "بنقدّر علاقتنا الطويلة بمستشفى ‎Horizon‎.",
+    "ex2": "We value their feedback when we prepare new offers.",
+    "ar2": "بنقدّر رأيهم لما بنجهّز عروض جديدة."
+   },
+   {
+    "w": "grateful for",
+    "note": "warmer and a bit more formal",
+    "ex": "We are grateful for the extension of the deadline.",
+    "ar": "إحنا ممتنّين لمد الميعاد.",
+    "ex2": "We are grateful for the committee's flexibility.",
+    "ar2": "إحنا ممتنّين لمرونة اللجنة."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how grateful you sound",
+   "lar": "الشكر قوي قد إيه",
+   "steps": [
+    {
+     "w": "thanks",
+     "ex": "Thanks for sending the minutes so quickly.",
+     "ar": "شكرًا إنك بعت المحضر بسرعة كده.",
+     "ex2": "Thanks is fine for colleagues and quick replies.",
+     "ar2": "شكرًا كويسة للزملا والردود السريعة."
+    },
+    {
+     "w": "we appreciate",
+     "ex": "We appreciate your feedback on our bid for Lot 2.",
+     "ar": "بنقدّر رأيكم في عرضنا للـ‎Lot‎ 2.",
+     "ex2": "We appreciate it because it helps us price better.",
+     "ar2": "بنقدّره لأنه بيساعدنا نسعّر أحسن."
+    },
+    {
+     "w": "we are very grateful",
+     "ex": "We are very grateful for your support during this tender.",
+     "ar": "إحنا ممتنّين جدًا لدعمكم طول المناقصة دي.",
+     "ex2": "We are very grateful, and we look forward to working together.",
+     "ar2": "إحنا ممتنّين جدًا، ومستنيين نشتغل مع بعض."
+    }
+   ]
+  },
+  "ctx": "We appreciate your feedback on Lot 2. It will help us review our pricing for the next hospital tender.",
+  "ctx_ar": "بنقدّر رأيكم في الـ‎Lot‎ 2. ده هيساعدنا نراجع تسعيرنا للمناقصة الجاية في المستشفى.",
+  "quiz": [
+   {
+    "s": "We would ___ a quick reply about the bond release.",
+    "opts": [
+     "appreciate",
+     "appreciation",
+     "appreciative"
+    ],
+    "a": 0,
+    "ar": "هنقدّر رد سريع بخصوص فك الضمان."
+   },
+   {
+    "s": "The client sent a letter of ___ to our technicians.",
+    "opts": [
+     "appreciate",
+     "appreciation",
+     "appreciative"
+    ],
+    "a": 1,
+    "ar": "العميل بعت جواب تقدير للفنيين بتوعنا."
+   },
+   {
+    "s": "We ___ our long relationship with the hospital.",
+    "opts": [
+     "thanks",
+     "grateful for",
+     "value"
+    ],
+    "a": 2,
+    "ar": "بنقدّر علاقتنا الطويلة بالمستشفى."
+   }
+  ]
+ }
+]

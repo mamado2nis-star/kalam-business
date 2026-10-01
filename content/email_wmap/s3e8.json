@@ -1,0 +1,659 @@
+[
+ {
+  "w": "shortage",
+  "ar": "عجز / نقص",
+  "book": "Unfortunately, we found a shortage and damaged goods.",
+  "family": [
+   {
+    "w": "short",
+    "pos": "adjective",
+    "ex": "Pallet 6 was packed short by two modules.",
+    "ar": "باليتة 6 اتعبّت ناقصة موديولين.",
+    "ex2": "Being short meant 118 modules instead of 120.",
+    "ar2": "النقص ده معناه 118 موديول بدل 120."
+   },
+   {
+    "w": "shortage",
+    "pos": "noun",
+    "ex": "We found a shortage of two modules on pallet 6.",
+    "ar": "لقينا عجز موديولين في باليتة 6.",
+    "ex2": "The shortage is shown on our GRN.",
+    "ar2": "العجز مكتوب في إذن الاستلام بتاعنا."
+   },
+   {
+    "w": "shortfall",
+    "pos": "noun",
+    "ex": "There is a USD 45 shortfall in the deposit.",
+    "ar": "فيه عجز 45 دولار في العربون.",
+    "ex2": "We'll add the shortfall to the balance payment.",
+    "ar2": "هنضيف العجز على الدفعة الأخيرة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "shortfall",
+    "note": "money or amount below a target",
+    "ex": "Our Q4 collections show a shortfall of EGP 2 million.",
+    "ar": "تحصيلات الربع الرابع فيها عجز 2 مليون جنيه.",
+    "ex2": "The shortfall affects next month's payments.",
+    "ar2": "العجز بيأثر على مدفوعات الشهر الجاي."
+   },
+   {
+    "w": "deficit",
+    "note": "finance: spending is more than income",
+    "ex": "The project ran a deficit because of the dollar rate.",
+    "ar": "المشروع عمل عجز بسبب سعر الدولار.",
+    "ex2": "We need a bigger margin to cover the deficit.",
+    "ar2": "محتاجين هامش أكبر عشان نغطي العجز."
+   },
+   {
+    "w": "lack",
+    "note": "general: not having enough of something",
+    "ex": "A lack of stock delayed the hospital installation.",
+    "ar": "نقص المخزون أخّر تركيب المستشفى.",
+    "ex2": "The lack of documents also stopped customs.",
+    "ar2": "ونقص المستندات كمان وقّف الجمارك."
+   }
+  ],
+  "ant": [
+   {
+    "w": "surplus",
+    "ex": "We have a surplus of 12V batteries after the count.",
+    "ar": "عندنا زيادة في بطاريات الـ‎12V‎ بعد الجرد.",
+    "ex2": "Let's offer the surplus to service customers.",
+    "ar2": "خلّينا نعرض الزيادة على عملاء الخدمة."
+   },
+   {
+    "w": "excess",
+    "ex": "The supplier sent an excess of two cables.",
+    "ar": "المورد بعت كابلين زيادة.",
+    "ex2": "We'll return the excess with the next shipment.",
+    "ar2": "هنرجّع الزيادة مع الشحنة الجاية."
+   }
+  ],
+  "ladder": {
+   "label": "how big the gap is",
+   "lar": "العجز كبير قد إيه",
+   "steps": [
+    {
+     "w": "slight shortage",
+     "ex": "There's a slight shortage of cable lugs.",
+     "ar": "فيه نقص بسيط في الكوس.",
+     "ex2": "We can still finish today's job.",
+     "ar2": "لسه نقدر نخلّص شغل النهارده."
+    },
+    {
+     "w": "shortage",
+     "ex": "There's a shortage of two modules on pallet 6.",
+     "ar": "فيه عجز موديولين في باليتة 6.",
+     "ex2": "We must claim them from the supplier.",
+     "ar2": "لازم نطالب المورد بيهم."
+    },
+    {
+     "w": "serious shortage",
+     "ex": "There's a serious shortage of lithium modules this month.",
+     "ar": "فيه عجز كبير في موديولات الليثيوم الشهر ده.",
+     "ex2": "Two projects may be delayed.",
+     "ar2": "مشروعين ممكن يتأخروا."
+    },
+    {
+     "w": "out of stock",
+     "ex": "The 51.2V modules are out of stock.",
+     "ar": "موديولات الـ‎51.2V‎ خلصت من المخزن.",
+     "ex2": "We can't accept new orders until the shipment arrives.",
+     "ar2": "مش هنقدر ناخد أوردرات جديدة لحد ما الشحنة توصل."
+    }
+   ]
+  },
+  "ctx": "We counted 118 modules instead of 120. Please treat this shortage as part of our claim.",
+  "ctx_ar": "عدّينا 118 موديول بدل 120. من فضلك اعتبر العجز ده جزء من مطالبتنا.",
+  "quiz": [
+   {
+    "s": "Pallet 6 was packed ___ by 2 modules.",
+    "opts": [
+     "short",
+     "shortage",
+     "shortfall"
+    ],
+    "a": 0,
+    "ar": "باليتة 6 اتعبّت ناقصة موديولين."
+   },
+   {
+    "s": "There is a ___ of two modules on pallet 6.",
+    "opts": [
+     "short",
+     "shortage",
+     "surplus"
+    ],
+    "a": 1,
+    "ar": "فيه عجز موديولين في باليتة 6."
+   },
+   {
+    "s": "After the count we have ten extra batteries, a ___ we didn't expect.",
+    "opts": [
+     "shortage",
+     "shortfall",
+     "surplus"
+    ],
+    "a": 2,
+    "ar": "بعد الجرد عندنا عشر بطاريات زيادة، زيادة مكناش متوقعينها."
+   }
+  ]
+ },
+ {
+  "w": "claim",
+  "ar": "مطالبة / شكوى رسمية",
+  "book": "Thank you for accepting our claim.",
+  "family": [
+   {
+    "w": "claim",
+    "pos": "noun",
+    "ex": "We sent a claim to the supplier for the broken modules.",
+    "ar": "بعتنا مطالبة للمورد بخصوص الموديولات المكسورة.",
+    "ex2": "The claim includes photos and the GRN.",
+    "ar2": "المطالبة فيها صور وإذن الاستلام."
+   },
+   {
+    "w": "claim",
+    "pos": "verb",
+    "ex": "Nadia will claim the import VAT this month.",
+    "ar": "نادية هتسترد ضريبة الاستيراد الشهر ده.",
+    "ex2": "She needs the duty receipt to claim it.",
+    "ar2": "محتاجة إيصال الجمارك عشان تستردها."
+   },
+   {
+    "w": "claimant",
+    "pos": "person",
+    "ex": "The claimant must send photos within seven days.",
+    "ar": "صاحب المطالبة لازم يبعت صور خلال سبع أيام.",
+    "ex2": "In this case, we are the claimant.",
+    "ar2": "في الحالة دي، إحنا أصحاب المطالبة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "formal request for compensation",
+    "mar": "مطالبة بتعويض",
+    "ex": "We sent a claim for five modules or a credit note.",
+    "ar": "بعتنا مطالبة بخمس موديولات أو إشعار دائن.",
+    "ex2": "The supplier accepted the claim within two days.",
+    "ar2": "المورد قبل المطالبة خلال يومين."
+   },
+   {
+    "m": "say something is true",
+    "mar": "يدّعي / يقول",
+    "ex": "The supplier claims the cartons were fine at loading.",
+    "ar": "المورد بيقول إن الكراتين كانت سليمة وقت التحميل.",
+    "ex2": "Our photos show the claim is not correct.",
+    "ar2": "الصور بتاعتنا بتوضح إن كلامه مش صح."
+   },
+   {
+    "m": "get money back that you have a right to",
+    "mar": "تسترد فلوس",
+    "ex": "We can claim the import VAT back from the tax authority.",
+    "ar": "نقدر نسترد ضريبة الاستيراد من الضرايب.",
+    "ex2": "This lowers the real landed cost.",
+    "ar2": "ده بيقلّل التكلفة النهائية الحقيقية."
+   }
+  ],
+  "syn": [
+   {
+    "w": "complaint",
+    "note": "you're unhappy; no compensation asked",
+    "ex": "The hospital made a complaint about late service.",
+    "ar": "المستشفى قدمت شكوى عن تأخير الخدمة.",
+    "ex2": "We answered the complaint with a new visit plan.",
+    "ar2": "رديّنا على الشكوى بخطة زيارات جديدة."
+   },
+   {
+    "w": "dispute",
+    "note": "formal disagreement, sides don't agree",
+    "ex": "There is a dispute over who pays the bank charges.",
+    "ar": "فيه خلاف على مين يدفع مصاريف البنك.",
+    "ex2": "We solved the dispute by adding USD 45 to the balance.",
+    "ar2": "حلّينا الخلاف بإضافة 45 دولار للباقي."
+   },
+   {
+    "w": "request",
+    "note": "neutral: asking for something",
+    "ex": "We sent a request for replacement modules.",
+    "ar": "بعتنا طلب موديولات بديلة.",
+    "ex2": "The request was approved the same day.",
+    "ar2": "الطلب اتوافق عليه في نفس اليوم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "waive",
+    "ex": "We decided to waive our claim for the small scratches.",
+    "ar": "قررنا نتنازل عن مطالبتنا بخصوص الخدوش الصغيرة.",
+    "ex2": "We waive it to keep a good relationship.",
+    "ar2": "بنتنازل عنها عشان نحافظ على العلاقة."
+   }
+  ],
+  "ladder": {
+   "label": "how formal the complaint is",
+   "lar": "الشكوى رسمية قد إيه",
+   "steps": [
+    {
+     "w": "comment",
+     "ex": "The client made a comment about the noisy UPS fans.",
+     "ar": "العميل قال ملاحظة عن صوت مراوح الـ‎UPS‎.",
+     "ex2": "We'll check them on the next visit.",
+     "ar2": "هنشيّك عليها في الزيارة الجاية."
+    },
+    {
+     "w": "complaint",
+     "ex": "The client sent a written complaint about the fans.",
+     "ar": "العميل بعت شكوى مكتوبة عن المراوح.",
+     "ex2": "We must reply within 48 hours.",
+     "ar2": "لازم نرد خلال 48 ساعة."
+    },
+    {
+     "w": "claim",
+     "ex": "The client sent a claim for the damaged servers.",
+     "ar": "العميل بعت مطالبة بتعويض السيرفرات اللي باظت.",
+     "ex2": "He wants a credit note or new units.",
+     "ar2": "عايز إشعار دائن أو وحدات جديدة."
+    },
+    {
+     "w": "legal dispute",
+     "ex": "The claim became a legal dispute in court.",
+     "ar": "المطالبة بقت قضية في المحكمة.",
+     "ex2": "Our lawyer is handling the legal dispute now.",
+     "ar2": "المحامي بتاعنا ماسك القضية دلوقتي."
+    }
+   ]
+  },
+  "ctx": "We sent a claim for the shortage and the broken modules. The supplier accepted our claim and will send five replacements.",
+  "ctx_ar": "بعتنا مطالبة بالعجز والموديولات المكسورة. المورد قبل المطالبة وهيبعت خمس موديولات بديلة.",
+  "quiz": [
+   {
+    "s": "We sent a ___ to the supplier for the broken modules.",
+    "opts": [
+     "claim",
+     "claimant",
+     "waive"
+    ],
+    "a": 0,
+    "ar": "بعتنا مطالبة للمورد بخصوص الموديولات المكسورة."
+   },
+   {
+    "s": "Finance will ___ back the import VAT.",
+    "opts": [
+     "claimant",
+     "claim",
+     "waive"
+    ],
+    "a": 1,
+    "ar": "الحسابات هتسترد ضريبة الاستيراد."
+   },
+   {
+    "s": "The customer was unhappy, but it's only a ___; he isn't asking for money.",
+    "opts": [
+     "claim",
+     "dispute",
+     "complaint"
+    ],
+    "a": 2,
+    "ar": "العميل كان مضايق، بس دي شكوى بس؛ مش طالب فلوس."
+   }
+  ]
+ },
+ {
+  "w": "replacement",
+  "ar": "بديل / تغيير",
+  "book": "We will send 5 replacement modules free of charge with your next order.",
+  "family": [
+   {
+    "w": "replace",
+    "pos": "verb",
+    "ex": "We need to replace three modules with broken cases.",
+    "ar": "محتاجين نغيّر تلات موديولات علبتهم مكسورة.",
+    "ex2": "The supplier will replace them free of charge.",
+    "ar2": "المورد هيغيّرهم ببلاش."
+   },
+   {
+    "w": "replacement",
+    "pos": "noun",
+    "ex": "The supplier will send 5 replacement modules with the next order.",
+    "ar": "المورد هيبعت 5 موديولات بديلة مع الأوردر الجاي.",
+    "ex2": "The replacements cover the shortage and the damage.",
+    "ar2": "البدايل بتغطي العجز والكسر."
+   },
+   {
+    "w": "replaceable",
+    "pos": "adjective",
+    "ex": "The fan is easily replaceable on site.",
+    "ar": "المروحة سهل تتغيّر في الموقع.",
+    "ex2": "Replaceable parts reduce downtime for the customer.",
+    "ar2": "القطع اللي بتتغيّر بسهولة بتقلّل وقت التوقف عند العميل."
+   },
+   {
+    "w": "irreplaceable",
+    "pos": "adjective",
+    "ex": "The hospital data is irreplaceable, so backup power is critical.",
+    "ar": "بيانات المستشفى مالهاش بديل، عشان كده الباور الاحتياطي مهم جدًا.",
+    "ex2": "Irreplaceable systems need two UPS units.",
+    "ar2": "الأنظمة اللي مالهاش بديل محتاجة اتنين ‎UPS‎."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "substitute",
+    "note": "a different item used instead",
+    "ex": "Can we use a substitute model with the same voltage?",
+    "ar": "ممكن نستخدم موديل بديل بنفس الفولت؟",
+    "ex2": "The substitute must pass the same tests.",
+    "ar2": "البديل لازم ينجح في نفس الاختبارات."
+   },
+   {
+    "w": "spare",
+    "note": "part kept in stock for future replacements",
+    "ex": "Keep two spare modules in the Obour warehouse.",
+    "ar": "خلّي موديولين احتياطي في مخزن العبور.",
+    "ex2": "Spares help us fix urgent faults in one day.",
+    "ar2": "قطع الغيار بتساعدنا نصلّح الأعطال المستعجلة في يوم."
+   },
+   {
+    "w": "swap",
+    "note": "informal: exchange one unit for another",
+    "ex": "The technician swapped the faulty card in ten minutes.",
+    "ar": "الفني بدّل الكارت العطلان في عشر دقايق.",
+    "ex2": "A quick swap kept the UPS online.",
+    "ar2": "التبديل السريع خلّى الـ‎UPS‎ شغال."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Three modules arrived broken and two were missing. VoltTech will send five replacement modules free with our next order.",
+  "ctx_ar": "تلات موديولات وصلوا مكسورين واتنين كانوا ناقصين. ‎VoltTech‎ هيبعتوا خمس موديولات بديلة ببلاش مع الأوردر الجاي.",
+  "quiz": [
+   {
+    "s": "We need to ___ 3 damaged modules.",
+    "opts": [
+     "replace",
+     "replacement",
+     "replaceable"
+    ],
+    "a": 0,
+    "ar": "محتاجين نغيّر 3 موديولات مضروبة."
+   },
+   {
+    "s": "The supplier will send 5 ___ modules free of charge.",
+    "opts": [
+     "replace",
+     "replacement",
+     "replaceable"
+    ],
+    "a": 1,
+    "ar": "المورد هيبعت 5 موديولات بديلة ببلاش."
+   },
+   {
+    "s": "The fan is easily ___ on site in five minutes.",
+    "opts": [
+     "replace",
+     "replacement",
+     "replaceable"
+    ],
+    "a": 2,
+    "ar": "المروحة سهل تتغيّر في الموقع في خمس دقايق."
+   }
+  ]
+ },
+ {
+  "w": "credit note",
+  "ar": "إشعار دائن",
+  "book": "We therefore request replacement of 5 modules, shipped with your next order at no cost, or a credit note of USD 5,200.",
+  "family": [
+   {
+    "w": "credit",
+    "pos": "noun",
+    "ex": "We have a credit of USD 5,200 with VoltTech.",
+    "ar": "لينا رصيد دائن 5,200 دولار عند ‎VoltTech‎.",
+    "ex2": "We'll use the credit on the next order.",
+    "ar2": "هنستخدم الرصيد في الأوردر الجاي."
+   },
+   {
+    "w": "credit",
+    "pos": "verb",
+    "ex": "The supplier will credit USD 5,200 to our account.",
+    "ar": "المورد هيضيف 5,200 دولار لحسابنا.",
+    "ex2": "They credit it after they check our photos.",
+    "ar2": "هيضيفوها بعد ما يشوفوا الصور."
+   },
+   {
+    "w": "creditor",
+    "pos": "person",
+    "ex": "VoltTech is one of our main creditors this quarter.",
+    "ar": "‎VoltTech‎ من أكبر الدائنين لينا الربع ده.",
+    "ex2": "We pay our creditors on the agreed dates.",
+    "ar2": "بندفع للدائنين في المواعيد المتفق عليها."
+   },
+   {
+    "w": "credit note",
+    "pos": "noun",
+    "ex": "Please issue a credit note for the five missing modules.",
+    "ar": "من فضلك طلّع إشعار دائن للخمس موديولات.",
+    "ex2": "We'll deduct the credit note from the next invoice.",
+    "ar2": "هنخصم الإشعار الدائن من الفاتورة الجاية."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "refund",
+    "note": "money is actually paid back",
+    "ex": "The customer asked for a refund instead of a credit note.",
+    "ar": "العميل طلب فلوسه ترجع بدل إشعار دائن.",
+    "ex2": "A refund needs Finance approval.",
+    "ar2": "استرداد الفلوس محتاج موافقة الحسابات."
+   },
+   {
+    "w": "rebate",
+    "note": "money returned later, often for volume",
+    "ex": "The supplier gives a 2% rebate above 500 units a year.",
+    "ar": "المورد بيدّي خصم 2% بأثر رجعي فوق 500 وحدة في السنة.",
+    "ex2": "The rebate is paid at year end.",
+    "ar2": "الخصم ده بيتدفع آخر السنة."
+   },
+   {
+    "w": "discount",
+    "note": "price reduced before invoicing",
+    "ex": "We got a 5% discount on the new order.",
+    "ar": "خدنا خصم 5% على الأوردر الجديد.",
+    "ex2": "The discount appears on the PI.",
+    "ar2": "الخصم بيظهر على الفاتورة المبدئية."
+   }
+  ],
+  "ant": [
+   {
+    "w": "debit note",
+    "ex": "We sent a debit note for the extra USD 45 bank charges.",
+    "ar": "بعتنا إشعار مدين بمصاريف البنك الـ45 دولار الزيادة.",
+    "ex2": "A debit note asks the other side to pay more.",
+    "ar2": "الإشعار المدين بيطلب من الطرف التاني يدفع زيادة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We asked VoltTech for five replacement modules or a credit note of USD 5,200. They chose replacements, so no credit note is needed.",
+  "ctx_ar": "طلبنا من ‎VoltTech‎ خمس موديولات بديلة أو إشعار دائن بـ5,200 دولار. اختاروا البدايل، فمش محتاجين إشعار دائن.",
+  "quiz": [
+   {
+    "s": "Please issue a ___ for USD 5,200 against the damaged modules.",
+    "opts": [
+     "credit note",
+     "debit note",
+     "creditor"
+    ],
+    "a": 0,
+    "ar": "من فضلك طلّع إشعار دائن بـ5,200 دولار عن الموديولات المضروبة."
+   },
+   {
+    "s": "The supplier will ___ USD 5,200 to our account.",
+    "opts": [
+     "creditor",
+     "credit",
+     "debit note"
+    ],
+    "a": 1,
+    "ar": "المورد هيضيف 5,200 دولار لحسابنا."
+   },
+   {
+    "s": "We are a ___ of this customer; he owes us EGP 400,000.",
+    "opts": [
+     "credit note",
+     "refund",
+     "creditor"
+    ],
+    "a": 2,
+    "ar": "إحنا دائنين للعميل ده؛ عليه لينا 400,000 جنيه."
+   }
+  ]
+ },
+ {
+  "w": "reorder level",
+  "ar": "حد إعادة الطلب",
+  "book": "So we are already below the reorder level.",
+  "family": [
+   {
+    "w": "order",
+    "pos": "noun",
+    "ex": "Please place an order for 100 modules this month.",
+    "ar": "من فضلك اطلب أوردر 100 موديول الشهر ده.",
+    "ex2": "The order must arrive before mid-January.",
+    "ar2": "الأوردر لازم يوصل قبل نص يناير."
+   },
+   {
+    "w": "order",
+    "pos": "verb",
+    "ex": "We order lithium modules from China every quarter.",
+    "ar": "بنطلب موديولات ليثيوم من الصين كل ربع سنة.",
+    "ex2": "We order early because lead time is ten weeks.",
+    "ar2": "بنطلب بدري عشان مدة التوريد عشر أسابيع."
+   },
+   {
+    "w": "reorder",
+    "pos": "verb",
+    "ex": "Please reorder the same model at the same price.",
+    "ar": "من فضلك اطلب نفس الموديل تاني بنفس السعر.",
+    "ex2": "We reorder when stock reaches 80 modules.",
+    "ar2": "بنطلب تاني لما المخزون يوصل 80 موديول."
+   },
+   {
+    "w": "reorder level",
+    "pos": "noun",
+    "ex": "The reorder level for VT-LFP51100 is 80 modules.",
+    "ar": "حد إعادة الطلب لموديل ‎VT-LFP51100‎ هو 80 موديول.",
+    "ex2": "Below the reorder level, the system sends an alert.",
+    "ar2": "تحت الحد ده، السيستم بيبعت تنبيه."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "reorder point",
+    "note": "same idea; common in ERP systems",
+    "ex": "Set the reorder point at 80 units in the ERP.",
+    "ar": "حط نقطة إعادة الطلب 80 وحدة على الـ‎ERP‎.",
+    "ex2": "The ERP creates a purchase request at the reorder point.",
+    "ar2": "الـ‎ERP‎ بيعمل طلب شراء عند نقطة إعادة الطلب."
+   },
+   {
+    "w": "minimum stock",
+    "note": "lowest safe level; never go below it",
+    "ex": "Our minimum stock for lithium modules is 20.",
+    "ar": "الحد الأدنى للمخزون لموديولات الليثيوم 20.",
+    "ex2": "Below minimum stock, urgent repairs may stop.",
+    "ar2": "تحت الحد الأدنى، التصليحات المستعجلة ممكن تقف."
+   },
+   {
+    "w": "safety stock",
+    "note": "extra stock kept for delays or surprises",
+    "ex": "We keep safety stock because shipping can take longer.",
+    "ar": "بنحتفظ بمخزون أمان عشان الشحن ممكن ياخد وقت أطول.",
+    "ex2": "Safety stock saved us during the customs delay.",
+    "ar2": "مخزون الأمان أنقذنا وقت تأخير الجمارك."
+   }
+  ],
+  "ant": [
+   {
+    "w": "maximum stock",
+    "ex": "Don't order above the maximum stock of 200 modules.",
+    "ar": "متطلبش فوق الحد الأقصى للمخزون 200 موديول.",
+    "ex2": "Above maximum stock, cash is stuck in the warehouse.",
+    "ar2": "فوق الحد الأقصى، الفلوس بتتحبس في المخزن."
+   }
+  ],
+  "ladder": {
+   "label": "how low the stock is",
+   "lar": "المخزون قليل قد إيه",
+   "steps": [
+    {
+     "w": "healthy stock",
+     "ex": "We have healthy stock of 150 modules.",
+     "ar": "عندنا مخزون كويس 150 موديول.",
+     "ex2": "No need to order this month.",
+     "ar2": "مش محتاجين نطلب الشهر ده."
+    },
+    {
+     "w": "reorder level",
+     "ex": "Stock reached the reorder level of 80 modules.",
+     "ar": "المخزون وصل حد إعادة الطلب 80 موديول.",
+     "ex2": "Time to send a new RFQ.",
+     "ar2": "جه وقت نبعت طلب أسعار جديد."
+    },
+    {
+     "w": "minimum stock",
+     "ex": "Stock is at the minimum of 20 modules.",
+     "ar": "المخزون عند الحد الأدنى 20 موديول.",
+     "ex2": "Use them only for urgent repairs.",
+     "ar2": "استخدمهم في التصليحات المستعجلة بس."
+    },
+    {
+     "w": "out of stock",
+     "ex": "We are out of stock of lithium modules.",
+     "ar": "الموديولات الليثيوم خلصت من المخزن.",
+     "ex2": "Projects will wait until the next shipment.",
+     "ar2": "المشاريع هتستنى الشحنة الجاية."
+    }
+   ]
+  },
+  "ctx": "After the hospital project, only 51 modules will remain. That is below our reorder level of 80, so please order now.",
+  "ctx_ar": "بعد مشروع المستشفى، هيفضل 51 موديول بس. ده تحت حد إعادة الطلب 80، فمن فضلك اطلب دلوقتي.",
+  "quiz": [
+   {
+    "s": "Stock dropped below the ___, so please order now.",
+    "opts": [
+     "reorder level",
+     "maximum stock",
+     "order"
+    ],
+    "a": 0,
+    "ar": "المخزون نزل تحت حد إعادة الطلب، فمن فضلك اطلب دلوقتي."
+   },
+   {
+    "s": "When stock hits 80, the system sends a ___ alert.",
+    "opts": [
+     "order",
+     "reorder",
+     "maximum stock"
+    ],
+    "a": 1,
+    "ar": "لما المخزون يوصل 80، السيستم بيبعت تنبيه إعادة طلب."
+   },
+   {
+    "s": "Never let stock fall below the ___ of 20 units, or urgent repairs stop.",
+    "opts": [
+     "reorder level",
+     "maximum stock",
+     "minimum stock"
+    ],
+    "a": 2,
+    "ar": "متخليش المخزون ينزل تحت الحد الأدنى 20 وحدة، وإلا التصليحات المستعجلة تقف."
+   }
+  ]
+ }
+]

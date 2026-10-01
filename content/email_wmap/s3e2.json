@@ -1,0 +1,655 @@
+[
+ {
+  "w": "prefer",
+  "ar": "تفضّل",
+  "book": "We prefer your quality, but we need a better price.",
+  "family": [
+   {
+    "w": "prefer",
+    "pos": "verb",
+    "ex": "We prefer lithium batteries for the hospital UPS.",
+    "ar": "إحنا بنفضّل بطاريات الليثيوم لـ‎UPS‎ المستشفى.",
+    "ex2": "The client also prefers a 5-year warranty.",
+    "ar2": "والعميل كمان بيفضّل ضمان 5 سنين."
+   },
+   {
+    "w": "preference",
+    "pos": "noun",
+    "ex": "Do you have a preference for sea or air freight?",
+    "ar": "عندك تفضيل للشحن البحري ولا الجوي؟",
+    "ex2": "Our preference is sea freight because it's cheaper.",
+    "ar2": "احنا بنفضّل البحري عشان أرخص."
+   },
+   {
+    "w": "preferred",
+    "pos": "adjective",
+    "ex": "VoltTech is now our preferred supplier for battery modules.",
+    "ar": "‎VoltTech‎ بقى المورد المفضّل بتاعنا للموديولات.",
+    "ex2": "Preferred suppliers get our RFQs first.",
+    "ar2": "الموردين المفضّلين بيوصلهم طلبات الأسعار الأول."
+   },
+   {
+    "w": "preferable",
+    "pos": "adjective",
+    "ex": "A morning delivery is preferable for the warehouse team.",
+    "ar": "التسليم الصبح أفضل لفريق المخزن.",
+    "ex2": "It is preferable to unload before the afternoon heat.",
+    "ar2": "الأفضل نفرّغ قبل حر الضهر."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "favour",
+    "note": "formal; used in reports and evaluations",
+    "ex": "The committee favours the offer with local service support.",
+    "ar": "اللجنة بتميل للعرض اللي فيه دعم خدمة محلي.",
+    "ex2": "They favour it even at a slightly higher price.",
+    "ar2": "بيميلوا له حتى لو السعر أعلى شوية."
+   },
+   {
+    "w": "would rather",
+    "note": "spoken and informal; compare two actions",
+    "ex": "I would rather pay a bit more than wait 55 days.",
+    "ar": "أفضّل أدفع شوية زيادة عن إني أستنى 55 يوم.",
+    "ex2": "The project manager would rather not risk delays.",
+    "ar2": "مدير المشروع يفضّل ميخاطرش بالتأخير."
+   },
+   {
+    "w": "lean towards",
+    "note": "you like one option but haven't decided yet",
+    "ex": "We lean towards VoltTech, but Finance hasn't decided.",
+    "ar": "إحنا مايلين لـ‎VoltTech‎، بس الماليات لسه مقررتش.",
+    "ex2": "We'll confirm after we lean towards one offer officially.",
+    "ar2": "هنأكّد بعد ما نستقر على عرض رسميًا."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how strong the choice is",
+   "lar": "الاختيار قوي قد إيه",
+   "steps": [
+    {
+     "w": "lean towards",
+     "ex": "We lean towards the 60 kVA model.",
+     "ar": "إحنا مايلين لموديل الـ‎60 kVA‎.",
+     "ex2": "But we are still open to other sizes.",
+     "ar2": "بس لسه مفتوحين لمقاسات تانية."
+    },
+    {
+     "w": "prefer",
+     "ex": "We prefer the 60 kVA model for this site.",
+     "ar": "إحنا بنفضّل موديل الـ‎60 kVA‎ للموقع ده.",
+     "ex2": "Another model is possible if the price is better.",
+     "ar2": "موديل تاني ممكن لو السعر أحسن."
+    },
+    {
+     "w": "insist on",
+     "ex": "We insist on original Hitachi batteries for this contract.",
+     "ar": "إحنا مُصرّين على بطاريات ‎Hitachi‎ أصلي للعقد ده.",
+     "ex2": "We will not accept anything else.",
+     "ar2": "مش هنقبل أي حاجة تانية."
+    }
+   ]
+  },
+  "ctx": "We prefer VoltTech's quality to the cheaper offer. However, we need a better price before we place the order.",
+  "ctx_ar": "إحنا بنفضّل جودة ‎VoltTech‎ عن العرض الأرخص. بس محتاجين سعر أحسن قبل ما نطلب الأوردر.",
+  "quiz": [
+   {
+    "s": "VoltTech is now our ___ supplier for lithium modules.",
+    "opts": [
+     "prefer",
+     "preferred",
+     "preference"
+    ],
+    "a": 1,
+    "ar": "‎VoltTech‎ بقى المورد المفضّل بتاعنا لموديولات الليثيوم."
+   },
+   {
+    "s": "Do you have a ___ for sea or air freight?",
+    "opts": [
+     "preference",
+     "preferable",
+     "prefer"
+    ],
+    "a": 0,
+    "ar": "عندك تفضيل للشحن البحري ولا الجوي؟"
+   },
+   {
+    "s": "We ___ a signed PI before any payment; no exceptions.",
+    "opts": [
+     "lean towards",
+     "prefer",
+     "insist on"
+    ],
+    "a": 2,
+    "ar": "إحنا مُصرّين على ‎PI‎ متمضية قبل أي دفع؛ من غير استثناءات."
+   }
+  ]
+ },
+ {
+  "w": "propose",
+  "ar": "تقترح",
+  "book": "We also propose 30% deposit and 70% against a copy of the B/L.",
+  "family": [
+   {
+    "w": "propose",
+    "pos": "verb",
+    "ex": "We propose a quarterly visit for the UPS maintenance.",
+    "ar": "بنقترح زيارة كل 3 شهور لصيانة الـ‎UPS‎.",
+    "ex2": "We propose it because the site is very dusty.",
+    "ar2": "بنقترحها عشان الموقع فيه تراب كتير."
+   },
+   {
+    "w": "proposal",
+    "pos": "noun",
+    "ex": "Please review our proposal for the solar station.",
+    "ar": "من فضلك راجع اقتراحنا لمحطة الطاقة الشمسية.",
+    "ex2": "The proposal includes panels, inverters and installation.",
+    "ar2": "الاقتراح شامل الألواح والإنفرترات والتركيب."
+   },
+   {
+    "w": "proposed",
+    "pos": "adjective",
+    "ex": "The proposed payment terms are 30% deposit and 70% against B/L.",
+    "ar": "شروط الدفع المقترحة 30% عربون و70% مقابل البوليصة.",
+    "ex2": "The supplier accepted the proposed terms the next day.",
+    "ar2": "المورد قبل الشروط المقترحة تاني يوم."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "suggest",
+    "note": "softer and less formal than propose",
+    "ex": "I suggest we call the supplier before replying.",
+    "ar": "أقترح نكلّم المورد قبل ما نرد.",
+    "ex2": "He suggested a quick call to save time.",
+    "ar2": "هو اقترح مكالمة سريعة توفّر وقت."
+   },
+   {
+    "w": "recommend",
+    "note": "advice based on your expertise",
+    "ex": "Our engineer recommends replacing all 40 batteries.",
+    "ar": "المهندس بتاعنا بينصح بتغيير الـ40 بطارية كلهم.",
+    "ex2": "He recommends it because old and new cells don't mix.",
+    "ar2": "بينصح بكده عشان الخلايا القديمة والجديدة مينفعوش مع بعض."
+   },
+   {
+    "w": "offer",
+    "note": "you give something to the other side",
+    "ex": "We can offer free commissioning with the UPS.",
+    "ar": "نقدر نقدّم التشغيل المبدئي ببلاش مع الـ‎UPS‎.",
+    "ex2": "The offer is valid if they order this month.",
+    "ar2": "العرض ساري لو طلبوا الشهر ده."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how hard the idea is pushed",
+   "lar": "الفكرة بتتفرض قد إيه",
+   "steps": [
+    {
+     "w": "suggest",
+     "ex": "Can I suggest a short call tomorrow?",
+     "ar": "ممكن أقترح مكالمة قصيرة بكرة؟",
+     "ex2": "It's just an idea; the client can say no.",
+     "ar2": "دي مجرد فكرة؛ العميل يقدر يرفض."
+    },
+    {
+     "w": "propose",
+     "ex": "We propose a 50/50 split of the freight cost.",
+     "ar": "بنقترح نقسم تكلفة الشحن نص بنص.",
+     "ex2": "This is a formal position in the negotiation.",
+     "ar2": "ده موقف رسمي في التفاوض."
+    },
+    {
+     "w": "strongly recommend",
+     "ex": "We strongly recommend a battery test before summer.",
+     "ar": "بننصح بشدة باختبار البطاريات قبل الصيف.",
+     "ex2": "Failure in summer could stop the data centre.",
+     "ar2": "العطل في الصيف ممكن يوقّف الداتا سنتر."
+    }
+   ]
+  },
+  "ctx": "We propose 30% deposit and 70% against a copy of the B/L. This protects both sides until the goods ship.",
+  "ctx_ar": "بنقترح 30% عربون و70% مقابل صورة البوليصة. ده بيحمي الطرفين لحد ما البضاعة تتشحن.",
+  "quiz": [
+   {
+    "s": "Please review our ___ for the annual maintenance contract.",
+    "opts": [
+     "propose",
+     "proposal",
+     "proposed"
+    ],
+    "a": 1,
+    "ar": "من فضلك راجع اقتراحنا لعقد الصيانة السنوي."
+   },
+   {
+    "s": "The ___ terms are 30% deposit and 70% against B/L.",
+    "opts": [
+     "proposal",
+     "propose",
+     "proposed"
+    ],
+    "a": 2,
+    "ar": "الشروط المقترحة 30% عربون و70% مقابل البوليصة."
+   },
+   {
+    "s": "As your engineer, I ___ replacing all the batteries, not just two.",
+    "opts": [
+     "recommend",
+     "offer",
+     "proposal"
+    ],
+    "a": 0,
+    "ar": "بصفتي المهندس بتاعك، بنصحك تغيّر كل البطاريات مش اتنين بس."
+   }
+  ]
+ },
+ {
+  "w": "flexibility",
+  "ar": "مرونة",
+  "book": "Thank you for your flexibility.",
+  "family": [
+   {
+    "w": "flexible",
+    "pos": "adjective",
+    "ex": "The supplier was flexible on the payment terms.",
+    "ar": "المورد كان مرن في شروط الدفع.",
+    "ex2": "Being flexible helped us close the deal fast.",
+    "ar2": "المرونة ساعدتنا نقفل الصفقة بسرعة."
+   },
+   {
+    "w": "flexibility",
+    "pos": "noun",
+    "ex": "Thank you for your flexibility on the delivery date.",
+    "ar": "شكرًا على مرونتك في ميعاد التسليم.",
+    "ex2": "That flexibility saved our hospital installation schedule.",
+    "ar2": "المرونة دي أنقذت جدول تركيب المستشفى."
+   },
+   {
+    "w": "flexibly",
+    "pos": "adverb",
+    "ex": "We can schedule the maintenance visits flexibly.",
+    "ar": "نقدر نرتّب زيارات الصيانة بمرونة.",
+    "ex2": "Our technicians work flexibly, even on Fridays.",
+    "ar2": "الفنيين بتوعنا بيشتغلوا بمرونة، حتى يوم الجمعة."
+   },
+   {
+    "w": "inflexible",
+    "pos": "adjective",
+    "ex": "The bank was inflexible about the beneficiary name.",
+    "ar": "البنك كان متشدد في اسم المستفيد.",
+    "ex2": "Inflexible rules mean the PI must be perfect.",
+    "ar2": "القواعد المتشددة معناها إن الـ‎PI‎ لازم تبقى مظبوطة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "understanding",
+    "note": "accepting someone's problem or delay kindly",
+    "ex": "Thank you for your understanding about the delayed shipment.",
+    "ar": "شكرًا على تفهّمك بخصوص الشحنة المتأخرة.",
+    "ex2": "We appreciate your understanding during the customs inspection.",
+    "ar2": "بنقدّر تفهّمك أثناء تفتيش الجمارك."
+   },
+   {
+    "w": "cooperation",
+    "note": "working together to solve something",
+    "ex": "Thank you for your cooperation with the site survey.",
+    "ar": "شكرًا على تعاونك في معاينة الموقع.",
+    "ex2": "Your cooperation made the survey quick.",
+    "ar2": "تعاونك خلّى المعاينة سريعة."
+   },
+   {
+    "w": "goodwill",
+    "note": "a free gesture to keep a good relationship",
+    "ex": "As a goodwill gesture, we will waive the visit fee.",
+    "ar": "كبادرة حسن نية، هنلغي رسوم الزيارة.",
+    "ex2": "Goodwill keeps long-term customers happy.",
+    "ar2": "حسن النية بيخلّي العملاء الدائمين مبسوطين."
+   }
+  ],
+  "ant": [
+   {
+    "w": "rigidity",
+    "ex": "The rigidity of their payment terms made us choose another supplier.",
+    "ar": "تشدّد شروط الدفع بتاعتهم خلّانا نختار مورد تاني.",
+    "ex2": "Rigidity on price can lose big orders.",
+    "ar2": "التشدد في السعر ممكن يضيّع أوردرات كبيرة."
+   }
+  ],
+  "ladder": {
+   "label": "how much they give",
+   "lar": "بيتنازلوا قد إيه",
+   "steps": [
+    {
+     "w": "firm",
+     "ex": "The supplier is firm on USD 1,080 per unit.",
+     "ar": "المورد ثابت على 1,080 دولار للوحدة.",
+     "ex2": "They won't move on price at all.",
+     "ar2": "مش هيتحركوا في السعر خالص."
+    },
+    {
+     "w": "open to discussion",
+     "ex": "They are open to discussion on the warranty.",
+     "ar": "هما منفتحين للنقاش في الضمان.",
+     "ex2": "Maybe they can offer four or five years.",
+     "ar2": "ممكن يدّوا أربع أو خمس سنين."
+    },
+    {
+     "w": "flexible",
+     "ex": "They were flexible and accepted 70% against B/L.",
+     "ar": "كانوا مرنين وقبلوا 70% مقابل البوليصة.",
+     "ex2": "That helped our cash flow a lot.",
+     "ar2": "ده ساعد التدفق النقدي بتاعنا كتير."
+    },
+    {
+     "w": "very accommodating",
+     "ex": "The customs broker was very accommodating with the urgent release.",
+     "ar": "المخلّص كان متعاون جدًا في الإفراج المستعجل.",
+     "ex2": "She worked late to finish the papers.",
+     "ar2": "فضلت شغالة لحد متأخر عشان تخلّص الورق."
+    }
+   ]
+  },
+  "ctx": "VoltTech moved from USD 1,080 to 1,045. We thanked them for their flexibility and asked for one more step.",
+  "ctx_ar": "‎VoltTech‎ نزلوا من 1,080 دولار لـ1,045. شكرناهم على مرونتهم وطلبنا خطوة كمان.",
+  "quiz": [
+   {
+    "s": "The supplier was ___ on payment terms.",
+    "opts": [
+     "flexibility",
+     "flexible",
+     "flexibly"
+    ],
+    "a": 1,
+    "ar": "المورد كان مرن في شروط الدفع."
+   },
+   {
+    "s": "Thank you for your ___ on the delivery date.",
+    "opts": [
+     "flexibility",
+     "flexible",
+     "rigidity"
+    ],
+    "a": 0,
+    "ar": "شكرًا على مرونتك في ميعاد التسليم."
+   },
+   {
+    "s": "We lost the deal because of their ___ on price.",
+    "opts": [
+     "flexible",
+     "flexibly",
+     "rigidity"
+    ],
+    "a": 2,
+    "ar": "خسرنا الصفقة بسبب تشددهم في السعر."
+   }
+  ]
+ },
+ {
+  "w": "issue",
+  "ar": "تصدر (مستند) / مشكلة",
+  "book": "If you agree, we will issue the purchase order today and send the deposit within five working days of receiving your proforma invoice.",
+  "family": [
+   {
+    "w": "issue",
+    "pos": "verb",
+    "ex": "We will issue the purchase order today.",
+    "ar": "هنصدر أمر الشراء النهارده.",
+    "ex2": "Finance will issue the deposit payment next week.",
+    "ar2": "الحسابات هتطلّع دفعة العربون الأسبوع الجاي."
+   },
+   {
+    "w": "issue",
+    "pos": "noun",
+    "ex": "We have an urgent issue at Alexandria customs.",
+    "ar": "عندنا مشكلة مستعجلة في جمارك إسكندرية.",
+    "ex2": "The issue is a wrong model number on the test report.",
+    "ar2": "المشكلة رقم موديل غلط في تقرير الاختبار."
+   },
+   {
+    "w": "issuer",
+    "pos": "person",
+    "ex": "The issuer of the letter of credit is Banque Misr.",
+    "ar": "البنك اللي مصدر الاعتماد المستندي هو بنك مصر.",
+    "ex2": "Questions about the LC go to the issuer.",
+    "ar2": "أي أسئلة عن الاعتماد بتروح للجهة المصدرة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "produce an official document",
+    "mar": "تصدر مستند رسمي",
+    "ex": "The supplier will issue the proforma invoice on the same day.",
+    "ar": "المورد هيصدر الفاتورة المبدئية في نفس اليوم.",
+    "ex2": "Then our bank can process the deposit.",
+    "ar2": "بعدها البنك يقدر يخلّص العربون."
+   },
+   {
+    "m": "a problem to solve",
+    "mar": "مشكلة لازم تتحل",
+    "ex": "There is an issue with the beneficiary name on the PI.",
+    "ar": "فيه مشكلة في اسم المستفيد على الـ‎PI‎.",
+    "ex2": "Please fix this issue before we resubmit.",
+    "ar2": "من فضلك صلّح المشكلة دي قبل ما نقدّم تاني."
+   },
+   {
+    "m": "give out equipment to staff",
+    "mar": "تسلّم عهدة / أدوات",
+    "ex": "The store will issue new meters to the service team.",
+    "ar": "المخزن هيسلّم أجهزة قياس جديدة لفريق الخدمة.",
+    "ex2": "Each technician signs when tools are issued.",
+    "ar2": "كل فني بيمضي لما الأدوات بتتسلّم."
+   }
+  ],
+  "syn": [
+   {
+    "w": "raise",
+    "note": "internal: create a PO or ticket in the system",
+    "ex": "Please raise a PO in the system before ordering.",
+    "ar": "من فضلك اعمل ‎PO‎ على السيستم قبل ما تطلب.",
+    "ex2": "You can also raise a ticket for the faulty server.",
+    "ar2": "وكمان تقدر تفتح تذكرة للسيرفر العطلان."
+   },
+   {
+    "w": "generate",
+    "note": "the system creates the document automatically",
+    "ex": "The ERP will generate the e-invoice after delivery.",
+    "ar": "الـ‎ERP‎ هيطلّع الفاتورة الإلكترونية بعد التسليم.",
+    "ex2": "It generates a QR code for the tax authority.",
+    "ar2": "بيطلّع ‎QR code‎ لمصلحة الضرايب."
+   },
+   {
+    "w": "release",
+    "note": "make goods, payment or a document available",
+    "ex": "Finance will release the payment after the GRN.",
+    "ar": "الحسابات هتفرج عن الدفعة بعد إذن الاستلام.",
+    "ex2": "The shipping line will release the B/L tomorrow.",
+    "ar2": "الخط الملاحي هيطلّع البوليصة بكرة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "cancel",
+    "ex": "We had to cancel the PO because the price changed.",
+    "ar": "اضطرينا نلغي الـ‎PO‎ عشان السعر اتغير.",
+    "ex2": "Please cancel the old PO and issue a new one.",
+    "ar2": "من فضلك الغي الـ‎PO‎ القديم وطلّع واحد جديد."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Once VoltTech confirms the price, we will issue the purchase order. They will then issue the proforma invoice on the same day.",
+  "ctx_ar": "أول ما ‎VoltTech‎ يأكّدوا السعر، هنصدر أمر الشراء. وبعدها هما هيصدروا الفاتورة المبدئية في نفس اليوم.",
+  "quiz": [
+   {
+    "s": "The bank will not pay until the supplier ___ a corrected PI.",
+    "opts": [
+     "issuer",
+     "cancel",
+     "issues"
+    ],
+    "a": 2,
+    "ar": "البنك مش هيدفع لحد ما المورد يصدر ‎PI‎ مصححة."
+   },
+   {
+    "s": "The ___ of the letter of credit is Banque Misr.",
+    "opts": [
+     "issue",
+     "issuer",
+     "raise"
+    ],
+    "a": 1,
+    "ar": "الجهة المصدرة للاعتماد المستندي هي بنك مصر."
+   },
+   {
+    "s": "Please ___ a PO in the system before ordering.",
+    "opts": [
+     "raise",
+     "release",
+     "cancel"
+    ],
+    "a": 0,
+    "ar": "من فضلك اعمل ‎PO‎ على السيستم قبل ما تطلب."
+   }
+  ]
+ },
+ {
+  "w": "reserve",
+  "ar": "تحجز",
+  "book": "Our production team has already reserved the cells for your order.",
+  "family": [
+   {
+    "w": "reserve",
+    "pos": "verb",
+    "ex": "We reserved 64 modules for the Horizon Hospital project.",
+    "ar": "حجزنا 64 موديول لمشروع مستشفى ‎Horizon‎.",
+    "ex2": "Please don't reserve them for any other customer.",
+    "ar2": "من فضلك متحجزهمش لأي عميل تاني."
+   },
+   {
+    "w": "reserve",
+    "pos": "noun",
+    "ex": "We keep a reserve of 20 modules for emergencies.",
+    "ar": "بنحتفظ باحتياطي 20 موديول للطوارئ.",
+    "ex2": "The reserve covers urgent UPS failures at hospitals.",
+    "ar2": "الاحتياطي بيغطي أعطال الـ‎UPS‎ المستعجلة في المستشفيات."
+   },
+   {
+    "w": "reservation",
+    "pos": "noun",
+    "ex": "Please make a reservation for two technicians at the hotel.",
+    "ar": "من فضلك احجز أوضة لاتنين فنيين في الفندق.",
+    "ex2": "The reservation is for three nights in Aswan.",
+    "ar2": "الحجز تلات ليالي في أسوان."
+   },
+   {
+    "w": "reserved",
+    "pos": "adjective",
+    "ex": "These 64 modules are reserved for Horizon Hospital.",
+    "ar": "الـ64 موديول دول محجوزين لمستشفى ‎Horizon‎.",
+    "ex2": "Reserved stock is not available for sale.",
+    "ar2": "المخزون المحجوز مش متاح للبيع."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "keep something for a customer",
+    "mar": "تحجز حاجة لعميل",
+    "ex": "The factory reserved the cells for our order.",
+    "ar": "المصنع حجز الخلايا لأوردرنا.",
+    "ex2": "So our production slot is safe.",
+    "ar2": "فمكانّا في الإنتاج مضمون."
+   },
+   {
+    "m": "keep a right (contract language)",
+    "mar": "تحتفظ بالحق",
+    "ex": "We reserve the right to change prices without notice.",
+    "ar": "نحتفظ بالحق في تغيير الأسعار من غير إخطار.",
+    "ex2": "This clause protects us when the dollar rate jumps.",
+    "ar2": "البند ده بيحمينا لما سعر الدولار يقفز."
+   }
+  ],
+  "syn": [
+   {
+    "w": "book",
+    "note": "for transport, rooms and appointments",
+    "ex": "Please book a truck for Monday morning.",
+    "ar": "من فضلك احجز عربية نقل يوم الاتنين الصبح.",
+    "ex2": "Book it early; trucks are busy at month end.",
+    "ar2": "احجزها بدري؛ العربيات بتبقى زحمة آخر الشهر."
+   },
+   {
+    "w": "set aside",
+    "note": "keep part of stock or money for later",
+    "ex": "Set aside five batteries for the service team.",
+    "ar": "جنّب خمس بطاريات لفريق الخدمة.",
+    "ex2": "Those five are set aside for warranty cases.",
+    "ar2": "الخمسة دول متجنّبين لحالات الضمان."
+   },
+   {
+    "w": "allocate",
+    "note": "formally assign stock or budget in the system",
+    "ex": "We allocated 64 modules to the hospital order in the ERP.",
+    "ar": "خصّصنا 64 موديول لأوردر المستشفى على الـ‎ERP‎.",
+    "ex2": "Allocated stock disappears from the available list.",
+    "ar2": "المخزون المخصّص بيختفي من قايمة المتاح."
+   },
+   {
+    "w": "hold",
+    "note": "keep for a short time, usually unpaid",
+    "ex": "We can hold the UPS for you until Thursday.",
+    "ar": "نقدر نسيب الـ‎UPS‎ على جنب لك لحد الخميس.",
+    "ex2": "After Thursday, we can't hold it anymore.",
+    "ar2": "بعد الخميس، منقدرش نسيبه أكتر."
+   }
+  ],
+  "ant": [
+   {
+    "w": "release",
+    "ex": "We will release the reserved stock if the deposit doesn't arrive.",
+    "ar": "هنفك الحجز عن المخزون لو العربون موصلش.",
+    "ex2": "The released units go back to available stock.",
+    "ar2": "الوحدات اللي اتفك حجزها بترجع للمخزون المتاح."
+   }
+  ],
+  "ladder": null,
+  "ctx": "VoltTech has reserved the cells for our order. If our deposit is late, they may release them to another buyer.",
+  "ctx_ar": "‎VoltTech‎ حجزوا الخلايا لأوردرنا. لو العربون اتأخر، ممكن يفكّوا الحجز ويدّوها لمشتري تاني.",
+  "quiz": [
+   {
+    "s": "We have a ___ of 20 modules for emergencies.",
+    "opts": [
+     "reserve",
+     "reserved",
+     "reservation"
+    ],
+    "a": 0,
+    "ar": "عندنا احتياطي 20 موديول للطوارئ."
+   },
+   {
+    "s": "These 64 modules are ___ for Horizon Hospital; don't sell them.",
+    "opts": [
+     "reservation",
+     "reserved",
+     "reserve"
+    ],
+    "a": 1,
+    "ar": "الـ64 موديول دول محجوزين لمستشفى ‎Horizon‎؛ متبيعهمش."
+   },
+   {
+    "s": "We can ___ the UPS for you until Thursday, but not longer.",
+    "opts": [
+     "release",
+     "allocate",
+     "hold"
+    ],
+    "a": 2,
+    "ar": "نقدر نسيب الـ‎UPS‎ على جنب لك لحد الخميس، بس مش أكتر."
+   }
+  ]
+ }
+]

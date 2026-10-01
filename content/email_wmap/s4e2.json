@@ -1,0 +1,596 @@
+[
+ {
+  "w": "reject",
+  "ar": "يرفض / اترفض",
+  "book": "One transfer was rejected: employee ID 1047, Mr. Mahmoud Adel, EGP 14,650.",
+  "family": [
+   {
+    "w": "reject",
+    "pos": "verb",
+    "ex": "The bank may reject transfers with wrong account numbers.",
+    "ar": "البنك ممكن يرفض التحويلات اللي أرقام حساباتها غلط.",
+    "ex2": "So we double-check the payroll file before uploading it.",
+    "ar2": "عشان كده بنراجع ملف المرتبات مرتين قبل ما نرفعه."
+   },
+   {
+    "w": "rejection",
+    "pos": "noun",
+    "ex": "We received a rejection notice for one salary transfer.",
+    "ar": "وصلنا إشعار رفض لتحويل مرتب واحد.",
+    "ex2": "The notice says the account number is invalid.",
+    "ar2": "الإشعار بيقول إن رقم الحساب غلط."
+   },
+   {
+    "w": "rejected",
+    "pos": "adjective",
+    "ex": "Please resend the rejected transfer with the correct IBAN.",
+    "ar": "من فضلك ابعت التحويل المرفوض تاني بالـ‎IBAN‎ الصح.",
+    "ex2": "The rejected amount is EGP 14,650.",
+    "ar2": "المبلغ المرفوض 14,650 جنيه."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "decline",
+    "note": "polite word; banks decline cards, people decline offers",
+    "ex": "The supplier's bank declined our card payment for the spare parts.",
+    "ar": "بنك المورد رفض الدفع بالكارت لقطع الغيار.",
+    "ex2": "We paid by bank transfer instead.",
+    "ar2": "دفعنا بتحويل بنكي بدل كده."
+   },
+   {
+    "w": "refuse",
+    "note": "strong; usually a person clearly saying no",
+    "ex": "The customer refused the delivery because two batteries were damaged.",
+    "ar": "العميل رفض يستلم عشان بطاريتين كانوا تالفين.",
+    "ex2": "We will replace them and deliver again on Sunday.",
+    "ar2": "هنغيّرهم ونسلّم تاني يوم الأحد."
+   },
+   {
+    "w": "turn down",
+    "note": "informal; for offers or requests",
+    "ex": "Delta Pharma turned down our offer for an extended warranty.",
+    "ar": "‎Delta Pharma‎ رفضوا عرضنا للضمان الممتد.",
+    "ex2": "They may accept it next year with the new budget.",
+    "ar2": "ممكن يقبلوه السنة الجاية مع الميزانية الجديدة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "accept",
+    "ex": "The bank accepted 211 transfers in the payroll file.",
+    "ar": "البنك قبل 211 تحويل في ملف المرتبات.",
+    "ex2": "Only one transfer was not accepted.",
+    "ar2": "تحويل واحد بس اللي متقبلش."
+   }
+  ],
+  "ladder": {
+   "label": "how serious the bank's response is",
+   "lar": "رد البنك خطير قد إيه",
+   "steps": [
+    {
+     "w": "query",
+     "ex": "The bank queried one transfer because the name didn't match.",
+     "ar": "البنك استفسر عن تحويل واحد عشان الاسم مش مطابق.",
+     "ex2": "We answered by email, and it went through.",
+     "ar2": "رديّنا بالإيميل، والتحويل عدّى."
+    },
+    {
+     "w": "put on hold",
+     "ex": "The bank put the transfer on hold until we send the ID copy.",
+     "ar": "البنك وقّف التحويل لحد ما نبعت صورة البطاقة.",
+     "ex2": "On hold means the money hasn't left our account yet.",
+     "ar2": "متوقف معناها إن الفلوس لسه مخرجتش من حسابنا."
+    },
+    {
+     "w": "reject",
+     "ex": "The bank rejected the transfer because of an invalid account number.",
+     "ar": "البنك رفض التحويل عشان رقم الحساب غلط.",
+     "ex2": "The money came back to our account the same day.",
+     "ar2": "الفلوس رجعت لحسابنا في نفس اليوم."
+    }
+   ]
+  },
+  "ctx": "The bank rejected one salary transfer because a digit was missing. We sent the correct account number the same morning.",
+  "ctx_ar": "البنك رفض تحويل مرتب واحد عشان فيه رقم ناقص. بعتنا رقم الحساب الصح في نفس الصبح.",
+  "quiz": [
+   {
+    "s": "We received a ___ notice from the bank this morning.",
+    "opts": [
+     "reject",
+     "rejection",
+     "rejected"
+    ],
+    "a": 1,
+    "ar": "وصلنا إشعار رفض من البنك النهارده الصبح."
+   },
+   {
+    "s": "Please resend the ___ transfer with the right account number.",
+    "opts": [
+     "reject",
+     "rejection",
+     "rejected"
+    ],
+    "a": 2,
+    "ar": "من فضلك ابعت التحويل المرفوض تاني برقم الحساب الصح."
+   },
+   {
+    "s": "The customer ___ our warranty offer, so we lost that sale.",
+    "opts": [
+     "turned down",
+     "accept",
+     "query"
+    ],
+    "a": 0,
+    "ar": "العميل رفض عرض الضمان بتاعنا، فخسرنا البيعة دي."
+   }
+  ]
+ },
+ {
+  "w": "process",
+  "ar": "ينفّذ / إجراءات",
+  "book": "Thank you for your email and for processing the payroll file.",
+  "family": [
+   {
+    "w": "process",
+    "pos": "verb",
+    "ex": "The bank will process the payroll file within 24 hours.",
+    "ar": "البنك هينفذ ملف المرتبات خلال 24 ساعة.",
+    "ex2": "Salaries will then reach employees on the value date.",
+    "ar2": "وبعدها المرتبات هتوصل للموظفين يوم الاستحقاق."
+   },
+   {
+    "w": "process",
+    "pos": "noun",
+    "ex": "Our approval process for supplier payments has three signatures.",
+    "ar": "إجراءات الموافقة على مدفوعات الموردين عندنا فيها 3 توقيعات.",
+    "ex2": "The process protects us from wrong payments.",
+    "ar2": "الإجراءات دي بتحمينا من الدفع الغلط."
+   },
+   {
+    "w": "processing",
+    "pos": "noun",
+    "ex": "Processing time for international transfers is two working days.",
+    "ar": "وقت تنفيذ التحويلات الدولية يومين عمل.",
+    "ex2": "So send the VoltTech payment on Monday, not Wednesday.",
+    "ar2": "فابعت دفعة ‎VoltTech‎ يوم الاتنين، مش الأربع."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "handle a request or transaction",
+    "mar": "ينفّذ طلب أو عملية",
+    "ex": "Ms. Rania processed the corrected transfer before 1 pm.",
+    "ar": "أستاذة رانيا نفذت التحويل المتصحح قبل الساعة 1.",
+    "ex2": "The employee got his salary on time.",
+    "ar2": "الموظف قبض مرتبه في ميعاده."
+   },
+   {
+    "m": "a series of steps",
+    "mar": "إجراءات / خطوات",
+    "ex": "The process for changing signatories takes about one week.",
+    "ar": "إجراءات تغيير المفوضين بالتوقيع بتاخد حوالي أسبوع.",
+    "ex2": "It needs a board resolution and a branch visit.",
+    "ar2": "محتاجة قرار مجلس إدارة وزيارة للفرع."
+   }
+  ],
+  "syn": [
+   {
+    "w": "handle",
+    "note": "general; deal with a case, request or customer",
+    "ex": "Who handles payroll questions at Nile Commercial Bank?",
+    "ar": "مين بيتعامل مع أسئلة المرتبات في ‎Nile Commercial Bank‎؟",
+    "ex2": "Ms. Rania handles our account in Corporate Payroll Services.",
+    "ar2": "أستاذة رانيا هي اللي ماسكة حسابنا في خدمات المرتبات."
+   },
+   {
+    "w": "execute",
+    "note": "formal banking word for carrying out a payment order",
+    "ex": "The bank executed the USD transfer to VoltTech this morning.",
+    "ar": "البنك نفذ التحويل بالدولار لـ‎VoltTech‎ الصبح.",
+    "ex2": "We'll receive the SWIFT copy by email.",
+    "ar2": "هتوصلنا نسخة الـ‎SWIFT‎ على الإيميل."
+   },
+   {
+    "w": "carry out",
+    "note": "neutral; do a task, test or instruction",
+    "ex": "The technician will carry out the battery test on Saturday.",
+    "ar": "الفني هيعمل اختبار البطاريات يوم السبت.",
+    "ex2": "He will carry out the UPS inspection the same day.",
+    "ar2": "وهيعمل فحص الـ‎UPS‎ في نفس اليوم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "hold",
+    "ex": "The bank will hold the transfer until we send the signed letter.",
+    "ar": "البنك هيوقف التحويل لحد ما نبعت الخطاب الممضي.",
+    "ex2": "If they hold it too long, the value date may change.",
+    "ar2": "لو وقفوه كتير، تاريخ الاستحقاق ممكن يتغير."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The bank processed 211 transfers successfully. Only one was rejected because of a wrong account number.",
+  "ctx_ar": "البنك نفذ 211 تحويل بنجاح. واحد بس اترفض بسبب رقم حساب غلط.",
+  "quiz": [
+   {
+    "s": "___ time for international transfers is two working days.",
+    "opts": [
+     "Process",
+     "Processing",
+     "Hold"
+    ],
+    "a": 1,
+    "ar": "وقت تنفيذ التحويلات الدولية يومين عمل."
+   },
+   {
+    "s": "Our approval ___ needs three signatures.",
+    "opts": [
+     "process",
+     "processing",
+     "execute"
+    ],
+    "a": 0,
+    "ar": "إجراءات الموافقة عندنا محتاجة 3 توقيعات."
+   },
+   {
+    "s": "The bank will ___ the USD transfer today and send the SWIFT copy.",
+    "opts": [
+     "hold",
+     "handle",
+     "execute"
+    ],
+    "a": 2,
+    "ar": "البنك هينفذ التحويل بالدولار النهارده ويبعت نسخة الـ‎SWIFT‎."
+   }
+  ]
+ },
+ {
+  "w": "credit",
+  "ar": "يتحط في الحساب / آجل",
+  "book": "If we receive it before 1 pm today, the salary will be credited on 29 September.",
+  "family": [
+   {
+    "w": "credit",
+    "pos": "verb",
+    "ex": "The bank will credit the refund to our account tomorrow.",
+    "ar": "البنك هيضيف المبلغ المسترد على حسابنا بكرة.",
+    "ex2": "Please check that it is credited in full.",
+    "ar2": "اتأكد إنه اتضاف بالكامل."
+   },
+   {
+    "w": "credit",
+    "pos": "noun",
+    "ex": "We give Delta Pharma 60 days' credit on all invoices.",
+    "ar": "بنديّ ‎Delta Pharma‎ مهلة سداد 60 يوم على كل الفواتير.",
+    "ex2": "New customers get no credit until they pay three orders.",
+    "ar2": "العملا الجداد مالهمش آجل لحد ما يدفعوا 3 أوردرات."
+   },
+   {
+    "w": "creditor",
+    "pos": "person",
+    "ex": "VoltTech is our biggest foreign creditor this quarter.",
+    "ar": "‎VoltTech‎ أكبر دائن أجنبي لينا الربع ده.",
+    "ex2": "We owe them USD 38,000 for the inverter shipment.",
+    "ar2": "علينا ليهم 38,000 دولار لشحنة الإنفرترات."
+   },
+   {
+    "w": "creditworthy",
+    "pos": "adjective",
+    "ex": "The bank considers us creditworthy because we always pay on time.",
+    "ar": "البنك شايفنا جديرين بالائتمان عشان دايمًا بندفع في الميعاد.",
+    "ex2": "That helps us get a bigger facility for imports.",
+    "ar2": "ده بيساعدنا ناخد تسهيل أكبر للاستيراد."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "add money to an account",
+    "mar": "يضيف فلوس على الحساب",
+    "ex": "Salaries will be credited on 29 September.",
+    "ar": "المرتبات هتنزل في الحسابات يوم 29 سبتمبر.",
+    "ex2": "Employees can use the money the same morning.",
+    "ar2": "الموظفين يقدروا يستخدموا الفلوس من الصبح."
+   },
+   {
+    "m": "time a customer gets to pay later",
+    "mar": "آجل / مهلة سداد",
+    "ex": "We sell to hospitals on 45 days' credit.",
+    "ar": "بنبيع للمستشفيات بآجل 45 يوم.",
+    "ex2": "Small customers must pay cash on delivery.",
+    "ar2": "العملا الصغيرين لازم يدفعوا كاش عند الاستلام."
+   },
+   {
+    "m": "an amount taken off what a customer owes",
+    "mar": "إشعار دائن / خصم من المستحق",
+    "ex": "We issued a credit for the two damaged batteries.",
+    "ar": "طلّعنا إشعار دائن للبطاريتين التالفين.",
+    "ex2": "The customer will deduct it from the next payment.",
+    "ar2": "العميل هيخصمه من الدفعة الجاية."
+   }
+  ],
+  "syn": [
+   {
+    "w": "deposit",
+    "note": "money someone puts in, often cash or a cheque",
+    "ex": "Sara deposited the Delta Pharma cheque at the Heliopolis branch.",
+    "ar": "سارة ودّعت شيك ‎Delta Pharma‎ في فرع مصر الجديدة.",
+    "ex2": "The cheque needs two days to clear.",
+    "ar2": "الشيك محتاج يومين عشان يتصرف."
+   },
+   {
+    "w": "pay into",
+    "note": "informal; put money into a named account",
+    "ex": "The bank will pay the salary into his new account.",
+    "ar": "البنك هيحط المرتب في حسابه الجديد.",
+    "ex2": "He gave us the number on his bank card.",
+    "ar2": "إدانا الرقم اللي على كارت البنك بتاعه."
+   }
+  ],
+  "ant": [
+   {
+    "w": "debit",
+    "ex": "The bank will debit the transfer fee from our account.",
+    "ar": "البنك هيخصم رسوم التحويل من حسابنا.",
+    "ex2": "A debit means money leaves the account.",
+    "ar2": "الـ‎debit‎ معناه فلوس خارجة من الحساب."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The corrected transfer was sent before the cut-off time. His salary will be credited on 29 September with everyone else's.",
+  "ctx_ar": "التحويل المتصحح اتبعت قبل آخر ميعاد. مرتبه هينزل يوم 29 سبتمبر مع الباقيين.",
+  "quiz": [
+   {
+    "s": "VoltTech is our largest foreign ___.",
+    "opts": [
+     "credit",
+     "creditor",
+     "creditworthy"
+    ],
+    "a": 1,
+    "ar": "‎VoltTech‎ أكبر دائن أجنبي لينا."
+   },
+   {
+    "s": "The bank sees us as ___ because we pay on time.",
+    "opts": [
+     "creditor",
+     "credit",
+     "creditworthy"
+    ],
+    "a": 2,
+    "ar": "البنك شايفنا جديرين بالائتمان عشان بندفع في الميعاد."
+   },
+   {
+    "s": "The bank will ___ the fee from our account.",
+    "opts": [
+     "debit",
+     "credit",
+     "deposit"
+    ],
+    "a": 0,
+    "ar": "البنك هيخصم الرسوم من حسابنا."
+   }
+  ]
+ },
+ {
+  "w": "authorised",
+  "ar": "مفوّض / معتمد",
+  "book": "We need a signed instruction letter from one of your authorised signatories, with the company stamp, showing the employee name, the correct account number and the amount.",
+  "family": [
+   {
+    "w": "authorise",
+    "pos": "verb",
+    "ex": "Only the Finance Director can authorise payments above EGP 500,000.",
+    "ar": "المدير المالي بس اللي يقدر يعتمد مدفوعات فوق 500,000 جنيه.",
+    "ex2": "Smaller payments can be authorised by the Chief Accountant.",
+    "ar2": "المدفوعات الأصغر ممكن رئيسة الحسابات تعتمدها."
+   },
+   {
+    "w": "authorisation",
+    "pos": "noun",
+    "ex": "The bank needs written authorisation before changing payroll data.",
+    "ar": "البنك محتاج تفويض مكتوب قبل ما يغيّر بيانات المرتبات.",
+    "ex2": "An email alone is not enough authorisation.",
+    "ar2": "الإيميل لوحده مش كفاية كتفويض."
+   },
+   {
+    "w": "authority",
+    "pos": "noun",
+    "ex": "Mr. Hany has the authority to sign bank instruction letters.",
+    "ar": "أستاذ هاني عنده صلاحية يمضي خطابات التعليمات للبنك.",
+    "ex2": "Ms. Nadia will get the same authority next month.",
+    "ar2": "أستاذة نادية هتاخد نفس الصلاحية الشهر الجاي."
+   },
+   {
+    "w": "authorised",
+    "pos": "adjective",
+    "ex": "Only authorised signatories can sign the instruction letter.",
+    "ar": "المفوضين بالتوقيع بس اللي يقدروا يمضوا خطاب التعليمات.",
+    "ex2": "Their names are registered with the bank.",
+    "ar2": "أساميهم متسجلة في البنك."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "approved",
+    "note": "a decision said yes to it, e.g. approved suppliers",
+    "ex": "Only approved suppliers can quote for the hospital project.",
+    "ar": "الموردين المعتمدين بس اللي يقدروا يقدموا أسعار لمشروع المستشفى.",
+    "ex2": "EuroDrive has been on our approved list since 2022.",
+    "ar2": "‎EuroDrive‎ في قايمة المعتمدين عندنا من 2022."
+   },
+   {
+    "w": "official",
+    "note": "formally from the company, e.g. official stamp or letter",
+    "ex": "Please send the official letter on company letterhead.",
+    "ar": "من فضلك ابعت الخطاب الرسمي على ورق الشركة.",
+    "ex2": "The bank won't accept a letter without the official stamp.",
+    "ar2": "البنك مش هيقبل خطاب من غير الختم الرسمي."
+   },
+   {
+    "w": "permitted",
+    "note": "allowed by a rule or policy",
+    "ex": "Staff are not permitted to change bank details by phone.",
+    "ar": "الموظفين مش مسموح لهم يغيروا بيانات البنك بالتليفون.",
+    "ex2": "All changes must come in a signed letter.",
+    "ar2": "أي تغيير لازم ييجي في خطاب ممضي."
+   }
+  ],
+  "ant": [
+   {
+    "w": "unauthorised",
+    "ex": "The bank blocked an unauthorised payment from our account.",
+    "ar": "البنك وقف دفعة مش مصرح بيها من حسابنا.",
+    "ex2": "We reported it and changed all online banking passwords.",
+    "ar2": "بلّغنا وغيرنا كل باسوردات البنك أونلاين."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The bank will not change payroll data by email. It needs a letter signed by an authorised signatory with the company stamp.",
+  "ctx_ar": "البنك مش هيغير بيانات المرتبات بالإيميل. محتاج خطاب ممضي من مفوض بالتوقيع وعليه ختم الشركة.",
+  "quiz": [
+   {
+    "s": "Only the Finance Director can ___ payments above EGP 500,000.",
+    "opts": [
+     "authority",
+     "authorise",
+     "authorisation"
+    ],
+    "a": 1,
+    "ar": "المدير المالي بس اللي يقدر يعتمد مدفوعات فوق 500,000 جنيه."
+   },
+   {
+    "s": "The bank needs written ___ before changing payroll data.",
+    "opts": [
+     "authorise",
+     "authorised",
+     "authorisation"
+    ],
+    "a": 2,
+    "ar": "البنك محتاج تفويض مكتوب قبل ما يغير بيانات المرتبات."
+   },
+   {
+    "s": "The bank blocked an ___ payment from our account.",
+    "opts": [
+     "unauthorised",
+     "authorised",
+     "official"
+    ],
+    "a": 0,
+    "ar": "البنك وقف دفعة مش مصرح بيها من حسابنا."
+   }
+  ]
+ },
+ {
+  "w": "invalid",
+  "ar": "غلط / مش ساري",
+  "book": "Reason: invalid account number.",
+  "family": [
+   {
+    "w": "invalid",
+    "pos": "adjective",
+    "ex": "The system shows an invalid tax number for this customer.",
+    "ar": "السيستم بيطلع رقم ضريبي غلط للعميل ده.",
+    "ex2": "We can't issue the e-invoice until it's corrected.",
+    "ar2": "مش هنقدر نطلع الفاتورة الإلكترونية لحد ما يتصلح."
+   },
+   {
+    "w": "valid",
+    "pos": "adjective",
+    "ex": "Our quotation for the 60 kVA UPS is valid for 30 days.",
+    "ar": "عرض السعر بتاعنا للـ‎UPS‎ الـ60 ‎kVA‎ ساري 30 يوم.",
+    "ex2": "After that, prices may change with the dollar rate.",
+    "ar2": "بعد كده الأسعار ممكن تتغير مع سعر الدولار."
+   },
+   {
+    "w": "validate",
+    "pos": "verb",
+    "ex": "Please validate all account numbers before uploading the payroll file.",
+    "ar": "من فضلك اتأكد من صحة كل أرقام الحسابات قبل ما ترفع ملف المرتبات.",
+    "ex2": "The bank's portal can validate the IBAN format too.",
+    "ar2": "بوابة البنك كمان تقدر تتأكد من شكل الـ‎IBAN‎."
+   },
+   {
+    "w": "validity",
+    "pos": "noun",
+    "ex": "Check the validity of the commercial register extract before sending it.",
+    "ar": "اتأكد من سريان مستخرج السجل التجاري قبل ما تبعته.",
+    "ex2": "Banks want one issued in the last three months.",
+    "ar2": "البنوك عايزة واحد طالع في آخر 3 شهور."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "incorrect",
+    "note": "simply wrong data; the most general word",
+    "ex": "The PO shows an incorrect unit price for the batteries.",
+    "ar": "أمر الشراء فيه سعر وحدة غلط للبطاريات.",
+    "ex2": "Purchasing will send a corrected PO today.",
+    "ar2": "المشتريات هتبعت أمر شراء متصحح النهارده."
+   },
+   {
+    "w": "expired",
+    "note": "was valid before, but its date has passed",
+    "ex": "The supplier's offer expired last Thursday.",
+    "ar": "عرض المورد انتهى الخميس اللي فات.",
+    "ex2": "We need a new offer with updated prices.",
+    "ar2": "محتاجين عرض جديد بأسعار محدّثة."
+   },
+   {
+    "w": "void",
+    "note": "formal; cancelled, with no legal effect",
+    "ex": "This cheque is void because it shows two different amounts.",
+    "ar": "الشيك ده لاغي عشان فيه مبلغين مختلفين.",
+    "ex2": "Please ask the customer for a new cheque.",
+    "ar2": "من فضلك اطلب من العميل شيك جديد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "valid",
+    "ex": "The new account number is valid, and the transfer went through.",
+    "ar": "رقم الحساب الجديد صحيح، والتحويل عدّى.",
+    "ex2": "The salary was credited the same day.",
+    "ar2": "المرتب نزل في نفس اليوم."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The bank rejected the transfer because of an invalid account number. One digit was missing, so we sent the correct number.",
+  "ctx_ar": "البنك رفض التحويل بسبب رقم حساب غلط. كان فيه رقم ناقص، فبعتنا الرقم الصح.",
+  "quiz": [
+   {
+    "s": "Our quotation is ___ for 30 days.",
+    "opts": [
+     "invalid",
+     "valid",
+     "validity"
+    ],
+    "a": 1,
+    "ar": "عرض السعر بتاعنا ساري 30 يوم."
+   },
+   {
+    "s": "Please ___ all account numbers before uploading the file.",
+    "opts": [
+     "valid",
+     "validity",
+     "validate"
+    ],
+    "a": 2,
+    "ar": "من فضلك اتأكد من صحة كل أرقام الحسابات قبل ما ترفع الملف."
+   },
+   {
+    "s": "The offer ___ last week, so we need new prices.",
+    "opts": [
+     "expired",
+     "invalid",
+     "void"
+    ],
+    "a": 0,
+    "ar": "العرض انتهى الأسبوع اللي فات، فمحتاجين أسعار جديدة."
+   }
+  ]
+ }
+]

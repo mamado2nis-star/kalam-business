@@ -1,0 +1,646 @@
+[
+ {
+  "w": "quote",
+  "ar": "تدّي سعر / تسعّر",
+  "book": "Please quote CFR Alexandria and confirm the lead time, warranty period, MOQ and payment terms.",
+  "family": [
+   {
+    "w": "quote",
+    "pos": "verb",
+    "ex": "Please quote your best price for 40 x 12V 100Ah batteries.",
+    "ar": "من فضلك ادّينا أحسن سعر لـ40 بطارية ‎12V 100Ah‎.",
+    "ex2": "Quote CFR Alexandria, not FOB, so we can compare offers.",
+    "ar2": "سعّر ‎CFR‎ إسكندرية مش ‎FOB‎، عشان نقدر نقارن العروض."
+   },
+   {
+    "w": "quote",
+    "pos": "noun",
+    "ex": "Can you send me a quick quote for two VFDs?",
+    "ar": "ممكن تبعتلي سعر سريع لاتنين ‎VFD‎؟",
+    "ex2": "The customer wants the quote before Sunday's meeting.",
+    "ar2": "العميل عايز السعر قبل اجتماع الحد."
+   },
+   {
+    "w": "quotation",
+    "pos": "noun",
+    "ex": "Our quotation for the 60 kVA UPS is valid for 30 days.",
+    "ar": "عرض السعر بتاعنا للـ‎UPS‎ الـ‎60 kVA‎ صالح 30 يوم.",
+    "ex2": "After that, the quotation may change with the dollar rate.",
+    "ar2": "بعد كده عرض السعر ممكن يتغير مع سعر الدولار."
+   },
+   {
+    "w": "quoted",
+    "pos": "adjective",
+    "ex": "The quoted price does not include installation.",
+    "ar": "السعر اللي اتقال مش شامل التركيب.",
+    "ex2": "Installation is quoted separately at EGP 15,000.",
+    "ar2": "التركيب متسعّر لوحده بـ15,000 جنيه."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "give a price",
+    "mar": "تدّي سعر",
+    "ex": "Can you quote us for 20 UPS batteries by Thursday?",
+    "ar": "ممكن تسعّر لنا 20 بطارية ‎UPS‎ قبل الخميس؟",
+    "ex2": "We need to quote the hospital next week.",
+    "ar2": "محتاجين نقدّم سعر للمستشفى الأسبوع الجاي."
+   },
+   {
+    "m": "mention a reference number",
+    "mar": "تكتب رقم مرجعي",
+    "ex": "Please quote PO-2025-164 on your invoice.",
+    "ar": "ياريت تكتب رقم ‎PO-2025-164‎ على الفاتورة.",
+    "ex2": "Our accounts team cannot match invoices without the PO number.",
+    "ar2": "الحسابات مش بتقدر تطابق الفواتير من غير رقم الـ‎PO‎."
+   }
+  ],
+  "syn": [
+   {
+    "w": "offer",
+    "note": "full proposal with price, terms and conditions",
+    "ex": "Shenzhen VoltTech sent their offer with a 3-year warranty.",
+    "ar": "‎Shenzhen VoltTech‎ بعتوا عرضهم بضمان 3 سنين.",
+    "ex2": "Their offer is cheap, but the lead time is long.",
+    "ar2": "عرضهم رخيص، بس مدة التوريد طويلة."
+   },
+   {
+    "w": "estimate",
+    "note": "rough cost that may change later",
+    "ex": "This is only an estimate; the final price depends on the site survey.",
+    "ar": "ده تقدير مبدئي بس؛ السعر النهائي حسب معاينة الموقع.",
+    "ex2": "We will send a firm quotation after the visit.",
+    "ar2": "هنبعت عرض سعر نهائي بعد الزيارة."
+   },
+   {
+    "w": "price",
+    "note": "internal: decide our selling price",
+    "ex": "We need to price the solar project before Thursday.",
+    "ar": "لازم نحط سعر لمشروع الطاقة الشمسية قبل الخميس.",
+    "ex2": "Ahmed will price the inverters and cables first.",
+    "ar2": "أحمد هيسعّر الإنفرترات والكابلات الأول."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how firm the price is",
+   "lar": "السعر ثابت قد إيه",
+   "steps": [
+    {
+     "w": "estimate",
+     "ex": "Our estimate for the server room upgrade is about EGP 2 million.",
+     "ar": "تقديرنا لتطوير غرفة السيرفرات حوالي 2 مليون جنيه.",
+     "ex2": "It may change after we see the site.",
+     "ar2": "ممكن يتغير بعد ما نشوف الموقع."
+    },
+    {
+     "w": "quote",
+     "ex": "Here is a quick quote for the battery replacement.",
+     "ar": "ده سعر سريع لتغيير البطاريات.",
+     "ex2": "A formal quotation will follow tomorrow.",
+     "ar2": "وعرض السعر الرسمي هيوصل بكرة."
+    },
+    {
+     "w": "quotation",
+     "ex": "Please find attached our signed quotation QT-25-311.",
+     "ar": "مرفق عرض السعر الموقّع ‎QT-25-311‎.",
+     "ex2": "The quotation is valid until 31 October.",
+     "ar2": "عرض السعر صالح لحد 31 أكتوبر."
+    },
+    {
+     "w": "proforma invoice",
+     "ex": "The supplier sent a proforma invoice for the deposit.",
+     "ar": "المورد بعت فاتورة مبدئية عشان العربون.",
+     "ex2": "Our bank needs the proforma invoice signed and stamped.",
+     "ar2": "البنك محتاج الفاتورة المبدئية متمضية ومختومة."
+    }
+   ]
+  },
+  "ctx": "Please quote CFR Alexandria, not FOB Shenzhen. We need the freight included to compare the three offers.",
+  "ctx_ar": "من فضلك سعّر ‎CFR‎ إسكندرية مش ‎FOB Shenzhen‎. محتاجين الشحن يبقى داخل عشان نقارن التلات عروض.",
+  "quiz": [
+   {
+    "s": "The ___ price does not include VAT.",
+    "opts": [
+     "quote",
+     "quoted",
+     "quotation"
+    ],
+    "a": 1,
+    "ar": "السعر المذكور مش شامل الضريبة."
+   },
+   {
+    "s": "Could you ___ us CFR Alexandria for 120 modules?",
+    "opts": [
+     "quotation",
+     "quoted",
+     "quote"
+    ],
+    "a": 2,
+    "ar": "ممكن تسعّر لنا ‎CFR‎ إسكندرية لـ120 موديول؟"
+   },
+   {
+    "s": "This is just a rough ___; the final price comes after the site visit.",
+    "opts": [
+     "estimate",
+     "quotation",
+     "proforma invoice"
+    ],
+    "a": 0,
+    "ar": "ده تقدير تقريبي بس؛ السعر النهائي بعد زيارة الموقع."
+   }
+  ]
+ },
+ {
+  "w": "confirm",
+  "ar": "تأكّد / تثبّت",
+  "book": "Finally, could you confirm the MOQ and whether a 5-year warranty is possible?",
+  "family": [
+   {
+    "w": "confirm",
+    "pos": "verb",
+    "ex": "Please confirm the lead time for the 51.2V modules.",
+    "ar": "من فضلك أكّد مدة التوريد للموديولات الـ‎51.2V‎.",
+    "ex2": "Please confirm it in writing so we can plan the project.",
+    "ar2": "ياريت تأكّدها كتابةً عشان نخطط المشروع."
+   },
+   {
+    "w": "confirmation",
+    "pos": "noun",
+    "ex": "We are still waiting for the order confirmation from VoltTech.",
+    "ar": "لسه مستنيين تأكيد الأوردر من ‎VoltTech‎.",
+    "ex2": "Without the confirmation, Finance won't pay the deposit.",
+    "ar2": "من غير التأكيد، الحسابات مش هتدفع العربون."
+   },
+   {
+    "w": "confirmed",
+    "pos": "adjective",
+    "ex": "The booking is confirmed on a vessel leaving Shekou on 22 October.",
+    "ar": "الحجز متأكد على مركب طالعة من ‎Shekou‎ يوم 22 أكتوبر.",
+    "ex2": "The confirmed booking means we can tell the hospital.",
+    "ar2": "الحجز المتأكد معناه إننا نقدر نبلّغ المستشفى."
+   },
+   {
+    "w": "unconfirmed",
+    "pos": "adjective",
+    "ex": "The delivery date is still unconfirmed, so don't promise the client.",
+    "ar": "ميعاد التسليم لسه مش متأكد، فمتوعدش العميل.",
+    "ex2": "Wait for the unconfirmed date to be fixed.",
+    "ar2": "استنى لحد ما الميعاد يتثبت."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "verify",
+    "note": "check that information is correct",
+    "ex": "Please verify the HS code before you upload the invoice.",
+    "ar": "من فضلك اتأكد من الـ‎HS code‎ قبل ما ترفع الفاتورة.",
+    "ex2": "Please verify it now; a wrong code can mean fines.",
+    "ar2": "اتأكد منه دلوقتي؛ كود غلط ممكن يجيب غرامات."
+   },
+   {
+    "w": "acknowledge",
+    "note": "say you received something",
+    "ex": "Please acknowledge receipt of our PO-2025-164.",
+    "ar": "من فضلك أكّد استلامك للـ‎PO-2025-164‎.",
+    "ex2": "A short reply is enough to acknowledge it.",
+    "ar2": "رد قصير كفاية إنك تأكّد الاستلام."
+   },
+   {
+    "w": "approve",
+    "note": "give official permission",
+    "ex": "The Finance Director must approve the PO before we send it.",
+    "ar": "المدير المالي لازم يوافق على الـ‎PO‎ قبل ما نبعته.",
+    "ex2": "He usually approves orders on the same day.",
+    "ar2": "هو عادةً بيوافق على الأوردرات في نفس اليوم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "cancel",
+    "ex": "The customer cancelled the order for two UPS units.",
+    "ar": "العميل لغى أوردر اتنين ‎UPS‎.",
+    "ex2": "He cancelled it because the budget was cut.",
+    "ar2": "لغاه عشان الميزانية اتخفضت."
+   }
+  ],
+  "ladder": {
+   "label": "how firm the agreement is",
+   "lar": "الاتفاق ثابت قد إيه",
+   "steps": [
+    {
+     "w": "pencil in",
+     "ex": "Let's pencil in the site visit for Monday.",
+     "ar": "خلّينا نحط زيارة الموقع مبدئيًا يوم الاتنين.",
+     "ex2": "I will pencil it in until the client replies.",
+     "ar2": "هحطها مبدئيًا لحد ما العميل يرد."
+    },
+    {
+     "w": "agree in principle",
+     "ex": "The supplier agreed in principle to a 5-year warranty.",
+     "ar": "المورد وافق مبدئيًا على ضمان 5 سنين.",
+     "ex2": "Details will come after they agree in principle on price.",
+     "ar2": "التفاصيل هتيجي بعد ما يوافقوا مبدئيًا على السعر."
+    },
+    {
+     "w": "confirm",
+     "ex": "VoltTech confirmed the price of USD 1,040 per unit.",
+     "ar": "‎VoltTech‎ أكّدوا سعر 1,040 دولار للوحدة.",
+     "ex2": "Now we can confirm the order internally.",
+     "ar2": "دلوقتي نقدر نثبّت الأوردر داخليًا."
+    },
+    {
+     "w": "confirm in writing",
+     "ex": "Please confirm in writing that the goods ship on 22 October.",
+     "ar": "من فضلك أكّد كتابةً إن البضاعة هتتشحن يوم 22 أكتوبر.",
+     "ex2": "Our bank asks us to confirm in writing.",
+     "ar2": "البنك بيطلب مننا التأكيد كتابةً."
+    }
+   ]
+  },
+  "ctx": "Could you confirm the MOQ for this model? If it is 200 units, we need to change our plan.",
+  "ctx_ar": "ممكن تأكّد الحد الأدنى للطلب للموديل ده؟ لو 200 وحدة، هنحتاج نغيّر خطتنا.",
+  "quiz": [
+   {
+    "s": "Please send written ___ of the delivery date.",
+    "opts": [
+     "confirm",
+     "confirmation",
+     "confirmed"
+    ],
+    "a": 1,
+    "ar": "من فضلك ابعت تأكيد مكتوب لميعاد التسليم."
+   },
+   {
+    "s": "The booking is still ___, so don't tell the customer yet.",
+    "opts": [
+     "unconfirmed",
+     "confirmation",
+     "confirm"
+    ],
+    "a": 0,
+    "ar": "الحجز لسه مش متأكد، فمتقولش للعميل لسه."
+   },
+   {
+    "s": "Please ___ receipt of our purchase order.",
+    "opts": [
+     "approve",
+     "verify",
+     "acknowledge"
+    ],
+    "a": 2,
+    "ar": "من فضلك أكّد استلام أمر الشراء بتاعنا."
+   }
+  ]
+ },
+ {
+  "w": "revise",
+  "ar": "تعدّل / تراجع",
+  "book": "Could you please revise your offer to include sea freight to Alexandria port?",
+  "family": [
+   {
+    "w": "revise",
+    "pos": "verb",
+    "ex": "Please revise the quotation to show CFR prices.",
+    "ar": "من فضلك عدّل عرض السعر يبيّن أسعار ‎CFR‎.",
+    "ex2": "Please revise it before Thursday's comparison meeting.",
+    "ar2": "ياريت تعدّله قبل اجتماع المقارنة يوم الخميس."
+   },
+   {
+    "w": "revised",
+    "pos": "adjective",
+    "ex": "Thank you for your revised offer VT-2025-0912.",
+    "ar": "شكرًا على العرض المعدّل ‎VT-2025-0912‎.",
+    "ex2": "The revised offer now includes freight to Alexandria.",
+    "ar2": "العرض المعدّل دلوقتي شامل الشحن لإسكندرية."
+   },
+   {
+    "w": "revision",
+    "pos": "noun",
+    "ex": "This is the third revision of the maintenance contract.",
+    "ar": "دي تالت مراجعة لعقد الصيانة.",
+    "ex2": "Each revision adds a new site to the contract.",
+    "ar2": "كل مراجعة بتزوّد موقع جديد للعقد."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "amend",
+    "note": "formal: change a contract or official document",
+    "ex": "We need to amend clause 4 of the service contract.",
+    "ar": "محتاجين نعدّل البند 4 في عقد الخدمة.",
+    "ex2": "Both parties must sign the amended contract.",
+    "ar2": "الطرفين لازم يمضوا العقد المعدّل."
+   },
+   {
+    "w": "update",
+    "note": "add the latest information",
+    "ex": "Please update the price list with the new dollar rate.",
+    "ar": "من فضلك حدّث قايمة الأسعار بسعر الدولار الجديد.",
+    "ex2": "Send the update to all sales engineers.",
+    "ar2": "ابعت التحديث لكل مهندسين المبيعات."
+   },
+   {
+    "w": "adjust",
+    "note": "small change to a number or setting",
+    "ex": "We can adjust the price by 2% for a bigger quantity.",
+    "ar": "نقدر نظبط السعر 2% لو الكمية أكبر.",
+    "ex2": "The technician also adjusted the VFD settings on site.",
+    "ar2": "والفني كمان ظبط إعدادات الـ‎VFD‎ في الموقع."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how big the change is",
+   "lar": "التغيير كبير قد إيه",
+   "steps": [
+    {
+     "w": "adjust",
+     "ex": "Can you adjust the delivery date by two days?",
+     "ar": "ممكن تزحزح ميعاد التسليم يومين؟",
+     "ex2": "A small change like that is fine.",
+     "ar2": "تغيير صغير زي ده مفيهوش مشكلة."
+    },
+    {
+     "w": "revise",
+     "ex": "Please revise the offer to include the 5-year warranty.",
+     "ar": "من فضلك عدّل العرض يشمل ضمان 5 سنين.",
+     "ex2": "The price may change in the revised offer.",
+     "ar2": "السعر ممكن يتغير في العرض المعدّل."
+    },
+    {
+     "w": "redo",
+     "ex": "We had to redo the whole quotation for the new site.",
+     "ar": "اضطرينا نعمل عرض السعر كله من الأول للموقع الجديد.",
+     "ex2": "The client changed the UPS size, so we redo everything.",
+     "ar2": "العميل غيّر مقاس الـ‎UPS‎، فبنعمل كل حاجة من الأول."
+    }
+   ]
+  },
+  "ctx": "VoltTech quoted FOB Shenzhen by mistake. We asked them to revise the offer to CFR Alexandria.",
+  "ctx_ar": "‎VoltTech‎ سعّروا ‎FOB Shenzhen‎ بالغلط. طلبنا منهم يعدّلوا العرض لـ‎CFR‎ إسكندرية.",
+  "quiz": [
+   {
+    "s": "Please send the ___ offer by tomorrow.",
+    "opts": [
+     "revise",
+     "revised",
+     "revision"
+    ],
+    "a": 1,
+    "ar": "من فضلك ابعت العرض المعدّل بكرة."
+   },
+   {
+    "s": "This is the third ___ of the quotation.",
+    "opts": [
+     "revision",
+     "revise",
+     "revised"
+    ],
+    "a": 0,
+    "ar": "دي تالت مراجعة لعرض السعر."
+   },
+   {
+    "s": "We must ___ clause 4 of the contract and sign it again.",
+    "opts": [
+     "update",
+     "adjust",
+     "amend"
+    ],
+    "a": 2,
+    "ar": "لازم نعدّل البند 4 في العقد ونمضيه تاني."
+   }
+  ]
+ },
+ {
+  "w": "appreciate",
+  "ar": "نقدّر / نكون ممنونين",
+  "book": "We would appreciate your offer by Thursday, 11 September.",
+  "family": [
+   {
+    "w": "appreciate",
+    "pos": "verb",
+    "ex": "We would appreciate your reply by Sunday.",
+    "ar": "هنكون ممنونين لو رديت قبل الحد.",
+    "ex2": "We appreciate your help with the urgent shipment.",
+    "ar2": "بنقدّر مساعدتك في الشحنة المستعجلة."
+   },
+   {
+    "w": "appreciation",
+    "pos": "noun",
+    "ex": "As a sign of our appreciation, we added a free battery test.",
+    "ar": "كتقدير مننا، زوّدنا اختبار بطاريات ببلاش.",
+    "ex2": "The customer sent a letter of appreciation to our service team.",
+    "ar2": "العميل بعت جواب شكر لفريق الخدمة بتاعنا."
+   },
+   {
+    "w": "appreciated",
+    "pos": "adjective",
+    "ex": "Your quick reply is much appreciated.",
+    "ar": "ردّك السريع متقدّر جدًا.",
+    "ex2": "Any discount on freight would be appreciated.",
+    "ar2": "أي خصم على الشحن هيبقى متقدّر."
+   },
+   {
+    "w": "appreciative",
+    "pos": "adjective",
+    "ex": "The hospital was very appreciative of our fast UPS repair.",
+    "ar": "المستشفى كانت ممنونة جدًا من تصليح الـ‎UPS‎ السريع.",
+    "ex2": "They were appreciative and renewed the maintenance contract.",
+    "ar2": "كانوا ممنونين وجدّدوا عقد الصيانة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "be grateful",
+    "note": "more formal and warm than appreciate",
+    "ex": "We would be grateful if you could send the MSDS today.",
+    "ar": "هنكون ممنونين لو تقدر تبعت الـ‎MSDS‎ النهارده.",
+    "ex2": "We would be grateful for a quick reply, as customs needs it.",
+    "ar2": "هنكون ممنونين لو رديت بسرعة، لأن الجمارك محتاجاه."
+   },
+   {
+    "w": "value",
+    "note": "shows something is important to you long-term",
+    "ex": "We value our partnership with Shenzhen VoltTech.",
+    "ar": "إحنا بنقدّر شراكتنا مع ‎Shenzhen VoltTech‎.",
+    "ex2": "We value their quality more than a low price.",
+    "ar2": "بنقدّر جودتهم أكتر من السعر الرخيص."
+   },
+   {
+    "w": "welcome",
+    "note": "say you are happy to receive something",
+    "ex": "We would welcome your feedback on the new service report.",
+    "ar": "يسعدنا نسمع رأيك في تقرير الخدمة الجديد.",
+    "ex2": "Your feedback is welcome before we print it.",
+    "ar2": "رأيك مرحّب بيه قبل ما نطبعه."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how polite the request is",
+   "lar": "الطلب مؤدب قد إيه",
+   "steps": [
+    {
+     "w": "send",
+     "ex": "Send the datasheet today.",
+     "ar": "ابعت الداتاشيت النهارده.",
+     "ex2": "Send it to the store, please; they are waiting.",
+     "ar2": "ابعته للمخزن؛ هما مستنيين."
+    },
+    {
+     "w": "please send",
+     "ex": "Please send the datasheet today.",
+     "ar": "من فضلك ابعت الداتاشيت النهارده.",
+     "ex2": "Please send it to Hany as well.",
+     "ar2": "ابعته لهاني كمان من فضلك."
+    },
+    {
+     "w": "we would appreciate",
+     "ex": "We would appreciate the datasheet today.",
+     "ar": "هنكون ممنونين لو الداتاشيت وصل النهارده.",
+     "ex2": "We would appreciate the MSDS as well.",
+     "ar2": "وهنكون ممنونين لو الـ‎MSDS‎ وصل كمان."
+    },
+    {
+     "w": "we would be grateful if",
+     "ex": "We would be grateful if you could send the datasheet today.",
+     "ar": "هنكون شاكرين جدًا لو تقدر تبعت الداتاشيت النهارده.",
+     "ex2": "We would be grateful if you could include the UN38.3 report too.",
+     "ar2": "وهنكون شاكرين لو تقدر تضيف تقرير ‎UN38.3‎ كمان."
+    }
+   ]
+  },
+  "ctx": "We would appreciate your best offer by Thursday. Please include the datasheet and the UN38.3 test report.",
+  "ctx_ar": "هنكون ممنونين لو أحسن عرض عندك وصل قبل الخميس. ياريت تضيف الداتاشيت وتقرير اختبار ‎UN38.3‎.",
+  "quiz": [
+   {
+    "s": "Your quick reply is much ___.",
+    "opts": [
+     "appreciate",
+     "appreciated",
+     "appreciation"
+    ],
+    "a": 1,
+    "ar": "ردّك السريع متقدّر جدًا."
+   },
+   {
+    "s": "As a sign of our ___, we added free delivery.",
+    "opts": [
+     "appreciation",
+     "appreciative",
+     "appreciate"
+    ],
+    "a": 0,
+    "ar": "كتقدير مننا، زوّدنا توصيل ببلاش."
+   },
+   {
+    "s": "We would be ___ if you could send the MSDS today.",
+    "opts": [
+     "valued",
+     "welcome",
+     "grateful"
+    ],
+    "a": 2,
+    "ar": "هنكون ممنونين لو تقدر تبعت الـ‎MSDS‎ النهارده."
+   }
+  ]
+ },
+ {
+  "w": "comparison",
+  "ar": "مقارنة",
+  "book": "I want a comparison sheet on my desk by Thursday, 18 September.",
+  "family": [
+   {
+    "w": "compare",
+    "pos": "verb",
+    "ex": "Please compare the three battery offers before Thursday.",
+    "ar": "من فضلك قارن عروض البطاريات التلاتة قبل الخميس.",
+    "ex2": "Compare price, warranty and lead time, not price only.",
+    "ar2": "قارن السعر والضمان ومدة التوريد، مش السعر بس."
+   },
+   {
+    "w": "comparison",
+    "pos": "noun",
+    "ex": "The comparison sheet shows VoltTech is 6% more expensive.",
+    "ar": "شيت المقارنة بيوضح إن ‎VoltTech‎ أغلى بـ6%.",
+    "ex2": "But the comparison also shows a longer warranty.",
+    "ar2": "بس المقارنة كمان بتوضح ضمان أطول."
+   },
+   {
+    "w": "comparable",
+    "pos": "adjective",
+    "ex": "HexaCell's modules are comparable in quality to VoltTech's.",
+    "ar": "موديولات ‎HexaCell‎ قريبة في الجودة من بتوع ‎VoltTech‎.",
+    "ex2": "Their prices, however, are not comparable because of the MOQ.",
+    "ar2": "بس أسعارهم مش قابلة للمقارنة بسبب الحد الأدنى للطلب."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "evaluation",
+    "note": "judging offers against set criteria and scores",
+    "ex": "The technical evaluation of the UPS offers is finished.",
+    "ar": "التقييم الفني لعروض الـ‎UPS‎ خلص.",
+    "ex2": "Two offers failed the evaluation because of efficiency.",
+    "ar2": "عرضين وقعوا في التقييم بسبب الكفاءة."
+   },
+   {
+    "w": "benchmark",
+    "note": "compare with a standard or market price",
+    "ex": "We benchmark our service prices against two competitors.",
+    "ar": "بنقيس أسعار الخدمة بتاعتنا على اتنين منافسين.",
+    "ex2": "The benchmark shows our prices are fair.",
+    "ar2": "المقياس بيوضح إن أسعارنا معقولة."
+   },
+   {
+    "w": "analysis",
+    "note": "detailed study of numbers or facts",
+    "ex": "Please send a cost analysis for local and imported batteries.",
+    "ar": "من فضلك ابعت تحليل تكلفة للبطاريات المحلية والمستوردة.",
+    "ex2": "The analysis must include duties and freight.",
+    "ar2": "التحليل لازم يشمل الجمارك والشحن."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Hany wants a comparison of the three supplier offers. Please show price, lead time, warranty and payment terms side by side.",
+  "ctx_ar": "هاني عايز مقارنة بين عروض الموردين التلاتة. من فضلك اعرض السعر ومدة التوريد والضمان وشروط الدفع جنب بعض.",
+  "quiz": [
+   {
+    "s": "Please ___ the three offers before Thursday.",
+    "opts": [
+     "comparison",
+     "compare",
+     "comparable"
+    ],
+    "a": 1,
+    "ar": "من فضلك قارن التلات عروض قبل الخميس."
+   },
+   {
+    "s": "VoltTech's warranty is not ___ with the cheaper supplier's.",
+    "opts": [
+     "comparable",
+     "compare",
+     "comparison"
+    ],
+    "a": 0,
+    "ar": "ضمان ‎VoltTech‎ مش ممكن يتقارن بضمان المورد الأرخص."
+   },
+   {
+    "s": "Put all prices in one ___ sheet.",
+    "opts": [
+     "compare",
+     "comparable",
+     "comparison"
+    ],
+    "a": 2,
+    "ar": "حط كل الأسعار في شيت مقارنة واحد."
+   }
+  ]
+ }
+]

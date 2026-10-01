@@ -1,0 +1,624 @@
+[
+ {
+  "w": "inspection",
+  "ar": "تفتيش / معاينة",
+  "book": "The container was discharged yesterday, and customs selected it for physical inspection (red lane).",
+  "family": [
+   {
+    "w": "inspect",
+    "pos": "verb",
+    "ex": "Customs inspected the container this morning.",
+    "ar": "الجمارك فتّشت الكونتينر النهارده الصبح.",
+    "ex2": "They inspected two pallets and took samples.",
+    "ar2": "فتّشوا باليتتين وخدوا عينات."
+   },
+   {
+    "w": "inspection",
+    "pos": "noun",
+    "ex": "The container was selected for physical inspection.",
+    "ar": "الكونتينر اتختار للكشف الفعلي.",
+    "ex2": "The inspection took place in the red lane.",
+    "ar2": "التفتيش حصل في المسار الأحمر."
+   },
+   {
+    "w": "inspector",
+    "pos": "person",
+    "ex": "The customs inspector asked for the MSDS in English.",
+    "ar": "مفتش الجمارك طلب الـ‎MSDS‎ بالإنجليزي.",
+    "ex2": "Our broker gave the inspector a printed copy.",
+    "ar2": "المخلّص بتاعنا ادّى المفتش نسخة مطبوعة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "check",
+    "note": "general, quick, informal",
+    "ex": "Please check every carton before signing.",
+    "ar": "من فضلك شيّك على كل كرتونة قبل ما تمضي.",
+    "ex2": "A quick check now saves a claim later.",
+    "ar2": "تشييك سريع دلوقتي بيوفّر مطالبة بعدين."
+   },
+   {
+    "w": "examination",
+    "note": "formal and detailed",
+    "ex": "The lab will do a full examination of the samples.",
+    "ar": "المعمل هيعمل فحص كامل للعينات.",
+    "ex2": "The examination takes five to seven working days.",
+    "ar2": "الفحص بياخد من خمس لسبع أيام شغل."
+   },
+   {
+    "w": "survey",
+    "note": "checking a site before a project or after damage",
+    "ex": "Our engineer will do a site survey before the quotation.",
+    "ar": "المهندس بتاعنا هيعمل معاينة للموقع قبل عرض السعر.",
+    "ex2": "The survey shows where the UPS room will be.",
+    "ar2": "المعاينة بتوضح مكان غرفة الـ‎UPS‎."
+   },
+   {
+    "w": "audit",
+    "note": "checking records, systems or stock officially",
+    "ex": "The tax authority will audit our e-invoices next month.",
+    "ar": "مصلحة الضرايب هتراجع فواتيرنا الإلكترونية الشهر الجاي.",
+    "ex2": "Please prepare all files for the audit.",
+    "ar2": "جهّز كل الملفات للمراجعة."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how deep the check is",
+   "lar": "الفحص عميق قد إيه",
+   "steps": [
+    {
+     "w": "check",
+     "ex": "The storekeeper did a quick check of the pallets.",
+     "ar": "أمين المخزن عمل تشييك سريع على الباليتات.",
+     "ex2": "Nothing looked wrong from outside.",
+     "ar2": "مفيش حاجة باينة غلط من برة."
+    },
+    {
+     "w": "inspection",
+     "ex": "Customs did a physical inspection of the container.",
+     "ar": "الجمارك عملت كشف فعلي على الكونتينر.",
+     "ex2": "They opened cartons and checked the labels.",
+     "ar2": "فتحوا كراتين وشيّكوا على الليبلات."
+    },
+    {
+     "w": "lab test",
+     "ex": "Two modules were sent for a lab test at GOEIC.",
+     "ar": "موديولين اتبعتوا لاختبار معمل في هيئة الرقابة على الصادرات والواردات.",
+     "ex2": "The lab test checks safety in detail.",
+     "ar2": "اختبار المعمل بيشيّك على الأمان بالتفصيل."
+    }
+   ]
+  },
+  "ctx": "Customs selected our container for physical inspection. The inspector also took two modules for lab testing.",
+  "ctx_ar": "الجمارك اختارت الكونتينر بتاعنا للكشف الفعلي. والمفتش كمان خد موديولين لاختبار المعمل.",
+  "quiz": [
+   {
+    "s": "The customs ___ took two modules for testing.",
+    "opts": [
+     "inspect",
+     "inspector",
+     "inspection"
+    ],
+    "a": 1,
+    "ar": "مفتش الجمارك خد موديولين للاختبار."
+   },
+   {
+    "s": "The container was selected for physical ___.",
+    "opts": [
+     "inspection",
+     "inspect",
+     "inspector"
+    ],
+    "a": 0,
+    "ar": "الكونتينر اتختار للكشف الفعلي."
+   },
+   {
+    "s": "Please ___ every pallet before signing the delivery note.",
+    "opts": [
+     "inspector",
+     "inspection",
+     "inspect"
+    ],
+    "a": 2,
+    "ar": "من فضلك افحص كل باليتة قبل ما تمضي إذن التسليم."
+   }
+  ]
+ },
+ {
+  "w": "sample",
+  "ar": "عيّنة",
+  "book": "They also took 2 modules as samples for testing at the GOEIC lab.",
+  "family": [
+   {
+    "w": "sample",
+    "pos": "noun",
+    "ex": "Customs took two modules as samples for testing.",
+    "ar": "الجمارك خدت موديولين كعينات للاختبار.",
+    "ex2": "We won't get the samples back after the test.",
+    "ar2": "مش هنسترجع العينات بعد الاختبار."
+   },
+   {
+    "w": "sample",
+    "pos": "verb",
+    "ex": "The lab will sample 2 modules from each shipment.",
+    "ar": "المعمل هياخد عينة 2 موديول من كل شحنة.",
+    "ex2": "They sample them at random from different pallets.",
+    "ar2": "بياخدوهم عشوائي من باليتات مختلفة."
+   },
+   {
+    "w": "sampling",
+    "pos": "noun",
+    "ex": "Random sampling is used to check large shipments.",
+    "ar": "العينات العشوائية بتستخدم لفحص الشحنات الكبيرة.",
+    "ex2": "Sampling saves time compared with testing every unit.",
+    "ar2": "العينات بتوفّر وقت مقارنة باختبار كل وحدة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "specimen",
+    "note": "scientific word for a lab test item",
+    "ex": "Each specimen is labelled with the container number.",
+    "ar": "كل عينة عليها ليبل برقم الكونتينر.",
+    "ex2": "The lab keeps the specimen for six months.",
+    "ar2": "المعمل بيحتفظ بالعينة ست شهور."
+   },
+   {
+    "w": "demo unit",
+    "note": "a unit customers can try before buying",
+    "ex": "We left a demo unit of the 10 kVA UPS at the clinic.",
+    "ar": "سبنا وحدة تجربة من الـ‎UPS‎ الـ‎10 kVA‎ في العيادة.",
+    "ex2": "If they like the demo unit, they'll order five.",
+    "ar2": "لو عجبتهم وحدة التجربة، هيطلبوا خمسة."
+   },
+   {
+    "w": "prototype",
+    "note": "early version of a new product",
+    "ex": "The supplier sent a prototype of the new BMS card.",
+    "ar": "المورد بعت نموذج أولي من كارت الـ‎BMS‎ الجديد.",
+    "ex2": "The prototype still needs firmware updates.",
+    "ar2": "النموذج الأولي لسه محتاج تحديثات سوفتوير."
+   }
+  ],
+  "ant": [
+   {
+    "w": "bulk order",
+    "ex": "After the samples passed, we placed a bulk order.",
+    "ar": "بعد ما العينات نجحت، طلبنا أوردر كبير.",
+    "ex2": "The bulk order was 500 batteries.",
+    "ar2": "الأوردر الكبير كان 500 بطارية."
+   }
+  ],
+  "ladder": {
+   "label": "how big the order is",
+   "lar": "الأوردر كبير قد إيه",
+   "steps": [
+    {
+     "w": "sample",
+     "ex": "Please send one sample of the 12V battery.",
+     "ar": "من فضلك ابعت عينة واحدة من بطارية الـ‎12V‎.",
+     "ex2": "Our engineers will test it for a week.",
+     "ar2": "المهندسين بتوعنا هيختبروها أسبوع."
+    },
+    {
+     "w": "trial order",
+     "ex": "We'll start with a trial order of 20 batteries.",
+     "ar": "هنبدأ بأوردر تجربة 20 بطارية.",
+     "ex2": "If they perform well, we order more.",
+     "ar2": "لو أداؤها كويس، هنطلب أكتر."
+    },
+    {
+     "w": "bulk order",
+     "ex": "Now we can place a bulk order for 500 units.",
+     "ar": "دلوقتي نقدر نطلب أوردر كبير 500 وحدة.",
+     "ex2": "Bulk orders get the best price.",
+     "ar2": "الأوردرات الكبيرة بتاخد أحسن سعر."
+    }
+   ]
+  },
+  "ctx": "Customs took two modules as samples for the GOEIC lab. We won't get the goods released until the sample test passes.",
+  "ctx_ar": "الجمارك خدت موديولين كعينات لمعمل الرقابة على الصادرات والواردات. البضاعة مش هتتفرج لحد ما اختبار العينة ينجح.",
+  "quiz": [
+   {
+    "s": "Customs took one module as a ___ for testing.",
+    "opts": [
+     "sample",
+     "sampling",
+     "prototype"
+    ],
+    "a": 0,
+    "ar": "الجمارك خدت موديول واحد كعينة للاختبار."
+   },
+   {
+    "s": "Random ___ is used to check large shipments.",
+    "opts": [
+     "sample",
+     "sampling",
+     "specimen"
+    ],
+    "a": 1,
+    "ar": "العينات العشوائية بتستخدم لفحص الشحنات الكبيرة."
+   },
+   {
+    "s": "Let's start with a ___ of 20 units before the big order.",
+    "opts": [
+     "sample",
+     "bulk order",
+     "trial order"
+    ],
+    "a": 2,
+    "ar": "خلّينا نبدأ بأوردر تجربة 20 وحدة قبل الأوردر الكبير."
+   }
+  ]
+ },
+ {
+  "w": "discharge",
+  "ar": "تفريغ (من المركب) / تفريغ شحن البطارية",
+  "book": "The container was discharged yesterday, and customs selected it for physical inspection (red lane).",
+  "family": [
+   {
+    "w": "discharge",
+    "pos": "verb",
+    "ex": "The vessel will discharge our container on Monday.",
+    "ar": "المركب هتفرّغ الكونتينر بتاعنا يوم الاتنين.",
+    "ex2": "After they discharge it, customs can inspect it.",
+    "ar2": "بعد ما يفرّغوه، الجمارك تقدر تفتّشه."
+   },
+   {
+    "w": "discharge",
+    "pos": "noun",
+    "ex": "Discharge of the container took two hours.",
+    "ar": "تفريغ الكونتينر خد ساعتين.",
+    "ex2": "Free time starts from the date of discharge.",
+    "ar2": "الوقت المجاني بيبدأ من يوم التفريغ."
+   },
+   {
+    "w": "discharged",
+    "pos": "adjective",
+    "ex": "The container was discharged at Alexandria port yesterday.",
+    "ar": "الكونتينر اتفرّغ في ميناء إسكندرية امبارح.",
+    "ex2": "Discharged containers move to the customs yard.",
+    "ar2": "الكونتينرات اللي اتفرّغت بتروح ساحة الجمارك."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "unload cargo from a ship",
+    "mar": "تفريغ من المركب",
+    "ex": "Our container was discharged on 18 November.",
+    "ar": "الكونتينر بتاعنا اتفرّغ يوم 18 نوفمبر.",
+    "ex2": "Storage charges start a few days after discharge.",
+    "ar2": "رسوم الأرضيات بتبدأ بعد التفريغ بكام يوم."
+   },
+   {
+    "m": "a battery losing its charge",
+    "mar": "البطارية بتفضى",
+    "ex": "The batteries discharge fast when the UPS is overloaded.",
+    "ar": "البطاريات بتفضى بسرعة لما الـ‎UPS‎ يبقى عليه حمل زيادة.",
+    "ex2": "Please reduce the load to slow the discharge.",
+    "ar2": "من فضلك قلّل الحمل عشان التفريغ يبطأ."
+   }
+  ],
+  "syn": [
+   {
+    "w": "unload",
+    "note": "general: take goods off a truck, ship or container",
+    "ex": "The team unloaded the container at 15:30.",
+    "ar": "الفريق فرّغ الكونتينر الساعة 3:30.",
+    "ex2": "They unloaded eight pallets with the forklift.",
+    "ar2": "فرّغوا تمن باليتات بالكلارك."
+   },
+   {
+    "w": "offload",
+    "note": "informal; often from trucks or ships",
+    "ex": "The driver will offload the batteries at the back gate.",
+    "ar": "السواق هينزّل البطاريات عند البوابة الورانية.",
+    "ex2": "Offloading takes about an hour.",
+    "ar2": "التنزيل بياخد حوالي ساعة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "load",
+    "ex": "The supplier loaded the container in Shekou on 20 October.",
+    "ar": "المورد حمّل الكونتينر في ‎Shekou‎ يوم 20 أكتوبر.",
+    "ex2": "They loaded 8 pallets and sealed the door.",
+    "ar2": "حمّلوا 8 باليتات وقفلوا الباب بالسيل."
+   },
+   {
+    "w": "charge",
+    "ex": "Please charge the modules to 50% before storage.",
+    "ar": "من فضلك اشحن الموديولات لـ50% قبل التخزين.",
+    "ex2": "Charging them protects the cells during long storage.",
+    "ar2": "الشحن بيحمي الخلايا في التخزين الطويل."
+   }
+  ],
+  "ladder": {
+   "label": "how empty the battery is",
+   "lar": "البطارية فاضية قد إيه",
+   "steps": [
+    {
+     "w": "low battery",
+     "ex": "The UPS shows a low battery alarm.",
+     "ar": "الـ‎UPS‎ مطلّع إنذار بطارية ضعيفة.",
+     "ex2": "Save your work and shut down the servers.",
+     "ar2": "احفظ شغلك واقفل السيرفرات."
+    },
+    {
+     "w": "discharged",
+     "ex": "The batteries are fully discharged after the power cut.",
+     "ar": "البطاريات فضيت خالص بعد انقطاع الكهربا.",
+     "ex2": "They need eight hours to recharge.",
+     "ar2": "محتاجة تمن ساعات عشان تتشحن تاني."
+    },
+    {
+     "w": "deeply discharged",
+     "ex": "These batteries were deeply discharged and can't be saved.",
+     "ar": "البطاريات دي فضيت تمامًا ومينفعش تتصلّح.",
+     "ex2": "Deep discharge damaged the cells permanently.",
+     "ar2": "التفريغ الكامل بوّظ الخلايا للأبد."
+    }
+   ]
+  },
+  "ctx": "The container was discharged at Alexandria yesterday. Free time started from the date of discharge, so we must clear customs quickly.",
+  "ctx_ar": "الكونتينر اتفرّغ في إسكندرية امبارح. الوقت المجاني بدأ من يوم التفريغ، فلازم نخلّص الجمارك بسرعة.",
+  "quiz": [
+   {
+    "s": "The container was ___ at Alexandria port yesterday.",
+    "opts": [
+     "discharge",
+     "discharged",
+     "load"
+    ],
+    "a": 1,
+    "ar": "الكونتينر اتفرّغ في ميناء إسكندرية امبارح."
+   },
+   {
+    "s": "Batteries left in storage for a year may be deeply ___.",
+    "opts": [
+     "charge",
+     "discharge",
+     "discharged"
+    ],
+    "a": 2,
+    "ar": "البطاريات اللي بتتساب في المخزن سنة ممكن تفضى تمامًا."
+   },
+   {
+    "s": "___ of the container took two hours because of the crane.",
+    "opts": [
+     "Discharge",
+     "Discharged",
+     "Load"
+    ],
+    "a": 0,
+    "ar": "تفريغ الكونتينر خد ساعتين بسبب الونش."
+   }
+  ]
+ },
+ {
+  "w": "storage charges",
+  "ar": "رسوم الأرضيات / التخزين",
+  "book": "Also, please let me know the storage charges at the port while we wait.",
+  "family": [
+   {
+    "w": "store",
+    "pos": "verb",
+    "ex": "Please store the lithium modules in a dry, cool area.",
+    "ar": "من فضلك خزّن موديولات الليثيوم في مكان ناشف وبارد.",
+    "ex2": "Don't store them near the generator room.",
+    "ar2": "متخزّنهاش جنب أوضة المولد."
+   },
+   {
+    "w": "storage",
+    "pos": "noun",
+    "ex": "We need more storage space for the solar panels.",
+    "ar": "محتاجين مساحة تخزين أكتر للألواح الشمسية.",
+    "ex2": "The new storage area will be ready next month.",
+    "ar2": "منطقة التخزين الجديدة هتجهز الشهر الجاي."
+   },
+   {
+    "w": "storage charges",
+    "pos": "noun",
+    "ex": "Storage charges are EGP 1,850 per day after the free period.",
+    "ar": "رسوم الأرضيات 1,850 جنيه في اليوم بعد الفترة المجانية.",
+    "ex2": "Every day of delay adds storage charges.",
+    "ar2": "كل يوم تأخير بيزوّد رسوم الأرضيات."
+   },
+   {
+    "w": "storekeeper",
+    "pos": "person",
+    "ex": "The storekeeper counted the modules and signed the GRN.",
+    "ar": "أمين المخزن عدّ الموديولات ومضى على إذن الاستلام.",
+    "ex2": "He found two modules missing on pallet 6.",
+    "ar2": "لقى موديولين ناقصين في باليتة 6."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "demurrage",
+    "note": "shipping line charge for keeping its container too long",
+    "ex": "Demurrage is USD 75 per day after the free time.",
+    "ar": "غرامة تأخير الكونتينر 75 دولار في اليوم بعد الوقت المجاني.",
+    "ex2": "Demurrage is paid to the shipping line, not the port.",
+    "ar2": "الغرامة دي بتتدفع للخط الملاحي، مش للميناء."
+   },
+   {
+    "w": "detention",
+    "note": "container kept outside the port too long",
+    "ex": "Return the empty container fast to avoid detention.",
+    "ar": "رجّع الكونتينر الفاضي بسرعة عشان تتجنب غرامة الاحتجاز.",
+    "ex2": "Detention starts after the container leaves the port.",
+    "ar2": "غرامة الاحتجاز بتبدأ بعد ما الكونتينر يطلع من الميناء."
+   },
+   {
+    "w": "warehousing fees",
+    "note": "charges in a private or bonded warehouse",
+    "ex": "Warehousing fees at the bonded store are paid monthly.",
+    "ar": "رسوم المخزن الجمركي بتتدفع شهري.",
+    "ex2": "Warehousing fees are cheaper than port storage.",
+    "ar2": "رسوم المخازن أرخص من أرضيات الميناء."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Every day in port adds storage charges of EGP 1,850. Please send the corrected document today.",
+  "ctx_ar": "كل يوم في الميناء بيزوّد رسوم أرضيات 1,850 جنيه. من فضلك ابعت المستند المصحح النهارده.",
+  "quiz": [
+   {
+    "s": "Port ___ start after the free period ends.",
+    "opts": [
+     "store",
+     "storage charges",
+     "storekeeper"
+    ],
+    "a": 1,
+    "ar": "رسوم الأرضيات في الميناء بتبدأ بعد ما الفترة المجانية تخلص."
+   },
+   {
+    "s": "Please ___ the batteries in a dry area.",
+    "opts": [
+     "store",
+     "storage",
+     "storekeeper"
+    ],
+    "a": 0,
+    "ar": "من فضلك خزّن البطاريات في مكان ناشف."
+   },
+   {
+    "s": "The ___ counted the modules and signed the GRN.",
+    "opts": [
+     "storage",
+     "store",
+     "storekeeper"
+    ],
+    "a": 2,
+    "ar": "أمين المخزن عدّ الموديولات ومضى إذن الاستلام."
+   }
+  ]
+ },
+ {
+  "w": "assessment",
+  "ar": "تقدير / ربط الجمارك النهائي",
+  "book": "We will prepare the payment for duties once you send the final assessment.",
+  "family": [
+   {
+    "w": "assess",
+    "pos": "verb",
+    "ex": "Customs will assess the value of the goods.",
+    "ar": "الجمارك هتقدّر قيمة البضاعة.",
+    "ex2": "They assess it from the commercial invoice and HS code.",
+    "ar2": "بيقدّروها من الفاتورة التجارية والـ‎HS code‎."
+   },
+   {
+    "w": "assessment",
+    "pos": "noun",
+    "ex": "The final assessment shows duties and VAT of EGP 1,284,500.",
+    "ar": "الربط النهائي بيوضح جمارك وضريبة 1,284,500 جنيه.",
+    "ex2": "We pay as soon as we get the assessment.",
+    "ar2": "بندفع أول ما ناخد الربط."
+   },
+   {
+    "w": "assessor",
+    "pos": "person",
+    "ex": "The insurance assessor visited the warehouse to check the damage.",
+    "ar": "خبير التأمين زار المخزن يشوف الضرر.",
+    "ex2": "The assessor's report supports our claim.",
+    "ar2": "تقرير الخبير بيدعم مطالبتنا."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "evaluation",
+    "note": "judging quality or performance against criteria",
+    "ex": "The technical evaluation of the three offers is done.",
+    "ar": "التقييم الفني للتلات عروض خلص.",
+    "ex2": "VoltTech scored highest in the evaluation.",
+    "ar2": "‎VoltTech‎ خد أعلى درجة في التقييم."
+   },
+   {
+    "w": "appraisal",
+    "note": "value of an asset, or an employee review",
+    "ex": "The bank asked for an appraisal of our warehouse.",
+    "ar": "البنك طلب تقييم للمخزن بتاعنا.",
+    "ex2": "The appraisal is needed for the new loan.",
+    "ar2": "التقييم مطلوب للقرض الجديد."
+   },
+   {
+    "w": "estimate",
+    "note": "early guess of a cost, not official",
+    "ex": "Our broker's estimate for duties was EGP 1.2 million.",
+    "ar": "تقدير المخلّص للجمارك كان 1.2 مليون جنيه.",
+    "ex2": "The final assessment came a bit higher than the estimate.",
+    "ar2": "الربط النهائي جه أعلى شوية من التقدير."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how final the figure is",
+   "lar": "الرقم نهائي قد إيه",
+   "steps": [
+    {
+     "w": "estimate",
+     "ex": "The broker gave us an estimate of the duties.",
+     "ar": "المخلّص ادّانا تقدير للجمارك.",
+     "ex2": "We used it to plan our cash flow.",
+     "ar2": "استخدمناه عشان نخطط السيولة."
+    },
+    {
+     "w": "preliminary assessment",
+     "ex": "Customs issued a preliminary assessment after inspection.",
+     "ar": "الجمارك طلّعت تقدير مبدئي بعد التفتيش.",
+     "ex2": "It may change after the lab results.",
+     "ar2": "ممكن يتغير بعد نتايج المعمل."
+    },
+    {
+     "w": "final assessment",
+     "ex": "The final assessment is ready for payment.",
+     "ar": "الربط النهائي جاهز للدفع.",
+     "ex2": "No more changes; we pay this amount.",
+     "ar2": "مفيش تغيير تاني؛ هندفع المبلغ ده."
+    }
+   ]
+  },
+  "ctx": "Customs issued the final assessment after the lab test. We must pay the duties by Sunday to release the container.",
+  "ctx_ar": "الجمارك طلّعت الربط النهائي بعد اختبار المعمل. لازم ندفع الجمارك قبل الحد عشان نفرج عن الكونتينر.",
+  "quiz": [
+   {
+    "s": "Customs will ___ the value of the goods.",
+    "opts": [
+     "assess",
+     "assessment",
+     "assessor"
+    ],
+    "a": 0,
+    "ar": "الجمارك هتقدّر قيمة البضاعة."
+   },
+   {
+    "s": "We will pay duties once we receive the final ___.",
+    "opts": [
+     "assessor",
+     "assessment",
+     "assess"
+    ],
+    "a": 1,
+    "ar": "هندفع الجمارك أول ما يوصلنا الربط النهائي."
+   },
+   {
+    "s": "The insurance ___ visited the site to check the damage.",
+    "opts": [
+     "assess",
+     "assessment",
+     "assessor"
+    ],
+    "a": 2,
+    "ar": "خبير التأمين زار الموقع يشوف الضرر."
+   }
+  ]
+ }
+]

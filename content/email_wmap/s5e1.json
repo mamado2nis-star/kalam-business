@@ -1,0 +1,538 @@
+[
+ {
+  "w": "participate",
+  "ar": "يشارك / يدخل (مناقصة)",
+  "book": "Nile Power Solutions would like to participate in Tender No. HH/T/2026/014 for both lots.",
+  "family": [
+   {
+    "w": "participate",
+    "pos": "verb",
+    "ex": "We would like to participate in the hospital's UPS tender.",
+    "ar": "حابين نشارك في مناقصة الـ‎UPS‎ بتاعة المستشفى.",
+    "ex2": "We have already bought the tender documents to participate.",
+    "ar2": "واشترينا كراسة الشروط خلاص عشان نشارك."
+   },
+   {
+    "w": "participation",
+    "pos": "noun",
+    "ex": "Participation in the tender requires a valid commercial register.",
+    "ar": "المشاركة في المناقصة محتاجة سجل تجاري ساري.",
+    "ex2": "Please confirm our participation by email before Thursday.",
+    "ar2": "من فضلك أكد مشاركتنا بالإيميل قبل الخميس."
+   },
+   {
+    "w": "participant",
+    "pos": "person",
+    "ex": "All participants must attend the pre-bid meeting in Building B.",
+    "ar": "كل المشاركين لازم يحضروا الاجتماع التمهيدي في مبنى ‎B.‎",
+    "ex2": "Each participant received a copy of the battery room drawings.",
+    "ar2": "كل مشارك خد نسخة من رسومات غرفة البطاريات."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "take part in",
+    "note": "general and less formal; fine for meetings and events",
+    "ex": "Our service team will take part in the solar training next week.",
+    "ar": "فريق الصيانة هيشارك في تدريب الطاقة الشمسية الأسبوع الجاي.",
+    "ex2": "Two engineers will take part in the practical sessions.",
+    "ar2": "اتنين مهندسين هيشاركوا في الجلسات العملي."
+   },
+   {
+    "w": "bid for",
+    "note": "tender language; means you actually send a price",
+    "ex": "We will bid for Lot 1 only, the 400 kVA UPS supply.",
+    "ar": "هنقدّم سعر في الـ‎Lot 1‎ بس، توريد الـ‎UPS 400 kVA.‎",
+    "ex2": "We won't bid for Lot 2 because maintenance margins are thin.",
+    "ar2": "مش هنقدّم في الـ‎Lot 2‎ لأن هامش الصيانة ضعيف."
+   },
+   {
+    "w": "enter",
+    "note": "formal; to join a tender or competition officially",
+    "ex": "Three new suppliers entered the data-centre tender this year.",
+    "ar": "تلات موردين جداد دخلوا مناقصة الداتا سنتر السنة دي.",
+    "ex2": "Only companies that entered before the deadline can submit bids.",
+    "ar2": "الشركات اللي دخلت قبل الميعاد بس تقدر تقدّم عروض."
+   }
+  ],
+  "ant": [
+   {
+    "w": "withdraw",
+    "ex": "We had to withdraw from the tender because the delivery time was too short.",
+    "ar": "اضطرينا ننسحب من المناقصة لأن مدة التوريد كانت قصيرة أوي.",
+    "ex2": "We sent a formal letter to withdraw our bid.",
+    "ar2": "بعتنا جواب رسمي إننا بنسحب عرضنا."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We would like to participate in your chiller VFD tender. Please send us the RFP and the payment details for the documents.",
+  "ctx_ar": "حابين نشارك في مناقصة الـ‎VFD‎ بتاعة التشيلرات. ياريت تبعتولنا الـ‎RFP‎ وتفاصيل دفع ثمن الكراسة.",
+  "quiz": [
+   {
+    "s": "Our ___ in the tender was confirmed by the committee.",
+    "opts": [
+     "participate",
+     "participation",
+     "participant"
+    ],
+    "a": 1,
+    "ar": "مشاركتنا في المناقصة اتأكدت من اللجنة."
+   },
+   {
+    "s": "Every ___ must send questions in writing.",
+    "opts": [
+     "participant",
+     "participation",
+     "participate"
+    ],
+    "a": 0,
+    "ar": "كل مشارك لازم يبعت أسئلته كتابة."
+   },
+   {
+    "s": "The price was too low for us, so we decided to ___ from the tender.",
+    "opts": [
+     "enter",
+     "withdraw",
+     "bid for"
+    ],
+    "a": 1,
+    "ar": "السعر كان قليل علينا، فقررنا ننسحب من المناقصة."
+   }
+  ]
+ },
+ {
+  "w": "clarification",
+  "ar": "استيضاح / توضيح",
+  "book": "Clarification questions must be sent in writing by Thursday, 15 October.",
+  "family": [
+   {
+    "w": "clarify",
+    "pos": "verb",
+    "ex": "Could you clarify the required battery autonomy for the ICU UPS?",
+    "ar": "ممكن توضّح مدة تشغيل البطاريات المطلوبة لـ‎UPS‎ العناية المركزة؟",
+    "ex2": "The spec says 15 minutes but does not clarify the load.",
+    "ar2": "المواصفات بتقول 15 دقيقة بس مش موضّحة الحمل كام."
+   },
+   {
+    "w": "clarification",
+    "pos": "noun",
+    "ex": "We sent three clarification questions about the UPS redundancy.",
+    "ar": "بعتنا تلات أسئلة استيضاح عن الـ‎redundancy‎ بتاع الـ‎UPS.‎",
+    "ex2": "The committee will answer every clarification in an addendum.",
+    "ar2": "اللجنة هترد على كل استيضاح في ملحق."
+   },
+   {
+    "w": "clear",
+    "pos": "adjective",
+    "ex": "The cable scope in Lot 1 is not clear in the BOQ.",
+    "ar": "نطاق الكابلات في الـ‎Lot 1‎ مش واضح في المقايسة.",
+    "ex2": "We need a clear answer before we price the cables.",
+    "ar2": "محتاجين رد واضح قبل ما نسعّر الكابلات."
+   },
+   {
+    "w": "clearly",
+    "pos": "adverb",
+    "ex": "Please state clearly whether N+1 is at module or system level.",
+    "ar": "ياريت توضّحوا بشكل صريح الـ‎N+1‎ على مستوى الموديول ولا السيستم.",
+    "ex2": "If it is clearly stated, all bidders will price the same scope.",
+    "ar2": "لو مكتوب بوضوح، كل المتقدمين هيسعّروا نفس النطاق."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "query",
+    "note": "formal written question about a document or invoice",
+    "ex": "The customer raised a query about line 4 of the invoice.",
+    "ar": "العميل سأل استفسار عن البند 4 في الفاتورة.",
+    "ex2": "We answered the query with a copy of the delivery note.",
+    "ar2": "ردينا على الاستفسار بنسخة من إذن التسليم."
+   },
+   {
+    "w": "explanation",
+    "note": "general reason or description, not a formal tender step",
+    "ex": "The supplier gave no explanation for the late battery shipment.",
+    "ar": "المورد مدّاش أي تفسير لتأخير شحنة البطاريات.",
+    "ex2": "We asked for a written explanation and a new ETA.",
+    "ar2": "طلبنا تفسير مكتوب وميعاد وصول جديد."
+   },
+   {
+    "w": "confirmation",
+    "note": "asking only for a yes or no on a point",
+    "ex": "We need confirmation that the price includes installation.",
+    "ar": "محتاجين تأكيد إن السعر شامل التركيب.",
+    "ex2": "Without that confirmation, we cannot issue the PO.",
+    "ar2": "من غير التأكيد ده مش هنقدر نطلع أمر الشراء."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "The BOQ does not show the cable lengths for Lot 1. We will send a clarification request before the 15 October deadline.",
+  "ctx_ar": "المقايسة مش موضحة أطوال الكابلات في الـ‎Lot 1.‎ هنبعت طلب استيضاح قبل ميعاد 15 أكتوبر.",
+  "quiz": [
+   {
+    "s": "Could you please ___ the required autonomy time?",
+    "opts": [
+     "clear",
+     "clarify",
+     "clarification"
+    ],
+    "a": 1,
+    "ar": "ممكن توضّح مدة التشغيل المطلوبة؟"
+   },
+   {
+    "s": "All ___ questions must be sent by email.",
+    "opts": [
+     "clarification",
+     "clarify",
+     "clearly"
+    ],
+    "a": 0,
+    "ar": "كل أسئلة الاستيضاح لازم تتبعت بالإيميل."
+   },
+   {
+    "s": "The client sent a ___ about the amount on our last invoice.",
+    "opts": [
+     "clarify",
+     "clearly",
+     "query"
+    ],
+    "a": 2,
+    "ar": "العميل بعت استفسار عن المبلغ في آخر فاتورة لينا."
+   }
+  ]
+ },
+ {
+  "w": "register",
+  "ar": "يسجّل",
+  "book": "Could you please send us the tender documents and register our company as a bidder?",
+  "family": [
+   {
+    "w": "register",
+    "pos": "verb",
+    "ex": "Please register our company as a bidder for the UPS tender.",
+    "ar": "من فضلك سجّلوا شركتنا كمتقدم في مناقصة الـ‎UPS.‎",
+    "ex2": "We registered online and paid the document fee.",
+    "ar2": "سجّلنا أونلاين ودفعنا ثمن الكراسة."
+   },
+   {
+    "w": "registration",
+    "pos": "noun",
+    "ex": "Registration on the government e-procurement portal takes two days.",
+    "ar": "التسجيل على بوابة المشتريات الحكومية بياخد يومين.",
+    "ex2": "We need our tax card for the registration.",
+    "ar2": "محتاجين البطاقة الضريبية للتسجيل."
+   },
+   {
+    "w": "registered",
+    "pos": "adjective",
+    "ex": "Only registered suppliers can quote for the hospital's server project.",
+    "ar": "الموردين المسجّلين بس يقدروا يقدّموا أسعار لمشروع سيرفرات المستشفى.",
+    "ex2": "Our company is a registered supplier with three ministries.",
+    "ar2": "شركتنا مورد مسجّل في تلات وزارات."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "to put a name officially on a list (bidder, supplier)",
+    "mar": "يتسجّل رسميًا في قايمة",
+    "ex": "We registered as an approved supplier with Cairo Water Company.",
+    "ar": "اتسجّلنا كمورد معتمد في شركة مياه القاهرة.",
+    "ex2": "Now we receive their VFD tenders automatically.",
+    "ar2": "دلوقتي مناقصات الـ‎VFD‎ بتاعتهم بتوصلنا أوتوماتيك."
+   },
+   {
+    "m": "to record a document officially when it is received",
+    "mar": "يقيّد مستند في السجل",
+    "ex": "The secretary registered our bid as No. 07/2026/014.",
+    "ar": "السكرتيرة قيّدت عرضنا برقم 07/2026/014.",
+    "ex2": "Ask for the number under which they registered the letter.",
+    "ar2": "اسأل عن الرقم اللي قيّدوا بيه الجواب."
+   }
+  ],
+  "syn": [
+   {
+    "w": "sign up",
+    "note": "informal; for online portals, newsletters and webinars",
+    "ex": "Sign up on the portal to download the solar tender files.",
+    "ar": "اعمل تسجيل على البوابة عشان تنزّل ملفات مناقصة الطاقة الشمسية.",
+    "ex2": "It takes five minutes to sign up with the company email.",
+    "ar2": "التسجيل بياخد خمس دقايق بإيميل الشركة."
+   },
+   {
+    "w": "enrol",
+    "note": "for training courses and programmes",
+    "ex": "We enrolled two technicians in the lithium battery course.",
+    "ar": "سجّلنا اتنين فنيين في كورس بطاريات الليثيوم.",
+    "ex2": "The course starts after they enrol and pay the fee.",
+    "ar2": "الكورس بيبدأ بعد ما يسجّلوا ويدفعوا الرسوم."
+   },
+   {
+    "w": "record",
+    "note": "to keep data in a log or system, not a list of bidders",
+    "ex": "Please record the serial number of every UPS you install.",
+    "ar": "من فضلك سجّل السيريال نمبر لكل ‎UPS‎ بتركّبه.",
+    "ex2": "We record them in the maintenance system for the warranty.",
+    "ar2": "بنسجّلهم على سيستم الصيانة عشان الضمان."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "We paid the EGP 2,000 fee this morning. Please register Nile Power Solutions as a bidder and send the RFP to me.",
+  "ctx_ar": "دفعنا الـ2,000 جنيه النهارده الصبح. من فضلك سجّلوا ‎Nile Power Solutions‎ كمتقدم وابعتولي الـ‎RFP.‎",
+  "quiz": [
+   {
+    "s": "Our ___ as a bidder was confirmed today.",
+    "opts": [
+     "register",
+     "registration",
+     "registered"
+    ],
+    "a": 1,
+    "ar": "تسجيلنا كمتقدم اتأكد النهارده."
+   },
+   {
+    "s": "Only ___ suppliers may buy the tender documents.",
+    "opts": [
+     "registration",
+     "register",
+     "registered"
+    ],
+    "a": 2,
+    "ar": "الموردين المسجّلين بس يقدروا يشتروا كراسة الشروط."
+   },
+   {
+    "s": "Please ___ the battery serial numbers in the maintenance log.",
+    "opts": [
+     "record",
+     "enrol",
+     "sign up"
+    ],
+    "a": 0,
+    "ar": "من فضلك سجّل سيريالات البطاريات في سجل الصيانة."
+   }
+  ]
+ },
+ {
+  "w": "scope",
+  "ar": "نطاق (الشغل)",
+  "book": "Are the input and output cables to the main switchboard within the scope of Lot 1?",
+  "family": [
+   {
+    "w": "scope",
+    "pos": "noun",
+    "ex": "Cabling is not within the scope of our UPS quotation.",
+    "ar": "الكابلات مش ضمن نطاق عرض سعر الـ‎UPS‎ بتاعنا.",
+    "ex2": "The customer must arrange the cables with the electrical contractor.",
+    "ar2": "العميل لازم يتفق على الكابلات مع مقاول الكهربا."
+   },
+   {
+    "w": "scope",
+    "pos": "verb",
+    "ex": "Our engineer will scope the solar project after the site visit.",
+    "ar": "المهندس بتاعنا هيحدد نطاق مشروع الطاقة الشمسية بعد زيارة الموقع.",
+    "ex2": "Once he scopes it, we can prepare the quotation.",
+    "ar2": "أول ما يحدد النطاق نقدر نجهّز عرض السعر."
+   },
+   {
+    "w": "scoping",
+    "pos": "noun",
+    "ex": "We held a scoping meeting with the client's IT manager.",
+    "ar": "عملنا اجتماع لتحديد النطاق مع مدير الـ‎IT‎ عند العميل.",
+    "ex2": "The scoping notes list every server and switch to be maintained.",
+    "ar2": "ملاحظات تحديد النطاق فيها كل سيرفر وسويتش هيتعمله صيانة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "the work or items included in a contract or tender",
+    "mar": "نطاق الشغل المطلوب",
+    "ex": "Battery disposal is outside the scope of the maintenance contract.",
+    "ar": "التخلص من البطاريات برّه نطاق عقد الصيانة.",
+    "ex2": "We can quote it separately if the client wants.",
+    "ar2": "نقدر نسعّرها لوحدها لو العميل عايز."
+   },
+   {
+    "m": "room or chance to do something (scope for)",
+    "mar": "مجال / فرصة",
+    "ex": "There is no scope for a further discount on this VFD order.",
+    "ar": "مفيش مجال لخصم زيادة على أوردر الـ‎VFD‎ ده.",
+    "ex2": "Our margin is already below 10%, so there is little scope to move.",
+    "ar2": "هامشنا أصلًا أقل من 10% فمفيش مجال كبير نتحرك."
+   }
+  ],
+  "syn": [
+   {
+    "w": "scope of work",
+    "note": "full formal term in contracts, often written SOW",
+    "ex": "The scope of work includes testing and commissioning of both UPS units.",
+    "ar": "نطاق الشغل شامل الاختبار والتشغيل لوحدتين الـ‎UPS.‎",
+    "ex2": "Please attach the scope of work to the purchase order.",
+    "ar2": "من فضلك ارفق نطاق الشغل مع أمر الشراء."
+   },
+   {
+    "w": "coverage",
+    "note": "what a contract or warranty protects; used for maintenance",
+    "ex": "Our maintenance coverage includes 24/7 emergency visits.",
+    "ar": "تغطية الصيانة عندنا شاملة زيارات طوارئ 24 ساعة.",
+    "ex2": "The coverage does not include damage caused by flooding.",
+    "ar2": "التغطية مش شاملة الضرر اللي بسبب الغرق."
+   },
+   {
+    "w": "extent",
+    "note": "how far or how much; formal, often for damage or work",
+    "ex": "We are still checking the extent of the damage to the inverter.",
+    "ar": "لسه بنشوف حجم الضرر في الإنفرتر.",
+    "ex2": "Once we know the extent, we will send a repair quote.",
+    "ar2": "أول ما نعرف حجمه هنبعت عرض سعر للتصليح."
+   }
+  ],
+  "ant": [
+   {
+    "w": "out of scope",
+    "ex": "Cable laying is out of scope, so we did not price it.",
+    "ar": "مد الكابلات برّه النطاق، فمسعّرناهوش.",
+    "ex2": "If the client adds it, we will send a variation order.",
+    "ar2": "لو العميل ضافه هنبعت أمر تعديل."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The BOQ mentions cables but the RFP does not. Please confirm whether they are within the scope of Lot 1.",
+  "ctx_ar": "المقايسة ذكرت الكابلات بس الـ‎RFP‎ ماذكرهاش. ياريت تأكدوا هي ضمن نطاق الـ‎Lot 1‎ ولا لأ.",
+  "quiz": [
+   {
+    "s": "Commissioning is included in the ___ of work.",
+    "opts": [
+     "scope",
+     "extent",
+     "out of scope"
+    ],
+    "a": 0,
+    "ar": "التشغيل ضمن نطاق الشغل."
+   },
+   {
+    "s": "We held a ___ meeting to list all the servers.",
+    "opts": [
+     "scope",
+     "scoping",
+     "coverage"
+    ],
+    "a": 1,
+    "ar": "عملنا اجتماع تحديد نطاق عشان نحصر كل السيرفرات."
+   },
+   {
+    "s": "Flood damage is not part of our warranty ___.",
+    "opts": [
+     "scoping",
+     "scope",
+     "coverage"
+    ],
+    "a": 2,
+    "ar": "ضرر الغرق مش جزء من تغطية الضمان بتاعنا."
+   }
+  ]
+ },
+ {
+  "w": "refund",
+  "ar": "يرجّع فلوس / استرداد",
+  "book": "The tender documents can be purchased for EGP 2,000 (non-refundable) by bank transfer or at the Procurement Office.",
+  "family": [
+   {
+    "w": "refund",
+    "pos": "noun",
+    "ex": "The customer asked for a refund for the faulty battery charger.",
+    "ar": "العميل طلب يسترد فلوس الشاحن البايظ.",
+    "ex2": "We offered a replacement instead of a refund.",
+    "ar2": "عرضنا عليه نبدّله بدل ما نرجّع الفلوس."
+   },
+   {
+    "w": "refund",
+    "pos": "verb",
+    "ex": "The supplier will refund the extra shipping charge next week.",
+    "ar": "المورد هيرجّعلنا مصاريف الشحن الزيادة الأسبوع الجاي.",
+    "ex2": "They refunded it by bank transfer to our account.",
+    "ar2": "رجّعوها بتحويل بنكي على حسابنا."
+   },
+   {
+    "w": "refundable",
+    "pos": "adjective",
+    "ex": "The 10% advance payment is refundable if we cancel before shipment.",
+    "ar": "الدفعة المقدمة 10% بترجع لو لغينا قبل الشحن.",
+    "ex2": "After shipment, it is no longer refundable.",
+    "ar2": "بعد الشحن مبتبقاش بترجع."
+   },
+   {
+    "w": "non-refundable",
+    "pos": "adjective",
+    "ex": "The EGP 2,000 tender fee is non-refundable, even if we do not bid.",
+    "ar": "رسوم الكراسة 2,000 جنيه مش بترجع حتى لو مقدّمناش.",
+    "ex2": "So decide early if the tender is worth the non-refundable fee.",
+    "ar2": "فقرر بدري لو المناقصة تستاهل الرسوم اللي مش بترجع دي."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "reimbursement",
+    "note": "paying back money someone spent for the company",
+    "ex": "Please submit your hotel receipts for reimbursement.",
+    "ar": "من فضلك قدّم إيصالات الفندق عشان تاخد فلوسك.",
+    "ex2": "Reimbursement is paid with the next salary.",
+    "ar2": "الفلوس بتتصرف مع المرتب الجاي."
+   },
+   {
+    "w": "credit note",
+    "note": "refund given as a document against future invoices",
+    "ex": "The supplier sent a credit note for the damaged batteries.",
+    "ar": "المورد بعت إشعار دائن للبطاريات المكسورة.",
+    "ex2": "We will deduct the credit note from the next payment.",
+    "ar2": "هنخصم الإشعار الدائن من الدفعة الجاية."
+   },
+   {
+    "w": "repayment",
+    "note": "paying back a loan or debt, not a purchase",
+    "ex": "The bank expects repayment of the loan in 24 months.",
+    "ar": "البنك مستني سداد القرض على 24 شهر.",
+    "ex2": "Each repayment is debited from our account monthly.",
+    "ar2": "كل قسط سداد بيتخصم من حسابنا كل شهر."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "We cancelled the inverter order before shipment. Could you please refund our advance payment of EGP 45,000?",
+  "ctx_ar": "لغينا أوردر الإنفرتر قبل الشحن. ممكن ترجّعولنا الدفعة المقدمة 45,000 جنيه؟",
+  "quiz": [
+   {
+    "s": "The tender document fee is ___, so it will not be paid back.",
+    "opts": [
+     "refund",
+     "non-refundable",
+     "refundable"
+    ],
+    "a": 1,
+    "ar": "رسوم الكراسة مش بترجع، فمش هتتردّ."
+   },
+   {
+    "s": "The supplier agreed to ___ the extra freight charge.",
+    "opts": [
+     "refund",
+     "refundable",
+     "repayment"
+    ],
+    "a": 0,
+    "ar": "المورد وافق يرجّع مصاريف الشحن الزيادة."
+   },
+   {
+    "s": "Instead of cash, the supplier issued a ___ against our next invoice.",
+    "opts": [
+     "repayment",
+     "reimbursement",
+     "credit note"
+    ],
+    "a": 2,
+    "ar": "بدل الكاش، المورد طلّع إشعار دائن على فاتورتنا الجاية."
+   }
+  ]
+ }
+]

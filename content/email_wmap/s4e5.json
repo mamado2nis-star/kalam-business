@@ -1,0 +1,579 @@
+[
+ {
+  "w": "due date",
+  "ar": "ميعاد الاستحقاق",
+  "book": "Before we can pay ahead of the due date, I need the following:",
+  "family": [
+   {
+    "w": "due",
+    "pos": "adjective",
+    "ex": "Invoice INV-ED-2291 is due on 20 November.",
+    "ar": "الفاتورة ‎INV-ED-2291‎ مستحقة يوم 20 نوفمبر.",
+    "ex2": "That's 60 days from the invoice date.",
+    "ar2": "يعني 60 يوم من تاريخ الفاتورة."
+   },
+   {
+    "w": "due date",
+    "pos": "noun",
+    "ex": "Please list all supplier invoices by due date.",
+    "ar": "من فضلك رتّب فواتير الموردين حسب ميعاد الاستحقاق.",
+    "ex2": "We pay the oldest due date first.",
+    "ar2": "بندفع الأقدم استحقاقًا الأول."
+   },
+   {
+    "w": "overdue",
+    "pos": "adjective",
+    "ex": "Delta Pharma's invoice is 20 days overdue.",
+    "ar": "فاتورة ‎Delta Pharma‎ متأخرة 20 يوم.",
+    "ex2": "Please call their accounts team today.",
+    "ar2": "من فضلك كلم الحسابات عندهم النهارده."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "deadline",
+    "note": "last time to finish any task, not only payment",
+    "ex": "The deadline for the tender documents is 12 October.",
+    "ar": "آخر ميعاد لمستندات المناقصة 12 أكتوبر.",
+    "ex2": "Late files are not accepted.",
+    "ar2": "الملفات المتأخرة مش بتتقبل."
+   },
+   {
+    "w": "maturity date",
+    "note": "bank word for when a deposit or loan ends",
+    "ex": "The deposit's maturity date is 30 November.",
+    "ar": "ميعاد استحقاق الوديعة 30 نوفمبر.",
+    "ex2": "We can use it for the December import payments.",
+    "ar2": "نقدر نستخدمها لمدفوعات الاستيراد في ديسمبر."
+   },
+   {
+    "w": "payment date",
+    "note": "the day we actually plan to pay",
+    "ex": "The payment date for EuroDrive is Tuesday 6 October.",
+    "ar": "ميعاد دفع ‎EuroDrive‎ يوم التلات 6 أكتوبر.",
+    "ex2": "That's about six weeks before the due date.",
+    "ar2": "ده قبل ميعاد الاستحقاق بحوالي 6 أسابيع."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how late the payment is",
+   "lar": "الدفعة متأخرة قد إيه",
+   "steps": [
+    {
+     "w": "due",
+     "ex": "The VoltTech payment is due on 15 October.",
+     "ar": "دفعة ‎VoltTech‎ مستحقة 15 أكتوبر.",
+     "ex2": "We agreed this new date with Mr. Wang Lei.",
+     "ar2": "اتفقنا على الميعاد الجديد ده مع أستاذ ‎Wang Lei‎."
+    },
+    {
+     "w": "overdue",
+     "ex": "The hospital invoice is now two weeks overdue.",
+     "ar": "فاتورة المستشفى بقت متأخرة أسبوعين.",
+     "ex2": "I sent a polite reminder this morning.",
+     "ar2": "بعت تذكير مؤدب النهارده الصبح."
+    },
+    {
+     "w": "seriously overdue",
+     "ex": "This account is seriously overdue, over 120 days.",
+     "ar": "الحساب ده متأخر جامد، أكتر من 120 يوم.",
+     "ex2": "We will stop service visits until they pay.",
+     "ar2": "هنوقف زيارات الصيانة لحد ما يدفعوا."
+    }
+   ]
+  },
+  "ctx": "Our payment terms with EuroDrive are 60 days. If we pay before the due date, they give us a 2% discount.",
+  "ctx_ar": "شروط الدفع بتاعتنا مع ‎EuroDrive‎ 60 يوم. لو دفعنا قبل ميعاد الاستحقاق، بيدّونا خصم 2%.",
+  "quiz": [
+   {
+    "s": "Delta Pharma's invoice is 20 days ___.",
+    "opts": [
+     "due",
+     "overdue",
+     "due date"
+    ],
+    "a": 1,
+    "ar": "فاتورة ‎Delta Pharma‎ متأخرة 20 يوم."
+   },
+   {
+    "s": "The ___ for the tender documents is 12 October.",
+    "opts": [
+     "deadline",
+     "maturity date",
+     "overdue"
+    ],
+    "a": 0,
+    "ar": "آخر ميعاد لمستندات المناقصة 12 أكتوبر."
+   },
+   {
+    "s": "This account is ___, more than 120 days late.",
+    "opts": [
+     "due",
+     "overdue",
+     "seriously overdue"
+    ],
+    "a": 2,
+    "ar": "الحساب ده متأخر جامد، أكتر من 120 يوم."
+   }
+  ]
+ },
+ {
+  "w": "discount",
+  "ar": "خصم",
+  "book": "Our terms are 60 days, but Mr. Marco Bianchi offers a 2% discount if we pay within 10 days.",
+  "family": [
+   {
+    "w": "discount",
+    "pos": "noun",
+    "ex": "EuroDrive offers a 2% discount for payment within 10 days.",
+    "ar": "‎EuroDrive‎ بتعرض خصم 2% لو دفعنا خلال 10 أيام.",
+    "ex2": "On this invoice, that saves us about EUR 330.",
+    "ar2": "في الفاتورة دي ده بيوفر علينا حوالي 330 يورو."
+   },
+   {
+    "w": "discount",
+    "pos": "verb",
+    "ex": "We never discount maintenance contracts by more than 10%.",
+    "ar": "عمرنا ما بنخصم على عقود الصيانة أكتر من 10%.",
+    "ex2": "Our technicians' time is too valuable.",
+    "ar2": "وقت الفنيين بتوعنا غالي."
+   },
+   {
+    "w": "discounted",
+    "pos": "adjective",
+    "ex": "We sent the customer a discounted price for the 30 kVA UPS.",
+    "ar": "بعتنا للعميل سعر مخفّض للـ‎UPS‎ الـ30 ‎kVA‎.",
+    "ex2": "The discounted offer is valid until Thursday.",
+    "ar2": "العرض المخفّض ساري لحد الخميس."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "rebate",
+    "note": "money returned later, often for buying large volumes",
+    "ex": "The battery supplier gives a 3% rebate if we buy 1,000 units a year.",
+    "ar": "مورد البطاريات بيدّي استرداد 3% لو اشترينا 1,000 وحدة في السنة.",
+    "ex2": "The rebate comes as a credit note in January.",
+    "ar2": "الاسترداد بييجي كإشعار دائن في يناير."
+   },
+   {
+    "w": "reduction",
+    "note": "general word for a lower price or amount",
+    "ex": "We asked for a price reduction because the euro went down.",
+    "ar": "طلبنا تخفيض في السعر عشان اليورو نزل.",
+    "ex2": "EuroDrive offered a 3% reduction on the next order.",
+    "ar2": "‎EuroDrive‎ عرضت تخفيض 3% على الأوردر الجاي."
+   },
+   {
+    "w": "allowance",
+    "note": "price cut because of a problem, e.g. damaged goods",
+    "ex": "The supplier gave us an allowance for the scratched cabinets.",
+    "ar": "المورد إدانا خصم عشان الكابينتات المخدوشة.",
+    "ex2": "We accepted the allowance instead of returning them.",
+    "ar2": "قبلنا الخصم بدل ما نرجّعهم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "surcharge",
+    "ex": "The courier adds a fuel surcharge of 5% to every delivery.",
+    "ar": "شركة الشحن بتضيف رسم وقود إضافي 5% على كل توصيلة.",
+    "ex2": "We include the surcharge in our quotations.",
+    "ar2": "بنحط الرسم الإضافي في عروض الأسعار."
+   }
+  ],
+  "ladder": {
+   "label": "how big the price cut is",
+   "lar": "الخصم كبير قد إيه",
+   "steps": [
+    {
+     "w": "small discount",
+     "ex": "We can give a small discount of 2% on cash orders.",
+     "ar": "ممكن نديّ خصم صغير 2% على الأوردرات الكاش.",
+     "ex2": "Anything more needs the sales manager.",
+     "ar2": "أي حاجة أكتر محتاجة مدير المبيعات."
+    },
+    {
+     "w": "special discount",
+     "ex": "Delta Pharma gets a special discount as a key account.",
+     "ar": "‎Delta Pharma‎ بياخدوا خصم خاص كعميل مهم.",
+     "ex2": "It's 7% on all spare parts.",
+     "ar2": "هو 7% على كل قطع الغيار."
+    },
+    {
+     "w": "deep discount",
+     "ex": "Old inverter models are sold at a deep discount to clear stock.",
+     "ar": "موديلات الإنفرتر القديمة بتتباع بخصم كبير عشان نخلّص المخزون.",
+     "ex2": "Some go at 30% below list price.",
+     "ar2": "فيه منها بيتباع أقل من سعر القايمة بـ30%."
+    }
+   ]
+  },
+  "ctx": "EuroDrive offers a 2% discount if we pay within 10 days. On EUR 16,560, that saves us more than EUR 300.",
+  "ctx_ar": "‎EuroDrive‎ بتعرض خصم 2% لو دفعنا خلال 10 أيام. على 16,560 يورو، ده بيوفر علينا أكتر من 300 يورو.",
+  "quiz": [
+   {
+    "s": "We sent a ___ price for the 30 kVA UPS.",
+    "opts": [
+     "discount",
+     "discounted",
+     "rebate"
+    ],
+    "a": 1,
+    "ar": "بعتنا سعر مخفّض للـ‎UPS‎ الـ30 ‎kVA‎."
+   },
+   {
+    "s": "The courier adds a 5% fuel ___ to every delivery.",
+    "opts": [
+     "discount",
+     "allowance",
+     "surcharge"
+    ],
+    "a": 2,
+    "ar": "شركة الشحن بتضيف رسم وقود إضافي 5% على كل توصيلة."
+   },
+   {
+    "s": "We never ___ maintenance contracts by more than 10%.",
+    "opts": [
+     "discount",
+     "discounted",
+     "reduction"
+    ],
+    "a": 0,
+    "ar": "عمرنا ما بنخصم على عقود الصيانة أكتر من 10%."
+   }
+  ]
+ },
+ {
+  "w": "revised",
+  "ar": "معدّل",
+  "book": "Could you please ask Mr. Marco to send us a revised invoice for the partial amount?",
+  "family": [
+   {
+    "w": "revise",
+    "pos": "verb",
+    "ex": "Sales will revise the quotation after the new dollar rate.",
+    "ar": "المبيعات هتعدل عرض السعر بعد سعر الدولار الجديد.",
+    "ex2": "The new prices go to the customer tomorrow.",
+    "ar2": "الأسعار الجديدة هتروح للعميل بكرة."
+   },
+   {
+    "w": "revision",
+    "pos": "noun",
+    "ex": "This is the third revision of the solar station drawing.",
+    "ar": "دي تالت مراجعة لرسمة محطة الطاقة الشمسية.",
+    "ex2": "Please mark the revision number on the cover page.",
+    "ar2": "من فضلك اكتب رقم المراجعة على الصفحة الأولى."
+   },
+   {
+    "w": "revised",
+    "pos": "adjective",
+    "ex": "Please send a revised invoice for 18 drives only.",
+    "ar": "من فضلك ابعت فاتورة معدلة بـ18 درايف بس.",
+    "ex2": "The bank needs it before the transfer.",
+    "ar2": "البنك محتاجها قبل التحويل."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "updated",
+    "note": "new version with the latest information",
+    "ex": "Please send me an updated cash position on Tuesday.",
+    "ar": "من فضلك ابعتلي موقف نقدي محدث يوم التلات.",
+    "ex2": "Include the Delta Pharma transfer if it arrives.",
+    "ar2": "حط تحويل ‎Delta Pharma‎ لو وصل."
+   },
+   {
+    "w": "amended",
+    "note": "formal; changed officially, e.g. a contract or PO",
+    "ex": "The customer sent an amended PO with the new quantity.",
+    "ar": "العميل بعت أمر شراء معدل بالكمية الجديدة.",
+    "ex2": "The amended PO replaces the old one.",
+    "ar2": "أمر الشراء المعدل بيلغي القديم."
+   },
+   {
+    "w": "corrected",
+    "note": "a mistake was found and fixed",
+    "ex": "Here is the corrected payslip; the overtime is now included.",
+    "ar": "دي قسيمة المرتب المصححة، الأوفر تايم اتضاف.",
+    "ex2": "Sorry for the mistake in the first one.",
+    "ar2": "آسفين على الغلطة في الأولى."
+   }
+  ],
+  "ant": [
+   {
+    "w": "original",
+    "ex": "Please cancel the original invoice for EUR 18,400.",
+    "ar": "من فضلك الغي الفاتورة الأصلية بـ18,400 يورو.",
+    "ex2": "It will be replaced by the revised one.",
+    "ar2": "هتتبدل بالفاتورة المعدلة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We will only pay for 18 drives now. Please ask EuroDrive for a revised invoice showing the partial amount.",
+  "ctx_ar": "إحنا هندفع تمن 18 درايف بس دلوقتي. من فضلك اطلب من ‎EuroDrive‎ فاتورة معدلة بالمبلغ الجزئي.",
+  "quiz": [
+   {
+    "s": "This is the third ___ of the drawing.",
+    "opts": [
+     "revise",
+     "revision",
+     "revised"
+    ],
+    "a": 1,
+    "ar": "دي تالت مراجعة للرسمة."
+   },
+   {
+    "s": "Sales will ___ the quotation after the rate change.",
+    "opts": [
+     "revise",
+     "revision",
+     "revised"
+    ],
+    "a": 0,
+    "ar": "المبيعات هتعدل عرض السعر بعد تغيير السعر."
+   },
+   {
+    "s": "Please cancel the ___ invoice; the revised one replaces it.",
+    "opts": [
+     "updated",
+     "corrected",
+     "original"
+    ],
+    "a": 2,
+    "ar": "من فضلك الغي الفاتورة الأصلية؛ المعدلة بتحل محلها."
+   }
+  ]
+ },
+ {
+  "w": "partial",
+  "ar": "جزئي",
+  "book": "Could you please ask Mr. Marco to send us a revised invoice for the partial amount?",
+  "family": [
+   {
+    "w": "part",
+    "pos": "noun",
+    "ex": "Only part of the shipment has arrived at our warehouse.",
+    "ar": "جزء بس من الشحنة وصل المخزن.",
+    "ex2": "The rest is still at Alexandria port.",
+    "ar2": "والباقي لسه في ميناء إسكندرية."
+   },
+   {
+    "w": "partial",
+    "pos": "adjective",
+    "ex": "We will make a partial payment for the 18 drives received.",
+    "ar": "هنعمل دفعة جزئية للـ18 درايف اللي وصلوا.",
+    "ex2": "The rest is paid after delivery.",
+    "ar2": "والباقي يتدفع بعد التسليم."
+   },
+   {
+    "w": "partially",
+    "pos": "adverb",
+    "ex": "The order was partially delivered on Sunday.",
+    "ar": "الأوردر اتسلم جزئيًا يوم الأحد.",
+    "ex2": "Two drives are still waiting for a customs document.",
+    "ar2": "لسه فيه درايفين مستنيين مستند جمارك."
+   },
+   {
+    "w": "partly",
+    "pos": "adverb",
+    "ex": "The delay is partly because of a missing customs document.",
+    "ar": "التأخير جزء منه بسبب مستند جمارك ناقص.",
+    "ex2": "It's also partly the holiday at the port.",
+    "ar2": "وجزء كمان بسبب الأجازة في الميناء."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "part payment",
+    "note": "same idea as partial payment; common in UK business",
+    "ex": "The customer made a part payment of EGP 500,000.",
+    "ar": "العميل دفع جزء 500,000 جنيه.",
+    "ex2": "The balance is due next month.",
+    "ar2": "والباقي مستحق الشهر الجاي."
+   },
+   {
+    "w": "interim",
+    "note": "temporary, before the final one, e.g. interim invoice",
+    "ex": "We sent an interim invoice for the first phase of the solar station.",
+    "ar": "بعتنا فاتورة مرحلية للمرحلة الأولى من محطة الطاقة الشمسية.",
+    "ex2": "The final invoice comes after commissioning.",
+    "ar2": "الفاتورة النهائية بعد التشغيل."
+   },
+   {
+    "w": "incomplete",
+    "note": "something is missing; often sounds negative",
+    "ex": "The GRN is incomplete; two drives are missing.",
+    "ar": "إذن الاستلام ناقص؛ فيه درايفين مش موجودين.",
+    "ex2": "We can't pay the full invoice yet.",
+    "ar2": "مش هنقدر ندفع الفاتورة كاملة دلوقتي."
+   }
+  ],
+  "ant": [
+   {
+    "w": "full",
+    "ex": "We'll pay the full amount when all 20 drives arrive.",
+    "ar": "هندفع المبلغ كامل لما الـ20 درايف يوصلوا.",
+    "ex2": "Until then, we pay for what we received.",
+    "ar2": "لحد ساعتها، بندفع على اللي استلمناه."
+   },
+   {
+    "w": "complete",
+    "ex": "The delivery is complete; all 40 batteries are in the warehouse.",
+    "ar": "التوريد كامل، الـ40 بطارية في المخزن.",
+    "ex2": "Please issue the GRN today.",
+    "ar2": "من فضلك طلّع إذن الاستلام النهارده."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Only 18 of the 20 drives have arrived. We will make a partial payment now and pay the rest after delivery.",
+  "ctx_ar": "وصل 18 درايف بس من 20. هنعمل دفعة جزئية دلوقتي وندفع الباقي بعد التسليم.",
+  "quiz": [
+   {
+    "s": "The order was ___ delivered on Sunday.",
+    "opts": [
+     "partial",
+     "partially",
+     "part"
+    ],
+    "a": 1,
+    "ar": "الأوردر اتسلم جزئيًا يوم الأحد."
+   },
+   {
+    "s": "We will make a ___ payment for the drives received.",
+    "opts": [
+     "partly",
+     "partially",
+     "partial"
+    ],
+    "a": 2,
+    "ar": "هنعمل دفعة جزئية للدرايفات اللي وصلت."
+   },
+   {
+    "s": "We'll pay the ___ amount when all the drives arrive.",
+    "opts": [
+     "full",
+     "interim",
+     "incomplete"
+    ],
+    "a": 0,
+    "ar": "هندفع المبلغ كامل لما كل الدرايفات توصل."
+   }
+  ]
+ },
+ {
+  "w": "ship",
+  "ar": "يشحن",
+  "book": "He also promised to ship our next order of VFDs one week earlier.",
+  "family": [
+   {
+    "w": "ship",
+    "pos": "verb",
+    "ex": "EuroDrive will ship the next 20 VFDs from Milan on Friday.",
+    "ar": "‎EuroDrive‎ هتشحن الـ20 ‎VFD‎ الجايين من ميلانو يوم الجمعة.",
+    "ex2": "They should reach Alexandria in two weeks.",
+    "ar2": "المفروض يوصلوا إسكندرية في أسبوعين."
+   },
+   {
+    "w": "shipment",
+    "pos": "noun",
+    "ex": "The battery shipment is stuck at Alexandria port.",
+    "ar": "شحنة البطاريات واقفة في ميناء إسكندرية.",
+    "ex2": "FastClear is working on the customs papers.",
+    "ar2": "‎FastClear‎ شغالين على ورق الجمارك."
+   },
+   {
+    "w": "shipping",
+    "pos": "noun",
+    "ex": "Shipping costs from China have gone up 20% this year.",
+    "ar": "تكاليف الشحن من الصين زادت 20% السنة دي.",
+    "ex2": "We must update our import cost sheet.",
+    "ar2": "لازم نحدث شيت تكلفة الاستيراد."
+   },
+   {
+    "w": "shipper",
+    "pos": "person",
+    "ex": "The shipper sent the bill of lading by email.",
+    "ar": "الشاحن بعت بوليصة الشحن على الإيميل.",
+    "ex2": "We need the original for customs clearance.",
+    "ar2": "محتاجين الأصل للتخليص الجمركي."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "dispatch",
+    "note": "send goods out from our warehouse to a customer",
+    "ex": "We dispatched 12 batteries to Horizon Hospital this morning.",
+    "ar": "بعتنا 12 بطارية لمستشفى ‎Horizon‎ الصبح.",
+    "ex2": "The driver has the delivery note.",
+    "ar2": "السواق معاه إذن التسليم."
+   },
+   {
+    "w": "deliver",
+    "note": "goods arrive at the customer's place",
+    "ex": "FastClear will deliver the two drives next week.",
+    "ar": "‎FastClear‎ هتسلّم الدرايفين الأسبوع الجاي.",
+    "ex2": "Youssef will sign the delivery note at the warehouse.",
+    "ar2": "يوسف هيمضي إذن التسليم في المخزن."
+   },
+   {
+    "w": "send",
+    "note": "general everyday word, for goods or documents",
+    "ex": "Please send the spare control cards by courier.",
+    "ar": "من فضلك ابعت كروت الكنترول الاسبير مع المندوب.",
+    "ex2": "The site needs them before Thursday.",
+    "ar2": "الموقع محتاجهم قبل الخميس."
+   }
+  ],
+  "ant": [
+   {
+    "w": "receive",
+    "ex": "We received 18 drives, not 20.",
+    "ar": "استلمنا 18 درايف، مش 20.",
+    "ex2": "The GRN shows the exact quantity.",
+    "ar2": "إذن الاستلام بيبين الكمية بالظبط."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Marco promised to ship our next VFD order one week earlier. That helps us deliver on time for the Delta Pharma project.",
+  "ctx_ar": "ماركو وعد يشحن أوردر الـ‎VFD‎ الجاي بتاعنا قبل ميعاده بأسبوع. ده بيساعدنا نسلّم في الميعاد لمشروع ‎Delta Pharma‎.",
+  "quiz": [
+   {
+    "s": "The battery ___ is still at the port.",
+    "opts": [
+     "ship",
+     "shipment",
+     "shipper"
+    ],
+    "a": 1,
+    "ar": "شحنة البطاريات لسه في الميناء."
+   },
+   {
+    "s": "___ costs from China went up 20% this year.",
+    "opts": [
+     "Shipping",
+     "Shipment",
+     "Shipper"
+    ],
+    "a": 0,
+    "ar": "تكاليف الشحن من الصين زادت 20% السنة دي."
+   },
+   {
+    "s": "The ___ sent the bill of lading by email.",
+    "opts": [
+     "shipping",
+     "ship",
+     "shipper"
+    ],
+    "a": 2,
+    "ar": "الشاحن بعت بوليصة الشحن على الإيميل."
+   }
+  ]
+ }
+]

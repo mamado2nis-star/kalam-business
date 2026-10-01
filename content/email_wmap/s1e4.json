@@ -1,0 +1,571 @@
+[
+ {
+  "w": "reject",
+  "ar": "يرفض",
+  "book": "The tax registration number on the invoice is 318-452-907, but our correct number is 318-425-907, so our system rejected it.",
+  "family": [
+   {
+    "w": "reject",
+    "pos": "verb",
+    "ex": "The ETA system rejected the invoice because of a wrong tax number.",
+    "ar": "سيستم الـ‎ETA‎ رفض الفاتورة عشان الرقم الضريبي غلط.",
+    "ex2": "We corrected the number and reissued it.",
+    "ar2": "صحّحنا الرقم وطلّعناها تاني."
+   },
+   {
+    "w": "rejection",
+    "pos": "noun",
+    "ex": "We received a rejection notice from the client's portal.",
+    "ar": "جالنا إشعار رفض من بوابة العميل.",
+    "ex2": "The rejection reason was a missing PO number.",
+    "ar2": "سبب الرفض إن رقم الـ‎PO‎ مش موجود."
+   },
+   {
+    "w": "rejected",
+    "pos": "adjective",
+    "ex": "Please cancel the rejected invoice and issue a new one.",
+    "ar": "لو سمحت الغي الفاتورة المرفوضة وطلّع واحدة جديدة.",
+    "ex2": "The rejected invoice stays in the system as cancelled.",
+    "ar2": "الفاتورة المرفوضة بتفضل في السيستم كملغية."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "refuse",
+    "note": "say no to doing or accepting something",
+    "ex": "The bank may refuse the cheque if the name is wrong.",
+    "ar": "البنك ممكن يرفض الشيك لو الاسم غلط.",
+    "ex2": "Last year they refused two cheques for the same reason.",
+    "ar2": "السنة اللي فاتت رفضوا شيكين لنفس السبب."
+   },
+   {
+    "w": "decline",
+    "note": "polite and formal no",
+    "ex": "We must decline your request for 120-day terms.",
+    "ar": "للأسف مضطرين نعتذر عن طلب الدفع بعد 120 يوم.",
+    "ex2": "We can offer 60 days instead of the declined terms.",
+    "ar2": "نقدر نعرض 60 يوم بدلها."
+   },
+   {
+    "w": "turn down",
+    "note": "informal; for offers and requests",
+    "ex": "The client turned down our offer for a cheaper one.",
+    "ar": "العميل رفض عرضنا وراح لواحد أرخص.",
+    "ex2": "Two months later, the cheap UPS failed.",
+    "ar2": "بعد شهرين الـ‎UPS‎ الرخيص باظ."
+   }
+  ],
+  "ant": [
+   {
+    "w": "accept",
+    "ex": "Please accept the new invoice on the ETA portal.",
+    "ar": "لو سمحت اقبل الفاتورة الجديدة على بوابة الـ‎ETA.‎",
+    "ex2": "Once you accept it, payment can start.",
+    "ar2": "أول ما تقبلها، الدفع يقدر يبدأ."
+   },
+   {
+    "w": "approve",
+    "ex": "Finance approved the invoice for payment.",
+    "ar": "المالية وافقت على الفاتورة للدفع.",
+    "ex2": "It was approved within two days.",
+    "ar2": "اتوافق عليها خلال يومين."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Delta Pharma's system rejected our e-invoice. Two digits in their tax number were in the wrong order, so we will reissue it today.",
+  "ctx_ar": "سيستم ‎Delta Pharma‎ رفض الفاتورة الإلكترونية بتاعتنا. رقمين في الرقم الضريبي كانوا متبدّلين، فهنطلّعها تاني النهارده.",
+  "quiz": [
+   {
+    "s": "The ETA system ___ the invoice because of a wrong tax number.",
+    "opts": [
+     "rejection",
+     "rejected",
+     "reject"
+    ],
+    "a": 1,
+    "ar": "سيستم الـ‎ETA‎ رفض الفاتورة عشان الرقم الضريبي غلط."
+   },
+   {
+    "s": "We received a ___ notice from the client's portal.",
+    "opts": [
+     "rejection",
+     "reject",
+     "accept"
+    ],
+    "a": 0,
+    "ar": "جالنا إشعار رفض من بوابة العميل."
+   },
+   {
+    "s": "We regret that we must ___ your request for longer payment terms.",
+    "opts": [
+     "turn down",
+     "accept",
+     "decline"
+    ],
+    "a": 2,
+    "ar": "للأسف مضطرين نعتذر عن طلبك لمدة دفع أطول."
+   }
+  ]
+ },
+ {
+  "w": "cancel",
+  "ar": "تلغي",
+  "book": "Please cancel this invoice and issue a new one with the correct number.",
+  "family": [
+   {
+    "w": "cancel",
+    "pos": "verb",
+    "ex": "We will cancel INV-0457 on the ETA system today.",
+    "ar": "هنلغي ‎INV-0457‎ على سيستم الـ‎ETA‎ النهارده.",
+    "ex2": "Then we issue a new invoice with the right number.",
+    "ar2": "وبعدين نطلّع فاتورة جديدة بالرقم الصح."
+   },
+   {
+    "w": "cancellation",
+    "pos": "noun",
+    "ex": "The cancellation must be done within seven days of issuing.",
+    "ar": "الإلغاء لازم يتعمل خلال سبع أيام من الإصدار.",
+    "ex2": "After that, a credit note is needed instead of a cancellation.",
+    "ar2": "بعد كده محتاجين إشعار دائن بدل الإلغاء."
+   },
+   {
+    "w": "cancelled",
+    "pos": "adjective",
+    "ex": "The old PO is now cancelled.",
+    "ar": "الـ‎PO‎ القديم اتلغى خلاص.",
+    "ex2": "Please don't invoice against the cancelled PO.",
+    "ar2": "لو سمحت متعملش فاتورة على الـ‎PO‎ الملغي."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "void",
+    "note": "for cheques and invoices: mark as no longer valid",
+    "ex": "Please write VOID on the old cheques.",
+    "ar": "لو سمحت اكتب ملغي على الشيكات القديمة.",
+    "ex2": "Voided cheques must be kept for the auditors.",
+    "ar2": "الشيكات الملغية لازم تتحفظ للمراجعين."
+   },
+   {
+    "w": "withdraw",
+    "note": "take back an offer or request",
+    "ex": "We withdraw our old quotation and send a new one.",
+    "ar": "بنسحب عرض السعر القديم وبنبعت واحد جديد.",
+    "ex2": "The withdrawn offer had the old battery prices.",
+    "ar2": "العرض المسحوب كان بأسعار البطاريات القديمة."
+   },
+   {
+    "w": "call off",
+    "note": "informal; for meetings, visits or plans",
+    "ex": "We called off the site visit because of the holiday.",
+    "ar": "لغينا زيارة الموقع بسبب الأجازة.",
+    "ex2": "We will book a new date next week.",
+    "ar2": "هنحجز ميعاد جديد الأسبوع الجاي."
+   }
+  ],
+  "ant": [
+   {
+    "w": "confirm",
+    "ex": "We confirm the order; please go ahead with delivery.",
+    "ar": "بنأكّد الأوردر؛ اتفضل كمّل التسليم.",
+    "ex2": "The confirmed order is now in production.",
+    "ar2": "الأوردر المؤكد دخل التصنيع."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We will cancel INV-0457 today and issue a new e-invoice. The cancelled invoice will stay in the ETA system for reference.",
+  "ctx_ar": "هنلغي ‎INV-0457‎ النهارده ونطلّع فاتورة إلكترونية جديدة. الفاتورة الملغية هتفضل في سيستم الـ‎ETA‎ للرجوع ليها.",
+  "quiz": [
+   {
+    "s": "Please ___ this invoice and issue a new one.",
+    "opts": [
+     "cancel",
+     "cancellation",
+     "cancelled"
+    ],
+    "a": 0,
+    "ar": "لو سمحت الغي الفاتورة دي وطلّع واحدة جديدة."
+   },
+   {
+    "s": "The ___ PO must not be invoiced.",
+    "opts": [
+     "cancel",
+     "cancellation",
+     "cancelled"
+    ],
+    "a": 2,
+    "ar": "الـ‎PO‎ الملغي ميتعملش عليه فاتورة."
+   },
+   {
+    "s": "The site visit was ___ because of the holiday.",
+    "opts": [
+     "void",
+     "called off",
+     "withdraw"
+    ],
+    "a": 1,
+    "ar": "زيارة الموقع اتلغت بسبب الأجازة."
+   }
+  ]
+ },
+ {
+  "w": "apologise",
+  "ar": "أعتذر",
+  "book": "Thank you for letting us know, and I apologise for the mistake.",
+  "family": [
+   {
+    "w": "apologise",
+    "pos": "verb",
+    "ex": "I apologise for the mistake in your tax number.",
+    "ar": "بعتذر عن الغلطة في رقمكم الضريبي.",
+    "ex2": "It will not happen again.",
+    "ar2": "مش هتتكرر تاني."
+   },
+   {
+    "w": "apology",
+    "pos": "noun",
+    "ex": "Please accept our apology for the wrong invoice.",
+    "ar": "لو سمحت اقبلوا اعتذارنا عن الفاتورة الغلط.",
+    "ex2": "Our manager also called to repeat the apology.",
+    "ar2": "المدير بتاعنا كمان اتصل يعتذر تاني."
+   },
+   {
+    "w": "apologetic",
+    "pos": "adjective",
+    "ex": "The supplier was very apologetic about the late batteries.",
+    "ar": "المورد كان معتذر جداً عن تأخير البطاريات.",
+    "ex2": "His apologetic email included a new delivery date.",
+    "ar2": "إيميل الاعتذار بتاعه كان فيه ميعاد تسليم جديد."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "sorry",
+    "note": "everyday and less formal",
+    "ex": "Sorry for the late reply, Mona.",
+    "ar": "آسف على التأخير في الرد يا ‎Mona.‎",
+    "ex2": "I was on site all day.",
+    "ar2": "كنت في الموقع طول اليوم."
+   },
+   {
+    "w": "regret",
+    "note": "very formal; often in official letters",
+    "ex": "We regret any inconvenience caused by the delay.",
+    "ar": "بنعتذر عن أي إزعاج سببه التأخير.",
+    "ex2": "We regret that the shipment missed the vessel.",
+    "ar2": "بنأسف إن الشحنة فاتها المركب."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how formal the apology is",
+   "lar": "الاعتذار رسمي قد إيه",
+   "steps": [
+    {
+     "w": "Sorry",
+     "ex": "Sorry, I sent the wrong file.",
+     "ar": "آسف، بعت الملف الغلط.",
+     "ex2": "Here is the right invoice PDF.",
+     "ar2": "ده ملف الفاتورة الصح."
+    },
+    {
+     "w": "I apologise",
+     "ex": "I apologise for the error in the PO number.",
+     "ar": "بعتذر عن الغلط في رقم الـ‎PO.‎",
+     "ex2": "The corrected invoice is attached.",
+     "ar2": "الفاتورة المصحّحة مرفقة."
+    },
+    {
+     "w": "Please accept our apologies",
+     "ex": "Please accept our apologies for the inconvenience.",
+     "ar": "برجاء قبول اعتذارنا عن الإزعاج.",
+     "ex2": "We have reviewed our process to avoid this.",
+     "ar2": "راجعنا الإجراءات عندنا عشان نتجنب ده."
+    },
+    {
+     "w": "We sincerely regret",
+     "ex": "We sincerely regret the service outage at your data centre.",
+     "ar": "بنعتذر بشدة عن انقطاع الخدمة في الداتا سنتر بتاعكم.",
+     "ex2": "A full incident report will follow tomorrow.",
+     "ar2": "تقرير كامل عن الحادثة هيوصلكم بكرة."
+    }
+   ]
+  },
+  "ctx": "I apologise for the mistake in your tax registration number. We will cancel the invoice and send a new one today.",
+  "ctx_ar": "بعتذر عن الغلطة في رقم التسجيل الضريبي بتاعكم. هنلغي الفاتورة ونبعت واحدة جديدة النهارده.",
+  "quiz": [
+   {
+    "s": "Please accept our ___ for the wrong invoice.",
+    "opts": [
+     "apologise",
+     "apology",
+     "apologetic"
+    ],
+    "a": 1,
+    "ar": "لو سمحت اقبلوا اعتذارنا عن الفاتورة الغلط."
+   },
+   {
+    "s": "I ___ for the mistake in your tax number.",
+    "opts": [
+     "apology",
+     "apologetic",
+     "apologise"
+    ],
+    "a": 2,
+    "ar": "بعتذر عن الغلطة في رقمكم الضريبي."
+   },
+   {
+    "s": "The supplier was very ___ about the late batteries.",
+    "opts": [
+     "apologetic",
+     "apologise",
+     "regret"
+    ],
+    "a": 0,
+    "ar": "المورد كان معتذر جداً عن تأخير البطاريات."
+   }
+  ]
+ },
+ {
+  "w": "inconvenience",
+  "ar": "الإزعاج / التعطيل",
+  "book": "Please accept our apologies for the inconvenience.",
+  "family": [
+   {
+    "w": "inconvenience",
+    "pos": "noun",
+    "ex": "We apologise for any inconvenience caused by the delay.",
+    "ar": "بنعتذر عن أي إزعاج سببه التأخير.",
+    "ex2": "The batteries will arrive on Sunday.",
+    "ar2": "البطاريات هتوصل يوم الحد."
+   },
+   {
+    "w": "inconvenience",
+    "pos": "verb",
+    "ex": "Sorry to inconvenience you, but we need site access on Friday.",
+    "ar": "آسفين على الإزعاج، بس محتاجين ندخل الموقع يوم الجمعة.",
+    "ex2": "We'll finish before noon so we don't inconvenience your staff.",
+    "ar2": "هنخلّص قبل الضهر عشان منعطّلش الموظفين."
+   },
+   {
+    "w": "inconvenient",
+    "pos": "adjective",
+    "ex": "Sunday is inconvenient because the plant is closed.",
+    "ar": "يوم الحد مش مناسب عشان المصنع قافل.",
+    "ex2": "Is Monday morning better for you?",
+    "ar2": "الاتنين الصبح أحسن ليك؟"
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "trouble",
+    "note": "everyday word; small problem or effort",
+    "ex": "Sorry for the trouble with the cheques.",
+    "ar": "آسف على التعب بتاع الشيكات.",
+    "ex2": "Thank you for taking the trouble to reissue them.",
+    "ar2": "شكراً إنك تعبت نفسك وطلّعتهم تاني."
+   },
+   {
+    "w": "disruption",
+    "note": "when work or service is interrupted",
+    "ex": "The UPS shutdown caused a two-hour disruption.",
+    "ar": "فصل الـ‎UPS‎ عمل تعطيل ساعتين.",
+    "ex2": "We scheduled the work at night to avoid disruption.",
+    "ar2": "عملنا الشغل بالليل عشان نتجنب التعطيل."
+   },
+   {
+    "w": "hassle",
+    "note": "informal; annoying extra work",
+    "ex": "Reissuing the e-invoice was a real hassle.",
+    "ar": "إعادة إصدار الفاتورة الإلكترونية كانت وجع دماغ.",
+    "ex2": "Checking the tax number first saves the hassle.",
+    "ar2": "مراجعة الرقم الضريبي الأول بتوفّر وجع الدماغ ده."
+   }
+  ],
+  "ant": [
+   {
+    "w": "convenience",
+    "ex": "Please call us at your convenience.",
+    "ar": "لو سمحت كلّمنا في الوقت اللي يناسبك.",
+    "ex2": "For your convenience, the invoice PDF is attached.",
+    "ar2": "لراحتك، ملف الفاتورة مرفق."
+   }
+  ],
+  "ladder": {
+   "label": "how bad the problem is",
+   "lar": "المشكلة كبيرة قد إيه",
+   "steps": [
+    {
+     "w": "minor inconvenience",
+     "ex": "The late email was a minor inconvenience.",
+     "ar": "الإيميل المتأخر كان إزعاج بسيط.",
+     "ex2": "Nothing else was affected.",
+     "ar2": "مفيش حاجة تانية اتأثرت."
+    },
+    {
+     "w": "inconvenience",
+     "ex": "The wrong invoice caused some inconvenience to their AP team.",
+     "ar": "الفاتورة الغلط سببت شوية إزعاج لفريق الحسابات عندهم.",
+     "ex2": "They had to reject it and wait for a new one.",
+     "ar2": "اضطروا يرفضوها ويستنوا واحدة جديدة."
+    },
+    {
+     "w": "major disruption",
+     "ex": "A battery failure caused major disruption at the data centre.",
+     "ar": "عطل في البطاريات عمل تعطيل كبير في الداتا سنتر.",
+     "ex2": "Three servers went down for an hour.",
+     "ar2": "تلات سيرفرات وقعوا لمدة ساعة."
+    }
+   ]
+  },
+  "ctx": "Please accept our apologies for the inconvenience. The new invoice will reach you by tomorrow at the latest.",
+  "ctx_ar": "برجاء قبول اعتذارنا عن الإزعاج. الفاتورة الجديدة هتوصلكم بكرة بالكتير.",
+  "quiz": [
+   {
+    "s": "We apologise for any ___ caused.",
+    "opts": [
+     "inconvenience",
+     "inconvenient",
+     "convenience"
+    ],
+    "a": 0,
+    "ar": "بنعتذر عن أي إزعاج حصل."
+   },
+   {
+    "s": "Sunday is ___ for us because the plant is closed.",
+    "opts": [
+     "inconvenience",
+     "convenience",
+     "inconvenient"
+    ],
+    "a": 2,
+    "ar": "يوم الحد مش مناسب لينا عشان المصنع قافل."
+   },
+   {
+    "s": "The UPS shutdown caused a two-hour ___ in the data centre.",
+    "opts": [
+     "hassle",
+     "disruption",
+     "convenience"
+    ],
+    "a": 1,
+    "ar": "فصل الـ‎UPS‎ عمل تعطيل ساعتين في الداتا سنتر."
+   }
+  ]
+ },
+ {
+  "w": "register",
+  "ar": "يتسجّل",
+  "book": "INV-0461 has been accepted on the ETA portal and registered in our system.",
+  "family": [
+   {
+    "w": "register",
+    "pos": "verb",
+    "ex": "Please register the new invoice in your system.",
+    "ar": "لو سمحت سجّل الفاتورة الجديدة في السيستم عندكم.",
+    "ex2": "Once you register it, the payment cycle starts.",
+    "ar2": "أول ما تسجّلها، دورة الدفع بتبدأ."
+   },
+   {
+    "w": "registration",
+    "pos": "noun",
+    "ex": "Please check our tax registration number on the invoice.",
+    "ar": "لو سمحت راجع رقم التسجيل الضريبي بتاعنا على الفاتورة.",
+    "ex2": "A wrong registration number means rejection.",
+    "ar2": "رقم تسجيل غلط معناه رفض."
+   },
+   {
+    "w": "registered",
+    "pos": "adjective",
+    "ex": "Our registered address is in Nasr City.",
+    "ar": "العنوان المسجّل بتاعنا في مدينة نصر.",
+    "ex2": "The registered address must appear on every e-invoice.",
+    "ar2": "العنوان المسجّل لازم يظهر على كل فاتورة إلكترونية."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "record officially in a system",
+    "mar": "تسجّل رسمي في سيستم",
+    "ex": "The invoice was registered in their ERP yesterday.",
+    "ar": "الفاتورة اتسجّلت في الـ‎ERP‎ بتاعهم امبارح.",
+    "ex2": "Now it follows the normal payment cycle.",
+    "ar2": "دلوقتي ماشية في دورة الدفع العادية."
+   },
+   {
+    "m": "sign up for something",
+    "mar": "تسجّل نفسك في حاجة",
+    "ex": "Please register as a supplier on our procurement portal.",
+    "ar": "لو سمحت سجّل كمورد على بوابة المشتريات بتاعتنا.",
+    "ex2": "Only registered suppliers receive RFQs.",
+    "ar2": "الموردين المسجلين بس بيجيلهم طلبات أسعار."
+   }
+  ],
+  "syn": [
+   {
+    "w": "record",
+    "note": "general; write it in the books",
+    "ex": "We recorded the payment as unallocated.",
+    "ar": "سجّلنا الدفعة كمش متوزعة.",
+    "ex2": "Later we recorded it against INV-0512.",
+    "ar2": "بعدين سجّلناها على ‎INV-0512.‎"
+   },
+   {
+    "w": "log",
+    "note": "enter in a system; often calls or tickets",
+    "ex": "Please log every service call in the ticket system.",
+    "ar": "لو سمحت سجّل كل مكالمة صيانة في سيستم التذاكر.",
+    "ex2": "The log shows response times.",
+    "ar2": "السجل بيبيّن أوقات الاستجابة."
+   },
+   {
+    "w": "enter",
+    "note": "type data into a system",
+    "ex": "Two digits were entered in the wrong order.",
+    "ar": "رقمين اتكتبوا بالترتيب الغلط.",
+    "ex2": "Please enter the tax number carefully.",
+    "ar2": "لو سمحت اكتب الرقم الضريبي بحرص."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "The new e-invoice has been registered in our system. It will now follow our normal 60-day payment cycle.",
+  "ctx_ar": "الفاتورة الإلكترونية الجديدة اتسجّلت في السيستم عندنا. هتمشي دلوقتي في دورة الدفع العادية 60 يوم.",
+  "quiz": [
+   {
+    "s": "Please check our tax ___ number on the invoice.",
+    "opts": [
+     "register",
+     "registration",
+     "registered"
+    ],
+    "a": 1,
+    "ar": "لو سمحت راجع رقم التسجيل الضريبي بتاعنا على الفاتورة."
+   },
+   {
+    "s": "The invoice has been ___ in our system.",
+    "opts": [
+     "registered",
+     "register",
+     "log"
+    ],
+    "a": 0,
+    "ar": "الفاتورة اتسجّلت في السيستم عندنا."
+   },
+   {
+    "s": "Please ___ every service call in the ticket system.",
+    "opts": [
+     "registration",
+     "registered",
+     "log"
+    ],
+    "a": 2,
+    "ar": "لو سمحت سجّل كل مكالمة صيانة في سيستم التذاكر."
+   }
+  ]
+ }
+]

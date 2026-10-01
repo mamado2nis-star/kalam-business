@@ -1,0 +1,563 @@
+[
+ {
+  "w": "compensation",
+  "ar": "تعويض",
+  "book": "Our management expects compensation, and they are asking me if we should renew the contract in January.",
+  "family": [
+   {
+    "w": "compensate",
+    "pos": "verb",
+    "ex": "We cannot compensate you for production losses under the AMC.",
+    "ar": "مانقدرش نعوّضكم عن خساير الإنتاج حسب عقد الصيانة.",
+    "ex2": "But we can offer a service credit.",
+    "ar2": "بس نقدر نقدّم خصم خدمة."
+   },
+   {
+    "w": "compensation",
+    "pos": "noun",
+    "ex": "The client asked for compensation after the late response.",
+    "ar": "العميل طلب تعويض بعد التأخير في الاستجابة.",
+    "ex2": "The SLA allows only a service credit.",
+    "ar2": "الـ‎SLA‎ بيسمح بخصم خدمة بس."
+   },
+   {
+    "w": "compensatory",
+    "pos": "adjective",
+    "ex": "Compensatory payments are limited to 25% of the quarterly fee.",
+    "ar": "مدفوعات التعويض محدودة بـ25% من رسوم الربع سنة.",
+    "ex2": "This is written in clause 9.2.",
+    "ar2": "ده مكتوب في البند 9.2."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "service credit",
+    "note": "money taken off the next invoice; common in SLAs",
+    "ex": "We offer a service credit of EGP 18,500.",
+    "ar": "بنقدّم خصم خدمة بـ18,500 جنيه.",
+    "ex2": "It will be deducted from your next invoice.",
+    "ar2": "هيتخصم من فاتورتكم الجاية."
+   },
+   {
+    "w": "refund",
+    "note": "money paid back for something already paid",
+    "ex": "We will refund the delivery charge for the late order.",
+    "ar": "هنرجّع مصاريف التوصيل للأوردر اللي اتأخر.",
+    "ex2": "The money will be in your account this week.",
+    "ar2": "الفلوس هتبقى في حسابكم الأسبوع ده."
+   },
+   {
+    "w": "make up for",
+    "note": "informal; do something good after a mistake",
+    "ex": "To make up for the delay, we added a free PM visit.",
+    "ar": "عشان نعوّض التأخير، زوّدنا زيارة صيانة وقائية ببلاش.",
+    "ex2": "Our engineer will come in December.",
+    "ar2": "المهندس بتاعنا هييجي في ديسمبر."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how much you give back",
+   "lar": "بتعوّض قد إيه",
+   "steps": [
+    {
+     "w": "apology",
+     "ex": "An apology alone will not satisfy the client this time.",
+     "ar": "الاعتذار لوحده مش هيرضي العميل المرة دي.",
+     "ex2": "They lost a full night of production.",
+     "ar2": "خسروا ليلة إنتاج كاملة."
+    },
+    {
+     "w": "service credit",
+     "ex": "A service credit of 25% is our maximum under the contract.",
+     "ar": "خصم خدمة 25% هو أقصى حاجة عندنا حسب العقد.",
+     "ex2": "We offered it right away.",
+     "ar2": "عرضناه على طول."
+    },
+    {
+     "w": "full compensation",
+     "ex": "Full compensation for production losses is not in the contract.",
+     "ar": "التعويض الكامل عن خساير الإنتاج مش في العقد.",
+     "ex2": "Clause 9.2 clearly excludes it.",
+     "ar2": "البند 9.2 مستبعده بوضوح."
+    }
+   ]
+  },
+  "ctx": "Line 2 stopped for the whole night. The client expects compensation, so we are offering a service credit of EGP 18,500.",
+  "ctx_ar": "خط 2 وقف الليل كله. العميل مستني تعويض، فإحنا بنعرض خصم خدمة 18,500 جنيه.",
+  "quiz": [
+   {
+    "s": "We cannot ___ you for production losses.",
+    "opts": [
+     "compensation",
+     "compensate",
+     "compensatory"
+    ],
+    "a": 1,
+    "ar": "مانقدرش نعوّضكم عن خساير الإنتاج."
+   },
+   {
+    "s": "To ___ the delay, we added a free PM visit.",
+    "opts": [
+     "make up for",
+     "refund",
+     "compensation"
+    ],
+    "a": 0,
+    "ar": "عشان نعوّض التأخير، زوّدنا زيارة صيانة وقائية ببلاش."
+   },
+   {
+    "s": "___ for production losses is not in the contract.",
+    "opts": [
+     "Apology",
+     "Service credit",
+     "Full compensation"
+    ],
+    "a": 2,
+    "ar": "التعويض الكامل عن خساير الإنتاج مش في العقد."
+   }
+  ]
+ },
+ {
+  "w": "breach",
+  "ar": "خرق / مخالفة (للعقد)",
+  "book": "Under clause 9.2 of the contract, compensation for SLA breaches is a service credit, not production losses.",
+  "family": [
+   {
+    "w": "breach",
+    "pos": "noun",
+    "ex": "An 11-hour response is a clear breach of the SLA.",
+    "ar": "استجابة بعد 11 ساعة دي مخالفة واضحة للـ‎SLA‎.",
+    "ex2": "The contract says four hours for critical calls.",
+    "ar2": "العقد بيقول أربع ساعات للمكالمات الحرجة."
+   },
+   {
+    "w": "breach",
+    "pos": "verb",
+    "ex": "If we breach the response time again, the client may cancel.",
+    "ar": "لو خالفنا وقت الاستجابة تاني، العميل ممكن يلغي.",
+    "ex2": "That is why we added a second on-call engineer.",
+    "ar2": "عشان كده زوّدنا مهندس مناوب تاني."
+   },
+   {
+    "w": "breached",
+    "pos": "adjective",
+    "ex": "The breached clause is 4.1, response time for critical calls.",
+    "ar": "البند اللي اتخالف هو 4.1، وقت الاستجابة للمكالمات الحرجة.",
+    "ex2": "Clause 9.2 explains the compensation.",
+    "ar2": "البند 9.2 بيشرح التعويض."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "violation",
+    "note": "formal or legal; often rules or laws",
+    "ex": "Sharing client data is a violation of our confidentiality policy.",
+    "ar": "مشاركة داتا العميل مخالفة لسياسة السرية عندنا.",
+    "ex2": "It can lead to legal action.",
+    "ar2": "ممكن توصّل لإجراء قانوني."
+   },
+   {
+    "w": "failure to meet",
+    "note": "softer phrase for missing a target",
+    "ex": "Our failure to meet the SLA was due to a staffing gap.",
+    "ar": "إننا ماحققناش الـ‎SLA‎ كان بسبب نقص في الناس.",
+    "ex2": "We have fixed it from 1 November.",
+    "ar2": "صلّحنا ده من 1 نوفمبر."
+   }
+  ],
+  "ant": [
+   {
+    "w": "compliance",
+    "ex": "Our compliance with the SLA was 98% last year.",
+    "ar": "التزامنا بالـ‎SLA‎ كان 98% السنة اللي فاتت.",
+    "ex2": "This is our first breach in 12 months.",
+    "ar2": "دي أول مخالفة لينا من 12 شهر."
+   }
+  ],
+  "ladder": {
+   "label": "how serious it is",
+   "lar": "المخالفة كبيرة قد إيه",
+   "steps": [
+    {
+     "w": "minor breach",
+     "ex": "Arriving 20 minutes late is a minor breach.",
+     "ar": "الوصول متأخر 20 دقيقة مخالفة بسيطة.",
+     "ex2": "We still record it in the monthly report.",
+     "ar2": "برضه بنسجلها في التقرير الشهري."
+    },
+    {
+     "w": "serious breach",
+     "ex": "Eleven hours late is a serious breach of the SLA.",
+     "ar": "التأخير 11 ساعة مخالفة كبيرة للـ‎SLA‎.",
+     "ex2": "It needs a written explanation.",
+     "ar2": "محتاجة تفسير مكتوب."
+    },
+    {
+     "w": "material breach",
+     "ex": "Repeated serious delays could be a material breach of the contract.",
+     "ar": "التأخيرات الكبيرة المتكررة ممكن تبقى إخلال جوهري بالعقد.",
+     "ex2": "Then the client may end the AMC.",
+     "ar2": "ساعتها العميل ممكن ينهي عقد الصيانة."
+    }
+   ]
+  },
+  "ctx": "Our engineer arrived eleven hours late, which is a breach of the SLA. Under clause 9.2, compensation is a service credit.",
+  "ctx_ar": "المهندس بتاعنا وصل متأخر 11 ساعة، ودي مخالفة للـ‎SLA‎. حسب البند 9.2، التعويض بيبقى خصم خدمة.",
+  "quiz": [
+   {
+    "s": "If we ___ the response time again, the client may cancel.",
+    "opts": [
+     "breach",
+     "breached",
+     "compliance"
+    ],
+    "a": 0,
+    "ar": "لو خالفنا وقت الاستجابة تاني، العميل ممكن يلغي."
+   },
+   {
+    "s": "Our ___ with the SLA was 98% last year.",
+    "opts": [
+     "breach",
+     "violation",
+     "compliance"
+    ],
+    "a": 2,
+    "ar": "التزامنا بالـ‎SLA‎ كان 98% السنة اللي فاتت."
+   },
+   {
+    "s": "Repeated delays could be a ___ of the contract.",
+    "opts": [
+     "minor breach",
+     "material breach",
+     "breached"
+    ],
+    "a": 1,
+    "ar": "التأخيرات المتكررة ممكن تبقى إخلال جوهري بالعقد."
+   }
+  ]
+ },
+ {
+  "w": "escalate",
+  "ar": "يصعّد",
+  "book": "Our on-call engineer was at another emergency in Suez, and the call was not escalated to our backup engineer.",
+  "family": [
+   {
+    "w": "escalate",
+    "pos": "verb",
+    "ex": "If nobody answers in 30 minutes, escalate the call to the backup engineer.",
+    "ar": "لو محدش رد في 30 دقيقة، صعّد المكالمة للمهندس الاحتياطي.",
+    "ex2": "Nobody should wait more than four hours.",
+    "ar2": "محدش المفروض يستنى أكتر من أربع ساعات."
+   },
+   {
+    "w": "escalation",
+    "pos": "noun",
+    "ex": "Please send us the new escalation number in writing.",
+    "ar": "من فضلك ابعتلنا رقم التصعيد الجديد كتابة.",
+    "ex2": "We will share it with our night shift.",
+    "ar2": "هنديه لوردية الليل عندنا."
+   },
+   {
+    "w": "de-escalate",
+    "pos": "verb",
+    "ex": "A quick apology helped de-escalate the situation with the client.",
+    "ar": "اعتذار سريع ساعد يهدّي الموقف مع العميل.",
+    "ex2": "He agreed to wait for our full proposal.",
+    "ar2": "وافق يستنى عرضنا الكامل."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "pass a problem to a higher level",
+    "mar": "ترفع المشكلة لمستوى أعلى",
+    "ex": "I escalated the overdue invoice to our Finance Director.",
+    "ar": "صعّدت موضوع الفاتورة المتأخرة للمدير المالي.",
+    "ex2": "It is now 90 days late.",
+    "ar2": "بقالها 90 يوم متأخرة."
+   },
+   {
+    "m": "become bigger or more serious",
+    "mar": "الموضوع يكبر ويبقى أخطر",
+    "ex": "The complaint escalated when the second call was also late.",
+    "ar": "الشكوى كبرت لما المكالمة التانية اتأخرت كمان.",
+    "ex2": "Now their management is involved.",
+    "ar2": "دلوقتي الإدارة بتاعتهم دخلت في الموضوع."
+   }
+  ],
+  "syn": [
+   {
+    "w": "refer",
+    "note": "pass to the right person, not always higher",
+    "ex": "I have referred your question to our solar team.",
+    "ar": "حوّلت سؤالك لفريق الطاقة الشمسية عندنا.",
+    "ex2": "They will reply by tomorrow.",
+    "ar2": "هيردوا عليك قبل بكرة."
+   },
+   {
+    "w": "raise",
+    "note": "bring up an issue or a priority level",
+    "ex": "Could you raise the ticket to Priority 1?",
+    "ar": "ممكن ترفع التيكت لـ‎Priority 1‎؟",
+    "ex2": "Invoicing is completely stopped.",
+    "ar2": "الفواتير واقفة خالص."
+   }
+  ],
+  "ant": [
+   {
+    "w": "resolve",
+    "ex": "We resolved the issue at first level without escalation.",
+    "ar": "حلّينا المشكلة من أول مستوى من غير تصعيد.",
+    "ex2": "The client did not need to call the manager.",
+    "ar2": "العميل ما احتاجش يكلّم المدير."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our on-call engineer was busy in Suez, and the call was not escalated to the backup engineer. This was our mistake.",
+  "ctx_ar": "المهندس المناوب كان مشغول في السويس، والمكالمة ماتصعّدتش للمهندس الاحتياطي. دي غلطتنا.",
+  "quiz": [
+   {
+    "s": "Please send us the new ___ number.",
+    "opts": [
+     "escalate",
+     "escalation",
+     "de-escalate"
+    ],
+    "a": 1,
+    "ar": "من فضلك ابعتلنا رقم التصعيد الجديد."
+   },
+   {
+    "s": "A quick apology helped ___ the situation.",
+    "opts": [
+     "escalate",
+     "escalation",
+     "de-escalate"
+    ],
+    "a": 2,
+    "ar": "اعتذار سريع ساعد يهدّي الموقف."
+   },
+   {
+    "s": "Could you ___ the ticket to Priority 1?",
+    "opts": [
+     "raise",
+     "refer",
+     "resolve"
+    ],
+    "a": 0,
+    "ar": "ممكن ترفع التيكت لـ‎Priority 1‎؟"
+   }
+  ]
+ },
+ {
+  "w": "renew",
+  "ar": "يجدّد",
+  "book": "If the new on-call system works well, we will renew AMC-2025-014 for 2026.",
+  "family": [
+   {
+    "w": "renew",
+    "pos": "verb",
+    "ex": "We will renew the maintenance contract if the response time improves.",
+    "ar": "هنجدّد عقد الصيانة لو وقت الاستجابة اتحسّن.",
+    "ex2": "The current one ends in December.",
+    "ar2": "العقد الحالي بيخلص في ديسمبر."
+   },
+   {
+    "w": "renewal",
+    "pos": "noun",
+    "ex": "The AMC renewal is due on 1 January.",
+    "ar": "تجديد عقد الصيانة مستحق يوم 1 يناير.",
+    "ex2": "Please send us the new price list.",
+    "ar2": "من فضلك ابعتلنا قايمة الأسعار الجديدة."
+   },
+   {
+    "w": "renewable",
+    "pos": "adjective",
+    "ex": "Our solar stations use renewable energy to cut diesel costs.",
+    "ar": "محطات الطاقة الشمسية بتاعتنا بتستخدم طاقة متجددة عشان تقلّل مصاريف السولار.",
+    "ex2": "Many farms now run their pumps on solar.",
+    "ar2": "مزارع كتير بقت بتشغّل الطلمبات بالطاقة الشمسية."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "extend",
+    "note": "make the same contract longer, often short term",
+    "ex": "Can we extend the current contract by three months?",
+    "ar": "ينفع نمدّ العقد الحالي تلات شهور؟",
+    "ex2": "Our budget for next year is not approved yet.",
+    "ar2": "ميزانيتنا للسنة الجاية لسه مااتعتمدتش."
+   },
+   {
+    "w": "roll over",
+    "note": "renews automatically on the same terms",
+    "ex": "The SLA will roll over each year unless one side cancels.",
+    "ar": "الـ‎SLA‎ بيتجدد أوتوماتيك كل سنة إلا لو طرف لغاه.",
+    "ex2": "Please give 60 days' notice.",
+    "ar2": "من فضلك ادّي إخطار قبلها بـ60 يوم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "terminate",
+    "ex": "The client may terminate the contract after two serious breaches.",
+    "ar": "العميل من حقه ينهي العقد بعد مخالفتين كبار.",
+    "ex2": "Clause 12 gives them that right.",
+    "ar2": "البند 12 بيدّيهم الحق ده."
+   },
+   {
+    "w": "cancel",
+    "ex": "They decided to cancel the PM contract for the old generator.",
+    "ar": "قرروا يلغوا عقد الصيانة الوقائية للمولد القديم.",
+    "ex2": "The generator will be replaced next month.",
+    "ar2": "المولد هيتغيّر الشهر الجاي."
+   }
+  ],
+  "ladder": null,
+  "ctx": "If the new on-call system works well, the client will renew the AMC for 2026. The renewal is worth EGP 296,000.",
+  "ctx_ar": "لو نظام المناوبة الجديد اشتغل كويس، العميل هيجدّد عقد الصيانة لـ2026. التجديد قيمته 296,000 جنيه.",
+  "quiz": [
+   {
+    "s": "The AMC ___ is due on 1 January.",
+    "opts": [
+     "renew",
+     "renewal",
+     "renewable"
+    ],
+    "a": 1,
+    "ar": "تجديد عقد الصيانة مستحق يوم 1 يناير."
+   },
+   {
+    "s": "Our budget is not ready, so can we ___ the contract by three months?",
+    "opts": [
+     "terminate",
+     "cancel",
+     "extend"
+    ],
+    "a": 2,
+    "ar": "ميزانيتنا مش جاهزة، فينفع نمدّ العقد تلات شهور؟"
+   },
+   {
+    "s": "Our solar stations use ___ energy.",
+    "opts": [
+     "renewable",
+     "renewal",
+     "renew"
+    ],
+    "a": 0,
+    "ar": "محطاتنا الشمسية بتستخدم طاقة متجددة."
+   }
+  ]
+ },
+ {
+  "w": "deduct",
+  "ar": "يخصم",
+  "book": "Please deduct the credit from your next invoice and send us the new escalation number in writing.",
+  "family": [
+   {
+    "w": "deduct",
+    "pos": "verb",
+    "ex": "Please deduct the service credit from our next invoice.",
+    "ar": "من فضلك اخصم خصم الخدمة من فاتورتنا الجاية.",
+    "ex2": "Show it as a separate line item.",
+    "ar2": "اكتبه كبند لوحده."
+   },
+   {
+    "w": "deduction",
+    "pos": "noun",
+    "ex": "The client made a deduction of EGP 3,000 for the late delivery.",
+    "ar": "العميل خصم 3,000 جنيه عشان التسليم اتأخر.",
+    "ex2": "We need to check if that is in the PO terms.",
+    "ar2": "لازم نتأكد إن ده موجود في شروط الـ‎PO‎."
+   },
+   {
+    "w": "deducted",
+    "pos": "adjective",
+    "ex": "The deducted amount will appear on your next statement of account.",
+    "ar": "المبلغ المخصوم هيظهر في كشف الحساب الجاي.",
+    "ex2": "Your balance will drop to EGP 55,500.",
+    "ar2": "رصيدك هينزل لـ55,500 جنيه."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "subtract",
+    "note": "maths word; deduct is the business and finance word",
+    "ex": "Subtract the deposit from the total before you invoice.",
+    "ar": "اطرح الدفعة المقدمة من الإجمالي قبل ما تطلّع الفاتورة.",
+    "ex2": "The client paid 30% in advance.",
+    "ar2": "العميل دفع 30% مقدم."
+   },
+   {
+    "w": "take off",
+    "note": "informal; used when talking about prices",
+    "ex": "Can you take off 5% if we pay cash?",
+    "ar": "ممكن تنزّل 5% لو دفعنا كاش؟",
+    "ex2": "We need the price under EGP 200,000.",
+    "ar2": "محتاجين السعر يبقى أقل من 200,000 جنيه."
+   },
+   {
+    "w": "discount",
+    "note": "a lower price agreed in advance, not taken later",
+    "ex": "We gave a 10% discount on the 40 battery blocks.",
+    "ar": "ادّينا خصم 10% على الـ40 بلوك بطارية.",
+    "ex2": "The client accepted the revised quotation.",
+    "ar2": "العميل وافق على عرض السعر المعدّل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "add",
+    "ex": "Please add VAT at 14% to the total.",
+    "ar": "من فضلك زوّد ضريبة القيمة المضافة 14% على الإجمالي.",
+    "ex2": "The ETA portal will reject it otherwise.",
+    "ar2": "وإلا بوابة الـ‎ETA‎ هترفضها."
+   },
+   {
+    "w": "charge",
+    "ex": "We will charge the extra visit at our normal rate.",
+    "ar": "هنحاسب على الزيارة الزيادة بسعرنا العادي.",
+    "ex2": "It is outside the AMC scope.",
+    "ar2": "هي برّه نطاق عقد الصيانة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The client accepted our service credit of EGP 18,500. Please deduct it from their next AMC invoice.",
+  "ctx_ar": "العميل وافق على خصم الخدمة 18,500 جنيه. من فضلك اخصمه من فاتورة عقد الصيانة الجاية بتاعتهم.",
+  "quiz": [
+   {
+    "s": "The client made a ___ of EGP 3,000.",
+    "opts": [
+     "deduct",
+     "deduction",
+     "deducted"
+    ],
+    "a": 1,
+    "ar": "العميل خصم 3,000 جنيه."
+   },
+   {
+    "s": "The ___ amount will appear on your next statement.",
+    "opts": [
+     "deducted",
+     "deduction",
+     "deduct"
+    ],
+    "a": 0,
+    "ar": "المبلغ المخصوم هيظهر في الكشف الجاي."
+   },
+   {
+    "s": "Please ___ VAT at 14% to the total.",
+    "opts": [
+     "deduct",
+     "subtract",
+     "add"
+    ],
+    "a": 2,
+    "ar": "من فضلك زوّد ضريبة 14% على الإجمالي."
+   }
+  ]
+ }
+]

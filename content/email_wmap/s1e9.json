@@ -1,0 +1,732 @@
+[
+ {
+  "w": "overdue",
+  "ar": "متأخر عن ميعاده",
+  "book": "It is now 90 days overdue.",
+  "family": [
+   {
+    "w": "due",
+    "pos": "adjective",
+    "ex": "INV-0538 was due on 23 March.",
+    "ar": "‎INV-0538‎ كانت مستحقة يوم 23 مارس.",
+    "ex2": "We sent the first reminder when it was due.",
+    "ar2": "بعتنا أول تذكير في ميعاد استحقاقها."
+   },
+   {
+    "w": "overdue",
+    "pos": "adjective",
+    "ex": "The invoice is now 90 days overdue.",
+    "ar": "الفاتورة متأخرة 90 يوم دلوقتي.",
+    "ex2": "Overdue invoices block new orders.",
+    "ar2": "الفواتير المتأخرة بتوقف الأوردرات الجديدة."
+   },
+   {
+    "w": "past due",
+    "pos": "adjective",
+    "ex": "Both invoices are now past due.",
+    "ar": "الفاتورتين عدّوا ميعادهم.",
+    "ex2": "Please share the expected payment date for the past due amounts.",
+    "ar2": "لو سمحت بلّغنا بميعاد دفع المبالغ المتأخرة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "past due",
+    "note": "formal; same meaning, common on statements",
+    "ex": "The statement shows EGP 96,900 past due.",
+    "ar": "الكشف فيه 96,900 جنيه متأخرين.",
+    "ex2": "Past due amounts are shown in red.",
+    "ar2": "المبالغ المتأخرة بتظهر بالأحمر."
+   },
+   {
+    "w": "late",
+    "note": "everyday word; for payments, deliveries, anything",
+    "ex": "The payment is three weeks late.",
+    "ar": "الدفع متأخر تلات أسابيع.",
+    "ex2": "Late payments hurt our cash flow.",
+    "ar2": "التأخير في الدفع بيأثر على السيولة."
+   },
+   {
+    "w": "outstanding",
+    "note": "still unpaid; may or may not be late",
+    "ex": "There is EGP 46,900 outstanding until 16 July.",
+    "ar": "فيه 46,900 جنيه باقيين لحد 16 يوليو.",
+    "ex2": "It is outstanding but not yet overdue.",
+    "ar2": "باقي بس لسه مش متأخر."
+   }
+  ],
+  "ant": [
+   {
+    "w": "on time",
+    "ex": "Delta Pharma usually pays on time.",
+    "ar": "‎Delta Pharma‎ عادةً بتدفع في ميعادها.",
+    "ex2": "Paying on time keeps their 60-day terms.",
+    "ar2": "الدفع في الميعاد بيحافظ على الـ60 يوم بتوعهم."
+   },
+   {
+    "w": "paid",
+    "ex": "INV-0461 is now fully paid.",
+    "ar": "‎INV-0461‎ اتدفعت بالكامل.",
+    "ex2": "We sent the official receipt for the paid invoice.",
+    "ar2": "بعتنا الإيصال الرسمي للفاتورة المدفوعة."
+   }
+  ],
+  "ladder": {
+   "label": "how late",
+   "lar": "متأخر قد إيه",
+   "steps": [
+    {
+     "w": "due",
+     "ex": "The invoice is due today.",
+     "ar": "الفاتورة مستحقة النهارده.",
+     "ex2": "No reminder is needed yet.",
+     "ar2": "لسه مش محتاجين تذكير."
+    },
+    {
+     "w": "overdue",
+     "ex": "The invoice is 30 days overdue.",
+     "ar": "الفاتورة متأخرة 30 يوم.",
+     "ex2": "We sent a polite reminder.",
+     "ar2": "بعتنا تذكير مؤدب."
+    },
+    {
+     "w": "seriously overdue",
+     "ex": "At 90 days, the invoice is seriously overdue.",
+     "ar": "عند 90 يوم الفاتورة متأخرة جداً.",
+     "ex2": "We sent a final reminder and escalated.",
+     "ar2": "بعتنا تذكير أخير وصعّدنا."
+    },
+    {
+     "w": "bad debt",
+     "ex": "After a year unpaid, finance may classify it as bad debt.",
+     "ar": "بعد سنة من غير دفع، المالية ممكن تعتبرها دين معدوم.",
+     "ex2": "Bad debt reduces our yearly profit.",
+     "ar2": "الدين المعدوم بيقلّل ربح السنة."
+    }
+   ]
+  },
+  "ctx": "INV-0538 is now 90 days overdue despite three reminders. This is our final reminder before escalation.",
+  "ctx_ar": "‎INV-0538‎ متأخرة 90 يوم رغم تلات تذكيرات. ده آخر تذكير مننا قبل التصعيد.",
+  "quiz": [
+   {
+    "s": "INV-0538 is now 90 days ___.",
+    "opts": [
+     "due",
+     "overdue",
+     "on time"
+    ],
+    "a": 1,
+    "ar": "‎INV-0538‎ متأخرة 90 يوم دلوقتي."
+   },
+   {
+    "s": "The payment is ___ on 23 March, so we have two more weeks.",
+    "opts": [
+     "due",
+     "overdue",
+     "late"
+    ],
+    "a": 0,
+    "ar": "الدفع مستحق يوم 23 مارس، فلسه قدامنا أسبوعين."
+   },
+   {
+    "s": "After 12 months unpaid, finance may classify it as ___.",
+    "opts": [
+     "overdue",
+     "past due",
+     "bad debt"
+    ],
+    "a": 2,
+    "ar": "بعد 12 شهر من غير دفع، المالية ممكن تعتبرها دين معدوم."
+   }
+  ]
+ },
+ {
+  "w": "agreement",
+  "ar": "اتفاق",
+  "book": "Please confirm the agreement with Ms. Dalia in writing and keep me posted.",
+  "family": [
+   {
+    "w": "agree",
+    "pos": "verb",
+    "ex": "They agreed to pay EGP 50,000 on 2 July.",
+    "ar": "وافقوا يدفعوا 50 ألف جنيه يوم 2 يوليو.",
+    "ex2": "We also agree to release the hold after full payment.",
+    "ar2": "واحنا كمان موافقين نفك الإيقاف بعد الدفع الكامل."
+   },
+   {
+    "w": "agreement",
+    "pos": "noun",
+    "ex": "Please confirm the agreement in writing.",
+    "ar": "لو سمحت أكّد الاتفاق كتابة.",
+    "ex2": "A written agreement protects both sides.",
+    "ar2": "الاتفاق المكتوب بيحمي الطرفين."
+   },
+   {
+    "w": "agreed",
+    "pos": "adjective",
+    "ex": "Please find the agreed payment plan below.",
+    "ar": "تحت خطة الدفع المتفق عليها.",
+    "ex2": "The agreed dates are 2 and 16 July.",
+    "ar2": "التواريخ المتفق عليها 2 و16 يوليو."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "a deal or arrangement reached in talks",
+    "mar": "اتفاق اتوصلنا له",
+    "ex": "Our directors reached an agreement on the payment plan.",
+    "ar": "المديرين وصلوا لاتفاق على خطة الدفع.",
+    "ex2": "I'll confirm the agreement by email today.",
+    "ar2": "هأكّد الاتفاق بالإيميل النهارده."
+   },
+   {
+    "m": "a signed contract",
+    "mar": "عقد ممضي",
+    "ex": "We signed a service level agreement for the data centre.",
+    "ar": "مضينا اتفاقية مستوى خدمة للداتا سنتر.",
+    "ex2": "The agreement promises a 4-hour response time.",
+    "ar2": "الاتفاقية بتضمن استجابة خلال 4 ساعات."
+   }
+  ],
+  "syn": [
+   {
+    "w": "deal",
+    "note": "informal; often about price or sales",
+    "ex": "We have a deal: 5% off if they order this week.",
+    "ar": "اتفقنا: خصم 5% لو طلبوا الأسبوع ده.",
+    "ex2": "The deal was closed on a phone call.",
+    "ar2": "الصفقة اتقفلت في مكالمة."
+   },
+   {
+    "w": "arrangement",
+    "note": "practical plan, e.g. for payment or delivery",
+    "ex": "We made an arrangement to collect the cheques on Tuesday.",
+    "ar": "اتفقنا على ترتيب نستلم بيه الشيكات يوم التلات.",
+    "ex2": "The arrangement suits both teams.",
+    "ar2": "الترتيب ده مناسب للفريقين."
+   },
+   {
+    "w": "understanding",
+    "note": "informal agreement, often not written",
+    "ex": "We have an understanding that they pay before month end.",
+    "ar": "فيه تفاهم إنهم يدفعوا قبل آخر الشهر.",
+    "ex2": "But an understanding is weaker than a contract.",
+    "ar2": "بس التفاهم أضعف من العقد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "disagreement",
+    "ex": "We had a disagreement about the open balance.",
+    "ar": "كان فيه خلاف على الرصيد المفتوح.",
+    "ex2": "The reconciliation solved the disagreement.",
+    "ar2": "المطابقة حلّت الخلاف."
+   },
+   {
+    "w": "dispute",
+    "ex": "The client opened a dispute about the invoice amount.",
+    "ar": "العميل فتح نزاع على مبلغ الفاتورة.",
+    "ex2": "We sent proof of delivery to close the dispute.",
+    "ar2": "بعتنا إثبات التسليم عشان نقفل النزاع."
+   }
+  ],
+  "ladder": {
+   "label": "how official it is",
+   "lar": "رسمي قد إيه",
+   "steps": [
+    {
+     "w": "verbal agreement",
+     "ex": "We have a verbal agreement from their Finance Manager.",
+     "ar": "عندنا موافقة شفهية من المدير المالي عندهم.",
+     "ex2": "But we need it in writing.",
+     "ar2": "بس محتاجينها كتابة."
+    },
+    {
+     "w": "written confirmation",
+     "ex": "Please send written confirmation of the payment plan.",
+     "ar": "لو سمحت ابعت تأكيد مكتوب لخطة الدفع.",
+     "ex2": "An email from Ms. Dalia is enough as written confirmation.",
+     "ar2": "إيميل من ‎Ms. Dalia‎ يكفي كتأكيد مكتوب."
+    },
+    {
+     "w": "signed contract",
+     "ex": "For the maintenance work, we need a signed contract.",
+     "ar": "لشغل الصيانة محتاجين عقد ممضي.",
+     "ex2": "The signed contract lists all payment terms.",
+     "ar2": "العقد الممضي فيه كل شروط الدفع."
+    }
+   ]
+  },
+  "ctx": "Our Finance Director reached an agreement with their Finance Manager. Please confirm the agreement in writing with the two payment dates.",
+  "ctx_ar": "المدير المالي عندنا وصل لاتفاق مع المدير المالي عندهم. لو سمحت أكّد الاتفاق كتابة بتاريخين الدفع.",
+  "quiz": [
+   {
+    "s": "Please confirm the ___ with Ms. Dalia in writing.",
+    "opts": [
+     "agree",
+     "agreement",
+     "agreed"
+    ],
+    "a": 1,
+    "ar": "لو سمحت أكّد الاتفاق مع ‎Ms. Dalia‎ كتابة."
+   },
+   {
+    "s": "Please find the ___ payment plan below.",
+    "opts": [
+     "agree",
+     "agreement",
+     "agreed"
+    ],
+    "a": 2,
+    "ar": "تحت خطة الدفع المتفق عليها."
+   },
+   {
+    "s": "We had a ___ about the balance, but the reconciliation solved it.",
+    "opts": [
+     "disagreement",
+     "deal",
+     "arrangement"
+    ],
+    "a": 0,
+    "ar": "كان فيه خلاف على الرصيد، بس المطابقة حلّته."
+   }
+  ]
+ },
+ {
+  "w": "escalate",
+  "ar": "يصعّد",
+  "book": "I would like to escalate an overdue payment from Delta Pharma.",
+  "family": [
+   {
+    "w": "escalate",
+    "pos": "verb",
+    "ex": "If we get no reply, we will escalate the matter.",
+    "ar": "لو مجالناش رد، هنصعّد الموضوع.",
+    "ex2": "We will escalate it to our Finance Director.",
+    "ar2": "هنصعّده للمدير المالي."
+   },
+   {
+    "w": "escalation",
+    "pos": "noun",
+    "ex": "The escalation email went to the Finance Director.",
+    "ar": "إيميل التصعيد راح للمدير المالي.",
+    "ex2": "After the escalation, they agreed to a payment plan.",
+    "ar2": "بعد التصعيد وافقوا على خطة دفع."
+   },
+   {
+    "w": "escalated",
+    "pos": "adjective",
+    "ex": "Escalated cases get a reply within 24 hours.",
+    "ar": "الحالات المصعّدة بياخدوا رد خلال 24 ساعة.",
+    "ex2": "Our manager follows every escalated case personally.",
+    "ar2": "المدير بيتابع كل حالة مصعّدة بنفسه."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "pass a problem to a higher level",
+    "mar": "ترفع المشكلة لمستوى أعلى",
+    "ex": "Please escalate the UPS fault to the manufacturer.",
+    "ar": "لو سمحت صعّد عطل الـ‎UPS‎ للمصنّع.",
+    "ex2": "Our local team cannot fix the control card.",
+    "ar2": "فريقنا المحلي مش قادر يصلّح كارت التحكم."
+   },
+   {
+    "m": "become bigger or worse",
+    "mar": "تكبر أو تسوء",
+    "ex": "Costs escalated when the dollar rate rose.",
+    "ar": "التكاليف زادت لما سعر الدولار طلع.",
+    "ex2": "The escalated costs ate our margin.",
+    "ar2": "التكاليف الزيادة أكلت الهامش بتاعنا."
+   }
+  ],
+  "syn": [
+   {
+    "w": "refer",
+    "note": "neutral; pass to the right person",
+    "ex": "I referred your question to our technical team.",
+    "ar": "حوّلت سؤالك للفريق الفني.",
+    "ex2": "They will reply by tomorrow.",
+    "ar2": "هيردّوا بكرة."
+   },
+   {
+    "w": "raise",
+    "note": "bring an issue up with management",
+    "ex": "I raised the late payment in today's meeting.",
+    "ar": "فتحت موضوع الدفع المتأخر في اجتماع النهارده.",
+    "ex2": "Management asked for a weekly update.",
+    "ar2": "الإدارة طلبت تحديث أسبوعي."
+   },
+   {
+    "w": "take it higher",
+    "note": "informal; go to a more senior person",
+    "ex": "If Dalia doesn't reply, we'll take it higher.",
+    "ar": "لو ‎Dalia‎ مردّتش، هنطلّعها لفوق.",
+    "ex2": "Taking it higher usually gets a quick answer.",
+    "ar2": "التصعيد لفوق عادةً بيجيب رد سريع."
+   }
+  ],
+  "ant": [
+   {
+    "w": "de-escalate",
+    "ex": "A quick call helped de-escalate the dispute.",
+    "ar": "مكالمة سريعة ساعدت تهدّي الخلاف.",
+    "ex2": "The client calmed down after we explained.",
+    "ar2": "العميل هدي بعد ما شرحنا."
+   }
+  ],
+  "ladder": {
+   "label": "who handles it",
+   "lar": "مين بيمسك الموضوع",
+   "steps": [
+    {
+     "w": "account manager",
+     "ex": "First, the account manager sends polite reminders.",
+     "ar": "الأول مدير الحساب بيبعت تذكيرات مؤدبة.",
+     "ex2": "He knows the client's AP team well.",
+     "ar2": "هو عارف فريق الحسابات عند العميل كويس."
+    },
+    {
+     "w": "finance manager",
+     "ex": "Next, our finance manager calls their finance manager.",
+     "ar": "بعد كده المدير المالي عندنا بيكلّم المدير المالي عندهم.",
+     "ex2": "Most cases are solved at this level.",
+     "ar2": "أغلب الحالات بتتحل هنا."
+    },
+    {
+     "w": "finance director",
+     "ex": "Serious cases go to the Finance Director.",
+     "ar": "الحالات الكبيرة بتروح للمدير المالي العام.",
+     "ex2": "He can put the account on hold.",
+     "ar2": "يقدر يوقف الحساب."
+    },
+    {
+     "w": "legal department",
+     "ex": "The last step is the legal department.",
+     "ar": "آخر خطوة القانونية.",
+     "ex2": "They send a formal legal notice.",
+     "ar2": "بيبعتوا إنذار قانوني رسمي."
+    }
+   ]
+  },
+  "ctx": "Despite four reminders, INV-0538 is still unpaid. I would like to escalate the matter to our Finance Director today.",
+  "ctx_ar": "رغم أربع تذكيرات، ‎INV-0538‎ لسه متدفعتش. حابب أصعّد الموضوع للمدير المالي النهارده.",
+  "quiz": [
+   {
+    "s": "If we get no reply, we will ___ the matter.",
+    "opts": [
+     "escalate",
+     "escalation",
+     "de-escalate"
+    ],
+    "a": 0,
+    "ar": "لو مجالناش رد، هنصعّد الموضوع."
+   },
+   {
+    "s": "The ___ email went to the Finance Director.",
+    "opts": [
+     "escalate",
+     "escalation",
+     "escalated"
+    ],
+    "a": 1,
+    "ar": "إيميل التصعيد راح للمدير المالي."
+   },
+   {
+    "s": "The last step is to send the file to the ___.",
+    "opts": [
+     "account manager",
+     "finance manager",
+     "legal department"
+    ],
+    "a": 2,
+    "ar": "آخر خطوة إننا نبعت الملف للقانونية."
+   }
+  ]
+ },
+ {
+  "w": "proceed",
+  "ar": "يكمّل / يمشي في",
+  "book": "Please let me know how you would like to proceed.",
+  "family": [
+   {
+    "w": "proceed",
+    "pos": "verb",
+    "ex": "Please let me know how you would like to proceed.",
+    "ar": "لو سمحت قولّي حابب نكمّل إزاي.",
+    "ex2": "We can proceed with the order once the PO arrives.",
+    "ar2": "نقدر نكمّل الأوردر أول ما الـ‎PO‎ يوصل."
+   },
+   {
+    "w": "procedure",
+    "pos": "noun",
+    "ex": "Please follow our cheque collection procedure.",
+    "ar": "لو سمحت اتّبع إجراءات استلام الشيكات عندنا.",
+    "ex2": "The procedure needs an authorisation letter.",
+    "ar2": "الإجراء محتاج جواب تفويض."
+   },
+   {
+    "w": "proceedings",
+    "pos": "noun",
+    "ex": "If they don't pay, we may start legal proceedings.",
+    "ar": "لو مدفعوش، ممكن نبدأ إجراءات قانونية.",
+    "ex2": "Legal proceedings are our last option.",
+    "ar2": "الإجراءات القانونية آخر حل عندنا."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "go ahead",
+    "note": "informal; start or continue",
+    "ex": "Please go ahead with the battery order today.",
+    "ar": "اتفضل اطلب البطاريات النهارده.",
+    "ex2": "We went ahead after the PO arrived.",
+    "ar2": "مشينا فيه بعد ما الـ‎PO‎ وصل."
+   },
+   {
+    "w": "continue",
+    "note": "keep doing what has started",
+    "ex": "We will continue the installation tomorrow.",
+    "ar": "هنكمّل التركيب بكرة.",
+    "ex2": "Work continues after the power is restored.",
+    "ar2": "الشغل بيكمّل بعد ما الكهربا ترجع."
+   },
+   {
+    "w": "move forward",
+    "note": "business talk; make progress on a decision",
+    "ex": "We'd like to move forward with your offer.",
+    "ar": "حابين نمشي في عرضكم.",
+    "ex2": "Let's move forward with the site visit next week.",
+    "ar2": "يلا نمشي في زيارة الموقع الأسبوع الجاي."
+   }
+  ],
+  "ant": [
+   {
+    "w": "stop",
+    "ex": "Please stop the installation until the PO is corrected.",
+    "ar": "لو سمحت وقّف التركيب لحد ما الـ‎PO‎ يتصحّح.",
+    "ex2": "We'll stop all new orders until payment.",
+    "ar2": "هنوقف كل الأوردرات الجديدة لحد الدفع."
+   },
+   {
+    "w": "halt",
+    "ex": "The project was halted because of the unpaid invoice.",
+    "ar": "المشروع اتوقف بسبب الفاتورة اللي متدفعتش.",
+    "ex2": "Work will restart after payment.",
+    "ar2": "الشغل هيرجع بعد الدفع."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Delta Pharma has not replied to three reminders. Please let me know how you would like to proceed with their account.",
+  "ctx_ar": "‎Delta Pharma‎ مردّتش على تلات تذكيرات. لو سمحت قولّي حابب نتصرف إزاي في حسابهم.",
+  "quiz": [
+   {
+    "s": "Please let me know how you would like to ___.",
+    "opts": [
+     "proceed",
+     "procedure",
+     "proceedings"
+    ],
+    "a": 0,
+    "ar": "لو سمحت قولّي حابب نكمّل إزاي."
+   },
+   {
+    "s": "Please follow our cheque collection ___.",
+    "opts": [
+     "proceed",
+     "procedure",
+     "proceedings"
+    ],
+    "a": 1,
+    "ar": "لو سمحت اتّبع إجراءات استلام الشيكات عندنا."
+   },
+   {
+    "s": "If they don't pay, we may start legal ___.",
+    "opts": [
+     "procedure",
+     "proceed",
+     "proceedings"
+    ],
+    "a": 2,
+    "ar": "لو مدفعوش، ممكن نبدأ إجراءات قانونية."
+   }
+  ]
+ },
+ {
+  "w": "hold",
+  "ar": "إيقاف مؤقت / يمسك",
+  "book": "Once the full amount is received, we will release the hold on your account.",
+  "family": [
+   {
+    "w": "hold",
+    "pos": "verb",
+    "ex": "We can hold the cheque until 26 February.",
+    "ar": "نقدر نمسك الشيك لحد 26 فبراير.",
+    "ex2": "We will hold it and redeposit it then.",
+    "ar2": "هنمسكه ونودّعه ساعتها."
+   },
+   {
+    "w": "hold",
+    "pos": "noun",
+    "ex": "We will put your account on hold for new orders.",
+    "ar": "هنوقف حسابكم عن الأوردرات الجديدة.",
+    "ex2": "The hold ends when the invoice is paid.",
+    "ar2": "الإيقاف بيخلص لما الفاتورة تتدفع."
+   },
+   {
+    "w": "holder",
+    "pos": "person",
+    "ex": "The account holder name must match the cheque payee.",
+    "ar": "اسم صاحب الحساب لازم يطابق اسم المستفيد على الشيك.",
+    "ex2": "Our account holder name is Nile Power Solutions S.A.E.",
+    "ar2": "اسم صاحب الحساب عندنا ‎Nile Power Solutions S.A.E.‎"
+   }
+  ],
+  "meanings": [
+   {
+    "m": "stop something for now",
+    "mar": "توقف حاجة مؤقتاً",
+    "ex": "INV-0538 is on hold in our system.",
+    "ar": "‎INV-0538‎ موقوفة في السيستم عندنا.",
+    "ex2": "We are waiting for the signed delivery note.",
+    "ar2": "مستنيين إذن التسليم الممضي."
+   },
+   {
+    "m": "keep something and not use it yet",
+    "mar": "تمسك حاجة ومتستخدمهاش دلوقتي",
+    "ex": "Could you please hold the cheque until 5 March?",
+    "ar": "ممكن تمسك الشيك لحد 5 مارس؟",
+    "ex2": "The funds will be available then.",
+    "ar2": "الفلوس هتكون متاحة ساعتها."
+   },
+   {
+    "m": "organise a meeting or event",
+    "mar": "تعمل اجتماع أو حدث",
+    "ex": "We will hold a project meeting on site on Sunday.",
+    "ar": "هنعمل اجتماع للمشروع في الموقع يوم الحد.",
+    "ex2": "The facilities team will attend.",
+    "ar2": "فريق المرافق هيحضر."
+   },
+   {
+    "m": "wait on the phone",
+    "mar": "تستنى على التليفون",
+    "ex": "Please hold the line; I'll check the invoice.",
+    "ar": "لو سمحت خليك معايا على الخط؛ هشوف الفاتورة.",
+    "ex2": "Thanks for holding, I found it.",
+    "ar2": "شكراً إنك استنيت، لقيتها."
+   }
+  ],
+  "syn": [
+   {
+    "w": "suspend",
+    "note": "formal; stop an account or service officially",
+    "ex": "We have suspended deliveries until payment.",
+    "ar": "وقفنا التوريدات لحد الدفع.",
+    "ex2": "The suspension will be lifted after payment.",
+    "ar2": "الإيقاف هيتشال بعد الدفع."
+   },
+   {
+    "w": "freeze",
+    "note": "strong; nothing moves at all",
+    "ex": "The bank may freeze the account during an investigation.",
+    "ar": "البنك جمّد الحساب وقت التحقيق.",
+    "ex2": "No cheques can clear while it is frozen.",
+    "ar2": "مفيش شيكات تتصرف وهو متجمد."
+   },
+   {
+    "w": "pause",
+    "note": "a short stop, usually planned",
+    "ex": "Let's pause the installation during Friday prayers.",
+    "ar": "خلّينا نوقف التركيب وقت صلاة الجمعة.",
+    "ex2": "We'll resume after the pause.",
+    "ar2": "هنكمّل بعد الوقفة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "release",
+    "ex": "We will release the hold after full payment.",
+    "ar": "هنفك الإيقاف بعد الدفع الكامل.",
+    "ex2": "Then new orders can be released too.",
+    "ar2": "وبعدين الأوردرات الجديدة تتطلع كمان."
+   },
+   {
+    "w": "resume",
+    "ex": "We will resume deliveries once the account is clear.",
+    "ar": "هنرجّع التوريدات أول ما الحساب يتسدّد.",
+    "ex2": "Deliveries resumed on 17 July.",
+    "ar2": "التوريدات رجعت يوم 17 يوليو."
+   }
+  ],
+  "ladder": {
+   "label": "how strong the stop is",
+   "lar": "الإيقاف قوي قد إيه",
+   "steps": [
+    {
+     "w": "pause",
+     "ex": "We paused the work for one hour.",
+     "ar": "وقفنا الشغل ساعة.",
+     "ex2": "It restarted after lunch.",
+     "ar2": "رجع بعد الغدا."
+    },
+    {
+     "w": "on hold",
+     "ex": "New orders are on hold until payment.",
+     "ar": "الأوردرات الجديدة موقوفة لحد الدفع.",
+     "ex2": "Service visits continue as normal.",
+     "ar2": "زيارات الصيانة ماشية عادي."
+    },
+    {
+     "w": "suspend",
+     "ex": "We suspended the maintenance contract after six months unpaid.",
+     "ar": "وقفنا عقد الصيانة بعد ست شهور من غير دفع.",
+     "ex2": "Engineers will not visit the site.",
+     "ar2": "المهندسين مش هيزوروا الموقع."
+    },
+    {
+     "w": "freeze",
+     "ex": "The bank decided to freeze the client's account.",
+     "ar": "البنك جمّد حساب العميل.",
+     "ex2": "Even their cheques to us could not clear.",
+     "ar2": "حتى الشيكات اللي لينا مقدرتش تتصرف."
+    }
+   ]
+  },
+  "ctx": "Your account is on hold for new orders until INV-0538 is paid. Once we receive the full amount, we will release the hold.",
+  "ctx_ar": "حسابكم موقوف عن الأوردرات الجديدة لحد ما ‎INV-0538‎ تتدفع. أول ما نستلم المبلغ كامل، هنفك الإيقاف.",
+  "quiz": [
+   {
+    "s": "We will put your account on ___ until payment.",
+    "opts": [
+     "hold",
+     "holder",
+     "release"
+    ],
+    "a": 0,
+    "ar": "هنوقف حسابكم لحد الدفع."
+   },
+   {
+    "s": "The account ___ name must match the cheque payee.",
+    "opts": [
+     "hold",
+     "freeze",
+     "holder"
+    ],
+    "a": 2,
+    "ar": "اسم صاحب الحساب لازم يطابق اسم المستفيد على الشيك."
+   },
+   {
+    "s": "Once paid, we will ___ the hold on your account.",
+    "opts": [
+     "suspend",
+     "release",
+     "pause"
+    ],
+    "a": 1,
+    "ar": "أول ما تدفعوا، هنفك الإيقاف عن حسابكم."
+   }
+  ]
+ }
+]

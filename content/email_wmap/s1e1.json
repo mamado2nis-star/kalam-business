@@ -1,0 +1,654 @@
+[
+ {
+  "w": "quotation",
+  "ar": "عرض سعر",
+  "book": "Please find attached our quotation Q-2025-231 for the 60 kVA online UPS and battery bank.",
+  "family": [
+   {
+    "w": "quotation",
+    "pos": "noun",
+    "ex": "Please find attached our quotation for the 20 kVA UPS.",
+    "ar": "مرفق عرض السعر بتاعنا للـ‎UPS‎ الـ20 ‎kVA.‎",
+    "ex2": "The quotation includes installation and a two-year warranty.",
+    "ar2": "عرض السعر شامل التركيب وضمان سنتين."
+   },
+   {
+    "w": "quote",
+    "pos": "verb",
+    "ex": "Can you quote us for 40 batteries, 12V 100Ah?",
+    "ar": "ممكن تدّينا سعر لـ40 بطارية 12‎V 100Ah‎؟",
+    "ex2": "We need the price by Sunday to quote our own client.",
+    "ar2": "محتاجين السعر قبل الحد عشان نسعّر للعميل بتاعنا."
+   },
+   {
+    "w": "quote",
+    "pos": "noun",
+    "ex": "I sent Delta Pharma a quote for the VFD spare parts.",
+    "ar": "بعت لـ‎Delta Pharma‎ سعر لقطع غيار الـ‎VFD.‎",
+    "ex2": "They said our quote was clear and complete.",
+    "ar2": "قالوا إن السعر بتاعنا واضح وكامل."
+   },
+   {
+    "w": "quoted",
+    "pos": "adjective",
+    "ex": "The quoted price is valid for 30 days.",
+    "ar": "السعر اللي اتقدّم ساري 30 يوم.",
+    "ex2": "After that, the quoted price may change with the exchange rate.",
+    "ar2": "بعد كده السعر ممكن يتغيّر مع سعر الصرف."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "offer",
+    "note": "general word; can include price, terms and conditions",
+    "ex": "Our offer includes delivery and offloading at site.",
+    "ar": "العرض بتاعنا شامل التوصيل والتنزيل في الموقع.",
+    "ex2": "The client accepted our offer after one call.",
+    "ar2": "العميل وافق على العرض بعد مكالمة واحدة."
+   },
+   {
+    "w": "proposal",
+    "note": "longer document: solution, scope, drawings and price",
+    "ex": "We sent a full proposal for the solar station.",
+    "ar": "بعتنا عرض فني ومالي كامل لمحطة الطاقة الشمسية.",
+    "ex2": "The proposal has twenty pages with drawings and the price.",
+    "ar2": "العرض فيه عشرين صفحة برسومات والسعر."
+   },
+   {
+    "w": "estimate",
+    "note": "rough price that may change after a site survey",
+    "ex": "This is only an estimate for the server room cooling.",
+    "ar": "ده سعر تقريبي بس لتبريد غرفة السيرفرات.",
+    "ex2": "We will send a firm price after the site survey.",
+    "ar2": "هنبعت سعر نهائي بعد معاينة الموقع."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how firm the price is",
+   "lar": "السعر نهائي قد إيه",
+   "steps": [
+    {
+     "w": "estimate",
+     "ex": "Our estimate for the battery replacement is around EGP 300,000.",
+     "ar": "تقديرنا لتغيير البطاريات حوالي 300 ألف جنيه.",
+     "ex2": "The estimate may change after we test the old batteries.",
+     "ar2": "التقدير ممكن يتغيّر بعد ما نختبر البطاريات القديمة."
+    },
+    {
+     "w": "budgetary quotation",
+     "ex": "We sent a budgetary quotation for next year's data centre plan.",
+     "ar": "بعتنا عرض سعر مبدئي لخطة الداتا سنتر السنة الجاية.",
+     "ex2": "It helps the client prepare their annual budget.",
+     "ar2": "ده بيساعد العميل يجهّز ميزانية السنة."
+    },
+    {
+     "w": "firm quotation",
+     "ex": "The firm quotation is valid for 30 days and includes all costs.",
+     "ar": "عرض السعر النهائي ساري 30 يوم وشامل كل التكاليف.",
+     "ex2": "Once the client signs a PO, the firm price is fixed.",
+     "ar2": "أول ما العميل يمضي ‎PO‎، السعر النهائي بيتثبّت."
+    }
+   ]
+  },
+  "ctx": "Please find attached our quotation for the 40 kVA UPS. The quotation includes installation, commissioning and a two-year warranty.",
+  "ctx_ar": "مرفق عرض السعر بتاعنا للـ‎UPS‎ الـ40 ‎kVA.‎ العرض شامل التركيب والتشغيل وضمان سنتين.",
+  "quiz": [
+   {
+    "s": "Please ___ us your best price for a 60 kVA UPS.",
+    "opts": [
+     "quotation",
+     "quote",
+     "quoted"
+    ],
+    "a": 1,
+    "ar": "لو سمحت ادّينا أحسن سعر عندك لـ‎UPS 60 kVA.‎"
+   },
+   {
+    "s": "The ___ price is valid for 30 days.",
+    "opts": [
+     "quoted",
+     "quote",
+     "quotation"
+    ],
+    "a": 0,
+    "ar": "السعر المقدّم ساري 30 يوم."
+   },
+   {
+    "s": "This is only a rough ___; the final price comes after the site survey.",
+    "opts": [
+     "proposal",
+     "firm quotation",
+     "estimate"
+    ],
+    "a": 2,
+    "ar": "ده سعر تقريبي بس؛ السعر النهائي بعد معاينة الموقع."
+   }
+  ]
+ },
+ {
+  "w": "commissioning",
+  "ar": "التشغيل والاختبار لأول مرة",
+  "book": "Please send us your best quotation, including installation, commissioning and warranty.",
+  "family": [
+   {
+    "w": "commission",
+    "pos": "verb",
+    "ex": "We will commission the solar inverter next Monday.",
+    "ar": "هنشغّل ونختبر الإنفرتر الشمسي يوم الاتنين الجاي.",
+    "ex2": "Our engineer will test every string before we commission it.",
+    "ar2": "المهندس بتاعنا هيختبر كل سترينج قبل ما نشغّله."
+   },
+   {
+    "w": "commissioning",
+    "pos": "noun",
+    "ex": "Commissioning of the UPS is planned for 24 November.",
+    "ar": "تشغيل الـ‎UPS‎ متخطط له يوم 24 نوفمبر.",
+    "ex2": "During commissioning, we test the batteries at full load.",
+    "ar2": "وقت التشغيل بنختبر البطاريات على الحمل الكامل."
+   },
+   {
+    "w": "commissioned",
+    "pos": "adjective",
+    "ex": "The commissioned UPS has run for a week without alarms.",
+    "ar": "الـ‎UPS‎ اللي اتشغّل شغال بقاله أسبوع من غير أي إنذار.",
+    "ex2": "The client signed the handover report for the commissioned unit.",
+    "ar2": "العميل مضى محضر التسليم للوحدة اللي اتشغّلت."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "start up and test new equipment",
+    "mar": "تشغيل واختبار جهاز جديد",
+    "ex": "Commissioning of the new chiller VFD takes one day.",
+    "ar": "تشغيل الـ‎VFD‎ الجديد بتاع الشيلر بياخد يوم.",
+    "ex2": "Our engineer checks every setting during commissioning.",
+    "ar2": "المهندس بيراجع كل إعداد وقت التشغيل."
+   },
+   {
+    "m": "money paid to a salesperson per sale",
+    "mar": "عمولة على البيع",
+    "ex": "Sales engineers get a 2% commission on each UPS order.",
+    "ar": "مهندسين المبيعات بياخدوا عمولة 2% على كل أوردر ‎UPS.‎",
+    "ex2": "Hany earned a big commission on the data centre deal.",
+    "ar2": "‎Hany‎ خد عمولة كبيرة على صفقة الداتا سنتر."
+   },
+   {
+    "m": "officially ask for a job or study",
+    "mar": "تطلب رسمي شغلانة أو دراسة",
+    "ex": "The bank commissioned a full power study for its data centre.",
+    "ar": "البنك طلب دراسة كاملة للباور بتاع الداتا سنتر.",
+    "ex2": "We delivered the commissioned report in two weeks.",
+    "ar2": "سلّمنا التقرير المطلوب في أسبوعين."
+   }
+  ],
+  "syn": [
+   {
+    "w": "start-up",
+    "note": "only the first power-on, less complete than commissioning",
+    "ex": "The start-up of the generator took ten minutes.",
+    "ar": "تشغيل المولّد أول مرة خد عشر دقايق.",
+    "ex2": "Full start-up checks will follow tomorrow.",
+    "ar2": "فحوصات التشغيل الكاملة هتكون بكرة."
+   },
+   {
+    "w": "installation",
+    "note": "fixing and wiring the unit; commissioning comes after",
+    "ex": "Installation of the battery racks finished on Sunday.",
+    "ar": "تركيب رفوف البطاريات خلص يوم الحد.",
+    "ex2": "After installation, we can commission the UPS.",
+    "ar2": "بعد التركيب نقدر نشغّل الـ‎UPS.‎"
+   }
+  ],
+  "ant": [
+   {
+    "w": "decommissioning",
+    "ex": "We are decommissioning the old 20 kVA UPS next week.",
+    "ar": "هنفصل ونشيل الـ‎UPS‎ القديم الـ20 ‎kVA‎ الأسبوع الجاي.",
+    "ex2": "Decommissioning includes removing the old batteries safely.",
+    "ar2": "الفك بيشمل شيل البطاريات القديمة بأمان."
+   }
+  ],
+  "ladder": {
+   "label": "how far the project is",
+   "lar": "المشروع وصل لفين",
+   "steps": [
+    {
+     "w": "installation",
+     "ex": "Installation of the UPS and cables took two days.",
+     "ar": "تركيب الـ‎UPS‎ والكابلات خد يومين.",
+     "ex2": "The site was clean and ready for installation.",
+     "ar2": "الموقع كان نضيف وجاهز للتركيب."
+    },
+    {
+     "w": "commissioning",
+     "ex": "Commissioning started after the electrician checked the input breaker.",
+     "ar": "التشغيل بدأ بعد ما الكهربائي راجع البريكر الداخل.",
+     "ex2": "Commissioning ended with a full-load battery test.",
+     "ar2": "التشغيل خلص باختبار البطاريات على الحمل الكامل."
+    },
+    {
+     "w": "handover",
+     "ex": "The handover was signed by the facilities manager on Thursday.",
+     "ar": "محضر التسليم اتمضى من مدير المرافق يوم الخميس.",
+     "ex2": "After handover, the warranty period starts.",
+     "ar2": "بعد التسليم، فترة الضمان بتبدأ."
+    }
+   ]
+  },
+  "ctx": "Commissioning of the 60 kVA UPS is planned for 24 November. Our engineer will test the batteries at full load before handover.",
+  "ctx_ar": "تشغيل الـ‎UPS‎ الـ60 ‎kVA‎ متخطط له يوم 24 نوفمبر. المهندس بتاعنا هيختبر البطاريات على الحمل الكامل قبل التسليم.",
+  "quiz": [
+   {
+    "s": "Our engineer will ___ the new VFD on Sunday.",
+    "opts": [
+     "commission",
+     "commissioning",
+     "commissioned"
+    ],
+    "a": 0,
+    "ar": "المهندس بتاعنا هيشغّل الـ‎VFD‎ الجديد يوم الحد."
+   },
+   {
+    "s": "The price includes installation and ___.",
+    "opts": [
+     "commissioned",
+     "commissioning",
+     "commission"
+    ],
+    "a": 1,
+    "ar": "السعر شامل التركيب والتشغيل."
+   },
+   {
+    "s": "After commissioning, we sign the ___ report with the client.",
+    "opts": [
+     "installation",
+     "start-up",
+     "handover"
+    ],
+    "a": 2,
+    "ar": "بعد التشغيل بنمضي محضر التسليم مع العميل."
+   }
+  ]
+ },
+ {
+  "w": "valid",
+  "ar": "ساري",
+  "book": "The quotation is valid for 30 days, until 13 November 2025.",
+  "family": [
+   {
+    "w": "valid",
+    "pos": "adjective",
+    "ex": "Our offer is valid until 13 November.",
+    "ar": "العرض بتاعنا ساري لحد 13 نوفمبر.",
+    "ex2": "After that, battery prices may change.",
+    "ar2": "بعد كده أسعار البطاريات ممكن تتغيّر."
+   },
+   {
+    "w": "validity",
+    "pos": "noun",
+    "ex": "What is the validity of this quotation?",
+    "ar": "عرض السعر ده صلاحيته قد إيه؟",
+    "ex2": "Our management needs at least 45 days' validity.",
+    "ar2": "الإدارة عندنا محتاجة صلاحية 45 يوم على الأقل."
+   },
+   {
+    "w": "validate",
+    "pos": "verb",
+    "ex": "Please validate the PO number before issuing the invoice.",
+    "ar": "لو سمحت اتأكد من رقم الـ‎PO‎ قبل ما تطلع الفاتورة.",
+    "ex2": "The ETA portal will validate the tax number automatically.",
+    "ar2": "بوابة الـ‎ETA‎ هتتأكد من الرقم الضريبي أوتوماتيك."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "still in force, not expired",
+    "mar": "لسه ساري ومنتهاش",
+    "ex": "The maintenance contract is valid until December 2026.",
+    "ar": "عقد الصيانة ساري لحد ديسمبر 2026.",
+    "ex2": "We will send a renewal offer in November.",
+    "ar2": "هنبعت عرض تجديد في نوفمبر."
+   },
+   {
+    "m": "reasonable and acceptable",
+    "mar": "منطقي ومقبول",
+    "ex": "Khaled made a valid point about the delivery time.",
+    "ar": "‎Khaled‎ قال نقطة منطقية عن ميعاد التسليم.",
+    "ex2": "We agreed and added a clear delivery date to our reply.",
+    "ar2": "وافقنا وحطّينا تاريخ تسليم واضح في ردّنا."
+   }
+  ],
+  "syn": [
+   {
+    "w": "in force",
+    "note": "formal; for contracts and agreements",
+    "ex": "The service agreement remains in force for two years.",
+    "ar": "اتفاقية الخدمة سارية لمدة سنتين.",
+    "ex2": "While it is in force, spare parts are free.",
+    "ar2": "طول ما هي سارية، قطع الغيار ببلاش."
+   },
+   {
+    "w": "effective",
+    "note": "used with a start date: effective from",
+    "ex": "The new price list is effective from 1 January.",
+    "ar": "قايمة الأسعار الجديدة سارية من 1 يناير.",
+    "ex2": "Orders before that date keep the old, effective prices.",
+    "ar2": "الأوردرات اللي قبل التاريخ ده بتفضل بالأسعار القديمة."
+   },
+   {
+    "w": "open",
+    "note": "informal; the offer can still be accepted",
+    "ex": "Our discount offer is open until the end of the month.",
+    "ar": "عرض الخصم بتاعنا مفتوح لحد آخر الشهر.",
+    "ex2": "After that, the offer is no longer open.",
+    "ar2": "بعد كده العرض مش هيبقى متاح."
+   }
+  ],
+  "ant": [
+   {
+    "w": "expired",
+    "ex": "The quotation has expired, so prices must be updated.",
+    "ar": "عرض السعر انتهى، فلازم الأسعار تتحدّث.",
+    "ex2": "I will send you a new quotation with today's prices; the old one expired.",
+    "ar2": "هبعتلك عرض جديد بأسعار النهارده؛ القديم انتهى."
+   },
+   {
+    "w": "invalid",
+    "ex": "The system rejected the invoice because the tax number was invalid.",
+    "ar": "السيستم رفض الفاتورة عشان الرقم الضريبي كان غلط.",
+    "ex2": "We corrected the invalid number and reissued it.",
+    "ar2": "صلّحنا الرقم الغلط وطلّعناها تاني."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our quotation is valid for 30 days. After that, battery prices may change because of the exchange rate.",
+  "ctx_ar": "عرض السعر بتاعنا ساري 30 يوم. بعد كده أسعار البطاريات ممكن تتغيّر بسبب سعر الصرف.",
+  "quiz": [
+   {
+    "s": "What is the ___ of this quotation?",
+    "opts": [
+     "valid",
+     "validity",
+     "validate"
+    ],
+    "a": 1,
+    "ar": "صلاحية عرض السعر ده قد إيه؟"
+   },
+   {
+    "s": "Our offer is ___ until 13 November.",
+    "opts": [
+     "validity",
+     "validate",
+     "valid"
+    ],
+    "a": 2,
+    "ar": "العرض بتاعنا ساري لحد 13 نوفمبر."
+   },
+   {
+    "s": "The old price list has ___, so I'll send a new one.",
+    "opts": [
+     "expired",
+     "effective",
+     "in force"
+    ],
+    "a": 0,
+    "ar": "قايمة الأسعار القديمة انتهت، فهبعت واحدة جديدة."
+   }
+  ]
+ },
+ {
+  "w": "approval",
+  "ar": "موافقة",
+  "book": "Our site is about 40 km from Cairo, and we need a clear total cost for our internal approval.",
+  "family": [
+   {
+    "w": "approve",
+    "pos": "verb",
+    "ex": "Management approved the budget for the new UPS.",
+    "ar": "الإدارة وافقت على ميزانية الـ‎UPS‎ الجديد.",
+    "ex2": "Now procurement can approve the PO.",
+    "ar2": "دلوقتي المشتريات تقدر توافق على الـ‎PO.‎"
+   },
+   {
+    "w": "approval",
+    "pos": "noun",
+    "ex": "The PO is waiting for the Plant Director's approval.",
+    "ar": "الـ‎PO‎ مستني موافقة مدير المصنع.",
+    "ex2": "We expect his approval by Sunday.",
+    "ar2": "متوقعين موافقته يوم الحد."
+   },
+   {
+    "w": "approved",
+    "pos": "adjective",
+    "ex": "Only approved suppliers can bid in this tender.",
+    "ar": "الموردين المعتمدين بس يقدروا يدخلوا المناقصة دي.",
+    "ex2": "NPS has been an approved supplier since 2019.",
+    "ar2": "‎NPS‎ مورد معتمد من 2019."
+   },
+   {
+    "w": "approver",
+    "pos": "person",
+    "ex": "The approver for orders above EGP 1 million is the CFO.",
+    "ar": "اللي بيوافق على الأوردرات فوق مليون جنيه هو المدير المالي.",
+    "ex2": "The approver is travelling, so the PO will wait.",
+    "ar2": "اللي بيوافق مسافر، فالـ‎PO‎ هيستنى."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "sign-off",
+    "note": "informal; the final OK from a manager",
+    "ex": "We need the director's sign-off on the drawings.",
+    "ar": "محتاجين موافقة المدير النهائية على الرسومات.",
+    "ex2": "After sign-off, we start production.",
+    "ar2": "بعد الموافقة بنبدأ التصنيع."
+   },
+   {
+    "w": "authorisation",
+    "note": "formal, often written permission",
+    "ex": "The courier needs a written authorisation to collect cheques.",
+    "ar": "المندوب محتاج تفويض مكتوب عشان يستلم الشيكات.",
+    "ex2": "Please sign the authorisation letter today.",
+    "ar2": "لو سمحت امضي جواب التفويض النهارده."
+   },
+   {
+    "w": "go-ahead",
+    "note": "informal; permission to start the work",
+    "ex": "The client gave us the go-ahead for installation.",
+    "ar": "العميل إدّانا الضوء الأخضر للتركيب.",
+    "ex2": "With the go-ahead, our team moves to site tomorrow.",
+    "ar2": "بالموافقة دي فريقنا هيتحرك للموقع بكرة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "rejection",
+    "ex": "We received a rejection because the price was too high.",
+    "ar": "جالنا رفض عشان السعر كان عالي.",
+    "ex2": "After the rejection, we offered a lower model.",
+    "ar2": "بعد الرفض عرضنا موديل أرخص."
+   }
+  ],
+  "ladder": {
+   "label": "how final the yes is",
+   "lar": "الموافقة نهائية قد إيه",
+   "steps": [
+    {
+     "w": "verbal OK",
+     "ex": "Khaled gave us a verbal OK on the phone.",
+     "ar": "‎Khaled‎ إدّانا موافقة شفهية في التليفون.",
+     "ex2": "We still need it in writing before ordering batteries.",
+     "ar2": "لسه محتاجينها مكتوبة قبل ما نطلب البطاريات."
+    },
+    {
+     "w": "initial approval",
+     "ex": "The project got initial approval from the technical team.",
+     "ar": "المشروع خد موافقة مبدئية من الفريق الفني.",
+     "ex2": "Finance still has to check the budget after initial approval.",
+     "ar2": "المالية لسه هتراجع الميزانية بعد الموافقة المبدئية."
+    },
+    {
+     "w": "final approval",
+     "ex": "Final approval came from the Plant Director this morning.",
+     "ar": "الموافقة النهائية جت من مدير المصنع الصبح.",
+     "ex2": "The PO will be issued today after final approval.",
+     "ar2": "الـ‎PO‎ هيطلع النهارده بعد الموافقة النهائية."
+    }
+   ]
+  },
+  "ctx": "The quotation is now with our management for approval. I expect their final approval by Sunday.",
+  "ctx_ar": "عرض السعر دلوقتي عند الإدارة للموافقة. متوقع موافقتهم النهائية يوم الحد.",
+  "quiz": [
+   {
+    "s": "The PO needs the Plant Director's ___ before we can send it.",
+    "opts": [
+     "approve",
+     "approval",
+     "approved"
+    ],
+    "a": 1,
+    "ar": "الـ‎PO‎ محتاج موافقة مدير المصنع قبل ما نبعته."
+   },
+   {
+    "s": "Only ___ suppliers can bid in this tender.",
+    "opts": [
+     "approved",
+     "approval",
+     "approver"
+    ],
+    "a": 0,
+    "ar": "الموردين المعتمدين بس يقدروا يدخلوا المناقصة دي."
+   },
+   {
+    "s": "We got the ___ to start installation tomorrow.",
+    "opts": [
+     "rejection",
+     "approver",
+     "go-ahead"
+    ],
+    "a": 2,
+    "ar": "خدنا الموافقة إننا نبدأ التركيب بكرة."
+   }
+  ]
+ },
+ {
+  "w": "exclude",
+  "ar": "مش شامل / باستثناء",
+  "book": "The total is EGP 1,575,000, excluding 14% VAT.",
+  "family": [
+   {
+    "w": "exclude",
+    "pos": "verb",
+    "ex": "We had to exclude the cables from the offer.",
+    "ar": "اضطرينا نشيل الكابلات من العرض.",
+    "ex2": "The client will supply the cables, so we excluded them.",
+    "ar2": "العميل هيورّد الكابلات، فشيلناها."
+   },
+   {
+    "w": "exclusion",
+    "pos": "noun",
+    "ex": "Please read the warranty exclusions carefully.",
+    "ar": "لو سمحت اقرا استثناءات الضمان كويس.",
+    "ex2": "One exclusion is damage from wrong battery charging.",
+    "ar2": "من الاستثناءات التلف بسبب شحن البطاريات غلط."
+   },
+   {
+    "w": "exclusive",
+    "pos": "adjective",
+    "ex": "All prices are exclusive of VAT.",
+    "ar": "كل الأسعار من غير الضريبة.",
+    "ex2": "The total exclusive of VAT is EGP 500,000.",
+    "ar2": "الإجمالي من غير الضريبة 500 ألف جنيه."
+   },
+   {
+    "w": "excluded",
+    "pos": "adjective",
+    "ex": "Civil works are excluded from our scope.",
+    "ar": "الأعمال المدنية مش ضمن نطاق شغلنا.",
+    "ex2": "The client's contractor will do the excluded works.",
+    "ar2": "مقاول العميل هيعمل الأعمال المستثناة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "excluding",
+    "note": "most common in quotations and invoices",
+    "ex": "The price is EGP 90,000, excluding delivery.",
+    "ar": "السعر 90 ألف جنيه من غير التوصيل.",
+    "ex2": "Delivery excluding offloading costs EGP 3,000.",
+    "ar2": "التوصيل من غير التنزيل بـ3000 جنيه."
+   },
+   {
+    "w": "exclusive of",
+    "note": "formal; contracts and price tables",
+    "ex": "Prices are exclusive of 14% VAT.",
+    "ar": "الأسعار من غير ضريبة 14%.",
+    "ex2": "VAT will be added on the invoice, as prices are exclusive of it.",
+    "ar2": "الضريبة هتتضاف على الفاتورة."
+   },
+   {
+    "w": "not including",
+    "note": "simple everyday form",
+    "ex": "That's EGP 40,000, not including installation.",
+    "ar": "ده 40 ألف جنيه، من غير التركيب.",
+    "ex2": "Installation, not including cables, is another EGP 5,000.",
+    "ar2": "التركيب من غير الكابلات بـ5000 كمان."
+   }
+  ],
+  "ant": [
+   {
+    "w": "include",
+    "ex": "The price includes delivery to your site.",
+    "ar": "السعر شامل التوصيل لموقعكم.",
+    "ex2": "It also includes offloading and commissioning.",
+    "ar2": "وكمان شامل التنزيل والتشغيل."
+   },
+   {
+    "w": "inclusive of",
+    "ex": "The total is EGP 1,710,000, inclusive of VAT.",
+    "ar": "الإجمالي مليون و710 ألف جنيه شامل الضريبة.",
+    "ex2": "No other taxes are due, as it is inclusive of VAT.",
+    "ar2": "مفيش ضرايب تانية، لأنه شامل الضريبة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The total is EGP 820,000, excluding 14% VAT. Delivery is included, but civil works are excluded from our scope.",
+  "ctx_ar": "الإجمالي 820 ألف جنيه من غير ضريبة 14%. التوصيل شامل، بس الأعمال المدنية مش ضمن نطاقنا.",
+  "quiz": [
+   {
+    "s": "The total is EGP 500,000, ___ 14% VAT.",
+    "opts": [
+     "exclude",
+     "excluding",
+     "exclusion"
+    ],
+    "a": 1,
+    "ar": "الإجمالي 500 ألف جنيه من غير ضريبة 14%."
+   },
+   {
+    "s": "Is the price ___ of VAT, or should we add 14%?",
+    "opts": [
+     "inclusive",
+     "exclusion",
+     "exclude"
+    ],
+    "a": 0,
+    "ar": "السعر شامل الضريبة ولا نزوّد 14%؟"
+   },
+   {
+    "s": "Damage from flooding is a warranty ___.",
+    "opts": [
+     "exclude",
+     "excluded",
+     "exclusion"
+    ],
+    "a": 2,
+    "ar": "التلف من الغرق من استثناءات الضمان."
+   }
+  ]
+ }
+]

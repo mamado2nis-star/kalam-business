@@ -1,0 +1,611 @@
+[
+ {
+  "w": "beneficiary",
+  "ar": "المستفيد (اللي هيستلم الفلوس)",
+  "book": "Second, the beneficiary name on the PI is 'Shenzhen Volt Tech Co.', but the bank account name is 'Shenzhen VoltTech Co., Ltd.'",
+  "family": [
+   {
+    "w": "benefit",
+    "pos": "noun",
+    "ex": "The main benefit of lithium batteries is a longer life.",
+    "ar": "أهم ميزة في بطاريات الليثيوم إن عمرها أطول.",
+    "ex2": "That benefit lowers the customer's replacement cost.",
+    "ar2": "الميزة دي بتقلّل تكلفة التغيير على العميل."
+   },
+   {
+    "w": "benefit",
+    "pos": "verb",
+    "ex": "The hospital will benefit from a 5-year warranty.",
+    "ar": "المستشفى هتستفيد من ضمان 5 سنين.",
+    "ex2": "We also benefit, because service visits are fewer.",
+    "ar2": "وإحنا كمان بنستفيد، عشان زيارات الصيانة بتقل."
+   },
+   {
+    "w": "beneficial",
+    "pos": "adjective",
+    "ex": "Remote monitoring is beneficial for large data centres.",
+    "ar": "المراقبة عن بعد مفيدة للداتا سنترات الكبيرة.",
+    "ex2": "It is beneficial because faults are found early.",
+    "ar2": "مفيدة عشان الأعطال بتتكشف بدري."
+   },
+   {
+    "w": "beneficiary",
+    "pos": "person",
+    "ex": "The beneficiary name must match the bank account exactly.",
+    "ar": "اسم المستفيد لازم يطابق الحساب البنكي بالظبط.",
+    "ex2": "Otherwise the bank will reject the transfer.",
+    "ar2": "وإلا البنك هيرفض التحويل."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "payee",
+    "note": "person or company named to receive a payment",
+    "ex": "Write the supplier as the payee on the payment order.",
+    "ar": "اكتب المورد كمستفيد في أمر الدفع.",
+    "ex2": "The payee's IBAN must be on the form too.",
+    "ar2": "الـ‎IBAN‎ بتاع المستفيد لازم يبقى على الفورم كمان."
+   },
+   {
+    "w": "recipient",
+    "note": "general word for anyone who receives something",
+    "ex": "The recipient of the DHL envelope is our purchasing office.",
+    "ar": "مستلم ظرف ‎DHL‎ هو مكتب المشتريات عندنا.",
+    "ex2": "Add the recipient's phone number, or DHL may hold it.",
+    "ar2": "ضيف رقم تليفون المستلم، وإلا ‎DHL‎ ممكن توقفه."
+   },
+   {
+    "w": "account holder",
+    "note": "the person or company that owns the account",
+    "ex": "The account holder is Shenzhen VoltTech Co., Ltd.",
+    "ar": "صاحب الحساب هو ‎Shenzhen VoltTech Co., Ltd‎.",
+    "ex2": "The account holder's name must appear on the PI exactly.",
+    "ar2": "اسم صاحب الحساب لازم يظهر على الـ‎PI‎ بالظبط."
+   }
+  ],
+  "ant": [
+   {
+    "w": "payer",
+    "ex": "Nile Power Solutions is the payer of the deposit.",
+    "ar": "‎Nile Power Solutions‎ هي اللي بتدفع العربون.",
+    "ex2": "The payer usually pays local bank charges.",
+    "ar2": "اللي بيدفع عادةً بيتحمل مصاريف البنك المحلية."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The bank rejected our transfer. The beneficiary name on the PI did not match the supplier's bank account name.",
+  "ctx_ar": "البنك رفض التحويل بتاعنا. اسم المستفيد على الـ‎PI‎ مكانش مطابق لاسم الحساب البنكي بتاع المورد.",
+  "quiz": [
+   {
+    "s": "The ___ name must match the bank account exactly.",
+    "opts": [
+     "benefit",
+     "beneficial",
+     "beneficiary"
+    ],
+    "a": 2,
+    "ar": "اسم المستفيد لازم يطابق الحساب البنكي بالظبط."
+   },
+   {
+    "s": "Our customers ___ from fast service visits.",
+    "opts": [
+     "benefit",
+     "beneficiary",
+     "beneficial"
+    ],
+    "a": 0,
+    "ar": "عملاءنا بيستفيدوا من زيارات الخدمة السريعة."
+   },
+   {
+    "s": "Lithium batteries are ___ for long backup times.",
+    "opts": [
+     "benefit",
+     "beneficial",
+     "payer"
+    ],
+    "a": 1,
+    "ar": "بطاريات الليثيوم مفيدة لأوقات الباك أب الطويلة."
+   }
+  ]
+ },
+ {
+  "w": "reject",
+  "ar": "ترفض",
+  "book": "The bank rejected it for two reasons.",
+  "family": [
+   {
+    "w": "reject",
+    "pos": "verb",
+    "ex": "The bank rejected our transfer request this morning.",
+    "ar": "البنك رفض طلب التحويل بتاعنا النهارده الصبح.",
+    "ex2": "They rejected it because the PI was not stamped.",
+    "ar2": "رفضوه عشان الـ‎PI‎ مكانتش مختومة."
+   },
+   {
+    "w": "rejection",
+    "pos": "noun",
+    "ex": "We received a rejection notice from the bank.",
+    "ar": "وصلنا إشعار رفض من البنك.",
+    "ex2": "The rejection lists two reasons.",
+    "ar2": "الرفض فيه سببين."
+   },
+   {
+    "w": "rejected",
+    "pos": "adjective",
+    "ex": "Three rejected batteries were sent back to the supplier.",
+    "ar": "تلات بطاريات مرفوضة اترجعوا للمورد.",
+    "ex2": "Rejected items are kept in quarantine first.",
+    "ar2": "الحاجات المرفوضة بتتحط في العزل الأول."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "refuse",
+    "note": "say clearly you won't do or give something",
+    "ex": "The supplier refused to pay the bank charges.",
+    "ar": "المورد رفض يدفع مصاريف البنك.",
+    "ex2": "He refused because the PI says charges are ours.",
+    "ar2": "رفض عشان الـ‎PI‎ بتقول المصاريف علينا."
+   },
+   {
+    "w": "decline",
+    "note": "polite no to an offer or invitation",
+    "ex": "We politely declined the extra discount offer.",
+    "ar": "رفضنا بأدب عرض الخصم الإضافي.",
+    "ex2": "We declined it because it needed a bigger MOQ.",
+    "ar2": "رفضناه عشان كان محتاج حد أدنى أكبر."
+   },
+   {
+    "w": "turn down",
+    "note": "informal no to an offer or request",
+    "ex": "The client turned down our first quotation.",
+    "ar": "العميل رفض أول عرض سعر قدمناه.",
+    "ex2": "He turned it down because of the long lead time.",
+    "ar2": "رفضه بسبب مدة التوريد الطويلة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "accept",
+    "ex": "The bank accepted the corrected PI the next day.",
+    "ar": "البنك قبل الـ‎PI‎ المصححة تاني يوم.",
+    "ex2": "Once accepted, the transfer went out in hours.",
+    "ar2": "أول ما اتقبلت، التحويل خرج في ساعات."
+   },
+   {
+    "w": "approve",
+    "ex": "Customs approved the documents after the lab test.",
+    "ar": "الجمارك وافقت على المستندات بعد اختبار المعمل.",
+    "ex2": "Once they approved them, we paid the duties.",
+    "ar2": "أول ما وافقوا عليها، دفعنا الجمارك."
+   }
+  ],
+  "ladder": {
+   "label": "how strong the no is",
+   "lar": "الرفض قوي قد إيه",
+   "steps": [
+    {
+     "w": "decline",
+     "ex": "We must decline your invitation to the expo this year.",
+     "ar": "للأسف لازم نعتذر عن دعوتك للمعرض السنة دي.",
+     "ex2": "Maybe we can join next year.",
+     "ar2": "يمكن نقدر نحضر السنة الجاية."
+    },
+    {
+     "w": "refuse",
+     "ex": "The customer refused to sign the delivery note.",
+     "ar": "العميل رفض يمضي على إذن التسليم.",
+     "ex2": "He refused because two cartons were damaged.",
+     "ar2": "رفض عشان كرتونتين كانوا مضروبين."
+    },
+    {
+     "w": "reject",
+     "ex": "Customs rejected the UN38.3 summary for the wrong model.",
+     "ar": "الجمارك رفضت ملخص ‎UN38.3‎ عشان الموديل غلط.",
+     "ex2": "They need the right document before release.",
+     "ar2": "محتاجين المستند الصح قبل الإفراج."
+    }
+   ]
+  },
+  "ctx": "The bank rejected our deposit transfer. The PI was not stamped, and the beneficiary name was wrong.",
+  "ctx_ar": "البنك رفض تحويل العربون بتاعنا. الـ‎PI‎ مكانتش مختومة، واسم المستفيد كان غلط.",
+  "quiz": [
+   {
+    "s": "The bank sent a ___ letter for the transfer.",
+    "opts": [
+     "reject",
+     "rejection",
+     "rejected"
+    ],
+    "a": 1,
+    "ar": "البنك بعت جواب رفض للتحويل."
+   },
+   {
+    "s": "Customs ___ the invoice because the ACID number was missing.",
+    "opts": [
+     "rejected",
+     "rejection",
+     "accept"
+    ],
+    "a": 0,
+    "ar": "الجمارك رفضت الفاتورة عشان رقم الـ‎ACID‎ كان ناقص."
+   },
+   {
+    "s": "Three ___ batteries were sent back to the supplier.",
+    "opts": [
+     "reject",
+     "rejection",
+     "rejected"
+    ],
+    "a": 2,
+    "ar": "تلات بطاريات مرفوضة اترجعوا للمورد."
+   }
+  ]
+ },
+ {
+  "w": "deduct",
+  "ar": "تخصم",
+  "book": "It seems the intermediary bank deducted its charges.",
+  "family": [
+   {
+    "w": "deduct",
+    "pos": "verb",
+    "ex": "The intermediary bank deducted USD 45 from our transfer.",
+    "ar": "البنك الوسيط خصم 45 دولار من تحويلنا.",
+    "ex2": "So the supplier received less than the PI amount.",
+    "ar2": "فالمورد استلم أقل من مبلغ الـ‎PI‎."
+   },
+   {
+    "w": "deduction",
+    "pos": "noun",
+    "ex": "The USD 45 deduction was for bank charges.",
+    "ar": "خصم الـ45 دولار كان مصاريف بنك.",
+    "ex2": "Please show the deduction clearly on the statement.",
+    "ar2": "ياريت الخصم يبان واضح في كشف الحساب."
+   },
+   {
+    "w": "deductible",
+    "pos": "adjective",
+    "ex": "Is this service fee tax-deductible?",
+    "ar": "هل رسوم الخدمة دي بتتخصم من الضرايب؟",
+    "ex2": "Ask Nadia if it's deductible before you book it.",
+    "ar2": "اسأل نادية لو بتتخصم قبل ما تسجّلها."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "subtract",
+    "note": "maths: take one number from another",
+    "ex": "Subtract the deposit from the total to get the balance.",
+    "ar": "اطرح العربون من الإجمالي عشان تطلع الباقي.",
+    "ex2": "After you subtract it, the balance is USD 87,360.",
+    "ar2": "بعد ما تطرحه، الباقي 87,360 دولار."
+   },
+   {
+    "w": "withhold",
+    "note": "keep part of a payment, often for tax",
+    "ex": "Our customer withholds 1% tax from every invoice.",
+    "ar": "العميل بتاعنا بيخصم 1% ضريبة من كل فاتورة.",
+    "ex2": "He sends us the certificate for the withheld amount.",
+    "ar2": "وبيبعتلنا شهادة بالمبلغ اللي اتخصم."
+   },
+   {
+    "w": "take off",
+    "note": "informal: reduce a price or amount",
+    "ex": "Can you take off the delivery charge for this order?",
+    "ar": "ممكن تشيل مصاريف التوصيل من الأوردر ده؟",
+    "ex2": "If you take it off, we'll order today.",
+    "ar2": "لو شلتها، هنطلب النهارده."
+   }
+  ],
+  "ant": [
+   {
+    "w": "add",
+    "ex": "Please add the USD 45 to the balance payment.",
+    "ar": "من فضلك ضيف الـ45 دولار على باقي المبلغ.",
+    "ex2": "Adding it now avoids a separate transfer.",
+    "ar2": "إضافته دلوقتي بتوفّر تحويل لوحده."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The supplier received USD 45 less than expected. The intermediary bank deducted its charges because we sent the transfer with SHA.",
+  "ctx_ar": "المورد استلم 45 دولار أقل من المتوقع. البنك الوسيط خصم مصاريفه عشان بعتنا التحويل بـ‎SHA‎.",
+  "quiz": [
+   {
+    "s": "The bank made a USD 45 ___ for its charges.",
+    "opts": [
+     "deduct",
+     "deductible",
+     "deduction"
+    ],
+    "a": 2,
+    "ar": "البنك عمل خصم 45 دولار لمصاريفه."
+   },
+   {
+    "s": "Is this fee ___ from tax?",
+    "opts": [
+     "deductible",
+     "deduct",
+     "deduction"
+    ],
+    "a": 0,
+    "ar": "هل الرسوم دي بتتخصم من الضرايب؟"
+   },
+   {
+    "s": "Our customers ___ 1% tax from each payment and send us the certificate.",
+    "opts": [
+     "add",
+     "withhold",
+     "deductible"
+    ],
+    "a": 1,
+    "ar": "عملاءنا بيخصموا 1% ضريبة من كل دفعة وبيبعتولنا الشهادة."
+   }
+  ]
+ },
+ {
+  "w": "balance payment",
+  "ar": "باقي المبلغ / الدفعة الأخيرة",
+  "book": "To avoid delaying production, we suggest adding the USD 45 to the balance payment.",
+  "family": [
+   {
+    "w": "balance",
+    "pos": "noun",
+    "ex": "The balance of USD 87,405 is due before shipment.",
+    "ar": "الباقي 87,405 دولار مستحق قبل الشحن.",
+    "ex2": "We will pay the balance against a copy of the B/L.",
+    "ar2": "هندفع الباقي مقابل صورة البوليصة."
+   },
+   {
+    "w": "balance payment",
+    "pos": "noun",
+    "ex": "The balance payment will be sent with OUR charges.",
+    "ar": "الدفعة الأخيرة هتتبعت بمصاريف ‎OUR‎.",
+    "ex2": "So VoltTech receives the full balance payment.",
+    "ar2": "فـ‎VoltTech‎ تستلم الدفعة الأخيرة كاملة."
+   },
+   {
+    "w": "balance",
+    "pos": "verb",
+    "ex": "Nadia balances the bank accounts every month end.",
+    "ar": "نادية بتسوّي حسابات البنك كل آخر شهر.",
+    "ex2": "She balances them before closing the books.",
+    "ar2": "بتسوّيها قبل ما تقفل الدفاتر."
+   },
+   {
+    "w": "balanced",
+    "pos": "adjective",
+    "ex": "The supplier's statement and ours are now balanced.",
+    "ar": "كشف حساب المورد وكشفنا دلوقتي متطابقين.",
+    "ex2": "A balanced statement means no open differences.",
+    "ar2": "الكشف المتطابق معناه مفيش فروق مفتوحة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "the remaining amount still to pay",
+    "mar": "الباقي اللي لسه هيتدفع",
+    "ex": "We paid 30%; the balance is due before shipment.",
+    "ar": "دفعنا 30%؛ والباقي مستحق قبل الشحن.",
+    "ex2": "The supplier sends the B/L after the balance arrives.",
+    "ar2": "المورد بيبعت البوليصة بعد ما الباقي يوصل."
+   },
+   {
+    "m": "money in a bank account",
+    "mar": "الرصيد في الحساب",
+    "ex": "Please check our USD balance before the transfer.",
+    "ar": "من فضلك شوف رصيد الدولار قبل التحويل.",
+    "ex2": "If the balance is low, we wait for collections.",
+    "ar2": "لو الرصيد قليل، نستنى التحصيلات."
+   },
+   {
+    "m": "make accounts agree (verb)",
+    "mar": "تسوّي الحسابات",
+    "ex": "We balance the customer accounts at month end.",
+    "ar": "بنسوّي حسابات العملاء آخر كل شهر.",
+    "ex2": "Any difference must be explained before closing.",
+    "ar2": "أي فرق لازم يتفسّر قبل القفل."
+   }
+  ],
+  "syn": [
+   {
+    "w": "remaining amount",
+    "note": "plain, clear wording for any customer",
+    "ex": "The remaining amount is USD 87,405.",
+    "ar": "المبلغ المتبقي 87,405 دولار.",
+    "ex2": "We'll transfer the remaining amount next week.",
+    "ar2": "هنحوّل المبلغ المتبقي الأسبوع الجاي."
+   },
+   {
+    "w": "final payment",
+    "note": "the last instalment in a payment plan",
+    "ex": "The final payment is due after commissioning.",
+    "ar": "آخر دفعة مستحقة بعد التشغيل.",
+    "ex2": "After the final payment, the warranty starts.",
+    "ar2": "بعد آخر دفعة، الضمان بيبدأ."
+   },
+   {
+    "w": "outstanding amount",
+    "note": "still unpaid, often late; used in collections",
+    "ex": "The outstanding amount on invoice 2245 is EGP 180,000.",
+    "ar": "المبلغ المستحق على فاتورة 2245 هو 180,000 جنيه.",
+    "ex2": "Please settle the outstanding amount this week.",
+    "ar2": "من فضلك سدّد المبلغ المستحق الأسبوع ده."
+   }
+  ],
+  "ant": [
+   {
+    "w": "deposit",
+    "ex": "We paid a 30% deposit to start production.",
+    "ar": "دفعنا 30% عربون عشان الإنتاج يبدأ.",
+    "ex2": "The deposit came first; the balance comes before shipment.",
+    "ar2": "العربون بيتدفع الأول؛ والباقي قبل الشحن."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We will add the USD 45 to the balance payment. The balance will be USD 87,405, sent with OUR charges.",
+  "ctx_ar": "هنضيف الـ45 دولار على الدفعة الأخيرة. الباقي هيبقى 87,405 دولار، هيتبعت بمصاريف ‎OUR‎.",
+  "quiz": [
+   {
+    "s": "We paid 30% in advance; the 70% ___ is due before shipment.",
+    "opts": [
+     "balance",
+     "balanced",
+     "deposit"
+    ],
+    "a": 0,
+    "ar": "دفعنا 30% مقدم؛ والـ70% الباقية مستحقة قبل الشحن."
+   },
+   {
+    "s": "Please check our bank ___ before the transfer.",
+    "opts": [
+     "balanced",
+     "balance",
+     "final payment"
+    ],
+    "a": 1,
+    "ar": "من فضلك شوف رصيدنا في البنك قبل التحويل."
+   },
+   {
+    "s": "Nadia checks that the accounts are ___ at month end.",
+    "opts": [
+     "balance",
+     "final payment",
+     "balanced"
+    ],
+    "a": 2,
+    "ar": "نادية بتتأكد إن الحسابات متسوّية آخر الشهر."
+   }
+  ]
+ },
+ {
+  "w": "deposit",
+  "ar": "عربون / دفعة مقدمة",
+  "book": "We will transfer the deposit as soon as we receive it.",
+  "family": [
+   {
+    "w": "deposit",
+    "pos": "noun",
+    "ex": "The supplier asks for a 30% deposit by T/T.",
+    "ar": "المورد طالب 30% عربون بتحويل بنكي.",
+    "ex2": "Production starts only after the deposit arrives.",
+    "ar2": "الإنتاج مش هيبدأ غير لما العربون يوصل."
+   },
+   {
+    "w": "deposit",
+    "pos": "verb",
+    "ex": "Please deposit the customer's cheque at Banque Misr today.",
+    "ar": "من فضلك ودّع شيك العميل في بنك مصر النهارده.",
+    "ex2": "Deposit it before 2 pm so it clears tomorrow.",
+    "ar2": "ودّعه قبل 2 الضهر عشان يتصرف بكرة."
+   },
+   {
+    "w": "depositor",
+    "pos": "person",
+    "ex": "The depositor's name must appear on the bank slip.",
+    "ar": "اسم المودِع لازم يظهر على إيصال البنك.",
+    "ex2": "Write the company as depositor, not your own name.",
+    "ar2": "اكتب الشركة كمودِع، مش اسمك."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "advance payment before production",
+    "mar": "عربون قبل الإنتاج",
+    "ex": "We will send the deposit within five working days.",
+    "ar": "هنبعت العربون خلال خمس أيام شغل.",
+    "ex2": "Then VoltTech starts producing our modules.",
+    "ar2": "بعدها ‎VoltTech‎ يبدأوا يصنّعوا الموديولات."
+   },
+   {
+    "m": "put money into a bank account",
+    "mar": "تودّع فلوس في البنك",
+    "ex": "Ahmed will deposit the cash collections tomorrow.",
+    "ar": "أحمد هيودّع التحصيلات الكاش بكرة.",
+    "ex2": "He deposits them in the company's EGP account.",
+    "ar2": "بيودّعها في حساب الشركة بالجنيه."
+   },
+   {
+    "m": "refundable amount held as security",
+    "mar": "تأمين مسترد",
+    "ex": "The shipping line asks for a container deposit.",
+    "ar": "الخط الملاحي طالب تأمين على الكونتينر.",
+    "ex2": "We get the deposit back when the container returns.",
+    "ar2": "بنسترد التأمين لما الكونتينر يرجع."
+   }
+  ],
+  "syn": [
+   {
+    "w": "advance payment",
+    "note": "formal wording in contracts and bank forms",
+    "ex": "The contract requires a 30% advance payment.",
+    "ar": "العقد بيطلب دفعة مقدمة 30%.",
+    "ex2": "The bank form calls it an advance payment.",
+    "ar2": "فورم البنك بيسمّيها دفعة مقدمة."
+   },
+   {
+    "w": "down payment",
+    "note": "first part of a big purchase or project",
+    "ex": "The hospital made a down payment on the UPS project.",
+    "ar": "المستشفى دفعت مقدم لمشروع الـ‎UPS‎.",
+    "ex2": "The rest is paid in three instalments.",
+    "ar2": "والباقي بيتدفع على تلات أقساط."
+   },
+   {
+    "w": "prepayment",
+    "note": "paying in full or part before delivery",
+    "ex": "The supplier wants 100% prepayment for small orders.",
+    "ar": "المورد عايز 100% دفع مقدم للأوردرات الصغيرة.",
+    "ex2": "Prepayment is risky if we don't know the supplier.",
+    "ar2": "الدفع المقدم فيه مخاطرة لو منعرفش المورد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "withdrawal",
+    "ex": "Finance made a cash withdrawal to pay the customs broker.",
+    "ar": "الحسابات سحبت كاش عشان تدفع للمخلّص.",
+    "ex2": "Every withdrawal needs the director's signature.",
+    "ar2": "كل سحب محتاج إمضاء المدير."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Production will not start until the deposit arrives. Please send a signed PI so we can transfer the deposit tomorrow.",
+  "ctx_ar": "الإنتاج مش هيبدأ لحد ما العربون يوصل. من فضلك ابعت ‎PI‎ متمضية عشان نحوّل العربون بكرة.",
+  "quiz": [
+   {
+    "s": "The supplier asks for a 30% ___ by T/T.",
+    "opts": [
+     "deposit",
+     "depositor",
+     "withdrawal"
+    ],
+    "a": 0,
+    "ar": "المورد طالب 30% عربون بتحويل بنكي."
+   },
+   {
+    "s": "Please ___ the cheque at Banque Misr today.",
+    "opts": [
+     "withdrawal",
+     "deposit",
+     "depositor"
+    ],
+    "a": 1,
+    "ar": "من فضلك ودّع الشيك في بنك مصر النهارده."
+   },
+   {
+    "s": "For small orders, the supplier wants 100% ___ before shipping.",
+    "opts": [
+     "depositor",
+     "withdrawal",
+     "prepayment"
+    ],
+    "a": 2,
+    "ar": "للأوردرات الصغيرة، المورد عايز 100% دفع مقدم قبل الشحن."
+   }
+  ]
+ }
+]

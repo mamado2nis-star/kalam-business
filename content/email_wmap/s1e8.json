@@ -1,0 +1,546 @@
+[
+ {
+  "w": "statement of account",
+  "ar": "كشف حساب",
+  "book": "Please find attached your statement of account as of 31 March 2026.",
+  "family": [
+   {
+    "w": "state",
+    "pos": "verb",
+    "ex": "Please state the invoice number in the transfer reference.",
+    "ar": "لو سمحت اذكر رقم الفاتورة في مرجع التحويل.",
+    "ex2": "As stated on the PO, delivery is to the head office.",
+    "ar2": "زي ما هو مذكور في الـ‎PO‎، التسليم للمكتب الرئيسي."
+   },
+   {
+    "w": "statement",
+    "pos": "noun",
+    "ex": "Our bank statement shows the transfer on 12 March.",
+    "ar": "كشف حساب البنك عندنا فيه التحويل يوم 12 مارس.",
+    "ex2": "The statement did not show the invoice number.",
+    "ar2": "الكشف مكانش فيه رقم الفاتورة."
+   },
+   {
+    "w": "statement of account",
+    "pos": "noun",
+    "ex": "Please find attached your statement of account as of 31 March.",
+    "ar": "مرفق كشف حسابكم لحد 31 مارس.",
+    "ex2": "The statement of account shows two open invoices.",
+    "ar2": "كشف الحساب فيه فاتورتين مفتوحين."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "SOA",
+    "note": "short form used inside finance teams",
+    "ex": "I'll send the SOA to Delta Pharma today.",
+    "ar": "هبعت كشف الحساب لـ‎Delta Pharma‎ النهارده.",
+    "ex2": "Their SOA shows EGP 96,900 open.",
+    "ar2": "الكشف بتاعهم فيه 96,900 جنيه مفتوحين."
+   },
+   {
+    "w": "account statement",
+    "note": "same meaning, a bit less formal",
+    "ex": "Can you send me our account statement for Q1?",
+    "ar": "ممكن تبعتلي كشف حسابنا للربع الأول؟",
+    "ex2": "The account statement helps us plan payments.",
+    "ar2": "كشف الحساب بيساعدنا نخطط الدفع."
+   },
+   {
+    "w": "ledger",
+    "note": "the full internal record; customers receive the statement",
+    "ex": "Our accountant checked the customer ledger.",
+    "ar": "المحاسب بتاعنا راجع دفتر حساب العميل.",
+    "ex2": "The ledger shows every invoice and payment.",
+    "ar2": "الدفتر فيه كل فاتورة ودفعة."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Please find attached your statement of account as of 30 June. The open balance is EGP 96,900 for INV-0538.",
+  "ctx_ar": "مرفق كشف حسابكم لحد 30 يونيو. الرصيد المفتوح 96,900 جنيه لفاتورة ‎INV-0538.‎",
+  "quiz": [
+   {
+    "s": "Please send us our ___ as of 30 June.",
+    "opts": [
+     "statement of account",
+     "state",
+     "ledger"
+    ],
+    "a": 0,
+    "ar": "لو سمحت ابعتلنا كشف حسابنا لحد 30 يونيو."
+   },
+   {
+    "s": "Please ___ the PO number in the transfer reference.",
+    "opts": [
+     "statement",
+     "state",
+     "SOA"
+    ],
+    "a": 1,
+    "ar": "لو سمحت اذكر رقم الـ‎PO‎ في مرجع التحويل."
+   },
+   {
+    "s": "Our accountant checks the customer ___ before sending the SOA.",
+    "opts": [
+     "state",
+     "statement of account",
+     "ledger"
+    ],
+    "a": 2,
+    "ar": "المحاسب بتاعنا بيراجع دفتر حساب العميل قبل ما يبعت الكشف."
+   }
+  ]
+ },
+ {
+  "w": "balance",
+  "ar": "رصيد / الباقي",
+  "book": "We do not agree with this balance.",
+  "family": [
+   {
+    "w": "balance",
+    "pos": "noun",
+    "ex": "The open balance is EGP 96,900.",
+    "ar": "الرصيد المفتوح 96,900 جنيه.",
+    "ex2": "Please arrange payment of the balance this month.",
+    "ar2": "لو سمحت جهّز دفع الرصيد الشهر ده."
+   },
+   {
+    "w": "balance",
+    "pos": "verb",
+    "ex": "The figures don't balance; one payment is missing.",
+    "ar": "الأرقام مش مظبوطة؛ فيه دفعة ناقصة.",
+    "ex2": "After the reconciliation, the accounts balance.",
+    "ar2": "بعد المطابقة الحسابات اتظبطت."
+   },
+   {
+    "w": "balanced",
+    "pos": "adjective",
+    "ex": "The load on the three UPS phases is not balanced.",
+    "ar": "الحمل على التلات فازات بتاعة الـ‎UPS‎ مش متوازن.",
+    "ex2": "A balanced load protects the inverter.",
+    "ar2": "الحمل المتوازن بيحمي الإنفرتر."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "amount still owed on an account",
+    "mar": "المبلغ اللي لسه عليك",
+    "ex": "According to our records, the balance is EGP 96,900.",
+    "ar": "حسب سجلاتنا، الرصيد 96,900 جنيه.",
+    "ex2": "It is for the replacement batteries.",
+    "ar2": "ده للبطاريات البديلة."
+   },
+   {
+    "m": "money in a bank account",
+    "mar": "فلوس في حساب البنك",
+    "ex": "Our bank balance was not enough on 15 February.",
+    "ar": "رصيدنا في البنك مكانش كافي يوم 15 فبراير.",
+    "ex2": "That's why the cheque was returned.",
+    "ar2": "عشان كده الشيك رجع."
+   },
+   {
+    "m": "the rest of an amount",
+    "mar": "باقي المبلغ",
+    "ex": "They will pay EGP 50,000 now and the balance by 16 July.",
+    "ar": "هيدفعوا 50 ألف دلوقتي والباقي قبل 16 يوليو.",
+    "ex2": "The balance is EGP 46,900.",
+    "ar2": "الباقي 46,900 جنيه."
+   },
+   {
+    "m": "equal spread of weight or load",
+    "mar": "توازن",
+    "ex": "Our engineer checked the phase balance on the UPS.",
+    "ar": "المهندس بتاعنا راجع توازن الفازات على الـ‎UPS.‎",
+    "ex2": "Good balance means longer equipment life.",
+    "ar2": "التوازن الكويس معناه عمر أطول للجهاز."
+   }
+  ],
+  "syn": [
+   {
+    "w": "outstanding amount",
+    "note": "formal; money not yet paid",
+    "ex": "The outstanding amount on INV-0538 is EGP 96,900.",
+    "ar": "المبلغ المتبقي على ‎INV-0538‎ هو 96,900 جنيه.",
+    "ex2": "Please settle the outstanding amount this month.",
+    "ar2": "لو سمحت سدّد المبلغ المتبقي الشهر ده."
+   },
+   {
+    "w": "remaining amount",
+    "note": "simple; what is left after a part payment",
+    "ex": "The remaining amount will be paid on 16 July.",
+    "ar": "المبلغ الباقي هيتدفع يوم 16 يوليو.",
+    "ex2": "After that, the remaining amount is zero.",
+    "ar2": "بعد كده المبلغ الباقي صفر."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "According to our records, the open balance is EGP 96,900. Could you please confirm that you agree with this balance?",
+  "ctx_ar": "حسب سجلاتنا، الرصيد المفتوح 96,900 جنيه. ممكن تأكّد إنك موافق على الرصيد ده؟",
+  "quiz": [
+   {
+    "s": "The open ___ is EGP 96,900.",
+    "opts": [
+     "balanced",
+     "balance",
+     "remaining amount"
+    ],
+    "a": 1,
+    "ar": "الرصيد المفتوح 96,900 جنيه."
+   },
+   {
+    "s": "The load on the three UPS phases is not ___.",
+    "opts": [
+     "balance",
+     "outstanding amount",
+     "balanced"
+    ],
+    "a": 2,
+    "ar": "الحمل على التلات فازات بتاعة الـ‎UPS‎ مش متوازن."
+   },
+   {
+    "s": "The figures don't ___; one payment is missing.",
+    "opts": [
+     "balance",
+     "balanced",
+     "remaining amount"
+    ],
+    "a": 0,
+    "ar": "الأرقام مش مظبوطة؛ فيه دفعة ناقصة."
+   }
+  ]
+ },
+ {
+  "w": "allocate",
+  "ar": "يخصّص / يوزّع الدفعة على فاتورة",
+  "book": "We have now allocated it to INV-0512 and attached the revised statement.",
+  "family": [
+   {
+    "w": "allocate",
+    "pos": "verb",
+    "ex": "We have now allocated the payment to INV-0512.",
+    "ar": "وزّعنا الدفعة دلوقتي على ‎INV-0512.‎",
+    "ex2": "Next time, we can allocate it the same day if the reference is clear.",
+    "ar2": "المرة الجاية نقدر نوزّعها في نفس اليوم لو المرجع واضح."
+   },
+   {
+    "w": "allocation",
+    "pos": "noun",
+    "ex": "The budget allocation for spare parts is EGP 200,000.",
+    "ar": "الميزانية المخصصة لقطع الغيار 200 ألف جنيه.",
+    "ex2": "The allocation is reviewed every quarter.",
+    "ar2": "التخصيص بيتراجع كل ربع سنة."
+   },
+   {
+    "w": "allocated",
+    "pos": "adjective",
+    "ex": "All allocated payments appear on the revised statement.",
+    "ar": "كل الدفعات اللي اتوزعت ظاهرة في الكشف المعدّل.",
+    "ex2": "The allocated amount reduced the balance to EGP 96,900.",
+    "ar2": "المبلغ اللي اتوزّع قلّل الرصيد لـ96,900 جنيه."
+   },
+   {
+    "w": "unallocated",
+    "pos": "adjective",
+    "ex": "The transfer had no invoice number, so it stayed unallocated.",
+    "ar": "التحويل مكانش فيه رقم فاتورة، ففضل مش متوزّع.",
+    "ex2": "Unallocated payments make the balance look wrong.",
+    "ar2": "الدفعات اللي مش متوزعة بتخلّي الرصيد شكله غلط."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "match a payment to an invoice",
+    "mar": "توزّع دفعة على فاتورة",
+    "ex": "Please allocate the EGP 57,000 transfer to INV-0512.",
+    "ar": "لو سمحت وزّع تحويل الـ57 ألف على ‎INV-0512.‎",
+    "ex2": "Then send the client a revised statement.",
+    "ar2": "وبعدين ابعت للعميل كشف معدّل."
+   },
+   {
+    "m": "give resources for a purpose",
+    "mar": "تخصّص موارد لهدف",
+    "ex": "Management allocated two engineers to the data centre project.",
+    "ar": "الإدارة خصصت مهندسين لمشروع الداتا سنتر.",
+    "ex2": "They will stay on site for three weeks.",
+    "ar2": "هيفضلوا في الموقع تلات أسابيع."
+   }
+  ],
+  "syn": [
+   {
+    "w": "apply",
+    "note": "accounting: apply a payment to an invoice",
+    "ex": "We applied the payment to the oldest invoice first.",
+    "ar": "طبّقنا الدفعة على أقدم فاتورة الأول.",
+    "ex2": "The rest was applied to INV-0538.",
+    "ar2": "والباقي اتطبّق على ‎INV-0538.‎"
+   },
+   {
+    "w": "match",
+    "note": "connect a payment with its invoice",
+    "ex": "Our system could not match the transfer to any invoice.",
+    "ar": "السيستم مقدرش يربط التحويل بأي فاتورة.",
+    "ex2": "Add the invoice number so we can match it.",
+    "ar2": "حط رقم الفاتورة عشان نقدر نربطه."
+   },
+   {
+    "w": "assign",
+    "note": "give a task or resource to someone",
+    "ex": "We assigned Eng. Mona to the Delta Pharma site.",
+    "ar": "عيّنا ‎Eng. Mona‎ لموقع ‎Delta Pharma.‎",
+    "ex2": "She was assigned two technicians.",
+    "ar2": "اتعيّن معاها فنيين اتنين."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "The transfer had no invoice number, so it was recorded as unallocated. We have now allocated it to INV-0512.",
+  "ctx_ar": "التحويل مكانش فيه رقم فاتورة، فاتسجّل كدفعة مش متوزعة. دلوقتي وزّعناها على ‎INV-0512.‎",
+  "quiz": [
+   {
+    "s": "We have ___ the payment to INV-0512.",
+    "opts": [
+     "allocated",
+     "unallocated",
+     "allocation"
+    ],
+    "a": 0,
+    "ar": "وزّعنا الدفعة على ‎INV-0512.‎"
+   },
+   {
+    "s": "The transfer had no invoice number, so it stayed ___.",
+    "opts": [
+     "allocate",
+     "allocated",
+     "unallocated"
+    ],
+    "a": 2,
+    "ar": "التحويل مكانش فيه رقم فاتورة، ففضل مش متوزّع."
+   },
+   {
+    "s": "The budget ___ for spare parts is EGP 200,000.",
+    "opts": [
+     "assign",
+     "allocation",
+     "allocate"
+    ],
+    "a": 1,
+    "ar": "الميزانية المخصصة لقطع الغيار 200 ألف جنيه."
+   }
+  ]
+ },
+ {
+  "w": "reconciliation",
+  "ar": "مطابقة الحسابات",
+  "book": "Thank you for the quick reconciliation.",
+  "family": [
+   {
+    "w": "reconcile",
+    "pos": "verb",
+    "ex": "Please reconcile your records with our statement.",
+    "ar": "لو سمحت طابق سجلاتك مع الكشف بتاعنا.",
+    "ex2": "We reconcile all customer accounts every quarter.",
+    "ar2": "بنطابق كل حسابات العملا كل ربع سنة."
+   },
+   {
+    "w": "reconciliation",
+    "pos": "noun",
+    "ex": "Thank you for the quick reconciliation.",
+    "ar": "شكراً على المطابقة السريعة.",
+    "ex2": "The reconciliation found an unallocated payment.",
+    "ar2": "المطابقة لقت دفعة مش متوزعة."
+   },
+   {
+    "w": "reconciled",
+    "pos": "adjective",
+    "ex": "The accounts are now fully reconciled.",
+    "ar": "الحسابات اتطابقت بالكامل دلوقتي.",
+    "ex2": "The reconciled balance is EGP 96,900.",
+    "ar2": "الرصيد بعد المطابقة 96,900 جنيه."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "matching",
+    "note": "simple word; comparing two records",
+    "ex": "After matching our records, we found the transfer.",
+    "ar": "بعد ما قارنّا سجلاتنا لقينا التحويل.",
+    "ex2": "Matching takes time without invoice numbers.",
+    "ar2": "المقارنة بتاخد وقت من غير أرقام فواتير."
+   },
+   {
+    "w": "cross-check",
+    "note": "quick check between two sources",
+    "ex": "Please cross-check the SOA with your bank statement.",
+    "ar": "لو سمحت راجع الكشف قصاد كشف البنك.",
+    "ex2": "The cross-check showed the missing payment.",
+    "ar2": "المراجعة دي بيّنت الدفعة الناقصة."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "After the reconciliation, the correct open balance is EGP 96,900. The payment of EGP 57,000 is now allocated to INV-0512.",
+  "ctx_ar": "بعد المطابقة، الرصيد المفتوح الصح 96,900 جنيه. دفعة الـ57 ألف اتوزعت دلوقتي على ‎INV-0512.‎",
+  "quiz": [
+   {
+    "s": "Thank you for the quick ___.",
+    "opts": [
+     "reconcile",
+     "reconciliation",
+     "reconciled"
+    ],
+    "a": 1,
+    "ar": "شكراً على المطابقة السريعة."
+   },
+   {
+    "s": "Please ___ your records with our statement.",
+    "opts": [
+     "reconcile",
+     "reconciled",
+     "matching"
+    ],
+    "a": 0,
+    "ar": "لو سمحت طابق سجلاتك مع الكشف بتاعنا."
+   },
+   {
+    "s": "The accounts are now fully ___.",
+    "opts": [
+     "reconciliation",
+     "reconcile",
+     "reconciled"
+    ],
+    "a": 2,
+    "ar": "الحسابات اتطابقت بالكامل دلوقتي."
+   }
+  ]
+ },
+ {
+  "w": "release",
+  "ar": "يفرج عن / يعتمد للدفع",
+  "book": "Once we receive it, I will release the invoice for payment in our next payment run.",
+  "family": [
+   {
+    "w": "release",
+    "pos": "verb",
+    "ex": "I will release the invoice for payment next week.",
+    "ar": "هعتمد الفاتورة للدفع الأسبوع الجاي.",
+    "ex2": "Then it goes into the payment run.",
+    "ar2": "وبعدين بتدخل دورة الدفع."
+   },
+   {
+    "w": "release",
+    "pos": "noun",
+    "ex": "The new firmware release fixes the UPS display bug.",
+    "ar": "الإصدار الجديد من السوفتوير بيصلّح مشكلة شاشة الـ‎UPS.‎",
+    "ex2": "We'll install the release during the next visit.",
+    "ar2": "هنسطّب الإصدار في الزيارة الجاية."
+   },
+   {
+    "w": "released",
+    "pos": "adjective",
+    "ex": "The released shipment left customs this morning.",
+    "ar": "الشحنة اللي اتفرج عنها خرجت من الجمارك الصبح.",
+    "ex2": "The released units will reach our warehouse tonight.",
+    "ar2": "الوحدات هتوصل المخزن بتاعنا بالليل."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "approve an invoice for payment",
+    "mar": "تعتمد فاتورة للدفع",
+    "ex": "AP released INV-0538 for payment today.",
+    "ar": "الحسابات اعتمدت ‎INV-0538‎ للدفع النهارده.",
+    "ex2": "Payment will follow in the next run.",
+    "ar2": "الدفع هييجي في الدورة الجاية."
+   },
+   {
+    "m": "let goods leave customs or a warehouse",
+    "mar": "تفرج عن بضاعة",
+    "ex": "Customs released the battery shipment yesterday.",
+    "ar": "الجمارك أفرجت عن شحنة البطاريات امبارح.",
+    "ex2": "Delivery to site is planned for Sunday.",
+    "ar2": "التوصيل للموقع متخطط يوم الحد."
+   },
+   {
+    "m": "publish a new version of software",
+    "mar": "تنزّل إصدار جديد",
+    "ex": "The manufacturer released new firmware for the VFD.",
+    "ar": "المصنّع نزّل سوفتوير جديد للـ‎VFD.‎",
+    "ex2": "It improves motor control at low speed.",
+    "ar2": "بيحسّن التحكم في الموتور على السرعة البطيئة."
+   }
+  ],
+  "syn": [
+   {
+    "w": "approve",
+    "note": "a manager's decision to accept",
+    "ex": "The Finance Manager approved the invoice on Monday.",
+    "ar": "المدير المالي وافق على الفاتورة يوم الاتنين.",
+    "ex2": "Once approved, AP releases it.",
+    "ar2": "أول ما تتوافق، الحسابات بتعتمدها."
+   },
+   {
+    "w": "free up",
+    "note": "informal; make cash or resources available",
+    "ex": "Collecting INV-0538 will free up cash for imports.",
+    "ar": "تحصيل ‎INV-0538‎ هيفك سيولة للاستيراد.",
+    "ex2": "It will also free up our credit limit.",
+    "ar2": "وكمان هيفك حد الائتمان بتاعنا."
+   }
+  ],
+  "ant": [
+   {
+    "w": "hold",
+    "ex": "The invoice is on hold until we get the signed delivery note.",
+    "ar": "الفاتورة موقوفة لحد ما ناخد إذن التسليم الممضي.",
+    "ex2": "We cannot pay invoices on hold.",
+    "ar2": "مش بنقدر ندفع فواتير موقوفة."
+   },
+   {
+    "w": "block",
+    "ex": "The system blocked the payment because of a missing PO.",
+    "ar": "السيستم وقف الدفع عشان الـ‎PO‎ مش موجود.",
+    "ex2": "AP unblocked it after the PO arrived.",
+    "ar2": "الحسابات فكّته بعد ما الـ‎PO‎ وصل."
+   }
+  ],
+  "ladder": null,
+  "ctx": "INV-0538 is on hold because the signed delivery note is missing. Once we receive it, I will release the invoice for payment.",
+  "ctx_ar": "‎INV-0538‎ موقوفة عشان إذن التسليم الممضي مش موجود. أول ما نستلمه، هعتمد الفاتورة للدفع.",
+  "quiz": [
+   {
+    "s": "I will ___ the invoice for payment next week.",
+    "opts": [
+     "released",
+     "release",
+     "hold"
+    ],
+    "a": 1,
+    "ar": "هعتمد الفاتورة للدفع الأسبوع الجاي."
+   },
+   {
+    "s": "The new firmware ___ fixes the UPS display bug.",
+    "opts": [
+     "release",
+     "approve",
+     "released"
+    ],
+    "a": 0,
+    "ar": "الإصدار الجديد من السوفتوير بيصلّح مشكلة شاشة الـ‎UPS.‎"
+   },
+   {
+    "s": "The invoice is on ___ until we get the signed delivery note.",
+    "opts": [
+     "release",
+     "free up",
+     "hold"
+    ],
+    "a": 2,
+    "ar": "الفاتورة موقوفة لحد ما ناخد إذن التسليم الممضي."
+   }
+  ]
+ }
+]

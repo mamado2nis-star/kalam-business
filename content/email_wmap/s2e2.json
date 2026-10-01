@@ -1,0 +1,595 @@
+[
+ {
+  "w": "failure",
+  "ar": "عطل كامل / وقوع الجهاز",
+  "book": "Disk 5 also shows a predictive failure warning.",
+  "family": [
+   {
+    "w": "fail",
+    "pos": "verb",
+    "ex": "If a second disk fails, the server will stop completely.",
+    "ar": "لو هارد تاني وقع، السيرفر هيقف خالص.",
+    "ex2": "That is why we want to replace disk 5 now.",
+    "ar2": "عشان كده عايزين نغيّر هارد 5 دلوقتي."
+   },
+   {
+    "w": "failure",
+    "pos": "noun",
+    "ex": "Battery failure is the most common cause of UPS downtime.",
+    "ar": "عطل البطاريات هو أشهر سبب لوقوف الـ‎UPS‎.",
+    "ex2": "Regular tests help us catch weak blocks before a failure.",
+    "ar2": "الاختبارات الدورية بتساعدنا نكتشف البلوكات الضعيفة قبل ما تقع."
+   },
+   {
+    "w": "failed",
+    "pos": "adjective",
+    "ex": "Please send the failed disk back to us for warranty.",
+    "ar": "من فضلك رجّعلنا الهارد البايظ عشان الضمان.",
+    "ex2": "The supplier needs the failed unit to approve the claim.",
+    "ar2": "المورّد محتاج القطعة البايظة عشان يوافق على الكليم."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "equipment stops working",
+    "mar": "جهاز يقف أو يبوظ",
+    "ex": "The chiller VFD had a power board failure last night.",
+    "ar": "الـ‎VFD‎ بتاع الـ‎chiller‎ حصل فيه عطل في الباور بورد امبارح بالليل.",
+    "ex2": "The building ran without cooling until morning.",
+    "ar2": "المبنى فضل من غير تكييف لحد الصبح."
+   },
+   {
+    "m": "not doing something you should do",
+    "mar": "إنك ماتعملش حاجة مطلوبة منك",
+    "ex": "Failure to pay by the due date will stop the maintenance visits.",
+    "ar": "عدم الدفع في الميعاد هيوقّف زيارات الصيانة.",
+    "ex2": "Please settle invoice 1045 this week.",
+    "ar2": "من فضلك سدّد فاتورة 1045 الأسبوع ده."
+   }
+  ],
+  "syn": [
+   {
+    "w": "breakdown",
+    "note": "machine stops suddenly; common for generators and UPS",
+    "ex": "The generator had a breakdown during the power cut.",
+    "ar": "المولد عطل أثناء انقطاع الكهربا.",
+    "ex2": "Luckily, the UPS batteries held the load.",
+    "ar2": "لحسن الحظ، بطاريات الـ‎UPS‎ شالت الحمل."
+   },
+   {
+    "w": "outage",
+    "note": "a service like power or network is lost",
+    "ex": "The network outage lasted five hours.",
+    "ar": "انقطاع الشبكة استمر خمس ساعات.",
+    "ex2": "No one could open the ERP during the outage.",
+    "ar2": "محدش قدر يفتح الـ‎ERP‎ طول فترة الانقطاع."
+   },
+   {
+    "w": "fault",
+    "note": "a problem inside; the device may still run",
+    "ex": "A fan fault can lead to a full drive failure.",
+    "ar": "عطل في المروحة ممكن يوصّل لوقوع الـ‎drive‎ كله.",
+    "ex2": "So we change fans before they stop.",
+    "ar2": "عشان كده بنغيّر المراوح قبل ما تقف."
+   }
+  ],
+  "ant": [
+   {
+    "w": "success",
+    "ex": "The disk rebuild finished with success at 04:00.",
+    "ar": "إعادة بناء الهارد خلصت بنجاح الساعة 4 الفجر.",
+    "ex2": "The server is now fully protected again.",
+    "ar2": "السيرفر بقى محمي بالكامل تاني."
+   }
+  ],
+  "ladder": {
+   "label": "how bad the disk condition is",
+   "lar": "حالة الهارد وحشة قد إيه",
+   "steps": [
+    {
+     "w": "warning",
+     "ex": "The server shows a warning about disk temperature.",
+     "ar": "السيرفر بيطلع تحذير عن حرارة الهارد.",
+     "ex2": "Nothing has stopped yet, but we must check it.",
+     "ar2": "لسه مافيش حاجة وقفت، بس لازم نكشف عليه."
+    },
+    {
+     "w": "predictive failure",
+     "ex": "Disk 5 shows a predictive failure, so replace it soon.",
+     "ar": "هارد 5 بيطلع إنذار إنه قرّب يبوظ، فغيّروه قريب.",
+     "ex2": "It still works, but it may fail within days.",
+     "ar2": "لسه شغال، بس ممكن يقع في خلال أيام."
+    },
+    {
+     "w": "failure",
+     "ex": "Disk 3 is a confirmed failure and is now offline.",
+     "ar": "هارد 3 بايظ رسمي وفاصل دلوقتي.",
+     "ex2": "The RAID array is running in degraded mode.",
+     "ar2": "الـ‎RAID array‎ شغال في الوضع الضعيف."
+    },
+    {
+     "w": "total failure",
+     "ex": "Two failed disks in RAID 5 means total failure of the server.",
+     "ar": "هاردين بايظين في ‎RAID 5‎ يعني السيرفر يقع خالص.",
+     "ex2": "Then we must restore everything from backup.",
+     "ar2": "ساعتها لازم نرجّع كل حاجة من الباك أب."
+    }
+   ]
+  },
+  "ctx": "Disk 3 has failed, and disk 5 shows a predictive failure warning. We recommend replacing both disks now.",
+  "ctx_ar": "هارد 3 باظ، وهارد 5 بيطلع إنذار إنه قرّب يبوظ. بننصح نغيّر الهاردين دلوقتي.",
+  "quiz": [
+   {
+    "s": "If a second disk ___, the server will stop.",
+    "opts": [
+     "failure",
+     "fails",
+     "failed"
+    ],
+    "a": 1,
+    "ar": "لو هارد تاني وقع، السيرفر هيقف."
+   },
+   {
+    "s": "Please send the ___ disk back for warranty.",
+    "opts": [
+     "fail",
+     "failure",
+     "failed"
+    ],
+    "a": 2,
+    "ar": "من فضلك رجّع الهارد البايظ عشان الضمان."
+   },
+   {
+    "s": "The generator had a ___ during the power cut, but the UPS held the load.",
+    "opts": [
+     "breakdown",
+     "success",
+     "warning"
+    ],
+    "a": 0,
+    "ar": "المولد عطل أثناء انقطاع الكهربا، بس الـ‎UPS‎ شال الحمل."
+   }
+  ]
+ },
+ {
+  "w": "root cause",
+  "ar": "السبب الأساسي (الجذري)",
+  "book": "In our opinion, the main root cause is the high temperature in the server room.",
+  "family": [
+   {
+    "w": "root cause",
+    "pos": "noun",
+    "ex": "The root cause of the UPS shutdown was three weak battery blocks.",
+    "ar": "السبب الأساسي لوقوف الـ‎UPS‎ كان تلات بلوكات بطارية ضعيفة.",
+    "ex2": "Replacing the blocks will stop it happening again.",
+    "ar2": "تغيير البلوكات هيمنع إنه يحصل تاني."
+   },
+   {
+    "w": "root-cause analysis",
+    "pos": "noun",
+    "ex": "The client asked for a root-cause analysis within 48 hours.",
+    "ar": "العميل طلب تحليل للسبب الجذري خلال 48 ساعة.",
+    "ex2": "We will send the report with photos and logs.",
+    "ar2": "هنبعت التقرير بالصور واللوجز."
+   },
+   {
+    "w": "cause",
+    "pos": "verb",
+    "ex": "Dust in the panel caused the VFD to overheat.",
+    "ar": "التراب في اللوحة خلّى الـ‎VFD‎ يسخن.",
+    "ex2": "We cleaned the filters, and the drive runs normally now.",
+    "ar2": "نضّفنا الفلاتر، والـ‎drive‎ شغال عادي دلوقتي."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "underlying cause",
+    "note": "formal; the hidden reason behind the visible problem",
+    "ex": "The underlying cause of the trips was a blocked air filter.",
+    "ar": "السبب الخفي ورا الفصل كان فلتر هوا مسدود.",
+    "ex2": "The fan was fine, but no air could pass.",
+    "ar2": "المروحة كانت سليمة، بس الهوا مكانش بيعدّي."
+   },
+   {
+    "w": "main reason",
+    "note": "simple everyday phrase; fine in short emails",
+    "ex": "The main reason for the delay was a missing part.",
+    "ar": "السبب الرئيسي للتأخير كان قطعة ناقصة.",
+    "ex2": "The part arrived from Germany yesterday.",
+    "ar2": "القطعة وصلت من ألمانيا امبارح."
+   },
+   {
+    "w": "source",
+    "note": "where the problem starts; used in technical checks",
+    "ex": "We traced the source of the noise to a loose fan.",
+    "ar": "تتبعنا مصدر الصوت ولقيناه مروحة سايبة.",
+    "ex2": "Tightening it solved the problem.",
+    "ar2": "لما ربطناها المشكلة اتحلت."
+   }
+  ],
+  "ant": [
+   {
+    "w": "symptom",
+    "ex": "The beeping is only a symptom; the real problem is the hot room.",
+    "ar": "الصفير ده مجرد عَرَض؛ المشكلة الحقيقية إن الأوضة سخنة.",
+    "ex2": "If we fix only the beep, the disks will fail again.",
+    "ar2": "لو صلّحنا الصفير بس، الهاردات هتبوظ تاني."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The disk failed because the room reached 31°C. In our opinion, the high temperature is the root cause.",
+  "ctx_ar": "الهارد باظ عشان الأوضة وصلت 31 درجة. في رأينا، الحرارة العالية هي السبب الأساسي.",
+  "quiz": [
+   {
+    "s": "The client asked for a ___ within 48 hours.",
+    "opts": [
+     "root-cause analysis",
+     "cause",
+     "symptom"
+    ],
+    "a": 0,
+    "ar": "العميل طلب تحليل للسبب الجذري خلال 48 ساعة."
+   },
+   {
+    "s": "Dust in the panel ___ the VFD to overheat.",
+    "opts": [
+     "root cause",
+     "caused",
+     "source"
+    ],
+    "a": 1,
+    "ar": "التراب في اللوحة خلّى الـ‎VFD‎ يسخن."
+   },
+   {
+    "s": "The beeping is just a ___; the hot room is the real problem.",
+    "opts": [
+     "source",
+     "root cause",
+     "symptom"
+    ],
+    "a": 2,
+    "ar": "الصفير مجرد عَرَض؛ الأوضة السخنة هي المشكلة الحقيقية."
+   }
+  ]
+ },
+ {
+  "w": "approve",
+  "ar": "يوافق / يعتمد",
+  "book": "We approve Option B, and our PO will follow today.",
+  "family": [
+   {
+    "w": "approve",
+    "pos": "verb",
+    "ex": "Management approved the quotation for the 40 battery blocks.",
+    "ar": "الإدارة وافقت على عرض السعر لـ40 بلوك بطارية.",
+    "ex2": "The PO will reach you before Thursday.",
+    "ar2": "الـ‎PO‎ هيوصلك قبل الخميس."
+   },
+   {
+    "w": "approval",
+    "pos": "noun",
+    "ex": "We need your written approval before we start the replacement.",
+    "ar": "محتاجين موافقتك كتابة قبل ما نبدأ التغيير.",
+    "ex2": "A short reply to this email is enough.",
+    "ar2": "رد قصير على الإيميل ده كفاية."
+   },
+   {
+    "w": "approved",
+    "pos": "adjective",
+    "ex": "Only approved suppliers can deliver to the hospital.",
+    "ar": "الموردين المعتمدين بس اللي يقدروا يسلّموا للمستشفى.",
+    "ex2": "We have been an approved UPS supplier since 2019.",
+    "ar2": "إحنا مورّد ‎UPS‎ معتمد من 2019."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "authorise",
+    "note": "formal; give official permission, often for payment or work",
+    "ex": "Please authorise the extra cost of EGP 9,800.",
+    "ar": "من فضلك اعتمد التكلفة الزيادة 9,800 جنيه.",
+    "ex2": "The repair cannot continue without it.",
+    "ar2": "التصليح مش هيكمّل من غيرها."
+   },
+   {
+    "w": "agree to",
+    "note": "softer; you say yes to a plan or request",
+    "ex": "The client agreed to a night shift for the disk replacement.",
+    "ar": "العميل وافق على وردية بالليل لتغيير الهارد.",
+    "ex2": "So the hospital will not feel any slowdown.",
+    "ar2": "كده المستشفى مش هيحس بأي بطء."
+   },
+   {
+    "w": "sign off on",
+    "note": "informal; final OK from a manager",
+    "ex": "The finance manager signed off on the new price list.",
+    "ar": "المدير المالي مضى على قايمة الأسعار الجديدة.",
+    "ex2": "We can send it to customers tomorrow.",
+    "ar2": "نقدر نبعتها للعملا بكرة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "reject",
+    "ex": "The client rejected Option A because of the risk.",
+    "ar": "العميل رفض الاختيار ‎A‎ بسبب المخاطرة.",
+    "ex2": "They chose to replace both disks at once.",
+    "ar2": "اختاروا يغيّروا الهاردين مرة واحدة."
+   },
+   {
+    "w": "decline",
+    "ex": "Sadly, we must decline the 20% discount request.",
+    "ar": "للأسف لازم نرفض طلب الخصم 20%.",
+    "ex2": "Our margin on these batteries is already thin.",
+    "ar2": "هامشنا في البطاريات دي ضعيف أصلًا."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The hospital approved Option B this morning. Our engineers can start the disk replacement on Wednesday night.",
+  "ctx_ar": "المستشفى وافقت على الاختيار ‎B‎ النهارده الصبح. مهندسينا يقدروا يبدأوا تغيير الهاردات يوم الأربع بالليل.",
+  "quiz": [
+   {
+    "s": "We need your written ___ before we start.",
+    "opts": [
+     "approve",
+     "approval",
+     "approved"
+    ],
+    "a": 1,
+    "ar": "محتاجين موافقتك كتابة قبل ما نبدأ."
+   },
+   {
+    "s": "Only ___ suppliers can deliver to the hospital.",
+    "opts": [
+     "approve",
+     "approval",
+     "approved"
+    ],
+    "a": 2,
+    "ar": "الموردين المعتمدين بس اللي يقدروا يسلّموا للمستشفى."
+   },
+   {
+    "s": "Sadly, we must ___ the discount request.",
+    "opts": [
+     "decline",
+     "authorise",
+     "agree to"
+    ],
+    "a": 0,
+    "ar": "للأسف لازم نرفض طلب الخصم."
+   }
+  ]
+ },
+ {
+  "w": "propose",
+  "ar": "يقترح / يعرض",
+  "book": "We propose to start at 22:00 on Wednesday, 22 October.",
+  "family": [
+   {
+    "w": "propose",
+    "pos": "verb",
+    "ex": "We propose to replace the batteries on Saturday morning.",
+    "ar": "بنقترح نغيّر البطاريات يوم السبت الصبح.",
+    "ex2": "The factory is closed then, so there is no downtime.",
+    "ar2": "المصنع بيبقى قافل ساعتها، فمافيش توقف."
+   },
+   {
+    "w": "proposal",
+    "pos": "noun",
+    "ex": "Please find attached our proposal for a 60 kW solar station.",
+    "ar": "مرفق عرضنا لمحطة طاقة شمسية 60 ‎kW‎.",
+    "ex2": "It includes panels, inverters and two years of maintenance.",
+    "ar2": "بيشمل الألواح والإنفرترات وصيانة سنتين."
+   },
+   {
+    "w": "proposed",
+    "pos": "adjective",
+    "ex": "The proposed date for the site visit is 12 November.",
+    "ar": "الميعاد المقترح لزيارة الموقع 12 نوفمبر.",
+    "ex2": "Please confirm if this date suits your team.",
+    "ar2": "من فضلك أكّد لو الميعاد ده مناسب لفريقك."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "suggest",
+    "note": "lighter; an idea, not a formal plan",
+    "ex": "May I suggest a short call to discuss the options?",
+    "ar": "ممكن أقترح مكالمة قصيرة نتكلم فيها عن الاختيارات؟",
+    "ex2": "Ten minutes would be enough.",
+    "ar2": "عشر دقايق كفاية."
+   },
+   {
+    "w": "offer",
+    "note": "you give something, often a price or service",
+    "ex": "We can offer a free cooling unit until Thursday.",
+    "ar": "نقدر نقدّم وحدة تبريد ببلاش لحد الخميس.",
+    "ex2": "Our engineer will install it tomorrow morning.",
+    "ar2": "المهندس بتاعنا هيركّبها بكرة الصبح."
+   },
+   {
+    "w": "put forward",
+    "note": "formal; present an idea for discussion",
+    "ex": "Sales put forward a plan to bundle UPS units with maintenance.",
+    "ar": "المبيعات قدّمت خطة نبيع الـ‎UPS‎ مع الصيانة في باكدج واحدة.",
+    "ex2": "Management will discuss it next week.",
+    "ar2": "الإدارة هتناقشها الأسبوع الجاي."
+   }
+  ],
+  "ant": [
+   {
+    "w": "withdraw",
+    "ex": "We had to withdraw our offer because the supplier raised prices.",
+    "ar": "اضطرينا نسحب عرضنا عشان المورّد زوّد الأسعار.",
+    "ex2": "A revised offer will follow by Sunday.",
+    "ar2": "عرض معدّل هيوصلكم لحد الحد."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We propose to start the disk replacement at 22:00 on Wednesday. Please confirm that this time suits your team.",
+  "ctx_ar": "بنقترح نبدأ تغيير الهاردات الساعة 10 بالليل يوم الأربع. من فضلك أكّد إن الوقت ده مناسب لفريقك.",
+  "quiz": [
+   {
+    "s": "Please find attached our ___ for the solar station.",
+    "opts": [
+     "propose",
+     "proposal",
+     "proposed"
+    ],
+    "a": 1,
+    "ar": "مرفق عرضنا لمحطة الطاقة الشمسية."
+   },
+   {
+    "s": "The ___ date for the visit is 12 November.",
+    "opts": [
+     "proposed",
+     "proposal",
+     "propose"
+    ],
+    "a": 0,
+    "ar": "الميعاد المقترح للزيارة 12 نوفمبر."
+   },
+   {
+    "s": "The supplier raised prices, so we had to ___ our offer.",
+    "opts": [
+     "suggest",
+     "put forward",
+     "withdraw"
+    ],
+    "a": 2,
+    "ar": "المورّد زوّد الأسعار، فاضطرينا نسحب عرضنا."
+   }
+  ]
+ },
+ {
+  "w": "risk",
+  "ar": "مخاطرة / خطر",
+  "book": "We cannot risk losing patient data.",
+  "family": [
+   {
+    "w": "risk",
+    "pos": "noun",
+    "ex": "There is a risk of data loss if a second disk fails.",
+    "ar": "فيه خطر إن الداتا تضيع لو هارد تاني وقع.",
+    "ex2": "That is why we want a full backup first.",
+    "ar2": "عشان كده عايزين باك أب كامل الأول."
+   },
+   {
+    "w": "risk",
+    "pos": "verb",
+    "ex": "We cannot risk running the server room at 31°C.",
+    "ar": "مانقدرش نخاطر ونشغّل أوضة السيرفرات على 31 درجة.",
+    "ex2": "A portable cooling unit will arrive tomorrow.",
+    "ar2": "وحدة تبريد متنقلة هتوصل بكرة."
+   },
+   {
+    "w": "risky",
+    "pos": "adjective",
+    "ex": "Updating the UPS firmware during working hours is risky.",
+    "ar": "تحديث ‎firmware‎ الـ‎UPS‎ في مواعيد الشغل فيه مخاطرة.",
+    "ex2": "We will do it after the plant closes.",
+    "ar2": "هنعمله بعد ما المصنع يقفل."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "danger",
+    "note": "physical harm to people or equipment; stronger",
+    "ex": "Water near the battery room is a real danger.",
+    "ar": "المية جنب أوضة البطاريات خطر حقيقي.",
+    "ex2": "Please fix the leak before our next visit.",
+    "ar2": "من فضلك صلّحوا التسريب قبل زيارتنا الجاية."
+   },
+   {
+    "w": "threat",
+    "note": "something that may cause damage in the future",
+    "ex": "Old batteries are a threat to your server uptime.",
+    "ar": "البطاريات القديمة تهديد لاستمرار تشغيل السيرفرات بتاعتكم.",
+    "ex2": "One weak block can stop the whole string.",
+    "ar2": "بلوك واحد ضعيف ممكن يوقّف الصف كله."
+   },
+   {
+    "w": "hazard",
+    "note": "safety term; used in reports and on site",
+    "ex": "Loose cables in the panel are a fire hazard.",
+    "ar": "الكابلات السايبة في اللوحة خطر حريق.",
+    "ex2": "Our technician tied them before closing the panel.",
+    "ar2": "الفني بتاعنا ربطها قبل ما يقفل اللوحة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "safety",
+    "ex": "For safety, we switch the UPS to bypass before any work.",
+    "ar": "عشان الأمان، بنحوّل الـ‎UPS‎ على الـ‎bypass‎ قبل أي شغل.",
+    "ex2": "This protects both the engineer and the load.",
+    "ar2": "ده بيحمي المهندس والحمل مع بعض."
+   }
+  ],
+  "ladder": {
+   "label": "how likely a problem is",
+   "lar": "احتمال المشكلة قد إيه",
+   "steps": [
+    {
+     "w": "low risk",
+     "ex": "Changing a hot-swappable disk is low risk.",
+     "ar": "تغيير هارد ‎hot-swappable‎ مخاطرته قليلة.",
+     "ex2": "The server keeps running during the work.",
+     "ar2": "السيرفر بيفضل شغال أثناء الشغل."
+    },
+    {
+     "w": "medium risk",
+     "ex": "A firmware update is medium risk, so we plan a backup.",
+     "ar": "تحديث الـ‎firmware‎ مخاطرته متوسطة، فبنجهز باك أب.",
+     "ex2": "If anything goes wrong, we restore it.",
+     "ar2": "لو حصل أي حاجة، بنرجّعه."
+    },
+    {
+     "w": "high risk",
+     "ex": "Running RAID 5 in degraded mode is high risk.",
+     "ar": "تشغيل ‎RAID 5‎ في الوضع الضعيف مخاطرة عالية.",
+     "ex2": "One more failed disk would stop the HIS.",
+     "ar2": "هارد كمان يبوظ يوقّف الـ‎HIS‎."
+    }
+   ]
+  },
+  "ctx": "If there is any risk to patient data, we prefer to do the work at night. Please confirm the backup first.",
+  "ctx_ar": "لو فيه أي خطر على داتا المرضى، بنفضّل نعمل الشغل بالليل. من فضلك أكّد الباك أب الأول.",
+  "quiz": [
+   {
+    "s": "Updating the firmware during working hours is ___.",
+    "opts": [
+     "risk",
+     "risky",
+     "safety"
+    ],
+    "a": 1,
+    "ar": "تحديث الـ‎firmware‎ في مواعيد الشغل فيه مخاطرة."
+   },
+   {
+    "s": "We cannot ___ running the server room at 31°C.",
+    "opts": [
+     "hazard",
+     "risky",
+     "risk"
+    ],
+    "a": 2,
+    "ar": "مانقدرش نخاطر ونشغّل أوضة السيرفرات على 31 درجة."
+   },
+   {
+    "s": "Loose cables in the panel are a fire ___.",
+    "opts": [
+     "hazard",
+     "safety",
+     "low risk"
+    ],
+    "a": 0,
+    "ar": "الكابلات السايبة في اللوحة خطر حريق."
+   }
+  ]
+ }
+]

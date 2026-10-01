@@ -1,0 +1,632 @@
+[
+ {
+  "w": "due",
+  "ar": "مستحق",
+  "book": "According to our agreed terms of 60 days from the invoice date, the payment is due on 26 January 2026.",
+  "family": [
+   {
+    "w": "due",
+    "pos": "adjective",
+    "ex": "The payment for INV-0461 is due on 26 January.",
+    "ar": "دفع ‎INV-0461‎ مستحق يوم 26 يناير.",
+    "ex2": "Please confirm you can pay on the due date.",
+    "ar2": "لو سمحت أكّد إنك تقدر تدفع في ميعاد الاستحقاق."
+   },
+   {
+    "w": "due date",
+    "pos": "noun",
+    "ex": "Please confirm the due date for this invoice.",
+    "ar": "لو سمحت أكّد ميعاد استحقاق الفاتورة دي.",
+    "ex2": "The due date is 60 days from the invoice date.",
+    "ar2": "ميعاد الاستحقاق 60 يوم من تاريخ الفاتورة."
+   },
+   {
+    "w": "dues",
+    "pos": "noun",
+    "ex": "The client paid all his dues before the new order.",
+    "ar": "العميل دفع كل المستحقات عليه قبل الأوردر الجديد.",
+    "ex2": "With no dues left, we released the order.",
+    "ar2": "ومفيش مستحقات باقية، فطلّعنا الأوردر."
+   },
+   {
+    "w": "duly",
+    "pos": "adverb",
+    "ex": "Please return the contract duly signed and stamped.",
+    "ar": "لو سمحت رجّع العقد ممضي ومختوم حسب الأصول.",
+    "ex2": "We received it duly signed this morning.",
+    "ar2": "استلمناه ممضي زي ما المفروض الصبح."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "must be paid by a date",
+    "mar": "لازم يتدفع في ميعاد",
+    "ex": "The second cheque is due on 15 February.",
+    "ar": "الشيك التاني مستحق يوم 15 فبراير.",
+    "ex2": "Please make sure the funds are ready.",
+    "ar2": "لو سمحت اتأكد إن الفلوس جاهزة."
+   },
+   {
+    "m": "expected to arrive or happen",
+    "mar": "متوقع يوصل أو يحصل",
+    "ex": "The battery shipment is due on Sunday.",
+    "ar": "شحنة البطاريات متوقع توصل يوم الحد.",
+    "ex2": "Installation is due to start on Tuesday.",
+    "ar2": "التركيب المفروض يبدأ يوم التلات."
+   },
+   {
+    "m": "due to = because of",
+    "mar": "بسبب",
+    "ex": "The delay was due to customs inspection.",
+    "ar": "التأخير كان بسبب تفتيش الجمارك.",
+    "ex2": "Due to the holiday, delivery moves to Monday.",
+    "ar2": "بسبب الأجازة، التسليم اتأجل للاتنين."
+   }
+  ],
+  "syn": [
+   {
+    "w": "payable",
+    "note": "formal; on invoices: payable within 60 days",
+    "ex": "The amount is payable within 60 days of the invoice.",
+    "ar": "المبلغ واجب الدفع خلال 60 يوم من الفاتورة.",
+    "ex2": "It is payable by bank transfer or cheque.",
+    "ar2": "بيتدفع بتحويل بنكي أو شيك."
+   },
+   {
+    "w": "outstanding",
+    "note": "still unpaid, not necessarily late",
+    "ex": "There is EGP 96,900 outstanding on your account.",
+    "ar": "فيه 96,900 جنيه لسه متدفعوش على حسابكم.",
+    "ex2": "The outstanding amount is for the batteries.",
+    "ar2": "المبلغ المتبقي ده للبطاريات."
+   }
+  ],
+  "ant": [
+   {
+    "w": "paid",
+    "ex": "Invoice INV-0461 is now fully paid.",
+    "ar": "فاتورة ‎INV-0461‎ اتدفعت بالكامل.",
+    "ex2": "We sent the official receipt for the paid invoice.",
+    "ar2": "بعتنا الإيصال الرسمي للفاتورة المدفوعة."
+   }
+  ],
+  "ladder": {
+   "label": "how late the payment is",
+   "lar": "الدفع متأخر قد إيه",
+   "steps": [
+    {
+     "w": "due",
+     "ex": "The payment is due today.",
+     "ar": "الدفع مستحق النهارده.",
+     "ex2": "Please arrange the transfer before 3 pm.",
+     "ar2": "لو سمحت جهّز التحويل قبل الساعة 3."
+    },
+    {
+     "w": "past due",
+     "ex": "INV-0512 is now past due by one week.",
+     "ar": "‎INV-0512‎ عدّى ميعاده بأسبوع.",
+     "ex2": "Could you please share the payment date?",
+     "ar2": "ممكن تبلّغنا بميعاد الدفع؟"
+    },
+    {
+     "w": "overdue",
+     "ex": "The invoice is now 30 days overdue.",
+     "ar": "الفاتورة متأخرة 30 يوم.",
+     "ex2": "We have sent two reminders already.",
+     "ar2": "بعتنا تذكيرين خلاص."
+    },
+    {
+     "w": "seriously overdue",
+     "ex": "This account is seriously overdue, at 90 days.",
+     "ar": "الحساب ده متأخر جداً، 90 يوم.",
+     "ex2": "We must escalate it to our Finance Director.",
+     "ar2": "لازم نصعّده للمدير المالي."
+    }
+   ]
+  },
+  "ctx": "The payment for INV-0461 is due on 26 January. Could you please confirm the due date and the payment method?",
+  "ctx_ar": "دفع ‎INV-0461‎ مستحق يوم 26 يناير. ممكن تأكّد ميعاد الاستحقاق وطريقة الدفع؟",
+  "quiz": [
+   {
+    "s": "The payment is ___ on 26 January.",
+    "opts": [
+     "due",
+     "duly",
+     "dues"
+    ],
+    "a": 0,
+    "ar": "الدفع مستحق يوم 26 يناير."
+   },
+   {
+    "s": "Please return the contract ___ signed and stamped.",
+    "opts": [
+     "due",
+     "dues",
+     "duly"
+    ],
+    "a": 2,
+    "ar": "لو سمحت رجّع العقد ممضي ومختوم حسب الأصول."
+   },
+   {
+    "s": "The invoice was due last week; it is now ___.",
+    "opts": [
+     "paid",
+     "past due",
+     "payable"
+    ],
+    "a": 1,
+    "ar": "الفاتورة كان ميعادها الأسبوع اللي فات؛ دلوقتي عدّت ميعادها."
+   }
+  ]
+ },
+ {
+  "w": "cash flow",
+  "ar": "التدفق النقدي / السيولة",
+  "book": "However, because of our cash flow plan, our finance department would like to pay in two post-dated cheques: 50% on 26 January and 50% on 26 February.",
+  "family": [
+   {
+    "w": "cash",
+    "pos": "noun",
+    "ex": "We don't keep much cash in the office.",
+    "ar": "مش بنحتفظ بكاش كتير في المكتب.",
+    "ex2": "Most customers pay by cheque, not cash.",
+    "ar2": "أغلب العملا بيدفعوا بشيكات مش كاش."
+   },
+   {
+    "w": "cash",
+    "pos": "verb",
+    "ex": "You can cash the cheque at any Banque Misr branch.",
+    "ar": "تقدر تصرف الشيك من أي فرع بنك مصر.",
+    "ex2": "We usually deposit cheques instead of cashing them.",
+    "ar2": "عادةً بنودّع الشيكات بدل ما نصرفها."
+   },
+   {
+    "w": "cash flow",
+    "pos": "noun",
+    "ex": "Late collections hurt our cash flow this month.",
+    "ar": "التحصيلات المتأخرة أثّرت على السيولة الشهر ده.",
+    "ex2": "Good cash flow lets us pay suppliers on time.",
+    "ar2": "السيولة الكويسة بتخلّينا ندفع للموردين في ميعادهم."
+   },
+   {
+    "w": "cashier",
+    "pos": "person",
+    "ex": "The cashier will give your courier an official receipt.",
+    "ar": "الكاشير هيدّي المندوب بتاعك إيصال رسمي.",
+    "ex2": "Please ask for the cashier on the ground floor.",
+    "ar2": "لو سمحت اسأل على الكاشير في الدور الأرضي."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "liquidity",
+    "note": "formal finance word; cash available right now",
+    "ex": "The company has low liquidity until its customers pay.",
+    "ar": "الشركة سيولتها قليلة لحد ما العملا يدفعوا.",
+    "ex2": "Liquidity improves after the big tender payment.",
+    "ar2": "السيولة هتتحسن بعد دفعة المناقصة الكبيرة."
+   },
+   {
+    "w": "working capital",
+    "note": "money for daily operations: stock, salaries, suppliers",
+    "ex": "Big battery stock ties up our working capital.",
+    "ar": "مخزون البطاريات الكبير بيحبس رأس المال العامل.",
+    "ex2": "We need working capital to import the next UPS shipment.",
+    "ar2": "محتاجين رأس مال عامل عشان نستورد شحنة الـ‎UPS‎ الجاية."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how healthy the cash is",
+   "lar": "السيولة كويسة قد إيه",
+   "steps": [
+    {
+     "w": "tight cash flow",
+     "ex": "We have a tight cash flow this month because two clients paid late.",
+     "ar": "السيولة عندنا ضيقة الشهر ده عشان عميلين دفعوا متأخر.",
+     "ex2": "So we are delaying non-urgent purchases.",
+     "ar2": "فبنأجل المشتريات اللي مش مستعجلة."
+    },
+    {
+     "w": "stable cash flow",
+     "ex": "Maintenance contracts give us a stable cash flow.",
+     "ar": "عقود الصيانة بتدّينا سيولة مستقرة.",
+     "ex2": "They are paid every quarter.",
+     "ar2": "بتتدفع كل ربع سنة."
+    },
+    {
+     "w": "strong cash flow",
+     "ex": "After the tender payment, we have a strong cash flow.",
+     "ar": "بعد دفعة المناقصة السيولة عندنا قوية.",
+     "ex2": "We can now pay our battery supplier in advance.",
+     "ar2": "نقدر دلوقتي ندفع لمورد البطاريات مقدم."
+    }
+   ]
+  },
+  "ctx": "We understand your cash flow plan and want to support you. However, a full extra month is difficult for our own cash flow.",
+  "ctx_ar": "فاهمين خطة السيولة عندكم وعايزين ندعمكم. بس شهر زيادة كامل صعب على السيولة بتاعتنا.",
+  "quiz": [
+   {
+    "s": "Late collections hurt our ___.",
+    "opts": [
+     "cashier",
+     "cash flow",
+     "cash"
+    ],
+    "a": 1,
+    "ar": "التحصيلات المتأخرة أثّرت على السيولة بتاعتنا."
+   },
+   {
+    "s": "You can ___ the cheque at any Banque Misr branch.",
+    "opts": [
+     "cash flow",
+     "cashier",
+     "cash"
+    ],
+    "a": 2,
+    "ar": "تقدر تصرف الشيك من أي فرع بنك مصر."
+   },
+   {
+    "s": "We have a ___ this month because two big customers paid late.",
+    "opts": [
+     "tight cash flow",
+     "strong cash flow",
+     "working capital"
+    ],
+    "a": 0,
+    "ar": "السيولة عندنا ضيقة الشهر ده عشان عميلين كبار دفعوا متأخر."
+   }
+  ]
+ },
+ {
+  "w": "schedule",
+  "ar": "جدول / ميعاد",
+  "book": "Could you please confirm this schedule?",
+  "family": [
+   {
+    "w": "schedule",
+    "pos": "noun",
+    "ex": "Please confirm the payment schedule for INV-0461.",
+    "ar": "لو سمحت أكّد جدول الدفع لـ‎INV-0461.‎",
+    "ex2": "The schedule has two cheques, one month apart.",
+    "ar2": "الجدول فيه شيكين بينهم شهر."
+   },
+   {
+    "w": "schedule",
+    "pos": "verb",
+    "ex": "Our treasury team has scheduled the first transfer.",
+    "ar": "فريق الخزينة جدول أول تحويل.",
+    "ex2": "We will schedule the second one for 16 July.",
+    "ar2": "هنجدول التاني يوم 16 يوليو."
+   },
+   {
+    "w": "scheduled",
+    "pos": "adjective",
+    "ex": "The scheduled maintenance visit is on 3 March.",
+    "ar": "زيارة الصيانة المجدولة يوم 3 مارس.",
+    "ex2": "The engineer will test the batteries during the scheduled visit.",
+    "ar2": "المهندس هيختبر البطاريات في الزيارة دي."
+   },
+   {
+    "w": "scheduling",
+    "pos": "noun",
+    "ex": "Scheduling site visits is hard during Ramadan.",
+    "ar": "تنظيم مواعيد زيارات المواقع صعب في رمضان.",
+    "ex2": "Our coordinator handles all scheduling.",
+    "ar2": "المنسّق بتاعنا هو اللي بيظبط كل المواعيد."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "timetable",
+    "note": "fixed times, e.g. deliveries or shifts",
+    "ex": "The delivery timetable shows two trucks per week.",
+    "ar": "جدول التوصيل فيه عربيتين في الأسبوع.",
+    "ex2": "The timetable changes in Ramadan.",
+    "ar2": "الجدول بيتغيّر في رمضان."
+   },
+   {
+    "w": "plan",
+    "note": "general; can be loose or detailed",
+    "ex": "Our payment plan has two instalments.",
+    "ar": "خطة الدفع فيها قسطين.",
+    "ex2": "The plan was approved by their Finance Manager.",
+    "ar2": "الخطة اتوافق عليها من المدير المالي عندهم."
+   },
+   {
+    "w": "timeline",
+    "note": "project stages over time",
+    "ex": "The project timeline shows installation in week 6.",
+    "ar": "الجدول الزمني للمشروع فيه التركيب في الأسبوع السادس.",
+    "ex2": "Any battery delay will move the timeline.",
+    "ar2": "أي تأخير في البطاريات هيحرّك الجدول الزمني."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "progress against the plan",
+   "lar": "التقدّم مقارنة بالخطة",
+   "steps": [
+    {
+     "w": "behind schedule",
+     "ex": "The project is two weeks behind schedule.",
+     "ar": "المشروع متأخر أسبوعين عن الجدول.",
+     "ex2": "The batteries arrived late from the supplier.",
+     "ar2": "البطاريات وصلت متأخرة من المورد."
+    },
+    {
+     "w": "on schedule",
+     "ex": "Installation is on schedule for 23 November.",
+     "ar": "التركيب ماشي حسب الجدول يوم 23 نوفمبر.",
+     "ex2": "Commissioning will follow the next day.",
+     "ar2": "التشغيل هيكون تاني يوم."
+    },
+    {
+     "w": "ahead of schedule",
+     "ex": "We finished the solar station ahead of schedule.",
+     "ar": "خلّصنا محطة الطاقة الشمسية قبل الميعاد.",
+     "ex2": "The client was happy to start early.",
+     "ar2": "العميل كان مبسوط إنه يبدأ بدري."
+    }
+   ]
+  },
+  "ctx": "Please find the agreed payment schedule below. Could you please confirm this schedule by Thursday?",
+  "ctx_ar": "تحت جدول الدفع المتفق عليه. ممكن تأكّد الجدول ده قبل الخميس؟",
+  "quiz": [
+   {
+    "s": "Please confirm the payment ___.",
+    "opts": [
+     "scheduling",
+     "schedule",
+     "scheduled"
+    ],
+    "a": 1,
+    "ar": "لو سمحت أكّد جدول الدفع."
+   },
+   {
+    "s": "The ___ maintenance visit is on 3 March.",
+    "opts": [
+     "schedule",
+     "scheduling",
+     "scheduled"
+    ],
+    "a": 2,
+    "ar": "زيارة الصيانة المجدولة يوم 3 مارس."
+   },
+   {
+    "s": "The project is two weeks ___ because the batteries arrived late.",
+    "opts": [
+     "behind schedule",
+     "on schedule",
+     "ahead of schedule"
+    ],
+    "a": 0,
+    "ar": "المشروع متأخر أسبوعين عشان البطاريات وصلت متأخر."
+   }
+  ]
+ },
+ {
+  "w": "acceptable",
+  "ar": "مقبول",
+  "book": "Please let me know if this is acceptable.",
+  "family": [
+   {
+    "w": "accept",
+    "pos": "verb",
+    "ex": "We can accept two post-dated cheques.",
+    "ar": "نقدر نقبل شيكين بتاريخ مؤجل.",
+    "ex2": "But we cannot accept an extra full month.",
+    "ar2": "بس مش هنقدر نقبل شهر زيادة كامل."
+   },
+   {
+    "w": "acceptance",
+    "pos": "noun",
+    "ex": "We confirm receipt and acceptance of the PO.",
+    "ar": "بنأكّد استلام وقبول الـ‎PO.‎",
+    "ex2": "Acceptance means we agree to all its terms.",
+    "ar2": "القبول معناه إننا موافقين على كل شروطه."
+   },
+   {
+    "w": "acceptable",
+    "pos": "adjective",
+    "ex": "Please let me know if this date is acceptable.",
+    "ar": "لو سمحت قولّي لو التاريخ ده مناسب.",
+    "ex2": "If not, we can suggest another one.",
+    "ar2": "لو لأ، نقدر نقترح تاريخ تاني."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "OK",
+    "note": "informal; for quick replies",
+    "ex": "Is 11 am OK for the cheque pick-up?",
+    "ar": "الساعة 11 مناسبة لاستلام الشيكات؟",
+    "ex2": "Yes, 11 am is OK.",
+    "ar2": "أيوه، 11 تمام."
+   },
+   {
+    "w": "agreeable",
+    "note": "formal; if these terms are agreeable to you",
+    "ex": "If these terms are agreeable, please sign the contract.",
+    "ar": "لو الشروط دي مناسبة ليكم، لو سمحت امضوا العقد.",
+    "ex2": "Their Finance Manager found the terms agreeable.",
+    "ar2": "المدير المالي عندهم شاف الشروط مقبولة."
+   },
+   {
+    "w": "workable",
+    "note": "can work in practice, though not perfect",
+    "ex": "Two cheques a month apart is a workable solution.",
+    "ar": "شيكين بينهم شهر حل ممكن يمشي.",
+    "ex2": "It is workable for both companies.",
+    "ar2": "حل عملي للشركتين."
+   }
+  ],
+  "ant": [
+   {
+    "w": "unacceptable",
+    "ex": "A 120-day payment term is unacceptable for us.",
+    "ar": "مدة دفع 120 يوم مش مقبولة بالنسبة لنا.",
+    "ex2": "Our maximum is 60 days.",
+    "ar2": "أقصى حاجة عندنا 60 يوم."
+   }
+  ],
+  "ladder": {
+   "label": "how happy we are with it",
+   "lar": "راضيين عنه قد إيه",
+   "steps": [
+    {
+     "w": "workable",
+     "ex": "Paying in three cheques is workable for us.",
+     "ar": "الدفع على تلات شيكات ممكن يمشي معانا.",
+     "ex2": "But we would prefer two.",
+     "ar2": "بس نفضّل اتنين."
+    },
+    {
+     "w": "acceptable",
+     "ex": "Two cheques a month apart are acceptable.",
+     "ar": "شيكين بينهم شهر مقبولين.",
+     "ex2": "Please confirm the dates in writing.",
+     "ar2": "لو سمحت أكّد التواريخ كتابة."
+    },
+    {
+     "w": "ideal",
+     "ex": "A single bank transfer on the due date is ideal.",
+     "ar": "تحويل بنكي واحد في ميعاد الاستحقاق ده المثالي.",
+     "ex2": "It is ideal because it clears the same day.",
+     "ar2": "مثالي لأنه بيتصرف في نفس اليوم."
+    }
+   ]
+  },
+  "ctx": "Our finance team asks to pay in two cheques. Please let me know if this schedule is acceptable to NPS.",
+  "ctx_ar": "فريق المالية عندنا بيطلب الدفع على شيكين. لو سمحت قولّي لو الجدول ده مقبول لـ‎NPS.‎",
+  "quiz": [
+   {
+    "s": "Please let me know if this date is ___.",
+    "opts": [
+     "accept",
+     "acceptable",
+     "acceptance"
+    ],
+    "a": 1,
+    "ar": "لو سمحت قولّي لو التاريخ ده مناسب."
+   },
+   {
+    "s": "We confirm receipt and ___ of the PO.",
+    "opts": [
+     "acceptable",
+     "accept",
+     "acceptance"
+    ],
+    "a": 2,
+    "ar": "بنأكّد استلام وقبول الـ‎PO.‎"
+   },
+   {
+    "s": "A 120-day payment term is ___ for us; our maximum is 60.",
+    "opts": [
+     "unacceptable",
+     "agreeable",
+     "workable"
+    ],
+    "a": 0,
+    "ar": "مدة دفع 120 يوم مش مقبولة لينا؛ أقصى حاجة 60."
+   }
+  ]
+ },
+ {
+  "w": "flexibility",
+  "ar": "مرونة",
+  "book": "Thank you for your flexibility on this matter.",
+  "family": [
+   {
+    "w": "flexible",
+    "pos": "adjective",
+    "ex": "Can you be flexible on the payment terms?",
+    "ar": "ممكن تكون مرن في شروط الدفع؟",
+    "ex2": "We can be flexible on the delivery date.",
+    "ar2": "نقدر نكون مرنين في ميعاد التسليم."
+   },
+   {
+    "w": "flexibility",
+    "pos": "noun",
+    "ex": "Thank you for your flexibility on the cheque dates.",
+    "ar": "شكراً على مرونتك في تواريخ الشيكات.",
+    "ex2": "Your flexibility helped us close the deal.",
+    "ar2": "مرونتك ساعدتنا نقفل الصفقة."
+   },
+   {
+    "w": "flexibly",
+    "pos": "adverb",
+    "ex": "Our team works flexibly during Ramadan.",
+    "ar": "فريقنا بيشتغل بمرونة في رمضان.",
+    "ex2": "Engineers can visit sites flexibly after iftar.",
+    "ar2": "المهندسين يقدروا يزوروا المواقع بمرونة بعد الفطار."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "understanding",
+    "note": "patience with someone's problem",
+    "ex": "Thank you for your understanding about the late PO.",
+    "ar": "شكراً على تفهّمك بخصوص تأخير الـ‎PO.‎",
+    "ex2": "We appreciate your understanding.",
+    "ar2": "بنقدّر تفهّمك."
+   },
+   {
+    "w": "cooperation",
+    "note": "working together to solve something",
+    "ex": "Thank you for your cooperation on the reconciliation.",
+    "ar": "شكراً على تعاونك في مطابقة الحساب.",
+    "ex2": "With your cooperation, it took one day.",
+    "ar2": "بتعاونك خلصت في يوم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "inflexible",
+    "ex": "Their inflexible cash-only policy lost them the order.",
+    "ar": "سياستهم الجامدة بالكاش بس خسّرتهم الأوردر.",
+    "ex2": "The client went to a more flexible supplier.",
+    "ar2": "العميل راح لمورد أكتر مرونة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our Finance Manager approved two cheques instead of one. Thank you for your flexibility on this matter.",
+  "ctx_ar": "المدير المالي عندنا وافق على شيكين بدل واحد. شكراً على مرونتك في الموضوع ده.",
+  "quiz": [
+   {
+    "s": "Thank you for your ___ on the delivery date.",
+    "opts": [
+     "flexible",
+     "flexibility",
+     "flexibly"
+    ],
+    "a": 1,
+    "ar": "شكراً على مرونتك في ميعاد التسليم."
+   },
+   {
+    "s": "Can you be ___ on the payment terms?",
+    "opts": [
+     "flexible",
+     "flexibility",
+     "inflexible"
+    ],
+    "a": 0,
+    "ar": "ممكن تكون مرن في شروط الدفع؟"
+   },
+   {
+    "s": "Their ___ cash-only policy lost them the order.",
+    "opts": [
+     "flexible",
+     "flexibility",
+     "inflexible"
+    ],
+    "a": 2,
+    "ar": "سياستهم الجامدة بالكاش بس خسّرتهم الأوردر."
+   }
+  ]
+ }
+]

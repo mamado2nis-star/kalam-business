@@ -1,0 +1,638 @@
+[
+ {
+  "w": "signature",
+  "ar": "إمضا",
+  "book": "The PO was waiting for our Plant Director's signature, and he was travelling last week.",
+  "family": [
+   {
+    "w": "sign",
+    "pos": "verb",
+    "ex": "Please sign the delivery note on receipt.",
+    "ar": "لو سمحت امضي إذن التسليم وانت بتستلم.",
+    "ex2": "Our driver will wait until you sign it.",
+    "ar2": "السواق بتاعنا هيستنى لحد ما تمضيه."
+   },
+   {
+    "w": "signature",
+    "pos": "noun",
+    "ex": "The PO is waiting for the director's signature.",
+    "ar": "الـ‎PO‎ مستني إمضة المدير.",
+    "ex2": "Without his signature, procurement cannot send it.",
+    "ar2": "من غير إمضته، المشتريات مش هتقدر تبعته."
+   },
+   {
+    "w": "signed",
+    "pos": "adjective",
+    "ex": "Please find attached the signed handover report.",
+    "ar": "مرفق محضر التسليم الممضي.",
+    "ex2": "The signed copy is needed for the invoice.",
+    "ar2": "النسخة الممضية مطلوبة للفاتورة."
+   },
+   {
+    "w": "signatory",
+    "pos": "person",
+    "ex": "Only authorised signatories can sign cheques above EGP 500,000.",
+    "ar": "المفوّضين بالإمضا بس يقدروا يمضوا شيكات فوق 500 ألف جنيه.",
+    "ex2": "Our Finance Director is the main signatory.",
+    "ar2": "المدير المالي هو المفوّض الأساسي بالإمضا."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "sign-off",
+    "note": "informal; final approval, not always a written name",
+    "ex": "We need the CFO's sign-off on this discount.",
+    "ar": "محتاجين موافقة المدير المالي على الخصم ده.",
+    "ex2": "Sign-off usually takes two days.",
+    "ar2": "الموافقة عادةً بتاخد يومين."
+   },
+   {
+    "w": "initials",
+    "note": "short signature on each page of a document",
+    "ex": "Please add your initials on every page of the contract.",
+    "ar": "لو سمحت حط الأحرف الأولى من اسمك على كل صفحة في العقد.",
+    "ex2": "Then sign in full on the last page.",
+    "ar2": "وبعدين امضي إمضة كاملة في آخر صفحة."
+   },
+   {
+    "w": "stamp",
+    "note": "company seal, often needed next to the signature",
+    "ex": "The PO needs a signature and the company stamp.",
+    "ar": "الـ‎PO‎ محتاج إمضا وختم الشركة.",
+    "ex2": "Without the stamp, our bank won't accept it.",
+    "ar2": "من غير الختم البنك مش هيقبله."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how official it is",
+   "lar": "رسمي قد إيه",
+   "steps": [
+    {
+     "w": "initials",
+     "ex": "He put his initials on the revised price.",
+     "ar": "حط الأحرف الأولى من اسمه جنب السعر المعدّل.",
+     "ex2": "Initials show he saw the change.",
+     "ar2": "الأحرف الأولى بتبيّن إنه شاف التعديل."
+    },
+    {
+     "w": "signature",
+     "ex": "The PO needs the Plant Director's signature.",
+     "ar": "الـ‎PO‎ محتاج إمضة مدير المصنع.",
+     "ex2": "His signature makes the order official.",
+     "ar2": "إمضته بتخلّي الأوردر رسمي."
+    },
+    {
+     "w": "signature and stamp",
+     "ex": "Cheques need a signature and stamp to be valid.",
+     "ar": "الشيكات محتاجة إمضا وختم عشان تبقى سليمة.",
+     "ex2": "The bank checks both the signature and stamp carefully.",
+     "ar2": "البنك بيراجع الإمضا والختم كويس."
+    }
+   ]
+  },
+  "ctx": "The PO is ready but still waiting for the director's signature. He is back from Aswan tomorrow, so we expect it by noon.",
+  "ctx_ar": "الـ‎PO‎ جاهز بس لسه مستني إمضة المدير. هو راجع من أسوان بكرة، فمتوقعينه قبل الضهر.",
+  "quiz": [
+   {
+    "s": "The PO is waiting for the director's ___.",
+    "opts": [
+     "sign",
+     "signature",
+     "signed"
+    ],
+    "a": 1,
+    "ar": "الـ‎PO‎ مستني إمضة المدير."
+   },
+   {
+    "s": "Please find attached the ___ delivery note.",
+    "opts": [
+     "signed",
+     "sign",
+     "signatory"
+    ],
+    "a": 0,
+    "ar": "مرفق إذن التسليم الممضي."
+   },
+   {
+    "s": "Please put your ___ on every page of the contract.",
+    "opts": [
+     "stamp",
+     "sign-off",
+     "initials"
+    ],
+    "a": 2,
+    "ar": "لو سمحت حط الأحرف الأولى من اسمك على كل صفحة في العقد."
+   }
+  ]
+ },
+ {
+  "w": "delay",
+  "ar": "تأخير",
+  "book": "Any delay after that may move the installation to December.",
+  "family": [
+   {
+    "w": "delay",
+    "pos": "noun",
+    "ex": "Sorry for the delay in sending the PO.",
+    "ar": "آسف على التأخير في بعت الـ‎PO.‎",
+    "ex2": "The delay was due to the director's travel.",
+    "ar2": "التأخير كان بسبب سفر المدير."
+   },
+   {
+    "w": "delay",
+    "pos": "verb",
+    "ex": "Customs may delay the battery shipment by a week.",
+    "ar": "الجمارك ممكن تأخّر شحنة البطاريات أسبوع.",
+    "ex2": "We will tell the client if they delay it.",
+    "ar2": "هنبلّغ العميل لو أخّروها."
+   },
+   {
+    "w": "delayed",
+    "pos": "adjective",
+    "ex": "The delayed shipment will reach Alexandria port on Sunday.",
+    "ar": "الشحنة المتأخرة هتوصل ميناء إسكندرية يوم الحد.",
+    "ex2": "We will deliver the delayed batteries on Tuesday.",
+    "ar2": "هنسلّم البطاريات المتأخرة يوم التلات."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "hold-up",
+    "note": "informal; a short, unexpected delay",
+    "ex": "There's a small hold-up at customs.",
+    "ar": "فيه عطلة صغيرة في الجمارك.",
+    "ex2": "The hold-up should clear by tomorrow.",
+    "ar2": "العطلة دي المفروض تتحل بكرة."
+   },
+   {
+    "w": "setback",
+    "note": "a problem that slows the whole project",
+    "ex": "The wrong PO was a setback for our schedule.",
+    "ar": "الـ‎PO‎ الغلط عطّلنا في الجدول.",
+    "ex2": "We recovered from the setback in two days.",
+    "ar2": "عدّينا العطلة دي في يومين."
+   },
+   {
+    "w": "postponement",
+    "note": "formal; moved to a later date on purpose",
+    "ex": "The client asked for a postponement of the site visit.",
+    "ar": "العميل طلب تأجيل زيارة الموقع.",
+    "ex2": "The postponement is until after the holiday.",
+    "ar2": "التأجيل لحد بعد الأجازة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "bring forward",
+    "ex": "Can we bring forward the delivery to 15 November?",
+    "ar": "ممكن نقدّم التسليم لـ15 نوفمبر؟",
+    "ex2": "The client wants to bring the lab opening forward.",
+    "ar2": "العميل عايز يقدّم افتتاح المعمل."
+   }
+  ],
+  "ladder": {
+   "label": "how late",
+   "lar": "التأخير قد إيه",
+   "steps": [
+    {
+     "w": "slight delay",
+     "ex": "There is a slight delay; the truck will arrive at 2 pm.",
+     "ar": "فيه تأخير بسيط؛ العربية هتوصل الساعة 2.",
+     "ex2": "The installation plan stays the same.",
+     "ar2": "خطة التركيب زي ما هي."
+    },
+    {
+     "w": "delay",
+     "ex": "The battery delay moves installation by one week.",
+     "ar": "تأخير البطاريات بيأجّل التركيب أسبوع.",
+     "ex2": "We updated the schedule and informed the client.",
+     "ar2": "حدّثنا الجدول وبلّغنا العميل."
+    },
+    {
+     "w": "serious delay",
+     "ex": "A serious delay at the port could push us into January.",
+     "ar": "تأخير كبير في الميناء ممكن يزقّنا لحد يناير.",
+     "ex2": "That would miss the lab opening completely.",
+     "ar2": "وده هيفوّت افتتاح المعمل خالص."
+    }
+   ]
+  },
+  "ctx": "The battery supplier needs our order by 6 November. Any delay after that may move the installation to December.",
+  "ctx_ar": "مورد البطاريات محتاج الأوردر بتاعنا قبل 6 نوفمبر. أي تأخير بعد كده ممكن يأجّل التركيب لديسمبر.",
+  "quiz": [
+   {
+    "s": "Sorry for the ___ in sending the PO.",
+    "opts": [
+     "delay",
+     "delayed",
+     "setback"
+    ],
+    "a": 0,
+    "ar": "آسف على التأخير في بعت الـ‎PO.‎"
+   },
+   {
+    "s": "The ___ shipment will reach the port on Sunday.",
+    "opts": [
+     "delay",
+     "postponement",
+     "delayed"
+    ],
+    "a": 2,
+    "ar": "الشحنة المتأخرة هتوصل الميناء يوم الحد."
+   },
+   {
+    "s": "The client wants to ___ the installation to 15 November.",
+    "opts": [
+     "delay",
+     "bring forward",
+     "hold-up"
+    ],
+    "a": 1,
+    "ar": "العميل عايز يقدّم التركيب لـ15 نوفمبر."
+   }
+  ]
+ },
+ {
+  "w": "issue",
+  "ar": "تصدر / مشكلة",
+  "book": "On 26 October, you mentioned that the PO would be issued last week, but we have not received it yet.",
+  "family": [
+   {
+    "w": "issue",
+    "pos": "verb",
+    "ex": "Procurement will issue the PO tomorrow.",
+    "ar": "المشتريات هتطلّع الـ‎PO‎ بكرة.",
+    "ex2": "Once they issue it, we order the batteries.",
+    "ar2": "أول ما يطلّعوه بنطلب البطاريات."
+   },
+   {
+    "w": "issue",
+    "pos": "noun",
+    "ex": "We have an issue with the UPS cooling fan.",
+    "ar": "عندنا مشكلة في مروحة تبريد الـ‎UPS.‎",
+    "ex2": "Our engineer will fix the issue on Sunday.",
+    "ar2": "المهندس هيحل المشكلة يوم الحد."
+   },
+   {
+    "w": "issuance",
+    "pos": "noun",
+    "ex": "E-invoice issuance was delayed because the portal was down.",
+    "ar": "إصدار الفواتير الإلكترونية اتأخر عشان البوابة كانت واقعة.",
+    "ex2": "Issuance restarted this morning.",
+    "ar2": "الإصدار رجع الصبح."
+   },
+   {
+    "w": "issuer",
+    "pos": "person",
+    "ex": "The cheque issuer must sign next to any correction.",
+    "ar": "اللي مطلّع الشيك لازم يمضي جنب أي تصحيح.",
+    "ex2": "Otherwise, the bank will return it to the issuer.",
+    "ar2": "وإلا البنك هيرجّعه لصاحبه."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "produce an official document",
+    "mar": "تطلّع مستند رسمي",
+    "ex": "We issued e-invoice INV-0457 on the ETA system.",
+    "ar": "طلّعنا الفاتورة الإلكترونية ‎INV-0457‎ على سيستم الـ‎ETA.‎",
+    "ex2": "The invoice was issued after commissioning.",
+    "ar2": "الفاتورة طلعت بعد التشغيل."
+   },
+   {
+    "m": "a problem",
+    "mar": "مشكلة",
+    "ex": "Is there an issue with the PO?",
+    "ar": "فيه مشكلة في الـ‎PO‎؟",
+    "ex2": "Yes, the battery quantity is wrong.",
+    "ar2": "أيوه، عدد البطاريات غلط."
+   },
+   {
+    "m": "give out from stock",
+    "mar": "تصرف من المخزن",
+    "ex": "The store issued two batteries to the technician.",
+    "ar": "المخزن صرف بطاريتين للفني.",
+    "ex2": "Every item issued must be recorded.",
+    "ar2": "كل حاجة بتتصرف لازم تتسجّل."
+   }
+  ],
+  "syn": [
+   {
+    "w": "raise",
+    "note": "for POs and requests: raise a PO",
+    "ex": "We will raise the PO this week.",
+    "ar": "هنعمل الـ‎PO‎ الأسبوع ده.",
+    "ex2": "Procurement raises it after approval.",
+    "ar2": "المشتريات بتعمله بعد الموافقة."
+   },
+   {
+    "w": "release",
+    "note": "send out officially after approval",
+    "ex": "The PO will be released after the director signs.",
+    "ar": "الـ‎PO‎ هيتبعت بعد ما المدير يمضي.",
+    "ex2": "Finance released it this morning.",
+    "ar2": "المالية بعتته الصبح."
+   }
+  ],
+  "ant": [
+   {
+    "w": "cancel",
+    "ex": "We cancelled the old PO after they issued Rev.1.",
+    "ar": "لغينا الـ‎PO‎ القديم بعد ما طلّعوا ‎Rev.1.‎",
+    "ex2": "Please do not invoice the cancelled PO.",
+    "ar2": "لو سمحت متعملش فاتورة على الـ‎PO‎ الملغي."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Procurement promised to issue the PO last week, but we have not received it. Is there any issue with the quotation?",
+  "ctx_ar": "المشتريات وعدت تطلّع الـ‎PO‎ الأسبوع اللي فات، بس ما استلمناهوش. فيه أي مشكلة في عرض السعر؟",
+  "quiz": [
+   {
+    "s": "The PO will be ___ once the director signs it.",
+    "opts": [
+     "issue",
+     "issued",
+     "issuance"
+    ],
+    "a": 1,
+    "ar": "الـ‎PO‎ هيطلع أول ما المدير يمضيه."
+   },
+   {
+    "s": "E-invoice ___ stopped while the portal was down.",
+    "opts": [
+     "issuer",
+     "issuance",
+     "issue"
+    ],
+    "a": 1,
+    "ar": "إصدار الفواتير الإلكترونية وقف وقت ما البوابة كانت واقعة."
+   },
+   {
+    "s": "Please ___ a PO so we can order the batteries.",
+    "opts": [
+     "raise",
+     "cancel",
+     "issuance"
+    ],
+    "a": 0,
+    "ar": "لو سمحت اعمل ‎PO‎ عشان نقدر نطلب البطاريات."
+   }
+  ]
+ },
+ {
+  "w": "receipt",
+  "ar": "استلام / إيصال",
+  "book": "We confirm receipt.",
+  "family": [
+   {
+    "w": "receive",
+    "pos": "verb",
+    "ex": "We received PO-2025-118 this morning.",
+    "ar": "استلمنا ‎PO-2025-118‎ الصبح.",
+    "ex2": "We will start the order once we receive the corrected PO.",
+    "ar2": "هنبدأ الأوردر أول ما نستلم الـ‎PO‎ المصحّح."
+   },
+   {
+    "w": "receipt",
+    "pos": "noun",
+    "ex": "We confirm receipt of your PO.",
+    "ar": "بنأكّد استلام الـ‎PO‎ بتاعكم.",
+    "ex2": "Delivery is three weeks from receipt.",
+    "ar2": "التسليم بعد تلات أسابيع من الاستلام."
+   },
+   {
+    "w": "recipient",
+    "pos": "person",
+    "ex": "Please check the recipient's email before sending the invoice.",
+    "ar": "لو سمحت اتأكد من إيميل المستلم قبل ما تبعت الفاتورة.",
+    "ex2": "The recipient should be Accounts Payable.",
+    "ar2": "المستلم المفروض يكون الحسابات الدائنة."
+   },
+   {
+    "w": "receivable",
+    "pos": "noun",
+    "ex": "Our receivables grew this quarter because of late payments.",
+    "ar": "المستحقات بتاعتنا زادت الربع ده بسبب التأخير في الدفع.",
+    "ex2": "Accounts Receivable is following up on every receivable.",
+    "ar2": "الحسابات المدينة بتتابع كل مبلغ مستحق."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "the act of receiving something",
+    "mar": "استلام حاجة",
+    "ex": "Please confirm receipt of the cheques.",
+    "ar": "لو سمحت أكّد استلام الشيكات.",
+    "ex2": "Our courier needs it for his records.",
+    "ar2": "المندوب بتاعنا محتاجه لسجلاته."
+   },
+   {
+    "m": "a paper proving payment",
+    "mar": "إيصال بيثبت الدفع",
+    "ex": "We will send an official receipt once the cheque clears.",
+    "ar": "هنبعت إيصال رسمي أول ما الشيك يتصرف.",
+    "ex2": "The receipt shows the amount and date.",
+    "ar2": "الإيصال فيه المبلغ والتاريخ."
+   }
+  ],
+  "syn": [
+   {
+    "w": "acknowledgement",
+    "note": "formal reply confirming you got a document",
+    "ex": "We sent an order acknowledgement the same day.",
+    "ar": "بعتنا تأكيد استلام الأوردر في نفس اليوم.",
+    "ex2": "The acknowledgement listed every line item.",
+    "ar2": "التأكيد كان فيه كل البنود."
+   },
+   {
+    "w": "proof of payment",
+    "note": "any document showing a payment was made",
+    "ex": "Please send proof of payment for the transfer.",
+    "ar": "لو سمحت ابعت إثبات الدفع للتحويل.",
+    "ex2": "A bank screenshot is fine as proof of payment.",
+    "ar2": "سكرين شوت من البنك تكفي كإثبات دفع."
+   }
+  ],
+  "ant": [
+   {
+    "w": "non-receipt",
+    "ex": "In case of non-receipt within five days, please inform us.",
+    "ar": "لو مستلمتش خلال خمس أيام، بلّغنا لو سمحت.",
+    "ex2": "Non-receipt may mean the courier had the wrong address.",
+    "ar2": "عدم الاستلام ممكن يكون معناه إن المندوب معاه عنوان غلط."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Thank you for sending PO-2025-118. We confirm receipt and will reply on the delivery date today.",
+  "ctx_ar": "شكراً على بعت ‎PO-2025-118.‎ بنأكّد الاستلام وهنرد بخصوص ميعاد التسليم النهارده.",
+  "quiz": [
+   {
+    "s": "We confirm ___ of PO-2025-118.",
+    "opts": [
+     "receive",
+     "receipt",
+     "recipient"
+    ],
+    "a": 1,
+    "ar": "بنأكّد استلام ‎PO-2025-118.‎"
+   },
+   {
+    "s": "Did you ___ the corrected PO?",
+    "opts": [
+     "receipt",
+     "receivable",
+     "receive"
+    ],
+    "a": 2,
+    "ar": "استلمت الـ‎PO‎ المصحّح؟"
+   },
+   {
+    "s": "Please put the correct ___ email on the invoice.",
+    "opts": [
+     "recipient",
+     "receipt",
+     "receive"
+    ],
+    "a": 0,
+    "ar": "لو سمحت حط إيميل المستلم الصح على الفاتورة."
+   }
+  ]
+ },
+ {
+  "w": "correct",
+  "ar": "مصحّح / صح",
+  "book": "Could you please send us a corrected PO?",
+  "family": [
+   {
+    "w": "correct",
+    "pos": "verb",
+    "ex": "Please correct the battery quantity on the PO.",
+    "ar": "لو سمحت صحّح عدد البطاريات على الـ‎PO.‎",
+    "ex2": "It should be 40 units, as quoted.",
+    "ar2": "المفروض 40 وحدة زي عرض السعر."
+   },
+   {
+    "w": "correct",
+    "pos": "adjective",
+    "ex": "Our correct tax number is 318-425-907.",
+    "ar": "رقمنا الضريبي الصح 318-425-907.",
+    "ex2": "Please use it on all invoices.",
+    "ar2": "لو سمحت استخدمه في كل الفواتير."
+   },
+   {
+    "w": "correction",
+    "pos": "noun",
+    "ex": "Thank you for the quick correction.",
+    "ar": "شكراً على التصحيح السريع.",
+    "ex2": "The correction was done in one day.",
+    "ar2": "التصحيح اتعمل في يوم واحد."
+   },
+   {
+    "w": "correctly",
+    "pos": "adverb",
+    "ex": "Both cheques are signed correctly.",
+    "ar": "الشيكين ممضيين صح.",
+    "ex2": "The bank will accept them now that they're signed correctly.",
+    "ar2": "البنك هيقبلهم دلوقتي."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "right, without mistakes",
+    "mar": "صح، من غير أخطاء",
+    "ex": "Is the total on the PO correct?",
+    "ar": "الإجمالي على الـ‎PO‎ صح؟",
+    "ex2": "No, it should be EGP 1,500,000.",
+    "ar2": "لأ، المفروض مليون و500 ألف."
+   },
+   {
+    "m": "fix a mistake",
+    "mar": "تصلّح غلطة",
+    "ex": "We corrected the tax number and reissued the invoice.",
+    "ar": "صحّحنا الرقم الضريبي وطلّعنا الفاتورة تاني.",
+    "ex2": "Nothing else was corrected.",
+    "ar2": "مفيش حاجة تانية اتصحّحت."
+   }
+  ],
+  "syn": [
+   {
+    "w": "fix",
+    "note": "informal; any problem or mistake",
+    "ex": "Can you fix the date on the delivery note?",
+    "ar": "ممكن تظبط التاريخ على إذن التسليم؟",
+    "ex2": "I'll fix it and send it back.",
+    "ar2": "هظبطه وأبعته تاني."
+   },
+   {
+    "w": "amend",
+    "note": "formal; change an official document",
+    "ex": "Please amend the PO to show 40 batteries.",
+    "ar": "لو سمحت عدّل الـ‎PO‎ عشان يبقى 40 بطارية.",
+    "ex2": "The amended PO needs a new signature.",
+    "ar2": "الـ‎PO‎ المعدّل محتاج إمضا جديد."
+   },
+   {
+    "w": "rectify",
+    "note": "very formal; for errors and faults",
+    "ex": "The supplier must rectify the fault at no cost.",
+    "ar": "المورد لازم يصلّح العطل من غير تكلفة.",
+    "ex2": "The contract says they rectify faults within 48 hours.",
+    "ar2": "العقد بيقول إنهم بيصلّحوا الأعطال خلال 48 ساعة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "incorrect",
+    "ex": "The PO shows an incorrect total.",
+    "ar": "الـ‎PO‎ عليه إجمالي غلط.",
+    "ex2": "The incorrect figure came from the first quotation.",
+    "ar2": "الرقم الغلط جه من أول عرض سعر."
+   },
+   {
+    "w": "wrong",
+    "ex": "The payee name on the cheques is wrong.",
+    "ar": "اسم المستفيد على الشيكات غلط.",
+    "ex2": "With the wrong name, the bank may refuse them.",
+    "ar2": "بالاسم الغلط البنك ممكن يرفضهم."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The PO shows 32 batteries instead of 40. Could you please send us a corrected PO with the agreed total?",
+  "ctx_ar": "الـ‎PO‎ مكتوب فيه 32 بطارية بدل 40. ممكن تبعتلنا ‎PO‎ مصحّح بالإجمالي المتفق عليه؟",
+  "quiz": [
+   {
+    "s": "Thank you for the quick ___ of the PO.",
+    "opts": [
+     "correct",
+     "correction",
+     "correctly"
+    ],
+    "a": 1,
+    "ar": "شكراً على التصحيح السريع للـ‎PO.‎"
+   },
+   {
+    "s": "Both cheques are signed ___.",
+    "opts": [
+     "correct",
+     "correction",
+     "correctly"
+    ],
+    "a": 2,
+    "ar": "الشيكين ممضيين صح."
+   },
+   {
+    "s": "Under the contract, the supplier must ___ any fault at no cost.",
+    "opts": [
+     "rectify",
+     "wrong",
+     "correction"
+    ],
+    "a": 0,
+    "ar": "حسب العقد، المورد لازم يصلّح أي عطل من غير تكلفة."
+   }
+  ]
+ }
+]
