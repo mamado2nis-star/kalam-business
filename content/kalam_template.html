@@ -338,6 +338,13 @@ footer{margin-top:40px;border-top:1px solid var(--line);padding-block:26px;color
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
 
 /* ---------- word map ---------- */
+/* email read-along */
+.mplay{margin-inline-start:auto;display:inline-flex;align-items:center;gap:6px}
+.mplay svg{width:14px;height:14px}
+.mail header{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.mbody p{transition:background .2s;border-radius:10px;cursor:pointer}
+.mbody p.on{background:var(--cobalt-soft);box-shadow:0 0 0 6px var(--cobalt-soft)}
+.thread-play{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:6px 0 14px}
 /* word map diagram */
 .wmd{position:relative;display:grid;grid-template-columns:1fr minmax(190px,240px) 1fr;gap:28px 64px;align-items:center;margin:10px 0 8px;padding:18px 6px}
 .wmd-lines{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:visible}
@@ -1062,8 +1069,8 @@ function emailHome(){
       <ol class="eps">${cs.map((c,i)=>`<li><a href="#/email/${c.id}" class="ep ${EDONE()[c.id]?"done":""}"><span class="epn">${EDONE()[c.id]?"✓":i+1}</span><span><b>${esc(c.title)}</b><span class="ar">${esc(c.ar)}</span></span><span class="epf">${c.icon} ${esc(c.field)}</span></a></li>`).join("")}</ol></section>`}).join("")}</div>`;
 }
 function mailCard(m,sent){
-  return `<article class="mail ${sent?"sent":""}"><header><div class="av">${sent?"You":esc(m.from.replace(/^(Mr\.|Ms\.|Eng\.|Dr\.)\s*/,"").slice(0,1))}</div><div class="mh"><b>${esc(m.from)}</b><span>${esc(m.date||"")}</span></div></header>
-   <div class="subj">${esc(m.subject)}</div><div class="mbody">${m.body.map(b=>`<p>${para(b)} ${spk(b)}</p>`).join("")}</div>
+  return `<article class="mail ${sent?"sent":""}"><header><div class="av">${sent?"You":esc(m.from.replace(/^(Mr\.|Ms\.|Eng\.|Dr\.)\s*/,"").slice(0,1))}</div><div class="mh"><b>${esc(m.from)}</b><span>${esc(m.date||"")}</span></div>${m.body.some(b=>sayFind(b))?`<button class="btn alt sm mplay" data-mplay>${PLAY} Listen · اسمع</button>`:""}</header>
+   <div class="subj">${esc(m.subject)}</div><div class="mbody">${m.body.map((b,k)=>`<p data-b="${k}">${para(b)} ${spk(b)}</p>`).join("")}</div>
    ${sent?`<div class="mfoot"><button class="btn alt sm" data-copy>Copy this reply</button><span class="ar" style="color:var(--muted);font-size:13px">انسخه وعدّل الأسماء والأرقام</span></div>`:""}</article>`;
 }
 function emailCase(id){
@@ -1084,7 +1091,16 @@ function emailCase(id){
      const done=()=>{b.textContent="Copied ✓";setTimeout(()=>b.textContent="Copy this reply",1500)};
      try{navigator.clipboard.writeText(txt).then(done,()=>{sel(b)})}catch(e){sel(b)} });
   const sel=b=>{const r=document.createRange();r.selectNodeContents(b.closest(".mail").querySelector(".mbody"));const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent="Selected — press copy"};
-  const paint=()=>{thr.innerHTML=shown.map(m=>mailCard(m,m.dir==="out")).join(""); bindCopy()};
+  let EMRUN=0;
+  const readMail=(art,m,done)=>{ const tok=++EMRUN; const ps=[...art.querySelectorAll(".mbody p")], btn=art.querySelector("[data-mplay]");
+    const mark=k=>{thr.querySelectorAll(".mbody p.on").forEach(x=>x.classList.remove("on")); if(k>=0&&ps[k]) ps[k].classList.add("on")};
+    thr.querySelectorAll("[data-mplay]").forEach(b=>b.innerHTML=PLAY+" Listen · اسمع"); if(btn) btn.innerHTML=PAUSE+" Stop";
+    let k=0; const nx=()=>{ if(tok!==EMRUN) return; if(k>=m.body.length){mark(-1); if(btn) btn.innerHTML=PLAY+" Listen again · تاني"; done&&done(); return}
+      const i=k++; mark(i); ps[i].scrollIntoView({block:"center",behavior:"smooth"}); if(!sayPlay(m.body[i],()=>setTimeout(nx,350))) setTimeout(nx,80) }; nx() };
+  const paint=()=>{EMRUN++; thr.innerHTML=shown.map(m=>mailCard(m,m.dir==="out")).join(""); bindCopy();
+    [...thr.querySelectorAll(".mail")].forEach((art,j)=>{ const m=shown[j], b=art.querySelector("[data-mplay]");
+      if(b) b.onclick=()=>{ if(b.textContent.includes("Stop")){EMRUN++;stopSay();thr.querySelectorAll(".mbody p.on").forEach(x=>x.classList.remove("on"));b.innerHTML=PLAY+" Listen · اسمع";return} readMail(art,m) };
+      art.querySelectorAll(".mbody p").forEach(p=>p.addEventListener("click",e=>{ if(e.target.closest("[data-say]")) return; EMRUN++; thr.querySelectorAll(".mbody p.on").forEach(x=>x.classList.remove("on")); p.classList.add("on"); sayPlay(m.body[+p.dataset.b],()=>p.classList.remove("on")) })) }) };
   const step=()=>{
     if(mi>=c.thread.length){ return finishCase() }
     const m=c.thread[mi];
