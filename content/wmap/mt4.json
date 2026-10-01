@@ -1,0 +1,850 @@
+[
+ {
+  "w": "approach",
+  "ar": "طريقة / أسلوب؛ أو تكلّم حد بعرض",
+  "family": [
+   {
+    "w": "approach",
+    "pos": "noun",
+    "ex": "I don't think a price war is the best approach with this client.",
+    "ar": "مش شايف إن حرب الأسعار هي أحسن طريقة مع العميل ده.",
+    "ex2": "A better approach is to offer a longer battery warranty.",
+    "ar2": "الطريقة الأحسن إننا نعرض ضمان أطول على البطاريات."
+   },
+   {
+    "w": "approach",
+    "pos": "verb",
+    "ex": "We should approach the hospital about a UPS maintenance contract.",
+    "ar": "لازم نكلّم المستشفى بخصوص عقد صيانة ‎UPS.‎",
+    "ex2": "Karim will approach their facilities manager next week.",
+    "ar2": "كريم هيكلّم مدير المرافق عندهم الأسبوع الجاي."
+   },
+   {
+    "w": "approachable",
+    "pos": "adjective",
+    "ex": "Our new service manager is very approachable, so technicians share problems early.",
+    "ar": "مدير الخدمة الجديد سهل التعامل معاه، فالفنيين بيقولوا المشاكل بدري.",
+    "ex2": "Being approachable helps him catch VFD faults before they grow.",
+    "ar2": "وإنه قريب من الناس بيخلّيه يلحق أعطال الـ‎VFD‎ قبل ما تكبر."
+   },
+   {
+    "w": "approaching",
+    "pos": "adjective",
+    "ex": "With the approaching deadline, we need the PO signed this week.",
+    "ar": "والميعاد النهائي قرّب، محتاجين أمر الشراء يتمضي الأسبوع ده.",
+    "ex2": "The approaching summer also means more chiller VFD calls.",
+    "ar2": "وقرب الصيف معناه كمان مكالمات أكتر لـ‎VFD‎ التشيلرات."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "a way of dealing with something",
+    "mar": "طريقة للتعامل مع حاجة",
+    "ex": "Let's try a different approach to collecting overdue invoices.",
+    "ar": "خلّينا نجرّب طريقة تانية لتحصيل الفواتير المتأخرة.",
+    "ex2": "Calling the finance manager directly worked better than emails.",
+    "ar2": "إننا نكلّم المدير المالي على طول نفع أكتر من الإيميلات."
+   },
+   {
+    "m": "to contact someone with an offer or request",
+    "mar": "تكلّم حد بعرض أو طلب",
+    "ex": "A supplier from Turkey approached us about cheaper inverters.",
+    "ar": "مورّد من تركيا كلّمنا بخصوص إنفرترات أرخص.",
+    "ex2": "We approached them for samples before placing any order.",
+    "ar2": "طلبنا منهم عينات قبل ما نعمل أي أوردر."
+   },
+   {
+    "m": "to come closer in time or amount",
+    "mar": "يقرّب (وقت أو رقم)",
+    "ex": "Battery sales are approaching last year's total already.",
+    "ar": "مبيعات البطاريات قرّبت توصل لإجمالي السنة اللي فاتت خلاص.",
+    "ex2": "We are approaching our target, and it's only October.",
+    "ar2": "إحنا قرّبنا من التارجت، وإحنا لسه في أكتوبر."
+   }
+  ],
+  "syn": [
+   {
+    "w": "method",
+    "note": "a planned, step-by-step way of doing a task",
+    "ex": "We need a clear method for testing batteries on site.",
+    "ar": "محتاجين طريقة واضحة لاختبار البطاريات في الموقع.",
+    "ex2": "The method should take less than an hour per UPS.",
+    "ar2": "الطريقة لازم تاخد أقل من ساعة لكل ‎UPS.‎"
+   },
+   {
+    "w": "strategy",
+    "note": "bigger long-term plan, used for sales or business goals",
+    "ex": "Our strategy is to win more data centre contracts this year.",
+    "ar": "استراتيجيتنا إننا نكسب عقود داتا سنتر أكتر السنة دي.",
+    "ex2": "The strategy depends on strong after-sales service.",
+    "ar2": "الاستراتيجية دي معتمدة على خدمة ما بعد بيع قوية."
+   },
+   {
+    "w": "way",
+    "note": "everyday, informal word for how you do something",
+    "ex": "Is there a faster way to issue e-invoices?",
+    "ar": "فيه طريقة أسرع نطلّع بيها الفواتير الإلكترونية؟",
+    "ex2": "The current way takes almost a full day.",
+    "ar2": "الطريقة الحالية بتاخد يوم تقريبًا."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "I don't think cutting prices is the right approach. Let's offer free installation for the solar station instead.",
+  "ctx_ar": "مش شايف إن تخفيض الأسعار هو الطريقة الصح. خلّينا نعرض تركيب ببلاش لمحطة الطاقة الشمسية بدل كده.",
+  "quiz": [
+   {
+    "s": "Mona is very ___, so customers call her first with problems.",
+    "opts": [
+     "approach",
+     "approachable",
+     "approaching"
+    ],
+    "a": 1,
+    "ar": "منى سهل التعامل معاها، فالعملاء بيكلّموها هي الأول لما تحصل مشكلة."
+   },
+   {
+    "s": "Our long-term ___ is to grow maintenance contracts, not one-off sales.",
+    "opts": [
+     "way",
+     "strategy",
+     "method"
+    ],
+    "a": 1,
+    "ar": "استراتيجيتنا على المدى الطويل إننا نكبّر عقود الصيانة، مش البيع مرة واحدة."
+   },
+   {
+    "s": "A new supplier ___ us last week about cheaper batteries.",
+    "opts": [
+     "approached",
+     "approachable",
+     "approach"
+    ],
+    "a": 0,
+    "ar": "مورّد جديد كلّمنا الأسبوع اللي فات بخصوص بطاريات أرخص."
+   }
+  ]
+ },
+ {
+  "w": "in line with",
+  "ar": "متماشي مع / حسب",
+  "family": [
+   {
+    "w": "in line with",
+    "pos": "adjective",
+    "ex": "The new prices are in line with the market.",
+    "ar": "الأسعار الجديدة متماشية مع السوق.",
+    "ex2": "So customers shouldn't complain when they see the quotation.",
+    "ar2": "يعني العملاء مش هيشتكوا لما يشوفوا عرض السعر."
+   },
+   {
+    "w": "align",
+    "pos": "verb",
+    "ex": "We need to align our discount policy with the finance team.",
+    "ar": "لازم نظبط سياسة الخصومات بتاعتنا مع فريق المالية.",
+    "ex2": "Once we align, sales can quote faster.",
+    "ar2": "أول ما نتفق، المبيعات تقدر تطلّع عروض أسرع."
+   },
+   {
+    "w": "alignment",
+    "pos": "noun",
+    "ex": "There is no alignment between sales and service on response times.",
+    "ar": "مفيش توافق بين المبيعات والخدمة على أوقات الاستجابة.",
+    "ex2": "Without alignment, customers get two different answers.",
+    "ar2": "من غير توافق، العميل بياخد ردّين مختلفين."
+   },
+   {
+    "w": "aligned",
+    "pos": "adjective",
+    "ex": "The project plan is now aligned with the client's budget.",
+    "ar": "خطة المشروع بقت متماشية مع ميزانية العميل.",
+    "ex2": "Being aligned means no surprise costs later.",
+    "ar2": "وإنها متماشية معناه مفيش تكاليف مفاجئة بعدين."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "according to",
+    "note": "follow a rule or document exactly",
+    "ex": "We installed the batteries according to the manufacturer's manual.",
+    "ar": "ركّبنا البطاريات حسب كتالوج المصنّع.",
+    "ex2": "According to the manual, they need a 20°C room.",
+    "ar2": "حسب الكتالوج، محتاجين أوضة 20 درجة."
+   },
+   {
+    "w": "consistent with",
+    "note": "formal; matches previous data or decisions",
+    "ex": "The test results are consistent with last year's readings.",
+    "ar": "نتايج الاختبار متماشية مع قراءات السنة اللي فاتت.",
+    "ex2": "Being consistent with old data, the UPS is healthy.",
+    "ar2": "وبما إنها متماشية مع الداتا القديمة، الـ‎UPS‎ سليم."
+   },
+   {
+    "w": "in keeping with",
+    "note": "formal; fits a style, policy or tradition",
+    "ex": "The discount is in keeping with our loyalty policy.",
+    "ar": "الخصم ده ماشي مع سياسة الولاء بتاعتنا.",
+    "ex2": "Long-term customers always get this in keeping with policy.",
+    "ar2": "العملاء القدام دايمًا بياخدوه حسب السياسة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "out of line with",
+    "ex": "Their price is out of line with every other supplier.",
+    "ar": "سعرهم بعيد خالص عن كل الموردين التانيين.",
+    "ex2": "Being so out of line with the market, we rejected it.",
+    "ar2": "وعشان بعيد قوي عن السوق، رفضناه."
+   },
+   {
+    "w": "at odds with",
+    "ex": "Their delivery date is at odds with our project schedule.",
+    "ar": "ميعاد التسليم بتاعهم متعارض مع جدول المشروع بتاعنا.",
+    "ex2": "Being at odds with the plan, it will delay commissioning.",
+    "ar2": "وعشان متعارض مع الخطة، هيأخّر التشغيل."
+   }
+  ],
+  "ladder": {
+   "label": "how closely it matches",
+   "lar": "قد إيه متطابق",
+   "steps": [
+    {
+     "w": "roughly in line with",
+     "ex": "The final cost was roughly in line with the quotation.",
+     "ar": "التكلفة النهائية كانت قريبة من عرض السعر تقريبًا.",
+     "ex2": "It was roughly in line with it, just 3% higher.",
+     "ar2": "كانت قريبة منه، أعلى بـ3% بس."
+    },
+    {
+     "w": "in line with",
+     "ex": "Our payment terms are in line with industry practice.",
+     "ar": "شروط الدفع بتاعتنا ماشية مع المتعارف عليه في السوق.",
+     "ex2": "Thirty days in line with others is standard.",
+     "ar2": "تلاتين يوم زي غيرنا ده العادي."
+    },
+    {
+     "w": "fully in line with",
+     "ex": "The installation is fully in line with the data centre standard.",
+     "ar": "التركيب مطابق تمامًا لمعايير الداتا سنتر.",
+     "ex2": "It is fully in line with it, so the audit should pass.",
+     "ar2": "مطابق تمامًا، فالمراجعة المفروض تعدّي."
+    }
+   ]
+  },
+  "ctx": "Our new UPS prices are in line with the market. We only raised them because the dollar went up.",
+  "ctx_ar": "أسعار الـ‎UPS‎ الجديدة بتاعتنا ماشية مع السوق. إحنا رفعناها بس عشان الدولار غلي.",
+  "quiz": [
+   {
+    "s": "The final cost was ___ the budget we agreed.",
+    "opts": [
+     "in line with",
+     "at odds with",
+     "out of line with"
+    ],
+    "a": 0,
+    "ar": "التكلفة النهائية كانت ماشية مع الميزانية اللي اتفقنا عليها."
+   },
+   {
+    "s": "There is no ___ between sales and finance on discounts.",
+    "opts": [
+     "align",
+     "alignment",
+     "aligned"
+    ],
+    "a": 1,
+    "ar": "مفيش توافق بين المبيعات والمالية على الخصومات."
+   },
+   {
+    "s": "Their delivery date is ___ our project schedule, so we'll be late.",
+    "opts": [
+     "in line with",
+     "in keeping with",
+     "at odds with"
+    ],
+    "a": 2,
+    "ar": "ميعاد التسليم بتاعهم متعارض مع جدول المشروع، فهنتأخر."
+   }
+  ]
+ },
+ {
+  "w": "jump in",
+  "ar": "يدخل في الكلام / يتدخل بسرعة",
+  "family": [
+   {
+    "w": "jump in",
+    "pos": "verb",
+    "ex": "Excuse me, may I jump in for a moment about the delivery date?",
+    "ar": "لو سمحت، ممكن أدخل لحظة بخصوص ميعاد التسليم؟",
+    "ex2": "The supplier just confirmed it will be two weeks late.",
+    "ar2": "المورّد لسه مأكد إنه هيتأخر أسبوعين."
+   },
+   {
+    "w": "jumped in",
+    "pos": "verb",
+    "ex": "Ahmed jumped in when the client asked about battery life.",
+    "ar": "أحمد دخل في الكلام لما العميل سأل عن عمر البطارية.",
+    "ex2": "He jumped in because he tested those batteries himself.",
+    "ar2": "دخل عشان هو اللي اختبر البطاريات دي بنفسه."
+   },
+   {
+    "w": "interruption",
+    "pos": "noun",
+    "ex": "Sorry for the interruption, but the server room alarm is on.",
+    "ar": "آسف إني قاطعت، بس إنذار أوضة السيرفرات شغال.",
+    "ex2": "The interruption was needed; the UPS was on battery.",
+    "ar2": "المقاطعة كانت لازمة؛ الـ‎UPS‎ كان شغال على البطارية."
+   },
+   {
+    "w": "interrupt",
+    "pos": "verb",
+    "ex": "I hate to interrupt, but we have a call with the supplier.",
+    "ar": "مش حابب أقاطع، بس عندنا مكالمة مع المورّد.",
+    "ex2": "Please don't interrupt the client while he explains the fault.",
+    "ar2": "لو سمحت متقاطعش العميل وهو بيشرح العطل."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "to interrupt a conversation to add something",
+    "mar": "تدخل في الكلام عشان تضيف حاجة",
+    "ex": "Can I jump in here? The PO number is wrong.",
+    "ar": "ممكن أدخل هنا؟ رقم أمر الشراء غلط.",
+    "ex2": "Please jump in if I miss any technical detail.",
+    "ar2": "ادخل لو نسيت أي تفصيلة فنية."
+   },
+   {
+    "m": "to quickly start helping with a task",
+    "mar": "تدخل تساعد بسرعة",
+    "ex": "When the site lost power, two technicians jumped in to help.",
+    "ar": "لما الموقع فصل كهربا، اتنين فنيين دخلوا يساعدوا على طول.",
+    "ex2": "They jumped in without waiting for the work order.",
+    "ar2": "دخلوا من غير ما يستنوا أمر الشغل."
+   }
+  ],
+  "syn": [
+   {
+    "w": "interrupt",
+    "note": "neutral word; can sound rude without 'sorry'",
+    "ex": "Sorry to interrupt, but the client is on the line.",
+    "ar": "آسف للمقاطعة، بس العميل على الخط.",
+    "ex2": "I'll interrupt only if it's urgent.",
+    "ar2": "مش هقاطع غير لو الموضوع مستعجل."
+   },
+   {
+    "w": "cut in",
+    "note": "informal; often sounds a bit impolite",
+    "ex": "He cut in before I finished the price breakdown.",
+    "ar": "قاطعني قبل ما أخلّص تفاصيل السعر.",
+    "ex2": "When he cut in, the client got confused.",
+    "ar2": "لما قاطع، العميل اتلخبط."
+   },
+   {
+    "w": "chip in",
+    "note": "add a short comment or help with money/work",
+    "ex": "Feel free to chip in with ideas on the solar tender.",
+    "ar": "اتفضّل شارك بأي أفكار في مناقصة الطاقة الشمسية.",
+    "ex2": "Hany chipped in with the inverter prices.",
+    "ar2": "هاني شارك بأسعار الإنفرترات."
+   }
+  ],
+  "ant": [
+   {
+    "w": "hold back",
+    "ex": "I decided to hold back in the meeting because the manager was presenting.",
+    "ar": "سكتّ في الاجتماع عشان المدير كان بيعرض.",
+    "ex2": "Next time I won't hold back if the price is wrong.",
+    "ar2": "المرة الجاية مش هسكت لو السعر غلط."
+   }
+  ],
+  "ladder": {
+   "label": "how polite the interruption is",
+   "lar": "المقاطعة مؤدبة قد إيه",
+   "steps": [
+    {
+     "w": "cut in",
+     "ex": "He cut in and started talking about prices.",
+     "ar": "قاطع وبدأ يتكلم عن الأسعار.",
+     "ex2": "Cutting in like that annoyed the client.",
+     "ar2": "المقاطعة بالشكل ده ضايقت العميل."
+    },
+    {
+     "w": "jump in",
+     "ex": "Can I jump in quickly on the warranty point?",
+     "ar": "ممكن أدخل بسرعة في نقطة الضمان؟",
+     "ex2": "Jumping in helped clear the confusion.",
+     "ar2": "الدخول في الكلام ساعد يوضّح اللخبطة."
+    },
+    {
+     "w": "may I add something",
+     "ex": "May I add something about the delivery schedule?",
+     "ar": "ممكن أضيف حاجة عن جدول التسليم؟",
+     "ex2": "Asking 'may I add something' sounds very polite.",
+     "ar2": "إنك تقول ممكن أضيف حاجة بيبان مؤدب جدًا."
+    }
+   ]
+  },
+  "ctx": "Sorry, can I jump in here? The client already paid the advance, so we can order the batteries today.",
+  "ctx_ar": "آسف، ممكن أدخل هنا؟ العميل دفع المقدم خلاص، فنقدر نطلب البطاريات النهارده.",
+  "quiz": [
+   {
+    "s": "Sorry for the ___, but your supplier is on line two.",
+    "opts": [
+     "interrupt",
+     "interruption",
+     "jump in"
+    ],
+    "a": 1,
+    "ar": "آسف للمقاطعة، بس المورّد بتاعك على خط اتنين."
+   },
+   {
+    "s": "Feel free to ___ if I get any technical detail wrong.",
+    "opts": [
+     "jump in",
+     "hold back",
+     "cut in"
+    ],
+    "a": 0,
+    "ar": "ادخل براحتك لو قلت أي تفصيلة فنية غلط."
+   },
+   {
+    "s": "He ___ rudely before I finished the price breakdown.",
+    "opts": [
+     "chipped in",
+     "cut in",
+     "held back"
+    ],
+    "a": 1,
+    "ar": "قاطعني بقلة ذوق قبل ما أخلّص تفاصيل السعر."
+   }
+  ]
+ },
+ {
+  "w": "unforeseen",
+  "ar": "مش متوقّع / مفاجئ",
+  "family": [
+   {
+    "w": "unforeseen",
+    "pos": "adjective",
+    "ex": "Due to unforeseen circumstances, the shipment will arrive late.",
+    "ar": "بسبب ظروف مش متوقعة، الشحنة هتوصل متأخرة.",
+    "ex2": "The port in Alexandria was closed for two days.",
+    "ar2": "ميناء إسكندرية كان مقفول يومين."
+   },
+   {
+    "w": "foresee",
+    "pos": "verb",
+    "ex": "We didn't foresee the delay in customs clearance.",
+    "ar": "مكناش متوقعين التأخير في التخليص الجمركي.",
+    "ex2": "Next time we'll foresee it and add a week.",
+    "ar2": "المرة الجاية هنتوقعه ونزوّد أسبوع."
+   },
+   {
+    "w": "foreseeable",
+    "pos": "adjective",
+    "ex": "There are no price increases in the foreseeable future.",
+    "ar": "مفيش زيادة أسعار في المستقبل القريب.",
+    "ex2": "Customers can plan their battery budget with confidence.",
+    "ar2": "العملا يقدروا يخططوا ميزانية البطاريات وهم مطمنين."
+   },
+   {
+    "w": "unforeseeable",
+    "pos": "adjective",
+    "ex": "The flood was unforeseeable, so the insurance will cover it.",
+    "ar": "الغرق ده مكانش ممكن يتوقع، فالتأمين هيغطيه.",
+    "ex2": "Unforeseeable events are listed in the contract.",
+    "ar2": "الأحداث اللي ماتتوقعش مذكورة في العقد."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "unexpected",
+    "note": "everyday word, any surprise",
+    "ex": "We had an unexpected fault in the VFD after startup.",
+    "ar": "حصل عطل مش متوقع في الـ‎VFD‎ بعد التشغيل.",
+    "ex2": "The unexpected fault stopped the pump for an hour.",
+    "ar2": "العطل المفاجئ وقّف الطلمبة ساعة."
+   },
+   {
+    "w": "unplanned",
+    "note": "not in the schedule, e.g. downtime or costs",
+    "ex": "The client had four hours of unplanned downtime.",
+    "ar": "العميل كان عنده أربع ساعات توقف من غير تخطيط.",
+    "ex2": "Unplanned downtime costs them a lot of money.",
+    "ar2": "التوقف غير المخطط بيكلّفهم فلوس كتير."
+   },
+   {
+    "w": "unanticipated",
+    "note": "formal, for reports and letters",
+    "ex": "Unanticipated costs were added to the final invoice.",
+    "ar": "تكاليف مش متوقعة اتضافت على الفاتورة النهائية.",
+    "ex2": "We explained each unanticipated cost in the cover letter.",
+    "ar2": "شرحنا كل تكلفة مش متوقعة في الجواب المرفق."
+   }
+  ],
+  "ant": [
+   {
+    "w": "expected",
+    "ex": "The expected delivery date is the 15th of May.",
+    "ar": "ميعاد التسليم المتوقع ١٥ مايو.",
+    "ex2": "If expected dates change, we inform the client.",
+    "ar2": "لو المواعيد المتوقعة اتغيرت، بنبلّغ العميل."
+   },
+   {
+    "w": "planned",
+    "ex": "The planned shutdown will happen on Friday morning.",
+    "ar": "الفصل المخطط له هيحصل الجمعة الصبح.",
+    "ex2": "During the planned shutdown, we'll replace the batteries.",
+    "ar2": "أثناء الفصل المخطط، هنغيّر البطاريات."
+   }
+  ],
+  "ladder": {
+   "label": "how surprising",
+   "lar": "مفاجئ قد إيه",
+   "steps": [
+    {
+     "w": "unexpected",
+     "ex": "There was an unexpected delay at the port.",
+     "ar": "كان فيه تأخير مش متوقع في الميناء.",
+     "ex2": "The unexpected delay was only one day.",
+     "ar2": "التأخير المفاجئ كان يوم واحد بس."
+    },
+    {
+     "w": "unforeseen",
+     "ex": "Unforeseen problems with the cabling delayed the handover.",
+     "ar": "مشاكل مش متوقعة في الكابلات أخّرت التسليم.",
+     "ex2": "Nobody saw these unforeseen problems in the site survey.",
+     "ar2": "محدش شاف المشاكل دي في المعاينة."
+    },
+    {
+     "w": "unforeseeable",
+     "ex": "The fire was totally unforeseeable.",
+     "ar": "الحريق مكانش ممكن أبدًا يتوقع.",
+     "ex2": "Because it was unforeseeable, no penalty applies.",
+     "ar2": "وعشان ماكانش ممكن يتوقع، مفيش غرامة."
+    }
+   ]
+  },
+  "ctx": "Due to unforeseen circumstances, I can't attend tomorrow's meeting. Sara will present the solar station quotation instead.",
+  "ctx_ar": "بسبب ظروف مش متوقعة، مش هقدر أحضر اجتماع بكرة. سارة هتعرض عرض سعر محطة الطاقة الشمسية بدالي.",
+  "quiz": [
+   {
+    "s": "We didn't ___ the delay in customs.",
+    "opts": [
+     "foresee",
+     "unforeseen",
+     "foreseeable"
+    ],
+    "a": 0,
+    "ar": "مكناش متوقعين التأخير في الجمارك."
+   },
+   {
+    "s": "No price changes are planned in the ___ future.",
+    "opts": [
+     "unforeseen",
+     "foreseeable",
+     "foresee"
+    ],
+    "a": 1,
+    "ar": "مفيش تغييرات أسعار مخطط لها في المستقبل القريب."
+   },
+   {
+    "s": "The pump stopped because of ___ downtime on the VFD.",
+    "opts": [
+     "planned",
+     "expected",
+     "unplanned"
+    ],
+    "a": 2,
+    "ar": "الطلمبة وقفت بسبب توقف مش مخطط له في الـ‎VFD.‎"
+   }
+  ]
+ },
+ {
+  "w": "pressing",
+  "ar": "ملحّ / مستعجل",
+  "family": [
+   {
+    "w": "pressing",
+    "pos": "adjective",
+    "ex": "The most pressing issue is the overheating UPS at the bank.",
+    "ar": "أهم مشكلة مستعجلة هي الـ‎UPS‎ اللي بيسخن في البنك.",
+    "ex2": "It's pressing because the bank can't afford any downtime.",
+    "ar2": "مستعجلة عشان البنك مايقدرش يستحمل أي توقف."
+   },
+   {
+    "w": "press",
+    "pos": "verb",
+    "ex": "The client is pressing us for a delivery date.",
+    "ar": "العميل بيضغط علينا عشان ميعاد تسليم.",
+    "ex2": "He pressed again this morning by phone.",
+    "ar2": "ضغط تاني النهارده الصبح بالتليفون."
+   },
+   {
+    "w": "pressure",
+    "pos": "noun",
+    "ex": "We're under pressure to close the server deal this month.",
+    "ar": "إحنا تحت ضغط نقفل صفقة السيرفرات الشهر ده.",
+    "ex2": "The pressure comes from the quarterly sales target.",
+    "ar2": "الضغط جاي من تارجت المبيعات بتاع الربع."
+   },
+   {
+    "w": "pressured",
+    "pos": "adjective",
+    "ex": "Don't feel pressured to give a bigger discount.",
+    "ar": "متحسش إنك مضغوط تدّي خصم أكبر.",
+    "ex2": "If you feel pressured, call me before you agree.",
+    "ar2": "لو حسيت إنك مضغوط، كلّمني قبل ما توافق."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "urgent",
+    "note": "needs action now; most common in emails",
+    "ex": "We have an urgent request from the hospital for batteries.",
+    "ar": "عندنا طلب مستعجل من المستشفى على بطاريات.",
+    "ex2": "The urgent order must ship today.",
+    "ar2": "الأوردر المستعجل لازم يتشحن النهارده."
+   },
+   {
+    "w": "burning",
+    "note": "informal; a question or issue everyone wants answered",
+    "ex": "The burning question is who pays for the extra cabling.",
+    "ar": "السؤال المهم اللي الكل عايز إجابته مين هيدفع الكابلات الزيادة.",
+    "ex2": "That burning question delayed the PO.",
+    "ar2": "السؤال ده أخّر أمر الشراء."
+   },
+   {
+    "w": "critical",
+    "note": "very serious; failure would cause big damage",
+    "ex": "Cooling in the server room is critical in summer.",
+    "ar": "التبريد في أوضة السيرفرات حاجة حرجة في الصيف.",
+    "ex2": "A critical failure could shut down the whole data centre.",
+    "ar2": "عطل حرج ممكن يوقف الداتا سنتر كله."
+   }
+  ],
+  "ant": [
+   {
+    "w": "minor",
+    "ex": "Let's leave minor issues for the next meeting.",
+    "ar": "خلّينا نسيب المشاكل الصغيرة للاجتماع الجاي.",
+    "ex2": "Minor points like the cover page can wait.",
+    "ar2": "النقط الصغيرة زي صفحة الغلاف ممكن تستنى."
+   }
+  ],
+  "ladder": {
+   "label": "how urgent",
+   "lar": "مستعجل قد إيه",
+   "steps": [
+    {
+     "w": "important",
+     "ex": "Updating the price list is important.",
+     "ar": "تحديث قايمة الأسعار حاجة مهمة.",
+     "ex2": "It's important, but it can wait until Sunday.",
+     "ar2": "مهم، بس ممكن يستنى للحد."
+    },
+    {
+     "w": "pressing",
+     "ex": "Collecting the overdue invoice is our most pressing task.",
+     "ar": "تحصيل الفاتورة المتأخرة هي أكتر مهمة مستعجلة عندنا.",
+     "ex2": "It's pressing because cash flow is tight.",
+     "ar2": "مستعجلة عشان السيولة ضعيفة."
+    },
+    {
+     "w": "critical",
+     "ex": "The UPS alarm at the data centre is critical.",
+     "ar": "إنذار الـ‎UPS‎ في الداتا سنتر حرج.",
+     "ex2": "Send a critical response team immediately.",
+     "ar2": "ابعت فريق الطوارئ فورًا."
+    }
+   ]
+  },
+  "ctx": "Let's start with the most pressing issue. The bank's UPS is running on battery and we need a technician there now.",
+  "ctx_ar": "خلّينا نبدأ بأكتر مشكلة مستعجلة. الـ‎UPS‎ بتاع البنك شغال على البطارية ومحتاجين فني هناك حالًا.",
+  "quiz": [
+   {
+    "s": "We're under a lot of ___ to close the deal this month.",
+    "opts": [
+     "press",
+     "pressure",
+     "pressing"
+    ],
+    "a": 1,
+    "ar": "إحنا تحت ضغط كبير نقفل الصفقة الشهر ده."
+   },
+   {
+    "s": "Leave ___ issues like the logo colour for later.",
+    "opts": [
+     "pressing",
+     "critical",
+     "minor"
+    ],
+    "a": 2,
+    "ar": "سيب المشاكل الصغيرة زي لون اللوجو لبعدين."
+   },
+   {
+    "s": "The client keeps ___ us for a delivery date.",
+    "opts": [
+     "pressing",
+     "pressure",
+     "pressured"
+    ],
+    "a": 0,
+    "ar": "العميل فضل يضغط علينا عشان ميعاد تسليم."
+   }
+  ]
+ },
+ {
+  "w": "conflicting",
+  "ar": "متعارض / متضارب",
+  "family": [
+   {
+    "w": "conflicting",
+    "pos": "adjective",
+    "ex": "I have a conflicting meeting with a supplier at 11.",
+    "ar": "عندي اجتماع متعارض مع مورّد الساعة ١١.",
+    "ex2": "Can we move our call to 1 p.m.?",
+    "ar2": "ممكن ننقل مكالمتنا للساعة ١؟"
+   },
+   {
+    "w": "conflict",
+    "pos": "noun",
+    "ex": "There's a conflict between the two delivery schedules.",
+    "ar": "فيه تعارض بين جدولين التسليم.",
+    "ex2": "We must solve this conflict before the site visit.",
+    "ar2": "لازم نحل التعارض ده قبل زيارة الموقع."
+   },
+   {
+    "w": "conflict",
+    "pos": "verb",
+    "ex": "The installation date conflicts with the client's holiday.",
+    "ar": "ميعاد التركيب متعارض مع إجازة العميل.",
+    "ex2": "Since it conflicts, we'll install after the holiday.",
+    "ar2": "وعشان متعارض، هنركّب بعد الإجازة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "happening at the same time as something else",
+    "mar": "في نفس الوقت مع حاجة تانية",
+    "ex": "I can't attend; I have a conflicting appointment.",
+    "ar": "مش هقدر أحضر؛ عندي ميعاد في نفس الوقت.",
+    "ex2": "The conflicting appointment is a site visit in 6th of October.",
+    "ar2": "الميعاد التاني زيارة موقع في أكتوبر."
+   },
+   {
+    "m": "saying different or opposite things",
+    "mar": "بيقول حاجات مختلفة أو عكس بعض",
+    "ex": "We received conflicting reports about the battery fault.",
+    "ar": "جالنا تقارير متضاربة عن عطل البطارية.",
+    "ex2": "One conflicting report blames the charger, another the cells.",
+    "ar2": "تقرير بيقول الشاحن، والتاني بيقول الخلايا."
+   }
+  ],
+  "syn": [
+   {
+    "w": "clashing",
+    "note": "informal; two events at the same time",
+    "ex": "We have clashing meetings on Monday morning.",
+    "ar": "عندنا اجتماعين في نفس الوقت يوم الاتنين الصبح.",
+    "ex2": "Because of the clashing meetings, I'll send Ali.",
+    "ar2": "وعشان الاجتماعين في نفس الوقت، هبعت علي."
+   },
+   {
+    "w": "contradictory",
+    "note": "formal; facts or statements that cannot both be true",
+    "ex": "The two test reports are contradictory.",
+    "ar": "تقريرين الاختبار عكس بعض.",
+    "ex2": "Contradictory results mean we must test the UPS again.",
+    "ar2": "النتايج المتناقضة معناها لازم نختبر الـ‎UPS‎ تاني."
+   },
+   {
+    "w": "competing",
+    "note": "different needs fighting for the same time or money",
+    "ex": "We have competing priorities: the tender and the urgent repair.",
+    "ar": "عندنا أولويات بتتنافس: المناقصة والإصلاح المستعجل.",
+    "ex2": "With competing priorities, the manager decides first.",
+    "ar2": "مع الأولويات المتنافسة، المدير هو اللي يقرر الأول."
+   }
+  ],
+  "ant": [
+   {
+    "w": "consistent",
+    "ex": "Both engineers gave consistent readings for the battery voltage.",
+    "ar": "المهندسين الاتنين جابوا قراءات متطابقة لفولت البطارية.",
+    "ex2": "Consistent readings mean the battery is healthy.",
+    "ar2": "القراءات المتطابقة معناها إن البطارية سليمة."
+   },
+   {
+    "w": "matching",
+    "ex": "The invoice and PO show matching amounts.",
+    "ar": "الفاتورة وأمر الشراء فيهم نفس المبالغ.",
+    "ex2": "With matching amounts, finance can pay today.",
+    "ar2": "وبما إن المبالغ متطابقة، المالية تقدر تدفع النهارده."
+   }
+  ],
+  "ladder": {
+   "label": "how strongly things disagree",
+   "lar": "قد إيه الحاجات مختلفة",
+   "steps": [
+    {
+     "w": "different",
+     "ex": "The two suppliers gave different delivery times.",
+     "ar": "المورّدين الاتنين ادّوا مواعيد تسليم مختلفة.",
+     "ex2": "Different times are normal for imported items.",
+     "ar2": "المواعيد المختلفة عادية في الحاجات المستوردة."
+    },
+    {
+     "w": "conflicting",
+     "ex": "We got conflicting instructions from the client and the consultant.",
+     "ar": "جالنا تعليمات متضاربة من العميل والاستشاري.",
+     "ex2": "The conflicting instructions stopped work for a day.",
+     "ar2": "التعليمات المتضاربة وقّفت الشغل يوم."
+    },
+    {
+     "w": "contradictory",
+     "ex": "Their statements about the payment were completely contradictory.",
+     "ar": "كلامهم عن الدفع كان متناقض تمامًا.",
+     "ex2": "These contradictory statements made us ask for written proof.",
+     "ar2": "الكلام المتناقض ده خلّانا نطلب إثبات مكتوب."
+    }
+   ]
+  },
+  "ctx": "Sorry, I can't make it to the 10 a.m. meeting. I have a conflicting site visit at the Smart Village data centre.",
+  "ctx_ar": "آسف، مش هقدر أحضر اجتماع الساعة ١٠. عندي زيارة موقع في نفس الوقت في داتا سنتر القرية الذكية.",
+  "quiz": [
+   {
+    "s": "The installation date ___ with the client's holiday.",
+    "opts": [
+     "conflicting",
+     "conflicts",
+     "conflict"
+    ],
+    "a": 1,
+    "ar": "ميعاد التركيب متعارض مع إجازة العميل."
+   },
+   {
+    "s": "Both engineers gave ___ readings, so the battery is fine.",
+    "opts": [
+     "conflicting",
+     "contradictory",
+     "consistent"
+    ],
+    "a": 2,
+    "ar": "المهندسين الاتنين جابوا قراءات متطابقة، يعني البطارية سليمة."
+   },
+   {
+    "s": "We need to solve the ___ between the two schedules.",
+    "opts": [
+     "conflict",
+     "conflicting",
+     "consistent"
+    ],
+    "a": 0,
+    "ar": "لازم نحل التعارض بين الجدولين."
+   }
+  ]
+ }
+]

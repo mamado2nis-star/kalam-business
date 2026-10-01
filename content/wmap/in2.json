@@ -1,0 +1,897 @@
+[
+ {
+  "w": "under pressure",
+  "ar": "تحت ضغط",
+  "family": [
+   {
+    "w": "under pressure",
+    "pos": "adjective",
+    "ex": "I work well under pressure, especially at quarter-end when POs arrive late.",
+    "ar": "بشتغل كويس تحت الضغط، خصوصًا آخر الربع لما الـ‎POs‎ بتوصل متأخر.",
+    "ex2": "Under pressure, I still check every price before sending.",
+    "ar2": "وتحت الضغط، برضه براجع كل سعر قبل ما أبعت."
+   },
+   {
+    "w": "pressure",
+    "pos": "noun",
+    "ex": "The pressure on purchasing is high because the dollar keeps moving.",
+    "ar": "الضغط على المشتريات عالي عشان الدولار مش ثابت.",
+    "ex2": "That pressure makes them order earlier than usual.",
+    "ar2": "الضغط ده بيخليهم يطلبوا بدري عن العادي."
+   },
+   {
+    "w": "pressurize",
+    "pos": "verb",
+    "ex": "Don't pressurize the client; give him time to compare offers.",
+    "ar": "متضغطش على العميل؛ اديله وقت يقارن العروض.",
+    "ex2": "If you pressurize him, he'll choose the competitor.",
+    "ar2": "لو ضغطت عليه، هيختار المنافس."
+   },
+   {
+    "w": "high-pressure",
+    "pos": "adjective",
+    "ex": "Data-centre service is a high-pressure job with night calls.",
+    "ar": "خدمة الداتا سنتر شغلانة ضغطها عالي ومكالمات بالليل.",
+    "ex2": "High-pressure roles usually pay a shift allowance.",
+    "ar2": "الوظايف اللي ضغطها عالي عادةً ليها بدل شيفت."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "under strain",
+    "note": "system or people close to failing",
+    "ex": "The old UPS is under strain with the new servers added.",
+    "ar": "الـ‎UPS‎ القديم متحمّل فوق طاقته بعد ما ضافوا السيرفرات الجديدة.",
+    "ex2": "Under strain, its batteries won't last ten minutes.",
+    "ar2": "وهو متحمّل كده، البطاريات مش هتقعد عشر دقايق."
+   },
+   {
+    "w": "under stress",
+    "note": "focus on feelings and health",
+    "ex": "Under stress, people forget safety steps.",
+    "ar": "تحت التوتر، الناس بتنسى خطوات الأمان.",
+    "ex2": "Under stress, take a break before touching live panels.",
+    "ar2": "لو متوتر، خد بريك قبل ما تلمس لوحات فيها كهربا."
+   },
+   {
+    "w": "against the clock",
+    "note": "racing a deadline",
+    "ex": "We worked against the clock to restore the bank's power.",
+    "ar": "اشتغلنا في سباق مع الوقت عشان نرجّع كهربا البنك.",
+    "ex2": "Against the clock, two teams worked in parallel.",
+    "ar2": "وفي سباق مع الوقت، فريقين اشتغلوا مع بعض في نفس الوقت."
+   }
+  ],
+  "ant": [
+   {
+    "w": "at ease",
+    "ex": "The client was at ease once the backup UPS was running.",
+    "ar": "العميل ارتاح أول ما الـ‎UPS‎ الاحتياطي اشتغل.",
+    "ex2": "At ease, he let us finish the repair properly.",
+    "ar2": "وهو مرتاح، سابنا نخلّص التصليح على مهلنا."
+   },
+   {
+    "w": "calm",
+    "ex": "Calm periods are good for updating price lists.",
+    "ar": "الفترات الهادية كويسة لتحديث قوايم الأسعار.",
+    "ex2": "Use calm weeks to train on the new VFD models.",
+    "ar2": "استغل الأسابيع الهادية للتدريب على موديلات الـ‎VFD‎ الجديدة."
+   }
+  ],
+  "ladder": {
+   "label": "how much pressure",
+   "lar": "الضغط قد إيه",
+   "steps": [
+    {
+     "w": "calm",
+     "ex": "January is calm in the service department.",
+     "ar": "يناير هادي في قسم الخدمة.",
+     "ex2": "Calm months are for training and planning.",
+     "ar2": "الشهور الهادية للتدريب والتخطيط."
+    },
+    {
+     "w": "busy",
+     "ex": "May is busy with pre-summer battery checks.",
+     "ar": "مايو زحمة بفحوصات البطاريات قبل الصيف.",
+     "ex2": "Busy, but everything is planned.",
+     "ar2": "زحمة، بس كل حاجة متخططة."
+    },
+    {
+     "w": "under pressure",
+     "ex": "In July we're under pressure with daily failures.",
+     "ar": "في يوليو بنبقى تحت ضغط من أعطال كل يوم.",
+     "ex2": "Under pressure, we add weekend shifts.",
+     "ar2": "وإحنا تحت ضغط، بنزوّد شيفتات الويك إند."
+    },
+    {
+     "w": "in crisis mode",
+     "ex": "During the big blackout, we were in crisis mode for three days.",
+     "ar": "وقت انقطاع الكهربا الكبير، كنا في حالة طوارئ تلات أيام.",
+     "ex2": "In crisis mode, every engineer was on site.",
+     "ar2": "وإحنا في حالة طوارئ، كل مهندس كان في الموقع."
+    }
+   ]
+  },
+  "ctx": "Tell me about a time you worked under pressure. — Last summer, three hospital UPS units failed in one day, and I organised the repairs by priority.",
+  "ctx_ar": "احكيلي عن مرة اشتغلت فيها تحت ضغط. — الصيف اللي فات، تلات أجهزة ‎UPS‎ في مستشفيات عطلوا في يوم واحد، ونظّمت التصليحات حسب الأولوية.",
+  "quiz": [
+   {
+    "s": "Data-centre service is a ___ job with night calls.",
+    "opts": [
+     "pressure",
+     "high-pressure",
+     "pressurize"
+    ],
+    "a": 1,
+    "ar": "خدمة الداتا سنتر شغلانة ضغطها عالي ومكالمات بالليل."
+   },
+   {
+    "s": "We worked ___ to restore the bank's power before opening.",
+    "opts": [
+     "against the clock",
+     "at ease",
+     "calm"
+    ],
+    "a": 0,
+    "ar": "اشتغلنا في سباق مع الوقت عشان نرجّع كهربا البنك قبل الفتح."
+   },
+   {
+    "s": "During the blackout, the whole team was ___ for three days.",
+    "opts": [
+     "busy",
+     "calm",
+     "in crisis mode"
+    ],
+    "a": 2,
+    "ar": "وقت انقطاع الكهربا، الفريق كله كان في حالة طوارئ تلات أيام."
+   }
+  ]
+ },
+ {
+  "w": "deployment",
+  "ar": "تركيب وتشغيل نظام (خصوصًا ‎IT‎)",
+  "family": [
+   {
+    "w": "deployment",
+    "pos": "noun",
+    "ex": "The deployment of 300 servers in the new data centre took six weeks.",
+    "ar": "تركيب وتشغيل 300 سيرفر في الداتا سنتر الجديد خد ست أسابيع.",
+    "ex2": "During deployment, our UPS team worked night shifts.",
+    "ar2": "وقت التركيب، فريق الـ‎UPS‎ بتاعنا اشتغل شيفتات بالليل."
+   },
+   {
+    "w": "deploy",
+    "pos": "verb",
+    "ex": "We'll deploy the remote monitoring cards in all bank branches.",
+    "ar": "هنركّب كروت المراقبة عن بعد في كل فروع البنك.",
+    "ex2": "We'll deploy them in phases, ten branches a week.",
+    "ar2": "هنركّبهم على مراحل، عشر فروع في الأسبوع."
+   },
+   {
+    "w": "deployed",
+    "pos": "adjective",
+    "ex": "All deployed units report their battery status every hour.",
+    "ar": "كل الأجهزة المركّبة بتبعت حالة البطاريات كل ساعة.",
+    "ex2": "Deployed units are listed in the asset system.",
+    "ar2": "الأجهزة المركّبة متسجّلة في سيستم الأصول."
+   },
+   {
+    "w": "redeploy",
+    "pos": "verb",
+    "ex": "We'll redeploy two technicians from Cairo to the Aswan solar site.",
+    "ar": "هننقل فنيين اتنين من القاهرة لموقع الطاقة الشمسية في أسوان.",
+    "ex2": "Redeploying staff is cheaper than hiring locally for one month.",
+    "ar2": "نقل الموظفين أرخص من التعيين المحلي لشهر واحد."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "installing and starting a system",
+    "mar": "تركيب وتشغيل نظام",
+    "ex": "The software deployment is planned for Friday night.",
+    "ar": "تنزيل السوفتوير متخطط له ليلة الجمعة.",
+    "ex2": "Friday deployment avoids disturbing bank users.",
+    "ar2": "التنزيل يوم الجمعة بيمنع إزعاج مستخدمين البنك."
+   },
+   {
+    "m": "sending people or resources to a place",
+    "mar": "إرسال ناس أو موارد لمكان",
+    "ex": "The deployment of engineers to Upper Egypt starts next week.",
+    "ar": "إرسال المهندسين للصعيد بيبدأ الأسبوع الجاي.",
+    "ex2": "The deployment includes a van full of spare batteries.",
+    "ar2": "الإرسال فيه عربية مليانة بطاريات احتياطي."
+   }
+  ],
+  "syn": [
+   {
+    "w": "installation",
+    "note": "physical fitting of equipment",
+    "ex": "Installation of the UPS cabinets is finished.",
+    "ar": "تركيب كبائن الـ‎UPS‎ خلص.",
+    "ex2": "After installation, we start commissioning.",
+    "ar2": "بعد التركيب، بنبدأ التشغيل التجريبي."
+   },
+   {
+    "w": "rollout",
+    "note": "deployment across many sites over time",
+    "ex": "The rollout covers forty branches by June.",
+    "ar": "التطبيق بيغطي أربعين فرع قبل يونيو.",
+    "ex2": "Each rollout phase ends with a client sign-off.",
+    "ar2": "كل مرحلة بتخلص بإمضاء العميل."
+   },
+   {
+    "w": "go-live",
+    "note": "the moment a system starts real use",
+    "ex": "Go-live for the new ERP is 1 January.",
+    "ar": "تشغيل الـ‎ERP‎ الجديد رسمي 1 يناير.",
+    "ex2": "After go-live, no more paper invoices.",
+    "ar2": "بعد التشغيل الرسمي، مفيش فواتير ورق تاني."
+   }
+  ],
+  "ant": [
+   {
+    "w": "decommissioning",
+    "ex": "Decommissioning the old UPS units takes two days.",
+    "ar": "فك وإخراج أجهزة الـ‎UPS‎ القديمة من الخدمة بياخد يومين.",
+    "ex2": "Decommissioning includes safe battery disposal.",
+    "ar2": "الإخراج من الخدمة فيه التخلص الآمن من البطاريات."
+   },
+   {
+    "w": "withdrawal",
+    "ex": "The withdrawal of old servers freed space for new racks.",
+    "ar": "سحب السيرفرات القديمة فضّى مكان لرفوف جديدة.",
+    "ex2": "After the withdrawal, cooling became easier.",
+    "ar2": "بعد السحب، التبريد بقى أسهل."
+   }
+  ],
+  "ladder": {
+   "label": "how far the system has gone",
+   "lar": "النظام وصل لفين",
+   "steps": [
+    {
+     "w": "installation",
+     "ex": "Installation: the equipment is fixed in place.",
+     "ar": "التركيب: المعدات اتركّبت في مكانها.",
+     "ex2": "Installation alone doesn't mean it works.",
+     "ar2": "التركيب لوحده مش معناه إنها شغالة."
+    },
+    {
+     "w": "commissioning",
+     "ex": "Commissioning: we test it under load.",
+     "ar": "التشغيل التجريبي: بنختبره على حمل.",
+     "ex2": "Commissioning ends with a test report.",
+     "ar2": "التشغيل التجريبي بيخلص بتقرير اختبار."
+    },
+    {
+     "w": "deployment",
+     "ex": "Deployment: it's installed, tested and connected to the network.",
+     "ar": "التشغيل الكامل: اتركّب واتختبر واتوصل بالشبكة.",
+     "ex2": "Deployment means the client can start using it.",
+     "ar2": "التشغيل معناه إن العميل يقدر يبدأ يستخدمه."
+    },
+    {
+     "w": "go-live",
+     "ex": "Go-live: real servers are running on it.",
+     "ar": "التشغيل الرسمي: سيرفرات حقيقية شغالة عليه.",
+     "ex2": "After go-live, the maintenance contract starts.",
+     "ar2": "بعد التشغيل الرسمي، عقد الصيانة بيبدأ."
+    }
+   ]
+  },
+  "ctx": "The server deployment is scheduled for Friday night. We need our engineer on site in case the UPS needs adjusting under the new load.",
+  "ctx_ar": "تركيب وتشغيل السيرفرات متحدد ليلة الجمعة. محتاجين مهندسنا في الموقع لو الـ‎UPS‎ احتاج ظبط تحت الحمل الجديد.",
+  "quiz": [
+   {
+    "s": "We'll ___ the monitoring cards in all branches.",
+    "opts": [
+     "deployment",
+     "deploy",
+     "deployed"
+    ],
+    "a": 1,
+    "ar": "هنركّب كروت المراقبة في كل الفروع."
+   },
+   {
+    "s": "___ for the new ERP is 1 January.",
+    "opts": [
+     "Go-live",
+     "Decommissioning",
+     "Installation"
+    ],
+    "a": 0,
+    "ar": "التشغيل الرسمي للـ‎ERP‎ الجديد 1 يناير."
+   },
+   {
+    "s": "___ the old UPS units includes safe battery disposal.",
+    "opts": [
+     "Deployment",
+     "Rollout",
+     "Decommissioning"
+    ],
+    "a": 2,
+    "ar": "إخراج أجهزة الـ‎UPS‎ القديمة من الخدمة فيه التخلص الآمن من البطاريات."
+   }
+  ]
+ },
+ {
+  "w": "implement",
+  "ar": "ينفّذ / يطبّق",
+  "family": [
+   {
+    "w": "implement",
+    "pos": "verb",
+    "ex": "We'll implement the new e-invoice rules from next month.",
+    "ar": "هنطبّق قواعد الفاتورة الإلكترونية الجديدة من الشهر الجاي.",
+    "ex2": "Implementing them early avoids rejected invoices.",
+    "ar2": "تطبيقها بدري بيمنع رفض الفواتير."
+   },
+   {
+    "w": "implementation",
+    "pos": "noun",
+    "ex": "Implementation of the new CRM took longer than planned.",
+    "ar": "تطبيق الـ‎CRM‎ الجديد خد وقت أكتر من المخطط.",
+    "ex2": "The implementation team trained every sales engineer.",
+    "ar2": "فريق التطبيق درّب كل مهندس مبيعات."
+   },
+   {
+    "w": "implemented",
+    "pos": "adjective",
+    "ex": "The implemented changes cut quotation time in half.",
+    "ar": "التغييرات اللي اتطبّقت قلّلت وقت عرض السعر للنص.",
+    "ex2": "Implemented changes are reviewed after three months.",
+    "ar2": "التغييرات المطبّقة بتتراجع بعد تلات شهور."
+   },
+   {
+    "w": "implementer",
+    "pos": "person",
+    "ex": "We need an implementer, not just someone with good ideas.",
+    "ar": "محتاجين حد ينفّذ، مش بس حد عنده أفكار حلوة.",
+    "ex2": "A good implementer turns plans into finished projects.",
+    "ar2": "المنفّذ الشاطر بيحوّل الخطط لمشاريع خلصانة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "carry out",
+    "note": "general; perform a task or plan",
+    "ex": "We carried out the battery tests as planned.",
+    "ar": "عملنا اختبارات البطاريات زي ما كان متخطط.",
+    "ex2": "Carrying out tests at night avoids disturbing users.",
+    "ar2": "عمل الاختبارات بالليل بيمنع إزعاج المستخدمين."
+   },
+   {
+    "w": "put in place",
+    "note": "set up a system or rule",
+    "ex": "Finance put in place a new approval step for discounts.",
+    "ar": "المالية حطت خطوة موافقة جديدة للخصومات.",
+    "ex2": "Putting it in place stopped unapproved prices.",
+    "ar2": "حطها منع الأسعار اللي من غير موافقة."
+   },
+   {
+    "w": "apply",
+    "note": "use a rule in a situation",
+    "ex": "We apply the late-payment penalty after 60 days.",
+    "ar": "بنطبّق غرامة التأخير بعد 60 يوم.",
+    "ex2": "Apply it fairly to all clients.",
+    "ar2": "طبّقها بالعدل على كل العملا."
+   }
+  ],
+  "ant": [
+   {
+    "w": "abandon",
+    "ex": "We abandoned the plan to import panels directly.",
+    "ar": "سبنا خطة استيراد الألواح مباشرة.",
+    "ex2": "We abandoned it because customs costs were too high.",
+    "ar2": "سبناها عشان تكاليف الجمارك كانت عالية أوي."
+   },
+   {
+    "w": "propose",
+    "ex": "Mohamed proposed a new service model, but nobody implemented it.",
+    "ar": "‎Mohamed‎ اقترح نموذج خدمة جديد، بس محدش نفّذه.",
+    "ex2": "Proposing is easy; implementing is the hard part.",
+    "ar2": "الاقتراح سهل؛ التنفيذ هو الصعب."
+   }
+  ],
+  "ladder": {
+   "label": "how far the idea has gone",
+   "lar": "الفكرة وصلت لفين",
+   "steps": [
+    {
+     "w": "propose",
+     "ex": "We propose a new discount policy.",
+     "ar": "بنقترح سياسة خصم جديدة.",
+     "ex2": "We propose it in the monthly meeting.",
+     "ar2": "بنقترحها في الاجتماع الشهري."
+    },
+    {
+     "w": "approve",
+     "ex": "Management approves the policy.",
+     "ar": "الإدارة بتوافق على السياسة.",
+     "ex2": "Approval takes a week.",
+     "ar2": "الموافقة بتاخد أسبوع."
+    },
+    {
+     "w": "implement",
+     "ex": "Sales implements it on all new quotations.",
+     "ar": "المبيعات بتطبّقها على كل عروض الأسعار الجديدة.",
+     "ex2": "Implementing it means updating the price templates.",
+     "ar2": "تطبيقها معناه تحديث قوالب الأسعار."
+    },
+    {
+     "w": "embed",
+     "ex": "After a year, the policy is embedded in daily work.",
+     "ar": "بعد سنة، السياسة بقت جزء أساسي من الشغل اليومي.",
+     "ex2": "Embedded rules don't need reminders.",
+     "ar2": "القواعد اللي بقت جزء من الشغل مش محتاجة تفكير."
+    }
+   ]
+  },
+  "ctx": "Having ideas is easy; we need someone who can implement them. Last year I implemented a new service-ticket system that cut response time by 40%.",
+  "ctx_ar": "الأفكار سهلة؛ إحنا محتاجين حد يقدر ينفّذها. السنة اللي فاتت طبّقت نظام تذاكر خدمة جديد قلّل وقت الاستجابة 40%.",
+  "quiz": [
+   {
+    "s": "___ of the new CRM took longer than planned.",
+    "opts": [
+     "Implement",
+     "Implementation",
+     "Implemented"
+    ],
+    "a": 1,
+    "ar": "تطبيق الـ‎CRM‎ الجديد خد وقت أكتر من المخطط."
+   },
+   {
+    "s": "Finance ___ a new approval step for discounts.",
+    "opts": [
+     "put in place",
+     "abandoned",
+     "proposed"
+    ],
+    "a": 0,
+    "ar": "المالية حطت خطوة موافقة جديدة للخصومات."
+   },
+   {
+    "s": "After a year, the rule is ___ in daily work.",
+    "opts": [
+     "proposed",
+     "approved",
+     "embedded"
+    ],
+    "a": 2,
+    "ar": "بعد سنة، القاعدة بقت جزء أساسي من الشغل اليومي."
+   }
+  ]
+ },
+ {
+  "w": "revamp",
+  "ar": "يجدّد / يعمل تطوير شامل",
+  "family": [
+   {
+    "w": "revamp",
+    "pos": "verb",
+    "ex": "We're going to revamp our website to show solar case studies.",
+    "ar": "هنجدّد الموقع بتاعنا عشان نعرض قصص نجاح في الطاقة الشمسية.",
+    "ex2": "We'll revamp the quotation form too.",
+    "ar2": "وهنجدّد نموذج عرض السعر كمان."
+   },
+   {
+    "w": "revamp",
+    "pos": "noun",
+    "ex": "The revamp of the showroom cost less than expected.",
+    "ar": "تجديد صالة العرض كلّف أقل من المتوقع.",
+    "ex2": "After the revamp, visitors can test UPS units live.",
+    "ar2": "بعد التجديد، الزوار يقدروا يجرّبوا أجهزة الـ‎UPS‎ على الطبيعة."
+   },
+   {
+    "w": "revamped",
+    "pos": "adjective",
+    "ex": "The revamped service contract now includes remote monitoring.",
+    "ar": "عقد الخدمة بعد التجديد بقى فيه مراقبة عن بعد.",
+    "ex2": "Clients like the revamped contract's simple pricing.",
+    "ar2": "العملا عاجبهم التسعير البسيط في العقد الجديد."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "update",
+    "note": "small changes, keep the same base",
+    "ex": "Please update the price list with the new dollar rate.",
+    "ar": "لو سمحت حدّث قايمة الأسعار بسعر الدولار الجديد.",
+    "ex2": "Update it every Sunday.",
+    "ar2": "حدّثها كل حد."
+   },
+   {
+    "w": "overhaul",
+    "note": "complete repair or redesign; stronger than revamp",
+    "ex": "The old diesel generator needs a full overhaul.",
+    "ar": "المولد الديزل القديم محتاج عمرة كاملة.",
+    "ex2": "An overhaul costs less than a new generator.",
+    "ar2": "العمرة أرخص من مولد جديد."
+   },
+   {
+    "w": "modernize",
+    "note": "make it use current technology",
+    "ex": "The factory wants to modernize its pumps with VFDs.",
+    "ar": "المصنع عايز يحدّث الطلمبات بتاعته بـ‎VFDs‎.",
+    "ex2": "Modernizing them will cut energy bills by 30%.",
+    "ar2": "تحديثها هيقلّل فواتير الكهربا 30%."
+   }
+  ],
+  "ant": [
+   {
+    "w": "keep as is",
+    "ex": "The client wants to keep the old panel as is for now.",
+    "ar": "العميل عايز يسيب اللوحة القديمة زي ما هي دلوقتي.",
+    "ex2": "Keeping it as is means more breakdowns later.",
+    "ar2": "إنه يسيبها زي ما هي معناه أعطال أكتر بعدين."
+   },
+   {
+    "w": "neglect",
+    "ex": "They neglected the server room for years.",
+    "ar": "أهملوا أوضة السيرفرات سنين.",
+    "ex2": "Neglected rooms overheat in summer.",
+    "ar2": "الأوض المهملة بتسخن في الصيف."
+   }
+  ],
+  "ladder": {
+   "label": "how big the change is",
+   "lar": "التغيير كبير قد إيه",
+   "steps": [
+    {
+     "w": "update",
+     "ex": "We updated the brochure prices.",
+     "ar": "حدّثنا أسعار البروشور.",
+     "ex2": "Updating took one hour.",
+     "ar2": "التحديث خد ساعة."
+    },
+    {
+     "w": "improve",
+     "ex": "We improved the quotation template layout.",
+     "ar": "حسّنا شكل قالب عرض السعر.",
+     "ex2": "Improving it made prices clearer.",
+     "ar2": "تحسينه خلّى الأسعار أوضح."
+    },
+    {
+     "w": "revamp",
+     "ex": "We revamped the whole service process.",
+     "ar": "جدّدنا إجراءات الخدمة كلها.",
+     "ex2": "Revamping it cut paperwork by half.",
+     "ar2": "التجديد قلّل الورق للنص."
+    },
+    {
+     "w": "overhaul",
+     "ex": "Next year we'll overhaul the entire business model.",
+     "ar": "السنة الجاية هنقلب نموذج الشغل كله.",
+     "ex2": "An overhaul means new products, prices and teams.",
+     "ar2": "التغيير الشامل معناه منتجات وأسعار وفرق جديدة."
+    }
+   ]
+  },
+  "ctx": "Our maintenance contract hasn't changed in ten years, so we decided to revamp it. Now clients choose Basic, Standard or Premium with clear response times.",
+  "ctx_ar": "عقد الصيانة بتاعنا متغيّرش من عشر سنين، فقررنا نجدّده. دلوقتي العملا بيختاروا ‎Basic‎ أو ‎Standard‎ أو ‎Premium‎ بأوقات استجابة واضحة.",
+  "quiz": [
+   {
+    "s": "The ___ service contract includes remote monitoring.",
+    "opts": [
+     "revamp",
+     "revamped",
+     "revamping"
+    ],
+    "a": 1,
+    "ar": "عقد الخدمة بعد التجديد فيه مراقبة عن بعد."
+   },
+   {
+    "s": "Please ___ the price list with the new dollar rate.",
+    "opts": [
+     "update",
+     "overhaul",
+     "neglect"
+    ],
+    "a": 0,
+    "ar": "لو سمحت حدّث قايمة الأسعار بسعر الدولار الجديد."
+   },
+   {
+    "s": "The old generator needs a full ___.",
+    "opts": [
+     "update",
+     "improve",
+     "overhaul"
+    ],
+    "a": 2,
+    "ar": "المولد القديم محتاج عمرة كاملة."
+   }
+  ]
+ },
+ {
+  "w": "streamline",
+  "ar": "يبسّط ويسرّع الإجراءات",
+  "family": [
+   {
+    "w": "streamline",
+    "pos": "verb",
+    "ex": "We streamlined the PO approval from five signatures to two.",
+    "ar": "بسّطنا موافقة الـ‎PO‎ من خمس إمضاءات لاتنين.",
+    "ex2": "Streamlining it saved three days on every order.",
+    "ar2": "التبسيط وفّر تلات أيام في كل أوردر."
+   },
+   {
+    "w": "streamlined",
+    "pos": "adjective",
+    "ex": "The streamlined import process uses one customs broker.",
+    "ar": "إجراءات الاستيراد المبسّطة بتستخدم مخلّص جمركي واحد.",
+    "ex2": "With a streamlined process, batteries arrive a week earlier.",
+    "ar2": "بالإجراءات المبسّطة، البطاريات بتوصل بدري بأسبوع."
+   },
+   {
+    "w": "streamlining",
+    "pos": "noun",
+    "ex": "Streamlining the invoicing process reduced errors in e-invoices.",
+    "ar": "تبسيط إجراءات الفوترة قلّل الأخطاء في الفواتير الإلكترونية.",
+    "ex2": "Streamlining also freed time for collections.",
+    "ar2": "التبسيط كمان فضّى وقت للتحصيل."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "simplify",
+    "note": "make easier to understand or do",
+    "ex": "Let's simplify the quotation so the client sees one total price.",
+    "ar": "يلا نبسّط عرض السعر بحيث العميل يشوف سعر إجمالي واحد.",
+    "ex2": "Simplifying it reduces questions.",
+    "ar2": "تبسيطه بيقلّل الأسئلة."
+   },
+   {
+    "w": "speed up",
+    "note": "make faster; informal",
+    "ex": "Can we speed up the delivery of the VFDs?",
+    "ar": "نقدر نسرّع تسليم الـ‎VFDs‎؟",
+    "ex2": "Speeding it up costs extra for air freight.",
+    "ar2": "تسريعه بيكلّف زيادة للشحن الجوي."
+   },
+   {
+    "w": "automate",
+    "note": "let software do it instead of people",
+    "ex": "We automated the payment reminder emails.",
+    "ar": "خلّينا إيميلات تذكير الدفع أوتوماتيك.",
+    "ex2": "Automating them saved Mona two hours a day.",
+    "ar2": "أتمتتها وفّرت على ‎Mona‎ ساعتين في اليوم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "complicate",
+    "ex": "Extra approval steps complicate small orders.",
+    "ar": "خطوات الموافقة الزيادة بتعقّد الأوردرات الصغيرة.",
+    "ex2": "Don't complicate a 5,000-pound order.",
+    "ar2": "متعقّدش أوردر بخمسة آلاف جنيه."
+   },
+   {
+    "w": "slow down",
+    "ex": "Paper invoices slow down collections.",
+    "ar": "الفواتير الورق بتبطّأ التحصيل.",
+    "ex2": "They slow down the whole cash cycle.",
+    "ar2": "بتبطّأ دورة الكاش كلها."
+   }
+  ],
+  "ladder": {
+   "label": "how much faster and simpler",
+   "lar": "أسرع وأبسط قد إيه",
+   "steps": [
+    {
+     "w": "tidy up",
+     "ex": "We tidy up the shared quotations folder every Friday.",
+     "ar": "بنرتّب الفولدر المشترك بتاع عروض الأسعار كل جمعة.",
+     "ex2": "Tidying up helps find old prices.",
+     "ar2": "الترتيب بيساعد نلاقي الأسعار القديمة."
+    },
+    {
+     "w": "simplify",
+     "ex": "We simplified the order form to one page.",
+     "ar": "بسّطنا فورم الطلب لصفحة واحدة.",
+     "ex2": "Simplifying it reduced mistakes.",
+     "ar2": "تبسيطه قلّل الأخطاء."
+    },
+    {
+     "w": "streamline",
+     "ex": "We streamlined the whole order-to-invoice process.",
+     "ar": "بسّطنا وسرّعنا الدورة كلها من الطلب للفاتورة.",
+     "ex2": "Streamlining it cut the cycle from ten days to four.",
+     "ar2": "التبسيط قلّل الدورة من عشر أيام لأربعة."
+    },
+    {
+     "w": "automate",
+     "ex": "Now we automate invoices directly from delivery notes.",
+     "ar": "دلوقتي الفواتير بتطلع أوتوماتيك من أذونات التسليم.",
+     "ex2": "Automating them means zero manual typing.",
+     "ar2": "الأتمتة معناها صفر كتابة يدوي."
+    }
+   ]
+  },
+  "ctx": "Our order process had too many steps and emails. We streamlined it, and now a PO becomes a delivery in five days instead of twelve.",
+  "ctx_ar": "إجراءات الطلب بتاعتنا كان فيها خطوات وإيميلات كتير. بسّطناها، ودلوقتي الـ‎PO‎ بيتحوّل لتسليم في خمس أيام بدل اتناشر.",
+  "quiz": [
+   {
+    "s": "The ___ process uses one customs broker.",
+    "opts": [
+     "streamline",
+     "streamlined",
+     "streamlining"
+    ],
+    "a": 1,
+    "ar": "الإجراءات المبسّطة بتستخدم مخلّص جمركي واحد."
+   },
+   {
+    "s": "We ___ the payment reminder emails; no one sends them by hand now.",
+    "opts": [
+     "automated",
+     "complicated",
+     "slowed down"
+    ],
+    "a": 0,
+    "ar": "خلّينا إيميلات تذكير الدفع أوتوماتيك؛ محدش بيبعتها بإيده دلوقتي."
+   },
+   {
+    "s": "Extra approval steps ___ small orders.",
+    "opts": [
+     "streamline",
+     "simplify",
+     "complicate"
+    ],
+    "a": 2,
+    "ar": "خطوات الموافقة الزيادة بتعقّد الأوردرات الصغيرة."
+   }
+  ]
+ },
+ {
+  "w": "drive results",
+  "ar": "يحقق نتايج فعلية",
+  "family": [
+   {
+    "w": "drive results",
+    "pos": "verb",
+    "ex": "A good sales manager knows how to drive results without burning out the team.",
+    "ar": "مدير المبيعات الشاطر بيعرف يحقق نتايج من غير ما يهدّ الفريق.",
+    "ex2": "He drives results with clear targets and weekly follow-up.",
+    "ar2": "بيحقق النتايج بأهداف واضحة ومتابعة أسبوعية."
+   },
+   {
+    "w": "results-driven",
+    "pos": "adjective",
+    "ex": "We're looking for a results-driven engineer for the solar division.",
+    "ar": "بندوّر على مهندس بيركّز على النتايج لقطاع الطاقة الشمسية.",
+    "ex2": "Results-driven people track their numbers every week.",
+    "ar2": "الناس اللي بتركّز على النتايج بتتابع أرقامها كل أسبوع."
+   },
+   {
+    "w": "driver",
+    "pos": "noun",
+    "ex": "Service contracts are the main driver of our profit.",
+    "ar": "عقود الخدمة هي المحرّك الأساسي لربحنا.",
+    "ex2": "Another driver is battery replacement sales.",
+    "ar2": "ومحرّك تاني مبيعات تغيير البطاريات."
+   },
+   {
+    "w": "result",
+    "pos": "noun",
+    "ex": "The result of the campaign was twenty new maintenance contracts.",
+    "ar": "نتيجة الحملة كانت عشرين عقد صيانة جديد.",
+    "ex2": "That result beat our target by 25%.",
+    "ar2": "النتيجة دي عدّت التارجت بتاعنا 25%."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "deliver results",
+    "note": "very close; slightly more about finishing",
+    "ex": "She always delivers results, even with difficult clients.",
+    "ar": "هي دايمًا بتجيب نتايج، حتى مع العملا الصعبين.",
+    "ex2": "Delivering results is why she got promoted.",
+    "ar2": "إنها بتجيب نتايج هو سبب ترقيتها."
+   },
+   {
+    "w": "achieve targets",
+    "note": "about fixed numbers, reports and reviews",
+    "ex": "Our team achieved its targets for UPS sales this year.",
+    "ar": "فريقنا حقق أهدافه في مبيعات الـ‎UPS‎ السنة دي.",
+    "ex2": "Achieving targets means the full bonus.",
+    "ar2": "تحقيق الأهداف معناه البونص كامل."
+   },
+   {
+    "w": "get things done",
+    "note": "informal; practical action",
+    "ex": "Hossam knows how to get things done; he solved the customs issue in a day.",
+    "ar": "‎Hossam‎ بيعرف يخلّص الحاجات؛ حل مشكلة الجمارك في يوم.",
+    "ex2": "People who get things done are rare.",
+    "ar2": "الناس اللي بتخلّص الحاجات بجد نادرين."
+   }
+  ],
+  "ant": [
+   {
+    "w": "underperform",
+    "ex": "The Delta branch underperformed for two quarters.",
+    "ar": "فرع الدلتا كان أداؤه أقل من المطلوب ربعين.",
+    "ex2": "If it continues to underperform, we'll change the plan.",
+    "ar2": "لو فضل أداؤه ضعيف، هنغيّر الخطة."
+   },
+   {
+    "w": "fall short",
+    "ex": "If we fall short of the collections target, the bank limits our credit.",
+    "ar": "لو قصّرنا عن تارجت التحصيل، البنك هيقلّل الائتمان بتاعنا.",
+    "ex2": "Last quarter we fell short by 15%, so this matters.",
+    "ar2": "الربع اللي فات قصّرنا بـ15%، فده مهم."
+   }
+  ],
+  "ladder": {
+   "label": "how strong the outcome is",
+   "lar": "النتيجة قوية قد إيه",
+   "steps": [
+    {
+     "w": "contribute to",
+     "ex": "I contributed to the bank project's success.",
+     "ar": "ساهمت في نجاح مشروع البنك.",
+     "ex2": "I contributed to the technical offer.",
+     "ar2": "ساهمت في العرض الفني."
+    },
+    {
+     "w": "achieve targets",
+     "ex": "I achieved my targets every quarter.",
+     "ar": "حققت أهدافي كل ربع.",
+     "ex2": "Achieving them earned me a full bonus.",
+     "ar2": "تحقيقها جاب لي البونص كامل."
+    },
+    {
+     "w": "drive results",
+     "ex": "I drive results by leading the whole sales team.",
+     "ar": "بحقق النتايج وأنا بقود فريق المبيعات كله.",
+     "ex2": "Driving results means the team hits targets, not just me.",
+     "ar2": "تحقيق النتايج معناه الفريق كله يحقق التارجت، مش أنا بس."
+    },
+    {
+     "w": "exceed targets",
+     "ex": "Last year our team exceeded targets by 20%.",
+     "ar": "السنة اللي فاتت فريقنا عدّى التارجت بـ20%.",
+     "ex2": "Exceeding targets got us a trip to the supplier's factory.",
+     "ar2": "تعدية التارجت جابت لنا رحلة لمصنع المورد."
+    }
+   ]
+  },
+  "ctx": "I'm a manager who likes to drive results. Last year I led the solar team, and we exceeded our sales target by 20% in a difficult market.",
+  "ctx_ar": "أنا مدير بيحب يحقق نتايج. السنة اللي فاتت قُدت فريق الطاقة الشمسية، وعدّينا تارجت المبيعات بـ20% في سوق صعب.",
+  "quiz": [
+   {
+    "s": "We're hiring a ___ engineer who tracks numbers weekly.",
+    "opts": [
+     "drive results",
+     "results-driven",
+     "driver"
+    ],
+    "a": 1,
+    "ar": "بنعيّن مهندس بيركّز على النتايج وبيتابع الأرقام كل أسبوع."
+   },
+   {
+    "s": "We ___ of the collections target by 15%.",
+    "opts": [
+     "fell short",
+     "drove results",
+     "exceeded"
+    ],
+    "a": 0,
+    "ar": "قصّرنا عن تارجت التحصيل بـ15%."
+   },
+   {
+    "s": "Service contracts are the main ___ of our profit.",
+    "opts": [
+     "result",
+     "results-driven",
+     "driver"
+    ],
+    "a": 2,
+    "ar": "عقود الخدمة هي المحرّك الأساسي لربحنا."
+   }
+  ]
+ }
+]

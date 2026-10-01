@@ -1,0 +1,723 @@
+[
+ {
+  "w": "cost-cutting",
+  "ar": "تقليل المصاريف",
+  "family": [
+   {
+    "w": "cost-cutting",
+    "pos": "noun",
+    "ex": "Cost-cutting is the main topic of this budget meeting.",
+    "ar": "تقليل المصاريف هو الموضوع الأساسي في اجتماع الميزانية ده.",
+    "ex2": "Every department must suggest one cost-cutting idea.",
+    "ar2": "كل قسم لازم يقترح فكرة واحدة لتقليل المصاريف."
+   },
+   {
+    "w": "cost-cutting",
+    "pos": "adjective",
+    "ex": "The new cost-cutting plan freezes overtime for three months.",
+    "ar": "خطة تقليل المصاريف الجديدة بتوقف الأوفر تايم تلات شهور.",
+    "ex2": "Cost-cutting measures also cover travel and fuel.",
+    "ar2": "إجراءات التقشف بتشمل السفر والبنزين كمان."
+   },
+   {
+    "w": "cut costs",
+    "pos": "verb",
+    "ex": "We can cut costs by buying batteries directly from the factory.",
+    "ar": "نقدر نقلل التكاليف لو اشترينا البطاريات من المصنع على طول.",
+    "ex2": "Cutting costs that way saves about 12%.",
+    "ar2": "تقليل التكاليف بالطريقة دي بيوفّر حوالي 12%."
+   },
+   {
+    "w": "cost-effective",
+    "pos": "adjective",
+    "ex": "Solar is a cost-effective option for remote pump stations.",
+    "ar": "الطاقة الشمسية اختيار اقتصادي لمحطات الطلمبات البعيدة.",
+    "ex2": "It's more cost-effective than running diesel generators.",
+    "ar2": "أوفر من تشغيل مولدات ديزل."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "savings",
+    "note": "the money saved, the result",
+    "ex": "The new route plan brought real savings in fuel.",
+    "ar": "خطة خطوط السير الجديدة جابت توفير حقيقي في البنزين.",
+    "ex2": "Those savings paid for a new tester.",
+    "ar2": "التوفير ده جاب جهاز قياس جديد."
+   },
+   {
+    "w": "cutbacks",
+    "note": "reductions in staff or spending, sounds negative",
+    "ex": "The client announced cutbacks, so our project was delayed.",
+    "ar": "العميل أعلن عن تخفيضات، فالمشروع بتاعنا اتأجل.",
+    "ex2": "Cutbacks hit the IT budget first.",
+    "ar2": "التخفيضات ضربت ميزانية الـ ‎IT‎ الأول."
+   },
+   {
+    "w": "belt-tightening",
+    "note": "informal; general careful spending",
+    "ex": "After a slow quarter, management asked for belt-tightening.",
+    "ar": "بعد ربع سنة ضعيف، الإدارة طلبت شد الحزام.",
+    "ex2": "Belt-tightening means no new cars this year.",
+    "ar2": "شد الحزام معناه مفيش عربيات جديدة السنة دي."
+   }
+  ],
+  "ant": [
+   {
+    "w": "investment",
+    "ex": "Management approved an investment in a new service van.",
+    "ar": "الإدارة وافقت على استثمار في عربية خدمة جديدة.",
+    "ex2": "The investment should pay back in two years.",
+    "ar2": "الاستثمار ده المفروض يرجع فلوسه في سنتين."
+   },
+   {
+    "w": "spending increase",
+    "ex": "The marketing team asked for a spending increase for the solar exhibition.",
+    "ar": "فريق التسويق طلب زيادة في الصرف لمعرض الطاقة الشمسية.",
+    "ex2": "The spending increase was approved for one event only.",
+    "ar2": "الزيادة اتوافق عليها لمعرض واحد بس."
+   }
+  ],
+  "ladder": {
+   "label": "how deep the cuts are",
+   "lar": "التخفيض قد إيه",
+   "steps": [
+    {
+     "w": "trimming",
+     "ex": "We're trimming small costs like printing and couriers.",
+     "ar": "بنقلل مصاريف صغيرة زي الطباعة والمندوبين.",
+     "ex2": "Trimming alone won't fix the budget.",
+     "ar2": "التقليل البسيط ده لوحده مش هيظبط الميزانية."
+    },
+    {
+     "w": "cost-cutting",
+     "ex": "Cost-cutting now includes cheaper suppliers for fuses.",
+     "ar": "تقليل المصاريف دلوقتي فيه موردين أرخص للفيوزات.",
+     "ex2": "Quality checks will make sure nothing fails.",
+     "ar2": "فحص الجودة هيتأكد إن مفيش حاجة تبوظ."
+    },
+    {
+     "w": "drastic cuts",
+     "ex": "Drastic cuts may close the Alexandria branch.",
+     "ar": "تخفيضات جذرية ممكن تقفل فرع إسكندرية.",
+     "ex2": "Management hopes to avoid drastic cuts this year.",
+     "ar2": "الإدارة بتتمنى تتجنب التخفيضات الجذرية السنة دي."
+    }
+   ]
+  },
+  "ctx": "Fuel prices doubled this year. As a cost-cutting step, we now group service visits by area to save trips.",
+  "ctx_ar": "أسعار البنزين اتضاعفت السنة دي. كخطوة لتقليل المصاريف، بقينا نجمّع زيارات الخدمة حسب المنطقة عشان نوفّر مشاوير.",
+  "quiz": [
+   {
+    "s": "Solar is a ___ option for remote pump stations.",
+    "opts": [
+     "cost-cutting",
+     "cost-effective",
+     "cut costs"
+    ],
+    "a": 1,
+    "ar": "الطاقة الشمسية اختيار اقتصادي لمحطات الطلمبات البعيدة."
+   },
+   {
+    "s": "We can ___ by buying direct from the factory.",
+    "opts": [
+     "cut costs",
+     "cost-effective",
+     "savings"
+    ],
+    "a": 0,
+    "ar": "نقدر نقلل التكاليف لو اشترينا من المصنع على طول."
+   },
+   {
+    "s": "The client announced ___, so the data centre project is on hold.",
+    "opts": [
+     "investment",
+     "savings",
+     "cutbacks"
+    ],
+    "a": 2,
+    "ar": "العميل أعلن عن تخفيضات، فمشروع الداتا سنتر متوقف."
+   }
+  ]
+ },
+ {
+  "w": "fiscal year",
+  "ar": "السنة المالية",
+  "family": [
+   {
+    "w": "fiscal year",
+    "pos": "noun",
+    "ex": "Our fiscal year runs from July to June.",
+    "ar": "السنة المالية بتاعتنا من يوليو لحد يونيو.",
+    "ex2": "So the new budget starts in the fiscal year beginning July.",
+    "ar2": "فالميزانية الجديدة بتبدأ مع السنة المالية في يوليو."
+   },
+   {
+    "w": "fiscal",
+    "pos": "adjective",
+    "ex": "The client has strict fiscal rules for government purchases.",
+    "ar": "العميل عنده قواعد مالية صارمة لمشتريات الحكومة.",
+    "ex2": "Those fiscal rules require three quotations.",
+    "ar2": "القواعد المالية دي بتطلب تلات عروض أسعار."
+   },
+   {
+    "w": "fiscally",
+    "pos": "adverb",
+    "ex": "Buying lithium batteries now is fiscally smart.",
+    "ar": "شراء بطاريات الليثيوم دلوقتي قرار مالي ذكي.",
+    "ex2": "Prices will rise, so it's fiscally better to order early.",
+    "ar2": "الأسعار هتزيد، فمن الناحية المالية أحسن نطلب بدري."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "financial year",
+    "note": "British and Egyptian company usage, same meaning",
+    "ex": "The financial year closes on 30 June.",
+    "ar": "السنة المالية بتقفل 30 يونيو.",
+    "ex2": "Auditors visit after the financial year ends.",
+    "ar2": "المراجعين بييجوا بعد ما السنة المالية تخلص."
+   },
+   {
+    "w": "budget year",
+    "note": "the year a budget is planned for",
+    "ex": "The UPS upgrade is planned in next budget year.",
+    "ar": "تطوير الـ ‎UPS‎ متخطط له في سنة الميزانية الجاية.",
+    "ex2": "Their budget year starts in January.",
+    "ar2": "سنة الميزانية عندهم بتبدأ في يناير."
+   },
+   {
+    "w": "calendar year",
+    "note": "January to December, not the company's year",
+    "ex": "The warranty counts by calendar year, not fiscal year.",
+    "ar": "الضمان بيتحسب بالسنة الميلادية، مش المالية.",
+    "ex2": "So it ends on 31 December of the calendar year.",
+    "ar2": "فبيخلص 31 ديسمبر من السنة الميلادية."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "The hospital's fiscal year ends in June, and unused budget is lost. They want the UPS order invoiced before the 30th.",
+  "ctx_ar": "السنة المالية للمستشفى بتخلص في يونيو، والميزانية اللي ما اتصرفتش بتضيع. عايزين فاتورة طلبية الـ ‎UPS‎ قبل يوم 30.",
+  "quiz": [
+   {
+    "s": "Our ___ starts in July and ends in June.",
+    "opts": [
+     "fiscal year",
+     "calendar year",
+     "fiscally"
+    ],
+    "a": 0,
+    "ar": "السنة المالية بتاعتنا بتبدأ في يوليو."
+   },
+   {
+    "s": "Ordering early is ___ smart because prices will rise.",
+    "opts": [
+     "fiscal",
+     "fiscally",
+     "fiscal year"
+    ],
+    "a": 1,
+    "ar": "الطلب بدري ذكي ماليًا عشان الأسعار هتزيد."
+   },
+   {
+    "s": "The warranty ends on 31 December of the ___.",
+    "opts": [
+     "fiscal year",
+     "budget year",
+     "calendar year"
+    ],
+    "a": 2,
+    "ar": "الضمان بيخلص 31 ديسمبر من السنة الميلادية."
+   }
+  ]
+ },
+ {
+  "w": "feasibility",
+  "ar": "الجدوى / إمكانية التنفيذ",
+  "family": [
+   {
+    "w": "feasibility",
+    "pos": "noun",
+    "ex": "We're checking the feasibility of a solar station on the farm.",
+    "ar": "بنشوف جدوى محطة طاقة شمسية في المزرعة.",
+    "ex2": "Feasibility depends on roof space and sunlight hours.",
+    "ar2": "الجدوى بتعتمد على مساحة السطح وساعات الشمس."
+   },
+   {
+    "w": "feasible",
+    "pos": "adjective",
+    "ex": "Is it feasible to install the UPS this weekend?",
+    "ar": "ممكن نركّب الـ ‎UPS‎ الويك إند ده؟",
+    "ex2": "It's feasible if the batteries clear customs by Thursday.",
+    "ar2": "ممكن لو البطاريات خلصت جمارك قبل الخميس."
+   },
+   {
+    "w": "unfeasible",
+    "pos": "adjective",
+    "ex": "Moving the server room during working hours is unfeasible.",
+    "ar": "نقل أوضة السيرفرات في وقت الشغل مش ممكن.",
+    "ex2": "An unfeasible plan like that risks a full outage.",
+    "ar2": "خطة مستحيلة زي دي ممكن توقف كل حاجة."
+   },
+   {
+    "w": "feasibility study",
+    "pos": "noun",
+    "ex": "The client asked for a feasibility study before signing.",
+    "ar": "العميل طلب دراسة جدوى قبل ما يمضي.",
+    "ex2": "Our feasibility study shows payback in four years.",
+    "ar2": "دراسة الجدوى بتاعتنا بتوضح إن الفلوس هترجع في أربع سنين."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "viability",
+    "note": "whether it can succeed financially long-term",
+    "ex": "Management doubts the viability of the Aswan branch.",
+    "ar": "الإدارة شاكّة في إن فرع أسوان هيكسب على المدى الطويل.",
+    "ex2": "Its viability depends on two big contracts.",
+    "ar2": "استمراره معتمد على عقدين كبار."
+   },
+   {
+    "w": "practicality",
+    "note": "whether it works easily in real life",
+    "ex": "Think about the practicality of servicing roof panels weekly.",
+    "ar": "فكّر في عملية تنضيف الألواح على السطح كل أسبوع.",
+    "ex2": "The practicality issue is access to the roof.",
+    "ar2": "مشكلة العملية هي الوصول للسطح."
+   },
+   {
+    "w": "possibility",
+    "note": "general chance; not detailed analysis",
+    "ex": "Is there any possibility of a discount?",
+    "ar": "فيه أي إمكانية لخصم؟",
+    "ex2": "The possibility depends on the order size.",
+    "ar2": "الإمكانية دي بتعتمد على حجم الطلبية."
+   }
+  ],
+  "ant": [
+   {
+    "w": "impracticality",
+    "ex": "The impracticality of daily site visits made us add remote monitoring.",
+    "ar": "صعوبة الزيارات اليومية خلّتنا نضيف مراقبة عن بُعد.",
+    "ex2": "Remote alarms solved the impracticality.",
+    "ar2": "الإنذارات عن بُعد حلّت الصعوبة دي."
+   }
+  ],
+  "ladder": {
+   "label": "how possible it is",
+   "lar": "قد إيه ممكن",
+   "steps": [
+    {
+     "w": "unfeasible",
+     "ex": "Finishing in two days is unfeasible.",
+     "ar": "إننا نخلص في يومين مستحيل.",
+     "ex2": "Customs alone takes longer.",
+     "ar2": "الجمارك لوحدها بتاخد أكتر من كده."
+    },
+    {
+     "w": "possible",
+     "ex": "A Friday shutdown is possible but risky.",
+     "ar": "الفصل يوم الجمعة ممكن بس فيه مخاطرة.",
+     "ex2": "We'd need the client's IT team present.",
+     "ar2": "هنحتاج فريق الـ ‎IT‎ بتاع العميل يكون موجود."
+    },
+    {
+     "w": "feasible",
+     "ex": "A phased installation is feasible and safe.",
+     "ar": "التركيب على مراحل ممكن وآمن.",
+     "ex2": "Each phase takes one night.",
+     "ar2": "كل مرحلة بتاخد ليلة."
+    },
+    {
+     "w": "straightforward",
+     "ex": "Replacing the fan is straightforward.",
+     "ar": "تغيير المروحة سهل ومباشر.",
+     "ex2": "It takes twenty minutes.",
+     "ar2": "بياخد عشرين دقيقة."
+    }
+   ]
+  },
+  "ctx": "Before quoting the farm's solar pumps, we need a feasibility study. It will check water depth, sunlight hours and the payback period.",
+  "ctx_ar": "قبل ما نسعّر طلمبات الطاقة الشمسية للمزرعة، محتاجين دراسة جدوى. هتشوف عمق المية وساعات الشمس ومدة استرداد الفلوس.",
+  "quiz": [
+   {
+    "s": "Is it ___ to finish by Thursday?",
+    "opts": [
+     "feasibility",
+     "feasible",
+     "unfeasible"
+    ],
+    "a": 1,
+    "ar": "ممكن نخلص قبل الخميس؟"
+   },
+   {
+    "s": "The client asked for a ___ study first.",
+    "opts": [
+     "feasibility",
+     "feasible",
+     "possibility"
+    ],
+    "a": 0,
+    "ar": "العميل طلب دراسة جدوى الأول."
+   },
+   {
+    "s": "Moving all servers in one hour is ___.",
+    "opts": [
+     "feasible",
+     "straightforward",
+     "unfeasible"
+    ],
+    "a": 2,
+    "ar": "نقل كل السيرفرات في ساعة مستحيل."
+   }
+  ]
+ },
+ {
+  "w": "vet",
+  "ar": "يفحص / يدقق قبل الموافقة",
+  "family": [
+   {
+    "w": "vet",
+    "pos": "verb",
+    "ex": "We vet every new supplier before the first order.",
+    "ar": "بنفحص كل مورد جديد قبل أول طلبية.",
+    "ex2": "Vetting includes checking their certificates and references.",
+    "ar2": "الفحص بيشمل الشهادات والعملا السابقين."
+   },
+   {
+    "w": "vetting",
+    "pos": "noun",
+    "ex": "Supplier vetting takes about two weeks.",
+    "ar": "فحص الموردين بياخد حوالي أسبوعين.",
+    "ex2": "The vetting saved us from a fake battery dealer.",
+    "ar2": "الفحص ده أنقذنا من تاجر بطاريات مضروب."
+   },
+   {
+    "w": "vetted",
+    "pos": "adjective",
+    "ex": "Only vetted subcontractors can work in the data centre.",
+    "ar": "المقاولين من الباطن اللي اتفحصوا بس يقدروا يشتغلوا في الداتا سنتر.",
+    "ex2": "Each vetted worker gets a security badge.",
+    "ar2": "كل عامل اتفحص بياخد كارنيه أمن."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "screen",
+    "note": "check many candidates quickly to filter them",
+    "ex": "HR will screen the CVs for the service engineer job.",
+    "ar": "الـ ‎HR‎ هيفرز السير الذاتية لوظيفة مهندس الخدمة.",
+    "ex2": "Only five candidates passed the screening.",
+    "ar2": "خمسة بس اللي عدّوا الفرز."
+   },
+   {
+    "w": "check",
+    "note": "general, everyday word",
+    "ex": "Please check the PO before you send it.",
+    "ar": "ياريت تراجع أمر الشراء قبل ما تبعته.",
+    "ex2": "Check the prices against the quotation.",
+    "ar2": "راجع الأسعار مع عرض السعر."
+   },
+   {
+    "w": "review",
+    "note": "careful look, often at documents",
+    "ex": "Legal will review the maintenance contract.",
+    "ar": "القانوني هيراجع عقد الصيانة.",
+    "ex2": "The review should finish by Monday.",
+    "ar2": "المراجعة المفروض تخلص الاتنين."
+   }
+  ],
+  "ant": [
+   {
+    "w": "approve blindly",
+    "ex": "We never approve suppliers blindly, even cheap ones online.",
+    "ar": "إحنا عمرنا ما بنوافق على موردين من غير فحص، حتى الرخاص اللي أونلاين.",
+    "ex2": "If we approve blindly, we risk fake batteries.",
+    "ar2": "لو وافقنا من غير فحص، ممكن ناخد بطاريات مضروبة."
+   }
+  ],
+  "ladder": {
+   "label": "how deep the check is",
+   "lar": "الفحص عميق قد إيه",
+   "steps": [
+    {
+     "w": "glance at",
+     "ex": "Can you glance at this quotation before I send it?",
+     "ar": "ممكن تبص بصة على عرض السعر ده قبل ما أبعته؟",
+     "ex2": "Just glance at the totals.",
+     "ar2": "بص على الإجماليات بس."
+    },
+    {
+     "w": "check",
+     "ex": "Check the serial numbers against the delivery note.",
+     "ar": "راجع السيريالات مع إذن التسليم.",
+     "ex2": "Checking takes ten minutes.",
+     "ar2": "المراجعة بتاخد عشر دقايق."
+    },
+    {
+     "w": "vet",
+     "ex": "We vet each new distributor carefully.",
+     "ar": "بنفحص كل موزع جديد بعناية.",
+     "ex2": "We visit their warehouse and call their clients.",
+     "ar2": "بنزور المخزن بتاعهم وبنكلم عملاهم."
+    },
+    {
+     "w": "audit",
+     "ex": "An external firm will audit our stock records.",
+     "ar": "شركة خارجية هتعمل مراجعة لسجلات المخزون.",
+     "ex2": "The audit covers the full fiscal year.",
+     "ar2": "المراجعة بتغطي السنة المالية كلها."
+    }
+   ]
+  },
+  "ctx": "A new Chinese supplier offered very cheap lithium batteries. Before ordering, we'll vet them by checking test reports and visiting a client.",
+  "ctx_ar": "مورد صيني جديد عرض بطاريات ليثيوم رخيصة جدًا. قبل ما نطلب، هنفحصه ونراجع تقارير الاختبار ونزور عميل عنده.",
+  "quiz": [
+   {
+    "s": "Only ___ technicians can enter the server room.",
+    "opts": [
+     "vet",
+     "vetted",
+     "vetting"
+    ],
+    "a": 1,
+    "ar": "الفنيين اللي اتفحصوا بس يقدروا يدخلوا أوضة السيرفرات."
+   },
+   {
+    "s": "Supplier ___ takes about two weeks.",
+    "opts": [
+     "vetting",
+     "vet",
+     "vetted"
+    ],
+    "a": 0,
+    "ar": "فحص الموردين بياخد حوالي أسبوعين."
+   },
+   {
+    "s": "An outside firm will ___ our accounts this year.",
+    "opts": [
+     "glance at",
+     "check",
+     "audit"
+    ],
+    "a": 2,
+    "ar": "شركة من برا هتعمل مراجعة لحساباتنا السنة دي."
+   }
+  ]
+ },
+ {
+  "w": "reassess",
+  "ar": "يعيد التقييم",
+  "family": [
+   {
+    "w": "reassess",
+    "pos": "verb",
+    "ex": "We need to reassess the battery size after the new servers.",
+    "ar": "محتاجين نعيد تقييم حجم البطاريات بعد السيرفرات الجديدة.",
+    "ex2": "Let's reassess the load before quoting.",
+    "ar2": "خلّينا نعيد تقييم الحمل قبل ما نسعّر."
+   },
+   {
+    "w": "reassessment",
+    "pos": "noun",
+    "ex": "A reassessment showed the UPS is now 90% loaded.",
+    "ar": "إعادة التقييم وضّحت إن الـ ‎UPS‎ متحمّل 90% دلوقتي.",
+    "ex2": "After the reassessment, we proposed a bigger unit.",
+    "ar2": "بعد إعادة التقييم، اقترحنا وحدة أكبر."
+   },
+   {
+    "w": "assess",
+    "pos": "verb",
+    "ex": "Our engineer will assess the site on Sunday.",
+    "ar": "المهندس بتاعنا هيقيّم الموقع يوم الأحد.",
+    "ex2": "He'll assess the space, cables and cooling.",
+    "ar2": "هيقيّم المساحة والكابلات والتبريد."
+   },
+   {
+    "w": "assessment",
+    "pos": "noun",
+    "ex": "The risk assessment is attached to the offer.",
+    "ar": "تقييم المخاطر مرفق مع العرض.",
+    "ex2": "The assessment lists all safety steps.",
+    "ar2": "التقييم فيه كل خطوات السلامة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "re-evaluate",
+    "note": "formal; same meaning, common in reports",
+    "ex": "Management will re-evaluate the supplier after three late deliveries.",
+    "ar": "الإدارة هتعيد تقييم المورد بعد تلات توريدات متأخرة.",
+    "ex2": "They may re-evaluate prices too.",
+    "ar2": "ممكن يعيدوا تقييم الأسعار كمان."
+   },
+   {
+    "w": "review",
+    "note": "look again, often regularly",
+    "ex": "We review our price list every quarter.",
+    "ar": "بنراجع قايمة الأسعار كل ربع سنة.",
+    "ex2": "The next review is in October.",
+    "ar2": "المراجعة الجاية في أكتوبر."
+   },
+   {
+    "w": "rethink",
+    "note": "informal; change your plan or idea",
+    "ex": "We need to rethink the delivery plan.",
+    "ar": "محتاجين نفكر تاني في خطة التوريد.",
+    "ex2": "Rethinking it could save two trips.",
+    "ar2": "إعادة التفكير ممكن توفر مشوارين."
+   }
+  ],
+  "ant": [
+   {
+    "w": "stick with",
+    "ex": "We'll stick with the current supplier for now.",
+    "ar": "هنكمّل مع المورد الحالي دلوقتي.",
+    "ex2": "If we stick with them, prices stay fixed.",
+    "ar2": "لو كمّلنا معاهم، الأسعار هتفضل ثابتة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The factory added two new production lines. We should reassess their UPS and generator capacity before summer peaks.",
+  "ctx_ar": "المصنع زوّد خطين إنتاج جداد. لازم نعيد تقييم قدرة الـ ‎UPS‎ والمولد قبل ذروة الصيف.",
+  "quiz": [
+   {
+    "s": "The ___ showed the UPS is overloaded.",
+    "opts": [
+     "reassess",
+     "reassessment",
+     "assess"
+    ],
+    "a": 1,
+    "ar": "إعادة التقييم وضّحت إن الـ ‎UPS‎ متحمّل زيادة."
+   },
+   {
+    "s": "Our engineer will ___ the site first.",
+    "opts": [
+     "assessment",
+     "assess",
+     "reassessment"
+    ],
+    "a": 1,
+    "ar": "المهندس هيقيّم الموقع الأول."
+   },
+   {
+    "s": "Prices rose, so we must ___ our budget.",
+    "opts": [
+     "reassess",
+     "stick with",
+     "assessment"
+    ],
+    "a": 0,
+    "ar": "الأسعار زادت، فلازم نعيد تقييم الميزانية."
+   }
+  ]
+ },
+ {
+  "w": "reconvene",
+  "ar": "نتجمع تاني / نكمّل الاجتماع بعدين",
+  "family": [
+   {
+    "w": "reconvene",
+    "pos": "verb",
+    "ex": "Let's reconvene after lunch to finish the price review.",
+    "ar": "خلّينا نتقابل تاني بعد الغدا نكمّل مراجعة الأسعار.",
+    "ex2": "We'll reconvene in the same room at 2 p.m.",
+    "ar2": "هنتقابل في نفس الأوضة الساعة 2."
+   },
+   {
+    "w": "convene",
+    "pos": "verb",
+    "ex": "The manager will convene a meeting about the late payments.",
+    "ar": "المدير هيجمع اجتماع عن الدفعات المتأخرة.",
+    "ex2": "He'll convene sales and finance together.",
+    "ar2": "هيجمع المبيعات والحسابات مع بعض."
+   },
+   {
+    "w": "convention",
+    "pos": "noun",
+    "ex": "We'll show our solar range at the energy convention in Cairo.",
+    "ar": "هنعرض منتجات الطاقة الشمسية في مؤتمر الطاقة في القاهرة.",
+    "ex2": "The convention lasts three days.",
+    "ar2": "المؤتمر مدته تلات أيام."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "meet again",
+    "note": "everyday, simple",
+    "ex": "Let's meet again on Thursday with the updated figures.",
+    "ar": "خلّينا نتقابل تاني الخميس بالأرقام المحدثة.",
+    "ex2": "When we meet again, bring the supplier offer.",
+    "ar2": "لما نتقابل تاني، هات عرض المورد."
+   },
+   {
+    "w": "resume",
+    "note": "continue after a pause, not necessarily regroup",
+    "ex": "We'll resume the meeting after the client call.",
+    "ar": "هنكمّل الاجتماع بعد مكالمة العميل.",
+    "ex2": "Resume from item three on the agenda.",
+    "ar2": "كمّلوا من البند التالت في الأجندة."
+   },
+   {
+    "w": "follow up",
+    "note": "separate later meeting or contact",
+    "ex": "Let's follow up next week on the tender.",
+    "ar": "خلّينا نتابع المناقصة الأسبوع الجاي.",
+    "ex2": "I'll follow up by email too.",
+    "ar2": "هتابع بالإيميل كمان."
+   }
+  ],
+  "ant": [
+   {
+    "w": "adjourn",
+    "ex": "Let's adjourn the meeting until the figures are ready.",
+    "ar": "خلّينا نفض الاجتماع لحد ما الأرقام تجهز.",
+    "ex2": "We adjourn now and reconvene tomorrow.",
+    "ar2": "هنفضّه دلوقتي ونكمّل بكرة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We can't decide on the generator size without the load data. Let's reconvene on Monday once Hossam sends the readings.",
+  "ctx_ar": "مش هنقدر نحدد قدرة المولد من غير بيانات الحمل. خلّينا نتقابل تاني الاتنين أول ما ‎Hossam‎ يبعت القراءات.",
+  "quiz": [
+   {
+    "s": "Let's ___ after lunch to finish the agenda.",
+    "opts": [
+     "convention",
+     "reconvene",
+     "adjourn"
+    ],
+    "a": 1,
+    "ar": "خلّينا نتقابل تاني بعد الغدا نكمّل الأجندة."
+   },
+   {
+    "s": "We'll show our UPS range at the energy ___.",
+    "opts": [
+     "convene",
+     "reconvene",
+     "convention"
+    ],
+    "a": 2,
+    "ar": "هنعرض تشكيلة الـ ‎UPS‎ في مؤتمر الطاقة."
+   },
+   {
+    "s": "It's late; let's ___ and continue tomorrow.",
+    "opts": [
+     "adjourn",
+     "resume",
+     "convene"
+    ],
+    "a": 0,
+    "ar": "الوقت اتأخر، خلّينا نفض الاجتماع ونكمّل بكرة."
+   }
+  ]
+ }
+]

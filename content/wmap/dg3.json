@@ -1,0 +1,717 @@
+[
+ {
+  "w": "specialize in",
+  "ar": "متخصص في",
+  "family": [
+   {
+    "w": "specialize",
+    "pos": "verb",
+    "ex": "Our company specializes in UPS systems for hospitals and banks.",
+    "ar": "شركتنا متخصصة في أنظمة الـ‎UPS‎ للمستشفيات والبنوك.",
+    "ex2": "We also specialize in battery replacement for older models.",
+    "ar2": "ومتخصصين كمان في تغيير بطاريات الموديلات القديمة."
+   },
+   {
+    "w": "specialist",
+    "pos": "person",
+    "ex": "Call Ahmed; he's our battery specialist.",
+    "ar": "كلّم أحمد، هو المتخصص في البطاريات عندنا.",
+    "ex2": "The specialist will test every cell before we quote.",
+    "ar2": "المتخصص هيختبر كل خلية قبل ما نعمل عرض سعر."
+   },
+   {
+    "w": "specialty",
+    "pos": "noun",
+    "ex": "VFD retrofits for old chillers are our specialty.",
+    "ar": "تحديث الـ‎VFD‎ للتشيلرات القديمة هو تخصصنا.",
+    "ex2": "That specialty brings us most of our hotel customers.",
+    "ar2": "التخصص ده بيجيبلنا معظم عملاء الفنادق."
+   },
+   {
+    "w": "specialized",
+    "pos": "adjective",
+    "ex": "This inverter needs specialized software to configure.",
+    "ar": "الإنفرتر ده محتاج سوفتوير متخصص عشان يتظبط.",
+    "ex2": "Only our certified engineers have the specialized licence.",
+    "ar2": "المهندسين المعتمدين بس هما اللي معاهم الرخصة المتخصصة دي."
+   },
+   {
+    "w": "specialization",
+    "pos": "noun",
+    "ex": "Mahmoud's specialization is solar station design.",
+    "ar": "تخصص محمود هو تصميم محطات الطاقة الشمسية.",
+    "ex2": "His specialization helped us win the farm irrigation project.",
+    "ar2": "تخصصه ساعدنا نكسب مشروع ري المزرعة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "focus on",
+    "note": "main area of work, but not the only one",
+    "ex": "This year we focus on solar stations for farms.",
+    "ar": "السنة دي بنركّز على محطات الطاقة الشمسية للمزارع.",
+    "ex2": "We still do UPS work, but the focus is solar.",
+    "ar2": "لسه بنشتغل ‎UPS‎، بس التركيز على الطاقة الشمسية."
+   },
+   {
+    "w": "expert in",
+    "note": "very high skill level; stronger than specialize",
+    "ex": "Sherif is an expert in three-phase UPS repair.",
+    "ar": "شريف خبير في تصليح الـ‎UPS‎ التلاتة فاز.",
+    "ex2": "Even the supplier calls him because he's an expert in their boards.",
+    "ar2": "حتى المورّد بيكلّمه عشان هو خبير في الكروت بتاعتهم."
+   },
+   {
+    "w": "deal in",
+    "note": "trading: the products a company buys and sells",
+    "ex": "We deal in industrial batteries and spare control cards.",
+    "ar": "إحنا بنتاجر في البطاريات الصناعية وكروت التحكم الاحتياطي.",
+    "ex2": "Most suppliers who deal in these cards are in China.",
+    "ar2": "معظم الموردين اللي بيبيعوا الكروت دي في الصين."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Our company specializes in UPS systems and solar stations. We also maintain VFDs for pumps and chillers.",
+  "ctx_ar": "شركتنا متخصصة في أنظمة الـ‎UPS‎ ومحطات الطاقة الشمسية. وكمان بنعمل صيانة للـ‎VFD‎ بتاع الطلمبات والتشيلرات.",
+  "quiz": [
+   {
+    "s": "We ___ in maintenance of industrial UPS systems.",
+    "opts": [
+     "specialize",
+     "specialist",
+     "specialty"
+    ],
+    "a": 0,
+    "ar": "إحنا متخصصين في صيانة أنظمة الـ‎UPS‎ الصناعية."
+   },
+   {
+    "s": "Call Ahmed; he's our battery ___.",
+    "opts": [
+     "specialized",
+     "specialist",
+     "specialize"
+    ],
+    "a": 1,
+    "ar": "كلّم أحمد؛ هو المتخصص في البطاريات عندنا."
+   },
+   {
+    "s": "This VFD needs ___ software to configure.",
+    "opts": [
+     "specialty",
+     "specialist",
+     "specialized"
+    ],
+    "a": 2,
+    "ar": "الـ‎VFD‎ ده محتاج سوفتوير متخصص عشان يتظبط."
+   }
+  ]
+ },
+ {
+  "w": "generate leads",
+  "ar": "يجيب عملاء محتملين",
+  "family": [
+   {
+    "w": "generate",
+    "pos": "verb",
+    "ex": "The solar exhibition generated a lot of interest from factories.",
+    "ar": "معرض الطاقة الشمسية عمل اهتمام كبير من المصانع.",
+    "ex2": "We hope it will generate at least ten serious enquiries.",
+    "ar2": "بنتمنى يجيب على الأقل عشر استفسارات جدية."
+   },
+   {
+    "w": "lead",
+    "pos": "noun",
+    "ex": "We got a new lead from the website: a hotel needs three UPS units.",
+    "ar": "جالنا عميل محتمل جديد من الموقع: فندق محتاج تلات أجهزة ‎UPS‎.",
+    "ex2": "Please call the lead today before a competitor does.",
+    "ar2": "ياريت تكلّم العميل ده النهارده قبل ما منافس يسبقنا."
+   },
+   {
+    "w": "lead generation",
+    "pos": "noun",
+    "ex": "Our lead generation mostly comes from LinkedIn and referrals.",
+    "ar": "جلب العملاء المحتملين عندنا معظمه من ‎LinkedIn‎ والترشيحات.",
+    "ex2": "We'll invest more in lead generation for the solar business.",
+    "ar2": "هنصرف أكتر على جلب العملاء لنشاط الطاقة الشمسية."
+   },
+   {
+    "w": "generate leads",
+    "pos": "verb",
+    "ex": "The LinkedIn campaign helped us generate leads for UPS maintenance.",
+    "ar": "حملة ‎LinkedIn‎ ساعدتنا نجيب عملاء محتملين لصيانة الـ‎UPS‎.",
+    "ex2": "We generated 40 leads in one month.",
+    "ar2": "جبنا 40 عميل محتمل في شهر واحد."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "find new prospects",
+    "note": "search for possible clients you will study and contact",
+    "ex": "Hany's job is to find new prospects in the 6th of October zone.",
+    "ar": "شغلانة هاني إنه يدوّر على عملاء محتملين في منطقة 6 أكتوبر.",
+    "ex2": "He visits five new prospects every week.",
+    "ar2": "بيزور خمس عملاء محتملين جداد كل أسبوع."
+   },
+   {
+    "w": "bring in business",
+    "note": "wider: actual sales and money, not just contacts",
+    "ex": "Maintenance contracts bring in business every single year.",
+    "ar": "عقود الصيانة بتجيب شغل كل سنة.",
+    "ex2": "Last year they brought in EGP 2 million in service fees.",
+    "ar2": "السنة اللي فاتت جابوا 2 مليون جنيه رسوم خدمة."
+   },
+   {
+    "w": "prospect",
+    "note": "verb: actively search for clients, often by calling or visiting",
+    "ex": "This week we'll prospect hospitals in Upper Egypt.",
+    "ar": "الأسبوع ده هندوّر على عملاء من المستشفيات في الصعيد.",
+    "ex2": "Prospecting by phone works better than cold emails here.",
+    "ar2": "التدوير بالتليفون بيجيب نتيجة أحسن من الإيميلات هنا."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how close to buying",
+   "lar": "قريب من الشرا قد إيه",
+   "steps": [
+    {
+     "w": "lead",
+     "ex": "A visitor at our stand left his card; he's a lead.",
+     "ar": "زائر في الستاند ساب الكارت بتاعه؛ ده عميل محتمل.",
+     "ex2": "We don't know his budget yet.",
+     "ar2": "لسه منعرفش الميزانية بتاعته."
+    },
+    {
+     "w": "qualified lead",
+     "ex": "This factory is a qualified lead: they have budget and need a VFD.",
+     "ar": "المصنع ده عميل محتمل جاد: عندهم ميزانية ومحتاجين ‎VFD‎.",
+     "ex2": "Sales will send them a quotation this week.",
+     "ar2": "المبيعات هتبعتلهم عرض سعر الأسبوع ده."
+    },
+    {
+     "w": "hot lead",
+     "ex": "The hospital is a hot lead; they want to order this month.",
+     "ar": "المستشفى عميل جاهز؛ عايزين يطلبوا الشهر ده.",
+     "ex2": "Give this hot lead to our best sales engineer.",
+     "ar2": "ادّي العميل ده لأشطر مهندس مبيعات عندنا."
+    }
+   ]
+  },
+  "ctx": "The solar exhibition helped us generate leads from factories in 10th of Ramadan. Sales will follow up with each one this week.",
+  "ctx_ar": "معرض الطاقة الشمسية ساعدنا نجيب عملاء محتملين من مصانع العاشر من رمضان. المبيعات هتتابع مع كل واحد فيهم الأسبوع ده.",
+  "quiz": [
+   {
+    "s": "The LinkedIn campaign helped us ___ leads for UPS maintenance.",
+    "opts": [
+     "generate",
+     "lead generation",
+     "lead"
+    ],
+    "a": 0,
+    "ar": "حملة ‎LinkedIn‎ ساعدتنا نجيب عملاء محتملين لصيانة الـ‎UPS‎."
+   },
+   {
+    "s": "We got a new ___ from the website: a hotel needs 3 UPS units.",
+    "opts": [
+     "generate",
+     "lead",
+     "lead generation"
+    ],
+    "a": 1,
+    "ar": "جالنا عميل محتمل جديد من الموقع: فندق محتاج 3 أجهزة ‎UPS‎."
+   },
+   {
+    "s": "This factory has budget and wants to order this month; it's a ___.",
+    "opts": [
+     "lead",
+     "lead generation",
+     "hot lead"
+    ],
+    "a": 2,
+    "ar": "المصنع ده عنده ميزانية وعايز يطلب الشهر ده؛ ده عميل جاهز."
+   }
+  ]
+ },
+ {
+  "w": "proficient in",
+  "ar": "متمكّن / شاطر في",
+  "family": [
+   {
+    "w": "proficient",
+    "pos": "adjective",
+    "ex": "She is proficient in Excel and SAP.",
+    "ar": "هي متمكّنة في الإكسل والـ‎SAP‎.",
+    "ex2": "That's why she prepares all our collection reports.",
+    "ar2": "عشان كده هي اللي بتعمل كل تقارير التحصيل."
+   },
+   {
+    "w": "proficiency",
+    "pos": "noun",
+    "ex": "The job requires proficiency in English for import paperwork.",
+    "ar": "الوظيفة محتاجة إتقان الإنجليزي عشان ورق الاستيراد.",
+    "ex2": "We test English proficiency in the second interview.",
+    "ar2": "بنختبر مستوى الإنجليزي في الإنترفيو التاني."
+   },
+   {
+    "w": "proficiently",
+    "pos": "adverb",
+    "ex": "He handled the PLC programming proficiently on his first project.",
+    "ar": "عمل برمجة الـ‎PLC‎ باحتراف في أول مشروع له.",
+    "ex2": "The client noticed how proficiently he worked.",
+    "ar2": "العميل لاحظ قد إيه كان شغله محترف."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "skilled in",
+    "note": "general; good at a practical skill",
+    "ex": "Our technicians are skilled in battery testing.",
+    "ar": "الفنيين عندنا شاطرين في اختبار البطاريات.",
+    "ex2": "They're also skilled in thermal imaging of panels.",
+    "ar2": "وكمان شاطرين في التصوير الحراري للوح."
+   },
+   {
+    "w": "experienced in",
+    "note": "years of doing it; not always expert level",
+    "ex": "Karim is experienced in government tenders.",
+    "ar": "كريم عنده خبرة في المناقصات الحكومية.",
+    "ex2": "He has handled tender paperwork for eight years.",
+    "ar2": "بقاله تمن سنين بيشتغل في ورق المناقصات."
+   },
+   {
+    "w": "competent in",
+    "note": "good enough to do the job; weaker",
+    "ex": "The new hire is competent in basic UPS maintenance.",
+    "ar": "الموظف الجديد كويس في الصيانة الأساسية للـ‎UPS‎.",
+    "ex2": "He's competent, but not ready for data centre jobs yet.",
+    "ar2": "هو كويس، بس لسه مش جاهز لشغل الداتا سنتر."
+   }
+  ],
+  "ant": [
+   {
+    "w": "inexperienced",
+    "ex": "The new technician is still inexperienced with large three-phase UPS units.",
+    "ar": "الفني الجديد لسه معندوش خبرة في الـ‎UPS‎ التلاتة فاز الكبيرة.",
+    "ex2": "Send him with Sherif until he's less inexperienced.",
+    "ar2": "ابعته مع شريف لحد ما ياخد خبرة."
+   }
+  ],
+  "ladder": {
+   "label": "how skilled",
+   "lar": "شاطر قد إيه",
+   "steps": [
+    {
+     "w": "basic knowledge",
+     "ex": "I have basic knowledge of VFD parameters.",
+     "ar": "عندي معرفة بسيطة بإعدادات الـ‎VFD‎.",
+     "ex2": "I can change speed settings, but not much more.",
+     "ar2": "أقدر أغيّر إعدادات السرعة، بس مش أكتر من كده."
+    },
+    {
+     "w": "competent",
+     "ex": "Nadia is competent in the e-invoicing system.",
+     "ar": "نادية كويسة في سيستم الفاتورة الإلكترونية.",
+     "ex2": "She issues invoices without help now.",
+     "ar2": "بقت تطلّع الفواتير من غير مساعدة."
+    },
+    {
+     "w": "proficient",
+     "ex": "Mahmoud is proficient in AutoCAD and PLC programming.",
+     "ar": "محمود متمكّن في الأوتوكاد وبرمجة الـ‎PLC‎.",
+     "ex2": "He prepares all our panel drawings.",
+     "ar2": "هو اللي بيعمل كل رسومات اللوح عندنا."
+    },
+    {
+     "w": "expert",
+     "ex": "Sherif is our expert on modular UPS systems.",
+     "ar": "شريف هو الخبير بتاعنا في أنظمة الـ‎UPS‎ الموديولار.",
+     "ex2": "Even other engineers call the expert when they're stuck.",
+     "ar2": "حتى المهندسين التانيين بيكلّموه لما يقفوا."
+    }
+   ]
+  },
+  "ctx": "Mahmoud is proficient in AutoCAD and PLC programming. He prepared all the drawings for the pump VFD panels.",
+  "ctx_ar": "محمود متمكّن في الأوتوكاد وبرمجة الـ‎PLC‎. هو اللي عمل كل رسومات لوح الـ‎VFD‎ بتاعة الطلمبات.",
+  "quiz": [
+   {
+    "s": "She is ___ in Excel and SAP.",
+    "opts": [
+     "proficiency",
+     "proficient",
+     "proficiently"
+    ],
+    "a": 1,
+    "ar": "هي متمكّنة في الإكسل والـ‎SAP‎."
+   },
+   {
+    "s": "The job requires ___ in English for import paperwork.",
+    "opts": [
+     "proficiency",
+     "proficient",
+     "proficiently"
+    ],
+    "a": 0,
+    "ar": "الوظيفة محتاجة إتقان الإنجليزي عشان ورق الاستيراد."
+   },
+   {
+    "s": "He can only read basic VFD manuals; he's still ___.",
+    "opts": [
+     "proficient",
+     "expert",
+     "inexperienced"
+    ],
+    "a": 2,
+    "ar": "هو بيعرف يقرا كتالوجات الـ‎VFD‎ البسيطة بس؛ لسه معندوش خبرة."
+   }
+  ]
+ },
+ {
+  "w": "keen eye for",
+  "ar": "عين حادة / بيلاحظ التفاصيل في",
+  "family": [
+   {
+    "w": "keen",
+    "pos": "adjective",
+    "ex": "Our auditor is keen to see every delivery note.",
+    "ar": "المراجع عندنا حريص يشوف كل إذن تسليم.",
+    "ex2": "He's keen because last year two notes were missing.",
+    "ar2": "هو حريص عشان السنة اللي فاتت كان فيه إذنين ناقصين."
+   },
+   {
+    "w": "keenly",
+    "pos": "adverb",
+    "ex": "We are keenly aware of the tender deadline.",
+    "ar": "إحنا واخدين بالنا كويس جداً من ميعاد المناقصة.",
+    "ex2": "That's why we're keenly checking every document twice.",
+    "ar2": "عشان كده بنراجع كل ورقة مرتين بتركيز."
+   },
+   {
+    "w": "keen eye",
+    "pos": "noun",
+    "ex": "Nadia's keen eye caught a wrong tax number on the invoice.",
+    "ar": "عين نادية الحادة لقطت رقم ضريبي غلط في الفاتورة.",
+    "ex2": "Without her keen eye, the e-invoice would have been rejected.",
+    "ar2": "لولا عينها الحادة، الفاتورة الإلكترونية كانت هتترفض."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "attention to detail",
+    "note": "common CV phrase; general carefulness",
+    "ex": "Commissioning a UPS needs attention to detail.",
+    "ar": "تشغيل الـ‎UPS‎ محتاج تركيز في التفاصيل.",
+    "ex2": "One loose cable can trip the whole system, so detail matters.",
+    "ar2": "كابل واحد سايب ممكن يفصل السيستم كله، فالتفاصيل مهمة."
+   },
+   {
+    "w": "good eye for",
+    "note": "weaker and more informal",
+    "ex": "Omar has a good eye for clean cable routing.",
+    "ar": "عمر عينه حلوة في ترتيب الكابلات.",
+    "ex2": "His panels always look neat and professional.",
+    "ar2": "اللوح بتاعته دايماً شكلها نضيف ومحترف."
+   },
+   {
+    "w": "sharp eye",
+    "note": "catches mistakes very quickly",
+    "ex": "With her sharp eye, Mona spotted the duplicate payment.",
+    "ar": "بعينها الحادة، منى لقطت الدفعة المتكررة.",
+    "ex2": "The supplier refunded it the next day.",
+    "ar2": "المورّد رجّعها تاني يوم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "careless",
+    "ex": "A careless mistake in the part number delayed the shipment.",
+    "ar": "غلطة إهمال في رقم القطعة أخّرت الشحنة.",
+    "ex2": "Careless errors like this cost us storage fees at the port.",
+    "ar2": "غلطات الإهمال دي بتكلّفنا أرضيات في الميناء."
+   }
+  ],
+  "ladder": {
+   "label": "how well they notice details",
+   "lar": "بيلاحظ التفاصيل قد إيه",
+   "steps": [
+    {
+     "w": "good eye for",
+     "ex": "Hany has a good eye for errors in quotations.",
+     "ar": "هاني عينه حلوة في أخطاء عروض الأسعار.",
+     "ex2": "He usually spots wrong totals.",
+     "ar2": "عادةً بيلاحظ المجاميع الغلط."
+    },
+    {
+     "w": "keen eye for",
+     "ex": "Nadia has a keen eye for problems in contracts.",
+     "ar": "نادية عينها حادة في مشاكل العقود.",
+     "ex2": "She found a hidden penalty clause last week.",
+     "ar2": "لقت بند غرامة مستخبي الأسبوع اللي فات."
+    },
+    {
+     "w": "eagle eye",
+     "ex": "Our storekeeper has an eagle eye; no missing box escapes him.",
+     "ar": "أمين المخزن عينه زي الصقر؛ مفيش كرتونة ناقصة بتفوته.",
+     "ex2": "His eagle eye saved us thousands in supplier claims.",
+     "ar2": "عينه دي وفّرت علينا آلاف في مطالبات الموردين."
+    }
+   ]
+  },
+  "ctx": "Nadia has a keen eye for errors in invoices. She caught a wrong tax number before we sent it to the customer.",
+  "ctx_ar": "نادية عينها حادة في أخطاء الفواتير. لقطت رقم ضريبي غلط قبل ما نبعت الفاتورة للعميل.",
+  "quiz": [
+   {
+    "s": "Our auditor has a ___ eye for missing documents.",
+    "opts": [
+     "keen",
+     "keenly",
+     "careless"
+    ],
+    "a": 0,
+    "ar": "المراجع عندنا عينه حادة في الورق الناقص."
+   },
+   {
+    "s": "We are ___ aware of the delivery deadline.",
+    "opts": [
+     "keen",
+     "keenly",
+     "keen eye"
+    ],
+    "a": 1,
+    "ar": "إحنا واخدين بالنا كويس جداً من ميعاد التسليم."
+   },
+   {
+    "s": "A ___ mistake in the PO caused the wrong battery size.",
+    "opts": [
+     "keen",
+     "sharp eye",
+     "careless"
+    ],
+    "a": 2,
+    "ar": "غلطة إهمال في أمر الشراء جابت مقاس بطارية غلط."
+   }
+  ]
+ },
+ {
+  "w": "cross-functional",
+  "ar": "بين أقسام مختلفة",
+  "family": [
+   {
+    "w": "function",
+    "pos": "noun",
+    "ex": "The main function of the UPS is to protect the servers.",
+    "ar": "الوظيفة الأساسية للـ‎UPS‎ إنه يحمي السيرفرات.",
+    "ex2": "Its second function is to clean the power from spikes.",
+    "ar2": "وظيفته التانية إنه ينضّف الكهربا من الطفرات."
+   },
+   {
+    "w": "function",
+    "pos": "verb",
+    "ex": "The inverter is functioning normally after the repair.",
+    "ar": "الإنفرتر شغال طبيعي بعد التصليح.",
+    "ex2": "We'll check it's still functioning tomorrow morning.",
+    "ar2": "هنتأكد إنه لسه شغال بكرة الصبح."
+   },
+   {
+    "w": "functional",
+    "pos": "adjective",
+    "ex": "The UPS is fully functional again.",
+    "ar": "الـ‎UPS‎ رجع شغال بالكامل.",
+    "ex2": "We tested every functional mode, including bypass.",
+    "ar2": "اختبرنا كل أوضاع التشغيل، ومنها البايباس."
+   },
+   {
+    "w": "cross-functional",
+    "pos": "adjective",
+    "ex": "We need a cross-functional team for the data centre tender.",
+    "ar": "محتاجين فريق من أقسام مختلفة لمناقصة الداتا سنتر.",
+    "ex2": "Sales, engineering and finance will all join it.",
+    "ar2": "المبيعات والهندسة والمالية كلهم هيدخلوا فيه."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "interdepartmental",
+    "note": "formal; between departments of one company",
+    "ex": "There's an interdepartmental meeting on collections every Monday.",
+    "ar": "فيه اجتماع بين الأقسام عن التحصيل كل اتنين.",
+    "ex2": "The interdepartmental meeting includes sales and accounts.",
+    "ar2": "الاجتماع ده بيحضره المبيعات والحسابات."
+   },
+   {
+    "w": "multidisciplinary",
+    "note": "people with different professions or technical skills",
+    "ex": "The solar project needs a multidisciplinary team: electrical, civil and mechanical.",
+    "ar": "مشروع الطاقة الشمسية محتاج فريق متعدد التخصصات: كهربا ومدني وميكانيكا.",
+    "ex2": "A multidisciplinary review avoids design clashes.",
+    "ar2": "المراجعة من كل التخصصات بتمنع تعارض التصميمات."
+   },
+   {
+    "w": "joint",
+    "note": "shared by two groups or companies",
+    "ex": "We'll make a joint visit with the supplier's engineer.",
+    "ar": "هنعمل زيارة مشتركة مع مهندس المورّد.",
+    "ex2": "The joint report will go to the client on Thursday.",
+    "ar2": "التقرير المشترك هيروح للعميل يوم الخميس."
+   }
+  ],
+  "ant": [
+   {
+    "w": "siloed",
+    "ex": "Our teams were siloed, so nobody shared the client's complaint.",
+    "ar": "الأقسام عندنا كانت كل واحد في حاله، فمحدش نقل شكوى العميل.",
+    "ex2": "Siloed teams made us miss the renewal date.",
+    "ar2": "الأقسام المعزولة خلّتنا نفوّت ميعاد التجديد."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We formed a cross-functional team for the data centre project. Sales, engineering and finance meet every Sunday.",
+  "ctx_ar": "عملنا فريق من أقسام مختلفة لمشروع الداتا سنتر. المبيعات والهندسة والمالية بيتقابلوا كل حد.",
+  "quiz": [
+   {
+    "s": "The project needs a ___ team from sales, service and finance.",
+    "opts": [
+     "function",
+     "functional",
+     "cross-functional"
+    ],
+    "a": 2,
+    "ar": "المشروع محتاج فريق من أقسام مختلفة: مبيعات وخدمة ومالية."
+   },
+   {
+    "s": "The UPS is fully ___ after the repair.",
+    "opts": [
+     "functional",
+     "function",
+     "cross-functional"
+    ],
+    "a": 0,
+    "ar": "الـ‎UPS‎ رجع شغال بالكامل بعد التصليح."
+   },
+   {
+    "s": "Our teams were ___, so nobody shared the client's complaint.",
+    "opts": [
+     "joint",
+     "siloed",
+     "cross-functional"
+    ],
+    "a": 1,
+    "ar": "الأقسام عندنا كانت كل واحد في حاله، فمحدش نقل شكوى العميل."
+   }
+  ]
+ },
+ {
+  "w": "stay up to date",
+  "ar": "يفضل متابع لآخر الجديد",
+  "family": [
+   {
+    "w": "update",
+    "pos": "verb",
+    "ex": "Please update the price list with the new dollar rate.",
+    "ar": "ياريت تحدّث قايمة الأسعار بسعر الدولار الجديد.",
+    "ex2": "Then update the quotation template too.",
+    "ar2": "وبعدين حدّث نموذج عرض السعر كمان."
+   },
+   {
+    "w": "update",
+    "pos": "noun",
+    "ex": "Please send me an update on the shipment status.",
+    "ar": "ابعتلي آخر أخبار حالة الشحنة.",
+    "ex2": "A short WhatsApp update is enough.",
+    "ar2": "رسالة واتساب قصيرة بالجديد كفاية."
+   },
+   {
+    "w": "up to date",
+    "pos": "adjective",
+    "ex": "Is this price list up to date? The dollar rate changed.",
+    "ar": "قايمة الأسعار دي محدّثة؟ سعر الدولار اتغير.",
+    "ex2": "Only send customers up to date prices.",
+    "ar2": "متبعتش للعملاء غير أسعار محدّثة."
+   },
+   {
+    "w": "stay up to date",
+    "pos": "verb",
+    "ex": "Our engineers stay up to date through supplier training.",
+    "ar": "مهندسينا بيفضلوا متابعين الجديد من خلال تدريبات المورّد.",
+    "ex2": "Staying up to date helps them fix new UPS models faster.",
+    "ar2": "المتابعة دي بتساعدهم يصلّحوا الموديلات الجديدة أسرع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "keep up with",
+    "note": "follow changes that come fast",
+    "ex": "It's hard to keep up with new battery technologies.",
+    "ar": "صعب نلاحق تكنولوجيا البطاريات الجديدة.",
+    "ex2": "Lithium prices change monthly, so we keep up with them weekly.",
+    "ar2": "أسعار الليثيوم بتتغير كل شهر، فبنتابعها كل أسبوع."
+   },
+   {
+    "w": "stay informed",
+    "note": "formal; know the latest news or rules",
+    "ex": "Subscribe to the ETA newsletter to stay informed about e-invoice rules.",
+    "ar": "اشترك في نشرة مصلحة الضرايب عشان تفضل عارف قواعد الفاتورة الإلكترونية.",
+    "ex2": "Staying informed avoids rejected invoices.",
+    "ar2": "إنك تفضل متابع بيمنع رفض الفواتير."
+   },
+   {
+    "w": "keep track of",
+    "note": "monitor specific items, like orders or payments",
+    "ex": "We use a sheet to keep track of open POs.",
+    "ar": "بنستخدم شيت عشان نتابع أوامر الشراء المفتوحة.",
+    "ex2": "It also tracks which invoices are overdue.",
+    "ar2": "وكمان بيتابع الفواتير المتأخرة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "out of date",
+    "ex": "This firmware is out of date; please install the new version.",
+    "ar": "السوفتوير ده قديم؛ ياريت تنزّل النسخة الجديدة.",
+    "ex2": "Out of date firmware can cause false battery alarms.",
+    "ar2": "السوفتوير القديم ممكن يعمل إنذارات بطارية غلط."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Battery technology changes fast. Our engineers stay up to date by attending supplier training every year.",
+  "ctx_ar": "تكنولوجيا البطاريات بتتغير بسرعة. مهندسينا بيفضلوا متابعين الجديد بحضور تدريبات المورّدين كل سنة.",
+  "quiz": [
+   {
+    "s": "Please send me an ___ on the shipment status.",
+    "opts": [
+     "update",
+     "up to date",
+     "out of date"
+    ],
+    "a": 0,
+    "ar": "ابعتلي آخر أخبار حالة الشحنة."
+   },
+   {
+    "s": "Is this price list ___? The dollar rate changed.",
+    "opts": [
+     "update",
+     "up to date",
+     "keep up with"
+    ],
+    "a": 1,
+    "ar": "قايمة الأسعار دي محدّثة؟ سعر الدولار اتغير."
+   },
+   {
+    "s": "This firmware is ___; please install the new version.",
+    "opts": [
+     "up to date",
+     "update",
+     "out of date"
+    ],
+    "a": 2,
+    "ar": "السوفتوير ده قديم؛ ياريت تنزّل النسخة الجديدة."
+   }
+  ]
+ }
+]

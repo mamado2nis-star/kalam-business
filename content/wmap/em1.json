@@ -1,0 +1,829 @@
+[
+ {
+  "w": "deliverables",
+  "ar": "المطلوب تسليمه",
+  "family": [
+   {
+    "w": "deliverables",
+    "pos": "noun",
+    "ex": "The contract lists all deliverables: UPS units, batteries, installation and training.",
+    "ar": "العقد فيه كل المطلوب تسليمه: وحدات ‎UPS‎ وبطاريات وتركيب وتدريب.",
+    "ex2": "Payment is released only after all deliverables are accepted.",
+    "ar2": "الدفع بيتصرف بس بعد ما كل المطلوب يتستلم."
+   },
+   {
+    "w": "deliver",
+    "pos": "verb",
+    "ex": "We will deliver the VFD panels to the site on Sunday.",
+    "ar": "هنسلّم لوح الـ‎VFD‎ في الموقع يوم الأحد.",
+    "ex2": "If we deliver late, there's a penalty.",
+    "ar2": "لو سلّمنا متأخر، فيه غرامة."
+   },
+   {
+    "w": "delivery",
+    "pos": "noun",
+    "ex": "The delivery of the solar panels is delayed by customs.",
+    "ar": "تسليم الألواح الشمسية متأخر بسبب الجمارك.",
+    "ex2": "We sent the client a new delivery date.",
+    "ar2": "بعتنا للعميل ميعاد تسليم جديد."
+   },
+   {
+    "w": "deliverable",
+    "pos": "noun",
+    "ex": "The main deliverable this month is the commissioning report.",
+    "ar": "أهم حاجة مطلوب تسليمها الشهر ده تقرير التشغيل.",
+    "ex2": "That deliverable triggers the second payment.",
+    "ar2": "تسليمها هو اللي بيفتح الدفعة التانية."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "scope of work",
+    "note": "the full list of work in a contract",
+    "ex": "The scope of work includes cabling but not civil works.",
+    "ar": "نطاق الشغل فيه الكابلات بس مش الأعمال المدنية.",
+    "ex2": "Anything outside the scope of work is charged extra.",
+    "ar2": "أي حاجة برا نطاق الشغل بتتحسب زيادة."
+   },
+   {
+    "w": "outputs",
+    "note": "general project word; less contractual",
+    "ex": "The outputs of phase one are a site survey and a design.",
+    "ar": "مخرجات المرحلة الأولى معاينة موقع وتصميم.",
+    "ex2": "We'll present the outputs to the client next week.",
+    "ar2": "هنعرض المخرجات على العميل الأسبوع الجاي."
+   },
+   {
+    "w": "milestones",
+    "note": "points in time, not the items delivered",
+    "ex": "The project has three milestones linked to payments.",
+    "ar": "المشروع فيه تلات مراحل مربوطة بالدفعات.",
+    "ex2": "We reached the first milestone on time.",
+    "ar2": "وصلنا لأول مرحلة في ميعادها."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "The client asked for a list of deliverables before signing. Sherif included the UPS, battery cabinet, installation, and two days of operator training.",
+  "ctx_ar": "العميل طلب قايمة بالمطلوب تسليمه قبل ما يمضي. شريف حط الـ‎UPS‎ وكابينة البطاريات والتركيب ويومين تدريب للمشغلين.",
+  "quiz": [
+   {
+    "s": "All ___ must be accepted before final payment.",
+    "opts": [
+     "deliverables",
+     "deliver",
+     "delivered"
+    ],
+    "a": 0,
+    "ar": "كل المطلوب تسليمه لازم يتستلم قبل الدفعة الأخيرة."
+   },
+   {
+    "s": "The ___ of the panels is delayed by customs.",
+    "opts": [
+     "deliver",
+     "delivery",
+     "deliverable"
+    ],
+    "a": 1,
+    "ar": "تسليم الألواح متأخر بسبب الجمارك."
+   },
+   {
+    "s": "Civil works are outside the ___ of work.",
+    "opts": [
+     "outputs",
+     "milestones",
+     "scope"
+    ],
+    "a": 2,
+    "ar": "الأعمال المدنية برا نطاق الشغل."
+   }
+  ]
+ },
+ {
+  "w": "hit the deadline",
+  "ar": "تلحق الميعاد النهائي",
+  "family": [
+   {
+    "w": "hit the deadline",
+    "pos": "verb",
+    "ex": "We worked Friday to hit the deadline for the tender submission.",
+    "ar": "اشتغلنا الجمعة عشان نلحق ميعاد تقديم المناقصة.",
+    "ex2": "We hit the deadline with one hour to spare.",
+    "ar2": "لحقنا الميعاد وفاضل ساعة."
+   },
+   {
+    "w": "deadline",
+    "pos": "noun",
+    "ex": "The deadline for the e-invoice upload is the end of the month.",
+    "ar": "آخر ميعاد لرفع الفاتورة الإلكترونية آخر الشهر.",
+    "ex2": "Missing the deadline means a tax penalty.",
+    "ar2": "لو فوّتنا الميعاد يبقى فيه غرامة ضريبية."
+   },
+   {
+    "w": "hit",
+    "pos": "verb",
+    "ex": "The team hit all their targets this quarter.",
+    "ar": "الفريق حقق كل التارجت بتاعه الربع ده.",
+    "ex2": "Hitting targets means a bonus for everyone.",
+    "ar2": "تحقيق التارجت يعني مكافأة للكل."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "meet the deadline",
+    "note": "standard and formal; best for emails",
+    "ex": "We will meet the deadline for the battery delivery.",
+    "ar": "هنلتزم بميعاد تسليم البطاريات.",
+    "ex2": "Meeting the deadline avoids late penalties.",
+    "ar2": "الالتزام بالميعاد بيبعّد الغرامات."
+   },
+   {
+    "w": "make it in time",
+    "note": "spoken; often with relief or doubt",
+    "ex": "We'll make it in time for the hospital's shutdown window.",
+    "ar": "هنلحق ميعاد فصل المستشفى.",
+    "ex2": "Last time we almost didn't make it in time because of traffic.",
+    "ar2": "المرة اللي فاتت كنا هنتأخر بسبب الزحمة."
+   },
+   {
+    "w": "on schedule",
+    "note": "describes a project's overall progress",
+    "ex": "The solar project is on schedule for June.",
+    "ar": "مشروع الطاقة الشمسية ماشي في ميعاده لشهر يونيو.",
+    "ex2": "If it stays on schedule, we finish before summer.",
+    "ar2": "لو فضل في ميعاده، هنخلّص قبل الصيف."
+   }
+  ],
+  "ant": [
+   {
+    "w": "miss the deadline",
+    "ex": "If we miss the deadline, the client can cancel the PO.",
+    "ar": "لو فوّتنا الميعاد، العميل يقدر يلغي أمر الشراء.",
+    "ex2": "Missing the deadline also damages our reputation.",
+    "ar2": "تفويت الميعاد كمان بيضر سمعتنا."
+   },
+   {
+    "w": "fall behind",
+    "ex": "The installation may fall behind because of the sandstorm.",
+    "ar": "التركيب ممكن يتأخر بسبب العاصفة الترابية.",
+    "ex2": "We'll add a second team so we don't fall behind further.",
+    "ar2": "هنزوّد فريق تاني عشان مانتأخرش أكتر."
+   }
+  ],
+  "ladder": {
+   "label": "how well you meet the date",
+   "lar": "التزامك بالميعاد قد إيه",
+   "steps": [
+    {
+     "w": "miss the deadline",
+     "ex": "We missed the deadline by two days.",
+     "ar": "فوّتنا الميعاد بيومين.",
+     "ex2": "The client accepted it, but wasn't happy we missed it.",
+     "ar2": "العميل قبل، بس مكانش مبسوط إننا فوّتناه."
+    },
+    {
+     "w": "just make it",
+     "ex": "We just made it before the warehouse closed.",
+     "ar": "يا دوب لحقنا قبل ما المخزن يقفل.",
+     "ex2": "We just made it, with five minutes left.",
+     "ar2": "يا دوب لحقنا وفاضل خمس دقايق."
+    },
+    {
+     "w": "hit the deadline",
+     "ex": "We hit the deadline for the quotation.",
+     "ar": "لحقنا ميعاد عرض السعر.",
+     "ex2": "Hitting it kept us in the tender.",
+     "ar2": "لحاقه خلّانا في المناقصة."
+    },
+    {
+     "w": "finish ahead of schedule",
+     "ex": "We finished ahead of schedule on the VFD project.",
+     "ar": "خلّصنا مشروع الـ‎VFD‎ قبل ميعاده.",
+     "ex2": "Finishing ahead of schedule impressed the client.",
+     "ar2": "إننا خلّصنا بدري عجب العميل."
+    }
+   ]
+  },
+  "ctx": "The tender closes at noon tomorrow. If we want to hit the deadline, the technical offer must be ready tonight.",
+  "ctx_ar": "المناقصة بتقفل بكرة الضهر. لو عايزين نلحق الميعاد، العرض الفني لازم يبقى جاهز النهارده بالليل.",
+  "quiz": [
+   {
+    "s": "We worked all night to hit the ___.",
+    "opts": [
+     "deadline",
+     "schedule",
+     "hit"
+    ],
+    "a": 0,
+    "ar": "اشتغلنا طول الليل عشان نلحق الميعاد."
+   },
+   {
+    "s": "If we ___ the deadline, the client may cancel.",
+    "opts": [
+     "hit",
+     "miss",
+     "meet"
+    ],
+    "a": 1,
+    "ar": "لو فوّتنا الميعاد، العميل ممكن يلغي."
+   },
+   {
+    "s": "The project is on ___ for June.",
+    "opts": [
+     "deadline",
+     "time",
+     "schedule"
+    ],
+    "a": 2,
+    "ar": "المشروع ماشي في ميعاده لشهر يونيو."
+   }
+  ]
+ },
+ {
+  "w": "wrap up",
+  "ar": "يخلّص / يختم",
+  "family": [
+   {
+    "w": "wrap up",
+    "pos": "verb",
+    "ex": "Let's wrap up the meeting; the client has another call.",
+    "ar": "خلّينا نختم الاجتماع؛ العميل عنده مكالمة تانية.",
+    "ex2": "Before we wrap up, any questions about the price?",
+    "ar2": "قبل ما نخلّص، فيه أي أسئلة عن السعر؟"
+   },
+   {
+    "w": "wrap-up",
+    "pos": "noun",
+    "ex": "Hany sent a short wrap-up of the site visit.",
+    "ar": "هاني بعت ملخص قصير لزيارة الموقع.",
+    "ex2": "The wrap-up lists three faults and the spare parts needed.",
+    "ar2": "الملخص فيه تلات أعطال وقطع الغيار المطلوبة."
+   },
+   {
+    "w": "wrapped up",
+    "pos": "adjective",
+    "ex": "The battery replacement is all wrapped up.",
+    "ar": "تغيير البطاريات خلص خالص.",
+    "ex2": "Now that it's wrapped up, please send the invoice.",
+    "ar2": "وبما إنه خلص، ابعت الفاتورة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "finish a meeting or call",
+    "mar": "تختم اجتماع أو مكالمة",
+    "ex": "I'd like to wrap up with a quick summary.",
+    "ar": "حابب أختم بملخص سريع.",
+    "ex2": "After the summary, we wrapped up at 3 pm.",
+    "ar2": "بعد الملخص، خلّصنا الساعة 3."
+   },
+   {
+    "m": "complete a job or deal",
+    "mar": "تقفل شغلانة أو صفقة",
+    "ex": "We hope to wrap up the solar deal this week.",
+    "ar": "بنتمنى نقفل صفقة الطاقة الشمسية الأسبوع ده.",
+    "ex2": "Once it's wrapped up, we'll order the panels.",
+    "ar2": "أول ما تتقفل، هنطلب الألواح."
+   },
+   {
+    "m": "cover something to protect it",
+    "mar": "تغلّف حاجة",
+    "ex": "Wrap up the control cards in anti-static bags.",
+    "ar": "غلّف كروت الكنترول في أكياس ضد الكهربا الاستاتيكية.",
+    "ex2": "Wrapping them up prevents damage during shipping.",
+    "ar2": "تغليفها بيمنع إنها تتضرر في الشحن."
+   }
+  ],
+  "syn": [
+   {
+    "w": "finish",
+    "note": "general and neutral",
+    "ex": "We finished the installation by 5 pm.",
+    "ar": "خلّصنا التركيب الساعة 5.",
+    "ex2": "After we finished, the client signed the report.",
+    "ar2": "بعد ما خلّصنا، العميل مضى التقرير."
+   },
+   {
+    "w": "conclude",
+    "note": "formal; for meetings, reports, negotiations",
+    "ex": "The negotiation concluded with a 5% discount.",
+    "ar": "التفاوض خلص بخصم 5%.",
+    "ex2": "We concluded the meeting with clear next steps.",
+    "ar2": "ختمنا الاجتماع بخطوات جاية واضحة."
+   },
+   {
+    "w": "close out",
+    "note": "project word: finish all final paperwork",
+    "ex": "We need to close out the project file this month.",
+    "ar": "لازم نقفل ملف المشروع الشهر ده.",
+    "ex2": "Closing out means final invoice and handover documents.",
+    "ar2": "قفل المشروع يعني الفاتورة الأخيرة ومستندات التسليم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "kick off",
+    "ex": "We'll kick off the project with a site survey on Sunday.",
+    "ar": "هنبدأ المشروع بمعاينة موقع يوم الأحد.",
+    "ex2": "The kick-off meeting includes the client's engineers.",
+    "ar2": "اجتماع البداية فيه مهندسين العميل."
+   },
+   {
+    "w": "start",
+    "ex": "We start the UPS installation at 8 am.",
+    "ar": "بنبدأ تركيب الـ‎UPS‎ الساعة 8 الصبح.",
+    "ex2": "Starting early avoids the afternoon heat.",
+    "ar2": "البداية بدري بتبعدنا عن حر الضهر."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We're almost done with the commissioning. Let's wrap up by four, so the client's team can test the UPS before they leave.",
+  "ctx_ar": "إحنا قربنا نخلّص التشغيل. خلّينا نخلّص قبل أربعة، عشان فريق العميل يجرّب الـ‎UPS‎ قبل ما يمشوا.",
+  "quiz": [
+   {
+    "s": "Hany sent a short ___ of the visit.",
+    "opts": [
+     "wrap-up",
+     "wrap up",
+     "wrapped up"
+    ],
+    "a": 0,
+    "ar": "هاني بعت ملخص قصير للزيارة."
+   },
+   {
+    "s": "We'll ___ off the project with a site survey.",
+    "opts": [
+     "wrap",
+     "kick",
+     "close"
+    ],
+    "a": 1,
+    "ar": "هنبدأ المشروع بمعاينة موقع."
+   },
+   {
+    "s": "The negotiation ___ with a 5% discount.",
+    "opts": [
+     "kicked off",
+     "started",
+     "concluded"
+    ],
+    "a": 2,
+    "ar": "التفاوض خلص بخصم 5%."
+   }
+  ]
+ },
+ {
+  "w": "sign off",
+  "ar": "يوافق نهائياً / يختم رسالة",
+  "family": [
+   {
+    "w": "sign off",
+    "pos": "verb",
+    "ex": "The plant manager signed off on the VFD commissioning report.",
+    "ar": "مدير المصنع وافق على تقرير تشغيل الـ‎VFD‎.",
+    "ex2": "Once he signs off, we can issue the final invoice.",
+    "ar2": "أول ما يوافق، نقدر نطلّع الفاتورة الأخيرة."
+   },
+   {
+    "w": "sign-off",
+    "pos": "noun",
+    "ex": "We're waiting for the client's sign-off on the drawings.",
+    "ar": "مستنيين موافقة العميل النهائية على الرسومات.",
+    "ex2": "Without sign-off, we can't order the panels.",
+    "ar2": "من غير الموافقة، مانقدرش نطلب اللوح."
+   },
+   {
+    "w": "sign",
+    "pos": "verb",
+    "ex": "Please sign the delivery note and send me a photo.",
+    "ar": "ياريت تمضي إذن التسليم وتبعتلي صورة.",
+    "ex2": "The signed note proves the batteries arrived.",
+    "ar2": "الإذن الممضي بيثبت إن البطاريات وصلت."
+   },
+   {
+    "w": "signature",
+    "pos": "noun",
+    "ex": "The PO needs the finance manager's signature.",
+    "ar": "أمر الشراء محتاج إمضاء المدير المالي.",
+    "ex2": "Without his signature, the supplier won't ship.",
+    "ar2": "من غير إمضته، المورد مش هيشحن."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "give final approval",
+    "mar": "توافق نهائياً",
+    "ex": "Finance must sign off on any discount above 10%.",
+    "ar": "الحسابات لازم توافق على أي خصم فوق 10%.",
+    "ex2": "They signed off on 12% for the hospital.",
+    "ar2": "وافقوا على 12% للمستشفى."
+   },
+   {
+    "m": "end an email or call",
+    "mar": "تختم إيميل أو مكالمة",
+    "ex": "I usually sign off with 'Best regards' in client emails.",
+    "ar": "عادةً بختم إيميلات العملا بـ'‎Best regards‎'.",
+    "ex2": "With close colleagues, I sign off with 'Thanks'.",
+    "ar2": "مع الزملا القريبين، بختم بـ'‎Thanks‎'."
+   },
+   {
+    "m": "finish work for the day",
+    "mar": "تقفل شغل اليوم",
+    "ex": "I'm signing off now; Karim is on call tonight.",
+    "ar": "أنا قافل دلوقتي؛ كريم المناوب الليلة.",
+    "ex2": "Before signing off, I updated the service log.",
+    "ar2": "قبل ما أقفل، حدّثت سجل الخدمة."
+   }
+  ],
+  "syn": [
+   {
+    "w": "approve",
+    "note": "formal and general",
+    "ex": "The manager approved the purchase of new test equipment.",
+    "ar": "المدير وافق على شراء أجهزة اختبار جديدة.",
+    "ex2": "Once approved, purchasing will issue the PO.",
+    "ar2": "أول ما يتوافق، المشتريات هتطلّع أمر الشراء."
+   },
+   {
+    "w": "give the green light",
+    "note": "informal; permission to start",
+    "ex": "The client will give the green light for the solar installation today.",
+    "ar": "العميل هيدّي الضوء الأخضر لتركيب الطاقة الشمسية النهارده.",
+    "ex2": "With the green light given, we start on Sunday.",
+    "ar2": "وبما إن الموافقة جت، هنبدأ الأحد."
+   },
+   {
+    "w": "rubber-stamp",
+    "note": "approve automatically, without real review; slightly negative",
+    "ex": "The board just rubber-stamped the budget.",
+    "ar": "مجلس الإدارة وافق على الميزانية من غير ما يراجعها.",
+    "ex2": "They rubber-stamp most service budgets.",
+    "ar2": "بيوافقوا على أغلب ميزانيات الخدمة كده."
+   }
+  ],
+  "ant": [
+   {
+    "w": "reject",
+    "ex": "The client rejected the first layout of the battery room.",
+    "ar": "العميل رفض أول تصميم لأوضة البطاريات.",
+    "ex2": "After he rejected it, we moved the racks.",
+    "ar2": "بعد ما رفضه، نقلنا الراكات."
+   },
+   {
+    "w": "put on hold",
+    "ex": "Finance put the order on hold until the old invoice is paid.",
+    "ar": "الحسابات وقّفت الأوردر لحد ما الفاتورة القديمة تتدفع.",
+    "ex2": "Orders put on hold delay our deliveries.",
+    "ar2": "الأوردرات المتوقفة بتأخر التسليمات."
+   }
+  ],
+  "ladder": {
+   "label": "how final the approval",
+   "lar": "الموافقة نهائية قد إيه",
+   "steps": [
+    {
+     "w": "review",
+     "ex": "The engineer will review the drawings today.",
+     "ar": "المهندس هيراجع الرسومات النهارده.",
+     "ex2": "After he reviews them, he'll send comments.",
+     "ar2": "بعد ما يراجعها، هيبعت ملاحظاته."
+    },
+    {
+     "w": "approve",
+     "ex": "The department head approved the design.",
+     "ar": "رئيس القسم وافق على التصميم.",
+     "ex2": "Approved designs go to the client next.",
+     "ar2": "التصميمات المتوافق عليها بتروح للعميل بعد كده."
+    },
+    {
+     "w": "sign off",
+     "ex": "The client signed off on the final design.",
+     "ar": "العميل وافق نهائياً على التصميم.",
+     "ex2": "After sign-off, no more changes are allowed.",
+     "ar2": "بعد الموافقة النهائية، مفيش تغييرات تاني."
+    }
+   ]
+  },
+  "ctx": "We can't start the battery replacement yet. The hospital's chief engineer still needs to sign off on the shutdown plan.",
+  "ctx_ar": "مانقدرش نبدأ تغيير البطاريات لسه. كبير مهندسين المستشفى لسه لازم يوافق نهائياً على خطة الفصل.",
+  "quiz": [
+   {
+    "s": "We're waiting for the client's ___ on the drawings.",
+    "opts": [
+     "sign-off",
+     "sign off",
+     "signature"
+    ],
+    "a": 0,
+    "ar": "مستنيين موافقة العميل النهائية على الرسومات."
+   },
+   {
+    "s": "The PO needs the finance manager's ___.",
+    "opts": [
+     "sign",
+     "signature",
+     "sign-off"
+    ],
+    "a": 1,
+    "ar": "أمر الشراء محتاج إمضاء المدير المالي."
+   },
+   {
+    "s": "The client ___ the first layout, so we changed it.",
+    "opts": [
+     "signed off",
+     "approved",
+     "rejected"
+    ],
+    "a": 2,
+    "ar": "العميل رفض أول تصميم، فغيّرناه."
+   }
+  ]
+ },
+ {
+  "w": "check in",
+  "ar": "يطمّن / يتابع مع حد",
+  "family": [
+   {
+    "w": "check in",
+    "pos": "verb",
+    "ex": "I'm just checking in to see if the new UPS is working well.",
+    "ar": "بطمّن بس إن الـ‎UPS‎ الجديد شغال كويس.",
+    "ex2": "I'll check in again next week after the load test.",
+    "ar2": "هطمّن تاني الأسبوع الجاي بعد اختبار الحِمل."
+   },
+   {
+    "w": "check-in",
+    "pos": "noun",
+    "ex": "We have a weekly check-in with the solar project team.",
+    "ar": "عندنا متابعة أسبوعية مع فريق مشروع الطاقة الشمسية.",
+    "ex2": "The check-in takes only fifteen minutes.",
+    "ar2": "المتابعة بتاخد ربع ساعة بس."
+   },
+   {
+    "w": "check",
+    "pos": "verb",
+    "ex": "Please check the battery voltage before you leave.",
+    "ar": "ياريت تكشف على جهد البطاريات قبل ما تمشي.",
+    "ex2": "If you check it now, we avoid a second visit.",
+    "ar2": "لو كشفت عليه دلوقتي، نتجنب زيارة تانية."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "contact someone for an update",
+    "mar": "تطمّن على حد / تتابع",
+    "ex": "I'm checking in about the quotation we sent on Monday.",
+    "ar": "بتابع بخصوص عرض السعر اللي بعتناه الإتنين.",
+    "ex2": "Did you have time to check in with your manager?",
+    "ar2": "لحقت تتكلم مع مديرك؟"
+   },
+   {
+    "m": "register on arrival",
+    "mar": "تسجّل وصولك",
+    "ex": "Technicians must check in at the bank's security desk.",
+    "ar": "الفنيين لازم يسجّلوا وصولهم عند أمن البنك.",
+    "ex2": "After they check in, a guard takes them to the server room.",
+    "ar2": "بعد ما يسجّلوا، الأمن بياخدهم لأوضة السيرفرات."
+   }
+  ],
+  "syn": [
+   {
+    "w": "follow up",
+    "note": "after something specific, e.g. a quote or email",
+    "ex": "I'll follow up on the unpaid invoice tomorrow.",
+    "ar": "هتابع الفاتورة اللي ماتدفعتش بكرة.",
+    "ex2": "If they don't reply, I'll follow up by phone.",
+    "ar2": "لو ماردوش، هتابع بالتليفون."
+   },
+   {
+    "w": "touch base",
+    "note": "informal; short contact, often between colleagues",
+    "ex": "Let's touch base after your site visit.",
+    "ar": "خلّينا نتكلم بعد زيارة الموقع بتاعتك.",
+    "ex2": "We'll touch base on the price then.",
+    "ar2": "نتكلم في السعر ساعتها."
+   },
+   {
+    "w": "get in touch",
+    "note": "more general; first contact or after long time",
+    "ex": "Please get in touch if the alarm appears again.",
+    "ar": "ياريت تكلّمنا لو الإنذار ظهر تاني.",
+    "ex2": "Get in touch any time on our hotline.",
+    "ar2": "كلّمنا في أي وقت على الخط الساخن."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how strong the follow-up",
+   "lar": "المتابعة قوية قد إيه",
+   "steps": [
+    {
+     "w": "check in",
+     "ex": "Just checking in on the quotation.",
+     "ar": "بطمّن بس بخصوص عرض السعر.",
+     "ex2": "No rush; I just wanted to check in.",
+     "ar2": "مفيش استعجال؛ كنت عايز أطمّن بس."
+    },
+    {
+     "w": "follow up",
+     "ex": "I'm following up on invoice 3021.",
+     "ar": "بتابع بخصوص الفاتورة 3021.",
+     "ex2": "It's now two weeks overdue, so I'm following up.",
+     "ar2": "هي متأخرة أسبوعين، فبتابع."
+    },
+    {
+     "w": "chase",
+     "ex": "Mona is chasing the client for payment.",
+     "ar": "منى بتطارد العميل عشان الدفع.",
+     "ex2": "She chases them every two days now.",
+     "ar2": "بقت بتطاردهم كل يومين."
+    },
+    {
+     "w": "escalate",
+     "ex": "We escalated the unpaid invoice to their CFO.",
+     "ar": "صعّدنا الفاتورة المتأخرة للمدير المالي بتاعهم.",
+     "ex2": "Escalating it got the payment in one day.",
+     "ar2": "التصعيد جاب الفلوس في يوم واحد."
+    }
+   ]
+  },
+  "ctx": "It's been a week since we installed the VFDs at the pumping station. Let's check in with the client and ask about the energy savings.",
+  "ctx_ar": "عدّى أسبوع من ساعة ما ركّبنا الـ‎VFD‎ في محطة الطلمبات. خلّينا نطمّن مع العميل ونسأله عن توفير الكهربا.",
+  "quiz": [
+   {
+    "s": "We have a weekly ___ with the project team.",
+    "opts": [
+     "check-in",
+     "check in",
+     "checked"
+    ],
+    "a": 0,
+    "ar": "عندنا متابعة أسبوعية مع فريق المشروع."
+   },
+   {
+    "s": "The invoice is a month late; let's ___ it to their CFO.",
+    "opts": [
+     "check in",
+     "escalate",
+     "touch base"
+    ],
+    "a": 1,
+    "ar": "الفاتورة متأخرة شهر؛ خلّينا نصعّدها للمدير المالي بتاعهم."
+   },
+   {
+    "s": "Let's touch ___ after your site visit.",
+    "opts": [
+     "in",
+     "up",
+     "base"
+    ],
+    "a": 2,
+    "ar": "خلّينا نتكلم بعد زيارة الموقع."
+   }
+  ]
+ },
+ {
+  "w": "bring to your attention",
+  "ar": "ألفت نظرك لـ",
+  "family": [
+   {
+    "w": "bring to your attention",
+    "pos": "verb",
+    "ex": "I'd like to bring to your attention that two invoices are overdue.",
+    "ar": "حابب ألفت نظرك إن فيه فاتورتين متأخرين.",
+    "ex2": "Please arrange payment to bring the account up to date.",
+    "ar2": "ياريت ترتّب الدفع عشان الحساب يتظبط."
+   },
+   {
+    "w": "attention",
+    "pos": "noun",
+    "ex": "Thank you for your attention to this matter.",
+    "ar": "شكراً على اهتمامك بالموضوع ده.",
+    "ex2": "Your attention helps us close the file quickly.",
+    "ar2": "اهتمامك بيساعدنا نقفل الملف بسرعة."
+   },
+   {
+    "w": "attentive",
+    "pos": "adjective",
+    "ex": "Our service team is very attentive to hospital clients.",
+    "ar": "فريق الخدمة عندنا مهتم جداً بعملا المستشفيات.",
+    "ex2": "Being attentive keeps our renewal rate high.",
+    "ar2": "الاهتمام ده بيخلّي نسبة التجديد عالية."
+   },
+   {
+    "w": "attend to",
+    "pos": "verb",
+    "ex": "Our engineer will attend to the faulty inverter today.",
+    "ar": "المهندس بتاعنا هيتعامل مع الإنفرتر البايظ النهارده.",
+    "ex2": "He'll attend to the cooling fan as well.",
+    "ar2": "وهيتعامل مع مروحة التبريد كمان."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "draw your attention to",
+    "note": "formal; very similar, in letters and reports",
+    "ex": "I'd like to draw your attention to clause 7 on warranty.",
+    "ar": "حابب ألفت نظرك للبند 7 بخصوص الضمان.",
+    "ex2": "Clause 7 excludes damage from power surges.",
+    "ar2": "البند 7 مش بيغطي التلف من زيادة الكهربا."
+   },
+   {
+    "w": "point out",
+    "note": "neutral; spoken or written",
+    "ex": "The engineer pointed out a loose cable in the panel.",
+    "ar": "المهندس نبّه على كابل سايب في اللوحة.",
+    "ex2": "He pointed it out before it caused a fire.",
+    "ar2": "نبّه عليه قبل ما يعمل حريقة."
+   },
+   {
+    "w": "flag",
+    "note": "informal; quick warning in chat or email",
+    "ex": "Just flagging that the client's credit limit is reached.",
+    "ar": "بنبّه بس إن العميل وصل لحد الائتمان.",
+    "ex2": "I flagged it to finance this morning.",
+    "ar2": "نبّهت الحسابات الصبح."
+   }
+  ],
+  "ant": [
+   {
+    "w": "overlook",
+    "ex": "We overlooked the shipping cost in the first quotation.",
+    "ar": "نسينا تكلفة الشحن في أول عرض سعر.",
+    "ex2": "Because we overlooked it, our margin dropped.",
+    "ar2": "وعشان نسيناها، الهامش قل."
+   }
+  ],
+  "ladder": {
+   "label": "how formal",
+   "lar": "رسمي قد إيه",
+   "steps": [
+    {
+     "w": "flag",
+     "ex": "Just flagging: the server room AC is off.",
+     "ar": "بنبّه بس: تكييف أوضة السيرفرات مقفول.",
+     "ex2": "Please flag any problem in the group chat.",
+     "ar2": "ياريت تنبّه على أي مشكلة في الجروب."
+    },
+    {
+     "w": "point out",
+     "ex": "I should point out that the warranty has expired.",
+     "ar": "لازم أوضّح إن الضمان خلص.",
+     "ex2": "I pointed out the extra cost in my reply.",
+     "ar2": "وضّحت التكلفة الزيادة في ردي."
+    },
+    {
+     "w": "bring to your attention",
+     "ex": "I'd like to bring to your attention a pricing error.",
+     "ar": "حابب ألفت نظرك لغلطة في السعر.",
+     "ex2": "We'll send a corrected invoice today.",
+     "ar2": "هنبعت فاتورة متصححة النهارده."
+    },
+    {
+     "w": "draw your attention to",
+     "ex": "May I draw your attention to the penalty clause?",
+     "ar": "أسمحلي ألفت نظرك لبند الغرامة؟",
+     "ex2": "The penalty clause applies after 30 days' delay.",
+     "ar2": "بند الغرامة بيتطبق بعد تأخير 30 يوم."
+    }
+   ]
+  },
+  "ctx": "Dear Mr. Fathy, I'd like to bring to your attention that your UPS warranty expires next month. We recommend renewing the maintenance contract now.",
+  "ctx_ar": "أستاذ فتحي، حابب ألفت نظرك إن ضمان الـ‎UPS‎ بتاعك هيخلص الشهر الجاي. بننصح بتجديد عقد الصيانة دلوقتي.",
+  "quiz": [
+   {
+    "s": "Thank you for your ___ to this matter.",
+    "opts": [
+     "attention",
+     "attentive",
+     "attend to"
+    ],
+    "a": 0,
+    "ar": "شكراً على اهتمامك بالموضوع ده."
+   },
+   {
+    "s": "Just ___ that the client's credit limit is reached.",
+    "opts": [
+     "overlooking",
+     "flagging",
+     "attending"
+    ],
+    "a": 1,
+    "ar": "بنبّه بس إن العميل وصل لحد الائتمان."
+   },
+   {
+    "s": "We ___ the shipping cost in the first quotation.",
+    "opts": [
+     "flagged",
+     "pointed out",
+     "overlooked"
+    ],
+    "a": 2,
+    "ar": "نسينا تكلفة الشحن في أول عرض سعر."
+   }
+  ]
+ }
+]

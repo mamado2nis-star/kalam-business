@@ -1,0 +1,883 @@
+[
+ {
+  "w": "asset",
+  "ar": "حد أو حاجة ليها قيمة كبيرة للشركة",
+  "family": [
+   {
+    "w": "asset",
+    "pos": "noun",
+    "ex": "Nadia is a real asset to the collections team.",
+    "ar": "‎Nadia‎ مكسب حقيقي لفريق التحصيل.",
+    "ex2": "As an asset, she collected 3 million pounds last quarter.",
+    "ar2": "وهي مكسب كده، حصّلت 3 مليون جنيه الربع اللي فات."
+   },
+   {
+    "w": "assets",
+    "pos": "noun",
+    "ex": "The bank's IT assets include 200 servers and 40 UPS units.",
+    "ar": "أصول الـ‎IT‎ بتاعة البنك فيها 200 سيرفر و40 ‎UPS‎.",
+    "ex2": "We keep a list of their assets for maintenance planning.",
+    "ar2": "بنحتفظ بقايمة بأصولهم عشان نخطط الصيانة."
+   },
+   {
+    "w": "asset management",
+    "pos": "noun",
+    "ex": "Our asset management software tracks every battery's age.",
+    "ar": "برنامج إدارة الأصول بتاعنا بيتابع عمر كل بطارية.",
+    "ex2": "Asset management tells us when replacements are due.",
+    "ar2": "إدارة الأصول بتقولنا إمتى التغيير مستحق."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "valuable person or skill",
+    "mar": "شخص أو مهارة ليها قيمة",
+    "ex": "Your Arabic and German skills are an asset in supplier talks.",
+    "ar": "العربي والألماني بتوعك ميزة كبيرة في التفاوض مع الموردين.",
+    "ex2": "That asset helped us get a better price from Munich.",
+    "ar2": "الميزة دي ساعدتنا ناخد سعر أحسن من ميونخ."
+   },
+   {
+    "m": "equipment or property a company owns",
+    "mar": "معدات أو ممتلكات الشركة",
+    "ex": "Each UPS is registered as a company asset with a serial number.",
+    "ar": "كل ‎UPS‎ متسجّل كأصل من أصول الشركة برقم مسلسل.",
+    "ex2": "Damaged assets must be reported to finance.",
+    "ar2": "الأصول اللي بتتلف لازم تتبلّغ للمالية."
+   }
+  ],
+  "syn": [
+   {
+    "w": "strength",
+    "note": "a quality you have; asset is the value it brings",
+    "ex": "My main strength is explaining technical things simply.",
+    "ar": "أهم نقطة قوة عندي إني بشرح الحاجات الفنية ببساطة.",
+    "ex2": "That strength helps me sell VFDs to non-engineers.",
+    "ar2": "النقطة دي بتساعدني أبيع ‎VFDs‎ لناس مش مهندسين."
+   },
+   {
+    "w": "advantage",
+    "note": "something that puts you ahead of competitors",
+    "ex": "Our local spare-parts stock is a big advantage.",
+    "ar": "مخزون قطع الغيار المحلي بتاعنا ميزة كبيرة.",
+    "ex2": "That advantage cuts repair time to one day.",
+    "ar2": "الميزة دي بتقلّل وقت التصليح ليوم واحد."
+   },
+   {
+    "w": "valuable team member",
+    "note": "longer, used in reviews and references",
+    "ex": "Ali has been a valuable team member for six years.",
+    "ar": "‎Ali‎ عضو مهم في الفريق من ست سنين.",
+    "ex2": "Every valuable team member got a bonus.",
+    "ar2": "كل عضو مهم في الفريق خد بونص."
+   }
+  ],
+  "ant": [
+   {
+    "w": "liability",
+    "ex": "An untrained technician on a live UPS is a liability.",
+    "ar": "فني مش متدرّب على ‎UPS‎ شغال يبقى خطر علينا.",
+    "ex2": "That liability could cost us the whole contract.",
+    "ar2": "الخطر ده ممكن يخسّرنا العقد كله."
+   },
+   {
+    "w": "weakness",
+    "ex": "My weakness is Excel, so I'm taking a course.",
+    "ar": "نقطة ضعفي الإكسيل، فباخد كورس.",
+    "ex2": "Fixing that weakness will speed up my quotations.",
+    "ar2": "معالجة نقطة الضعف دي هتسرّع عروض الأسعار بتاعتي."
+   }
+  ],
+  "ladder": {
+   "label": "how valuable",
+   "lar": "قيمته قد إيه",
+   "steps": [
+    {
+     "w": "helpful",
+     "ex": "The new trainee is helpful in the warehouse.",
+     "ar": "المتدرب الجديد بيساعد في المخزن.",
+     "ex2": "Helpful, but he still needs supervision.",
+     "ar2": "بيساعد، بس لسه محتاج إشراف."
+    },
+    {
+     "w": "valuable",
+     "ex": "Her client contacts are valuable for the sales team.",
+     "ar": "علاقاتها مع العملا مفيدة جدًا لفريق المبيعات.",
+     "ex2": "Valuable contacts open doors at big factories.",
+     "ar2": "العلاقات المفيدة بتفتح أبواب في المصانع الكبيرة."
+    },
+    {
+     "w": "asset",
+     "ex": "Her experience with tenders makes her an asset.",
+     "ar": "خبرتها في المناقصات بتخليها مكسب.",
+     "ex2": "As an asset, she leads every big bid now.",
+     "ar2": "وهي مكسب كده، بتقود كل مناقصة كبيرة دلوقتي."
+    },
+    {
+     "w": "indispensable",
+     "ex": "Our only VFD specialist is indispensable right now.",
+     "ar": "متخصص الـ‎VFD‎ الوحيد عندنا مينفعش نستغنى عنه دلوقتي.",
+     "ex2": "Indispensable people need backups, so we're training two.",
+     "ar2": "الناس اللي مينفعش نستغنى عنها محتاجة بدايل، فبندرّب اتنين."
+    }
+   ]
+  },
+  "ctx": "I speak with clients and I understand the technical side. I believe that makes me a strong asset to your UPS sales team.",
+  "ctx_ar": "أنا بتكلم مع العملا وفاهم الجانب الفني. أعتقد إن ده بيخليني مكسب قوي لفريق مبيعات الـ‎UPS‎ بتاعكم.",
+  "quiz": [
+   {
+    "s": "An untrained technician on a live UPS is a ___.",
+    "opts": [
+     "asset",
+     "liability",
+     "strength"
+    ],
+    "a": 1,
+    "ar": "فني مش متدرّب على ‎UPS‎ شغال يبقى خطر."
+   },
+   {
+    "s": "Our only VFD expert is ___; we can't lose him.",
+    "opts": [
+     "indispensable",
+     "helpful",
+     "weakness"
+    ],
+    "a": 0,
+    "ar": "خبير الـ‎VFD‎ الوحيد عندنا مينفعش نستغنى عنه؛ مينفعش نخسره."
+   },
+   {
+    "s": "The software tracks every battery — it's our asset ___ tool.",
+    "opts": [
+     "assets",
+     "asset",
+     "management"
+    ],
+    "a": 2,
+    "ar": "البرنامج بيتابع كل بطارية — ده أداة إدارة الأصول بتاعتنا."
+   }
+  ]
+ },
+ {
+  "w": "prioritize",
+  "ar": "يرتب الأولويات / يقدّم الأهم",
+  "family": [
+   {
+    "w": "prioritize",
+    "pos": "verb",
+    "ex": "Every morning I prioritize my calls: overdue payments first, new leads second.",
+    "ar": "كل يوم الصبح برتّب مكالماتي: الدفعات المتأخرة الأول، العملا الجداد تاني.",
+    "ex2": "I prioritize this way because cash keeps the company running.",
+    "ar2": "برتّبها كده عشان الكاش هو اللي بيمشّي الشركة."
+   },
+   {
+    "w": "priority",
+    "pos": "noun",
+    "ex": "The solar station handover is the priority this week.",
+    "ar": "تسليم المحطة الشمسية هو الأولوية الأسبوع ده.",
+    "ex2": "That priority comes before any new site survey.",
+    "ar2": "الأولوية دي قبل أي معاينة جديدة."
+   },
+   {
+    "w": "priorities",
+    "pos": "noun",
+    "ex": "Let's agree on priorities before the import shipment arrives.",
+    "ar": "يلا نتفق على الأولويات قبل ما شحنة الاستيراد توصل.",
+    "ex2": "Clear priorities stop arguments in the warehouse.",
+    "ar2": "الأولويات الواضحة بتمنع الخناق في المخزن."
+   },
+   {
+    "w": "prioritization",
+    "pos": "noun",
+    "ex": "Ticket prioritization is automatic in our new service system.",
+    "ar": "ترتيب أولوية التذاكر أوتوماتيك في سيستم الخدمة الجديد.",
+    "ex2": "Prioritization uses the client's contract level.",
+    "ar2": "الترتيب بيعتمد على مستوى عقد العميل."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "put first",
+    "note": "plain spoken English",
+    "ex": "We put the hospital first, then the hotel.",
+    "ar": "قدّمنا المستشفى الأول، وبعدين الفندق.",
+    "ex2": "Put the urgent PO first too.",
+    "ar2": "وقدّم الـ‎PO‎ المستعجل الأول كمان."
+   },
+   {
+    "w": "triage",
+    "note": "sort urgent problems quickly, like a service desk",
+    "ex": "The service desk triages all calls before 9 am.",
+    "ar": "الدعم الفني بيفرز كل المكالمات قبل الساعة 9.",
+    "ex2": "Triage tells us who needs a visit today.",
+    "ar2": "الفرز بيقولنا مين محتاج زيارة النهارده."
+   },
+   {
+    "w": "give precedence to",
+    "note": "formal; one thing goes before another",
+    "ex": "Contract clients are given precedence over walk-in customers.",
+    "ar": "عملا العقود ليهم الأسبقية على العملا العاديين.",
+    "ex2": "Precedence is written in the service agreement.",
+    "ar2": "الأسبقية مكتوبة في اتفاقية الخدمة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "put off",
+    "ex": "I put off the stock count, and now the numbers are wrong.",
+    "ar": "أجّلت جرد المخزن، ودلوقتي الأرقام غلط.",
+    "ex2": "Never put off stock counts before year-end.",
+    "ar2": "متأجّلش الجرد أبدًا قبل آخر السنة."
+   },
+   {
+    "w": "neglect",
+    "ex": "Don't neglect routine checks just because they're boring.",
+    "ar": "متهملش الفحوصات الدورية عشان هي مملة.",
+    "ex2": "Neglected checks become emergency visits.",
+    "ar2": "الفحوصات اللي بتتهمل بتتحول لزيارات طوارئ."
+   }
+  ],
+  "ladder": {
+   "label": "how urgent",
+   "lar": "مستعجل قد إيه",
+   "steps": [
+    {
+     "w": "can wait",
+     "ex": "The brochure update can wait until next month.",
+     "ar": "تحديث البروشور يقدر يستنى للشهر الجاي.",
+     "ex2": "It can wait; no client is asking for it.",
+     "ar2": "يقدر يستنى؛ مفيش عميل طالبه."
+    },
+    {
+     "w": "important",
+     "ex": "The quotation for the hotel is important.",
+     "ar": "عرض سعر الفندق مهم.",
+     "ex2": "It's important, but the deadline is Sunday.",
+     "ar2": "مهم، بس آخر ميعاد الحد."
+    },
+    {
+     "w": "urgent",
+     "ex": "The factory's VFD repair is urgent.",
+     "ar": "تصليح الـ‎VFD‎ بتاع المصنع مستعجل.",
+     "ex2": "Urgent means today, before the night shift.",
+     "ar2": "مستعجل معناها النهارده، قبل شيفت الليل."
+    },
+    {
+     "w": "critical",
+     "ex": "The data-centre UPS alarm is critical.",
+     "ar": "إنذار الـ‎UPS‎ في الداتا سنتر حرج.",
+     "ex2": "Critical means we go now.",
+     "ar2": "حرج معناها نتحرك دلوقتي."
+    }
+   ]
+  },
+  "ctx": "When everything is urgent, I prioritize by impact. A down server room comes before a late report, even if the report's manager is shouting louder.",
+  "ctx_ar": "لما كل حاجة تبقى مستعجلة، برتّب حسب التأثير. أوضة سيرفرات واقعة قبل تقرير متأخر، حتى لو مدير التقرير صوته أعلى.",
+  "quiz": [
+   {
+    "s": "Let's agree on ___ before the shipment arrives.",
+    "opts": [
+     "prioritize",
+     "priorities",
+     "prioritization"
+    ],
+    "a": 1,
+    "ar": "يلا نتفق على الأولويات قبل ما الشحنة توصل."
+   },
+   {
+    "s": "The brochure update ___ until next month.",
+    "opts": [
+     "can wait",
+     "is critical",
+     "is urgent"
+    ],
+    "a": 0,
+    "ar": "تحديث البروشور يقدر يستنى للشهر الجاي."
+   },
+   {
+    "s": "The service desk ___ all calls before 9 am.",
+    "opts": [
+     "neglects",
+     "puts off",
+     "triages"
+    ],
+    "a": 2,
+    "ar": "الدعم الفني بيفرز كل المكالمات قبل الساعة 9."
+   }
+  ]
+ },
+ {
+  "w": "disgruntled",
+  "ar": "متضايق / مش راضي وزعلان",
+  "family": [
+   {
+    "w": "disgruntled",
+    "pos": "adjective",
+    "ex": "A disgruntled client called about the third UPS failure this month.",
+    "ar": "عميل متضايق اتصل بخصوص تالت عطل ‎UPS‎ الشهر ده.",
+    "ex2": "Disgruntled clients need a call from a manager, not an email.",
+    "ar2": "العملا المتضايقين محتاجين مكالمة من مدير، مش إيميل."
+   },
+   {
+    "w": "disgruntlement",
+    "pos": "noun",
+    "ex": "There's growing disgruntlement among technicians about weekend shifts.",
+    "ar": "فيه تذمّر بيزيد بين الفنيين من شيفتات الويك إند.",
+    "ex2": "To reduce disgruntlement, we'll rotate the shifts.",
+    "ar2": "عشان نقلّل التذمّر، هنبدّل الشيفتات بالدور."
+   },
+   {
+    "w": "disgruntle",
+    "pos": "verb",
+    "ex": "Repeated delivery delays will disgruntle even our most loyal clients.",
+    "ar": "التأخير المتكرر في التسليم هيضايق حتى أوفى عملائنا.",
+    "ex2": "Nothing disgruntles a factory owner more than a stopped production line.",
+    "ar2": "مفيش حاجة بتضايق صاحب المصنع أكتر من خط إنتاج واقف."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "unhappy",
+    "note": "neutral, simple, polite",
+    "ex": "The client is unhappy with the delivery time.",
+    "ar": "العميل مش مبسوط من ميعاد التسليم.",
+    "ex2": "Unhappy clients often just want an update.",
+    "ar2": "العملا اللي مش مبسوطين غالبًا عايزين تحديث وبس."
+   },
+   {
+    "w": "dissatisfied",
+    "note": "formal; for surveys and reports",
+    "ex": "Ten percent of clients were dissatisfied with response time.",
+    "ar": "عشرة في المية من العملا مكانوش راضيين عن وقت الاستجابة.",
+    "ex2": "Dissatisfied clients got a follow-up call.",
+    "ar2": "العملا اللي مش راضيين اتعملهم مكالمة متابعة."
+   },
+   {
+    "w": "frustrated",
+    "note": "stuck after repeated problems",
+    "ex": "The factory manager is frustrated because the VFD keeps tripping.",
+    "ar": "مدير المصنع مخنوق عشان الـ‎VFD‎ بيفصل كل شوية.",
+    "ex2": "Frustrated people need a clear plan and date.",
+    "ar2": "الناس المخنوقة محتاجة خطة واضحة وميعاد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "satisfied",
+    "ex": "Satisfied clients renew their contracts without discounts.",
+    "ar": "العملا الراضيين بيجددوا عقودهم من غير خصومات.",
+    "ex2": "Satisfied clients also refer us to others.",
+    "ar2": "والعملا الراضيين كمان بيرشحونا لغيرهم."
+   },
+   {
+    "w": "delighted",
+    "ex": "The hotel was delighted with the quiet new UPS room.",
+    "ar": "الفندق كان مبسوط جدًا بأوضة الـ‎UPS‎ الجديدة الهادية.",
+    "ex2": "Delighted, they sent us a thank-you letter.",
+    "ar2": "ومن فرحتهم، بعتولنا جواب شكر."
+   }
+  ],
+  "ladder": {
+   "label": "how upset",
+   "lar": "متضايق قد إيه",
+   "steps": [
+    {
+     "w": "unhappy",
+     "ex": "The client is unhappy about the delay.",
+     "ar": "العميل مش مبسوط من التأخير.",
+     "ex2": "Unhappy, but still polite on the phone.",
+     "ar2": "مش مبسوط، بس لسه مؤدب في التليفون."
+    },
+    {
+     "w": "frustrated",
+     "ex": "After the second delay, he's frustrated.",
+     "ar": "بعد التأخير التاني، بقى مخنوق.",
+     "ex2": "Frustrated, he asked for the manager's number.",
+     "ar2": "وهو مخنوق، طلب رقم المدير."
+    },
+    {
+     "w": "disgruntled",
+     "ex": "Now he's a disgruntled client writing long emails.",
+     "ar": "دلوقتي بقى عميل متضايق بيكتب إيميلات طويلة.",
+     "ex2": "Disgruntled clients copy their CEO on every email.",
+     "ar2": "العملا المتضايقين بيحطوا الرئيس التنفيذي بتاعهم في كل إيميل."
+    },
+    {
+     "w": "furious",
+     "ex": "He's furious and threatening to cancel the contract.",
+     "ar": "هو متعصّب جدًا وبيهدد يلغي العقد.",
+     "ex2": "Furious clients need a meeting, not a message.",
+     "ar2": "العميل المتعصّب محتاج اجتماع، مش رسالة."
+    }
+   ]
+  },
+  "ctx": "We had a disgruntled customer this morning; his solar inverter failed again. I apologised, sent an engineer within two hours, and offered a free extended warranty.",
+  "ctx_ar": "كان عندنا عميل متضايق الصبح ده؛ الإنفرتر الشمسي بتاعه عطل تاني. اعتذرت، وبعت مهندس في خلال ساعتين، وعرضت ضمان ممتد ببلاش.",
+  "quiz": [
+   {
+    "s": "There's growing ___ among technicians about weekend shifts.",
+    "opts": [
+     "disgruntled",
+     "disgruntlement",
+     "dissatisfied"
+    ],
+    "a": 1,
+    "ar": "فيه تذمّر بيزيد بين الفنيين من شيفتات الويك إند."
+   },
+   {
+    "s": "He's ___ and threatening to cancel the contract.",
+    "opts": [
+     "furious",
+     "satisfied",
+     "unhappy"
+    ],
+    "a": 0,
+    "ar": "هو متعصّب جدًا وبيهدد يلغي العقد."
+   },
+   {
+    "s": "___ clients renew without asking for discounts.",
+    "opts": [
+     "Disgruntled",
+     "Frustrated",
+     "Satisfied"
+    ],
+    "a": 2,
+    "ar": "العملا الراضيين بيجددوا من غير ما يطلبوا خصومات."
+   }
+  ]
+ },
+ {
+  "w": "put out a fire",
+  "ar": "يحل مشكلة عاجلة فجأة ظهرت",
+  "family": [
+   {
+    "w": "put out a fire",
+    "pos": "verb",
+    "ex": "I had to put out a fire at the bank's data centre this morning.",
+    "ar": "اضطريت أحل مشكلة عاجلة في الداتا سنتر بتاع البنك الصبح ده.",
+    "ex2": "Putting out that fire meant no time for my quotations.",
+    "ar2": "حل المشكلة دي معناه إن مفيش وقت لعروض الأسعار بتاعتي."
+   },
+   {
+    "w": "firefighting",
+    "pos": "noun",
+    "ex": "Too much firefighting means we're not doing preventive maintenance.",
+    "ar": "كتر حل المشاكل العاجلة معناه إننا مش بنعمل صيانة وقائية.",
+    "ex2": "Less firefighting starts with a proper maintenance plan.",
+    "ar2": "تقليل الطوارئ بيبدأ بخطة صيانة مظبوطة."
+   },
+   {
+    "w": "firefighter",
+    "pos": "person",
+    "ex": "Ashraf is the team's firefighter when big clients have emergencies.",
+    "ar": "‎Ashraf‎ هو اللي بيطفي الحرايق في الفريق لما العملا الكبار يبقى عندهم طوارئ.",
+    "ex2": "Every team needs a calm firefighter.",
+    "ar2": "كل فريق محتاج حد هادي بيحل الأزمات."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "handle a crisis",
+    "note": "bigger and more serious than a daily fire",
+    "ex": "The service manager handled a crisis when the hospital lost power.",
+    "ar": "مدير الخدمة اتعامل مع أزمة لما المستشفى الكهربا قطعت عنها.",
+    "ex2": "Handling a crisis well builds long-term trust.",
+    "ar2": "التعامل الكويس مع الأزمة بيبني ثقة طويلة."
+   },
+   {
+    "w": "deal with an emergency",
+    "note": "neutral, mostly technical problems",
+    "ex": "Our team can deal with an emergency 24 hours a day.",
+    "ar": "فريقنا يقدر يتعامل مع أي طوارئ 24 ساعة.",
+    "ex2": "To deal with an emergency fast, keep spare boards ready.",
+    "ar2": "عشان تتعامل مع الطوارئ بسرعة، خلّي الكروت الاحتياطي جاهزة."
+   },
+   {
+    "w": "troubleshoot",
+    "note": "finding a technical cause, not general urgency",
+    "ex": "She troubleshot the VFD while the factory waited.",
+    "ar": "شخّصت عطل الـ‎VFD‎ والمصنع مستني.",
+    "ex2": "Troubleshooting first avoids changing the wrong part.",
+    "ar2": "التشخيص الأول بيمنع تغيير القطعة الغلط."
+   }
+  ],
+  "ant": [
+   {
+    "w": "prevent problems",
+    "ex": "Regular checks prevent problems before clients notice.",
+    "ar": "الفحص الدوري بيمنع المشاكل قبل ما العملا ياخدوا بالهم.",
+    "ex2": "Preventing problems is cheaper than emergency visits.",
+    "ar2": "منع المشاكل أرخص من زيارات الطوارئ."
+   },
+   {
+    "w": "start a fire",
+    "ex": "A rude email to the client can start a fire.",
+    "ar": "إيميل قليل الذوق للعميل ممكن يولّعها.",
+    "ex2": "Don't start a fire you'll need to put out later.",
+    "ar2": "متولّعش نار هتضطر تطفيها بعدين."
+   }
+  ],
+  "ladder": {
+   "label": "how serious the problem is",
+   "lar": "المشكلة خطيرة قد إيه",
+   "steps": [
+    {
+     "w": "issue",
+     "ex": "A small issue with an invoice date came up.",
+     "ar": "طلعت مشكلة صغيرة في تاريخ فاتورة.",
+     "ex2": "The issue took five minutes to fix.",
+     "ar2": "المشكلة خدت خمس دقايق تتحل."
+    },
+    {
+     "w": "problem",
+     "ex": "There's a problem with the delivery truck.",
+     "ar": "فيه مشكلة في عربية التسليم.",
+     "ex2": "The problem may delay the batteries by a day.",
+     "ar2": "المشكلة ممكن تأخّر البطاريات يوم."
+    },
+    {
+     "w": "fire",
+     "ex": "We have a fire: the client's servers are down.",
+     "ar": "عندنا حريقة: سيرفرات العميل واقعة.",
+     "ex2": "Put out this fire before anything else.",
+     "ar2": "اطفي الحريقة دي قبل أي حاجة."
+    },
+    {
+     "w": "crisis",
+     "ex": "It's a crisis: the hospital ICU has no backup power.",
+     "ar": "دي أزمة: عناية المستشفى مفيهاش كهربا احتياطي.",
+     "ex2": "A crisis needs the director on site.",
+     "ar2": "الأزمة محتاجة المدير في الموقع."
+    }
+   ]
+  },
+  "ctx": "Sorry I missed your call; I had to put out a fire. A client's UPS shut down during a bank audit, and I had to send someone immediately.",
+  "ctx_ar": "آسف إني فوّت مكالمتك؛ كان لازم أحل مشكلة عاجلة. ‎UPS‎ عميل فصل وقت مراجعة بنكية، واضطريت أبعت حد على طول.",
+  "quiz": [
+   {
+    "s": "Too much ___ means no time for preventive maintenance.",
+    "opts": [
+     "firefighter",
+     "firefighting",
+     "put out a fire"
+    ],
+    "a": 1,
+    "ar": "كتر حل المشاكل العاجلة معناه مفيش وقت للصيانة الوقائية."
+   },
+   {
+    "s": "The hospital has no backup power — this is a ___.",
+    "opts": [
+     "crisis",
+     "issue",
+     "problem"
+    ],
+    "a": 0,
+    "ar": "المستشفى مفيهاش كهربا احتياطي — دي أزمة."
+   },
+   {
+    "s": "Regular checks ___ before clients notice.",
+    "opts": [
+     "start a fire",
+     "put out a fire",
+     "prevent problems"
+    ],
+    "a": 2,
+    "ar": "الفحص الدوري بيمنع المشاكل قبل ما العملا ياخدوا بالهم."
+   }
+  ]
+ },
+ {
+  "w": "meet a deadline",
+  "ar": "يخلّص الشغل في الميعاد المحدد",
+  "family": [
+   {
+    "w": "meet a deadline",
+    "pos": "verb",
+    "ex": "We worked late to meet the deadline for the ministry tender.",
+    "ar": "اشتغلنا لوقت متأخر عشان نلحق ميعاد مناقصة الوزارة.",
+    "ex2": "Meeting that deadline got us into the final round.",
+    "ar2": "إننا لحقنا الميعاد ده دخّلنا المرحلة النهائية."
+   },
+   {
+    "w": "deadline",
+    "pos": "noun",
+    "ex": "The deadline for the server room handover is 1 December.",
+    "ar": "آخر ميعاد لتسليم أوضة السيرفرات 1 ديسمبر.",
+    "ex2": "After the deadline, penalties start at 1% per week.",
+    "ar2": "بعد الميعاد، الغرامات بتبدأ 1% في الأسبوع."
+   },
+   {
+    "w": "missed",
+    "pos": "adjective",
+    "ex": "A missed deadline cost us 50,000 pounds in penalties.",
+    "ar": "ميعاد اتفوّت كلّفنا 50 ألف جنيه غرامات.",
+    "ex2": "Since that missed deadline, we plan with buffer days.",
+    "ar2": "من ساعة الميعاد اللي اتفوّت ده، بنخطط بأيام احتياطي."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "deliver on time",
+    "note": "general; about products and projects",
+    "ex": "We delivered the batteries on time despite customs.",
+    "ar": "سلّمنا البطاريات في ميعادها رغم الجمارك.",
+    "ex2": "Delivering on time is why they reordered.",
+    "ar2": "التسليم في الميعاد هو السبب إنهم طلبوا تاني."
+   },
+   {
+    "w": "hit a deadline",
+    "note": "informal; same meaning",
+    "ex": "Can we hit the Friday deadline for the quotation?",
+    "ar": "نقدر نلحق ميعاد الجمعة لعرض السعر؟",
+    "ex2": "We'll hit it if supplier prices arrive today.",
+    "ar2": "هنلحقه لو أسعار المورد وصلت النهارده."
+   },
+   {
+    "w": "beat a deadline",
+    "note": "finish before the deadline",
+    "ex": "We beat the deadline by three days on the solar project.",
+    "ar": "خلّصنا قبل الميعاد بتلات أيام في مشروع الطاقة الشمسية.",
+    "ex2": "Beating the deadline impressed the client.",
+    "ar2": "إننا خلّصنا قبل الميعاد عجب العميل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "miss a deadline",
+    "ex": "If we miss the deadline, the tender is lost.",
+    "ar": "لو فوّتنا الميعاد، المناقصة ضاعت.",
+    "ex2": "Never miss a deadline without warning the client.",
+    "ar2": "متفوّتش ميعاد أبدًا من غير ما تنبّه العميل."
+   },
+   {
+    "w": "overrun",
+    "ex": "The installation overran by a week because of rain.",
+    "ar": "التركيب اتأخر عن ميعاده أسبوع بسبب المطر.",
+    "ex2": "Overruns must be reported to the client in writing.",
+    "ar2": "التأخيرات لازم تتبلّغ للعميل كتابةً."
+   }
+  ],
+  "ladder": {
+   "label": "how well you did with time",
+   "lar": "عملت إيه مع الوقت",
+   "steps": [
+    {
+     "w": "miss a deadline",
+     "ex": "We missed the deadline by two days.",
+     "ar": "فوّتنا الميعاد بيومين.",
+     "ex2": "Missing it cost us a penalty.",
+     "ar2": "تفويته كلّفنا غرامة."
+    },
+    {
+     "w": "meet a deadline",
+     "ex": "This time we managed to meet the deadline exactly.",
+     "ar": "المرة دي قدرنا نلحق الميعاد بالظبط.",
+     "ex2": "Meeting it kept the client happy.",
+     "ar2": "إننا لحقناه خلّى العميل مبسوط."
+    },
+    {
+     "w": "beat a deadline",
+     "ex": "We beat the deadline by a week.",
+     "ar": "خلّصنا قبل الميعاد بأسبوع.",
+     "ex2": "Beating it earned us a bonus clause.",
+     "ar2": "إننا سبقناه جاب لنا بند مكافأة."
+    }
+   ]
+  },
+  "ctx": "We always meet our deadlines, even in summer. Last July, we installed forty UPS units in ten bank branches in just six days.",
+  "ctx_ar": "إحنا دايمًا بنلحق مواعيدنا، حتى في الصيف. في يوليو اللي فات، ركّبنا أربعين ‎UPS‎ في عشر فروع بنك في ست أيام بس.",
+  "quiz": [
+   {
+    "s": "A ___ deadline cost us 50,000 pounds.",
+    "opts": [
+     "met",
+     "missed",
+     "beat"
+    ],
+    "a": 1,
+    "ar": "ميعاد اتفوّت كلّفنا 50 ألف جنيه."
+   },
+   {
+    "s": "We finished a week early — we ___ the deadline.",
+    "opts": [
+     "met",
+     "missed",
+     "beat"
+    ],
+    "a": 2,
+    "ar": "خلّصنا قبلها بأسبوع — سبقنا الميعاد."
+   },
+   {
+    "s": "The installation ___ by a week because of the rain.",
+    "opts": [
+     "overran",
+     "met",
+     "delivered"
+    ],
+    "a": 0,
+    "ar": "التركيب اتأخر أسبوع بسبب المطر."
+   }
+  ]
+ },
+ {
+  "w": "put off",
+  "ar": "يأجّل / يكسل يعمل حاجة",
+  "family": [
+   {
+    "w": "put off",
+    "pos": "verb",
+    "ex": "Don't put off the battery replacement; the UPS might fail in summer.",
+    "ar": "متأجّلش تغيير البطاريات؛ الـ‎UPS‎ ممكن يعطل في الصيف.",
+    "ex2": "Putting it off now will cost more later.",
+    "ar2": "تأجيله دلوقتي هيكلّف أكتر بعدين."
+   },
+   {
+    "w": "put-off",
+    "pos": "noun",
+    "ex": "After another put-off, the client finally signed the PO.",
+    "ar": "بعد تأجيل كمان مرة، العميل أخيرًا مضى الـ‎PO‎.",
+    "ex2": "Each put-off delayed our import order.",
+    "ar2": "كل تأجيل أخّر طلب الاستيراد بتاعنا."
+   },
+   {
+    "w": "off-putting",
+    "pos": "adjective",
+    "ex": "Long technical emails are off-putting for finance managers.",
+    "ar": "الإيميلات الفنية الطويلة بتنفّر مديرين المالية.",
+    "ex2": "Off-putting emails don't get answered.",
+    "ar2": "الإيميلات المنفّرة مبيتردش عليها."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "delay doing something",
+    "mar": "يأجّل حاجة",
+    "ex": "The client put off the meeting until after the Eid holiday.",
+    "ar": "العميل أجّل الاجتماع لبعد إجازة العيد.",
+    "ex2": "He put it off because the budget wasn't approved.",
+    "ar2": "أجّله عشان الميزانية لسه متعتمدتش."
+   },
+   {
+    "m": "make someone not want something",
+    "mar": "ينفّر أو يخلّي حد ميرغبش",
+    "ex": "The high installation price put off two clients.",
+    "ar": "سعر التركيب العالي نفّر عميلين.",
+    "ex2": "A clear payment plan stopped the price from putting off new clients.",
+    "ar2": "خطة دفع واضحة خلّت السعر ميبعدش العملا الجداد."
+   }
+  ],
+  "syn": [
+   {
+    "w": "postpone",
+    "note": "formal; officially move to a later date",
+    "ex": "The site visit is postponed to Tuesday.",
+    "ar": "زيارة الموقع اتأجلت للتلات.",
+    "ex2": "We postponed it because the client's engineer is travelling.",
+    "ar2": "أجّلناها عشان مهندس العميل مسافر."
+   },
+   {
+    "w": "delay",
+    "note": "neutral; often not by choice",
+    "ex": "Customs delayed our solar panels for ten days.",
+    "ar": "الجمارك أخّرت ألواحنا الشمسية عشر أيام.",
+    "ex2": "The delay pushed the handover to next month.",
+    "ar2": "التأخير زقّ التسليم للشهر الجاي."
+   },
+   {
+    "w": "procrastinate",
+    "note": "delay because you don't feel like it",
+    "ex": "I procrastinate on expense reports every month.",
+    "ar": "كل شهر بكسل أعمل تقرير المصاريف.",
+    "ex2": "Procrastinating means finance pays me late.",
+    "ar2": "الكسل ده معناه إن المالية بتدفعلي متأخر."
+   }
+  ],
+  "ant": [
+   {
+    "w": "bring forward",
+    "ex": "The client asked us to bring forward the delivery to next Sunday.",
+    "ar": "العميل طلب مننا نقدّم التسليم للحد الجاي.",
+    "ex2": "Bringing it forward means working Friday.",
+    "ar2": "تقديمه معناه إننا هنشتغل الجمعة."
+   },
+   {
+    "w": "get on with",
+    "ex": "Stop chatting and get on with the quotation.",
+    "ar": "بطّل رغي وكمّل عرض السعر.",
+    "ex2": "Get on with it; the deadline is at five.",
+    "ar2": "كمّل فيه؛ الميعاد الساعة خمسة."
+   }
+  ],
+  "ladder": {
+   "label": "how long or how badly delayed",
+   "lar": "التأجيل قد إيه",
+   "steps": [
+    {
+     "w": "delay",
+     "ex": "There's a small delay in delivery.",
+     "ar": "فيه تأخير بسيط في التسليم.",
+     "ex2": "The delay is only one day.",
+     "ar2": "التأخير يوم واحد بس."
+    },
+    {
+     "w": "postpone",
+     "ex": "We postponed the training to next week.",
+     "ar": "أجّلنا التدريب للأسبوع الجاي.",
+     "ex2": "We postponed it with a new date.",
+     "ar2": "أجّلناه بميعاد جديد."
+    },
+    {
+     "w": "put off",
+     "ex": "The client continues to put off the decision.",
+     "ar": "العميل لسه بيأجّل القرار.",
+     "ex2": "He puts it off with no new date.",
+     "ar2": "بيأجّله من غير ميعاد جديد."
+    },
+    {
+     "w": "shelve",
+     "ex": "Management shelved the new warehouse project.",
+     "ar": "الإدارة ركنت مشروع المخزن الجديد على الرف.",
+     "ex2": "Shelved means maybe never.",
+     "ar2": "ركنه معناه يمكن عمره ما يحصل."
+    }
+   ]
+  },
+  "ctx": "I always put off calling this client about overdue invoices. I'll do it this morning before he goes into his weekly meeting.",
+  "ctx_ar": "دايمًا بأجّل مكالمة العميل ده عن الفواتير المتأخرة. هعملها الصبح ده قبل ما يدخل الاجتماع الأسبوعي بتاعه.",
+  "quiz": [
+   {
+    "s": "Long technical emails are ___ for finance managers.",
+    "opts": [
+     "put off",
+     "off-putting",
+     "put-off"
+    ],
+    "a": 1,
+    "ar": "الإيميلات الفنية الطويلة بتنفّر مديرين المالية."
+   },
+   {
+    "s": "The client ___ the delivery to next Sunday — earlier!",
+    "opts": [
+     "brought forward",
+     "put off",
+     "postponed"
+    ],
+    "a": 0,
+    "ar": "العميل قدّم التسليم للحد الجاي — بدري!"
+   },
+   {
+    "s": "Management ___ the warehouse project; it may never happen.",
+    "opts": [
+     "delayed",
+     "postponed",
+     "shelved"
+    ],
+    "a": 2,
+    "ar": "الإدارة ركنت مشروع المخزن؛ يمكن عمره ما يحصل."
+   }
+  ]
+ }
+]

@@ -1,0 +1,785 @@
+[
+ {
+  "w": "make the most of",
+  "ar": "يستغل أحسن استغلال",
+  "family": [
+   {
+    "w": "make the most of",
+    "pos": "verb",
+    "ex": "Let's make the most of the client's visit to show our new UPS range.",
+    "ar": "خلّينا نستغل زيارة العميل أحسن استغلال ونوريه تشكيلة الـ ‎UPS‎ الجديدة.",
+    "ex2": "He rarely comes, so we must make the most of it.",
+    "ar2": "هو نادرًا ما بييجي، فلازم نستغلها كويس."
+   },
+   {
+    "w": "most",
+    "pos": "adjective",
+    "ex": "Most clients renew their maintenance contracts.",
+    "ar": "أغلب العملا بيجددوا عقود الصيانة.",
+    "ex2": "Most of them renew without any discount.",
+    "ar2": "أغلبهم بيجددوا من غير أي خصم."
+   },
+   {
+    "w": "mostly",
+    "pos": "adverb",
+    "ex": "Our solar sales are mostly to farms in Upper Egypt.",
+    "ar": "مبيعاتنا في الطاقة الشمسية أغلبها لمزارع في الصعيد.",
+    "ex2": "Those farms mostly use the panels for water pumps.",
+    "ar2": "المزارع دي بتستخدم الألواح غالبًا للطلمبات."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "take advantage of",
+    "note": "neutral; use an opportunity, sometimes for gain",
+    "ex": "We should take advantage of the supplier's summer discount.",
+    "ar": "لازم نستفيد من خصم المورد في الصيف.",
+    "ex2": "Taking advantage of it saves 8% on batteries.",
+    "ar2": "الاستفادة منه بتوفّر 8% في البطاريات."
+   },
+   {
+    "w": "maximize",
+    "note": "formal; get the highest amount possible",
+    "ex": "The new layout will maximize space in the battery room.",
+    "ar": "التصميم الجديد هيستغل مساحة أوضة البطاريات لأقصى حد.",
+    "ex2": "Maximizing space lets us add another rack.",
+    "ar2": "استغلال المساحة بيخلينا نضيف راك تاني."
+   },
+   {
+    "w": "capitalize on",
+    "note": "business; turn a situation into profit",
+    "ex": "We should capitalize on the new electricity prices to sell solar.",
+    "ar": "لازم نستغل أسعار الكهربا الجديدة عشان نبيع طاقة شمسية.",
+    "ex2": "Competitors are already capitalizing on it.",
+    "ar2": "المنافسين بدأوا يستغلوها خلاص."
+   }
+  ],
+  "ant": [
+   {
+    "w": "waste",
+    "ex": "Don't waste the trade show on small talk.",
+    "ar": "متضيّعش المعرض في كلام فاضي.",
+    "ex2": "Wasting it means losing a year of leads.",
+    "ar2": "تضييعه معناه خسارة عملا محتملين سنة كاملة."
+   },
+   {
+    "w": "miss out on",
+    "ex": "We'll miss out on the tender if we're late.",
+    "ar": "هتفوتنا المناقصة لو اتأخرنا.",
+    "ex2": "Missing out means a year without the hospital account.",
+    "ar2": "فواتها معناه سنة من غير حساب المستشفى."
+   }
+  ],
+  "ladder": {
+   "label": "how much we use the chance",
+   "lar": "استغلينا الفرصة قد إيه",
+   "steps": [
+    {
+     "w": "use",
+     "ex": "We used the visit to discuss the overdue invoice.",
+     "ar": "استخدمنا الزيارة نتكلم في الفاتورة المتأخرة.",
+     "ex2": "Nothing more was discussed.",
+     "ar2": "ومفيش حاجة تانية اتكلمنا فيها."
+    },
+    {
+     "w": "take advantage of",
+     "ex": "We'll take advantage of the visit to inspect their UPS.",
+     "ar": "هنستفيد من الزيارة ونفحص الـ ‎UPS‎ بتاعهم.",
+     "ex2": "We may find weak batteries to replace.",
+     "ar2": "ممكن نلاقي بطاريات ضعيفة تتغير."
+    },
+    {
+     "w": "make the most of",
+     "ex": "We made sure to make the most of the visit: payment, inspection, and a new quote.",
+     "ar": "حرصنا نستغل الزيارة أحسن استغلال: تحصيل وفحص وعرض سعر جديد.",
+     "ex2": "The client signed the new quote on the spot.",
+     "ar2": "العميل مضى عرض السعر الجديد في ساعتها."
+    }
+   ]
+  },
+  "ctx": "The bank's IT manager gave us one hour. Let's make the most of it and present the UPS upgrade with a clear budget.",
+  "ctx_ar": "مدير الـ ‎IT‎ في البنك ادّانا ساعة واحدة. خلّينا نستغلها أحسن استغلال ونعرض تطوير الـ ‎UPS‎ بميزانية واضحة.",
+  "quiz": [
+   {
+    "s": "Let's ___ the trade show and collect many leads.",
+    "opts": [
+     "make the most of",
+     "waste",
+     "miss out on"
+    ],
+    "a": 0,
+    "ar": "خلّينا نستغل المعرض أحسن استغلال ونجمع عملا كتير."
+   },
+   {
+    "s": "If we're late, we'll ___ the tender.",
+    "opts": [
+     "make the most of",
+     "miss out on",
+     "maximize"
+    ],
+    "a": 1,
+    "ar": "لو اتأخرنا، المناقصة هتفوتنا."
+   },
+   {
+    "s": "The new layout will ___ space in the battery room.",
+    "opts": [
+     "mostly",
+     "waste",
+     "maximize"
+    ],
+    "a": 2,
+    "ar": "التصميم الجديد هيستغل مساحة أوضة البطاريات لأقصى حد."
+   }
+  ]
+ },
+ {
+  "w": "instrumental",
+  "ar": "ليه دور أساسي",
+  "family": [
+   {
+    "w": "instrumental",
+    "pos": "adjective",
+    "ex": "Mona was instrumental in winning the hospital contract.",
+    "ar": "‎Mona‎ كان ليها دور أساسي في كسب عقد المستشفى.",
+    "ex2": "Her technical report was instrumental too.",
+    "ar2": "والتقرير الفني بتاعها كان أساسي كمان."
+   },
+   {
+    "w": "instrument",
+    "pos": "noun",
+    "ex": "We calibrate our measuring instruments every year.",
+    "ar": "بنعاير أجهزة القياس بتاعتنا كل سنة.",
+    "ex2": "An uncalibrated instrument gives wrong battery readings.",
+    "ar2": "الجهاز اللي مش متعاير بيدي قراءات بطاريات غلط."
+   },
+   {
+    "w": "instrumentation",
+    "pos": "noun",
+    "ex": "The chiller project includes full instrumentation and control.",
+    "ar": "مشروع التشيلر فيه أجهزة قياس وتحكم كاملة.",
+    "ex2": "Instrumentation lets the VFD respond to pressure changes.",
+    "ar2": "أجهزة القياس بتخلي الـ ‎VFD‎ يستجيب لتغيرات الضغط."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "key",
+    "note": "short, common; very important",
+    "ex": "Fast delivery was key to winning the order.",
+    "ar": "التوريد السريع كان مفتاح كسب الطلبية.",
+    "ex2": "Price was less key than speed.",
+    "ar2": "السعر كان أقل أهمية من السرعة."
+   },
+   {
+    "w": "played a major role",
+    "note": "phrase used for people or factors",
+    "ex": "Our service team played a major role in the renewal.",
+    "ar": "فريق الخدمة لعب دور كبير في التجديد.",
+    "ex2": "Their quick response played a major role.",
+    "ar2": "استجابتهم السريعة لعبت دور كبير."
+   },
+   {
+    "w": "helpful",
+    "note": "weaker; useful but not decisive",
+    "ex": "Your supplier contacts were helpful in getting fast delivery.",
+    "ar": "علاقاتك مع الموردين كانت مفيدة في التوريد السريع.",
+    "ex2": "They were helpful, but price decided the deal.",
+    "ar2": "كانت مفيدة، بس السعر هو اللي حسم الصفقة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "irrelevant",
+    "ex": "The brand name was irrelevant to the client; only price mattered.",
+    "ar": "اسم الماركة مكانش فارق مع العميل، السعر بس اللي يهم.",
+    "ex2": "Since it was irrelevant, we offered a cheaper brand.",
+    "ar2": "وبما إنه مش فارق، عرضنا ماركة أرخص."
+   }
+  ],
+  "ladder": {
+   "label": "how important the role was",
+   "lar": "الدور كان مهم قد إيه",
+   "steps": [
+    {
+     "w": "helpful",
+     "ex": "Ali's site photos were helpful for the quotation.",
+     "ar": "صور الموقع اللي صوّرها ‎Ali‎ كانت مفيدة لعرض السعر.",
+     "ex2": "They saved us a visit.",
+     "ar2": "وفّرت علينا زيارة."
+    },
+    {
+     "w": "instrumental",
+     "ex": "Ali's load study was instrumental in sizing the UPS.",
+     "ar": "دراسة الحمل اللي عملها ‎Ali‎ كانت أساسية في تحديد قدرة الـ ‎UPS.‎",
+     "ex2": "Without it, we'd have quoted the wrong size.",
+     "ar2": "من غيرها كنا هنسعّر مقاس غلط."
+    },
+    {
+     "w": "essential",
+     "ex": "A site survey is essential before any data centre quote.",
+     "ar": "المعاينة ضرورية قبل أي عرض سعر لداتا سنتر.",
+     "ex2": "We never quote without it.",
+     "ar2": "عمرنا ما بنسعّر من غيرها."
+    }
+   ]
+  },
+  "ctx": "Our service engineer was instrumental in keeping the client. He fixed their chiller VFD at night before the hotel's busy season.",
+  "ctx_ar": "مهندس الخدمة بتاعنا كان ليه دور أساسي إننا نحافظ على العميل. صلّح الـ ‎VFD‎ بتاع التشيلر بالليل قبل موسم الفندق.",
+  "quiz": [
+   {
+    "s": "Mona was ___ in closing the bank deal.",
+    "opts": [
+     "instrument",
+     "instrumental",
+     "instrumentation"
+    ],
+    "a": 1,
+    "ar": "‎Mona‎ كان ليها دور أساسي في قفل صفقة البنك."
+   },
+   {
+    "s": "Calibrate the measuring ___ before testing the batteries.",
+    "opts": [
+     "instrument",
+     "instrumental",
+     "essential"
+    ],
+    "a": 0,
+    "ar": "اعاير جهاز القياس قبل ما تختبر البطاريات."
+   },
+   {
+    "s": "A site survey is ___; we never quote without one.",
+    "opts": [
+     "helpful",
+     "irrelevant",
+     "essential"
+    ],
+    "a": 2,
+    "ar": "المعاينة ضرورية، عمرنا ما بنسعّر من غيرها."
+   }
+  ]
+ },
+ {
+  "w": "specialize in",
+  "ar": "متخصص في",
+  "family": [
+   {
+    "w": "specialize in",
+    "pos": "verb",
+    "ex": "We specialize in power protection for hospitals and banks.",
+    "ar": "إحنا متخصصين في حماية الكهربا للمستشفيات والبنوك.",
+    "ex2": "Because we specialize in it, we hold all key spares.",
+    "ar2": "وعشان متخصصين، عندنا كل قطع الغيار المهمة."
+   },
+   {
+    "w": "specialist",
+    "pos": "person",
+    "ex": "Call the VFD specialist about the pump fault.",
+    "ar": "كلّم أخصائي الـ ‎VFD‎ بخصوص عطل الطلمبة.",
+    "ex2": "The specialist can visit on Tuesday.",
+    "ar2": "الأخصائي يقدر ييجي التلات."
+   },
+   {
+    "w": "specialized",
+    "pos": "adjective",
+    "ex": "Data centre cooling needs specialized engineers.",
+    "ar": "تبريد الداتا سنتر محتاج مهندسين متخصصين.",
+    "ex2": "Specialized training takes about six months.",
+    "ar2": "التدريب المتخصص بياخد حوالي ست شهور."
+   },
+   {
+    "w": "specialty",
+    "pos": "noun",
+    "ex": "Modular UPS systems are our specialty.",
+    "ar": "أنظمة الـ ‎UPS‎ الموديولار هي تخصصنا.",
+    "ex2": "That specialty brings most of our big contracts.",
+    "ar2": "التخصص ده بيجيب معظم عقودنا الكبيرة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "focus on",
+    "note": "neutral; main attention, maybe not only",
+    "ex": "This year we'll focus on solar for farms.",
+    "ar": "السنة دي هنركز على الطاقة الشمسية للمزارع.",
+    "ex2": "Focusing on farms cuts our travel costs.",
+    "ar2": "التركيز على المزارع بيقلل مصاريف السفر."
+   },
+   {
+    "w": "expert in",
+    "note": "about a person's deep knowledge",
+    "ex": "Karim is an expert in lithium battery systems.",
+    "ar": "‎Karim‎ خبير في أنظمة بطاريات الليثيوم.",
+    "ex2": "As an expert in them, he trains our team.",
+    "ar2": "وبما إنه خبير فيها، بيدرّب الفريق بتاعنا."
+   },
+   {
+    "w": "concentrate on",
+    "note": "stronger; give almost all effort to one area",
+    "ex": "The branch will concentrate on maintenance contracts.",
+    "ar": "الفرع هيركز على عقود الصيانة بس تقريبًا.",
+    "ex2": "Concentrating on contracts gives steady income.",
+    "ar2": "التركيز على العقود بيدي دخل ثابت."
+   }
+  ],
+  "ant": [
+   {
+    "w": "generalize",
+    "ex": "We don't generalize; each UPS gets its own sizing.",
+    "ar": "إحنا مش بنعمم، كل ‎UPS‎ بيتعمله حساباته.",
+    "ex2": "If we generalize, clients get the wrong size.",
+    "ar2": "لو عمّمنا، العملا هياخدوا مقاس غلط."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Many companies sell UPS units, but few specialize in maintenance. That's why big clients sign three-year contracts with us.",
+  "ctx_ar": "شركات كتير بتبيع ‎UPS‎، بس قليل اللي متخصص في الصيانة. عشان كده العملا الكبار بيمضوا معانا عقود تلات سنين.",
+  "quiz": [
+   {
+    "s": "Call the ___; he knows this VFD well.",
+    "opts": [
+     "specialize in",
+     "specialist",
+     "specialty"
+    ],
+    "a": 1,
+    "ar": "كلّم الأخصائي، هو عارف الـ ‎VFD‎ ده كويس."
+   },
+   {
+    "s": "Modular UPS systems are our ___.",
+    "opts": [
+     "specialist",
+     "specialized",
+     "specialty"
+    ],
+    "a": 2,
+    "ar": "أنظمة الـ ‎UPS‎ الموديولار هي تخصصنا."
+   },
+   {
+    "s": "We ___ power protection for hospitals.",
+    "opts": [
+     "specialize in",
+     "specialized",
+     "generalize"
+    ],
+    "a": 0,
+    "ar": "إحنا متخصصين في حماية الكهربا للمستشفيات."
+   }
+  ]
+ },
+ {
+  "w": "overview",
+  "ar": "نظرة عامة",
+  "family": [
+   {
+    "w": "overview",
+    "pos": "noun",
+    "ex": "Let me start with an overview of last quarter's sales.",
+    "ar": "خلّيني أبدأ بنظرة عامة على مبيعات الربع اللي فات.",
+    "ex2": "The overview covers UPS, solar and service.",
+    "ar2": "النظرة العامة بتغطي الـ ‎UPS‎ والطاقة الشمسية والخدمة."
+   },
+   {
+    "w": "oversee",
+    "pos": "verb",
+    "ex": "Hossam oversees all maintenance contracts in Alexandria.",
+    "ar": "‎Hossam‎ بيشرف على كل عقود الصيانة في إسكندرية.",
+    "ex2": "He oversees eight technicians.",
+    "ar2": "بيشرف على تمن فنيين."
+   },
+   {
+    "w": "overseer",
+    "pos": "person",
+    "ex": "The client's site overseer must sign the job sheet.",
+    "ar": "المشرف بتاع الموقع عند العميل لازم يمضي ورقة الشغل.",
+    "ex2": "Without the overseer's signature, we can't invoice.",
+    "ar2": "من غير إمضة المشرف مش هنقدر نعمل فاتورة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "summary",
+    "note": "short version after the details",
+    "ex": "Here's a summary of the meeting decisions.",
+    "ar": "ده ملخص قرارات الاجتماع.",
+    "ex2": "The summary goes to all branch managers.",
+    "ar2": "الملخص بيتبعت لكل مديرين الفروع."
+   },
+   {
+    "w": "rundown",
+    "note": "informal; quick spoken report",
+    "ex": "Give me a quick rundown of today's service calls.",
+    "ar": "اديني ملخص سريع لزيارات الخدمة النهارده.",
+    "ex2": "The rundown showed three urgent UPS faults.",
+    "ar2": "الملخص وضّح تلات أعطال ‎UPS‎ مستعجلة."
+   },
+   {
+    "w": "snapshot",
+    "note": "picture of the situation at one moment",
+    "ex": "This dashboard gives a snapshot of overdue invoices.",
+    "ar": "الداشبورد ده بيدي صورة سريعة للفواتير المتأخرة.",
+    "ex2": "The snapshot updates every morning.",
+    "ar2": "الصورة دي بتتحدث كل يوم الصبح."
+   }
+  ],
+  "ant": [
+   {
+    "w": "deep dive",
+    "ex": "After the overview, we'll do a deep dive on battery failures.",
+    "ar": "بعد النظرة العامة، هندخل في تفاصيل أعطال البطاريات.",
+    "ex2": "The deep dive will look at each site.",
+    "ar2": "التفاصيل هتبص على كل موقع."
+   }
+  ],
+  "ladder": {
+   "label": "how much detail",
+   "lar": "قد إيه تفاصيل",
+   "steps": [
+    {
+     "w": "snapshot",
+     "ex": "The snapshot shows 14 open service tickets.",
+     "ar": "الصورة السريعة بتوضح 14 تذكرة خدمة مفتوحة.",
+     "ex2": "No details, just the count.",
+     "ar2": "من غير تفاصيل، العدد بس."
+    },
+    {
+     "w": "overview",
+     "ex": "The overview lists the open tickets by client.",
+     "ar": "النظرة العامة بتعرض التذاكر المفتوحة حسب العميل.",
+     "ex2": "It also shows which ones are urgent.",
+     "ar2": "وبتوضح كمان أنهي منها مستعجل."
+    },
+    {
+     "w": "deep dive",
+     "ex": "The deep dive analyses each ticket's root cause.",
+     "ar": "التحليل المفصل بيدرس السبب الأساسي لكل تذكرة.",
+     "ex2": "It takes a full afternoon.",
+     "ar2": "بياخد بعد الضهر كله."
+    }
+   ]
+  },
+  "ctx": "At the start of the meeting, Sara gave an overview of the solar projects. Then each engineer updated us on his own site.",
+  "ctx_ar": "في أول الاجتماع، ‎Sara‎ ادّت نظرة عامة على مشاريع الطاقة الشمسية. بعدين كل مهندس حدّثنا عن موقعه.",
+  "quiz": [
+   {
+    "s": "Hossam will ___ the installation team.",
+    "opts": [
+     "overview",
+     "oversee",
+     "overseer"
+    ],
+    "a": 1,
+    "ar": "‎Hossam‎ هيشرف على فريق التركيب."
+   },
+   {
+    "s": "Start with a short ___, then go into details.",
+    "opts": [
+     "overview",
+     "deep dive",
+     "oversee"
+    ],
+    "a": 0,
+    "ar": "ابدأ بنظرة عامة قصيرة، بعدين ادخل في التفاصيل."
+   },
+   {
+    "s": "The site ___ must sign the job sheet.",
+    "opts": [
+     "oversee",
+     "overview",
+     "overseer"
+    ],
+    "a": 2,
+    "ar": "مشرف الموقع لازم يمضي ورقة الشغل."
+   }
+  ]
+ },
+ {
+  "w": "adjustment",
+  "ar": "تعديل / ضبط",
+  "family": [
+   {
+    "w": "adjust",
+    "pos": "verb",
+    "ex": "Please adjust the VFD speed to reduce pump noise.",
+    "ar": "ياريت تظبط سرعة الـ ‎VFD‎ عشان تقلل صوت الطلمبة.",
+    "ex2": "Adjust it slowly and watch the pressure.",
+    "ar2": "ظبطها بالراحة وراقب الضغط."
+   },
+   {
+    "w": "adjustment",
+    "pos": "noun",
+    "ex": "We made a small adjustment to the quotation after the site visit.",
+    "ar": "عملنا تعديل صغير في عرض السعر بعد المعاينة.",
+    "ex2": "The adjustment added two extra batteries.",
+    "ar2": "التعديل زوّد بطاريتين."
+   },
+   {
+    "w": "adjustable",
+    "pos": "adjective",
+    "ex": "The battery racks are adjustable for different sizes.",
+    "ar": "رفوف البطاريات بتتعدل على مقاسات مختلفة.",
+    "ex2": "Adjustable racks save us buying new ones.",
+    "ar2": "الرفوف اللي بتتعدل بتوفّر علينا شراء جديد."
+   },
+   {
+    "w": "readjust",
+    "pos": "verb",
+    "ex": "We had to readjust the delivery dates after the customs delay.",
+    "ar": "اضطرينا نعدّل مواعيد التوريد تاني بعد تأخير الجمارك.",
+    "ex2": "Readjusting them meant calling five clients.",
+    "ar2": "تعديلها معناه إننا نكلّم خمس عملا."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "change to a price or document",
+    "mar": "تعديل في سعر أو ورق",
+    "ex": "Finance made a price adjustment on the e-invoice.",
+    "ar": "الحسابات عملت تعديل في السعر على الفاتورة الإلكترونية.",
+    "ex2": "The adjustment was 3% for early payment.",
+    "ar2": "التعديل كان 3% عشان الدفع المبكر."
+   },
+   {
+    "m": "technical setting",
+    "mar": "ضبط فني",
+    "ex": "The inverter needed an adjustment to its voltage settings.",
+    "ar": "الإنفرتر كان محتاج ضبط لإعدادات الفولت.",
+    "ex2": "After the adjustment, the alarms stopped.",
+    "ar2": "بعد الضبط، الإنذارات وقفت."
+   },
+   {
+    "m": "getting used to something new",
+    "mar": "التأقلم",
+    "ex": "The new ERP system needs a period of adjustment.",
+    "ar": "السيستم الجديد محتاج فترة تأقلم.",
+    "ex2": "The adjustment should take about a month.",
+    "ar2": "التأقلم المفروض ياخد حوالي شهر."
+   }
+  ],
+  "syn": [
+   {
+    "w": "modification",
+    "note": "bigger, often physical change to equipment",
+    "ex": "The cabinet needs a modification to fit the new UPS.",
+    "ar": "الكابينة محتاجة تعديل عشان الـ ‎UPS‎ الجديد يدخل.",
+    "ex2": "The modification takes one day of welding.",
+    "ar2": "التعديل بياخد يوم لحام."
+   },
+   {
+    "w": "tweak",
+    "note": "informal; very small change",
+    "ex": "Just a tweak to the cover letter and send it.",
+    "ar": "تعديل بسيط في الخطاب وابعته.",
+    "ex2": "One tweak: add the warranty terms.",
+    "ar2": "تعديل واحد: ضيف شروط الضمان."
+   },
+   {
+    "w": "revision",
+    "note": "new version of a document",
+    "ex": "Please send revision 2 of the quotation.",
+    "ar": "ياريت تبعت النسخة التانية من عرض السعر.",
+    "ex2": "This revision includes the new prices.",
+    "ar2": "النسخة دي فيها الأسعار الجديدة."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how big the change is",
+   "lar": "التغيير كبير قد إيه",
+   "steps": [
+    {
+     "w": "tweak",
+     "ex": "A small tweak to the email and it's ready.",
+     "ar": "تعديل صغير في الإيميل ويبقى جاهز.",
+     "ex2": "Just fix the client's name.",
+     "ar2": "بس صلّح اسم العميل."
+    },
+    {
+     "w": "adjustment",
+     "ex": "We need an adjustment to the payment terms.",
+     "ar": "محتاجين تعديل في شروط الدفع.",
+     "ex2": "Two instalments instead of one.",
+     "ar2": "قسطين بدل قسط واحد."
+    },
+    {
+     "w": "overhaul",
+     "ex": "The old UPS needs a full overhaul.",
+     "ar": "الـ ‎UPS‎ القديم محتاج عمرة كاملة.",
+     "ex2": "An overhaul replaces fans, capacitors and batteries.",
+     "ar2": "العمرة بتغيّر المراوح والمكثفات والبطاريات."
+    }
+   ]
+  },
+  "ctx": "The client's load grew by 20%, so we need an adjustment to the maintenance contract. The new price covers two extra battery strings.",
+  "ctx_ar": "حمل العميل زاد 20%، فمحتاجين تعديل في عقد الصيانة. السعر الجديد بيغطي خطين بطاريات زيادة.",
+  "quiz": [
+   {
+    "s": "Please ___ the VFD speed slowly.",
+    "opts": [
+     "adjust",
+     "adjustment",
+     "adjustable"
+    ],
+    "a": 0,
+    "ar": "ياريت تظبط سرعة الـ ‎VFD‎ بالراحة."
+   },
+   {
+    "s": "The racks are ___ for different battery sizes.",
+    "opts": [
+     "adjust",
+     "adjustable",
+     "adjustment"
+    ],
+    "a": 1,
+    "ar": "الرفوف بتتعدل على مقاسات بطاريات مختلفة."
+   },
+   {
+    "s": "The old UPS needs a full ___, not a small tweak.",
+    "opts": [
+     "tweak",
+     "revision",
+     "overhaul"
+    ],
+    "a": 2,
+    "ar": "الـ ‎UPS‎ القديم محتاج عمرة كاملة، مش تعديل صغير."
+   }
+  ]
+ },
+ {
+  "w": "eager to",
+  "ar": "متحمس إنه / نفسه",
+  "family": [
+   {
+    "w": "eager to",
+    "pos": "adjective",
+    "ex": "The client is eager to start the solar project before summer.",
+    "ar": "العميل متحمس يبدأ مشروع الطاقة الشمسية قبل الصيف.",
+    "ex2": "He's eager to cut his electricity bill.",
+    "ar2": "نفسه يقلل فاتورة الكهربا."
+   },
+   {
+    "w": "eagerly",
+    "pos": "adverb",
+    "ex": "We're eagerly waiting for the PO from the bank.",
+    "ar": "مستنيين أمر الشراء من البنك بفارغ الصبر.",
+    "ex2": "Sales eagerly checks email every hour.",
+    "ar2": "المبيعات بتشيك الإيميل كل ساعة بلهفة."
+   },
+   {
+    "w": "eagerness",
+    "pos": "noun",
+    "ex": "The new technician's eagerness to learn impressed everyone.",
+    "ar": "حماس الفني الجديد للتعلم عجب الكل.",
+    "ex2": "His eagerness got him the VFD training.",
+    "ar2": "حماسه خلاه ياخد تدريب الـ ‎VFD.‎"
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "keen to",
+    "note": "British, common in emails; slightly calmer",
+    "ex": "We're keen to meet your team next week.",
+    "ar": "حابين نقابل فريقكم الأسبوع الجاي.",
+    "ex2": "We're keen to discuss a long-term contract.",
+    "ar2": "حابين نتكلم في عقد طويل المدة."
+   },
+   {
+    "w": "looking forward to",
+    "note": "polite email ending; future event",
+    "ex": "We're looking forward to working with you.",
+    "ar": "مستنيين نشتغل معاكم.",
+    "ex2": "Looking forward to your reply.",
+    "ar2": "مستنيين ردكم."
+   },
+   {
+    "w": "anxious to",
+    "note": "eager but worried, wants it fast",
+    "ex": "The client is anxious to get the UPS before the audit.",
+    "ar": "العميل قلقان وعايز الـ ‎UPS‎ قبل المراجعة.",
+    "ex2": "He's anxious to avoid a failed inspection.",
+    "ar2": "قلقان يتجنب إن التفتيش يفشل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "reluctant to",
+    "ex": "The client is reluctant to pay before delivery.",
+    "ar": "العميل مش عايز يدفع قبل التوريد.",
+    "ex2": "Being reluctant to pay, he asked for a bank guarantee.",
+    "ar2": "وعشان مش عايز يدفع، طلب خطاب ضمان."
+   },
+   {
+    "w": "hesitant to",
+    "ex": "They're hesitant to switch to lithium batteries.",
+    "ar": "هم مترددين يحوّلوا لبطاريات الليثيوم.",
+    "ex2": "Being hesitant to switch, they asked for references.",
+    "ar2": "وعشان مترددين، طلبوا عملا سابقين."
+   }
+  ],
+  "ladder": {
+   "label": "how much they want it",
+   "lar": "عايزين قد إيه",
+   "steps": [
+    {
+     "w": "willing to",
+     "ex": "The client is willing to try our service for three months.",
+     "ar": "العميل موافق يجرب خدمتنا تلات شهور.",
+     "ex2": "After that, he'll decide on a full contract.",
+     "ar2": "بعدها هيقرر في العقد الكامل."
+    },
+    {
+     "w": "keen to",
+     "ex": "The client is keen to upgrade his server room.",
+     "ar": "العميل حابب يطوّر أوضة السيرفرات.",
+     "ex2": "He asked for two options.",
+     "ar2": "طلب اختيارين."
+    },
+    {
+     "w": "eager to",
+     "ex": "The client is eager to sign this week.",
+     "ar": "العميل متحمس يمضي الأسبوع ده.",
+     "ex2": "He's already prepared the advance payment.",
+     "ar2": "جهّز الدفعة المقدمة خلاص."
+    }
+   ]
+  },
+  "ctx": "The factory owner is eager to cut diesel costs. He asked us to send the solar pump quotation today, not next week.",
+  "ctx_ar": "صاحب المصنع متحمس يقلل مصاريف الديزل. طلب مننا نبعت عرض سعر الطلمبات الشمسية النهارده، مش الأسبوع الجاي.",
+  "quiz": [
+   {
+    "s": "We're ___ waiting for the bank's PO.",
+    "opts": [
+     "eager to",
+     "eagerly",
+     "eagerness"
+    ],
+    "a": 1,
+    "ar": "مستنيين أمر الشراء من البنك بفارغ الصبر."
+   },
+   {
+    "s": "The client is ___ pay before delivery, so he wants a guarantee.",
+    "opts": [
+     "eager to",
+     "keen to",
+     "reluctant to"
+    ],
+    "a": 2,
+    "ar": "العميل مش عايز يدفع قبل التوريد، فعايز ضمان."
+   },
+   {
+    "s": "The client is ___ start before summer.",
+    "opts": [
+     "eager to",
+     "eagerness",
+     "eagerly"
+    ],
+    "a": 0,
+    "ar": "العميل متحمس يبدأ قبل الصيف."
+   }
+  ]
+ }
+]

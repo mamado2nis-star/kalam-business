@@ -1,0 +1,786 @@
+[
+ {
+  "w": "distracted",
+  "ar": "مشتت / سرحان",
+  "family": [
+   {
+    "w": "distracted",
+    "pos": "adjective",
+    "ex": "Some of you look distracted, so let's take a short break.",
+    "ar": "شكل بعضكم سرحان، فخلّينا ناخد بريك قصير.",
+    "ex2": "After the break, we'll look at the battery test results.",
+    "ar2": "بعد البريك، هنبص على نتايج اختبار البطاريات."
+   },
+   {
+    "w": "distract",
+    "pos": "verb",
+    "ex": "Phone calls distract technicians while they test the UPS.",
+    "ar": "المكالمات بتشتت الفنيين وهم بيختبروا الـ‎UPS.‎",
+    "ex2": "A distracted technician can make a dangerous mistake.",
+    "ar2": "الفني المشتت ممكن يغلط غلطة خطيرة."
+   },
+   {
+    "w": "distraction",
+    "pos": "noun",
+    "ex": "The noise from the generator was a big distraction during the demo.",
+    "ar": "دوشة المولد كانت حاجة مشتتة جدًا وقت العرض العملي.",
+    "ex2": "We moved inside to avoid the distraction.",
+    "ar2": "دخلنا جوه عشان نبعد عن الدوشة."
+   },
+   {
+    "w": "distracting",
+    "pos": "adjective",
+    "ex": "Too many slides with numbers are distracting.",
+    "ar": "سلايدات كتير فيها أرقام بتشتت.",
+    "ex2": "Keep one key number per slide instead of distracting tables.",
+    "ar2": "خلّي رقم مهم واحد في كل سلايد بدل الجداول المشتتة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "unfocused",
+    "note": "general lack of focus, often for a long time",
+    "ex": "The team seemed unfocused after the long Ramadan night.",
+    "ar": "الفريق كان باين عليه مش مركز بعد سهرة رمضان.",
+    "ex2": "Unfocused staff make more errors in quotations.",
+    "ar2": "الموظفين اللي مش مركزين بيغلطوا أكتر في عروض الأسعار."
+   },
+   {
+    "w": "preoccupied",
+    "note": "mind busy with one worry",
+    "ex": "He's preoccupied with the overdue payment from the bank.",
+    "ar": "دماغه مشغولة بالدفعة المتأخرة من البنك.",
+    "ex2": "Being preoccupied, he forgot the supplier call.",
+    "ar2": "وعشان دماغه مشغولة، نسي مكالمة المورّد."
+   },
+   {
+    "w": "absent-minded",
+    "note": "often forgets things; a personality trait",
+    "ex": "Our absent-minded engineer left his meter at the site again.",
+    "ar": "مهندسنا اللي دايمًا ناسي ساب الأفوميتر في الموقع تاني.",
+    "ex2": "Being absent-minded, he now uses a checklist.",
+    "ar2": "وعشان دايمًا ناسي، بقى يستخدم ليستة مراجعة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "focused",
+    "ex": "Stay focused when you work on live UPS panels.",
+    "ar": "خلّيك مركز وإنت بتشتغل على لوحات ‎UPS‎ فيها كهربا.",
+    "ex2": "A focused technician finishes faster and safer.",
+    "ar2": "الفني المركز بيخلص أسرع وأأمن."
+   },
+   {
+    "w": "attentive",
+    "ex": "The client was very attentive during the VFD demo.",
+    "ar": "العميل كان منتبه جدًا وقت عرض الـ‎VFD.‎",
+    "ex2": "Attentive clients usually ask good technical questions.",
+    "ar2": "العملا المنتبهين عادةً بيسألوا أسئلة فنية كويسة."
+   }
+  ],
+  "ladder": {
+   "label": "how far the mind has drifted",
+   "lar": "الدماغ سرحت قد إيه",
+   "steps": [
+    {
+     "w": "distracted",
+     "ex": "I was distracted by an urgent call from a client.",
+     "ar": "اتشتت بسبب مكالمة مستعجلة من عميل.",
+     "ex2": "Being distracted, I missed the price discussion.",
+     "ar2": "وعشان اتشتت، فاتني الكلام عن السعر."
+    },
+    {
+     "w": "preoccupied",
+     "ex": "She's preoccupied with the year-end collections.",
+     "ar": "هي مشغولة خالص بتحصيلات آخر السنة.",
+     "ex2": "Being preoccupied, she didn't hear the question.",
+     "ar2": "وعشان مشغولة، مسمعتش السؤال."
+    },
+    {
+     "w": "completely lost",
+     "ex": "Halfway through the tender talk, I was completely lost.",
+     "ar": "في نص كلام المناقصة، كنت تايه خالص.",
+     "ex2": "Completely lost, I asked him to repeat the main point.",
+     "ar2": "وأنا تايه خالص، طلبت منه يعيد النقطة الأساسية."
+    }
+   ]
+  },
+  "ctx": "I can see some of you are distracted. Let's come back to the main point: the battery replacement plan for next year.",
+  "ctx_ar": "شايف إن بعضكم مشتت. خلّينا نرجع للنقطة الأساسية: خطة تغيير البطاريات للسنة الجاية.",
+  "quiz": [
+   {
+    "s": "The generator noise was a big ___ during the demo.",
+    "opts": [
+     "distract",
+     "distraction",
+     "distracted"
+    ],
+    "a": 1,
+    "ar": "دوشة المولد كانت حاجة مشتتة جدًا وقت العرض."
+   },
+   {
+    "s": "Stay ___ when you work on live panels.",
+    "opts": [
+     "focused",
+     "distracted",
+     "preoccupied"
+    ],
+    "a": 0,
+    "ar": "خلّيك مركز وإنت بتشتغل على لوح فيها كهربا."
+   },
+   {
+    "s": "Phone calls ___ technicians during testing.",
+    "opts": [
+     "distraction",
+     "distracting",
+     "distract"
+    ],
+    "a": 2,
+    "ar": "المكالمات بتشتت الفنيين وقت الاختبار."
+   }
+  ]
+ },
+ {
+  "w": "refocus",
+  "ar": "نرجّع التركيز",
+  "family": [
+   {
+    "w": "refocus",
+    "pos": "verb",
+    "ex": "Let's refocus on the main point of this presentation.",
+    "ar": "خلّينا نرجّع تركيزنا على النقطة الأساسية في العرض.",
+    "ex2": "The main point is reducing downtime at your sites.",
+    "ar2": "النقطة الأساسية تقليل التوقف في مواقعكم."
+   },
+   {
+    "w": "focus",
+    "pos": "noun",
+    "ex": "Our focus this year is maintenance contracts, not one-off sales.",
+    "ar": "تركيزنا السنة دي على عقود الصيانة، مش البيع مرة واحدة.",
+    "ex2": "That focus gives us steady monthly income.",
+    "ar2": "التركيز ده بيدّينا دخل شهري ثابت."
+   },
+   {
+    "w": "focus",
+    "pos": "verb",
+    "ex": "Please focus on the overdue invoices first.",
+    "ar": "لو سمحت ركّز على الفواتير المتأخرة الأول.",
+    "ex2": "Focus on the three biggest clients.",
+    "ar2": "ركّز على أكبر تلات عملا."
+   },
+   {
+    "w": "focused",
+    "pos": "adjective",
+    "ex": "We need a focused plan to enter the solar market.",
+    "ar": "محتاجين خطة مركزة عشان ندخل سوق الطاقة الشمسية.",
+    "ex2": "A focused plan targets farms and factories only.",
+    "ar2": "الخطة المركزة بتستهدف المزارع والمصانع بس."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "get back to",
+    "note": "informal; return to a topic",
+    "ex": "Let's get back to the delivery schedule.",
+    "ar": "خلّينا نرجع لجدول التسليم.",
+    "ex2": "We'll get back to prices after that.",
+    "ar2": "وهنرجع للأسعار بعد كده."
+   },
+   {
+    "w": "redirect",
+    "note": "change the direction of attention or resources",
+    "ex": "We redirected our sales effort to data centres.",
+    "ar": "وجّهنا مجهود المبيعات للداتا سنترز.",
+    "ex2": "Redirecting it brought three new contracts.",
+    "ar2": "تغيير الاتجاه جاب تلات عقود جديدة."
+   },
+   {
+    "w": "concentrate on",
+    "note": "give full attention to one thing",
+    "ex": "Today we'll concentrate on battery safety.",
+    "ar": "النهارده هنركز على أمان البطاريات.",
+    "ex2": "Concentrating on safety prevents site accidents.",
+    "ar2": "التركيز على الأمان بيمنع حوادث المواقع."
+   }
+  ],
+  "ant": [
+   {
+    "w": "drift",
+    "ex": "The meeting started to drift into football talk.",
+    "ar": "الاجتماع بدأ يسرح في كلام كورة.",
+    "ex2": "When talks drift, the chairman brings them back.",
+    "ar2": "لما الكلام يسرح، رئيس الاجتماع بيرجّعه."
+   },
+   {
+    "w": "get sidetracked",
+    "ex": "Don't get sidetracked by debates about the office AC.",
+    "ar": "متتلهيش في نقاشات عن تكييف المكتب.",
+    "ex2": "Getting sidetracked cost us twenty minutes.",
+    "ar2": "إننا اتلهينا كلّفنا عشرين دقيقة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We've spent too long on the logo colours. Let's refocus on the real issue: the client still hasn't paid the advance.",
+  "ctx_ar": "قعدنا كتير على ألوان اللوجو. خلّينا نرجّع تركيزنا على المشكلة الحقيقية: العميل لسه مدفعش المقدم.",
+  "quiz": [
+   {
+    "s": "Our main ___ this year is maintenance contracts.",
+    "opts": [
+     "focus",
+     "focused",
+     "refocus"
+    ],
+    "a": 0,
+    "ar": "تركيزنا الأساسي السنة دي عقود الصيانة."
+   },
+   {
+    "s": "We ___ by a long debate about the office AC.",
+    "opts": [
+     "refocused",
+     "concentrated",
+     "got sidetracked"
+    ],
+    "a": 2,
+    "ar": "اتلهينا بنقاش طويل عن تكييف المكتب."
+   },
+   {
+    "s": "OK everyone, let's ___ on the delivery problem.",
+    "opts": [
+     "drift",
+     "refocus",
+     "redirect"
+    ],
+    "a": 1,
+    "ar": "تمام يا جماعة، خلّينا نرجّع تركيزنا على مشكلة التسليم."
+   }
+  ]
+ },
+ {
+  "w": "crucial",
+  "ar": "حاسم / مهم جدًا",
+  "family": [
+   {
+    "w": "crucial",
+    "pos": "adjective",
+    "ex": "Regular battery testing is crucial for UPS reliability.",
+    "ar": "اختبار البطاريات بانتظام حاجة أساسية جدًا عشان الـ‎UPS‎ يفضل يعتمد عليه.",
+    "ex2": "One weak battery can drop the whole load.",
+    "ar2": "بطارية واحدة ضعيفة ممكن توقّع الحمل كله."
+   },
+   {
+    "w": "crucially",
+    "pos": "adverb",
+    "ex": "Crucially, the new VFD works with the client's old pumps.",
+    "ar": "والأهم، الـ‎VFD‎ الجديد بيشتغل مع طلمبات العميل القديمة.",
+    "ex2": "Crucially, that saves them buying new pumps.",
+    "ar2": "والأهم إن ده بيوفّر عليهم شرا طلمبات جديدة."
+   },
+   {
+    "w": "crux",
+    "pos": "noun",
+    "ex": "The crux of the problem is late payment, not price.",
+    "ar": "لب المشكلة هو التأخير في الدفع، مش السعر.",
+    "ex2": "Once we solve the crux, the deal is easy.",
+    "ar2": "أول ما نحل لب المشكلة، الصفقة سهلة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "essential",
+    "note": "must have; without it, it won't work",
+    "ex": "Proper earthing is essential in a server room.",
+    "ar": "التأريض الصح أساسي في أوضة السيرفرات.",
+    "ex2": "Without essential earthing, the warranty is void.",
+    "ar2": "من غير التأريض الأساسي، الضمان بيتلغي."
+   },
+   {
+    "w": "vital",
+    "note": "very important, often for safety or survival",
+    "ex": "Cooling is vital for the batteries in summer.",
+    "ar": "التبريد حيوي للبطاريات في الصيف.",
+    "ex2": "Vital checks are done every month.",
+    "ar2": "الفحوصات الحيوية بتتعمل كل شهر."
+   },
+   {
+    "w": "key",
+    "note": "most important among several; common in presentations",
+    "ex": "The key point is our four-hour response time.",
+    "ar": "النقطة الأهم هي وقت الاستجابة أربع ساعات.",
+    "ex2": "That key point beat our competitor.",
+    "ar2": "النقطة دي غلبت المنافس بتاعنا."
+   }
+  ],
+  "ant": [
+   {
+    "w": "minor",
+    "ex": "The delay in the brochure is a minor issue.",
+    "ar": "التأخير في الكتالوج مشكلة صغيرة.",
+    "ex2": "Minor issues can wait until next week.",
+    "ar2": "المشاكل الصغيرة ممكن تستنى للأسبوع الجاي."
+   },
+   {
+    "w": "unimportant",
+    "ex": "The colour of the cabinet is unimportant to the client.",
+    "ar": "لون الدولاب مش مهم للعميل.",
+    "ex2": "Since it's unimportant, use the standard grey.",
+    "ar2": "وبما إنه مش مهم، استخدم الرمادي العادي."
+   }
+  ],
+  "ladder": {
+   "label": "how important",
+   "lar": "مهم قد إيه",
+   "steps": [
+    {
+     "w": "important",
+     "ex": "It's important to send the quotation today.",
+     "ar": "مهم نبعت عرض السعر النهارده.",
+     "ex2": "Important, but the client won't decide before Sunday.",
+     "ar2": "مهم، بس العميل مش هيقرر قبل الحد."
+    },
+    {
+     "w": "crucial",
+     "ex": "Getting the PO this week is crucial for our quarter.",
+     "ar": "إننا ناخد أمر الشراء الأسبوع ده حاسم للربع بتاعنا.",
+     "ex2": "It's crucial because it's our biggest deal.",
+     "ar2": "حاسم عشان دي أكبر صفقة لينا."
+    },
+    {
+     "w": "critical",
+     "ex": "A backup UPS is critical for the hospital's ICU.",
+     "ar": "‎UPS‎ احتياطي حاجة حرجة لعناية المستشفى المركزة.",
+     "ex2": "Without the critical backup, patients are at risk.",
+     "ar2": "من غير الاحتياطي الحرج، المرضى في خطر."
+    }
+   ]
+  },
+  "ctx": "This slide is crucial, so please stay with me. It shows how much money the VFDs will save you every year.",
+  "ctx_ar": "السلايد دي مهمة جدًا، فلو سمحتوا ركزوا معايا. بتوضّح قد إيه الـ‎VFD‎ هتوفّرلكم فلوس كل سنة.",
+  "quiz": [
+   {
+    "s": "___, the new UPS fits in the old cabinet.",
+    "opts": [
+     "Crucial",
+     "Crucially",
+     "Crux"
+    ],
+    "a": 1,
+    "ar": "والأهم، الـ‎UPS‎ الجديد بيدخل في الدولاب القديم."
+   },
+   {
+    "s": "The colour of the cabinet is a ___ issue.",
+    "opts": [
+     "minor",
+     "crucial",
+     "vital"
+    ],
+    "a": 0,
+    "ar": "لون الدولاب مشكلة صغيرة."
+   },
+   {
+    "s": "A backup UPS is ___ for the ICU; lives depend on it.",
+    "opts": [
+     "important",
+     "key",
+     "critical"
+    ],
+    "a": 2,
+    "ar": "‎UPS‎ احتياطي حرج للعناية المركزة؛ حياة الناس معتمدة عليه."
+   }
+  ]
+ },
+ {
+  "w": "commitment",
+  "ar": "التزام / ارتباط",
+  "family": [
+   {
+    "w": "commitment",
+    "pos": "noun",
+    "ex": "Our commitment is a technician on site within four hours.",
+    "ar": "التزامنا إن الفني يبقى في الموقع خلال أربع ساعات.",
+    "ex2": "We've kept this commitment for three years.",
+    "ar2": "حافظنا على الالتزام ده تلات سنين."
+   },
+   {
+    "w": "commit",
+    "pos": "verb",
+    "ex": "We commit to replacing any faulty battery within 48 hours.",
+    "ar": "بنلتزم نغيّر أي بطارية بايظة خلال ٤٨ ساعة.",
+    "ex2": "We commit to it in the contract.",
+    "ar2": "بنلتزم بده في العقد."
+   },
+   {
+    "w": "committed",
+    "pos": "adjective",
+    "ex": "We're committed to on-time delivery for every PO.",
+    "ar": "إحنا ملتزمين بالتسليم في الميعاد لكل أمر شراء.",
+    "ex2": "Being committed, we track every shipment daily.",
+    "ar2": "وعشان ملتزمين، بنتابع كل شحنة يوميًا."
+   },
+   {
+    "w": "commitments",
+    "pos": "noun",
+    "ex": "I know some of you have other commitments this afternoon.",
+    "ar": "عارف إن بعضكم عنده ارتباطات تانية بعد الضهر.",
+    "ex2": "Feel free to leave if your commitments need you.",
+    "ar2": "براحتكم امشوا لو ارتباطاتكم محتاجاكم."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "a promise to do something",
+    "mar": "وعد بإنك تعمل حاجة",
+    "ex": "Our commitment to 24/7 support is in the contract.",
+    "ar": "التزامنا بالدعم ٢٤ ساعة مكتوب في العقد.",
+    "ex2": "Breaking this commitment means a penalty.",
+    "ar2": "لو خالفنا الالتزام ده فيه غرامة."
+   },
+   {
+    "m": "something already planned that takes your time",
+    "mar": "ارتباط / حاجة واخدة وقتك",
+    "ex": "I can't stay; I have a prior commitment with a supplier.",
+    "ar": "مش هقدر أفضل؛ عندي ارتباط سابق مع مورّد.",
+    "ex2": "The commitment was booked last week.",
+    "ar2": "الارتباط ده متحدد من الأسبوع اللي فات."
+   },
+   {
+    "m": "hard work and loyalty to a job",
+    "mar": "إخلاص وتفاني في الشغل",
+    "ex": "The manager thanked Ali for his commitment during the outage.",
+    "ar": "المدير شكر علي على إخلاصه وقت العطل.",
+    "ex2": "His commitment kept the data centre online.",
+    "ar2": "إخلاصه خلّى الداتا سنتر شغال."
+   }
+  ],
+  "syn": [
+   {
+    "w": "obligation",
+    "note": "duty you must do, often legal or contractual",
+    "ex": "Under the contract, we have an obligation to stock spare parts.",
+    "ar": "حسب العقد، علينا التزام نخزّن قطع غيار.",
+    "ex2": "This obligation lasts for five years.",
+    "ar2": "الالتزام ده مدته خمس سنين."
+   },
+   {
+    "w": "pledge",
+    "note": "formal public promise",
+    "ex": "The CEO made a pledge to cut response times by half.",
+    "ar": "المدير التنفيذي وعد إنه يقلّل وقت الاستجابة للنص.",
+    "ex2": "The pledge was announced at the client event.",
+    "ar2": "الوعد ده اتعلن في حفلة العملا."
+   },
+   {
+    "w": "dedication",
+    "note": "about personal effort and loyalty",
+    "ex": "The client praised the dedication of our night shift.",
+    "ar": "العميل شكر في تفاني وردية الليل بتاعتنا.",
+    "ex2": "Their dedication fixed the UPS before morning.",
+    "ar2": "تفانيهم صلّح الـ‎UPS‎ قبل الصبح."
+   }
+  ],
+  "ant": [
+   {
+    "w": "reluctance",
+    "ex": "The client's reluctance to sign delayed the project.",
+    "ar": "تردد العميل في الإمضا أخّر المشروع.",
+    "ex2": "His reluctance came from a bad experience with another supplier.",
+    "ar2": "تردده جاي من تجربة وحشة مع مورّد تاني."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We know some of you have other commitments, so I'll keep this short. The key message is our new 24/7 support line.",
+  "ctx_ar": "عارفين إن بعضكم عنده ارتباطات تانية، فهختصر. الرسالة الأساسية هي خط الدعم الجديد ٢٤ ساعة.",
+  "quiz": [
+   {
+    "s": "We are ___ to delivering every PO on time.",
+    "opts": [
+     "commitment",
+     "committed",
+     "commit"
+    ],
+    "a": 1,
+    "ar": "إحنا ملتزمين نسلّم كل أمر شراء في ميعاده."
+   },
+   {
+    "s": "Under the contract, we have an ___ to keep spare parts.",
+    "opts": [
+     "obligation",
+     "reluctance",
+     "pledge"
+    ],
+    "a": 0,
+    "ar": "حسب العقد، علينا التزام نحتفظ بقطع غيار."
+   },
+   {
+    "s": "We ___ to replacing faulty batteries within 48 hours.",
+    "opts": [
+     "commitment",
+     "committed",
+     "commit"
+    ],
+    "a": 2,
+    "ar": "بنلتزم نغيّر البطاريات البايظة خلال ٤٨ ساعة."
+   }
+  ]
+ },
+ {
+  "w": "clarification",
+  "ar": "توضيح",
+  "family": [
+   {
+    "w": "clarification",
+    "pos": "noun",
+    "ex": "I'm happy to go back if anyone needs clarification.",
+    "ar": "يسعدني أرجع تاني لو حد محتاج توضيح.",
+    "ex2": "Just raise your hand and I'll explain again.",
+    "ar2": "بس ارفع إيدك وأنا هشرح تاني."
+   },
+   {
+    "w": "clarify",
+    "pos": "verb",
+    "ex": "Could you clarify the payment terms in your quotation?",
+    "ar": "ممكن توضّح شروط الدفع في عرض السعر بتاعك؟",
+    "ex2": "We need to clarify them before issuing the PO.",
+    "ar2": "محتاجين نوضّحها قبل ما نطلّع أمر الشراء."
+   },
+   {
+    "w": "clear",
+    "pos": "adjective",
+    "ex": "Is everything clear about the installation schedule?",
+    "ar": "كل حاجة واضحة في جدول التركيب؟",
+    "ex2": "If it's clear, we'll start on Sunday.",
+    "ar2": "لو واضح، هنبدأ يوم الحد."
+   },
+   {
+    "w": "clarity",
+    "pos": "noun",
+    "ex": "The new contract format gives more clarity on warranty terms.",
+    "ar": "شكل العقد الجديد بيدّي وضوح أكتر في شروط الضمان.",
+    "ex2": "More clarity means fewer arguments later.",
+    "ar2": "وضوح أكتر معناه خناقات أقل بعدين."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "explanation",
+    "note": "giving reasons or details, not just making clear",
+    "ex": "The client wants an explanation for the delay.",
+    "ar": "العميل عايز تفسير للتأخير.",
+    "ex2": "Our explanation: the ship waited a week at Port Said.",
+    "ar2": "تفسيرنا: المركب استنت أسبوع في بورسعيد."
+   },
+   {
+    "w": "confirmation",
+    "note": "checking that something is correct or agreed",
+    "ex": "We're waiting for confirmation of the delivery date.",
+    "ar": "مستنيين تأكيد ميعاد التسليم.",
+    "ex2": "After confirmation, we'll book the crane.",
+    "ar2": "بعد التأكيد، هنحجز الونش."
+   },
+   {
+    "w": "more details",
+    "note": "informal, simple request for more information",
+    "ex": "Can you give me more details about the fault?",
+    "ar": "ممكن تدّيني تفاصيل أكتر عن العطل؟",
+    "ex2": "More details help us send the right spare part.",
+    "ar2": "التفاصيل الزيادة بتساعدنا نبعت قطعة الغيار الصح."
+   }
+  ],
+  "ant": [
+   {
+    "w": "confusion",
+    "ex": "There was confusion about who pays for shipping.",
+    "ar": "كان فيه لخبطة مين يدفع الشحن.",
+    "ex2": "To avoid confusion, we added it to the PO.",
+    "ar2": "عشان نمنع اللخبطة، ضفناه في أمر الشراء."
+   },
+   {
+    "w": "ambiguity",
+    "ex": "The ambiguity in the contract caused a dispute.",
+    "ar": "الغموض في العقد عمل خلاف.",
+    "ex2": "We removed the ambiguity in the new version.",
+    "ar2": "شلنا الغموض في النسخة الجديدة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "If anyone needs clarification on the warranty terms, please ask now. I'd rather explain twice than have problems later.",
+  "ctx_ar": "لو حد محتاج توضيح في شروط الضمان، لو سمحت اسأل دلوقتي. أحسنلي أشرح مرتين ولا تحصل مشاكل بعدين.",
+  "quiz": [
+   {
+    "s": "Could you ___ the delivery terms in the PO?",
+    "opts": [
+     "clarify",
+     "clarification",
+     "clear"
+    ],
+    "a": 0,
+    "ar": "ممكن توضّح شروط التسليم في أمر الشراء؟"
+   },
+   {
+    "s": "There was ___ about who pays for the transport.",
+    "opts": [
+     "clarity",
+     "confirmation",
+     "confusion"
+    ],
+    "a": 2,
+    "ar": "كان فيه لخبطة مين يدفع النقل."
+   },
+   {
+    "s": "We're waiting for ___ of the delivery date from the supplier.",
+    "opts": [
+     "explanation",
+     "confirmation",
+     "ambiguity"
+    ],
+    "a": 1,
+    "ar": "مستنيين تأكيد ميعاد التسليم من المورّد."
+   }
+  ]
+ },
+ {
+  "w": "don't hesitate to",
+  "ar": "متتردّدش إنك / براحتك",
+  "family": [
+   {
+    "w": "don't hesitate to",
+    "pos": "verb",
+    "ex": "Don't hesitate to call us if the UPS shows any alarm.",
+    "ar": "متتردّدش تكلّمنا لو الـ‎UPS‎ طلّع أي إنذار.",
+    "ex2": "Our hotline is open 24 hours a day.",
+    "ar2": "الخط الساخن بتاعنا شغال ٢٤ ساعة."
+   },
+   {
+    "w": "hesitate",
+    "pos": "verb",
+    "ex": "The client hesitated before signing the five-year contract.",
+    "ar": "العميل اتردد قبل ما يمضي عقد الخمس سنين.",
+    "ex2": "He hesitated because of the dollar rate.",
+    "ar2": "اتردد بسبب سعر الدولار."
+   },
+   {
+    "w": "hesitation",
+    "pos": "noun",
+    "ex": "He agreed to the price without hesitation.",
+    "ar": "وافق على السعر من غير تردد.",
+    "ex2": "His quick yes showed no hesitation at all.",
+    "ar2": "موافقته السريعة مبيّنتش أي تردد خالص."
+   },
+   {
+    "w": "hesitant",
+    "pos": "adjective",
+    "ex": "Some clients are hesitant to switch to lithium batteries.",
+    "ar": "بعض العملا مترددين يحوّلوا لبطاريات ليثيوم.",
+    "ex2": "They're hesitant because of the higher price.",
+    "ar2": "مترددين بسبب السعر الأعلى."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "feel free to",
+    "note": "friendly, slightly informal invitation",
+    "ex": "Feel free to ask any questions during the demo.",
+    "ar": "براحتك اسأل أي سؤال وقت العرض.",
+    "ex2": "Feel free to touch and test the units too.",
+    "ar2": "وبراحتك كمان المس وجرّب الوحدات."
+   },
+   {
+    "w": "please do not hesitate to",
+    "note": "very formal; used in letters and emails",
+    "ex": "Please do not hesitate to contact our service desk.",
+    "ar": "برجاء عدم التردد في التواصل مع مكتب الخدمة.",
+    "ex2": "Please do not hesitate to email us at any time.",
+    "ar2": "برجاء عدم التردد في مراسلتنا في أي وقت."
+   },
+   {
+    "w": "just let me know",
+    "note": "very informal; colleagues and regular clients",
+    "ex": "Need another quotation? Just let me know.",
+    "ar": "محتاج عرض سعر تاني؟ بس قولّي.",
+    "ex2": "Just let me know and I'll send it today.",
+    "ar2": "بس قولّي وأنا هبعته النهارده."
+   }
+  ],
+  "ant": [
+   {
+    "w": "think twice before",
+    "ex": "Think twice before opening a live battery cabinet.",
+    "ar": "فكّر كويس قبل ما تفتح دولاب بطاريات فيه كهربا.",
+    "ex2": "Think twice; always switch off the breaker first.",
+    "ar2": "فكّر مرتين؛ دايمًا افصل البريكر الأول."
+   }
+  ],
+  "ladder": {
+   "label": "how formal the invitation is",
+   "lar": "الدعوة رسمية قد إيه",
+   "steps": [
+    {
+     "w": "just let me know",
+     "ex": "If you need anything, just let me know.",
+     "ar": "لو محتاج أي حاجة، بس قولّي.",
+     "ex2": "Just let me know on WhatsApp.",
+     "ar2": "بس قولّي على الواتساب."
+    },
+    {
+     "w": "feel free to",
+     "ex": "Feel free to call me about the VFD settings.",
+     "ar": "براحتك كلّمني بخصوص إعدادات الـ‎VFD.‎",
+     "ex2": "Feel free to call even after working hours.",
+     "ar2": "براحتك كلّمني حتى بعد مواعيد الشغل."
+    },
+    {
+     "w": "don't hesitate to",
+     "ex": "Don't hesitate to contact us about any invoice query.",
+     "ar": "متتردّدش تتواصل معانا في أي سؤال عن فاتورة.",
+     "ex2": "Don't hesitate to call finance directly.",
+     "ar2": "متتردّدش تكلّم المالية على طول."
+    },
+    {
+     "w": "please do not hesitate to",
+     "ex": "Please do not hesitate to contact me for further information.",
+     "ar": "برجاء عدم التردد في التواصل معي لأي معلومات إضافية.",
+     "ex2": "Please do not hesitate to request a site visit.",
+     "ar2": "برجاء عدم التردد في طلب زيارة للموقع."
+    }
+   ]
+  },
+  "ctx": "Thank you for choosing our maintenance service. If you have any problem with the batteries, don't hesitate to call our hotline.",
+  "ctx_ar": "شكرًا إنك اخترت خدمة الصيانة بتاعتنا. لو عندك أي مشكلة في البطاريات، متتردّدش تكلّم الخط الساخن.",
+  "quiz": [
+   {
+    "s": "He signed the contract without any ___.",
+    "opts": [
+     "hesitate",
+     "hesitant",
+     "hesitation"
+    ],
+    "a": 2,
+    "ar": "مضى العقد من غير أي تردد."
+   },
+   {
+    "s": "Some clients are ___ to pay more for lithium.",
+    "opts": [
+     "hesitant",
+     "hesitation",
+     "hesitate"
+    ],
+    "a": 0,
+    "ar": "بعض العملا مترددين يدفعوا أكتر في الليثيوم."
+   },
+   {
+    "s": "(Formal email) ___ contact us for further information.",
+    "opts": [
+     "Just let me know",
+     "Please do not hesitate to",
+     "Think twice before"
+    ],
+    "a": 1,
+    "ar": "(إيميل رسمي) برجاء عدم التردد في التواصل معنا لأي معلومات إضافية."
+   }
+  ]
+ }
+]

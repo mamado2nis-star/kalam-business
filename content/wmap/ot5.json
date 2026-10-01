@@ -1,0 +1,853 @@
+[
+ {
+  "w": "breakthrough",
+  "ar": "إنجاز كبير / حل بعد تعب",
+  "family": [
+   {
+    "w": "breakthrough",
+    "pos": "noun",
+    "ex": "Finding the faulty control card was a real breakthrough after two weeks.",
+    "ar": "إننا لقينا كارت الكنترول البايظ كان إنجاز حقيقي بعد أسبوعين.",
+    "ex2": "That breakthrough got the chiller pumps running again.",
+    "ar2": "الإنجاز ده رجّع طلمبات التشيلر تشتغل."
+   },
+   {
+    "w": "break through",
+    "pos": "verb",
+    "ex": "We finally managed to break through with the ministry's purchasing team.",
+    "ar": "أخيرًا قدرنا نخترق فريق المشتريات في الوزارة.",
+    "ex2": "Breaking through there opens ten more sites for us.",
+    "ar2": "إننا ندخل هناك بيفتح لنا عشر مواقع كمان."
+   },
+   {
+    "w": "break",
+    "pos": "noun",
+    "ex": "Winning the bank tender was the big break our solar team needed.",
+    "ar": "كسب مناقصة البنك كان الفرصة الكبيرة اللي فريق الطاقة الشمسية محتاجها.",
+    "ex2": "After that break, two more banks called us.",
+    "ar2": "بعد الفرصة دي، بنكين كمان كلّمونا."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "progress",
+    "note": "general, gradual improvement; not one big moment",
+    "ex": "We made good progress on the e-invoice integration this week.",
+    "ar": "عملنا تقدّم كويس في ربط الفاتورة الإلكترونية الأسبوع ده.",
+    "ex2": "Progress is slow but steady.",
+    "ar2": "التقدّم بطيء بس ثابت."
+   },
+   {
+    "w": "milestone",
+    "note": "a planned stage reached in a project",
+    "ex": "Commissioning the first inverter was an important milestone.",
+    "ar": "تشغيل أول إنفرتر كان مرحلة مهمة.",
+    "ex2": "The next milestone is grid connection in May.",
+    "ar2": "المرحلة الجاية هي الربط على الشبكة في مايو."
+   },
+   {
+    "w": "game changer",
+    "note": "informal; something that changes the whole market",
+    "ex": "Lithium batteries are a game changer for small data rooms.",
+    "ar": "بطاريات الليثيوم قلبت الدنيا في أوض الداتا الصغيرة.",
+    "ex2": "That game changer cut our maintenance visits in half.",
+    "ar2": "ده قلّل زياراتنا للصيانة للنص."
+   }
+  ],
+  "ant": [
+   {
+    "w": "setback",
+    "ex": "The customs hold was a serious setback for the project.",
+    "ar": "حجز الجمارك كان انتكاسة كبيرة للمشروع.",
+    "ex2": "After the setback, we rented units to keep the client running.",
+    "ar2": "بعد الانتكاسة دي، أجّرنا وحدات عشان العميل يفضل شغال."
+   },
+   {
+    "w": "dead end",
+    "ex": "Testing the cables was a dead end; the fault was in the software.",
+    "ar": "اختبار الكابلات طلع طريق مسدود؛ العطل كان في السوفتوير.",
+    "ex2": "After that dead end, we called the manufacturer.",
+    "ar2": "بعد الطريق المسدود ده، كلّمنا المصنّع."
+   }
+  ],
+  "ladder": {
+   "label": "how big the progress is",
+   "lar": "التقدّم كبير قد إيه",
+   "steps": [
+    {
+     "w": "progress",
+     "ex": "We made some progress on the VFD fault today.",
+     "ar": "عملنا شوية تقدّم في عطل الـ‎VFD‎ النهارده.",
+     "ex2": "Progress, but the pump still trips sometimes.",
+     "ar2": "تقدّم، بس الطلمبة لسه بتفصل أحيانًا."
+    },
+    {
+     "w": "milestone",
+     "ex": "Delivering all batteries on time was a key milestone.",
+     "ar": "تسليم كل البطاريات في معادها كان مرحلة أساسية.",
+     "ex2": "The client paid 30% after that milestone.",
+     "ar2": "العميل دفع ٣٠% بعد المرحلة دي."
+    },
+    {
+     "w": "breakthrough",
+     "ex": "The firmware update was the breakthrough we needed.",
+     "ar": "تحديث السوفتوير كان الحل الكبير اللي محتاجينه.",
+     "ex2": "After the breakthrough, no more trips for a month.",
+     "ar2": "بعده مفيش فصل لمدة شهر."
+    },
+    {
+     "w": "game changer",
+     "ex": "Remote monitoring was a game changer for our service team.",
+     "ar": "المراقبة عن بعد غيّرت شغل فريق الصيانة خالص.",
+     "ex2": "That game changer saves us fifty site visits a month.",
+     "ar2": "ده بيوفّر علينا خمسين زيارة في الشهر."
+    }
+   ]
+  },
+  "ctx": "After three nights of testing, Youssef found the loose connection. That breakthrough saved the hospital contract.",
+  "ctx_ar": "بعد تلات ليالي اختبارات، يوسف لقى الوصلة السايبة. الإنجاز ده أنقذ عقد المستشفى.",
+  "quiz": [
+   {
+    "s": "The customs delay was a big ___ for the solar project.",
+    "opts": [
+     "breakthrough",
+     "setback",
+     "milestone"
+    ],
+    "a": 1,
+    "ar": "تأخير الجمارك كان انتكاسة كبيرة لمشروع الطاقة الشمسية."
+   },
+   {
+    "s": "Grid connection is the next planned ___ in the project.",
+    "opts": [
+     "milestone",
+     "break",
+     "dead end"
+    ],
+    "a": 0,
+    "ar": "الربط على الشبكة هو المرحلة الجاية المخططة في المشروع."
+   },
+   {
+    "s": "We finally managed to ___ with the ministry's buyers.",
+    "opts": [
+     "breakthrough",
+     "break",
+     "break through"
+    ],
+    "a": 2,
+    "ar": "أخيرًا قدرنا ندخل مع مشتريين الوزارة."
+   }
+  ]
+ },
+ {
+  "w": "above and beyond",
+  "ar": "أكتر من المطلوب بكتير",
+  "family": [
+   {
+    "w": "above and beyond",
+    "pos": "adverb",
+    "ex": "Your support during the data centre outage was above and beyond.",
+    "ar": "دعمك وقت انقطاع الداتا سنتر كان أكتر من المطلوب بكتير.",
+    "ex2": "Staying until 3 a.m. was above and beyond your job.",
+    "ar2": "إنك تقعد لحد ٣ الفجر كان فوق شغلك بكتير."
+   },
+   {
+    "w": "go above and beyond",
+    "pos": "verb",
+    "ex": "Our engineers always go above and beyond for hospital clients.",
+    "ar": "مهندسينا دايمًا بيعملوا أكتر من المطلوب مع عملاء المستشفيات.",
+    "ex2": "That's why hospitals renew with us every year.",
+    "ar2": "عشان كده المستشفيات بتجدّد معانا كل سنة."
+   },
+   {
+    "w": "beyond",
+    "pos": "adverb",
+    "ex": "Repairing the client's generator went beyond our contract, but we helped.",
+    "ar": "تصليح مولّد العميل كان برّه العقد، بس ساعدناه.",
+    "ex2": "He appreciated it; going beyond paid off later.",
+    "ar2": "قدّرها؛ والزيادة دي جابت نتيجة بعدين."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "go the extra mile",
+    "note": "informal, same idea; very common in speech",
+    "ex": "Rania will always go the extra mile to get a quotation out on time.",
+    "ar": "رانيا دايمًا بتعمل مجهود زيادة عشان تطلّع عرض السعر في معاده.",
+    "ex2": "Going the extra mile won us the order.",
+    "ar2": "المجهود ده كسّبنا الأوردر."
+   },
+   {
+    "w": "exceed expectations",
+    "note": "formal; used in performance reviews",
+    "ex": "Your work this year has exceeded expectations in every area.",
+    "ar": "شغلك السنة دي كان أحسن من المتوقع في كل حاجة.",
+    "ex2": "Exceeding expectations means a higher bonus band.",
+    "ar2": "ده معناه شريحة بونص أعلى."
+   },
+   {
+    "w": "over-deliver",
+    "note": "business jargon; give more than promised to a client",
+    "ex": "We promised four hours response and over-delivered with two.",
+    "ar": "وعدنا باستجابة في أربع ساعات وعملناها في ساعتين.",
+    "ex2": "Over-delivering builds trust before the contract renewal.",
+    "ar2": "إنك تدّي أكتر من الوعد بيبني ثقة قبل التجديد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "do the bare minimum",
+    "ex": "Some suppliers do the bare minimum after they get paid.",
+    "ar": "فيه موردين بيعملوا أقل حاجة ممكنة بعد ما ياخدوا فلوسهم.",
+    "ex2": "We stopped working with them because they do the bare minimum.",
+    "ar2": "بطّلنا نتعامل معاهم عشان بيعملوا أقل حاجة."
+   }
+  ],
+  "ladder": {
+   "label": "how much effort",
+   "lar": "قد إيه فيه مجهود",
+   "steps": [
+    {
+     "w": "meet expectations",
+     "ex": "The new technician meets expectations on routine battery checks.",
+     "ar": "الفني الجديد شغله مظبوط في الكشف الروتيني على البطاريات.",
+     "ex2": "Meeting expectations is fine for the first year.",
+     "ar2": "ده كويس لأول سنة."
+    },
+    {
+     "w": "exceed expectations",
+     "ex": "Sales exceeded expectations in the second quarter.",
+     "ar": "المبيعات كانت أحسن من المتوقع في الربع التاني.",
+     "ex2": "Exceeding them was mostly thanks to solar orders.",
+     "ar2": "ده كان بفضل طلبات الطاقة الشمسية أساسًا."
+    },
+    {
+     "w": "go above and beyond",
+     "ex": "Mostafa likes to go above and beyond, like training the client's staff for free.",
+     "ar": "مصطفى بيحب يعمل أكتر من المطلوب بكتير، زي إنه يدرّب موظفين العميل ببلاش.",
+     "ex2": "Going above and beyond like that wins loyal customers.",
+     "ar2": "المجهود ده بيكسب عملاء أوفيا."
+    }
+   ]
+  },
+  "ctx": "You've really gone above and beyond on the hospital project. The client mentioned your name in their thank-you letter.",
+  "ctx_ar": "إنت بجد عملت أكتر من المطلوب بكتير في مشروع المستشفى. العميل ذكر اسمك في جواب الشكر.",
+  "quiz": [
+   {
+    "s": "Your results this year ___ in every area.",
+    "opts": [
+     "exceeded expectations",
+     "did the bare minimum",
+     "met expectations"
+    ],
+    "a": 0,
+    "ar": "نتايجك السنة دي كانت أحسن من المتوقع في كل حاجة."
+   },
+   {
+    "s": "Repairing their generator went ___ our contract.",
+    "opts": [
+     "above and beyond",
+     "beyond",
+     "over-deliver"
+    ],
+    "a": 1,
+    "ar": "تصليح المولّد بتاعهم كان برّه العقد بتاعنا."
+   },
+   {
+    "s": "Some suppliers ___ once they get paid.",
+    "opts": [
+     "go the extra mile",
+     "over-deliver",
+     "do the bare minimum"
+    ],
+    "a": 2,
+    "ar": "فيه موردين بيعملوا أقل حاجة أول ما ياخدوا فلوسهم."
+   }
+  ]
+ },
+ {
+  "w": "unnoticed",
+  "ar": "محدش خد باله منه",
+  "family": [
+   {
+    "w": "notice",
+    "pos": "verb",
+    "ex": "Did you notice the battery temperature alarm last night?",
+    "ar": "خدت بالك من إنذار حرارة البطاريات امبارح بالليل؟",
+    "ex2": "I noticed it at 2 a.m. and called the client.",
+    "ar2": "خدت بالي منه الساعة ٢ وكلّمت العميل."
+   },
+   {
+    "w": "notice",
+    "pos": "noun",
+    "ex": "The supplier gave us one week's notice of the price increase.",
+    "ar": "المورّد إدّانا مهلة أسبوع قبل زيادة الأسعار.",
+    "ex2": "With such short notice, we couldn't update our quotations.",
+    "ar2": "بالمهلة القصيرة دي مقدرناش نعدّل عروض الأسعار."
+   },
+   {
+    "w": "noticeable",
+    "pos": "adjective",
+    "ex": "There's a noticeable drop in UPS faults since the new maintenance plan.",
+    "ar": "فيه نزول واضح في أعطال الـ‎UPS‎ من ساعة خطة الصيانة الجديدة.",
+    "ex2": "The drop is noticeable in the monthly report.",
+    "ar2": "النزول باين في التقرير الشهري."
+   },
+   {
+    "w": "noticeably",
+    "pos": "adverb",
+    "ex": "Response times improved noticeably after we hired two engineers.",
+    "ar": "وقت الاستجابة اتحسّن بشكل واضح بعد ما عيّنا مهندسين.",
+    "ex2": "Clients noticeably complained less this quarter.",
+    "ar2": "العملاء اشتكوا أقل بشكل واضح الربع ده."
+   },
+   {
+    "w": "unnoticed",
+    "pos": "adjective",
+    "ex": "A small leak in the battery room went unnoticed for weeks.",
+    "ar": "تسريب صغير في أوضة البطاريات فضل محدش واخد باله منه أسابيع.",
+    "ex2": "Unnoticed problems like this become expensive repairs.",
+    "ar2": "مشاكل زي دي لما محدش بياخد باله بتبقى تصليحات غالية."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "overlooked",
+    "note": "someone missed it, often a mistake or a person for promotion",
+    "ex": "Ahmed was overlooked for promotion again this year.",
+    "ar": "أحمد اتنسى في الترقية تاني السنة دي.",
+    "ex2": "Being overlooked twice made him update his CV.",
+    "ar2": "إنه اتنسى مرتين خلّاه يحدّث الـ‎CV‎."
+   },
+   {
+    "w": "unrecognised",
+    "note": "effort exists but no thanks or reward",
+    "ex": "Her late-night work on the tender went unrecognised.",
+    "ar": "شغلها بالليل على المناقصة محدش قدّره.",
+    "ex2": "Unrecognised effort is a common reason people leave.",
+    "ar2": "المجهود اللي مش متقدّر سبب شائع إن الناس تمشي."
+   },
+   {
+    "w": "unseen",
+    "note": "physically not seen; behind the scenes",
+    "ex": "The night team does unseen work that keeps servers running.",
+    "ar": "فريق الليل بيعمل شغل محدش بيشوفه بيخلي السيرفرات شغالة.",
+    "ex2": "Their unseen work deserves a mention in the meeting.",
+    "ar2": "شغلهم ده يستاهل يتذكر في الاجتماع."
+   }
+  ],
+  "ant": [
+   {
+    "w": "noticed",
+    "ex": "The client noticed how clean the installation was.",
+    "ar": "العميل خد باله إن التركيب نضيف قد إيه.",
+    "ex2": "Because he noticed, he recommended us to his partner.",
+    "ar2": "وعشان خد باله، رشّحنا لشريكه."
+   },
+   {
+    "w": "recognised",
+    "ex": "Tamer was recognised as employee of the month.",
+    "ar": "تامر اتكرّم كموظف الشهر.",
+    "ex2": "Being recognised in front of everyone motivated the whole team.",
+    "ar2": "التكريم قدّام الكل حمّس الفريق كله."
+   }
+  ],
+  "ladder": {
+   "label": "how visible your work is",
+   "lar": "شغلك باين قد إيه",
+   "steps": [
+    {
+     "w": "unnoticed",
+     "ex": "His careful cable work went unnoticed by management.",
+     "ar": "شغله المظبوط في الكابلات محدش في الإدارة خد باله منه.",
+     "ex2": "Unnoticed, but it prevented many faults.",
+     "ar2": "محدش خد باله، بس منع أعطال كتير."
+    },
+    {
+     "w": "noticed",
+     "ex": "The client noticed our quick response during the outage.",
+     "ar": "العميل خد باله من سرعة استجابتنا وقت الانقطاع.",
+     "ex2": "He noticed it and mentioned it to our manager.",
+     "ar2": "خد باله وقال لمديرنا."
+    },
+    {
+     "w": "recognised",
+     "ex": "Your work was recognised in the quarterly review.",
+     "ar": "شغلك اتقدّر في التقييم الربع سنوي.",
+     "ex2": "Being recognised there helps with the yearly bonus.",
+     "ar2": "التقدير ده بيفرق في البونص السنوي."
+    },
+    {
+     "w": "celebrated",
+     "ex": "The team's zero-downtime year was celebrated with a dinner.",
+     "ar": "سنة الفريق من غير أي توقف اتحتفل بيها بعشا.",
+     "ex2": "It was celebrated in the company newsletter too.",
+     "ar2": "واتحتفل بيها في نشرة الشركة كمان."
+    }
+   ]
+  },
+  "ctx": "Thank you for staying late to fix the VFD. Your hard work hasn't gone unnoticed.",
+  "ctx_ar": "شكرًا إنك قعدت لحد متأخر تصلّح الـ‎VFD‎. مجهودك ماراحش من غير ما حد ياخد باله.",
+  "quiz": [
+   {
+    "s": "There's a ___ drop in battery faults this year.",
+    "opts": [
+     "notice",
+     "noticeable",
+     "noticeably"
+    ],
+    "a": 1,
+    "ar": "فيه نزول واضح في أعطال البطاريات السنة دي."
+   },
+   {
+    "s": "The supplier gave us only two days' ___ of the price change.",
+    "opts": [
+     "notice",
+     "noticed",
+     "unnoticed"
+    ],
+    "a": 0,
+    "ar": "المورّد إدّانا مهلة يومين بس قبل تغيير الأسعار."
+   },
+   {
+    "s": "He was ___ for promotion for the second year.",
+    "opts": [
+     "recognised",
+     "noticed",
+     "overlooked"
+    ],
+    "a": 2,
+    "ar": "اتنسى في الترقية للسنة التانية."
+   }
+  ]
+ },
+ {
+  "w": "coming along",
+  "ar": "ماشي / بيتقدّم",
+  "family": [
+   {
+    "w": "come along",
+    "pos": "verb",
+    "ex": "The new service portal has come along nicely this month.",
+    "ar": "بوابة الخدمة الجديدة اتقدمت كويس الشهر ده.",
+    "ex2": "It should come along faster once IT joins.",
+    "ar2": "المفروض تمشي أسرع لما الـ‎IT‎ تدخل."
+   },
+   {
+    "w": "coming along",
+    "pos": "verb",
+    "ex": "How is the solar station installation coming along?",
+    "ar": "تركيب المحطة الشمسية ماشي إزاي؟",
+    "ex2": "It's coming along well; panels are done.",
+    "ar2": "ماشي كويس؛ الألواح خلصت."
+   },
+   {
+    "w": "come together",
+    "pos": "verb",
+    "ex": "The data centre project is finally starting to come together.",
+    "ar": "مشروع الداتا سنتر أخيرًا بدأ يتجمّع ويبان.",
+    "ex2": "Once the racks arrive, everything will come together.",
+    "ar2": "أول ما الرفوف توصل، كل حاجة هتكمل."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "progressing or developing",
+    "mar": "ماشي / بيتقدّم",
+    "ex": "The quotation for the hospital is coming along; I'll send it tomorrow.",
+    "ar": "عرض سعر المستشفى ماشي؛ هبعته بكرة.",
+    "ex2": "It's coming along slowly because of the cable prices.",
+    "ar2": "ماشي ببطء بسبب أسعار الكابلات."
+   },
+   {
+    "m": "go somewhere with someone",
+    "mar": "ييجي معاك",
+    "ex": "Is anyone coming along to the site visit in October City?",
+    "ar": "حد جاي معانا زيارة الموقع في 6 أكتوبر؟",
+    "ex2": "Come along; you'll see a big UPS installation.",
+    "ar2": "تعالى معانا؛ هتشوف تركيب ‎UPS‎ كبير."
+   }
+  ],
+  "syn": [
+   {
+    "w": "progressing",
+    "note": "more formal; reports and emails",
+    "ex": "The battery replacement is progressing as planned.",
+    "ar": "تغيير البطاريات ماشي حسب الخطة.",
+    "ex2": "It's progressing well in all three branches.",
+    "ar2": "ماشي كويس في التلات فروع."
+   },
+   {
+    "w": "going",
+    "note": "very informal; small talk",
+    "ex": "How's the inverter job going?",
+    "ar": "شغلانة الإنفرتر عاملة إيه؟",
+    "ex2": "It's going fine, thanks.",
+    "ar2": "ماشية تمام، شكرًا."
+   },
+   {
+    "w": "on track",
+    "note": "going according to the plan and schedule",
+    "ex": "The VFD retrofit is on track for handover in June.",
+    "ar": "تعديل الـ‎VFD‎ ماشي على الخطة للتسليم في يونيو.",
+    "ex2": "If it stays on track, we invoice in July.",
+    "ar2": "لو فضل ماشي كده، هنفوتر في يوليو."
+   }
+  ],
+  "ant": [
+   {
+    "w": "stalled",
+    "ex": "The server project stalled because the client hasn't paid the advance.",
+    "ar": "مشروع السيرفرات وقف عشان العميل مدفعش المقدّم.",
+    "ex2": "It stays stalled until finance receives the money.",
+    "ar2": "هيفضل واقف لحد ما المالية تستلم الفلوس."
+   },
+   {
+    "w": "falling behind",
+    "ex": "The cabling work is falling behind schedule.",
+    "ar": "شغل الكابلات متأخر عن الجدول.",
+    "ex2": "Falling behind now means overtime later.",
+    "ar2": "التأخير دلوقتي معناه أوفر تايم بعدين."
+   }
+  ],
+  "ladder": {
+   "label": "how well it's progressing",
+   "lar": "ماشي كويس قد إيه",
+   "steps": [
+    {
+     "w": "slowly getting there",
+     "ex": "The e-invoice setup is slowly getting there.",
+     "ar": "تجهيز الفاتورة الإلكترونية بيوصل واحدة واحدة.",
+     "ex2": "Slowly, but every week a few more errors are fixed.",
+     "ar2": "ببطء، بس كل أسبوع شوية أخطاء بتتصلّح."
+    },
+    {
+     "w": "coming along",
+     "ex": "The training material is coming along well.",
+     "ar": "مادة التدريب ماشية كويس.",
+     "ex2": "It's coming along; half the modules are ready.",
+     "ar2": "ماشية؛ نص الموديولات جاهزة."
+    },
+    {
+     "w": "on track",
+     "ex": "The solar project is on track for May.",
+     "ar": "مشروع الطاقة الشمسية ماشي على الخطة لمايو.",
+     "ex2": "We're on track as long as panels arrive.",
+     "ar2": "إحنا ماشيين صح طالما الألواح وصلت."
+    },
+    {
+     "w": "ahead of schedule",
+     "ex": "Installation is ahead of schedule by one week.",
+     "ar": "التركيب سابق الجدول بأسبوع.",
+     "ex2": "Being ahead of schedule lets us invoice earlier.",
+     "ar2": "إننا سابقين الجدول بيخلّينا نفوتر بدري."
+    }
+   ]
+  },
+  "ctx": "How is the bank's UPS upgrade coming along? The client asked me for an update this morning.",
+  "ctx_ar": "ترقية الـ‎UPS‎ بتاعة البنك ماشية إزاي؟ العميل سألني على آخر الأخبار الصبح.",
+  "quiz": [
+   {
+    "s": "The server project ___ because the advance wasn't paid.",
+    "opts": [
+     "stalled",
+     "came along",
+     "progressing"
+    ],
+    "a": 0,
+    "ar": "مشروع السيرفرات وقف عشان المقدّم متدفعش."
+   },
+   {
+    "s": "We're a week ___, so we can invoice early.",
+    "opts": [
+     "on track",
+     "ahead of schedule",
+     "falling behind"
+    ],
+    "a": 1,
+    "ar": "إحنا سابقين بأسبوع، فممكن نفوتر بدري."
+   },
+   {
+    "s": "Once the racks arrive, everything will ___.",
+    "opts": [
+     "come along",
+     "coming along",
+     "come together"
+    ],
+    "a": 2,
+    "ar": "أول ما الرفوف توصل، كل حاجة هتكمل."
+   }
+  ]
+ },
+ {
+  "w": "commute",
+  "ar": "المشوار اليومي للشغل",
+  "family": [
+   {
+    "w": "commute",
+    "pos": "noun",
+    "ex": "My commute from Nasr City to Smart Village takes an hour.",
+    "ar": "مشواري من مدينة نصر للقرية الذكية بياخد ساعة.",
+    "ex2": "On Sundays the commute is even longer.",
+    "ar2": "يوم الأحد المشوار بيبقى أطول كمان."
+   },
+   {
+    "w": "commute",
+    "pos": "verb",
+    "ex": "Most of our engineers commute by company bus.",
+    "ar": "أغلب مهندسينا بيروحوا الشغل بأتوبيس الشركة.",
+    "ex2": "Those who commute by car get a fuel allowance.",
+    "ar2": "اللي بيروحوا بعربياتهم بياخدوا بدل بنزين."
+   },
+   {
+    "w": "commuter",
+    "pos": "person",
+    "ex": "Commuters on the ring road were late because of the accident.",
+    "ar": "الناس اللي رايحة شغلها على الدائري اتأخرت بسبب الحادثة.",
+    "ex2": "Many commuters missed the 9 o'clock meeting.",
+    "ar2": "ناس كتير فاتها اجتماع ٩."
+   },
+   {
+    "w": "commuting",
+    "pos": "noun",
+    "ex": "Commuting three hours a day leaves little energy for site work.",
+    "ar": "المشاوير تلات ساعات في اليوم بتسيب طاقة قليلة لشغل الموقع.",
+    "ex2": "That's why Ali asked for commuting support.",
+    "ar2": "عشان كده علي طلب دعم للمواصلات."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "journey to work",
+    "note": "neutral, slightly formal; HR or surveys",
+    "ex": "The HR survey asks about your journey to work.",
+    "ar": "استبيان الـ‎HR‎ بيسأل عن مشوارك للشغل.",
+    "ex2": "A long journey to work affects punctuality.",
+    "ar2": "المشوار الطويل بيأثر على الالتزام بالمواعيد."
+   },
+   {
+    "w": "drive",
+    "note": "only when going by car",
+    "ex": "The drive to the 10th of Ramadan factory is terrible in the morning.",
+    "ar": "السواقة لمصنع العاشر من رمضان وحشة جدًا الصبح.",
+    "ex2": "Leave early; the drive takes ninety minutes.",
+    "ar2": "اطلع بدري؛ السواقة بتاخد ساعة ونص."
+   },
+   {
+    "w": "trip",
+    "note": "one journey, not daily; often to a site or client",
+    "ex": "The trip to the Aswan solar site takes a full day.",
+    "ar": "الرحلة لموقع الطاقة الشمسية في أسوان بتاخد يوم كامل.",
+    "ex2": "We'll book the trip after the client confirms.",
+    "ar2": "هنحجز الرحلة بعد ما العميل يأكد."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how long the commute is",
+   "lar": "المشوار طويل قد إيه",
+   "steps": [
+    {
+     "w": "short commute",
+     "ex": "Rana has a short commute; she lives near the office.",
+     "ar": "رنا مشوارها قصير؛ ساكنة جنب المكتب.",
+     "ex2": "Her short commute means she's always on time.",
+     "ar2": "المشوار القصير بيخليها دايمًا في معادها."
+    },
+    {
+     "w": "long commute",
+     "ex": "A long commute is tiring after a day of battery installations.",
+     "ar": "المشوار الطويل متعب بعد يوم تركيب بطاريات.",
+     "ex2": "Long commutes are a common complaint from field staff.",
+     "ar2": "المشاوير الطويلة شكوى منتشرة من فريق الموقع."
+    },
+    {
+     "w": "two-hour commute",
+     "ex": "With a two-hour commute, I lose four hours every day.",
+     "ar": "مع مشوار ساعتين، بخسر أربع ساعات كل يوم.",
+     "ex2": "That two-hour commute is why I'm asking for remote days.",
+     "ar2": "المشوار ده هو السبب إني بطلب أيام من البيت."
+    }
+   ]
+  },
+  "ctx": "How was your commute this morning? The ring road was blocked, so half the sales team arrived late.",
+  "ctx_ar": "مشوارك كان عامل إيه الصبح؟ الدائري كان واقف، فنص فريق المبيعات وصل متأخر.",
+  "quiz": [
+   {
+    "s": "Most of our technicians ___ by company bus.",
+    "opts": [
+     "commute",
+     "commuter",
+     "commuting"
+    ],
+    "a": 0,
+    "ar": "أغلب الفنيين بتوعنا بيروحوا بأتوبيس الشركة."
+   },
+   {
+    "s": "___ three hours a day is exhausting.",
+    "opts": [
+     "Commuter",
+     "Commuting",
+     "Commute"
+    ],
+    "a": 1,
+    "ar": "المشاوير تلات ساعات في اليوم مرهقة."
+   },
+   {
+    "s": "The ___ to the Aswan site takes a full day.",
+    "opts": [
+     "commute",
+     "commuting",
+     "trip"
+    ],
+    "a": 2,
+    "ar": "الرحلة لموقع أسوان بتاخد يوم كامل."
+   }
+  ]
+ },
+ {
+  "w": "delve into",
+  "ar": "يتعمق في",
+  "family": [
+   {
+    "w": "delve into",
+    "pos": "verb",
+    "ex": "Let's delve into why our collections dropped last quarter.",
+    "ar": "خلّينا نتعمق في ليه التحصيل نزل الربع اللي فات.",
+    "ex2": "Delving into it, we found three slow-paying hospitals.",
+    "ar2": "لما اتعمقنا لقينا تلات مستشفيات بيدفعوا متأخر."
+   },
+   {
+    "w": "delve",
+    "pos": "verb",
+    "ex": "The auditor will delve deeper into our import costs.",
+    "ar": "المراجع هيدخل أعمق في تكاليف الاستيراد بتاعتنا.",
+    "ex2": "He'll delve through every customs invoice.",
+    "ar2": "هيدوّر في كل فاتورة جمارك."
+   },
+   {
+    "w": "delving",
+    "pos": "noun",
+    "ex": "After some delving, we found the VFD parameter that caused the trips.",
+    "ar": "بعد شوية تدوير، لقينا باراميتر الـ‎VFD‎ اللي كان بيعمل الفصل.",
+    "ex2": "That delving saved a costly card replacement.",
+    "ar2": "التدوير ده وفّر تغيير كارت غالي."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "dig into",
+    "note": "informal, everyday; same idea",
+    "ex": "Let's dig into the service tickets from August.",
+    "ar": "خلّينا ندوّر في بلاغات الصيانة بتاعة أغسطس.",
+    "ex2": "Dig into them and find the repeated faults.",
+    "ar2": "دوّر فيها ولاقي الأعطال المتكررة."
+   },
+   {
+    "w": "look into",
+    "note": "first check; not necessarily deep",
+    "ex": "I'll look into the missing invoice and call you back.",
+    "ar": "هشوف موضوع الفاتورة الناقصة وأرجعلك.",
+    "ex2": "If it's complex, we'll look into it further tomorrow.",
+    "ar2": "لو معقّد، هنبص عليه أكتر بكرة."
+   },
+   {
+    "w": "examine",
+    "note": "formal; careful checking, often technical or legal",
+    "ex": "The manufacturer will examine the damaged battery cells.",
+    "ar": "المصنّع هيفحص خلايا البطارية التالفة.",
+    "ex2": "They examine them before approving the warranty claim.",
+    "ar2": "بيفحصوها قبل ما يوافقوا على الضمان."
+   }
+  ],
+  "ant": [
+   {
+    "w": "skim",
+    "ex": "I only skimmed the tender documents; I'll read them properly tonight.",
+    "ar": "أنا بصّيت بسرعة على كراسة المناقصة؛ هقراها كويس بالليل.",
+    "ex2": "Skimming them is risky; penalties hide in the details.",
+    "ar2": "البص السريع خطر؛ الغرامات مستخبية في التفاصيل."
+   },
+   {
+    "w": "gloss over",
+    "ex": "The report glossed over the delays in the solar project.",
+    "ar": "التقرير عدّى على التأخيرات في مشروع الطاقة الشمسية من غير تفاصيل.",
+    "ex2": "Don't gloss over problems; the client will find them anyway.",
+    "ar2": "متعدّيش على المشاكل؛ العميل كده كده هيعرفها."
+   }
+  ],
+  "ladder": {
+   "label": "how deeply you look",
+   "lar": "قد إيه بتتعمق",
+   "steps": [
+    {
+     "w": "look at",
+     "ex": "Can you look at this quotation before I send it?",
+     "ar": "ممكن تبص على عرض السعر ده قبل ما أبعته؟",
+     "ex2": "Just look at the totals, nothing more.",
+     "ar2": "بص على الإجماليات بس، مش أكتر."
+    },
+    {
+     "w": "look into",
+     "ex": "I'll look into why the UPS keeps going to bypass.",
+     "ar": "هشوف ليه الـ‎UPS‎ بيروح على البايباس على طول.",
+     "ex2": "I'll look into the logs first.",
+     "ar2": "هبص على السجلات الأول."
+    },
+    {
+     "w": "delve into",
+     "ex": "We need to delve into the root cause of the repeated faults.",
+     "ar": "محتاجين نتعمق في السبب الأساسي للأعطال المتكررة.",
+     "ex2": "Delving into it may take a full day on site.",
+     "ar2": "التعمق ده ممكن ياخد يوم كامل في الموقع."
+    },
+    {
+     "w": "deep dive",
+     "ex": "Let's do a deep dive on our pricing for chiller VFDs.",
+     "ar": "خلّينا نعمل دراسة متعمقة لتسعيرنا لـ‎VFD‎ التشيلرات.",
+     "ex2": "The deep dive will compare us with three competitors.",
+     "ar2": "الدراسة هتقارنّا بتلات منافسين."
+    }
+   ]
+  },
+  "ctx": "In today's workshop we'll delve into how to handle angry clients. Then we'll practise real complaint calls.",
+  "ctx_ar": "في ورشة النهارده هنتعمق في إزاي نتعامل مع العملاء الزعلانين. وبعدين هنتدرب على مكالمات شكاوى حقيقية.",
+  "quiz": [
+   {
+    "s": "I only ___ the contract; I'll read it carefully tonight.",
+    "opts": [
+     "delved into",
+     "skimmed",
+     "examined"
+    ],
+    "a": 1,
+    "ar": "أنا بصّيت على العقد بسرعة بس؛ هقراه كويس بالليل."
+   },
+   {
+    "s": "The manufacturer will ___ the damaged cells before approving the claim.",
+    "opts": [
+     "examine",
+     "gloss over",
+     "skim"
+    ],
+    "a": 0,
+    "ar": "المصنّع هيفحص الخلايا التالفة قبل ما يوافق على الطلب."
+   },
+   {
+    "s": "We need to ___ the root cause of these repeated trips.",
+    "opts": [
+     "look at",
+     "gloss over",
+     "delve into"
+    ],
+    "a": 2,
+    "ar": "محتاجين نتعمق في السبب الأساسي للفصل المتكرر ده."
+   }
+  ]
+ }
+]

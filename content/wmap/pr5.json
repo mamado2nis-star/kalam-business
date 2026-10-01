@@ -1,0 +1,742 @@
+[
+ {
+  "w": "get back on track",
+  "ar": "نرجع للمسار الصح",
+  "family": [
+   {
+    "w": "get back on track",
+    "pos": "verb",
+    "ex": "Let's get back on track and finish the price discussion.",
+    "ar": "خلّينا نرجع للموضوع ونخلّص كلام الأسعار.",
+    "ex2": "We still have the delivery terms to cover.",
+    "ar2": "لسه فاضل شروط التسليم نتكلم فيها."
+   },
+   {
+    "w": "on track",
+    "pos": "adjective",
+    "ex": "The data centre project is on track for a June handover.",
+    "ar": "مشروع الداتا سنتر ماشي في مساره للتسليم في يونيو.",
+    "ex2": "Staying on track depends on the UPS arriving in May.",
+    "ar2": "إنه يفضل ماشي صح معتمد على وصول الـ‎UPS‎ في مايو."
+   },
+   {
+    "w": "off track",
+    "pos": "adjective",
+    "ex": "The meeting went off track when we discussed parking.",
+    "ar": "الاجتماع خرج عن الموضوع لما اتكلمنا عن الركنة.",
+    "ex2": "Going off track wasted half an hour.",
+    "ar2": "الخروج عن الموضوع ضيّع نص ساعة."
+   },
+   {
+    "w": "track",
+    "pos": "verb",
+    "ex": "We track every shipment from China until it reaches our warehouse.",
+    "ar": "بنتابع كل شحنة من الصين لحد ما توصل المخزن.",
+    "ex2": "Tracking it helps us give clients exact dates.",
+    "ar2": "المتابعة بتساعدنا ندّي العملا مواعيد مظبوطة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "return to the main topic in a meeting",
+    "mar": "ترجع للموضوع الأساسي في اجتماع",
+    "ex": "Sorry, I went off topic; let me get back on track.",
+    "ar": "آسف، خرجت عن الموضوع؛ خلّيني أرجع للمسار.",
+    "ex2": "Getting back on track, our next slide shows prices.",
+    "ar2": "ونرجع للموضوع، السلايد الجاية فيها الأسعار."
+   },
+   {
+    "m": "return to the planned schedule or performance",
+    "mar": "ترجع للجدول أو الأداء المخطط",
+    "ex": "After the customs delay, we need to get back on track.",
+    "ar": "بعد تأخير الجمارك، محتاجين نرجع للجدول.",
+    "ex2": "Working Saturdays will get the project back on track.",
+    "ar2": "الشغل يوم السبت هيرجّع المشروع لمساره."
+   }
+  ],
+  "syn": [
+   {
+    "w": "get back to the point",
+    "note": "informal; for a talk or discussion only",
+    "ex": "Let me get back to the point: the battery warranty.",
+    "ar": "خلّيني أرجع للنقطة: ضمان البطاريات.",
+    "ex2": "Getting back to the point saves everyone time.",
+    "ar2": "الرجوع للنقطة بيوفّر وقت الكل."
+   },
+   {
+    "w": "catch up",
+    "note": "recover lost time on work or schedule",
+    "ex": "The team worked late to catch up on installations.",
+    "ar": "الفريق اشتغل لوقت متأخر عشان يلحق التركيبات.",
+    "ex2": "We'll catch up by next week.",
+    "ar2": "هنلحق الأسبوع الجاي."
+   },
+   {
+    "w": "recover",
+    "note": "formal; return to normal after a problem",
+    "ex": "Sales recovered after the dollar rate became stable.",
+    "ar": "المبيعات رجعت بعد ما سعر الدولار استقر.",
+    "ex2": "Sales recovered fastest in batteries.",
+    "ar2": "المبيعات رجعت أسرع في البطاريات."
+   }
+  ],
+  "ant": [
+   {
+    "w": "go off track",
+    "ex": "Meetings go off track when there's no agenda.",
+    "ar": "الاجتماعات بتخرج عن الموضوع لما مفيش أجندة.",
+    "ex2": "To avoid going off track, send the agenda first.",
+    "ar2": "عشان منخرجش عن الموضوع، ابعت الأجندة الأول."
+   },
+   {
+    "w": "fall behind",
+    "ex": "We may fall behind on the solar project because of rain.",
+    "ar": "ممكن نتأخر في مشروع الطاقة الشمسية بسبب المطر.",
+    "ex2": "If we fall behind again, we pay a penalty.",
+    "ar2": "لو اتأخرنا تاني، هندفع غرامة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We've been talking about parking for ten minutes. Let's get back on track and agree on the UPS delivery date.",
+  "ctx_ar": "بقالنا عشر دقايق بنتكلم عن الركنة. خلّينا نرجع للموضوع ونتفق على ميعاد تسليم الـ‎UPS.‎",
+  "quiz": [
+   {
+    "s": "The project is ___ for handover in June.",
+    "opts": [
+     "off track",
+     "on track",
+     "track"
+    ],
+    "a": 1,
+    "ar": "المشروع ماشي في مساره للتسليم في يونيو."
+   },
+   {
+    "s": "We ___ on the project because of the customs delay.",
+    "opts": [
+     "fell behind",
+     "got back on track",
+     "caught up"
+    ],
+    "a": 0,
+    "ar": "اتأخرنا في المشروع بسبب تأخير الجمارك."
+   },
+   {
+    "s": "We ___ every shipment until it reaches the warehouse.",
+    "opts": [
+     "on track",
+     "off track",
+     "track"
+    ],
+    "a": 2,
+    "ar": "بنتابع كل شحنة لحد ما توصل المخزن."
+   }
+  ]
+ },
+ {
+  "w": "reiterate",
+  "ar": "يكرر / يأكد تاني",
+  "family": [
+   {
+    "w": "reiterate",
+    "pos": "verb",
+    "ex": "Let me reiterate the main points before we move on.",
+    "ar": "خلّيني أكرر النقط الأساسية قبل ما نكمّل.",
+    "ex2": "First, the warranty is three years on all batteries.",
+    "ar2": "أولًا، الضمان تلات سنين على كل البطاريات."
+   },
+   {
+    "w": "reiteration",
+    "pos": "noun",
+    "ex": "A short reiteration of the payment terms is in the email.",
+    "ar": "فيه تكرار قصير لشروط الدفع في الإيميل.",
+    "ex2": "The reiteration avoids any confusion later.",
+    "ar2": "التكرار ده بيمنع أي لخبطة بعدين."
+   },
+   {
+    "w": "reiterated",
+    "pos": "adjective",
+    "ex": "The reiterated deadline is the 30th; no more extensions.",
+    "ar": "الميعاد اللي اتأكد تاني هو يوم ٣٠؛ مفيش تمديد تاني.",
+    "ex2": "Everyone noted the reiterated deadline in their calendars.",
+    "ar2": "الكل كتب الميعاد في الأجندة بتاعته."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "repeat",
+    "note": "simple; say the same words again",
+    "ex": "Could you repeat the PO number, please?",
+    "ar": "ممكن تعيد رقم أمر الشراء لو سمحت؟",
+    "ex2": "I'll repeat it slowly: 4-5-7-2.",
+    "ar2": "هعيده بالراحة: ٤-٥-٧-٢."
+   },
+   {
+    "w": "restate",
+    "note": "say again, often in a clearer or different way",
+    "ex": "Let me restate our offer in simple terms.",
+    "ar": "خلّيني أقول عرضنا تاني بكلام بسيط.",
+    "ex2": "Restated simply: one price, three years of service.",
+    "ar2": "بالبسيط: سعر واحد، وتلات سنين خدمة."
+   },
+   {
+    "w": "stress",
+    "note": "say again to show importance",
+    "ex": "I want to stress that the site must be ready before delivery.",
+    "ar": "عايز أأكد إن الموقع لازم يبقى جاهز قبل التسليم.",
+    "ex2": "Stress this point in the kickoff meeting.",
+    "ar2": "أكّد على النقطة دي في اجتماع البداية."
+   }
+  ],
+  "ant": [
+   {
+    "w": "retract",
+    "ex": "The supplier had to retract their price after the dollar rose.",
+    "ar": "المورّد اضطر يسحب سعره بعد ما الدولار غلي.",
+    "ex2": "They retracted it and sent a new quotation.",
+    "ar2": "سحبوه وبعتوا عرض سعر جديد."
+   }
+  ],
+  "ladder": {
+   "label": "how strongly the point is repeated",
+   "lar": "قد إيه بتأكد على النقطة",
+   "steps": [
+    {
+     "w": "repeat",
+     "ex": "I'll repeat the delivery date for everyone.",
+     "ar": "هعيد ميعاد التسليم للكل.",
+     "ex2": "Repeating it helps people write it down.",
+     "ar2": "تكراره بيساعد الناس تكتبه."
+    },
+    {
+     "w": "reiterate",
+     "ex": "I'd like to reiterate our commitment to quality.",
+     "ar": "حابب أأكد تاني على التزامنا بالجودة.",
+     "ex2": "Reiterate it at the end of every proposal.",
+     "ar2": "أكّده تاني في آخر كل عرض."
+    },
+    {
+     "w": "insist",
+     "ex": "We insist that only our technicians open the UPS.",
+     "ar": "بنصرّ إن فنيينا بس هم اللي يفتحوا الـ‎UPS.‎",
+     "ex2": "Insisting on this protects the warranty.",
+     "ar2": "الإصرار على ده بيحمي الضمان."
+    }
+   ]
+  },
+  "ctx": "To reiterate, the warranty covers parts and labour for three years. It does not cover damage from power surges.",
+  "ctx_ar": "وعشان أأكد تاني، الضمان بيغطي القطع والمصنعية تلات سنين. مش بيغطي الضرر من ارتفاع الكهربا المفاجئ.",
+  "quiz": [
+   {
+    "s": "A short ___ of the terms is in the email.",
+    "opts": [
+     "reiterate",
+     "reiteration",
+     "reiterated"
+    ],
+    "a": 1,
+    "ar": "فيه تكرار قصير للشروط في الإيميل."
+   },
+   {
+    "s": "Could you ___ the PO number? I didn't catch it.",
+    "opts": [
+     "repeat",
+     "retract",
+     "insist"
+    ],
+    "a": 0,
+    "ar": "ممكن تعيد رقم أمر الشراء؟ ملحقتوش."
+   },
+   {
+    "s": "The supplier had to ___ their offer after the dollar rose.",
+    "opts": [
+     "reiterate",
+     "stress",
+     "retract"
+    ],
+    "a": 2,
+    "ar": "المورّد اضطر يسحب عرضه بعد ما الدولار غلي."
+   }
+  ]
+ },
+ {
+  "w": "rephrase",
+  "ar": "يقول الكلام بطريقة تانية",
+  "family": [
+   {
+    "w": "rephrase",
+    "pos": "verb",
+    "ex": "Could you please rephrase the question?",
+    "ar": "ممكن لو سمحت تقول السؤال بطريقة تانية؟",
+    "ex2": "I'm not sure if you mean UPS or inverter.",
+    "ar2": "مش متأكد إنت تقصد ‎UPS‎ ولا إنفرتر."
+   },
+   {
+    "w": "rephrased",
+    "pos": "adjective",
+    "ex": "The rephrased clause is clearer about who pays for transport.",
+    "ar": "البند بصياغته الجديدة أوضح في مين يدفع النقل.",
+    "ex2": "The client accepted the rephrased version.",
+    "ar2": "العميل وافق على الصياغة الجديدة."
+   },
+   {
+    "w": "phrase",
+    "pos": "noun",
+    "ex": "Avoid technical phrases when you talk to finance managers.",
+    "ar": "ابعد عن العبارات الفنية لما تكلّم المديرين الماليين.",
+    "ex2": "A simple phrase like 'saves 20%' works better.",
+    "ar2": "عبارة بسيطة زي 'بيوفّر ٢٠٪' بتنفع أكتر."
+   },
+   {
+    "w": "phrasing",
+    "pos": "noun",
+    "ex": "The phrasing of the email sounded too aggressive.",
+    "ar": "صياغة الإيميل كانت باينة هجومية زيادة.",
+    "ex2": "Softer phrasing gets faster payment.",
+    "ar2": "الصياغة الألطف بتجيب دفع أسرع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "reword",
+    "note": "change the words in writing, often documents",
+    "ex": "Please reword the warranty section in the proposal.",
+    "ar": "لو سمحت غيّر صياغة جزء الضمان في العرض.",
+    "ex2": "Reword it so non-engineers understand.",
+    "ar2": "غيّر صياغته عشان اللي مش مهندسين يفهموا."
+   },
+   {
+    "w": "put it another way",
+    "note": "spoken; explain the same idea differently",
+    "ex": "To put it another way, the VFD pays for itself in a year.",
+    "ar": "بمعنى تاني، الـ‎VFD‎ بيجيب تمنه في سنة.",
+    "ex2": "Putting it another way helps the client decide.",
+    "ar2": "إنك تقولها بطريقة تانية بيساعد العميل يقرر."
+   },
+   {
+    "w": "paraphrase",
+    "note": "formal; say someone else's idea in your own words",
+    "ex": "Let me paraphrase the client's complaint for the team.",
+    "ar": "خلّيني أقول شكوى العميل بكلامي للفريق.",
+    "ex2": "To paraphrase him: the UPS beeps all night.",
+    "ar2": "وبكلامه: الـ‎UPS‎ بيزمّر طول الليل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "quote word for word",
+    "ex": "Please quote the client word for word in the report.",
+    "ar": "لو سمحت انقل كلام العميل بالحرف في التقرير.",
+    "ex2": "Quoting word for word avoids any misunderstanding.",
+    "ar2": "النقل بالحرف بيمنع أي سوء فهم."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Sorry, I didn't understand your question. Could you rephrase it? Do you mean the battery warranty or the UPS warranty?",
+  "ctx_ar": "آسف، مفهمتش سؤالك. ممكن تقوله بطريقة تانية؟ تقصد ضمان البطاريات ولا ضمان الـ‎UPS‎؟",
+  "quiz": [
+   {
+    "s": "The ___ of that email sounded rude to the client.",
+    "opts": [
+     "phrasing",
+     "rephrase",
+     "rephrased"
+    ],
+    "a": 0,
+    "ar": "صياغة الإيميل ده كانت باينة قليلة الذوق للعميل."
+   },
+   {
+    "s": "Please ___ the client's complaint exactly in the report.",
+    "opts": [
+     "paraphrase",
+     "reword",
+     "quote word for word"
+    ],
+    "a": 2,
+    "ar": "لو سمحت انقل شكوى العميل بالظبط في التقرير."
+   },
+   {
+    "s": "Sorry, could you ___ that? I didn't follow.",
+    "opts": [
+     "rephrased",
+     "rephrase",
+     "phrase"
+    ],
+    "a": 1,
+    "ar": "آسف، ممكن تقولها بطريقة تانية؟ مافهمتش."
+   }
+  ]
+ },
+ {
+  "w": "context",
+  "ar": "سياق / خلفية الموضوع",
+  "family": [
+   {
+    "w": "context",
+    "pos": "noun",
+    "ex": "Can you give me a bit more context around your question?",
+    "ar": "ممكن تديني خلفية أكتر عن سؤالك؟",
+    "ex2": "For example, how many servers does the UPS support?",
+    "ar2": "مثلًا، الـ‎UPS‎ شايل كام سيرفر؟"
+   },
+   {
+    "w": "contextual",
+    "pos": "adjective",
+    "ex": "The engineer added contextual notes to each fault photo.",
+    "ar": "المهندس كتب ملاحظات توضيحية على كل صورة عطل.",
+    "ex2": "The contextual notes explain where each photo was taken.",
+    "ar2": "الملاحظات دي بتوضّح كل صورة اتاخدت فين."
+   },
+   {
+    "w": "contextualize",
+    "pos": "verb",
+    "ex": "Let me contextualize these numbers for the board.",
+    "ar": "خلّيني أحط الأرقام دي في سياقها لمجلس الإدارة.",
+    "ex2": "Contextualize them against last year's sales.",
+    "ar2": "حطها في سياقها مقارنة بمبيعات السنة اللي فاتت."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "background facts that explain something",
+    "mar": "الخلفية اللي بتوضّح حاجة",
+    "ex": "Some context: the client had three outages last year.",
+    "ar": "شوية خلفية: العميل حصله تلات أعطال السنة اللي فاتت.",
+    "ex2": "With that context, a redundant UPS makes sense.",
+    "ar2": "وبالخلفية دي، ‎UPS‎ احتياطي يبقى منطقي."
+   },
+   {
+    "m": "the words around a phrase that show its meaning",
+    "mar": "الكلام اللي حوالين الجملة وبيوضّح معناها",
+    "ex": "Read the clause in context, not alone.",
+    "ar": "اقرا البند في سياقه، مش لوحده.",
+    "ex2": "In context, 'delivery' means delivery to site, not port.",
+    "ar2": "في السياق، التسليم معناه في الموقع، مش الميناء."
+   }
+  ],
+  "syn": [
+   {
+    "w": "background",
+    "note": "history or facts before the current situation",
+    "ex": "Here's some background on the client before the meeting.",
+    "ar": "دي شوية خلفية عن العميل قبل الاجتماع.",
+    "ex2": "Background helps you avoid sensitive topics.",
+    "ar2": "الخلفية بتساعدك تبعد عن المواضيع الحساسة."
+   },
+   {
+    "w": "situation",
+    "note": "the current state of things",
+    "ex": "What's the situation with the overdue invoice?",
+    "ar": "إيه الوضع في الفاتورة المتأخرة؟",
+    "ex2": "The situation is better; they paid half.",
+    "ar2": "الوضع أحسن؛ دفعوا النص."
+   },
+   {
+    "w": "big picture",
+    "note": "the overall view, not details",
+    "ex": "Let's look at the big picture before choosing a UPS model.",
+    "ar": "خلّينا نبص على الصورة الكبيرة قبل ما نختار موديل الـ‎UPS.‎",
+    "ex2": "The big picture includes future server growth.",
+    "ar2": "الصورة الكبيرة فيها نمو السيرفرات في المستقبل."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Before I answer, I need more context. Is the UPS for the whole building or just the server room?",
+  "ctx_ar": "قبل ما أجاوب، محتاج خلفية أكتر. الـ‎UPS‎ للمبنى كله ولا لأوضة السيرفرات بس؟",
+  "quiz": [
+   {
+    "s": "The engineer added ___ notes to each photo.",
+    "opts": [
+     "context",
+     "contextual",
+     "contextualize"
+    ],
+    "a": 1,
+    "ar": "المهندس كتب ملاحظات توضيحية على كل صورة."
+   },
+   {
+    "s": "Let's look at the ___ before going into details.",
+    "opts": [
+     "big picture",
+     "situation",
+     "context"
+    ],
+    "a": 0,
+    "ar": "خلّينا نبص على الصورة الكبيرة قبل ما ندخل في التفاصيل."
+   },
+   {
+    "s": "What's the ___ with the overdue payment from the bank?",
+    "opts": [
+     "background",
+     "big picture",
+     "situation"
+    ],
+    "a": 2,
+    "ar": "إيه الوضع في الدفعة المتأخرة من البنك؟"
+   }
+  ]
+ },
+ {
+  "w": "resonate with",
+  "ar": "يلمس / يوصل لـ (حد ويعجبه)",
+  "family": [
+   {
+    "w": "resonate with",
+    "pos": "verb",
+    "ex": "Energy savings really resonate with factory owners.",
+    "ar": "التوفير في الكهربا بيلمس أصحاب المصانع جدًا.",
+    "ex2": "So start every VFD pitch with the savings.",
+    "ar2": "فابدأ كل عرض ‎VFD‎ بالتوفير."
+   },
+   {
+    "w": "resonated with",
+    "pos": "verb",
+    "ex": "Our uptime story resonated with the bank's IT manager.",
+    "ar": "حكاية التشغيل المستمر بتاعتنا لمست مدير الـ‎IT‎ في البنك.",
+    "ex2": "He resonated with it because he had an outage last month.",
+    "ar2": "لمسته عشان كان عنده عطل الشهر اللي فات."
+   },
+   {
+    "w": "resonance",
+    "pos": "noun",
+    "ex": "The message about lower bills had strong resonance with farmers.",
+    "ar": "رسالة الفواتير الأقل كان ليها صدى قوي عند المزارعين.",
+    "ex2": "That resonance brought twenty solar pump orders.",
+    "ar2": "الصدى ده جاب عشرين أوردر طلمبات شمسية."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "appeal to",
+    "note": "attract a group because it fits their needs",
+    "ex": "Flexible payment plans appeal to small clinics.",
+    "ar": "خطط الدفع المرنة بتعجب العيادات الصغيرة.",
+    "ex2": "They appeal to them because cash is tight.",
+    "ar2": "بتعجبهم عشان الكاش قليل."
+   },
+   {
+    "w": "connect with",
+    "note": "build a personal or emotional link",
+    "ex": "Good sales engineers connect with the client's real problems.",
+    "ar": "مهندسين المبيعات الشاطرين بيتواصلوا مع مشاكل العميل الحقيقية.",
+    "ex2": "Connecting with them builds long-term trust.",
+    "ar2": "التواصل ده بيبني ثقة طويلة."
+   },
+   {
+    "w": "strike a chord with",
+    "note": "idiom; touch people's feelings or experience",
+    "ex": "The story of the hospital outage will strike a chord with the audience.",
+    "ar": "حكاية عطل المستشفى هتلمس الحضور.",
+    "ex2": "It will strike a chord because many had similar problems.",
+    "ar2": "هتلمسهم عشان كتير منهم حصلهم مشاكل شبهها."
+   }
+  ],
+  "ant": [
+   {
+    "w": "fall flat",
+    "ex": "The technical slides will fall flat with the finance team.",
+    "ar": "السلايدات الفنية مش هتأثر خالص في فريق المالية.",
+    "ex2": "Technical detail falls flat without a cost message.",
+    "ar2": "التفاصيل الفنية مبتأثرش من غير رسالة عن التكلفة."
+   },
+   {
+    "w": "turn off",
+    "ex": "Too many acronyms turn off non-technical clients.",
+    "ar": "الاختصارات الكتير بتنفّر العملا اللي مش فنيين.",
+    "ex2": "Don't turn them off; explain UPS and VFD simply.",
+    "ar2": "متنفّرهمش؛ اشرح الـ‎UPS‎ والـ‎VFD‎ ببساطة."
+   }
+  ],
+  "ladder": {
+   "label": "how strongly it reaches people",
+   "lar": "بيوصل للناس قد إيه",
+   "steps": [
+    {
+     "w": "appeal to",
+     "ex": "The low monthly fee may appeal to small offices.",
+     "ar": "الرسوم الشهرية القليلة ممكن تعجب المكاتب الصغيرة.",
+     "ex2": "It may appeal to them, but they want proof.",
+     "ar2": "ممكن تعجبهم، بس عايزين إثبات."
+    },
+    {
+     "w": "resonate with",
+     "ex": "The 24/7 support message resonates with hospitals.",
+     "ar": "رسالة الدعم ٢٤ ساعة بتلمس المستشفيات.",
+     "ex2": "It resonates with them because downtime risks lives.",
+     "ar2": "بتلمسهم عشان التوقف بيعرّض حياة الناس للخطر."
+    },
+    {
+     "w": "strike a chord with",
+     "ex": "Our outage story can strike a chord with every bank manager.",
+     "ar": "حكاية العطل بتاعتنا ممكن تلمس كل مدير بنك.",
+     "ex2": "Striking a chord with them led to three new contracts.",
+     "ar2": "إنها لمستهم جابت تلات عقود جديدة."
+    }
+   ]
+  },
+  "ctx": "Our message about lower electricity bills really resonated with the factory owners. Five of them asked for a VFD site survey.",
+  "ctx_ar": "رسالتنا عن فواتير كهربا أقل لمست أصحاب المصانع جدًا. خمسة منهم طلبوا معاينة موقع للـ‎VFD.‎",
+  "quiz": [
+   {
+    "s": "The technical slides ___ with the finance team.",
+    "opts": [
+     "resonated",
+     "fell flat",
+     "appealed"
+    ],
+    "a": 1,
+    "ar": "السلايدات الفنية مأثرتش خالص في فريق المالية."
+   },
+   {
+    "s": "Our savings message had strong ___ with farmers.",
+    "opts": [
+     "resonance",
+     "resonate with",
+     "resonated with"
+    ],
+    "a": 0,
+    "ar": "رسالة التوفير بتاعتنا كان ليها صدى قوي عند المزارعين."
+   },
+   {
+    "s": "Flexible payment plans ___ small clinics with tight cash.",
+    "opts": [
+     "turn off",
+     "fall flat",
+     "appeal to"
+    ],
+    "a": 2,
+    "ar": "خطط الدفع المرنة بتعجب العيادات الصغيرة اللي الكاش عندها قليل."
+   }
+  ]
+ },
+ {
+  "w": "timeline",
+  "ar": "جدول زمني",
+  "family": [
+   {
+    "w": "timeline",
+    "pos": "noun",
+    "ex": "Here's our timeline for the solar station installation.",
+    "ar": "ده الجدول الزمني لتركيب محطة الطاقة الشمسية.",
+    "ex2": "The timeline ends with handover in eight weeks.",
+    "ar2": "الجدول بيخلص بالتسليم بعد تمن أسابيع."
+   },
+   {
+    "w": "time",
+    "pos": "noun",
+    "ex": "Delivery time for lithium batteries is now six weeks.",
+    "ar": "وقت التسليم لبطاريات الليثيوم بقى ست أسابيع.",
+    "ex2": "That time includes shipping and customs.",
+    "ar2": "الوقت ده شامل الشحن والجمارك."
+   },
+   {
+    "w": "timely",
+    "pos": "adjective",
+    "ex": "Thank you for your timely payment of invoice 3021.",
+    "ar": "شكرًا على دفعك في الميعاد لفاتورة ٣٠٢١.",
+    "ex2": "Timely payments keep your service priority high.",
+    "ar2": "الدفع في الميعاد بيخلّي أولوية خدمتك عالية."
+   },
+   {
+    "w": "time",
+    "pos": "verb",
+    "ex": "We timed the battery replacement for the Eid holiday.",
+    "ar": "ظبطنا ميعاد تغيير البطاريات على إجازة العيد.",
+    "ex2": "We timed it so the bank's servers stay safe.",
+    "ar2": "ظبطناه كده عشان سيرفرات البنك تفضل في أمان."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "schedule",
+    "note": "detailed plan with exact dates and tasks",
+    "ex": "The installation schedule shows each technician's tasks.",
+    "ar": "جدول التركيب بيوضّح مهام كل فني.",
+    "ex2": "Update the schedule if the crane is late.",
+    "ar2": "حدّث الجدول لو الونش اتأخر."
+   },
+   {
+    "w": "deadline",
+    "note": "one final date something must be done by",
+    "ex": "The deadline for the tender is next Thursday.",
+    "ar": "آخر ميعاد للمناقصة الخميس الجاي.",
+    "ex2": "Missing the deadline means we're out.",
+    "ar2": "لو فوّتنا الميعاد يبقى خرجنا."
+   },
+   {
+    "w": "time frame",
+    "note": "the period allowed, often approximate",
+    "ex": "What time frame do you need for delivery?",
+    "ar": "محتاج التسليم في خلال قد إيه؟",
+    "ex2": "A two-month time frame is realistic.",
+    "ar2": "مدة شهرين واقعية."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how fixed the date is",
+   "lar": "الميعاد ثابت قد إيه",
+   "steps": [
+    {
+     "w": "time frame",
+     "ex": "The time frame for delivery is about two months.",
+     "ar": "مدة التسليم حوالي شهرين.",
+     "ex2": "The time frame depends on the shipping line.",
+     "ar2": "المدة معتمدة على خط الشحن."
+    },
+    {
+     "w": "timeline",
+     "ex": "The timeline shows five phases from design to handover.",
+     "ar": "الجدول الزمني فيه خمس مراحل من التصميم للتسليم.",
+     "ex2": "Each phase on the timeline has an owner.",
+     "ar2": "كل مرحلة في الجدول ليها مسؤول."
+    },
+    {
+     "w": "deadline",
+     "ex": "The deadline for commissioning is 30 June, no extensions.",
+     "ar": "آخر ميعاد للتشغيل ٣٠ يونيو، من غير تمديد.",
+     "ex2": "Missing the deadline costs 1% per week.",
+     "ar2": "تفويت الميعاد بيكلّف ١٪ كل أسبوع."
+    }
+   ]
+  },
+  "ctx": "Let me show you the timeline for the data centre project. Delivery is in March, and the UPS will be running by mid-April.",
+  "ctx_ar": "خلّيني أوريك الجدول الزمني لمشروع الداتا سنتر. التسليم في مارس، والـ‎UPS‎ هيبقى شغال نص أبريل.",
+  "quiz": [
+   {
+    "s": "Thank you for your ___ payment of the invoice.",
+    "opts": [
+     "timeline",
+     "timely",
+     "time"
+    ],
+    "a": 1,
+    "ar": "شكرًا على دفعك في الميعاد للفاتورة."
+   },
+   {
+    "s": "The ___ for the tender is next Thursday at noon.",
+    "opts": [
+     "deadline",
+     "time frame",
+     "timeline"
+    ],
+    "a": 0,
+    "ar": "آخر ميعاد للمناقصة الخميس الجاي الضهر."
+   },
+   {
+    "s": "The project ___ shows five phases from design to handover.",
+    "opts": [
+     "deadline",
+     "timely",
+     "timeline"
+    ],
+    "a": 2,
+    "ar": "الجدول الزمني للمشروع فيه خمس مراحل من التصميم للتسليم."
+   }
+  ]
+ }
+]

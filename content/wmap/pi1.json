@@ -1,0 +1,841 @@
+[
+ {
+  "w": "shortlisted",
+  "ar": "اتختار في القايمة المختصرة",
+  "family": [
+   {
+    "w": "shortlist",
+    "pos": "noun",
+    "ex": "The bank's shortlist has only three UPS suppliers, and we're one of them.",
+    "ar": "القايمة المختصرة بتاعة البنك فيها تلات موردين ‎UPS‎ بس، وإحنا منهم.",
+    "ex2": "Being on the shortlist means our technical offer passed.",
+    "ar2": "وجودنا في القايمة المختصرة معناه إن العرض الفني بتاعنا عدّى."
+   },
+   {
+    "w": "shortlist",
+    "pos": "verb",
+    "ex": "Procurement will shortlist two vendors for the solar station tender.",
+    "ar": "المشتريات هتختار موردين اتنين بس لمناقصة محطة الطاقة الشمسية.",
+    "ex2": "They will shortlist based on price and delivery time.",
+    "ar2": "هيختاروا على أساس السعر وميعاد التسليم."
+   },
+   {
+    "w": "shortlisted",
+    "pos": "adjective",
+    "ex": "All shortlisted suppliers must send a final quotation by Thursday.",
+    "ar": "كل الموردين اللي اتختاروا لازم يبعتوا عرض سعر نهائي يوم الخميس.",
+    "ex2": "Shortlisted suppliers will also present their VFD solution to the client.",
+    "ar2": "والموردين اللي اتختاروا هيعرضوا حل الـ‎VFD‎ بتاعهم للعميل كمان."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "selected",
+    "note": "final choice; shortlisted means still in the competition",
+    "ex": "Our company was selected to maintain the hospital's data centre.",
+    "ar": "شركتنا اتختارت عشان تعمل صيانة الداتا سنتر بتاع المستشفى.",
+    "ex2": "Being selected means the contract is ours.",
+    "ar2": "إننا اتختارنا معناه إن العقد بقى بتاعنا."
+   },
+   {
+    "w": "pre-qualified",
+    "note": "approved to bid before the tender opens",
+    "ex": "We're pre-qualified with the electricity company for battery supply.",
+    "ar": "إحنا متأهلين مسبقًا مع شركة الكهربا لتوريد البطاريات.",
+    "ex2": "Being pre-qualified lets us bid on every new tender.",
+    "ar2": "التأهيل المسبق بيخلينا ندخل أي مناقصة جديدة."
+   },
+   {
+    "w": "on the shortlist",
+    "note": "informal spoken version, same meaning",
+    "ex": "Good news, Karim, we're on the shortlist for the server project.",
+    "ar": "أخبار حلوة يا ‎Karim‎، إحنا في القايمة المختصرة لمشروع السيرفرات.",
+    "ex2": "Now we need a sharp final price to stay on the shortlist.",
+    "ar2": "دلوقتي محتاجين سعر نهائي مظبوط عشان نفضل في القايمة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "rejected",
+    "ex": "Our quotation was rejected because the delivery time was too long.",
+    "ar": "عرض السعر بتاعنا اترفض عشان ميعاد التسليم كان طويل أوي.",
+    "ex2": "Next time, being rejected for delivery must not happen again.",
+    "ar2": "المرة الجاية مينفعش نترفض تاني بسبب التسليم."
+   },
+   {
+    "w": "eliminated",
+    "ex": "Two suppliers were eliminated after the technical evaluation of the UPS units.",
+    "ar": "موردين اتنين اتشالوا بعد التقييم الفني لأجهزة الـ‎UPS‎.",
+    "ex2": "They were eliminated because their batteries had no local warranty.",
+    "ar2": "اتشالوا عشان البطاريات بتاعتهم مكانش عليها ضمان محلي."
+   }
+  ],
+  "ladder": {
+   "label": "how close to winning",
+   "lar": "قريبين من الفوز قد إيه",
+   "steps": [
+    {
+     "w": "applied",
+     "ex": "We applied for the factory's VFD tender last week.",
+     "ar": "قدّمنا في مناقصة الـ‎VFD‎ بتاعة المصنع الأسبوع اللي فات.",
+     "ex2": "Twelve companies applied, so competition is strong.",
+     "ar2": "اتناشر شركة قدّموا، فالمنافسة جامدة."
+    },
+    {
+     "w": "shortlisted",
+     "ex": "We've been shortlisted with two other suppliers.",
+     "ar": "اتختارنا في القايمة المختصرة مع موردين تانيين.",
+     "ex2": "Being shortlisted means a final meeting with their engineers.",
+     "ar2": "إننا في القايمة المختصرة معناه اجتماع أخير مع المهندسين بتوعهم."
+    },
+    {
+     "w": "selected",
+     "ex": "Finally, we were selected as the preferred supplier.",
+     "ar": "وفي الآخر اتختارنا كالمورد المفضّل.",
+     "ex2": "Being selected means negotiating the final price now.",
+     "ar2": "إننا اتختارنا معناه نتفاوض على السعر النهائي دلوقتي."
+    },
+    {
+     "w": "awarded",
+     "ex": "The contract was awarded to us yesterday.",
+     "ar": "العقد اترسى علينا امبارح.",
+     "ex2": "Once awarded, we received the PO the same day.",
+     "ar2": "أول ما اترسى، استلمنا الـ‎PO‎ في نفس اليوم."
+    }
+   ]
+  },
+  "ctx": "We've been shortlisted for the bank's data-centre UPS tender. The final presentation is on Sunday, so let's prepare the technical slides.",
+  "ctx_ar": "اتختارنا في القايمة المختصرة لمناقصة ‎UPS‎ الداتا سنتر بتاعة البنك. العرض النهائي يوم الحد، فيلا نجهّز الشرايح الفنية.",
+  "quiz": [
+   {
+    "s": "Only three suppliers made it to the final ___.",
+    "opts": [
+     "shortlisted",
+     "shortlist",
+     "selected"
+    ],
+    "a": 1,
+    "ar": "تلات موردين بس وصلوا للقايمة المختصرة النهائية."
+   },
+   {
+    "s": "We were ___ yesterday — the contract and PO are ours!",
+    "opts": [
+     "shortlisted",
+     "applied",
+     "awarded"
+    ],
+    "a": 2,
+    "ar": "العقد اترسى علينا امبارح — العقد والـ‎PO‎ بقوا بتوعنا!"
+   },
+   {
+    "s": "We've been ___, but the final decision is next week.",
+    "opts": [
+     "shortlisted",
+     "awarded",
+     "rejected"
+    ],
+    "a": 0,
+    "ar": "اتختارنا في القايمة المختصرة، بس القرار النهائي الأسبوع الجاي."
+   }
+  ]
+ },
+ {
+  "w": "deadline",
+  "ar": "آخر ميعاد للتسليم",
+  "family": [
+   {
+    "w": "deadline",
+    "pos": "noun",
+    "ex": "The deadline for the solar tender is 15 May at noon.",
+    "ar": "آخر ميعاد لمناقصة الطاقة الشمسية 15 مايو الضهر.",
+    "ex2": "After the deadline, they won't accept any offers.",
+    "ar2": "بعد آخر ميعاد مش هيقبلوا أي عروض."
+   },
+   {
+    "w": "deadline-driven",
+    "pos": "adjective",
+    "ex": "Sales is a deadline-driven job, especially at the end of the quarter.",
+    "ar": "المبيعات شغل ماشي بالمواعيد، خصوصًا آخر الربع.",
+    "ex2": "Deadline-driven people plan their quotations early.",
+    "ar2": "الناس اللي ماشية بالمواعيد بتجهّز عروض الأسعار بدري."
+   },
+   {
+    "w": "due date",
+    "pos": "noun",
+    "ex": "The invoice due date is 30 days after delivery of the batteries.",
+    "ar": "ميعاد استحقاق الفاتورة بعد 30 يوم من تسليم البطاريات.",
+    "ex2": "After the due date, Mona will start the collection calls.",
+    "ar2": "بعد ميعاد الاستحقاق، ‎Mona‎ هتبدأ مكالمات التحصيل."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "due date",
+    "note": "for payments and invoices, not tasks",
+    "ex": "The due date on this e-invoice is next Monday.",
+    "ar": "ميعاد استحقاق الفاتورة الإلكترونية دي الاتنين الجاي.",
+    "ex2": "Please remind the client two days before the due date.",
+    "ar2": "فكّر العميل قبل ميعاد الاستحقاق بيومين لو سمحت."
+   },
+   {
+    "w": "cut-off",
+    "note": "last moment a system or process accepts something",
+    "ex": "The cut-off for orders this month is the 25th.",
+    "ar": "آخر يوم لاستلام الأوردرات الشهر ده 25.",
+    "ex2": "Any PO after the cut-off goes to next month's shipment.",
+    "ar2": "أي ‎PO‎ بعد الميعاد ده هيروح على شحنة الشهر الجاي."
+   },
+   {
+    "w": "time limit",
+    "note": "fixed amount of time, e.g. response time in contracts",
+    "ex": "The contract sets a four-hour time limit for UPS emergency visits.",
+    "ar": "العقد محدد أربع ساعات كحد أقصى لزيارات الطوارئ للـ‎UPS‎.",
+    "ex2": "If we pass the time limit, we pay a penalty.",
+    "ar2": "لو عدّينا المدة المحددة، بندفع غرامة."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how close the deadline is",
+   "lar": "الميعاد قرّب قد إيه",
+   "steps": [
+    {
+     "w": "flexible deadline",
+     "ex": "The client gave us a flexible deadline for the site survey.",
+     "ar": "العميل ادّانا ميعاد مرن للمعاينة.",
+     "ex2": "With a flexible deadline, we can visit after the big installation.",
+     "ar2": "والميعاد مرن، فنقدر نزور بعد التركيب الكبير."
+    },
+    {
+     "w": "tight deadline",
+     "ex": "We have a tight deadline to install the VFDs before Ramadan.",
+     "ar": "عندنا ميعاد ضيق نركّب فيه الـ‎VFDs‎ قبل رمضان.",
+     "ex2": "With such a tight deadline, two teams will work together.",
+     "ar2": "والميعاد ضيق كده، فريقين هيشتغلوا مع بعض."
+    },
+    {
+     "w": "hard deadline",
+     "ex": "The tender closing is a hard deadline; no extensions at all.",
+     "ar": "قفل المناقصة ميعاد نهائي؛ مفيش تمديد خالص.",
+     "ex2": "Miss a hard deadline and the offer is out.",
+     "ar2": "لو فوّت ميعاد نهائي زي ده العرض بيخرج."
+    },
+    {
+     "w": "overdue",
+     "ex": "The server report is already overdue by two days.",
+     "ar": "تقرير السيرفرات متأخر عن ميعاده بيومين خلاص.",
+     "ex2": "Overdue reports make the client lose trust in us.",
+     "ar2": "التقارير المتأخرة بتخلي العميل يفقد الثقة فينا."
+    }
+   ]
+  },
+  "ctx": "The deadline for the hospital quotation is tomorrow at 3 pm. Can you send me the battery prices from the supplier tonight?",
+  "ctx_ar": "آخر ميعاد لعرض سعر المستشفى بكرة الساعة 3 العصر. ممكن تبعتلي أسعار البطاريات من المورد النهارده بالليل؟",
+  "quiz": [
+   {
+    "s": "Please pay before the ___ on the invoice.",
+    "opts": [
+     "due date",
+     "time limit",
+     "shortlist"
+    ],
+    "a": 0,
+    "ar": "لو سمحت ادفع قبل ميعاد الاستحقاق اللي على الفاتورة."
+   },
+   {
+    "s": "The report is two days ___, so the manager is angry.",
+    "opts": [
+     "flexible",
+     "tight",
+     "overdue"
+    ],
+    "a": 2,
+    "ar": "التقرير متأخر يومين، فالمدير متضايق."
+   },
+   {
+    "s": "We have a ___ deadline: only three days for twenty VFDs.",
+    "opts": [
+     "flexible",
+     "tight",
+     "hard"
+    ],
+    "a": 1,
+    "ar": "عندنا ميعاد ضيق: تلات أيام بس لعشرين ‎VFD‎."
+   }
+  ]
+ },
+ {
+  "w": "under pressure",
+  "ar": "تحت ضغط",
+  "family": [
+   {
+    "w": "pressure",
+    "pos": "noun",
+    "ex": "There's a lot of pressure on the service team during the summer.",
+    "ar": "فيه ضغط كبير على فريق الخدمة في الصيف.",
+    "ex2": "Pressure goes up when many UPS units fail in the heat.",
+    "ar2": "الضغط بيزيد لما أجهزة ‎UPS‎ كتير تعطل من الحر."
+   },
+   {
+    "w": "pressure",
+    "pos": "verb",
+    "ex": "The client is pressuring us to deliver the batteries before Friday.",
+    "ar": "العميل بيضغط علينا نسلّم البطاريات قبل الجمعة.",
+    "ex2": "Don't let him pressure you into a bigger discount.",
+    "ar2": "متخليهوش يضغط عليك عشان تدي خصم أكبر."
+   },
+   {
+    "w": "pressured",
+    "pos": "adjective",
+    "ex": "I felt pressured to accept the PO without checking the payment terms.",
+    "ar": "حسّيت إني مضغوط أقبل الـ‎PO‎ من غير ما أراجع شروط الدفع.",
+    "ex2": "Pressured decisions usually cost us money later.",
+    "ar2": "القرارات اللي بتتاخد تحت ضغط عادةً بتكلفنا فلوس بعدين."
+   },
+   {
+    "w": "under pressure",
+    "pos": "adjective",
+    "ex": "Ahmed stays calm under pressure when a data centre goes down.",
+    "ar": "‎Ahmed‎ بيفضل هادي تحت الضغط لما داتا سنتر يقع.",
+    "ex2": "Under pressure, he still follows every safety step.",
+    "ar2": "وتحت الضغط برضه، بيمشي على كل خطوة أمان."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "stressed",
+    "note": "describes the feeling, not the situation",
+    "ex": "Sara is stressed because three invoices are still unpaid.",
+    "ar": "‎Sara‎ متوترة عشان تلات فواتير لسه متدفعوش.",
+    "ex2": "She feels stressed every time the CFO asks about collections.",
+    "ar2": "بتتوتر كل مرة المدير المالي يسأل عن التحصيل."
+   },
+   {
+    "w": "swamped",
+    "note": "too much work, very informal",
+    "ex": "I'm swamped with quotations this week, can you take the server one?",
+    "ar": "أنا غرقان في عروض أسعار الأسبوع ده، ممكن تاخد بتاع السيرفرات؟",
+    "ex2": "Everyone is swamped before the tender closes.",
+    "ar2": "الكل غرقان قبل ما المناقصة تقفل."
+   },
+   {
+    "w": "under the gun",
+    "note": "informal, strong time pressure from someone",
+    "ex": "We're under the gun to finish the solar station by June.",
+    "ar": "إحنا مضغوطين جامد نخلّص المحطة الشمسية قبل يونيو.",
+    "ex2": "The client is under the gun too, from his own management.",
+    "ar2": "والعميل نفسه مضغوط من الإدارة بتاعته."
+   }
+  ],
+  "ant": [
+   {
+    "w": "relaxed",
+    "ex": "Summer is busy, but the team is relaxed in February.",
+    "ar": "الصيف زحمة، بس الفريق رايق في فبراير.",
+    "ex2": "Relaxed months are good for training on new VFDs.",
+    "ar2": "الشهور الرايقة كويسة للتدريب على الـ‎VFDs‎ الجديدة."
+   },
+   {
+    "w": "at ease",
+    "ex": "The client felt at ease after we explained the maintenance plan.",
+    "ar": "العميل ارتاح بعد ما شرحنا خطة الصيانة.",
+    "ex2": "At ease, he signed the contract the same day.",
+    "ar2": "وهو مرتاح، مضى العقد في نفس اليوم."
+   }
+  ],
+  "ladder": {
+   "label": "how much pressure",
+   "lar": "الضغط قد إيه",
+   "steps": [
+    {
+     "w": "busy",
+     "ex": "We're busy this week with two battery replacements.",
+     "ar": "إحنا مشغولين الأسبوع ده بتغيير بطاريات في مكانين.",
+     "ex2": "Busy is normal; we can still take small jobs.",
+     "ar2": "مشغولين ده عادي؛ لسه نقدر ناخد شغلانات صغيرة."
+    },
+    {
+     "w": "under pressure",
+     "ex": "We're under pressure to close the tender by Thursday.",
+     "ar": "إحنا تحت ضغط نقفل المناقصة قبل الخميس.",
+     "ex2": "Under pressure, we cancelled the weekly meeting.",
+     "ar2": "وإحنا تحت ضغط، لغينا الاجتماع الأسبوعي."
+    },
+    {
+     "w": "overwhelmed",
+     "ex": "The service desk is overwhelmed with UPS alarms after the blackout.",
+     "ar": "الدعم الفني مش ملاحق على إنذارات الـ‎UPS‎ بعد انقطاع الكهربا.",
+     "ex2": "Overwhelmed, they asked sales engineers to help answer calls.",
+     "ar2": "ومش ملاحقين، طلبوا من مهندسين المبيعات يساعدوا في الرد."
+    },
+    {
+     "w": "at breaking point",
+     "ex": "After three nights on site, the team is at breaking point.",
+     "ar": "بعد تلات ليالي في الموقع، الفريق على آخره.",
+     "ex2": "At breaking point, people make dangerous mistakes.",
+     "ar2": "والناس على آخرها بيعملوا غلطات خطيرة."
+    }
+   ]
+  },
+  "ctx": "We were under pressure to restore the bank's servers before morning. Hany stayed calm and replaced the faulty UPS module by 6 am.",
+  "ctx_ar": "كنا تحت ضغط نرجّع سيرفرات البنك قبل الصبح. ‎Hany‎ فضل هادي وغيّر موديول الـ‎UPS‎ البايظ الساعة 6 الصبح.",
+  "quiz": [
+   {
+    "s": "The client keeps ___ us to cut the price.",
+    "opts": [
+     "pressure",
+     "pressuring",
+     "pressured"
+    ],
+    "a": 1,
+    "ar": "العميل فضل يضغط علينا نقلّل السعر."
+   },
+   {
+    "s": "After the blackout, the service desk was totally ___.",
+    "opts": [
+     "busy",
+     "relaxed",
+     "overwhelmed"
+    ],
+    "a": 2,
+    "ar": "بعد انقطاع الكهربا، الدعم الفني كان مش ملاحق خالص."
+   },
+   {
+    "s": "She stays calm ___ when the servers go down.",
+    "opts": [
+     "under pressure",
+     "relaxed",
+     "pressured"
+    ],
+    "a": 0,
+    "ar": "هي بتفضل هادية تحت الضغط لما السيرفرات تقع."
+   }
+  ]
+ },
+ {
+  "w": "delegate",
+  "ar": "يوزّع / يفوّض المهام",
+  "family": [
+   {
+    "w": "delegate",
+    "pos": "verb",
+    "ex": "As team leader, Omar should delegate the battery tests to the juniors.",
+    "ar": "كقائد فريق، ‎Omar‎ المفروض يوزّع اختبارات البطاريات على الجونيورز.",
+    "ex2": "If he delegates them, he can focus on the client meeting.",
+    "ar2": "لو وزّعها، يقدر يركّز في اجتماع العميل."
+   },
+   {
+    "w": "delegation",
+    "pos": "noun",
+    "ex": "Good delegation helped us finish five UPS installations in one week.",
+    "ar": "التوزيع الكويس للمهام خلانا نخلّص خمس تركيبات ‎UPS‎ في أسبوع.",
+    "ex2": "Without delegation, the manager would do everything alone.",
+    "ar2": "من غير توزيع المهام، المدير كان هيعمل كل حاجة لوحده."
+   },
+   {
+    "w": "delegate",
+    "pos": "person",
+    "ex": "Our delegate at the supplier meeting in Cairo was Nour.",
+    "ar": "مندوبتنا في اجتماع المورد في القاهرة كانت ‎Nour‎.",
+    "ex2": "As our delegate, she agreed the new battery prices.",
+    "ar2": "وهي مندوبتنا، اتفقت على أسعار البطاريات الجديدة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "give a task to someone else",
+    "mar": "يدّي مهمة لحد تاني",
+    "ex": "I'll delegate the quotation follow-ups to Mai.",
+    "ar": "هسيب متابعة عروض الأسعار لـ‎Mai‎.",
+    "ex2": "She'll delegate any technical questions to the engineers.",
+    "ar2": "وهي هتحوّل أي أسئلة فنية للمهندسين."
+   },
+   {
+    "m": "a person sent to represent the company",
+    "mar": "مندوب بيمثّل الشركة",
+    "ex": "Each company sent one delegate to the solar energy conference.",
+    "ar": "كل شركة بعتت مندوب واحد لمؤتمر الطاقة الشمسية.",
+    "ex2": "Our delegate collected twenty new leads there.",
+    "ar2": "مندوبنا جمع عشرين عميل محتمل هناك."
+   }
+  ],
+  "syn": [
+   {
+    "w": "assign",
+    "note": "give a specific task officially, often by a manager",
+    "ex": "The manager assigned the VFD project to Tarek's team.",
+    "ar": "المدير سلّم مشروع الـ‎VFD‎ لفريق ‎Tarek‎.",
+    "ex2": "He assigned the site survey to Tarek himself.",
+    "ar2": "وسلّم المعاينة لـ‎Tarek‎ بنفسه."
+   },
+   {
+    "w": "hand over",
+    "note": "pass full responsibility, often when leaving",
+    "ex": "Before his vacation, Hassan handed over all open service tickets.",
+    "ar": "قبل إجازته، ‎Hassan‎ سلّم كل تذاكر الخدمة المفتوحة.",
+    "ex2": "He handed over a clear list with each client's status.",
+    "ar2": "وسلّم ليستة واضحة بحالة كل عميل."
+   },
+   {
+    "w": "pass on",
+    "note": "informal; give a task or info to someone",
+    "ex": "Can you pass on this battery complaint to the service team?",
+    "ar": "ممكن توصّل شكوى البطاريات دي لفريق الخدمة؟",
+    "ex2": "I'll pass on the client's number too.",
+    "ar2": "وهوصّل رقم العميل كمان."
+   }
+  ],
+  "ant": [
+   {
+    "w": "micromanage",
+    "ex": "Don't micromanage the technicians; they know how to install a UPS.",
+    "ar": "متقعدش تراقب الفنيين في كل صغيرة؛ هما عارفين يركّبوا ‎UPS‎.",
+    "ex2": "If you micromanage, they lose motivation.",
+    "ar2": "لو فضلت تراقب كل حاجة، هيفقدوا الحماس."
+   },
+   {
+    "w": "do it yourself",
+    "ex": "Managers who do it themselves burn out fast.",
+    "ar": "المديرين اللي بيعملوا كل حاجة بنفسهم بيتهدّوا بسرعة.",
+    "ex2": "Doing it yourself also stops juniors from learning.",
+    "ar2": "وإنك تعملها بنفسك كمان بيمنع الجونيورز يتعلموا."
+   }
+  ],
+  "ladder": null,
+  "ctx": "I can't visit all five sites today, so I'll delegate the battery checks to Youssef. I'll handle the customer meeting myself.",
+  "ctx_ar": "مش هقدر أزور الخمس مواقع النهارده، فهوزّع فحص البطاريات على ‎Youssef‎. وأنا هتولّى اجتماع العميل بنفسي.",
+  "quiz": [
+   {
+    "s": "Good ___ helped the team finish on time.",
+    "opts": [
+     "delegate",
+     "delegation",
+     "delegated"
+    ],
+    "a": 1,
+    "ar": "توزيع المهام الكويس خلّى الفريق يخلّص في الميعاد."
+   },
+   {
+    "s": "Please ___ this complaint to the service team; it's not a sales issue.",
+    "opts": [
+     "micromanage",
+     "assign",
+     "pass on"
+    ],
+    "a": 2,
+    "ar": "لو سمحت وصّل الشكوى دي لفريق الخدمة؛ دي مش مشكلة مبيعات."
+   },
+   {
+    "s": "A good manager should ___ routine tasks and focus on clients.",
+    "opts": [
+     "delegate",
+     "micromanage",
+     "delegation"
+    ],
+    "a": 0,
+    "ar": "المدير الكويس المفروض يوزّع المهام الروتينية ويركّز مع العملا."
+   }
+  ]
+ },
+ {
+  "w": "anticipate",
+  "ar": "يتوقع حاجة قبل ما تحصل ويستعد لها",
+  "family": [
+   {
+    "w": "anticipate",
+    "pos": "verb",
+    "ex": "We anticipate higher demand for UPS units before the summer.",
+    "ar": "متوقعين طلب أعلى على أجهزة الـ‎UPS‎ قبل الصيف.",
+    "ex2": "So we anticipate it by ordering batteries in March.",
+    "ar2": "فبنستعد له بطلب البطاريات في مارس."
+   },
+   {
+    "w": "anticipation",
+    "pos": "noun",
+    "ex": "In anticipation of price increases, we ordered extra solar panels.",
+    "ar": "استعدادًا لزيادة الأسعار، طلبنا ألواح شمسية زيادة.",
+    "ex2": "That anticipation saved us 8% on the next project.",
+    "ar2": "الاستعداد ده وفّر علينا 8% في المشروع اللي بعده."
+   },
+   {
+    "w": "anticipated",
+    "pos": "adjective",
+    "ex": "The anticipated delivery date for the servers is 10 June.",
+    "ar": "ميعاد التسليم المتوقع للسيرفرات 10 يونيو.",
+    "ex2": "If the anticipated date changes, tell the client immediately.",
+    "ar2": "لو الميعاد المتوقع اتغيّر، بلّغ العميل على طول."
+   },
+   {
+    "w": "unanticipated",
+    "pos": "adjective",
+    "ex": "An unanticipated customs delay held our VFDs for two weeks.",
+    "ar": "تأخير جمارك مكانش متوقع حجز الـ‎VFDs‎ بتوعنا أسبوعين.",
+    "ex2": "Unanticipated costs went into the final invoice.",
+    "ar2": "التكاليف اللي مكانتش متوقعة دخلت في الفاتورة النهائية."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "expect",
+    "note": "just think it will happen, no preparation",
+    "ex": "We expect the payment by the end of the month.",
+    "ar": "متوقعين الدفعة آخر الشهر.",
+    "ex2": "If we expect a delay, we should call the client.",
+    "ar2": "لو متوقعين تأخير، المفروض نكلّم العميل."
+   },
+   {
+    "w": "foresee",
+    "note": "see a future problem; more formal",
+    "ex": "Nobody could foresee the dollar rate jump last year.",
+    "ar": "محدش كان يقدر يتوقع قفزة الدولار السنة اللي فاتت.",
+    "ex2": "Now we foresee risks and add a validity date to quotations.",
+    "ar2": "دلوقتي بنتوقع المخاطر وبنحط مدة صلاحية لعروض الأسعار."
+   },
+   {
+    "w": "plan for",
+    "note": "prepare actively; everyday and practical",
+    "ex": "We need to plan for battery replacements in all bank branches.",
+    "ar": "محتاجين نخطط لتغيير البطاريات في كل فروع البنك.",
+    "ex2": "Planning for it now avoids emergency visits later.",
+    "ar2": "التخطيط له دلوقتي بيمنع زيارات طوارئ بعدين."
+   }
+  ],
+  "ant": [
+   {
+    "w": "react",
+    "ex": "We always react after the UPS fails instead of preventing it.",
+    "ar": "إحنا دايمًا بنتصرف بعد ما الـ‎UPS‎ يعطل بدل ما نمنعه.",
+    "ex2": "Reacting late costs the client downtime and us reputation.",
+    "ar2": "التصرّف المتأخر بيكلّف العميل توقف وبيكلفنا سمعتنا."
+   },
+   {
+    "w": "overlook",
+    "ex": "We overlooked the import permit and the solar panels got stuck at the port.",
+    "ar": "سهينا عن تصريح الاستيراد والألواح الشمسية اتحجزت في الميناء.",
+    "ex2": "Never overlook paperwork on imported equipment.",
+    "ar2": "متسهاش أبدًا عن الورق في المعدات المستوردة."
+   }
+  ],
+  "ladder": {
+   "label": "how prepared you are",
+   "lar": "مستعد قد إيه",
+   "steps": [
+    {
+     "w": "expect",
+     "ex": "We expect some delay from the supplier.",
+     "ar": "متوقعين شوية تأخير من المورد.",
+     "ex2": "We expect it but haven't planned anything yet.",
+     "ar2": "متوقعينه بس لسه مخططناش لحاجة."
+    },
+    {
+     "w": "anticipate",
+     "ex": "We anticipate the delay and order two weeks early.",
+     "ar": "بنتوقع التأخير وبنطلب بدري بأسبوعين.",
+     "ex2": "Because we anticipate it, the project stays on schedule.",
+     "ar2": "وعشان متوقعينه، المشروع بيفضل ماشي في ميعاده."
+    },
+    {
+     "w": "prepare for",
+     "ex": "We prepare for the worst with spare batteries in stock.",
+     "ar": "بنستعد للأسوأ ببطاريات احتياطي في المخزن.",
+     "ex2": "Preparing for failures keeps our response time short.",
+     "ar2": "الاستعداد للأعطال بيخلي وقت الاستجابة قصير."
+    },
+    {
+     "w": "prevent",
+     "ex": "Regular maintenance helps prevent UPS failures completely.",
+     "ar": "الصيانة الدورية بتساعد تمنع أعطال الـ‎UPS‎ خالص.",
+     "ex2": "Preventing problems is cheaper than fixing them.",
+     "ar2": "منع المشاكل أرخص من تصليحها."
+    }
+   ]
+  },
+  "ctx": "A good sales engineer anticipates the client's questions. Before the meeting, prepare battery runtime calculations and the maintenance price.",
+  "ctx_ar": "مهندس المبيعات الشاطر بيتوقع أسئلة العميل. قبل الاجتماع، جهّز حسابات وقت تشغيل البطاريات وسعر الصيانة.",
+  "quiz": [
+   {
+    "s": "The ___ delivery date is next Sunday.",
+    "opts": [
+     "anticipate",
+     "anticipation",
+     "anticipated"
+    ],
+    "a": 2,
+    "ar": "ميعاد التسليم المتوقع الحد الجاي."
+   },
+   {
+    "s": "We ___ the payment by the end of the month, nothing more.",
+    "opts": [
+     "expect",
+     "prevent",
+     "prepare for"
+    ],
+    "a": 0,
+    "ar": "متوقعين الدفعة آخر الشهر، مش أكتر."
+   },
+   {
+    "s": "Good maintenance can ___ most UPS failures.",
+    "opts": [
+     "react",
+     "prevent",
+     "overlook"
+    ],
+    "a": 1,
+    "ar": "الصيانة الكويسة تقدر تمنع معظم أعطال الـ‎UPS‎."
+   }
+  ]
+ },
+ {
+  "w": "stretch targets",
+  "ar": "أهداف صعبة وطموحة أعلى من العادي",
+  "family": [
+   {
+    "w": "stretch target",
+    "pos": "noun",
+    "ex": "My stretch target this year is 12 million pounds in UPS sales.",
+    "ar": "الهدف الطموح بتاعي السنة دي 12 مليون جنيه مبيعات ‎UPS‎.",
+    "ex2": "The normal target is only 9 million.",
+    "ar2": "الهدف العادي 9 مليون بس."
+   },
+   {
+    "w": "stretch",
+    "pos": "verb",
+    "ex": "The new solar contracts will stretch the installation team.",
+    "ar": "عقود الطاقة الشمسية الجديدة هتضغط على فريق التركيب لآخره.",
+    "ex2": "We'll stretch them, but not beyond safety limits.",
+    "ar2": "هنضغطهم، بس مش فوق حدود الأمان."
+   },
+   {
+    "w": "stretch",
+    "pos": "adjective",
+    "ex": "Management set stretch goals for collections this quarter.",
+    "ar": "الإدارة حطت أهداف تحصيل طموحة الربع ده.",
+    "ex2": "Stretch goals come with a bigger bonus.",
+    "ar2": "الأهداف الطموحة جاية معاها بونص أكبر."
+   },
+   {
+    "w": "stretch targets",
+    "pos": "noun",
+    "ex": "I like stretch targets because they push me to find new clients.",
+    "ar": "بحب الأهداف الطموحة عشان بتزقني أدور على عملا جداد.",
+    "ex2": "With stretch targets, I visited three new factories.",
+    "ar2": "وبالأهداف الطموحة دي، زرت تلات مصانع جديدة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "ambitious targets",
+    "note": "general phrase, positive tone",
+    "ex": "We have ambitious targets for data-centre projects in 2027.",
+    "ar": "عندنا أهداف طموحة لمشاريع الداتا سنتر في 2027.",
+    "ex2": "Ambitious targets need more engineers.",
+    "ar2": "الأهداف الطموحة محتاجة مهندسين أكتر."
+   },
+   {
+    "w": "challenging goals",
+    "note": "more neutral; used in reviews and job ads",
+    "ex": "The job offers challenging goals and a good commission.",
+    "ar": "الوظيفة فيها أهداف صعبة وعمولة كويسة.",
+    "ex2": "Challenging goals keep the sales team motivated.",
+    "ar2": "الأهداف الصعبة بتخلي فريق المبيعات متحمّس."
+   },
+   {
+    "w": "quota",
+    "note": "fixed sales number you must reach",
+    "ex": "My monthly quota is ten battery replacement deals.",
+    "ar": "التارجت الشهري بتاعي عشر صفقات تغيير بطاريات.",
+    "ex2": "Missing the quota twice means a talk with the manager.",
+    "ar2": "لو فوّت التارجت مرتين يبقى في كلام مع المدير."
+   }
+  ],
+  "ant": [
+   {
+    "w": "easy targets",
+    "ex": "Easy targets don't help the team grow.",
+    "ar": "الأهداف السهلة مش بتساعد الفريق يكبر.",
+    "ex2": "With easy targets, people stop looking for new leads.",
+    "ar2": "بالأهداف السهلة، الناس بتبطّل تدوّر على عملا جداد."
+   },
+   {
+    "w": "realistic targets",
+    "ex": "Finance prefers realistic targets for the cash-flow plan.",
+    "ar": "المالية بتفضّل أهداف واقعية لخطة التدفق النقدي.",
+    "ex2": "Realistic targets make the budget more reliable.",
+    "ar2": "الأهداف الواقعية بتخلي الميزانية مضمونة أكتر."
+   }
+  ],
+  "ladder": {
+   "label": "how hard the target is",
+   "lar": "الهدف صعب قد إيه",
+   "steps": [
+    {
+     "w": "realistic target",
+     "ex": "Last year's realistic target was 8 million.",
+     "ar": "الهدف الواقعي السنة اللي فاتت كان 8 مليون.",
+     "ex2": "We reached that realistic target in October.",
+     "ar2": "حققنا الهدف الواقعي ده في أكتوبر."
+    },
+    {
+     "w": "ambitious target",
+     "ex": "This year we set an ambitious target of 10 million.",
+     "ar": "السنة دي حطينا هدف طموح 10 مليون.",
+     "ex2": "An ambitious target needs two new big clients.",
+     "ar2": "الهدف الطموح محتاج عميلين كبار جداد."
+    },
+    {
+     "w": "stretch target",
+     "ex": "The stretch target is 12 million with the solar business.",
+     "ar": "الهدف الطموح جدًا 12 مليون مع شغل الطاقة الشمسية.",
+     "ex2": "Hitting the stretch target doubles the bonus.",
+     "ar2": "تحقيق الهدف ده بيضاعف البونص."
+    },
+    {
+     "w": "unrealistic target",
+     "ex": "Twenty million in one year is an unrealistic target for us.",
+     "ar": "عشرين مليون في سنة هدف مش واقعي لينا.",
+     "ex2": "An unrealistic target just kills motivation.",
+     "ar2": "الهدف اللي مش واقعي بيموّت الحماس وبس."
+    }
+   ]
+  },
+  "ctx": "Our manager gave us stretch targets for the third quarter. If we win the factory VFD project, we'll beat them easily.",
+  "ctx_ar": "المدير ادّانا أهداف طموحة للربع التالت. لو كسبنا مشروع الـ‎VFD‎ بتاع المصنع، هنعدّيها بسهولة.",
+  "quiz": [
+   {
+    "s": "Twenty million in one year is an ___ target for a small team.",
+    "opts": [
+     "ambitious",
+     "unrealistic",
+     "realistic"
+    ],
+    "a": 1,
+    "ar": "عشرين مليون في سنة هدف مش واقعي لفريق صغير."
+   },
+   {
+    "s": "My monthly ___ is ten deals.",
+    "opts": [
+     "quota",
+     "stretch",
+     "easy targets"
+    ],
+    "a": 0,
+    "ar": "التارجت الشهري بتاعي عشر صفقات."
+   },
+   {
+    "s": "The new projects will ___ our team to the limit.",
+    "opts": [
+     "stretch targets",
+     "stretched",
+     "stretch"
+    ],
+    "a": 2,
+    "ar": "المشاريع الجديدة هتضغط فريقنا لآخره."
+   }
+  ]
+ }
+]

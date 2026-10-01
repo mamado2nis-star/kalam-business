@@ -1,0 +1,884 @@
+[
+ {
+  "w": "mitigate",
+  "ar": "يقلّل من الضرر أو الخطر",
+  "family": [
+   {
+    "w": "mitigate",
+    "pos": "verb",
+    "ex": "A second UPS module will mitigate the risk of a full shutdown.",
+    "ar": "موديول ‎UPS‎ تاني هيقلّل خطر إن كل حاجة تقف.",
+    "ex2": "It helps mitigate damage if one module fails.",
+    "ar2": "ده بيقلّل الضرر لو موديول واحد وقع."
+   },
+   {
+    "w": "mitigation",
+    "pos": "noun",
+    "ex": "Our mitigation plan includes renting a generator during the battery replacement.",
+    "ar": "خطة تقليل المخاطر بتاعتنا فيها إيجار مولّد وقت تغيير البطاريات.",
+    "ex2": "The client approved the mitigation plan the same day.",
+    "ar2": "العميل وافق على الخطة في نفس اليوم."
+   },
+   {
+    "w": "mitigating",
+    "pos": "adjective",
+    "ex": "The customs delay was a mitigating factor, so we didn't charge a penalty.",
+    "ar": "تأخير الجمارك كان ظرف مخفّف، فمحسبناش غرامة.",
+    "ex2": "The client accepted those mitigating circumstances without argument.",
+    "ar2": "العميل قبل الظروف دي من غير نقاش."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "reduce",
+    "note": "general everyday word for making anything smaller",
+    "ex": "We need to reduce downtime at the data centre.",
+    "ar": "لازم نقلّل وقت التوقف في الداتا سنتر.",
+    "ex2": "Hot-swap batteries can reduce downtime to almost zero.",
+    "ar2": "البطاريات اللي بتتغير وهي شغالة ممكن تقلّل التوقف لحوالي صفر."
+   },
+   {
+    "w": "minimise",
+    "note": "bring to the lowest possible level; stronger than reduce",
+    "ex": "We schedule maintenance at night to minimise disruption for the bank.",
+    "ar": "بنعمل الصيانة بالليل عشان نقلّل الإزعاج للبنك لأقل حد.",
+    "ex2": "That way we minimise complaints from branch staff.",
+    "ar2": "كده بنقلّل الشكاوى من موظفين الفرع لأقل حاجة."
+   },
+   {
+    "w": "ease",
+    "note": "make pressure or pain lighter; soft, friendly word",
+    "ex": "Splitting the invoice into two payments will ease the pressure on the client.",
+    "ar": "تقسيم الفاتورة على دفعتين هيخفّف الضغط على العميل.",
+    "ex2": "It should also ease our collection problem this quarter.",
+    "ar2": "وكمان هيخفّف مشكلة التحصيل عندنا الربع ده."
+   }
+  ],
+  "ant": [
+   {
+    "w": "worsen",
+    "ex": "Running the VFD without cooling will worsen the overheating problem.",
+    "ar": "تشغيل الـ‎VFD‎ من غير تبريد هيزوّد مشكلة السخونية.",
+    "ex2": "If the fault worsens, the pump will stop completely.",
+    "ar2": "لو العطل زاد، الطلمبة هتقف خالص."
+   },
+   {
+    "w": "aggravate",
+    "ex": "Ignoring the customer's complaint will only aggravate the situation.",
+    "ar": "تجاهل شكوى العميل هيعقّد الموقف أكتر.",
+    "ex2": "Late replies aggravate angry clients even more.",
+    "ar2": "الرد المتأخر بيعصّب العملاء الزعلانين أكتر."
+   }
+  ],
+  "ladder": {
+   "label": "how much you cut the risk",
+   "lar": "قد إيه بتقلّل الخطر",
+   "steps": [
+    {
+     "w": "ease",
+     "ex": "A temporary generator will ease the risk during the upgrade.",
+     "ar": "مولّد مؤقت هيخفّف الخطر وقت الترقية.",
+     "ex2": "It won't remove it, but it will ease it.",
+     "ar2": "مش هيلغيه، بس هيخفّفه."
+    },
+    {
+     "w": "reduce",
+     "ex": "Redundant power supplies reduce the risk of server downtime.",
+     "ar": "الباور سبلاي الاحتياطي بيقلّل خطر وقوع السيرفرات.",
+     "ex2": "They reduce it a lot, but not completely.",
+     "ar2": "بيقلّلوه كتير، بس مش خالص."
+    },
+    {
+     "w": "minimise",
+     "ex": "Daily monitoring will minimise the chance of a battery fire.",
+     "ar": "المتابعة اليومية هتقلّل فرصة حريق البطاريات لأقل حد.",
+     "ex2": "We minimise risk by checking temperatures every morning.",
+     "ar2": "بنقلّل الخطر لأقل حد بإننا نشيك على الحرارة كل صبح."
+    },
+    {
+     "w": "eliminate",
+     "ex": "Replacing the old cables will eliminate the overheating risk.",
+     "ar": "تغيير الكابلات القديمة هيلغي خطر السخونية خالص.",
+     "ex2": "After that, we eliminate this fault type completely.",
+     "ar2": "بعد كده العطل ده هيختفي تمامًا."
+    }
+   ]
+  },
+  "ctx": "The supplier will be two weeks late. Can we mitigate the delay by lending the client a spare UPS?",
+  "ctx_ar": "المورّد هيتأخر أسبوعين. ممكن نقلّل أثر التأخير ده إننا نسلّف العميل ‎UPS‎ احتياطي؟",
+  "quiz": [
+   {
+    "s": "We need a clear ___ plan before the solar station shutdown.",
+    "opts": [
+     "mitigate",
+     "mitigation",
+     "mitigating"
+    ],
+    "a": 1,
+    "ar": "محتاجين خطة واضحة لتقليل المخاطر قبل وقفة المحطة الشمسية."
+   },
+   {
+    "s": "Night work will ___ disruption to the lowest possible level.",
+    "opts": [
+     "ease",
+     "minimise",
+     "worsen"
+    ],
+    "a": 1,
+    "ar": "الشغل بالليل هيقلّل الإزعاج لأقل حد ممكن."
+   },
+   {
+    "s": "How can we ___ the impact of the price increase?",
+    "opts": [
+     "mitigate",
+     "mitigation",
+     "aggravate"
+    ],
+    "a": 0,
+    "ar": "إزاي نقلّل تأثير زيادة الأسعار؟"
+   }
+  ]
+ },
+ {
+  "w": "work-life balance",
+  "ar": "التوازن بين الشغل والحياة",
+  "family": [
+   {
+    "w": "balance",
+    "pos": "noun",
+    "ex": "The team needs a better balance between site visits and office work.",
+    "ar": "الفريق محتاج توازن أحسن بين الزيارات والشغل في المكتب.",
+    "ex2": "Right now the balance is all site visits.",
+    "ar2": "دلوقتي الكفة كلها زيارات."
+   },
+   {
+    "w": "balance",
+    "pos": "verb",
+    "ex": "I try to balance urgent service calls with my quotation work.",
+    "ar": "بحاول أوازن بين بلاغات الصيانة المستعجلة وشغل عروض الأسعار.",
+    "ex2": "Balancing both is hard during the end of quarter.",
+    "ar2": "الموازنة بينهم صعبة آخر الربع."
+   },
+   {
+    "w": "balanced",
+    "pos": "adjective",
+    "ex": "A balanced on-call schedule means nobody works every weekend.",
+    "ar": "جدول نوبطجيات متوازن معناه إن محدش يشتغل كل ويك إند.",
+    "ex2": "Karim finally has a balanced rota this month.",
+    "ar2": "كريم أخيرًا عنده جدول متوازن الشهر ده."
+   },
+   {
+    "w": "work-life balance",
+    "pos": "noun",
+    "ex": "Working late every night is hurting my work-life balance.",
+    "ar": "الشغل لوقت متأخر كل يوم بيبوّظ التوازن بين شغلي وحياتي.",
+    "ex2": "Could we talk about my work-life balance in our next one-to-one?",
+    "ar2": "ممكن نتكلم عن الموضوع ده في الاجتماع الفردي الجاي؟"
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "work-life harmony",
+    "note": "newer HR phrase; same idea, sounds softer and less common",
+    "ex": "HR now talks about work-life harmony in the staff survey.",
+    "ar": "الـ‎HR‎ بقت تتكلم عن الانسجام بين الشغل والحياة في استبيان الموظفين.",
+    "ex2": "Work-life harmony was the lowest score in the service team.",
+    "ar2": "ده كان أقل تقييم في فريق الصيانة."
+   },
+   {
+    "w": "reasonable hours",
+    "note": "concrete: talks only about time spent working",
+    "ex": "Field engineers should work reasonable hours, even during the solar project.",
+    "ar": "مهندسين الموقع لازم يشتغلوا ساعات معقولة حتى في مشروع الطاقة الشمسية.",
+    "ex2": "Reasonable hours keep them alert on site.",
+    "ar2": "الساعات المعقولة بتخليهم مركّزين في الموقع."
+   }
+  ],
+  "ant": [
+   {
+    "w": "overwork",
+    "ex": "Constant overwork has made two of our technicians resign.",
+    "ar": "الشغل الزيادة على طول خلّى اتنين من الفنيين يستقيلوا.",
+    "ex2": "We must stop overwork before we lose more people.",
+    "ar2": "لازم نوقف الإرهاق ده قبل ما نخسر ناس تاني."
+   }
+  ],
+  "ladder": {
+   "label": "how heavy the workload feels",
+   "lar": "الشغل تقيل قد إيه",
+   "steps": [
+    {
+     "w": "busy",
+     "ex": "I'm busy this week with three UPS installations.",
+     "ar": "أنا مشغول الأسبوع ده بتلات تركيبات ‎UPS‎.",
+     "ex2": "Busy is fine; I can still answer emails.",
+     "ar2": "مشغول عادي، لسه بقدر أرد على الإيميلات."
+    },
+    {
+     "w": "stretched",
+     "ex": "The service team is stretched since Ahmed left.",
+     "ar": "فريق الصيانة مضغوط من ساعة ما أحمد مشي.",
+     "ex2": "We're stretched across four sites at once.",
+     "ar2": "إحنا متوزعين على أربع مواقع في نفس الوقت."
+    },
+    {
+     "w": "overwhelmed",
+     "ex": "I feel overwhelmed with quotations and site visits together.",
+     "ar": "حاسس إن الشغل غرقني بين عروض الأسعار والزيارات.",
+     "ex2": "When I'm overwhelmed, mistakes appear in the quotations.",
+     "ar2": "لما الشغل يغرقني بتطلع غلطات في العروض."
+    },
+    {
+     "w": "burned out",
+     "ex": "After six months of night shifts, Mona is completely burned out.",
+     "ar": "بعد ست شهور شيفتات بالليل، منى مستنزفة خالص.",
+     "ex2": "Burned out staff need real time off, not just a thank-you.",
+     "ar2": "الموظفين المستنزفين محتاجين أجازة بجد، مش شكرًا وبس."
+    }
+   ]
+  },
+  "ctx": "I've worked every Friday this month on the data centre project. Can we discuss my work-life balance?",
+  "ctx_ar": "اشتغلت كل جمعة الشهر ده في مشروع الداتا سنتر. ممكن نتكلم عن التوازن بين شغلي وحياتي؟",
+  "quiz": [
+   {
+    "s": "A ___ rota means nobody covers every weekend.",
+    "opts": [
+     "balance",
+     "balanced",
+     "balancing"
+    ],
+    "a": 1,
+    "ar": "جدول متوازن معناه إن محدش بيغطي كل ويك إند."
+   },
+   {
+    "s": "Since two engineers left, the team is ___, but still coping.",
+    "opts": [
+     "stretched",
+     "burned out",
+     "balanced"
+    ],
+    "a": 0,
+    "ar": "من ساعة ما اتنين مهندسين مشيوا، الفريق مضغوط بس لسه ماشي."
+   },
+   {
+    "s": "Six months of night shifts left him totally ___.",
+    "opts": [
+     "busy",
+     "stretched",
+     "burned out"
+    ],
+    "a": 2,
+    "ar": "ست شهور شيفتات بالليل خلّوه مستنزف خالص."
+   }
+  ]
+ },
+ {
+  "w": "micromanaged",
+  "ar": "متراقب في كل صغيرة وكبيرة",
+  "family": [
+   {
+    "w": "micromanage",
+    "pos": "verb",
+    "ex": "Please don't micromanage the technicians; they know how to replace batteries.",
+    "ar": "لو سمحت متراقبش الفنيين في كل حاجة؛ هما عارفين يغيّروا البطاريات.",
+    "ex2": "If you micromanage them, the job takes twice as long.",
+    "ar2": "لو راقبتهم كده الشغل هياخد ضعف الوقت."
+   },
+   {
+    "w": "micromanaged",
+    "pos": "adjective",
+    "ex": "I feel micromanaged when every quotation needs three approvals.",
+    "ar": "بحس إني متراقب زيادة لما كل عرض سعر محتاج تلات موافقات.",
+    "ex2": "Being micromanaged slows down our replies to customers.",
+    "ar2": "الرقابة دي بتأخّر ردودنا على العملاء."
+   },
+   {
+    "w": "micromanagement",
+    "pos": "noun",
+    "ex": "Too much micromanagement is why our best engineer resigned.",
+    "ar": "الرقابة الزيادة هي السبب إن أحسن مهندس عندنا استقال.",
+    "ex2": "He said micromanagement made him feel untrusted.",
+    "ar2": "قال إن الرقابة دي خلّته يحس إنهم مش واثقين فيه."
+   },
+   {
+    "w": "micromanager",
+    "pos": "person",
+    "ex": "Our new project manager is a micromanager who checks every cable label.",
+    "ar": "مدير المشروع الجديد بتاعنا بيدخل في كل تفصيلة وبيشيك على كل ليبل كابل.",
+    "ex2": "Working with a micromanager is tiring for the site team.",
+    "ar2": "الشغل مع حد كده متعب لفريق الموقع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "closely monitored",
+    "note": "neutral or formal; can be normal for new staff or risky work",
+    "ex": "New technicians are closely monitored during their first month.",
+    "ar": "الفنيين الجداد بيتابعوهم عن قرب أول شهر.",
+    "ex2": "Being closely monitored on live panels is for safety.",
+    "ar2": "المتابعة عن قرب على اللوح الشغالة عشان الأمان."
+   },
+   {
+    "w": "constantly checked on",
+    "note": "informal complaint; focuses on someone asking for updates all day",
+    "ex": "I'm constantly checked on about the VFD order, every hour.",
+    "ar": "بيسألوني على طول على أوردر الـ‎VFD‎، كل ساعة.",
+    "ex2": "Being constantly checked on stops me from actually chasing the supplier.",
+    "ar2": "السؤال كل شوية مانعني فعلًا إني أتابع المورّد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "trusted",
+    "ex": "I feel trusted when my manager lets me approve small discounts.",
+    "ar": "بحس إنهم واثقين فيا لما مديري يسيبني أوافق على الخصومات الصغيرة.",
+    "ex2": "Trusted staff usually make faster decisions with customers.",
+    "ar2": "الموظفين اللي واخدين ثقة بياخدوا قرارات أسرع مع العملاء."
+   },
+   {
+    "w": "empowered",
+    "ex": "Our engineers are empowered to replace faulty cards without waiting for approval.",
+    "ar": "المهندسين عندهم صلاحية يغيّروا الكروت البايظة من غير ما يستنوا موافقة.",
+    "ex2": "Empowered teams fix problems on the first visit.",
+    "ar2": "الفرق اللي معاها صلاحية بتحل المشاكل من أول زيارة."
+   }
+  ],
+  "ladder": {
+   "label": "how much control",
+   "lar": "قد إيه فيه تحكّم",
+   "steps": [
+    {
+     "w": "guided",
+     "ex": "On her first solar job, Salma was guided by a senior engineer.",
+     "ar": "في أول شغلانة طاقة شمسية، سلمى كان معاها مهندس كبير يوجّهها.",
+     "ex2": "Being guided helped her learn fast.",
+     "ar2": "التوجيه ده ساعدها تتعلم بسرعة."
+    },
+    {
+     "w": "supervised",
+     "ex": "Battery work on live systems must be supervised.",
+     "ar": "شغل البطاريات على سيستم شغال لازم يكون تحت إشراف.",
+     "ex2": "A supervised job is safer for everyone.",
+     "ar2": "الشغل اللي تحت إشراف أأمن للكل."
+    },
+    {
+     "w": "closely monitored",
+     "ex": "Overtime claims are closely monitored this quarter.",
+     "ar": "طلبات الأوفر تايم متابعة عن قرب الربع ده.",
+     "ex2": "Finance monitors them closely because of the budget.",
+     "ar2": "المالية بتتابعها عن قرب بسبب الميزانية."
+    },
+    {
+     "w": "micromanaged",
+     "ex": "I'm micromanaged down to the font in my quotations.",
+     "ar": "أنا متراقب لدرجة الخط اللي بكتب بيه عروض الأسعار.",
+     "ex2": "Being micromanaged like this kills my motivation.",
+     "ar2": "الرقابة دي بتقتل حماسي."
+    }
+   ]
+  },
+  "ctx": "I feel a bit micromanaged on the bank project. Could I send one daily update instead of hourly calls?",
+  "ctx_ar": "حاسس إني متراقب شوية زيادة في مشروع البنك. ممكن أبعت تحديث واحد في اليوم بدل مكالمات كل ساعة؟",
+  "quiz": [
+   {
+    "s": "Too much ___ made our best engineer resign.",
+    "opts": [
+     "micromanage",
+     "micromanaged",
+     "micromanagement"
+    ],
+    "a": 2,
+    "ar": "الرقابة الزيادة خلّت أحسن مهندس عندنا يستقيل."
+   },
+   {
+    "s": "Please don't ___ the team; they've done this job many times.",
+    "opts": [
+     "micromanage",
+     "micromanager",
+     "micromanaged"
+    ],
+    "a": 0,
+    "ar": "لو سمحت متدخلش في كل حاجة مع الفريق؛ هما عملوا الشغلانة دي كتير."
+   },
+   {
+    "s": "Live battery work must be ___ for safety.",
+    "opts": [
+     "micromanaged",
+     "supervised",
+     "trusted"
+    ],
+    "a": 1,
+    "ar": "شغل البطاريات على سيستم شغال لازم يبقى تحت إشراف عشان الأمان."
+   }
+  ]
+ },
+ {
+  "w": "compensation",
+  "ar": "التعويض / المرتب والمزايا",
+  "family": [
+   {
+    "w": "compensation",
+    "pos": "noun",
+    "ex": "The compensation for field engineers includes a car allowance.",
+    "ar": "مرتب ومزايا مهندسين الموقع فيها بدل عربية.",
+    "ex2": "Better compensation would help us keep good engineers.",
+    "ar2": "مزايا أحسن هتساعدنا نحافظ على المهندسين الكويسين."
+   },
+   {
+    "w": "compensate",
+    "pos": "verb",
+    "ex": "The supplier agreed to compensate us for the damaged batteries.",
+    "ar": "المورّد وافق يعوّضنا عن البطاريات اللي اتبهدلت.",
+    "ex2": "They will compensate us with a credit note.",
+    "ar2": "هيعوّضونا بإشعار دائن."
+   },
+   {
+    "w": "compensatory",
+    "pos": "adjective",
+    "ex": "Staff who work on Friday get a compensatory day off.",
+    "ar": "الموظفين اللي بيشتغلوا يوم الجمعة بياخدوا يوم أجازة بدل.",
+    "ex2": "Compensatory days must be used within one month.",
+    "ar2": "أيام البدل لازم تتاخد خلال شهر."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "pay and benefits for a job",
+    "mar": "المرتب والمزايا",
+    "ex": "I'd like to discuss my compensation before the annual review.",
+    "ar": "حابب أتكلم عن مرتبي ومزاياي قبل التقييم السنوي.",
+    "ex2": "My compensation hasn't changed in two years.",
+    "ar2": "مرتبي متغيرش من سنتين."
+   },
+   {
+    "m": "money paid for a loss or damage",
+    "mar": "تعويض عن خسارة أو ضرر",
+    "ex": "The client asked for compensation after the UPS failure stopped their servers.",
+    "ar": "العميل طلب تعويض بعد ما عطل الـ‎UPS‎ وقّف السيرفرات بتاعتهم.",
+    "ex2": "Our contract limits compensation to the value of the service.",
+    "ar2": "العقد بتاعنا بيحدد التعويض بقيمة الخدمة بس."
+   }
+  ],
+  "syn": [
+   {
+    "w": "salary",
+    "note": "fixed monthly pay only, without bonuses or benefits",
+    "ex": "My salary is paid on the 25th of every month.",
+    "ar": "مرتبي بينزل يوم ٢٥ كل شهر.",
+    "ex2": "The salary doesn't include the sales commission.",
+    "ar2": "المرتب مش شامل عمولة المبيعات."
+   },
+   {
+    "w": "pay",
+    "note": "everyday word for money you earn",
+    "ex": "The pay for night shifts should be higher.",
+    "ar": "فلوس شيفتات الليل المفروض تكون أعلى.",
+    "ex2": "Better pay would make on-call duty fairer.",
+    "ar2": "فلوس أحسن هتخلي النوبطجية أعدل."
+   },
+   {
+    "w": "package",
+    "note": "salary plus all benefits; used in job offers",
+    "ex": "The package includes medical insurance and a phone allowance.",
+    "ar": "الباكدج فيه تأمين طبي وبدل موبايل.",
+    "ex2": "Their package was better, so Omar moved companies.",
+    "ar2": "الباكدج بتاعهم كان أحسن، فعمر غيّر الشركة."
+   },
+   {
+    "w": "remuneration",
+    "note": "very formal; contracts and HR policy documents",
+    "ex": "Remuneration for overtime is set out in section four.",
+    "ar": "مقابل الأوفر تايم مكتوب في البند الرابع.",
+    "ex2": "Remuneration is reviewed every January.",
+    "ar2": "المقابل المادي بيتراجع كل يناير."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how formal",
+   "lar": "قد إيه رسمي",
+   "steps": [
+    {
+     "w": "pay",
+     "ex": "Is the pay good at your new job?",
+     "ar": "الفلوس حلوة في شغلك الجديد؟",
+     "ex2": "He said the pay is better but hours are longer.",
+     "ar2": "قال إن الفلوس أحسن بس الساعات أطول."
+    },
+    {
+     "w": "salary",
+     "ex": "Salary increases are linked to the yearly sales target.",
+     "ar": "زيادات المرتب مربوطة بتارجت المبيعات السنوي.",
+     "ex2": "My salary went up 15% this year.",
+     "ar2": "مرتبي زاد ١٥% السنة دي."
+    },
+    {
+     "w": "compensation",
+     "ex": "Let's review your total compensation, including the car and bonus.",
+     "ar": "خلّينا نراجع مرتبك ومزاياك كلها، بالعربية والبونص.",
+     "ex2": "Total compensation matters more than basic salary.",
+     "ar2": "الإجمالي أهم من المرتب الأساسي."
+    },
+    {
+     "w": "remuneration",
+     "ex": "The board approved the new remuneration policy for engineers.",
+     "ar": "مجلس الإدارة وافق على سياسة المقابل المادي الجديدة للمهندسين.",
+     "ex2": "The remuneration policy starts next quarter.",
+     "ar2": "السياسة دي هتبدأ الربع الجاي."
+    }
+   ]
+  },
+  "ctx": "I've taken on the whole Alexandria region this year. I'd like to discuss whether my compensation reflects that.",
+  "ctx_ar": "أنا ماسك منطقة إسكندرية كلها السنة دي. حابب نتكلم هل مرتبي ومزاياي متناسبين مع ده ولا لأ.",
+  "quiz": [
+   {
+    "s": "The supplier will ___ us for the broken inverter.",
+    "opts": [
+     "compensation",
+     "compensate",
+     "compensatory"
+    ],
+    "a": 1,
+    "ar": "المورّد هيعوّضنا عن الإنفرتر المكسور."
+   },
+   {
+    "s": "The job offer came with a great ___: car, insurance and bonus.",
+    "opts": [
+     "package",
+     "salary",
+     "pay"
+    ],
+    "a": 0,
+    "ar": "عرض الشغل كان فيه باكدج حلو: عربية وتأمين وبونص."
+   },
+   {
+    "s": "If you work Friday, you get a ___ day off.",
+    "opts": [
+     "compensate",
+     "compensation",
+     "compensatory"
+    ],
+    "a": 2,
+    "ar": "لو اشتغلت الجمعة بتاخد يوم أجازة بدل."
+   }
+  ]
+ },
+ {
+  "w": "acknowledge",
+  "ar": "يعترف بـ / يأكد استلام / يقدّر",
+  "family": [
+   {
+    "w": "acknowledge",
+    "pos": "verb",
+    "ex": "I acknowledge that the delivery was late, and I apologise.",
+    "ar": "أنا معترف إن التسليم اتأخر، وبعتذر.",
+    "ex2": "I acknowledge it was our mistake, not the supplier's.",
+    "ar2": "معترف إنها غلطتنا، مش غلطة المورّد."
+   },
+   {
+    "w": "acknowledgement",
+    "pos": "noun",
+    "ex": "Please send an acknowledgement once you receive the PO.",
+    "ar": "لو سمحت ابعت تأكيد استلام أول ما يوصلك أمر الشراء.",
+    "ex2": "Without an acknowledgement, we can't start the import.",
+    "ar2": "من غير تأكيد الاستلام مش هنقدر نبدأ الاستيراد."
+   },
+   {
+    "w": "acknowledged",
+    "pos": "adjective",
+    "ex": "Hossam is an acknowledged expert in VFD repairs.",
+    "ar": "حسام خبير معروف في تصليح الـ‎VFD‎.",
+    "ex2": "Customers ask for him because he's an acknowledged specialist.",
+    "ar2": "العملاء بيطلبوه بالاسم لأنه متخصص معروف."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "admit or accept a fact",
+    "mar": "يعترف بحاجة",
+    "ex": "We acknowledge the problem with the last battery shipment.",
+    "ar": "إحنا معترفين بالمشكلة اللي في شحنة البطاريات الأخيرة.",
+    "ex2": "We acknowledge it and will replace the faulty units.",
+    "ar2": "معترفين بيها وهنغيّر الوحدات البايظة."
+   },
+   {
+    "m": "confirm you received something",
+    "mar": "يأكد الاستلام",
+    "ex": "Please acknowledge receipt of the invoice by email.",
+    "ar": "لو سمحت أكّد استلام الفاتورة على الإيميل.",
+    "ex2": "Once you acknowledge it, payment terms start counting.",
+    "ar2": "أول ما تأكد الاستلام، مدة السداد بتبدأ تتحسب."
+   },
+   {
+    "m": "show you value someone's effort",
+    "mar": "يقدّر مجهود حد",
+    "ex": "I want to acknowledge Nour's hard work on the tender.",
+    "ar": "عايز أقدّر شغل نور الجامد في المناقصة.",
+    "ex2": "Her work got acknowledged in the monthly meeting.",
+    "ar2": "شغلها اتقدّر في الاجتماع الشهري."
+   }
+  ],
+  "syn": [
+   {
+    "w": "admit",
+    "note": "accept something bad, often reluctantly",
+    "ex": "He finally admitted that he forgot to order the spare cards.",
+    "ar": "أخيرًا اعترف إنه نسي يطلب الكروت الاحتياطي.",
+    "ex2": "Admitting it early saved us a week.",
+    "ar2": "إنه اعترف بدري وفّر علينا أسبوع."
+   },
+   {
+    "w": "recognise",
+    "note": "show appreciation of effort or value",
+    "ex": "Management recognised the service team with a bonus.",
+    "ar": "الإدارة قدّرت فريق الصيانة ببونص.",
+    "ex2": "They recognised the team for zero downtime this year.",
+    "ar2": "قدّروا الفريق عشان مفيش توقف خالص السنة دي."
+   },
+   {
+    "w": "confirm receipt",
+    "note": "fixed formal email phrase for receiving documents",
+    "ex": "Kindly confirm receipt of the attached quotation.",
+    "ar": "برجاء تأكيد استلام عرض السعر المرفق.",
+    "ex2": "If you confirm receipt today, delivery stays on schedule.",
+    "ar2": "لو أكدت الاستلام النهارده، التسليم هيفضل في معاده."
+   }
+  ],
+  "ant": [
+   {
+    "w": "deny",
+    "ex": "The supplier continues to deny that the cables were damaged in shipping.",
+    "ar": "المورّد لسه بينكر إن الكابلات اتبهدلت في الشحن.",
+    "ex2": "Photos from the warehouse proved what he denied.",
+    "ar2": "صور المخزن أثبتت اللي هو أنكره."
+   },
+   {
+    "w": "ignore",
+    "ex": "Don't ignore the client's email about the noisy UPS.",
+    "ar": "متطنّشش إيميل العميل عن الـ‎UPS‎ اللي صوته عالي.",
+    "ex2": "If we ignore it, he'll call the general manager.",
+    "ar2": "لو طنّشناه هيكلّم المدير العام."
+   }
+  ],
+  "ladder": {
+   "label": "how fully you accept it",
+   "lar": "قد إيه بتعترف بالموضوع",
+   "steps": [
+    {
+     "w": "note",
+     "ex": "We note your concern about the delivery date.",
+     "ar": "واخدين بالنا من قلقك بخصوص ميعاد التسليم.",
+     "ex2": "We've noted it and will update you Sunday.",
+     "ar2": "خدنا بالنا منه وهنبلّغك يوم الأحد."
+    },
+    {
+     "w": "acknowledge",
+     "ex": "We acknowledge the delay and its impact on your project.",
+     "ar": "معترفين بالتأخير وتأثيره على مشروعك.",
+     "ex2": "Acknowledging it is the first step to fixing it.",
+     "ar2": "الاعتراف بيه أول خطوة عشان نصلّحه."
+    },
+    {
+     "w": "admit",
+     "ex": "We admit the wrong battery model was shipped.",
+     "ar": "بنعترف إن موديل البطارية الغلط هو اللي اتشحن.",
+     "ex2": "We admit it fully and will cover the cost.",
+     "ar2": "بنعترف بيه كامل وهنتحمّل التكلفة."
+    },
+    {
+     "w": "take full responsibility",
+     "ex": "We take full responsibility for the outage and will compensate you.",
+     "ar": "إحنا مسؤولين بالكامل عن الانقطاع وهنعوّضك.",
+     "ex2": "Taking full responsibility kept the maintenance contract alive.",
+     "ar2": "تحمّل المسؤولية كاملة خلّى عقد الصيانة مستمر."
+    }
+   ]
+  },
+  "ctx": "Before we argue about the numbers, I want to acknowledge your extra effort this month. Now, can we discuss the workload?",
+  "ctx_ar": "قبل ما نتناقش في الأرقام، عايز أقدّر مجهودك الزيادة الشهر ده. دلوقتي، ممكن نتكلم عن ضغط الشغل؟",
+  "quiz": [
+   {
+    "s": "Please send an ___ when you receive the purchase order.",
+    "opts": [
+     "acknowledge",
+     "acknowledgement",
+     "acknowledged"
+    ],
+    "a": 1,
+    "ar": "لو سمحت ابعت تأكيد استلام لما يوصلك أمر الشراء."
+   },
+   {
+    "s": "He finally ___ that he forgot to order the parts.",
+    "opts": [
+     "admitted",
+     "recognised",
+     "noted"
+    ],
+    "a": 0,
+    "ar": "أخيرًا اعترف إنه نسي يطلب القطع."
+   },
+   {
+    "s": "Management ___ the team's effort with a bonus.",
+    "opts": [
+     "denied",
+     "admitted",
+     "recognised"
+    ],
+    "a": 2,
+    "ar": "الإدارة قدّرت مجهود الفريق ببونص."
+   }
+  ]
+ },
+ {
+  "w": "take into account",
+  "ar": "ياخد في الاعتبار",
+  "family": [
+   {
+    "w": "take into account",
+    "pos": "verb",
+    "ex": "Please take into account the customs fees when you price the batteries.",
+    "ar": "لو سمحت خد في اعتبارك مصاريف الجمارك وانت بتسعّر البطاريات.",
+    "ex2": "If we don't take them into account, we lose money.",
+    "ar2": "لو مخدناهاش في الاعتبار هنخسر فلوس."
+   },
+   {
+    "w": "take account of",
+    "pos": "verb",
+    "ex": "The new schedule takes account of Ramadan working hours.",
+    "ar": "الجدول الجديد واخد في اعتباره مواعيد شغل رمضان.",
+    "ex2": "It takes account of shorter days on site too.",
+    "ar2": "وواخد في اعتباره كمان إن اليوم في الموقع أقصر."
+   },
+   {
+    "w": "taking into account",
+    "pos": "adverb",
+    "ex": "Taking into account the late delivery, we offer a 5% discount.",
+    "ar": "مع مراعاة التأخير في التسليم، بنعرض خصم ٥%.",
+    "ex2": "Taking everything into account, the client was satisfied.",
+    "ar2": "بعد ما خدنا كل حاجة في الاعتبار، العميل كان راضي."
+   },
+   {
+    "w": "account",
+    "pos": "noun",
+    "ex": "We'll take your feedback into account for the next contract.",
+    "ar": "هناخد رأيك في الاعتبار في العقد الجاي.",
+    "ex2": "Every comment will be taken into account.",
+    "ar2": "كل تعليق هيتاخد في الاعتبار."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "consider",
+    "note": "one word; thinking about an option before deciding",
+    "ex": "We should consider a lithium battery option for this site.",
+    "ar": "المفروض نفكّر في اختيار بطاريات ليثيوم للموقع ده.",
+    "ex2": "Consider the higher price, but also the longer life.",
+    "ar2": "فكّر في السعر الأعلى، بس كمان في العمر الأطول."
+   },
+   {
+    "w": "factor in",
+    "note": "informal; add something into a calculation or price",
+    "ex": "Don't forget to factor in shipping when you quote the server racks.",
+    "ar": "متنساش تحسب الشحن وانت بتسعّر رفوف السيرفرات.",
+    "ex2": "If you factor in installation, the price goes up 8%.",
+    "ar2": "لو حسبت التركيب، السعر هيزيد ٨%."
+   },
+   {
+    "w": "bear in mind",
+    "note": "remembering a fact while you act; often to warn",
+    "ex": "Bear in mind that the client pays only after commissioning.",
+    "ar": "خلي في بالك إن العميل مش بيدفع غير بعد التشغيل.",
+    "ex2": "Bear that in mind before you promise delivery dates.",
+    "ar2": "خليها في بالك قبل ما توعد بمواعيد تسليم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "ignore",
+    "ex": "The first quotation ignored the cost of the cable trays.",
+    "ar": "أول عرض سعر تجاهل تكلفة حوامل الكابلات.",
+    "ex2": "Because we ignored it, our margin disappeared.",
+    "ar2": "عشان تجاهلناها، الهامش بتاعنا راح."
+   },
+   {
+    "w": "overlook",
+    "ex": "We overlooked the VAT when we calculated the final price.",
+    "ar": "فاتنا الضريبة لما حسبنا السعر النهائي.",
+    "ex2": "Overlooking it meant a second, corrected invoice.",
+    "ar2": "إنها فاتتنا معناه فاتورة تانية متصحّحة."
+   }
+  ],
+  "ladder": {
+   "label": "how strongly it affects the decision",
+   "lar": "قد إيه بيأثر على القرار",
+   "steps": [
+    {
+     "w": "bear in mind",
+     "ex": "Bear in mind the site has no lift for the batteries.",
+     "ar": "خلي في بالك إن الموقع مفيهوش أسانسير للبطاريات.",
+     "ex2": "Bearing that in mind, bring four extra technicians.",
+     "ar2": "على كده، هات أربع فنيين زيادة."
+    },
+    {
+     "w": "take into account",
+     "ex": "We take into account the client's payment history before giving credit.",
+     "ar": "بناخد في الاعتبار تاريخ سداد العميل قبل ما نديله آجل.",
+     "ex2": "We take it into account for every new order.",
+     "ar2": "بناخده في الاعتبار مع كل أوردر جديد."
+    },
+    {
+     "w": "give priority to",
+     "ex": "We give priority to customers with maintenance contracts.",
+     "ar": "بندّي أولوية للعملاء اللي عندهم عقود صيانة.",
+     "ex2": "Giving priority to them protects our biggest income.",
+     "ar2": "الأولوية دي بتحمي أكبر دخل عندنا."
+    },
+    {
+     "w": "base the decision on",
+     "ex": "We'll base the decision on the total cost over ten years.",
+     "ar": "هنبني القرار على التكلفة الإجمالية على عشر سنين.",
+     "ex2": "Basing it on price alone would be a mistake.",
+     "ar2": "إننا نبنيه على السعر بس هيبقى غلط."
+    }
+   ]
+  },
+  "ctx": "When you plan next week's visits, please take into account my training day. I won't be available on Tuesday.",
+  "ctx_ar": "لما تخطط زيارات الأسبوع الجاي، لو سمحت خد في اعتبارك يوم التدريب بتاعي. مش هكون موجود يوم التلات.",
+  "quiz": [
+   {
+    "s": "___ the late delivery, we're offering free installation.",
+    "opts": [
+     "Taking into account",
+     "Take into account",
+     "Taken into account"
+    ],
+    "a": 0,
+    "ar": "مع مراعاة التأخير في التسليم، بنعرض تركيب ببلاش."
+   },
+   {
+    "s": "We ___ the VAT, so the invoice had to be corrected.",
+    "opts": [
+     "took into account",
+     "overlooked",
+     "considered"
+    ],
+    "a": 1,
+    "ar": "فاتتنا الضريبة، فالفاتورة كان لازم تتصحّح."
+   },
+   {
+    "s": "Don't forget to ___ shipping when you price the racks.",
+    "opts": [
+     "ignore",
+     "overlook",
+     "factor in"
+    ],
+    "a": 2,
+    "ar": "متنساش تحسب الشحن وانت بتسعّر الرفوف."
+   }
+  ]
+ }
+]

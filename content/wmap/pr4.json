@@ -1,0 +1,790 @@
+[
+ {
+  "w": "metrics",
+  "ar": "مؤشرات / مقاييس أداء",
+  "family": [
+   {
+    "w": "metrics",
+    "pos": "noun",
+    "ex": "Here are the key performance metrics for the last quarter.",
+    "ar": "دي أهم مؤشرات الأداء للربع اللي فات.",
+    "ex2": "Response time and first-visit fix rate both improved.",
+    "ar2": "وقت الاستجابة ونسبة الإصلاح من أول زيارة الاتنين اتحسنوا."
+   },
+   {
+    "w": "metric",
+    "pos": "noun",
+    "ex": "Our main metric for service is average response time.",
+    "ar": "المؤشر الأساسي بتاعنا في الخدمة هو متوسط وقت الاستجابة.",
+    "ex2": "This metric dropped from six hours to four.",
+    "ar2": "المؤشر ده نزل من ست ساعات لأربعة."
+   },
+   {
+    "w": "measure",
+    "pos": "verb",
+    "ex": "We measure customer satisfaction after every service visit.",
+    "ar": "بنقيس رضا العميل بعد كل زيارة صيانة.",
+    "ex2": "We measure it with a short SMS survey.",
+    "ar2": "بنقيسه باستبيان قصير على الـ‎SMS.‎"
+   },
+   {
+    "w": "measurable",
+    "pos": "adjective",
+    "ex": "Set measurable targets, like ten new contracts per quarter.",
+    "ar": "حط أهداف تتقاس، زي عشر عقود جديدة كل ربع.",
+    "ex2": "Measurable targets are easy to review monthly.",
+    "ar2": "الأهداف اللي تتقاس سهل تتراجع كل شهر."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "KPIs",
+    "note": "the few official targets management tracks",
+    "ex": "Our KPIs include collection days and response time.",
+    "ar": "مؤشرات الأداء الرئيسية بتاعتنا فيها أيام التحصيل ووقت الاستجابة.",
+    "ex2": "Bonuses depend on hitting the KPIs.",
+    "ar2": "البونص معتمد على تحقيق الـ‎KPIs.‎"
+   },
+   {
+    "w": "figures",
+    "note": "everyday word for numbers, especially money",
+    "ex": "The sales figures for September look strong.",
+    "ar": "أرقام مبيعات سبتمبر شكلها قوية.",
+    "ex2": "The figures include two big UPS orders.",
+    "ar2": "الأرقام فيها أوردرين ‎UPS‎ كبار."
+   },
+   {
+    "w": "indicators",
+    "note": "signs that show a trend",
+    "ex": "Late payments are early indicators of a client in trouble.",
+    "ar": "التأخير في الدفع علامات بدرية إن العميل في مشكلة.",
+    "ex2": "Watch these indicators before giving more credit.",
+    "ar2": "راقب العلامات دي قبل ما تدّي آجل أكتر."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "These metrics show our service is improving. Average response time fell to four hours, and repeat faults dropped by 30%.",
+  "ctx_ar": "المؤشرات دي بتوضّح إن الخدمة بتتحسن. متوسط وقت الاستجابة نزل لأربع ساعات، والأعطال المتكررة قلّت ٣٠٪.",
+  "quiz": [
+   {
+    "s": "Our main ___ for collections is days to payment.",
+    "opts": [
+     "metric",
+     "measure",
+     "measurable"
+    ],
+    "a": 0,
+    "ar": "المؤشر الأساسي بتاعنا للتحصيل هو عدد الأيام لحد الدفع."
+   },
+   {
+    "s": "Please set ___ goals for the new sales team.",
+    "opts": [
+     "metric",
+     "measure",
+     "measurable"
+    ],
+    "a": 2,
+    "ar": "لو سمحت حط أهداف تتقاس لفريق المبيعات الجديد."
+   },
+   {
+    "s": "Management bonuses depend on hitting the ___.",
+    "opts": [
+     "indicators",
+     "KPIs",
+     "figures"
+    ],
+    "a": 1,
+    "ar": "بونص الإدارة معتمد على تحقيق مؤشرات الأداء الرئيسية."
+   }
+  ]
+ },
+ {
+  "w": "highlight",
+  "ar": "يبرز / يسلّط الضوء على",
+  "family": [
+   {
+    "w": "highlight",
+    "pos": "verb",
+    "ex": "This graph highlights the drop in battery failures after maintenance.",
+    "ar": "الرسم ده بيبرز قلة أعطال البطاريات بعد الصيانة.",
+    "ex2": "The drop started right after our first visit.",
+    "ar2": "القلة بدأت بعد أول زيارة لينا على طول."
+   },
+   {
+    "w": "highlight",
+    "pos": "noun",
+    "ex": "The highlight of the exhibition was our new hybrid inverter.",
+    "ar": "أبرز حاجة في المعرض كانت الإنفرتر الهايبرد الجديد بتاعنا.",
+    "ex2": "That highlight brought us twenty new leads.",
+    "ar2": "وده جاب لنا عشرين عميل محتمل."
+   },
+   {
+    "w": "highlighted",
+    "pos": "adjective",
+    "ex": "Check the highlighted items in the quotation; prices changed.",
+    "ar": "راجع البنود المعلّم عليها في عرض السعر؛ الأسعار اتغيرت.",
+    "ex2": "The highlighted items are all imported batteries.",
+    "ar2": "البنود المعلّم عليها كلها بطاريات مستوردة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "to draw attention to something important",
+    "mar": "تلفت النظر لحاجة مهمة",
+    "ex": "I want to highlight the savings from the VFD retrofit.",
+    "ar": "عايز ألفت النظر للتوفير اللي جه من تركيب الـ‎VFD.‎",
+    "ex2": "The savings highlight is on slide five.",
+    "ar2": "التوفير ده موجود في سلايد خمسة."
+   },
+   {
+    "m": "to mark text with a bright colour",
+    "mar": "تعلّم على كلام بلون فاقع",
+    "ex": "Please highlight the overdue invoices in red.",
+    "ar": "لو سمحت علّم على الفواتير المتأخرة بالأحمر.",
+    "ex2": "Highlighted rows go to the collections team.",
+    "ar2": "الصفوف المعلّم عليها بتروح لفريق التحصيل."
+   },
+   {
+    "m": "the best or most important part",
+    "mar": "أحسن أو أهم جزء",
+    "ex": "The highlight of the year was winning the airport tender.",
+    "ar": "أحلى حاجة في السنة كانت كسب مناقصة المطار.",
+    "ex2": "That highlight doubled our UPS sales.",
+    "ar2": "الحدث ده ضاعف مبيعات الـ‎UPS.‎"
+   }
+  ],
+  "syn": [
+   {
+    "w": "emphasize",
+    "note": "stress a point with words",
+    "ex": "I must emphasize that the warranty needs yearly maintenance.",
+    "ar": "لازم أأكد إن الضمان محتاج صيانة سنوية.",
+    "ex2": "Emphasize this when you send the quotation.",
+    "ar2": "أكّد على ده وإنت بتبعت عرض السعر."
+   },
+   {
+    "w": "point out",
+    "note": "mention a fact others may have missed",
+    "ex": "The engineer pointed out a loose cable in the panel.",
+    "ar": "المهندس نبّه على كابل سايب في اللوحة.",
+    "ex2": "Pointing it out prevented a fire.",
+    "ar2": "إنه نبّه عليه منع حريقة."
+   },
+   {
+    "w": "underline",
+    "note": "formal; show something is very important",
+    "ex": "The audit results underline the need for new batteries.",
+    "ar": "نتايج المراجعة بتأكد إن محتاجين بطاريات جديدة.",
+    "ex2": "They underline it with three failed tests.",
+    "ar2": "وبيأكدوها بتلات اختبارات فاشلة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "downplay",
+    "ex": "Don't downplay the fault; tell the client the truth.",
+    "ar": "متقللش من العطل؛ قول للعميل الحقيقة.",
+    "ex2": "Downplaying it now will hurt trust later.",
+    "ar2": "التقليل منه دلوقتي هيضر الثقة بعدين."
+   },
+   {
+    "w": "overlook",
+    "ex": "We overlooked the shipping cost in the first quotation.",
+    "ar": "سهينا عن تكلفة الشحن في أول عرض سعر.",
+    "ex2": "Overlooking it cost us 4% of the margin.",
+    "ar2": "السهوة دي كلّفتنا ٤٪ من الهامش."
+   }
+  ],
+  "ladder": {
+   "label": "how strongly you stress it",
+   "lar": "قد إيه بتأكد",
+   "steps": [
+    {
+     "w": "mention",
+     "ex": "I'll briefly mention our new payment options.",
+     "ar": "هذكر باختصار طرق الدفع الجديدة.",
+     "ex2": "Just mention them; don't spend time on them.",
+     "ar2": "اذكرها بس؛ متضيّعش وقت عليها."
+    },
+    {
+     "w": "highlight",
+     "ex": "Let me highlight our 99% uptime record.",
+     "ar": "خلّيني أبرز سجل التشغيل ٩٩٪ بتاعنا.",
+     "ex2": "Highlighting it builds trust with data centres.",
+     "ar2": "إبرازه بيبني ثقة مع الداتا سنترز."
+    },
+    {
+     "w": "emphasize",
+     "ex": "I want to emphasize that safety comes first.",
+     "ar": "عايز أأكد إن الأمان أولًا.",
+     "ex2": "Emphasize safety in every site briefing.",
+     "ar2": "أكّد على الأمان في كل تعليمات للموقع."
+    }
+   ]
+  },
+  "ctx": "This chart highlights the drop in downtime since we installed the new UPS. Downtime fell from twelve hours a year to almost zero.",
+  "ctx_ar": "الرسم ده بيبرز قلة التوقف من ساعة ما ركّبنا الـ‎UPS‎ الجديد. التوقف نزل من اتناشر ساعة في السنة لصفر تقريبًا.",
+  "quiz": [
+   {
+    "s": "Please check the ___ prices; they changed this week.",
+    "opts": [
+     "highlight",
+     "highlighted",
+     "highlighting"
+    ],
+    "a": 1,
+    "ar": "لو سمحت راجع الأسعار المعلّم عليها؛ اتغيرت الأسبوع ده."
+   },
+   {
+    "s": "Don't ___ the fault; the client must know the risk.",
+    "opts": [
+     "downplay",
+     "highlight",
+     "emphasize"
+    ],
+    "a": 0,
+    "ar": "متقللش من العطل؛ العميل لازم يعرف الخطر."
+   },
+   {
+    "s": "The engineer ___ a loose cable in the panel.",
+    "opts": [
+     "overlooked",
+     "underlined",
+     "pointed out"
+    ],
+    "a": 2,
+    "ar": "المهندس نبّه على كابل سايب في اللوحة."
+   }
+  ]
+ },
+ {
+  "w": "gain traction",
+  "ar": "ياخد شعبية / يبدأ ينتشر",
+  "family": [
+   {
+    "w": "gain traction",
+    "pos": "verb",
+    "ex": "Lithium UPS batteries are starting to gain traction in Egypt.",
+    "ar": "بطاريات الليثيوم للـ‎UPS‎ بدأت تنتشر في مصر.",
+    "ex2": "Banks and data centres are the first buyers.",
+    "ar2": "البنوك والداتا سنترز هم أول المشترين."
+   },
+   {
+    "w": "gained traction",
+    "pos": "verb",
+    "ex": "Solar water pumps have gained traction with farmers in Upper Egypt.",
+    "ar": "طلمبات المية الشمسية انتشرت مع المزارعين في الصعيد.",
+    "ex2": "They gained traction because diesel became too expensive.",
+    "ar2": "انتشرت عشان السولار بقى غالي قوي."
+   },
+   {
+    "w": "traction",
+    "pos": "noun",
+    "ex": "Our remote monitoring service still has little traction.",
+    "ar": "خدمة المراقبة عن بعد بتاعتنا لسه مش منتشرة.",
+    "ex2": "More demos could give it traction.",
+    "ar2": "عروض أكتر ممكن تخليها تنتشر."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "catch on",
+    "note": "informal; become popular with people",
+    "ex": "Online service booking is catching on with our clients.",
+    "ar": "حجز الصيانة أونلاين بدأ يمشي مع عملاءنا.",
+    "ex2": "It caught on faster than we expected.",
+    "ar2": "مشي أسرع من ما توقعنا."
+   },
+   {
+    "w": "take off",
+    "note": "grow suddenly and fast",
+    "ex": "Sales of solar inverters started to take off this summer.",
+    "ar": "مبيعات إنفرترات الطاقة الشمسية بدأت تطير الصيف ده.",
+    "ex2": "They took off after the long power cuts.",
+    "ar2": "طارت بعد انقطاع الكهربا الطويل."
+   },
+   {
+    "w": "gain ground",
+    "note": "slowly win more market share",
+    "ex": "Our modular UPS is gaining ground against cheaper brands.",
+    "ar": "الـ‎UPS‎ الموديولار بتاعنا بياخد أرض قدام الماركات الأرخص.",
+    "ex2": "It's gaining ground because of lower maintenance cost.",
+    "ar2": "بياخد أرض بسبب تكلفة الصيانة الأقل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "lose momentum",
+    "ex": "The tender project began to lose momentum after the manager left.",
+    "ar": "مشروع المناقصة بدأ يفقد زخمه بعد ما المدير مشي.",
+    "ex2": "We'll lose momentum again if no one follows up.",
+    "ar2": "هنفقد الزخم تاني لو محدش تابع."
+   },
+   {
+    "w": "fizzle out",
+    "ex": "The client's interest fizzled out after the price increase.",
+    "ar": "اهتمام العميل خلص بعد زيادة السعر.",
+    "ex2": "Interest can fizzle out if we don't reply quickly.",
+    "ar2": "الاهتمام ممكن يخلص لو مردّيناش بسرعة."
+   }
+  ],
+  "ladder": {
+   "label": "how fast it spreads",
+   "lar": "بينتشر بسرعة قد إيه",
+   "steps": [
+    {
+     "w": "gain ground",
+     "ex": "VFDs are slowly gaining ground in old factories.",
+     "ar": "الـ‎VFD‎ بياخد أرض بالراحة في المصانع القديمة.",
+     "ex2": "Gaining ground takes time and many demos.",
+     "ar2": "إنك تاخد أرض محتاج وقت وعروض كتير."
+    },
+    {
+     "w": "gain traction",
+     "ex": "Remote monitoring is gaining traction with hospitals.",
+     "ar": "المراقبة عن بعد بدأت تنتشر مع المستشفيات.",
+     "ex2": "It gained traction after one hospital avoided an outage.",
+     "ar2": "انتشرت بعد ما مستشفى نجت من عطل."
+    },
+    {
+     "w": "take off",
+     "ex": "Rooftop solar began to take off after electricity prices rose.",
+     "ar": "الطاقة الشمسية على الأسطح بدأت تطير بعد ما أسعار الكهربا زادت.",
+     "ex2": "Once it took off, we hired five installers.",
+     "ar2": "أول ما طارت، عيّنّا خمس فنيين تركيب."
+    }
+   ]
+  },
+  "ctx": "Hybrid solar systems are gaining traction with factories in 10th of Ramadan. Three clients asked us for quotations this month.",
+  "ctx_ar": "أنظمة الطاقة الشمسية الهايبرد بدأت تنتشر مع المصانع في العاشر من رمضان. تلات عملا طلبوا مننا عروض أسعار الشهر ده.",
+  "quiz": [
+   {
+    "s": "Sales of solar inverters ___ after the power cuts.",
+    "opts": [
+     "took off",
+     "fizzled out",
+     "lost momentum"
+    ],
+    "a": 0,
+    "ar": "مبيعات الإنفرترات طارت بعد انقطاع الكهربا."
+   },
+   {
+    "s": "Our monitoring service still has little ___.",
+    "opts": [
+     "gain traction",
+     "traction",
+     "gained traction"
+    ],
+    "a": 1,
+    "ar": "خدمة المراقبة بتاعتنا لسه مش منتشرة."
+   },
+   {
+    "s": "The project ___ after the manager left the company.",
+    "opts": [
+     "took off",
+     "gained traction",
+     "lost momentum"
+    ],
+    "a": 2,
+    "ar": "المشروع فقد زخمه بعد ما المدير ساب الشركة."
+   }
+  ]
+ },
+ {
+  "w": "implementation",
+  "ar": "تنفيذ / تطبيق",
+  "family": [
+   {
+    "w": "implementation",
+    "pos": "noun",
+    "ex": "After the implementation of VFDs, the factory's power bill fell 25%.",
+    "ar": "بعد تنفيذ الـ‎VFD‎، فاتورة كهربا المصنع نزلت ٢٥٪.",
+    "ex2": "The implementation took only two weekends.",
+    "ar2": "التنفيذ خد ويك إندين بس."
+   },
+   {
+    "w": "implement",
+    "pos": "verb",
+    "ex": "We'll implement the new e-invoice system next month.",
+    "ar": "هنطبّق سيستم الفاتورة الإلكترونية الجديد الشهر الجاي.",
+    "ex2": "To implement it, finance needs two days of training.",
+    "ar2": "عشان نطبّقه، المالية محتاجة يومين تدريب."
+   },
+   {
+    "w": "implemented",
+    "pos": "adjective",
+    "ex": "The implemented changes cut service response time in half.",
+    "ar": "التغييرات اللي اتطبقت قللت وقت الاستجابة للنص.",
+    "ex2": "All implemented changes are in the monthly report.",
+    "ar2": "كل التغييرات اللي اتطبقت في التقرير الشهري."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "execution",
+    "note": "doing a plan well, often a project",
+    "ex": "Good execution matters more than a perfect plan.",
+    "ar": "التنفيذ الكويس أهم من الخطة المثالية.",
+    "ex2": "Execution of the data centre project was on time.",
+    "ar2": "تنفيذ مشروع الداتا سنتر كان في الميعاد."
+   },
+   {
+    "w": "rollout",
+    "note": "launching something step by step to many users or sites",
+    "ex": "The rollout of the new UPS model starts in Cairo.",
+    "ar": "طرح موديل الـ‎UPS‎ الجديد هيبدأ في القاهرة.",
+    "ex2": "After Cairo, the rollout moves to Alexandria.",
+    "ar2": "بعد القاهرة، الطرح هينتقل لإسكندرية."
+   },
+   {
+    "w": "installation",
+    "note": "physical fitting of equipment on site",
+    "ex": "Installation of the solar panels takes three days.",
+    "ar": "تركيب الألواح الشمسية بياخد تلات أيام.",
+    "ex2": "After installation, we test the inverter.",
+    "ar2": "بعد التركيب، بنختبر الإنفرتر."
+   }
+  ],
+  "ant": [
+   {
+    "w": "planning",
+    "ex": "Planning took three months, but implementation took only one.",
+    "ar": "التخطيط خد تلات شهور، بس التنفيذ خد شهر واحد.",
+    "ex2": "Good planning made the job easy.",
+    "ar2": "التخطيط الكويس سهّل الشغل."
+   }
+  ],
+  "ladder": {
+   "label": "how far the project has gone",
+   "lar": "المشروع وصل لفين",
+   "steps": [
+    {
+     "w": "proposal",
+     "ex": "Our proposal for the hospital UPS is ready.",
+     "ar": "العرض بتاعنا لـ‎UPS‎ المستشفى جاهز.",
+     "ex2": "The proposal includes three options.",
+     "ar2": "العرض فيه تلات اختيارات."
+    },
+    {
+     "w": "approval",
+     "ex": "We're waiting for budget approval from the client.",
+     "ar": "مستنيين موافقة الميزانية من العميل.",
+     "ex2": "Approval usually takes two weeks.",
+     "ar2": "الموافقة عادة بتاخد أسبوعين."
+    },
+    {
+     "w": "implementation",
+     "ex": "Implementation starts once the advance is paid.",
+     "ar": "التنفيذ هيبدأ أول ما المقدم يتدفع.",
+     "ex2": "During implementation, we send weekly reports.",
+     "ar2": "وقت التنفيذ، بنبعت تقارير أسبوعية."
+    },
+    {
+     "w": "handover",
+     "ex": "Handover is planned for the end of June.",
+     "ar": "التسليم متخطط آخر يونيو.",
+     "ex2": "At handover, the client signs the acceptance form.",
+     "ar2": "وقت التسليم، العميل بيمضي على استمارة الاستلام."
+    }
+   ]
+  },
+  "ctx": "The implementation of our monitoring system took two weeks. Since then, the client gets an SMS before any battery fails.",
+  "ctx_ar": "تنفيذ سيستم المراقبة بتاعنا خد أسبوعين. ومن ساعتها العميل بيوصله ‎SMS‎ قبل ما أي بطارية تعطل.",
+  "quiz": [
+   {
+    "s": "We will ___ the new invoicing system in January.",
+    "opts": [
+     "implementation",
+     "implement",
+     "implemented"
+    ],
+    "a": 1,
+    "ar": "هنطبّق سيستم الفواتير الجديد في يناير."
+   },
+   {
+    "s": "The ___ of the new model starts in Cairo, then other cities.",
+    "opts": [
+     "rollout",
+     "planning",
+     "proposal"
+    ],
+    "a": 0,
+    "ar": "طرح الموديل الجديد بيبدأ في القاهرة، وبعدين باقي المدن."
+   },
+   {
+    "s": "At ___, the client signs the acceptance form.",
+    "opts": [
+     "approval",
+     "implementation",
+     "handover"
+    ],
+    "a": 2,
+    "ar": "وقت التسليم، العميل بيمضي على استمارة الاستلام."
+   }
+  ]
+ },
+ {
+  "w": "back up",
+  "ar": "يدعم بأدلة؛ ياخد نسخة احتياطية",
+  "family": [
+   {
+    "w": "back up",
+    "pos": "verb",
+    "ex": "Back up your claims with real numbers from past projects.",
+    "ar": "ادعم كلامك بأرقام حقيقية من مشاريع سابقة.",
+    "ex2": "Numbers back up our promise of 30% savings.",
+    "ar2": "الأرقام بتدعم وعدنا بتوفير ٣٠٪."
+   },
+   {
+    "w": "backup",
+    "pos": "noun",
+    "ex": "The hospital needs a backup UPS for the operating rooms.",
+    "ar": "المستشفى محتاجة ‎UPS‎ احتياطي لأوض العمليات.",
+    "ex2": "If one unit fails, the backup takes over.",
+    "ar2": "لو وحدة عطلت، الاحتياطي بيشتغل مكانها."
+   },
+   {
+    "w": "backed up",
+    "pos": "adjective",
+    "ex": "Every claim in our proposal is backed up with test reports.",
+    "ar": "كل كلمة في عرضنا مدعومة بتقارير اختبار.",
+    "ex2": "Backed up claims win tenders faster.",
+    "ar2": "الكلام المدعوم بيكسب المناقصات أسرع."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "to support a claim with evidence",
+    "mar": "تدعم كلامك بدليل",
+    "ex": "Can you back up that figure with a test report?",
+    "ar": "تقدر تدعم الرقم ده بتقرير اختبار؟",
+    "ex2": "Without a report, the client won't back us up.",
+    "ar2": "من غير تقرير، العميل مش هيصدقنا."
+   },
+   {
+    "m": "to make a copy of data",
+    "mar": "تعمل نسخة احتياطية من الداتا",
+    "ex": "We back up the client's servers every night.",
+    "ar": "بناخد نسخة احتياطية من سيرفرات العميل كل ليلة.",
+    "ex2": "Back up the data before replacing the UPS.",
+    "ar2": "خد نسخة احتياطية من الداتا قبل ما تغيّر الـ‎UPS.‎"
+   },
+   {
+    "m": "to support a colleague",
+    "mar": "تساند زميل",
+    "ex": "Thanks for backing me up in the meeting with the client.",
+    "ar": "شكرًا إنك ساندتني في الاجتماع مع العميل.",
+    "ex2": "Back me up if he asks for a bigger discount.",
+    "ar2": "ساندني لو طلب خصم أكبر."
+   }
+  ],
+  "syn": [
+   {
+    "w": "support",
+    "note": "general word; evidence, people or equipment",
+    "ex": "The data supports our recommendation for lithium batteries.",
+    "ar": "الداتا بتدعم نصيحتنا ببطاريات الليثيوم.",
+    "ex2": "It supports it with ten years of field results.",
+    "ar2": "وبتدعمها بنتايج عشر سنين في المواقع."
+   },
+   {
+    "w": "prove",
+    "note": "show something is definitely true",
+    "ex": "The load test proved the UPS can run the full data centre.",
+    "ar": "اختبار الحمل أثبت إن الـ‎UPS‎ يقدر يشغّل الداتا سنتر كله.",
+    "ex2": "Proving it on site convinced the consultant.",
+    "ar2": "إثباته في الموقع أقنع الاستشاري."
+   },
+   {
+    "w": "justify",
+    "note": "give good reasons for a cost or decision",
+    "ex": "How do we justify the higher price to the client?",
+    "ar": "إزاي نبرر السعر الأعلى للعميل؟",
+    "ex2": "We justify it with lower maintenance costs.",
+    "ar2": "بنبرره بتكلفة صيانة أقل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "contradict",
+    "ex": "The site readings contradict the supplier's data sheet.",
+    "ar": "قراءات الموقع عكس كتالوج المورّد.",
+    "ex2": "When readings contradict the specs, we test again.",
+    "ar2": "لما القراءات تبقى عكس المواصفات، بنختبر تاني."
+   },
+   {
+    "w": "undermine",
+    "ex": "Late deliveries undermine our promise of fast service.",
+    "ar": "التأخير في التسليم بيضعف وعدنا بالخدمة السريعة.",
+    "ex2": "They undermine trust with new clients.",
+    "ar2": "بيضعف الثقة مع العملا الجداد."
+   }
+  ],
+  "ladder": null,
+  "ctx": "I'll back up my points with numbers. Last year, our VFDs saved Delta Factory 1.2 million pounds in electricity.",
+  "ctx_ar": "هدعم كلامي بأرقام. السنة اللي فاتت، الـ‎VFD‎ بتاعتنا وفّرت لمصنع دلتا ١.٢ مليون جنيه كهربا.",
+  "quiz": [
+   {
+    "s": "The hospital needs a ___ UPS for its operating rooms.",
+    "opts": [
+     "back up",
+     "backup",
+     "backed up"
+    ],
+    "a": 1,
+    "ar": "المستشفى محتاجة ‎UPS‎ احتياطي لأوض العمليات."
+   },
+   {
+    "s": "Late deliveries ___ our promise of fast service.",
+    "opts": [
+     "undermine",
+     "back up",
+     "prove"
+    ],
+    "a": 0,
+    "ar": "التأخير في التسليم بيضعف وعدنا بالخدمة السريعة."
+   },
+   {
+    "s": "How can we ___ the higher price to the client?",
+    "opts": [
+     "contradict",
+     "back up",
+     "justify"
+    ],
+    "a": 2,
+    "ar": "إزاي نقدر نبرر السعر الأعلى للعميل؟"
+   }
+  ]
+ },
+ {
+  "w": "customer base",
+  "ar": "قاعدة العملاء",
+  "family": [
+   {
+    "w": "customer base",
+    "pos": "noun",
+    "ex": "This chart shows the distribution of our customer base.",
+    "ar": "الرسم ده بيوضّح توزيع قاعدة العملا بتاعتنا.",
+    "ex2": "Banks are 40%, and hospitals are 25%.",
+    "ar2": "البنوك ٤٠٪، والمستشفيات ٢٥٪."
+   },
+   {
+    "w": "customer",
+    "pos": "noun",
+    "ex": "Every new customer gets a free site survey.",
+    "ar": "كل عميل جديد بياخد معاينة موقع ببلاش.",
+    "ex2": "The survey helps us size the UPS correctly.",
+    "ar2": "المعاينة بتساعدنا نحدد حجم الـ‎UPS‎ صح."
+   },
+   {
+    "w": "customer-focused",
+    "pos": "adjective",
+    "ex": "We're a customer-focused company with 24/7 support.",
+    "ar": "إحنا شركة بتركز على العميل وعندنا دعم ٢٤ ساعة.",
+    "ex2": "Customer-focused service keeps our renewals high.",
+    "ar2": "الخدمة اللي بتركز على العميل بتخلّي التجديدات عالية."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "client base",
+    "note": "more formal; used for B2B and service companies",
+    "ex": "Our client base includes ten of Egypt's biggest banks.",
+    "ar": "قاعدة عملائنا فيها عشرة من أكبر بنوك مصر.",
+    "ex2": "This client base gives us stable contracts.",
+    "ar2": "قاعدة العملا دي بتدّينا عقود ثابتة."
+   },
+   {
+    "w": "market share",
+    "note": "your sales as a percentage of the whole market",
+    "ex": "Our market share in modular UPS is about 15%.",
+    "ar": "حصتنا في سوق الـ‎UPS‎ الموديولار حوالي ١٥٪.",
+    "ex2": "We want to raise market share to 20%.",
+    "ar2": "عايزين نرفع الحصة لـ٢٠٪."
+   },
+   {
+    "w": "customers",
+    "note": "simple everyday plural",
+    "ex": "Our customers want faster delivery on batteries.",
+    "ar": "عملاءنا عايزين تسليم أسرع للبطاريات.",
+    "ex2": "Most customers order before summer.",
+    "ar2": "معظم العملا بيطلبوا قبل الصيف."
+   }
+  ],
+  "ant": [
+   {
+    "w": "competitors",
+    "ex": "Our competitors offer cheaper UPS units with weaker service.",
+    "ar": "المنافسين بتوعنا بيبيعوا ‎UPS‎ أرخص بخدمة أضعف.",
+    "ex2": "Competitors win on price; we win on service.",
+    "ar2": "المنافسين بيكسبوا بالسعر؛ إحنا بنكسب بالخدمة."
+   }
+  ],
+  "ladder": {
+   "label": "how big the group is",
+   "lar": "المجموعة كبيرة قد إيه",
+   "steps": [
+    {
+     "w": "key accounts",
+     "ex": "Our key accounts are five banks and two data centres.",
+     "ar": "العملا الكبار بتوعنا خمس بنوك واتنين داتا سنتر.",
+     "ex2": "Key accounts get a dedicated engineer.",
+     "ar2": "العملا الكبار بياخدوا مهندس مخصوص."
+    },
+    {
+     "w": "customer base",
+     "ex": "Our customer base grew to 600 companies.",
+     "ar": "قاعدة عملائنا كبرت لـ٦٠٠ شركة.",
+     "ex2": "The customer base is mostly in Cairo and Alex.",
+     "ar2": "قاعدة العملا معظمها في القاهرة وإسكندرية."
+    },
+    {
+     "w": "target market",
+     "ex": "Our target market is all factories using pumps and chillers.",
+     "ar": "السوق المستهدف بتاعنا كل المصانع اللي عندها طلمبات وتشيلرات.",
+     "ex2": "The target market is ten times our current base.",
+     "ar2": "السوق المستهدف عشر أضعاف قاعدتنا الحالية."
+    }
+   ]
+  },
+  "ctx": "Our customer base has grown by 20% this year. Most new clients are factories that bought VFDs for their pumps.",
+  "ctx_ar": "قاعدة عملائنا كبرت ٢٠٪ السنة دي. معظم العملا الجداد مصانع اشترت ‎VFD‎ لطلمباتها.",
+  "quiz": [
+   {
+    "s": "Our ___ offer cheaper units but weaker service.",
+    "opts": [
+     "competitors",
+     "customer base",
+     "key accounts"
+    ],
+    "a": 0,
+    "ar": "منافسينا بيبيعوا وحدات أرخص بس خدمتهم أضعف."
+   },
+   {
+    "s": "We're a ___ company with 24/7 support.",
+    "opts": [
+     "customer",
+     "customer base",
+     "customer-focused"
+    ],
+    "a": 2,
+    "ar": "إحنا شركة بتركز على العميل وعندنا دعم ٢٤ ساعة."
+   },
+   {
+    "s": "Our ___ in modular UPS is about 15% of the market.",
+    "opts": [
+     "client base",
+     "market share",
+     "customers"
+    ],
+    "a": 1,
+    "ar": "حصتنا في سوق الـ‎UPS‎ الموديولار حوالي ١٥٪."
+   }
+  ]
+ }
+]

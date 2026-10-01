@@ -55,8 +55,12 @@ for f in sorted(glob.glob('/home/claude/asr/wmap/out/*.json')):
 ewm={}
 for f in sorted(glob.glob('/home/claude/asr/email/wmap/*.json')):
     ewm[os.path.basename(f)[:-5]]=json.load(open(f))
-t=t.replace('/*__EWMAP__*/','const EWMAP='+json.dumps(ewm,ensure_ascii=False)+';')
-t=t.replace('/*__WMAP__*/','const WMAP='+json.dumps(wm,ensure_ascii=False)+';')
+os.makedirs('/home/claude/worktalk/data',exist_ok=True)
+import hashlib
+js1=json.dumps(wm,ensure_ascii=False,separators=(',',':')); js2=json.dumps(ewm,ensure_ascii=False,separators=(',',':'))
+open('/home/claude/worktalk/data/wmap.json','w').write(js1); open('/home/claude/worktalk/data/ewmap.json','w').write(js2)
+ver=hashlib.md5((js1+js2).encode()).hexdigest()[:8]
+t=t.replace('/*__WMAP__*/','const WMAP_N='+json.dumps({k:len(v) for k,v in wm.items()})+', EWMAP_N='+json.dumps({k:len(v) for k,v in ewm.items()})+', WMVER="'+ver+'";')
 t=t.replace('/*__WUE__*/',open('/home/claude/asr/wu_emails.js').read())
 t=t.replace('/*__FIX__*/','const CARD_FIX='+open('/home/claude/asr/card_fixes.json').read()+';')
 open('/home/claude/worktalk/index.html','w').write(t)

@@ -1,0 +1,776 @@
+[
+ {
+  "w": "root cause",
+  "ar": "السبب الأساسي",
+  "family": [
+   {
+    "w": "root cause",
+    "pos": "noun",
+    "ex": "The engineer found the root cause of the UPS shutdown: a loose battery cable.",
+    "ar": "المهندس لقى السبب الأساسي لفصل الـ‎UPS‎: كابل بطارية سايب.",
+    "ex2": "Fixing the root cause stopped the alarms completely.",
+    "ar2": "لما صلّحنا السبب الأساسي الإنذارات وقفت خالص."
+   },
+   {
+    "w": "root-cause analysis",
+    "pos": "noun",
+    "ex": "We sent the customer a root-cause analysis after the VFD failure.",
+    "ar": "بعتنا للعميل تحليل السبب الأساسي بعد عطل الـ‎VFD‎.",
+    "ex2": "The root-cause analysis showed the drive was overheating in a closed room.",
+    "ar2": "التحليل بيّن إن الدرايف كان بيسخن في أوضة مقفولة."
+   },
+   {
+    "w": "cause",
+    "pos": "verb",
+    "ex": "Dust in the inverter caused the overheating alarm.",
+    "ar": "التراب اللي في الإنفرتر عمل إنذار السخونية.",
+    "ex2": "We cleaned the filters, so it won't cause problems again.",
+    "ar2": "نضّفنا الفلاتر، فمش هيعمل مشاكل تاني."
+   },
+   {
+    "w": "cause",
+    "pos": "noun",
+    "ex": "The cause of the late payment was a missing PO number.",
+    "ar": "سبب التأخير في الدفع كان رقم أمر شراء ناقص.",
+    "ex2": "Once we added the PO number, the cause was gone and they paid.",
+    "ar2": "أول ما حطينا رقم الـ‎PO‎، السبب اتشال ودفعوا."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "underlying cause",
+    "note": "formal; often used in written reports",
+    "ex": "The report lists overheating as the underlying cause of the battery swelling.",
+    "ar": "التقرير بيقول إن السخونية هي السبب الحقيقي لانتفاخ البطاريات.",
+    "ex2": "The underlying cause was a broken AC unit in the battery room.",
+    "ar2": "السبب الحقيقي كان تكييف بايظ في أوضة البطاريات."
+   },
+   {
+    "w": "source of the problem",
+    "note": "informal, spoken; used with customers on the phone",
+    "ex": "We traced the source of the problem to a faulty control card.",
+    "ar": "وصلنا لمصدر المشكلة: كارت كنترول بايظ.",
+    "ex2": "Replacing the card removed the source of the problem.",
+    "ar2": "لما غيّرنا الكارت مصدر المشكلة راح."
+   },
+   {
+    "w": "reason",
+    "note": "general word; not limited to technical faults",
+    "ex": "The reason for the delay was customs clearance in Alexandria.",
+    "ar": "سبب التأخير كان التخليص الجمركي في إسكندرية.",
+    "ex2": "We explained the reason to the client in a short email.",
+    "ar2": "شرحنا السبب للعميل في إيميل قصير."
+   }
+  ],
+  "ant": [
+   {
+    "w": "symptom",
+    "ex": "The beeping alarm is just a symptom; we need the real fault.",
+    "ar": "صوت الإنذار ده مجرد عَرَض؛ إحنا محتاجين العطل الحقيقي.",
+    "ex2": "If we only treat the symptom, the UPS will fail again next month.",
+    "ar2": "لو عالجنا العَرَض بس، الـ‎UPS‎ هيقع تاني الشهر الجاي."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The server room lost power twice this week. Karim says the root cause is an overloaded UPS, not the batteries.",
+  "ctx_ar": "أوضة السيرفرات الكهربا قطعت فيها مرتين الأسبوع ده. كريم بيقول إن السبب الأساسي إن الـ‎UPS‎ عليه حِمل زيادة، مش البطاريات.",
+  "quiz": [
+   {
+    "s": "The ___ of the shutdown was a loose cable.",
+    "opts": [
+     "root cause",
+     "symptom",
+     "caused"
+    ],
+    "a": 0,
+    "ar": "السبب الأساسي للفصل كان كابل سايب."
+   },
+   {
+    "s": "The alarm is only a ___; the real fault is in the charger.",
+    "opts": [
+     "root cause",
+     "symptom",
+     "reason"
+    ],
+    "a": 1,
+    "ar": "الإنذار مجرد عَرَض؛ العطل الحقيقي في الشاحن."
+   },
+   {
+    "s": "Dust in the drive ___ the overheating.",
+    "opts": [
+     "cause",
+     "root cause",
+     "caused"
+    ],
+    "a": 2,
+    "ar": "التراب اللي في الدرايف هو اللي عمل السخونية."
+   }
+  ]
+ },
+ {
+  "w": "stakeholders",
+  "ar": "الأطراف المعنية / أصحاب المصلحة",
+  "family": [
+   {
+    "w": "stakeholder",
+    "pos": "person",
+    "ex": "The hospital's chief engineer is a key stakeholder in the UPS upgrade.",
+    "ar": "كبير مهندسين المستشفى طرف مهم في مشروع تطوير الـ‎UPS‎.",
+    "ex2": "Every stakeholder must approve the shutdown window first.",
+    "ar2": "كل طرف معني لازم يوافق على ميعاد الفصل الأول."
+   },
+   {
+    "w": "stakeholders",
+    "pos": "noun",
+    "ex": "We invited all stakeholders to the solar station kick-off meeting.",
+    "ar": "عزمنا كل الأطراف المعنية على اجتماع بداية محطة الطاقة الشمسية.",
+    "ex2": "The stakeholders agreed on the timeline and budget.",
+    "ar2": "الأطراف المعنية اتفقوا على الجدول الزمني والميزانية."
+   },
+   {
+    "w": "stake",
+    "pos": "noun",
+    "ex": "Our company has a big stake in winning this data centre tender.",
+    "ar": "شركتنا ليها مصلحة كبيرة إنها تكسب مناقصة الداتا سنتر دي.",
+    "ex2": "With so much at stake, Mona is checking every price twice.",
+    "ar2": "وعشان الموضوع مهم أوي، منى بتراجع كل سعر مرتين."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "parties",
+    "note": "formal; used in contracts and legal documents",
+    "ex": "Both parties signed the maintenance contract yesterday.",
+    "ar": "الطرفين مضوا عقد الصيانة امبارح.",
+    "ex2": "Neither of the parties can cancel it before one year.",
+    "ar2": "مفيش طرف من الطرفين يقدر يلغيه قبل سنة."
+   },
+   {
+    "w": "people involved",
+    "note": "plain, spoken English; less formal than stakeholders",
+    "ex": "Let's email all the people involved in the VFD project.",
+    "ar": "خلّينا نبعت إيميل لكل الناس اللي ليهم علاقة بمشروع الـ‎VFD‎.",
+    "ex2": "The people involved need the new delivery date today.",
+    "ar2": "الناس دي محتاجة ميعاد التسليم الجديد النهارده."
+   },
+   {
+    "w": "decision-makers",
+    "note": "only the stakeholders who have power to approve",
+    "ex": "We need to present the quotation to the decision-makers, not the technicians.",
+    "ar": "لازم نعرض عرض السعر على أصحاب القرار، مش الفنيين.",
+    "ex2": "The decision-makers will choose the supplier next week.",
+    "ar2": "أصحاب القرار هيختاروا المورد الأسبوع الجاي."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how involved they are",
+   "lar": "هما داخلين في الموضوع قد إيه",
+   "steps": [
+    {
+     "w": "observers",
+     "ex": "The finance team are just observers in this project.",
+     "ar": "فريق الحسابات مجرد متابعين في المشروع ده.",
+     "ex2": "As observers, they only receive the monthly report.",
+     "ar2": "وبما إنهم متابعين، بيستلموا التقرير الشهري بس."
+    },
+    {
+     "w": "stakeholders",
+     "ex": "The IT department are stakeholders because their servers depend on the UPS.",
+     "ar": "قسم الـ‎IT‎ طرف معني لأن السيرفرات بتاعتهم معتمدة على الـ‎UPS‎.",
+     "ex2": "As stakeholders, they attend the weekly progress call.",
+     "ar2": "وبما إنهم طرف معني، بيحضروا مكالمة المتابعة الأسبوعية."
+    },
+    {
+     "w": "key stakeholders",
+     "ex": "The factory owner and plant manager are key stakeholders.",
+     "ar": "صاحب المصنع ومدير المصنع أطراف أساسية.",
+     "ex2": "No change happens without the key stakeholders' approval.",
+     "ar2": "مفيش تغيير بيحصل من غير موافقة الأطراف الأساسية."
+    },
+    {
+     "w": "decision-makers",
+     "ex": "The board members are the final decision-makers on the budget.",
+     "ar": "أعضاء مجلس الإدارة هما أصحاب القرار النهائي في الميزانية.",
+     "ex2": "The decision-makers will sign the PO on Thursday.",
+     "ar2": "أصحاب القرار هيمضوا أمر الشراء يوم الخميس."
+    }
+   ]
+  },
+  "ctx": "Before we shut down the main UPS, we must inform all stakeholders. The hospital IT team and the facility manager need two days' notice.",
+  "ctx_ar": "قبل ما نفصل الـ‎UPS‎ الرئيسي، لازم نبلّغ كل الأطراف المعنية. فريق الـ‎IT‎ في المستشفى ومدير المنشأة محتاجين إخطار قبلها بيومين.",
+  "quiz": [
+   {
+    "s": "Both ___ signed the contract yesterday.",
+    "opts": [
+     "parties",
+     "observers",
+     "stake"
+    ],
+    "a": 0,
+    "ar": "الطرفين مضوا العقد امبارح."
+   },
+   {
+    "s": "The plant manager is a key ___ in this project.",
+    "opts": [
+     "stake",
+     "stakeholder",
+     "observers"
+    ],
+    "a": 1,
+    "ar": "مدير المصنع طرف أساسي في المشروع ده."
+   },
+   {
+    "s": "Only the ___ can approve the final budget.",
+    "opts": [
+     "observers",
+     "stakeholders",
+     "decision-makers"
+    ],
+    "a": 2,
+    "ar": "أصحاب القرار بس هما اللي يقدروا يوافقوا على الميزانية النهائية."
+   }
+  ]
+ },
+ {
+  "w": "in a timely manner",
+  "ar": "في الوقت المناسب / من غير تأخير",
+  "family": [
+   {
+    "w": "in a timely manner",
+    "pos": "adverb",
+    "ex": "Please send the signed PO in a timely manner so we can order the batteries.",
+    "ar": "ياريت تبعت أمر الشراء ممضي في وقته عشان نطلب البطاريات.",
+    "ex2": "If it arrives in a timely manner, delivery stays on schedule.",
+    "ar2": "لو وصل في وقته، التسليم هيفضل في ميعاده."
+   },
+   {
+    "w": "timely",
+    "pos": "adjective",
+    "ex": "Thank you for your timely payment of invoice 2045.",
+    "ar": "شكراً على دفع الفاتورة 2045 في ميعادها.",
+    "ex2": "Timely payments help us keep your prices fixed.",
+    "ar2": "الدفع في الميعاد بيساعدنا نثبّت أسعارك."
+   },
+   {
+    "w": "time",
+    "pos": "noun",
+    "ex": "The technician arrived on time for the UPS maintenance visit.",
+    "ar": "الفني وصل في الميعاد لزيارة صيانة الـ‎UPS‎.",
+    "ex2": "He finished in less time than we planned.",
+    "ar2": "وخلّص في وقت أقل من اللي كنا مخططينه."
+   },
+   {
+    "w": "timeline",
+    "pos": "noun",
+    "ex": "The customer wants a clear timeline for the solar installation.",
+    "ar": "العميل عايز جدول زمني واضح لتركيب الطاقة الشمسية.",
+    "ex2": "Our timeline shows completion in six weeks.",
+    "ar2": "الجدول الزمني بتاعنا بيقول هنخلّص في ست أسابيع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "promptly",
+    "note": "shorter; common in emails",
+    "ex": "Our team replied promptly to the breakdown call.",
+    "ar": "فريقنا رد بسرعة على بلاغ العطل.",
+    "ex2": "Because we acted promptly, the servers never went down.",
+    "ar2": "وعشان اتحركنا بسرعة، السيرفرات مقعتش خالص."
+   },
+   {
+    "w": "on time",
+    "note": "exactly at the agreed time, not late",
+    "ex": "The shipment from China arrived on time.",
+    "ar": "الشحنة من الصين وصلت في ميعادها.",
+    "ex2": "So the installation can start on time next Sunday.",
+    "ar2": "فالتركيب يقدر يبدأ في ميعاده الأحد الجاي."
+   },
+   {
+    "w": "without delay",
+    "note": "stronger; shows urgency",
+    "ex": "Please replace the faulty battery without delay.",
+    "ar": "ياريت تغيّروا البطارية البايظة من غير تأخير.",
+    "ex2": "Until then, the bank's servers have no backup power.",
+    "ar2": "ولحد ما يحصل كده، سيرفرات البنك ملهاش كهربا احتياطي."
+   }
+  ],
+  "ant": [
+   {
+    "w": "late",
+    "ex": "The client paid the last invoice late again.",
+    "ar": "العميل دفع آخر فاتورة متأخر تاني.",
+    "ex2": "Late payments delay our own supplier payments.",
+    "ar2": "الدفع المتأخر بيأخّر دفعنا للموردين."
+   },
+   {
+    "w": "with delay",
+    "ex": "The spare parts arrived with delay because of customs.",
+    "ar": "قطع الغيار وصلت متأخرة بسبب الجمارك.",
+    "ex2": "We informed the client about the delay the same day.",
+    "ar2": "بلّغنا العميل بالتأخير في نفس اليوم."
+   }
+  ],
+  "ladder": {
+   "label": "how fast",
+   "lar": "بسرعة قد إيه",
+   "steps": [
+    {
+     "w": "in a timely manner",
+     "ex": "Please review the quotation in a timely manner.",
+     "ar": "ياريت تراجع عرض السعر في وقت مناسب.",
+     "ex2": "Prices are valid for two weeks only.",
+     "ar2": "الأسعار سارية أسبوعين بس."
+    },
+    {
+     "w": "promptly",
+     "ex": "Please confirm the delivery address promptly.",
+     "ar": "ياريت تأكد عنوان التسليم بسرعة.",
+     "ex2": "The truck leaves the warehouse promptly at eight.",
+     "ar2": "العربية بتطلع من المخزن الساعة تمانية بالظبط."
+    },
+    {
+     "w": "as soon as possible",
+     "ex": "We need the signed PO as soon as possible.",
+     "ar": "محتاجين أمر الشراء ممضي في أسرع وقت.",
+     "ex2": "Otherwise the supplier's new prices will apply next week.",
+     "ar2": "وإلا أسعار المورد الجديدة هتتطبق الأسبوع الجاي."
+    },
+    {
+     "w": "immediately",
+     "ex": "The UPS is on bypass; send a technician immediately.",
+     "ar": "الـ‎UPS‎ على الـ‎bypass‎؛ ابعت فني حالاً.",
+     "ex2": "The data centre is at risk, so act immediately.",
+     "ar2": "الداتا سنتر في خطر، فاتحرك فوراً."
+    }
+   ]
+  },
+  "ctx": "Customers trust us because we answer complaints in a timely manner. Last week Samir fixed a hospital UPS within four hours.",
+  "ctx_ar": "العملاء بيثقوا فينا عشان بنرد على الشكاوى في وقتها. الأسبوع اللي فات سمير صلّح ‎UPS‎ مستشفى في أربع ساعات.",
+  "quiz": [
+   {
+    "s": "Thank you for your ___ payment.",
+    "opts": [
+     "timely",
+     "time",
+     "timeline"
+    ],
+    "a": 0,
+    "ar": "شكراً على دفعك في الميعاد."
+   },
+   {
+    "s": "The battery is leaking; replace it ___!",
+    "opts": [
+     "promptly",
+     "immediately",
+     "in a timely manner"
+    ],
+    "a": 1,
+    "ar": "البطارية بتسرّب؛ غيّرها حالاً!"
+   },
+   {
+    "s": "The client paid the invoice two months ___.",
+    "opts": [
+     "on time",
+     "promptly",
+     "late"
+    ],
+    "a": 2,
+    "ar": "العميل دفع الفاتورة متأخر شهرين."
+   }
+  ]
+ },
+ {
+  "w": "common ground",
+  "ar": "أرضية مشتركة",
+  "family": [
+   {
+    "w": "common ground",
+    "pos": "noun",
+    "ex": "We found common ground with the client on the payment schedule.",
+    "ar": "لقينا أرضية مشتركة مع العميل في جدول الدفع.",
+    "ex2": "Both sides accepted three equal instalments.",
+    "ar2": "الطرفين وافقوا على تلات أقساط متساوية."
+   },
+   {
+    "w": "common",
+    "pos": "adjective",
+    "ex": "Battery swelling is a common problem in hot server rooms.",
+    "ar": "انتفاخ البطاريات مشكلة منتشرة في أوض السيرفرات السخنة.",
+    "ex2": "It is common enough that we check it every visit.",
+    "ar2": "ومنتشرة لدرجة إننا بنكشف عليها كل زيارة."
+   },
+   {
+    "w": "commonly",
+    "pos": "adverb",
+    "ex": "VFDs are commonly used to control pumps and chillers.",
+    "ar": "الـ‎VFD‎ بيستخدم عادةً في التحكم في الطلمبات والتشيلرات.",
+    "ex2": "They commonly save 20 to 30 percent of energy.",
+    "ar2": "وعادةً بيوفّروا من 20 لـ30 في المية من الكهربا."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "middle ground",
+    "note": "a compromise position between two offers",
+    "ex": "We met the supplier on middle ground at a 7% discount.",
+    "ar": "اتقابلنا مع المورد في نص السكة على خصم 7%.",
+    "ex2": "They wanted 5% and we asked for 10%; middle ground worked.",
+    "ar2": "هما كانوا عايزين 5% وإحنا طلبنا 10%؛ الحل الوسط نفع."
+   },
+   {
+    "w": "shared interests",
+    "note": "what both sides want; deeper than one point",
+    "ex": "Our shared interests are uptime and a fair price.",
+    "ar": "المصلحة المشتركة بتاعتنا هي إن الأجهزة تفضل شغالة وسعر عادل.",
+    "ex2": "Talking about shared interests made the meeting easier.",
+    "ar2": "الكلام عن المصالح المشتركة سهّل الاجتماع."
+   },
+   {
+    "w": "agreement",
+    "note": "the final result after finding common ground",
+    "ex": "We reached an agreement on the maintenance price.",
+    "ar": "وصلنا لاتفاق على سعر الصيانة.",
+    "ex2": "The agreement will be signed on Sunday.",
+    "ar2": "الاتفاق هيتمضي يوم الأحد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "disagreement",
+    "ex": "There is still disagreement about who pays for shipping.",
+    "ar": "لسه فيه خلاف على مين يدفع الشحن.",
+    "ex2": "We will solve that disagreement in tomorrow's call.",
+    "ar2": "هنحل الخلاف ده في مكالمة بكرة."
+   },
+   {
+    "w": "deadlock",
+    "ex": "Negotiations reached a deadlock over the warranty period.",
+    "ar": "المفاوضات وقفت عند نقطة مسدودة بسبب مدة الضمان.",
+    "ex2": "To break the deadlock, we offered free battery testing.",
+    "ar2": "عشان نكسر الجمود، عرضنا اختبار بطاريات ببلاش."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The client wanted a lower price and we wanted faster payment. We found common ground: 5% off for payment within 15 days.",
+  "ctx_ar": "العميل كان عايز سعر أقل وإحنا كنا عايزين دفع أسرع. لقينا أرضية مشتركة: خصم 5% لو الدفع خلال 15 يوم.",
+  "quiz": [
+   {
+    "s": "After two hours we finally found common ___.",
+    "opts": [
+     "ground",
+     "agreement",
+     "deadlock"
+    ],
+    "a": 0,
+    "ar": "بعد ساعتين أخيراً لقينا أرضية مشتركة."
+   },
+   {
+    "s": "Talks hit a ___, so the manager joined the call.",
+    "opts": [
+     "common ground",
+     "deadlock",
+     "agreement"
+    ],
+    "a": 1,
+    "ar": "المفاوضات وصلت لطريق مسدود، فالمدير دخل المكالمة."
+   },
+   {
+    "s": "VFDs are ___ used on chiller pumps.",
+    "opts": [
+     "common",
+     "common ground",
+     "commonly"
+    ],
+    "a": 2,
+    "ar": "الـ‎VFD‎ بيستخدم عادةً على طلمبات التشيلر."
+   }
+  ]
+ },
+ {
+  "w": "win-win",
+  "ar": "مكسب للطرفين",
+  "family": [
+   {
+    "w": "win-win",
+    "pos": "adjective",
+    "ex": "A longer contract at a lower monthly fee is a win-win deal.",
+    "ar": "عقد أطول بقسط شهري أقل ده اتفاق فيه مكسب للطرفين.",
+    "ex2": "The client saves money and we get stable income.",
+    "ar2": "العميل بيوفّر فلوس وإحنا بناخد دخل ثابت."
+   },
+   {
+    "w": "win",
+    "pos": "verb",
+    "ex": "We hope to win the data centre tender against three competitors.",
+    "ar": "بنتمنى نكسب مناقصة الداتا سنتر قدام تلات منافسين.",
+    "ex2": "Winning it would mean two years of maintenance work.",
+    "ar2": "وكسبها هيبقى معناه سنتين شغل صيانة."
+   },
+   {
+    "w": "winner",
+    "pos": "person",
+    "ex": "The winner of the tender will be announced on Monday.",
+    "ar": "الشركة اللي هتكسب المناقصة هتتعلن يوم الإتنين.",
+    "ex2": "The winner must deliver within eight weeks.",
+    "ar2": "اللي هيكسب لازم يسلّم خلال تمن أسابيع."
+   },
+   {
+    "w": "win-win",
+    "pos": "noun",
+    "ex": "Free training with every UPS order is a real win-win.",
+    "ar": "تدريب ببلاش مع كل أوردر ‎UPS‎ ده مكسب حقيقي للطرفين.",
+    "ex2": "Customers love it, and it reduces our service calls.",
+    "ar2": "العملا بيحبوه، وبيقلل بلاغات الصيانة عندنا."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "mutually beneficial",
+    "note": "formal; good for proposals and contracts",
+    "ex": "We look forward to a mutually beneficial partnership.",
+    "ar": "متطلعين لشراكة فيها فايدة للطرفين.",
+    "ex2": "A mutually beneficial deal keeps clients for years.",
+    "ar2": "الاتفاق اللي فيه فايدة للطرفين بيحافظ على العملا سنين."
+   },
+   {
+    "w": "fair deal",
+    "note": "informal; focuses on fairness, not mutual gain",
+    "ex": "Twelve percent off for a three-year contract is a fair deal.",
+    "ar": "خصم اتناشر في المية على عقد تلات سنين ده اتفاق عادل.",
+    "ex2": "The client agreed it was a fair deal and signed.",
+    "ar2": "العميل وافق إنه اتفاق عادل ومضى."
+   }
+  ],
+  "ant": [
+   {
+    "w": "win-lose",
+    "ex": "A huge discount would be a win-lose deal for us.",
+    "ar": "خصم كبير أوي هيبقى اتفاق خسران بالنسبة لنا.",
+    "ex2": "Win-lose deals usually don't last long.",
+    "ar2": "الاتفاقات اللي طرف فيها خسران عادةً مبتعيشش."
+   },
+   {
+    "w": "lose-lose",
+    "ex": "Cancelling the order now is lose-lose for both companies.",
+    "ar": "إلغاء الأوردر دلوقتي خسارة للشركتين.",
+    "ex2": "Let's avoid a lose-lose outcome and talk again.",
+    "ar2": "خلّينا نتجنب نتيجة خسرانة للطرفين ونتكلم تاني."
+   }
+  ],
+  "ladder": {
+   "label": "how good the deal is for both",
+   "lar": "الاتفاق كويس للطرفين قد إيه",
+   "steps": [
+    {
+     "w": "lose-lose",
+     "ex": "A price war would be lose-lose for all suppliers.",
+     "ar": "حرب أسعار هتبقى خسارة لكل الموردين.",
+     "ex2": "Nobody makes money in that situation.",
+     "ar2": "محدش بيكسب فلوس في الوضع ده."
+    },
+    {
+     "w": "win-lose",
+     "ex": "Accepting 90-day payment terms is win-lose for us.",
+     "ar": "قبول دفع بعد 90 يوم ده مكسب ليهم وخسارة لينا.",
+     "ex2": "We would wait three months for our money.",
+     "ar2": "هنستنى تلات شهور على فلوسنا."
+    },
+    {
+     "w": "fair deal",
+     "ex": "The final price was a fair deal for both sides.",
+     "ar": "السعر النهائي كان اتفاق عادل للطرفين.",
+     "ex2": "Nobody got everything, but both accepted it.",
+     "ar2": "محدش خد كل حاجة، بس الاتنين قبلوه."
+    },
+    {
+     "w": "win-win",
+     "ex": "Annual maintenance with spare-part discounts is a win-win.",
+     "ar": "صيانة سنوية بخصم على قطع الغيار ده مكسب للطرفين.",
+     "ex2": "The client saves, and we secure steady work.",
+     "ar2": "العميل بيوفّر، وإحنا بنضمن شغل ثابت."
+    }
+   ]
+  },
+  "ctx": "If you sign for three years, we'll include free battery tests. It's a win-win: you save money and we keep a loyal customer.",
+  "ctx_ar": "لو مضيت على تلات سنين، هنضيف اختبار بطاريات ببلاش. ده مكسب للطرفين: إنت بتوفّر فلوس وإحنا بنحافظ على عميل مخلص.",
+  "quiz": [
+   {
+    "s": "Free training with every order is a real ___.",
+    "opts": [
+     "win-win",
+     "win-lose",
+     "winner"
+    ],
+    "a": 0,
+    "ar": "تدريب ببلاش مع كل أوردر ده مكسب حقيقي للطرفين."
+   },
+   {
+    "s": "We ___ the tender last month.",
+    "opts": [
+     "win",
+     "won",
+     "winner"
+    ],
+    "a": 1,
+    "ar": "كسبنا المناقصة الشهر اللي فات."
+   },
+   {
+    "s": "We hope for a ___ beneficial partnership.",
+    "opts": [
+     "win-win",
+     "fair",
+     "mutually"
+    ],
+    "a": 2,
+    "ar": "بنتمنى شراكة فيها فايدة للطرفين."
+   }
+  ]
+ },
+ {
+  "w": "keep an eye on",
+  "ar": "خلّي عينك على / تابع",
+  "family": [
+   {
+    "w": "keep an eye on",
+    "pos": "verb",
+    "ex": "Please keep an eye on the battery temperature this week.",
+    "ar": "ياريت تاخد بالك من حرارة البطاريات الأسبوع ده.",
+    "ex2": "If it goes above 30°C, call me right away.",
+    "ar2": "لو عدّت 30 درجة، كلّمني على طول."
+   },
+   {
+    "w": "eye",
+    "pos": "noun",
+    "ex": "Our monitoring software is an extra eye on the client's UPS.",
+    "ar": "برنامج المراقبة بتاعنا عين زيادة على الـ‎UPS‎ بتاع العميل.",
+    "ex2": "It sends an SMS alert if the eye catches a fault.",
+    "ar2": "وبيبعت رسالة لو لقى عطل."
+   },
+   {
+    "w": "keep",
+    "pos": "verb",
+    "ex": "Keep the server room door closed to protect the AC.",
+    "ar": "خلّي باب أوضة السيرفرات مقفول عشان التكييف.",
+    "ex2": "Keeping it closed also keeps dust out.",
+    "ar2": "وقفله كمان بيمنع التراب."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "monitor",
+    "note": "formal and technical; often with systems",
+    "ex": "Our team monitors the solar inverters remotely.",
+    "ar": "فريقنا بيراقب الإنفرترات بتاعة الطاقة الشمسية عن بُعد.",
+    "ex2": "We monitor output every hour from the office.",
+    "ar2": "بنراقب الإنتاج كل ساعة من المكتب."
+   },
+   {
+    "w": "watch",
+    "note": "general; can be short-term",
+    "ex": "Watch the load meter while I switch to bypass.",
+    "ar": "بُص على عداد الحِمل وأنا بحوّل على الـ‎bypass‎.",
+    "ex2": "If the load jumps, watch for alarms too.",
+    "ar2": "لو الحِمل نط، خد بالك من الإنذارات كمان."
+   },
+   {
+    "w": "keep track of",
+    "note": "following numbers or progress over time",
+    "ex": "Hoda keeps track of all overdue invoices.",
+    "ar": "هدى بتتابع كل الفواتير المتأخرة.",
+    "ex2": "She keeps track of them in a shared Excel sheet.",
+    "ar2": "وبتتابعها في شيت ‎Excel‎ مشترك."
+   }
+  ],
+  "ant": [
+   {
+    "w": "ignore",
+    "ex": "Don't ignore the low-battery warning on the UPS.",
+    "ar": "متتجاهلش إنذار البطارية الضعيفة على الـ‎UPS‎.",
+    "ex2": "If you ignore it, the servers may shut down suddenly.",
+    "ar2": "لو تجاهلته، السيرفرات ممكن تقفل فجأة."
+   },
+   {
+    "w": "neglect",
+    "ex": "The client neglected the VFD filters for a year.",
+    "ar": "العميل أهمل فلاتر الـ‎VFD‎ سنة كاملة.",
+    "ex2": "The neglect caused overheating and a costly repair.",
+    "ar2": "الإهمال ده عمل سخونية وتصليح مكلّف."
+   }
+  ],
+  "ladder": {
+   "label": "how closely you watch",
+   "lar": "بتتابع بتركيز قد إيه",
+   "steps": [
+    {
+     "w": "check on",
+     "ex": "I'll check on the solar site next week.",
+     "ar": "هبص على موقع الطاقة الشمسية الأسبوع الجاي.",
+     "ex2": "A quick check is enough for now.",
+     "ar2": "بصّة سريعة كفاية دلوقتي."
+    },
+    {
+     "w": "keep an eye on",
+     "ex": "Keep an eye on that customer's payment this month.",
+     "ar": "خلّي عينك على دفع العميل ده الشهر ده.",
+     "ex2": "He was late twice before.",
+     "ar2": "هو اتأخر مرتين قبل كده."
+    },
+    {
+     "w": "monitor",
+     "ex": "We monitor the data centre UPS 24/7.",
+     "ar": "بنراقب الـ‎UPS‎ بتاع الداتا سنتر 24 ساعة.",
+     "ex2": "Any alarm goes straight to the on-call engineer.",
+     "ar2": "أي إنذار بيروح على طول للمهندس المناوب."
+    },
+    {
+     "w": "closely monitor",
+     "ex": "We must closely monitor the batteries after the flood.",
+     "ar": "لازم نراقب البطاريات بدقة بعد الغرق.",
+     "ex2": "We closely monitor voltage every hour.",
+     "ar2": "بنراقب الجهد بدقة كل ساعة."
+    }
+   ]
+  },
+  "ctx": "The new VFD is running, but the motor sounds a bit noisy. Please keep an eye on it and send me a photo of the readings.",
+  "ctx_ar": "الـ‎VFD‎ الجديد شغال، بس الموتور صوته عالي شوية. ياريت تاخد بالك منه وتبعتلي صورة القراءات.",
+  "quiz": [
+   {
+    "s": "Please keep an ___ on the battery temperature.",
+    "opts": [
+     "eye",
+     "keep",
+     "watch"
+    ],
+    "a": 0,
+    "ar": "ياريت تاخد بالك من حرارة البطاريات."
+   },
+   {
+    "s": "Don't ___ the low-battery alarm.",
+    "opts": [
+     "monitor",
+     "ignore",
+     "keep track of"
+    ],
+    "a": 1,
+    "ar": "متتجاهلش إنذار البطارية الضعيفة."
+   },
+   {
+    "s": "Hoda keeps ___ of all overdue invoices.",
+    "opts": [
+     "eye",
+     "watch",
+     "track"
+    ],
+    "a": 2,
+    "ar": "هدى بتتابع كل الفواتير المتأخرة."
+   }
+  ]
+ }
+]

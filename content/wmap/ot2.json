@@ -1,0 +1,780 @@
+[
+ {
+  "w": "productive",
+  "ar": "مُنتِج / فيه إنجاز",
+  "family": [
+   {
+    "w": "produce",
+    "pos": "verb",
+    "ex": "This solar station will produce 500 kWh a day.",
+    "ar": "المحطة الشمسية دي هتنتج 500 كيلووات ساعة في اليوم.",
+    "ex2": "In summer it may produce even more.",
+    "ar2": "في الصيف ممكن تنتج أكتر كمان."
+   },
+   {
+    "w": "production",
+    "pos": "noun",
+    "ex": "The UPS protects the factory's production line from power cuts.",
+    "ar": "الـ‎UPS‎ بيحمي خط الإنتاج في المصنع من انقطاع الكهربا.",
+    "ex2": "One power cut used to stop production for an hour.",
+    "ar2": "قطعة كهربا واحدة كانت بتوقف الإنتاج ساعة."
+   },
+   {
+    "w": "productive",
+    "pos": "adjective",
+    "ex": "It was a very productive day; we closed five service tickets.",
+    "ar": "كان يوم فيه إنجاز جامد؛ قفلنا خمس تذاكر خدمة.",
+    "ex2": "Let's keep it productive tomorrow with the Alex visits.",
+    "ar2": "خلّينا نكمّل بنفس الإنجاز بكرة في زيارات إسكندرية."
+   },
+   {
+    "w": "productivity",
+    "pos": "noun",
+    "ex": "The new mobile app improved our technicians' productivity.",
+    "ar": "الأبلكيشن الجديد حسّن إنتاجية الفنيين عندنا.",
+    "ex2": "Productivity rose because they no longer write paper reports.",
+    "ar2": "الإنتاجية زادت عشان مبقوش يكتبوا تقارير ورق."
+   },
+   {
+    "w": "product",
+    "pos": "noun",
+    "ex": "Our best-selling product is the 10 kVA online UPS.",
+    "ar": "أكتر منتج بيتباع عندنا هو الـ‎UPS‎ الأونلاين 10 ‎kVA‎.",
+    "ex2": "This product brings most of our battery replacement business too.",
+    "ar2": "المنتج ده بيجيب معظم شغل تغيير البطاريات كمان."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "efficient",
+    "note": "works well without wasting time, money or energy",
+    "ex": "The new VFD makes the pump much more efficient.",
+    "ar": "الـ‎VFD‎ الجديد بيخلّي الطلمبة كفاءتها أعلى بكتير.",
+    "ex2": "An efficient pump means a lower electricity bill.",
+    "ar2": "طلمبة كفاءتها عالية يعني فاتورة كهربا أقل."
+   },
+   {
+    "w": "fruitful",
+    "note": "formal; a meeting or talk with good results",
+    "ex": "We had a fruitful discussion with the hospital's procurement team.",
+    "ar": "كان عندنا نقاش مثمر مع فريق المشتريات في المستشفى.",
+    "ex2": "The fruitful meeting ended with a request for a final offer.",
+    "ar2": "الاجتماع المثمر خلص بطلب عرض نهائي."
+   },
+   {
+    "w": "useful",
+    "note": "weaker; it helped, but maybe not much was done",
+    "ex": "The supplier webinar was useful for our engineers.",
+    "ar": "الويبينار بتاع المورّد كان مفيد لمهندسينا.",
+    "ex2": "The most useful part was the battery testing demo.",
+    "ar2": "أكتر جزء مفيد كان عرض اختبار البطاريات."
+   }
+  ],
+  "ant": [
+   {
+    "w": "unproductive",
+    "ex": "The meeting was unproductive; we argued for two hours and decided nothing.",
+    "ar": "الاجتماع مكانش فيه أي إنجاز؛ اتخانقنا ساعتين ومقررناش حاجة.",
+    "ex2": "Next time, an agenda will stop it being unproductive.",
+    "ar2": "المرة الجاية، الأجندة هتمنع إنه يبقى من غير فايدة."
+   }
+  ],
+  "ladder": {
+   "label": "how much got done",
+   "lar": "اتعمل قد إيه",
+   "steps": [
+    {
+     "w": "useful",
+     "ex": "The call with the supplier was useful.",
+     "ar": "المكالمة مع المورّد كانت مفيدة.",
+     "ex2": "We got the new delivery date at least.",
+     "ar2": "على الأقل عرفنا ميعاد التوصيل الجديد."
+    },
+    {
+     "w": "productive",
+     "ex": "Thank you for a productive meeting this morning.",
+     "ar": "شكراً على اجتماع النهارده الصبح، كان فيه إنجاز.",
+     "ex2": "We agreed on price, payment terms and delivery.",
+     "ar2": "اتفقنا على السعر وشروط الدفع والتوصيل."
+    },
+    {
+     "w": "highly productive",
+     "ex": "The solar team had a highly productive week: three sites commissioned.",
+     "ar": "فريق الطاقة الشمسية كان عنده أسبوع إنجازه عالي جداً: تلات مواقع اشتغلت.",
+     "ex2": "Management sent a thank-you email for the highly productive week.",
+     "ar2": "الإدارة بعتت إيميل شكر على الأسبوع ده."
+    }
+   ]
+  },
+  "ctx": "Thank you for a productive meeting this morning. I've summarized the action points for the solar project below.",
+  "ctx_ar": "شكراً على اجتماع النهارده الصبح، كان فيه إنجاز. لخّصت تحت النقط المطلوبة لمشروع الطاقة الشمسية.",
+  "quiz": [
+   {
+    "s": "It was a very ___ day; we closed five service tickets.",
+    "opts": [
+     "productive",
+     "productivity",
+     "produce"
+    ],
+    "a": 0,
+    "ar": "كان يوم فيه إنجاز جامد؛ قفلنا خمس تذاكر خدمة."
+   },
+   {
+    "s": "The new app improved our technicians' ___.",
+    "opts": [
+     "productive",
+     "productivity",
+     "production"
+    ],
+    "a": 1,
+    "ar": "الأبلكيشن الجديد حسّن إنتاجية الفنيين عندنا."
+   },
+   {
+    "s": "The meeting was ___; we argued for two hours and decided nothing.",
+    "opts": [
+     "fruitful",
+     "productive",
+     "unproductive"
+    ],
+    "a": 2,
+    "ar": "الاجتماع مكانش فيه أي إنجاز؛ اتخانقنا ساعتين ومقررناش حاجة."
+   }
+  ]
+ },
+ {
+  "w": "in a good mood",
+  "ar": "مزاجه حلو / رايق",
+  "family": [
+   {
+    "w": "mood",
+    "pos": "noun",
+    "ex": "The boss is in a good mood today; ask him about the bonus.",
+    "ar": "المدير مزاجه حلو النهارده؛ اسأله عن البونص.",
+    "ex2": "His mood changed after the bank paid the overdue invoice.",
+    "ar2": "مزاجه اتغير بعد ما البنك دفع الفاتورة المتأخرة."
+   },
+   {
+    "w": "moody",
+    "pos": "adjective",
+    "ex": "The purchasing manager is quite moody; call him in the morning.",
+    "ar": "مدير المشتريات مزاجه متقلب؛ كلّمه الصبح.",
+    "ex2": "After lunch he's moody and says no to everything.",
+    "ar2": "بعد الغدا مزاجه بيتقلب وبيرفض أي حاجة."
+   },
+   {
+    "w": "in a good mood",
+    "pos": "adjective",
+    "ex": "The client was in a good mood after the successful commissioning.",
+    "ar": "العميل كان مزاجه حلو بعد التشغيل الناجح.",
+    "ex2": "It was the perfect time to discuss the contract renewal.",
+    "ar2": "كان أحسن وقت نتكلم في تجديد العقد."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "cheerful",
+    "note": "happy and clearly shows it to others",
+    "ex": "Our receptionist is always cheerful with visiting customers.",
+    "ar": "موظفة الاستقبال عندنا دايماً بشوشة مع العملاء اللي بييجوا.",
+    "ex2": "Customers remember her cheerful welcome.",
+    "ar2": "العملاء بيفتكروا استقبالها البشوش."
+   },
+   {
+    "w": "relaxed",
+    "note": "calm and not stressed",
+    "ex": "The IT manager was relaxed because the UPS handled the power cut.",
+    "ar": "مدير الـ‎IT‎ كان رايق عشان الـ‎UPS‎ استحمل قطع الكهربا.",
+    "ex2": "A relaxed client is easier to talk to about upgrades.",
+    "ar2": "العميل الرايق أسهل تكلّمه في التطويرات."
+   },
+   {
+    "w": "in good spirits",
+    "note": "formal or written; positive, often after difficulty",
+    "ex": "The team is in good spirits after winning the tender.",
+    "ar": "الفريق معنوياته عالية بعد كسب المناقصة.",
+    "ex2": "Even after the long night shift, they were in good spirits.",
+    "ar2": "حتى بعد شيفت الليل الطويل، كانت معنوياتهم عالية."
+   }
+  ],
+  "ant": [
+   {
+    "w": "in a bad mood",
+    "ex": "The customer was in a bad mood because the UPS failed again.",
+    "ar": "العميل كان متضايق عشان الـ‎UPS‎ وقع تاني.",
+    "ex2": "Don't mention the invoice while he's in a bad mood.",
+    "ar2": "متجيبش سيرة الفاتورة وهو متضايق."
+   },
+   {
+    "w": "grumpy",
+    "ex": "The site manager gets grumpy when we arrive late.",
+    "ar": "مدير الموقع بيتنرفز لما نوصل متأخرين.",
+    "ex2": "Bring the parts on time and he won't be grumpy.",
+    "ar2": "هات القطع في ميعادها ومش هيتنرفز."
+   }
+  ],
+  "ladder": {
+   "label": "how happy",
+   "lar": "مبسوط قد إيه",
+   "steps": [
+    {
+     "w": "fine",
+     "ex": "The client seemed fine after we explained the delay.",
+     "ar": "العميل كان تمام بعد ما شرحنا سبب التأخير.",
+     "ex2": "He wasn't happy, but he was fine with Sunday.",
+     "ar2": "مكانش مبسوط، بس وافق على الحد."
+    },
+    {
+     "w": "in a good mood",
+     "ex": "Mr Adel is in a good mood today.",
+     "ar": "أستاذ عادل مزاجه حلو النهارده.",
+     "ex2": "Let's ask him to sign the PO while he's in a good mood.",
+     "ar2": "خلّينا نطلب منه يمضي أمر الشراء وهو مزاجه حلو."
+    },
+    {
+     "w": "delighted",
+     "ex": "The hospital director was delighted with the new UPS room.",
+     "ar": "مدير المستشفى كان مبسوط جداً بأوضة الـ‎UPS‎ الجديدة.",
+     "ex2": "He was so delighted that he posted photos on LinkedIn.",
+     "ar2": "اتبسط لدرجة إنه نزّل صور على ‎LinkedIn‎."
+    }
+   ]
+  },
+  "ctx": "The client was in a good mood after the successful commissioning. It was the perfect time to discuss contract renewal.",
+  "ctx_ar": "العميل كان مزاجه حلو بعد التشغيل الناجح. كان أحسن وقت نتكلم في تجديد العقد.",
+  "quiz": [
+   {
+    "s": "The boss is in a good ___ today; ask him about the bonus.",
+    "opts": [
+     "mood",
+     "moody",
+     "cheerful"
+    ],
+    "a": 0,
+    "ar": "المدير مزاجه حلو النهارده؛ اسأله عن البونص."
+   },
+   {
+    "s": "He's very ___; one minute happy, the next angry.",
+    "opts": [
+     "mood",
+     "moody",
+     "relaxed"
+    ],
+    "a": 1,
+    "ar": "مزاجه متقلب جداً؛ دقيقة مبسوط ودقيقة متضايق."
+   },
+   {
+    "s": "The customer was ___ because the UPS failed again.",
+    "opts": [
+     "in a good mood",
+     "cheerful",
+     "in a bad mood"
+    ],
+    "a": 2,
+    "ar": "العميل كان متضايق عشان الـ‎UPS‎ وقع تاني."
+   }
+  ]
+ },
+ {
+  "w": "cooperative",
+  "ar": "متعاون",
+  "family": [
+   {
+    "w": "cooperate",
+    "pos": "verb",
+    "ex": "Please cooperate with our engineer during the battery test.",
+    "ar": "ياريت تتعاونوا مع المهندس بتاعنا وقت اختبار البطاريات.",
+    "ex2": "He'll need you to cooperate by switching off some loads.",
+    "ar2": "هيحتاجكم تتعاونوا وتطفّوا بعض الأحمال."
+   },
+   {
+    "w": "cooperation",
+    "pos": "noun",
+    "ex": "Thank you for your cooperation during the shutdown.",
+    "ar": "شكراً على تعاونكم وقت الإطفاء.",
+    "ex2": "Your cooperation helped us finish two hours early.",
+    "ar2": "تعاونكم ساعدنا نخلّص قبل الميعاد بساعتين."
+   },
+   {
+    "w": "cooperative",
+    "pos": "adjective",
+    "ex": "Their IT manager was very cooperative and gave us full access.",
+    "ar": "مدير الـ‎IT‎ عندهم كان متعاون جداً وادّانا صلاحية كاملة.",
+    "ex2": "With such a cooperative client, the upgrade went smoothly.",
+    "ar2": "مع عميل متعاون كده، التطوير عدّى بسلاسة."
+   },
+   {
+    "w": "cooperatively",
+    "pos": "adverb",
+    "ex": "Sales and service worked cooperatively on the hotel renewal.",
+    "ar": "المبيعات والخدمة اشتغلوا مع بعض بتعاون على تجديد عقد الفندق.",
+    "ex2": "Working cooperatively, they kept the client from leaving.",
+    "ar2": "بالتعاون ده، خلّوا العميل ميمشيش."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "helpful",
+    "note": "general; willing to help anyone",
+    "ex": "The security guard was helpful and showed us the generator room.",
+    "ar": "الأمن كان خدوم وورّانا أوضة المولّد.",
+    "ex2": "Helpful site staff save us a lot of time.",
+    "ar2": "الناس الخدومة في الموقع بتوفّر علينا وقت كتير."
+   },
+   {
+    "w": "collaborative",
+    "note": "working together on a shared goal; teamwork",
+    "ex": "The solar project was a collaborative effort with the client's engineers.",
+    "ar": "مشروع الطاقة الشمسية كان مجهود مشترك مع مهندسين العميل.",
+    "ex2": "That collaborative approach avoided design mistakes.",
+    "ar2": "الأسلوب التشاركي ده منع أخطاء في التصميم."
+   },
+   {
+    "w": "supportive",
+    "note": "gives encouragement and backing",
+    "ex": "My manager was very supportive when I took on key accounts.",
+    "ar": "مديري كان داعم جداً لما استلمت العملاء الكبار.",
+    "ex2": "He was supportive and joined my first three meetings.",
+    "ar2": "دعمني وحضر معايا أول تلات اجتماعات."
+   }
+  ],
+  "ant": [
+   {
+    "w": "uncooperative",
+    "ex": "Customs officials were uncooperative and refused to share any information.",
+    "ar": "موظفين الجمارك مكانوش متعاونين ورفضوا يدّوا أي معلومة.",
+    "ex2": "Our broker dealt with the uncooperative office directly.",
+    "ar2": "المخلّص بتاعنا اتعامل مع المكتب ده مباشرةً."
+   },
+   {
+    "w": "difficult",
+    "ex": "The new procurement manager is difficult to deal with.",
+    "ar": "مدير المشتريات الجديد صعب التعامل معاه.",
+    "ex2": "He's difficult, but he pays on time.",
+    "ar2": "هو صعب، بس بيدفع في الميعاد."
+   }
+  ],
+  "ladder": {
+   "label": "how willing to help",
+   "lar": "عنده استعداد يساعد قد إيه",
+   "steps": [
+    {
+     "w": "willing",
+     "ex": "The site team was willing to help but had no keys.",
+     "ar": "فريق الموقع كان عنده استعداد يساعد بس مكانش معاهم المفاتيح.",
+     "ex2": "They were willing to call their manager, at least.",
+     "ar2": "على الأقل كانوا مستعدين يكلّموا مديرهم."
+    },
+    {
+     "w": "cooperative",
+     "ex": "The site team was very cooperative during the battery replacement.",
+     "ar": "فريق الموقع كان متعاون جداً وقت تغيير البطاريات.",
+     "ex2": "They cleared the UPS room before we arrived.",
+     "ar2": "فضّوا أوضة الـ‎UPS‎ قبل ما نوصل."
+    },
+    {
+     "w": "extremely helpful",
+     "ex": "The client's engineer was extremely helpful; he stayed until midnight.",
+     "ar": "مهندس العميل كان خدوم جداً؛ فضل معانا لحد نص الليل.",
+     "ex2": "We sent his manager a thank-you note for being extremely helpful.",
+     "ar2": "بعتنا لمديره رسالة شكر على مساعدته."
+    }
+   ]
+  },
+  "ctx": "The site team was very cooperative during the battery replacement. They cleared the UPS room before we arrived.",
+  "ctx_ar": "فريق الموقع كان متعاون جداً وقت تغيير البطاريات. فضّوا أوضة الـ‎UPS‎ قبل ما نوصل.",
+  "quiz": [
+   {
+    "s": "Thanks for your ___ during the shutdown.",
+    "opts": [
+     "cooperate",
+     "cooperation",
+     "cooperative"
+    ],
+    "a": 1,
+    "ar": "شكراً على تعاونكم وقت الإطفاء."
+   },
+   {
+    "s": "Their IT manager was very ___ and gave us full access.",
+    "opts": [
+     "cooperative",
+     "cooperate",
+     "uncooperative"
+    ],
+    "a": 0,
+    "ar": "مدير الـ‎IT‎ عندهم كان متعاون جداً وادّانا صلاحية كاملة."
+   },
+   {
+    "s": "Customs refused to share any information; they were ___.",
+    "opts": [
+     "cooperative",
+     "helpful",
+     "uncooperative"
+    ],
+    "a": 2,
+    "ar": "الجمارك رفضوا يدّوا أي معلومة؛ مكانوش متعاونين."
+   }
+  ]
+ },
+ {
+  "w": "considerate",
+  "ar": "بيراعي غيره / ذوق",
+  "family": [
+   {
+    "w": "consider",
+    "pos": "verb",
+    "ex": "We will consider your request for 60-day payment terms.",
+    "ar": "هندرس طلبك بخصوص الدفع بعد 60 يوم.",
+    "ex2": "Finance will consider it at Sunday's meeting.",
+    "ar2": "المالية هتدرسه في اجتماع الحد."
+   },
+   {
+    "w": "consideration",
+    "pos": "noun",
+    "ex": "Thank you for your consideration of our proposal.",
+    "ar": "شكراً على اهتمامك بدراسة العرض بتاعنا.",
+    "ex2": "The proposal is still under consideration by their board.",
+    "ar2": "العرض لسه تحت الدراسة عند مجلس الإدارة عندهم."
+   },
+   {
+    "w": "considerate",
+    "pos": "adjective",
+    "ex": "It was considerate of Omar to call before visiting the site.",
+    "ar": "كان ذوق من عمر إنه يتصل قبل ما يزور الموقع.",
+    "ex2": "The client was in a meeting until eleven.",
+    "ar2": "العميل كان في اجتماع لحد الساعة حداشر."
+   },
+   {
+    "w": "considerately",
+    "pos": "adverb",
+    "ex": "The technicians worked considerately and kept the noise down.",
+    "ar": "الفنيين اشتغلوا بمراعاة وقلّلوا الدوشة.",
+    "ex2": "Patients' rooms were next door, so they worked considerately.",
+    "ar2": "أوض المرضى كانت جنبهم، فاشتغلوا بمراعاة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "thoughtful",
+    "note": "thinks ahead about what others need",
+    "ex": "It was thoughtful of you to bring spare fuses.",
+    "ar": "كان ذوق منك إنك جبت فيوزات احتياطي.",
+    "ex2": "That thoughtful step saved a second visit.",
+    "ar2": "الخطوة دي وفّرت زيارة تانية."
+   },
+   {
+    "w": "polite",
+    "note": "good manners; considerate goes deeper than words",
+    "ex": "Always be polite with the client's security staff.",
+    "ar": "خليك دايماً مؤدب مع الأمن عند العميل.",
+    "ex2": "A polite request gets you into the site faster.",
+    "ar2": "الطلب بأدب بيدخّلك الموقع أسرع."
+   },
+   {
+    "w": "respectful",
+    "note": "shows respect for rules, people and their time",
+    "ex": "Be respectful of the hospital's quiet hours.",
+    "ar": "احترم مواعيد الهدوء في المستشفى.",
+    "ex2": "Respectful behaviour on site protects our contract.",
+    "ar2": "التصرف المحترم في الموقع بيحافظ على العقد بتاعنا."
+   }
+  ],
+  "ant": [
+   {
+    "w": "inconsiderate",
+    "ex": "Taking loud calls in the open office is inconsiderate.",
+    "ar": "إنك تعمل مكالمات بصوت عالي في المكتب المفتوح ده قلة ذوق.",
+    "ex2": "Please don't be inconsiderate; use the meeting room.",
+    "ar2": "ياريت متبقاش مش مراعي، استخدم أوضة الاجتماعات."
+   },
+   {
+    "w": "rude",
+    "ex": "The delivery driver was rude to the client's storekeeper.",
+    "ar": "سواق التوصيل كان قليل الذوق مع أمين مخزن العميل.",
+    "ex2": "We apologized for the rude behaviour and changed the driver.",
+    "ar2": "اعتذرنا عن قلة الذوق وغيّرنا السواق."
+   }
+  ],
+  "ladder": null,
+  "ctx": "It was considerate of Omar to call before visiting the site. The client was in a meeting until eleven.",
+  "ctx_ar": "كان ذوق من عمر إنه يتصل قبل ما يزور الموقع. العميل كان في اجتماع لحد الساعة حداشر.",
+  "quiz": [
+   {
+    "s": "Thanks for being so ___ about my workload this week.",
+    "opts": [
+     "considerate",
+     "consider",
+     "consideration"
+    ],
+    "a": 0,
+    "ar": "شكراً إنك راعيت ضغط الشغل اللي عليا الأسبوع ده."
+   },
+   {
+    "s": "We will ___ your request for a 60-day payment term.",
+    "opts": [
+     "considerate",
+     "consider",
+     "consideration"
+    ],
+    "a": 1,
+    "ar": "هندرس طلبك بخصوص الدفع بعد 60 يوم."
+   },
+   {
+    "s": "Taking loud calls in the open office is ___.",
+    "opts": [
+     "considerate",
+     "thoughtful",
+     "inconsiderate"
+    ],
+    "a": 2,
+    "ar": "إنك تعمل مكالمات بصوت عالي في المكتب المفتوح ده قلة ذوق."
+   }
+  ]
+ },
+ {
+  "w": "tricky",
+  "ar": "صعب شوية / محتاج حرص",
+  "family": [
+   {
+    "w": "trick",
+    "pos": "noun",
+    "ex": "A simple trick: restart the router before calling IT.",
+    "ar": "حركة بسيطة: اعمل ريستارت للراوتر قبل ما تكلّم الـ‎IT‎.",
+    "ex2": "That trick fixes most remote monitoring problems.",
+    "ar2": "الحركة دي بتحل معظم مشاكل المراقبة عن بعد."
+   },
+   {
+    "w": "trick",
+    "pos": "verb",
+    "ex": "Scam emails try to trick accounts staff into changing bank details.",
+    "ar": "إيميلات النصب بتحاول تضحك على موظفين الحسابات عشان يغيّروا بيانات البنك.",
+    "ex2": "Always call the supplier so nobody can trick you.",
+    "ar2": "كلّم المورّد دايماً عشان محدش يضحك عليك."
+   },
+   {
+    "w": "tricky",
+    "pos": "adjective",
+    "ex": "Wiring this old VFD is tricky; the labels are missing.",
+    "ar": "توصيل الـ‎VFD‎ القديم ده صعب شوية؛ الليبلز مش موجودة.",
+    "ex2": "Take photos before you disconnect anything tricky.",
+    "ar2": "صوّر قبل ما تفك أي حاجة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "difficult",
+    "note": "general word for hard",
+    "ex": "It's difficult to find these batteries in the local market.",
+    "ar": "صعب نلاقي البطاريات دي في السوق المحلي.",
+    "ex2": "Because they're difficult to find, we import them.",
+    "ar2": "عشان صعب نلاقيها، بنستوردها."
+   },
+   {
+    "w": "complicated",
+    "note": "has many parts or steps",
+    "ex": "The import procedure for lithium batteries is complicated.",
+    "ar": "إجراءات استيراد بطاريات الليثيوم معقدة.",
+    "ex2": "It's complicated because of the dangerous goods rules.",
+    "ar2": "معقدة بسبب قواعد البضايع الخطرة."
+   },
+   {
+    "w": "delicate",
+    "note": "needs care because feelings or relationships are involved",
+    "ex": "Asking a big client for overdue payment is delicate.",
+    "ar": "إنك تطالب عميل كبير بفلوس متأخرة موضوع حساس.",
+    "ex2": "Handle the delicate call yourself, not by email.",
+    "ar2": "اعمل المكالمة الحساسة دي بنفسك، مش بالإيميل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "straightforward",
+    "ex": "Installing this small UPS is straightforward; just plug it in and switch on.",
+    "ar": "تركيب الـ‎UPS‎ الصغير ده سهل؛ وصّله وشغّله وخلاص.",
+    "ex2": "The straightforward setup takes ten minutes.",
+    "ar2": "التركيب البسيط بياخد عشر دقايق."
+   },
+   {
+    "w": "easy",
+    "ex": "Paying by InstaPay is easy for small customers.",
+    "ar": "الدفع بـ‎InstaPay‎ سهل للعملاء الصغيرين.",
+    "ex2": "Easy payment means faster collection.",
+    "ar2": "الدفع السهل يعني تحصيل أسرع."
+   }
+  ],
+  "ladder": {
+   "label": "how difficult",
+   "lar": "صعب قد إيه",
+   "steps": [
+    {
+     "w": "a bit tricky",
+     "ex": "Setting the VFD ramp time is a bit tricky.",
+     "ar": "ظبط وقت التسارع في الـ‎VFD‎ صعب شوية.",
+     "ex2": "Ask Omar if it's a bit tricky for you.",
+     "ar2": "اسأل عمر لو لقيته صعب عليك."
+    },
+    {
+     "w": "difficult",
+     "ex": "Getting an import permit this month is difficult.",
+     "ar": "إنك تطلّع تصريح استيراد الشهر ده صعب.",
+     "ex2": "The customs office is short of staff.",
+     "ar2": "مكتب الجمارك فيه نقص في الموظفين."
+    },
+    {
+     "w": "extremely difficult",
+     "ex": "Replacing batteries without bypass is extremely difficult.",
+     "ar": "تغيير البطاريات من غير بايباس صعب جداً.",
+     "ex2": "One wrong move could drop the whole load.",
+     "ar2": "غلطة واحدة ممكن توقّع الحمل كله."
+    }
+   ]
+  },
+  "ctx": "Collecting payment from this client can be tricky. Let's copy their finance manager on the reminder email.",
+  "ctx_ar": "تحصيل الفلوس من العميل ده ممكن يبقى صعب شوية. خلّينا نحط المدير المالي بتاعهم في إيميل التذكير.",
+  "quiz": [
+   {
+    "s": "Wiring this old VFD is ___; the labels are missing.",
+    "opts": [
+     "trick",
+     "tricky",
+     "straightforward"
+    ],
+    "a": 1,
+    "ar": "توصيل الـ‎VFD‎ القديم ده صعب شوية؛ الليبلز مش موجودة."
+   },
+   {
+    "s": "A simple ___: restart the router before calling IT.",
+    "opts": [
+     "trick",
+     "tricky",
+     "delicate"
+    ],
+    "a": 0,
+    "ar": "حركة بسيطة: اعمل ريستارت للراوتر قبل ما تكلّم الـ‎IT‎."
+   },
+   {
+    "s": "Installing this UPS is ___; just plug it in and switch on.",
+    "opts": [
+     "tricky",
+     "complicated",
+     "straightforward"
+    ],
+    "a": 2,
+    "ar": "تركيب الـ‎UPS‎ ده سهل؛ وصّله وشغّله وخلاص."
+   }
+  ]
+ },
+ {
+  "w": "conference call",
+  "ar": "مكالمة جماعية",
+  "family": [
+   {
+    "w": "conference",
+    "pos": "noun",
+    "ex": "Our team will attend the solar energy conference in Cairo.",
+    "ar": "فريقنا هيحضر مؤتمر الطاقة الشمسية في القاهرة.",
+    "ex2": "We'll meet two inverter suppliers at the conference.",
+    "ar2": "هنقابل اتنين موردين إنفرترات في المؤتمر."
+   },
+   {
+    "w": "conference call",
+    "pos": "noun",
+    "ex": "Let's set up a conference call with their IT and facilities teams.",
+    "ar": "خلّينا نعمل مكالمة جماعية مع فريق الـ‎IT‎ والمرافق عندهم.",
+    "ex2": "The conference call will decide the shutdown date.",
+    "ar2": "المكالمة الجماعية هتحدد ميعاد الإطفاء."
+   },
+   {
+    "w": "call",
+    "pos": "verb",
+    "ex": "Please call me after the site visit.",
+    "ar": "ياريت تكلّمني بعد زيارة الموقع.",
+    "ex2": "Call me even if the client didn't sign.",
+    "ar2": "كلّمني حتى لو العميل ممضاش."
+   },
+   {
+    "w": "confer",
+    "pos": "verb",
+    "ex": "I need to confer with my manager before I approve the discount.",
+    "ar": "محتاج أتشاور مع مديري قبل ما أوافق على الخصم.",
+    "ex2": "We'll confer today and reply by tomorrow.",
+    "ar2": "هنتشاور النهارده ونرد بكرة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "video call",
+    "note": "with cameras on; can be two people or more",
+    "ex": "Turn on your camera; it's a video call, not just audio.",
+    "ar": "شغّل الكاميرا؛ دي مكالمة فيديو، مش صوت بس.",
+    "ex2": "The client wants to see the UPS room on the video call.",
+    "ar2": "العميل عايز يشوف أوضة الـ‎UPS‎ في مكالمة الفيديو."
+   },
+   {
+    "w": "online meeting",
+    "note": "planned meeting on Teams or Zoom; more formal",
+    "ex": "The online meeting with the German supplier is at 2 p.m.",
+    "ar": "الاجتماع الأونلاين مع المورّد الألماني الساعة 2.",
+    "ex2": "I'll send the online meeting link by email.",
+    "ar2": "هبعت لينك الاجتماع على الإيميل."
+   },
+   {
+    "w": "group call",
+    "note": "informal; a quick call with a few colleagues",
+    "ex": "Quick group call with the service team at 5?",
+    "ar": "مكالمة جماعية سريعة مع فريق الخدمة الساعة 5؟",
+    "ex2": "The group call is just to split tomorrow's visits.",
+    "ar2": "المكالمة بس عشان نقسّم زيارات بكرة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "one-on-one call",
+    "ex": "I'd prefer a one-on-one call to discuss your overdue invoices.",
+    "ar": "أفضّل مكالمة بيني وبينك نتكلم فيها عن الفواتير المتأخرة.",
+    "ex2": "Money topics are better in a one-on-one call.",
+    "ar2": "مواضيع الفلوس أحسن تبقى في مكالمة فردية."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Pardon me, I have a conference call with the supplier in Germany. Can we continue the quotation review at three?",
+  "ctx_ar": "معلش، عندي مكالمة جماعية مع المورّد في ألمانيا. ممكن نكمّل مراجعة عرض السعر الساعة تلاتة؟",
+  "quiz": [
+   {
+    "s": "Let's set up a ___ call with their IT and facilities teams.",
+    "opts": [
+     "conference",
+     "confer",
+     "call"
+    ],
+    "a": 0,
+    "ar": "خلّينا نعمل مكالمة جماعية مع فريق الـ‎IT‎ والمرافق عندهم."
+   },
+   {
+    "s": "Please ___ me after the site visit.",
+    "opts": [
+     "conference",
+     "call",
+     "confer"
+    ],
+    "a": 1,
+    "ar": "ياريت تكلّمني بعد زيارة الموقع."
+   },
+   {
+    "s": "Turn on your camera; it's a ___, not just audio.",
+    "opts": [
+     "conference",
+     "one-on-one call",
+     "video call"
+    ],
+    "a": 2,
+    "ar": "شغّل الكاميرا؛ دي مكالمة فيديو، مش صوت بس."
+   }
+  ]
+ }
+]

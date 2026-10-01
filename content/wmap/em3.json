@@ -1,0 +1,772 @@
+[
+ {
+  "w": "ETA",
+  "ar": "الميعاد المتوقع للوصول",
+  "family": [
+   {
+    "w": "ETA",
+    "pos": "noun",
+    "ex": "What's the ETA for the battery shipment from Alexandria port?",
+    "ar": "إيه الميعاد المتوقع لوصول شحنة البطاريات من ميناء إسكندرية؟",
+    "ex2": "The ETA is Tuesday, if customs clear it Monday.",
+    "ar2": "المتوقع توصل الثلاث، لو الجمارك خلّصتها الإتنين."
+   },
+   {
+    "w": "estimated time of arrival",
+    "pos": "noun",
+    "ex": "The estimated time of arrival of the technician is 11 am.",
+    "ar": "الميعاد المتوقع لوصول الفني الساعة 11 الصبح.",
+    "ex2": "His estimated time of arrival may change with traffic.",
+    "ar2": "ميعاد وصوله ممكن يتغير حسب الزحمة."
+   },
+   {
+    "w": "estimate",
+    "pos": "verb",
+    "ex": "We estimate the UPS will arrive at the site by noon.",
+    "ar": "بنتوقع الـ‎UPS‎ يوصل الموقع قبل الضهر.",
+    "ex2": "We estimate based on the driver's GPS location.",
+    "ar2": "بنقدّر على حسب موقع السواق على الـ‎GPS‎."
+   },
+   {
+    "w": "estimated",
+    "pos": "adjective",
+    "ex": "The estimated delivery date is 15 March.",
+    "ar": "تاريخ التسليم المتوقع 15 مارس.",
+    "ex2": "Estimated dates may change if the ship is delayed.",
+    "ar2": "التواريخ المتوقعة ممكن تتغير لو المركب اتأخرت."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "ETD",
+    "note": "estimated time of departure, when it leaves",
+    "ex": "The ETD from Shanghai is 2 May.",
+    "ar": "ميعاد خروج الشحنة من شنغهاي 2 مايو.",
+    "ex2": "With ETD 2 May, the ETA is around 25 May.",
+    "ar2": "لو الخروج 2 مايو، الوصول حوالي 25 مايو."
+   },
+   {
+    "w": "delivery date",
+    "note": "the agreed date in a contract or PO",
+    "ex": "The delivery date in the PO is 30 June.",
+    "ar": "تاريخ التسليم في أمر الشراء 30 يونيو.",
+    "ex2": "Missing the delivery date means a penalty.",
+    "ar2": "تفويت تاريخ التسليم يعني غرامة."
+   },
+   {
+    "w": "arrival time",
+    "note": "plain English; often for people, not shipments",
+    "ex": "Please share your arrival time with site security.",
+    "ar": "ياريت تبلّغ أمن الموقع بميعاد وصولك.",
+    "ex2": "Security needs the arrival time to prepare your pass.",
+    "ar2": "الأمن محتاج ميعاد الوصول عشان يجهّز التصريح."
+   }
+  ],
+  "ant": [
+   {
+    "w": "ETD",
+    "ex": "Please confirm the ETD of the inverters from the factory.",
+    "ar": "ياريت تأكد ميعاد خروج الإنفرترات من المصنع.",
+    "ex2": "Once the ETD is fixed, we'll book the truck.",
+    "ar2": "أول ما ميعاد الخروج يتحدد، هنحجز العربية."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The client keeps asking about the new VFDs. Can you check with the forwarder and send me the ETA before 2 pm?",
+  "ctx_ar": "العميل فاضل يسأل على الـ‎VFD‎ الجديدة. ممكن تتأكد من شركة الشحن وتبعتلي الميعاد المتوقع للوصول قبل الساعة 2؟",
+  "quiz": [
+   {
+    "s": "What's the ___ for the battery shipment?",
+    "opts": [
+     "ETA",
+     "estimate",
+     "ETD"
+    ],
+    "a": 0,
+    "ar": "إيه الميعاد المتوقع لوصول شحنة البطاريات؟"
+   },
+   {
+    "s": "The ___ delivery date is 15 March.",
+    "opts": [
+     "estimate",
+     "estimated",
+     "ETA"
+    ],
+    "a": 1,
+    "ar": "تاريخ التسليم المتوقع 15 مارس."
+   },
+   {
+    "s": "The ship leaves Shanghai on 2 May; that's the ___.",
+    "opts": [
+     "ETA",
+     "arrival time",
+     "ETD"
+    ],
+    "a": 2,
+    "ar": "المركب هتخرج من شنغهاي 2 مايو؛ ده ميعاد الخروج."
+   }
+  ]
+ },
+ {
+  "w": "TBC",
+  "ar": "لسه هيتأكد",
+  "family": [
+   {
+    "w": "TBC",
+    "pos": "adjective",
+    "ex": "Meeting with the bank's IT team: Thursday, time TBC.",
+    "ar": "اجتماع مع فريق الـ‎IT‎ في البنك: الخميس، الميعاد لسه هيتأكد.",
+    "ex2": "I'll update you once the TBC time is fixed.",
+    "ar2": "هبلّغك أول ما الميعاد يتحدد."
+   },
+   {
+    "w": "to be confirmed",
+    "pos": "adjective",
+    "ex": "The installation date is still to be confirmed.",
+    "ar": "ميعاد التركيب لسه هيتأكد.",
+    "ex2": "It will be confirmed once the site is ready.",
+    "ar2": "هيتأكد أول ما الموقع يجهز."
+   },
+   {
+    "w": "confirm",
+    "pos": "verb",
+    "ex": "Please confirm the delivery address for the UPS.",
+    "ar": "ياريت تأكد عنوان التسليم للـ‎UPS‎.",
+    "ex2": "Once you confirm it, we'll dispatch the truck.",
+    "ar2": "أول ما تأكده، هنطلّع العربية."
+   },
+   {
+    "w": "confirmation",
+    "pos": "noun",
+    "ex": "We're waiting for the client's confirmation of the shutdown date.",
+    "ar": "مستنيين تأكيد العميل لميعاد الفصل.",
+    "ex2": "Without confirmation, we can't book the crane.",
+    "ar2": "من غير تأكيد، مانقدرش نحجز الونش."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "TBD",
+    "note": "to be decided; not chosen yet, not just unconfirmed",
+    "ex": "Training venue: TBD.",
+    "ar": "مكان التدريب: لسه هيتحدد.",
+    "ex2": "The TBD venue will be either Cairo or Alexandria.",
+    "ar2": "المكان هيبقى القاهرة أو إسكندرية."
+   },
+   {
+    "w": "tentative",
+    "note": "planned but may change",
+    "ex": "We have a tentative date for commissioning: 10 April.",
+    "ar": "عندنا ميعاد مبدئي للتشغيل: 10 أبريل.",
+    "ex2": "The tentative date depends on the panel delivery.",
+    "ar2": "الميعاد المبدئي معتمد على تسليم اللوح."
+   },
+   {
+    "w": "pending",
+    "note": "waiting for an action or approval",
+    "ex": "The order is pending until the advance payment arrives.",
+    "ar": "الأوردر معلّق لحد ما الدفعة المقدمة توصل.",
+    "ex2": "Pending orders are reviewed every Monday.",
+    "ar2": "الأوردرات المعلقة بتتراجع كل إتنين."
+   }
+  ],
+  "ant": [
+   {
+    "w": "confirmed",
+    "ex": "The delivery date is confirmed: Sunday at 9 am.",
+    "ar": "ميعاد التسليم اتأكد: الأحد الساعة 9 الصبح.",
+    "ex2": "The confirmed date is in the shared calendar.",
+    "ar2": "الميعاد المتأكد في الكالندر المشترك."
+   },
+   {
+    "w": "final",
+    "ex": "These prices are final; no more changes.",
+    "ar": "الأسعار دي نهائية؛ مفيش تغيير تاني.",
+    "ex2": "Final prices go into the e-invoice.",
+    "ar2": "الأسعار النهائية بتدخل الفاتورة الإلكترونية."
+   }
+  ],
+  "ladder": {
+   "label": "how sure the date is",
+   "lar": "الميعاد أكيد قد إيه",
+   "steps": [
+    {
+     "w": "TBD",
+     "ex": "Site visit date: TBD.",
+     "ar": "ميعاد زيارة الموقع: لسه هيتحدد.",
+     "ex2": "It stays TBD until the client replies.",
+     "ar2": "هيفضل مش محدد لحد ما العميل يرد."
+    },
+    {
+     "w": "tentative",
+     "ex": "Tentatively, the visit is next Tuesday.",
+     "ar": "مبدئياً، الزيارة الثلاث الجاي.",
+     "ex2": "The tentative plan may still move.",
+     "ar2": "الخطة المبدئية ممكن لسه تتغير."
+    },
+    {
+     "w": "TBC",
+     "ex": "Visit: Tuesday 10 am, TBC.",
+     "ar": "الزيارة: الثلاث 10 الصبح، لسه هتتأكد.",
+     "ex2": "We'll remove TBC once the client replies.",
+     "ar2": "هنشيل \"لسه هتتأكد\" أول ما العميل يرد."
+    },
+    {
+     "w": "confirmed",
+     "ex": "Visit confirmed for Tuesday at 10 am.",
+     "ar": "الزيارة اتأكدت الثلاث الساعة 10 الصبح.",
+     "ex2": "The confirmed visit is in the engineer's schedule.",
+     "ar2": "الزيارة المتأكدة في جدول المهندس."
+    }
+   ]
+  },
+  "ctx": "Here is the plan for next week: site survey on Monday, battery delivery on Wednesday, and commissioning on Thursday, TBC.",
+  "ctx_ar": "دي خطة الأسبوع الجاي: معاينة الموقع الإتنين، تسليم البطاريات الأربع، والتشغيل الخميس، لسه هيتأكد.",
+  "quiz": [
+   {
+    "s": "Commissioning: Thursday, time ___.",
+    "opts": [
+     "TBC",
+     "confirm",
+     "final"
+    ],
+    "a": 0,
+    "ar": "التشغيل: الخميس، الميعاد لسه هيتأكد."
+   },
+   {
+    "s": "We're waiting for the client's ___.",
+    "opts": [
+     "confirm",
+     "confirmation",
+     "TBC"
+    ],
+    "a": 1,
+    "ar": "مستنيين تأكيد العميل."
+   },
+   {
+    "s": "The order is ___ until the advance payment arrives.",
+    "opts": [
+     "final",
+     "confirmed",
+     "pending"
+    ],
+    "a": 2,
+    "ar": "الأوردر معلّق لحد ما الدفعة المقدمة توصل."
+   }
+  ]
+ },
+ {
+  "w": "as per",
+  "ar": "حسب / طبقاً لـ",
+  "family": [
+   {
+    "w": "as per",
+    "pos": "adverb",
+    "ex": "As per our contract, preventive maintenance is done every three months.",
+    "ar": "حسب العقد بتاعنا، الصيانة الوقائية كل تلات شهور.",
+    "ex2": "As per the schedule, the next visit is in June.",
+    "ar2": "حسب الجدول، الزيارة الجاية في يونيو."
+   },
+   {
+    "w": "per",
+    "pos": "adverb",
+    "ex": "The service visit costs 2,000 pounds per site.",
+    "ar": "زيارة الصيانة بـ2000 جنيه للموقع.",
+    "ex2": "Batteries are priced per unit, not per string.",
+    "ar2": "البطاريات متسعّرة بالوحدة، مش بالسلسلة."
+   },
+   {
+    "w": "as per usual",
+    "pos": "adverb",
+    "ex": "As per usual, the client paid on the last possible day.",
+    "ar": "زي العادة، العميل دفع في آخر يوم ممكن.",
+    "ex2": "As per usual, Mona had to call him twice.",
+    "ar2": "وزي العادة، منى اضطرت تكلّمه مرتين."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "according to",
+    "note": "neutral; also for information sources, not only instructions",
+    "ex": "According to the logs, the UPS switched to battery at 3 am.",
+    "ar": "حسب السجلات، الـ‎UPS‎ حوّل على البطاريات الساعة 3 الفجر.",
+    "ex2": "According to the client, the power cut lasted an hour.",
+    "ar2": "حسب كلام العميل، الكهربا قطعت ساعة."
+   },
+   {
+    "w": "in accordance with",
+    "note": "very formal; contracts and legal letters",
+    "ex": "Work will be done in accordance with the agreed specifications.",
+    "ar": "الشغل هيتعمل طبقاً للمواصفات المتفق عليها.",
+    "ex2": "In accordance with clause 5, a penalty applies.",
+    "ar2": "طبقاً للبند 5، فيه غرامة."
+   },
+   {
+    "w": "following",
+    "note": "formal email start; after a meeting or call",
+    "ex": "Following our call, please find the revised quotation attached.",
+    "ar": "بعد مكالمتنا، مرفق عرض السعر المعدّل.",
+    "ex2": "Following your request, we added two years of warranty.",
+    "ar2": "بناءً على طلبك، زوّدنا سنتين ضمان."
+   }
+  ],
+  "ant": [
+   {
+    "w": "contrary to",
+    "ex": "Contrary to the agreement, the client paid only 30%.",
+    "ar": "عكس الاتفاق، العميل دفع 30% بس.",
+    "ex2": "Contrary to the plan, delivery was late.",
+    "ar2": "عكس الخطة، التسليم اتأخر."
+   }
+  ],
+  "ladder": {
+   "label": "how formal",
+   "lar": "رسمي قد إيه",
+   "steps": [
+    {
+     "w": "like we said",
+     "ex": "Like we said, delivery is next week.",
+     "ar": "زي ما قلنا، التسليم الأسبوع الجاي.",
+     "ex2": "Like we said on the phone, prices include installation.",
+     "ar2": "زي ما قلنا في التليفون، الأسعار شاملة التركيب."
+    },
+    {
+     "w": "as per",
+     "ex": "As per our call, the price includes installation.",
+     "ar": "حسب مكالمتنا، السعر شامل التركيب.",
+     "ex2": "As per your email, we changed the delivery address.",
+     "ar2": "حسب إيميلك، غيّرنا عنوان التسليم."
+    },
+    {
+     "w": "in accordance with",
+     "ex": "Delivery will be in accordance with the PO terms.",
+     "ar": "التسليم هيبقى طبقاً لشروط أمر الشراء.",
+     "ex2": "Payment is in accordance with the agreed schedule.",
+     "ar2": "الدفع طبقاً للجدول المتفق عليه."
+    }
+   ]
+  },
+  "ctx": "Dear Ms. Heba, as per our phone call, I've attached the revised quotation for the solar station. The new price includes three years of maintenance.",
+  "ctx_ar": "أستاذة هبة، حسب مكالمتنا، مرفق عرض السعر المعدّل لمحطة الطاقة الشمسية. السعر الجديد شامل صيانة تلات سنين.",
+  "quiz": [
+   {
+    "s": "As ___ the contract, visits are every three months.",
+    "opts": [
+     "per",
+     "according",
+     "following"
+    ],
+    "a": 0,
+    "ar": "حسب العقد، الزيارات كل تلات شهور."
+   },
+   {
+    "s": "___ to the logs, the UPS switched at 3 am.",
+    "opts": [
+     "As per",
+     "According",
+     "Contrary"
+    ],
+    "a": 1,
+    "ar": "حسب السجلات، الـ‎UPS‎ حوّل الساعة 3 الفجر."
+   },
+   {
+    "s": "___ to the agreement, the client paid only 30%.",
+    "opts": [
+     "As per",
+     "Following",
+     "Contrary"
+    ],
+    "a": 2,
+    "ar": "عكس الاتفاق، العميل دفع 30% بس."
+   }
+  ]
+ },
+ {
+  "w": "provided that",
+  "ar": "بشرط إن",
+  "family": [
+   {
+    "w": "provided that",
+    "pos": "adverb",
+    "ex": "We can deliver on Sunday, provided that the advance payment arrives Thursday.",
+    "ar": "نقدر نسلّم الأحد، بشرط إن الدفعة المقدمة توصل الخميس.",
+    "ex2": "Provided that it arrives, the truck leaves Saturday night.",
+    "ar2": "بشرط إنها توصل، العربية تطلع السبت بالليل."
+   },
+   {
+    "w": "provide",
+    "pos": "verb",
+    "ex": "We provide 24/7 support for all data centre clients.",
+    "ar": "بنقدّم دعم 24 ساعة لكل عملا الداتا سنتر.",
+    "ex2": "We also provide spare UPS units during repairs.",
+    "ar2": "وكمان بنوفّر وحدات ‎UPS‎ بديلة وقت التصليح."
+   },
+   {
+    "w": "provider",
+    "pos": "person",
+    "ex": "We are the main UPS service provider for three hospitals.",
+    "ar": "إحنا مقدم خدمة الـ‎UPS‎ الأساسي لتلات مستشفيات.",
+    "ex2": "As their provider, we keep spare batteries in stock.",
+    "ar2": "وبما إننا مقدم الخدمة، بنحتفظ ببطاريات احتياطي."
+   },
+   {
+    "w": "providing",
+    "pos": "adverb",
+    "ex": "The warranty is valid providing the batteries stay below 30°C.",
+    "ar": "الضمان ساري بشرط إن البطاريات تفضل تحت 30 درجة.",
+    "ex2": "Providing that's true, we replace failed cells free.",
+    "ar2": "لو ده متحقق، بنغيّر الخلايا البايظة ببلاش."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "as long as",
+    "note": "spoken, everyday; same meaning",
+    "ex": "The warranty covers the drive as long as it's installed by us.",
+    "ar": "الضمان بيغطي الدرايف طول ما إحنا اللي ركّبناه.",
+    "ex2": "As long as you keep the invoice, the claim is easy.",
+    "ar2": "طول ما إنت محتفظ بالفاتورة، المطالبة سهلة."
+   },
+   {
+    "w": "on condition that",
+    "note": "formal and strict; contracts",
+    "ex": "We'll give 10% off on condition that payment is in cash.",
+    "ar": "هندّي خصم 10% بشرط الدفع كاش.",
+    "ex2": "The discount applies on condition that the order exceeds 50 units.",
+    "ar2": "الخصم بيتطبق بشرط الأوردر يعدّي 50 وحدة."
+   },
+   {
+    "w": "if",
+    "note": "simplest; less emphasis on the condition",
+    "ex": "If the client signs today, we start next week.",
+    "ar": "لو العميل مضى النهارده، هنبدأ الأسبوع الجاي.",
+    "ex2": "If not, the start slips to next month.",
+    "ar2": "لو لأ، البداية هتتأخر للشهر الجاي."
+   }
+  ],
+  "ant": [
+   {
+    "w": "unless",
+    "ex": "We can't ship the batteries unless the PO is signed.",
+    "ar": "مانقدرش نشحن البطاريات إلا لو أمر الشراء اتمضى.",
+    "ex2": "Unless we get it by noon, the truck leaves empty.",
+    "ar2": "لو ماوصلش قبل الضهر، العربية هتطلع فاضية."
+   }
+  ],
+  "ladder": {
+   "label": "how strict the condition",
+   "lar": "الشرط صارم قد إيه",
+   "steps": [
+    {
+     "w": "if",
+     "ex": "If you want, we can add a battery test.",
+     "ar": "لو حابب، نقدر نضيف اختبار بطاريات.",
+     "ex2": "If so, it adds one hour to the visit.",
+     "ar2": "لو كده، هيزوّد ساعة على الزيارة."
+    },
+    {
+     "w": "as long as",
+     "ex": "You get free support as long as the contract is active.",
+     "ar": "هتاخد دعم ببلاش طول ما العقد شغال.",
+     "ex2": "As long as you renew yearly, prices stay fixed.",
+     "ar2": "طول ما بتجدد كل سنة، الأسعار ثابتة."
+    },
+    {
+     "w": "provided that",
+     "ex": "We'll hold the price provided that you confirm by Friday.",
+     "ar": "هنثبّت السعر بشرط تأكد قبل الجمعة.",
+     "ex2": "Provided that you confirm, we'll reserve the stock.",
+     "ar2": "بشرط إنك تأكد، هنحجز المخزون."
+    },
+    {
+     "w": "on condition that",
+     "ex": "The bank approved the loan on condition that the solar station is insured.",
+     "ar": "البنك وافق على القرض بشرط إن محطة الطاقة الشمسية تتأمّن.",
+     "ex2": "No insurance policy, no loan: the condition is strict.",
+     "ar2": "من غير بوليصة تأمين مفيش قرض: الشرط صارم."
+    }
+   ]
+  },
+  "ctx": "We can offer a 12% discount, provided that the client signs a three-year maintenance contract. Otherwise, the best we can do is 7%.",
+  "ctx_ar": "نقدر نعرض خصم 12%، بشرط إن العميل يمضي عقد صيانة تلات سنين. غير كده، أقصى حاجة نقدر نعملها 7%.",
+  "quiz": [
+   {
+    "s": "We'll deliver Sunday, provided ___ payment arrives.",
+    "opts": [
+     "that",
+     "unless",
+     "if"
+    ],
+    "a": 0,
+    "ar": "هنسلّم الأحد، بشرط إن الدفعة توصل."
+   },
+   {
+    "s": "We can't ship ___ the PO is signed.",
+    "opts": [
+     "provided that",
+     "unless",
+     "as long as"
+    ],
+    "a": 1,
+    "ar": "مانقدرش نشحن إلا لو أمر الشراء اتمضى."
+   },
+   {
+    "s": "We are the main UPS service ___ for three hospitals.",
+    "opts": [
+     "provide",
+     "providing",
+     "provider"
+    ],
+    "a": 2,
+    "ar": "إحنا مقدم خدمة الـ‎UPS‎ الأساسي لتلات مستشفيات."
+   }
+  ]
+ },
+ {
+  "w": "consequently",
+  "ar": "وبالتالي / ونتيجة لكده",
+  "family": [
+   {
+    "w": "consequently",
+    "pos": "adverb",
+    "ex": "The shipment was held at customs; consequently, installation moved to next week.",
+    "ar": "الشحنة اتحجزت في الجمارك؛ وبالتالي التركيب اتأجل للأسبوع الجاي.",
+    "ex2": "Consequently, we informed the client and updated the schedule.",
+    "ar2": "ونتيجة لكده، بلّغنا العميل وحدّثنا الجدول."
+   },
+   {
+    "w": "consequence",
+    "pos": "noun",
+    "ex": "A consequence of late payment is that we stop maintenance visits.",
+    "ar": "من نتايج التأخير في الدفع إننا بنوقّف زيارات الصيانة.",
+    "ex2": "The client understood the consequence and paid.",
+    "ar2": "العميل فهم النتيجة ودفع."
+   },
+   {
+    "w": "consequent",
+    "pos": "adjective",
+    "ex": "The power cut and the consequent server shutdown cost the bank a full day.",
+    "ar": "انقطاع الكهربا ووقوع السيرفرات اللي جه بعده كلّف البنك يوم كامل.",
+    "ex2": "The consequent losses were higher than a new UPS.",
+    "ar2": "الخساير اللي نتجت كانت أكتر من تمن ‎UPS‎ جديد."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "as a result",
+    "note": "very common; works in speech and email",
+    "ex": "The dollar rose; as a result, battery prices went up.",
+    "ar": "الدولار زاد؛ ونتيجة لكده، أسعار البطاريات زادت.",
+    "ex2": "As a result, we updated the price list.",
+    "ar2": "وعشان كده، حدّثنا قايمة الأسعار."
+   },
+   {
+    "w": "therefore",
+    "note": "formal; shows logical reasoning",
+    "ex": "The UPS is overloaded; therefore, we recommend a bigger model.",
+    "ar": "الـ‎UPS‎ عليه حِمل زيادة؛ وعليه، بننصح بموديل أكبر.",
+    "ex2": "Therefore, our quotation includes a 30 kVA unit.",
+    "ar2": "وعشان كده، عرضنا فيه وحدة 30 ‎kVA‎."
+   },
+   {
+    "w": "so",
+    "note": "informal; the most common in speech",
+    "ex": "The batteries were old, so the UPS shut down.",
+    "ar": "البطاريات كانت قديمة، فالـ‎UPS‎ فصل.",
+    "ex2": "So we replaced them the same day.",
+    "ar2": "فغيّرناها في نفس اليوم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "nevertheless",
+    "ex": "The shipment was late; nevertheless, we finished on time.",
+    "ar": "الشحنة اتأخرت؛ ومع ذلك، خلّصنا في الميعاد.",
+    "ex2": "Nevertheless, the team worked an extra Friday.",
+    "ar2": "ومع ذلك، الفريق اشتغل جمعة زيادة."
+   }
+  ],
+  "ladder": {
+   "label": "how formal",
+   "lar": "رسمي قد إيه",
+   "steps": [
+    {
+     "w": "so",
+     "ex": "The fan failed, so the drive overheated.",
+     "ar": "المروحة باظت، فالدرايف سخن.",
+     "ex2": "So we replaced the fan.",
+     "ar2": "فغيّرنا المروحة."
+    },
+    {
+     "w": "as a result",
+     "ex": "The fan failed; as a result, the drive overheated.",
+     "ar": "المروحة باظت؛ ونتيجة لكده، الدرايف سخن.",
+     "ex2": "As a result, production stopped for two hours.",
+     "ar2": "ونتيجة لكده، الإنتاج وقف ساعتين."
+    },
+    {
+     "w": "consequently",
+     "ex": "The fan failed; consequently, the drive overheated.",
+     "ar": "المروحة باظت؛ وبالتالي، الدرايف سخن.",
+     "ex2": "Consequently, we added a temperature alarm.",
+     "ar2": "وبالتالي، ضفنا إنذار حرارة."
+    },
+    {
+     "w": "therefore",
+     "ex": "The fan is beyond repair; therefore, replacement is required.",
+     "ar": "المروحة مش هتتصلح؛ وعليه، لازم تتغير.",
+     "ex2": "Therefore, please approve the attached quotation.",
+     "ar2": "وعليه، ياريت توافق على عرض السعر المرفق."
+    }
+   ]
+  },
+  "ctx": "The client's generator failed during the power cut. Consequently, the UPS ran on batteries for two hours and shut down the servers.",
+  "ctx_ar": "مولد العميل باظ وقت انقطاع الكهربا. وبالتالي، الـ‎UPS‎ اشتغل على البطاريات ساعتين وفصل السيرفرات.",
+  "quiz": [
+   {
+    "s": "Prices rose; ___, we updated the price list.",
+    "opts": [
+     "consequently",
+     "consequence",
+     "consequent"
+    ],
+    "a": 0,
+    "ar": "الأسعار زادت؛ وبالتالي، حدّثنا قايمة الأسعار."
+   },
+   {
+    "s": "The shipment was late; ___, we finished on time.",
+    "opts": [
+     "therefore",
+     "nevertheless",
+     "as a result"
+    ],
+    "a": 1,
+    "ar": "الشحنة اتأخرت؛ ومع ذلك، خلّصنا في الميعاد."
+   },
+   {
+    "s": "One ___ of late payment is suspended service.",
+    "opts": [
+     "consequently",
+     "consequent",
+     "consequence"
+    ],
+    "a": 2,
+    "ar": "من نتايج التأخير في الدفع إن الخدمة بتتوقف."
+   }
+  ]
+ },
+ {
+  "w": "notably",
+  "ar": "خصوصاً / بشكل ملحوظ",
+  "family": [
+   {
+    "w": "notably",
+    "pos": "adverb",
+    "ex": "Several clients renewed, notably the two biggest hospitals in Cairo.",
+    "ar": "عملا كتير جدّدوا، خصوصاً أكبر مستشفيين في القاهرة.",
+    "ex2": "Notably, both added solar systems to their contracts.",
+    "ar2": "واللافت إن الاتنين ضافوا أنظمة طاقة شمسية للعقود."
+   },
+   {
+    "w": "notable",
+    "pos": "adjective",
+    "ex": "There was a notable drop in UPS faults after the cooling upgrade.",
+    "ar": "كان فيه انخفاض ملحوظ في أعطال الـ‎UPS‎ بعد تحسين التبريد.",
+    "ex2": "The notable improvement saved many emergency visits.",
+    "ar2": "التحسن الملحوظ وفّر زيارات طوارئ كتير."
+   },
+   {
+    "w": "note",
+    "pos": "verb",
+    "ex": "Please note that prices are valid for 15 days only.",
+    "ar": "ياريت تاخد بالك إن الأسعار سارية 15 يوم بس.",
+    "ex2": "Please also note that delivery is not included.",
+    "ar2": "وخد بالك كمان إن التوصيل مش محسوب."
+   },
+   {
+    "w": "noteworthy",
+    "pos": "adjective",
+    "ex": "A noteworthy point in the report is the high battery temperature.",
+    "ar": "نقطة تستاهل الانتباه في التقرير هي حرارة البطاريات العالية.",
+    "ex2": "This noteworthy finding explains the short battery life.",
+    "ar2": "الملاحظة دي بتفسر قِصر عمر البطاريات."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "especially",
+    "note": "common; emphasises one case within a group",
+    "ex": "Sales grew, especially in solar systems.",
+    "ar": "المبيعات زادت، خصوصاً في أنظمة الطاقة الشمسية.",
+    "ex2": "Especially in summer, solar orders double.",
+    "ar2": "خصوصاً في الصيف، أوردرات الطاقة الشمسية بتتضاعف."
+   },
+   {
+    "w": "in particular",
+    "note": "neutral; points to one specific example",
+    "ex": "Several sites had issues, in particular the Suez factory.",
+    "ar": "كذا موقع كان فيه مشاكل، بالذات مصنع السويس.",
+    "ex2": "In particular, its VFDs tripped every day.",
+    "ar2": "بالذات الـ‎VFD‎ بتاعته كانت بتفصل كل يوم."
+   },
+   {
+    "w": "significantly",
+    "note": "about size of change, not choosing an example",
+    "ex": "Energy costs dropped significantly after the VFD installation.",
+    "ar": "تكلفة الكهربا قلت بشكل كبير بعد تركيب الـ‎VFD‎.",
+    "ex2": "They dropped significantly, by almost 30%.",
+    "ar2": "قلت بشكل كبير، حوالي 30%."
+   }
+  ],
+  "ant": [
+   {
+    "w": "slightly",
+    "ex": "Battery prices rose only slightly this month.",
+    "ar": "أسعار البطاريات زادت شوية بس الشهر ده.",
+    "ex2": "Because they rose slightly, we kept our prices.",
+    "ar2": "وعشان زادت شوية، ثبّتنا أسعارنا."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our service revenue grew this year. Notably, solar maintenance contracts doubled, thanks to the new factories in 10th of Ramadan.",
+  "ctx_ar": "إيرادات الخدمة عندنا زادت السنة دي. واللافت إن عقود صيانة الطاقة الشمسية اتضاعفت، بفضل المصانع الجديدة في العاشر من رمضان.",
+  "quiz": [
+   {
+    "s": "There was a ___ drop in UPS faults.",
+    "opts": [
+     "notable",
+     "notably",
+     "note"
+    ],
+    "a": 0,
+    "ar": "كان فيه انخفاض ملحوظ في أعطال الـ‎UPS‎."
+   },
+   {
+    "s": "Please ___ that prices are valid for 15 days.",
+    "opts": [
+     "notably",
+     "note",
+     "notable"
+    ],
+    "a": 1,
+    "ar": "ياريت تاخد بالك إن الأسعار سارية 15 يوم."
+   },
+   {
+    "s": "Battery prices rose only ___ this month.",
+    "opts": [
+     "notably",
+     "significantly",
+     "slightly"
+    ],
+    "a": 2,
+    "ar": "أسعار البطاريات زادت شوية بس الشهر ده."
+   }
+  ]
+ }
+]

@@ -1,0 +1,759 @@
+[
+ {
+  "w": "outline",
+  "ar": "ملخص / يعرض الخطوط العريضة",
+  "family": [
+   {
+    "w": "outline",
+    "pos": "noun",
+    "ex": "Here's a brief outline of what we'll cover today.",
+    "ar": "ده ملخص سريع للي هنتكلم فيه النهارده.",
+    "ex2": "First our UPS range, then service contracts.",
+    "ar2": "الأول موديلات الـ‎UPS‎، وبعدين عقود الصيانة."
+   },
+   {
+    "w": "outline",
+    "pos": "verb",
+    "ex": "Let me outline the main steps of the solar installation.",
+    "ar": "خلّيني أعرض الخطوات الأساسية لتركيب الطاقة الشمسية.",
+    "ex2": "After I outline them, Hany will give the details.",
+    "ar2": "بعد ما أعرضها، هاني هيدّي التفاصيل."
+   },
+   {
+    "w": "outlined",
+    "pos": "adjective",
+    "ex": "Please follow the steps outlined in the service manual.",
+    "ar": "لو سمحت امشي على الخطوات المكتوبة في كتالوج الصيانة.",
+    "ex2": "The outlined steps protect you from electric shock.",
+    "ar2": "الخطوات المكتوبة بتحميك من الكهربا."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "overview",
+    "note": "general picture of a whole topic",
+    "ex": "I'll start with an overview of our product range.",
+    "ar": "هبدأ بنظرة عامة على منتجاتنا.",
+    "ex2": "The overview takes about five minutes.",
+    "ar2": "النظرة العامة بتاخد حوالي خمس دقايق."
+   },
+   {
+    "w": "summary",
+    "note": "short version given at the end or in writing",
+    "ex": "Please send a summary of the meeting to the client.",
+    "ar": "لو سمحت ابعت ملخص الاجتماع للعميل.",
+    "ex2": "The summary should include the agreed prices.",
+    "ar2": "الملخص لازم يكون فيه الأسعار المتفق عليها."
+   },
+   {
+    "w": "agenda",
+    "note": "list of topics for a meeting, given beforehand",
+    "ex": "The agenda has three points: prices, delivery and payment.",
+    "ar": "الأجندة فيها تلات نقط: الأسعار، التسليم، والدفع.",
+    "ex2": "I'll email the agenda the day before.",
+    "ar2": "هبعت الأجندة بالإيميل قبلها بيوم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "full details",
+    "ex": "The full details are in the technical proposal.",
+    "ar": "التفاصيل الكاملة موجودة في العرض الفني.",
+    "ex2": "Read the full details before the site visit.",
+    "ar2": "اقرا التفاصيل الكاملة قبل زيارة الموقع."
+   }
+  ],
+  "ladder": {
+   "label": "how much detail",
+   "lar": "قد إيه فيه تفاصيل",
+   "steps": [
+    {
+     "w": "outline",
+     "ex": "I'll give you a quick outline of the project.",
+     "ar": "هديك ملخص سريع للمشروع.",
+     "ex2": "The outline fits on one slide.",
+     "ar2": "الملخص بياخد سلايد واحدة."
+    },
+    {
+     "w": "overview",
+     "ex": "Here's an overview of the costs and timeline.",
+     "ar": "دي نظرة عامة على التكاليف والجدول الزمني.",
+     "ex2": "The overview covers each phase briefly.",
+     "ar2": "النظرة العامة بتغطي كل مرحلة باختصار."
+    },
+    {
+     "w": "detailed breakdown",
+     "ex": "The detailed breakdown lists every cable and breaker.",
+     "ar": "التفاصيل الكاملة فيها كل كابل وكل بريكر.",
+     "ex2": "Finance needs the detailed breakdown for the PO.",
+     "ar2": "المالية محتاجة التفاصيل الكاملة عشان أمر الشراء."
+    }
+   ]
+  },
+  "ctx": "Let me outline today's presentation. First, I'll show our UPS range, and then we'll discuss maintenance contracts and prices.",
+  "ctx_ar": "خلّيني أعرض الخطوط العريضة للعرض النهارده. الأول هوريكم موديلات الـ‎UPS‎، وبعدين هنتكلم عن عقود الصيانة والأسعار.",
+  "quiz": [
+   {
+    "s": "Follow the steps ___ in the manual.",
+    "opts": [
+     "outline",
+     "outlined",
+     "overview"
+    ],
+    "a": 1,
+    "ar": "امشي على الخطوات المكتوبة في الكتالوج."
+   },
+   {
+    "s": "I'll email the meeting ___ the day before.",
+    "opts": [
+     "agenda",
+     "summary",
+     "full details"
+    ],
+    "a": 0,
+    "ar": "هبعت أجندة الاجتماع بالإيميل قبلها بيوم."
+   },
+   {
+    "s": "Finance needs a ___ of every cable and breaker.",
+    "opts": [
+     "outline",
+     "overview",
+     "detailed breakdown"
+    ],
+    "a": 2,
+    "ar": "المالية محتاجة تفاصيل كاملة لكل كابل وبريكر."
+   }
+  ]
+ },
+ {
+  "w": "address",
+  "ar": "يتعامل مع / يحل (مشكلة)؛ عنوان",
+  "family": [
+   {
+    "w": "address",
+    "pos": "verb",
+    "ex": "Our new service plan addresses the problem of slow repairs.",
+    "ar": "خطة الخدمة الجديدة بتحل مشكلة الإصلاحات البطيئة.",
+    "ex2": "It addresses it with a four-hour response time.",
+    "ar2": "وبتحلها بوقت استجابة أربع ساعات."
+   },
+   {
+    "w": "address",
+    "pos": "noun",
+    "ex": "Please confirm the delivery address for the batteries.",
+    "ar": "لو سمحت أكّد عنوان التسليم للبطاريات.",
+    "ex2": "The address on the PO is the old warehouse.",
+    "ar2": "العنوان اللي في أمر الشراء هو المخزن القديم."
+   },
+   {
+    "w": "addressed",
+    "pos": "adjective",
+    "ex": "All the issues addressed in the meeting are in the minutes.",
+    "ar": "كل المشاكل اللي اتناقشت في الاجتماع موجودة في المحضر.",
+    "ex2": "Unaddressed points move to next week.",
+    "ar2": "النقط اللي متحلّتش بتتنقل للأسبوع الجاي."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "to deal with a problem",
+    "mar": "تتعامل مع مشكلة أو تحلها",
+    "ex": "We need to address the overheating in the server room.",
+    "ar": "لازم نحل مشكلة السخونية في أوضة السيرفرات.",
+    "ex2": "Adding a second AC unit should address it.",
+    "ar2": "تركيب تكييف تاني المفروض يحلها."
+   },
+   {
+    "m": "to speak to a group",
+    "mar": "تتكلم قدام مجموعة",
+    "ex": "The CEO will address the sales team on Sunday.",
+    "ar": "المدير التنفيذي هيتكلم مع فريق المبيعات يوم الحد.",
+    "ex2": "He'll address this year's targets.",
+    "ar2": "هيتكلم عن تارجت السنة دي."
+   },
+   {
+    "m": "a place where someone lives or works",
+    "mar": "مكان / عنوان",
+    "ex": "Send the invoice to the client's head office address.",
+    "ar": "ابعت الفاتورة على عنوان المكتب الرئيسي للعميل.",
+    "ex2": "That address is also on their tax card.",
+    "ar2": "العنوان ده كمان على البطاقة الضريبية بتاعتهم."
+   }
+  ],
+  "syn": [
+   {
+    "w": "deal with",
+    "note": "everyday, informal",
+    "ex": "I'll deal with the customer's complaint today.",
+    "ar": "هتعامل مع شكوى العميل النهارده.",
+    "ex2": "Dealing with it fast keeps him happy.",
+    "ar2": "التعامل معاها بسرعة بيخليه مبسوط."
+   },
+   {
+    "w": "tackle",
+    "note": "take strong action on a hard problem",
+    "ex": "We must tackle the late payments from big clients.",
+    "ar": "لازم نتعامل بحزم مع التأخير في الدفع من العملا الكبار.",
+    "ex2": "To tackle it, we'll stop new orders until they pay.",
+    "ar2": "عشان نحلها، هنوقف الأوردرات الجديدة لحد ما يدفعوا."
+   },
+   {
+    "w": "handle",
+    "note": "manage a task or situation",
+    "ex": "Can you handle the supplier's query about the LC?",
+    "ar": "تقدر تتعامل مع سؤال المورّد عن الاعتماد المستندي؟",
+    "ex2": "Hany usually handles all import paperwork.",
+    "ar2": "هاني عادة بيتعامل مع كل ورق الاستيراد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "ignore",
+    "ex": "If we ignore the battery alarms, the UPS will fail.",
+    "ar": "لو تجاهلنا إنذارات البطارية، الـ‎UPS‎ هيعطل.",
+    "ex2": "Ignoring them cost one client a full day offline.",
+    "ar2": "تجاهلها كلّف عميل يوم كامل واقف."
+   },
+   {
+    "w": "neglect",
+    "ex": "The client neglected regular maintenance for two years.",
+    "ar": "العميل أهمل الصيانة الدورية سنتين.",
+    "ex2": "Because of the neglect, all batteries need replacing.",
+    "ar2": "وبسبب الإهمال، كل البطاريات محتاجة تتغير."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our training course addresses the main problems technicians face with VFDs. It covers fault codes, parameter settings and safe testing.",
+  "ctx_ar": "كورس التدريب بتاعنا بيتعامل مع أهم المشاكل اللي بتقابل الفنيين في الـ‎VFD.‎ بيغطي أكواد الأعطال وضبط الإعدادات والاختبار الآمن.",
+  "quiz": [
+   {
+    "s": "We need to ___ the overheating problem before summer.",
+    "opts": [
+     "ignore",
+     "address",
+     "neglect"
+    ],
+    "a": 1,
+    "ar": "لازم نحل مشكلة السخونية قبل الصيف."
+   },
+   {
+    "s": "All issues ___ in the meeting are listed in the minutes.",
+    "opts": [
+     "address",
+     "addressed",
+     "addressing"
+    ],
+    "a": 1,
+    "ar": "كل المشاكل اللي اتناقشت في الاجتماع مكتوبة في المحضر."
+   },
+   {
+    "s": "If we ___ the alarms, the batteries will fail.",
+    "opts": [
+     "ignore",
+     "handle",
+     "tackle"
+    ],
+    "a": 0,
+    "ar": "لو تجاهلنا الإنذارات، البطاريات هتعطل."
+   }
+  ]
+ },
+ {
+  "w": "wrap up",
+  "ar": "يختم / يخلّص",
+  "family": [
+   {
+    "w": "wrap up",
+    "pos": "verb",
+    "ex": "I'll wrap up with information on prices and delivery.",
+    "ar": "هختم بمعلومات عن الأسعار والتسليم.",
+    "ex2": "Then I'll take your questions.",
+    "ar2": "وبعدين هاخد أسئلتكم."
+   },
+   {
+    "w": "wrap-up",
+    "pos": "noun",
+    "ex": "The wrap-up slide shows our contact details.",
+    "ar": "سلايد الختام فيها بيانات التواصل بتاعتنا.",
+    "ex2": "Leave the wrap-up slide on during questions.",
+    "ar2": "سيب سلايد الختام ظاهرة وقت الأسئلة."
+   },
+   {
+    "w": "wrapped up",
+    "pos": "adjective",
+    "ex": "By noon, the training session was wrapped up.",
+    "ar": "الضهر، جلسة التدريب كانت خلصت.",
+    "ex2": "Once wrapped up, the technicians took their certificates.",
+    "ar2": "بعد ما خلصت، الفنيين خدوا شهاداتهم."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "to end a presentation or talk",
+    "mar": "تختم عرض أو كلام",
+    "ex": "To wrap up, our UPS saves you 15% on energy.",
+    "ar": "وفي الختام، الـ‎UPS‎ بتاعنا بيوفّرلك ١٥٪ طاقة.",
+    "ex2": "Wrap up with one clear message the client remembers.",
+    "ar2": "اختم برسالة واحدة واضحة العميل يفتكرها."
+   },
+   {
+    "m": "to complete a job",
+    "mar": "تخلّص شغلانة",
+    "ex": "We'll wrap up the installation by Thursday evening.",
+    "ar": "هنخلّص التركيب الخميس بالليل.",
+    "ex2": "After we wrap up, the client signs the handover form.",
+    "ar2": "بعد ما نخلّص، العميل بيمضي على استمارة التسليم."
+   }
+  ],
+  "syn": [
+   {
+    "w": "sum up",
+    "note": "give the main points briefly at the end",
+    "ex": "Let me sum up the three benefits of solar.",
+    "ar": "خلّيني ألخّص التلات مزايا بتوع الطاقة الشمسية.",
+    "ex2": "To sum up: lower bills, less noise, less maintenance.",
+    "ar2": "باختصار: فواتير أقل، دوشة أقل، صيانة أقل."
+   },
+   {
+    "w": "conclude",
+    "note": "formal; end of a speech or report",
+    "ex": "I'd like to conclude with a short demo.",
+    "ar": "حابب أختم بعرض عملي قصير.",
+    "ex2": "Concluding with a demo makes the talk memorable.",
+    "ar2": "الختام بعرض عملي بيخلّي الكلام يتفتكر."
+   },
+   {
+    "w": "finish off",
+    "note": "informal; complete the last part",
+    "ex": "Let me finish off with a quick slide on warranty.",
+    "ar": "خلّيني أخلّص بسلايد سريعة عن الضمان.",
+    "ex2": "Finishing off with the warranty answers common questions.",
+    "ar2": "الختام بالضمان بيجاوب على الأسئلة المعتادة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "open",
+    "ex": "I'll open with a short story about a data centre outage.",
+    "ar": "هبدأ بحكاية قصيرة عن عطل في داتا سنتر.",
+    "ex2": "Opening with a story gets attention fast.",
+    "ar2": "البداية بحكاية بتشد الانتباه بسرعة."
+   }
+  ],
+  "ladder": {
+   "label": "how formal the ending is",
+   "lar": "قد إيه الختام رسمي",
+   "steps": [
+    {
+     "w": "finish off",
+     "ex": "Let me finish off with our contact numbers.",
+     "ar": "خلّيني أخلّص بأرقام التواصل بتاعتنا.",
+     "ex2": "Finishing off like this is fine with regular clients.",
+     "ar2": "الختام كده تمام مع العملا الدايمين."
+    },
+    {
+     "w": "wrap up",
+     "ex": "I'll wrap up with the payment options.",
+     "ar": "هختم بطرق الدفع.",
+     "ex2": "Wrapping up with payment helps close the sale.",
+     "ar2": "الختام بالدفع بيساعد تقفل البيعة."
+    },
+    {
+     "w": "conclude",
+     "ex": "To conclude, we recommend the 60 kVA modular UPS.",
+     "ar": "وفي الختام، بننصح بالـ‎UPS‎ الموديولار ٦٠ ‎kVA.‎",
+     "ex2": "This concluding advice goes in the formal proposal too.",
+     "ar2": "النصيحة الختامية دي بتتكتب في العرض الرسمي كمان."
+    }
+   ]
+  },
+  "ctx": "I'll wrap up with information on how to order. After that, I'm happy to answer any questions about the new inverters.",
+  "ctx_ar": "هختم بمعلومات عن إزاي تطلبوا. وبعد كده، يسعدني أجاوب على أي أسئلة عن الإنفرترات الجديدة.",
+  "quiz": [
+   {
+    "s": "I'll ___ my talk with a short story, not statistics.",
+    "opts": [
+     "open",
+     "wrap up",
+     "sum up"
+    ],
+    "a": 0,
+    "ar": "هبدأ كلامي بحكاية قصيرة، مش إحصائيات."
+   },
+   {
+    "s": "The ___ slide shows our phone numbers.",
+    "opts": [
+     "wrap up",
+     "wrapped up",
+     "wrap-up"
+    ],
+    "a": 2,
+    "ar": "سلايد الختام فيها أرقام تليفوناتنا."
+   },
+   {
+    "s": "Let me ___ the three main benefits in one sentence.",
+    "opts": [
+     "sum up",
+     "open",
+     "finish"
+    ],
+    "a": 0,
+    "ar": "خلّيني ألخّص التلات مزايا الأساسية في جملة واحدة."
+   }
+  ]
+ },
+ {
+  "w": "dedicated",
+  "ar": "مخصص لـ / متفاني",
+  "family": [
+   {
+    "w": "dedicated",
+    "pos": "adjective",
+    "ex": "We'll have a dedicated Q&A session at the end.",
+    "ar": "هيبقى فيه جلسة أسئلة مخصوصة في الآخر.",
+    "ex2": "Please hold your questions until then.",
+    "ar2": "لو سمحتوا أجّلوا أسئلتكم لحد ساعتها."
+   },
+   {
+    "w": "dedicate",
+    "pos": "verb",
+    "ex": "We dedicate one engineer to each data centre client.",
+    "ar": "بنخصص مهندس واحد لكل عميل داتا سنتر.",
+    "ex2": "He's dedicated to them 24/7.",
+    "ar2": "هو مخصص ليهم ٢٤ ساعة."
+   },
+   {
+    "w": "dedication",
+    "pos": "noun",
+    "ex": "The client praised our team's dedication during the outage.",
+    "ar": "العميل شكر في تفاني فريقنا وقت العطل.",
+    "ex2": "Their dedication kept the hospital running all night.",
+    "ar2": "تفانيهم خلّى المستشفى شغالة طول الليل."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "used only for one purpose",
+    "mar": "مخصص لحاجة واحدة",
+    "ex": "The bank has a dedicated UPS for its server room.",
+    "ar": "البنك عنده ‎UPS‎ مخصوص لأوضة السيرفرات.",
+    "ex2": "The dedicated unit isn't shared with lighting.",
+    "ar2": "الوحدة المخصوصة دي مش متوصّلة على الإنارة."
+   },
+   {
+    "m": "very hard-working and committed",
+    "mar": "مجتهد ومخلص جدًا",
+    "ex": "Mahmoud is a dedicated technician who never misses a visit.",
+    "ar": "محمود فني مخلص عمره ما فوّت زيارة.",
+    "ex2": "Dedicated people like him keep our clients loyal.",
+    "ar2": "الناس المخلصين اللي زيّه بيخلّوا العملا مستمرين معانا."
+   }
+  ],
+  "syn": [
+   {
+    "w": "assigned",
+    "note": "given to a person or task by a manager",
+    "ex": "Your assigned account manager is Mona.",
+    "ar": "مديرة حسابك المسؤولة هي منى.",
+    "ex2": "She's assigned to all hospital clients.",
+    "ar2": "هي مسؤولة عن كل عملا المستشفيات."
+   },
+   {
+    "w": "exclusive",
+    "note": "only for one person or group, no sharing",
+    "ex": "This hotline is exclusive to premium contract clients.",
+    "ar": "الخط الساخن ده للعملا أصحاب العقد البريميوم بس.",
+    "ex2": "Exclusive support is part of their contract.",
+    "ar2": "الدعم الحصري جزء من عقدهم."
+   },
+   {
+    "w": "committed",
+    "note": "about people; loyal and serious about work",
+    "ex": "Our committed service team works on Fridays when needed.",
+    "ar": "فريق الخدمة الملتزم بتاعنا بيشتغل الجمعة لو احتاج.",
+    "ex2": "Being committed, they never leave a site unfinished.",
+    "ar2": "وعشان ملتزمين، عمرهم ما سابوا موقع من غير ما يخلص."
+   }
+  ],
+  "ant": [
+   {
+    "w": "shared",
+    "ex": "The servers are on a shared UPS with the offices.",
+    "ar": "السيرفرات على ‎UPS‎ مشترك مع المكاتب.",
+    "ex2": "A shared unit risks overload when ACs start.",
+    "ar2": "الوحدة المشتركة ممكن يحصلها حمل زيادة لما التكييفات تشتغل."
+   },
+   {
+    "w": "careless",
+    "ex": "A careless technician left the battery cabinet open.",
+    "ar": "فني مهمل ساب دولاب البطاريات مفتوح.",
+    "ex2": "Careless work like this can cause accidents.",
+    "ar2": "الشغل المهمل ده ممكن يعمل حوادث."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Every maintenance client gets a dedicated engineer. He knows your UPS history and answers your calls directly.",
+  "ctx_ar": "كل عميل صيانة بياخد مهندس مخصوص ليه. بيعرف تاريخ الـ‎UPS‎ بتاعك وبيرد على مكالماتك بنفسه.",
+  "quiz": [
+   {
+    "s": "The client praised our team's ___ during the outage.",
+    "opts": [
+     "dedicated",
+     "dedicate",
+     "dedication"
+    ],
+    "a": 2,
+    "ar": "العميل شكر في تفاني فريقنا وقت العطل."
+   },
+   {
+    "s": "The servers run on a ___ UPS, not a shared one.",
+    "opts": [
+     "dedicated",
+     "careless",
+     "assigned"
+    ],
+    "a": 0,
+    "ar": "السيرفرات شغالة على ‎UPS‎ مخصوص، مش مشترك."
+   },
+   {
+    "s": "This hotline is ___ to premium contract clients.",
+    "opts": [
+     "dedicated",
+     "exclusive",
+     "committed"
+    ],
+    "a": 1,
+    "ar": "الخط الساخن ده حصري للعملا أصحاب العقد البريميوم."
+   }
+  ]
+ },
+ {
+  "w": "outcome",
+  "ar": "نتيجة / حصيلة",
+  "family": [
+   {
+    "w": "outcome",
+    "pos": "noun",
+    "ex": "The outcome of the tender will be announced next week.",
+    "ar": "نتيجة المناقصة هتتعلن الأسبوع الجاي.",
+    "ex2": "If the outcome is positive, we start in June.",
+    "ar2": "لو النتيجة كويسة، هنبدأ في يونيو."
+   },
+   {
+    "w": "outcomes",
+    "pos": "noun",
+    "ex": "The course outcomes include reading VFD fault codes.",
+    "ar": "نتايج الكورس فيها قراية أكواد أعطال الـ‎VFD.‎",
+    "ex2": "These outcomes help technicians fix faults faster.",
+    "ar2": "النتايج دي بتساعد الفنيين يصلحوا الأعطال أسرع."
+   },
+   {
+    "w": "come out",
+    "pos": "verb",
+    "ex": "How did the negotiation with the supplier come out?",
+    "ar": "التفاوض مع المورّد خلص على إيه؟",
+    "ex2": "It came out well; we got 8% off.",
+    "ar2": "خلص كويس؛ خدنا خصم ٨٪."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "result",
+    "note": "general word for what happened",
+    "ex": "The result of the load test was excellent.",
+    "ar": "نتيجة اختبار الحمل كانت ممتازة.",
+    "ex2": "With that result, the client signed the handover.",
+    "ar2": "وبالنتيجة دي، العميل مضى على التسليم."
+   },
+   {
+    "w": "impact",
+    "note": "the effect something has on business or people",
+    "ex": "The impact of the VFDs was a 25% lower power bill.",
+    "ar": "تأثير الـ‎VFD‎ كان فاتورة كهربا أقل ٢٥٪.",
+    "ex2": "That impact convinced the client to buy ten more.",
+    "ar2": "التأثير ده أقنع العميل يشتري عشرة كمان."
+   },
+   {
+    "w": "consequence",
+    "note": "usually a bad result of an action",
+    "ex": "The consequence of late payment is a stop on deliveries.",
+    "ar": "نتيجة التأخير في الدفع إن التسليمات بتتوقف.",
+    "ex2": "We explained this consequence in the contract.",
+    "ar2": "شرحنا النتيجة دي في العقد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "cause",
+    "ex": "The cause of the UPS failure was a dead battery string.",
+    "ar": "سبب عطل الـ‎UPS‎ كان خط بطاريات ميت.",
+    "ex2": "Once we found the cause, the repair took one hour.",
+    "ar2": "أول ما لقينا السبب، الإصلاح خد ساعة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We're waiting for the outcome of the hospital tender. If we win, we'll need three more technicians.",
+  "ctx_ar": "إحنا مستنيين نتيجة مناقصة المستشفى. لو كسبنا، هنحتاج تلات فنيين زيادة.",
+  "quiz": [
+   {
+    "s": "The ___ of the UPS failure was a dead battery.",
+    "opts": [
+     "outcome",
+     "cause",
+     "impact"
+    ],
+    "a": 1,
+    "ar": "سبب عطل الـ‎UPS‎ كان بطارية ميتة."
+   },
+   {
+    "s": "The course ___ include reading fault codes.",
+    "opts": [
+     "outcomes",
+     "comes out",
+     "consequence"
+    ],
+    "a": 0,
+    "ar": "نتايج الكورس فيها قراية أكواد الأعطال."
+   },
+   {
+    "s": "The ___ of late payment is a stop on deliveries.",
+    "opts": [
+     "impact",
+     "outcome",
+     "consequence"
+    ],
+    "a": 2,
+    "ar": "نتيجة التأخير في الدفع إن التسليمات بتقف."
+   }
+  ]
+ },
+ {
+  "w": "look forward to",
+  "ar": "مستني بفارغ الصبر / متطلّع لـ",
+  "family": [
+   {
+    "w": "look forward to",
+    "pos": "verb",
+    "ex": "I look forward to working with your team on the solar project.",
+    "ar": "متطلّع للشغل مع فريقكم في مشروع الطاقة الشمسية.",
+    "ex2": "Our engineers can visit the site next week.",
+    "ar2": "مهندسينا يقدروا يزوروا الموقع الأسبوع الجاي."
+   },
+   {
+    "w": "looking forward to",
+    "pos": "verb",
+    "ex": "We're looking forward to your feedback on the quotation.",
+    "ar": "مستنيين رأيك في عرض السعر.",
+    "ex2": "Your feedback will help us finalize the price.",
+    "ar2": "رأيك هيساعدنا نثبّت السعر."
+   },
+   {
+    "w": "forward-looking",
+    "pos": "adjective",
+    "ex": "Our forward-looking clients are already switching to lithium batteries.",
+    "ar": "عملاؤنا اللي بيبصّوا للمستقبل بدأوا يحوّلوا لبطاريات ليثيوم.",
+    "ex2": "Forward-looking companies plan maintenance years ahead.",
+    "ar2": "الشركات اللي بتبص لقدام بتخطط للصيانة قبلها بسنين."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "can't wait to",
+    "note": "informal, very excited; avoid in formal emails",
+    "ex": "I can't wait to see the new data centre running.",
+    "ar": "مش قادر أستنى أشوف الداتا سنتر الجديد شغال.",
+    "ex2": "I can't wait because we built it in three months.",
+    "ar2": "مش قادر أستنى عشان بنيناه في تلات شهور."
+   },
+   {
+    "w": "anticipate",
+    "note": "formal; expect something to happen",
+    "ex": "We anticipate delivery of the batteries next week.",
+    "ar": "متوقعين تسليم البطاريات الأسبوع الجاي.",
+    "ex2": "We anticipate it because the ship left Shanghai.",
+    "ar2": "متوقعينه عشان المركب خرجت من شنغهاي."
+   },
+   {
+    "w": "hope to",
+    "note": "polite, less sure",
+    "ex": "We hope to receive the PO by Thursday.",
+    "ar": "بنتمنى نستلم أمر الشراء الخميس.",
+    "ex2": "If we receive it, we'll ship on Sunday.",
+    "ar2": "لو استلمناه، هنشحن يوم الحد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "dread",
+    "ex": "I dread calling that client about another price increase.",
+    "ar": "مرعوب أكلّم العميل ده عن زيادة أسعار تانية.",
+    "ex2": "I dread it because he complained last time.",
+    "ar2": "مرعوب عشان اشتكى المرة اللي فاتت."
+   }
+  ],
+  "ladder": {
+   "label": "how excited",
+   "lar": "متحمس قد إيه",
+   "steps": [
+    {
+     "w": "hope to",
+     "ex": "We hope to meet you at the energy exhibition.",
+     "ar": "بنتمنى نقابلك في معرض الطاقة.",
+     "ex2": "We hope to show our new hybrid inverter there.",
+     "ar2": "بنتمنى نعرض الإنفرتر الهايبرد الجديد هناك."
+    },
+    {
+     "w": "look forward to",
+     "ex": "I look forward to meeting you on Monday.",
+     "ar": "مستني أقابلك يوم الاتنين.",
+     "ex2": "Looking forward to it; I'll bring the samples.",
+     "ar2": "مستني ده؛ وهجيب العينات معايا."
+    },
+    {
+     "w": "can't wait to",
+     "ex": "The team can't wait to start the solar farm project.",
+     "ar": "الفريق مش قادر يستنى يبدأ مشروع المزرعة الشمسية.",
+     "ex2": "They can't wait because it's our biggest project yet.",
+     "ar2": "مش قادرين يستنوا عشان ده أكبر مشروع لينا لحد دلوقتي."
+    }
+   ]
+  },
+  "ctx": "Thank you for your time today. We look forward to receiving your PO and starting the installation next month.",
+  "ctx_ar": "شكرًا على وقتك النهارده. مستنيين نستلم أمر الشراء منكم ونبدأ التركيب الشهر الجاي.",
+  "quiz": [
+   {
+    "s": "We are ___ hearing from you soon.",
+    "opts": [
+     "looking forward to",
+     "look forward to",
+     "forward-looking"
+    ],
+    "a": 0,
+    "ar": "مستنيين نسمع منك قريب."
+   },
+   {
+    "s": "I ___ calling him about another price rise.",
+    "opts": [
+     "look forward to",
+     "hope to",
+     "dread"
+    ],
+    "a": 2,
+    "ar": "مرعوب أكلّمه عن زيادة أسعار تانية."
+   },
+   {
+    "s": "___ companies plan battery replacements years ahead.",
+    "opts": [
+     "Looking forward to",
+     "Forward-looking",
+     "Look forward to"
+    ],
+    "a": 1,
+    "ar": "الشركات اللي بتبص لقدام بتخطط لتغيير البطاريات قبلها بسنين."
+   }
+  ]
+ }
+]

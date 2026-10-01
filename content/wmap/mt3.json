@@ -1,0 +1,813 @@
+[
+ {
+  "w": "objection",
+  "ar": "اعتراض",
+  "family": [
+   {
+    "w": "objection",
+    "pos": "noun",
+    "ex": "The client's main objection was the price of lithium batteries.",
+    "ar": "اعتراض العميل الأساسي كان على سعر بطاريات الليثيوم.",
+    "ex2": "We answered the objection with a ten-year cost comparison.",
+    "ar2": "رديّنا على الاعتراض بمقارنة تكلفة عشر سنين."
+   },
+   {
+    "w": "object",
+    "pos": "verb",
+    "ex": "Finance objected to the 90-day payment terms.",
+    "ar": "الحسابات اعترضت على شروط الدفع 90 يوم.",
+    "ex2": "They object to anything over 60 days.",
+    "ar2": "بيعترضوا على أي حاجة فوق 60 يوم."
+   },
+   {
+    "w": "objectionable",
+    "pos": "adjective",
+    "ex": "Nothing in the contract seemed objectionable to their lawyer.",
+    "ar": "مفيش حاجة في العقد كانت مرفوضة عند المحامي بتاعهم.",
+    "ex2": "Only the penalty clause was slightly objectionable.",
+    "ar2": "بند الغرامة بس كان عليه ملاحظة بسيطة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "concern",
+    "note": "softer; a worry, not a refusal",
+    "ex": "The client has a concern about delivery time.",
+    "ar": "العميل عنده قلق من مدة التوريد.",
+    "ex2": "We shared the shipping schedule to ease his concern.",
+    "ar2": "بعتنا جدول الشحن عشان نطمنه."
+   },
+   {
+    "w": "complaint",
+    "note": "about something already wrong",
+    "ex": "We received a complaint about a noisy UPS.",
+    "ar": "وصلتنا شكوى عن ‎UPS‎ صوته عالي.",
+    "ex2": "The complaint was closed after we replaced the fan.",
+    "ar2": "الشكوى اتقفلت بعد ما غيرنا المروحة."
+   },
+   {
+    "w": "pushback",
+    "note": "informal; resistance to an idea or price",
+    "ex": "We got pushback on the new service prices.",
+    "ar": "لقينا مقاومة على أسعار الخدمة الجديدة.",
+    "ex2": "Most pushback came from small clients.",
+    "ar2": "أغلب المقاومة جت من العملا الصغيرين."
+   }
+  ],
+  "ant": [
+   {
+    "w": "approval",
+    "ex": "The proposal got full approval from the board.",
+    "ar": "العرض أخد موافقة كاملة من مجلس الإدارة.",
+    "ex2": "After approval, procurement issued the PO.",
+    "ar2": "بعد الموافقة، المشتريات طلّعت أمر الشراء."
+   },
+   {
+    "w": "agreement",
+    "ex": "There was full agreement on the delivery schedule.",
+    "ar": "كان فيه اتفاق كامل على جدول التوريد.",
+    "ex2": "The agreement is in the meeting minutes.",
+    "ar2": "الاتفاق متسجل في محضر الاجتماع."
+   }
+  ],
+  "ladder": {
+   "label": "how strong the resistance is",
+   "lar": "المقاومة قوية قد إيه",
+   "steps": [
+    {
+     "w": "question",
+     "ex": "The client had a question about the warranty terms.",
+     "ar": "العميل كان عنده سؤال عن شروط الضمان.",
+     "ex2": "A quick email answered it.",
+     "ar2": "إيميل سريع جاوب عليه."
+    },
+    {
+     "w": "concern",
+     "ex": "The client raised a concern about battery life in hot rooms.",
+     "ar": "العميل اتكلم عن قلقه من عمر البطاريات في الأوض الحر.",
+     "ex2": "We suggested adding an AC unit.",
+     "ar2": "اقترحنا نضيف تكييف."
+    },
+    {
+     "w": "objection",
+     "ex": "The client's objection was the high price.",
+     "ar": "اعتراض العميل كان السعر العالي.",
+     "ex2": "He wanted 15% off.",
+     "ar2": "كان عايز خصم 15%."
+    },
+    {
+     "w": "rejection",
+     "ex": "The tender committee sent a formal rejection of our offer.",
+     "ar": "لجنة المناقصة بعتت رفض رسمي لعرضنا.",
+     "ex2": "The rejection cited missing certificates.",
+     "ar2": "الرفض كان بسبب شهادات ناقصة."
+    }
+   ]
+  },
+  "ctx": "The buyer's first objection was the lead time. We offered a temporary UPS from stock, and he agreed to sign.",
+  "ctx_ar": "أول اعتراض للمشتري كان مدة التوريد. عرضنا عليه ‎UPS‎ مؤقت من المخزن، ووافق يمضي.",
+  "quiz": [
+   {
+    "s": "Finance will ___ to the long payment terms.",
+    "opts": [
+     "objection",
+     "object",
+     "objectionable"
+    ],
+    "a": 1,
+    "ar": "الحسابات هتعترض على شروط الدفع الطويلة."
+   },
+   {
+    "s": "We answered every ___ about price with numbers.",
+    "opts": [
+     "objection",
+     "object",
+     "approval"
+    ],
+    "a": 0,
+    "ar": "رديّنا على كل اعتراض على السعر بالأرقام."
+   },
+   {
+    "s": "The client has a small ___ about delivery, not a real objection.",
+    "opts": [
+     "rejection",
+     "objection",
+     "concern"
+    ],
+    "a": 2,
+    "ar": "العميل عنده قلق بسيط من التوريد، مش اعتراض حقيقي."
+   }
+  ]
+ },
+ {
+  "w": "break down",
+  "ar": "يعطل / يقسّم بالتفصيل",
+  "family": [
+   {
+    "w": "break down",
+    "pos": "verb",
+    "ex": "Old generators often break down during summer peaks.",
+    "ar": "المولدات القديمة كتير بتعطل وقت ذروة الصيف.",
+    "ex2": "When they break down, the UPS carries the load.",
+    "ar2": "لما بتعطل، الـ ‎UPS‎ بيشيل الحمل."
+   },
+   {
+    "w": "breakdown",
+    "pos": "noun",
+    "ex": "Please send a cost breakdown for the solar project.",
+    "ar": "ياريت تبعت تفصيل التكلفة لمشروع الطاقة الشمسية.",
+    "ex2": "The breakdown should show panels, inverters and labour.",
+    "ar2": "التفصيل لازم يوضح الألواح والإنفرترات والمصنعية."
+   },
+   {
+    "w": "broken-down",
+    "pos": "adjective",
+    "ex": "We towed the broken-down service van to the garage.",
+    "ar": "سحبنا عربية الخدمة العطلانة للورشة.",
+    "ex2": "A broken-down van means two visits are delayed.",
+    "ar2": "عربية عطلانة معناها زيارتين اتأخروا."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "stop working (machine)",
+    "mar": "يعطل",
+    "ex": "The chiller VFD may break down if the fan is blocked.",
+    "ar": "الـ ‎VFD‎ بتاع التشيلر ممكن يعطل لو المروحة مسدودة.",
+    "ex2": "Clean the filter so it doesn't break down.",
+    "ar2": "نضّف الفلتر عشان ميعطلش."
+   },
+   {
+    "m": "divide into parts",
+    "mar": "يقسّم بالتفصيل",
+    "ex": "Can you break down the price per site?",
+    "ar": "ممكن تقسّم السعر لكل موقع؟",
+    "ex2": "The client wants to break down costs by branch.",
+    "ar2": "العميل عايز يقسم التكاليف على الفروع."
+   },
+   {
+    "m": "fail (talks)",
+    "mar": "تفشل المفاوضات",
+    "ex": "Talks may break down if we don't move on price.",
+    "ar": "المفاوضات ممكن تفشل لو مش هنتحرك في السعر.",
+    "ex2": "If talks break down, we lose the hospital tender.",
+    "ar2": "لو المفاوضات فشلت، هنخسر مناقصة المستشفى."
+   }
+  ],
+  "syn": [
+   {
+    "w": "fail",
+    "note": "general; any system or part stops",
+    "ex": "The battery bank may fail during a long outage.",
+    "ar": "بنك البطاريات ممكن يفشل في انقطاع طويل.",
+    "ex2": "If it fails, the servers shut down.",
+    "ar2": "لو فشل، السيرفرات هتقع."
+   },
+   {
+    "w": "itemize",
+    "note": "formal; list each cost separately",
+    "ex": "Please itemize all spare parts on the invoice.",
+    "ar": "ياريت تكتب كل قطع الغيار بند بند في الفاتورة.",
+    "ex2": "Itemizing helps the client's finance approve it.",
+    "ar2": "التفصيل بيساعد حسابات العميل توافق."
+   },
+   {
+    "w": "collapse",
+    "note": "strong; talks or deal end suddenly",
+    "ex": "The deal could collapse over payment terms.",
+    "ar": "الصفقة ممكن تقع بسبب شروط الدفع.",
+    "ex2": "A collapse would cost us three months of work.",
+    "ar2": "وقوعها هيكلّفنا تلات شهور شغل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "run smoothly",
+    "ex": "The UPS should run smoothly after the battery change.",
+    "ar": "الـ ‎UPS‎ المفروض يشتغل كويس بعد تغيير البطاريات.",
+    "ex2": "Running smoothly means no alarms for months.",
+    "ar2": "الشغل الكويس يعني مفيش إنذارات لشهور."
+   },
+   {
+    "w": "sum up",
+    "ex": "Let me sum up the total cost in one figure.",
+    "ar": "خلّيني ألخص التكلفة كلها في رقم واحد.",
+    "ex2": "To sum up, the project costs 1.2 million pounds.",
+    "ar2": "باختصار، المشروع بيتكلف 1.2 مليون جنيه."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The client asked why the quotation was so high. Let's break down the cost for him: batteries are 60%, installation only 10%.",
+  "ctx_ar": "العميل سأل ليه عرض السعر عالي كده. خلّينا نفصّل له التكلفة: البطاريات 60%، والتركيب 10% بس.",
+  "quiz": [
+   {
+    "s": "Please send a cost ___ for each site.",
+    "opts": [
+     "break down",
+     "breakdown",
+     "broken-down"
+    ],
+    "a": 1,
+    "ar": "ياريت تبعت تفصيل التكلفة لكل موقع."
+   },
+   {
+    "s": "The ___ van is at the garage.",
+    "opts": [
+     "breakdown",
+     "broken-down",
+     "break down"
+    ],
+    "a": 1,
+    "ar": "العربية العطلانة في الورشة."
+   },
+   {
+    "s": "Please ___ every spare part on the invoice.",
+    "opts": [
+     "itemize",
+     "collapse",
+     "sum up"
+    ],
+    "a": 0,
+    "ar": "ياريت تكتب كل قطعة غيار بند بند في الفاتورة."
+   }
+  ]
+ },
+ {
+  "w": "change gears",
+  "ar": "يغيّر الموضوع / الاتجاه",
+  "family": [
+   {
+    "w": "change gears",
+    "pos": "verb",
+    "ex": "Let's change gears and talk about the overdue invoices.",
+    "ar": "خلّينا نغيّر الموضوع ونتكلم عن الفواتير المتأخرة.",
+    "ex2": "After we change gears, Nour will present the figures.",
+    "ar2": "بعد ما نغيّر الموضوع، ‎Nour‎ هتعرض الأرقام."
+   },
+   {
+    "w": "gear",
+    "pos": "noun",
+    "ex": "Bring the safety gear before entering the battery room.",
+    "ar": "هات معدات السلامة قبل ما تدخل أوضة البطاريات.",
+    "ex2": "Gear includes gloves, goggles and an apron.",
+    "ar2": "المعدات فيها جوانتي ونضارة ومريلة."
+   },
+   {
+    "w": "gear up",
+    "pos": "verb",
+    "ex": "We're gearing up for the summer peak in UPS service calls.",
+    "ar": "بنجهز نفسنا لذروة زيارات الـ ‎UPS‎ في الصيف.",
+    "ex2": "Gearing up means extra stock and staff on standby.",
+    "ar2": "التجهيز معناه مخزون زيادة وناس جاهزين."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "move on to",
+    "note": "neutral; next agenda item",
+    "ex": "Let's move on to the solar tender.",
+    "ar": "خلّينا ننتقل لمناقصة الطاقة الشمسية.",
+    "ex2": "We'll move on to it after the break.",
+    "ar2": "هننتقل له بعد البريك."
+   },
+   {
+    "w": "switch to",
+    "note": "change from one thing to another",
+    "ex": "Let's switch to the service report now.",
+    "ar": "خلّينا نحوّل لتقرير الخدمة دلوقتي.",
+    "ex2": "Switch to slide five, please.",
+    "ar2": "حوّل على الشريحة خمسة لو سمحت."
+   },
+   {
+    "w": "shift focus",
+    "note": "more formal; change priority, not just topic",
+    "ex": "This quarter we'll shift focus to maintenance contracts.",
+    "ar": "الربع ده هنحوّل تركيزنا لعقود الصيانة.",
+    "ex2": "The shift in focus follows lower product margins.",
+    "ar2": "تغيير التركيز ده بسبب هوامش المنتجات اللي قلت."
+   }
+  ],
+  "ant": [
+   {
+    "w": "stay on topic",
+    "ex": "Please stay on topic; we'll discuss prices later.",
+    "ar": "ياريت نفضل في الموضوع، الأسعار هنتكلم فيها بعدين.",
+    "ex2": "Staying on topic saves us an hour.",
+    "ar2": "إننا نفضل في الموضوع بيوفّر ساعة."
+   }
+  ],
+  "ladder": {
+   "label": "how big the change is",
+   "lar": "التغيير كبير قد إيه",
+   "steps": [
+    {
+     "w": "move on to",
+     "ex": "Let's move on to the next item, the battery order.",
+     "ar": "خلّينا ننتقل للبند الجاي، طلبية البطاريات.",
+     "ex2": "It's still about sales.",
+     "ar2": "لسه في نفس موضوع المبيعات."
+    },
+    {
+     "w": "change gears",
+     "ex": "Let's change gears and talk about staff training.",
+     "ar": "خلّينا نغيّر الموضوع ونتكلم في تدريب الموظفين.",
+     "ex2": "It's a completely different topic.",
+     "ar2": "ده موضوع مختلف خالص."
+    },
+    {
+     "w": "change direction",
+     "ex": "The company will change direction and focus on solar.",
+     "ar": "الشركة هتغيّر اتجاهها وتركز على الطاقة الشمسية.",
+     "ex2": "UPS sales will become a smaller part.",
+     "ar2": "مبيعات الـ ‎UPS‎ هتبقى جزء أصغر."
+    }
+   ]
+  },
+  "ctx": "We've finished the sales figures for the quarter. Now let's change gears and discuss the delays at the Alexandria warehouse.",
+  "ctx_ar": "خلّصنا أرقام المبيعات للربع ده. دلوقتي خلّينا نغيّر الموضوع ونتكلم عن التأخير في مخزن إسكندرية.",
+  "quiz": [
+   {
+    "s": "Let's ___ and talk about collections.",
+    "opts": [
+     "change gears",
+     "gear",
+     "stay on topic"
+    ],
+    "a": 0,
+    "ar": "خلّينا نغيّر الموضوع ونتكلم عن التحصيل."
+   },
+   {
+    "s": "Wear your safety ___ in the battery room.",
+    "opts": [
+     "gear up",
+     "gear",
+     "change gears"
+    ],
+    "a": 1,
+    "ar": "البس معدات السلامة في أوضة البطاريات."
+   },
+   {
+    "s": "We need to ___ for the summer rush.",
+    "opts": [
+     "gear",
+     "change gears",
+     "gear up"
+    ],
+    "a": 2,
+    "ar": "محتاجين نجهز نفسنا لزحمة الصيف."
+   }
+  ]
+ },
+ {
+  "w": "on track",
+  "ar": "ماشي حسب الخطة",
+  "family": [
+   {
+    "w": "on track",
+    "pos": "adjective",
+    "ex": "The data centre project is on track for a June handover.",
+    "ar": "مشروع الداتا سنتر ماشي حسب الخطة للتسليم في يونيو.",
+    "ex2": "All cabling is done, so we're on track.",
+    "ar2": "كل الكابلات خلصت، فإحنا ماشيين صح."
+   },
+   {
+    "w": "track",
+    "pos": "verb",
+    "ex": "We track every shipment from the supplier to the site.",
+    "ar": "بنتابع كل شحنة من المورد للموقع.",
+    "ex2": "Tracking helps us warn clients about delays.",
+    "ar2": "المتابعة بتساعدنا ننبّه العملا لو فيه تأخير."
+   },
+   {
+    "w": "track record",
+    "pos": "noun",
+    "ex": "We have a strong track record with hospital UPS projects.",
+    "ar": "عندنا سجل قوي في مشاريع الـ ‎UPS‎ للمستشفيات.",
+    "ex2": "Our track record includes 30 hospitals in Egypt.",
+    "ar2": "سجلنا فيه 30 مستشفى في مصر."
+   },
+   {
+    "w": "off track",
+    "pos": "adjective",
+    "ex": "The solar project went off track because of customs delays.",
+    "ar": "مشروع الطاقة الشمسية خرج عن الخطة بسبب تأخير الجمارك.",
+    "ex2": "To get back from off track, we added a second team.",
+    "ar2": "عشان نرجع للخطة، زودنا فريق تاني."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "on schedule",
+    "note": "about dates only",
+    "ex": "The battery delivery is on schedule for Monday.",
+    "ar": "توريد البطاريات في ميعاده يوم الاتنين.",
+    "ex2": "Being on schedule keeps the client calm.",
+    "ar2": "الالتزام بالميعاد بيطمّن العميل."
+   },
+   {
+    "w": "going to plan",
+    "note": "informal; everything as expected",
+    "ex": "So far the installation is going to plan.",
+    "ar": "لحد دلوقتي التركيب ماشي زي ما مخطط.",
+    "ex2": "If it keeps going to plan, we finish Thursday.",
+    "ar2": "لو فضل ماشي كده، هنخلص الخميس."
+   },
+   {
+    "w": "on target",
+    "note": "about numbers like sales or budget",
+    "ex": "Collections are on target for this month.",
+    "ar": "التحصيل ماشي على الهدف الشهر ده.",
+    "ex2": "On target means 2 million pounds collected.",
+    "ar2": "على الهدف يعني 2 مليون جنيه اتحصلوا."
+   }
+  ],
+  "ant": [
+   {
+    "w": "off track",
+    "ex": "The project is off track by two weeks.",
+    "ar": "المشروع متأخر عن الخطة أسبوعين.",
+    "ex2": "Being off track means late penalties.",
+    "ar2": "التأخير عن الخطة معناه غرامات تأخير."
+   },
+   {
+    "w": "behind schedule",
+    "ex": "The installation is behind schedule because of rain.",
+    "ar": "التركيب متأخر عن الجدول بسبب المطر.",
+    "ex2": "Behind schedule by three days, we'll work Friday.",
+    "ar2": "وعشان متأخرين تلات أيام، هنشتغل الجمعة."
+   }
+  ],
+  "ladder": {
+   "label": "how well it's going",
+   "lar": "ماشي كويس قد إيه",
+   "steps": [
+    {
+     "w": "behind schedule",
+     "ex": "The VFD installation is behind schedule.",
+     "ar": "تركيب الـ ‎VFD‎ متأخر عن الجدول.",
+     "ex2": "Parts arrived late from Italy.",
+     "ar2": "القطع وصلت متأخرة من إيطاليا."
+    },
+    {
+     "w": "on track",
+     "ex": "The solar project is on track.",
+     "ar": "مشروع الطاقة الشمسية ماشي حسب الخطة.",
+     "ex2": "Phase two starts Sunday as planned.",
+     "ar2": "المرحلة التانية هتبدأ الأحد زي المخطط."
+    },
+    {
+     "w": "ahead of schedule",
+     "ex": "The UPS replacement is ahead of schedule.",
+     "ar": "تغيير الـ ‎UPS‎ سابق الجدول.",
+     "ex2": "We may finish two days early.",
+     "ar2": "ممكن نخلص قبلها بيومين."
+    }
+   ]
+  },
+  "ctx": "The client asked about the hospital UPS project. I told him we're on track: the batteries arrive Sunday and testing starts Tuesday.",
+  "ctx_ar": "العميل سأل عن مشروع الـ ‎UPS‎ في المستشفى. قلتله إحنا ماشيين حسب الخطة: البطاريات توصل الأحد والاختبار يبدأ التلات.",
+  "quiz": [
+   {
+    "s": "We have a strong ___ with bank projects.",
+    "opts": [
+     "track record",
+     "on track",
+     "off track"
+    ],
+    "a": 0,
+    "ar": "عندنا سجل قوي في مشاريع البنوك."
+   },
+   {
+    "s": "Rain put the project ___ by a week.",
+    "opts": [
+     "on track",
+     "off track",
+     "track"
+    ],
+    "a": 1,
+    "ar": "المطر أخّر المشروع عن الخطة أسبوع."
+   },
+   {
+    "s": "We'll finish early; we're ___.",
+    "opts": [
+     "behind schedule",
+     "off track",
+     "ahead of schedule"
+    ],
+    "a": 2,
+    "ar": "هنخلص بدري، إحنا سابقين الجدول."
+   }
+  ]
+ },
+ {
+  "w": "steer",
+  "ar": "يوجّه / يدير",
+  "family": [
+   {
+    "w": "steer",
+    "pos": "verb",
+    "ex": "Try to steer the client toward the modular UPS.",
+    "ar": "حاول توجّه العميل ناحية الـ ‎UPS‎ الموديولار.",
+    "ex2": "Steer him gently; don't push.",
+    "ar2": "وجّهه بالراحة، متضغطش."
+   },
+   {
+    "w": "steering",
+    "pos": "noun",
+    "ex": "Good steering kept the meeting short.",
+    "ar": "الإدارة الكويسة خلّت الاجتماع قصير.",
+    "ex2": "Without steering, the meeting runs over time.",
+    "ar2": "من غير إدارة، الاجتماع بيطوّل."
+   },
+   {
+    "w": "steering committee",
+    "pos": "noun",
+    "ex": "The steering committee approves every phase of the data centre project.",
+    "ar": "لجنة التوجيه بتوافق على كل مرحلة في مشروع الداتا سنتر.",
+    "ex2": "The steering committee meets every two weeks.",
+    "ar2": "لجنة التوجيه بتجتمع كل أسبوعين."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "guide",
+    "note": "gentle help in the right direction",
+    "ex": "Guide the client through the warranty form.",
+    "ar": "ساعد العميل يملا استمارة الضمان.",
+    "ex2": "Guide him step by step.",
+    "ar2": "خده خطوة خطوة."
+   },
+   {
+    "w": "lead",
+    "note": "be in charge, more direct",
+    "ex": "Karim will lead the meeting with the supplier.",
+    "ar": "‎Karim‎ هيقود الاجتماع مع المورد.",
+    "ex2": "He'll lead the price talks too.",
+    "ar2": "وهيقود مفاوضات السعر كمان."
+   },
+   {
+    "w": "direct",
+    "note": "give clear instructions or route",
+    "ex": "Direct all service calls to the hotline.",
+    "ar": "وجّه كل مكالمات الخدمة للخط الساخن.",
+    "ex2": "The hotline will direct them to an engineer.",
+    "ar2": "الخط الساخن هيحوّلهم لمهندس."
+   }
+  ],
+  "ant": [
+   {
+    "w": "drift",
+    "ex": "Don't let the meeting drift into personal topics.",
+    "ar": "متسيبش الاجتماع يسرح في مواضيع شخصية.",
+    "ex2": "If it drifts, steer it back to the agenda.",
+    "ar2": "لو سرح، رجّعه للأجندة."
+   },
+   {
+    "w": "follow",
+    "ex": "Don't steer; just follow the client's lead on budget.",
+    "ar": "متوجّهش، امشي ورا العميل في الميزانية.",
+    "ex2": "Follow his priorities first.",
+    "ar2": "امشي على أولوياته الأول."
+   }
+  ],
+  "ladder": {
+   "label": "how strong the control is",
+   "lar": "التحكم قوي قد إيه",
+   "steps": [
+    {
+     "w": "suggest",
+     "ex": "Suggest the lithium option, but let him choose.",
+     "ar": "اقترح خيار الليثيوم، بس سيبه يختار.",
+     "ex2": "He may prefer the cheaper one.",
+     "ar2": "ممكن يفضّل الأرخص."
+    },
+    {
+     "w": "steer",
+     "ex": "Steer him toward lithium with a cost comparison.",
+     "ar": "وجّهه ناحية الليثيوم بمقارنة التكلفة.",
+     "ex2": "Show the ten-year savings.",
+     "ar2": "وريه التوفير على عشر سنين."
+    },
+    {
+     "w": "insist",
+     "ex": "Insist on lithium for the hot rooftop site.",
+     "ar": "اصمم على الليثيوم لموقع السطح الحر.",
+     "ex2": "Lead-acid won't last a year there.",
+     "ar2": "الرصاص مش هيعيش سنة هناك."
+    }
+   ]
+  },
+  "ctx": "The meeting drifted into complaints about old faults. Mona steered it back to the renewal price, and we closed in twenty minutes.",
+  "ctx_ar": "الاجتماع سرح في شكاوى عن أعطال قديمة. ‎Mona‎ رجّعته لسعر التجديد، وقفلنا في عشرين دقيقة.",
+  "quiz": [
+   {
+    "s": "The ___ committee meets every two weeks.",
+    "opts": [
+     "steer",
+     "steering",
+     "drift"
+    ],
+    "a": 1,
+    "ar": "لجنة التوجيه بتجتمع كل أسبوعين."
+   },
+   {
+    "s": "Try to ___ the client toward the bigger UPS.",
+    "opts": [
+     "steer",
+     "steering",
+     "drift"
+    ],
+    "a": 0,
+    "ar": "حاول توجّه العميل ناحية الـ ‎UPS‎ الأكبر."
+   },
+   {
+    "s": "The site is very hot, so ___ on lithium batteries.",
+    "opts": [
+     "suggest",
+     "drift",
+     "insist"
+    ],
+    "a": 2,
+    "ar": "الموقع حر جدًا، فاصمم على بطاريات الليثيوم."
+   }
+  ]
+ },
+ {
+  "w": "hold off",
+  "ar": "يأجّل / يستنى شوية",
+  "family": [
+   {
+    "w": "hold off",
+    "pos": "verb",
+    "ex": "Please hold off on the battery order until the PO is signed.",
+    "ar": "ياريت تستنى في طلبية البطاريات لحد ما أمر الشراء يتمضي.",
+    "ex2": "If we hold off a week, prices may drop.",
+    "ar2": "لو استنينا أسبوع، الأسعار ممكن تنزل."
+   },
+   {
+    "w": "hold",
+    "pos": "noun",
+    "ex": "The client put the solar project on hold.",
+    "ar": "العميل وقّف مشروع الطاقة الشمسية مؤقتًا.",
+    "ex2": "The hold may last until the new fiscal year.",
+    "ar2": "الإيقاف ممكن يكمّل لحد السنة المالية الجديدة."
+   },
+   {
+    "w": "hold-up",
+    "pos": "noun",
+    "ex": "The hold-up at customs delayed the inverters.",
+    "ar": "التعطيل في الجمارك أخّر الإنفرترات.",
+    "ex2": "Another hold-up would push the handover to July.",
+    "ar2": "أي تعطيل تاني هيأخّر التسليم ليوليو."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "postpone",
+    "note": "formal; move to a later date",
+    "ex": "We'll postpone the shutdown until Friday.",
+    "ar": "هنأجّل الفصل لحد الجمعة.",
+    "ex2": "The client asked to postpone it because of month-end.",
+    "ar2": "العميل طلب التأجيل عشان آخر الشهر."
+   },
+   {
+    "w": "wait",
+    "note": "simple, everyday",
+    "ex": "Wait for the engineer before restarting the UPS.",
+    "ar": "استنى المهندس قبل ما تشغّل الـ ‎UPS‎ تاني.",
+    "ex2": "Waiting avoids damaging the batteries.",
+    "ar2": "الانتظار بيمنع تلف البطاريات."
+   },
+   {
+    "w": "put off",
+    "note": "informal; often delaying something unpleasant",
+    "ex": "Don't put off the collections call.",
+    "ar": "متأجّلش مكالمة التحصيل.",
+    "ex2": "Putting it off makes the invoice older.",
+    "ar2": "تأجيلها بيخلي الفاتورة أقدم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "go ahead",
+    "ex": "Go ahead with the order; the PO is signed.",
+    "ar": "كمّل الطلبية، أمر الشراء اتمضى.",
+    "ex2": "Go ahead and book the truck too.",
+    "ar2": "كمّل واحجز العربية كمان."
+   },
+   {
+    "w": "proceed",
+    "ex": "We can proceed with the installation now.",
+    "ar": "نقدر نكمّل التركيب دلوقتي.",
+    "ex2": "Proceed once the power is isolated.",
+    "ar2": "كمّل أول ما الكهربا تتفصل."
+   }
+  ],
+  "ladder": {
+   "label": "how long the delay is",
+   "lar": "التأجيل قد إيه",
+   "steps": [
+    {
+     "w": "hold off",
+     "ex": "Hold off for a day until the client confirms.",
+     "ar": "استنى يوم لحد ما العميل يأكد.",
+     "ex2": "He'll call tomorrow morning.",
+     "ar2": "هيتصل بكرة الصبح."
+    },
+    {
+     "w": "postpone",
+     "ex": "We'll postpone the project to next quarter.",
+     "ar": "هنأجّل المشروع للربع الجاي.",
+     "ex2": "Their budget isn't ready.",
+     "ar2": "ميزانيتهم مش جاهزة."
+    },
+    {
+     "w": "cancel",
+     "ex": "The client may cancel the order completely.",
+     "ar": "العميل ممكن يلغي الطلبية خالص.",
+     "ex2": "Cancelling means we keep the advance payment.",
+     "ar2": "الإلغاء معناه إننا نحتفظ بالدفعة المقدمة."
+    }
+   ]
+  },
+  "ctx": "Prices for lithium batteries may fall next month. Let's hold off on the big order and buy only what we need now.",
+  "ctx_ar": "أسعار بطاريات الليثيوم ممكن تنزل الشهر الجاي. خلّينا نستنى في الطلبية الكبيرة ونشتري اللي محتاجينه دلوقتي بس.",
+  "quiz": [
+   {
+    "s": "The client put the project on ___.",
+    "opts": [
+     "hold",
+     "hold off",
+     "hold-up"
+    ],
+    "a": 0,
+    "ar": "العميل وقّف المشروع مؤقتًا."
+   },
+   {
+    "s": "A ___ at customs delayed the shipment.",
+    "opts": [
+     "hold",
+     "go ahead",
+     "hold-up"
+    ],
+    "a": 2,
+    "ar": "تعطيل في الجمارك أخّر الشحنة."
+   },
+   {
+    "s": "Please ___ on ordering until the PO arrives.",
+    "opts": [
+     "proceed",
+     "hold off",
+     "go ahead"
+    ],
+    "a": 1,
+    "ar": "ياريت تستنى في الطلب لحد ما أمر الشراء يوصل."
+   }
+  ]
+ }
+]

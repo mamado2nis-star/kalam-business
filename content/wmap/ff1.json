@@ -1,0 +1,809 @@
+[
+ {
+  "w": "in charge of",
+  "ar": "مسؤول عن",
+  "family": [
+   {
+    "w": "in charge of",
+    "pos": "adjective",
+    "ex": "Rania is in charge of collections for all government clients.",
+    "ar": "‎Rania‎ مسؤولة عن التحصيل لكل العملا الحكوميين.",
+    "ex2": "Being in charge of collections, she follows every overdue invoice.",
+    "ar2": "وهي مسؤولة عن التحصيل، بتتابع كل فاتورة متأخرة."
+   },
+   {
+    "w": "charge",
+    "pos": "noun",
+    "ex": "Who's in charge here? I need someone to sign the delivery note.",
+    "ar": "مين المسؤول هنا؟ محتاج حد يمضي على إذن التسليم.",
+    "ex2": "The engineer in charge signed it and checked the batteries.",
+    "ar2": "المهندس المسؤول مضى عليه وفحص البطاريات."
+   },
+   {
+    "w": "take charge",
+    "pos": "verb",
+    "ex": "When the site manager was sick, Khaled had to take charge of the solar installation.",
+    "ar": "لما مدير الموقع تعب، ‎Khaled‎ مسك تركيب الطاقة الشمسية.",
+    "ex2": "He took charge and finished one day early.",
+    "ar2": "مسك الشغل وخلّص قبل الميعاد بيوم."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "responsible for",
+    "note": "neutral; duties in a job description",
+    "ex": "I'm responsible for VFD quotations in the Delta region.",
+    "ar": "أنا مسؤول عن عروض أسعار الـ‎VFD‎ في منطقة الدلتا.",
+    "ex2": "I'm also responsible for following up after sending them.",
+    "ar2": "وكمان مسؤول عن المتابعة بعد ما أبعتها."
+   },
+   {
+    "w": "head",
+    "note": "leader of a department or team",
+    "ex": "Tarek heads the service department.",
+    "ar": "‎Tarek‎ رئيس قسم الخدمة.",
+    "ex2": "As head of service, he approves every spare part.",
+    "ar2": "وهو رئيس الخدمة، بيوافق على كل قطعة غيار."
+   },
+   {
+    "w": "oversee",
+    "note": "formal; watch and control work of others",
+    "ex": "She oversees all UPS installations in the new data centre.",
+    "ar": "هي بتشرف على كل تركيبات الـ‎UPS‎ في الداتا سنتر الجديد.",
+    "ex2": "She oversees three subcontractors on site.",
+    "ar2": "بتشرف على تلات مقاولين من الباطن في الموقع."
+   }
+  ],
+  "ant": [
+   {
+    "w": "not responsible for",
+    "ex": "Sales is not responsible for customs clearance; purchasing handles it.",
+    "ar": "المبيعات مش مسؤولة عن التخليص الجمركي؛ المشتريات هي اللي بتتولاه.",
+    "ex2": "Since we're not responsible for it, please call Purchasing.",
+    "ar2": "وبما إننا مش مسؤولين عنه، كلّم المشتريات لو سمحت."
+   },
+   {
+    "w": "report to",
+    "ex": "I report to the sales director every Thursday.",
+    "ar": "أنا بتبع مدير المبيعات وبرفع له تقرير كل خميس.",
+    "ex2": "Everyone in my team reports to me.",
+    "ar2": "كل اللي في فريقي بيتبعوني."
+   }
+  ],
+  "ladder": {
+   "label": "how much control",
+   "lar": "السيطرة قد إيه",
+   "steps": [
+    {
+     "w": "assist with",
+     "ex": "I assist with battery tests on big sites.",
+     "ar": "بساعد في اختبارات البطاريات في المواقع الكبيرة.",
+     "ex2": "I assist with them, but the engineer decides.",
+     "ar2": "بساعد فيها، بس المهندس هو اللي بيقرر."
+    },
+    {
+     "w": "responsible for",
+     "ex": "I'm responsible for preparing the test reports.",
+     "ar": "أنا مسؤول عن تجهيز تقارير الاختبار.",
+     "ex2": "Being responsible for reports means checking every number.",
+     "ar2": "إني مسؤول عن التقارير معناه أراجع كل رقم."
+    },
+    {
+     "w": "in charge of",
+     "ex": "I'm in charge of the whole service team in Giza.",
+     "ar": "أنا مسؤول عن فريق الخدمة كله في الجيزة.",
+     "ex2": "Being in charge of the team means I set the schedule.",
+     "ar2": "إني مسؤول عن الفريق معناه إني اللي بحط الجدول."
+    },
+    {
+     "w": "head",
+     "ex": "I head the service division for all of Egypt.",
+     "ar": "أنا رئيس قطاع الخدمة على مستوى مصر.",
+     "ex2": "As head, I report directly to the CEO.",
+     "ar2": "وأنا رئيس القطاع، بتبع الرئيس التنفيذي مباشرة."
+    }
+   ]
+  },
+  "ctx": "Who's in charge of the bank's maintenance contract? The client wants to add two new UPS units before December.",
+  "ctx_ar": "مين المسؤول عن عقد صيانة البنك؟ العميل عايز يضيف جهازين ‎UPS‎ جداد قبل ديسمبر.",
+  "quiz": [
+   {
+    "s": "When the manager was sick, Khaled ___ of the project.",
+    "opts": [
+     "took charge",
+     "in charge",
+     "reported"
+    ],
+    "a": 0,
+    "ar": "لما المدير تعب، ‎Khaled‎ مسك المشروع."
+   },
+   {
+    "s": "I ___ the sales director every week.",
+    "opts": [
+     "head",
+     "oversee",
+     "report to"
+    ],
+    "a": 2,
+    "ar": "بتبع مدير المبيعات وبرفع له تقرير كل أسبوع."
+   },
+   {
+    "s": "She ___ all installations in the new data centre.",
+    "opts": [
+     "reports to",
+     "oversees",
+     "assists with"
+    ],
+    "a": 1,
+    "ar": "هي بتشرف على كل التركيبات في الداتا سنتر الجديد."
+   }
+  ]
+ },
+ {
+  "w": "troubleshooter",
+  "ar": "حد شاطر في تشخيص الأعطال وحلها",
+  "family": [
+   {
+    "w": "troubleshooter",
+    "pos": "person",
+    "ex": "Waleed is our best troubleshooter for VFD faults.",
+    "ar": "‎Waleed‎ أشطر واحد عندنا في تشخيص أعطال الـ‎VFD‎.",
+    "ex2": "Every difficult case goes to our troubleshooter first.",
+    "ar2": "كل حالة صعبة بتروح له الأول."
+   },
+   {
+    "w": "troubleshoot",
+    "pos": "verb",
+    "ex": "Can you troubleshoot the UPS alarm remotely?",
+    "ar": "تقدر تشخّص إنذار الـ‎UPS‎ عن بعد؟",
+    "ex2": "If we can't troubleshoot it remotely, we'll send a technician.",
+    "ar2": "لو مقدرناش نشخّصه عن بعد، هنبعت فني."
+   },
+   {
+    "w": "troubleshooting",
+    "pos": "noun",
+    "ex": "Troubleshooting took two hours because of a loose battery cable.",
+    "ar": "تشخيص العطل خد ساعتين بسبب كابل بطارية سايب.",
+    "ex2": "The troubleshooting guide is in the service app.",
+    "ar2": "دليل تشخيص الأعطال موجود في تطبيق الخدمة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "person who fixes technical faults",
+    "mar": "فني شاطر في الأعطال الفنية",
+    "ex": "We need a troubleshooter on site; the inverter keeps tripping.",
+    "ar": "محتاجين حد بيفهم في الأعطال في الموقع؛ الإنفرتر بيفصل كل شوية.",
+    "ex2": "The troubleshooter found a wrong setting in ten minutes.",
+    "ar2": "الفني لقى إعداد غلط في عشر دقايق."
+   },
+   {
+    "m": "person who solves business problems",
+    "mar": "حد بيحل مشاكل الشغل والعملا",
+    "ex": "Our sales manager is a natural troubleshooter with angry clients.",
+    "ar": "مدير المبيعات عندنا بيعرف يحل المشاكل مع العملا المتضايقين.",
+    "ex2": "As a troubleshooter, he calmed the client and saved the contract.",
+    "ar2": "وبشطارته في حل المشاكل، هدّى العميل وأنقذ العقد."
+   }
+  ],
+  "syn": [
+   {
+    "w": "problem solver",
+    "note": "general; any kind of problem",
+    "ex": "I'm a problem solver who enjoys complex projects.",
+    "ar": "أنا حد بيحب يحل المشاكل وبستمتع بالمشاريع المعقدة.",
+    "ex2": "As a problem solver, I fixed our late-payment process.",
+    "ar2": "وكحد بيحل المشاكل، صلّحت إجراءات التأخير في الدفع."
+   },
+   {
+    "w": "fixer",
+    "note": "informal; gets difficult things done",
+    "ex": "Ask Hesham, he's the fixer for customs problems.",
+    "ar": "اسأل ‎Hesham‎، هو اللي بيخلّص مشاكل الجمارك.",
+    "ex2": "The fixer got our batteries out of the port in one day.",
+    "ar2": "هو خرّج البطاريات بتاعتنا من الميناء في يوم واحد."
+   },
+   {
+    "w": "field engineer",
+    "note": "job title; repairs on client sites",
+    "ex": "The field engineer will visit the factory tomorrow.",
+    "ar": "مهندس الموقع هيزور المصنع بكرة.",
+    "ex2": "Our field engineers carry spare boards in their cars.",
+    "ar2": "مهندسين المواقع بتوعنا بيشيلوا كروت احتياطي في عربياتهم."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how good at fixing problems",
+   "lar": "شاطر في حل المشاكل قد إيه",
+   "steps": [
+    {
+     "w": "technician",
+     "ex": "A technician changed the UPS fan.",
+     "ar": "فني غيّر مروحة الـ‎UPS‎.",
+     "ex2": "The technician followed the standard checklist.",
+     "ar2": "الفني مشي على القايمة العادية."
+    },
+    {
+     "w": "field engineer",
+     "ex": "A field engineer tested the batteries and the charger.",
+     "ar": "مهندس موقع اختبر البطاريات والشاحن.",
+     "ex2": "The field engineer found a weak battery string.",
+     "ar2": "مهندس الموقع لقى صف بطاريات ضعيف."
+    },
+    {
+     "w": "troubleshooter",
+     "ex": "Our troubleshooter found the real cause: a bad earth connection.",
+     "ar": "الفني الشاطر لقى السبب الحقيقي: أرضي بايظ.",
+     "ex2": "Only a troubleshooter would check the earthing.",
+     "ar2": "حد شاطر في الأعطال بس هو اللي كان هيفحص الأرضي."
+    },
+    {
+     "w": "expert",
+     "ex": "The supplier's expert came from Italy for the big chiller VFD.",
+     "ar": "خبير المورد جه من إيطاليا عشان ‎VFD‎ التشيلر الكبير.",
+     "ex2": "The expert updated the firmware and solved it.",
+     "ar2": "الخبير حدّث السوفتوير وحلّها."
+    }
+   ]
+  },
+  "ctx": "Mahmoud is a great troubleshooter. Yesterday he found why the server room UPS kept switching to battery: a faulty input breaker.",
+  "ctx_ar": "‎Mahmoud‎ شاطر جدًا في الأعطال. امبارح لقى ليه ‎UPS‎ أوضة السيرفرات كان بيحوّل على البطارية: بريكر الدخل كان بايظ.",
+  "quiz": [
+   {
+    "s": "Can you ___ the alarm remotely?",
+    "opts": [
+     "troubleshooter",
+     "troubleshoot",
+     "troubleshooting"
+    ],
+    "a": 1,
+    "ar": "تقدر تشخّص الإنذار عن بعد؟"
+   },
+   {
+    "s": "The ___ guide is in the service app.",
+    "opts": [
+     "troubleshooting",
+     "troubleshoot",
+     "troubleshooter"
+    ],
+    "a": 0,
+    "ar": "دليل تشخيص الأعطال موجود في تطبيق الخدمة."
+   },
+   {
+    "s": "Ask Hesham; he's the ___ for customs problems.",
+    "opts": [
+     "technician",
+     "field engineer",
+     "fixer"
+    ],
+    "a": 2,
+    "ar": "اسأل ‎Hesham‎؛ هو اللي بيخلّص مشاكل الجمارك."
+   }
+  ]
+ },
+ {
+  "w": "end users",
+  "ar": "المستخدم النهائي للمنتج",
+  "family": [
+   {
+    "w": "end user",
+    "pos": "noun",
+    "ex": "The end user is the hospital, but the contractor buys the UPS.",
+    "ar": "المستخدم النهائي هو المستشفى، بس المقاول هو اللي بيشتري الـ‎UPS‎.",
+    "ex2": "We still train the end user on daily checks.",
+    "ar2": "ومع ذلك بندرّب المستخدم النهائي على الفحص اليومي."
+   },
+   {
+    "w": "end users",
+    "pos": "noun",
+    "ex": "End users want a simple display, not technical menus.",
+    "ar": "المستخدمين النهائيين عايزين شاشة بسيطة، مش قوايم فنية.",
+    "ex2": "We asked end users for feedback on the new app.",
+    "ar2": "سألنا المستخدمين على رأيهم في التطبيق الجديد."
+   },
+   {
+    "w": "use",
+    "pos": "verb",
+    "ex": "The factory staff use the VFD panel every day.",
+    "ar": "عمال المصنع بيستخدموا لوحة الـ‎VFD‎ كل يوم.",
+    "ex2": "They use it to change pump speed.",
+    "ar2": "بيستخدموها عشان يغيروا سرعة الطلمبة."
+   },
+   {
+    "w": "user-friendly",
+    "pos": "adjective",
+    "ex": "The new UPS has a user-friendly touch screen.",
+    "ar": "الـ‎UPS‎ الجديد فيه شاشة تاتش سهلة الاستخدام.",
+    "ex2": "User-friendly screens reduce support calls.",
+    "ar2": "الشاشات السهلة بتقلّل مكالمات الدعم."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "users",
+    "note": "general, everyone using a system",
+    "ex": "All users must change their passwords monthly.",
+    "ar": "كل المستخدمين لازم يغيروا الباسورد كل شهر.",
+    "ex2": "Users get a reminder email.",
+    "ar2": "المستخدمين بيجيلهم إيميل تذكير."
+   },
+   {
+    "w": "operators",
+    "note": "people running machines in a plant",
+    "ex": "Operators at the water station reset the VFD themselves.",
+    "ar": "المشغلين في محطة المياه بيعملوا ريسيت للـ‎VFD‎ بنفسهم.",
+    "ex2": "We trained the operators on alarm codes.",
+    "ar2": "درّبنا المشغلين على أكواد الإنذارات."
+   },
+   {
+    "w": "customers",
+    "note": "those who pay; may not be the users",
+    "ex": "Our customers are contractors and IT companies.",
+    "ar": "عملاؤنا مقاولين وشركات ‎IT‎.",
+    "ex2": "Customers sign the PO; others use the equipment.",
+    "ar2": "العملا بيمضوا الـ‎PO‎؛ وناس تانية بتستخدم المعدات."
+   }
+  ],
+  "ant": [
+   {
+    "w": "resellers",
+    "ex": "Resellers buy our UPS units and sell them to shops.",
+    "ar": "الموزعين بيشتروا أجهزة الـ‎UPS‎ بتاعتنا ويبيعوها للمحلات.",
+    "ex2": "Resellers get a 15% discount.",
+    "ar2": "الموزعين بياخدوا خصم 15%."
+   },
+   {
+    "w": "suppliers",
+    "ex": "Suppliers send us batteries and inverters from China.",
+    "ar": "الموردين بيبعتولنا بطاريات وإنفرترات من الصين.",
+    "ex2": "Suppliers never see how the end user works.",
+    "ar2": "الموردين عمرهم ما بيشوفوا المستخدم النهائي بيشتغل إزاي."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The IT manager approved the order, but the end users are the nurses. Let's give them a short training on the UPS alarms.",
+  "ctx_ar": "مدير الـ‎IT‎ وافق على الأوردر، بس المستخدمين النهائيين هما الممرضات. يلا نديهم تدريب قصير على إنذارات الـ‎UPS‎.",
+  "quiz": [
+   {
+    "s": "The new screen is very ___.",
+    "opts": [
+     "user-friendly",
+     "end user",
+     "use"
+    ],
+    "a": 0,
+    "ar": "الشاشة الجديدة سهلة الاستخدام جدًا."
+   },
+   {
+    "s": "___ at the water station reset the VFD themselves.",
+    "opts": [
+     "Resellers",
+     "Suppliers",
+     "Operators"
+    ],
+    "a": 2,
+    "ar": "المشغلين في محطة المياه بيعملوا ريسيت للـ‎VFD‎ بنفسهم."
+   },
+   {
+    "s": "The contractor buys it, but the hospital is the ___.",
+    "opts": [
+     "reseller",
+     "end user",
+     "supplier"
+    ],
+    "a": 1,
+    "ar": "المقاول بيشتريه، بس المستشفى هي المستخدم النهائي."
+   }
+  ]
+ },
+ {
+  "w": "vendors",
+  "ar": "الموردين / البائعين",
+  "family": [
+   {
+    "w": "vendor",
+    "pos": "noun",
+    "ex": "Our battery vendor in China raised prices by 5%.",
+    "ar": "مورد البطاريات بتاعنا في الصين زوّد الأسعار 5%.",
+    "ex2": "We'll ask the vendor for a better price on bigger orders.",
+    "ar2": "هنطلب من المورد سعر أحسن على الأوردرات الكبيرة."
+   },
+   {
+    "w": "vendors",
+    "pos": "noun",
+    "ex": "We compared three vendors for the server racks.",
+    "ar": "قارنّا تلات موردين لرفوف السيرفرات.",
+    "ex2": "Two vendors couldn't deliver before March.",
+    "ar2": "موردين اتنين مقدروش يسلّموا قبل مارس."
+   },
+   {
+    "w": "vend",
+    "pos": "verb",
+    "ex": "Some vendors vend spare parts online only.",
+    "ar": "شوية موردين بيبيعوا قطع الغيار أونلاين بس.",
+    "ex2": "Vending online makes their prices lower.",
+    "ar2": "البيع أونلاين بيخلي أسعارهم أقل."
+   },
+   {
+    "w": "vendor list",
+    "pos": "noun",
+    "ex": "Finance must approve any company before it joins the vendor list.",
+    "ar": "المالية لازم توافق على أي شركة قبل ما تدخل قايمة الموردين.",
+    "ex2": "The vendor list needs a tax card and commercial register.",
+    "ar2": "قايمة الموردين محتاجة بطاقة ضريبية وسجل تجاري."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "suppliers",
+    "note": "most common in purchasing and import",
+    "ex": "Our suppliers in Turkey deliver cables in two weeks.",
+    "ar": "موردينا في تركيا بيسلّموا الكابلات في أسبوعين.",
+    "ex2": "Good suppliers send invoices on time too.",
+    "ar2": "الموردين الكويسين بيبعتوا الفواتير في ميعادها كمان."
+   },
+   {
+    "w": "distributors",
+    "note": "companies that stock and resell a brand",
+    "ex": "We're the official distributors of this UPS brand in Egypt.",
+    "ar": "إحنا الموزّع الرسمي لماركة الـ‎UPS‎ دي في مصر.",
+    "ex2": "Distributors must keep spare parts in stock.",
+    "ar2": "الموزعين لازم يحتفظوا بقطع غيار في المخزن."
+   },
+   {
+    "w": "subcontractors",
+    "note": "companies doing part of our project work",
+    "ex": "We use subcontractors for civil work on solar sites.",
+    "ar": "بنستعين بمقاولين من الباطن للأعمال المدنية في مواقع الطاقة الشمسية.",
+    "ex2": "Subcontractors must follow our safety rules.",
+    "ar2": "المقاولين من الباطن لازم يلتزموا بقواعد الأمان بتاعتنا."
+   }
+  ],
+  "ant": [
+   {
+    "w": "buyers",
+    "ex": "Buyers from the factory came to test the VFDs.",
+    "ar": "المشترين من المصنع جم يختبروا الـ‎VFDs‎.",
+    "ex2": "The buyers asked for a 60-day payment term.",
+    "ar2": "المشترين طلبوا مهلة دفع 60 يوم."
+   },
+   {
+    "w": "clients",
+    "ex": "Our clients pay us; we pay the vendors.",
+    "ar": "عملاؤنا بيدفعولنا؛ وإحنا بندفع للموردين.",
+    "ex2": "Clients expect us to manage vendor delays.",
+    "ar2": "العملا متوقعين إننا نتعامل مع تأخير الموردين."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We need two more vendors for lithium batteries. Our current supplier is too slow, and the data-centre project starts in March.",
+  "ctx_ar": "محتاجين موردين كمان لبطاريات الليثيوم. المورد الحالي بطيء جدًا، ومشروع الداتا سنتر بيبدأ في مارس.",
+  "quiz": [
+   {
+    "s": "Finance must approve a company before it joins the ___.",
+    "opts": [
+     "vendor list",
+     "vend",
+     "vendors"
+    ],
+    "a": 0,
+    "ar": "المالية لازم توافق على الشركة قبل ما تدخل قايمة الموردين."
+   },
+   {
+    "s": "We're the official ___ of this brand in Egypt.",
+    "opts": [
+     "clients",
+     "distributors",
+     "buyers"
+    ],
+    "a": 1,
+    "ar": "إحنا الموزّع الرسمي للماركة دي في مصر."
+   },
+   {
+    "s": "We use ___ for the civil work on solar sites.",
+    "opts": [
+     "vendor",
+     "buyers",
+     "subcontractors"
+    ],
+    "a": 2,
+    "ar": "بنستعين بمقاولين من الباطن للأعمال المدنية في مواقع الطاقة الشمسية."
+   }
+  ]
+ },
+ {
+  "w": "wrap up",
+  "ar": "يختم / يقفل الموضوع",
+  "family": [
+   {
+    "w": "wrap up",
+    "pos": "verb",
+    "ex": "Let's wrap up the meeting; the client has a flight at four.",
+    "ar": "يلا نقفل الاجتماع؛ العميل عنده طيارة الساعة أربعة.",
+    "ex2": "Before we wrap up, any questions on the quotation?",
+    "ar2": "قبل ما نقفل، فيه أي أسئلة على عرض السعر؟"
+   },
+   {
+    "w": "wrap-up",
+    "pos": "noun",
+    "ex": "I'll send a wrap-up email with the action points.",
+    "ar": "هبعت إيميل ختامي فيه النقط المطلوبة.",
+    "ex2": "The wrap-up lists who sends what and by when.",
+    "ar2": "الملخص الختامي فيه مين هيبعت إيه وإمتى."
+   },
+   {
+    "w": "wrapped up",
+    "pos": "adjective",
+    "ex": "The solar project is wrapped up; only the final invoice is left.",
+    "ar": "مشروع الطاقة الشمسية خلص؛ فاضل الفاتورة النهائية بس.",
+    "ex2": "Once it's wrapped up, we'll start the maintenance contract.",
+    "ar2": "أول ما يخلص خالص، هنبدأ عقد الصيانة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "finish a meeting or discussion",
+    "mar": "يقفل اجتماع أو نقاش",
+    "ex": "OK, let's wrap up and meet again on Sunday.",
+    "ar": "تمام، يلا نقفل ونتقابل تاني الحد.",
+    "ex2": "I'll wrap up with a quick summary.",
+    "ar2": "هقفل بملخص سريع."
+   },
+   {
+    "m": "complete a job or deal",
+    "mar": "يخلّص شغلانة أو صفقة",
+    "ex": "We hope to wrap up the bank deal before the end of the quarter.",
+    "ar": "بنتمنى نقفل صفقة البنك قبل آخر الربع.",
+    "ex2": "Wrapping up this deal means hitting our target.",
+    "ar2": "قفل الصفقة دي معناه إننا هنحقق التارجت."
+   },
+   {
+    "m": "pack a product for delivery",
+    "mar": "يغلّف منتج للتسليم",
+    "ex": "Please wrap up the control cards carefully before shipping.",
+    "ar": "لو سمحت غلّف كروت الكنترول كويس قبل الشحن.",
+    "ex2": "Wrap them up in anti-static bags.",
+    "ar2": "غلّفهم في أكياس ضد الكهربا الاستاتيكية."
+   }
+  ],
+  "syn": [
+   {
+    "w": "finish",
+    "note": "general, any task",
+    "ex": "I'll finish the quotation tonight.",
+    "ar": "هخلّص عرض السعر النهارده بالليل.",
+    "ex2": "Once I finish it, I'll send it to Mr Adel.",
+    "ar2": "أول ما أخلّصه، هبعته لأستاذ ‎Adel‎."
+   },
+   {
+    "w": "conclude",
+    "note": "formal; meetings, reports, negotiations",
+    "ex": "The negotiation concluded with a 7% discount.",
+    "ar": "التفاوض انتهى بخصم 7%.",
+    "ex2": "We concluded the meeting by signing the PO.",
+    "ar2": "ختمنا الاجتماع بإمضاء الـ‎PO‎."
+   },
+   {
+    "w": "close",
+    "note": "for deals and tickets",
+    "ex": "We closed the deal with the hotel yesterday.",
+    "ar": "قفلنا الصفقة مع الفندق امبارح.",
+    "ex2": "Please close the service ticket after the visit.",
+    "ar2": "لو سمحت اقفل تذكرة الخدمة بعد الزيارة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "kick off",
+    "ex": "Let's kick off the meeting with the sales numbers.",
+    "ar": "يلا نبدأ الاجتماع بأرقام المبيعات.",
+    "ex2": "We'll kick off the project with a site survey.",
+    "ar2": "هنبدأ المشروع بمعاينة للموقع."
+   },
+   {
+    "w": "start",
+    "ex": "We'll start the VFD installation on Monday.",
+    "ar": "هنبدأ تركيب الـ‎VFD‎ يوم الاتنين.",
+    "ex2": "Starting early avoids the afternoon heat.",
+    "ar2": "البداية بدري بتهرّبنا من حر الضهر."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We're running out of time, so let's wrap up. Mai will send the revised quotation, and Ahmed will book the site visit.",
+  "ctx_ar": "الوقت بيخلص، فيلا نقفل. ‎Mai‎ هتبعت عرض السعر بعد التعديل، و‎Ahmed‎ هيحجز زيارة الموقع.",
+  "quiz": [
+   {
+    "s": "I'll send a ___ email with the action points.",
+    "opts": [
+     "wrap up",
+     "wrap-up",
+     "wrapped up"
+    ],
+    "a": 1,
+    "ar": "هبعت إيميل ختامي فيه النقط المطلوبة."
+   },
+   {
+    "s": "Let's ___ the meeting with last month's sales numbers.",
+    "opts": [
+     "kick off",
+     "wrap up",
+     "close"
+    ],
+    "a": 0,
+    "ar": "يلا نبدأ الاجتماع بأرقام مبيعات الشهر اللي فات."
+   },
+   {
+    "s": "The negotiation ___ with a 7% discount.",
+    "opts": [
+     "started",
+     "kicked off",
+     "concluded"
+    ],
+    "a": 2,
+    "ar": "التفاوض انتهى بخصم 7%."
+   }
+  ]
+ },
+ {
+  "w": "leverage",
+  "ar": "يستغل / يستفيد من حاجة لأقصى درجة",
+  "family": [
+   {
+    "w": "leverage",
+    "pos": "verb",
+    "ex": "We can leverage our bank references to win the insurance company.",
+    "ar": "نقدر نستغل مراجعنا مع البنوك عشان نكسب شركة التأمين.",
+    "ex2": "Let's leverage them in the presentation.",
+    "ar2": "يلا نستغلهم في العرض التقديمي."
+   },
+   {
+    "w": "leverage",
+    "pos": "noun",
+    "ex": "Because we're their biggest buyer, we have leverage on price.",
+    "ar": "عشان إحنا أكبر مشتري عندهم، لينا كلمة في السعر.",
+    "ex2": "Use that leverage to get longer payment terms.",
+    "ar2": "استغل النفوذ ده عشان تاخد مهلة دفع أطول."
+   },
+   {
+    "w": "leveraged",
+    "pos": "adjective",
+    "ex": "The leveraged partnership with the supplier cut our lead times.",
+    "ar": "الشراكة اللي استفدنا منها مع المورد قلّلت مدة التوريد.",
+    "ex2": "That leveraged relationship also gives us free training.",
+    "ar2": "والعلاقة دي كمان بتدّينا تدريب ببلاش."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "use something to get a better result",
+    "mar": "يستغل حاجة لنتيجة أحسن",
+    "ex": "Leverage your service experience when you sell maintenance contracts.",
+    "ar": "استغل خبرتك في الخدمة لما تبيع عقود صيانة.",
+    "ex2": "Clients trust sellers who leverage real technical knowledge.",
+    "ar2": "العملا بيثقوا في البياع اللي بيستغل معرفة فنية حقيقية."
+   },
+   {
+    "m": "power in a negotiation",
+    "mar": "قوة أو ورقة ضغط في التفاوض",
+    "ex": "With three offers on the table, we have leverage over the supplier.",
+    "ar": "ومعانا تلات عروض، عندنا ورقة ضغط على المورد.",
+    "ex2": "Without leverage, we'd accept their price.",
+    "ar2": "من غير ورقة ضغط، كنا هنقبل سعرهم."
+   }
+  ],
+  "syn": [
+   {
+    "w": "make use of",
+    "note": "neutral, simple everyday English",
+    "ex": "Make use of the free training from the inverter supplier.",
+    "ar": "استفيد من التدريب المجاني من مورد الإنفرترات.",
+    "ex2": "Make use of it before the offer ends.",
+    "ar2": "استفيد منه قبل ما العرض يخلص."
+   },
+   {
+    "w": "capitalize on",
+    "note": "take advantage of a chance or trend",
+    "ex": "We should capitalize on the high demand for solar pumps.",
+    "ar": "لازم نستغل الطلب العالي على الطلمبات الشمسية.",
+    "ex2": "Capitalize on it before competitors enter.",
+    "ar2": "استغله قبل ما المنافسين يدخلوا."
+   },
+   {
+    "w": "exploit",
+    "note": "can sound negative when about people",
+    "ex": "Don't exploit the client's urgency to raise the price.",
+    "ar": "متستغلش استعجال العميل عشان تزوّد السعر.",
+    "ex2": "Exploiting clients ruins long-term trust.",
+    "ar2": "استغلال العملا بيبوّظ الثقة على المدى الطويل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "waste",
+    "ex": "Don't waste your contacts at the ministry.",
+    "ar": "متضيّعش علاقاتك في الوزارة.",
+    "ex2": "Wasting good contacts means losing future tenders.",
+    "ar2": "تضييع العلاقات الكويسة معناه خسارة مناقصات جاية."
+   },
+   {
+    "w": "ignore",
+    "ex": "We ignored our service data and lost the renewal.",
+    "ar": "تجاهلنا بيانات الخدمة وخسرنا التجديد.",
+    "ex2": "Ignoring data hides problems until it's too late.",
+    "ar2": "تجاهل البيانات بيخبي المشاكل لحد ما يبقى متأخر."
+   }
+  ],
+  "ladder": {
+   "label": "how actively you use it",
+   "lar": "بتستغلها قد إيه",
+   "steps": [
+    {
+     "w": "use",
+     "ex": "We use our client list for newsletters.",
+     "ar": "بنستخدم قايمة العملا للنشرات.",
+     "ex2": "We use it twice a year.",
+     "ar2": "بنستخدمها مرتين في السنة."
+    },
+    {
+     "w": "make use of",
+     "ex": "We make use of client data to plan maintenance visits.",
+     "ar": "بنستفيد من بيانات العملا لتخطيط زيارات الصيانة.",
+     "ex2": "Making use of it reduces emergency calls.",
+     "ar2": "الاستفادة منها بتقلّل مكالمات الطوارئ."
+    },
+    {
+     "w": "leverage",
+     "ex": "We leverage client data to predict battery replacements and sell early.",
+     "ar": "بنستغل بيانات العملا عشان نتوقع تغيير البطاريات ونبيع بدري.",
+     "ex2": "Leveraging the data doubled replacement sales.",
+     "ar2": "استغلال البيانات ضاعف مبيعات التغيير."
+    },
+    {
+     "w": "capitalize on",
+     "ex": "We capitalize on summer blackouts with special UPS offers.",
+     "ar": "بنستغل انقطاعات الكهربا في الصيف بعروض ‎UPS‎ خاصة.",
+     "ex2": "Capitalizing on the season brings record months.",
+     "ar2": "استغلال الموسم بيجيب شهور قياسية."
+    }
+   ]
+  },
+  "ctx": "We're their biggest buyer in Egypt, so let's leverage that. Ask for 90-day payment terms and free shipping on the next order.",
+  "ctx_ar": "إحنا أكبر مشتري عندهم في مصر، فيلا نستغل ده. اطلب مهلة دفع 90 يوم وشحن مجاني على الأوردر الجاي.",
+  "quiz": [
+   {
+    "s": "With three offers, we have ___ over the supplier.",
+    "opts": [
+     "leverage",
+     "leveraged",
+     "exploit"
+    ],
+    "a": 0,
+    "ar": "ومعانا تلات عروض، عندنا ورقة ضغط على المورد."
+   },
+   {
+    "s": "Don't ___ your good contacts at the ministry.",
+    "opts": [
+     "leverage",
+     "waste",
+     "capitalize on"
+    ],
+    "a": 1,
+    "ar": "متضيّعش علاقاتك الكويسة في الوزارة."
+   },
+   {
+    "s": "We should ___ the high demand for solar pumps this year.",
+    "opts": [
+     "ignore",
+     "waste",
+     "capitalize on"
+    ],
+    "a": 2,
+    "ar": "لازم نستغل الطلب العالي على الطلمبات الشمسية السنة دي."
+   }
+  ]
+ }
+]

@@ -1,0 +1,745 @@
+[
+ {
+  "w": "milestone",
+  "ar": "مرحلة مهمة / محطة في المشروع",
+  "family": [
+   {
+    "w": "milestone",
+    "pos": "noun",
+    "ex": "Delivery of the inverters is the first milestone of the solar project.",
+    "ar": "تسليم الإنفرترات هو أول مرحلة مهمة في مشروع الطاقة الشمسية.",
+    "ex2": "Reaching that milestone releases 30% of the payment.",
+    "ar2": "الوصول للمرحلة دي بيصرف 30% من الفلوس."
+   },
+   {
+    "w": "milestone payment",
+    "pos": "noun",
+    "ex": "The second milestone payment is due after commissioning.",
+    "ar": "دفعة المرحلة التانية مستحقة بعد التشغيل.",
+    "ex2": "We'll invoice the milestone payment the same day.",
+    "ar2": "هنطلّع فاتورة الدفعة في نفس اليوم."
+   },
+   {
+    "w": "milestones",
+    "pos": "noun",
+    "ex": "The project plan shows four milestones over six months.",
+    "ar": "خطة المشروع فيها أربع مراحل على ست شهور.",
+    "ex2": "Each of the milestones has a clear date and deliverable.",
+    "ar2": "كل مرحلة ليها تاريخ وتسليم واضح."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "stage",
+    "note": "a period of work; milestone is the point at its end",
+    "ex": "The installation stage takes three weeks.",
+    "ar": "مرحلة التركيب بتاخد تلات أسابيع.",
+    "ex2": "The next stage is testing and training.",
+    "ar2": "المرحلة الجاية الاختبار والتدريب."
+   },
+   {
+    "w": "checkpoint",
+    "note": "a point to review progress, not always linked to payment",
+    "ex": "We have a checkpoint meeting every Thursday.",
+    "ar": "عندنا اجتماع مراجعة كل خميس.",
+    "ex2": "At each checkpoint, we compare progress with the plan.",
+    "ar2": "في كل مراجعة، بنقارن التقدم بالخطة."
+   },
+   {
+    "w": "achievement",
+    "note": "general; any success, not a planned project point",
+    "ex": "Reaching 100 maintenance contracts was a big achievement.",
+    "ar": "إننا وصلنا 100 عقد صيانة كان إنجاز كبير.",
+    "ex2": "The manager celebrated the achievement with the team.",
+    "ar2": "المدير احتفل بالإنجاز مع الفريق."
+   }
+  ],
+  "ant": [
+   {
+    "w": "setback",
+    "ex": "The customs delay was a setback for the first milestone.",
+    "ar": "تأخير الجمارك كان انتكاسة لأول مرحلة.",
+    "ex2": "We recovered from the setback by working weekends.",
+    "ar2": "عوّضنا الانتكاسة بالشغل في الإجازات."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We reached the second milestone today: all 200 solar panels are installed. Please issue the milestone invoice to the client.",
+  "ctx_ar": "وصلنا للمرحلة التانية النهارده: كل الـ200 لوح شمسي اتركبوا. ياريت تطلّع فاتورة المرحلة للعميل.",
+  "quiz": [
+   {
+    "s": "Commissioning is the final ___ of the project.",
+    "opts": [
+     "milestone",
+     "setback",
+     "achievement"
+    ],
+    "a": 0,
+    "ar": "التشغيل هو آخر مرحلة مهمة في المشروع."
+   },
+   {
+    "s": "The customs delay was a ___ for our plan.",
+    "opts": [
+     "checkpoint",
+     "setback",
+     "milestone"
+    ],
+    "a": 1,
+    "ar": "تأخير الجمارك كان انتكاسة لخطتنا."
+   },
+   {
+    "s": "The installation ___ takes three weeks.",
+    "opts": [
+     "milestone",
+     "checkpoint",
+     "stage"
+    ],
+    "a": 2,
+    "ar": "مرحلة التركيب بتاخد تلات أسابيع."
+   }
+  ]
+ },
+ {
+  "w": "recap",
+  "ar": "ملخص / يلخّص",
+  "family": [
+   {
+    "w": "recap",
+    "pos": "noun",
+    "ex": "Here is a quick recap of today's meeting with the hospital.",
+    "ar": "ده ملخص سريع لاجتماع النهارده مع المستشفى.",
+    "ex2": "The recap includes the agreed price and delivery date.",
+    "ar2": "الملخص فيه السعر المتفق عليه وميعاد التسليم."
+   },
+   {
+    "w": "recap",
+    "pos": "verb",
+    "ex": "Let me recap what we agreed about the payment schedule.",
+    "ar": "خليني ألخّص اللي اتفقنا عليه في جدول الدفع.",
+    "ex2": "To recap: 50% now and 50% on delivery.",
+    "ar2": "باختصار: 50% دلوقتي و50% عند التسليم."
+   },
+   {
+    "w": "recapitulate",
+    "pos": "verb",
+    "ex": "The report recapitulates all faults found during the year.",
+    "ar": "التقرير بيلخّص كل الأعطال اللي اتلقت خلال السنة.",
+    "ex2": "It recapitulates them by site and by equipment type.",
+    "ar2": "بيلخّصها حسب الموقع ونوع الجهاز."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "summary",
+    "note": "more formal; written documents and reports",
+    "ex": "The summary of the site survey is on page one.",
+    "ar": "ملخص معاينة الموقع في أول صفحة.",
+    "ex2": "Managers usually read only the summary.",
+    "ar2": "المديرين عادةً بيقروا الملخص بس."
+   },
+   {
+    "w": "sum up",
+    "note": "verb; usually at the end of talk",
+    "ex": "To sum up, the batteries need replacing this year.",
+    "ar": "في الآخر، البطاريات محتاجة تتغير السنة دي.",
+    "ex2": "Let me sum up the costs for you.",
+    "ar2": "خليني ألخّصلك التكاليف."
+   },
+   {
+    "w": "overview",
+    "note": "a general picture, often before details",
+    "ex": "Can you give me an overview of the data centre project?",
+    "ar": "ممكن تديني فكرة عامة عن مشروع الداتا سنتر؟",
+    "ex2": "The overview helped the new engineer start quickly.",
+    "ar2": "الفكرة العامة ساعدت المهندس الجديد يبدأ بسرعة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "full details",
+    "ex": "The client wants the full details, not just a recap.",
+    "ar": "العميل عايز التفاصيل كاملة، مش ملخص بس.",
+    "ex2": "We'll send the full details in a technical report.",
+    "ar2": "هنبعت التفاصيل كاملة في تقرير فني."
+   }
+  ],
+  "ladder": null,
+  "ctx": "After the call, Salma sent a short recap to everyone. It listed the new delivery date, the agreed discount, and who will sign the PO.",
+  "ctx_ar": "بعد المكالمة، سلمى بعتت ملخص قصير للكل. كان فيه ميعاد التسليم الجديد والخصم المتفق عليه ومين هيمضي أمر الشراء.",
+  "quiz": [
+   {
+    "s": "Here's a quick ___ of today's meeting.",
+    "opts": [
+     "recap",
+     "recapitulate",
+     "full details"
+    ],
+    "a": 0,
+    "ar": "ده ملخص سريع لاجتماع النهارده."
+   },
+   {
+    "s": "To ___ up, the batteries need replacing.",
+    "opts": [
+     "recap",
+     "sum",
+     "overview"
+    ],
+    "a": 1,
+    "ar": "في الآخر، البطاريات محتاجة تتغير."
+   },
+   {
+    "s": "The client wants the ___, not just a recap.",
+    "opts": [
+     "summary",
+     "overview",
+     "full details"
+    ],
+    "a": 2,
+    "ar": "العميل عايز التفاصيل كاملة، مش ملخص بس."
+   }
+  ]
+ },
+ {
+  "w": "authorize",
+  "ar": "يدّي تصريح / يعتمد",
+  "family": [
+   {
+    "w": "authorize",
+    "pos": "verb",
+    "ex": "Only the finance manager can authorize payments above 100,000 pounds.",
+    "ar": "المدير المالي بس هو اللي يقدر يعتمد مدفوعات فوق 100 ألف جنيه.",
+    "ex2": "He authorized the supplier payment this morning.",
+    "ar2": "اعتمد دفعة المورد الصبح."
+   },
+   {
+    "w": "authorization",
+    "pos": "noun",
+    "ex": "We need written authorization before we shut down the main UPS.",
+    "ar": "محتاجين تصريح مكتوب قبل ما نفصل الـ‎UPS‎ الرئيسي.",
+    "ex2": "The authorization must come from the IT director.",
+    "ar2": "التصريح لازم يجي من مدير الـ‎IT‎."
+   },
+   {
+    "w": "authorized",
+    "pos": "adjective",
+    "ex": "We are an authorized service centre for this UPS brand.",
+    "ar": "إحنا مركز خدمة معتمد لماركة الـ‎UPS‎ دي.",
+    "ex2": "Authorized centres keep the warranty valid.",
+    "ar2": "المراكز المعتمدة بتحافظ على الضمان ساري."
+   },
+   {
+    "w": "unauthorized",
+    "pos": "adjective",
+    "ex": "Unauthorized repairs will cancel the inverter warranty.",
+    "ar": "التصليحات من غير تصريح هتلغي ضمان الإنفرتر.",
+    "ex2": "We found signs of an unauthorized repair on the board.",
+    "ar2": "لقينا علامات تصليح من غير تصريح على البوردة."
+   },
+   {
+    "w": "authority",
+    "pos": "noun",
+    "ex": "The site engineer has the authority to stop work if it's unsafe.",
+    "ar": "مهندس الموقع عنده صلاحية يوقّف الشغل لو مش آمن.",
+    "ex2": "He used his authority when a cable was live.",
+    "ar2": "استخدم صلاحيته لما كابل كان فيه كهربا."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "approve",
+    "note": "general; accepting a plan or request",
+    "ex": "The manager approved the overtime for the weekend job.",
+    "ar": "المدير وافق على الأوفرتايم لشغل الويك إند.",
+    "ex2": "Once approved, HR adds it to payroll.",
+    "ar2": "أول ما يتوافق، الـ‎HR‎ بيضيفه على المرتبات."
+   },
+   {
+    "w": "permit",
+    "note": "formal; often rules or official permission",
+    "ex": "The bank does not permit work during business hours.",
+    "ar": "البنك مش بيسمح بالشغل في مواعيد العمل.",
+    "ex2": "Work is permitted only after 6 pm.",
+    "ar2": "الشغل مسموح بس بعد الساعة 6."
+   },
+   {
+    "w": "sign off",
+    "note": "informal; final approval after review",
+    "ex": "The client signed off on the shutdown plan.",
+    "ar": "العميل وافق نهائياً على خطة الفصل.",
+    "ex2": "After he signed off, we booked the crane.",
+    "ar2": "بعد ما وافق، حجزنا الونش."
+   }
+  ],
+  "ant": [
+   {
+    "w": "forbid",
+    "ex": "The hospital forbids any work in the ICU without notice.",
+    "ar": "المستشفى بيمنع أي شغل في العناية من غير إخطار.",
+    "ex2": "They forbid it for patient safety.",
+    "ar2": "بيمنعوه عشان سلامة المرضى."
+   },
+   {
+    "w": "reject",
+    "ex": "Finance rejected the payment request without a PO.",
+    "ar": "الحسابات رفضت طلب الدفع من غير أمر شراء.",
+    "ex2": "They'll reject any invoice without a PO number.",
+    "ar2": "هيرفضوا أي فاتورة من غير رقم أمر شراء."
+   }
+  ],
+  "ladder": {
+   "label": "how official the permission",
+   "lar": "التصريح رسمي قد إيه",
+   "steps": [
+    {
+     "w": "allow",
+     "ex": "The client allowed us to park the van inside.",
+     "ar": "العميل سمحلنا نركن العربية جوه.",
+     "ex2": "He allowed it because of the heavy batteries.",
+     "ar2": "سمح بكده عشان البطاريات التقيلة."
+    },
+    {
+     "w": "approve",
+     "ex": "The manager approved the extra spare parts.",
+     "ar": "المدير وافق على قطع الغيار الزيادة.",
+     "ex2": "Approved parts are sent the same day.",
+     "ar2": "القطع المتوافق عليها بتتبعت في نفس اليوم."
+    },
+    {
+     "w": "authorize",
+     "ex": "The CFO authorized the advance payment.",
+     "ar": "المدير المالي اعتمد الدفعة المقدمة.",
+     "ex2": "Without him authorizing it, the supplier won't ship.",
+     "ar2": "من غير اعتماده، المورد مش هيشحن."
+    },
+    {
+     "w": "certify",
+     "ex": "The manufacturer certified our engineers to repair their UPS.",
+     "ar": "المصنّع اعتمد مهندسينا رسمي لتصليح الـ‎UPS‎ بتاعه.",
+     "ex2": "Certified engineers get a printed certificate each year.",
+     "ar2": "المهندسين المعتمدين بياخدوا شهادة مطبوعة كل سنة."
+    }
+   ]
+  },
+  "ctx": "The client wants to add two more battery cabinets to the order. I can't authorize the change myself, so I've sent it to the sales director.",
+  "ctx_ar": "العميل عايز يزوّد كابينتين بطاريات للأوردر. مقدرش أعتمد التغيير بنفسي، فبعته لمدير المبيعات.",
+  "quiz": [
+   {
+    "s": "We need written ___ before the shutdown.",
+    "opts": [
+     "authorization",
+     "authorize",
+     "authorized"
+    ],
+    "a": 0,
+    "ar": "محتاجين تصريح مكتوب قبل الفصل."
+   },
+   {
+    "s": "___ repairs will cancel the warranty.",
+    "opts": [
+     "Authorized",
+     "Unauthorized",
+     "Authority"
+    ],
+    "a": 1,
+    "ar": "التصليحات من غير تصريح هتلغي الضمان."
+   },
+   {
+    "s": "We are an ___ service centre for this brand.",
+    "opts": [
+     "authority",
+     "authorize",
+     "authorized"
+    ],
+    "a": 2,
+    "ar": "إحنا مركز خدمة معتمد للماركة دي."
+   }
+  ]
+ },
+ {
+  "w": "in compliance with",
+  "ar": "مطابق لـ / ملتزم بـ",
+  "family": [
+   {
+    "w": "in compliance with",
+    "pos": "adverb",
+    "ex": "All our battery rooms are designed in compliance with safety codes.",
+    "ar": "كل أوض البطاريات عندنا متصممة مطابقة لأكواد السلامة.",
+    "ex2": "Being in compliance with the codes is required by insurance.",
+    "ar2": "المطابقة للأكواد مطلوبة من التأمين."
+   },
+   {
+    "w": "comply",
+    "pos": "verb",
+    "ex": "Our e-invoices comply with the Egyptian Tax Authority's system.",
+    "ar": "فواتيرنا الإلكترونية مطابقة لنظام مصلحة الضرايب.",
+    "ex2": "Invoices that don't comply are rejected automatically.",
+    "ar2": "الفواتير اللي مش مطابقة بتترفض أوتوماتيك."
+   },
+   {
+    "w": "compliance",
+    "pos": "noun",
+    "ex": "The compliance team checks every import document.",
+    "ar": "فريق الالتزام بيراجع كل مستند استيراد.",
+    "ex2": "Compliance problems can hold a shipment at the port.",
+    "ar2": "مشاكل الالتزام ممكن توقّف شحنة في الميناء."
+   },
+   {
+    "w": "compliant",
+    "pos": "adjective",
+    "ex": "The new inverters are compliant with grid connection rules.",
+    "ar": "الإنفرترات الجديدة مطابقة لقواعد الربط على الشبكة.",
+    "ex2": "Only compliant inverters can connect to the grid.",
+    "ar2": "الإنفرترات المطابقة بس هي اللي تتوصل على الشبكة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "in accordance with",
+    "note": "formal; following a contract or instruction",
+    "ex": "We carried out the test in accordance with the manufacturer's manual.",
+    "ar": "عملنا الاختبار حسب كتالوج المصنّع.",
+    "ex2": "In accordance with the contract, we visit every quarter.",
+    "ar2": "حسب العقد، بنزور كل ربع سنة."
+   },
+   {
+    "w": "in line with",
+    "note": "less formal; matching a plan or policy",
+    "ex": "The price increase is in line with the new exchange rate.",
+    "ar": "زيادة السعر ماشية مع سعر الصرف الجديد.",
+    "ex2": "Our discounts are in line with company policy.",
+    "ar2": "خصوماتنا ماشية مع سياسة الشركة."
+   },
+   {
+    "w": "as per",
+    "note": "short, common in business emails",
+    "ex": "As per the contract, payment is due in 30 days.",
+    "ar": "حسب العقد، الدفع مستحق خلال 30 يوم.",
+    "ex2": "As per your request, we've attached the invoice.",
+    "ar2": "حسب طلبك، بعتنالك الفاتورة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "in breach of",
+    "ex": "Delivering late would put us in breach of the contract.",
+    "ar": "التسليم المتأخر هيخلّينا مخالفين للعقد.",
+    "ex2": "Being in breach of it means paying a penalty.",
+    "ar2": "مخالفته يعني ندفع غرامة."
+   },
+   {
+    "w": "non-compliant",
+    "ex": "The old panel is non-compliant with current fire rules.",
+    "ar": "اللوحة القديمة مش مطابقة لقواعد الحريق الحالية.",
+    "ex2": "Non-compliant panels must be replaced before inspection.",
+    "ar2": "اللوح غير المطابقة لازم تتغير قبل التفتيش."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The civil defence inspector visits next week. Please make sure the battery room ventilation is in compliance with the fire safety regulations.",
+  "ctx_ar": "مفتش الدفاع المدني جاي الأسبوع الجاي. ياريت تتأكد إن تهوية أوضة البطاريات مطابقة لاشتراطات الحماية من الحريق.",
+  "quiz": [
+   {
+    "s": "Our e-invoices ___ with the tax system.",
+    "opts": [
+     "comply",
+     "compliance",
+     "compliant"
+    ],
+    "a": 0,
+    "ar": "فواتيرنا الإلكترونية مطابقة لنظام الضرايب."
+   },
+   {
+    "s": "Late delivery would put us in ___ of the contract.",
+    "opts": [
+     "compliance",
+     "breach",
+     "line"
+    ],
+    "a": 1,
+    "ar": "التسليم المتأخر هيخلّينا مخالفين للعقد."
+   },
+   {
+    "s": "The new inverters are ___ with grid rules.",
+    "opts": [
+     "comply",
+     "compliance",
+     "compliant"
+    ],
+    "a": 2,
+    "ar": "الإنفرترات الجديدة مطابقة لقواعد الشبكة."
+   }
+  ]
+ },
+ {
+  "w": "payment terms",
+  "ar": "شروط الدفع",
+  "family": [
+   {
+    "w": "payment terms",
+    "pos": "noun",
+    "ex": "Our standard payment terms are 50% advance and 50% on delivery.",
+    "ar": "شروط الدفع العادية عندنا 50% مقدم و50% عند التسليم.",
+    "ex2": "For large projects, payment terms can be negotiated.",
+    "ar2": "في المشاريع الكبيرة، شروط الدفع ممكن تتناقش."
+   },
+   {
+    "w": "pay",
+    "pos": "verb",
+    "ex": "The client will pay the remaining amount after commissioning.",
+    "ar": "العميل هيدفع الباقي بعد التشغيل.",
+    "ex2": "If they pay late, we stop the maintenance visits.",
+    "ar2": "لو دفعوا متأخر، بنوقّف زيارات الصيانة."
+   },
+   {
+    "w": "payment",
+    "pos": "noun",
+    "ex": "We received the payment for the UPS order this morning.",
+    "ar": "استلمنا فلوس أوردر الـ‎UPS‎ الصبح.",
+    "ex2": "The payment arrived by bank transfer.",
+    "ar2": "الدفعة جت بتحويل بنكي."
+   },
+   {
+    "w": "payable",
+    "pos": "adjective",
+    "ex": "The invoice is payable within 30 days.",
+    "ar": "الفاتورة مستحقة الدفع خلال 30 يوم.",
+    "ex2": "Amounts payable after that date carry a late fee.",
+    "ar2": "المبالغ اللي تتدفع بعد التاريخ ده عليها غرامة تأخير."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "credit terms",
+    "note": "the time allowed before paying; a type of payment terms",
+    "ex": "The supplier gave us 60-day credit terms.",
+    "ar": "المورد ادّانا مهلة دفع 60 يوم.",
+    "ex2": "Good credit terms help our cash flow.",
+    "ar2": "مهلة الدفع الكويسة بتساعد السيولة عندنا."
+   },
+   {
+    "w": "terms and conditions",
+    "note": "the full rules of the deal, not only payment",
+    "ex": "Please read the terms and conditions before signing.",
+    "ar": "ياريت تقرا الشروط والأحكام قبل ما تمضي.",
+    "ex2": "The terms and conditions cover warranty and delivery too.",
+    "ar2": "الشروط والأحكام بتغطي الضمان والتسليم كمان."
+   },
+   {
+    "w": "payment schedule",
+    "note": "the dates and amounts of each payment",
+    "ex": "The payment schedule has three instalments.",
+    "ar": "جدول الدفع فيه تلات أقساط.",
+    "ex2": "The last instalment in the payment schedule is due in June.",
+    "ar2": "آخر قسط في جدول الدفع مستحق في يونيو."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how fast the client pays",
+   "lar": "العميل بيدفع بسرعة قد إيه",
+   "steps": [
+    {
+     "w": "cash in advance",
+     "ex": "For new clients, we ask for cash in advance.",
+     "ar": "العملا الجداد بنطلب منهم الدفع مقدم.",
+     "ex2": "Cash in advance removes any collection risk.",
+     "ar2": "الدفع المقدم بيشيل أي خطر تحصيل."
+    },
+    {
+     "w": "payment on delivery",
+     "ex": "Payment on delivery works for small battery orders.",
+     "ar": "الدفع عند الاستلام بينفع في أوردرات البطاريات الصغيرة.",
+     "ex2": "The driver collects the cheque at payment on delivery.",
+     "ar2": "السواق بيستلم الشيك عند الاستلام."
+    },
+    {
+     "w": "net 30",
+     "ex": "Our usual payment terms are net 30.",
+     "ar": "شروط الدفع العادية عندنا 30 يوم.",
+     "ex2": "Net 30 means full payment within 30 days.",
+     "ar2": "30 يوم يعني الدفع كامل خلال 30 يوم."
+    },
+    {
+     "w": "net 90",
+     "ex": "The government client insists on net 90.",
+     "ar": "العميل الحكومي مصمم على 90 يوم.",
+     "ex2": "Net 90 puts heavy pressure on our cash flow.",
+     "ar2": "الـ90 يوم بتضغط جامد على السيولة."
+    }
+   ]
+  },
+  "ctx": "The factory wants to pay over six months. Before we accept those payment terms, finance must check their credit history.",
+  "ctx_ar": "المصنع عايز يدفع على ست شهور. قبل ما نقبل شروط الدفع دي، الحسابات لازم تراجع تاريخهم الائتماني.",
+  "quiz": [
+   {
+    "s": "What are your ___ terms for this order?",
+    "opts": [
+     "payment",
+     "payable",
+     "pay"
+    ],
+    "a": 0,
+    "ar": "إيه شروط الدفع عندكم للأوردر ده؟"
+   },
+   {
+    "s": "The invoice is ___ within 30 days.",
+    "opts": [
+     "payment",
+     "payable",
+     "pay"
+    ],
+    "a": 1,
+    "ar": "الفاتورة مستحقة الدفع خلال 30 يوم."
+   },
+   {
+    "s": "The supplier gave us 60-day ___ terms.",
+    "opts": [
+     "payment schedule",
+     "payable",
+     "credit"
+    ],
+    "a": 2,
+    "ar": "المورد ادّانا مهلة دفع 60 يوم."
+   }
+  ]
+ },
+ {
+  "w": "amend",
+  "ar": "يعدّل (رسمي)",
+  "family": [
+   {
+    "w": "amend",
+    "pos": "verb",
+    "ex": "Please amend the PO to include two extra battery strings.",
+    "ar": "ياريت تعدّل أمر الشراء ويبقى فيه سلسلتين بطاريات زيادة.",
+    "ex2": "Once you amend it, send us the new PO number.",
+    "ar2": "أول ما تعدّله، ابعتلنا رقم أمر الشراء الجديد."
+   },
+   {
+    "w": "amendment",
+    "pos": "noun",
+    "ex": "We signed an amendment to the maintenance contract.",
+    "ar": "مضينا ملحق تعديل لعقد الصيانة.",
+    "ex2": "The amendment adds two new sites in Giza.",
+    "ar2": "التعديل بيضيف موقعين جداد في الجيزة."
+   },
+   {
+    "w": "amended",
+    "pos": "adjective",
+    "ex": "I've attached the amended quotation with the new prices.",
+    "ar": "بعتلك عرض السعر المعدّل بالأسعار الجديدة.",
+    "ex2": "The amended quotation is valid for 15 days.",
+    "ar2": "العرض المعدّل ساري 15 يوم."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "modify",
+    "note": "technical; changing a design or device",
+    "ex": "We modified the cabinet to fit the extra batteries.",
+    "ar": "عدّلنا الكابينة عشان تشيل البطاريات الزيادة.",
+    "ex2": "The modified cabinet passed the heat test.",
+    "ar2": "الكابينة المعدّلة عدّت اختبار الحرارة."
+   },
+   {
+    "w": "revise",
+    "note": "for documents and prices after review",
+    "ex": "We revised the quotation after the site visit.",
+    "ar": "راجعنا وعدّلنا عرض السعر بعد زيارة الموقع.",
+    "ex2": "The revised price is 5% lower.",
+    "ar2": "السعر بعد التعديل أقل 5%."
+   },
+   {
+    "w": "correct",
+    "note": "fixing a mistake only",
+    "ex": "Please correct the tax number on the e-invoice.",
+    "ar": "ياريت تصحح الرقم الضريبي في الفاتورة الإلكترونية.",
+    "ex2": "A corrected invoice must be issued within a week.",
+    "ar2": "الفاتورة المصححة لازم تطلع خلال أسبوع."
+   }
+  ],
+  "ant": [
+   {
+    "w": "keep unchanged",
+    "ex": "We'll keep the delivery date unchanged.",
+    "ar": "هنسيب ميعاد التسليم زي ما هو.",
+    "ex2": "Only the quantity changes; the price we keep unchanged.",
+    "ar2": "الكمية بس اللي هتتغير؛ السعر هنسيبه زي ما هو."
+   }
+  ],
+  "ladder": {
+   "label": "how big the change",
+   "lar": "التغيير كبير قد إيه",
+   "steps": [
+    {
+     "w": "correct",
+     "ex": "Correct the client's address on the invoice.",
+     "ar": "صحح عنوان العميل في الفاتورة.",
+     "ex2": "It's a small typo, easy to correct.",
+     "ar2": "دي غلطة كتابة بسيطة، سهل تتصحح."
+    },
+    {
+     "w": "amend",
+     "ex": "We amended the delivery date in the contract.",
+     "ar": "عدّلنا ميعاد التسليم في العقد.",
+     "ex2": "Both sides signed the amended page.",
+     "ar2": "الطرفين مضوا الصفحة المعدّلة."
+    },
+    {
+     "w": "revise",
+     "ex": "We revised the whole proposal after the new budget.",
+     "ar": "راجعنا العرض كله بعد الميزانية الجديدة.",
+     "ex2": "The revised proposal uses smaller UPS units.",
+     "ar2": "العرض المعدّل فيه وحدات ‎UPS‎ أصغر."
+    },
+    {
+     "w": "rewrite",
+     "ex": "Legal had to rewrite the contract for the new law.",
+     "ar": "القانونية اضطرت تعيد كتابة العقد عشان القانون الجديد.",
+     "ex2": "Rewriting it took two weeks.",
+     "ar2": "إعادة كتابته خدت أسبوعين."
+    }
+   ]
+  },
+  "ctx": "The client reduced the order from ten to eight inverters. Please amend the quotation and the PO before the e-invoice is issued.",
+  "ctx_ar": "العميل قلل الأوردر من عشر لتمن إنفرترات. ياريت تعدّل عرض السعر وأمر الشراء قبل ما الفاتورة الإلكترونية تطلع.",
+  "quiz": [
+   {
+    "s": "We signed an ___ to the maintenance contract.",
+    "opts": [
+     "amendment",
+     "amend",
+     "amended"
+    ],
+    "a": 0,
+    "ar": "مضينا ملحق تعديل لعقد الصيانة."
+   },
+   {
+    "s": "Please ___ the tax number; it's wrong.",
+    "opts": [
+     "rewrite",
+     "correct",
+     "modify"
+    ],
+    "a": 1,
+    "ar": "ياريت تصحح الرقم الضريبي؛ هو غلط."
+   },
+   {
+    "s": "I've attached the ___ quotation.",
+    "opts": [
+     "amend",
+     "amendment",
+     "amended"
+    ],
+    "a": 2,
+    "ar": "بعتلك عرض السعر المعدّل."
+   }
+  ]
+ }
+]

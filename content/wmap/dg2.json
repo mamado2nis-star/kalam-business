@@ -1,0 +1,810 @@
+[
+ {
+  "w": "promptly",
+  "ar": "بسرعة / فوراً",
+  "family": [
+   {
+    "w": "prompt",
+    "pos": "adjective",
+    "ex": "Thank you for your prompt reply to our quotation.",
+    "ar": "شكراً على ردّك السريع على عرض السعر بتاعنا.",
+    "ex2": "A prompt answer helps us reserve the units before the price rises.",
+    "ar2": "الرد السريع بيساعدنا نحجز الأجهزة قبل ما السعر يزيد."
+   },
+   {
+    "w": "promptly",
+    "pos": "adverb",
+    "ex": "Invoices must be settled promptly to avoid service suspension.",
+    "ar": "الفواتير لازم تتدفع في ميعادها عشان الخدمة متتوقفش.",
+    "ex2": "Customers who pay promptly get priority on emergency visits.",
+    "ar2": "العملاء اللي بيدفعوا بسرعة بياخدوا أولوية في زيارات الطوارئ."
+   },
+   {
+    "w": "promptness",
+    "pos": "noun",
+    "ex": "We appreciate your promptness in paying the last invoice.",
+    "ar": "متشكرين على سرعتكم في دفع آخر فاتورة.",
+    "ex2": "Your promptness made our year-end closing much easier.",
+    "ar2": "سرعتكم سهّلت علينا قفلة آخر السنة جداً."
+   },
+   {
+    "w": "prompt",
+    "pos": "verb",
+    "ex": "The high-temperature alarm prompted us to check the battery room.",
+    "ar": "إنذار الحرارة العالية خلّانا نكشف على أوضة البطاريات.",
+    "ex2": "What prompted the alarm was a broken air conditioner.",
+    "ar2": "اللي عمل الإنذار كان تكييف بايظ."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "quickly, without delay",
+    "mar": "بسرعة ومن غير تأخير",
+    "ex": "Our team responded promptly to the UPS failure.",
+    "ar": "الفريق بتاعنا اتحرك بسرعة لما الـ‎UPS‎ وقع.",
+    "ex2": "Because we acted promptly, the servers never lost power.",
+    "ar2": "عشان اتحركنا بسرعة، السيرفرات مقطعتش خالص."
+   },
+   {
+    "m": "exactly at the stated time",
+    "mar": "في الميعاد بالظبط",
+    "ex": "The site meeting will start promptly at 9 a.m.",
+    "ar": "اجتماع الموقع هيبدأ الساعة 9 بالظبط.",
+    "ex2": "Please arrive promptly; the client has another meeting at ten.",
+    "ar2": "ياريت توصل في الميعاد، العميل عنده اجتماع تاني الساعة عشرة."
+   }
+  ],
+  "syn": [
+   {
+    "w": "quickly",
+    "note": "neutral everyday word for speed",
+    "ex": "Can you quickly check the stock of 12V batteries?",
+    "ar": "ممكن تبص بسرعة على مخزون بطاريات الـ12 فولت؟",
+    "ex2": "I need the number quickly for a customer on the phone.",
+    "ar2": "محتاج الرقم بسرعة عشان عميل معايا على التليفون."
+   },
+   {
+    "w": "immediately",
+    "note": "right now; stronger and more urgent",
+    "ex": "Shut down the UPS immediately if you smell burning.",
+    "ar": "اطفي الـ‎UPS‎ فوراً لو شميت ريحة حريق.",
+    "ex2": "Then call the service hotline immediately.",
+    "ar2": "وبعدين كلّم خط الخدمة على طول."
+   },
+   {
+    "w": "without delay",
+    "note": "formal phrase used in letters and contracts",
+    "ex": "Please process the payment without delay.",
+    "ar": "برجاء صرف الدفعة من غير تأخير.",
+    "ex2": "Any payment made without delay keeps your warranty valid.",
+    "ar2": "أي دفعة بتتعمل من غير تأخير بتحافظ على الضمان."
+   }
+  ],
+  "ant": [
+   {
+    "w": "slowly",
+    "ex": "The customer's finance team replies slowly to our emails.",
+    "ar": "فريق المالية عند العميل بيرد ببطء على إيميلاتنا.",
+    "ex2": "Because they answer slowly, we now call them directly.",
+    "ar2": "عشان بيردوا ببطء، بقينا نكلّمهم على طول."
+   },
+   {
+    "w": "late",
+    "ex": "The client paid late again this month.",
+    "ar": "العميل دفع متأخر تاني الشهر ده.",
+    "ex2": "Paying late twice more will trigger a service suspension.",
+    "ar2": "لو اتأخر في الدفع مرتين كمان، الخدمة هتتوقف."
+   }
+  ],
+  "ladder": {
+   "label": "how fast",
+   "lar": "بسرعة قد إيه",
+   "steps": [
+    {
+     "w": "soon",
+     "ex": "We'll send the revised quotation soon.",
+     "ar": "هنبعت عرض السعر المعدّل قريب.",
+     "ex2": "Probably soon after the supplier confirms prices.",
+     "ar2": "غالباً بعد ما المورّد يأكد الأسعار على طول."
+    },
+    {
+     "w": "promptly",
+     "ex": "We'll reply promptly to every service request.",
+     "ar": "هنرد بسرعة على كل طلب خدمة.",
+     "ex2": "Our contract says within four hours.",
+     "ar2": "العقد بيقول خلال أربع ساعات."
+    },
+    {
+     "w": "immediately",
+     "ex": "The fire alarm went off; leave the battery room immediately.",
+     "ar": "إنذار الحريق اشتغل، اطلع من أوضة البطاريات فوراً.",
+     "ex2": "Don't stop to save your work; go immediately.",
+     "ar2": "متقفش تسيّف شغلك، اخرج على طول."
+    }
+   ]
+  },
+  "ctx": "The customer reported a UPS alarm at 8 a.m. Our engineer responded promptly and was on site by ten.",
+  "ctx_ar": "العميل بلّغ عن إنذار في الـ‎UPS‎ الساعة 8 الصبح. المهندس بتاعنا اتحرك بسرعة وكان في الموقع الساعة عشرة.",
+  "quiz": [
+   {
+    "s": "Thank you for your ___ reply to our quotation.",
+    "opts": [
+     "prompt",
+     "promptly",
+     "promptness"
+    ],
+    "a": 0,
+    "ar": "شكراً على ردّك السريع على عرض السعر بتاعنا."
+   },
+   {
+    "s": "Invoices must be settled ___ to avoid service suspension.",
+    "opts": [
+     "prompt",
+     "promptly",
+     "promptness"
+    ],
+    "a": 1,
+    "ar": "الفواتير لازم تتدفع بسرعة عشان الخدمة متتوقفش."
+   },
+   {
+    "s": "The fire alarm went off; shut down the UPS ___!",
+    "opts": [
+     "soon",
+     "late",
+     "immediately"
+    ],
+    "a": 2,
+    "ar": "إنذار الحريق اشتغل؛ اطفي الـ‎UPS‎ فوراً!"
+   }
+  ]
+ },
+ {
+  "w": "prioritize",
+  "ar": "يدّي أولوية",
+  "family": [
+   {
+    "w": "priority",
+    "pos": "noun",
+    "ex": "The hospital site is our top priority today.",
+    "ar": "موقع المستشفى أهم حاجة عندنا النهارده.",
+    "ex2": "Other visits can wait until the priority job is done.",
+    "ar2": "باقي الزيارات تستنى لحد ما الشغلانة المهمة تخلص."
+   },
+   {
+    "w": "prioritize",
+    "pos": "verb",
+    "ex": "We will prioritize your site because it supports the ICU.",
+    "ar": "هندّي موقعكم أولوية عشان بيغذّي العناية المركزة.",
+    "ex2": "Please prioritize the battery delivery over the paperwork.",
+    "ar2": "ياريت تقدّم توصيل البطاريات على الورق."
+   },
+   {
+    "w": "prioritization",
+    "pos": "noun",
+    "ex": "Ticket prioritization is done by the service manager every morning.",
+    "ar": "ترتيب أولوية التذاكر بيعمله مدير الخدمة كل يوم الصبح.",
+    "ex2": "Clear prioritization stops engineers from arguing about which site comes first.",
+    "ar2": "ترتيب الأولويات بوضوح بيمنع المهندسين يتخانقوا مين الأول."
+   },
+   {
+    "w": "high-priority",
+    "pos": "adjective",
+    "ex": "This is a high-priority ticket: a bank data centre is on battery.",
+    "ar": "دي تذكرة عاجلة: داتا سنتر بنك شغال على البطارية.",
+    "ex2": "High-priority tickets get an engineer within two hours.",
+    "ar2": "التذاكر العاجلة بياخدوا مهندس خلال ساعتين."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "put first",
+    "note": "simple spoken phrase; same idea",
+    "ex": "Let's put the hospital first and visit the hotel later.",
+    "ar": "خلّينا نبدأ بالمستشفى ونروح الفندق بعدين.",
+    "ex2": "Putting them first protects our biggest contract.",
+    "ar2": "إننا نقدّمهم بيحمي أكبر عقد عندنا."
+   },
+   {
+    "w": "focus on",
+    "note": "give most attention; not about order in a list",
+    "ex": "This month we'll focus on collecting overdue invoices.",
+    "ar": "الشهر ده هنركّز على تحصيل الفواتير المتأخرة.",
+    "ex2": "Sales will focus on renewals, not new customers.",
+    "ar2": "المبيعات هتركّز على التجديدات، مش عملاء جداد."
+   },
+   {
+    "w": "rank",
+    "note": "put several items in order of importance",
+    "ex": "Please rank the open tenders by value and deadline.",
+    "ar": "ياريت ترتّب المناقصات المفتوحة حسب القيمة والميعاد.",
+    "ex2": "We'll work on the top three in the ranking.",
+    "ar2": "هنشتغل على أول تلاتة في الترتيب."
+   }
+  ],
+  "ant": [
+   {
+    "w": "deprioritize",
+    "ex": "We'll deprioritize the office printer request until the UPS is fixed.",
+    "ar": "هنأخّر طلب طابعة المكتب لحد ما الـ‎UPS‎ يتصلّح.",
+    "ex2": "Low-value requests are deprioritized during peak summer season.",
+    "ar2": "الطلبات الصغيرة بتتأخر في عز موسم الصيف."
+   }
+  ],
+  "ladder": {
+   "label": "how important",
+   "lar": "مهم قد إيه",
+   "steps": [
+    {
+     "w": "low priority",
+     "ex": "Repainting the battery racks is low priority.",
+     "ar": "دهان رفوف البطاريات مش مستعجل.",
+     "ex2": "We'll do it when the team has a free day.",
+     "ar2": "هنعمله لما الفريق يبقى فاضي يوم."
+    },
+    {
+     "w": "high priority",
+     "ex": "The VFD fault at the water station is high priority.",
+     "ar": "عطل الـ‎VFD‎ في محطة المية أولوية عالية.",
+     "ex2": "The pumps are running without speed control.",
+     "ar2": "الطلمبات شغالة من غير تحكم في السرعة."
+    },
+    {
+     "w": "top priority",
+     "ex": "Restoring power to the ICU is our top priority.",
+     "ar": "رجوع الكهربا للعناية المركزة هو أهم أولوية عندنا.",
+     "ex2": "Everyone else waits until this top priority job is done.",
+     "ar2": "الكل يستنى لحد ما الشغلانة دي تخلص."
+    }
+   ]
+  },
+  "ctx": "We have three breakdowns today. Let's prioritize the hospital, because their UPS supports the ICU.",
+  "ctx_ar": "عندنا تلات أعطال النهارده. خلّينا ندّي المستشفى أولوية، عشان الـ‎UPS‎ بتاعهم بيغذّي العناية المركزة.",
+  "quiz": [
+   {
+    "s": "The hospital site is our top ___ today.",
+    "opts": [
+     "prioritize",
+     "priority",
+     "prioritization"
+    ],
+    "a": 1,
+    "ar": "موقع المستشفى أهم أولوية عندنا النهارده."
+   },
+   {
+    "s": "We will ___ your request since it affects the data centre.",
+    "opts": [
+     "prioritize",
+     "priority",
+     "deprioritize"
+    ],
+    "a": 0,
+    "ar": "هندّي طلبك أولوية عشان بيأثر على الداتا سنتر."
+   },
+   {
+    "s": "The broken office printer is ___; it can wait.",
+    "opts": [
+     "top priority",
+     "high priority",
+     "low priority"
+    ],
+    "a": 2,
+    "ar": "الطابعة البايظة في المكتب مش أولوية؛ تقدر تستنى."
+   }
+  ]
+ },
+ {
+  "w": "discrepancy",
+  "ar": "اختلاف / عدم تطابق في الأرقام",
+  "family": [
+   {
+    "w": "discrepancy",
+    "pos": "noun",
+    "ex": "We noticed a discrepancy between your statement and our records.",
+    "ar": "لاحظنا اختلاف بين كشف حسابكم والسجلات عندنا.",
+    "ex2": "The discrepancy is EGP 4,500 on the March invoice.",
+    "ar2": "الفرق 4,500 جنيه في فاتورة مارس."
+   },
+   {
+    "w": "discrepant",
+    "pos": "adjective",
+    "ex": "Audit flagged the discrepant figures in the supplier statement.",
+    "ar": "المراجعة علّمت على الأرقام اللي مش متطابقة في كشف المورّد.",
+    "ex2": "We asked the supplier to explain the discrepant amounts.",
+    "ar2": "طلبنا من المورّد يفسّر المبالغ اللي مش مظبوطة."
+   },
+   {
+    "w": "discrepancy report",
+    "pos": "noun",
+    "ex": "The storekeeper filed a discrepancy report: two batteries were missing.",
+    "ar": "أمين المخزن عمل تقرير فروقات: بطاريتين ناقصين.",
+    "ex2": "We sent the report to the supplier with photos of the boxes.",
+    "ar2": "بعتنا التقرير للمورّد مع صور الكراتين."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "difference",
+    "note": "general word; any two things that are not the same",
+    "ex": "What's the price difference between the 10 and 20 kVA units?",
+    "ar": "إيه فرق السعر بين الـ10 والـ20 ‎kVA‎؟",
+    "ex2": "The difference is small, so the bigger unit is better value.",
+    "ar2": "الفرق بسيط، فالجهاز الأكبر أحسن قيمة."
+   },
+   {
+    "w": "mismatch",
+    "note": "two records that should match don't; common in accounting/IT",
+    "ex": "There's a mismatch between the PO and the delivery note.",
+    "ar": "فيه عدم تطابق بين أمر الشراء وإذن التسليم.",
+    "ex2": "The mismatch is in the battery model number.",
+    "ar2": "الاختلاف في رقم موديل البطارية."
+   },
+   {
+    "w": "error",
+    "note": "a mistake caused it; discrepancy only shows they differ",
+    "ex": "There's an error in the tax amount on invoice 312.",
+    "ar": "فيه غلطة في قيمة الضريبة في فاتورة 312.",
+    "ex2": "Accounts will cancel it and issue a corrected invoice.",
+    "ar2": "الحسابات هتلغيها وتطلّع فاتورة مصحّحة."
+   },
+   {
+    "w": "variance",
+    "note": "finance term: actual figure vs budget or forecast",
+    "ex": "Finance reported a 12% variance in import costs this quarter.",
+    "ar": "المالية بلّغت عن فرق 12% في تكاليف الاستيراد الربع ده.",
+    "ex2": "The variance comes from the new exchange rate.",
+    "ar2": "الفرق جاي من سعر الصرف الجديد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "match",
+    "ex": "The PO, invoice and delivery note are a perfect match.",
+    "ar": "أمر الشراء والفاتورة وإذن التسليم متطابقين تماماً.",
+    "ex2": "With a full match, finance can release the payment today.",
+    "ar2": "طالما كله متطابق، المالية تقدر تصرف الدفعة النهارده."
+   }
+  ],
+  "ladder": {
+   "label": "how big the difference",
+   "lar": "الفرق كبير قد إيه",
+   "steps": [
+    {
+     "w": "minor discrepancy",
+     "ex": "There's a minor discrepancy of EGP 50 due to rounding.",
+     "ar": "فيه فرق بسيط 50 جنيه بسبب التقريب.",
+     "ex2": "We'll just adjust it in the next invoice.",
+     "ar2": "هنظبطه في الفاتورة الجاية وخلاص."
+    },
+    {
+     "w": "discrepancy",
+     "ex": "There's a discrepancy of two battery strings in the delivery.",
+     "ar": "فيه فرق اتنين سترينج بطاريات في التوريد.",
+     "ex2": "Please check the packing list and confirm.",
+     "ar2": "ياريت تراجعوا قايمة التعبئة وتأكدوا."
+    },
+    {
+     "w": "major discrepancy",
+     "ex": "The audit found a major discrepancy in last year's stock.",
+     "ar": "المراجعة لقت فرق كبير في مخزون السنة اللي فاتت.",
+     "ex2": "Management wants a full stock count this week.",
+     "ar2": "الإدارة عايزة جرد كامل الأسبوع ده."
+    }
+   ]
+  },
+  "ctx": "There's a discrepancy between our statement and your payment records. Could you check the March invoice, please?",
+  "ctx_ar": "فيه اختلاف بين كشف الحساب بتاعنا وسجلات الدفع عندكم. ممكن تراجعوا فاتورة مارس لو سمحتم؟",
+  "quiz": [
+   {
+    "s": "The two amounts don't agree; there's a ___ of EGP 4,500.",
+    "opts": [
+     "discrepancy",
+     "discrepant",
+     "match"
+    ],
+    "a": 0,
+    "ar": "المبلغين مش متطابقين؛ فيه فرق 4,500 جنيه."
+   },
+   {
+    "s": "The PO and the delivery note are a perfect ___.",
+    "opts": [
+     "mismatch",
+     "discrepancy",
+     "match"
+    ],
+    "a": 2,
+    "ar": "أمر الشراء وإذن التسليم متطابقين تماماً."
+   },
+   {
+    "s": "Audit flagged the ___ figures in the supplier statement.",
+    "opts": [
+     "discrepancy",
+     "discrepant",
+     "variance"
+    ],
+    "a": 1,
+    "ar": "المراجعة علّمت على الأرقام اللي مش متطابقة في كشف المورّد."
+   }
+  ]
+ },
+ {
+  "w": "inconvenience",
+  "ar": "إزعاج / تعب",
+  "family": [
+   {
+    "w": "inconvenience",
+    "pos": "noun",
+    "ex": "We apologize for any inconvenience caused by the delivery delay.",
+    "ar": "بنعتذر عن أي إزعاج سببه التأخير في التوصيل.",
+    "ex2": "The batteries are now confirmed for Sunday, to end the inconvenience.",
+    "ar2": "البطاريات اتأكدت ليوم الحد، عشان نخلّص من التعب ده."
+   },
+   {
+    "w": "inconvenience",
+    "pos": "verb",
+    "ex": "Sorry to inconvenience you, but we need access to the UPS room.",
+    "ar": "آسفين على الإزعاج، بس محتاجين ندخل أوضة الـ‎UPS‎.",
+    "ex2": "It'll only take an hour, so we won't inconvenience your staff much.",
+    "ar2": "مش هتاخد غير ساعة، فمش هنزعج الموظفين كتير."
+   },
+   {
+    "w": "inconvenient",
+    "pos": "adjective",
+    "ex": "Sorry, Thursday is inconvenient for us; can we do Sunday?",
+    "ar": "معلش الخميس مش مناسب لنا، ينفع الحد؟",
+    "ex2": "Thursday is inconvenient because of our month-end closing.",
+    "ar2": "الخميس مش مناسب عشان قفلة آخر الشهر."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "trouble",
+    "note": "informal; general effort or problem for someone",
+    "ex": "Sorry for the trouble; the technician went to the wrong branch.",
+    "ar": "آسفين على التعب، الفني راح الفرع الغلط.",
+    "ex2": "He'll be with you in 30 minutes, no more trouble.",
+    "ar2": "هيكون عندك خلال نص ساعة، ومفيش تعب تاني."
+   },
+   {
+    "w": "disruption",
+    "note": "stronger; work or service actually stops",
+    "ex": "The shutdown will cause a two-hour disruption to production.",
+    "ar": "الإطفاء هيعمل توقف ساعتين في الإنتاج.",
+    "ex2": "We'll do it on Friday to limit the disruption.",
+    "ar2": "هنعمله يوم الجمعة عشان نقلّل التعطيل."
+   },
+   {
+    "w": "hassle",
+    "note": "very informal; for chat and spoken English",
+    "ex": "Getting the customs papers stamped was a real hassle.",
+    "ar": "تختيم ورق الجمارك كان وجع دماغ.",
+    "ex2": "Next time the broker will handle the hassle for us.",
+    "ar2": "المرة الجاية المخلّص هيشيل الهم ده عننا."
+   }
+  ],
+  "ant": [
+   {
+    "w": "convenience",
+    "ex": "For your convenience, you can pay by bank transfer or InstaPay.",
+    "ar": "لراحتكم، تقدروا تدفعوا بتحويل بنكي أو ‎InstaPay‎.",
+    "ex2": "The account details are on the invoice for your convenience.",
+    "ar2": "بيانات الحساب على الفاتورة عشان تسهيل عليكم."
+   }
+  ],
+  "ladder": {
+   "label": "how serious for the customer",
+   "lar": "مضايق العميل قد إيه",
+   "steps": [
+    {
+     "w": "minor inconvenience",
+     "ex": "The ten-minute switch to bypass is a minor inconvenience.",
+     "ar": "التحويل على البايباس عشر دقايق ده إزعاج بسيط.",
+     "ex2": "Most users won't even notice.",
+     "ar2": "معظم المستخدمين مش هياخدوا بالهم أصلاً."
+    },
+    {
+     "w": "inconvenience",
+     "ex": "We apologize for the inconvenience of the rescheduled visit.",
+     "ar": "بنعتذر عن الإزعاج بسبب تغيير ميعاد الزيارة.",
+     "ex2": "The engineer will come on Monday instead.",
+     "ar2": "المهندس هييجي يوم الاتنين بدل كده."
+    },
+    {
+     "w": "disruption",
+     "ex": "The failed VFD caused serious disruption at the chiller plant.",
+     "ar": "الـ‎VFD‎ اللي وقع عمل تعطيل كبير في محطة التشيلرات.",
+     "ex2": "The building had no cooling for six hours due to the disruption.",
+     "ar2": "المبنى فضل من غير تكييف ست ساعات بسبب العطل."
+    }
+   ]
+  },
+  "ctx": "The site will be on bypass for two hours on Friday. We apologize for any inconvenience this may cause.",
+  "ctx_ar": "الموقع هيبقى على البايباس ساعتين يوم الجمعة. بنعتذر عن أي إزعاج ممكن يسببه ده.",
+  "quiz": [
+   {
+    "s": "We apologize for any ___ caused by the delay.",
+    "opts": [
+     "inconvenience",
+     "inconvenient",
+     "convenience"
+    ],
+    "a": 0,
+    "ar": "بنعتذر عن أي إزعاج سببه التأخير."
+   },
+   {
+    "s": "Sorry, Thursday is ___ for us; can we do Sunday?",
+    "opts": [
+     "inconvenience",
+     "convenience",
+     "inconvenient"
+    ],
+    "a": 2,
+    "ar": "معلش الخميس مش مناسب لنا؛ ينفع الحد؟"
+   },
+   {
+    "s": "A full shutdown would cause serious ___ to the factory.",
+    "opts": [
+     "hassle",
+     "disruption",
+     "convenience"
+    ],
+    "a": 1,
+    "ar": "الإطفاء الكامل هيعمل تعطيل كبير للمصنع."
+   }
+  ]
+ },
+ {
+  "w": "disregard",
+  "ar": "يتجاهل (رسالة / طلب)",
+  "family": [
+   {
+    "w": "disregard",
+    "pos": "verb",
+    "ex": "Please disregard my previous email; the correct quotation is attached.",
+    "ar": "برجاء تجاهل الإيميل اللي فات؛ عرض السعر الصح مرفق.",
+    "ex2": "The old one had the wrong battery model, so disregard it.",
+    "ar2": "القديم كان فيه موديل بطارية غلط، فتجاهلوه."
+   },
+   {
+    "w": "disregard",
+    "pos": "noun",
+    "ex": "His disregard for safety rules caused the battery accident.",
+    "ar": "عدم اهتمامه بقواعد السلامة هو اللي عمل حادثة البطارية.",
+    "ex2": "That disregard cost us a warning from the client.",
+    "ar2": "التجاهل ده كلّفنا إنذار من العميل."
+   },
+   {
+    "w": "regard",
+    "pos": "verb",
+    "ex": "We regard this hospital as a strategic customer.",
+    "ar": "إحنا بنعتبر المستشفى دي عميل استراتيجي.",
+    "ex2": "That's why we regard their tickets as urgent.",
+    "ar2": "عشان كده بنعتبر تذاكرهم عاجلة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "ignore",
+    "note": "general; can sound rude if done to people",
+    "ex": "The client ignored our last three payment reminders.",
+    "ar": "العميل طنّش آخر تلات تذكيرات دفع.",
+    "ex2": "If they keep ignoring us, we'll call the finance manager.",
+    "ar2": "لو فضلوا يطنّشوا، هنكلّم المدير المالي."
+   },
+   {
+    "w": "overlook",
+    "note": "miss something by accident; disregard is on purpose",
+    "ex": "I overlooked the delivery charge in the quotation.",
+    "ar": "نسيت مصاريف التوصيل في عرض السعر.",
+    "ex2": "Next time I'll check every line so nothing is overlooked.",
+    "ar2": "المرة الجاية هراجع كل سطر عشان مفيش حاجة تفوتني."
+   },
+   {
+    "w": "set aside",
+    "note": "put to one side for now, maybe later",
+    "ex": "Let's set aside the discount request until the samples arrive.",
+    "ar": "خلّينا نأجّل طلب الخصم لحد ما العينات توصل.",
+    "ex2": "We can set it aside for a week without losing the deal.",
+    "ar2": "نقدر نأجّله أسبوع من غير ما نخسر الصفقة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "note",
+    "ex": "Please note the new bank account on the invoice.",
+    "ar": "برجاء ملاحظة رقم الحساب البنكي الجديد على الفاتورة.",
+    "ex2": "Payments to the old account will be returned, so note it carefully.",
+    "ar2": "الدفعات على الحساب القديم هترجع، فخدوا بالكم."
+   },
+   {
+    "w": "follow",
+    "ex": "Please follow the shutdown steps in the manual.",
+    "ar": "برجاء اتباع خطوات الإطفاء اللي في الكتالوج.",
+    "ex2": "If you don't follow them, the warranty may be void.",
+    "ar2": "لو متبعتوهاش، الضمان ممكن يتلغي."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our system sent a reminder for invoice 245 by mistake. If you've already paid, please disregard this message.",
+  "ctx_ar": "السيستم بعت تذكير لفاتورة 245 بالغلط. لو حضرتك دفعت خلاص، برجاء تجاهل الرسالة دي.",
+  "quiz": [
+   {
+    "s": "If you've already paid, please ___ this reminder.",
+    "opts": [
+     "disregard",
+     "note",
+     "regard"
+    ],
+    "a": 0,
+    "ar": "لو دفعت خلاص، برجاء تجاهل التذكير ده."
+   },
+   {
+    "s": "Please ___ the new bank account details on the invoice.",
+    "opts": [
+     "disregard",
+     "note",
+     "overlook"
+    ],
+    "a": 1,
+    "ar": "برجاء ملاحظة بيانات الحساب البنكي الجديدة على الفاتورة."
+   },
+   {
+    "s": "His ___ for safety rules caused the battery accident.",
+    "opts": [
+     "regard",
+     "ignore",
+     "disregard"
+    ],
+    "a": 2,
+    "ar": "عدم اهتمامه بقواعد السلامة هو اللي عمل حادثة البطارية."
+   }
+  ]
+ },
+ {
+  "w": "downtime",
+  "ar": "وقت توقف السيستم",
+  "family": [
+   {
+    "w": "downtime",
+    "pos": "noun",
+    "ex": "The battery replacement will be done without any downtime.",
+    "ar": "تغيير البطاريات هيتم من غير أي توقف.",
+    "ex2": "Zero downtime is the main reason they chose our modular UPS.",
+    "ar2": "عدم التوقف خالص هو السبب الأساسي إنهم اختاروا الـ‎UPS‎ الموديولار بتاعنا."
+   },
+   {
+    "w": "down",
+    "pos": "adjective",
+    "ex": "The server has been down since 10 a.m.",
+    "ar": "السيرفر واقع من الساعة 10 الصبح.",
+    "ex2": "While it's down, nobody can issue e-invoices.",
+    "ar2": "وهو واقع، محدش يقدر يطلّع فواتير إلكترونية."
+   },
+   {
+    "w": "go down",
+    "pos": "verb",
+    "ex": "The network can go down when the old UPS batteries run out.",
+    "ar": "الشبكة ممكن تقع لما بطاريات الـ‎UPS‎ القديمة تخلص.",
+    "ex2": "It won't go down again once the new batteries are in.",
+    "ar2": "مش هتقع تاني أول ما البطاريات الجديدة تتركّب."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "time a machine or system is not working",
+    "mar": "وقت توقف الجهاز أو السيستم",
+    "ex": "Planned maintenance may cause two hours of downtime.",
+    "ar": "الصيانة المخططة ممكن تعمل توقف ساعتين.",
+    "ex2": "We'll schedule the downtime for Friday when the plant is closed.",
+    "ar2": "هنحدد التوقف يوم الجمعة والمصنع قافل."
+   },
+   {
+    "m": "quiet time for rest",
+    "mar": "وقت راحة / فاضي",
+    "ex": "After the big solar project, the team needs some downtime.",
+    "ar": "بعد مشروع الطاقة الشمسية الكبير، الفريق محتاج شوية راحة.",
+    "ex2": "Let's plan a team day out during the summer downtime.",
+    "ar2": "تعالوا نعمل خروجة للفريق في الفترة الهادية في الصيف."
+   }
+  ],
+  "syn": [
+   {
+    "w": "outage",
+    "note": "power or service stops for everyone; grid, network",
+    "ex": "A grid outage hit the industrial zone for three hours.",
+    "ar": "انقطاع الكهربا ضرب المنطقة الصناعية تلات ساعات.",
+    "ex2": "Customers with our UPS kept running during the outage.",
+    "ar2": "العملاء اللي عندهم الـ‎UPS‎ بتاعنا فضلوا شغالين وقت الانقطاع."
+   },
+   {
+    "w": "shutdown",
+    "note": "planned stopping of equipment, usually for work",
+    "ex": "We need a full shutdown to replace the main breaker.",
+    "ar": "محتاجين إطفاء كامل عشان نغيّر البريكر الرئيسي.",
+    "ex2": "The shutdown is booked for Friday at 6 a.m.",
+    "ar2": "الإطفاء متحدد الجمعة الساعة 6 الصبح."
+   },
+   {
+    "w": "breakdown",
+    "note": "equipment failure that causes the stoppage",
+    "ex": "A VFD breakdown stopped the chilled water pumps.",
+    "ar": "عطل في الـ‎VFD‎ وقّف طلمبات المية المتلجة.",
+    "ex2": "After the breakdown, we installed a spare drive.",
+    "ar2": "بعد العطل، ركّبنا درايف احتياطي."
+   }
+  ],
+  "ant": [
+   {
+    "w": "uptime",
+    "ex": "Our contract guarantees 99.9% uptime for the data centre UPS.",
+    "ar": "عقدنا بيضمن تشغيل 99.9% للـ‎UPS‎ بتاع الداتا سنتر.",
+    "ex2": "If uptime drops below that, we pay a penalty.",
+    "ar2": "لو التشغيل قلّ عن كده، بندفع غرامة."
+   }
+  ],
+  "ladder": {
+   "label": "how serious the stoppage",
+   "lar": "التوقف كبير قد إيه",
+   "steps": [
+    {
+     "w": "glitch",
+     "ex": "There was a short glitch when the generator started.",
+     "ar": "حصل تهنيجة صغيرة لما المولّد اشتغل.",
+     "ex2": "The UPS covered the glitch, so nothing restarted.",
+     "ar2": "الـ‎UPS‎ غطّى التهنيجة، فمفيش حاجة عملت ريستارت."
+    },
+    {
+     "w": "downtime",
+     "ex": "The firmware update caused 20 minutes of downtime.",
+     "ar": "تحديث السوفتوير عمل توقف 20 دقيقة.",
+     "ex2": "Next time we'll do it at night to avoid downtime.",
+     "ar2": "المرة الجاية هنعمله بالليل عشان نتجنب التوقف."
+    },
+    {
+     "w": "total outage",
+     "ex": "The flood caused a total outage at the pumping station.",
+     "ar": "السيل عمل انقطاع كامل في محطة الرفع.",
+     "ex2": "The total outage lasted two days.",
+     "ar2": "الانقطاع الكامل كمّل يومين."
+    }
+   ]
+  },
+  "ctx": "The battery replacement will take place on Friday night. There will be no downtime, as the load stays on bypass.",
+  "ctx_ar": "تغيير البطاريات هيتم يوم الجمعة بالليل. مش هيبقى فيه توقف، عشان الحمل هيفضل على البايباس.",
+  "quiz": [
+   {
+    "s": "The contract guarantees 99.9% ___.",
+    "opts": [
+     "downtime",
+     "uptime",
+     "outage"
+    ],
+    "a": 1,
+    "ar": "العقد بيضمن تشغيل 99.9%."
+   },
+   {
+    "s": "The server has been ___ since 10 a.m.",
+    "opts": [
+     "down",
+     "downtime",
+     "uptime"
+    ],
+    "a": 0,
+    "ar": "السيرفر واقع من الساعة 10 الصبح."
+   },
+   {
+    "s": "Planned maintenance may cause two hours of ___.",
+    "opts": [
+     "uptime",
+     "down",
+     "downtime"
+    ],
+    "a": 2,
+    "ar": "الصيانة المخططة ممكن تعمل توقف ساعتين."
+   }
+  ]
+ }
+]

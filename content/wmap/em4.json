@@ -1,0 +1,810 @@
+[
+ {
+  "w": "suitability",
+  "ar": "مدى المناسبة / الملاءمة",
+  "family": [
+   {
+    "w": "suit",
+    "pos": "verb",
+    "ex": "A 6 kVA UPS should suit a small server room.",
+    "ar": "‎UPS 6 kVA‎ المفروض يناسب أوضة سيرفرات صغيرة.",
+    "ex2": "It suits their load and their budget.",
+    "ar2": "هو مناسب للحمل بتاعهم وللميزانية."
+   },
+   {
+    "w": "suitable",
+    "pos": "adjective",
+    "ex": "Lithium batteries are more suitable for hot sites.",
+    "ar": "بطاريات الليثيوم أنسب للمواقع الحر.",
+    "ex2": "They handle heat better than lead-acid ones.",
+    "ar2": "بتستحمل الحرارة أحسن من الرصاص."
+   },
+   {
+    "w": "suitably",
+    "pos": "adverb",
+    "ex": "The panel must be suitably rated for 400 volts.",
+    "ar": "اللوحة لازم تكون مقننة بشكل مناسب لـ 400 فولت.",
+    "ex2": "Otherwise the VFD warranty won't cover it.",
+    "ar2": "غير كده ضمان الـ ‎VFD‎ مش هيغطيها."
+   },
+   {
+    "w": "suitability",
+    "pos": "noun",
+    "ex": "Please confirm the suitability of this inverter for a 10 kW array.",
+    "ar": "ياريت تأكد إن الإنفرتر ده مناسب لمصفوفة 10 كيلووات.",
+    "ex2": "Our engineer will check suitability on site tomorrow.",
+    "ar2": "المهندس بتاعنا هيتأكد من المناسبة في الموقع بكرة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "appropriateness",
+    "note": "formal; used in reports and tender replies",
+    "ex": "We reviewed the appropriateness of the proposed cooling solution.",
+    "ar": "راجعنا مدى ملاءمة حل التبريد المقترح.",
+    "ex2": "Its appropriateness depends on the room size.",
+    "ar2": "ملاءمته بتعتمد على مساحة الأوضة."
+   },
+   {
+    "w": "fit",
+    "note": "everyday word; how well something matches a need",
+    "ex": "This chiller VFD is a good fit for their pumps.",
+    "ar": "الـ ‎VFD‎ ده مناسب جدًا للطلمبات بتاعتهم.",
+    "ex2": "A better fit means fewer service calls later.",
+    "ar2": "كل ما يكون مناسب أكتر، زيارات الصيانة تقل بعدين."
+   },
+   {
+    "w": "compatibility",
+    "note": "technical; works together with existing equipment",
+    "ex": "Check the compatibility of the new card with the old drive.",
+    "ar": "اتأكد إن الكارت الجديد متوافق مع الدرايف القديم.",
+    "ex2": "Compatibility problems could stop the whole line.",
+    "ar2": "مشاكل التوافق ممكن توقف الخط كله."
+   }
+  ],
+  "ant": [
+   {
+    "w": "unsuitability",
+    "ex": "The report showed the unsuitability of small batteries for this load.",
+    "ar": "التقرير وضّح إن البطاريات الصغيرة مش مناسبة للحمل ده.",
+    "ex2": "So we quoted a bigger battery bank instead.",
+    "ar2": "فعشان كده سعّرنا بنك بطاريات أكبر."
+   }
+  ],
+  "ladder": {
+   "label": "how well it matches the need",
+   "lar": "قد إيه مناسب",
+   "steps": [
+    {
+     "w": "acceptable",
+     "ex": "The 3 kVA unit is acceptable but tight on capacity.",
+     "ar": "وحدة الـ 3 ‎kVA‎ مقبولة بس قدرتها على الحافة.",
+     "ex2": "Any new server will push it to its limit.",
+     "ar2": "أي سيرفر جديد هيوصلها لآخرها."
+    },
+    {
+     "w": "suitable",
+     "ex": "The 5 kVA unit is suitable for their current load.",
+     "ar": "وحدة الـ 5 ‎kVA‎ مناسبة للحمل الحالي.",
+     "ex2": "It also leaves a little room to grow.",
+     "ar2": "وكمان سايبة مساحة صغيرة للتوسع."
+    },
+    {
+     "w": "ideal",
+     "ex": "The 10 kVA modular UPS is ideal for their growth plans.",
+     "ar": "الـ ‎UPS‎ الموديولار 10 ‎kVA‎ مثالي لخطط التوسع بتاعتهم.",
+     "ex2": "They can add modules without replacing anything.",
+     "ar2": "يقدروا يزودوا موديولات من غير ما يغيروا حاجة."
+    }
+   ]
+  },
+  "ctx": "The client asked about the suitability of our UPS for their clinic. We sent a sizing sheet and a site visit offer.",
+  "ctx_ar": "العميل سأل الـ ‎UPS‎ بتاعنا مناسب للعيادة بتاعته ولا لأ. بعتنا له شيت حسابات وعرض لزيارة الموقع.",
+  "quiz": [
+   {
+    "s": "Is this battery ___ for outdoor cabinets?",
+    "opts": [
+     "suit",
+     "suitable",
+     "suitability"
+    ],
+    "a": 1,
+    "ar": "البطارية دي مناسبة للكبائن اللي برا؟"
+   },
+   {
+    "s": "We need a report on the ___ of the site for solar panels.",
+    "opts": [
+     "suitability",
+     "suitable",
+     "suitably"
+    ],
+    "a": 0,
+    "ar": "محتاجين تقرير عن مدى صلاحية الموقع للألواح الشمسية."
+   },
+   {
+    "s": "Check the ___ of the new control card with the old VFD.",
+    "opts": [
+     "ideal",
+     "compatibility",
+     "acceptable"
+    ],
+    "a": 1,
+    "ar": "اتأكد من توافق كارت الكنترول الجديد مع الـ ‎VFD‎ القديم."
+   }
+  ]
+ },
+ {
+  "w": "bulk",
+  "ar": "كمية كبيرة / بالجملة",
+  "family": [
+   {
+    "w": "bulk",
+    "pos": "noun",
+    "ex": "We buy batteries in bulk to get a better price.",
+    "ar": "بنشتري البطاريات بالجملة عشان ناخد سعر أحسن.",
+    "ex2": "The supplier gives 8% off on bulk orders.",
+    "ar2": "المورد بيدي خصم 8% على الطلبيات الكبيرة."
+   },
+   {
+    "w": "bulk",
+    "pos": "adjective",
+    "ex": "Bulk orders of fuses ship from the main warehouse.",
+    "ar": "طلبيات الفيوزات الكبيرة بتتشحن من المخزن الرئيسي.",
+    "ex2": "Small orders go from the Nasr City branch.",
+    "ar2": "الطلبيات الصغيرة بتطلع من فرع مدينة نصر."
+   },
+   {
+    "w": "bulky",
+    "pos": "adjective",
+    "ex": "The 20 kVA UPS is too bulky for that cabinet.",
+    "ar": "الـ ‎UPS‎ الـ 20 ‎kVA‎ ضخم أوي على الكابينة دي.",
+    "ex2": "We'll need a floor-standing rack instead.",
+    "ar2": "هنحتاج راك أرضي بداله."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "large quantity",
+    "mar": "كمية كبيرة",
+    "ex": "The hotel placed a bulk order for 200 batteries.",
+    "ar": "الفندق طلب طلبية كبيرة 200 بطارية.",
+    "ex2": "Bulk pricing saved them nearly 15%.",
+    "ar2": "سعر الكمية وفّر لهم حوالي 15%."
+   },
+   {
+    "m": "the main part of something",
+    "mar": "الجزء الأكبر",
+    "ex": "The bulk of our revenue comes from maintenance contracts.",
+    "ar": "الجزء الأكبر من إيرادنا جاي من عقود الصيانة.",
+    "ex2": "Product sales make up the rest of the bulk.",
+    "ar2": "مبيعات المنتجات هي الباقي."
+   }
+  ],
+  "syn": [
+   {
+    "w": "wholesale",
+    "note": "selling to traders, not end users",
+    "ex": "We sell inverters wholesale to smaller installers.",
+    "ar": "بنبيع الإنفرترات جملة لشركات تركيب أصغر.",
+    "ex2": "Wholesale prices are lower than our project prices.",
+    "ar2": "أسعار الجملة أقل من أسعار المشاريع."
+   },
+   {
+    "w": "large volume",
+    "note": "neutral phrase for big quantities in reports",
+    "ex": "A large volume of spare parts arrived this week.",
+    "ar": "كمية كبيرة من قطع الغيار وصلت الأسبوع ده.",
+    "ex2": "Storing that large volume needs extra shelf space.",
+    "ar2": "تخزين الكمية الكبيرة دي محتاج رفوف زيادة."
+   },
+   {
+    "w": "in quantity",
+    "note": "informal; buying many units at once",
+    "ex": "We order fuses in quantity every quarter.",
+    "ar": "بنطلب فيوزات بكميات كل ربع سنة.",
+    "ex2": "Ordering in quantity cuts the shipping cost.",
+    "ar2": "الطلب بكميات بيقلل تكلفة الشحن."
+   }
+  ],
+  "ant": [
+   {
+    "w": "retail",
+    "ex": "We sell single batteries at retail price to walk-in customers.",
+    "ar": "بنبيع البطارية الواحدة بسعر القطاعي للزباين اللي بييجوا المحل.",
+    "ex2": "Retail margins are higher but volumes are small.",
+    "ar2": "هامش القطاعي أعلى بس الكميات صغيرة."
+   },
+   {
+    "w": "small quantity",
+    "ex": "They only need a small quantity of spare fuses.",
+    "ar": "هم محتاجين كمية صغيرة بس من الفيوزات الاحتياطي.",
+    "ex2": "A small quantity can ship by courier today.",
+    "ar2": "الكمية الصغيرة ممكن تتشحن مع مندوب النهارده."
+   }
+  ],
+  "ladder": {
+   "label": "how big the order is",
+   "lar": "حجم الطلبية",
+   "steps": [
+    {
+     "w": "small order",
+     "ex": "A small order of five batteries ships today.",
+     "ar": "طلبية صغيرة خمس بطاريات هتتشحن النهارده.",
+     "ex2": "No discount applies to small orders.",
+     "ar2": "مفيش خصم على الطلبيات الصغيرة."
+    },
+    {
+     "w": "large order",
+     "ex": "A large order needs approval from the sales manager.",
+     "ar": "الطلبية الكبيرة محتاجة موافقة مدير المبيعات.",
+     "ex2": "He may offer a small discount.",
+     "ar2": "ممكن يدي خصم بسيط."
+    },
+    {
+     "w": "bulk order",
+     "ex": "A bulk order of 300 units gets factory pricing.",
+     "ar": "طلبية جملة 300 وحدة بتاخد سعر المصنع.",
+     "ex2": "It also ships directly from the supplier.",
+     "ar2": "وكمان بتتشحن من المورد على طول."
+    }
+   ]
+  },
+  "ctx": "The bank wants 120 UPS batteries for its branches. Since it's a bulk purchase, we can offer 10% off.",
+  "ctx_ar": "البنك عايز 120 بطارية ‎UPS‎ للفروع. وبما إنها شروة جملة، نقدر ندي خصم 10%.",
+  "quiz": [
+   {
+    "s": "We get better prices when we buy in ___.",
+    "opts": [
+     "bulk",
+     "bulky",
+     "retail"
+    ],
+    "a": 0,
+    "ar": "بناخد أسعار أحسن لما نشتري بالجملة."
+   },
+   {
+    "s": "This transformer is too ___ for the small room.",
+    "opts": [
+     "bulk",
+     "bulky",
+     "wholesale"
+    ],
+    "a": 1,
+    "ar": "المحول ده ضخم أوي على الأوضة الصغيرة."
+   },
+   {
+    "s": "Walk-in customers pay the ___ price.",
+    "opts": [
+     "bulk",
+     "wholesale",
+     "retail"
+    ],
+    "a": 2,
+    "ar": "الزباين اللي بييجوا المحل بيدفعوا سعر القطاعي."
+   }
+  ]
+ },
+ {
+  "w": "time frame",
+  "ar": "مدة / إطار زمني",
+  "family": [
+   {
+    "w": "time frame",
+    "pos": "noun",
+    "ex": "What is the time frame for the solar installation?",
+    "ar": "المدة المتوقعة لتركيب الطاقة الشمسية قد إيه؟",
+    "ex2": "The client wants it running before summer, so the time frame is tight.",
+    "ar2": "العميل عايزها شغالة قبل الصيف، فالمدة ضيقة."
+   },
+   {
+    "w": "timeline",
+    "pos": "noun",
+    "ex": "I'll send you a timeline for the data centre upgrade.",
+    "ar": "هبعتلك جدول زمني لتطوير الداتا سنتر.",
+    "ex2": "The timeline shows each phase and its date.",
+    "ar2": "الجدول بيوضح كل مرحلة وتاريخها."
+   },
+   {
+    "w": "timing",
+    "pos": "noun",
+    "ex": "The timing of the shutdown must suit the hospital.",
+    "ar": "توقيت الفصل لازم يناسب المستشفى.",
+    "ex2": "Good timing means fewer complaints from patients.",
+    "ar2": "التوقيت الكويس يعني شكاوى أقل من المرضى."
+   },
+   {
+    "w": "time",
+    "pos": "verb",
+    "ex": "We timed the battery swap for Friday morning.",
+    "ar": "حددنا تغيير البطاريات يوم الجمعة الصبح.",
+    "ex2": "Timing it on the weekend avoided downtime.",
+    "ar2": "لما عملناه في الويك إند تجنّبنا التوقف."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "deadline",
+    "note": "one final date, not a period",
+    "ex": "The deadline for the tender is 15 March.",
+    "ar": "آخر ميعاد للمناقصة 15 مارس.",
+    "ex2": "After the deadline, no offers are accepted.",
+    "ar2": "بعد آخر ميعاد مفيش عروض بتتقبل."
+   },
+   {
+    "w": "schedule",
+    "note": "detailed plan with dates for each task",
+    "ex": "The installation schedule is attached to the PO.",
+    "ar": "جدول التركيب مرفق مع أمر الشراء.",
+    "ex2": "Any schedule change must be agreed in writing.",
+    "ar2": "أي تغيير في الجدول لازم يتفق عليه كتابة."
+   },
+   {
+    "w": "lead time",
+    "note": "time from order to delivery",
+    "ex": "Lead time for the imported VFDs is eight weeks.",
+    "ar": "مدة توريد الـ ‎VFD‎ المستوردة تمان أسابيع.",
+    "ex2": "Long lead time means we must order now.",
+    "ar2": "مدة التوريد الطويلة معناها لازم نطلب دلوقتي."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how tight the time is",
+   "lar": "المدة ضيقة قد إيه",
+   "steps": [
+    {
+     "w": "flexible time frame",
+     "ex": "The school has a flexible time frame for the UPS upgrade.",
+     "ar": "المدرسة عندها مدة مرنة لتطوير الـ ‎UPS.‎",
+     "ex2": "They just want it done before September.",
+     "ar2": "هم بس عايزينه يخلص قبل سبتمبر."
+    },
+    {
+     "w": "tight time frame",
+     "ex": "We have a tight time frame of two weeks.",
+     "ar": "عندنا مدة ضيقة أسبوعين بس.",
+     "ex2": "The team will need to work on Saturdays.",
+     "ar2": "الفريق هيحتاج يشتغل أيام السبت."
+    },
+    {
+     "w": "unrealistic time frame",
+     "ex": "Five days is an unrealistic time frame for importing batteries.",
+     "ar": "خمس أيام مدة مش واقعية لاستيراد بطاريات.",
+     "ex2": "Customs alone takes at least a week.",
+     "ar2": "الجمارك لوحدها بتاخد أسبوع على الأقل."
+    }
+   ]
+  },
+  "ctx": "The client asked for a realistic time frame for the solar project. We promised delivery and installation within six weeks.",
+  "ctx_ar": "العميل طلب مدة واقعية لمشروع الطاقة الشمسية. وعدناه بالتوريد والتركيب خلال ست أسابيع.",
+  "quiz": [
+   {
+    "s": "The ___ for the tender is next Thursday at noon.",
+    "opts": [
+     "deadline",
+     "time frame",
+     "timing"
+    ],
+    "a": 0,
+    "ar": "آخر ميعاد للمناقصة الخميس الجاي الضهر."
+   },
+   {
+    "s": "___ for imported VFDs is about eight weeks.",
+    "opts": [
+     "Lead time",
+     "Timing",
+     "Deadline"
+    ],
+    "a": 0,
+    "ar": "مدة توريد الـ ‎VFD‎ المستوردة حوالي تمان أسابيع."
+   },
+   {
+    "s": "Five days to import batteries is an ___.",
+    "opts": [
+     "flexible time frame",
+     "tight time frame",
+     "unrealistic time frame"
+    ],
+    "a": 2,
+    "ar": "خمس أيام عشان نستورد بطاريات مدة مش واقعية."
+   }
+  ]
+ },
+ {
+  "w": "warranty",
+  "ar": "ضمان",
+  "family": [
+   {
+    "w": "warranty",
+    "pos": "noun",
+    "ex": "The UPS comes with a two-year warranty.",
+    "ar": "الـ ‎UPS‎ معاه ضمان سنتين.",
+    "ex2": "The warranty covers parts but not batteries.",
+    "ar2": "الضمان بيغطي القطع بس مش البطاريات."
+   },
+   {
+    "w": "warrant",
+    "pos": "verb",
+    "ex": "The fault doesn't warrant a full replacement.",
+    "ar": "العطل ميستاهلش تغيير كامل.",
+    "ex2": "A new fan should warrant another year of service.",
+    "ar2": "مروحة جديدة تكفي تشغّله سنة كمان."
+   },
+   {
+    "w": "warrantied",
+    "pos": "adjective",
+    "ex": "Only warrantied units are repaired free of charge.",
+    "ar": "الوحدات اللي عليها ضمان بس بتتصلح ببلاش.",
+    "ex2": "Check the serial number to confirm it's warrantied.",
+    "ar2": "راجع السيريال عشان تتأكد إن عليها ضمان."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "guarantee",
+    "note": "broader promise; can cover price, delivery or results",
+    "ex": "We guarantee delivery within ten working days.",
+    "ar": "بنضمن التوريد خلال عشر أيام شغل.",
+    "ex2": "If we miss that guarantee, the client gets 2% off.",
+    "ar2": "لو مقدرناش نلتزم بالضمان ده، العميل ياخد خصم 2%."
+   },
+   {
+    "w": "cover",
+    "note": "what is included under the warranty",
+    "ex": "Does the warranty cover the control card?",
+    "ar": "الضمان بيغطي كارت الكنترول؟",
+    "ex2": "Yes, the cover includes all electronic boards.",
+    "ar2": "أيوه، التغطية بتشمل كل البوردات الإلكترونية."
+   },
+   {
+    "w": "extended warranty",
+    "note": "paid extra years after the standard warranty",
+    "ex": "The client bought an extended warranty for three more years.",
+    "ar": "العميل اشترى ضمان ممتد تلات سنين زيادة.",
+    "ex2": "The extended warranty includes two preventive visits yearly.",
+    "ar2": "الضمان الممتد فيه زيارتين صيانة وقائية في السنة."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how much protection",
+   "lar": "قد إيه الحماية",
+   "steps": [
+    {
+     "w": "limited warranty",
+     "ex": "It has a limited warranty that covers parts only.",
+     "ar": "عليه ضمان محدود بيغطي القطع بس.",
+     "ex2": "Labour and travel are charged to the client.",
+     "ar2": "المصنعية والانتقالات على حساب العميل."
+    },
+    {
+     "w": "standard warranty",
+     "ex": "The standard warranty covers parts and labour for one year.",
+     "ar": "الضمان العادي بيغطي القطع والمصنعية لمدة سنة.",
+     "ex2": "Most clients accept the standard warranty.",
+     "ar2": "أغلب العملا بيقبلوا الضمان العادي."
+    },
+    {
+     "w": "full warranty",
+     "ex": "The full warranty includes parts, labour, and on-site visits.",
+     "ar": "الضمان الشامل فيه القطع والمصنعية والزيارات في الموقع.",
+     "ex2": "It costs more but the client pays nothing for repairs.",
+     "ar2": "بيتكلف أكتر بس العميل مبيدفعش حاجة في التصليح."
+    }
+   ]
+  },
+  "ctx": "The inverter failed after eight months. Luckily it's still under warranty, so the repair is free.",
+  "ctx_ar": "الإنفرتر عطل بعد تمن شهور. لحسن الحظ لسه في الضمان، فالتصليح ببلاش.",
+  "quiz": [
+   {
+    "s": "Is this UPS still under ___?",
+    "opts": [
+     "warranty",
+     "warrant",
+     "warrantied"
+    ],
+    "a": 0,
+    "ar": "الـ ‎UPS‎ ده لسه في الضمان؟"
+   },
+   {
+    "s": "A small fan fault doesn't ___ a new unit.",
+    "opts": [
+     "warranty",
+     "warrant",
+     "cover"
+    ],
+    "a": 1,
+    "ar": "عطل مروحة صغير ميستاهلش وحدة جديدة."
+   },
+   {
+    "s": "We ___ delivery within ten days.",
+    "opts": [
+     "guarantee",
+     "warranty",
+     "cover"
+    ],
+    "a": 0,
+    "ar": "بنضمن التوريد خلال عشر أيام."
+   }
+  ]
+ },
+ {
+  "w": "momentum",
+  "ar": "زخم / قوة دفع",
+  "family": [
+   {
+    "w": "momentum",
+    "pos": "noun",
+    "ex": "The project has good momentum after the PO was signed.",
+    "ar": "المشروع ماشي بقوة بعد ما أمر الشراء اتمضى.",
+    "ex2": "Let's keep the momentum and deliver the batteries this week.",
+    "ar2": "خلّينا نحافظ على الزخم ونسلّم البطاريات الأسبوع ده."
+   },
+   {
+    "w": "gain momentum",
+    "pos": "verb",
+    "ex": "Solar sales gained momentum after the new fuel prices.",
+    "ar": "مبيعات الطاقة الشمسية زادت بقوة بعد أسعار الوقود الجديدة.",
+    "ex2": "Demand is still gaining momentum in Upper Egypt.",
+    "ar2": "الطلب لسه بيزيد في الصعيد."
+   },
+   {
+    "w": "lose momentum",
+    "pos": "verb",
+    "ex": "The deal may lose momentum while their manager travels.",
+    "ar": "الصفقة ممكن تهدى شوية والمدير بتاعهم مسافر.",
+    "ex2": "We called weekly so it wouldn't lose momentum completely.",
+    "ar2": "كنا بنكلمهم كل أسبوع عشان متقفش خالص."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "progress",
+    "note": "neutral; how far work has moved",
+    "ex": "We made good progress on the data centre wiring.",
+    "ar": "عملنا تقدم كويس في توصيلات الداتا سنتر.",
+    "ex2": "Progress will be reported every Sunday.",
+    "ar2": "التقدم هيتبعت تقرير عنه كل يوم أحد."
+   },
+   {
+    "w": "drive",
+    "note": "energy and determination of people, not the project",
+    "ex": "The new sales team has real drive.",
+    "ar": "فريق المبيعات الجديد عنده حماس حقيقي.",
+    "ex2": "That drive brought three new clients this month.",
+    "ar2": "الحماس ده جاب تلات عملا جداد الشهر ده."
+   },
+   {
+    "w": "pace",
+    "note": "speed of work, not energy",
+    "ex": "The installation pace is about two sites a day.",
+    "ar": "سرعة التركيب حوالي موقعين في اليوم.",
+    "ex2": "At this pace we'll finish before the deadline.",
+    "ar2": "بالسرعة دي هنخلص قبل الميعاد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "stagnation",
+    "ex": "There's stagnation in UPS sales this quarter.",
+    "ar": "فيه ركود في مبيعات الـ ‎UPS‎ الربع ده.",
+    "ex2": "Stagnation means we need a new promotion.",
+    "ar2": "الركود معناه إننا محتاجين عرض جديد."
+   },
+   {
+    "w": "standstill",
+    "ex": "The project came to a standstill waiting for customs.",
+    "ar": "المشروع وقف خالص مستني الجمارك.",
+    "ex2": "The standstill delayed our invoice by a month.",
+    "ar2": "الوقفة دي أخرت الفاتورة بتاعتنا شهر."
+   }
+  ],
+  "ladder": {
+   "label": "how strong the push is",
+   "lar": "قوة الدفع قد إيه",
+   "steps": [
+    {
+     "w": "slow progress",
+     "ex": "We're seeing slow progress on the hospital tender.",
+     "ar": "التقدم بطيء في مناقصة المستشفى.",
+     "ex2": "They still haven't answered our technical questions.",
+     "ar2": "لسه مردّوش على أسئلتنا الفنية."
+    },
+    {
+     "w": "steady progress",
+     "ex": "The solar project is making steady progress.",
+     "ar": "مشروع الطاقة الشمسية ماشي بتقدم ثابت.",
+     "ex2": "Two of four roofs are already finished.",
+     "ar2": "سطحين من أربعة خلصوا خلاص."
+    },
+    {
+     "w": "strong momentum",
+     "ex": "Sales have strong momentum since the price drop.",
+     "ar": "المبيعات ماشية بقوة من ساعة ما الأسعار نزلت.",
+     "ex2": "We closed six deals in two weeks.",
+     "ar2": "قفلنا ست صفقات في أسبوعين."
+    }
+   ]
+  },
+  "ctx": "The client approved the first phase quickly. We should keep the momentum and send the phase-two quotation today.",
+  "ctx_ar": "العميل وافق على المرحلة الأولى بسرعة. لازم نحافظ على الزخم ونبعت عرض سعر المرحلة التانية النهارده.",
+  "quiz": [
+   {
+    "s": "Let's keep the ___ and close the deal this week.",
+    "opts": [
+     "momentum",
+     "stagnation",
+     "pace"
+    ],
+    "a": 0,
+    "ar": "خلّينا نحافظ على الزخم ونقفل الصفقة الأسبوع ده."
+   },
+   {
+    "s": "The project came to a ___ because of customs.",
+    "opts": [
+     "momentum",
+     "drive",
+     "standstill"
+    ],
+    "a": 2,
+    "ar": "المشروع وقف خالص بسبب الجمارك."
+   },
+   {
+    "s": "Solar demand will ___ as fuel prices rise.",
+    "opts": [
+     "lose momentum",
+     "gain momentum",
+     "standstill"
+    ],
+    "a": 1,
+    "ar": "الطلب على الطاقة الشمسية هيزيد بقوة مع ارتفاع أسعار الوقود."
+   }
+  ]
+ },
+ {
+  "w": "proceed",
+  "ar": "يكمّل / يمشي في الإجراء",
+  "family": [
+   {
+    "w": "proceed",
+    "pos": "verb",
+    "ex": "Please proceed with the battery replacement.",
+    "ar": "ياريت تكمّل في تغيير البطاريات.",
+    "ex2": "We'll proceed as soon as we receive the PO.",
+    "ar2": "هنبدأ أول ما يوصلنا أمر الشراء."
+   },
+   {
+    "w": "procedure",
+    "pos": "noun",
+    "ex": "Follow the shutdown procedure before opening the UPS.",
+    "ar": "اتبع خطوات الفصل قبل ما تفتح الـ ‎UPS.‎",
+    "ex2": "The procedure is printed inside the cabinet door.",
+    "ar2": "الخطوات مطبوعة جوه باب الكابينة."
+   },
+   {
+    "w": "proceedings",
+    "pos": "noun",
+    "ex": "Legal proceedings started over the unpaid invoice.",
+    "ar": "الإجراءات القانونية بدأت بسبب الفاتورة اللي متدفعتش.",
+    "ex2": "Our lawyer will follow the proceedings in court.",
+    "ar2": "المحامي بتاعنا هيتابع الإجراءات في المحكمة."
+   },
+   {
+    "w": "proceeds",
+    "pos": "noun",
+    "ex": "The proceeds from the old batteries go to the service budget.",
+    "ar": "فلوس بيع البطاريات القديمة بتروح لميزانية الخدمة.",
+    "ex2": "Last year the proceeds covered two new testers.",
+    "ar2": "السنة اللي فاتت الفلوس دي غطّت جهازين قياس جداد."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "go ahead",
+    "note": "informal; give or get permission to start",
+    "ex": "You can go ahead with the installation tomorrow.",
+    "ar": "تقدر تبدأ التركيب بكرة.",
+    "ex2": "The client gave us the go-ahead by phone.",
+    "ar2": "العميل اداّنا الموافقة على التليفون."
+   },
+   {
+    "w": "continue",
+    "note": "keep doing something already started",
+    "ex": "Continue the load test for another hour.",
+    "ar": "كمّل اختبار الحمل ساعة كمان.",
+    "ex2": "If it continues stable, we can sign off.",
+    "ar2": "لو فضل مستقر، نقدر نسلّم."
+   },
+   {
+    "w": "move forward",
+    "note": "common in meetings; progress to the next step",
+    "ex": "Let's move forward with the supplier from Turkey.",
+    "ar": "خلّينا نكمّل مع المورد التركي.",
+    "ex2": "Moving forward, all orders go through him.",
+    "ar2": "من هنا ورايح، كل الطلبات هتعدي عليه."
+   }
+  ],
+  "ant": [
+   {
+    "w": "halt",
+    "ex": "Halt the work until the safety officer arrives.",
+    "ar": "وقّفوا الشغل لحد ما مسؤول السلامة يوصل.",
+    "ex2": "We can't halt the chillers for more than an hour.",
+    "ar2": "مينفعش نوقف التشيلرات أكتر من ساعة."
+   },
+   {
+    "w": "withdraw",
+    "ex": "We decided to withdraw from the tender.",
+    "ar": "قررنا ننسحب من المناقصة.",
+    "ex2": "Their payment terms made us withdraw.",
+    "ar2": "شروط الدفع بتاعتهم خلّتنا ننسحب."
+   }
+  ],
+  "ladder": {
+   "label": "how formal the permission is",
+   "lar": "الموافقة رسمية قد إيه",
+   "steps": [
+    {
+     "w": "go ahead",
+     "ex": "Go ahead and order the batteries.",
+     "ar": "اطلب البطاريات يلا.",
+     "ex2": "I'll sign the form later today.",
+     "ar2": "همضي الورقة بعدين النهارده."
+    },
+    {
+     "w": "proceed",
+     "ex": "Please proceed with the order as quoted.",
+     "ar": "ياريت تكمّلوا الطلب زي العرض.",
+     "ex2": "The PO will follow by email.",
+     "ar2": "أمر الشراء هيتبعت بالإيميل."
+    },
+    {
+     "w": "authorize",
+     "ex": "The board authorized the purchase of two new UPS units.",
+     "ar": "مجلس الإدارة وافق رسميًا على شراء وحدتين ‎UPS‎ جداد.",
+     "ex2": "Finance can now authorize the advance payment.",
+     "ar2": "الحسابات تقدر دلوقتي تعتمد الدفعة المقدمة."
+    }
+   ]
+  },
+  "ctx": "The client accepted our quotation this morning. We can proceed with ordering the inverters from the supplier.",
+  "ctx_ar": "العميل وافق على عرض السعر الصبح. نقدر نكمّل ونطلب الإنفرترات من المورد.",
+  "quiz": [
+   {
+    "s": "Please follow the safety ___ before opening the cabinet.",
+    "opts": [
+     "proceed",
+     "procedure",
+     "proceeds"
+    ],
+    "a": 1,
+    "ar": "ياريت تتبع خطوات السلامة قبل ما تفتح الكابينة."
+   },
+   {
+    "s": "We can ___ once the advance payment arrives.",
+    "opts": [
+     "proceed",
+     "procedure",
+     "halt"
+    ],
+    "a": 0,
+    "ar": "نقدر نكمّل أول ما الدفعة المقدمة توصل."
+   },
+   {
+    "s": "The ___ from scrap batteries funded new tools.",
+    "opts": [
+     "proceedings",
+     "procedure",
+     "proceeds"
+    ],
+    "a": 2,
+    "ar": "فلوس البطاريات الخردة جابت عدد جديدة."
+   }
+  ]
+ }
+]

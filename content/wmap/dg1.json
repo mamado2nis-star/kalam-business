@@ -1,0 +1,817 @@
+[
+ {
+  "w": "lagging",
+  "ar": "بيهنّج / متأخر عن غيره",
+  "family": [
+   {
+    "w": "lag",
+    "pos": "noun",
+    "ex": "There's a two-second lag on the remote monitoring screen.",
+    "ar": "شاشة المراقبة عن بعد فيها تأخير ثانيتين.",
+    "ex2": "The lag makes it hard to see battery alarms in real time.",
+    "ar2": "التأخير ده بيخلّي صعب نشوف إنذارات البطاريات أول بأول."
+   },
+   {
+    "w": "lag",
+    "pos": "verb",
+    "ex": "Our collections lag behind sales by about two months.",
+    "ar": "التحصيل عندنا متأخر عن المبيعات بحوالي شهرين.",
+    "ex2": "If collections lag any further, we'll struggle to pay suppliers.",
+    "ar2": "لو التحصيل اتأخر أكتر من كده، هنتزنق في الدفع للموردين."
+   },
+   {
+    "w": "lagging",
+    "pos": "adjective",
+    "ex": "Sorry, my video is lagging, so I'll switch off my camera.",
+    "ar": "معلش الفيديو عندي بيهنّج، فهقفل الكاميرا.",
+    "ex2": "The lagging connection is from the weak 4G signal on site.",
+    "ar2": "النت البطيء ده بسبب إشارة الـ‎4G‎ الضعيفة في الموقع."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "slow or delayed (video, screen, system)",
+    "mar": "بيهنّج / بطيء",
+    "ex": "The SCADA screen keeps lagging when we open the VFD trends.",
+    "ar": "شاشة الـ‎SCADA‎ بتفضل تهنّج لما نفتح منحنيات الـ‎VFD‎.",
+    "ex2": "IT says the lagging comes from an old server in the control room.",
+    "ar2": "الـ‎IT‎ بيقولوا إن التهنيج جاي من سيرفر قديم في غرفة التحكم."
+   },
+   {
+    "m": "behind a target or behind others",
+    "mar": "متأخر عن التارجت أو عن غيره",
+    "ex": "Solar sales in Upper Egypt are lagging behind Cairo this quarter.",
+    "ar": "مبيعات الطاقة الشمسية في الصعيد متأخرة عن القاهرة الربع ده.",
+    "ex2": "We'll send Karim to support the lagging region next month.",
+    "ar2": "هنبعت كريم يساند المنطقة المتأخرة الشهر الجاي."
+   }
+  ],
+  "syn": [
+   {
+    "w": "slow",
+    "note": "general word for any speed problem",
+    "ex": "The ERP is slow today, so invoices take ages to print.",
+    "ar": "الـ‎ERP‎ بطيء النهارده، فالفواتير بتاخد وقت طويل عشان تتطبع.",
+    "ex2": "Accounts asked IT why the system is so slow.",
+    "ar2": "الحسابات سألوا الـ‎IT‎ ليه السيستم بطيء كده."
+   },
+   {
+    "w": "delayed",
+    "note": "happens later than planned: shipments, replies, payments",
+    "ex": "The battery shipment is delayed at Alexandria port.",
+    "ar": "شحنة البطاريات متأخرة في ميناء إسكندرية.",
+    "ex2": "Please tell the customer the delayed batteries will arrive Sunday.",
+    "ar2": "قول للعميل إن البطاريات المتأخرة هتوصل يوم الحد."
+   },
+   {
+    "w": "freezing",
+    "note": "screen stops completely for a while; stronger than lagging",
+    "ex": "My screen keeps freezing during the client presentation.",
+    "ar": "الشاشة عندي بتقف خالص في نص العرض للعميل.",
+    "ex2": "Can someone else share the quotation while my laptop is freezing?",
+    "ar2": "حد تاني يقدر يعرض عرض السعر لحد ما اللابتوب يفك؟"
+   }
+  ],
+  "ant": [
+   {
+    "w": "smooth",
+    "ex": "After the router upgrade, the video call was smooth.",
+    "ar": "بعد ما غيّرنا الراوتر، مكالمة الفيديو بقت سلسة.",
+    "ex2": "A smooth connection made the remote commissioning much easier.",
+    "ar2": "النت الكويس خلّى التشغيل عن بعد أسهل بكتير."
+   },
+   {
+    "w": "ahead",
+    "ex": "Our UPS sales are ahead of target this quarter.",
+    "ar": "مبيعات الـ‎UPS‎ عندنا سابقة التارجت الربع ده.",
+    "ex2": "Being ahead lets us focus on collections in December.",
+    "ar2": "إننا سابقين بيخلّينا نركّز على التحصيل في ديسمبر."
+   }
+  ],
+  "ladder": {
+   "label": "how bad the connection is",
+   "lar": "النت وحش قد إيه",
+   "steps": [
+    {
+     "w": "slow",
+     "ex": "The site Wi-Fi is slow, so the firmware download takes longer.",
+     "ar": "الواي فاي في الموقع بطيء، فتحميل السوفتوير بياخد وقت أطول.",
+     "ex2": "It's slow but still usable for email.",
+     "ar2": "بطيء بس لسه ينفع للإيميل."
+    },
+    {
+     "w": "lagging",
+     "ex": "Your voice is lagging behind your video, Ahmed.",
+     "ar": "صوتك متأخر عن الصورة يا أحمد.",
+     "ex2": "Maybe turn off your camera to reduce the lagging.",
+     "ar2": "جرّب تقفل الكاميرا عشان التهنيج يقلّ."
+    },
+    {
+     "w": "freezing",
+     "ex": "The screen keeps freezing every few seconds.",
+     "ar": "الشاشة بتقف كل كام ثانية.",
+     "ex2": "We can't review the drawings while it's freezing like this.",
+     "ar2": "مش هنعرف نراجع الرسومات وهي بتقف كده."
+    },
+    {
+     "w": "dropped",
+     "ex": "The call dropped twice while we were discussing the PO.",
+     "ar": "المكالمة وقعت مرتين وإحنا بنتكلم في أمر الشراء.",
+     "ex2": "After it dropped again, we finished the discussion by email.",
+     "ar2": "بعد ما وقعت تاني، كمّلنا الكلام على الإيميل."
+    }
+   ]
+  },
+  "ctx": "Sorry, my video is lagging on site. Could you share the quotation in the chat instead?",
+  "ctx_ar": "معلش الفيديو عندي بيهنّج في الموقع. ممكن تبعت عرض السعر في الشات بدل كده؟",
+  "quiz": [
+   {
+    "s": "There's a two-second ___ on the monitoring screen.",
+    "opts": [
+     "lag",
+     "lagging",
+     "smooth"
+    ],
+    "a": 0,
+    "ar": "فيه تأخير ثانيتين على شاشة المراقبة."
+   },
+   {
+    "s": "Sorry, my video is ___, so I'll turn off my camera.",
+    "opts": [
+     "lag",
+     "smooth",
+     "lagging"
+    ],
+    "a": 2,
+    "ar": "معلش الفيديو عندي بيهنّج، فهقفل الكاميرا."
+   },
+   {
+    "s": "The screen stopped completely; it keeps ___.",
+    "opts": [
+     "lagging",
+     "freezing",
+     "smooth"
+    ],
+    "a": 1,
+    "ar": "الشاشة وقفت خالص؛ فضلت تقف."
+   }
+  ]
+ },
+ {
+  "w": "sort out",
+  "ar": "يحلّ / يظبط مشكلة",
+  "family": [
+   {
+    "w": "sort",
+    "pos": "verb",
+    "ex": "Please sort the overdue invoices by customer name.",
+    "ar": "لو سمحت رتّب الفواتير المتأخرة حسب اسم العميل.",
+    "ex2": "Sorting them that way makes the collection calls faster.",
+    "ar2": "ترتيبها بالشكل ده بيخلّي مكالمات التحصيل أسرع."
+   },
+   {
+    "w": "sort out",
+    "pos": "verb",
+    "ex": "Our engineer will sort out the UPS alarm tomorrow morning.",
+    "ar": "المهندس بتاعنا هيحل إنذار الـ‎UPS‎ بكرة الصبح.",
+    "ex2": "He'll bring a spare fan in case it needs replacing.",
+    "ar2": "هياخد معاه مروحة احتياطي لو احتاجت تتغيّر."
+   },
+   {
+    "w": "sorted",
+    "pos": "adjective",
+    "ex": "Don't worry, the delivery problem is sorted.",
+    "ar": "متقلقش، مشكلة التوصيل اتحلّت.",
+    "ex2": "The batteries will reach the site on Sunday as planned.",
+    "ar2": "البطاريات هتوصل الموقع يوم الحد زي ما اتفقنا."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "fix a problem",
+    "mar": "يحل مشكلة",
+    "ex": "Can you sort out the error on the VFD panel before noon?",
+    "ar": "ممكن تحل الإيرور اللي على لوحة الـ‎VFD‎ قبل الضهر؟",
+    "ex2": "The pump has been stopped since morning, so please sort it out.",
+    "ar2": "الطلمبة واقفة من الصبح، فياريت تحلّها."
+   },
+   {
+    "m": "arrange or organize",
+    "mar": "يرتّب / يجهّز",
+    "ex": "I need to sort out the documents for customs clearance.",
+    "ar": "محتاج أجهّز الورق بتاع التخليص الجمركي.",
+    "ex2": "Once they're sorted out, the shipment can leave the port.",
+    "ar2": "أول ما يتجهّزوا، الشحنة تقدر تخرج من الميناء."
+   }
+  ],
+  "syn": [
+   {
+    "w": "fix",
+    "note": "for technical faults in equipment or software",
+    "ex": "The technician fixed the faulty charger in an hour.",
+    "ar": "الفني صلّح الشاحن البايظ في ساعة.",
+    "ex2": "Once it was fixed, the batteries started charging normally.",
+    "ar2": "أول ما اتصلّح، البطاريات بدأت تشحن عادي."
+   },
+   {
+    "w": "deal with",
+    "note": "neutral; take action on a problem or task",
+    "ex": "Mona will deal with the customer's complaint about late delivery.",
+    "ar": "منى هتتعامل مع شكوى العميل بخصوص التأخير في التوصيل.",
+    "ex2": "She deals with that account every day, so she knows them well.",
+    "ar2": "هي ماسكة الحساب ده كل يوم، فعارفاهم كويس."
+   },
+   {
+    "w": "resolve",
+    "note": "formal; used in emails about complaints and disputes",
+    "ex": "We have resolved the invoice issue with your accounts team.",
+    "ar": "حلّينا مشكلة الفاتورة مع فريق الحسابات عندكم.",
+    "ex2": "The corrected e-invoice went out today, so the case is resolved.",
+    "ar2": "الفاتورة الإلكترونية المعدّلة اتبعتت النهارده، فالموضوع اتقفل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "mess up",
+    "ex": "The wrong part number messed up the whole PO.",
+    "ar": "رقم القطعة الغلط بوّظ أمر الشراء كله.",
+    "ex2": "Now we need a revised PO because someone messed up the code.",
+    "ar2": "دلوقتي محتاجين أمر شراء معدّل عشان حد بوّظ الكود."
+   }
+  ],
+  "ladder": {
+   "label": "how formal",
+   "lar": "رسمي قد إيه",
+   "steps": [
+    {
+     "w": "sort out",
+     "ex": "Don't worry, I'll sort it out with the warehouse.",
+     "ar": "متقلقش، هظبطها مع المخزن.",
+     "ex2": "It's just a missing battery cable; easy to sort out.",
+     "ar2": "ده مجرد كابل بطارية ناقص، سهل يتحل."
+    },
+    {
+     "w": "deal with",
+     "ex": "Our service manager will deal with the delayed visit.",
+     "ar": "مدير الخدمة هيتعامل مع الزيارة المتأخرة.",
+     "ex2": "He'll deal with it today and call you back.",
+     "ar2": "هيتصرف فيها النهارده ويكلّمك تاني."
+    },
+    {
+     "w": "resolve",
+     "ex": "We are working to resolve the discrepancy in your statement.",
+     "ar": "إحنا شغالين على حل الاختلاف اللي في كشف حسابك.",
+     "ex2": "We expect to resolve it before the end of the month.",
+     "ar2": "متوقعين نحلّه قبل آخر الشهر."
+    }
+   ]
+  },
+  "ctx": "There's a mismatch between the PO and our invoice. Hany will sort it out with their accounts team today.",
+  "ctx_ar": "فيه عدم تطابق بين أمر الشراء والفاتورة بتاعتنا. هاني هيظبطها مع الحسابات عندهم النهارده.",
+  "quiz": [
+   {
+    "s": "Don't worry, the delivery problem is ___ now.",
+    "opts": [
+     "sort",
+     "sorted",
+     "mess up"
+    ],
+    "a": 1,
+    "ar": "متقلقش، مشكلة التوصيل اتحلّت خلاص."
+   },
+   {
+    "s": "In a formal email: 'We have ___ the issue with your invoice.'",
+    "opts": [
+     "messed up",
+     "sorted",
+     "resolved"
+    ],
+    "a": 2,
+    "ar": "في إيميل رسمي: 'حلّينا المشكلة الخاصة بفاتورتكم.'"
+   },
+   {
+    "s": "Can you ___ the VFD error before the pump stops again?",
+    "opts": [
+     "sort out",
+     "sorted",
+     "mess up"
+    ],
+    "a": 0,
+    "ar": "ممكن تحل إيرور الـ‎VFD‎ قبل ما الطلمبة تقف تاني؟"
+   }
+  ]
+ },
+ {
+  "w": "resend",
+  "ar": "يبعت تاني",
+  "family": [
+   {
+    "w": "send",
+    "pos": "verb",
+    "ex": "I'll send the revised quotation before 3 p.m.",
+    "ar": "هبعت عرض السعر المعدّل قبل الساعة 3.",
+    "ex2": "Please send it to the purchasing manager too.",
+    "ar2": "ياريت تبعته لمدير المشتريات كمان."
+   },
+   {
+    "w": "resend",
+    "pos": "verb",
+    "ex": "Could you please resend the signed PO? The attachment didn't open.",
+    "ar": "ممكن تبعت أمر الشراء الموقّع تاني؟ المرفق مفتحش.",
+    "ex2": "Please resend it as a PDF, not a photo.",
+    "ar2": "ياريت تبعته تاني ‎PDF‎ مش صورة."
+   },
+   {
+    "w": "sender",
+    "pos": "person",
+    "ex": "Check the sender before you open any invoice attachment.",
+    "ar": "اتأكد من الراسل قبل ما تفتح أي مرفق فاتورة.",
+    "ex2": "That sender wasn't our real supplier; it was a scam email.",
+    "ar2": "الراسل ده مكانش المورّد بتاعنا الحقيقي، كان إيميل نصب."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "send again",
+    "note": "simple everyday phrase; same meaning",
+    "ex": "Can you send the delivery note again? I can't find it.",
+    "ar": "ممكن تبعت إذن التسليم تاني؟ مش لاقيه.",
+    "ex2": "Please send it again to my Gmail, the work inbox is full.",
+    "ar2": "ابعته تاني على الجيميل بتاعي، الإيميل بتاع الشغل مليان."
+   },
+   {
+    "w": "forward",
+    "note": "send an email you received to someone else",
+    "ex": "I'll forward the customer's complaint to the service team.",
+    "ar": "هحوّل شكوى العميل لفريق الخدمة.",
+    "ex2": "Once forwarded, they'll call him within the hour.",
+    "ar2": "أول ما تتحوّل، هيكلّموه خلال ساعة."
+   },
+   {
+    "w": "reissue",
+    "note": "create and send a NEW corrected version of a document",
+    "ex": "Accounts will reissue the e-invoice with the correct tax number.",
+    "ar": "الحسابات هتطلّع الفاتورة الإلكترونية تاني برقم ضريبي صح.",
+    "ex2": "The reissued invoice cancels the one sent last week.",
+    "ar2": "الفاتورة الجديدة بتلغي اللي اتبعتت الأسبوع اللي فات."
+   }
+  ],
+  "ant": [
+   {
+    "w": "receive",
+    "ex": "We didn't receive your payment confirmation yesterday.",
+    "ar": "موصلناش تأكيد الدفع بتاعك امبارح.",
+    "ex2": "Once we receive it, we'll release the shipment.",
+    "ar2": "أول ما يوصلنا، هنفرج عن الشحنة."
+   }
+  ],
+  "ladder": {
+   "label": "how urgent the request is",
+   "lar": "الطلب مستعجل قد إيه",
+   "steps": [
+    {
+     "w": "resend when possible",
+     "ex": "Could you resend the datasheet when possible?",
+     "ar": "ممكن تبعت الداتا شيت تاني لما تقدر؟",
+     "ex2": "No rush; I'll review it next week.",
+     "ar2": "مش مستعجل، هراجعه الأسبوع الجاي."
+    },
+    {
+     "w": "please resend",
+     "ex": "Please resend the signed contract today.",
+     "ar": "لو سمحت ابعت العقد الموقّع تاني النهارده.",
+     "ex2": "Finance needs it to resend the invoice tomorrow.",
+     "ar2": "المالية محتاجاه عشان تبعت الفاتورة تاني بكرة."
+    },
+    {
+     "w": "resend urgently",
+     "ex": "Please resend the customs documents urgently.",
+     "ar": "لو سمحت ابعت ورق الجمارك تاني حالاً.",
+     "ex2": "The container will be fined if we don't resend them by noon.",
+     "ar2": "الكونتينر هيتغرّم لو مبعتناهمش تاني قبل الضهر."
+    }
+   ]
+  },
+  "ctx": "The PDF of the quotation didn't open on my phone. Could you please resend it in Word format?",
+  "ctx_ar": "الـ‎PDF‎ بتاع عرض السعر مفتحش على موبايلي. ممكن تبعته تاني ‎Word‎؟",
+  "quiz": [
+   {
+    "s": "The attachment didn't open; could you ___ the quotation?",
+    "opts": [
+     "resend",
+     "receive",
+     "sender"
+    ],
+    "a": 0,
+    "ar": "المرفق مفتحش، ممكن تبعت عرض السعر تاني؟"
+   },
+   {
+    "s": "Please check the ___ before opening the attachment; it may be spam.",
+    "opts": [
+     "send",
+     "sender",
+     "resend"
+    ],
+    "a": 1,
+    "ar": "اتأكد من الراسل قبل ما تفتح المرفق، ممكن يكون سبام."
+   },
+   {
+    "s": "Accounts will ___ the e-invoice with a new, correct tax number.",
+    "opts": [
+     "forward",
+     "receive",
+     "reissue"
+    ],
+    "a": 2,
+    "ar": "الحسابات هتطلّع الفاتورة الإلكترونية من جديد برقم ضريبي صح."
+   }
+  ]
+ },
+ {
+  "w": "at hand",
+  "ar": "اللي بنتكلم فيه دلوقتي / قريب وجاهز",
+  "family": [
+   {
+    "w": "hand",
+    "pos": "noun",
+    "ex": "Can you give me a hand with the battery cabinet?",
+    "ar": "ممكن تساعدني في دولاب البطاريات؟",
+    "ex2": "It's too heavy for one person; I need a hand.",
+    "ar2": "تقيل أوي على واحد، محتاج حد يساعدني."
+   },
+   {
+    "w": "at hand",
+    "pos": "adjective",
+    "ex": "Let's focus on the task at hand: the hospital UPS.",
+    "ar": "خلّينا نركّز في الموضوع اللي قدامنا: الـ‎UPS‎ بتاع المستشفى.",
+    "ex2": "The other projects can wait until it's working.",
+    "ar2": "باقي المشاريع تستنى لحد ما يشتغل."
+   },
+   {
+    "w": "on hand",
+    "pos": "adjective",
+    "ex": "We have ten spare battery modules on hand in the warehouse.",
+    "ar": "عندنا عشر موديولات بطاريات احتياطي موجودين في المخزن.",
+    "ex2": "Having them on hand means same-day replacement.",
+    "ar2": "وجودهم جاهزين معناه تغيير في نفس اليوم."
+   },
+   {
+    "w": "handy",
+    "pos": "adjective",
+    "ex": "Keep the wiring diagram handy during commissioning.",
+    "ar": "خلّي رسمة التوصيلات جنبك وقت التشغيل.",
+    "ex2": "It's handy when you need to check a terminal number quickly.",
+    "ar2": "بتفيد لما تحتاج تشوف رقم ترمينال بسرعة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "being dealt with or discussed now",
+    "mar": "الموضوع المطروح دلوقتي",
+    "ex": "Let's go back to the issue at hand: the overdue payment.",
+    "ar": "خلّينا نرجع للموضوع الأساسي: الدفعة المتأخرة.",
+    "ex2": "The new price list can wait for next week's meeting.",
+    "ar2": "قايمة الأسعار الجديدة تستنى اجتماع الأسبوع الجاي."
+   },
+   {
+    "m": "close by and ready to use",
+    "mar": "قريب وجاهز للاستخدام",
+    "ex": "Keep a multimeter at hand when you check the inverter.",
+    "ar": "خلّي الملتيميتر قريب منك وانت بتكشف على الإنفرتر.",
+    "ex2": "You'll need it at hand to measure the DC voltage.",
+    "ar2": "هتحتاجه جنبك عشان تقيس الجهد الـ‎DC‎."
+   }
+  ],
+  "syn": [
+   {
+    "w": "in question",
+    "note": "formal; the specific thing already mentioned",
+    "ex": "The invoice in question was paid on 5 March.",
+    "ar": "الفاتورة اللي بنتكلم عنها اتدفعت يوم 5 مارس.",
+    "ex2": "I've attached the bank receipt for the invoice in question.",
+    "ar2": "مرفق إيصال البنك للفاتورة دي."
+   },
+   {
+    "w": "current",
+    "note": "simple adjective before the noun: the current issue",
+    "ex": "The current issue is the battery overheating, not the price.",
+    "ar": "المشكلة الحالية هي سخونة البطاريات، مش السعر.",
+    "ex2": "Let's solve the current problem first.",
+    "ar2": "خلّينا نحل المشكلة الحالية الأول."
+   },
+   {
+    "w": "on the table",
+    "note": "being discussed, especially offers or options",
+    "ex": "Two options are on the table: repair or replace the UPS.",
+    "ar": "فيه اختيارين مطروحين: نصلّح الـ‎UPS‎ أو نغيّره.",
+    "ex2": "The replacement option is on the table only if they pay 50% upfront.",
+    "ar2": "اختيار التغيير مطروح بس لو دفعوا 50% مقدم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "off-topic",
+    "ex": "Let's leave the off-topic points until after the meeting.",
+    "ar": "خلّينا نسيب النقط اللي برة الموضوع لبعد الاجتماع.",
+    "ex2": "Talking about the new office is off-topic right now.",
+    "ar2": "الكلام عن المكتب الجديد برة الموضوع دلوقتي."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Let's park the price list discussion for now. The issue at hand is the UPS that failed at the hospital last night.",
+  "ctx_ar": "خلّينا نأجل كلام قايمة الأسعار دلوقتي. الموضوع اللي قدامنا هو الـ‎UPS‎ اللي وقع في المستشفى امبارح بالليل.",
+  "quiz": [
+   {
+    "s": "Let's go back to the issue ___: the delayed payment.",
+    "opts": [
+     "at hand",
+     "handy",
+     "on hand"
+    ],
+    "a": 0,
+    "ar": "خلّينا نرجع للموضوع الأساسي: الدفعة المتأخرة."
+   },
+   {
+    "s": "We have ten spare battery modules ___ in the warehouse.",
+    "opts": [
+     "in question",
+     "on hand",
+     "off-topic"
+    ],
+    "a": 1,
+    "ar": "عندنا عشر موديولات بطاريات احتياطي موجودين في المخزن."
+   },
+   {
+    "s": "Keep the wiring diagram ___ during commissioning.",
+    "opts": [
+     "off-topic",
+     "hand",
+     "handy"
+    ],
+    "a": 2,
+    "ar": "خلّي رسمة التوصيلات جنبك وقت التشغيل."
+   }
+  ]
+ },
+ {
+  "w": "catch up",
+  "ar": "يلحق / يعرف اللي فاته",
+  "family": [
+   {
+    "w": "catch up",
+    "pos": "verb",
+    "ex": "I'll catch up on the meeting from the minutes.",
+    "ar": "هعرف اللي فاتني من الاجتماع من المحضر.",
+    "ex2": "I was on site, so I missed the first hour.",
+    "ar2": "كنت في الموقع، ففاتتني أول ساعة."
+   },
+   {
+    "w": "catch-up",
+    "pos": "noun",
+    "ex": "Let's have a quick catch-up on the solar tender on Sunday.",
+    "ar": "تعالى نعمل مكالمة سريعة نتابع فيها مناقصة الطاقة الشمسية يوم الحد.",
+    "ex2": "Fifteen minutes is enough for the catch-up.",
+    "ar2": "ربع ساعة كفاية للمتابعة دي."
+   },
+   {
+    "w": "caught up",
+    "pos": "adjective",
+    "ex": "I'm finally caught up on all the service tickets.",
+    "ar": "أخيراً خلّصت كل تذاكر الخدمة المتأخرة.",
+    "ex2": "Now that I'm caught up, I can visit new customers.",
+    "ar2": "دلوقتي بعد ما لحقت كل حاجة، أقدر أزور عملاء جداد."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "learn what you missed",
+    "mar": "يعرف اللي فاته",
+    "ex": "Please mute your mic and catch up through the chat.",
+    "ar": "لو سمحت اقفل المايك والحق اللي فاتك من الشات.",
+    "ex2": "The slides are shared too, so you can catch up quickly.",
+    "ar2": "الشرايح متشاركة كمان، فتقدر تلحق بسرعة."
+   },
+   {
+    "m": "meet and exchange news",
+    "mar": "يقعد مع حد ويتكلموا في الجديد",
+    "ex": "Let's catch up over coffee after the site visit.",
+    "ar": "تعالى نقعد على قهوة بعد زيارة الموقع ونتكلم.",
+    "ex2": "We haven't caught up since you moved to the Alex branch.",
+    "ar2": "متكلمناش من ساعة ما اتنقلت فرع إسكندرية."
+   },
+   {
+    "m": "reach the level you should be at",
+    "mar": "يلحق المتأخر",
+    "ex": "We need two more engineers to catch up on PM visits.",
+    "ar": "محتاجين مهندسين كمان عشان نلحق زيارات الصيانة الدورية.",
+    "ex2": "We fell behind during Ramadan and must catch up by May.",
+    "ar2": "اتأخرنا في رمضان ولازم نلحق قبل مايو."
+   }
+  ],
+  "syn": [
+   {
+    "w": "get up to speed",
+    "note": "learn enough to work on something you joined late",
+    "ex": "Read the contract to get up to speed on the data centre project.",
+    "ar": "اقرا العقد عشان تفهم مشروع الداتا سنتر وتلحقنا.",
+    "ex2": "Karim will help you get up to speed this week.",
+    "ar2": "كريم هيساعدك تلحق الأسبوع ده."
+   },
+   {
+    "w": "fill in",
+    "note": "someone ELSE tells you what you missed",
+    "ex": "Can you fill me in on yesterday's call with the supplier?",
+    "ar": "ممكن تحكيلي إيه اللي حصل في مكالمة امبارح مع المورّد؟",
+    "ex2": "Mona filled me in, so I know the new delivery date.",
+    "ar2": "منى حكتلي، فعرفت ميعاد التوصيل الجديد."
+   },
+   {
+    "w": "update",
+    "note": "more formal; give or get the latest news",
+    "ex": "Please update me on the status of the VFD order.",
+    "ar": "ياريت تبلّغني بآخر حالة أوردر الـ‎VFD‎.",
+    "ex2": "A short email update by Thursday is fine.",
+    "ar2": "إيميل صغير بالجديد قبل الخميس كفاية."
+   }
+  ],
+  "ant": [
+   {
+    "w": "fall behind",
+    "ex": "If two engineers are on leave, PM visits will fall behind.",
+    "ar": "لو مهندسين خدوا أجازة، زيارات الصيانة هتتأخر.",
+    "ex2": "Falling behind could cost us penalties in the contract.",
+    "ar2": "التأخير ممكن يكلّفنا غرامات في العقد."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Sorry I missed the start of the meeting. I'll catch up from the minutes and the shared slides.",
+  "ctx_ar": "معلش فاتتني بداية الاجتماع. هلحق اللي فاتني من المحضر والشرايح اللي اتشاركت.",
+  "quiz": [
+   {
+    "s": "Let's have a quick ___ call on Sunday about the solar tender.",
+    "opts": [
+     "catch up",
+     "catch-up",
+     "caught up"
+    ],
+    "a": 1,
+    "ar": "تعالى نعمل مكالمة متابعة سريعة يوم الحد عن مناقصة الطاقة الشمسية."
+   },
+   {
+    "s": "I'm finally ___ on all the service tickets.",
+    "opts": [
+     "caught up",
+     "catch-up",
+     "fall behind"
+    ],
+    "a": 0,
+    "ar": "أخيراً لحقت كل تذاكر الخدمة."
+   },
+   {
+    "s": "If two engineers are on leave, PM visits will ___.",
+    "opts": [
+     "catch up",
+     "get up to speed",
+     "fall behind"
+    ],
+    "a": 2,
+    "ar": "لو مهندسين خدوا أجازة، زيارات الصيانة الدورية هتتأخر."
+   }
+  ]
+ },
+ {
+  "w": "minimize",
+  "ar": "يقلّل لأقل حد",
+  "family": [
+   {
+    "w": "minimize",
+    "pos": "verb",
+    "ex": "We schedule maintenance at night to minimize downtime.",
+    "ar": "بنحدد الصيانة بالليل عشان نقلّل التوقف لأقل حد.",
+    "ex2": "This way we minimize the impact on the factory's production.",
+    "ar2": "كده بنقلّل التأثير على إنتاج المصنع."
+   },
+   {
+    "w": "minimum",
+    "pos": "noun",
+    "ex": "The minimum for this battery model is 40 units per order.",
+    "ar": "أقل كمية للموديل ده من البطاريات 40 وحدة في الأوردر.",
+    "ex2": "Below that minimum, the supplier charges extra shipping.",
+    "ar2": "لو أقل من الحد ده، المورّد بياخد شحن زيادة."
+   },
+   {
+    "w": "minimal",
+    "pos": "adjective",
+    "ex": "With hot-swap modules, the impact on users is minimal.",
+    "ar": "مع الموديولات اللي بتتغير وهي شغالة، التأثير على المستخدمين بسيط جداً.",
+    "ex2": "The servers stay on, so disruption is minimal.",
+    "ar2": "السيرفرات بتفضل شغالة، فالتعطيل بيبقى قليل جداً."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "reduce",
+    "note": "make smaller, not necessarily to the lowest level",
+    "ex": "The new VFD will reduce the pump's energy use by 30%.",
+    "ar": "الـ‎VFD‎ الجديد هيقلّل استهلاك الطلمبة للكهربا بنسبة 30%.",
+    "ex2": "Reducing energy cost is the main selling point.",
+    "ar2": "تقليل تكلفة الكهربا هو أهم نقطة في البيع."
+   },
+   {
+    "w": "cut",
+    "note": "informal; usually about costs or time",
+    "ex": "We need to cut shipping costs on small orders.",
+    "ar": "محتاجين نقلّل مصاريف الشحن في الأوردرات الصغيرة.",
+    "ex2": "Combining orders could cut the cost by half.",
+    "ar2": "تجميع الأوردرات ممكن يقلّل التكلفة للنص."
+   },
+   {
+    "w": "limit",
+    "note": "keep below a set level",
+    "ex": "Please limit discounts to 10% without manager approval.",
+    "ar": "لو سمحت متزوّدش الخصم عن 10% من غير موافقة المدير.",
+    "ex2": "The limit protects our margin on imported units.",
+    "ar2": "الحد ده بيحمي هامشنا في الأجهزة المستوردة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "maximize",
+    "ex": "Clean the panels monthly to maximize solar output.",
+    "ar": "نضّف الألواح كل شهر عشان تطلّع أعلى إنتاج للطاقة الشمسية.",
+    "ex2": "Dust can cut output by 20%, so maximize it with regular cleaning.",
+    "ar2": "التراب ممكن يقلّل الإنتاج 20%، فزوّده بالتنضيف المنتظم."
+   },
+   {
+    "w": "increase",
+    "ex": "Late payments increase our financing costs.",
+    "ar": "التأخير في الدفع بيزوّد تكاليف التمويل علينا.",
+    "ex2": "That increase comes straight out of our profit.",
+    "ar2": "الزيادة دي بتتخصم من ربحنا على طول."
+   }
+  ],
+  "ladder": {
+   "label": "how much smaller",
+   "lar": "بيقلّ قد إيه",
+   "steps": [
+    {
+     "w": "reduce",
+     "ex": "The new charger will reduce battery heating.",
+     "ar": "الشاحن الجديد هيقلّل سخونة البطاريات.",
+     "ex2": "Less heat means a longer battery life.",
+     "ar2": "سخونة أقل يعني عمر أطول للبطارية."
+    },
+    {
+     "w": "minimize",
+     "ex": "Night work will minimize downtime for the bank.",
+     "ar": "الشغل بالليل هيقلّل توقف البنك لأقل حد.",
+     "ex2": "Only the ATMs will be on battery for ten minutes.",
+     "ar2": "الـ‎ATMs‎ بس هتشتغل على البطارية عشر دقايق."
+    },
+    {
+     "w": "eliminate",
+     "ex": "A redundant UPS will eliminate downtime completely.",
+     "ar": "‎UPS‎ احتياطي هيلغي التوقف خالص.",
+     "ex2": "If one unit fails, the other takes the full load.",
+     "ar2": "لو جهاز وقع، التاني بياخد الحمل كله."
+    }
+   ]
+  },
+  "ctx": "We'll replace the batteries in hot-swap mode. That way we minimize downtime for the data centre.",
+  "ctx_ar": "هنغيّر البطاريات والجهاز شغال. كده نقلّل توقف الداتا سنتر لأقل حد.",
+  "quiz": [
+   {
+    "s": "We schedule maintenance at night to ___ downtime.",
+    "opts": [
+     "minimal",
+     "minimize",
+     "minimum"
+    ],
+    "a": 1,
+    "ar": "بنحدد الصيانة بالليل عشان نقلّل التوقف لأقل حد."
+   },
+   {
+    "s": "The ___ order for this battery model is 40 units.",
+    "opts": [
+     "minimum",
+     "minimize",
+     "maximize"
+    ],
+    "a": 0,
+    "ar": "أقل أوردر للموديل ده من البطاريات 40 وحدة."
+   },
+   {
+    "s": "With hot-swap modules, the impact on users is ___.",
+    "opts": [
+     "minimize",
+     "maximize",
+     "minimal"
+    ],
+    "a": 2,
+    "ar": "مع الموديولات اللي بتتغير وهي شغالة، التأثير على المستخدمين بسيط جداً."
+   }
+  ]
+ }
+]

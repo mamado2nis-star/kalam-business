@@ -1,0 +1,824 @@
+[
+ {
+  "w": "delegate",
+  "ar": "يفوّض / يدّي مهمة لحد تاني",
+  "family": [
+   {
+    "w": "delegate",
+    "pos": "verb",
+    "ex": "Ahmed delegated the battery replacement job to two junior technicians.",
+    "ar": "أحمد ادّى شغلانة تغيير البطاريات لاتنين فنيين جداد.",
+    "ex2": "He delegated it so he could focus on the big tender.",
+    "ar2": "فوّضهم عشان يركّز على المناقصة الكبيرة."
+   },
+   {
+    "w": "delegation",
+    "pos": "noun",
+    "ex": "Good delegation lets the service manager handle more customers.",
+    "ar": "التفويض الكويس بيخلّي مدير الخدمة يتابع عملا أكتر.",
+    "ex2": "Without delegation, he'd spend all day on site visits.",
+    "ar2": "من غير تفويض، كان هيقضي اليوم كله في زيارات مواقع."
+   },
+   {
+    "w": "delegate",
+    "pos": "person",
+    "ex": "Our company sent two delegates to the solar energy exhibition.",
+    "ar": "شركتنا بعتت مندوبين اتنين لمعرض الطاقة الشمسية.",
+    "ex2": "The delegates collected twenty new customer contacts.",
+    "ar2": "المندوبين جمعوا عشرين رقم عميل جديد."
+   },
+   {
+    "w": "delegated",
+    "pos": "adjective",
+    "ex": "Collections are a delegated task for the finance assistant.",
+    "ar": "التحصيل مهمة متفوّضة لمساعد الحسابات.",
+    "ex2": "Delegated tasks still need a weekly check by the manager.",
+    "ar2": "المهام المتفوّضة لسه محتاجة مراجعة أسبوعية من المدير."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "assign",
+    "note": "manager gives a task; neutral and very common",
+    "ex": "I assigned the VFD commissioning to Mahmoud.",
+    "ar": "إديت تشغيل الـ‎VFD‎ لمحمود.",
+    "ex2": "He was assigned it because he knows that drive brand.",
+    "ar2": "اتّدّى له عشان عارف ماركة الدرايف دي."
+   },
+   {
+    "w": "hand over",
+    "note": "passing full responsibility, e.g. before leaving",
+    "ex": "Before his vacation, Tarek handed over his open quotations to Nour.",
+    "ar": "قبل أجازته، طارق سلّم عروض الأسعار المفتوحة لنور.",
+    "ex2": "She handed over the client list back when he returned.",
+    "ar2": "ورجّعتله قايمة العملا لما رجع."
+   },
+   {
+    "w": "entrust",
+    "note": "formal; shows trust in the person",
+    "ex": "We entrusted the data centre project to our most senior engineer.",
+    "ar": "أمّنّا مشروع الداتا سنتر لأقدم مهندس عندنا.",
+    "ex2": "Clients entrust us with critical equipment.",
+    "ar2": "العملا بيأمّنونا على أجهزة حساسة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "micromanage",
+    "ex": "Don't micromanage the technicians; let them plan the visit.",
+    "ar": "متدخّلش في كل تفصيلة مع الفنيين؛ سيبهم يخططوا للزيارة.",
+    "ex2": "Managers who micromanage slow the whole team down.",
+    "ar2": "المديرين اللي بيدخلوا في كل حاجة بيبطّأوا الفريق كله."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Mona has twenty overdue invoices to follow up. She delegated the small ones to her assistant and kept the big accounts herself.",
+  "ctx_ar": "منى عندها عشرين فاتورة متأخرة لازم تتابعها. فوّضت الصغيرة لمساعدتها وخلّت الحسابات الكبيرة معاها.",
+  "quiz": [
+   {
+    "s": "Good ___ helps a manager handle more work.",
+    "opts": [
+     "delegation",
+     "delegate",
+     "delegated"
+    ],
+    "a": 0,
+    "ar": "التفويض الكويس بيساعد المدير يشيل شغل أكتر."
+   },
+   {
+    "s": "Don't ___ your team; trust them.",
+    "opts": [
+     "delegate",
+     "micromanage",
+     "assign"
+    ],
+    "a": 1,
+    "ar": "متتدخّلش في كل تفصيلة مع فريقك؛ ثق فيهم."
+   },
+   {
+    "s": "Before leaving, Tarek ___ over his quotations to Nour.",
+    "opts": [
+     "assigned",
+     "entrusted",
+     "handed"
+    ],
+    "a": 2,
+    "ar": "قبل ما يمشي، طارق سلّم عروض أسعاره لنور."
+   }
+  ]
+ },
+ {
+  "w": "mitigate",
+  "ar": "يقلّل (خطر أو ضرر)",
+  "family": [
+   {
+    "w": "mitigate",
+    "pos": "verb",
+    "ex": "Installing a second UPS mitigates the risk of a server shutdown.",
+    "ar": "تركيب ‎UPS‎ تاني بيقلل خطر وقوع السيرفرات.",
+    "ex2": "It mitigates downtime during battery replacement too.",
+    "ar2": "وكمان بيقلل التوقف وقت تغيير البطاريات."
+   },
+   {
+    "w": "mitigation",
+    "pos": "noun",
+    "ex": "Our proposal includes a risk mitigation plan for the solar station.",
+    "ar": "العرض بتاعنا فيه خطة لتقليل المخاطر لمحطة الطاقة الشمسية.",
+    "ex2": "The mitigation plan covers sandstorms and inverter faults.",
+    "ar2": "خطة تقليل المخاطر بتغطي العواصف الترابية وأعطال الإنفرتر."
+   },
+   {
+    "w": "mitigating",
+    "pos": "adjective",
+    "ex": "Customs delays were a mitigating factor in the late delivery.",
+    "ar": "تأخير الجمارك كان عامل مخفف في تأخير التسليم.",
+    "ex2": "Because of that mitigating factor, the client waived the penalty.",
+    "ar2": "وبسبب العامل المخفف ده، العميل لغى الغرامة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "reduce",
+    "note": "general; any amount, not only risk",
+    "ex": "The new VFDs reduced the pump energy bill by 25%.",
+    "ar": "الـ‎VFD‎ الجديدة قللت فاتورة كهربا الطلمبات 25%.",
+    "ex2": "They also reduce wear on the motors.",
+    "ar2": "وكمان بيقللوا استهلاك المواتير."
+   },
+   {
+    "w": "minimize",
+    "note": "reduce to the lowest possible level",
+    "ex": "We schedule maintenance at night to minimize downtime.",
+    "ar": "بنعمل الصيانة بالليل عشان نقلل التوقف لأقل حاجة.",
+    "ex2": "This minimizes the impact on the factory's production.",
+    "ar2": "وده بيقلل التأثير على إنتاج المصنع لأقصى حد."
+   },
+   {
+    "w": "ease",
+    "note": "informal; about pressure or pain, not technical risk",
+    "ex": "A partial payment would ease our cash-flow problem.",
+    "ar": "دفعة جزئية هتخفف مشكلة السيولة عندنا.",
+    "ex2": "It would also ease pressure on the finance team.",
+    "ar2": "وكمان هتخفف الضغط على فريق الحسابات."
+   }
+  ],
+  "ant": [
+   {
+    "w": "worsen",
+    "ex": "Running the UPS at full load will worsen battery ageing.",
+    "ar": "تشغيل الـ‎UPS‎ على الحِمل الكامل هيزوّد استهلاك البطاريات.",
+    "ex2": "High temperatures worsen it even more.",
+    "ar2": "والحرارة العالية بتزوّده أكتر."
+   },
+   {
+    "w": "aggravate",
+    "ex": "Ignoring the alarm will only aggravate the fault.",
+    "ar": "تجاهل الإنذار هيكبّر العطل بس.",
+    "ex2": "An aggravated fault means a more expensive repair.",
+    "ar2": "والعطل لما يكبر يعني تصليح أغلى."
+   }
+  ],
+  "ladder": {
+   "label": "how much risk is removed",
+   "lar": "الخطر بيقل قد إيه",
+   "steps": [
+    {
+     "w": "reduce",
+     "ex": "Regular cleaning reduces dust inside the VFD.",
+     "ar": "التنضيف المنتظم بيقلل التراب جوه الـ‎VFD‎.",
+     "ex2": "Less dust reduces the chance of overheating.",
+     "ar2": "تراب أقل يعني فرصة سخونية أقل."
+    },
+    {
+     "w": "mitigate",
+     "ex": "A redundant UPS mitigates the risk of power loss.",
+     "ar": "‎UPS‎ احتياطي بيقلل خطر انقطاع الكهربا.",
+     "ex2": "It mitigates, but doesn't remove, every risk.",
+     "ar2": "بيقلل الخطر، بس مش بيشيله كله."
+    },
+    {
+     "w": "minimize",
+     "ex": "Night work minimizes disruption to the bank's branches.",
+     "ar": "الشغل بالليل بيقلل الإزعاج لفروع البنك لأقل حد.",
+     "ex2": "Most branch customers don't even notice the work.",
+     "ar2": "أغلب عملا الفروع مش بياخدوا بالهم من الشغل أصلاً."
+    },
+    {
+     "w": "eliminate",
+     "ex": "Remote monitoring eliminates the need for weekly site visits.",
+     "ar": "المراقبة عن بُعد بتلغي الحاجة لزيارات أسبوعية.",
+     "ex2": "It eliminates travel costs for routine checks.",
+     "ar2": "وبتلغي مصاريف السفر للكشف الروتيني."
+    }
+   ]
+  },
+  "ctx": "Fuel shortages could stop the client's generator. To mitigate the risk, we proposed a bigger battery bank for their UPS.",
+  "ctx_ar": "نقص السولار ممكن يوقّف مولد العميل. عشان نقلل الخطر، اقترحنا بنك بطاريات أكبر للـ‎UPS‎ بتاعهم.",
+  "quiz": [
+   {
+    "s": "We need a risk ___ plan for the project.",
+    "opts": [
+     "mitigation",
+     "mitigate",
+     "mitigating"
+    ],
+    "a": 0,
+    "ar": "محتاجين خطة لتقليل المخاطر للمشروع."
+   },
+   {
+    "s": "Ignoring the alarm will only ___ the fault.",
+    "opts": [
+     "mitigate",
+     "aggravate",
+     "minimize"
+    ],
+    "a": 1,
+    "ar": "تجاهل الإنذار هيكبّر العطل بس."
+   },
+   {
+    "s": "Remote monitoring completely ___ weekly visits.",
+    "opts": [
+     "reduces",
+     "mitigates",
+     "eliminates"
+    ],
+    "a": 2,
+    "ar": "المراقبة عن بُعد بتلغي الزيارات الأسبوعية خالص."
+   }
+  ]
+ },
+ {
+  "w": "proactive",
+  "ar": "مبادر / بيتحرك قبل المشكلة",
+  "family": [
+   {
+    "w": "proactive",
+    "pos": "adjective",
+    "ex": "A proactive engineer replaces weak batteries before they fail.",
+    "ar": "المهندس المبادر بيغيّر البطاريات الضعيفة قبل ما تقع.",
+    "ex2": "That proactive step saves the client from a sudden shutdown.",
+    "ar2": "الخطوة المبادرة دي بتحمي العميل من فصل مفاجئ."
+   },
+   {
+    "w": "proactively",
+    "pos": "adverb",
+    "ex": "We proactively call clients a month before their contract expires.",
+    "ar": "بنكلّم العملا من نفسنا قبل ما عقدهم يخلص بشهر.",
+    "ex2": "Calling proactively keeps our renewal rate high.",
+    "ar2": "الاتصال بدري بيخلّي نسبة التجديد عندنا عالية."
+   },
+   {
+    "w": "proactivity",
+    "pos": "noun",
+    "ex": "The manager praised Nour's proactivity in chasing overdue payments.",
+    "ar": "المدير شكر نور على مبادرتها في متابعة الدفعات المتأخرة.",
+    "ex2": "Her proactivity brought in 300,000 pounds this month.",
+    "ar2": "مبادرتها جابت 300 ألف جنيه الشهر ده."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "preventive",
+    "note": "for maintenance: done to stop faults happening",
+    "ex": "Our preventive maintenance includes cleaning and battery testing.",
+    "ar": "الصيانة الوقائية بتاعتنا فيها تنضيف واختبار بطاريات.",
+    "ex2": "Preventive visits happen every three months.",
+    "ar2": "الزيارات الوقائية بتحصل كل تلات شهور."
+   },
+   {
+    "w": "forward-thinking",
+    "note": "about plans and strategy, not daily actions",
+    "ex": "A forward-thinking client is already planning solar for 2027.",
+    "ar": "عميل بيفكر لقدام بيخطط من دلوقتي للطاقة الشمسية في 2027.",
+    "ex2": "Forward-thinking companies budget for upgrades early.",
+    "ar2": "الشركات اللي بتفكر لقدام بتحط ميزانية للتطوير بدري."
+   },
+   {
+    "w": "take the initiative",
+    "note": "verb phrase; acting without being asked",
+    "ex": "Karim likes to take the initiative, so he sent the client a full quotation.",
+    "ar": "كريم بيحب يبادر، فبعت للعميل عرض سعر كامل.",
+    "ex2": "Taking the initiative won us the order.",
+    "ar2": "المبادرة دي كسّبتنا الأوردر."
+   }
+  ],
+  "ant": [
+   {
+    "w": "reactive",
+    "ex": "Our old service model was reactive: we only came after a breakdown.",
+    "ar": "نظام الخدمة القديم كان رد فعل: كنا بنيجي بس بعد العطل.",
+    "ex2": "Reactive service means angry customers and overtime.",
+    "ar2": "الخدمة اللي بتستنى العطل يعني عملا متضايقين وشغل إضافي."
+   },
+   {
+    "w": "passive",
+    "ex": "A passive salesperson waits for customers to call.",
+    "ar": "البيّاع السلبي بيستنى العملا يتصلوا.",
+    "ex2": "Passive selling won't meet this year's target.",
+    "ar2": "البيع السلبي مش هيحقق تارجت السنة دي."
+   }
+  ],
+  "ladder": {
+   "label": "how early you act",
+   "lar": "بتتحرك بدري قد إيه",
+   "steps": [
+    {
+     "w": "reactive",
+     "ex": "We were reactive and replaced the card after it burned.",
+     "ar": "كنا رد فعل وغيّرنا الكارت بعد ما اتحرق.",
+     "ex2": "Being reactive cost the client two days of downtime.",
+     "ar2": "إننا كنا رد فعل كلّف العميل يومين توقف."
+    },
+    {
+     "w": "responsive",
+     "ex": "We are responsive and reply to every fault within an hour.",
+     "ar": "إحنا سريعين في الرد وبنرد على أي عطل خلال ساعة.",
+     "ex2": "Responsive support keeps clients calm.",
+     "ar2": "الدعم السريع بيطمّن العملا."
+    },
+    {
+     "w": "proactive",
+     "ex": "We are proactive and test batteries every quarter.",
+     "ar": "إحنا مبادرين وبنختبر البطاريات كل ربع سنة.",
+     "ex2": "Proactive testing catches weak cells early.",
+     "ar2": "الاختبار المبادر بيكشف الخلايا الضعيفة بدري."
+    },
+    {
+     "w": "predictive",
+     "ex": "Our predictive system warns us weeks before a fan fails.",
+     "ar": "النظام التنبؤي بتاعنا بينبّهنا قبل ما المروحة تبوظ بأسابيع.",
+     "ex2": "Predictive alerts let us order parts in advance.",
+     "ar2": "التنبيهات التنبؤية بتخلّينا نطلب القطع بدري."
+    }
+   ]
+  },
+  "ctx": "Don't wait for the client to complain about the noisy UPS fan. Be proactive: call them today and book a visit.",
+  "ctx_ar": "متستناش العميل يشتكي من صوت مروحة الـ‎UPS‎. خليك مبادر: كلّمهم النهارده واحجز زيارة.",
+  "quiz": [
+   {
+    "s": "We ___ call clients before their contract expires.",
+    "opts": [
+     "proactively",
+     "proactive",
+     "proactivity"
+    ],
+    "a": 0,
+    "ar": "بنكلّم العملا من نفسنا قبل ما العقد يخلص."
+   },
+   {
+    "s": "Waiting for breakdowns is a ___ approach.",
+    "opts": [
+     "proactive",
+     "reactive",
+     "predictive"
+    ],
+    "a": 1,
+    "ar": "إنك تستنى الأعطال ده أسلوب رد فعل."
+   },
+   {
+    "s": "Our ___ maintenance includes battery testing.",
+    "opts": [
+     "passive",
+     "reactive",
+     "preventive"
+    ],
+    "a": 2,
+    "ar": "الصيانة الوقائية بتاعتنا فيها اختبار بطاريات."
+   }
+  ]
+ },
+ {
+  "w": "on the same page",
+  "ar": "متفقين / فاهمين نفس الحاجة",
+  "family": [
+   {
+    "w": "on the same page",
+    "pos": "adjective",
+    "ex": "Let's have a quick call so we're all on the same page about delivery.",
+    "ar": "خلّينا نعمل مكالمة سريعة عشان نبقى كلنا متفقين على التسليم.",
+    "ex2": "Once we're on the same page, I'll confirm the date to the client.",
+    "ar2": "أول ما نتفق، هأكد الميعاد للعميل."
+   },
+   {
+    "w": "page",
+    "pos": "noun",
+    "ex": "I've attached a one-page summary of the UPS proposal.",
+    "ar": "بعتلك ملخص صفحة واحدة لعرض الـ‎UPS‎.",
+    "ex2": "The page shows prices, warranty and delivery time.",
+    "ar2": "الصفحة فيها الأسعار والضمان وميعاد التسليم."
+   },
+   {
+    "w": "get on the same page",
+    "pos": "verb",
+    "ex": "Sales and service need to get on the same page about warranty terms.",
+    "ar": "المبيعات والخدمة لازم يتفقوا على شروط الضمان.",
+    "ex2": "Let's get on the same page before we answer the client.",
+    "ar2": "خلّينا نتفق قبل ما نرد على العميل."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "aligned",
+    "note": "formal business English; used in meetings and reports",
+    "ex": "Are finance and sales aligned on the payment terms?",
+    "ar": "الحسابات والمبيعات متفقين على شروط الدفع؟",
+    "ex2": "Once aligned, we'll update the contract.",
+    "ar2": "أول ما يتفقوا، هنعدّل العقد."
+   },
+   {
+    "w": "in agreement",
+    "note": "formal; after discussion, everybody says yes",
+    "ex": "Everyone is in agreement on the new price list.",
+    "ar": "الكل موافق على قايمة الأسعار الجديدة.",
+    "ex2": "Since we're in agreement, it starts next month.",
+    "ar2": "وبما إننا موافقين، هتبدأ الشهر الجاي."
+   },
+   {
+    "w": "see eye to eye",
+    "note": "informal; often used in the negative",
+    "ex": "The supplier and I don't see eye to eye on shipping costs.",
+    "ar": "أنا والمورد مش متفقين على تكلفة الشحن.",
+    "ex2": "We'll see eye to eye once we compare the invoices.",
+    "ar2": "هنتفق لما نقارن الفواتير."
+   }
+  ],
+  "ant": [
+   {
+    "w": "at odds",
+    "ex": "Sales and finance are at odds over the client's credit limit.",
+    "ar": "المبيعات والحسابات مختلفين على حد الائتمان للعميل.",
+    "ex2": "Being at odds is delaying the new order.",
+    "ar2": "الخلاف ده مأخّر الأوردر الجديد."
+   },
+   {
+    "w": "on different pages",
+    "ex": "We were on different pages: I meant 10 kVA, he meant 10 kW.",
+    "ar": "كنا فاهمين حاجتين مختلفين: أنا قصدي 10 ‎kVA‎ وهو قصده 10 ‎kW‎.",
+    "ex2": "Being on different pages almost cost us the order.",
+    "ar2": "إننا مكناش فاهمين بعض كان هيضيّع علينا الأوردر."
+   }
+  ],
+  "ladder": {
+   "label": "how much they agree",
+   "lar": "متفقين قد إيه",
+   "steps": [
+    {
+     "w": "at odds",
+     "ex": "The site team and the designer are at odds over cable sizes.",
+     "ar": "فريق الموقع والمصمم مختلفين على مقاسات الكابلات.",
+     "ex2": "Being at odds is holding up the installation.",
+     "ar2": "الخلاف مأخّر التركيب."
+    },
+    {
+     "w": "roughly aligned",
+     "ex": "We're roughly aligned on the budget for the solar project.",
+     "ar": "إحنا متفقين تقريباً على ميزانية مشروع الطاقة الشمسية.",
+     "ex2": "Roughly aligned is fine for now; details come later.",
+     "ar2": "متفقين تقريباً كفاية دلوقتي؛ التفاصيل بعدين."
+    },
+    {
+     "w": "on the same page",
+     "ex": "Now we're on the same page about the shutdown time.",
+     "ar": "دلوقتي إحنا متفقين على ميعاد الفصل.",
+     "ex2": "Being on the same page avoids surprises on site.",
+     "ar2": "إننا متفقين بيمنع المفاجآت في الموقع."
+    },
+    {
+     "w": "fully aligned",
+     "ex": "Both teams are fully aligned on the final contract.",
+     "ar": "الفريقين متفقين تماماً على العقد النهائي.",
+     "ex2": "Fully aligned teams sign faster.",
+     "ar2": "الفرق المتفقة تماماً بتمضي أسرع."
+    }
+   ]
+  },
+  "ctx": "Before the site visit, let's make sure we're on the same page. The client expects a 20 kVA UPS, not 15.",
+  "ctx_ar": "قبل زيارة الموقع، خلّينا نتأكد إننا متفقين. العميل مستني ‎UPS 20 kVA‎، مش 15.",
+  "quiz": [
+   {
+    "s": "Let's talk so we're all on the same ___.",
+    "opts": [
+     "page",
+     "aligned",
+     "odds"
+    ],
+    "a": 0,
+    "ar": "خلّينا نتكلم عشان نبقى كلنا متفقين."
+   },
+   {
+    "s": "Finance and sales are at ___ over the credit limit.",
+    "opts": [
+     "page",
+     "odds",
+     "agreement"
+    ],
+    "a": 1,
+    "ar": "الحسابات والمبيعات مختلفين على حد الائتمان."
+   },
+   {
+    "s": "Both teams are fully ___ on the final contract.",
+    "opts": [
+     "page",
+     "odds",
+     "aligned"
+    ],
+    "a": 2,
+    "ar": "الفريقين متفقين تماماً على العقد النهائي."
+   }
+  ]
+ },
+ {
+  "w": "in a timely manner",
+  "ar": "في الوقت المناسب / من غير تأخير",
+  "family": [
+   {
+    "w": "in a timely manner",
+    "pos": "adverb",
+    "ex": "Please send the signed PO in a timely manner so we can order the batteries.",
+    "ar": "ياريت تبعت أمر الشراء ممضي في وقته عشان نطلب البطاريات.",
+    "ex2": "If it arrives in a timely manner, delivery stays on schedule.",
+    "ar2": "لو وصل في وقته، التسليم هيفضل في ميعاده."
+   },
+   {
+    "w": "timely",
+    "pos": "adjective",
+    "ex": "Thank you for your timely payment of invoice 2045.",
+    "ar": "شكراً على دفع الفاتورة 2045 في ميعادها.",
+    "ex2": "Timely payments help us keep your prices fixed.",
+    "ar2": "الدفع في الميعاد بيساعدنا نثبّت أسعارك."
+   },
+   {
+    "w": "time",
+    "pos": "noun",
+    "ex": "The technician arrived on time for the UPS maintenance visit.",
+    "ar": "الفني وصل في الميعاد لزيارة صيانة الـ‎UPS‎.",
+    "ex2": "He finished in less time than we planned.",
+    "ar2": "وخلّص في وقت أقل من اللي كنا مخططينه."
+   },
+   {
+    "w": "timeline",
+    "pos": "noun",
+    "ex": "The customer wants a clear timeline for the solar installation.",
+    "ar": "العميل عايز جدول زمني واضح لتركيب الطاقة الشمسية.",
+    "ex2": "Our timeline shows completion in six weeks.",
+    "ar2": "الجدول الزمني بتاعنا بيقول هنخلّص في ست أسابيع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "promptly",
+    "note": "shorter; common in emails",
+    "ex": "Our team replied promptly to the breakdown call.",
+    "ar": "فريقنا رد بسرعة على بلاغ العطل.",
+    "ex2": "Because we acted promptly, the servers never went down.",
+    "ar2": "وعشان اتحركنا بسرعة، السيرفرات مقعتش خالص."
+   },
+   {
+    "w": "on time",
+    "note": "exactly at the agreed time, not late",
+    "ex": "The shipment from China arrived on time.",
+    "ar": "الشحنة من الصين وصلت في ميعادها.",
+    "ex2": "So the installation can start on time next Sunday.",
+    "ar2": "فالتركيب يقدر يبدأ في ميعاده الأحد الجاي."
+   },
+   {
+    "w": "without delay",
+    "note": "stronger; shows urgency",
+    "ex": "Please replace the faulty battery without delay.",
+    "ar": "ياريت تغيّروا البطارية البايظة من غير تأخير.",
+    "ex2": "Until then, the bank's servers have no backup power.",
+    "ar2": "ولحد ما يحصل كده، سيرفرات البنك ملهاش كهربا احتياطي."
+   }
+  ],
+  "ant": [
+   {
+    "w": "late",
+    "ex": "The client paid the last invoice late again.",
+    "ar": "العميل دفع آخر فاتورة متأخر تاني.",
+    "ex2": "Late payments delay our own supplier payments.",
+    "ar2": "الدفع المتأخر بيأخّر دفعنا للموردين."
+   },
+   {
+    "w": "with delay",
+    "ex": "The spare parts arrived with delay because of customs.",
+    "ar": "قطع الغيار وصلت متأخرة بسبب الجمارك.",
+    "ex2": "We informed the client about the delay the same day.",
+    "ar2": "بلّغنا العميل بالتأخير في نفس اليوم."
+   }
+  ],
+  "ladder": {
+   "label": "how fast",
+   "lar": "بسرعة قد إيه",
+   "steps": [
+    {
+     "w": "in a timely manner",
+     "ex": "Please review the quotation in a timely manner.",
+     "ar": "ياريت تراجع عرض السعر في وقت مناسب.",
+     "ex2": "Prices are valid for two weeks only.",
+     "ar2": "الأسعار سارية أسبوعين بس."
+    },
+    {
+     "w": "promptly",
+     "ex": "Please confirm the delivery address promptly.",
+     "ar": "ياريت تأكد عنوان التسليم بسرعة.",
+     "ex2": "The truck leaves the warehouse promptly at eight.",
+     "ar2": "العربية بتطلع من المخزن الساعة تمانية بالظبط."
+    },
+    {
+     "w": "as soon as possible",
+     "ex": "We need the signed PO as soon as possible.",
+     "ar": "محتاجين أمر الشراء ممضي في أسرع وقت.",
+     "ex2": "Otherwise the supplier's new prices will apply next week.",
+     "ar2": "وإلا أسعار المورد الجديدة هتتطبق الأسبوع الجاي."
+    },
+    {
+     "w": "immediately",
+     "ex": "The UPS is on bypass; send a technician immediately.",
+     "ar": "الـ‎UPS‎ على الـ‎bypass‎؛ ابعت فني حالاً.",
+     "ex2": "The data centre is at risk, so act immediately.",
+     "ar2": "الداتا سنتر في خطر، فاتحرك فوراً."
+    }
+   ]
+  },
+  "ctx": "Our contract says we must respond to faults in a timely manner. For data centres, that means an engineer on site within four hours.",
+  "ctx_ar": "العقد بتاعنا بيقول لازم نرد على الأعطال في وقتها. وبالنسبة للداتا سنتر، ده معناه مهندس في الموقع خلال أربع ساعات.",
+  "quiz": [
+   {
+    "s": "We need a clear ___ for the solar installation.",
+    "opts": [
+     "timeline",
+     "timely",
+     "time"
+    ],
+    "a": 0,
+    "ar": "محتاجين جدول زمني واضح لتركيب الطاقة الشمسية."
+   },
+   {
+    "s": "Please reply ___ to this quotation request.",
+    "opts": [
+     "late",
+     "promptly",
+     "with delay"
+    ],
+    "a": 1,
+    "ar": "ياريت ترد بسرعة على طلب عرض السعر ده."
+   },
+   {
+    "s": "The customer paid all invoices in a ___ manner.",
+    "opts": [
+     "time",
+     "late",
+     "timely"
+    ],
+    "a": 2,
+    "ar": "العميل دفع كل الفواتير في مواعيدها."
+   }
+  ]
+ },
+ {
+  "w": "retain",
+  "ar": "يحتفظ بـ / يحافظ على",
+  "family": [
+   {
+    "w": "retain",
+    "pos": "verb",
+    "ex": "Good after-sales service helps us retain our biggest customers.",
+    "ar": "خدمة ما بعد البيع الكويسة بتساعدنا نحافظ على أكبر عملائنا.",
+    "ex2": "We retained 90% of maintenance clients last year.",
+    "ar2": "حافظنا على 90% من عملاء الصيانة السنة اللي فاتت."
+   },
+   {
+    "w": "retention",
+    "pos": "noun",
+    "ex": "Customer retention is our main goal for the service department.",
+    "ar": "الحفاظ على العملا هو هدفنا الأساسي في قسم الخدمة.",
+    "ex2": "High retention means steady contract income.",
+    "ar2": "نسبة احتفاظ عالية يعني دخل عقود ثابت."
+   },
+   {
+    "w": "retainer",
+    "pos": "noun",
+    "ex": "The bank pays us a monthly retainer for emergency support.",
+    "ar": "البنك بيدفعلنا مبلغ شهري ثابت للدعم الطارئ.",
+    "ex2": "The retainer covers four emergency visits a month.",
+    "ar2": "المبلغ ده بيغطي أربع زيارات طوارئ في الشهر."
+   },
+   {
+    "w": "retained",
+    "pos": "adjective",
+    "ex": "Retained amounts are paid after the solar station passes final testing.",
+    "ar": "المبالغ المحجوزة بتتدفع بعد ما محطة الطاقة الشمسية تعدّي الاختبار النهائي.",
+    "ex2": "The retained 10% is released after one year.",
+    "ar2": "الـ10% المحجوزة بتتصرف بعد سنة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "keep customers or staff",
+    "mar": "تحافظ على عملا أو موظفين",
+    "ex": "We offered a bonus to retain our best field engineers.",
+    "ar": "عرضنا مكافأة عشان نحافظ على أحسن مهندسين موقع عندنا.",
+    "ex2": "Competitors keep trying to hire them, so we must retain them.",
+    "ar2": "المنافسين بيحاولوا يشغّلوهم، فلازم نحافظ عليهم."
+   },
+   {
+    "m": "hold back money",
+    "mar": "تحجز جزء من الفلوس",
+    "ex": "The client will retain 5% of the invoice until the warranty ends.",
+    "ar": "العميل هيحجز 5% من الفاتورة لحد ما الضمان يخلص.",
+    "ex2": "They retain it as a guarantee for our work.",
+    "ar2": "بيحجزوها كضمان لشغلنا."
+   },
+   {
+    "m": "keep a quality or record",
+    "mar": "تحتفظ بحاجة أو سجل",
+    "ex": "Retain all service reports for at least five years.",
+    "ar": "احتفظ بكل تقارير الخدمة خمس سنين على الأقل.",
+    "ex2": "Auditors may ask to see the retained reports.",
+    "ar2": "المراجعين ممكن يطلبوا يشوفوا التقارير المحفوظة."
+   }
+  ],
+  "syn": [
+   {
+    "w": "keep",
+    "note": "everyday word; works for almost everything",
+    "ex": "We want to keep this client for many years.",
+    "ar": "عايزين نحافظ على العميل ده سنين كتير.",
+    "ex2": "Keeping him means steady maintenance work.",
+    "ar2": "والحفاظ عليه يعني شغل صيانة ثابت."
+   },
+   {
+    "w": "hold on to",
+    "note": "informal, spoken; suggests effort against losing it",
+    "ex": "We must hold on to the hospital contract this year.",
+    "ar": "لازم نتمسك بعقد المستشفى السنة دي.",
+    "ex2": "A competitor offered them lower prices, but we held on to it.",
+    "ar2": "منافس عرض عليهم أسعار أقل، بس اتمسكنا بيه."
+   },
+   {
+    "w": "withhold",
+    "note": "for money: hold back as pressure, often negative",
+    "ex": "The client withheld payment until we fixed the inverter.",
+    "ar": "العميل وقّف الدفع لحد ما صلّحنا الإنفرتر.",
+    "ex2": "They withheld the full 200,000 pounds.",
+    "ar2": "وقّفوا الـ200 ألف جنيه كلهم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "lose",
+    "ex": "We may lose two clients to a cheaper competitor this quarter.",
+    "ar": "ممكن نخسر عميلين لمنافس أرخص الربع ده.",
+    "ex2": "Losing them would cut our service income by 10%.",
+    "ar2": "خسارتهم هتقلل دخل الخدمة 10%."
+   },
+   {
+    "w": "release",
+    "ex": "The client will release the retention after final acceptance.",
+    "ar": "العميل هيصرف المبلغ المحجوز بعد الاستلام النهائي.",
+    "ex2": "Once released, the money goes straight to our supplier.",
+    "ar2": "أول ما يتصرف، الفلوس هتروح للمورد على طول."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We almost lost the hotel's UPS contract to a competitor. To retain them, we added free battery testing every quarter.",
+  "ctx_ar": "كنا هنخسر عقد الـ‎UPS‎ بتاع الفندق لمنافس. عشان نحافظ عليهم، زوّدنا اختبار بطاريات ببلاش كل ربع سنة.",
+  "quiz": [
+   {
+    "s": "Customer ___ is our main goal this year.",
+    "opts": [
+     "retention",
+     "retain",
+     "retainer"
+    ],
+    "a": 0,
+    "ar": "الحفاظ على العملا هو هدفنا الأساسي السنة دي."
+   },
+   {
+    "s": "We ___ two clients to a cheaper competitor.",
+    "opts": [
+     "retained",
+     "lost",
+     "released"
+    ],
+    "a": 1,
+    "ar": "خسرنا عميلين لمنافس أرخص."
+   },
+   {
+    "s": "The bank pays us a monthly ___ for support.",
+    "opts": [
+     "retention",
+     "retained",
+     "retainer"
+    ],
+    "a": 2,
+    "ar": "البنك بيدفعلنا مبلغ شهري ثابت للدعم."
+   }
+  ]
+ }
+]

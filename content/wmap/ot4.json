@@ -1,0 +1,844 @@
+[
+ {
+  "w": "bring up",
+  "ar": "يفتح موضوع / يطرح نقطة",
+  "family": [
+   {
+    "w": "bring",
+    "pos": "verb",
+    "ex": "Please bring the battery test report to the meeting.",
+    "ar": "لو سمحت هات تقرير اختبار البطاريات معاك الاجتماع.",
+    "ex2": "Bring the old invoices too, in case they ask.",
+    "ar2": "وهات الفواتير القديمة كمان، لو سألوا."
+   },
+   {
+    "w": "bring up",
+    "pos": "verb",
+    "ex": "I'd like to bring up the overtime issue in today's meeting.",
+    "ar": "حابب أفتح موضوع الأوفر تايم في اجتماع النهارده.",
+    "ex2": "If I don't bring it up now, nothing will change.",
+    "ar2": "لو مفتحتوش دلوقتي، مفيش حاجة هتتغير."
+   },
+   {
+    "w": "bring forward",
+    "pos": "verb",
+    "ex": "Can we bring forward the UPS installation to Sunday?",
+    "ar": "ممكن نقدّم ميعاد تركيب الـ‎UPS‎ ليوم الأحد؟",
+    "ex2": "The client wants to bring it forward before their audit.",
+    "ar2": "العميل عايز يقدّمه قبل الأوديت بتاعهم."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "raise a topic for discussion",
+    "mar": "يفتح موضوع",
+    "ex": "Can I bring up the late payments from the hospital?",
+    "ar": "ممكن أفتح موضوع التأخير في دفعات المستشفى؟",
+    "ex2": "I bring it up because it's now 90 days overdue.",
+    "ar2": "بفتحه عشان بقاله ٩٠ يوم متأخر."
+   },
+   {
+    "m": "show something on a screen",
+    "mar": "يطلّع حاجة على الشاشة",
+    "ex": "Let me bring up the alarm log on the VFD screen.",
+    "ar": "استنى أطلّع سجل الإنذارات على شاشة الـ‎VFD‎.",
+    "ex2": "Bring up last week's data so we can compare.",
+    "ar2": "طلّع داتا الأسبوع اللي فات عشان نقارن."
+   }
+  ],
+  "syn": [
+   {
+    "w": "raise",
+    "note": "neutral and professional; meetings and emails",
+    "ex": "I'll raise the pricing issue with the supplier tomorrow.",
+    "ar": "هفتح موضوع الأسعار مع المورّد بكرة.",
+    "ex2": "Raise it early, before they confirm the shipment.",
+    "ar2": "افتحه بدري، قبل ما يأكدوا الشحنة."
+   },
+   {
+    "w": "mention",
+    "note": "quick, in passing; not a full discussion",
+    "ex": "Did the client mention the noise from the UPS room?",
+    "ar": "العميل جاب سيرة الصوت اللي في أوضة الـ‎UPS‎؟",
+    "ex2": "He mentioned it briefly at the end of the call.",
+    "ar2": "جاب سيرته بسرعة في آخر المكالمة."
+   },
+   {
+    "w": "flag",
+    "note": "modern office word: warn early about a possible problem",
+    "ex": "I want to flag a possible delay in the inverter shipment.",
+    "ar": "عايز أنبّه على تأخير محتمل في شحنة الإنفرترات.",
+    "ex2": "Flag any risk to the PM before Thursday.",
+    "ar2": "نبّه مدير المشروع على أي خطر قبل الخميس."
+   },
+   {
+    "w": "point out",
+    "note": "draw attention to a fact, often a mistake",
+    "ex": "Nadia pointed out an error in the quotation total.",
+    "ar": "نادية لفتت النظر لغلطة في إجمالي عرض السعر.",
+    "ex2": "She pointed it out before we sent it, luckily.",
+    "ar2": "لفتت النظر ليها قبل ما نبعته، الحمد لله."
+   }
+  ],
+  "ant": [
+   {
+    "w": "drop",
+    "ex": "Let's drop the discount topic until they pay the last invoice.",
+    "ar": "خلّينا نسيب موضوع الخصم لحد ما يدفعوا آخر فاتورة.",
+    "ex2": "We'll drop it for now and return next month.",
+    "ar2": "هنسيبه دلوقتي ونرجعله الشهر الجاي."
+   },
+   {
+    "w": "avoid",
+    "ex": "He always avoids the topic of overdue payments with that client.",
+    "ar": "هو دايمًا بيهرب من موضوع الدفعات المتأخرة مع العميل ده.",
+    "ex2": "Avoiding it only makes the debt bigger.",
+    "ar2": "الهروب منه بيكبّر المديونية بس."
+   }
+  ],
+  "ladder": {
+   "label": "how strongly you raise it",
+   "lar": "قد إيه بتطرح الموضوع بقوة",
+   "steps": [
+    {
+     "w": "mention",
+     "ex": "I'll mention the delay to the client casually.",
+     "ar": "هجيب سيرة التأخير للعميل كده عادي.",
+     "ex2": "Just mention it; don't make it a big deal.",
+     "ar2": "جيب سيرته بس؛ متكبّرش الموضوع."
+    },
+    {
+     "w": "bring up",
+     "ex": "I'll bring up the delay in our weekly meeting.",
+     "ar": "هفتح موضوع التأخير في اجتماعنا الأسبوعي.",
+     "ex2": "Bring it up after the sales update.",
+     "ar2": "افتحه بعد تحديث المبيعات."
+    },
+    {
+     "w": "raise formally",
+     "ex": "We need to raise the defect formally with the manufacturer.",
+     "ar": "لازم نرفع العيب رسميًا للمصنّع.",
+     "ex2": "Raise it formally in writing, with photos.",
+     "ar2": "ارفعه رسمي كتابةً، بالصور."
+    },
+    {
+     "w": "escalate",
+     "ex": "If they don't reply, escalate it to their regional director.",
+     "ar": "لو مردّوش، صعّد الموضوع لمديرهم الإقليمي.",
+     "ex2": "Escalating it usually gets an answer within a day.",
+     "ar2": "التصعيد عادةً بيجيب رد خلال يوم."
+    }
+   ]
+  },
+  "ctx": "There's one more thing I'd like to bring up. The service team has worked three weekends in a row.",
+  "ctx_ar": "فيه حاجة كمان حابب أفتحها. فريق الصيانة اشتغل تلات ويك إندات ورا بعض.",
+  "quiz": [
+   {
+    "s": "Let me ___ the alarm history on the screen.",
+    "opts": [
+     "bring up",
+     "bring forward",
+     "drop"
+    ],
+    "a": 0,
+    "ar": "استنى أطلّع سجل الإنذارات على الشاشة."
+   },
+   {
+    "s": "I want to ___ a possible delay before it becomes a problem.",
+    "opts": [
+     "drop",
+     "avoid",
+     "flag"
+    ],
+    "a": 2,
+    "ar": "عايز أنبّه على تأخير محتمل قبل ما يبقى مشكلة."
+   },
+   {
+    "s": "If the supplier ignores us again, we'll ___ it to their director.",
+    "opts": [
+     "mention",
+     "escalate",
+     "bring"
+    ],
+    "a": 1,
+    "ar": "لو المورّد طنّشنا تاني، هنصعّد الموضوع لمديرهم."
+   }
+  ]
+ },
+ {
+  "w": "well-being",
+  "ar": "الصحة والراحة النفسية",
+  "family": [
+   {
+    "w": "well-being",
+    "pos": "noun",
+    "ex": "Your well-being matters more than finishing the report tonight.",
+    "ar": "راحتك وصحتك أهم من إنك تخلّص التقرير الليلة.",
+    "ex2": "Go home; we'll protect your well-being and finish tomorrow.",
+    "ar2": "روّح؛ صحتك أهم وهنكمّل بكرة."
+   },
+   {
+    "w": "well",
+    "pos": "adjective",
+    "ex": "Sherif isn't well, so Ali will cover the site visit.",
+    "ar": "شريف تعبان، فعلي هيغطي الزيارة.",
+    "ex2": "Let's wait until he's well before the big installation.",
+    "ar2": "خلّينا نستنى لحد ما يبقى كويس قبل التركيب الكبير."
+   },
+   {
+    "w": "wellness",
+    "pos": "noun",
+    "ex": "HR launched a wellness programme with gym discounts for staff.",
+    "ar": "الـ‎HR‎ عملت برنامج للصحة فيه خصومات جيم للموظفين.",
+    "ex2": "The wellness programme also includes a yearly check-up.",
+    "ar2": "البرنامج فيه كمان كشف سنوي."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "health",
+    "note": "mainly physical; illness, safety, fitness",
+    "ex": "Lifting heavy batteries without help is bad for your health.",
+    "ar": "شيل البطاريات التقيلة من غير مساعدة وحش لصحتك.",
+    "ex2": "Use the trolley to protect your health.",
+    "ar2": "استخدم الترولي عشان تحافظ على صحتك."
+   },
+   {
+    "w": "mental health",
+    "note": "the mind: stress, anxiety, burnout",
+    "ex": "Long night shifts in the data centre affect mental health.",
+    "ar": "الشيفتات الطويلة بالليل في الداتا سنتر بتأثر على الصحة النفسية.",
+    "ex2": "Mental health days are now part of our leave policy.",
+    "ar2": "أيام الراحة النفسية بقت جزء من سياسة الأجازات."
+   },
+   {
+    "w": "wellness",
+    "note": "HR and company programmes; sounds like marketing",
+    "ex": "Our wellness budget covers a weekly football match.",
+    "ar": "ميزانية الـ‎wellness‎ بتغطي ماتش كورة أسبوعي.",
+    "ex2": "Wellness activities help the team relax after big projects.",
+    "ar2": "الأنشطة دي بتساعد الفريق يرتاح بعد المشاريع الكبيرة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "ill health",
+    "ex": "Ill health forced our senior engineer to take two months off.",
+    "ar": "التعب الصحي خلّى المهندس الكبير بتاعنا ياخد شهرين أجازة.",
+    "ex2": "His ill health came after a year of overtime.",
+    "ar2": "تعبه جه بعد سنة أوفر تايم."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Working until midnight every day isn't good for your well-being. Let's share the solar project tasks with Mahmoud.",
+  "ctx_ar": "الشغل لحد نص الليل كل يوم مش كويس لصحتك وراحتك. خلّينا نقسم مهام مشروع الطاقة الشمسية مع محمود.",
+  "quiz": [
+   {
+    "s": "HR started a ___ programme with free check-ups.",
+    "opts": [
+     "well",
+     "wellness",
+     "well-being"
+    ],
+    "a": 1,
+    "ar": "الـ‎HR‎ بدأت برنامج صحة فيه كشف ببلاش."
+   },
+   {
+    "s": "Ramy isn't ___ today, so he's working from home.",
+    "opts": [
+     "well",
+     "wellness",
+     "health"
+    ],
+    "a": 0,
+    "ar": "رامي تعبان النهارده، فهيشتغل من البيت."
+   },
+   {
+    "s": "Constant stress and night shifts hurt your ___.",
+    "opts": [
+     "wellness",
+     "ill health",
+     "mental health"
+    ],
+    "a": 2,
+    "ar": "الضغط المستمر وشيفتات الليل بيأذوا صحتك النفسية."
+   }
+  ]
+ },
+ {
+  "w": "dismiss",
+  "ar": "يتجاهل / يرفض من غير تفكير",
+  "family": [
+   {
+    "w": "dismiss",
+    "pos": "verb",
+    "ex": "Please don't dismiss the technician's idea about the cooling fans.",
+    "ar": "لو سمحت متطنّشش فكرة الفني عن مراوح التبريد.",
+    "ex2": "He dismissed it last time, and the VFD overheated.",
+    "ar2": "طنّشها المرة اللي فاتت، والـ‎VFD‎ سخن."
+   },
+   {
+    "w": "dismissal",
+    "pos": "noun",
+    "ex": "The dismissal of the driver followed the lost shipment.",
+    "ar": "فصل السواق جه بعد الشحنة اللي ضاعت.",
+    "ex2": "HR documented the dismissal carefully.",
+    "ar2": "الـ‎HR‎ وثّقت الفصل بالتفصيل."
+   },
+   {
+    "w": "dismissive",
+    "pos": "adjective",
+    "ex": "The supplier was dismissive about our warranty claim.",
+    "ar": "المورّد كان مستهتر بطلب الضمان بتاعنا.",
+    "ex2": "Their dismissive reply made us look for another supplier.",
+    "ar2": "ردهم المستهتر خلّانا ندوّر على مورّد تاني."
+   },
+   {
+    "w": "dismissively",
+    "pos": "adverb",
+    "ex": "He waved dismissively when I mentioned the battery alarms.",
+    "ar": "شاور بإيده مش مهتم لما جبت سيرة إنذارات البطاريات.",
+    "ex2": "Answering dismissively made the client even angrier.",
+    "ar2": "إنه رد بالشكل ده خلّى العميل يتعصب أكتر."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "reject an idea without real thought",
+    "mar": "يرفض فكرة من غير ما يفكر",
+    "ex": "My suggestion about remote monitoring was dismissed in two seconds.",
+    "ar": "اقتراحي عن المراقبة عن بعد اترفض في ثانيتين.",
+    "ex2": "They dismissed it, but our competitor now sells it.",
+    "ar2": "رفضوه، بس المنافس بتاعنا بيبيعه دلوقتي."
+   },
+   {
+    "m": "officially remove someone from a job",
+    "mar": "يفصل حد من الشغل",
+    "ex": "The company dismissed the storekeeper after the stock audit.",
+    "ar": "الشركة فصلت أمين المخزن بعد جرد المخزون.",
+    "ex2": "He was dismissed because twenty batteries were missing.",
+    "ar2": "اتفصل عشان كان فيه عشرين بطارية ناقصة."
+   }
+  ],
+  "syn": [
+   {
+    "w": "reject",
+    "note": "formal no, usually after review",
+    "ex": "Finance rejected the PO because the budget code was wrong.",
+    "ar": "المالية رفضت أمر الشراء عشان كود الميزانية غلط.",
+    "ex2": "They'll approve it once we fix the code and resubmit.",
+    "ar2": "هيوافقوا عليه لما نصلّح الكود ونبعته تاني."
+   },
+   {
+    "w": "brush off",
+    "note": "informal; reply quickly without real attention",
+    "ex": "The manager brushed off my concern about the old cables.",
+    "ar": "المدير طنّش قلقي من الكابلات القديمة بكلمتين.",
+    "ex2": "When he brushes off safety issues, I put them in writing.",
+    "ar2": "لما بيطنّش مواضيع الأمان، بكتبها رسمي."
+   },
+   {
+    "w": "overrule",
+    "note": "someone with authority decides against your view",
+    "ex": "The general manager overruled the sales team and approved the discount.",
+    "ar": "المدير العام كسر رأي فريق المبيعات ووافق على الخصم.",
+    "ex2": "He overruled us because the client is strategic.",
+    "ar2": "كسر رأينا عشان العميل مهم استراتيجيًا."
+   }
+  ],
+  "ant": [
+   {
+    "w": "consider",
+    "ex": "Could you consider my proposal for a spare-parts stock?",
+    "ar": "ممكن تفكر في اقتراحي بإننا نعمل مخزون قطع غيار؟",
+    "ex2": "If you consider it, response times will drop by half.",
+    "ar2": "لو فكرت فيه، وقت الاستجابة هيقل للنص."
+   },
+   {
+    "w": "take seriously",
+    "ex": "Please take seriously the client's complaint about voltage drops.",
+    "ar": "لو سمحت خد شكوى العميل عن هبوط الجهد بجد.",
+    "ex2": "Taking it seriously could save the maintenance contract.",
+    "ar2": "إننا ناخدها بجد ممكن ينقذ عقد الصيانة."
+   }
+  ],
+  "ladder": {
+   "label": "how strongly the idea is rejected",
+   "lar": "الفكرة بتترفض بقوة قد إيه",
+   "steps": [
+    {
+     "w": "question",
+     "ex": "The manager questioned whether lithium batteries are worth the price.",
+     "ar": "المدير سأل هل بطاريات الليثيوم تستاهل سعرها.",
+     "ex2": "Questioning it is fair; we need the numbers.",
+     "ar2": "السؤال ده منطقي؛ محتاجين الأرقام."
+    },
+    {
+     "w": "reject",
+     "ex": "Finance rejected the idea because of the import cost.",
+     "ar": "المالية رفضت الفكرة بسبب تكلفة الاستيراد.",
+     "ex2": "They rejected it after reading the full proposal.",
+     "ar2": "رفضوها بعد ما قروا الاقتراح كله."
+    },
+    {
+     "w": "dismiss",
+     "ex": "He dismissed the idea without even reading the proposal.",
+     "ar": "طنّش الفكرة من غير حتى ما يقرا الاقتراح.",
+     "ex2": "Being dismissed like that is demotivating.",
+     "ar2": "إن فكرتك تتطنّش كده بيقتل الحماس."
+    },
+    {
+     "w": "shoot down",
+     "ex": "They shoot down every idea I bring to meetings.",
+     "ar": "بينسفوا كل فكرة بجيبها الاجتماعات.",
+     "ex2": "When they shoot ideas down like that, people stop sharing.",
+     "ar2": "لما بينسفوا الأفكار كده، الناس بتبطّل تشارك."
+    }
+   ]
+  },
+  "ctx": "In meetings, my ideas often get dismissed quickly. Could we give each proposal five minutes of discussion?",
+  "ctx_ar": "في الاجتماعات أفكاري ساعات كتير بتترفض بسرعة. ممكن ندّي كل اقتراح خمس دقايق نقاش؟",
+  "quiz": [
+   {
+    "s": "The supplier's ___ reply made us find another source.",
+    "opts": [
+     "dismiss",
+     "dismissive",
+     "dismissal"
+    ],
+    "a": 1,
+    "ar": "رد المورّد المستهتر خلّانا ندوّر على مصدر تاني."
+   },
+   {
+    "s": "Finance ___ the PO because the budget code was wrong.",
+    "opts": [
+     "brushed off",
+     "overruled",
+     "rejected"
+    ],
+    "a": 2,
+    "ar": "المالية رفضت أمر الشراء عشان كود الميزانية غلط."
+   },
+   {
+    "s": "The ___ of the storekeeper followed the stock audit.",
+    "opts": [
+     "dismissal",
+     "dismiss",
+     "dismissive"
+    ],
+    "a": 0,
+    "ar": "فصل أمين المخزن جه بعد الجرد."
+   }
+  ]
+ },
+ {
+  "w": "undervalued",
+  "ar": "مش متقدّر حقه",
+  "family": [
+   {
+    "w": "value",
+    "pos": "noun",
+    "ex": "The value of this maintenance contract is 400,000 pounds a year.",
+    "ar": "قيمة عقد الصيانة ده ٤٠٠ ألف جنيه في السنة.",
+    "ex2": "Its value grows when we add the solar site.",
+    "ar2": "قيمته بتزيد لما نضيف موقع الطاقة الشمسية."
+   },
+   {
+    "w": "value",
+    "pos": "verb",
+    "ex": "We really value your quick response during the outage.",
+    "ar": "إحنا مقدّرين جدًا سرعة ردك وقت الانقطاع.",
+    "ex2": "Clients value that more than a small discount.",
+    "ar2": "العملاء بيقدّروا ده أكتر من خصم صغير."
+   },
+   {
+    "w": "valued",
+    "pos": "adjective",
+    "ex": "Hany is a valued member of the service team.",
+    "ar": "هاني عضو له قيمته في فريق الصيانة.",
+    "ex2": "Valued staff get first choice of training courses.",
+    "ar2": "الموظفين المتقدّرين بياخدوا أول اختيار في الكورسات."
+   },
+   {
+    "w": "undervalue",
+    "pos": "verb",
+    "ex": "Don't undervalue the work of the night-shift technicians.",
+    "ar": "متقلّلش من شغل فنيين الشيفت الليلي.",
+    "ex2": "When we undervalue them, they leave for competitors.",
+    "ar2": "لما بنقلّل منهم، بيروحوا للمنافسين."
+   },
+   {
+    "w": "undervalued",
+    "pos": "adjective",
+    "ex": "I feel undervalued because my bonus didn't reflect the big data centre deal.",
+    "ar": "حاسس إني مش متقدّر لأن البونص بتاعي معكسش صفقة الداتا سنتر الكبيرة.",
+    "ex2": "Undervalued salespeople often stop chasing new clients.",
+    "ar2": "البياعين اللي مش متقدّرين غالبًا بيبطّلوا يدوّروا على عملاء جداد."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "underappreciated",
+    "note": "effort is not thanked or noticed enough",
+    "ex": "The warehouse team feels underappreciated during busy import months.",
+    "ar": "فريق المخزن حاسس إنه مش متقدّر في شهور الاستيراد الزحمة.",
+    "ex2": "A simple thank-you email would help underappreciated staff.",
+    "ar2": "إيميل شكر بسيط هيفرق مع الناس دي."
+   },
+   {
+    "w": "underpaid",
+    "note": "about money only",
+    "ex": "Our engineers are underpaid compared with the market.",
+    "ar": "مهندسينا مرتباتهم أقل من السوق.",
+    "ex2": "If they stay underpaid, we'll lose them this year.",
+    "ar2": "لو فضلت مرتباتهم قليلة هنخسرهم السنة دي."
+   },
+   {
+    "w": "taken for granted",
+    "note": "informal; people expect your extra effort as normal",
+    "ex": "Salma feels taken for granted after covering every Friday.",
+    "ar": "سلمى حاسة إنهم واخدينها على إنها حاجة مضمونة بعد ما غطّت كل جمعة.",
+    "ex2": "Being taken for granted made her ask for a transfer.",
+    "ar2": "الإحساس ده خلّاها تطلب نقل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "valued",
+    "ex": "I feel valued when my manager shares client thank-you emails.",
+    "ar": "بحس إني متقدّر لما مديري يشارك إيميلات شكر العملاء.",
+    "ex2": "Valued engineers stay longer and train new staff.",
+    "ar2": "المهندسين المتقدّرين بيقعدوا أكتر وبيدرّبوا الجداد."
+   },
+   {
+    "w": "appreciated",
+    "ex": "Your work on the hospital UPS project is truly appreciated.",
+    "ar": "شغلك في مشروع ‎UPS‎ المستشفى متقدّر بجد.",
+    "ex2": "It was appreciated by the client too.",
+    "ar2": "والعميل كمان قدّره."
+   }
+  ],
+  "ladder": {
+   "label": "how unappreciated you feel",
+   "lar": "قد إيه حاسس إنك مش متقدّر",
+   "steps": [
+    {
+     "w": "underappreciated",
+     "ex": "I feel a bit underappreciated after the last project.",
+     "ar": "حاسس إني مش متقدّر شوية بعد المشروع اللي فات.",
+     "ex2": "Nobody said thank you; I'm a bit underappreciated.",
+     "ar2": "محدش قال شكرًا؛ حاسس إني مش متقدّر شوية."
+    },
+    {
+     "w": "undervalued",
+     "ex": "I feel undervalued when my ideas never reach management.",
+     "ar": "بحس إني مش متقدّر لما أفكاري عمرها ما بتوصل للإدارة.",
+     "ex2": "Feeling undervalued affects my motivation.",
+     "ar2": "الإحساس ده بيأثر على حماسي."
+    },
+    {
+     "w": "taken for granted",
+     "ex": "After three years of weekend work, I feel taken for granted.",
+     "ar": "بعد تلات سنين شغل في الويك إند، حاسس إنهم واخديني أمر مسلّم بيه.",
+     "ex2": "Being taken for granted is pushing me to look elsewhere.",
+     "ar2": "الإحساس ده بيزقّني أدوّر على شغل تاني."
+    }
+   ]
+  },
+  "ctx": "I've closed three solar deals this quarter, yet my bonus stayed the same. Honestly, I feel a bit undervalued.",
+  "ctx_ar": "قفلت تلات صفقات طاقة شمسية الربع ده، ومع ذلك البونص زي ما هو. بصراحة حاسس إني مش متقدّر شوية.",
+  "quiz": [
+   {
+    "s": "Hany is a ___ member of our team.",
+    "opts": [
+     "value",
+     "valued",
+     "undervalue"
+    ],
+    "a": 1,
+    "ar": "هاني عضو مهم ومتقدّر في الفريق."
+   },
+   {
+    "s": "Our technicians are ___ compared with the market rate.",
+    "opts": [
+     "underpaid",
+     "appreciated",
+     "valued"
+    ],
+    "a": 0,
+    "ar": "فنيينا مرتباتهم أقل من سعر السوق."
+   },
+   {
+    "s": "Please don't ___ the night-shift team's work.",
+    "opts": [
+     "valued",
+     "undervalued",
+     "undervalue"
+    ],
+    "a": 2,
+    "ar": "لو سمحت متقلّلش من شغل فريق الشيفت الليلي."
+   }
+  ]
+ },
+ {
+  "w": "keep pace",
+  "ar": "يواكب / يمشي بنفس السرعة",
+  "family": [
+   {
+    "w": "pace",
+    "pos": "noun",
+    "ex": "The pace of solar installations has doubled this year.",
+    "ar": "سرعة تركيبات الطاقة الشمسية اتضاعفت السنة دي.",
+    "ex2": "At this pace, we need two more crews.",
+    "ar2": "بالسرعة دي محتاجين فريقين كمان."
+   },
+   {
+    "w": "keep pace",
+    "pos": "verb",
+    "ex": "Salaries haven't kept up; they must keep pace with the cost of living.",
+    "ar": "المرتبات مواكبتش؛ لازم تمشي مع غلاء المعيشة.",
+    "ex2": "Our price list must also keep pace with the dollar rate.",
+    "ar2": "قايمة الأسعار كمان لازم تواكب سعر الدولار."
+   },
+   {
+    "w": "fast-paced",
+    "pos": "adjective",
+    "ex": "The data centre business is fast-paced and very competitive.",
+    "ar": "بيزنس الداتا سنتر سريع جدًا والمنافسة فيه جامدة.",
+    "ex2": "New engineers need time to adapt to this fast-paced work.",
+    "ar2": "المهندسين الجداد محتاجين وقت يتعوّدوا على الشغل السريع ده."
+   },
+   {
+    "w": "pace",
+    "pos": "verb",
+    "ex": "Pace yourself; the installation will take three weeks.",
+    "ar": "وزّع مجهودك؛ التركيب هياخد تلات أسابيع.",
+    "ex2": "If you don't pace the work, the team will burn out.",
+    "ar2": "لو موزعتش الشغل، الفريق هيتهد."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "keep up",
+    "note": "informal, general; very common in speech",
+    "ex": "I can't keep up with all the service tickets this week.",
+    "ar": "مش ملاحق على كل بلاغات الصيانة الأسبوع ده.",
+    "ex2": "We need another technician to keep up.",
+    "ar2": "محتاجين فني كمان عشان نلحق."
+   },
+   {
+    "w": "match",
+    "note": "be equal to a number or level",
+    "ex": "Our offer must match the competitor's delivery time.",
+    "ar": "عرضنا لازم يساوي ميعاد تسليم المنافس.",
+    "ex2": "If we can't match it, offer longer warranty instead.",
+    "ar2": "لو مش هنقدر نساويه، اعرض ضمان أطول بداله."
+   },
+   {
+    "w": "catch up",
+    "note": "reach the level after being behind",
+    "ex": "We need two Saturdays to catch up on the backlog of repairs.",
+    "ar": "محتاجين سبتين عشان نلحق التصليحات المتأخرة.",
+    "ex2": "Once we catch up, we'll return to normal hours.",
+    "ar2": "أول ما نلحق، هنرجع للمواعيد العادية."
+   }
+  ],
+  "ant": [
+   {
+    "w": "fall behind",
+    "ex": "Our stock levels fall behind demand every summer.",
+    "ar": "المخزون بتاعنا بيتأخر عن الطلب كل صيف.",
+    "ex2": "When we fall behind, customers buy from competitors.",
+    "ar2": "لما بنتأخر، العملاء بيشتروا من المنافسين."
+   },
+   {
+    "w": "lag behind",
+    "ex": "Our website and app lag behind competitors in showing stock levels.",
+    "ar": "الموقع والأبلكيشن بتوعنا متأخرين عن المنافسين في عرض المخزون.",
+    "ex2": "Lagging behind online costs us small orders.",
+    "ar2": "التأخير ده أونلاين بيضيّع علينا الطلبات الصغيرة."
+   }
+  ],
+  "ladder": {
+   "label": "how well you follow the change",
+   "lar": "قد إيه ماشي مع التغيير",
+   "steps": [
+    {
+     "w": "catch up",
+     "ex": "We're trying to catch up with the new e-invoice rules.",
+     "ar": "بنحاول نلحق قواعد الفاتورة الإلكترونية الجديدة.",
+     "ex2": "We'll catch up by next month.",
+     "ar2": "هنلحق الشهر الجاي."
+    },
+    {
+     "w": "keep pace",
+     "ex": "Our training must keep pace with new inverter technology.",
+     "ar": "التدريب بتاعنا لازم يواكب تكنولوجيا الإنفرترات الجديدة.",
+     "ex2": "To keep pace, we send engineers to the factory yearly.",
+     "ar2": "عشان نواكب، بنبعت مهندسين المصنع كل سنة."
+    },
+    {
+     "w": "stay ahead",
+     "ex": "Remote monitoring helps us stay ahead of competitors.",
+     "ar": "المراقبة عن بعد بتساعدنا نفضل سابقين المنافسين.",
+     "ex2": "To stay ahead, we offer it free for one year.",
+     "ar2": "عشان نفضل سابقين، بنقدّمها ببلاش سنة."
+    },
+    {
+     "w": "set the pace",
+     "ex": "We set the pace in lithium UPS sales in Upper Egypt.",
+     "ar": "إحنا اللي بنحدد السرعة في مبيعات ‎UPS‎ الليثيوم في الصعيد.",
+     "ex2": "Others copy us because we set the pace.",
+     "ar2": "التانيين بيقلّدونا عشان إحنا اللي بنسبق."
+    }
+   ]
+  },
+  "ctx": "Prices have gone up nearly 30% this year. I hope my salary can keep pace with the cost of living.",
+  "ctx_ar": "الأسعار زادت حوالي ٣٠% السنة دي. أتمنى مرتبي يقدر يواكب غلاء المعيشة.",
+  "quiz": [
+   {
+    "s": "Data centre sales is a ___ business.",
+    "opts": [
+     "pace",
+     "fast-paced",
+     "keep pace"
+    ],
+    "a": 1,
+    "ar": "مبيعات الداتا سنتر بيزنس سريع جدًا."
+   },
+   {
+    "s": "We need two Saturdays to ___ on old repair tickets.",
+    "opts": [
+     "catch up",
+     "set the pace",
+     "match"
+    ],
+    "a": 0,
+    "ar": "محتاجين سبتين عشان نلحق بلاغات التصليح القديمة."
+   },
+   {
+    "s": "Without new engineers, we'll ___ demand this summer.",
+    "opts": [
+     "keep pace",
+     "match",
+     "fall behind"
+    ],
+    "a": 2,
+    "ar": "من غير مهندسين جداد هنتأخر عن الطلب الصيف ده."
+   }
+  ]
+ },
+ {
+  "w": "reflect",
+  "ar": "يعكس / يبيّن",
+  "family": [
+   {
+    "w": "reflect",
+    "pos": "verb",
+    "ex": "The new price list reflects the higher import costs.",
+    "ar": "قايمة الأسعار الجديدة بتعكس زيادة تكاليف الاستيراد.",
+    "ex2": "It reflects shipping too, which doubled this year.",
+    "ar2": "وبتعكس الشحن كمان، اللي اتضاعف السنة دي."
+   },
+   {
+    "w": "reflection",
+    "pos": "noun",
+    "ex": "Low collections are a reflection of the market slowdown.",
+    "ar": "التحصيل الضعيف انعكاس لركود السوق.",
+    "ex2": "It's not a reflection of the team's effort.",
+    "ar2": "ده مش انعكاس لمجهود الفريق."
+   },
+   {
+    "w": "reflective",
+    "pos": "adjective",
+    "ex": "The team was quiet and reflective after losing the tender.",
+    "ar": "الفريق كان ساكت وبيفكر بعد ما خسرنا المناقصة.",
+    "ex2": "That reflective mood led to a useful lessons-learned meeting.",
+    "ar2": "المود ده جاب اجتماع مفيد للدروس المستفادة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "show or match something",
+    "mar": "يعكس / يتناسب مع",
+    "ex": "My salary should reflect my new role as team leader.",
+    "ar": "مرتبي المفروض يعكس دوري الجديد كتيم ليدر.",
+    "ex2": "Right now it doesn't reflect the extra responsibility.",
+    "ar2": "دلوقتي مش متناسب مع المسؤولية الزيادة."
+   },
+   {
+    "m": "think carefully about something",
+    "mar": "يفكر بعمق في حاجة",
+    "ex": "Let's reflect on why we lost the hospital contract.",
+    "ar": "خلّينا نفكر بعمق ليه خسرنا عقد المستشفى.",
+    "ex2": "Reflecting on it, our price wasn't the only problem.",
+    "ar2": "لما فكرنا فيها، السعر مكانش المشكلة الوحيدة."
+   }
+  ],
+  "syn": [
+   {
+    "w": "show",
+    "note": "simple everyday word",
+    "ex": "The report shows a 10% rise in battery sales.",
+    "ar": "التقرير بيبيّن زيادة ١٠% في مبيعات البطاريات.",
+    "ex2": "It shows the growth came mostly from solar clients.",
+    "ar2": "بيبيّن إن النمو جه أغلبه من عملاء الطاقة الشمسية."
+   },
+   {
+    "w": "match",
+    "note": "be at the same level as something",
+    "ex": "The bonus should match the size of the deal.",
+    "ar": "البونص المفروض يكون على قد حجم الصفقة.",
+    "ex2": "Ten thousand doesn't match a two-million deal.",
+    "ar2": "عشرة آلاف مش على قد صفقة بمليونين."
+   },
+   {
+    "w": "mirror",
+    "note": "copy closely; more written and formal",
+    "ex": "Our service contract mirrors the manufacturer's warranty terms.",
+    "ar": "عقد الخدمة بتاعنا ماشي بالظبط زي شروط ضمان المصنّع.",
+    "ex2": "Mirroring them avoids confusion for the client.",
+    "ar2": "إننا نمشي زيها بيمنع اللخبطة عند العميل."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "My responsibilities have grown since I took over the Delta region. I'd like my compensation to reflect that.",
+  "ctx_ar": "مسؤولياتي زادت من ساعة ما مسكت منطقة الدلتا. حابب إن مرتبي ومزاياي يعكسوا ده.",
+  "quiz": [
+   {
+    "s": "Weak sales are a ___ of the market, not the team.",
+    "opts": [
+     "reflect",
+     "reflection",
+     "reflective"
+    ],
+    "a": 1,
+    "ar": "المبيعات الضعيفة انعكاس للسوق، مش للفريق."
+   },
+   {
+    "s": "The bonus should ___ the size of the deal.",
+    "opts": [
+     "match",
+     "mirror",
+     "reflection"
+    ],
+    "a": 0,
+    "ar": "البونص المفروض يكون على قد حجم الصفقة."
+   },
+   {
+    "s": "After the lost tender, everyone was quiet and ___.",
+    "opts": [
+     "reflect",
+     "reflection",
+     "reflective"
+    ],
+    "a": 2,
+    "ar": "بعد المناقصة اللي خسرناها، الكل كان ساكت وبيفكر."
+   }
+  ]
+ }
+]

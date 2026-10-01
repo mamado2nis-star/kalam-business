@@ -1,0 +1,815 @@
+[
+ {
+  "w": "upkeep",
+  "ar": "الصيانة والمحافظة على الحاجة شغالة",
+  "family": [
+   {
+    "w": "upkeep",
+    "pos": "noun",
+    "ex": "The upkeep of a solar station is cheap: mostly panel cleaning.",
+    "ar": "صيانة المحطة الشمسية رخيصة: معظمها تنضيف ألواح.",
+    "ex2": "Upkeep costs are about 1% of the project value yearly.",
+    "ar2": "تكاليف الصيانة حوالي 1% من قيمة المشروع في السنة."
+   },
+   {
+    "w": "keep up",
+    "pos": "verb",
+    "ex": "Clients must keep up regular battery checks to keep the warranty.",
+    "ar": "العملا لازم يكمّلوا فحص البطاريات بانتظام عشان الضمان يفضل ساري.",
+    "ex2": "If they don't keep up the checks, the warranty ends.",
+    "ar2": "لو مكمّلوش الفحوصات، الضمان بيقف."
+   },
+   {
+    "w": "well-kept",
+    "pos": "adjective",
+    "ex": "The hotel's UPS room is clean and well-kept.",
+    "ar": "أوضة الـ‎UPS‎ في الفندق نضيفة ومتظبطة.",
+    "ex2": "Well-kept rooms mean fewer battery failures.",
+    "ar2": "الأوض المتظبطة معناها أعطال بطاريات أقل."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "maintenance",
+    "note": "most common word; planned technical work",
+    "ex": "Our maintenance contract covers four visits a year.",
+    "ar": "عقد الصيانة بتاعنا بيغطي أربع زيارات في السنة.",
+    "ex2": "Maintenance includes battery tests and firmware updates.",
+    "ar2": "الصيانة فيها اختبار بطاريات وتحديث سوفتوير."
+   },
+   {
+    "w": "running costs",
+    "note": "money to operate, including upkeep and power",
+    "ex": "The client asked about running costs before buying the chiller VFD.",
+    "ar": "العميل سأل عن تكاليف التشغيل قبل ما يشتري ‎VFD‎ التشيلر.",
+    "ex2": "Lower running costs pay back the VFD in two years.",
+    "ar2": "تكاليف التشغيل الأقل بترجّع تمن الـ‎VFD‎ في سنتين."
+   },
+   {
+    "w": "servicing",
+    "note": "the actual visit or job on the equipment",
+    "ex": "Servicing the UPS takes about three hours.",
+    "ar": "صيانة الـ‎UPS‎ بتاخد حوالي تلات ساعات.",
+    "ex2": "Servicing is booked through our app.",
+    "ar2": "الصيانة بتتحجز من التطبيق بتاعنا."
+   }
+  ],
+  "ant": [
+   {
+    "w": "neglect",
+    "ex": "Years of neglect killed the batteries in the server room.",
+    "ar": "سنين من الإهمال موّتت البطاريات في أوضة السيرفرات.",
+    "ex2": "Neglect is the main reason UPS systems fail.",
+    "ar2": "الإهمال هو السبب الأساسي لأعطال الـ‎UPS‎."
+   },
+   {
+    "w": "deterioration",
+    "ex": "We found serious deterioration in the old cabling.",
+    "ar": "لقينا تدهور كبير في الكابلات القديمة.",
+    "ex2": "The deterioration came from heat and humidity.",
+    "ar2": "التدهور جه من الحرارة والرطوبة."
+   }
+  ],
+  "ladder": {
+   "label": "how much care the equipment gets",
+   "lar": "الجهاز بياخد عناية قد إيه",
+   "steps": [
+    {
+     "w": "neglect",
+     "ex": "Neglect leads to sudden failures.",
+     "ar": "الإهمال بيؤدي لأعطال مفاجئة.",
+     "ex2": "Neglect is common in small offices.",
+     "ar2": "الإهمال منتشر في المكاتب الصغيرة."
+    },
+    {
+     "w": "repair",
+     "ex": "Repair only happens after something breaks.",
+     "ar": "التصليح بيحصل بس بعد ما حاجة تبوظ.",
+     "ex2": "Repair alone means repeated downtime.",
+     "ar2": "التصليح لوحده معناه توقف متكرر."
+    },
+    {
+     "w": "upkeep",
+     "ex": "Basic upkeep keeps the system running.",
+     "ar": "الصيانة الأساسية بتخلّي النظام شغال.",
+     "ex2": "Upkeep includes cleaning and simple checks.",
+     "ar2": "الصيانة دي فيها تنضيف وفحوصات بسيطة."
+    },
+    {
+     "w": "preventive maintenance",
+     "ex": "Preventive maintenance stops failures before they happen.",
+     "ar": "الصيانة الوقائية بتوقّف الأعطال قبل ما تحصل.",
+     "ex2": "Preventive maintenance is what data centres pay for.",
+     "ar2": "الصيانة الوقائية هي اللي الداتا سنترات بتدفع عشانها."
+    }
+   ]
+  },
+  "ctx": "The client is happy with the price, but he's worried about upkeep. Explain that our annual contract covers all battery checks and filter cleaning.",
+  "ctx_ar": "العميل مبسوط من السعر، بس قلقان من الصيانة. اشرحله إن العقد السنوي بتاعنا بيغطي كل فحوصات البطاريات وتنضيف الفلاتر.",
+  "quiz": [
+   {
+    "s": "Years of ___ killed the batteries.",
+    "opts": [
+     "upkeep",
+     "neglect",
+     "servicing"
+    ],
+    "a": 1,
+    "ar": "سنين من الإهمال موّتت البطاريات."
+   },
+   {
+    "s": "The client asked about ___ costs before buying.",
+    "opts": [
+     "running",
+     "upkeep",
+     "well-kept"
+    ],
+    "a": 0,
+    "ar": "العميل سأل عن تكاليف التشغيل قبل ما يشتري."
+   },
+   {
+    "s": "___ maintenance stops failures before they happen.",
+    "opts": [
+     "Neglect",
+     "Repair",
+     "Preventive"
+    ],
+    "a": 2,
+    "ar": "الصيانة الوقائية بتوقّف الأعطال قبل ما تحصل."
+   }
+  ]
+ },
+ {
+  "w": "cross-functional",
+  "ar": "بين أكتر من قسم",
+  "family": [
+   {
+    "w": "cross-functional",
+    "pos": "adjective",
+    "ex": "A cross-functional team from sales, service and finance reviews every big tender.",
+    "ar": "فريق من المبيعات والخدمة والمالية بيراجع كل مناقصة كبيرة.",
+    "ex2": "The cross-functional review catches pricing and payment risks early.",
+    "ar2": "المراجعة المشتركة بتكشف مخاطر التسعير والدفع بدري."
+   },
+   {
+    "w": "function",
+    "pos": "noun",
+    "ex": "Each function has its own target: sales, service and collections.",
+    "ar": "كل قسم ليه التارجت بتاعه: المبيعات والخدمة والتحصيل.",
+    "ex2": "The finance function approves all discounts above 10%.",
+    "ar2": "قسم المالية بيوافق على أي خصم فوق 10%."
+   },
+   {
+    "w": "functional",
+    "pos": "adjective",
+    "ex": "Purchasing is our most functional department; orders always arrive on time.",
+    "ar": "المشتريات أكتر قسم شغال كويس عندنا؛ الأوردرات دايمًا بتوصل في ميعادها.",
+    "ex2": "A functional process doesn't need daily follow-up.",
+    "ar2": "الإجراءات اللي شغالة كويس مش محتاجة متابعة يومية."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "interdepartmental",
+    "note": "formal; between departments, used in policies",
+    "ex": "Interdepartmental meetings happen every Sunday.",
+    "ar": "الاجتماعات بين الأقسام بتحصل كل حد.",
+    "ex2": "Interdepartmental emails must copy the managers.",
+    "ar2": "الإيميلات بين الأقسام لازم يتحط فيها المديرين."
+   },
+   {
+    "w": "joint",
+    "note": "simple; done together by two or more groups",
+    "ex": "Sales and service made a joint visit to the factory.",
+    "ar": "المبيعات والخدمة عملوا زيارة مشتركة للمصنع.",
+    "ex2": "The joint visit impressed the client.",
+    "ar2": "الزيارة المشتركة عجبت العميل."
+   },
+   {
+    "w": "multidisciplinary",
+    "note": "different skills or specialisms, often engineering",
+    "ex": "The data-centre project needs a multidisciplinary team of electrical and IT engineers.",
+    "ar": "مشروع الداتا سنتر محتاج فريق متعدد التخصصات من مهندسين كهربا و‎IT‎.",
+    "ex2": "Multidisciplinary teams solve complex sites faster.",
+    "ar2": "الفرق متعددة التخصصات بتحل المواقع المعقدة أسرع."
+   }
+  ],
+  "ant": [
+   {
+    "w": "siloed",
+    "ex": "Siloed teams caused the wrong battery model to be ordered.",
+    "ar": "الفرق اللي شغالة كل واحد لوحده خلّت موديل بطاريات غلط يتطلب.",
+    "ex2": "Siloed departments don't share client information.",
+    "ar2": "الأقسام المقفولة على نفسها مبتشاركش معلومات العملا."
+   },
+   {
+    "w": "single-department",
+    "ex": "The quotation was a single-department decision, so service costs were missing.",
+    "ar": "عرض السعر كان قرار قسم واحد، فتكاليف الخدمة كانت ناقصة.",
+    "ex2": "Single-department decisions often miss hidden costs.",
+    "ar2": "قرارات القسم الواحد غالبًا بتفوّت تكاليف مستخبية."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The solar project needs a cross-functional team. Sales handles the client, engineering designs the system, and finance checks the payment plan.",
+  "ctx_ar": "مشروع الطاقة الشمسية محتاج فريق من أكتر من قسم. المبيعات تتعامل مع العميل، والهندسة تصمّم النظام، والمالية تراجع خطة الدفع.",
+  "quiz": [
+   {
+    "s": "___ teams caused the wrong battery order.",
+    "opts": [
+     "Cross-functional",
+     "Siloed",
+     "Joint"
+    ],
+    "a": 1,
+    "ar": "الفرق المقفولة على نفسها عملت أوردر البطاريات الغلط."
+   },
+   {
+    "s": "Sales and service made a ___ visit to the factory.",
+    "opts": [
+     "joint",
+     "siloed",
+     "function"
+    ],
+    "a": 0,
+    "ar": "المبيعات والخدمة عملوا زيارة مشتركة للمصنع."
+   },
+   {
+    "s": "The finance ___ approves big discounts.",
+    "opts": [
+     "functional",
+     "cross-functional",
+     "function"
+    ],
+    "a": 2,
+    "ar": "قسم المالية بيوافق على الخصومات الكبيرة."
+   }
+  ]
+ },
+ {
+  "w": "delegate",
+  "ar": "يوزّع / يسند مهام لحد تاني",
+  "family": [
+   {
+    "w": "delegate",
+    "pos": "verb",
+    "ex": "When I travel to clients, I delegate invoice follow-up to my assistant.",
+    "ar": "لما بسافر للعملا، بسيب متابعة الفواتير لمساعدتي.",
+    "ex2": "I delegate it with a clear list of who owes what.",
+    "ar2": "بسيبهولها بليستة واضحة مين عليه كام."
+   },
+   {
+    "w": "delegation",
+    "pos": "noun",
+    "ex": "Delegation is hard for new managers who were great engineers.",
+    "ar": "توزيع المهام صعب على المديرين الجداد اللي كانوا مهندسين شاطرين.",
+    "ex2": "Without delegation, they work every weekend.",
+    "ar2": "من غير توزيع المهام، بيشتغلوا كل ويك إند."
+   },
+   {
+    "w": "delegated",
+    "pos": "adjective",
+    "ex": "Delegated tasks are listed in the weekly service plan.",
+    "ar": "المهام اللي اتوزّعت مكتوبة في خطة الخدمة الأسبوعية.",
+    "ex2": "Each delegated task has an owner and a date.",
+    "ar2": "كل مهمة متوزّعة ليها مسؤول وميعاد."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "assign",
+    "note": "manager gives a specific task to a person",
+    "ex": "I assigned the chiller VFD site to Amr.",
+    "ar": "سلّمت موقع ‎VFD‎ التشيلر لـ‎Amr‎.",
+    "ex2": "I assigned it because he knows the client well.",
+    "ar2": "سلّمته له عشان هو عارف العميل كويس."
+   },
+   {
+    "w": "entrust",
+    "note": "formal; give important work you trust someone with",
+    "ex": "The director entrusted Laila with the biggest bank account.",
+    "ar": "المدير ائتمن ‎Laila‎ على أكبر حساب بنك.",
+    "ex2": "Being entrusted with it shows real confidence in her.",
+    "ar2": "إنه ائتمنها عليه بيبيّن ثقة حقيقية فيها."
+   },
+   {
+    "w": "outsource",
+    "note": "give work to another company, not a colleague",
+    "ex": "We outsource the civil works on solar sites.",
+    "ar": "بنسند الأعمال المدنية في مواقع الطاقة الشمسية لشركة برا.",
+    "ex2": "Outsourcing it lets us focus on electrical work.",
+    "ar2": "إسناده لبرا بيخلينا نركّز على الشغل الكهربا."
+   }
+  ],
+  "ant": [
+   {
+    "w": "micromanage",
+    "ex": "He micromanages every quotation, so the team feels untrusted.",
+    "ar": "هو بيتدخل في كل تفصيلة في عروض الأسعار، فالفريق حاسس إنه مش واثق فيهم.",
+    "ex2": "If you micromanage, quotations take twice as long.",
+    "ar2": "لو اتدخلت في كل حاجة، عروض الأسعار بتاخد ضعف الوقت."
+   },
+   {
+    "w": "take on",
+    "ex": "Managers who take on all the import paperwork themselves get stuck.",
+    "ar": "المديرين اللي بيشيلوا ورق الاستيراد كله بنفسهم بيتزنقوا.",
+    "ex2": "Taking on everything leaves no time for clients.",
+    "ar2": "إنك تشيل كل حاجة مبيسيبلكش وقت للعملا."
+   }
+  ],
+  "ladder": {
+   "label": "how much responsibility you give",
+   "lar": "بتدّي مسؤولية قد إيه",
+   "steps": [
+    {
+     "w": "ask for help",
+     "ex": "I ask Sherif for help with the battery calculations.",
+     "ar": "بطلب مساعدة من ‎Sherif‎ في حسابات البطاريات.",
+     "ex2": "Asking for help is fine for one task.",
+     "ar2": "طلب المساعدة عادي لمهمة واحدة."
+    },
+    {
+     "w": "assign",
+     "ex": "I assigned the site survey to Sherif.",
+     "ar": "سلّمت المعاينة لـ‎Sherif‎.",
+     "ex2": "Assigning it means he goes, but I decide.",
+     "ar2": "تسليمها معناه إنه يروح، بس أنا اللي أقرر."
+    },
+    {
+     "w": "delegate",
+     "ex": "I delegate the whole small-client portfolio to Sherif.",
+     "ar": "بسيب محفظة العملا الصغيرين كلها لـ‎Sherif‎.",
+     "ex2": "Delegating means he decides prices up to 5% discount.",
+     "ar2": "التوزيع ده معناه إنه يقرر الأسعار لحد خصم 5%."
+    },
+    {
+     "w": "entrust",
+     "ex": "The company entrusted him with the Delta region.",
+     "ar": "الشركة ائتمنته على منطقة الدلتا.",
+     "ex2": "Being entrusted means full ownership and targets.",
+     "ar2": "إنه يتأتمن معناه مسؤولية كاملة وتارجت."
+    }
+   ]
+  },
+  "ctx": "I can't do every site visit myself, so I delegate. Juniors handle routine battery checks, and I join only the big data-centre jobs.",
+  "ctx_ar": "مش هقدر أعمل كل زيارات المواقع بنفسي، فبوزّع الشغل. الجونيورز بيعملوا فحوصات البطاريات العادية، وأنا بنزل بس شغلانات الداتا سنتر الكبيرة.",
+  "quiz": [
+   {
+    "s": "___ tasks are listed in the weekly plan.",
+    "opts": [
+     "Delegate",
+     "Delegation",
+     "Delegated"
+    ],
+    "a": 2,
+    "ar": "المهام المتوزّعة مكتوبة في الخطة الأسبوعية."
+   },
+   {
+    "s": "We ___ the civil works to another company.",
+    "opts": [
+     "outsource",
+     "entrust",
+     "micromanage"
+    ],
+    "a": 0,
+    "ar": "بنسند الأعمال المدنية لشركة تانية."
+   },
+   {
+    "s": "He ___ every detail, so the team feels untrusted.",
+    "opts": [
+     "delegates",
+     "micromanages",
+     "assigns"
+    ],
+    "a": 1,
+    "ar": "هو بيتدخل في كل تفصيلة، فالفريق حاسس إنه مش واثق فيهم."
+   }
+  ]
+ },
+ {
+  "w": "troubleshoot",
+  "ar": "يدوّر على سبب العطل ويصلحه",
+  "family": [
+   {
+    "w": "troubleshoot",
+    "pos": "verb",
+    "ex": "Our engineer can troubleshoot most UPS faults remotely.",
+    "ar": "مهندسنا يقدر يشخّص معظم أعطال الـ‎UPS‎ عن بعد.",
+    "ex2": "He troubleshoots them through the monitoring card.",
+    "ar2": "بيشخّصها من خلال كارت المراقبة."
+   },
+   {
+    "w": "troubleshooting",
+    "pos": "noun",
+    "ex": "Troubleshooting showed the VFD fault came from a bad motor cable.",
+    "ar": "التشخيص بيّن إن عطل الـ‎VFD‎ جاي من كابل موتور بايظ.",
+    "ex2": "Good troubleshooting saves buying parts we don't need.",
+    "ar2": "التشخيص الكويس بيوفّر شرا قطع مش محتاجينها."
+   },
+   {
+    "w": "troubleshooter",
+    "pos": "person",
+    "ex": "Send our best troubleshooter to the hospital; it's urgent.",
+    "ar": "ابعت أشطر فني أعطال عندنا للمستشفى؛ الموضوع مستعجل.",
+    "ex2": "The troubleshooter should take spare boards too.",
+    "ar2": "والفني ده ياخد معاه كروت احتياطي كمان."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "diagnose",
+    "note": "find the cause only; may not fix it",
+    "ex": "The engineer diagnosed a failed rectifier in the UPS.",
+    "ar": "المهندس شخّص إن الريكتيفاير في الـ‎UPS‎ بايظ.",
+    "ex2": "He diagnosed it and ordered the part.",
+    "ar2": "شخّصه وطلب القطعة."
+   },
+   {
+    "w": "fix",
+    "note": "repair; simple everyday word",
+    "ex": "We fixed the inverter by replacing the fan.",
+    "ar": "صلّحنا الإنفرتر بتغيير المروحة.",
+    "ex2": "Fixing it took twenty minutes.",
+    "ar2": "تصليحه خد عشرين دقيقة."
+   },
+   {
+    "w": "debug",
+    "note": "for software and control programs",
+    "ex": "IT is debugging the monitoring software on the client's server.",
+    "ar": "الـ‎IT‎ بيصلّح أخطاء برنامج المراقبة على سيرفر العميل.",
+    "ex2": "Debugging should finish before the evening shift.",
+    "ar2": "تصليح الأخطاء المفروض يخلص قبل شيفت بالليل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "break",
+    "ex": "Don't break the warranty seal while checking the battery.",
+    "ar": "متكسرش ختم الضمان وإنت بتفحص البطارية.",
+    "ex2": "If you break it, the supplier won't replace the unit.",
+    "ar2": "لو كسرته، المورد مش هيغيّر الجهاز."
+   },
+   {
+    "w": "guess",
+    "ex": "Don't guess and replace random boards.",
+    "ar": "متخمّنش وتغيّر كروت عشوائي.",
+    "ex2": "Guessing wastes parts and the client's money.",
+    "ar2": "التخمين بيضيّع قطع وفلوس العميل."
+   }
+  ],
+  "ladder": {
+   "label": "how deep you go into the problem",
+   "lar": "بتدخل في المشكلة قد إيه",
+   "steps": [
+    {
+     "w": "check",
+     "ex": "First, check the UPS display for alarm codes.",
+     "ar": "الأول، بُص على شاشة الـ‎UPS‎ على أكواد الإنذار.",
+     "ex2": "Check the input voltage too.",
+     "ar2": "وبص على جهد الدخل كمان."
+    },
+    {
+     "w": "diagnose",
+     "ex": "Then diagnose the cause with the service software.",
+     "ar": "بعدين شخّص السبب ببرنامج الخدمة.",
+     "ex2": "Diagnosing it may take an hour.",
+     "ar2": "التشخيص ممكن ياخد ساعة."
+    },
+    {
+     "w": "troubleshoot",
+     "ex": "Troubleshoot step by step until the fault is found and fixed.",
+     "ar": "دوّر على العطل خطوة بخطوة لحد ما تلاقيه وتصلّحه.",
+     "ex2": "Troubleshooting ends with a test under load.",
+     "ar2": "التشخيص بيخلص باختبار على حمل."
+    },
+    {
+     "w": "root-cause analysis",
+     "ex": "For repeated failures, we do a root-cause analysis.",
+     "ar": "للأعطال المتكررة، بنعمل تحليل للسبب الجذري.",
+     "ex2": "The root-cause report goes to the client and supplier.",
+     "ar2": "تقرير السبب الجذري بيروح للعميل والمورد."
+    }
+   ]
+  },
+  "ctx": "Before sending a technician, try to troubleshoot by phone. Ask the client to read the alarm code and check if the input breaker has tripped.",
+  "ctx_ar": "قبل ما تبعت فني، حاول تشخّص العطل بالتليفون. اطلب من العميل يقرا كود الإنذار ويشوف لو بريكر الدخل فصل.",
+  "quiz": [
+   {
+    "s": "___ showed the fault came from a bad cable.",
+    "opts": [
+     "Troubleshoot",
+     "Troubleshooting",
+     "Troubleshooter"
+    ],
+    "a": 1,
+    "ar": "التشخيص بيّن إن العطل جاي من كابل بايظ."
+   },
+   {
+    "s": "IT is ___ the monitoring software.",
+    "opts": [
+     "debugging",
+     "breaking",
+     "guessing"
+    ],
+    "a": 0,
+    "ar": "الـ‎IT‎ بيصلّح أخطاء برنامج المراقبة."
+   },
+   {
+    "s": "For repeated failures, we do a ___.",
+    "opts": [
+     "check",
+     "fix",
+     "root-cause analysis"
+    ],
+    "a": 2,
+    "ar": "للأعطال المتكررة، بنعمل تحليل للسبب الجذري."
+   }
+  ]
+ },
+ {
+  "w": "proactive",
+  "ar": "بيسبق الأحداث / بياخد المبادرة",
+  "family": [
+   {
+    "w": "proactive",
+    "pos": "adjective",
+    "ex": "A proactive engineer replaces weak batteries before the UPS fails.",
+    "ar": "المهندس اللي بيسبق الأحداث بيغيّر البطاريات الضعيفة قبل ما الـ‎UPS‎ يعطل.",
+    "ex2": "Proactive service is our main selling point.",
+    "ar2": "الخدمة الاستباقية هي أهم ميزة بنبيع بيها."
+   },
+   {
+    "w": "proactively",
+    "pos": "adverb",
+    "ex": "We proactively remind clients when their warranty is about to end.",
+    "ar": "بنفكّر العملا من نفسنا لما الضمان يقرّب يخلص.",
+    "ex2": "Proactively calling them brings renewal contracts.",
+    "ar2": "إننا نكلمهم من نفسنا بيجيب عقود تجديد."
+   },
+   {
+    "w": "proactivity",
+    "pos": "noun",
+    "ex": "Management rewards proactivity in the service team.",
+    "ar": "الإدارة بتكافئ المبادرة في فريق الخدمة.",
+    "ex2": "Proactivity reduced emergency calls by 30%.",
+    "ar2": "المبادرة قلّلت مكالمات الطوارئ 30%."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "take the initiative",
+    "note": "act without being told; spoken and CV",
+    "ex": "Ramy likes to take the initiative; he called the supplier about the delay.",
+    "ar": "‎Ramy‎ بيحب ياخد المبادرة؛ كلّم المورد عن التأخير.",
+    "ex2": "Taking the initiative saved two days.",
+    "ar2": "إنه خد المبادرة وفّر يومين."
+   },
+   {
+    "w": "forward-thinking",
+    "note": "plans for the future; positive, formal",
+    "ex": "Our forward-thinking client is already planning lithium batteries.",
+    "ar": "عميلنا اللي بيفكر لقدام بيخطط لبطاريات ليثيوم من دلوقتي.",
+    "ex2": "Forward-thinking clients budget a year ahead.",
+    "ar2": "العملا اللي بيفكروا لقدام بيعملوا ميزانية قبلها بسنة."
+   },
+   {
+    "w": "preventive",
+    "note": "for maintenance and actions that stop problems",
+    "ex": "Preventive checks are included in every contract.",
+    "ar": "الفحوصات الوقائية موجودة في كل عقد.",
+    "ex2": "Preventive work costs less than emergency repairs.",
+    "ar2": "الشغل الوقائي أرخص من التصليحات الطارئة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "reactive",
+    "ex": "Our old approach was reactive: we waited for the client to call.",
+    "ar": "طريقتنا القديمة كانت رد فعل: كنا بنستنى العميل يتصل.",
+    "ex2": "Reactive service means longer downtime.",
+    "ar2": "الخدمة اللي بتستنى العطل معناها توقف أطول."
+   },
+   {
+    "w": "passive",
+    "ex": "A passive sales engineer only answers incoming enquiries.",
+    "ar": "مهندس المبيعات السلبي بيرد على الاستفسارات اللي بتيجي بس.",
+    "ex2": "Passive selling won't reach the stretch targets.",
+    "ar2": "البيع السلبي مش هيوصل للأهداف الطموحة."
+   }
+  ],
+  "ladder": {
+   "label": "how early you act",
+   "lar": "بتتحرك بدري قد إيه",
+   "steps": [
+    {
+     "w": "passive",
+     "ex": "Passive: we wait and do nothing.",
+     "ar": "سلبي: بنستنى ومبنعملش حاجة.",
+     "ex2": "Passive teams lose clients quietly.",
+     "ar2": "الفرق السلبية بتخسر العملا من غير ما تحس."
+    },
+    {
+     "w": "reactive",
+     "ex": "Reactive: we fix the UPS after it fails.",
+     "ar": "رد فعل: بنصلّح الـ‎UPS‎ بعد ما يعطل.",
+     "ex2": "Reactive work is always stressful.",
+     "ar2": "شغل رد الفعل دايمًا متوتر."
+    },
+    {
+     "w": "proactive",
+     "ex": "Proactive: we replace batteries before they fail.",
+     "ar": "استباقي: بنغيّر البطاريات قبل ما تعطل.",
+     "ex2": "Proactive service keeps the client's servers running.",
+     "ar2": "الخدمة الاستباقية بتخلّي سيرفرات العميل شغالة."
+    },
+    {
+     "w": "predictive",
+     "ex": "Predictive: remote data tells us which battery will fail next.",
+     "ar": "تنبؤي: البيانات عن بعد بتقولنا أنهي بطارية هتعطل الجاية.",
+     "ex2": "Predictive maintenance is the future for data centres.",
+     "ar2": "الصيانة التنبؤية هي المستقبل للداتا سنترات."
+    }
+   ]
+  },
+  "ctx": "Be proactive with this client. Call them before summer, check their battery age, and offer replacements before the heat causes failures.",
+  "ctx_ar": "خليك سابق بخطوة مع العميل ده. كلّمه قبل الصيف، شوف عمر البطاريات عنده، واعرض التغيير قبل ما الحر يعمل أعطال.",
+  "quiz": [
+   {
+    "s": "We ___ remind clients before their warranty ends.",
+    "opts": [
+     "proactive",
+     "proactively",
+     "proactivity"
+    ],
+    "a": 1,
+    "ar": "بنفكّر العملا من نفسنا قبل ما الضمان يخلص."
+   },
+   {
+    "s": "Our old service was ___: we waited for calls.",
+    "opts": [
+     "reactive",
+     "proactive",
+     "predictive"
+    ],
+    "a": 0,
+    "ar": "خدمتنا القديمة كانت رد فعل: كنا بنستنى المكالمات."
+   },
+   {
+    "s": "Remote data makes our maintenance ___.",
+    "opts": [
+     "passive",
+     "reactive",
+     "predictive"
+    ],
+    "a": 2,
+    "ar": "البيانات عن بعد بتخلّي صيانتنا تنبؤية."
+   }
+  ]
+ },
+ {
+  "w": "reconcile",
+  "ar": "يطابق الحسابات",
+  "family": [
+   {
+    "w": "reconcile",
+    "pos": "verb",
+    "ex": "Every month, Mona reconciles our account with the battery supplier.",
+    "ar": "كل شهر، ‎Mona‎ بتطابق حسابنا مع مورد البطاريات.",
+    "ex2": "She reconciles it before we pay any new invoice.",
+    "ar2": "بتطابقه قبل ما ندفع أي فاتورة جديدة."
+   },
+   {
+    "w": "reconciliation",
+    "pos": "noun",
+    "ex": "The bank reconciliation showed a payment we hadn't recorded.",
+    "ar": "مطابقة البنك بيّنت دفعة مكناش مسجّلينها.",
+    "ex2": "After the reconciliation, the client's balance was correct.",
+    "ar2": "بعد المطابقة، رصيد العميل بقى مظبوط."
+   },
+   {
+    "w": "reconciled",
+    "pos": "adjective",
+    "ex": "Only reconciled accounts go into the year-end report.",
+    "ar": "الحسابات اللي اتطابقت بس هي اللي بتدخل تقرير آخر السنة.",
+    "ex2": "Reconciled figures must match the e-invoice system.",
+    "ar2": "الأرقام المتطابقة لازم تطابق نظام الفاتورة الإلكترونية."
+   },
+   {
+    "w": "irreconcilable",
+    "pos": "adjective",
+    "ex": "The two sides had irreconcilable views on the penalty clause.",
+    "ar": "الطرفين كان عندهم آراء مستحيل تتقابل في بند الغرامة.",
+    "ex2": "Irreconcilable differences ended the partnership.",
+    "ar2": "الخلافات اللي مالهاش حل نهت الشراكة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "make two financial records match",
+    "mar": "يطابق كشفين حساب",
+    "ex": "Please reconcile the client's statement with our ledger.",
+    "ar": "لو سمحت طابق كشف حساب العميل مع دفاترنا.",
+    "ex2": "Reconcile it before calling about the overdue amount.",
+    "ar2": "طابقه قبل ما تكلمه عن المبلغ المتأخر."
+   },
+   {
+    "m": "end a disagreement between people",
+    "mar": "يصالح أو يقرّب وجهات النظر",
+    "ex": "The manager reconciled sales and service after the argument.",
+    "ar": "المدير صالح المبيعات والخدمة بعد الخناقة.",
+    "ex2": "Once reconciled, they agreed on the warranty rules.",
+    "ar2": "بعد ما اتصالحوا، اتفقوا على قواعد الضمان."
+   },
+   {
+    "m": "make two needs fit together",
+    "mar": "يوفّق بين حاجتين",
+    "ex": "We need to reconcile the client's low budget with his high specs.",
+    "ar": "محتاجين نوفّق بين ميزانية العميل القليلة ومواصفاته العالية.",
+    "ex2": "Reconciling both, we offered a smaller UPS with expansion.",
+    "ar2": "وعشان نوفّق بينهم، عرضنا ‎UPS‎ أصغر قابل للتوسعة."
+   }
+  ],
+  "syn": [
+   {
+    "w": "match",
+    "note": "simple; check two things are the same",
+    "ex": "The PO amount must match the invoice amount.",
+    "ar": "مبلغ الـ‎PO‎ لازم يطابق مبلغ الفاتورة.",
+    "ex2": "If they don't match, the client won't pay.",
+    "ar2": "لو مش متطابقين، العميل مش هيدفع."
+   },
+   {
+    "w": "balance the books",
+    "note": "accounting phrase; all records are correct",
+    "ex": "Finance balances the books at the end of each month.",
+    "ar": "المالية بتقفل الحسابات وتظبطها آخر كل شهر.",
+    "ex2": "Balancing the books takes three days in December.",
+    "ar2": "ظبط الحسابات بياخد تلات أيام في ديسمبر."
+   },
+   {
+    "w": "cross-check",
+    "note": "verify one record against another",
+    "ex": "Cross-check the delivery notes with the supplier's invoice.",
+    "ar": "راجع أذونات التسليم قصاد فاتورة المورد.",
+    "ex2": "Cross-checking found two batteries we never received.",
+    "ar2": "المراجعة لقت بطاريتين عمرنا ما استلمناهم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "mismatch",
+    "ex": "There's a mismatch of 12,000 pounds between our records and the client's.",
+    "ar": "فيه فرق 12 ألف جنيه بين سجلاتنا وسجلات العميل.",
+    "ex2": "We must explain the mismatch before month-end.",
+    "ar2": "لازم نفسّر الفرق قبل آخر الشهر."
+   },
+   {
+    "w": "discrepancy",
+    "ex": "The auditor found a discrepancy in the import invoices.",
+    "ar": "المراجع لقى اختلاف في فواتير الاستيراد.",
+    "ex2": "The discrepancy came from the exchange rate.",
+    "ar2": "الاختلاف جه من سعر الصرف."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Before you chase the client, reconcile his account. Last time we asked for money he had already paid, and he was very annoyed.",
+  "ctx_ar": "قبل ما تطارد العميل، طابق حسابه. المرة اللي فاتت طلبنا فلوس كان دافعها خلاص، واتضايق جدًا.",
+  "quiz": [
+   {
+    "s": "The bank ___ showed an unrecorded payment.",
+    "opts": [
+     "reconcile",
+     "reconciliation",
+     "reconciled"
+    ],
+    "a": 1,
+    "ar": "مطابقة البنك بيّنت دفعة مش متسجّلة."
+   },
+   {
+    "s": "The auditor found a ___ in the import invoices.",
+    "opts": [
+     "discrepancy",
+     "reconciliation",
+     "match"
+    ],
+    "a": 0,
+    "ar": "المراجع لقى اختلاف في فواتير الاستيراد."
+   },
+   {
+    "s": "___ the delivery notes with the supplier's invoice.",
+    "opts": [
+     "Mismatch",
+     "Reconciled",
+     "Cross-check"
+    ],
+    "a": 2,
+    "ar": "راجع أذونات التسليم قصاد فاتورة المورد."
+   }
+  ]
+ }
+]

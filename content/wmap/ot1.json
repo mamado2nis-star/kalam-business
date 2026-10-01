@@ -1,0 +1,779 @@
+[
+ {
+  "w": "punctuality",
+  "ar": "الالتزام بالمواعيد",
+  "family": [
+   {
+    "w": "punctual",
+    "pos": "adjective",
+    "ex": "Please be punctual; the supplier meeting starts at nine.",
+    "ar": "ياريت تيجي في ميعادك، اجتماع المورّد هيبدأ الساعة تسعة.",
+    "ex2": "Their export manager flies back at noon, so be punctual.",
+    "ar2": "مدير التصدير عندهم راجع بالطيارة الضهر، فتعالى في الميعاد."
+   },
+   {
+    "w": "punctuality",
+    "pos": "noun",
+    "ex": "Customers notice our punctuality on site visits.",
+    "ar": "العملاء بياخدوا بالهم من التزامنا بالمواعيد في زيارات الموقع.",
+    "ex2": "Punctuality is one reason the bank renewed our contract.",
+    "ar2": "الالتزام بالمواعيد سبب من أسباب إن البنك جدّد العقد معانا."
+   },
+   {
+    "w": "punctually",
+    "pos": "adverb",
+    "ex": "The shipment arrived punctually at 10 a.m. as planned.",
+    "ar": "الشحنة وصلت الساعة 10 الصبح بالظبط زي ما كان متخطط.",
+    "ex2": "Because it arrived punctually, installation started the same day.",
+    "ar2": "عشان وصلت في الميعاد، التركيب بدأ في نفس اليوم."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "being on time",
+    "note": "simple everyday phrase; same idea",
+    "ex": "Being on time matters a lot to this client.",
+    "ar": "إنك تيجي في الميعاد بيفرق جداً مع العميل ده.",
+    "ex2": "Last time we were late, he complained to our director.",
+    "ar2": "آخر مرة اتأخرنا، اشتكى لمديرنا."
+   },
+   {
+    "w": "timeliness",
+    "note": "formal; about deliveries, replies or payments, not people",
+    "ex": "The client rated us highly for the timeliness of our deliveries.",
+    "ar": "العميل ادّانا تقييم عالي على التزامنا بمواعيد التوريد.",
+    "ex2": "Timeliness of payment is also in the contract.",
+    "ar2": "الالتزام بمواعيد الدفع مكتوب كمان في العقد."
+   },
+   {
+    "w": "reliability",
+    "note": "wider: dependable in every way, not just time",
+    "ex": "Our reliability is why hospitals choose us.",
+    "ar": "اعتمادنا هو السبب إن المستشفيات بتختارنا.",
+    "ex2": "Reliability means on time, correct parts and a working UPS.",
+    "ar2": "الاعتمادية يعني في الميعاد، وقطع صح، و‎UPS‎ شغال."
+   }
+  ],
+  "ant": [
+   {
+    "w": "lateness",
+    "ex": "Repeated lateness to site visits annoys customers.",
+    "ar": "التأخير المتكرر في زيارات الموقع بيضايق العملاء.",
+    "ex2": "HR will issue a warning for further lateness.",
+    "ar2": "الـ‎HR‎ هيطلّعوا إنذار لو التأخير اتكرر."
+   }
+  ],
+  "ladder": {
+   "label": "how on time",
+   "lar": "في الميعاد قد إيه",
+   "steps": [
+    {
+     "w": "running late",
+     "ex": "Sorry, I'm running late; there's traffic on the Ring Road.",
+     "ar": "معلش أنا متأخر، فيه زحمة على الدائري.",
+     "ex2": "I'll be about fifteen minutes late.",
+     "ar2": "هتأخر حوالي ربع ساعة."
+    },
+    {
+     "w": "on time",
+     "ex": "The engineer arrived on time for the commissioning.",
+     "ar": "المهندس وصل في ميعاده للتشغيل.",
+     "ex2": "The client was happy we started on time.",
+     "ar2": "العميل اتبسط إننا بدأنا في الميعاد."
+    },
+    {
+     "w": "early",
+     "ex": "I'll come early to set up the demo UPS before the meeting.",
+     "ar": "هاجي بدري عشان أجهّز جهاز الـ‎UPS‎ للعرض قبل الاجتماع.",
+     "ex2": "Arriving early also gives us time to test the projector.",
+     "ar2": "إننا نيجي بدري كمان بيدّينا وقت نجرّب البروجكتور."
+    }
+   ]
+  },
+  "ctx": "Our client values punctuality. If the engineer arrives late, the factory manager calls our director.",
+  "ctx_ar": "العميل بتاعنا بيهتم جداً بالالتزام بالمواعيد. لو المهندس اتأخر، مدير المصنع بيكلّم مديرنا.",
+  "quiz": [
+   {
+    "s": "Customers notice our ___; we always arrive at the agreed time.",
+    "opts": [
+     "punctual",
+     "punctuality",
+     "punctually"
+    ],
+    "a": 1,
+    "ar": "العملاء بياخدوا بالهم من التزامنا بالمواعيد؛ دايماً بنوصل في الميعاد المتفق عليه."
+   },
+   {
+    "s": "Please be ___; the meeting with the supplier starts at nine.",
+    "opts": [
+     "punctual",
+     "punctuality",
+     "punctually"
+    ],
+    "a": 0,
+    "ar": "ياريت تيجي في ميعادك؛ الاجتماع مع المورّد هيبدأ الساعة تسعة."
+   },
+   {
+    "s": "The shipment arrived ___ at 10 a.m. as planned.",
+    "opts": [
+     "punctual",
+     "lateness",
+     "punctually"
+    ],
+    "a": 2,
+    "ar": "الشحنة وصلت الساعة 10 الصبح بالظبط زي ما كان متخطط."
+   }
+  ]
+ },
+ {
+  "w": "disruptive",
+  "ar": "مزعج / بيعطّل الشغل",
+  "family": [
+   {
+    "w": "disrupt",
+    "pos": "verb",
+    "ex": "Loud phone calls disrupt the whole sales team.",
+    "ar": "المكالمات العالية بتعطّل فريق المبيعات كله.",
+    "ex2": "Please take calls outside so you don't disrupt others.",
+    "ar2": "ياريت تاخد المكالمات برة عشان متعطّلش غيرك."
+   },
+   {
+    "w": "disruption",
+    "pos": "noun",
+    "ex": "The power cut caused a two-hour disruption at the plant.",
+    "ar": "انقطاع الكهربا عمل توقف ساعتين في المصنع.",
+    "ex2": "A bigger UPS would have avoided the disruption.",
+    "ar2": "‎UPS‎ أكبر كان هيمنع التوقف ده."
+   },
+   {
+    "w": "disruptive",
+    "pos": "adjective",
+    "ex": "A full shutdown would be very disruptive for the factory.",
+    "ar": "الإطفاء الكامل هيعطّل المصنع جداً.",
+    "ex2": "That's why we'll replace batteries in hot-swap mode, which is less disruptive.",
+    "ar2": "عشان كده هنغيّر البطاريات والجهاز شغال، وده أقل تعطيل."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "distracting",
+    "note": "stops people concentrating; noise, calls, chat",
+    "ex": "The drilling next door is distracting during client calls.",
+    "ar": "الخرم اللي في المكتب اللي جنبنا بيشتّت وإحنا بنكلّم العملاء.",
+    "ex2": "Let's use the meeting room until the distracting noise stops.",
+    "ar2": "تعالوا نستخدم أوضة الاجتماعات لحد ما الدوشة تخلص."
+   },
+   {
+    "w": "annoying",
+    "note": "informal; irritating but may not stop work",
+    "ex": "The beeping UPS alarm is really annoying.",
+    "ar": "صوت الإنذار اللي بيصفّر في الـ‎UPS‎ مزعج جداً.",
+    "ex2": "It's annoying, but it tells us the battery is weak.",
+    "ar2": "مزعج، بس بيقولنا إن البطارية ضعيفة."
+   },
+   {
+    "w": "damaging",
+    "note": "causes real harm to equipment, money or reputation",
+    "ex": "Late deliveries are damaging to our reputation.",
+    "ar": "التأخير في التوريد بيضر سمعتنا.",
+    "ex2": "One more damaging delay and we could lose the contract.",
+    "ar2": "تأخير كمان زي ده وممكن نخسر العقد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "seamless",
+    "ex": "The battery swap was seamless; the servers never noticed.",
+    "ar": "تغيير البطاريات عدّى من غير أي تعطيل؛ السيرفرات محسّتش بحاجة.",
+    "ex2": "Seamless work like this is why they renewed the contract.",
+    "ar2": "الشغل النضيف ده هو السبب إنهم جدّدوا العقد."
+   }
+  ],
+  "ladder": {
+   "label": "how much it stops work",
+   "lar": "بيعطّل الشغل قد إيه",
+   "steps": [
+    {
+     "w": "distracting",
+     "ex": "Your phone notifications are a bit distracting.",
+     "ar": "إشعارات موبايلك بتشتّت شوية.",
+     "ex2": "Could you put it on silent during the review?",
+     "ar2": "ممكن تحطه صامت وقت المراجعة؟"
+    },
+    {
+     "w": "disruptive",
+     "ex": "Taking calls inside the meeting room is disruptive.",
+     "ar": "إنك ترد على مكالمات جوه أوضة الاجتماعات بيعطّل.",
+     "ex2": "Please step outside next time.",
+     "ar2": "ياريت تطلع برة المرة الجاية."
+    },
+    {
+     "w": "seriously disruptive",
+     "ex": "A full UPS shutdown would be seriously disruptive for the bank.",
+     "ar": "إطفاء الـ‎UPS‎ بالكامل هيعطّل البنك جامد جداً.",
+     "ex2": "All branches would lose their systems during the shutdown.",
+     "ar2": "كل الفروع هتفقد السيستم وقت الإطفاء."
+    }
+   ]
+  },
+  "ctx": "Would you mind taking your call outside? It's a bit disruptive while we're reviewing the quotation.",
+  "ctx_ar": "ممكن تاخد مكالمتك برة؟ بتعطّلنا شوية وإحنا بنراجع عرض السعر.",
+  "quiz": [
+   {
+    "s": "A full shutdown would be very ___ for the factory.",
+    "opts": [
+     "disrupt",
+     "disruption",
+     "disruptive"
+    ],
+    "a": 2,
+    "ar": "الإطفاء الكامل هيعطّل المصنع جداً."
+   },
+   {
+    "s": "The power cut caused a two-hour ___ at the plant.",
+    "opts": [
+     "disruption",
+     "disruptive",
+     "disrupt"
+    ],
+    "a": 0,
+    "ar": "انقطاع الكهربا عمل توقف ساعتين في المصنع."
+   },
+   {
+    "s": "Loud phone calls ___ the whole sales team.",
+    "opts": [
+     "disruptive",
+     "disrupt",
+     "seamless"
+    ],
+    "a": 1,
+    "ar": "المكالمات العالية بتعطّل فريق المبيعات كله."
+   }
+  ]
+ },
+ {
+  "w": "rest assured",
+  "ar": "اطمّن / خليك مطمّن",
+  "family": [
+   {
+    "w": "assure",
+    "pos": "verb",
+    "ex": "We can assure you that the warranty covers this fault.",
+    "ar": "نقدر نأكدلك إن الضمان بيغطي العطل ده.",
+    "ex2": "I assure you the replacement board is already on its way.",
+    "ar2": "بأكدلك إن الكارت البديل في الطريق فعلاً."
+   },
+   {
+    "w": "assurance",
+    "pos": "noun",
+    "ex": "The client wants written assurance of a four-hour response.",
+    "ar": "العميل عايز تعهّد مكتوب بالاستجابة خلال أربع ساعات.",
+    "ex2": "We added that assurance to the contract annex.",
+    "ar2": "ضفنا التعهّد ده لملحق العقد."
+   },
+   {
+    "w": "assured",
+    "pos": "adjective",
+    "ex": "With a spare UPS on site, you can feel assured of zero downtime.",
+    "ar": "مع ‎UPS‎ احتياطي في الموقع، تقدر تبقى مطمّن إن مفيش توقف.",
+    "ex2": "Their IT manager said he finally felt assured.",
+    "ar2": "مدير الـ‎IT‎ عندهم قال إنه أخيراً اطمّن."
+   },
+   {
+    "w": "reassure",
+    "pos": "verb",
+    "ex": "The customer was worried, so Hany called to reassure him.",
+    "ar": "العميل كان قلقان، فهاني كلّمه يطمّنه.",
+    "ex2": "He reassured him that the batteries would arrive Sunday.",
+    "ar2": "طمّنه إن البطاريات هتوصل يوم الحد."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "don't worry",
+    "note": "informal and spoken; friendly",
+    "ex": "Don't worry, we'll have the UPS running before morning.",
+    "ar": "متقلقش، هنشغّل الـ‎UPS‎ قبل الصبح.",
+    "ex2": "Don't worry about the cost; it's under warranty.",
+    "ar2": "متقلقش من التكلفة، ده تحت الضمان."
+   },
+   {
+    "w": "I can assure you",
+    "note": "formal; a strong personal promise",
+    "ex": "I can assure you this won't happen again.",
+    "ar": "أقدر أأكدلك إن ده مش هيتكرر.",
+    "ex2": "We've added a monthly battery check to assure you of that.",
+    "ar2": "ضفنا فحص بطاريات شهري عشان نضمنلك ده."
+   },
+   {
+    "w": "be confident that",
+    "note": "formal; ask the reader to trust the outcome",
+    "ex": "Be confident that our team will finish on schedule.",
+    "ar": "خليك واثق إن فريقنا هيخلّص في الميعاد.",
+    "ex2": "We have six engineers on this site, so be confident.",
+    "ar2": "عندنا ست مهندسين في الموقع ده، فاطمّن."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how strong the promise",
+   "lar": "الوعد قوي قد إيه",
+   "steps": [
+    {
+     "w": "don't worry",
+     "ex": "Don't worry, I'll check the alarm today.",
+     "ar": "متقلقش، هبص على الإنذار النهارده.",
+     "ex2": "It's probably just a loose sensor.",
+     "ar2": "غالباً حساس سايب بس."
+    },
+    {
+     "w": "rest assured",
+     "ex": "Rest assured, our engineer will be on site within four hours.",
+     "ar": "اطمّن، المهندس بتاعنا هيكون في الموقع خلال أربع ساعات.",
+     "ex2": "He's already loaded the spare parts.",
+     "ar2": "هو حمّل قطع الغيار خلاص."
+    },
+    {
+     "w": "we guarantee",
+     "ex": "We guarantee the replacement within 24 hours, or the visit is free.",
+     "ar": "بنضمن التغيير خلال 24 ساعة، وإلا الزيارة ببلاش.",
+     "ex2": "This guarantee is written into your service contract.",
+     "ar2": "الضمان ده مكتوب في عقد الخدمة بتاعك."
+    }
+   ]
+  },
+  "ctx": "Rest assured, our engineer will be on site within four hours. We've also reserved a spare UPS module for you.",
+  "ctx_ar": "اطمّن، المهندس بتاعنا هيكون في الموقع خلال أربع ساعات. وكمان حجزنا لك موديول ‎UPS‎ احتياطي.",
+  "quiz": [
+   {
+    "s": "Please ___: the replacement batteries will arrive on Sunday.",
+    "opts": [
+     "rest assured",
+     "assurance",
+     "reassure"
+    ],
+    "a": 0,
+    "ar": "اطمّن، البطاريات البديلة هتوصل يوم الحد."
+   },
+   {
+    "s": "We can ___ you that the warranty covers this fault.",
+    "opts": [
+     "assurance",
+     "assure",
+     "assured"
+    ],
+    "a": 1,
+    "ar": "نقدر نأكدلك إن الضمان بيغطي العطل ده."
+   },
+   {
+    "s": "The customer was worried, so Hany called to ___ him.",
+    "opts": [
+     "rest assured",
+     "assurance",
+     "reassure"
+    ],
+    "a": 2,
+    "ar": "العميل كان قلقان، فهاني كلّمه يطمّنه."
+   }
+  ]
+ },
+ {
+  "w": "attend to",
+  "ar": "يهتم بـ / يخلّص (موضوع)",
+  "family": [
+   {
+    "w": "attend to",
+    "pos": "verb",
+    "ex": "Our service team will attend to your request first thing tomorrow.",
+    "ar": "فريق الخدمة هيتابع طلبك أول حاجة بكرة الصبح.",
+    "ex2": "They'll attend to the noisy fan and the battery alarm together.",
+    "ar2": "هيخلّصوا موضوع المروحة اللي بتعمل صوت وإنذار البطارية مع بعض."
+   },
+   {
+    "w": "attention",
+    "pos": "noun",
+    "ex": "Thank you for your attention to this matter.",
+    "ar": "شكراً على اهتمامك بالموضوع ده.",
+    "ex2": "This invoice needs your urgent attention before Thursday.",
+    "ar2": "الفاتورة دي محتاجة اهتمامك العاجل قبل الخميس."
+   },
+   {
+    "w": "attentive",
+    "pos": "adjective",
+    "ex": "The hotel's engineer was very attentive during the handover.",
+    "ar": "مهندس الفندق كان مركّز جداً وقت التسليم.",
+    "ex2": "Being attentive, he asked about every alarm code.",
+    "ar2": "وعشان كان مركّز، سأل عن كل كود إنذار."
+   },
+   {
+    "w": "attendant",
+    "pos": "person",
+    "ex": "The car park attendant showed our technician where the UPS room was.",
+    "ar": "عامل الجراج ورّى الفني بتاعنا أوضة الـ‎UPS‎ فين.",
+    "ex2": "The attendant also signed the visit sheet.",
+    "ar2": "وكمان مضى على ورقة الزيارة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "deal with a task or matter",
+    "mar": "يخلّص / يتصرّف في موضوع",
+    "ex": "I have a personal matter to attend to, so I'll leave early.",
+    "ar": "عندي مشوار شخصي لازم أخلّصه، فهمشي بدري.",
+    "ex2": "Hany will cover my calls while I attend to it.",
+    "ar2": "هاني هيرد على مكالماتي وأنا بخلّصه."
+   },
+   {
+    "m": "serve or help a person",
+    "mar": "يخدم / يساعد حد",
+    "ex": "Our receptionist will attend to visitors until the manager arrives.",
+    "ar": "موظفة الاستقبال هتهتم بالزوار لحد ما المدير يوصل.",
+    "ex2": "Please attend to the customer at the front desk; he's waiting.",
+    "ar2": "ياريت تشوف العميل اللي عند الاستقبال، مستني."
+   }
+  ],
+  "syn": [
+   {
+    "w": "deal with",
+    "note": "neutral and very common",
+    "ex": "I'll deal with the supplier's late invoice today.",
+    "ar": "هتصرّف في فاتورة المورّد المتأخرة النهارده.",
+    "ex2": "Dealing with it now avoids a penalty.",
+    "ar2": "إننا نخلّصها دلوقتي بيمنع الغرامة."
+   },
+   {
+    "w": "handle",
+    "note": "take charge and manage it",
+    "ex": "Mona will handle the customer's billing question.",
+    "ar": "منى هتمسك سؤال العميل عن الفاتورة.",
+    "ex2": "She handles this account every month.",
+    "ar2": "هي ماسكة الحساب ده كل شهر."
+   },
+   {
+    "w": "look into",
+    "note": "investigate first; may not finish the job yet",
+    "ex": "We'll look into why the inverter keeps tripping.",
+    "ar": "هنشوف ليه الإنفرتر بيفصل كل شوية.",
+    "ex2": "After we look into the logs, we'll propose a fix.",
+    "ar2": "بعد ما نبص على السجلات، هنقترح حل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "neglect",
+    "ex": "If we neglect the batteries, they will fail before summer.",
+    "ar": "لو أهملنا البطاريات، هتبوظ قبل الصيف.",
+    "ex2": "Neglected batteries also void the warranty.",
+    "ar2": "البطاريات المهملة كمان بتلغي الضمان."
+   }
+  ],
+  "ladder": null,
+  "ctx": "I have a personal matter to attend to this afternoon. Hany will handle any urgent service calls until tomorrow.",
+  "ctx_ar": "عندي موضوع شخصي لازم أخلّصه بعد الضهر. هاني هيمسك أي مكالمات خدمة عاجلة لحد بكرة.",
+  "quiz": [
+   {
+    "s": "Our team will ___ to your request first thing tomorrow.",
+    "opts": [
+     "attend",
+     "attention",
+     "attentive"
+    ],
+    "a": 0,
+    "ar": "فريقنا هيتابع طلبك أول حاجة بكرة الصبح."
+   },
+   {
+    "s": "Thank you for your ___ to this matter.",
+    "opts": [
+     "attend",
+     "attention",
+     "attentive"
+    ],
+    "a": 1,
+    "ar": "شكراً على اهتمامك بالموضوع ده."
+   },
+   {
+    "s": "If we ___ the batteries, they will fail before summer.",
+    "opts": [
+     "attend to",
+     "look into",
+     "neglect"
+    ],
+    "a": 2,
+    "ar": "لو أهملنا البطاريات، هتبوظ قبل الصيف."
+   }
+  ]
+ },
+ {
+  "w": "query",
+  "ar": "استفسار / سؤال",
+  "family": [
+   {
+    "w": "query",
+    "pos": "noun",
+    "ex": "If you have a query about your invoice, please call Mona.",
+    "ar": "لو عندك استفسار عن فاتورتك، ياريت تكلّم منى.",
+    "ex2": "She answers most billing queries within a day.",
+    "ar2": "بترد على معظم استفسارات الفواتير خلال يوم."
+   },
+   {
+    "w": "query",
+    "pos": "verb",
+    "ex": "The customer queried the extra charge for night work.",
+    "ar": "العميل اعترض على المصاريف الزيادة بتاعة الشغل بالليل.",
+    "ex2": "We sent him the signed visit sheet to answer his query.",
+    "ar2": "بعتناله ورقة الزيارة الممضية عشان نرد على استفساره."
+   },
+   {
+    "w": "queried",
+    "pos": "adjective",
+    "ex": "Finance put the queried invoice on hold.",
+    "ar": "المالية وقفت الفاتورة اللي عليها اعتراض.",
+    "ex2": "It will be paid once the queried amount is confirmed.",
+    "ar2": "هتتدفع أول ما المبلغ اللي عليه اعتراض يتأكد."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "a question asking for information",
+    "mar": "سؤال / استفسار",
+    "ex": "Please send any billing queries to accounts@ourcompany.com.",
+    "ar": "ياريت تبعت أي استفسارات عن الفواتير على ‎accounts@ourcompany.com‎.",
+    "ex2": "Our team replies to every query within one working day.",
+    "ar2": "فريقنا بيرد على كل استفسار خلال يوم عمل."
+   },
+   {
+    "m": "to question whether something is correct",
+    "mar": "يشكّك في / يعترض على",
+    "ex": "The client queried the battery quantity on the delivery note.",
+    "ar": "العميل شكّك في عدد البطاريات اللي في إذن التسليم.",
+    "ex2": "We recounted, and his query was correct: two were missing.",
+    "ar2": "عدّينا تاني، وطلع معاه حق: كان فيه اتنين ناقصين."
+   }
+  ],
+  "syn": [
+   {
+    "w": "question",
+    "note": "general; any question",
+    "ex": "I have a quick question about the delivery date.",
+    "ar": "عندي سؤال سريع عن ميعاد التوصيل.",
+    "ex2": "The question is whether it's this week or next.",
+    "ar2": "السؤال هو هل الأسبوع ده ولا اللي بعده."
+   },
+   {
+    "w": "enquiry",
+    "note": "formal; often about buying or prices",
+    "ex": "We received an enquiry for twenty solar inverters.",
+    "ar": "جالنا استفسار عن عشرين إنفرتر طاقة شمسية.",
+    "ex2": "Sales will answer the enquiry with a quotation.",
+    "ar2": "المبيعات هترد على الاستفسار بعرض سعر."
+   },
+   {
+    "w": "request",
+    "note": "asking for something to be done, not information",
+    "ex": "We got a service request from the hotel this morning.",
+    "ar": "جالنا طلب خدمة من الفندق النهارده الصبح.",
+    "ex2": "The request is for a battery health check.",
+    "ar2": "الطلب عشان فحص حالة البطاريات."
+   }
+  ],
+  "ant": [
+   {
+    "w": "answer",
+    "ex": "Mona sent the answer to the client's billing question within an hour.",
+    "ar": "منى بعتت الرد على سؤال العميل عن الفاتورة خلال ساعة.",
+    "ex2": "Her answer included a copy of the signed PO.",
+    "ar2": "ردها كان فيه نسخة من أمر الشراء الممضي."
+   }
+  ],
+  "ladder": {
+   "label": "how serious",
+   "lar": "الموضوع خطير قد إيه",
+   "steps": [
+    {
+     "w": "query",
+     "ex": "The client has a query about the warranty period.",
+     "ar": "العميل عنده استفسار عن مدة الضمان.",
+     "ex2": "A quick email will answer it.",
+     "ar2": "إيميل سريع هيرد عليه."
+    },
+    {
+     "w": "concern",
+     "ex": "The client raised a concern about battery overheating.",
+     "ar": "العميل اتكلم عن قلقه من سخونة البطاريات.",
+     "ex2": "We'll send an engineer to check the concern.",
+     "ar2": "هنبعت مهندس يشوف الموضوع."
+    },
+    {
+     "w": "complaint",
+     "ex": "This isn't just a question; it's a formal complaint.",
+     "ar": "ده مش مجرد سؤال، دي شكوى رسمية.",
+     "ex2": "The complaint went straight to our general manager.",
+     "ar2": "الشكوى راحت على طول للمدير العام."
+    }
+   ]
+  },
+  "ctx": "Please send any billing queries to accounts@ourcompany.com. Our team replies within one working day.",
+  "ctx_ar": "ياريت تبعتوا أي استفسارات عن الفواتير على ‎accounts@ourcompany.com‎. فريقنا بيرد خلال يوم عمل.",
+  "quiz": [
+   {
+    "s": "If you have a ___ about your invoice, call Mona.",
+    "opts": [
+     "query",
+     "queried",
+     "answer"
+    ],
+    "a": 0,
+    "ar": "لو عندك استفسار عن فاتورتك، كلّم منى."
+   },
+   {
+    "s": "Finance put the ___ invoice on hold until the amount is confirmed.",
+    "opts": [
+     "query",
+     "queried",
+     "complaint"
+    ],
+    "a": 1,
+    "ar": "المالية وقفت الفاتورة اللي عليها اعتراض لحد ما المبلغ يتأكد."
+   },
+   {
+    "s": "This isn't just a question; the client is angry. It's a ___.",
+    "opts": [
+     "query",
+     "concern",
+     "complaint"
+    ],
+    "a": 2,
+    "ar": "ده مش مجرد سؤال؛ العميل متضايق. دي شكوى."
+   }
+  ]
+ },
+ {
+  "w": "cover",
+  "ar": "يغطّي مكان حد / يمسك شغله",
+  "family": [
+   {
+    "w": "cover",
+    "pos": "verb",
+    "ex": "Hany will cover my accounts while I'm on leave next week.",
+    "ar": "هاني هيمسك حساباتي وأنا في أجازة الأسبوع الجاي.",
+    "ex2": "Please copy him on anything urgent while he covers.",
+    "ar2": "ياريت تحطّه في الإيميل في أي حاجة عاجلة وهو ماسك مكاني."
+   },
+   {
+    "w": "cover",
+    "pos": "noun",
+    "ex": "Who's providing cover for the night shift at the data centre?",
+    "ar": "مين هيغطي شيفت الليل في الداتا سنتر؟",
+    "ex2": "We need cover until Sherif comes back from Aswan.",
+    "ar2": "محتاجين حد يغطي لحد ما شريف يرجع من أسوان."
+   },
+   {
+    "w": "coverage",
+    "pos": "noun",
+    "ex": "The warranty coverage includes parts but not labour.",
+    "ar": "تغطية الضمان بتشمل قطع الغيار بس مش المصنعية.",
+    "ex2": "Extended coverage is available for 15% of the unit price.",
+    "ar2": "فيه تغطية ممتدة بـ15% من سعر الجهاز."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "do someone's work while they are away",
+    "mar": "يمسك شغل حد وهو غايب",
+    "ex": "Can you cover for me tomorrow? I have a dentist appointment.",
+    "ar": "ممكن تغطي مكاني بكرة؟ عندي ميعاد دكتور سنان.",
+    "ex2": "I'll make sure my site visits are covered.",
+    "ar2": "هتأكد إن زياراتي للمواقع ليها حد يغطيها."
+   },
+   {
+    "m": "include or pay for",
+    "mar": "يشمل / يغطّي تكلفة",
+    "ex": "The maintenance contract covers two PM visits a year.",
+    "ar": "عقد الصيانة بيغطي زيارتين صيانة دورية في السنة.",
+    "ex2": "Extra emergency visits are not covered.",
+    "ar2": "زيارات الطوارئ الزيادة مش متغطية."
+   },
+   {
+    "m": "deal with a topic in a meeting or report",
+    "mar": "يتكلم عن / يشمل موضوع",
+    "ex": "Today's meeting will cover the solar tender and collections.",
+    "ar": "اجتماع النهارده هيتكلم عن مناقصة الطاقة الشمسية والتحصيل.",
+    "ex2": "We'll cover collections first because the CFO leaves early.",
+    "ar2": "هنبدأ بالتحصيل عشان المدير المالي ماشي بدري."
+   }
+  ],
+  "syn": [
+   {
+    "w": "fill in for",
+    "note": "informal; short time, like a day or two",
+    "ex": "Omar will fill in for Ahmed at the site meeting.",
+    "ar": "عمر هيروح مكان أحمد في اجتماع الموقع.",
+    "ex2": "He's only filling in, so decisions wait for Ahmed.",
+    "ar2": "هو بس مكانه مؤقتاً، فالقرارات تستنى أحمد."
+   },
+   {
+    "w": "stand in for",
+    "note": "more formal; take someone's role temporarily",
+    "ex": "The deputy manager will stand in for me at the board meeting.",
+    "ar": "نايب المدير هيحضر مكاني اجتماع مجلس الإدارة.",
+    "ex2": "He can stand in and approve POs up to EGP 200,000.",
+    "ar2": "يقدر يحضر مكاني ويعتمد أوامر شراء لحد 200,000 جنيه."
+   },
+   {
+    "w": "take over",
+    "note": "permanently or for a long period",
+    "ex": "Rania will take over Ahmed's accounts after he leaves.",
+    "ar": "رانيا هتستلم حسابات أحمد بعد ما يمشي.",
+    "ex2": "She'll take over fully from 1 September.",
+    "ar2": "هتستلم بالكامل من 1 سبتمبر."
+   }
+  ],
+  "ant": [
+   {
+    "w": "exclude",
+    "ex": "The warranty excludes damage from power surges.",
+    "ar": "الضمان مش بيشمل التلف اللي من طفرات الكهربا.",
+    "ex2": "That's why we recommend a surge protector; surges are excluded.",
+    "ar2": "عشان كده بننصح بحماية من الطفرات؛ دي مش متغطية."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Hany will cover my accounts while I'm on leave next week. Please copy him on any urgent POs.",
+  "ctx_ar": "هاني هيمسك حساباتي وأنا في أجازة الأسبوع الجاي. ياريت تحطّوه في الإيميل في أي أمر شراء عاجل.",
+  "quiz": [
+   {
+    "s": "Can you ___ for me tomorrow? I have a dentist appointment.",
+    "opts": [
+     "cover",
+     "coverage",
+     "exclude"
+    ],
+    "a": 0,
+    "ar": "ممكن تغطي مكاني بكرة؟ عندي ميعاد دكتور سنان."
+   },
+   {
+    "s": "The warranty ___ includes parts but not labour.",
+    "opts": [
+     "cover",
+     "coverage",
+     "take over"
+    ],
+    "a": 1,
+    "ar": "تغطية الضمان بتشمل قطع الغيار بس مش المصنعية."
+   },
+   {
+    "s": "Rania will ___ Ahmed's job permanently after he leaves.",
+    "opts": [
+     "fill in for",
+     "cover",
+     "take over"
+    ],
+    "a": 2,
+    "ar": "رانيا هتستلم شغل أحمد بشكل دايم بعد ما يمشي."
+   }
+  ]
+ }
+]

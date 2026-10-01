@@ -1,0 +1,735 @@
+[
+ {
+  "w": "scheduling conflict",
+  "ar": "تعارض في المواعيد",
+  "family": [
+   {
+    "w": "scheduling conflict",
+    "pos": "noun",
+    "ex": "I have a scheduling conflict on Tuesday, so I'll reschedule our call.",
+    "ar": "عندي تعارض في المواعيد يوم التلات، فهأجّل مكالمتنا.",
+    "ex2": "Is Wednesday at 10 a.m. good for you?",
+    "ar2": "الأربع الساعة ١٠ مناسب ليك؟"
+   },
+   {
+    "w": "schedule",
+    "pos": "noun",
+    "ex": "The installation schedule is tight this month.",
+    "ar": "جدول التركيبات ضيق الشهر ده.",
+    "ex2": "The schedule has three UPS installations in one week.",
+    "ar2": "الجدول فيه تلات تركيبات ‎UPS‎ في أسبوع واحد."
+   },
+   {
+    "w": "schedule",
+    "pos": "verb",
+    "ex": "Let's schedule the battery replacement for Friday.",
+    "ar": "خلّينا نحدد ميعاد تغيير البطاريات يوم الجمعة.",
+    "ex2": "We scheduled it on Friday because the office is closed.",
+    "ar2": "حددناه الجمعة عشان المكتب بيبقى مقفول."
+   },
+   {
+    "w": "reschedule",
+    "pos": "verb",
+    "ex": "I'm afraid we need to reschedule the site visit.",
+    "ar": "للأسف محتاجين نأجّل زيارة الموقع.",
+    "ex2": "Let's reschedule it to next Monday.",
+    "ar2": "خلّينا نأجّلها ليوم الاتنين الجاي."
+   },
+   {
+    "w": "scheduler",
+    "pos": "person",
+    "ex": "Our service scheduler books all technician visits.",
+    "ar": "منسق المواعيد عندنا بيحجز كل زيارات الفنيين.",
+    "ex2": "Call the scheduler to change the maintenance date.",
+    "ar2": "كلّم المنسق عشان تغيّر ميعاد الصيانة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "clash",
+    "note": "informal; two things booked at the same time",
+    "ex": "There's a clash between the client meeting and the training.",
+    "ar": "فيه تضارب بين اجتماع العميل والتدريب.",
+    "ex2": "Because of the clash, I'll skip the training.",
+    "ar2": "وبسبب التضارب، هفوّت التدريب."
+   },
+   {
+    "w": "double booking",
+    "note": "the same person or room booked twice by mistake",
+    "ex": "The meeting room has a double booking at 2 p.m.",
+    "ar": "أوضة الاجتماعات محجوزة مرتين الساعة ٢.",
+    "ex2": "To fix the double booking, we'll meet online.",
+    "ar2": "عشان نحل الحجز المزدوج، هنتقابل أونلاين."
+   },
+   {
+    "w": "prior commitment",
+    "note": "polite, formal reason for not attending",
+    "ex": "I can't join; I have a prior commitment with a supplier.",
+    "ar": "مش هقدر أنضم؛ عندي ارتباط سابق مع مورّد.",
+    "ex2": "The prior commitment was booked last week.",
+    "ar2": "الارتباط ده متحدد من الأسبوع اللي فات."
+   }
+  ],
+  "ant": [
+   {
+    "w": "free slot",
+    "ex": "I have a free slot on Thursday afternoon for the demo.",
+    "ar": "عندي وقت فاضي الخميس بعد الضهر للعرض.",
+    "ex2": "Let's use that free slot to show the new VFD.",
+    "ar2": "خلّينا نستغل الوقت الفاضي ده نعرض الـ‎VFD‎ الجديد."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Sorry, I have a scheduling conflict on Sunday. Could we move the UPS handover meeting to Monday morning?",
+  "ctx_ar": "آسف، عندي تعارض في المواعيد يوم الحد. ممكن ننقل اجتماع تسليم الـ‎UPS‎ ليوم الاتنين الصبح؟",
+  "quiz": [
+   {
+    "s": "I'm afraid we need to ___ the site visit to Monday.",
+    "opts": [
+     "schedule",
+     "reschedule",
+     "scheduler"
+    ],
+    "a": 1,
+    "ar": "للأسف محتاجين نأجّل زيارة الموقع ليوم الاتنين."
+   },
+   {
+    "s": "The room has a ___: two teams booked it at 2 p.m.",
+    "opts": [
+     "double booking",
+     "free slot",
+     "prior commitment"
+    ],
+    "a": 0,
+    "ar": "الأوضة محجوزة مرتين: فريقين حجزوها الساعة ٢."
+   },
+   {
+    "s": "Please call the ___ to book a technician visit.",
+    "opts": [
+     "schedule",
+     "reschedule",
+     "scheduler"
+    ],
+    "a": 2,
+    "ar": "لو سمحت كلّم منسق المواعيد عشان يحجز زيارة فني."
+   }
+  ]
+ },
+ {
+  "w": "accordingly",
+  "ar": "على هذا الأساس / حسب كده",
+  "family": [
+   {
+    "w": "accordingly",
+    "pos": "adverb",
+    "ex": "Tell me which day suits you, and I'll plan accordingly.",
+    "ar": "قولّي أي يوم يناسبك، وأنا هخطط على الأساس ده.",
+    "ex2": "I'll then book the technician and the van.",
+    "ar2": "وبعدها هحجز الفني والعربية."
+   },
+   {
+    "w": "accordance",
+    "pos": "noun",
+    "ex": "The work was done in accordance with the contract.",
+    "ar": "الشغل اتعمل حسب العقد.",
+    "ex2": "In accordance with clause 5, the warranty starts today.",
+    "ar2": "وحسب البند ٥، الضمان بيبدأ النهارده."
+   },
+   {
+    "w": "according to",
+    "pos": "adverb",
+    "ex": "According to the supplier, the batteries will ship Sunday.",
+    "ar": "حسب كلام المورّد، البطاريات هتتشحن يوم الحد.",
+    "ex2": "According to the tracking, they're already in port.",
+    "ar2": "وحسب التتبع، هي في الميناء خلاص."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "in a way that fits the situation",
+    "mar": "بشكل يناسب الموقف",
+    "ex": "The dollar went up, so we adjusted our prices accordingly.",
+    "ar": "الدولار غلي، فظبطنا أسعارنا على الأساس ده.",
+    "ex2": "We changed the prices accordingly on all open quotations.",
+    "ar2": "غيّرنا الأسعار على كده في كل العروض المفتوحة."
+   },
+   {
+    "m": "therefore / as a result",
+    "mar": "وبالتالي",
+    "ex": "The PO was late; accordingly, delivery moved to June.",
+    "ar": "أمر الشراء اتأخر؛ وبالتالي التسليم اتنقل لشهر ستة.",
+    "ex2": "Accordingly, the invoice date will also change.",
+    "ar2": "وبالتالي ميعاد الفاتورة هيتغير كمان."
+   }
+  ],
+  "syn": [
+   {
+    "w": "as a result",
+    "note": "neutral; links a cause to its effect",
+    "ex": "The VFD failed; as a result, the pump stopped.",
+    "ar": "الـ‎VFD‎ عطل؛ ونتيجة لده، الطلمبة وقفت.",
+    "ex2": "As a result, the factory lost a full shift.",
+    "ar2": "ونتيجة لده، المصنع خسر وردية كاملة."
+   },
+   {
+    "w": "therefore",
+    "note": "formal; used in reports and emails",
+    "ex": "The site is not ready; therefore, we cannot install.",
+    "ar": "الموقع مش جاهز؛ عشان كده مش هنقدر نركّب.",
+    "ex2": "Therefore, we suggest a new date next week.",
+    "ar2": "عشان كده بنقترح ميعاد جديد الأسبوع الجاي."
+   },
+   {
+    "w": "appropriately",
+    "note": "in the correct, suitable way",
+    "ex": "Please label each battery appropriately before shipping.",
+    "ar": "لو سمحت اعمل ليبل لكل بطارية صح قبل الشحن.",
+    "ex2": "Appropriately labelled cartons clear customs faster.",
+    "ar2": "الكراتين المتعلّم عليها صح بتخلص جمارك أسرع."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "The client moved the deadline to next week. Please update the installation plan accordingly and inform the technicians.",
+  "ctx_ar": "العميل نقل الميعاد النهائي للأسبوع الجاي. لو سمحت حدّث خطة التركيب على الأساس ده وبلّغ الفنيين.",
+  "quiz": [
+   {
+    "s": "The work was done in ___ with the contract.",
+    "opts": [
+     "accordingly",
+     "accordance",
+     "according"
+    ],
+    "a": 1,
+    "ar": "الشغل اتعمل حسب العقد."
+   },
+   {
+    "s": "Prices went up, so we updated the quotation ___.",
+    "opts": [
+     "accordingly",
+     "accordance",
+     "according to"
+    ],
+    "a": 0,
+    "ar": "الأسعار زادت، فحدّثنا عرض السعر على الأساس ده."
+   },
+   {
+    "s": "The site isn't ready; ___, we can't install the UPS.",
+    "opts": [
+     "appropriately",
+     "according",
+     "therefore"
+    ],
+    "a": 2,
+    "ar": "الموقع مش جاهز؛ عشان كده مش هنقدر نركّب الـ‎UPS.‎"
+   }
+  ]
+ },
+ {
+  "w": "allocate",
+  "ar": "يخصّص (فلوس/وقت/ناس)",
+  "family": [
+   {
+    "w": "allocate",
+    "pos": "verb",
+    "ex": "How much have we allocated for the battery replacement?",
+    "ar": "خصصنا كام لتغيير البطاريات؟",
+    "ex2": "We allocated 200,000 pounds in this year's budget.",
+    "ar2": "خصصنا ٢٠٠ ألف جنيه في ميزانية السنة دي."
+   },
+   {
+    "w": "allocation",
+    "pos": "noun",
+    "ex": "The budget allocation for solar projects went up this year.",
+    "ar": "المخصص في الميزانية لمشاريع الطاقة الشمسية زاد السنة دي.",
+    "ex2": "The bigger allocation lets us hire two engineers.",
+    "ar2": "المخصص الأكبر بيخلّينا نعيّن مهندسين اتنين."
+   },
+   {
+    "w": "allocated",
+    "pos": "adjective",
+    "ex": "Each technician has an allocated area in Cairo.",
+    "ar": "كل فني ليه منطقة متخصصة ليه في القاهرة.",
+    "ex2": "Ahmed's allocated area is Nasr City and Heliopolis.",
+    "ar2": "منطقة أحمد هي مدينة نصر ومصر الجديدة."
+   },
+   {
+    "w": "reallocate",
+    "pos": "verb",
+    "ex": "We need to reallocate two technicians to the data centre project.",
+    "ar": "محتاجين ننقل فنيين اتنين لمشروع الداتا سنتر.",
+    "ex2": "We'll reallocate them back after commissioning.",
+    "ar2": "هنرجّعهم مكانهم بعد التشغيل."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "assign",
+    "note": "give a task or person to a job",
+    "ex": "I'll assign Mahmoud to the VFD repair.",
+    "ar": "هكلّف محمود بإصلاح الـ‎VFD.‎",
+    "ex2": "Once assigned, he'll visit the site tomorrow.",
+    "ar2": "بعد ما يتكلّف، هيزور الموقع بكرة."
+   },
+   {
+    "w": "set aside",
+    "note": "keep money or time for later use",
+    "ex": "Set aside 10% of the budget for unforeseen costs.",
+    "ar": "سيب ١٠٪ من الميزانية للتكاليف المفاجئة.",
+    "ex2": "We set aside that money last year too.",
+    "ar2": "سبنا الفلوس دي على جنب السنة اللي فاتت كمان."
+   },
+   {
+    "w": "earmark",
+    "note": "formal; money reserved for one specific purpose",
+    "ex": "This fund is earmarked for the new server room.",
+    "ar": "الفلوس دي مخصصة لأوضة السيرفرات الجديدة.",
+    "ex2": "Earmarked money can't be used for salaries.",
+    "ar2": "الفلوس المخصصة مينفعش تتصرف على مرتبات."
+   }
+  ],
+  "ant": [
+   {
+    "w": "withdraw",
+    "ex": "Finance withdrew the money from the marketing budget.",
+    "ar": "المالية سحبت الفلوس من ميزانية التسويق.",
+    "ex2": "They withdrew it to pay the battery supplier.",
+    "ar2": "سحبوها عشان يدفعوا لمورّد البطاريات."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We've allocated 500,000 pounds for the solar project. Can you clarify how much of that goes to inverters?",
+  "ctx_ar": "خصصنا ٥٠٠ ألف جنيه لمشروع الطاقة الشمسية. ممكن توضّح قد إيه منهم رايح للإنفرترات؟",
+  "quiz": [
+   {
+    "s": "The budget ___ for maintenance is too small this year.",
+    "opts": [
+     "allocate",
+     "allocation",
+     "allocated"
+    ],
+    "a": 1,
+    "ar": "المخصص في الميزانية للصيانة صغير قوي السنة دي."
+   },
+   {
+    "s": "We need to ___ two engineers to the urgent project.",
+    "opts": [
+     "reallocate",
+     "allocation",
+     "withdraw"
+    ],
+    "a": 0,
+    "ar": "محتاجين ننقل مهندسين اتنين للمشروع المستعجل."
+   },
+   {
+    "s": "This money is ___ for the new server room only.",
+    "opts": [
+     "assigned",
+     "allocation",
+     "earmarked"
+    ],
+    "a": 2,
+    "ar": "الفلوس دي مخصصة لأوضة السيرفرات الجديدة بس."
+   }
+  ]
+ },
+ {
+  "w": "projections",
+  "ar": "توقعات (أرقام مستقبلية)",
+  "family": [
+   {
+    "w": "projections",
+    "pos": "noun",
+    "ex": "What about the revenue projections for next quarter?",
+    "ar": "وإيه أخبار توقعات الإيرادات للربع الجاي؟",
+    "ex2": "The projections show 15% growth in UPS sales.",
+    "ar2": "التوقعات بتبيّن نمو ١٥٪ في مبيعات الـ‎UPS.‎"
+   },
+   {
+    "w": "project",
+    "pos": "verb",
+    "ex": "We project higher demand for solar inverters in summer.",
+    "ar": "متوقعين طلب أعلى على إنفرترات الطاقة الشمسية في الصيف.",
+    "ex2": "We project it because of the power cuts.",
+    "ar2": "متوقعينه بسبب انقطاع الكهربا."
+   },
+   {
+    "w": "projected",
+    "pos": "adjective",
+    "ex": "The projected cost of the data centre is 3 million pounds.",
+    "ar": "التكلفة المتوقعة للداتا سنتر ٣ مليون جنيه.",
+    "ex2": "The projected cost includes cooling and UPS.",
+    "ar2": "التكلفة المتوقعة شاملة التبريد والـ‎UPS.‎"
+   },
+   {
+    "w": "projection",
+    "pos": "noun",
+    "ex": "Our sales projection for batteries was too optimistic.",
+    "ar": "توقع مبيعات البطاريات بتاعنا كان متفائل زيادة.",
+    "ex2": "We'll update the projection after the tender result.",
+    "ar2": "هنحدّث التوقع بعد نتيجة المناقصة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "forecast",
+    "note": "most common in sales and finance planning",
+    "ex": "The sales forecast for Q4 looks strong.",
+    "ar": "توقعات المبيعات للربع الرابع شكلها قوية.",
+    "ex2": "The forecast includes two big server deals.",
+    "ar2": "التوقعات فيها صفقتين سيرفرات كبار."
+   },
+   {
+    "w": "estimates",
+    "note": "rough calculation, often for cost or time",
+    "ex": "Our estimates for the cabling were too low.",
+    "ar": "تقديراتنا للكابلات كانت قليلة.",
+    "ex2": "We'll revise the estimates after the site survey.",
+    "ar2": "هنراجع التقديرات بعد معاينة الموقع."
+   },
+   {
+    "w": "targets",
+    "note": "numbers you aim to reach, not expect",
+    "ex": "Our targets for this year are very ambitious.",
+    "ar": "التارجت بتاعنا السنة دي طموح جدًا.",
+    "ex2": "To hit the targets, we need five new contracts.",
+    "ar2": "عشان نوصل للتارجت، محتاجين خمس عقود جديدة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "actuals",
+    "ex": "The actuals were 10% below our projections.",
+    "ar": "الأرقام الفعلية كانت أقل ١٠٪ من التوقعات.",
+    "ex2": "The actuals fell because one PO was cancelled.",
+    "ar2": "الفعلي قل عشان أمر شراء اتلغى."
+   }
+  ],
+  "ladder": {
+   "label": "how certain the number is",
+   "lar": "الرقم مؤكد قد إيه",
+   "steps": [
+    {
+     "w": "estimate",
+     "ex": "My rough estimate is 40 batteries for this site.",
+     "ar": "تقديري المبدئي ٤٠ بطارية للموقع ده.",
+     "ex2": "The estimate may change after we check the load.",
+     "ar2": "التقدير ممكن يتغير بعد ما نشوف الحمل."
+    },
+    {
+     "w": "projection",
+     "ex": "The projection for next year is based on current contracts.",
+     "ar": "توقع السنة الجاية مبني على العقود الحالية.",
+     "ex2": "The projection assumes no contract is cancelled.",
+     "ar2": "التوقع ده مفترض إن مفيش عقد هيتلغي."
+    },
+    {
+     "w": "confirmed figure",
+     "ex": "The confirmed figure for Q3 is 4.2 million pounds.",
+     "ar": "الرقم المؤكد للربع التالت ٤.٢ مليون جنيه.",
+     "ex2": "This confirmed figure comes from issued e-invoices.",
+     "ar2": "الرقم المؤكد ده جاي من الفواتير الإلكترونية المتطلعة."
+    }
+   ]
+  },
+  "ctx": "The revenue projections for next quarter look good. Most of the growth comes from new maintenance contracts with hospitals.",
+  "ctx_ar": "توقعات الإيرادات للربع الجاي شكلها كويس. معظم النمو جاي من عقود صيانة جديدة مع مستشفيات.",
+  "quiz": [
+   {
+    "s": "The ___ cost of the project is 3 million pounds.",
+    "opts": [
+     "project",
+     "projected",
+     "projections"
+    ],
+    "a": 1,
+    "ar": "التكلفة المتوقعة للمشروع ٣ مليون جنيه."
+   },
+   {
+    "s": "The ___ were 10% lower than what we expected.",
+    "opts": [
+     "actuals",
+     "projections",
+     "forecast"
+    ],
+    "a": 0,
+    "ar": "الأرقام الفعلية كانت أقل ١٠٪ من اللي كنا متوقعينه."
+   },
+   {
+    "s": "We ___ strong demand for inverters this summer.",
+    "opts": [
+     "projection",
+     "projected",
+     "project"
+    ],
+    "a": 2,
+    "ar": "متوقعين طلب قوي على الإنفرترات الصيف ده."
+   }
+  ]
+ },
+ {
+  "w": "wrap up",
+  "ar": "نخلّص / نقفل (اجتماع أو شغل)",
+  "family": [
+   {
+    "w": "wrap up",
+    "pos": "verb",
+    "ex": "Are there any final questions before we wrap up?",
+    "ar": "فيه أي أسئلة أخيرة قبل ما نقفل؟",
+    "ex2": "If not, I'll send the minutes this afternoon.",
+    "ar2": "لو مفيش، هبعت محضر الاجتماع النهارده بعد الضهر."
+   },
+   {
+    "w": "wrap-up",
+    "pos": "noun",
+    "ex": "In the wrap-up, the manager listed three action points.",
+    "ar": "في الختام، المدير قال تلات نقط للتنفيذ.",
+    "ex2": "The wrap-up took only five minutes.",
+    "ar2": "الختام خد خمس دقايق بس."
+   },
+   {
+    "w": "wrapped up",
+    "pos": "adjective",
+    "ex": "The battery project is all wrapped up and invoiced.",
+    "ar": "مشروع البطاريات خلص كله واتعمله فاتورة.",
+    "ex2": "Now that it's wrapped up, we can focus on the tender.",
+    "ar2": "وبما إنه خلص، نقدر نركز على المناقصة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "to end a meeting or talk",
+    "mar": "تقفل اجتماع أو كلام",
+    "ex": "Let's wrap up the meeting; it's almost five.",
+    "ar": "خلّينا نقفل الاجتماع؛ الساعة قرّبت خمسة.",
+    "ex2": "Before we wrap up, who's sending the quotation?",
+    "ar2": "قبل ما نقفل، مين هيبعت عرض السعر؟"
+   },
+   {
+    "m": "to finish a job or deal",
+    "mar": "تخلّص شغلانة أو صفقة",
+    "ex": "We hope to wrap up the server deal this week.",
+    "ar": "بنتمنى نقفل صفقة السيرفرات الأسبوع ده.",
+    "ex2": "To wrap up the deal, we only need the signed PO.",
+    "ar2": "عشان نقفل الصفقة، ناقص بس أمر الشراء ممضي."
+   }
+  ],
+  "syn": [
+   {
+    "w": "finish",
+    "note": "general word for completing anything",
+    "ex": "We'll finish the installation by Thursday.",
+    "ar": "هنخلّص التركيب يوم الخميس.",
+    "ex2": "After we finish, the client will test the UPS.",
+    "ar2": "بعد ما نخلّص، العميل هيختبر الـ‎UPS.‎"
+   },
+   {
+    "w": "conclude",
+    "note": "formal; ending a meeting, report or agreement",
+    "ex": "Let me conclude with our payment terms.",
+    "ar": "خلّيني أختم بشروط الدفع بتاعتنا.",
+    "ex2": "To conclude, we offer 30 days' credit.",
+    "ar2": "وفي الختام، بنقدّم ٣٠ يوم آجل."
+   },
+   {
+    "w": "close",
+    "note": "sales word for finishing a deal",
+    "ex": "Hany closed the chiller VFD deal yesterday.",
+    "ar": "هاني قفل صفقة ‎VFD‎ التشيلرات امبارح.",
+    "ex2": "Closing it brought in 800,000 pounds.",
+    "ar2": "قفلها جاب ٨٠٠ ألف جنيه."
+   }
+  ],
+  "ant": [
+   {
+    "w": "kick off",
+    "ex": "Let's kick off the meeting with the sales numbers.",
+    "ar": "خلّينا نبدأ الاجتماع بأرقام المبيعات.",
+    "ex2": "After we kick off, Sara will present the projections.",
+    "ar2": "بعد ما نبدأ، سارة هتعرض التوقعات."
+   }
+  ],
+  "ladder": {
+   "label": "how formal the ending is",
+   "lar": "قد إيه النهاية رسمية",
+   "steps": [
+    {
+     "w": "finish up",
+     "ex": "Let's finish up; the client is waiting downstairs.",
+     "ar": "يلا نخلّص؛ العميل مستني تحت.",
+     "ex2": "We'll finish up the rest by email.",
+     "ar2": "هنخلّص الباقي على الإيميل."
+    },
+    {
+     "w": "wrap up",
+     "ex": "To wrap up, the VFD will arrive next week.",
+     "ar": "وعشان نختم، الـ‎VFD‎ هيوصل الأسبوع الجاي.",
+     "ex2": "Wrapping up this way keeps the meeting short.",
+     "ar2": "الختام بالشكل ده بيخلّي الاجتماع قصير."
+    },
+    {
+     "w": "conclude",
+     "ex": "I'd like to conclude by thanking our partners.",
+     "ar": "حابب أختم بشكر شركائنا.",
+     "ex2": "Concluding formally suits the board meeting.",
+     "ar2": "الختام الرسمي بيناسب اجتماع مجلس الإدارة."
+    }
+   ]
+  },
+  "ctx": "Let's wrap up here. Karim will send the revised quotation tomorrow, and we'll meet again next Sunday.",
+  "ctx_ar": "خلّينا نقفل هنا. كريم هيبعت عرض السعر المعدّل بكرة، وهنتقابل تاني الحد الجاي.",
+  "quiz": [
+   {
+    "s": "Let's ___ the meeting with a quick sales update.",
+    "opts": [
+     "kick off",
+     "wrap up",
+     "conclude"
+    ],
+    "a": 0,
+    "ar": "خلّينا نبدأ الاجتماع بتحديث سريع للمبيعات."
+   },
+   {
+    "s": "In the ___, the manager listed the action points.",
+    "opts": [
+     "wrap up",
+     "wrapped up",
+     "wrap-up"
+    ],
+    "a": 2,
+    "ar": "في الختام، المدير قال نقط التنفيذ."
+   },
+   {
+    "s": "Hany ___ the VFD deal yesterday, worth 800,000 pounds.",
+    "opts": [
+     "closed",
+     "kicked off",
+     "concluded"
+    ],
+    "a": 0,
+    "ar": "هاني قفل صفقة الـ‎VFD‎ امبارح بـ٨٠٠ ألف جنيه."
+   }
+  ]
+ },
+ {
+  "w": "adjourn",
+  "ar": "يرفع / يأجّل الاجتماع",
+  "family": [
+   {
+    "w": "adjourn",
+    "pos": "verb",
+    "ex": "Are there any final comments before we adjourn?",
+    "ar": "فيه أي تعليقات أخيرة قبل ما نرفع الاجتماع؟",
+    "ex2": "If not, we'll adjourn and meet again Thursday.",
+    "ar2": "لو مفيش، هنرفع الاجتماع ونتقابل الخميس."
+   },
+   {
+    "w": "adjournment",
+    "pos": "noun",
+    "ex": "The board asked for an adjournment until the audit is ready.",
+    "ar": "مجلس الإدارة طلب تأجيل لحد ما المراجعة تجهز.",
+    "ex2": "The adjournment gives finance two more weeks.",
+    "ar2": "التأجيل بيدّي المالية أسبوعين زيادة."
+   },
+   {
+    "w": "adjourned",
+    "pos": "adjective",
+    "ex": "The meeting is adjourned; thank you all.",
+    "ar": "الاجتماع انتهى؛ شكرًا ليكم كلكم.",
+    "ex2": "Once adjourned, please collect your copies of the minutes.",
+    "ar2": "بعد ما يخلص، لو سمحتوا خدوا نسختكم من المحضر."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "to formally end a meeting",
+    "mar": "تنهي اجتماع رسميًا",
+    "ex": "The chairman adjourned the meeting at 4 p.m.",
+    "ar": "رئيس الاجتماع أنهى الاجتماع الساعة ٤.",
+    "ex2": "He adjourned it after the vote on the budget.",
+    "ar2": "أنهاه بعد التصويت على الميزانية."
+   },
+   {
+    "m": "to stop a meeting and continue later",
+    "mar": "توقف الاجتماع وتكمّل بعدين",
+    "ex": "Let's adjourn for lunch and continue at two.",
+    "ar": "خلّينا نوقف للغدا ونكمّل الساعة اتنين.",
+    "ex2": "We'll adjourn now and review the tender after lunch.",
+    "ar2": "هنوقف دلوقتي ونراجع المناقصة بعد الغدا."
+   }
+  ],
+  "syn": [
+   {
+    "w": "close the meeting",
+    "note": "neutral, everyday way to end a meeting",
+    "ex": "Let's close the meeting; we covered everything.",
+    "ar": "خلّينا نقفل الاجتماع؛ غطّينا كل حاجة.",
+    "ex2": "Before we close the meeting, check your tasks.",
+    "ar2": "قبل ما نقفل الاجتماع، راجعوا مهامكم."
+   },
+   {
+    "w": "suspend",
+    "note": "stop officially for a time, often for a problem",
+    "ex": "The tender meeting was suspended due to a power cut.",
+    "ar": "اجتماع المناقصة اتوقف بسبب انقطاع الكهربا.",
+    "ex2": "It was suspended until the generator started.",
+    "ar2": "اتوقف لحد ما المولد اشتغل."
+   },
+   {
+    "w": "postpone",
+    "note": "move a planned event to a later date",
+    "ex": "We'll postpone the review meeting to next week.",
+    "ar": "هنأجّل اجتماع المراجعة للأسبوع الجاي.",
+    "ex2": "We postponed it because the CEO is travelling.",
+    "ar2": "أجّلناه عشان المدير التنفيذي مسافر."
+   }
+  ],
+  "ant": [
+   {
+    "w": "convene",
+    "ex": "The manager will convene the team on Sunday at nine.",
+    "ar": "المدير هيجمّع الفريق يوم الحد الساعة تسعة.",
+    "ex2": "We convene every Sunday to review collections.",
+    "ar2": "بنتجمع كل حد نراجع التحصيلات."
+   }
+  ],
+  "ladder": null,
+  "ctx": "If there are no more questions, we'll adjourn. The next meeting is on Sunday to review the e-invoice issues.",
+  "ctx_ar": "لو مفيش أسئلة تانية، هنرفع الاجتماع. الاجتماع الجاي يوم الحد عشان نراجع مشاكل الفواتير الإلكترونية.",
+  "quiz": [
+   {
+    "s": "The meeting is ___. Thank you for coming.",
+    "opts": [
+     "adjourn",
+     "adjourned",
+     "adjournment"
+    ],
+    "a": 1,
+    "ar": "الاجتماع انتهى. شكرًا إنكم جيتوا."
+   },
+   {
+    "s": "We'll ___ the team every Sunday to review sales.",
+    "opts": [
+     "adjourn",
+     "postpone",
+     "convene"
+    ],
+    "a": 2,
+    "ar": "هنجمّع الفريق كل حد نراجع المبيعات."
+   },
+   {
+    "s": "The board asked for an ___ until the audit is ready.",
+    "opts": [
+     "adjournment",
+     "adjourn",
+     "adjourned"
+    ],
+    "a": 0,
+    "ar": "مجلس الإدارة طلب تأجيل لحد ما المراجعة تجهز."
+   }
+  ]
+ }
+]

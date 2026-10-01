@@ -1,0 +1,770 @@
+[
+ {
+  "w": "in line with",
+  "ar": "متماشي مع / على نفس مستوى",
+  "family": [
+   {
+    "w": "in line with",
+    "pos": "adjective",
+    "ex": "Our UPS prices are in line with the market this quarter.",
+    "ar": "أسعار الـ‎UPS‎ بتاعتنا ماشية مع السوق الربع ده.",
+    "ex2": "Being in line with the market keeps us in every tender.",
+    "ar2": "إننا ماشيين مع السوق بيخلينا داخلين كل مناقصة."
+   },
+   {
+    "w": "align",
+    "pos": "verb",
+    "ex": "We need to align our service hours with the client's shifts.",
+    "ar": "محتاجين نظبط مواعيد الخدمة على شيفتات العميل.",
+    "ex2": "If we align them, the factory never stops for maintenance.",
+    "ar2": "لو ظبطناها، المصنع مش هيقف عشان الصيانة."
+   },
+   {
+    "w": "alignment",
+    "pos": "noun",
+    "ex": "There's no alignment between sales and finance on payment terms.",
+    "ar": "مفيش اتفاق بين المبيعات والمالية على شروط الدفع.",
+    "ex2": "We need alignment before sending the final offer.",
+    "ar2": "محتاجين نتفق قبل ما نبعت العرض النهائي."
+   },
+   {
+    "w": "aligned",
+    "pos": "adjective",
+    "ex": "Is the quotation aligned with the client's technical specs?",
+    "ar": "عرض السعر متطابق مع المواصفات الفنية للعميل؟",
+    "ex2": "If it's not aligned, the tender committee will reject it.",
+    "ar2": "لو مش متطابق، لجنة المناقصة هترفضه."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "at the same level as",
+    "mar": "على نفس مستوى",
+    "ex": "The salary is in line with the industry average.",
+    "ar": "المرتب على نفس مستوى متوسط السوق.",
+    "ex2": "It's in line with what other UPS companies pay.",
+    "ar2": "وهو قد اللي شركات الـ‎UPS‎ التانية بتدفعه."
+   },
+   {
+    "m": "following a rule or policy",
+    "mar": "ماشي حسب قاعدة أو سياسة",
+    "ex": "In line with company policy, we need 30% in advance.",
+    "ar": "حسب سياسة الشركة، محتاجين 30% مقدم.",
+    "ex2": "All battery imports are in line with the new customs rules.",
+    "ar2": "كل البطاريات المستوردة ماشية حسب قواعد الجمارك الجديدة."
+   }
+  ],
+  "syn": [
+   {
+    "w": "consistent with",
+    "note": "formal; matches facts or earlier data",
+    "ex": "The test results are consistent with the supplier's datasheet.",
+    "ar": "نتايج الاختبار متوافقة مع داتاشيت المورد.",
+    "ex2": "Consistent results mean the batteries are healthy.",
+    "ar2": "النتايج المتوافقة معناها إن البطاريات سليمة."
+   },
+   {
+    "w": "in accordance with",
+    "note": "very formal; contracts and legal text",
+    "ex": "Payment will be made in accordance with the contract terms.",
+    "ar": "الدفع هيتم وفقًا لشروط العقد.",
+    "ex2": "Penalties apply in accordance with clause 7.",
+    "ar2": "الغرامات بتتطبّق وفقًا للبند 7."
+   },
+   {
+    "w": "matching",
+    "note": "simple, everyday; same as",
+    "ex": "We'll give you a matching price if you show us the other offer.",
+    "ar": "هندّيك نفس السعر لو ورّيتنا العرض التاني.",
+    "ex2": "Matching prices helps us keep loyal clients.",
+    "ar2": "إننا نجاري الأسعار بيساعدنا نحافظ على العملا الأوفيا."
+   }
+  ],
+  "ant": [
+   {
+    "w": "out of line with",
+    "ex": "Their battery price is out of line with the market, 40% higher.",
+    "ar": "سعر البطاريات بتاعهم بعيد عن السوق، أعلى بـ40%.",
+    "ex2": "Out-of-line prices make clients suspicious.",
+    "ar2": "الأسعار البعيدة عن السوق بتخلي العملا يشكّوا."
+   },
+   {
+    "w": "against",
+    "ex": "This discount is against our pricing policy.",
+    "ar": "الخصم ده ضد سياسة التسعير بتاعتنا.",
+    "ex2": "Going against policy needs the director's approval.",
+    "ar2": "إنك تمشي ضد السياسة محتاج موافقة المدير."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The client says our maintenance price is too high. Actually, it's in line with other suppliers, and our response time is faster.",
+  "ctx_ar": "العميل بيقول سعر الصيانة بتاعنا عالي. بالعكس، هو قد الموردين التانيين، ووقت الاستجابة بتاعنا أسرع.",
+  "quiz": [
+   {
+    "s": "There's no ___ between sales and finance on this deal.",
+    "opts": [
+     "align",
+     "aligned",
+     "alignment"
+    ],
+    "a": 2,
+    "ar": "مفيش اتفاق بين المبيعات والمالية على الصفقة دي."
+   },
+   {
+    "s": "Payment will be made ___ the contract terms.",
+    "opts": [
+     "in accordance with",
+     "out of line with",
+     "against"
+    ],
+    "a": 0,
+    "ar": "الدفع هيتم وفقًا لشروط العقد."
+   },
+   {
+    "s": "Their price is 40% higher — totally ___ the market.",
+    "opts": [
+     "in line with",
+     "out of line with",
+     "consistent with"
+    ],
+    "a": 1,
+    "ar": "سعرهم أعلى بـ40% — بعيد خالص عن السوق."
+   }
+  ]
+ },
+ {
+  "w": "perks",
+  "ar": "مزايا إضافية جنب المرتب",
+  "family": [
+   {
+    "w": "perk",
+    "pos": "noun",
+    "ex": "A company car is the best perk for our sales engineers.",
+    "ar": "العربية بتاعة الشركة أحسن ميزة لمهندسين المبيعات.",
+    "ex2": "That perk makes client visits much easier.",
+    "ar2": "الميزة دي بتسهّل زيارات العملا جدًا."
+   },
+   {
+    "w": "perks",
+    "pos": "noun",
+    "ex": "The job has good perks: medical insurance, a phone and training.",
+    "ar": "الوظيفة فيها مزايا حلوة: تأمين طبي وموبايل وتدريب.",
+    "ex2": "Perks matter when the salary is close to other offers.",
+    "ar2": "المزايا بتفرق لما المرتب يبقى قريب من العروض التانية."
+   },
+   {
+    "w": "perk up",
+    "pos": "verb",
+    "ex": "Sales usually perk up after the summer holidays.",
+    "ar": "المبيعات عادةً بتنشط بعد إجازات الصيف.",
+    "ex2": "They perk up when factories plan new budgets.",
+    "ar2": "بتنشط لما المصانع تخطط ميزانيات جديدة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "benefits",
+    "note": "formal HR word: insurance, pension, leave",
+    "ex": "The benefits package includes medical insurance for the family.",
+    "ar": "باقة المزايا فيها تأمين طبي للعيلة.",
+    "ex2": "Benefits are listed in the job offer letter.",
+    "ar2": "المزايا مكتوبة في جواب عرض الشغل."
+   },
+   {
+    "w": "fringe benefits",
+    "note": "formal, extras beyond normal benefits",
+    "ex": "Fringe benefits include a mobile line and fuel card.",
+    "ar": "المزايا الإضافية فيها خط موبايل وكارت بنزين.",
+    "ex2": "Fringe benefits are taxed in some cases.",
+    "ar2": "المزايا الإضافية عليها ضرايب في بعض الحالات."
+   },
+   {
+    "w": "allowance",
+    "note": "fixed money for a purpose, e.g. transport",
+    "ex": "Technicians get a daily allowance when working outside Cairo.",
+    "ar": "الفنيين بياخدوا بدل يومي لما يشتغلوا برا القاهرة.",
+    "ex2": "The allowance covers food and hotel.",
+    "ar2": "البدل بيغطي الأكل والفندق."
+   }
+  ],
+  "ant": [
+   {
+    "w": "drawbacks",
+    "ex": "The job's drawbacks are long trips to Upper Egypt.",
+    "ar": "عيوب الوظيفة السفريات الطويلة للصعيد.",
+    "ex2": "Another drawback is weekend emergency calls.",
+    "ar2": "وعيب تاني مكالمات الطوارئ في الويك إند."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The salary is a bit lower than I expected. But the perks are good: a company car, a laptop and paid VFD training in Germany.",
+  "ctx_ar": "المرتب أقل شوية من اللي كنت متوقعه. بس المزايا حلوة: عربية شركة ولابتوب وتدريب ‎VFD‎ مدفوع في ألمانيا.",
+  "quiz": [
+   {
+    "s": "Technicians get a daily ___ for trips outside Cairo.",
+    "opts": [
+     "perks",
+     "allowance",
+     "drawbacks"
+    ],
+    "a": 1,
+    "ar": "الفنيين بياخدوا بدل يومي للسفريات برا القاهرة."
+   },
+   {
+    "s": "Sales usually ___ after the summer holidays.",
+    "opts": [
+     "perk up",
+     "perk",
+     "perks"
+    ],
+    "a": 0,
+    "ar": "المبيعات عادةً بتنشط بعد إجازات الصيف."
+   },
+   {
+    "s": "The main ___ of the job is weekend emergency calls.",
+    "opts": [
+     "perk",
+     "benefits",
+     "drawback"
+    ],
+    "a": 2,
+    "ar": "العيب الأساسي في الوظيفة مكالمات الطوارئ في الويك إند."
+   }
+  ]
+ },
+ {
+  "w": "competitive",
+  "ar": "منافس / في مستوى السوق أو أحسن",
+  "family": [
+   {
+    "w": "compete",
+    "pos": "verb",
+    "ex": "We compete with three big companies in the UPS market.",
+    "ar": "بننافس تلات شركات كبيرة في سوق الـ‎UPS‎.",
+    "ex2": "To compete, we offer faster service.",
+    "ar2": "عشان ننافس، بنقدّم خدمة أسرع."
+   },
+   {
+    "w": "competition",
+    "pos": "noun",
+    "ex": "Competition is very strong in solar projects this year.",
+    "ar": "المنافسة جامدة جدًا في مشاريع الطاقة الشمسية السنة دي.",
+    "ex2": "Because of the competition, margins are thin.",
+    "ar2": "وبسبب المنافسة، الهوامش ضعيفة."
+   },
+   {
+    "w": "competitor",
+    "pos": "person",
+    "ex": "Our main competitor dropped its battery prices by 10%.",
+    "ar": "المنافس الرئيسي بتاعنا نزّل أسعار البطاريات 10%.",
+    "ex2": "We'll check the competitor's warranty before reacting.",
+    "ar2": "هنشوف ضمان المنافس قبل ما نرد."
+   },
+   {
+    "w": "competitive",
+    "pos": "adjective",
+    "ex": "We offer a competitive price and a two-year warranty.",
+    "ar": "بنقدّم سعر منافس وضمان سنتين.",
+    "ex2": "A competitive offer must include fast delivery too.",
+    "ar2": "العرض المنافس لازم يبقى فيه تسليم سريع كمان."
+   },
+   {
+    "w": "competitively",
+    "pos": "adverb",
+    "ex": "Our VFDs are competitively priced for small factories.",
+    "ar": "الـ‎VFDs‎ بتاعتنا متسعّرة بشكل منافس للمصانع الصغيرة.",
+    "ex2": "Competitively priced products sell faster.",
+    "ar2": "المنتجات اللي سعرها منافس بتتباع أسرع."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "good compared to others (price/salary)",
+    "mar": "كويس مقارنة بالسوق",
+    "ex": "The company offers a competitive salary and commission.",
+    "ar": "الشركة بتدّي مرتب وعمولة في مستوى السوق.",
+    "ex2": "A competitive salary keeps good engineers with us.",
+    "ar2": "المرتب المنافس بيخلي المهندسين الكويسين يفضلوا معانا."
+   },
+   {
+    "m": "wanting to win against others",
+    "mar": "بيحب يكسب ويتفوّق",
+    "ex": "Sales engineers here are very competitive with each other.",
+    "ar": "مهندسين المبيعات هنا بيتنافسوا جامد مع بعض.",
+    "ex2": "Being competitive helps, but teamwork matters more.",
+    "ar2": "روح المنافسة بتساعد، بس شغل الفريق أهم."
+   }
+  ],
+  "syn": [
+   {
+    "w": "affordable",
+    "note": "cheap enough for the client, not compared",
+    "ex": "This 3 kVA UPS is affordable for small shops.",
+    "ar": "الـ‎UPS‎ الـ3 ‎kVA‎ ده في متناول المحلات الصغيرة.",
+    "ex2": "Affordable models sell well in Upper Egypt.",
+    "ar2": "الموديلات اللي في المتناول بتتباع كويس في الصعيد."
+   },
+   {
+    "w": "attractive",
+    "note": "appealing offer; price, terms or package",
+    "ex": "The bank found our payment terms very attractive.",
+    "ar": "البنك شاف شروط الدفع بتاعتنا مغرية جدًا.",
+    "ex2": "Attractive terms helped us win against a cheaper offer.",
+    "ar2": "الشروط المغرية ساعدتنا نكسب قدام عرض أرخص."
+   },
+   {
+    "w": "market-rate",
+    "note": "exactly at the market level, no better",
+    "ex": "We pay market-rate salaries for technicians.",
+    "ar": "بندفع مرتبات بسعر السوق للفنيين.",
+    "ex2": "Market-rate pay alone doesn't keep the best people.",
+    "ar2": "المرتب بسعر السوق لوحده مش بيحافظ على أحسن ناس."
+   }
+  ],
+  "ant": [
+   {
+    "w": "uncompetitive",
+    "ex": "Our old price list was uncompetitive after the dollar dropped.",
+    "ar": "قايمة الأسعار القديمة بقت مش منافسة بعد ما الدولار نزل.",
+    "ex2": "With uncompetitive prices, we lost two tenders.",
+    "ar2": "وبأسعار مش منافسة، خسرنا مناقصتين."
+   },
+   {
+    "w": "overpriced",
+    "ex": "The supplier's inverters are overpriced compared to Chinese brands.",
+    "ar": "إنفرترات المورد غالية زيادة عن اللزوم مقارنة بالماركات الصينية.",
+    "ex2": "Overpriced items stay in the warehouse for months.",
+    "ar2": "الحاجات الغالية زيادة بتقعد في المخزن شهور."
+   }
+  ],
+  "ladder": {
+   "label": "how good the price is",
+   "lar": "السعر كويس قد إيه",
+   "steps": [
+    {
+     "w": "overpriced",
+     "ex": "Their first offer was overpriced.",
+     "ar": "أول عرض ليهم كان غالي زيادة.",
+     "ex2": "The overpriced offer was rejected immediately.",
+     "ar2": "العرض الغالي اترفض على طول."
+    },
+    {
+     "w": "fair",
+     "ex": "The revised price is fair.",
+     "ar": "السعر بعد التعديل معقول.",
+     "ex2": "A fair price, but not the best in the market.",
+     "ar2": "سعر معقول، بس مش أحسن سعر في السوق."
+    },
+    {
+     "w": "competitive",
+     "ex": "Our final price is competitive.",
+     "ar": "سعرنا النهائي منافس.",
+     "ex2": "A competitive price got us shortlisted.",
+     "ar2": "السعر المنافس دخّلنا القايمة المختصرة."
+    },
+    {
+     "w": "unbeatable",
+     "ex": "With free installation, our offer is unbeatable.",
+     "ar": "بالتركيب المجاني، عرضنا محدش يقدر يغلبه.",
+     "ex2": "An unbeatable offer like this closes deals fast.",
+     "ar2": "عرض زي ده محدش يغلبه بيقفل الصفقات بسرعة."
+    }
+   ]
+  },
+  "ctx": "Our battery prices are competitive, but the client also cares about service. Let's add free annual checks to make the offer stronger.",
+  "ctx_ar": "أسعار البطاريات بتاعتنا منافسة، بس العميل مهتم بالخدمة كمان. يلا نضيف فحص سنوي مجاني عشان العرض يبقى أقوى.",
+  "quiz": [
+   {
+    "s": "Our main ___ cut prices by 10%.",
+    "opts": [
+     "competition",
+     "competitor",
+     "competitive"
+    ],
+    "a": 1,
+    "ar": "المنافس الرئيسي بتاعنا نزّل الأسعار 10%."
+   },
+   {
+    "s": "Our VFDs are ___ priced for small factories.",
+    "opts": [
+     "competitively",
+     "competitive",
+     "compete"
+    ],
+    "a": 0,
+    "ar": "الـ‎VFDs‎ بتاعتنا متسعّرة بشكل منافس للمصانع الصغيرة."
+   },
+   {
+    "s": "Free installation makes our offer ___.",
+    "opts": [
+     "overpriced",
+     "fair",
+     "unbeatable"
+    ],
+    "a": 2,
+    "ar": "التركيب المجاني بيخلي عرضنا محدش يغلبه."
+   }
+  ]
+ },
+ {
+  "w": "onboarding",
+  "ar": "تهيئة الموظف أو العميل الجديد",
+  "family": [
+   {
+    "w": "onboarding",
+    "pos": "noun",
+    "ex": "Onboarding for new technicians takes two weeks with a senior engineer.",
+    "ar": "تهيئة الفنيين الجداد بتاخد أسبوعين مع مهندس سينيور.",
+    "ex2": "Onboarding includes safety training on UPS and batteries.",
+    "ar2": "التهيئة فيها تدريب أمان على الـ‎UPS‎ والبطاريات."
+   },
+   {
+    "w": "onboard",
+    "pos": "verb",
+    "ex": "We onboard each new client with a site survey and contact list.",
+    "ar": "بنستقبل كل عميل جديد بمعاينة للموقع وليستة أرقام.",
+    "ex2": "Once we onboard them, they get access to the service app.",
+    "ar2": "أول ما نسجّلهم، بياخدوا دخول على تطبيق الخدمة."
+   },
+   {
+    "w": "onboarded",
+    "pos": "adjective",
+    "ex": "Newly onboarded clients get a free first maintenance visit.",
+    "ar": "العملا اللي لسه داخلين بياخدوا أول زيارة صيانة ببلاش.",
+    "ex2": "Onboarded staff must sign the safety checklist.",
+    "ar2": "الموظفين اللي اتهيّأوا لازم يمضوا على قايمة الأمان."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "helping a new employee start",
+    "mar": "تهيئة موظف جديد",
+    "ex": "Mona's onboarding plan includes visits to three client sites.",
+    "ar": "خطة تهيئة ‎Mona‎ فيها زيارات لتلات مواقع عملا.",
+    "ex2": "Good onboarding helps new staff stay longer.",
+    "ar2": "التهيئة الكويسة بتخلي الموظفين الجداد يكمّلوا أكتر."
+   },
+   {
+    "m": "setting up a new customer",
+    "mar": "تسجيل وتجهيز عميل جديد",
+    "ex": "Client onboarding includes registering their UPS serial numbers.",
+    "ar": "تسجيل العميل الجديد بيشمل تسجيل الأرقام المسلسلة للـ‎UPS‎.",
+    "ex2": "Fast onboarding makes clients trust us from day one.",
+    "ar2": "التسجيل السريع بيخلي العملا يثقوا فينا من أول يوم."
+   }
+  ],
+  "syn": [
+   {
+    "w": "induction",
+    "note": "formal, first days at company; HR word",
+    "ex": "The induction covers company policy and safety rules.",
+    "ar": "الاستقبال الرسمي بيغطي سياسة الشركة وقواعد الأمان.",
+    "ex2": "Induction day ends with a tour of the warehouse.",
+    "ar2": "يوم الاستقبال بيخلص بلفة في المخزن."
+   },
+   {
+    "w": "orientation",
+    "note": "short introduction session, often one day",
+    "ex": "New hires attend an orientation on Sunday morning.",
+    "ar": "الموظفين الجداد بيحضروا جلسة تعريفية الحد الصبح.",
+    "ex2": "The orientation explains the e-invoice system.",
+    "ar2": "الجلسة التعريفية بتشرح نظام الفواتير الإلكترونية."
+   },
+   {
+    "w": "training",
+    "note": "teaching skills; not only for new people",
+    "ex": "Every technician gets lithium battery training this year.",
+    "ar": "كل فني هياخد تدريب بطاريات ليثيوم السنة دي.",
+    "ex2": "Training is part of onboarding, but continues later.",
+    "ar2": "التدريب جزء من التهيئة، بس بيكمّل بعدها."
+   }
+  ],
+  "ant": [
+   {
+    "w": "offboarding",
+    "ex": "Offboarding includes returning the laptop and the tool kit.",
+    "ar": "إجراءات خروج الموظف فيها تسليم اللابتوب وشنطة العدة.",
+    "ex2": "During offboarding, IT closes all system accounts.",
+    "ar2": "وقت إجراءات الخروج، الـ‎IT‎ بيقفل كل حسابات السيستم."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Your onboarding starts on Sunday with a safety course. In the second week, you'll join Hossam on UPS maintenance visits.",
+  "ctx_ar": "التهيئة بتاعتك هتبدأ الحد بكورس أمان. في الأسبوع التاني، هتنزل مع ‎Hossam‎ زيارات صيانة الـ‎UPS‎.",
+  "quiz": [
+   {
+    "s": "We ___ every new client with a site survey.",
+    "opts": [
+     "onboarding",
+     "onboard",
+     "onboarded"
+    ],
+    "a": 1,
+    "ar": "بنستقبل كل عميل جديد بمعاينة للموقع."
+   },
+   {
+    "s": "When he left, ___ included returning the laptop.",
+    "opts": [
+     "offboarding",
+     "onboarding",
+     "orientation"
+    ],
+    "a": 0,
+    "ar": "لما مشي، إجراءات الخروج كان فيها تسليم اللابتوب."
+   },
+   {
+    "s": "The one-day ___ explains company systems to new hires.",
+    "opts": [
+     "offboarding",
+     "onboarded",
+     "orientation"
+    ],
+    "a": 2,
+    "ar": "الجلسة التعريفية اللي يوم واحد بتشرح أنظمة الشركة للموظفين الجداد."
+   }
+  ]
+ },
+ {
+  "w": "metrics",
+  "ar": "مقاييس / مؤشرات أداء بالأرقام",
+  "family": [
+   {
+    "w": "metric",
+    "pos": "noun",
+    "ex": "Response time is the key metric in our maintenance contracts.",
+    "ar": "وقت الاستجابة هو المقياس الأساسي في عقود الصيانة بتاعتنا.",
+    "ex2": "If that metric drops, the client applies penalties.",
+    "ar2": "لو المقياس ده نزل، العميل بيطبّق غرامات."
+   },
+   {
+    "w": "metrics",
+    "pos": "noun",
+    "ex": "Which metrics will you use to measure my performance?",
+    "ar": "هتستخدموا أنهي مقاييس عشان تقيّموا أدائي؟",
+    "ex2": "My main metrics are sales value and collections.",
+    "ar2": "المقاييس الأساسية بتاعتي قيمة المبيعات والتحصيل."
+   },
+   {
+    "w": "measure",
+    "pos": "verb",
+    "ex": "We measure battery health every six months.",
+    "ar": "بنقيس صحة البطاريات كل ست شهور.",
+    "ex2": "We measure it with an internal resistance tester.",
+    "ar2": "بنقيسها بجهاز قياس المقاومة الداخلية."
+   },
+   {
+    "w": "measurable",
+    "pos": "adjective",
+    "ex": "Set measurable goals, like ten site visits a month.",
+    "ar": "حط أهداف تتقاس، زي عشر زيارات مواقع في الشهر.",
+    "ex2": "Measurable goals make reviews fair.",
+    "ar2": "الأهداف اللي تتقاس بتخلي التقييم عادل."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "KPIs",
+    "note": "the most important metrics linked to targets",
+    "ex": "Our KPIs are revenue, margin and days to collect.",
+    "ar": "مؤشرات الأداء الأساسية عندنا الإيراد والهامش وأيام التحصيل.",
+    "ex2": "KPIs are reviewed every quarter with the director.",
+    "ar2": "المؤشرات دي بتتراجع كل ربع مع المدير."
+   },
+   {
+    "w": "figures",
+    "note": "informal: any numbers, e.g. sales figures",
+    "ex": "Can you send me this month's sales figures?",
+    "ar": "ممكن تبعتلي أرقام مبيعات الشهر ده؟",
+    "ex2": "The figures look better than last year.",
+    "ar2": "الأرقام شكلها أحسن من السنة اللي فاتت."
+   },
+   {
+    "w": "benchmarks",
+    "note": "standard to compare against",
+    "ex": "Industry benchmarks say a four-hour response is good.",
+    "ar": "معايير السوق بتقول إن استجابة أربع ساعات كويسة.",
+    "ex2": "We beat the benchmarks with two hours.",
+    "ar2": "إحنا عدّينا المعايير بساعتين."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "We track three metrics for every technician. They are response time, first-time fix rate and customer feedback after each visit.",
+  "ctx_ar": "بنتابع تلات مقاييس لكل فني. هما وقت الاستجابة، ونسبة التصليح من أول مرة، وتقييم العميل بعد كل زيارة.",
+  "quiz": [
+   {
+    "s": "Set ___ goals, like ten visits a month.",
+    "opts": [
+     "metric",
+     "measurable",
+     "measure"
+    ],
+    "a": 1,
+    "ar": "حط أهداف تتقاس، زي عشر زيارات في الشهر."
+   },
+   {
+    "s": "Send me this month's sales ___, please.",
+    "opts": [
+     "figures",
+     "benchmarks",
+     "measurable"
+    ],
+    "a": 0,
+    "ar": "ابعتلي أرقام مبيعات الشهر ده لو سمحت."
+   },
+   {
+    "s": "Response time is the key ___ in this contract.",
+    "opts": [
+     "measure",
+     "measurable",
+     "metric"
+    ],
+    "a": 2,
+    "ar": "وقت الاستجابة هو المقياس الأساسي في العقد ده."
+   }
+  ]
+ },
+ {
+  "w": "top-notch",
+  "ar": "ممتاز / درجة أولى",
+  "family": [
+   {
+    "w": "top-notch",
+    "pos": "adjective",
+    "ex": "Our engineers give top-notch service to data-centre clients.",
+    "ar": "مهندسينا بيقدموا خدمة درجة أولى لعملا الداتا سنتر.",
+    "ex2": "Top-notch service is why the bank renewed the contract.",
+    "ar2": "الخدمة الممتازة هي السبب إن البنك جدّد العقد."
+   },
+   {
+    "w": "top",
+    "pos": "adjective",
+    "ex": "We only import from top brands for lithium batteries.",
+    "ar": "بنستورد بطاريات الليثيوم من أكبر الماركات بس.",
+    "ex2": "Top brands give us a longer warranty.",
+    "ar2": "الماركات الكبيرة بتدّينا ضمان أطول."
+   },
+   {
+    "w": "top-quality",
+    "pos": "adjective",
+    "ex": "The client wants top-quality cables for the server room.",
+    "ar": "العميل عايز كابلات جودة عالية لأوضة السيرفرات.",
+    "ex2": "Top-quality cables cost more but last longer.",
+    "ar2": "الكابلات عالية الجودة أغلى بس بتعيش أكتر."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "first-class",
+    "note": "formal, for service and quality",
+    "ex": "The hotel praised our first-class maintenance team.",
+    "ar": "الفندق شكر فريق الصيانة الدرجة الأولى بتاعنا.",
+    "ex2": "First-class work brings referrals.",
+    "ar2": "الشغل الدرجة الأولى بيجيب ترشيحات."
+   },
+   {
+    "w": "excellent",
+    "note": "neutral and safe in any email",
+    "ex": "The supplier's after-sales support is excellent.",
+    "ar": "دعم ما بعد البيع عند المورد ممتاز.",
+    "ex2": "Excellent support saves us time on site.",
+    "ar2": "الدعم الممتاز بيوفّر علينا وقت في الموقع."
+   },
+   {
+    "w": "state-of-the-art",
+    "note": "for technology: newest and most advanced",
+    "ex": "The new data centre uses state-of-the-art cooling and UPS systems.",
+    "ar": "الداتا سنتر الجديد فيه أحدث أنظمة تبريد و‎UPS‎.",
+    "ex2": "State-of-the-art systems need trained engineers.",
+    "ar2": "الأنظمة الحديثة جدًا محتاجة مهندسين متدرّبين."
+   }
+  ],
+  "ant": [
+   {
+    "w": "second-rate",
+    "ex": "Second-rate batteries fail within a year.",
+    "ar": "البطاريات الدرجة التانية بتبوظ في أقل من سنة.",
+    "ex2": "Second-rate products hurt our reputation.",
+    "ar2": "المنتجات الدرجة التانية بتضر سمعتنا."
+   },
+   {
+    "w": "substandard",
+    "ex": "The installation was substandard, so we redid the wiring.",
+    "ar": "التركيب كان أقل من المستوى، فعدنا التوصيلات.",
+    "ex2": "Substandard work is never signed off by our QA.",
+    "ar2": "الشغل اللي تحت المستوى مش بيتمضي من الجودة عندنا."
+   }
+  ],
+  "ladder": {
+   "label": "how good the quality is",
+   "lar": "الجودة عالية قد إيه",
+   "steps": [
+    {
+     "w": "acceptable",
+     "ex": "The supplier's packaging is acceptable.",
+     "ar": "تغليف المورد مقبول.",
+     "ex2": "Acceptable, but some boxes arrived damaged.",
+     "ar2": "مقبول، بس شوية كراتين وصلت مضروبة."
+    },
+    {
+     "w": "good",
+     "ex": "The new VFD model is good for small pumps.",
+     "ar": "موديل الـ‎VFD‎ الجديد كويس للطلمبات الصغيرة.",
+     "ex2": "Good enough for farms, not for big factories.",
+     "ar2": "كويس للمزارع، مش للمصانع الكبيرة."
+    },
+    {
+     "w": "excellent",
+     "ex": "The technician's report was excellent.",
+     "ar": "تقرير الفني كان ممتاز.",
+     "ex2": "An excellent report helped the client approve the repair.",
+     "ar2": "التقرير الممتاز ساعد العميل يوافق على التصليح."
+    },
+    {
+     "w": "top-notch",
+     "ex": "Their engineering team is top-notch.",
+     "ar": "فريق الهندسة بتاعهم درجة أولى.",
+     "ex2": "Top-notch teams solve problems on the first visit.",
+     "ar2": "الفرق الدرجة الأولى بتحل المشاكل من أول زيارة."
+    }
+   ]
+  },
+  "ctx": "The hospital chose us because our support is top-notch. Our engineers answer emergency calls within thirty minutes, day or night.",
+  "ctx_ar": "المستشفى اختارتنا عشان الدعم بتاعنا درجة أولى. مهندسينا بيردّوا على مكالمات الطوارئ في خلال نص ساعة، ليل أو نهار.",
+  "quiz": [
+   {
+    "s": "Cheap ___ batteries fail within a year.",
+    "opts": [
+     "top-notch",
+     "second-rate",
+     "excellent"
+    ],
+    "a": 1,
+    "ar": "البطاريات الرخيصة الدرجة التانية بتبوظ في أقل من سنة."
+   },
+   {
+    "s": "The new data centre has ___ cooling technology.",
+    "opts": [
+     "state-of-the-art",
+     "substandard",
+     "acceptable"
+    ],
+    "a": 0,
+    "ar": "الداتا سنتر الجديد فيه أحدث تكنولوجيا تبريد."
+   },
+   {
+    "s": "The packaging was only ___, not great.",
+    "opts": [
+     "top-notch",
+     "excellent",
+     "acceptable"
+    ],
+    "a": 2,
+    "ar": "التغليف كان مقبول بس، مش عظيم."
+   }
+  ]
+ }
+]

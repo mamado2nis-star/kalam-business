@@ -1,0 +1,738 @@
+[
+ {
+  "w": "streamline",
+  "ar": "يبسّط ويسرّع (إجراءات)",
+  "family": [
+   {
+    "w": "streamline",
+    "pos": "verb",
+    "ex": "We want to streamline the way we issue e-invoices.",
+    "ar": "عايزين نبسّط طريقة إصدار الفواتير الإلكترونية.",
+    "ex2": "Right now each invoice needs three approvals.",
+    "ar2": "دلوقتي كل فاتورة محتاجة تلات موافقات."
+   },
+   {
+    "w": "streamlined",
+    "pos": "adjective",
+    "ex": "The new streamlined process cut quotation time to one day.",
+    "ar": "الإجراء الجديد المبسّط قلّل وقت عرض السعر ليوم واحد.",
+    "ex2": "Customers love the streamlined process.",
+    "ar2": "العملا مبسوطين جدًا من الإجراء المبسّط."
+   },
+   {
+    "w": "streamlining",
+    "pos": "noun",
+    "ex": "Streamlining the purchasing process saved us two weeks per import.",
+    "ar": "تبسيط إجراءات الشراء وفّر لنا أسبوعين في كل استيراد.",
+    "ex2": "The streamlining also reduced paperwork at customs.",
+    "ar2": "التبسيط كمان قلّل الورق في الجمارك."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "simplify",
+    "note": "make easier to understand or do",
+    "ex": "Let's simplify the quotation template.",
+    "ar": "خلّينا نبسّط نموذج عرض السعر.",
+    "ex2": "A simpler template means fewer mistakes.",
+    "ar2": "نموذج أبسط معناه أخطاء أقل."
+   },
+   {
+    "w": "speed up",
+    "note": "make faster, informal",
+    "ex": "We need to speed up customs clearance for the batteries.",
+    "ar": "محتاجين نسرّع التخليص الجمركي للبطاريات.",
+    "ex2": "Speeding it up will help our cash flow.",
+    "ar2": "تسريعه هيساعد السيولة بتاعتنا."
+   },
+   {
+    "w": "optimize",
+    "note": "technical; make something work as well as possible",
+    "ex": "We optimized the VFD settings to save energy.",
+    "ar": "ظبطنا إعدادات الـ‎VFD‎ عشان نوفّر طاقة.",
+    "ex2": "Optimized settings cut the chiller's power bill by 20%.",
+    "ar2": "الإعدادات المظبوطة قلّلت فاتورة كهربا التشيلر ٢٠٪."
+   }
+  ],
+  "ant": [
+   {
+    "w": "complicate",
+    "ex": "Extra approval steps only complicate the purchasing process.",
+    "ar": "خطوات الموافقة الزيادة بتعقّد إجراءات الشراء بس.",
+    "ex2": "They complicate things and delay urgent orders.",
+    "ar2": "بتعقّد الدنيا وبتأخر الأوردرات المستعجلة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We streamlined our service process last year. Now a technician reaches any site in Cairo within four hours.",
+  "ctx_ar": "بسّطنا إجراءات الخدمة السنة اللي فاتت. دلوقتي الفني بيوصل أي موقع في القاهرة خلال أربع ساعات.",
+  "quiz": [
+   {
+    "s": "The new ___ process cut approval time by half.",
+    "opts": [
+     "streamline",
+     "streamlined",
+     "streamlining"
+    ],
+    "a": 1,
+    "ar": "الإجراء الجديد المبسّط قلّل وقت الموافقة للنص."
+   },
+   {
+    "s": "Too many forms only ___ the ordering process.",
+    "opts": [
+     "complicate",
+     "streamline",
+     "simplify"
+    ],
+    "a": 0,
+    "ar": "الأوراق الكتير بتعقّد إجراء الطلب بس."
+   },
+   {
+    "s": "We ___ the VFD settings to save energy.",
+    "opts": [
+     "speeded up",
+     "simplified",
+     "optimized"
+    ],
+    "a": 2,
+    "ar": "ظبطنا إعدادات الـ‎VFD‎ عشان نوفّر طاقة."
+   }
+  ]
+ },
+ {
+  "w": "tailored to",
+  "ar": "مفصّل على مقاس / مناسب بالظبط لـ",
+  "family": [
+   {
+    "w": "tailored to",
+    "pos": "adjective",
+    "ex": "We offer UPS solutions tailored to each client's load.",
+    "ar": "بنقدّم حلول ‎UPS‎ متفصّلة على حمل كل عميل.",
+    "ex2": "A small clinic doesn't need a 100 kVA system.",
+    "ar2": "عيادة صغيرة مش محتاجة سيستم ١٠٠ ‎kVA.‎"
+   },
+   {
+    "w": "tailor",
+    "pos": "verb",
+    "ex": "We can tailor the maintenance contract to your budget.",
+    "ar": "نقدر نفصّل عقد الصيانة على ميزانيتك.",
+    "ex2": "For example, we can tailor it to two visits a year.",
+    "ar2": "مثلًا، نقدر نخليه زيارتين في السنة."
+   },
+   {
+    "w": "tailor-made",
+    "pos": "adjective",
+    "ex": "They wanted a tailor-made solar solution for their farm.",
+    "ar": "كانوا عايزين حل طاقة شمسية معمول مخصوص لمزرعتهم.",
+    "ex2": "The tailor-made design includes pumps with VFDs.",
+    "ar2": "التصميم المخصوص فيه طلمبات بـ‎VFD.‎"
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "customized",
+    "note": "changed for one customer's specific needs",
+    "ex": "We sent a customized quotation for the data centre.",
+    "ar": "بعتنا عرض سعر مخصص للداتا سنتر.",
+    "ex2": "The customized offer removes items they don't need.",
+    "ar2": "العرض المخصص شال الحاجات اللي مش محتاجينها."
+   },
+   {
+    "w": "personalized",
+    "note": "made for one person; common in service and marketing",
+    "ex": "Each client gets personalized support from one engineer.",
+    "ar": "كل عميل بياخد دعم شخصي من مهندس واحد.",
+    "ex2": "Personalized support builds long-term loyalty.",
+    "ar2": "الدعم الشخصي بيبني ولاء على المدى الطويل."
+   },
+   {
+    "w": "designed for",
+    "note": "neutral; built with a specific use in mind",
+    "ex": "This UPS is designed for small server rooms.",
+    "ar": "الـ‎UPS‎ ده متصمم لأوض السيرفرات الصغيرة.",
+    "ex2": "It's designed for loads under 10 kVA.",
+    "ar2": "متصمم لأحمال أقل من ١٠ ‎kVA.‎"
+   }
+  ],
+  "ant": [
+   {
+    "w": "off-the-shelf",
+    "ex": "An off-the-shelf UPS won't fit their special voltage.",
+    "ar": "‎UPS‎ جاهز من الرف مش هيناسب الفولت الخاص بتاعهم.",
+    "ex2": "Off-the-shelf models are cheaper but less flexible.",
+    "ar2": "الموديلات الجاهزة أرخص بس أقل مرونة."
+   },
+   {
+    "w": "one-size-fits-all",
+    "ex": "A one-size-fits-all contract doesn't work for hospitals.",
+    "ar": "عقد واحد للكل مينفعش للمستشفيات.",
+    "ex2": "Hospitals need more than a one-size-fits-all plan.",
+    "ar2": "المستشفيات محتاجة أكتر من خطة واحدة للكل."
+   }
+  ],
+  "ladder": {
+   "label": "how much it is made for one customer",
+   "lar": "قد إيه معمول لعميل واحد",
+   "steps": [
+    {
+     "w": "standard",
+     "ex": "Our standard contract includes four visits a year.",
+     "ar": "العقد العادي بتاعنا فيه أربع زيارات في السنة.",
+     "ex2": "Most small offices are happy with the standard one.",
+     "ar2": "معظم المكاتب الصغيرة مبسوطة بالعادي."
+    },
+    {
+     "w": "customized",
+     "ex": "We sent a customized offer with extra battery checks.",
+     "ar": "بعتنا عرض متعدّل فيه فحوصات بطاريات زيادة.",
+     "ex2": "The customized offer costs 10% more.",
+     "ar2": "العرض المتعدّل بيتكلّف ١٠٪ أكتر."
+    },
+    {
+     "w": "fully tailored to",
+     "ex": "The design is fully tailored to the factory's pumps.",
+     "ar": "التصميم متفصّل بالكامل على طلمبات المصنع.",
+     "ex2": "Being fully tailored to them, it saves the most energy.",
+     "ar2": "وعشان متفصّل عليها بالكامل، بيوفّر أكبر طاقة."
+    }
+   ]
+  },
+  "ctx": "Our maintenance plans are tailored to each customer. A bank gets 24-hour support, while a small office gets two visits a year.",
+  "ctx_ar": "خطط الصيانة بتاعتنا متفصّلة على كل عميل. البنك بياخد دعم ٢٤ ساعة، والمكتب الصغير بياخد زيارتين في السنة.",
+  "quiz": [
+   {
+    "s": "We can ___ the contract to fit your budget.",
+    "opts": [
+     "tailor",
+     "tailored",
+     "tailor-made"
+    ],
+    "a": 0,
+    "ar": "نقدر نفصّل العقد على ميزانيتك."
+   },
+   {
+    "s": "An ___ UPS won't work with their special voltage.",
+    "opts": [
+     "customized",
+     "off-the-shelf",
+     "tailored"
+    ],
+    "a": 1,
+    "ar": "‎UPS‎ جاهز مش هيشتغل مع الفولت الخاص بتاعهم."
+   },
+   {
+    "s": "This model is ___ small server rooms.",
+    "opts": [
+     "one-size-fits-all",
+     "off-the-shelf",
+     "designed for"
+    ],
+    "a": 2,
+    "ar": "الموديل ده متصمم لأوض السيرفرات الصغيرة."
+   }
+  ]
+ },
+ {
+  "w": "cost-effective",
+  "ar": "موفّر / يستاهل فلوسه",
+  "family": [
+   {
+    "w": "cost-effective",
+    "pos": "adjective",
+    "ex": "Lithium batteries are more cost-effective over ten years.",
+    "ar": "بطاريات الليثيوم بتوفّر أكتر على مدى عشر سنين.",
+    "ex2": "They cost more now but last twice as long.",
+    "ar2": "سعرها أعلى دلوقتي بس بتعيش الضعف."
+   },
+   {
+    "w": "cost-effectively",
+    "pos": "adverb",
+    "ex": "We can run the pumps more cost-effectively with VFDs.",
+    "ar": "نقدر نشغّل الطلمبات بتكلفة أقل بالـ‎VFD.‎",
+    "ex2": "Running them cost-effectively cuts the power bill.",
+    "ar2": "تشغيلها بتكلفة أقل بيقلّل فاتورة الكهربا."
+   },
+   {
+    "w": "cost-effectiveness",
+    "pos": "noun",
+    "ex": "The client asked about the cost-effectiveness of solar panels.",
+    "ar": "العميل سأل عن قد إيه الألواح الشمسية بتوفّر.",
+    "ex2": "We showed payback in four years to prove cost-effectiveness.",
+    "ar2": "ورّيناه إن الفلوس بترجع في أربع سنين عشان نثبت إنها موفّرة."
+   },
+   {
+    "w": "cost",
+    "pos": "noun",
+    "ex": "The total cost includes installation and training.",
+    "ar": "التكلفة الإجمالية شاملة التركيب والتدريب.",
+    "ex2": "The cost of spare parts is listed separately.",
+    "ar2": "تكلفة قطع الغيار مكتوبة لوحدها."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "economical",
+    "note": "uses little money, fuel or power",
+    "ex": "This UPS is very economical to run.",
+    "ar": "الـ‎UPS‎ ده موفّر جدًا في التشغيل.",
+    "ex2": "Its economical design uses less electricity.",
+    "ar2": "تصميمه الموفّر بيستهلك كهربا أقل."
+   },
+   {
+    "w": "affordable",
+    "note": "price the customer can pay now",
+    "ex": "We offer affordable maintenance plans for small shops.",
+    "ar": "بنقدّم خطط صيانة على قد الإيد للمحلات الصغيرة.",
+    "ex2": "An affordable plan helps us win more clients.",
+    "ar2": "خطة على قد الإيد بتساعدنا نكسب عملا أكتر."
+   },
+   {
+    "w": "value for money",
+    "note": "good quality for the price paid",
+    "ex": "Customers say our service is good value for money.",
+    "ar": "العملا بيقولوا إن خدمتنا تستاهل فلوسها.",
+    "ex2": "Value for money matters more than the lowest price.",
+    "ar2": "إنها تستاهل فلوسها أهم من أقل سعر."
+   }
+  ],
+  "ant": [
+   {
+    "w": "expensive",
+    "ex": "Lead-acid batteries become expensive when you replace them often.",
+    "ar": "بطاريات الرصاص بتبقى غالية لما تغيّرها كتير.",
+    "ex2": "That's why expensive replacements hurt the budget.",
+    "ar2": "عشان كده التغيير الغالي بيضرب الميزانية."
+   },
+   {
+    "w": "wasteful",
+    "ex": "Running chillers at full speed is wasteful.",
+    "ar": "تشغيل التشيلرات بأقصى سرعة إهدار.",
+    "ex2": "A VFD stops this wasteful use of power.",
+    "ar2": "الـ‎VFD‎ بيوقف الإهدار ده في الكهربا."
+   }
+  ],
+  "ladder": {
+   "label": "how good the value is",
+   "lar": "القيمة كويسة قد إيه",
+   "steps": [
+    {
+     "w": "affordable",
+     "ex": "The basic plan is affordable for small offices.",
+     "ar": "الخطة الأساسية على قد الإيد للمكاتب الصغيرة.",
+     "ex2": "Affordable, but it covers only one visit.",
+     "ar2": "على قد الإيد، بس بتغطي زيارة واحدة."
+    },
+    {
+     "w": "cost-effective",
+     "ex": "Solar is cost-effective for factories with daytime loads.",
+     "ar": "الطاقة الشمسية موفّرة للمصانع اللي حملها بالنهار.",
+     "ex2": "It's cost-effective because they use power when the sun shines.",
+     "ar2": "موفّرة عشان بيستهلكوا كهربا وقت الشمس."
+    },
+    {
+     "w": "highly profitable",
+     "ex": "The VFD retrofit was highly profitable for the client.",
+     "ar": "تركيب الـ‎VFD‎ كان مكسب كبير جدًا للعميل.",
+     "ex2": "Highly profitable projects bring repeat orders.",
+     "ar2": "المشاريع المربحة جدًا بتجيب أوردرات تانية."
+    }
+   ]
+  },
+  "ctx": "Our lithium UPS is more expensive at first, but it's very cost-effective. The batteries last ten years with almost no maintenance.",
+  "ctx_ar": "الـ‎UPS‎ الليثيوم بتاعنا أغلى في الأول، بس موفّر جدًا. البطاريات بتعيش عشر سنين من غير صيانة تقريبًا.",
+  "quiz": [
+   {
+    "s": "The client asked about the ___ of solar panels.",
+    "opts": [
+     "cost-effective",
+     "cost-effectiveness",
+     "cost-effectively"
+    ],
+    "a": 1,
+    "ar": "العميل سأل عن قد إيه الألواح الشمسية موفّرة."
+   },
+   {
+    "s": "Running chillers at full speed all day is ___.",
+    "opts": [
+     "economical",
+     "cost-effective",
+     "wasteful"
+    ],
+    "a": 2,
+    "ar": "تشغيل التشيلرات بأقصى سرعة طول اليوم إهدار."
+   },
+   {
+    "s": "Our basic plan is ___ for small shops.",
+    "opts": [
+     "affordable",
+     "expensive",
+     "wasteful"
+    ],
+    "a": 0,
+    "ar": "الخطة الأساسية بتاعتنا على قد الإيد للمحلات الصغيرة."
+   }
+  ]
+ },
+ {
+  "w": "compromise on",
+  "ar": "يتنازل عن / يقلّل من (الجودة مثلًا)",
+  "family": [
+   {
+    "w": "compromise on",
+    "pos": "verb",
+    "ex": "We never compromise on battery quality, even for cheaper offers.",
+    "ar": "عمرنا ما بنتنازل عن جودة البطاريات، حتى في العروض الأرخص.",
+    "ex2": "Cheap batteries fail early and hurt our name.",
+    "ar2": "البطاريات الرخيصة بتبوظ بدري وبتضر اسمنا."
+   },
+   {
+    "w": "compromise",
+    "pos": "noun",
+    "ex": "We reached a compromise: 5% discount and 60 days' credit.",
+    "ar": "وصلنا لحل وسط: خصم ٥٪ وآجل ٦٠ يوم.",
+    "ex2": "The compromise kept both sides happy.",
+    "ar2": "الحل الوسط خلّى الطرفين مبسوطين."
+   },
+   {
+    "w": "compromised",
+    "pos": "adjective",
+    "ex": "The server room's safety was compromised by poor cabling.",
+    "ar": "أمان أوضة السيرفرات اتأثّر بسبب الكابلات الوحشة.",
+    "ex2": "We fixed the compromised cabling the same day.",
+    "ar2": "صلّحنا الكابلات اللي فيها مشكلة في نفس اليوم."
+   },
+   {
+    "w": "uncompromising",
+    "pos": "adjective",
+    "ex": "Our engineers have an uncompromising approach to safety.",
+    "ar": "مهندسينا مبيتهاونوش خالص في الأمان.",
+    "ex2": "That uncompromising approach has prevented any accidents.",
+    "ar2": "الأسلوب ده منع أي حوادث."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "to accept lower quality or standards",
+    "mar": "تقبل جودة أو مستوى أقل",
+    "ex": "They compromised on cable quality to save money.",
+    "ar": "قللوا جودة الكابلات عشان يوفّروا فلوس.",
+    "ex2": "Now the compromised cables are overheating.",
+    "ar2": "ودلوقتي الكابلات دي بتسخن."
+   },
+   {
+    "m": "to give up part of what you want to reach agreement",
+    "mar": "تتنازل عن جزء عشان توصلوا لاتفاق",
+    "ex": "We compromised on the delivery date to keep the order.",
+    "ar": "تنازلنا في ميعاد التسليم عشان نحافظ على الأوردر.",
+    "ex2": "The client compromised on price in return.",
+    "ar2": "والعميل تنازل في السعر في المقابل."
+   }
+  ],
+  "syn": [
+   {
+    "w": "cut corners",
+    "note": "informal, negative; doing work cheaply or badly",
+    "ex": "Never cut corners on earthing in a data centre.",
+    "ar": "عمرك ما تكروت في التأريض في داتا سنتر.",
+    "ex2": "Cutting corners there can damage the servers.",
+    "ar2": "الكروتة هناك ممكن تبوّظ السيرفرات."
+   },
+   {
+    "w": "sacrifice",
+    "note": "give up something valuable for another goal",
+    "ex": "We won't sacrifice safety to finish early.",
+    "ar": "مش هنضحّي بالأمان عشان نخلص بدري.",
+    "ex2": "Sacrificing safety could cost a life.",
+    "ar2": "التضحية بالأمان ممكن تكلّف حياة حد."
+   },
+   {
+    "w": "meet halfway",
+    "note": "agree in the middle in a negotiation",
+    "ex": "Let's meet halfway on the discount: 7%.",
+    "ar": "خلّينا نتقابل في النص في الخصم: ٧٪.",
+    "ex2": "Meeting halfway closed the deal quickly.",
+    "ar2": "التقابل في النص قفل الصفقة بسرعة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "insist on",
+    "ex": "We insist on original batteries from the manufacturer.",
+    "ar": "بنصرّ على بطاريات أصلية من المصنّع.",
+    "ex2": "Insisting on originals protects the warranty.",
+    "ar2": "الإصرار على الأصلي بيحمي الضمان."
+   },
+   {
+    "w": "stand firm on",
+    "ex": "We will stand firm on our payment terms with the new client.",
+    "ar": "هنثبت على شروط الدفع بتاعتنا مع العميل الجديد.",
+    "ex2": "Standing firm on terms protects our cash flow.",
+    "ar2": "الثبات على الشروط بيحمي السيولة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our prices are competitive, but we don't compromise on quality. Every battery comes with original test certificates.",
+  "ctx_ar": "أسعارنا منافسة، بس مبنتنازلش عن الجودة. كل بطارية جاية بشهادات اختبار أصلية.",
+  "quiz": [
+   {
+    "s": "After a long talk, we reached a ___ on price.",
+    "opts": [
+     "compromise",
+     "compromised",
+     "uncompromising"
+    ],
+    "a": 0,
+    "ar": "بعد كلام طويل، وصلنا لحل وسط في السعر."
+   },
+   {
+    "s": "Never ___ on earthing; it protects the servers.",
+    "opts": [
+     "meet halfway",
+     "insist",
+     "cut corners"
+    ],
+    "a": 2,
+    "ar": "عمرك ما تكروت في التأريض؛ ده بيحمي السيرفرات."
+   },
+   {
+    "s": "We ___ original spare parts to keep the warranty.",
+    "opts": [
+     "compromise on",
+     "insist on",
+     "sacrifice"
+    ],
+    "a": 1,
+    "ar": "بنصرّ على قطع غيار أصلية عشان نحافظ على الضمان."
+   }
+  ]
+ },
+ {
+  "w": "transparency",
+  "ar": "شفافية / وضوح",
+  "family": [
+   {
+    "w": "transparency",
+    "pos": "noun",
+    "ex": "We believe in transparency when it comes to pricing.",
+    "ar": "إحنا مؤمنين بالشفافية في موضوع الأسعار.",
+    "ex2": "Every quotation shows parts and labour separately.",
+    "ar2": "كل عرض سعر فيه القطع والمصنعية كل واحدة لوحدها."
+   },
+   {
+    "w": "transparent",
+    "pos": "adjective",
+    "ex": "Our pricing is transparent, with no hidden fees.",
+    "ar": "أسعارنا واضحة، ومفيهاش رسوم مستخبية.",
+    "ex2": "Transparent prices help us win government tenders.",
+    "ar2": "الأسعار الواضحة بتساعدنا نكسب مناقصات حكومية."
+   },
+   {
+    "w": "transparently",
+    "pos": "adverb",
+    "ex": "We report every service visit transparently to the client.",
+    "ar": "بنبلّغ العميل بكل زيارة صيانة بوضوح.",
+    "ex2": "Reporting transparently avoids arguments over invoices.",
+    "ar2": "التقارير الواضحة بتمنع الخناقات على الفواتير."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "openness",
+    "note": "willingness to share information honestly",
+    "ex": "Openness with suppliers helps when shipments are late.",
+    "ar": "الصراحة مع المورّدين بتساعد لما الشحنات تتأخر.",
+    "ex2": "Their openness let us warn the client early.",
+    "ar2": "صراحتهم خلّتنا ننبّه العميل بدري."
+   },
+   {
+    "w": "clarity",
+    "note": "easy to understand, not about honesty",
+    "ex": "The new invoice layout improved clarity for customers.",
+    "ar": "شكل الفاتورة الجديد خلّاها أوضح للعملا.",
+    "ex2": "With more clarity, payment questions dropped.",
+    "ar2": "ومع الوضوح، الأسئلة على الدفع قلّت."
+   },
+   {
+    "w": "accountability",
+    "note": "being responsible and explaining your actions",
+    "ex": "Each engineer has accountability for his sites.",
+    "ar": "كل مهندس مسؤول عن مواقعه.",
+    "ex2": "Accountability means he explains every delay.",
+    "ar2": "المسؤولية معناها إنه يشرح أي تأخير."
+   }
+  ],
+  "ant": [
+   {
+    "w": "secrecy",
+    "ex": "Secrecy about prices makes clients suspicious.",
+    "ar": "التكتم على الأسعار بيخلّي العملا يشكّوا.",
+    "ex2": "Secrecy rarely helps in long-term deals.",
+    "ar2": "التكتم نادرًا ما بيفيد في الصفقات الطويلة."
+   },
+   {
+    "w": "hidden costs",
+    "ex": "Clients hate hidden costs on the final invoice.",
+    "ar": "العملا بيكرهوا التكاليف المستخبية في الفاتورة النهائية.",
+    "ex2": "We list all costs so there are no hidden costs.",
+    "ar2": "بنكتب كل التكاليف عشان مفيش حاجة مستخبية."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We believe in full transparency with our clients. Every quotation shows the price of each battery, installation and transport separately.",
+  "ctx_ar": "إحنا مؤمنين بالشفافية الكاملة مع عملائنا. كل عرض سعر فيه سعر كل بطارية والتركيب والنقل كل واحد لوحده.",
+  "quiz": [
+   {
+    "s": "Our pricing is ___, with no hidden fees.",
+    "opts": [
+     "transparency",
+     "transparent",
+     "transparently"
+    ],
+    "a": 1,
+    "ar": "أسعارنا واضحة، ومفيهاش رسوم مستخبية."
+   },
+   {
+    "s": "Clients hate ___ on the final invoice.",
+    "opts": [
+     "hidden costs",
+     "clarity",
+     "openness"
+    ],
+    "a": 0,
+    "ar": "العملا بيكرهوا التكاليف المستخبية في الفاتورة النهائية."
+   },
+   {
+    "s": "The new invoice layout improved ___ for customers.",
+    "opts": [
+     "secrecy",
+     "accountability",
+     "clarity"
+    ],
+    "a": 2,
+    "ar": "شكل الفاتورة الجديد خلّاها أوضح للعملا."
+   }
+  ]
+ },
+ {
+  "w": "inquiry",
+  "ar": "استفسار / طلب معلومات",
+  "family": [
+   {
+    "w": "inquiry",
+    "pos": "noun",
+    "ex": "We received an inquiry about 20 kVA UPS units from a hospital.",
+    "ar": "جالنا استفسار عن وحدات ‎UPS 20 kVA‎ من مستشفى.",
+    "ex2": "Please send them a quotation within 24 hours.",
+    "ar2": "لو سمحت ابعتلهم عرض سعر خلال ٢٤ ساعة."
+   },
+   {
+    "w": "inquire",
+    "pos": "verb",
+    "ex": "A factory called to inquire about VFDs for their pumps.",
+    "ar": "مصنع اتصل يستفسر عن ‎VFD‎ للطلمبات بتاعتهم.",
+    "ex2": "They inquired because their power bill is too high.",
+    "ar2": "استفسروا عشان فاتورة الكهربا عالية قوي."
+   },
+   {
+    "w": "inquiries",
+    "pos": "noun",
+    "ex": "The service desk handles customer inquiries by phone and WhatsApp.",
+    "ar": "مكتب الخدمة بيرد على استفسارات العملا بالتليفون والواتساب.",
+    "ex2": "Most inquiries are about warranty and battery life.",
+    "ar2": "معظم الاستفسارات عن الضمان وعمر البطارية."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "a question asking for information or price",
+    "mar": "سؤال لطلب معلومات أو سعر",
+    "ex": "Thank you for your inquiry about our solar packages.",
+    "ar": "شكرًا على استفسارك عن باقات الطاقة الشمسية.",
+    "ex2": "The prices for your inquiry are attached.",
+    "ar2": "أسعار استفسارك في المرفقات."
+   },
+   {
+    "m": "an official investigation",
+    "mar": "تحقيق رسمي",
+    "ex": "Management opened an inquiry into the warehouse battery loss.",
+    "ar": "الإدارة فتحت تحقيق في البطاريات اللي ضاعت من المخزن.",
+    "ex2": "The inquiry will finish by the end of the month.",
+    "ar2": "التحقيق هيخلص آخر الشهر."
+   }
+  ],
+  "syn": [
+   {
+    "w": "request",
+    "note": "asking for something specific, like a quote or visit",
+    "ex": "We got a request for a site visit tomorrow.",
+    "ar": "جالنا طلب زيارة موقع بكرة.",
+    "ex2": "The request came from the client's facilities team.",
+    "ar2": "الطلب جاي من فريق المرافق عند العميل."
+   },
+   {
+    "w": "query",
+    "note": "short question, often about an invoice or account",
+    "ex": "Finance has a query about invoice number 2045.",
+    "ar": "المالية عندها سؤال عن فاتورة رقم ٢٠٤٥.",
+    "ex2": "The query is about the VAT amount.",
+    "ar2": "السؤال عن مبلغ الضريبة."
+   },
+   {
+    "w": "lead",
+    "note": "sales word; a possible new customer",
+    "ex": "This inquiry could become a strong sales lead.",
+    "ar": "الاستفسار ده ممكن يبقى عميل محتمل قوي.",
+    "ex2": "Pass the lead to Karim; he covers Alexandria.",
+    "ar2": "ادّي العميل المحتمل لكريم؛ هو مسؤول عن إسكندرية."
+   }
+  ],
+  "ant": [
+   {
+    "w": "reply",
+    "ex": "Our reply to the inquiry included two UPS options.",
+    "ar": "ردّنا على الاستفسار كان فيه اختيارين ‎UPS.‎",
+    "ex2": "The reply also offered a free site survey.",
+    "ar2": "الرد كمان عرض معاينة ببلاش."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We received an inquiry from a new client about solar pumps. Can you send them a quotation and a brochure today?",
+  "ctx_ar": "جالنا استفسار من عميل جديد عن طلمبات طاقة شمسية. ممكن تبعتلهم عرض سعر وكتالوج النهارده؟",
+  "quiz": [
+   {
+    "s": "A factory called to ___ about VFDs for their chillers.",
+    "opts": [
+     "inquiry",
+     "inquire",
+     "inquiries"
+    ],
+    "a": 1,
+    "ar": "مصنع اتصل يستفسر عن ‎VFD‎ للتشيلرات بتاعتهم."
+   },
+   {
+    "s": "Finance has a ___ about the VAT on invoice 2045.",
+    "opts": [
+     "query",
+     "lead",
+     "reply"
+    ],
+    "a": 0,
+    "ar": "المالية عندها سؤال عن الضريبة على فاتورة ٢٠٤٥."
+   },
+   {
+    "s": "The service desk handles hundreds of customer ___ each month.",
+    "opts": [
+     "inquire",
+     "inquiry",
+     "inquiries"
+    ],
+    "a": 2,
+    "ar": "مكتب الخدمة بيرد على مئات الاستفسارات من العملا كل شهر."
+   }
+  ]
+ }
+]

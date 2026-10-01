@@ -1,0 +1,818 @@
+[
+ {
+  "w": "work ethic",
+  "ar": "الجدية والالتزام في الشغل",
+  "family": [
+   {
+    "w": "work ethic",
+    "pos": "noun",
+    "ex": "Mona's strong work ethic makes her perfect for key accounts.",
+    "ar": "جدية منى في الشغل بتخلّيها مناسبة جداً للعملاء الكبار.",
+    "ex2": "She never leaves a customer complaint for the next day.",
+    "ar2": "عمرها ما بتسيب شكوى عميل لتاني يوم."
+   },
+   {
+    "w": "ethics",
+    "pos": "noun",
+    "ex": "Our company ethics policy bans cash payments to inspectors.",
+    "ar": "سياسة الأخلاقيات في شركتنا بتمنع أي فلوس كاش للمفتشين.",
+    "ex2": "Every new salesperson signs the ethics policy on day one.",
+    "ar2": "كل مندوب مبيعات جديد بيمضي على سياسة الأخلاقيات من أول يوم."
+   },
+   {
+    "w": "ethical",
+    "pos": "adjective",
+    "ex": "Giving gifts to the buyer to win a tender isn't ethical.",
+    "ar": "إنك تدّي هدايا للمشتري عشان تكسب مناقصة ده مش أخلاقي.",
+    "ex2": "We win on price and service, the ethical way.",
+    "ar2": "إحنا بنكسب بالسعر والخدمة، بالطريقة النضيفة."
+   },
+   {
+    "w": "ethically",
+    "pos": "adverb",
+    "ex": "We source our lithium batteries ethically from certified suppliers.",
+    "ar": "بنجيب بطاريات الليثيوم من موردين معتمدين بطريقة أخلاقية.",
+    "ex2": "Some clients ask for proof that we buy ethically.",
+    "ar2": "بعض العملاء بيطلبوا إثبات إننا بنشتري بطريقة نضيفة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "dedication",
+    "note": "strong personal commitment to the job or team",
+    "ex": "Thank you for your dedication during the data centre shutdown.",
+    "ar": "شكراً على تفانيك أثناء إطفاء الداتا سنتر.",
+    "ex2": "Your dedication kept the team going until 3 a.m.",
+    "ar2": "تفانيك خلّى الفريق يكمّل لحد الساعة 3 الفجر."
+   },
+   {
+    "w": "diligence",
+    "note": "formal; careful, steady effort, often in checking work",
+    "ex": "Thanks to Karim's diligence, every serial number matched the PO.",
+    "ar": "بفضل اجتهاد كريم، كل الأرقام التسلسلية طابقت أمر الشراء.",
+    "ex2": "That diligence made customs clearance quick.",
+    "ar2": "الدقة دي خلّت التخليص الجمركي سريع."
+   },
+   {
+    "w": "commitment",
+    "note": "promise-like loyalty to a goal or customer",
+    "ex": "Our commitment to four-hour response times wins hospital contracts.",
+    "ar": "التزامنا بالرد خلال أربع ساعات بيكسّبنا عقود المستشفيات.",
+    "ex2": "We keep that commitment even on public holidays.",
+    "ar2": "بنحافظ على الالتزام ده حتى في الأجازات الرسمية."
+   }
+  ],
+  "ant": [
+   {
+    "w": "laziness",
+    "ex": "Laziness on site visits leads to missed faults.",
+    "ar": "الكسل في زيارات الموقع بيخلّي أعطال تفوت.",
+    "ex2": "The customer noticed the laziness and complained.",
+    "ar2": "العميل لاحظ الكسل واشتكى."
+   }
+  ],
+  "ladder": {
+   "label": "how strong someone's work ethic is",
+   "lar": "جدّيته في الشغل قد إيه",
+   "steps": [
+    {
+     "w": "decent work ethic",
+     "ex": "The new technician has a decent work ethic.",
+     "ar": "الفني الجديد جدّيته في الشغل معقولة.",
+     "ex2": "He comes on time but needs reminders for reports.",
+     "ar2": "بييجي في ميعاده بس محتاج حد يفكّره بالتقارير."
+    },
+    {
+     "w": "good work ethic",
+     "ex": "Ahmed has a good work ethic and finishes jobs properly.",
+     "ar": "أحمد جدّيته في الشغل كويسة وبيخلّص الشغل صح.",
+     "ex2": "Customers like his clean, tidy installations.",
+     "ar2": "العملاء بيحبوا التركيبات النضيفة المترتبة بتاعته."
+    },
+    {
+     "w": "strong work ethic",
+     "ex": "Sherif's strong work ethic is known across the company.",
+     "ar": "جدية شريف الكبيرة في الشغل معروفة في الشركة كلها.",
+     "ex2": "He stays until every alarm is cleared.",
+     "ar2": "بيفضل لحد ما كل الإنذارات تتشال."
+    },
+    {
+     "w": "outstanding work ethic",
+     "ex": "Mona's outstanding work ethic earned her Employee of the Year.",
+     "ar": "جدية منى الاستثنائية في الشغل خلّتها موظفة السنة.",
+     "ex2": "She collected 98% of her accounts on time.",
+     "ar2": "حصّلت 98% من حساباتها في الميعاد."
+    }
+   ]
+  },
+  "ctx": "Mona's strong work ethic impressed the client. She stayed on site until the last solar inverter was commissioned.",
+  "ctx_ar": "جدية منى في الشغل عجبت العميل. فضلت في الموقع لحد ما آخر إنفرتر طاقة شمسية اشتغل.",
+  "quiz": [
+   {
+    "s": "Her strong work ___ makes her perfect for key accounts.",
+    "opts": [
+     "ethic",
+     "ethical",
+     "ethically"
+    ],
+    "a": 0,
+    "ar": "جدّيتها الكبيرة في الشغل بتخلّيها مناسبة جداً للعملاء الكبار."
+   },
+   {
+    "s": "Giving gifts to the buyer to win the tender isn't ___.",
+    "opts": [
+     "ethics",
+     "ethical",
+     "ethic"
+    ],
+    "a": 1,
+    "ar": "إنك تدّي هدايا للمشتري عشان تكسب المناقصة ده مش أخلاقي."
+   },
+   {
+    "s": "Our company ___ policy bans cash payments to inspectors.",
+    "opts": [
+     "ethically",
+     "ethical",
+     "ethics"
+    ],
+    "a": 2,
+    "ar": "سياسة الأخلاقيات في شركتنا بتمنع أي فلوس كاش للمفتشين."
+   }
+  ]
+ },
+ {
+  "w": "endorsement",
+  "ar": "تزكية / شهادة بمهارة حد",
+  "family": [
+   {
+    "w": "endorse",
+    "pos": "verb",
+    "ex": "Could you endorse me for project management on LinkedIn?",
+    "ar": "ممكن تزكّيني في إدارة المشاريع على ‎LinkedIn‎؟",
+    "ex2": "I'll endorse you for UPS sales in return.",
+    "ar2": "وأنا هزكّيك في مبيعات الـ‎UPS‎ في المقابل."
+   },
+   {
+    "w": "endorsement",
+    "pos": "noun",
+    "ex": "Thank you for the endorsement on LinkedIn; it means a lot.",
+    "ar": "شكراً على التزكية على ‎LinkedIn‎، فرقت معايا جداً.",
+    "ex2": "An endorsement from a client carries real weight.",
+    "ar2": "التزكية من عميل ليها وزن حقيقي."
+   },
+   {
+    "w": "endorsed",
+    "pos": "adjective",
+    "ex": "Use only manufacturer-endorsed batteries in this UPS.",
+    "ar": "استخدم بس البطاريات اللي الشركة المصنّعة معتمداها في الـ‎UPS‎ ده.",
+    "ex2": "Non-endorsed batteries will void the warranty.",
+    "ar2": "البطاريات اللي مش معتمدة هتلغي الضمان."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "public support for someone's skills or work",
+    "mar": "تزكية / دعم علني لمهارات حد",
+    "ex": "Your endorsement on LinkedIn would help my profile.",
+    "ar": "تزكيتك على ‎LinkedIn‎ هتفرق في البروفايل بتاعي.",
+    "ex2": "I'm applying for a senior sales role, so every endorsement counts.",
+    "ar2": "أنا متقدّم لوظيفة مبيعات أعلى، فكل تزكية بتفرق."
+   },
+   {
+    "m": "signing the back of a cheque",
+    "mar": "تظهير الشيك",
+    "ex": "The cheque needs the company's endorsement before we deposit it.",
+    "ar": "الشيك محتاج تظهير الشركة قبل ما نودعه.",
+    "ex2": "The bank rejected it because the endorsement stamp was missing.",
+    "ar2": "البنك رفضه عشان ختم التظهير كان ناقص."
+   }
+  ],
+  "syn": [
+   {
+    "w": "recommendation",
+    "note": "fuller support, often a written letter",
+    "ex": "Our client wrote a recommendation for our solar team.",
+    "ar": "العميل بتاعنا كتب توصية لفريق الطاقة الشمسية عندنا.",
+    "ex2": "We attach that recommendation to every new solar tender.",
+    "ar2": "بنرفق التوصية دي في كل مناقصة طاقة شمسية جديدة."
+   },
+   {
+    "w": "approval",
+    "note": "official yes from someone with authority",
+    "ex": "We need the GM's approval for discounts above 15%.",
+    "ar": "محتاجين موافقة المدير العام على أي خصم فوق 15%.",
+    "ex2": "Without approval, the quotation can't be sent.",
+    "ar2": "من غير الموافقة، عرض السعر مينفعش يتبعت."
+   },
+   {
+    "w": "backing",
+    "note": "support, often from management or with money",
+    "ex": "The project has full backing from the bank's IT director.",
+    "ar": "المشروع عنده دعم كامل من مدير الـ‎IT‎ في البنك.",
+    "ex2": "With that backing, the PO should come quickly.",
+    "ar2": "بالدعم ده، أمر الشراء المفروض ييجي بسرعة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "rejection",
+    "ex": "The rejection of our proposal surprised the sales team.",
+    "ar": "رفض العرض بتاعنا فاجئ فريق المبيعات.",
+    "ex2": "We asked the client for the reasons behind the rejection.",
+    "ar2": "سألنا العميل عن أسباب الرفض."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Thank you for the endorsement on LinkedIn for UPS maintenance. It means a lot, especially from a client.",
+  "ctx_ar": "شكراً على التزكية على ‎LinkedIn‎ في صيانة الـ‎UPS‎. فرقت معايا جداً، خصوصاً إنها من عميل.",
+  "quiz": [
+   {
+    "s": "Could you ___ me for project management on LinkedIn?",
+    "opts": [
+     "endorse",
+     "endorsement",
+     "endorsed"
+    ],
+    "a": 0,
+    "ar": "ممكن تزكّيني في إدارة المشاريع على ‎LinkedIn‎؟"
+   },
+   {
+    "s": "Your ___ would really help my profile.",
+    "opts": [
+     "endorse",
+     "endorsement",
+     "endorsed"
+    ],
+    "a": 1,
+    "ar": "تزكيتك هتفرق جداً في البروفايل بتاعي."
+   },
+   {
+    "s": "Use only manufacturer-___ batteries in this UPS.",
+    "opts": [
+     "endorsement",
+     "endorse",
+     "endorsed"
+    ],
+    "a": 2,
+    "ar": "استخدم بس البطاريات المعتمدة من الشركة المصنّعة في الـ‎UPS‎ ده."
+   }
+  ]
+ },
+ {
+  "w": "referral",
+  "ar": "ترشيح / توصية لحد (لشغلانة أو عميل)",
+  "family": [
+   {
+    "w": "refer",
+    "pos": "verb",
+    "ex": "Could you refer me to your purchasing manager?",
+    "ar": "ممكن توصّلني بمدير المشتريات عندكم؟",
+    "ex2": "I'd like to refer our maintenance offer to him directly.",
+    "ar2": "عايز أعرض عليه عرض الصيانة بتاعنا مباشرةً."
+   },
+   {
+    "w": "referral",
+    "pos": "noun",
+    "ex": "This client came to us through a referral from Delta Steel.",
+    "ar": "العميل ده جالنا بترشيح من دلتا ستيل.",
+    "ex2": "We sent Delta Steel a thank-you note for the referral.",
+    "ar2": "بعتنا لدلتا ستيل رسالة شكر على الترشيح."
+   },
+   {
+    "w": "reference",
+    "pos": "noun",
+    "ex": "HR asked for a reference letter from my previous employer.",
+    "ar": "الـ‎HR‎ طلبوا جواب توصية من شغلي القديم.",
+    "ex2": "My old manager sent the reference the same day.",
+    "ar2": "مديري القديم بعت التوصية في نفس اليوم."
+   },
+   {
+    "w": "referee",
+    "pos": "person",
+    "ex": "Please list two referees who know your sales work.",
+    "ar": "ياريت تكتب اسمين يقدروا يشهدوا على شغلك في المبيعات.",
+    "ex2": "We will call each referee before the final interview.",
+    "ar2": "هنكلّم كل واحد فيهم قبل الإنترفيو الأخير."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "recommending someone for a job",
+    "mar": "ترشيح حد لوظيفة",
+    "ex": "Thanks to Karim's referral, I got an interview at a solar company.",
+    "ar": "بفضل ترشيح كريم، اتعملي إنترفيو في شركة طاقة شمسية.",
+    "ex2": "Companies trust a referral from a current employee.",
+    "ar2": "الشركات بتثق في ترشيح من موظف شغال عندهم."
+   },
+   {
+    "m": "a customer recommended by another customer",
+    "mar": "عميل جه بترشيح من عميل تاني",
+    "ex": "Most of our solar clients come by referral.",
+    "ar": "معظم عملاء الطاقة الشمسية عندنا جايين بالترشيح.",
+    "ex2": "We give a 5% discount for every referral that becomes a contract.",
+    "ar2": "بندّي خصم 5% على كل ترشيح يتحوّل لعقد."
+   }
+  ],
+  "syn": [
+   {
+    "w": "recommendation",
+    "note": "general word; advice to choose someone or something",
+    "ex": "The consultant's recommendation was to buy a modular UPS.",
+    "ar": "توصية الاستشاري كانت شرا ‎UPS‎ موديولار.",
+    "ex2": "We built our quotation around that recommendation.",
+    "ar2": "بنينا عرض السعر على التوصية دي."
+   },
+   {
+    "w": "reference",
+    "note": "confirmation of your past work, used in hiring",
+    "ex": "Can I use you as a reference for my new job?",
+    "ar": "ينفع أحطك كمرجع في الشغلانة الجديدة؟",
+    "ex2": "They'll only call the reference if I pass the interview.",
+    "ar2": "هيكلّموك بس لو عدّيت الإنترفيو."
+   },
+   {
+    "w": "introduction",
+    "note": "directly connecting two people",
+    "ex": "Thanks for the introduction to the hospital's facility manager.",
+    "ar": "شكراً إنك عرّفتني على مدير المرافق في المستشفى.",
+    "ex2": "The introduction led to a site visit next week.",
+    "ar2": "التعارف ده جاب زيارة موقع الأسبوع الجاي."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Most of our solar clients come by referral. The Al-Nour factory introduced us to three neighbours last year.",
+  "ctx_ar": "معظم عملاء الطاقة الشمسية عندنا جايين بالترشيح. مصنع النور عرّفنا على تلات جيران ليه السنة اللي فاتت.",
+  "quiz": [
+   {
+    "s": "This client came to us through a ___ from Delta Steel.",
+    "opts": [
+     "referral",
+     "refer",
+     "referee"
+    ],
+    "a": 0,
+    "ar": "العميل ده جالنا بترشيح من دلتا ستيل."
+   },
+   {
+    "s": "Could you ___ me to your purchasing manager?",
+    "opts": [
+     "referral",
+     "refer",
+     "reference"
+    ],
+    "a": 1,
+    "ar": "ممكن توصّلني بمدير المشتريات عندكم؟"
+   },
+   {
+    "s": "HR asked for a ___ letter from my previous employer.",
+    "opts": [
+     "refer",
+     "referral",
+     "reference"
+    ],
+    "a": 2,
+    "ar": "الـ‎HR‎ طلبوا جواب توصية من شغلي القديم."
+   }
+  ]
+ },
+ {
+  "w": "milestone",
+  "ar": "إنجاز مهم / محطة",
+  "family": [
+   {
+    "w": "milestone",
+    "pos": "noun",
+    "ex": "We've reached a key milestone: 1,000 UPS units under maintenance.",
+    "ar": "وصلنا لمحطة مهمة: 1,000 جهاز ‎UPS‎ تحت عقود صيانة.",
+    "ex2": "Let's celebrate this milestone with the whole service team.",
+    "ar2": "تعالوا نحتفل بالإنجاز ده مع فريق الخدمة كله."
+   },
+   {
+    "w": "milestone payment",
+    "pos": "noun",
+    "ex": "The second milestone payment is due after commissioning.",
+    "ar": "الدفعة التانية المربوطة بمرحلة المشروع مستحقة بعد التشغيل.",
+    "ex2": "Please send the commissioning report so finance can claim it.",
+    "ar2": "ياريت تبعت تقرير التشغيل عشان المالية تطالب بيها."
+   },
+   {
+    "w": "reach a milestone",
+    "pos": "verb",
+    "ex": "The solar farm project reached a milestone: all panels installed.",
+    "ar": "مشروع المزرعة الشمسية وصل لمرحلة مهمة: كل الألواح اتركّبت.",
+    "ex2": "Next we connect the inverters to the grid.",
+    "ar2": "الخطوة الجاية نوصّل الإنفرترات بالشبكة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "an important achievement in a career or company",
+    "mar": "إنجاز مهم في الشغل أو الشركة",
+    "ex": "I'm excited to share a career milestone: ten years in power solutions.",
+    "ar": "مبسوط أشارككم إنجاز مهم: عشر سنين في حلول الطاقة.",
+    "ex2": "I started as a technician and now lead the service team.",
+    "ar2": "بدأت فني ودلوقتي بقود فريق الخدمة."
+   },
+   {
+    "m": "a stage in a project, often linked to payment",
+    "mar": "مرحلة في المشروع مربوطة بدفعة",
+    "ex": "The contract has three milestones: delivery, installation and commissioning.",
+    "ar": "العقد فيه تلات مراحل: توريد وتركيب وتشغيل.",
+    "ex2": "Each milestone releases 30% of the contract value.",
+    "ar2": "كل مرحلة بتصرف 30% من قيمة العقد."
+   }
+  ],
+  "syn": [
+   {
+    "w": "achievement",
+    "note": "a success you worked for; not about stages",
+    "ex": "Winning the airport tender was a big achievement for us.",
+    "ar": "كسب مناقصة المطار كان إنجاز كبير لينا.",
+    "ex2": "Management thanked everyone for the achievement.",
+    "ar2": "الإدارة شكرت الكل على الإنجاز ده."
+   },
+   {
+    "w": "stage",
+    "note": "neutral part of a project; no celebration",
+    "ex": "We're at the design stage of the solar station.",
+    "ar": "إحنا في مرحلة التصميم لمحطة الطاقة الشمسية.",
+    "ex2": "The next stage is ordering the panels.",
+    "ar2": "المرحلة الجاية طلب الألواح."
+   },
+   {
+    "w": "landmark",
+    "note": "historic, very important point; stronger than milestone",
+    "ex": "Our first government contract was a landmark for the company.",
+    "ar": "أول عقد حكومي كان نقطة تاريخية للشركة.",
+    "ex2": "That landmark deal opened the door to more tenders.",
+    "ar2": "الصفقة دي فتحت الباب لمناقصات أكتر."
+   }
+  ],
+  "ant": [
+   {
+    "w": "setback",
+    "ex": "Losing the hospital contract was a setback for the service team.",
+    "ar": "خسارة عقد المستشفى كانت انتكاسة لفريق الخدمة.",
+    "ex2": "We learned from the setback and improved our response time.",
+    "ar2": "اتعلمنا من الانتكاسة دي وحسّنا وقت الاستجابة."
+   }
+  ],
+  "ladder": {
+   "label": "how big the achievement",
+   "lar": "الإنجاز كبير قد إيه",
+   "steps": [
+    {
+     "w": "first step",
+     "ex": "Getting the supplier's approval was the first step.",
+     "ar": "موافقة المورّد كانت أول خطوة.",
+     "ex2": "After the first step, we can sign the distribution agreement.",
+     "ar2": "بعد أول خطوة، نقدر نمضي اتفاقية التوزيع."
+    },
+    {
+     "w": "milestone",
+     "ex": "Our 100th solar station is an important milestone.",
+     "ar": "المحطة الشمسية رقم 100 عندنا إنجاز مهم.",
+     "ex2": "We'll post the milestone on LinkedIn.",
+     "ar2": "هننزّل الإنجاز ده على ‎LinkedIn‎."
+    },
+    {
+     "w": "landmark",
+     "ex": "Becoming the official distributor was a landmark moment.",
+     "ar": "إننا بقينا الموزّع الرسمي كانت لحظة تاريخية.",
+     "ex2": "That landmark changed the size of the company.",
+     "ar2": "اللحظة دي غيّرت حجم الشركة."
+    }
+   ]
+  },
+  "ctx": "We've reached a key milestone: 1,000 UPS units under maintenance contracts. Thanks to every engineer who made it happen.",
+  "ctx_ar": "وصلنا لإنجاز مهم: 1,000 جهاز ‎UPS‎ تحت عقود صيانة. شكراً لكل مهندس ساهم في ده.",
+  "quiz": [
+   {
+    "s": "The second ___ payment is due after commissioning.",
+    "opts": [
+     "milestone",
+     "setback",
+     "landmark"
+    ],
+    "a": 0,
+    "ar": "الدفعة التانية المربوطة بمرحلة المشروع مستحقة بعد التشغيل."
+   },
+   {
+    "s": "Losing our biggest client was a big ___.",
+    "opts": [
+     "milestone",
+     "setback",
+     "achievement"
+    ],
+    "a": 1,
+    "ar": "خسارة أكبر عميل عندنا كانت انتكاسة كبيرة."
+   },
+   {
+    "s": "Our first government contract was a historic, ___ moment.",
+    "opts": [
+     "stage",
+     "first step",
+     "landmark"
+    ],
+    "a": 2,
+    "ar": "أول عقد حكومي كان لحظة تاريخية."
+   }
+  ]
+ },
+ {
+  "w": "take on",
+  "ar": "يستلم / يتحمّل (مسؤولية أو تحدي)",
+  "family": [
+   {
+    "w": "take on",
+    "pos": "verb",
+    "ex": "I'm happy to take on the key accounts in the Delta region.",
+    "ar": "مبسوط إني أستلم العملاء الكبار في منطقة الدلتا.",
+    "ex2": "I already know most of the factory managers there.",
+    "ar2": "أنا أصلاً عارف معظم مديري المصانع هناك."
+   },
+   {
+    "w": "undertake",
+    "pos": "verb",
+    "ex": "We undertake to replace faulty batteries within 48 hours.",
+    "ar": "إحنا بنتعهد نغيّر البطاريات البايظة خلال 48 ساعة.",
+    "ex2": "This is written in section 4 of the maintenance contract.",
+    "ar2": "ده مكتوب في البند 4 من عقد الصيانة."
+   },
+   {
+    "w": "undertaking",
+    "pos": "noun",
+    "ex": "Building a full data centre power system is a huge undertaking.",
+    "ar": "بناء نظام كهربا كامل لداتا سنتر ده مشروع ضخم.",
+    "ex2": "We'll need extra engineers for an undertaking this size.",
+    "ar2": "هنحتاج مهندسين زيادة لمشروع بالحجم ده."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "accept new work or responsibility",
+    "mar": "يستلم شغل أو مسؤولية جديدة",
+    "ex": "Excited to take on this new challenge as service manager.",
+    "ar": "متحمس أستلم التحدي الجديد ده كمدير خدمة.",
+    "ex2": "I'll take on the hospital accounts from next month.",
+    "ar2": "هستلم حسابات المستشفيات من الشهر الجاي."
+   },
+   {
+    "m": "hire staff",
+    "mar": "يعيّن موظفين",
+    "ex": "We'll take on two new technicians for the summer season.",
+    "ar": "هنعيّن فنيين جداد لموسم الصيف.",
+    "ex2": "We usually take on extra staff when chiller jobs increase.",
+    "ar2": "عادةً بنعيّن ناس زيادة لما شغل التشيلرات يزيد."
+   },
+   {
+    "m": "compete against",
+    "mar": "ينافس / يواجه",
+    "ex": "We're ready to take on the big brands in the solar market.",
+    "ar": "إحنا جاهزين ننافس الماركات الكبيرة في سوق الطاقة الشمسية.",
+    "ex2": "Our local service is how we take them on.",
+    "ar2": "الخدمة المحلية بتاعتنا هي سلاحنا في المنافسة."
+   }
+  ],
+  "syn": [
+   {
+    "w": "handle",
+    "note": "deal with day-to-day; less about accepting something new",
+    "ex": "Mona handles all billing questions for our hotel clients.",
+    "ar": "منى ماسكة كل أسئلة الفواتير لعملاء الفنادق.",
+    "ex2": "She handles about 30 accounts.",
+    "ar2": "ماسكة حوالي 30 حساب."
+   },
+   {
+    "w": "accept",
+    "note": "simple yes to an offer, role or job",
+    "ex": "I've decided to accept the regional sales role.",
+    "ar": "قررت أقبل وظيفة مبيعات المنطقة.",
+    "ex2": "I'll accept it formally by email today.",
+    "ar2": "هقبلها رسمي بالإيميل النهارده."
+   },
+   {
+    "w": "assume",
+    "note": "formal; used for roles and responsibility",
+    "ex": "Karim will assume responsibility for all import shipments.",
+    "ar": "كريم هيتولّى مسؤولية كل شحنات الاستيراد.",
+    "ex2": "He'll assume the role from 1 July.",
+    "ar2": "هيمسك الدور من 1 يوليو."
+   }
+  ],
+  "ant": [
+   {
+    "w": "turn down",
+    "ex": "We had to turn down the order; the delivery date was impossible.",
+    "ar": "اضطرينا نرفض الأوردر، ميعاد التسليم كان مستحيل.",
+    "ex2": "Turning it down was better than paying late-delivery penalties.",
+    "ar2": "إننا نرفضه أحسن من إننا ندفع غرامات تأخير."
+   },
+   {
+    "w": "hand over",
+    "ex": "Before my leave, I'll hand over my accounts to Hany.",
+    "ar": "قبل الأجازة، هسلّم حساباتي لهاني.",
+    "ex2": "I'll hand over the open tickets with notes.",
+    "ar2": "هسلّمه التذاكر المفتوحة مع ملاحظات."
+   }
+  ],
+  "ladder": {
+   "label": "how formal",
+   "lar": "رسمي قد إيه",
+   "steps": [
+    {
+     "w": "take on",
+     "ex": "Can you take on the Alexandria site this week?",
+     "ar": "تقدر تمسك موقع إسكندرية الأسبوع ده؟",
+     "ex2": "Sherif is busy with the bank project.",
+     "ar2": "شريف مشغول في مشروع البنك."
+    },
+    {
+     "w": "accept",
+     "ex": "I accept the extra responsibility for spare parts stock.",
+     "ar": "أنا قابل المسؤولية الزيادة عن مخزون قطع الغيار.",
+     "ex2": "I'll send a weekly stock report.",
+     "ar2": "هبعت تقرير مخزون كل أسبوع."
+    },
+    {
+     "w": "assume",
+     "ex": "The new director will assume full responsibility for the solar division.",
+     "ar": "المدير الجديد هيتولّى المسؤولية الكاملة لقسم الطاقة الشمسية.",
+     "ex2": "The announcement will go out to all clients.",
+     "ar2": "الإعلان هيتبعت لكل العملاء."
+    }
+   ]
+  },
+  "ctx": "Karim is ready to take on the key accounts in the Delta region. He knows most of the factory managers there.",
+  "ctx_ar": "كريم جاهز يستلم العملاء الكبار في منطقة الدلتا. هو عارف معظم مديري المصانع هناك.",
+  "quiz": [
+   {
+    "s": "I'm happy to ___ the new solar project.",
+    "opts": [
+     "take on",
+     "turn down",
+     "undertaking"
+    ],
+    "a": 0,
+    "ar": "مبسوط إني أستلم مشروع الطاقة الشمسية الجديد."
+   },
+   {
+    "s": "Building a full data centre is a huge ___.",
+    "opts": [
+     "undertake",
+     "undertaking",
+     "take on"
+    ],
+    "a": 1,
+    "ar": "بناء داتا سنتر كامل ده مشروع ضخم."
+   },
+   {
+    "s": "We had to ___ the order; the delivery date was impossible.",
+    "opts": [
+     "take on",
+     "assume",
+     "turn down"
+    ],
+    "a": 2,
+    "ar": "اضطرينا نرفض الأوردر؛ ميعاد التسليم كان مستحيل."
+   }
+  ]
+ },
+ {
+  "w": "instrumental",
+  "ar": "لعب دور أساسي",
+  "family": [
+   {
+    "w": "instrument",
+    "pos": "noun",
+    "ex": "Calibrate every measuring instrument before the battery test.",
+    "ar": "اعمل معايرة لكل جهاز قياس قبل اختبار البطاريات.",
+    "ex2": "A wrong instrument reading could fail a good battery.",
+    "ar2": "قراية غلط من جهاز القياس ممكن تسقّط بطارية سليمة."
+   },
+   {
+    "w": "instrumental",
+    "pos": "adjective",
+    "ex": "Your support was instrumental in closing the hospital deal.",
+    "ar": "دعمك كان ليه دور أساسي في قفل صفقة المستشفى.",
+    "ex2": "Without your technical answers, the client wouldn't have signed.",
+    "ar2": "من غير ردودك الفنية، العميل مكانش هيمضي."
+   },
+   {
+    "w": "instrumentation",
+    "pos": "noun",
+    "ex": "Our instrumentation engineer calibrates the flow meters on the pumps.",
+    "ar": "مهندس الأجهزة الدقيقة عندنا بيعاير عدادات التدفق على الطلمبات.",
+    "ex2": "Good instrumentation lets the VFD control pressure accurately.",
+    "ar2": "الأجهزة الدقيقة الكويسة بتخلّي الـ‎VFD‎ يتحكم في الضغط بدقة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "key",
+    "note": "simple and very common; important part",
+    "ex": "Fast spare parts were key to winning the contract.",
+    "ar": "قطع الغيار السريعة كانت عامل أساسي في كسب العقد.",
+    "ex2": "The client said it was the key reason they chose us.",
+    "ar2": "العميل قال إنه كان السبب الأساسي إنهم اختارونا."
+   },
+   {
+    "w": "vital",
+    "note": "absolutely necessary; can't succeed without it",
+    "ex": "Regular battery testing is vital for hospital UPS systems.",
+    "ar": "اختبار البطاريات بانتظام ضروري جداً لأنظمة الـ‎UPS‎ في المستشفيات.",
+    "ex2": "Missing this vital test could mean an ICU blackout.",
+    "ar2": "لو اختبار مهم زي ده فات، ممكن العناية تفصل."
+   },
+   {
+    "w": "helpful",
+    "note": "weaker; useful but not decisive",
+    "ex": "Your notes were helpful, but the deal was won on price.",
+    "ar": "ملاحظاتك كانت مفيدة، بس الصفقة اتكسبت بالسعر.",
+    "ex2": "Still, they were helpful for the next tender.",
+    "ar2": "ومع ذلك، هتفيد في المناقصة الجاية."
+   },
+   {
+    "w": "pivotal",
+    "note": "formal; a turning point that changed the result",
+    "ex": "The site demo was pivotal in changing the client's mind.",
+    "ar": "العرض في الموقع كان نقطة تحوّل في تغيير رأي العميل.",
+    "ex2": "After that pivotal demo, they cancelled the competitor's offer.",
+    "ar2": "بعد العرض ده، لغوا عرض المنافس."
+   }
+  ],
+  "ant": [
+   {
+    "w": "irrelevant",
+    "ex": "The colour of the cabinet is irrelevant to the client.",
+    "ar": "لون الكابينة مش فارق مع العميل خالص.",
+    "ex2": "What's relevant is runtime and price, not the irrelevant extras.",
+    "ar2": "اللي يهمّه وقت التشغيل والسعر، مش الحاجات الجانبية."
+   }
+  ],
+  "ladder": {
+   "label": "how big a role",
+   "lar": "الدور كبير قد إيه",
+   "steps": [
+    {
+     "w": "helpful",
+     "ex": "The supplier's datasheet was helpful for the tender.",
+     "ar": "الداتا شيت بتاع المورّد كان مفيد للمناقصة.",
+     "ex2": "It was helpful and saved us a day of research.",
+     "ar2": "كان مفيد ووفّر علينا يوم بحث."
+    },
+    {
+     "w": "key",
+     "ex": "Our quick response was key to keeping the client.",
+     "ar": "سرعة ردنا كانت عامل أساسي في إننا نحافظ على العميل.",
+     "ex2": "They had been unhappy with the old supplier.",
+     "ar2": "كانوا مش مبسوطين من المورّد القديم."
+    },
+    {
+     "w": "instrumental",
+     "ex": "Sherif was instrumental in winning the airport project.",
+     "ar": "شريف كان ليه دور أساسي في كسب مشروع المطار.",
+     "ex2": "His technical design convinced the consultant.",
+     "ar2": "التصميم الفني بتاعه أقنع الاستشاري."
+    }
+   ]
+  },
+  "ctx": "Your support was instrumental in closing the hospital deal. The client signed the three-year maintenance contract today.",
+  "ctx_ar": "دعمك كان ليه دور أساسي في قفل صفقة المستشفى. العميل مضى عقد الصيانة التلات سنين النهارده.",
+  "quiz": [
+   {
+    "s": "Mona was ___ in winning the tender.",
+    "opts": [
+     "instrument",
+     "instrumental",
+     "instrumentation"
+    ],
+    "a": 1,
+    "ar": "منى كان ليها دور أساسي في كسب المناقصة."
+   },
+   {
+    "s": "Our ___ engineer calibrates the flow meters on the pumps.",
+    "opts": [
+     "instrumentation",
+     "instrumental",
+     "instrument"
+    ],
+    "a": 0,
+    "ar": "مهندس الأجهزة الدقيقة عندنا بيعاير عدادات التدفق على الطلمبات."
+   },
+   {
+    "s": "Your notes were ___, but the deal was really won by the price.",
+    "opts": [
+     "instrumental",
+     "pivotal",
+     "helpful"
+    ],
+    "a": 2,
+    "ar": "ملاحظاتك كانت مفيدة، بس الصفقة في الحقيقة اتكسبت بالسعر."
+   }
+  ]
+ }
+]
