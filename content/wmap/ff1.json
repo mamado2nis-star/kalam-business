@@ -805,5 +805,1317 @@
     "ar": "لازم نستغل الطلب العالي على الطلمبات الشمسية السنة دي."
    }
   ]
+ },
+ {
+  "w": "go over",
+  "ar": "تراجع / تعدّي على حاجة بالتفصيل",
+  "family": [
+   {
+    "w": "go over",
+    "pos": "verb",
+    "ex": "Let's go over the quotation before we send it.",
+    "ar": "خلينا نراجع عرض السعر قبل ما نبعته.",
+    "ex2": "I think the VAT is missing.",
+    "ar2": "أعتقد إن الضريبة ناقصة."
+   },
+   {
+    "w": "going-over",
+    "pos": "noun",
+    "ex": "The UPS needs a full going-over after the flood.",
+    "ar": "الـ‎UPS‎ محتاج مراجعة كاملة بعد الغرق.",
+    "ex2": "Water reached the battery cabinet.",
+    "ar2": "المية وصلت لدولاب البطاريات."
+   },
+   {
+    "w": "overview",
+    "pos": "noun",
+    "ex": "I'll give you a quick overview of our service plans.",
+    "ar": "هديك فكرة سريعة عن خطط الصيانة بتاعتنا.",
+    "ex2": "Then we can go over the prices.",
+    "ar2": "بعدين نقدر نراجع الأسعار."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "review",
+    "note": "more formal; checking carefully, often in writing",
+    "ex": "Finance will review the invoice before it's issued.",
+    "ar": "الحسابات هتراجع الفاتورة قبل ما تطلع.",
+    "ex2": "E-invoices can't be changed later.",
+    "ar2": "الفواتير الإلكترونية مينفعش تتعدل بعدين."
+   },
+   {
+    "w": "check",
+    "note": "quick; looking for mistakes",
+    "ex": "Please check the serial numbers on the delivery note.",
+    "ar": "من فضلك شيّك على الأرقام التسلسلية في إذن التسليم.",
+    "ex2": "They must match the warranty cards.",
+    "ar2": "لازم تطابق كروت الضمان."
+   },
+   {
+    "w": "run through",
+    "note": "informal; quickly explain or practise from start to end",
+    "ex": "Let's run through the presentation before the client arrives.",
+    "ar": "خلينا نعدّي على العرض بسرعة قبل ما العميل يوصل.",
+    "ex2": "We have ten minutes.",
+    "ar2": "معانا عشر دقايق."
+   }
+  ],
+  "ant": [
+   {
+    "w": "skip",
+    "ex": "Don't skip the safety checklist before opening the panel.",
+    "ar": "متفوّتش ‎checklist‎ السلامة قبل ما تفتح اللوحة.",
+    "ex2": "The DC voltage is dangerous.",
+    "ar2": "الجهد الـ‎DC‎ خطير."
+   }
+  ],
+  "ladder": {
+   "label": "how carefully you look",
+   "lar": "قد إيه بتبص بدقة",
+   "steps": [
+    {
+     "w": "glance at",
+     "ex": "I only had time to glance at the PO.",
+     "ar": "ملحقتش غير أبص بصة على أمر الشراء.",
+     "ex2": "I'll read it properly tonight.",
+     "ar2": "هقراه كويس بالليل."
+    },
+    {
+     "w": "go over",
+     "ex": "Let's go over the PO line by line.",
+     "ar": "خلينا نراجع أمر الشراء سطر سطر.",
+     "ex2": "Some quantities look wrong.",
+     "ar2": "في كميات شكلها غلط."
+    },
+    {
+     "w": "examine",
+     "ex": "The engineer will examine the damaged batteries closely.",
+     "ar": "المهندس هيفحص البطاريات التالفة بدقة.",
+     "ex2": "The supplier needs a full report.",
+     "ar2": "المورد محتاج تقرير كامل."
+    }
+   ]
+  },
+  "ctx": "Before we sign, let's go over the maintenance contract together. I want to be sure the response time is clear.",
+  "ctx_ar": "قبل ما نمضي، خلينا نراجع عقد الصيانة سوا. عايز أتأكد إن وقت الاستجابة واضح.",
+  "quiz": [
+   {
+    "s": "Let's ___ the contract terms before we sign.",
+    "opts": [
+     "go over",
+     "going-over",
+     "overview"
+    ],
+    "a": 0,
+    "ar": "خلينا نراجع شروط العقد قبل ما نمضي."
+   },
+   {
+    "s": "I'll start with a short ___ of our services.",
+    "opts": [
+     "go over",
+     "overview",
+     "skip"
+    ],
+    "a": 1,
+    "ar": "هبدأ بفكرة سريعة عن خدماتنا."
+   },
+   {
+    "s": "I only had time to ___ the email.",
+    "opts": [
+     "examine",
+     "go over",
+     "glance at"
+    ],
+    "a": 2,
+    "ar": "ملحقتش غير أبص بصة على الإيميل."
+   }
+  ],
+  "book": "Before we start, I'd like to go over the ground rules for today, just to give you an idea of the format."
+ },
+ {
+  "w": "keep track of",
+  "ar": "تتابع / تفضل عارف وماسك الأرقام",
+  "family": [
+   {
+    "w": "keep track of",
+    "pos": "verb",
+    "ex": "We keep track of battery ages for every client.",
+    "ar": "بنتابع عمر البطاريات لكل عميل.",
+    "ex2": "We replace them before five years.",
+    "ar2": "بنغيّرها قبل خمس سنين."
+   },
+   {
+    "w": "track",
+    "pos": "verb",
+    "ex": "You can track the shipment online.",
+    "ar": "تقدر تتابع الشحنة أونلاين.",
+    "ex2": "It's now at Port Said.",
+    "ar2": "هي دلوقتي في بورسعيد."
+   },
+   {
+    "w": "tracking",
+    "pos": "noun",
+    "ex": "Our invoice tracking shows three unpaid bills from Delta Foods.",
+    "ar": "متابعة الفواتير عندنا بتبيّن تلات فواتير متدفعتش من ‎Delta Foods.‎",
+    "ex2": "The oldest is ninety days late.",
+    "ar2": "أقدمهم متأخرة تسعين يوم."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "monitor",
+    "note": "formal; checking regularly, often with a system",
+    "ex": "We monitor the UPS remotely 24/7.",
+    "ar": "بنراقب الـ‎UPS‎ عن بعد أربعة وعشرين ساعة.",
+    "ex2": "Alarms go straight to our phones.",
+    "ar2": "الإنذارات بتيجي على موبايلاتنا على طول."
+   },
+   {
+    "w": "follow",
+    "note": "informal; stay informed about progress",
+    "ex": "I follow every project on our shared board.",
+    "ar": "بتابع كل مشروع على البورد المشتركة.",
+    "ex2": "Each card shows the next step.",
+    "ar2": "كل كارت بيبيّن الخطوة الجاية."
+   }
+  ],
+  "ant": [
+   {
+    "w": "lose track of",
+    "ex": "It is easy to lose track of spare parts sent to Aswan.",
+    "ar": "سهل تتوه في قطع الغيار اللي بتتبعت أسوان.",
+    "ex2": "Last month nobody signed the delivery note.",
+    "ar2": "الشهر اللي فات محدش مضى على إذن التسليم."
+   }
+  ],
+  "ladder": null,
+  "ctx": "I use a spreadsheet to keep track of all open quotations. Every Sunday I call the clients who haven't replied.",
+  "ctx_ar": "بستخدم شيت عشان أتابع كل عروض الأسعار المفتوحة. كل حد بكلم العملاء اللي مردوش.",
+  "quiz": [
+   {
+    "s": "I use a sheet to ___ open quotations.",
+    "opts": [
+     "keep track of",
+     "tracking",
+     "lose track of"
+    ],
+    "a": 0,
+    "ar": "بستخدم شيت عشان أتابع عروض الأسعار المفتوحة."
+   },
+   {
+    "s": "You can ___ the shipment on the website.",
+    "opts": [
+     "tracking",
+     "track",
+     "keep track"
+    ],
+    "a": 1,
+    "ar": "تقدر تتابع الشحنة على الموقع."
+   },
+   {
+    "s": "Our system can ___ the UPS 24/7.",
+    "opts": [
+     "lose track of",
+     "tracking",
+     "monitor"
+    ],
+    "a": 2,
+    "ar": "السيستم بتاعنا يقدر يراقب الـ‎UPS‎ طول اليوم."
+   }
+  ],
+  "book": "I'd like to keep track of things."
+ },
+ {
+  "w": "clarify",
+  "ar": "توضّح",
+  "family": [
+   {
+    "w": "clarify",
+    "pos": "verb",
+    "ex": "Please clarify which UPS model you need.",
+    "ar": "من فضلك وضّح محتاج أنهي موديل ‎UPS.‎",
+    "ex2": "We have 10 and 20 kVA in stock.",
+    "ar2": "عندنا 10 و20 ‎kVA‎ في المخزن."
+   },
+   {
+    "w": "clarification",
+    "pos": "noun",
+    "ex": "We sent a request for clarification on the tender specs.",
+    "ar": "بعتنا طلب توضيح على مواصفات المناقصة.",
+    "ex2": "The battery runtime wasn't mentioned.",
+    "ar2": "مدة تشغيل البطارية مكانتش مذكورة."
+   },
+   {
+    "w": "clear",
+    "pos": "adjective",
+    "ex": "The client was clear: delivery before Ramadan.",
+    "ar": "العميل كان واضح: التسليم قبل رمضان.",
+    "ex2": "Otherwise he'll cancel the order.",
+    "ar2": "وإلا هيلغي الطلب."
+   },
+   {
+    "w": "clearly",
+    "pos": "adverb",
+    "ex": "Write the warranty period clearly on the invoice.",
+    "ar": "اكتب مدة الضمان بوضوح على الفاتورة.",
+    "ex2": "It avoids arguments later.",
+    "ar2": "ده بيمنع خناقات بعدين."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "explain",
+    "note": "general; describe so someone understands",
+    "ex": "Can you explain how the VFD saves energy?",
+    "ar": "ممكن تشرح الـ‎VFD‎ بيوفّر كهربا إزاي؟",
+    "ex2": "The client wants simple words.",
+    "ar2": "العميل عايز كلام بسيط."
+   },
+   {
+    "w": "confirm",
+    "note": "make sure something is correct",
+    "ex": "Please confirm the delivery address by email.",
+    "ar": "من فضلك أكّد عنوان التسليم بالإيميل.",
+    "ex2": "The truck leaves tomorrow.",
+    "ar2": "العربية طالعة بكرة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "confuse",
+    "ex": "Too many options can confuse the customer.",
+    "ar": "الاختيارات الكتير ممكن تلخبط العميل.",
+    "ex2": "Offer two UPS models only.",
+    "ar2": "اعرض موديلين ‎UPS‎ بس."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Could you clarify the payment terms in your PO? It says thirty days, but your email said sixty.",
+  "ctx_ar": "ممكن توضّح شروط الدفع في أمر الشراء بتاعك؟ مكتوب تلاتين يوم، بس الإيميل بتاعك قال ستين.",
+  "quiz": [
+   {
+    "s": "Could you ___ the delivery date, please?",
+    "opts": [
+     "clarification",
+     "clarify",
+     "clearly"
+    ],
+    "a": 1,
+    "ar": "ممكن توضّح ميعاد التسليم من فضلك؟"
+   },
+   {
+    "s": "We asked the client for ___ on the specs.",
+    "opts": [
+     "clarification",
+     "clarify",
+     "clear"
+    ],
+    "a": 0,
+    "ar": "طلبنا من العميل توضيح على المواصفات."
+   },
+   {
+    "s": "Too many models will only ___ the client.",
+    "opts": [
+     "clarify",
+     "confirm",
+     "confuse"
+    ],
+    "a": 2,
+    "ar": "موديلات كتير هتلخبط العميل وبس."
+   }
+  ],
+  "book": "Mona will mainly observe, but she'll join in if she wants to clarify anything."
+ },
+ {
+  "w": "relevant",
+  "ar": "له علاقة / مناسب للموضوع",
+  "family": [
+   {
+    "w": "relevant",
+    "pos": "adjective",
+    "ex": "Please attach only relevant documents to the tender.",
+    "ar": "من فضلك ارفق المستندات اللي ليها علاقة بس بالمناقصة.",
+    "ex2": "The committee won't read extra pages.",
+    "ar2": "اللجنة مش هتقرا صفحات زيادة."
+   },
+   {
+    "w": "relevance",
+    "pos": "noun",
+    "ex": "I don't see the relevance of this report to our UPS fault.",
+    "ar": "مش شايف علاقة التقرير ده بعطل الـ‎UPS‎ بتاعنا.",
+    "ex2": "It's about the generator.",
+    "ar2": "ده عن المولد."
+   },
+   {
+    "w": "irrelevant",
+    "pos": "adjective",
+    "ex": "His comments about the old supplier are irrelevant now.",
+    "ar": "كلامه عن المورد القديم ملوش لازمة دلوقتي.",
+    "ex2": "We changed supplier last year.",
+    "ar2": "غيرنا المورد السنة اللي فاتت."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "related",
+    "note": "simply connected to the topic",
+    "ex": "I have related experience in solar pumps.",
+    "ar": "عندي خبرة قريبة في طلمبات الطاقة الشمسية.",
+    "ex2": "I installed twenty systems.",
+    "ar2": "ركّبت عشرين نظام."
+   },
+   {
+    "w": "applicable",
+    "note": "formal; a rule or condition that applies",
+    "ex": "The discount is applicable to orders above 50,000 pounds.",
+    "ar": "الخصم بيتطبق على الطلبات فوق 50 ألف جنيه.",
+    "ex2": "Smaller orders pay full price.",
+    "ar2": "الطلبات الأصغر بتدفع السعر كامل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "irrelevant",
+    "ex": "Remove the irrelevant slides from the presentation.",
+    "ar": "شيل الشرايح اللي ملهاش علاقة من العرض.",
+    "ex2": "The client only cares about price and uptime.",
+    "ar2": "العميل مهتم بالسعر ووقت التشغيل بس."
+   }
+  ],
+  "ladder": null,
+  "ctx": "My diploma in power electronics is relevant to this job. I studied UPS and inverter design in detail.",
+  "ctx_ar": "دبلومة الإلكترونيات الكهربية بتاعتي ليها علاقة بالوظيفة دي. درست تصميم الـ‎UPS‎ والإنفرتر بالتفصيل.",
+  "quiz": [
+   {
+    "s": "Mention only ___ experience in your CV.",
+    "opts": [
+     "relevance",
+     "relevant",
+     "irrelevant"
+    ],
+    "a": 1,
+    "ar": "اذكر الخبرة اللي ليها علاقة بس في الـ‎CV.‎"
+   },
+   {
+    "s": "I don't see the ___ of this to our problem.",
+    "opts": [
+     "relevance",
+     "relevant",
+     "related"
+    ],
+    "a": 0,
+    "ar": "مش شايف علاقة ده بمشكلتنا."
+   },
+   {
+    "s": "This discount is ___ to big orders only.",
+    "opts": [
+     "irrelevant",
+     "relevance",
+     "applicable"
+    ],
+    "a": 2,
+    "ar": "الخصم ده بيتطبق على الطلبات الكبيرة بس."
+   }
+  ],
+  "book": "What in particular did you cover that you think is relevant to this position?"
+ },
+ {
+  "w": "thorough",
+  "ar": "دقيق / شامل ومن غير ما يسيب حاجة",
+  "family": [
+   {
+    "w": "thorough",
+    "pos": "adjective",
+    "ex": "The engineer wrote a thorough report on the chiller VFD.",
+    "ar": "المهندس كتب تقرير مفصّل عن الـ‎VFD‎ بتاع التشيلر.",
+    "ex2": "It includes photos and readings.",
+    "ar2": "فيه صور وقراءات."
+   },
+   {
+    "w": "thoroughly",
+    "pos": "adverb",
+    "ex": "Check the cables thoroughly before switching on.",
+    "ar": "شيّك على الكابلات كويس قبل ما تشغّل.",
+    "ex2": "A loose terminal can cause a fire.",
+    "ar2": "طرف مفكوك ممكن يعمل حريقة."
+   },
+   {
+    "w": "thoroughness",
+    "pos": "noun",
+    "ex": "Clients trust us because of our thoroughness.",
+    "ar": "العملاء بيثقوا فينا بسبب دقتنا.",
+    "ex2": "We never skip a test.",
+    "ar2": "عمرنا ما بنفوّت اختبار."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "detailed",
+    "note": "about a document or plan with many details",
+    "ex": "Send the client a detailed quotation with all accessories.",
+    "ar": "ابعت للعميل عرض سعر مفصّل بكل الإكسسوارات.",
+    "ex2": "Include cables and installation.",
+    "ar2": "حط الكابلات والتركيب."
+   },
+   {
+    "w": "careful",
+    "note": "about a person avoiding mistakes",
+    "ex": "Be careful when you replace hot-swap batteries.",
+    "ar": "خلي بالك وإنت بتغير البطاريات وهي شغالة.",
+    "ex2": "The UPS is still running.",
+    "ar2": "الـ‎UPS‎ لسه شغال."
+   }
+  ],
+  "ant": [
+   {
+    "w": "superficial",
+    "ex": "A superficial check missed the swollen battery.",
+    "ar": "فحص سطحي فوّت البطارية المنفوخة.",
+    "ex2": "It failed a week later.",
+    "ar2": "عطلت بعدها بأسبوع."
+   },
+   {
+    "w": "quick",
+    "ex": "The inspection was too quick to find the fault.",
+    "ar": "الفحص كان سريع زيادة إنه يلاقي العطل.",
+    "ex2": "We had to go back.",
+    "ar2": "اضطرينا نرجع تاني."
+   }
+  ],
+  "ladder": {
+   "label": "how deep the check is",
+   "lar": "الفحص عميق قد إيه",
+   "steps": [
+    {
+     "w": "quick",
+     "ex": "Do a quick check of the alarms.",
+     "ar": "اعمل بصة سريعة على الإنذارات.",
+     "ex2": "Just make sure nothing is red.",
+     "ar2": "بس اتأكد إن مفيش حاجة حمرا."
+    },
+    {
+     "w": "careful",
+     "ex": "Do a careful check of the battery connections.",
+     "ar": "اعمل فحص دقيق لتوصيلات البطاريات.",
+     "ex2": "Tighten anything loose.",
+     "ar2": "اربط أي حاجة سايبة."
+    },
+    {
+     "w": "thorough",
+     "ex": "Do a thorough inspection of the whole system.",
+     "ar": "اعمل فحص شامل للنظام كله.",
+     "ex2": "Test, measure and record everything.",
+     "ar2": "اختبر وقيس وسجّل كل حاجة."
+    }
+   ]
+  },
+  "ctx": "We do a thorough test before handing over any UPS. We check every battery and run it on load for two hours.",
+  "ctx_ar": "بنعمل اختبار شامل قبل ما نسلّم أي ‎UPS.‎ بنشيّك على كل بطارية وبنشغّله على حمل ساعتين.",
+  "quiz": [
+   {
+    "s": "We check every unit ___ before delivery.",
+    "opts": [
+     "thorough",
+     "thoroughly",
+     "thoroughness"
+    ],
+    "a": 1,
+    "ar": "بنفحص كل جهاز كويس قبل التسليم."
+   },
+   {
+    "s": "Clients value our ___.",
+    "opts": [
+     "thoroughly",
+     "thorough",
+     "thoroughness"
+    ],
+    "a": 2,
+    "ar": "العملاء بيقدّروا دقتنا."
+   },
+   {
+    "s": "A ___ check missed the problem.",
+    "opts": [
+     "superficial",
+     "thorough",
+     "detailed"
+    ],
+    "a": 0,
+    "ar": "فحص سطحي فوّت المشكلة."
+   }
+  ],
+  "book": "Cairo University places great emphasis on thorough testing and project-management processes — I think more than other colleges."
+ },
+ {
+  "w": "figure out",
+  "ar": "تفهم / تلاقي حل لحاجة",
+  "family": [
+   {
+    "w": "figure out",
+    "pos": "verb",
+    "ex": "We need to figure out why the UPS keeps going to bypass.",
+    "ar": "لازم نعرف ليه الـ‎UPS‎ بيحوّل على الـ‎bypass‎ كل شوية.",
+    "ex2": "It happened three times today.",
+    "ar2": "حصل تلات مرات النهارده."
+   },
+   {
+    "w": "figure",
+    "pos": "noun",
+    "ex": "Please check the figures in the quotation again.",
+    "ar": "من فضلك راجع الأرقام في عرض السعر تاني.",
+    "ex2": "The total looks too low.",
+    "ar2": "الإجمالي شكله قليل زيادة."
+   },
+   {
+    "w": "figure",
+    "pos": "verb",
+    "ex": "I figure the job will take two days.",
+    "ar": "أعتقد الشغلانة هتاخد يومين.",
+    "ex2": "The site is far from Cairo.",
+    "ar2": "الموقع بعيد عن القاهرة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "work out",
+    "note": "British-friendly; solve or calculate",
+    "ex": "Can you work out the battery runtime for 15 kW?",
+    "ar": "ممكن تحسب مدة البطارية لـ15 ‎kW‎؟",
+    "ex2": "The client wants thirty minutes.",
+    "ar2": "العميل عايز نص ساعة."
+   },
+   {
+    "w": "diagnose",
+    "note": "technical; find the cause of a fault",
+    "ex": "The engineer diagnosed a faulty rectifier board.",
+    "ar": "المهندس شخّص كارت ‎rectifier‎ بايظ.",
+    "ex2": "We ordered a new one from Italy.",
+    "ar2": "طلبنا واحد جديد من إيطاليا."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how hard the problem",
+   "lar": "المشكلة صعبة قد إيه",
+   "steps": [
+    {
+     "w": "find out",
+     "ex": "I'll find out the delivery date from the warehouse.",
+     "ar": "هعرف ميعاد التسليم من المخزن.",
+     "ex2": "Just one phone call.",
+     "ar2": "مكالمة واحدة بس."
+    },
+    {
+     "w": "figure out",
+     "ex": "We figured out the cause of the alarm.",
+     "ar": "عرفنا سبب الإنذار.",
+     "ex2": "It took an hour of testing.",
+     "ar2": "خد ساعة اختبار."
+    },
+    {
+     "w": "get to the bottom of",
+     "ex": "We must get to the bottom of these repeated failures.",
+     "ar": "لازم نوصل لأصل الأعطال المتكررة دي.",
+     "ex2": "The client is losing patience.",
+     "ar2": "العميل بدأ يزهق."
+    }
+   ]
+  },
+  "ctx": "The VFD kept tripping, and nobody knew why. Karim figured out that the cable was too long.",
+  "ctx_ar": "الـ‎VFD‎ فضل يفصل ومحدش عارف ليه. ‎Karim‎ عرف إن الكابل كان طويل زيادة.",
+  "quiz": [
+   {
+    "s": "We still can't ___ why the alarm keeps ringing.",
+    "opts": [
+     "figure out",
+     "figure",
+     "figures"
+    ],
+    "a": 0,
+    "ar": "لسه مش عارفين ليه الإنذار بيرن كل شوية."
+   },
+   {
+    "s": "Please double-check the ___ in the invoice.",
+    "opts": [
+     "figure out",
+     "figures",
+     "diagnose"
+    ],
+    "a": 1,
+    "ar": "راجع الأرقام في الفاتورة تاني."
+   },
+   {
+    "s": "We must ___ these repeated failures.",
+    "opts": [
+     "find out",
+     "figure",
+     "get to the bottom of"
+    ],
+    "a": 2,
+    "ar": "لازم نوصل لأصل الأعطال المتكررة دي."
+   }
+  ],
+  "book": "Well, of course, we were constantly testing our robots, and when something went wrong, my teammates looked to me to figure it out."
+ },
+ {
+  "w": "rewarding",
+  "ar": "مُرضي / بيحسسك إن تعبك له قيمة",
+  "family": [
+   {
+    "w": "rewarding",
+    "pos": "adjective",
+    "ex": "Fixing the hospital UPS at night was hard but rewarding.",
+    "ar": "تصليح ‎UPS‎ المستشفى بالليل كان صعب بس يستاهل.",
+    "ex2": "The operating rooms stayed safe.",
+    "ar2": "أوض العمليات فضلت أمان."
+   },
+   {
+    "w": "reward",
+    "pos": "noun",
+    "ex": "As a reward, the top collector gets an extra week off.",
+    "ar": "كمكافأة، أحسن واحد في التحصيل بياخد أسبوع إجازة زيادة.",
+    "ex2": "Nour won it twice.",
+    "ar2": "‎Nour‎ كسبتها مرتين."
+   },
+   {
+    "w": "reward",
+    "pos": "verb",
+    "ex": "The company rewards engineers who pass the lithium course.",
+    "ar": "الشركة بتكافئ المهندسين اللي بينجحوا في كورس الليثيوم.",
+    "ex2": "They get a salary increase.",
+    "ar2": "بياخدوا زيادة في المرتب."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "satisfying",
+    "note": "you feel happy after finishing it",
+    "ex": "Closing a hard deal is very satisfying.",
+    "ar": "قفل صفقة صعبة حاجة بتبسط جدًا.",
+    "ex2": "Especially after months of follow-up.",
+    "ar2": "خصوصًا بعد شهور متابعة."
+   },
+   {
+    "w": "fulfilling",
+    "note": "deeper; gives meaning to your work or life",
+    "ex": "Training young technicians is fulfilling for me.",
+    "ar": "تدريب الفنيين الصغيرين بيديني إحساس بقيمة.",
+    "ex2": "I see them grow every month.",
+    "ar2": "بشوفهم بيكبروا كل شهر."
+   }
+  ],
+  "ant": [
+   {
+    "w": "frustrating",
+    "ex": "Chasing the same unpaid invoice for months is frustrating.",
+    "ar": "إنك تلاحق نفس الفاتورة شهور حاجة محبطة.",
+    "ex2": "The client never answers.",
+    "ar2": "العميل عمره ما بيرد."
+   },
+   {
+    "w": "thankless",
+    "ex": "Night shifts in the server room can feel thankless.",
+    "ar": "شيفتات الليل في أوضة السيرفرات ممكن تحسسك إن محدش مقدّر.",
+    "ex2": "Nobody notices when nothing fails.",
+    "ar2": "محدش بياخد باله لما مفيش حاجة بتعطل."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The most rewarding part of my job is switching on a new solar station. The farmer's face when the pump starts says everything.",
+  "ctx_ar": "أكتر حاجة بتبسطني في شغلي إني أشغّل محطة طاقة شمسية جديدة. وش الفلاح لما الطلمبة تشتغل بيقول كل حاجة.",
+  "quiz": [
+   {
+    "s": "Fixing the hospital UPS was hard but ___.",
+    "opts": [
+     "reward",
+     "rewarding",
+     "rewards"
+    ],
+    "a": 1,
+    "ar": "تصليح ‎UPS‎ المستشفى كان صعب بس يستاهل."
+   },
+   {
+    "s": "The company ___ top performers with a bonus.",
+    "opts": [
+     "rewards",
+     "rewarding",
+     "reward"
+    ],
+    "a": 0,
+    "ar": "الشركة بتكافئ أحسن الموظفين ببونص."
+   },
+   {
+    "s": "Chasing unpaid invoices all month is ___.",
+    "opts": [
+     "rewarding",
+     "fulfilling",
+     "frustrating"
+    ],
+    "a": 2,
+    "ar": "ملاحقة الفواتير طول الشهر حاجة محبطة."
+   }
+  ],
+  "book": "What do you find to be the most rewarding part of working as an electrical engineer?"
+ },
+ {
+  "w": "set up",
+  "ar": "تجهّز / تركّب / تأسس / ترتّب",
+  "family": [
+   {
+    "w": "set up",
+    "pos": "verb",
+    "ex": "Can you set up a meeting with the hospital's engineer?",
+    "ar": "ممكن ترتّب اجتماع مع مهندس المستشفى؟",
+    "ex2": "They want to discuss battery replacement.",
+    "ar2": "عايزين يتكلموا في تغيير البطاريات."
+   },
+   {
+    "w": "setup",
+    "pos": "noun",
+    "ex": "The setup of the solar inverter took three hours.",
+    "ar": "تجهيز الإنفرتر الشمسي خد تلات ساعات.",
+    "ex2": "We configured it with the client's app.",
+    "ar2": "ظبطناه على الأبلكيشن بتاع العميل."
+   },
+   {
+    "w": "set-up",
+    "pos": "adjective",
+    "ex": "There's a small set-up fee for remote monitoring.",
+    "ar": "فيه رسوم تجهيز بسيطة للمراقبة عن بعد.",
+    "ex2": "After that, it's monthly.",
+    "ar2": "بعد كده بيبقى شهري."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "install and prepare equipment",
+    "mar": "تركّب وتجهّز جهاز",
+    "ex": "We'll set up the UPS and test it on Sunday.",
+    "ar": "هنركّب الـ‎UPS‎ ونختبره يوم الحد.",
+    "ex2": "Please clear the space by then.",
+    "ar2": "فضّوا المكان قبلها من فضلك."
+   },
+   {
+    "m": "arrange a meeting or call",
+    "mar": "ترتّب ميعاد",
+    "ex": "Let me set up a call with our battery supplier.",
+    "ar": "خليني أرتّب مكالمة مع مورد البطاريات.",
+    "ex2": "He can answer the technical questions.",
+    "ar2": "يقدر يرد على الأسئلة الفنية."
+   },
+   {
+    "m": "start a company or system",
+    "mar": "تأسس حاجة جديدة",
+    "ex": "He set up his own solar company in Minya.",
+    "ar": "أسس شركة طاقة شمسية بتاعته في المنيا.",
+    "ex2": "It now has fifteen employees.",
+    "ar2": "دلوقتي فيها خمستاشر موظف."
+   }
+  ],
+  "syn": [
+   {
+    "w": "install",
+    "note": "technical; put equipment in place",
+    "ex": "The team installed forty solar panels today.",
+    "ar": "الفريق ركّب أربعين لوح شمسي النهارده.",
+    "ex2": "Wiring starts tomorrow.",
+    "ar2": "التوصيل يبدأ بكرة."
+   },
+   {
+    "w": "arrange",
+    "note": "formal; organize a meeting or delivery",
+    "ex": "I'll arrange the delivery for Thursday morning.",
+    "ar": "هرتّب التسليم يوم الخميس الصبح.",
+    "ex2": "The client's storekeeper will be there.",
+    "ar2": "أمين مخزن العميل هيكون موجود."
+   },
+   {
+    "w": "establish",
+    "note": "formal; start an organization or relationship",
+    "ex": "We established a branch in Assiut last year.",
+    "ar": "أسسنا فرع في أسيوط السنة اللي فاتت.",
+    "ex2": "It covers all of Upper Egypt.",
+    "ar2": "بيغطي الصعيد كله."
+   }
+  ],
+  "ant": [
+   {
+    "w": "dismantle",
+    "ex": "We'll dismantle the old UPS after the new one is running.",
+    "ar": "هنفك الـ‎UPS‎ القديم بعد ما الجديد يشتغل.",
+    "ex2": "The client wants to sell it.",
+    "ar2": "العميل عايز يبيعه."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We set up the new UPS in the server room yesterday. Today we'll set up remote monitoring for the client.",
+  "ctx_ar": "ركبنا الـ‎UPS‎ الجديد في أوضة السيرفرات امبارح. النهارده هنجهّز المراقبة عن بعد للعميل.",
+  "quiz": [
+   {
+    "s": "Can you ___ a meeting with the client?",
+    "opts": [
+     "setup",
+     "set up",
+     "set-up"
+    ],
+    "a": 1,
+    "ar": "ممكن ترتّب اجتماع مع العميل؟"
+   },
+   {
+    "s": "The ___ of the inverter took three hours.",
+    "opts": [
+     "setup",
+     "set up",
+     "dismantle"
+    ],
+    "a": 0,
+    "ar": "تجهيز الإنفرتر خد تلات ساعات."
+   },
+   {
+    "s": "We'll ___ the old unit after the new one runs.",
+    "opts": [
+     "set up",
+     "install",
+     "dismantle"
+    ],
+    "a": 2,
+    "ar": "هنفك الجهاز القديم بعد ما الجديد يشتغل."
+   }
+  ],
+  "book": "We did small repairs for individuals, in the shop and in their homes, and I did set up a couple of networks for small businesses."
+ },
+ {
+  "w": "coordinate",
+  "ar": "تنسّق",
+  "family": [
+   {
+    "w": "coordinate",
+    "pos": "verb",
+    "ex": "Please coordinate the shutdown with the bank's IT team.",
+    "ar": "من فضلك نسّق الفصل مع فريق الـ‎IT‎ في البنك.",
+    "ex2": "They need two days' notice.",
+    "ar2": "محتاجين تبليغ قبلها بيومين."
+   },
+   {
+    "w": "coordination",
+    "pos": "noun",
+    "ex": "Better coordination with the warehouse would avoid late deliveries.",
+    "ar": "تنسيق أحسن مع المخزن هيمنع تأخير التسليم.",
+    "ex2": "Today the batteries left without cables.",
+    "ar2": "النهارده البطاريات طلعت من غير كابلات."
+   },
+   {
+    "w": "coordinator",
+    "pos": "person",
+    "ex": "Our project coordinator sends the weekly site report.",
+    "ar": "منسق المشروع بتاعنا بيبعت تقرير الموقع كل أسبوع.",
+    "ex2": "It goes to the client and our director.",
+    "ar2": "بيروح للعميل والمدير بتاعنا."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "organize",
+    "note": "general; plan the parts of something",
+    "ex": "I'll organize the training for the new technicians.",
+    "ar": "هنظّم التدريب للفنيين الجداد.",
+    "ex2": "It's two days at the workshop.",
+    "ar2": "يومين في الورشة."
+   },
+   {
+    "w": "liaise",
+    "note": "formal, British; be the contact between groups",
+    "ex": "Mona liaises with the tax authority about e-invoices.",
+    "ar": "‎Mona‎ هي حلقة الوصل مع الضرايب في الفواتير الإلكترونية.",
+    "ex2": "She solves any rejected invoice.",
+    "ar2": "بتحل أي فاتورة اترفضت."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "I coordinate between the client, the electrician and our battery supplier. Everyone must be on site at the same time.",
+  "ctx_ar": "أنا بنسّق بين العميل والكهربائي ومورد البطاريات. لازم كله يبقى في الموقع في نفس الوقت.",
+  "quiz": [
+   {
+    "s": "Good ___ between teams avoids delays.",
+    "opts": [
+     "coordinate",
+     "coordination",
+     "coordinator"
+    ],
+    "a": 1,
+    "ar": "التنسيق الكويس بين الفرق بيمنع التأخير."
+   },
+   {
+    "s": "Ask the project ___ for the site schedule.",
+    "opts": [
+     "coordinator",
+     "coordinate",
+     "coordination"
+    ],
+    "a": 0,
+    "ar": "اسأل منسق المشروع عن جدول الموقع."
+   },
+   {
+    "s": "Please ___ the visit with the client's IT team.",
+    "opts": [
+     "coordinator",
+     "coordination",
+     "coordinate"
+    ],
+    "a": 2,
+    "ar": "نسّق الزيارة مع فريق الـ‎IT‎ عند العميل."
+   }
+  ],
+  "book": "Well, I could see myself in a supervisory role, coordinating with other test engineers, developers and vendors."
+ },
+ {
+  "w": "hands-on",
+  "ar": "عملي / بإيدك في الشغل",
+  "family": [
+   {
+    "w": "hands-on",
+    "pos": "adjective",
+    "ex": "I have hands-on experience with VFDs for water pumps.",
+    "ar": "عندي خبرة عملية في الـ‎VFD‎ لطلمبات المية.",
+    "ex2": "I installed them in three stations.",
+    "ar2": "ركبتها في تلات محطات."
+   },
+   {
+    "w": "hand",
+    "pos": "noun",
+    "ex": "Can you give me a hand with these batteries?",
+    "ar": "ممكن تساعدني في البطاريات دي؟",
+    "ex2": "Each one is sixty kilos.",
+    "ar2": "الواحدة ستين كيلو."
+   },
+   {
+    "w": "handle",
+    "pos": "verb",
+    "ex": "He handles all VFD repairs in the Delta region.",
+    "ar": "هو اللي ماسك كل تصليحات الـ‎VFD‎ في الدلتا.",
+    "ex2": "He knows every factory there.",
+    "ar2": "عارف كل مصنع هناك."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "practical",
+    "note": "based on doing, not theory",
+    "ex": "The course is practical: half the time is in the lab.",
+    "ar": "الكورس عملي: نص الوقت في المعمل.",
+    "ex2": "You test real inverters.",
+    "ar2": "بتختبر إنفرترات حقيقية."
+   },
+   {
+    "w": "on-the-job",
+    "note": "learned while working, not in class",
+    "ex": "Most of my VFD knowledge came from on-the-job training.",
+    "ar": "أغلب معرفتي بالـ‎VFD‎ جات من التدريب في الشغل.",
+    "ex2": "My supervisor taught me on site.",
+    "ar2": "المشرف علمني في الموقع."
+   }
+  ],
+  "ant": [
+   {
+    "w": "theoretical",
+    "ex": "University gave me theoretical knowledge of power electronics.",
+    "ar": "الجامعة إدتني معرفة نظرية في الإلكترونيات الكهربية.",
+    "ex2": "The job gave me real skills.",
+    "ar2": "الشغل إداني مهارات حقيقية."
+   },
+   {
+    "w": "hands-off",
+    "ex": "Our director has a hands-off style; he trusts the team.",
+    "ar": "المدير بتاعنا أسلوبه إنه مش بيتدخل؛ بيثق في الفريق.",
+    "ex2": "He only joins big meetings.",
+    "ar2": "بيدخل الاجتماعات الكبيرة بس."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our new engineers get hands-on training in the workshop. They repair real UPS boards before visiting any client.",
+  "ctx_ar": "مهندسينا الجداد بياخدوا تدريب عملي في الورشة. بيصلحوا كروت ‎UPS‎ حقيقية قبل ما يزوروا أي عميل.",
+  "quiz": [
+   {
+    "s": "I have ___ experience with solar inverters.",
+    "opts": [
+     "hand",
+     "hands-on",
+     "handle"
+    ],
+    "a": 1,
+    "ar": "عندي خبرة عملية في الإنفرترات الشمسية."
+   },
+   {
+    "s": "Can you give me a ___ with this cabinet?",
+    "opts": [
+     "hand",
+     "handle",
+     "hands-on"
+    ],
+    "a": 0,
+    "ar": "ممكن تساعدني في الدولاب ده؟"
+   },
+   {
+    "s": "My degree was mostly ___, with few labs.",
+    "opts": [
+     "hands-on",
+     "practical",
+     "theoretical"
+    ],
+    "a": 2,
+    "ar": "شهادتي كانت نظرية أغلبها، ومعامل قليلة."
+   }
+  ],
+  "book": "Now I'm looking to leverage everything I've learned in university and get some hands-on work experience."
+ },
+ {
+  "w": "notify",
+  "ar": "تبلّغ رسميًا",
+  "family": [
+   {
+    "w": "notify",
+    "pos": "verb",
+    "ex": "The system notifies us when a battery fails a test.",
+    "ar": "السيستم بيبلّغنا لما بطارية تسقط في اختبار.",
+    "ex2": "We call the client the same day.",
+    "ar2": "بنكلم العميل في نفس اليوم."
+   },
+   {
+    "w": "notification",
+    "pos": "noun",
+    "ex": "I got a notification that the invoice was accepted.",
+    "ar": "جالي إشعار إن الفاتورة اتقبلت.",
+    "ex2": "The tax portal sent it.",
+    "ar2": "بوابة الضرايب بعتته."
+   },
+   {
+    "w": "notice",
+    "pos": "noun",
+    "ex": "We need one week's notice before any site shutdown.",
+    "ar": "محتاجين تبليغ قبلها بأسبوع قبل أي فصل في الموقع.",
+    "ex2": "The factory must plan production.",
+    "ar2": "المصنع لازم يخطط للإنتاج."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "inform",
+    "note": "formal; give information, often in writing",
+    "ex": "We'd like to inform you that prices will rise in March.",
+    "ar": "حابين نبلغكم إن الأسعار هتزيد في مارس.",
+    "ex2": "Current quotations stay valid until then.",
+    "ar2": "العروض الحالية سارية لحد ساعتها."
+   },
+   {
+    "w": "let ... know",
+    "note": "informal and friendly",
+    "ex": "Let me know when the PO is ready.",
+    "ar": "عرّفني لما أمر الشراء يجهز.",
+    "ex2": "I'll book the delivery truck.",
+    "ar2": "هحجز عربية التسليم."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how formal",
+   "lar": "قد إيه رسمي",
+   "steps": [
+    {
+     "w": "let ... know",
+     "ex": "Let me know if the alarm comes back.",
+     "ar": "عرّفني لو الإنذار رجع.",
+     "ex2": "I'll send someone at once.",
+     "ar2": "هبعت حد على طول."
+    },
+    {
+     "w": "inform",
+     "ex": "Please inform the client about the delay.",
+     "ar": "من فضلك بلّغ العميل بالتأخير.",
+     "ex2": "Explain the customs issue.",
+     "ar2": "اشرح مشكلة الجمارك."
+    },
+    {
+     "w": "notify",
+     "ex": "We will notify you in writing of any price change.",
+     "ar": "هنبلغكم كتابةً بأي تغيير في الأسعار.",
+     "ex2": "This is part of the contract.",
+     "ar2": "ده جزء من العقد."
+    }
+   ]
+  },
+  "ctx": "Please notify the client before you switch off the UPS. Their servers need a safe shutdown first.",
+  "ctx_ar": "من فضلك بلّغ العميل قبل ما تطفي الـ‎UPS.‎ السيرفرات بتاعتهم محتاجة تتقفل بأمان الأول.",
+  "quiz": [
+   {
+    "s": "The app ___ us when a battery fails.",
+    "opts": [
+     "notifies",
+     "notification",
+     "notice"
+    ],
+    "a": 0,
+    "ar": "الأبلكيشن بيبلغنا لما بطارية تعطل."
+   },
+   {
+    "s": "I got a ___ that the payment arrived.",
+    "opts": [
+     "notify",
+     "notification",
+     "inform"
+    ],
+    "a": 1,
+    "ar": "جالي إشعار إن الدفعة وصلت."
+   },
+   {
+    "s": "We need two days' ___ before the shutdown.",
+    "opts": [
+     "notify",
+     "notification",
+     "notice"
+    ],
+    "a": 2,
+    "ar": "محتاجين تبليغ قبلها بيومين قبل الفصل."
+   }
+  ],
+  "book": "If you're selected for the second round, we'll notify you by email."
+ },
+ {
+  "w": "in-demand",
+  "ar": "مطلوب جدًا في السوق",
+  "family": [
+   {
+    "w": "in-demand",
+    "pos": "adjective",
+    "ex": "Lithium batteries are an in-demand product this year.",
+    "ar": "بطاريات الليثيوم منتج مطلوب جدًا السنة دي.",
+    "ex2": "We sold out twice.",
+    "ar2": "خلصت مننا مرتين."
+   },
+   {
+    "w": "demand",
+    "pos": "noun",
+    "ex": "Demand for UPS units jumped during the power cuts.",
+    "ar": "الطلب على الـ‎UPS‎ زاد جامد وقت انقطاع الكهربا.",
+    "ex2": "We doubled our stock.",
+    "ar2": "ضاعفنا المخزون."
+   },
+   {
+    "w": "demand",
+    "pos": "verb",
+    "ex": "The client demands a technician on site within four hours.",
+    "ar": "العميل بيطلب فني في الموقع خلال أربع ساعات.",
+    "ex2": "It's in the contract.",
+    "ar2": "ده في العقد."
+   },
+   {
+    "w": "demanding",
+    "pos": "adjective",
+    "ex": "Data-centre clients are very demanding.",
+    "ar": "عملاء الداتا سنتر متطلبين جدًا.",
+    "ex2": "They accept zero downtime.",
+    "ar2": "مش بيقبلوا أي توقف."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "sought-after",
+    "note": "formal; wanted because rare or excellent",
+    "ex": "Engineers with VFD experience are highly sought-after.",
+    "ar": "المهندسين اللي عندهم خبرة ‎VFD‎ عليهم طلب عالي.",
+    "ex2": "Few universities teach it.",
+    "ar2": "جامعات قليلة بتدرّسه."
+   },
+   {
+    "w": "popular",
+    "note": "general; liked or bought by many",
+    "ex": "The 3 kVA UPS is our most popular model.",
+    "ar": "الـ‎UPS‎ الـ3 ‎kVA‎ أكتر موديل بيتباع عندنا.",
+    "ex2": "Small offices love it.",
+    "ar2": "المكاتب الصغيرة بتحبه."
+   }
+  ],
+  "ant": [
+   {
+    "w": "unwanted",
+    "ex": "We still have unwanted stock of old lead-acid batteries.",
+    "ar": "لسه عندنا مخزون مش مطلوب من بطاريات رصاص قديمة.",
+    "ex2": "We'll offer a discount.",
+    "ar2": "هنعمل عليها خصم."
+   }
+  ],
+  "ladder": {
+   "label": "how much people want it",
+   "lar": "قد إيه عليه طلب",
+   "steps": [
+    {
+     "w": "popular",
+     "ex": "Small UPS units are popular with clinics.",
+     "ar": "الـ‎UPS‎ الصغيرة مطلوبة عند العيادات.",
+     "ex2": "They're cheap and quiet.",
+     "ar2": "رخيصة وهادية."
+    },
+    {
+     "w": "in-demand",
+     "ex": "Solar pumps are in-demand in Upper Egypt.",
+     "ar": "طلمبات الطاقة الشمسية عليها طلب في الصعيد.",
+     "ex2": "Diesel is too expensive.",
+     "ar2": "السولار غالي أوي."
+    },
+    {
+     "w": "sought-after",
+     "ex": "Certified battery engineers are very sought-after.",
+     "ar": "مهندسين البطاريات المعتمدين عليهم طلب جامد.",
+     "ex2": "Every company wants them.",
+     "ar2": "كل الشركات عايزاهم."
+    }
+   ]
+  },
+  "ctx": "Solar design is an in-demand skill in Egypt now. Our company hired five engineers last year and still needs more.",
+  "ctx_ar": "تصميم الطاقة الشمسية مهارة مطلوبة جدًا في مصر دلوقتي. شركتنا عيّنت خمس مهندسين السنة اللي فاتت ولسه محتاجة أكتر.",
+  "quiz": [
+   {
+    "s": "___ for UPS units rose during the power cuts.",
+    "opts": [
+     "Demand",
+     "Demanding",
+     "In-demand"
+    ],
+    "a": 0,
+    "ar": "الطلب على الـ‎UPS‎ زاد وقت انقطاع الكهربا."
+   },
+   {
+    "s": "VFD skills are very ___ in this market.",
+    "opts": [
+     "demand",
+     "in-demand",
+     "demands"
+    ],
+    "a": 1,
+    "ar": "مهارات الـ‎VFD‎ مطلوبة جدًا في السوق ده."
+   },
+   {
+    "s": "Data-centre clients are very ___.",
+    "opts": [
+     "demand",
+     "in-demand",
+     "demanding"
+    ],
+    "a": 2,
+    "ar": "عملاء الداتا سنتر متطلبين جدًا."
+   }
+  ],
+  "book": "I received my master's in ___ in 2009, and the valuable educational experience I received helped me develop the skills required in an in-demand and competitive industry like yours."
  }
 ]

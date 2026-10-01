@@ -49,3 +49,15 @@ Rules
   each quiz has one "___", 3 opts, 0<=a<=2; each ex contains its headword stem (first 4+ letters, case-insensitive);
   every family/meanings/syn/ant/ladder item has non-empty ex2 + ar2, ex2 ≤ 16 words; every word has non-empty
   ctx + ctx_ar, ctx ≤ 30 words and contains the stem of w.
+
+## EXTEND MODE (more words per lesson)
+When asked to EXTEND a lesson file wmap/out/<id>.json:
+- Keep the existing objects exactly as they are (same order, unchanged). APPEND new word objects after them.
+- Add EVERY other useful business/work word or collocation from the lesson's BOOK TEXT and KEY PHRASES
+  (/home/claude/asr/wu/src/<id>.txt): typically 10–16 more (minimum 8). Skip trivial words (good, work, meeting, email,
+  thank, please, number words, names) and skip any word already in this file.
+- Prefer words that a B1–B2 learner would not fully master yet, and multi-word expressions (follow up on, in charge of,
+  meet a deadline, on behalf of, lead time ...).
+- Each new object has the full format (family, meanings, syn, ant, ladder, quiz, ctx/ctx_ar, ex2/ar2 ...), plus
+  "book": the exact sentence from the book text containing the word (copied exactly, one sentence).
+- Validate the whole file as above (old + new), plus: total ≥ 14, no duplicate "w", each new "book" is an exact substring of the src.

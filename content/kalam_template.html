@@ -959,7 +959,8 @@ function wmLines(){const box=document.getElementById("wmd"); if(!box) return; co
   svg.innerHTML=h}
 window.addEventListener("resize",()=>{clearTimeout(window._wml);window._wml=setTimeout(wmLines,120)});
 function wmapTab(p,wsArg,onLast){
-  if(!wsArg&&!WMLOADED.wmap){ p.innerHTML='<p class="kicker">Loading the word map… جاري التحميل</p>'; const lid=L.id; wmLoad("wmap",err=>{ if(err){p.innerHTML='<p>Could not load the map. Check your connection. تعذّر التحميل</p>';return} if(L&&L.id===lid&&tab==="wmap") wmapTab(p) }); return }
+  if(!wsArg&&!WMAP[L.id]){ p.innerHTML='<p class="kicker">Loading the word map… جاري التحميل</p>'; const lid=L.id;
+    fetch("data/wmap/"+lid+".json?v="+WMVER).then(r=>r.json()).then(d=>{ WMAP[lid]=d; if(L&&L.id===lid&&tab==="wmap") wmapTab(p) }).catch(()=>{p.innerHTML='<p>Could not load the map. Check your connection. تعذّر التحميل</p>'}); return }
   const ws=wsArg||WMAP[L.id]; let i=0;
   const bold=(s,w)=>{let h=esc(s); const st=String(w).toLowerCase().replace(/[^a-z\- ]/g,"").slice(0,Math.max(4,Math.min(6,String(w).length-1))); if(!st) return h;
     const re=new RegExp("\\b("+st.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+"[\\w-]*)","i"); return h.replace(re,"<b>$1</b>")};

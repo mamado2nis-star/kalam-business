@@ -806,5 +806,1414 @@
     "ar": "الصيانة المخططة ممكن تعمل توقف ساعتين."
    }
   ]
+ },
+ {
+  "w": "recap",
+  "ar": "ملخّص سريع / يلخّص",
+  "family": [
+   {
+    "w": "recap",
+    "pos": "noun",
+    "ex": "Can someone give me a quick recap? I joined late from the site.",
+    "ar": "حد يقدر يدّيني ملخص سريع؟ أنا دخلت متأخر من الموقع.",
+    "ex2": "I missed the part about battery prices.",
+    "ar2": "فاتني الجزء بتاع أسعار البطاريات."
+   },
+   {
+    "w": "recap",
+    "pos": "verb",
+    "ex": "Let me recap: we deliver the UPS Sunday and install it Monday.",
+    "ar": "خليني ألخّص: هنسلّم الـ‎UPS‎ يوم الحد ونركّبه يوم الاتنين.",
+    "ex2": "Payment is due after commissioning.",
+    "ar2": "والدفع بيستحق بعد التشغيل."
+   },
+   {
+    "w": "recapitulate",
+    "pos": "verb",
+    "ex": "In the final report, please recapitulate the main faults found on the VFDs.",
+    "ar": "في التقرير النهائي لخّص أهم الأعطال اللي لقيناها في الـ‎VFDs.‎",
+    "ex2": "The client's board will read it.",
+    "ar2": "مجلس إدارة العميل هيقراه."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "summary",
+    "note": "written or longer; a recap is quick and spoken",
+    "ex": "Please send a summary of the meeting to the client by email.",
+    "ar": "ابعت ملخص الاجتماع للعميل على الإيميل لو سمحت.",
+    "ex2": "Include the agreed delivery dates.",
+    "ar2": "حط فيه مواعيد التسليم اللي اتفقنا عليها."
+   },
+   {
+    "w": "sum up",
+    "note": "phrasal verb; often at the end of a discussion",
+    "ex": "To sum up, the solar station needs four new inverters.",
+    "ar": "باختصار، محطة الطاقة الشمسية محتاجة أربع إنفرترات جديدة.",
+    "ex2": "We'll send the quotation tomorrow.",
+    "ar2": "هنبعت عرض السعر بكرة."
+   },
+   {
+    "w": "overview",
+    "note": "the general picture, usually at the start",
+    "ex": "Let me give you an overview of our maintenance services first.",
+    "ar": "خليني أدّيك فكرة عامة عن خدمات الصيانة بتاعتنا الأول.",
+    "ex2": "Then we'll go into prices.",
+    "ar2": "وبعدين ندخل في الأسعار."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how much detail",
+   "lar": "التفاصيل قد إيه",
+   "steps": [
+    {
+     "w": "recap",
+     "ex": "Here's a quick recap: two UPS units need new batteries.",
+     "ar": "ده ملخص سريع: فيه اتنين ‎UPS‎ محتاجين بطاريات جديدة.",
+     "ex2": "That's all you missed.",
+     "ar2": "هو ده كل اللي فاتك."
+    },
+    {
+     "w": "summary",
+     "ex": "I'll email a one-page summary of the site visit.",
+     "ar": "هبعت ملخص صفحة واحدة لزيارة الموقع على الإيميل.",
+     "ex2": "It lists all the faults we found.",
+     "ar2": "فيه كل الأعطال اللي لقيناها."
+    },
+    {
+     "w": "full report",
+     "ex": "The full report includes photos, readings and test results.",
+     "ar": "التقرير الكامل فيه صور وقرايات ونتايج الاختبارات.",
+     "ex2": "It's about twenty pages.",
+     "ar2": "حوالي عشرين صفحة."
+    }
+   ]
+  },
+  "ctx": "Sorry, I just joined from the warehouse. Could you give me a quick recap of the delivery plan?",
+  "ctx_ar": "آسف، لسه داخل من المخزن. ممكن تدّيني ملخص سريع لخطة التسليم؟",
+  "quiz": [
+   {
+    "s": "Could someone give me a quick ___ of the price discussion?",
+    "opts": [
+     "recap",
+     "recapitulate",
+     "sum up"
+    ],
+    "a": 0,
+    "ar": "حد يقدر يدّيني ملخص سريع للكلام عن الأسعار؟"
+   },
+   {
+    "s": "Let me ___: we deliver Sunday and install Monday.",
+    "opts": [
+     "summary",
+     "recap",
+     "overview"
+    ],
+    "a": 1,
+    "ar": "خليني ألخّص: هنسلّم الحد ونركّب الاتنين."
+   },
+   {
+    "s": "The ___ includes photos, readings and twenty pages of test results.",
+    "opts": [
+     "recap",
+     "summary",
+     "full report"
+    ],
+    "a": 2,
+    "ar": "التقرير الكامل فيه صور وقرايات وعشرين صفحة نتايج اختبارات."
+   }
+  ],
+  "book": "Could you please give me a quick recap?"
+ },
+ {
+  "w": "in the interest of time",
+  "ar": "عشان نلحق الوقت",
+  "family": [
+   {
+    "w": "in the interest of time",
+    "pos": "adverb",
+    "ex": "In the interest of time, let's skip the company introduction.",
+    "ar": "عشان الوقت، خلّينا نعدّي تعريف الشركة.",
+    "ex2": "The client has another meeting at eleven.",
+    "ar2": "العميل عنده اجتماع تاني الساعة حداشر."
+   },
+   {
+    "w": "time",
+    "pos": "noun",
+    "ex": "We don't have much time before the tender closes.",
+    "ar": "مفيش وقت كتير قدامنا قبل ما المناقصة تقفل.",
+    "ex2": "Let's finish the technical offer today.",
+    "ar2": "يلا نخلّص العرض الفني النهارده."
+   },
+   {
+    "w": "timely",
+    "pos": "adjective",
+    "ex": "We need a timely reply to the tender, or we lose it.",
+    "ar": "محتاجين رد في ميعاده على المناقصة، وإلا هتضيع علينا.",
+    "ex2": "The deadline is Thursday at noon.",
+    "ar2": "آخر ميعاد الخميس الضهر."
+   },
+   {
+    "w": "time-consuming",
+    "pos": "adjective",
+    "ex": "Importing batteries is time-consuming because of customs.",
+    "ar": "استيراد البطاريات بياخد وقت طويل بسبب الجمارك.",
+    "ex2": "It usually takes six weeks.",
+    "ar2": "عادة بياخد ست أسابيع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "to save time",
+    "note": "simple and neutral; works in speech and email",
+    "ex": "To save time, I'll send the price list after the call.",
+    "ar": "عشان نوفّر وقت، هبعت قايمة الأسعار بعد المكالمة.",
+    "ex2": "Let's focus on the delivery dates now.",
+    "ar2": "خلّينا نركّز على مواعيد التسليم دلوقتي."
+   },
+   {
+    "w": "since time is short",
+    "note": "more direct; shows real time pressure",
+    "ex": "Since time is short, let's agree on the payment terms first.",
+    "ar": "بما إن الوقت ضيق، خلّينا نتفق على شروط الدفع الأول.",
+    "ex2": "Technical details can come by email.",
+    "ar2": "التفاصيل الفنية ممكن تيجي بالإيميل."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "We have ten minutes left. In the interest of time, let's agree on the payment terms now and discuss the warranty by email.",
+  "ctx_ar": "فاضل عشر دقايق. عشان الوقت، خلّينا نتفق على شروط الدفع دلوقتي ونتكلم في الضمان بالإيميل.",
+  "quiz": [
+   {
+    "s": "We need a ___ reply to the tender.",
+    "opts": [
+     "timely",
+     "time-consuming",
+     "in the interest of time"
+    ],
+    "a": 0,
+    "ar": "محتاجين رد في ميعاده على المناقصة."
+   },
+   {
+    "s": "Customs clearance is very ___.",
+    "opts": [
+     "timely",
+     "time-consuming",
+     "in the interest of time"
+    ],
+    "a": 1,
+    "ar": "التخليص الجمركي بياخد وقت طويل جدًا."
+   },
+   {
+    "s": "We only have five minutes, so ___, let's decide now.",
+    "opts": [
+     "time-consuming",
+     "timely",
+     "in the interest of time"
+    ],
+    "a": 2,
+    "ar": "معانا خمس دقايق بس، فعشان الوقت يلا نقرّر دلوقتي."
+   }
+  ],
+  "book": "In the interest of time, let's limit our responses to one minute each."
+ },
+ {
+  "w": "touch base",
+  "ar": "أتواصل معاك وأطمّن / نتابع سوا",
+  "family": [
+   {
+    "w": "touch base",
+    "pos": "verb",
+    "ex": "I wanted to touch base about the UPS maintenance renewal.",
+    "ar": "حبيت أتواصل معاك بخصوص تجديد صيانة الـ‎UPS.‎",
+    "ex2": "Your current contract ends next month.",
+    "ar2": "عقدك الحالي بيخلص الشهر الجاي."
+   },
+   {
+    "w": "touch",
+    "pos": "noun",
+    "ex": "Please get in touch if the alarm comes back.",
+    "ar": "كلّمنا لو الإنذار رجع تاني.",
+    "ex2": "Our hotline works twenty-four hours.",
+    "ar2": "الخط الساخن بتاعنا شغال أربعة وعشرين ساعة."
+   },
+   {
+    "w": "touchpoint",
+    "pos": "noun",
+    "ex": "Every service visit is an important touchpoint with the customer.",
+    "ar": "كل زيارة صيانة نقطة تواصل مهمة مع العميل.",
+    "ex2": "Engineers should always leave a good impression.",
+    "ar2": "المهندسين لازم دايمًا يسيبوا انطباع كويس."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "follow up",
+    "note": "after something already happened, like a quote or meeting",
+    "ex": "I'm following up on the quotation we sent last week.",
+    "ar": "بتابع معاك عرض السعر اللي بعتناه الأسبوع اللي فات.",
+    "ex2": "Do you have any questions about the prices?",
+    "ar2": "عندك أي أسئلة عن الأسعار؟"
+   },
+   {
+    "w": "check in",
+    "note": "quick, friendly contact to see how things are going",
+    "ex": "I'm just checking in to see how the new inverters are performing.",
+    "ar": "بس بطمّن الإنفرترات الجديدة شغالة إزاي.",
+    "ex2": "Any alarms since the installation?",
+    "ar2": "فيه أي إنذارات من ساعة التركيب؟"
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Hi Mr. Hany, I wanted to touch base regarding the battery replacement at your branch. Is next Sunday still good for the visit?",
+  "ctx_ar": "أهلًا أستاذ ‎Hany‎، حبيت أتواصل معاك بخصوص تغيير البطاريات في فرعكم. يوم الحد الجاي لسه مناسب للزيارة؟",
+  "quiz": [
+   {
+    "s": "I wanted to ___ about your maintenance renewal.",
+    "opts": [
+     "touch base",
+     "touchpoint",
+     "touch"
+    ],
+    "a": 0,
+    "ar": "حبيت أتواصل معاك بخصوص تجديد الصيانة."
+   },
+   {
+    "s": "Please get in ___ if the alarm comes back.",
+    "opts": [
+     "touch base",
+     "touch",
+     "touchpoint"
+    ],
+    "a": 1,
+    "ar": "كلّمنا لو الإنذار رجع تاني."
+   },
+   {
+    "s": "I'd like to ___ on the quotation we sent last week.",
+    "opts": [
+     "check in",
+     "touch base",
+     "follow up"
+    ],
+    "a": 2,
+    "ar": "حابب أتابع عرض السعر اللي بعتناه الأسبوع اللي فات."
+   }
+  ],
+  "book": "I wanted to touch base regarding ___."
+ },
+ {
+  "w": "keep you informed",
+  "ar": "هبلّغك بكل جديد",
+  "family": [
+   {
+    "w": "inform",
+    "pos": "verb",
+    "ex": "Please inform the client that the delivery moved to Tuesday.",
+    "ar": "بلّغ العميل إن التسليم اتأجل ليوم التلات.",
+    "ex2": "The truck from Alexandria is delayed.",
+    "ar2": "العربية الجاية من إسكندرية متأخرة."
+   },
+   {
+    "w": "information",
+    "pos": "noun",
+    "ex": "We need more information about the load before we size the UPS.",
+    "ar": "محتاجين معلومات أكتر عن الحمل قبل ما نحدّد قدرة الـ‎UPS.‎",
+    "ex2": "Please send the list of servers and their power.",
+    "ar2": "ابعت قايمة السيرفرات وقدرة كل واحد."
+   },
+   {
+    "w": "informed",
+    "pos": "adjective",
+    "ex": "We'll keep you informed about the customs clearance of the batteries.",
+    "ar": "هنبلّغك أول بأول بالتخليص الجمركي للبطاريات.",
+    "ex2": "We expect news by Thursday.",
+    "ar2": "متوقعين أخبار يوم الخميس."
+   },
+   {
+    "w": "informative",
+    "pos": "adjective",
+    "ex": "The supplier's training on lithium batteries was very informative.",
+    "ar": "تدريب المورد عن بطاريات الليثيوم كان مفيد جدًا.",
+    "ex2": "Our engineers learned a lot.",
+    "ar2": "مهندسينا اتعلموا كتير."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "keep you updated",
+    "note": "very common, same meaning, slightly more informal",
+    "ex": "I'll keep you updated on the shipment status.",
+    "ar": "هبلّغك بحالة الشحنة أول بأول.",
+    "ex2": "It's at Port Said now.",
+    "ar2": "هي في ‎Port Said‎ دلوقتي."
+   },
+   {
+    "w": "keep you posted",
+    "note": "informal, for colleagues and friendly clients",
+    "ex": "I'll keep you posted on the VFD repair.",
+    "ar": "هقولك أول بأول على تصليح الـ‎VFD.‎",
+    "ex2": "The lab will test it tomorrow.",
+    "ar2": "المعمل هيختبره بكرة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "keep in the dark",
+    "ex": "Don't keep the client in the dark about the delay.",
+    "ar": "متخبّيش التأخير عن العميل.",
+    "ex2": "Tell them early and offer a new date.",
+    "ar2": "قولهم بدري واقترح ميعاد جديد."
+   }
+  ],
+  "ladder": {
+   "label": "how often you update",
+   "lar": "بتبلّغ قد إيه",
+   "steps": [
+    {
+     "w": "let you know",
+     "ex": "I'll let you know when the PO is approved.",
+     "ar": "هقولك لما أمر الشراء يتوافق عليه.",
+     "ex2": "It's with finance now.",
+     "ar2": "هو عند الحسابات دلوقتي."
+    },
+    {
+     "w": "keep you informed",
+     "ex": "We'll keep you informed of every step of the installation.",
+     "ar": "هنبلّغك بكل خطوة في التركيب.",
+     "ex2": "You'll get a message after each stage.",
+     "ar2": "هيوصلك رسالة بعد كل مرحلة."
+    },
+    {
+     "w": "send daily updates",
+     "ex": "During the shutdown, we'll send daily updates with photos.",
+     "ar": "وقت الإيقاف هنبعت تحديثات كل يوم بالصور.",
+     "ex2": "Your team can follow the progress from Cairo.",
+     "ar2": "فريقك يقدر يتابع الشغل من القاهرة."
+    }
+   ]
+  },
+  "ctx": "The inverters are stuck at customs for a few more days. We'll keep you informed of any change to the installation date.",
+  "ctx_ar": "الإنفرترات محجوزة في الجمارك كام يوم كمان. هنبلّغك بأي تغيير في ميعاد التركيب.",
+  "quiz": [
+   {
+    "s": "Please ___ the client about the new delivery date.",
+    "opts": [
+     "inform",
+     "information",
+     "informative"
+    ],
+    "a": 0,
+    "ar": "بلّغ العميل بميعاد التسليم الجديد لو سمحت."
+   },
+   {
+    "s": "We need more ___ about the load.",
+    "opts": [
+     "informed",
+     "information",
+     "inform"
+    ],
+    "a": 1,
+    "ar": "محتاجين معلومات أكتر عن الحمل."
+   },
+   {
+    "s": "The supplier's training was very ___.",
+    "opts": [
+     "informed",
+     "inform",
+     "informative"
+    ],
+    "a": 2,
+    "ar": "تدريب المورد كان مفيد جدًا."
+   }
+  ],
+  "book": "We're working to resolve it as quickly as possible and will keep you informed of any changes to the timeline."
+ },
+ {
+  "w": "urgency",
+  "ar": "الاستعجال / إن الموضوع مستعجل",
+  "family": [
+   {
+    "w": "urgency",
+    "pos": "noun",
+    "ex": "The hospital understood the urgency and approved the PO the same day.",
+    "ar": "المستشفى فهم إن الموضوع مستعجل ووافق على أمر الشراء في نفس اليوم.",
+    "ex2": "Their old UPS could fail at any time.",
+    "ar2": "الـ‎UPS‎ القديم بتاعهم ممكن يقع في أي لحظة."
+   },
+   {
+    "w": "urgent",
+    "pos": "adjective",
+    "ex": "We have an urgent request: a server UPS is beeping at the bank.",
+    "ar": "عندنا طلب مستعجل: ‎UPS‎ السيرفرات بيصفّر في البنك.",
+    "ex2": "Send the nearest engineer now.",
+    "ar2": "ابعت أقرب مهندس دلوقتي."
+   },
+   {
+    "w": "urgently",
+    "pos": "adverb",
+    "ex": "We urgently need two VFDs for the water station pumps.",
+    "ar": "محتاجين اتنين ‎VFD‎ بشكل عاجل لطلمبات محطة المية.",
+    "ex2": "Can you deliver them tomorrow?",
+    "ar2": "تقدر تسلّمهم بكرة؟"
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "priority",
+    "note": "order of importance, not time pressure",
+    "ex": "This tender is our top priority this week.",
+    "ar": "المناقصة دي أهم حاجة عندنا الأسبوع ده.",
+    "ex2": "Everything else can wait.",
+    "ar2": "أي حاجة تانية تستنى."
+   },
+   {
+    "w": "pressure",
+    "note": "the stress that urgency causes",
+    "ex": "We're under pressure to finish the solar station before summer.",
+    "ar": "إحنا تحت ضغط نخلّص محطة الطاقة الشمسية قبل الصيف.",
+    "ex2": "The client starts production in June.",
+    "ar2": "العميل هيبدأ إنتاج في يونيو."
+   }
+  ],
+  "ant": [
+   {
+    "w": "no rush",
+    "ex": "There's no rush; send the quotation next week.",
+    "ar": "مفيش استعجال، ابعت عرض السعر الأسبوع الجاي.",
+    "ex2": "The client's budget opens in July.",
+    "ar2": "ميزانية العميل هتفتح في يوليو."
+   }
+  ],
+  "ladder": {
+   "label": "how urgent",
+   "lar": "مستعجل قد إيه",
+   "steps": [
+    {
+     "w": "important",
+     "ex": "This is an important client, so check the offer twice.",
+     "ar": "ده عميل مهم، فراجع العرض مرتين.",
+     "ex2": "They buy UPS units every year.",
+     "ar2": "بيشتروا ‎UPS‎ كل سنة."
+    },
+    {
+     "w": "urgent",
+     "ex": "This is urgent; the data centre UPS is on battery.",
+     "ar": "ده مستعجل، ‎UPS‎ الداتا سنتر شغال على البطارية.",
+     "ex2": "We have about forty minutes.",
+     "ar2": "قدامنا حوالي أربعين دقيقة."
+    },
+    {
+     "w": "critical",
+     "ex": "It's critical: the hospital servers will shut down soon.",
+     "ar": "الموضوع خطير: سيرفرات المستشفى هتقفل كمان شوية.",
+     "ex2": "Send two engineers immediately.",
+     "ar2": "ابعت اتنين مهندسين فورًا."
+    }
+   ]
+  },
+  "ctx": "I understand the urgency, Mr. Adel. Our engineer is already on the way to replace the failed UPS module.",
+  "ctx_ar": "فاهم إن الموضوع مستعجل يا أستاذ ‎Adel.‎ المهندس بتاعنا في الطريق فعلًا عشان يغيّر موديول الـ‎UPS‎ البايظ.",
+  "quiz": [
+   {
+    "s": "We ___ need two VFDs for the pumps.",
+    "opts": [
+     "urgency",
+     "urgently",
+     "urgent"
+    ],
+    "a": 1,
+    "ar": "محتاجين اتنين ‎VFD‎ للطلمبات بشكل عاجل."
+   },
+   {
+    "s": "The client understood the ___ and approved the PO.",
+    "opts": [
+     "urgency",
+     "urgent",
+     "urgently"
+    ],
+    "a": 0,
+    "ar": "العميل فهم إن الموضوع مستعجل ووافق على أمر الشراء."
+   },
+   {
+    "s": "It's ___: the hospital servers will shut down in minutes.",
+    "opts": [
+     "important",
+     "urgent",
+     "critical"
+    ],
+    "a": 2,
+    "ar": "الموضوع خطير: سيرفرات المستشفى هتقفل كمان دقايق."
+   }
+  ],
+  "book": "I understand the urgency of your request."
+ },
+ {
+  "w": "bring to your attention",
+  "ar": "ألفت نظرك لـ",
+  "family": [
+   {
+    "w": "bring to your attention",
+    "pos": "verb",
+    "ex": "I'd like to bring to your attention that invoice 512 is still unpaid.",
+    "ar": "حابب ألفت نظرك إن فاتورة 512 لسه متدفعتش.",
+    "ex2": "It was due on 1 March.",
+    "ar2": "كان ميعادها 1 مارس."
+   },
+   {
+    "w": "attention",
+    "pos": "noun",
+    "ex": "Please pay attention to the battery temperature during the test.",
+    "ar": "خلّي بالك من حرارة البطارية أثناء الاختبار.",
+    "ex2": "High heat shortens battery life.",
+    "ar2": "الحرارة العالية بتقصّر عمر البطارية."
+   },
+   {
+    "w": "attend to",
+    "pos": "verb",
+    "ex": "Our team will attend to the VFD fault first thing tomorrow.",
+    "ar": "فريقنا هيتعامل مع عطل الـ‎VFD‎ أول حاجة بكرة.",
+    "ex2": "The spare card is ready.",
+    "ar2": "الكارت الاحتياطي جاهز."
+   },
+   {
+    "w": "attentive",
+    "pos": "adjective",
+    "ex": "Mona is very attentive to customer complaints.",
+    "ar": "‎Mona‎ بتهتم جدًا بشكاوي العملا.",
+    "ex2": "She replies to every complaint within an hour.",
+    "ar2": "بترد على كل شكوى في خلال ساعة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "point out",
+    "note": "neutral; show someone a fact or mistake",
+    "ex": "The client pointed out a mistake in our quotation.",
+    "ar": "العميل نبّهنا لغلطة في عرض السعر بتاعنا.",
+    "ex2": "We corrected the VAT and resent it.",
+    "ar2": "صلّحنا الضريبة وبعتناه تاني."
+   },
+   {
+    "w": "highlight",
+    "note": "show that something is important, often in reports",
+    "ex": "The report highlights three weak batteries in string B.",
+    "ar": "التقرير بيركّز على تلات بطاريات ضعيفة في السلسلة ‎B.‎",
+    "ex2": "They should be replaced before summer.",
+    "ar2": "لازم يتغيّروا قبل الصيف."
+   },
+   {
+    "w": "flag",
+    "note": "informal; mark a problem so others notice it",
+    "ex": "Please flag any overdue invoices in the weekly report.",
+    "ar": "علّم على أي فواتير متأخرة في التقرير الأسبوعي.",
+    "ex2": "Finance will call those customers.",
+    "ar2": "الحسابات هتكلم العملا دول."
+   }
+  ],
+  "ant": [
+   {
+    "w": "overlook",
+    "ex": "We must not overlook the shipping cost in the quotation.",
+    "ar": "لازم منسهاش تكلفة الشحن في عرض السعر.",
+    "ex2": "Last time the price was too low.",
+    "ar2": "المرة اللي فاتت السعر طلع واطي أوي."
+   }
+  ],
+  "ladder": {
+   "label": "how strongly you raise it",
+   "lar": "بتنبّه بقوة قد إيه",
+   "steps": [
+    {
+     "w": "mention",
+     "ex": "I should mention that the price includes installation.",
+     "ar": "لازم أقول إن السعر شامل التركيب.",
+     "ex2": "Delivery is charged separately.",
+     "ar2": "التوصيل بيتحسب لوحده."
+    },
+    {
+     "w": "bring to your attention",
+     "ex": "I must bring to your attention a problem with the battery shipment.",
+     "ar": "لازم ألفت نظرك لمشكلة في شحنة البطاريات.",
+     "ex2": "Two pallets arrived damaged.",
+     "ar2": "باليتتين وصلوا متكسّرين."
+    },
+    {
+     "w": "warn",
+     "ex": "We warn you that the UPS batteries may fail during the next outage.",
+     "ar": "بنحذّرك إن بطاريات الـ‎UPS‎ ممكن تقع في الانقطاع الجاي.",
+     "ex2": "They are over five years old.",
+     "ar2": "عمرهم أكتر من خمس سنين."
+    }
+   ]
+  },
+  "ctx": "I'd like to bring to your attention that our March invoice is still unpaid. Could you please check with your finance team?",
+  "ctx_ar": "حابب ألفت نظرك إن فاتورة مارس لسه متدفعتش. ممكن تراجع مع فريق الحسابات عندكم؟",
+  "quiz": [
+   {
+    "s": "Please pay ___ to the battery temperature.",
+    "opts": [
+     "attentive",
+     "attention",
+     "attend to"
+    ],
+    "a": 1,
+    "ar": "خلّي بالك من حرارة البطارية."
+   },
+   {
+    "s": "Mona is very ___ to customer complaints.",
+    "opts": [
+     "attention",
+     "attend to",
+     "attentive"
+    ],
+    "a": 2,
+    "ar": "‎Mona‎ بتهتم جدًا بشكاوي العملا."
+   },
+   {
+    "s": "We must not ___ the shipping cost in the quotation.",
+    "opts": [
+     "overlook",
+     "highlight",
+     "flag"
+    ],
+    "a": 0,
+    "ar": "لازم منسهاش تكلفة الشحن في عرض السعر."
+   }
+  ],
+  "book": "I wanted to bring to your attention that we've encountered an issue with the payment for ___."
+ },
+ {
+  "w": "double-check",
+  "ar": "يراجع تاني للتأكيد",
+  "family": [
+   {
+    "w": "double-check",
+    "pos": "verb",
+    "ex": "Please double-check the serial numbers before you sign the delivery note.",
+    "ar": "راجع الأرقام التسلسلية تاني قبل ما تمضي على إذن التسليم.",
+    "ex2": "One wrong digit can delay the warranty claim.",
+    "ar2": "رقم واحد غلط ممكن يأخّر مطالبة الضمان."
+   },
+   {
+    "w": "double-check",
+    "pos": "noun",
+    "ex": "A quick double-check found an error in the VAT amount.",
+    "ar": "مراجعة تانية سريعة لقت غلطة في مبلغ الضريبة.",
+    "ex2": "We sent a corrected e-invoice.",
+    "ar2": "بعتنا فاتورة إلكترونية متصحّحة."
+   },
+   {
+    "w": "checklist",
+    "pos": "noun",
+    "ex": "Use the commissioning checklist for every new UPS.",
+    "ar": "استخدم قايمة خطوات التشغيل لكل ‎UPS‎ جديد.",
+    "ex2": "Tick each step after you check it.",
+    "ar2": "علّم على كل خطوة بعد ما تراجعها."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "verify",
+    "note": "formal; confirm something is correct with evidence",
+    "ex": "Please verify the bank details before you pay the supplier.",
+    "ar": "اتأكد من بيانات البنك قبل ما تدفع للمورد.",
+    "ex2": "Fake payment emails are common.",
+    "ar2": "إيميلات الدفع المزيفة منتشرة."
+   },
+   {
+    "w": "confirm",
+    "note": "say that something is correct or agreed",
+    "ex": "Can you confirm the delivery address for the batteries?",
+    "ar": "ممكن تأكّد عنوان تسليم البطاريات؟",
+    "ex2": "The driver leaves tomorrow at seven.",
+    "ar2": "السواق هيتحرك بكرة الساعة سبعة."
+   },
+   {
+    "w": "review",
+    "note": "read carefully to check content, not just numbers",
+    "ex": "Please review the contract before the client signs.",
+    "ar": "راجع العقد قبل ما العميل يمضي.",
+    "ex2": "Check the payment terms especially.",
+    "ar2": "ركّز على شروط الدفع بالذات."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how carefully you check",
+   "lar": "بتراجع بدقة قد إيه",
+   "steps": [
+    {
+     "w": "glance at",
+     "ex": "I only glanced at the offer, so I missed the error.",
+     "ar": "أنا بصّيت على العرض بسرعة، فالغلطة فاتتني.",
+     "ex2": "Next time I'll read it properly.",
+     "ar2": "المرة الجاية هقراه كويس."
+    },
+    {
+     "w": "check",
+     "ex": "Check the battery voltage before you leave the site.",
+     "ar": "قيس جهد البطارية قبل ما تمشي من الموقع.",
+     "ex2": "Write it in the report.",
+     "ar2": "اكتبه في التقرير."
+    },
+    {
+     "w": "double-check",
+     "ex": "Double-check the price; it seems too low.",
+     "ar": "راجع السعر تاني، شكله واطي أوي.",
+     "ex2": "Maybe the VAT is missing.",
+     "ar2": "يمكن الضريبة مش محسوبة."
+    },
+    {
+     "w": "audit",
+     "ex": "Finance will audit all supplier invoices this quarter.",
+     "ar": "الحسابات هتعمل مراجعة شاملة لكل فواتير الموردين الربع ده.",
+     "ex2": "Every payment needs a signed PO.",
+     "ar2": "كل دفعة لازم يبقى ليها أمر شراء ممضي."
+    }
+   ]
+  },
+  "ctx": "The client's payment is 5,000 pounds short. Could you double-check the invoice and the bank transfer, please?",
+  "ctx_ar": "دفعة العميل ناقصة 5,000 جنيه. ممكن تراجع الفاتورة والتحويل البنكي تاني لو سمحت؟",
+  "quiz": [
+   {
+    "s": "Please ___ the serial numbers before signing.",
+    "opts": [
+     "double-check",
+     "checklist",
+     "audit"
+    ],
+    "a": 0,
+    "ar": "راجع الأرقام التسلسلية تاني قبل ما تمضي."
+   },
+   {
+    "s": "Use the commissioning ___ for every new UPS.",
+    "opts": [
+     "double-check",
+     "checklist",
+     "verify"
+    ],
+    "a": 1,
+    "ar": "استخدم قايمة خطوات التشغيل لكل ‎UPS‎ جديد."
+   },
+   {
+    "s": "Finance will ___ all supplier invoices this quarter.",
+    "opts": [
+     "glance at",
+     "check",
+     "audit"
+    ],
+    "a": 2,
+    "ar": "الحسابات هتعمل مراجعة شاملة لكل فواتير الموردين الربع ده."
+   }
+  ],
+  "book": "Could you please double-check your records and let us know if there's any discrepancy?"
+ },
+ {
+  "w": "on track",
+  "ar": "ماشيين حسب الخطة",
+  "family": [
+   {
+    "w": "on track",
+    "pos": "adjective",
+    "ex": "The solar project is on track for handover in May.",
+    "ar": "مشروع الطاقة الشمسية ماشي حسب الخطة والتسليم في مايو.",
+    "ex2": "All panels are already installed.",
+    "ar2": "كل الألواح اتركّبت خلاص."
+   },
+   {
+    "w": "track",
+    "pos": "verb",
+    "ex": "We track every shipment from China until it reaches the warehouse.",
+    "ar": "بنتابع كل شحنة من الصين لحد ما توصل المخزن.",
+    "ex2": "The system sends alerts for delays.",
+    "ar2": "السيستم بيبعت تنبيه لو فيه تأخير."
+   },
+   {
+    "w": "tracking",
+    "pos": "noun",
+    "ex": "Here is the tracking number for the battery shipment.",
+    "ar": "ده رقم التتبّع لشحنة البطاريات.",
+    "ex2": "You can follow it online.",
+    "ar2": "تقدر تتابعها أونلاين."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "on schedule",
+    "note": "focus on dates; on track also covers budget and goals",
+    "ex": "The UPS installation is on schedule for Thursday.",
+    "ar": "تركيب الـ‎UPS‎ في ميعاده يوم الخميس.",
+    "ex2": "The team arrives at eight.",
+    "ar2": "الفريق هيوصل الساعة تمانية."
+   },
+   {
+    "w": "according to plan",
+    "note": "everything happens as planned, often said after a step",
+    "ex": "The commissioning went according to plan.",
+    "ar": "التشغيل مشي زي ما كان مخطط.",
+    "ex2": "No alarms on the first run.",
+    "ar2": "مفيش إنذارات في أول تشغيل."
+   }
+  ],
+  "ant": [
+   {
+    "w": "behind schedule",
+    "ex": "The data centre project is behind schedule because of late cables.",
+    "ar": "مشروع الداتا سنتر متأخر عن الجدول بسبب تأخير الكابلات.",
+    "ex2": "We need to add a second team.",
+    "ar2": "محتاجين نزوّد فريق تاني."
+   }
+  ],
+  "ladder": {
+   "label": "how well the project is going",
+   "lar": "المشروع ماشي كويس قد إيه",
+   "steps": [
+    {
+     "w": "behind schedule",
+     "ex": "We're two weeks behind schedule on the chiller VFDs.",
+     "ar": "إحنا متأخرين أسبوعين في الـ‎VFDs‎ بتاعة الشيلرات.",
+     "ex2": "The supplier shipped them late.",
+     "ar2": "المورد شحنهم متأخر."
+    },
+    {
+     "w": "on track",
+     "ex": "We're on track to finish the battery replacement Friday.",
+     "ar": "إحنا ماشيين صح وهنخلّص تغيير البطاريات الجمعة.",
+     "ex2": "Only two cabinets are left.",
+     "ar2": "فاضل كابينتين بس."
+    },
+    {
+     "w": "ahead of schedule",
+     "ex": "We finished the solar installation ahead of schedule.",
+     "ar": "خلّصنا تركيب الطاقة الشمسية قبل الميعاد.",
+     "ex2": "The client was very happy.",
+     "ar2": "العميل كان مبسوط جدًا."
+    }
+   ]
+  },
+  "ctx": "The panels and inverters are installed at the farm. We're on track to start the solar station next Sunday.",
+  "ctx_ar": "الألواح والإنفرترات اتركّبوا في المزرعة. إحنا ماشيين حسب الخطة وهنشغّل المحطة الشمسية يوم الحد الجاي.",
+  "quiz": [
+   {
+    "s": "Here's the ___ number for the shipment.",
+    "opts": [
+     "track",
+     "tracking",
+     "on track"
+    ],
+    "a": 1,
+    "ar": "ده رقم التتبّع للشحنة."
+   },
+   {
+    "s": "We ___ every shipment until it arrives.",
+    "opts": [
+     "tracking",
+     "on track",
+     "track"
+    ],
+    "a": 2,
+    "ar": "بنتابع كل شحنة لحد ما توصل."
+   },
+   {
+    "s": "We're two weeks ___ because the cables were late.",
+    "opts": [
+     "behind schedule",
+     "on track",
+     "ahead of schedule"
+    ],
+    "a": 0,
+    "ar": "إحنا متأخرين أسبوعين عشان الكابلات اتأخرت."
+   }
+  ],
+  "book": "So far, everything is going according to plan, and we're on track to meet the deadline."
+ },
+ {
+  "w": "anticipate",
+  "ar": "يتوقّع",
+  "family": [
+   {
+    "w": "anticipate",
+    "pos": "verb",
+    "ex": "We anticipate that the installation will take three days.",
+    "ar": "متوقعين إن التركيب هياخد تلات أيام.",
+    "ex2": "The site must be ready by Sunday.",
+    "ar2": "الموقع لازم يبقى جاهز يوم الحد."
+   },
+   {
+    "w": "anticipated",
+    "pos": "adjective",
+    "ex": "The anticipated delivery date for the inverters is 15 June.",
+    "ar": "ميعاد التسليم المتوقع للإنفرترات 15 يونيو.",
+    "ex2": "We'll confirm it once they leave the port.",
+    "ar2": "هنأكده أول ما يخرجوا من الميناء."
+   },
+   {
+    "w": "unanticipated",
+    "pos": "adjective",
+    "ex": "Unanticipated customs fees raised the cost of the batteries.",
+    "ar": "رسوم جمارك مكنتش متوقعة رفعت تكلفة البطاريات.",
+    "ex2": "We had to update the quotation.",
+    "ar2": "اضطرينا نعدّل عرض السعر."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "expect",
+    "note": "everyday and neutral; anticipate is more formal",
+    "ex": "We expect the PO by the end of the week.",
+    "ar": "متوقعين أمر الشراء آخر الأسبوع.",
+    "ex2": "The client's manager is traveling now.",
+    "ar2": "مدير العميل مسافر دلوقتي."
+   },
+   {
+    "w": "forecast",
+    "note": "for numbers like sales, demand or cash",
+    "ex": "Finance forecasts higher UPS sales before summer.",
+    "ar": "الحسابات متوقعة مبيعات ‎UPS‎ أعلى قبل الصيف.",
+    "ex2": "Power cuts increase demand every year.",
+    "ar2": "انقطاع الكهربا بيزوّد الطلب كل سنة."
+   },
+   {
+    "w": "foresee",
+    "note": "see a future problem in advance",
+    "ex": "We don't foresee any problems with the delivery.",
+    "ar": "مش شايفين أي مشاكل قدامنا في التسليم.",
+    "ex2": "The shipment already cleared customs.",
+    "ar2": "الشحنة خلّصت جمارك خلاص."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how sure you are",
+   "lar": "متأكد قد إيه",
+   "steps": [
+    {
+     "w": "hope",
+     "ex": "We hope to finish the job by Thursday.",
+     "ar": "بنتمنى نخلّص الشغل يوم الخميس.",
+     "ex2": "It depends on the weather.",
+     "ar2": "ده بيعتمد على الجو."
+    },
+    {
+     "w": "expect",
+     "ex": "We expect to finish by Thursday.",
+     "ar": "متوقعين نخلّص يوم الخميس.",
+     "ex2": "The team is on site already.",
+     "ar2": "الفريق في الموقع فعلًا."
+    },
+    {
+     "w": "be confident",
+     "ex": "We can be confident about Thursday; all parts are on site.",
+     "ar": "نقدر نبقى واثقين من يوم الخميس، كل القطع في الموقع.",
+     "ex2": "The team just needs two more days.",
+     "ar2": "الفريق محتاج يومين كمان بس."
+    }
+   ]
+  },
+  "ctx": "We anticipate that the battery replacement will take two days. Your servers will stay on generator power during the work.",
+  "ctx_ar": "متوقعين إن تغيير البطاريات هياخد يومين. السيرفرات بتاعتكم هتفضل على المولد طول فترة الشغل.",
+  "quiz": [
+   {
+    "s": "We ___ that the job will take three days.",
+    "opts": [
+     "anticipate",
+     "anticipated",
+     "unanticipated"
+    ],
+    "a": 0,
+    "ar": "متوقعين إن الشغل هياخد تلات أيام."
+   },
+   {
+    "s": "The ___ delivery date is 15 June.",
+    "opts": [
+     "anticipate",
+     "anticipated",
+     "unanticipated"
+    ],
+    "a": 1,
+    "ar": "ميعاد التسليم المتوقع 15 يونيو."
+   },
+   {
+    "s": "Some ___ fees raised the cost of the job.",
+    "opts": [
+     "anticipated",
+     "anticipate",
+     "unanticipated"
+    ],
+    "a": 2,
+    "ar": "شوية رسوم مكنتش متوقعة رفعت تكلفة الشغل."
+   }
+  ],
+  "book": "Based on our discussions, we anticipate that ___ will take approximately ___ to complete."
+ },
+ {
+  "w": "at your earliest convenience",
+  "ar": "في أقرب وقت يناسبك",
+  "family": [
+   {
+    "w": "at your earliest convenience",
+    "pos": "adverb",
+    "ex": "Please confirm the delivery address at your earliest convenience.",
+    "ar": "أكّد عنوان التسليم في أقرب وقت يناسبك.",
+    "ex2": "The truck is ready to leave.",
+    "ar2": "العربية جاهزة تتحرك."
+   },
+   {
+    "w": "convenience",
+    "pos": "noun",
+    "ex": "For your convenience, we attached the price list as PDF and Excel.",
+    "ar": "عشان يبقى أسهل عليك، بعتنا قايمة الأسعار ‎PDF‎ و‎Excel.‎",
+    "ex2": "Use whichever format suits your team.",
+    "ar2": "استخدم الشكل اللي يناسب فريقك."
+   },
+   {
+    "w": "convenient",
+    "pos": "adjective",
+    "ex": "Is Sunday morning convenient for the UPS maintenance visit?",
+    "ar": "الحد الصبح مناسب لزيارة صيانة الـ‎UPS‎؟",
+    "ex2": "It takes about two hours.",
+    "ar2": "بتاخد حوالي ساعتين."
+   },
+   {
+    "w": "conveniently",
+    "pos": "adverb",
+    "ex": "Our warehouse is conveniently located near the Ring Road.",
+    "ar": "المخزن بتاعنا مكانه مريّح جنب الطريق الدايري.",
+    "ex2": "Deliveries to Cairo clients are fast.",
+    "ar2": "التوصيل لعملا القاهرة بيبقى سريع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "as soon as possible",
+    "note": "more direct and urgent; ASAP in informal emails",
+    "ex": "Please send the payment as soon as possible; the invoice is overdue.",
+    "ar": "ابعت الدفعة في أسرع وقت، الفاتورة متأخرة.",
+    "ex2": "It's thirty days late now.",
+    "ar2": "متأخرة تلاتين يوم دلوقتي."
+   },
+   {
+    "w": "when you have a moment",
+    "note": "softer; for small, non-urgent requests",
+    "ex": "When you have a moment, please review the service report.",
+    "ar": "لما يبقى عندك وقت، راجع تقرير الصيانة.",
+    "ex2": "No rush, any time this week.",
+    "ar2": "مفيش استعجال، أي وقت الأسبوع ده."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how urgent the request is",
+   "lar": "الطلب مستعجل قد إيه",
+   "steps": [
+    {
+     "w": "when you have a moment",
+     "ex": "When you have a moment, please send your VAT number.",
+     "ar": "لما يبقى عندك وقت، ابعت الرقم الضريبي بتاعك.",
+     "ex2": "We need it for the e-invoice.",
+     "ar2": "محتاجينه للفاتورة الإلكترونية."
+    },
+    {
+     "w": "at your earliest convenience",
+     "ex": "Please sign the contract at your earliest convenience.",
+     "ar": "امضي العقد في أقرب وقت يناسبك.",
+     "ex2": "Work can start once it's signed.",
+     "ar2": "الشغل يقدر يبدأ أول ما يتمضي."
+    },
+    {
+     "w": "as soon as possible",
+     "ex": "Please reply as soon as possible; the price expires Friday.",
+     "ar": "رد في أسرع وقت، السعر بيخلص يوم الجمعة.",
+     "ex2": "The supplier raises prices next week.",
+     "ar2": "المورد هيزوّد الأسعار الأسبوع الجاي."
+    },
+    {
+     "w": "immediately",
+     "ex": "Switch off the UPS immediately; the battery is overheating.",
+     "ar": "اقفل الـ‎UPS‎ فورًا، البطارية سخنة جدًا.",
+     "ex2": "Then call the service hotline.",
+     "ar2": "وبعدين كلّم الخط الساخن للصيانة."
+    }
+   ]
+  },
+  "ctx": "To issue the e-invoice, we need your company's tax ID. Could you please send it at your earliest convenience?",
+  "ctx_ar": "عشان نطلّع الفاتورة الإلكترونية، محتاجين الرقم الضريبي لشركتكم. ممكن تبعته في أقرب وقت يناسبك؟",
+  "quiz": [
+   {
+    "s": "Is Sunday ___ for the maintenance visit?",
+    "opts": [
+     "convenience",
+     "convenient",
+     "conveniently"
+    ],
+    "a": 1,
+    "ar": "الحد مناسب لزيارة الصيانة؟"
+   },
+   {
+    "s": "Our warehouse is ___ located near the Ring Road.",
+    "opts": [
+     "convenient",
+     "convenience",
+     "conveniently"
+    ],
+    "a": 2,
+    "ar": "المخزن بتاعنا مكانه مريّح جنب الطريق الدايري."
+   },
+   {
+    "s": "Switch off the UPS ___; the battery is smoking!",
+    "opts": [
+     "immediately",
+     "at your earliest convenience",
+     "when you have a moment"
+    ],
+    "a": 0,
+    "ar": "اقفل الـ‎UPS‎ فورًا، البطارية بتطلّع دخان!"
+   }
+  ],
+  "book": "Could you please provide ___ at your earliest convenience?"
+ },
+ {
+  "w": "due",
+  "ar": "مستحق / ميعاده",
+  "family": [
+   {
+    "w": "due",
+    "pos": "adjective",
+    "ex": "Invoice 2045 is due on 30 April.",
+    "ar": "فاتورة 2045 ميعاد استحقاقها 30 أبريل.",
+    "ex2": "Please arrange the bank transfer before then.",
+    "ar2": "رتّب التحويل البنكي قبلها لو سمحت."
+   },
+   {
+    "w": "overdue",
+    "pos": "adjective",
+    "ex": "Three invoices from the hotel are overdue by sixty days.",
+    "ar": "فيه تلات فواتير على الفندق متأخرة ستين يوم.",
+    "ex2": "Let's call their accounts manager today.",
+    "ar2": "يلا نكلّم مدير الحسابات عندهم النهارده."
+   },
+   {
+    "w": "due date",
+    "pos": "noun",
+    "ex": "The due date for the tender is next Thursday.",
+    "ar": "آخر ميعاد للمناقصة يوم الخميس الجاي.",
+    "ex2": "We must submit the technical offer too.",
+    "ar2": "لازم نقدّم العرض الفني كمان."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "must be paid by a date",
+    "mar": "مستحق الدفع",
+    "ex": "The second payment is due after commissioning.",
+    "ar": "الدفعة التانية بتستحق بعد التشغيل.",
+    "ex2": "That's 30% of the PO value.",
+    "ar2": "دي 30% من قيمة أمر الشراء."
+   },
+   {
+    "m": "expected to arrive or happen",
+    "mar": "متوقع يوصل أو يحصل",
+    "ex": "The battery shipment is due next Monday.",
+    "ar": "شحنة البطاريات متوقع توصل يوم الاتنين الجاي.",
+    "ex2": "Customs may delay it a few days.",
+    "ar2": "الجمارك ممكن تأخّرها كام يوم."
+   },
+   {
+    "m": "due to: because of",
+    "mar": "بسبب",
+    "ex": "The delay was due to a customs problem.",
+    "ar": "التأخير كان بسبب مشكلة في الجمارك.",
+    "ex2": "The inverters were held at the port.",
+    "ar2": "الإنفرترات اتحجزت في الميناء."
+   }
+  ],
+  "syn": [
+   {
+    "w": "payable",
+    "note": "formal, in contracts and invoices",
+    "ex": "The balance is payable within thirty days of delivery.",
+    "ar": "الباقي بيتدفع في خلال تلاتين يوم من التسليم.",
+    "ex2": "Late payments add a 2% fee.",
+    "ar2": "التأخير في الدفع عليه غرامة 2%."
+   },
+   {
+    "w": "expected",
+    "note": "for arrivals and events, not money",
+    "ex": "The engineer is expected on site at nine.",
+    "ar": "المهندس متوقع يوصل الموقع الساعة تسعة.",
+    "ex2": "Please prepare the access permits.",
+    "ar2": "جهّز تصاريح الدخول لو سمحت."
+   }
+  ],
+  "ant": [
+   {
+    "w": "paid",
+    "ex": "Invoice 2045 is already paid, so please ignore the reminder.",
+    "ar": "فاتورة 2045 اتدفعت خلاص، فتجاهل التذكير لو سمحت.",
+    "ex2": "Finance received the transfer yesterday.",
+    "ar2": "الحسابات استلمت التحويل امبارح."
+   }
+  ],
+  "ladder": {
+   "label": "how late the payment is",
+   "lar": "الدفع متأخر قد إيه",
+   "steps": [
+    {
+     "w": "due",
+     "ex": "The invoice is due today.",
+     "ar": "الفاتورة ميعادها النهارده.",
+     "ex2": "Please process the payment.",
+     "ar2": "اعمل الدفعة لو سمحت."
+    },
+    {
+     "w": "overdue",
+     "ex": "The invoice is now overdue by two weeks.",
+     "ar": "الفاتورة دلوقتي متأخرة أسبوعين.",
+     "ex2": "We sent a friendly reminder.",
+     "ar2": "بعتنا تذكير لطيف."
+    },
+    {
+     "w": "seriously overdue",
+     "ex": "This account is seriously overdue; we'll stop service visits.",
+     "ar": "الحساب ده متأخر جدًا، هنوقف زيارات الصيانة.",
+     "ex2": "Legal will contact the client next.",
+     "ar2": "الشؤون القانونية هتكلم العميل بعد كده."
+    }
+   ]
+  },
+  "ctx": "Just a reminder that invoice 3107 for the UPS maintenance is due on Thursday. Please ignore this if you've already paid.",
+  "ctx_ar": "بس تذكير إن فاتورة 3107 بتاعة صيانة الـ‎UPS‎ ميعادها يوم الخميس. لو دفعت خلاص، تجاهل الرسالة دي.",
+  "quiz": [
+   {
+    "s": "Three invoices are ___ by sixty days.",
+    "opts": [
+     "due",
+     "overdue",
+     "due date"
+    ],
+    "a": 1,
+    "ar": "فيه تلات فواتير متأخرة ستين يوم."
+   },
+   {
+    "s": "The ___ for the tender is Thursday.",
+    "opts": [
+     "due date",
+     "due",
+     "overdue"
+    ],
+    "a": 0,
+    "ar": "آخر ميعاد للمناقصة يوم الخميس."
+   },
+   {
+    "s": "This account is ___; we'll pass it to legal.",
+    "opts": [
+     "due",
+     "overdue",
+     "seriously overdue"
+    ],
+    "a": 2,
+    "ar": "الحساب ده متأخر جدًا، هنحوّله للشؤون القانونية."
+   }
+  ],
+  "book": "Just a friendly reminder that invoice #___ is due on ___."
+ },
+ {
+  "w": "reach out",
+  "ar": "يتواصل / يكلّم",
+  "family": [
+   {
+    "w": "reach out",
+    "pos": "verb",
+    "ex": "Please reach out if you need help with the inverter settings.",
+    "ar": "كلّمنا لو محتاج مساعدة في إعدادات الإنفرتر.",
+    "ex2": "Our support line is open until ten.",
+    "ar2": "خط الدعم بتاعنا شغال لحد الساعة عشرة."
+   },
+   {
+    "w": "outreach",
+    "pos": "noun",
+    "ex": "Our outreach to hospitals brought five new UPS contracts.",
+    "ar": "تواصلنا مع المستشفيات جاب خمس عقود ‎UPS‎ جديدة.",
+    "ex2": "We visited twelve hospitals in Giza.",
+    "ar2": "زرنا اتناشر مستشفى في الجيزة."
+   },
+   {
+    "w": "reachable",
+    "pos": "adjective",
+    "ex": "I'm reachable on my mobile during the site visit.",
+    "ar": "ممكن توصلّي على الموبايل وأنا في زيارة الموقع.",
+    "ex2": "The office line won't work there.",
+    "ar2": "خط المكتب مش هيشتغل هناك."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "contact",
+    "note": "neutral and formal, works everywhere",
+    "ex": "Please contact our service desk to book a visit.",
+    "ar": "كلّم مكتب الصيانة بتاعنا عشان تحجز زيارة.",
+    "ex2": "They'll give you a ticket number.",
+    "ar2": "هيدّوك رقم بلاغ."
+   },
+   {
+    "w": "get in touch",
+    "note": "friendly, similar to reach out",
+    "ex": "I'll get in touch with the supplier about the price.",
+    "ar": "هتواصل مع المورد بخصوص السعر.",
+    "ex2": "I'll call him this afternoon.",
+    "ar2": "هكلّمه النهارده بعد الضهر."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "If your team needs training on the new VFDs, please reach out. Our engineer can visit the plant next week.",
+  "ctx_ar": "لو فريقك محتاج تدريب على الـ‎VFDs‎ الجديدة، كلّمنا. المهندس بتاعنا يقدر يزور المصنع الأسبوع الجاي.",
+  "quiz": [
+   {
+    "s": "Please ___ if you need help with the settings.",
+    "opts": [
+     "reach out",
+     "outreach",
+     "reachable"
+    ],
+    "a": 0,
+    "ar": "كلّمنا لو محتاج مساعدة في الإعدادات."
+   },
+   {
+    "s": "Our ___ to hospitals brought five new contracts.",
+    "opts": [
+     "reachable",
+     "outreach",
+     "reach out"
+    ],
+    "a": 1,
+    "ar": "تواصلنا مع المستشفيات جاب خمس عقود جديدة."
+   },
+   {
+    "s": "I'm ___ on my mobile all day.",
+    "opts": [
+     "outreach",
+     "reach out",
+     "reachable"
+    ],
+    "a": 2,
+    "ar": "ممكن توصلّي على الموبايل طول اليوم."
+   }
+  ],
+  "book": "If you have any questions or would like to discuss further, please don't hesitate to reach out."
  }
 ]

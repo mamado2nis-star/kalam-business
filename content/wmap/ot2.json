@@ -776,5 +776,1365 @@
     "ar": "شغّل الكاميرا؛ دي مكالمة فيديو، مش صوت بس."
    }
   ]
+ },
+ {
+  "w": "fresh start",
+  "ar": "بداية جديدة",
+  "family": [
+   {
+    "w": "fresh start",
+    "pos": "noun",
+    "ex": "The new year is a fresh start for our collections team.",
+    "ar": "السنة الجديدة بداية جديدة لفريق التحصيل.",
+    "ex2": "Last year's overdue invoices are finally closed.",
+    "ar2": "فواتير السنة اللي فاتت المتأخرة أخيراً اتقفلت."
+   },
+   {
+    "w": "fresh",
+    "pos": "adjective",
+    "ex": "Let's take a fresh look at the solar quotation tomorrow.",
+    "ar": "خلّينا نبص بصّة جديدة على عرض سعر الطاقة الشمسية بكرة.",
+    "ex2": "With fresh eyes, we may find a cheaper inverter.",
+    "ar2": "بعين جديدة، ممكن نلاقي إنفرتر أرخص."
+   },
+   {
+    "w": "start over",
+    "pos": "verb",
+    "ex": "The PO had too many mistakes, so we had to start over.",
+    "ar": "أمر الشراء كان فيه غلطات كتير، فاضطرينا نبدأ من الأول.",
+    "ex2": "Starting over took an hour but saved a big problem.",
+    "ar2": "البداية من الأول خدت ساعة بس وفّرت مشكلة كبيرة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "new beginning",
+    "note": "more emotional; for big life or company changes",
+    "ex": "Moving to the new office felt like a new beginning.",
+    "ar": "النقل للمكتب الجديد كان إحساسه بداية جديدة.",
+    "ex2": "The new beginning came with a bigger service team.",
+    "ar2": "البداية الجديدة جت ومعاها فريق صيانة أكبر."
+   },
+   {
+    "w": "clean slate",
+    "note": "past problems are forgotten; nothing held against you",
+    "ex": "After paying everything, the client starts with a clean slate.",
+    "ar": "بعد ما دفع كل حاجة، العميل بيبدأ صفحة جديدة.",
+    "ex2": "With a clean slate, we can offer him credit again.",
+    "ar2": "وبصفحة نضيفة، نقدر نديله آجل تاني."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "After a tough month of UPS failures, Sunday felt like a fresh start. All sites were running and no complaints were open.",
+  "ctx_ar": "بعد شهر صعب من أعطال الـ‎UPS‎، يوم الحد كان إحساسه بداية جديدة. كل المواقع شغالة ومفيش شكاوى مفتوحة.",
+  "quiz": [
+   {
+    "s": "Let's take a ___ look at the quotation tomorrow.",
+    "opts": [
+     "fresh",
+     "fresh start",
+     "start over"
+    ],
+    "a": 0,
+    "ar": "خلّينا نبص بصّة جديدة على عرض السعر بكرة."
+   },
+   {
+    "s": "The PO was full of mistakes, so we had to ___.",
+    "opts": [
+     "fresh",
+     "start over",
+     "fresh start"
+    ],
+    "a": 1,
+    "ar": "أمر الشراء كان مليان غلطات، فاضطرينا نبدأ من الأول."
+   },
+   {
+    "s": "Once the debt is paid, he starts with a clean ___.",
+    "opts": [
+     "start",
+     "beginning",
+     "slate"
+    ],
+    "a": 2,
+    "ar": "أول ما الدين يتدفع، بيبدأ صفحة جديدة."
+   }
+  ],
+  "book": "A fresh start, right?"
+ },
+ {
+  "w": "disturb",
+  "ar": "تزعج / تشغل حد",
+  "family": [
+   {
+    "w": "disturb",
+    "pos": "verb",
+    "ex": "Please don't disturb Karim; he's finishing the tender.",
+    "ar": "ياريت ماتزعجش كريم؛ بيخلّص المناقصة.",
+    "ex2": "The deadline is at two o'clock.",
+    "ar2": "الميعاد النهائي الساعة اتنين."
+   },
+   {
+    "w": "disturbance",
+    "pos": "noun",
+    "ex": "Drilling in the server room caused a disturbance for the IT team.",
+    "ar": "الخرم في أوضة السيرفرات عمل إزعاج لفريق الـ‎IT‎.",
+    "ex2": "Next time we'll do it after office hours.",
+    "ar2": "المرة الجاية هنعملها بعد مواعيد الشغل."
+   },
+   {
+    "w": "disturbing",
+    "pos": "adjective",
+    "ex": "The noise from the generator is disturbing the whole floor.",
+    "ar": "صوت المولّد مزعج الدور كله.",
+    "ex2": "Can we move the test to the basement?",
+    "ar2": "ممكن ننقل الاختبار للبدروم؟"
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "bother",
+    "note": "informal; small annoyance, common in speech",
+    "ex": "Sorry to bother you, but the courier is here.",
+    "ar": "آسف إني بزعجك، بس المندوب وصل.",
+    "ex2": "He needs a signature for the battery delivery.",
+    "ar2": "محتاج إمضة على استلام البطاريات."
+   },
+   {
+    "w": "interrupt",
+    "note": "stop someone while they talk or work",
+    "ex": "I don't want to interrupt your call with the client.",
+    "ar": "مش عايز أقاطع مكالمتك مع العميل.",
+    "ex2": "I'll interrupt only if the bank calls back.",
+    "ar2": "هقاطع بس لو البنك رجع كلّم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "leave alone",
+    "ex": "Leave Mona alone today; she's closing the month.",
+    "ar": "سيب منى في حالها النهارده؛ بتقفل الشهر.",
+    "ex2": "If we leave her alone, the invoices will be out by five.",
+    "ar2": "لو سبناها في حالها، الفواتير هتطلع قبل خمسة."
+   }
+  ],
+  "ladder": {
+   "label": "how much you annoy",
+   "lar": "بتزعج قد إيه",
+   "steps": [
+    {
+     "w": "bother",
+     "ex": "Sorry to bother you with a quick question.",
+     "ar": "آسف إني بزعجك بسؤال سريع.",
+     "ex2": "It's about the PO number for the hospital.",
+     "ar2": "هو عن رقم أمر الشراء بتاع المستشفى."
+    },
+    {
+     "w": "disturb",
+     "ex": "The loud call disturbed everyone in the office.",
+     "ar": "المكالمة العالية أزعجت كل اللي في المكتب.",
+     "ex2": "After that, we agreed to take calls outside.",
+     "ar2": "بعدها، اتفقنا ناخد المكالمات برّه."
+    },
+    {
+     "w": "disrupt",
+     "ex": "The power cut disrupted work at the data centre.",
+     "ar": "انقطاع الكهربا عطّل الشغل في الداتا سنتر.",
+     "ex2": "Luckily, the UPS kept the servers running.",
+     "ar2": "لحسن الحظ، الـ‎UPS‎ خلّى السيرفرات شغالة."
+    }
+   ]
+  },
+  "ctx": "Hany's phone rang during the budget review. He stepped out so he wouldn't disturb anyone.",
+  "ctx_ar": "تليفون هاني رن أثناء مراجعة الميزانية. خرج برّه عشان مايزعجش حد.",
+  "quiz": [
+   {
+    "s": "The generator noise is ___ the whole floor.",
+    "opts": [
+     "disturbing",
+     "disturbance",
+     "disturbed"
+    ],
+    "a": 0,
+    "ar": "صوت المولّد مزعج الدور كله."
+   },
+   {
+    "s": "The drilling caused a ___ for the IT team.",
+    "opts": [
+     "disturb",
+     "disturbing",
+     "disturbance"
+    ],
+    "a": 2,
+    "ar": "الخرم عمل إزعاج لفريق الـ‎IT‎."
+   },
+   {
+    "s": "Sorry to ___ you, but the courier is here.",
+    "opts": [
+     "disrupt",
+     "bother",
+     "leave alone"
+    ],
+    "a": 1,
+    "ar": "آسف إني بزعجك، بس المندوب وصل."
+   }
+  ],
+  "book": "I'll step outside to avoid disturbing anyone."
+ },
+ {
+  "w": "step out",
+  "ar": "تخرج شوية (من المكتب / الاجتماع)",
+  "family": [
+   {
+    "w": "step out",
+    "pos": "verb",
+    "ex": "I'm stepping out to meet the courier downstairs.",
+    "ar": "هنزل شوية أقابل المندوب تحت.",
+    "ex2": "He's bringing the signed PO from the bank.",
+    "ar2": "جايب أمر الشراء الممضي من البنك."
+   },
+   {
+    "w": "step outside",
+    "pos": "verb",
+    "ex": "Let me step outside to take the supplier's call.",
+    "ar": "خليني أخرج برّه آخد مكالمة المورد.",
+    "ex2": "It's noisy in here, and he's calling from China.",
+    "ar2": "المكان هنا دوشة، وهو بيكلم من الصين."
+   },
+   {
+    "w": "step away",
+    "pos": "verb",
+    "ex": "Ahmed has stepped away from his desk for a minute.",
+    "ar": "أحمد قام من على مكتبه دقيقة.",
+    "ex2": "Can I take a message about the UPS repair?",
+    "ar2": "ممكن آخد رسالة بخصوص تصليح الـ‎UPS‎؟"
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "pop out",
+    "note": "informal British; very short absence",
+    "ex": "I'm just popping out for a coffee.",
+    "ar": "أنا نازل أجيب قهوة بسرعة.",
+    "ex2": "I'll pop out and be back in ten minutes.",
+    "ar2": "هنزل وأرجع كمان عشر دقايق."
+   },
+   {
+    "w": "be away from my desk",
+    "note": "polite, used in phone and out-of-office messages",
+    "ex": "Mona is away from her desk right now.",
+    "ar": "منى مش على مكتبها دلوقتي.",
+    "ex2": "She'll be away until the meeting ends.",
+    "ar2": "هتفضل مش موجودة لحد ما الاجتماع يخلص."
+   }
+  ],
+  "ant": [
+   {
+    "w": "come back",
+    "ex": "I'll come back in ten minutes to finish the quote.",
+    "ar": "هرجع كمان عشر دقايق أخلّص العرض.",
+    "ex2": "When I come back, we'll call the client together.",
+    "ar2": "لما أرجع، هنكلم العميل سوا."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Sorry, Tarek, I need to step out for ten minutes. The technician is downstairs with the replacement batteries.",
+  "ctx_ar": "معلش يا ‎Tarek‎، محتاج أخرج عشر دقايق. الفني تحت ومعاه البطاريات البديلة.",
+  "quiz": [
+   {
+    "s": "Let me ___ outside to take the supplier's call.",
+    "opts": [
+     "step",
+     "stepped",
+     "stepping"
+    ],
+    "a": 0,
+    "ar": "خليني أخرج برّه آخد مكالمة المورد."
+   },
+   {
+    "s": "Ahmed has ___ away from his desk for a minute.",
+    "opts": [
+     "step",
+     "stepping",
+     "stepped"
+    ],
+    "a": 2,
+    "ar": "أحمد قام من على مكتبه دقيقة."
+   },
+   {
+    "s": "I'm just ___ out for a coffee; back in five.",
+    "opts": [
+     "coming",
+     "popping",
+     "staying"
+    ],
+    "a": 1,
+    "ar": "أنا نازل أجيب قهوة بسرعة؛ راجع كمان خمسة."
+   }
+  ],
+  "book": "I'm stepping out for a quick break."
+ },
+ {
+  "w": "shortly",
+  "ar": "كمان شوية / قريب",
+  "family": [
+   {
+    "w": "shortly",
+    "pos": "adverb",
+    "ex": "The engineer will arrive shortly to check the VFD.",
+    "ar": "المهندس هيوصل كمان شوية يكشف على الـ‎VFD‎.",
+    "ex2": "He's ten minutes away on the Ring Road.",
+    "ar2": "هو على بعد عشر دقايق على الدائري."
+   },
+   {
+    "w": "short",
+    "pos": "adjective",
+    "ex": "Let's keep the meeting short; the client is waiting.",
+    "ar": "خلّي الاجتماع قصير؛ العميل مستني.",
+    "ex2": "We only need to agree on the delivery date.",
+    "ar2": "محتاجين بس نتفق على ميعاد التسليم."
+   },
+   {
+    "w": "shorten",
+    "pos": "verb",
+    "ex": "Can we shorten the lead time for the batteries?",
+    "ar": "ممكن نقلل مدة توريد البطاريات؟",
+    "ex2": "The client wants them before the end of the month.",
+    "ar2": "العميل عايزها قبل آخر الشهر."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "soon",
+    "note": "general, everyday; less formal than shortly",
+    "ex": "The new price list will be ready soon.",
+    "ar": "قايمة الأسعار الجديدة هتجهز قريب.",
+    "ex2": "We're waiting for the new dollar rate.",
+    "ar2": "مستنيين سعر الدولار الجديد."
+   },
+   {
+    "w": "in a moment",
+    "note": "very soon, seconds or minutes; good on the phone",
+    "ex": "I'll check the stock in a moment.",
+    "ar": "هشوف المخزون حالاً.",
+    "ex2": "Please hold the line; I'll be back in a moment.",
+    "ar2": "استنى على الخط؛ هرجعلك حالاً."
+   }
+  ],
+  "ant": [
+   {
+    "w": "later",
+    "ex": "I'll send the invoice later, after the director signs.",
+    "ar": "هبعت الفاتورة بعدين، بعد ما المدير يمضي.",
+    "ex2": "Sending it later gives us time to fix the VAT.",
+    "ar2": "إننا نبعتها بعدين بيدينا وقت نظبط الضريبة."
+   }
+  ],
+  "ladder": {
+   "label": "how soon",
+   "lar": "قريب قد إيه",
+   "steps": [
+    {
+     "w": "later",
+     "ex": "I'll call the supplier later today.",
+     "ar": "هكلم المورد بعدين النهارده.",
+     "ex2": "I'm busy with the audit until three.",
+     "ar2": "أنا مشغول في المراجعة لحد تلاتة."
+    },
+    {
+     "w": "shortly",
+     "ex": "Our team will contact you shortly.",
+     "ar": "فريقنا هيتواصل معاك كمان شوية.",
+     "ex2": "Please keep your phone close.",
+     "ar2": "ياريت تخلي تليفونك جنبك."
+    },
+    {
+     "w": "in a moment",
+     "ex": "I'll be with you in a moment.",
+     "ar": "هكون معاك حالاً.",
+     "ex2": "I'm just saving the quotation file.",
+     "ar2": "بس بحفظ ملف عرض السعر."
+    },
+    {
+     "w": "right away",
+     "ex": "I'll send the engineer right away.",
+     "ar": "هبعت المهندس فوراً.",
+     "ex2": "The hospital UPS is down, so it's urgent.",
+     "ar2": "الـ‎UPS‎ بتاع المستشفى واقف، فالموضوع مستعجل."
+    }
+   ]
+  },
+  "ctx": "Thank you for your patience, Mr. Adel. Your battery replacement is confirmed, and our technician will call you shortly.",
+  "ctx_ar": "شكراً على صبرك يا أستاذ ‎Adel‎. تغيير البطاريات بتاعك اتأكد، والفني بتاعنا هيكلمك كمان شوية.",
+  "quiz": [
+   {
+    "s": "The engineer will arrive ___ to check the VFD.",
+    "opts": [
+     "short",
+     "shortly",
+     "shorten"
+    ],
+    "a": 1,
+    "ar": "المهندس هيوصل كمان شوية يكشف على الـ‎VFD‎."
+   },
+   {
+    "s": "Can we ___ the lead time for the batteries?",
+    "opts": [
+     "shorten",
+     "short",
+     "shortly"
+    ],
+    "a": 0,
+    "ar": "ممكن نقلل مدة توريد البطاريات؟"
+   },
+   {
+    "s": "The hospital UPS is down; send someone ___!",
+    "opts": [
+     "later",
+     "shortly",
+     "right away"
+    ],
+    "a": 2,
+    "ar": "الـ‎UPS‎ بتاع المستشفى واقف؛ ابعت حد فوراً!"
+   }
+  ],
+  "book": "I'll be back shortly."
+ },
+ {
+  "w": "distraction",
+  "ar": "حاجة بتشتت / تلهي",
+  "family": [
+   {
+    "w": "distract",
+    "pos": "verb",
+    "ex": "Loud calls distract the engineers working on the design.",
+    "ar": "المكالمات العالية بتشتت المهندسين اللي شغالين على التصميم.",
+    "ex2": "They need focus to size the solar system.",
+    "ar2": "محتاجين تركيز عشان يحسبوا قدرة النظام الشمسي."
+   },
+   {
+    "w": "distraction",
+    "pos": "noun",
+    "ex": "The open office has too many distractions for the tender team.",
+    "ar": "المكتب المفتوح فيه حاجات كتير بتشتت فريق المناقصات.",
+    "ex2": "We booked the meeting room for them.",
+    "ar2": "حجزنالهم أوضة الاجتماعات."
+   },
+   {
+    "w": "distracted",
+    "pos": "adjective",
+    "ex": "I was distracted and typed the wrong price.",
+    "ar": "كنت مشتت وكتبت سعر غلط.",
+    "ex2": "Luckily, Mona caught it before the quote went out.",
+    "ar2": "لحسن الحظ، منى خدت بالها قبل ما العرض يطلع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "interruption",
+    "note": "something stops your work for a moment",
+    "ex": "Too many interruptions slowed down the stock count.",
+    "ar": "المقاطعات الكتير أخّرت الجرد.",
+    "ex2": "With no interruptions, we finished in two hours.",
+    "ar2": "من غير مقاطعات، خلّصنا في ساعتين."
+   },
+   {
+    "w": "noise",
+    "note": "only about sound",
+    "ex": "The noise from the workshop reaches the sales office.",
+    "ar": "الدوشة من الورشة بتوصل لمكتب المبيعات.",
+    "ex2": "Close the door during client calls to block the noise.",
+    "ar2": "اقفل الباب وقت مكالمات العملاء عشان تمنع الدوشة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "focus",
+    "ex": "I need complete focus to finish the battery calculation.",
+    "ar": "محتاج تركيز كامل عشان أخلص حسبة البطاريات.",
+    "ex2": "Focus matters; one mistake changes the whole price.",
+    "ar2": "التركيز مهم؛ غلطة واحدة بتغيّر السعر كله."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our tender team works in the small room now. The open office had too many distractions, and mistakes were costing us money.",
+  "ctx_ar": "فريق المناقصات بيشتغل في الأوضة الصغيرة دلوقتي. المكتب المفتوح كان فيه تشتيت كتير، والغلطات كانت بتكلفنا فلوس.",
+  "quiz": [
+   {
+    "s": "I was ___ and typed the wrong price.",
+    "opts": [
+     "distraction",
+     "distract",
+     "distracted"
+    ],
+    "a": 2,
+    "ar": "كنت مشتت وكتبت سعر غلط."
+   },
+   {
+    "s": "Loud calls ___ the engineers.",
+    "opts": [
+     "distract",
+     "distracted",
+     "distraction"
+    ],
+    "a": 0,
+    "ar": "المكالمات العالية بتشتت المهندسين."
+   },
+   {
+    "s": "I need complete ___ to finish this calculation.",
+    "opts": [
+     "noise",
+     "focus",
+     "interruption"
+    ],
+    "a": 1,
+    "ar": "محتاج تركيز كامل عشان أخلص الحسبة دي."
+   }
+  ],
+  "book": "I'll take this outside to avoid any distractions."
+ },
+ {
+  "w": "assistance",
+  "ar": "مساعدة",
+  "family": [
+   {
+    "w": "assist",
+    "pos": "verb",
+    "ex": "Hany will assist the client with the UPS installation.",
+    "ar": "هاني هيساعد العميل في تركيب الـ‎UPS‎.",
+    "ex2": "He'll also train their staff on the alarms.",
+    "ar2": "وهيدرّب الموظفين بتوعهم على الإنذارات كمان."
+   },
+   {
+    "w": "assistance",
+    "pos": "noun",
+    "ex": "Thank you for your assistance with the customs papers.",
+    "ar": "شكراً على مساعدتك في ورق الجمارك.",
+    "ex2": "The shipment was released this morning.",
+    "ar2": "الشحنة خرجت الصبح ده."
+   },
+   {
+    "w": "assistant",
+    "pos": "person",
+    "ex": "My assistant will send you the signed contract.",
+    "ar": "المساعدة بتاعتي هتبعتلك العقد الممضي.",
+    "ex2": "Please send her your company stamp too.",
+    "ar2": "ياريت تبعتلها ختم الشركة كمان."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "help",
+    "note": "everyday, informal; use in speech",
+    "ex": "Thanks for your help with the invoice.",
+    "ar": "شكراً على مساعدتك في الفاتورة.",
+    "ex2": "Your help saved me an hour.",
+    "ar2": "مساعدتك وفّرت عليا ساعة."
+   },
+   {
+    "w": "support",
+    "note": "ongoing help, often technical or from a team",
+    "ex": "Our technical support is available 24/7 for contract clients.",
+    "ar": "الدعم الفني بتاعنا متاح 24 ساعة لعملاء العقود.",
+    "ex2": "Support covers phone help and site visits.",
+    "ar2": "الدعم بيشمل مساعدة بالتليفون وزيارات للموقع."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Thank you for your assistance with the bank's tax forms, Mona. The e-invoice went through without any rejection.",
+  "ctx_ar": "شكراً على مساعدتك في نماذج الضرايب بتاعة البنك يا ‎Mona‎. الفاتورة الإلكترونية عدّت من غير أي رفض.",
+  "quiz": [
+   {
+    "s": "Hany will ___ the client with the installation.",
+    "opts": [
+     "assistance",
+     "assist",
+     "assistant"
+    ],
+    "a": 1,
+    "ar": "هاني هيساعد العميل في التركيب."
+   },
+   {
+    "s": "My ___ will send you the contract.",
+    "opts": [
+     "assistant",
+     "assist",
+     "assistance"
+    ],
+    "a": 0,
+    "ar": "المساعدة بتاعتي هتبعتلك العقد."
+   },
+   {
+    "s": "Our technical ___ is available 24/7.",
+    "opts": [
+     "help",
+     "assist",
+     "support"
+    ],
+    "a": 2,
+    "ar": "الدعم الفني بتاعنا متاح 24 ساعة."
+   }
+  ],
+  "book": "Thank you for your assistance, Emily."
+ },
+ {
+  "w": "don't hesitate",
+  "ar": "ماتترددش",
+  "family": [
+   {
+    "w": "hesitate",
+    "pos": "verb",
+    "ex": "Don't hesitate to call if the inverter shows an error.",
+    "ar": "ماتترددش تتصل لو الإنفرتر طلّع خطأ.",
+    "ex2": "Our hotline works on Fridays too.",
+    "ar2": "الخط الساخن بتاعنا شغال يوم الجمعة كمان."
+   },
+   {
+    "w": "hesitation",
+    "pos": "noun",
+    "ex": "The client signed without hesitation after the site visit.",
+    "ar": "العميل مضى من غير تردد بعد زيارة الموقع.",
+    "ex2": "He saw how clean our last installation was.",
+    "ar2": "شاف آخر تركيب عملناه كان نضيف إزاي."
+   },
+   {
+    "w": "hesitant",
+    "pos": "adjective",
+    "ex": "The factory is hesitant to pay for a bigger UPS.",
+    "ar": "المصنع متردد يدفع في ‎UPS‎ أكبر.",
+    "ex2": "Let's show them the cost of one power cut.",
+    "ar2": "خلّينا نوريهم تكلفة انقطاع كهربا واحد."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "feel free",
+    "note": "friendly and light; same meaning",
+    "ex": "Feel free to send any questions about the quotation.",
+    "ar": "ابعت أي أسئلة عن عرض السعر براحتك.",
+    "ex2": "Feel free to call me directly too.",
+    "ar2": "وكلّمني على طول كمان براحتك."
+   },
+   {
+    "w": "please let me know",
+    "note": "neutral, very common at the end of emails",
+    "ex": "Please let me know if you need the datasheet.",
+    "ar": "ياريت تبلّغني لو محتاج الداتا شيت.",
+    "ex2": "Please let me know by Thursday.",
+    "ar2": "ياريت تبلّغني قبل الخميس."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Your UPS is now under our maintenance contract. If anything looks wrong, don't hesitate to call our hotline, day or night.",
+  "ctx_ar": "الـ‎UPS‎ بتاعك بقى تحت عقد الصيانة بتاعنا. لو أي حاجة شكلها غلط، ماتترددش تكلم الخط الساخن، بالليل أو بالنهار.",
+  "quiz": [
+   {
+    "s": "The client signed without ___.",
+    "opts": [
+     "hesitate",
+     "hesitation",
+     "hesitant"
+    ],
+    "a": 1,
+    "ar": "العميل مضى من غير تردد."
+   },
+   {
+    "s": "The factory is ___ to pay for a bigger UPS.",
+    "opts": [
+     "hesitation",
+     "hesitate",
+     "hesitant"
+    ],
+    "a": 2,
+    "ar": "المصنع متردد يدفع في ‎UPS‎ أكبر."
+   },
+   {
+    "s": "Please don't ___ to call our hotline.",
+    "opts": [
+     "hesitate",
+     "hesitant",
+     "hesitation"
+    ],
+    "a": 0,
+    "ar": "ياريت ماتترددش تكلم الخط الساخن."
+   }
+  ],
+  "book": "If you need any further assistance, please don't hesitate to ask."
+ },
+ {
+  "w": "figure out",
+  "ar": "تعرف / تلاقي حل",
+  "family": [
+   {
+    "w": "figure out",
+    "pos": "verb",
+    "ex": "We need to figure out why the UPS keeps switching to battery.",
+    "ar": "محتاجين نعرف ليه الـ‎UPS‎ بيفضل يحوّل على البطارية.",
+    "ex2": "Maybe the input voltage is unstable.",
+    "ar2": "يمكن جهد الدخل مش مستقر."
+   },
+   {
+    "w": "figure",
+    "pos": "noun",
+    "ex": "Can you send me the final figures for the solar quote?",
+    "ar": "ممكن تبعتلي الأرقام النهائية لعرض الطاقة الشمسية؟",
+    "ex2": "I need them for the bank's loan file.",
+    "ar2": "محتاجها لملف القرض بتاع البنك."
+   },
+   {
+    "w": "figure",
+    "pos": "verb",
+    "ex": "I figured the client would ask for a discount.",
+    "ar": "كنت متوقع إن العميل هيطلب خصم.",
+    "ex2": "So I prepared two price options.",
+    "ar2": "فجهزت اختيارين للسعر."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "understand the reason for something",
+    "mar": "تفهم سبب حاجة",
+    "ex": "I can't figure out why the VFD trips every morning.",
+    "ar": "مش قادر أفهم ليه الـ‎VFD‎ بيفصل كل يوم الصبح.",
+    "ex2": "The fault log may help us figure it out.",
+    "ar2": "سجل الأعطال ممكن يساعدنا نفهمها."
+   },
+   {
+    "m": "find a solution or plan",
+    "mar": "تلاقي حل / ترتّب",
+    "ex": "Let's figure out a delivery date that suits the client.",
+    "ar": "خلّينا نلاقي ميعاد تسليم يناسب العميل.",
+    "ex2": "Once we figure it out, I'll book the truck.",
+    "ar2": "أول ما نرتّبها، هحجز العربية."
+   }
+  ],
+  "syn": [
+   {
+    "w": "work out",
+    "note": "same meaning; also used for calculating numbers",
+    "ex": "We'll work out the payment schedule tomorrow.",
+    "ar": "هنظبط جدول الدفع بكرة.",
+    "ex2": "Mona will work out the monthly amounts.",
+    "ar2": "منى هتحسب المبالغ الشهرية."
+   },
+   {
+    "w": "solve",
+    "note": "more formal; for clear problems or faults",
+    "ex": "The engineer solved the overheating problem in one visit.",
+    "ar": "المهندس حل مشكلة السخونية في زيارة واحدة.",
+    "ex2": "He solved it by cleaning the fans.",
+    "ar2": "حلها بإنه نضّف المراوح."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "The client wants the installation before Ramadan, but the panels arrive late. Let's figure out a plan with the logistics team today.",
+  "ctx_ar": "العميل عايز التركيب قبل رمضان، بس الألواح هتوصل متأخر. خلّينا نلاقي خطة مع فريق اللوجستيات النهارده.",
+  "quiz": [
+   {
+    "s": "Can you send me the final ___ for the quote?",
+    "opts": [
+     "figure out",
+     "figures",
+     "figured"
+    ],
+    "a": 1,
+    "ar": "ممكن تبعتلي الأرقام النهائية للعرض؟"
+   },
+   {
+    "s": "We need to ___ out why the UPS keeps switching.",
+    "opts": [
+     "figure",
+     "figures",
+     "figured"
+    ],
+    "a": 0,
+    "ar": "محتاجين نعرف ليه الـ‎UPS‎ بيفضل يحوّل."
+   },
+   {
+    "s": "The engineer ___ the overheating problem in one visit.",
+    "opts": [
+     "figured",
+     "worked",
+     "solved"
+    ],
+    "a": 2,
+    "ar": "المهندس حل مشكلة السخونية في زيارة واحدة."
+   }
+  ],
+  "book": "Let's figure out the best time."
+ },
+ {
+  "w": "head out",
+  "ar": "تمشي / تخرج",
+  "family": [
+   {
+    "w": "head out",
+    "pos": "verb",
+    "ex": "I'm heading out to the factory in Sadat City.",
+    "ar": "أنا ماشي على المصنع في مدينة السادات.",
+    "ex2": "Their pump VFD stopped this morning.",
+    "ar2": "الـ‎VFD‎ بتاع الطلمبة عندهم وقف الصبح."
+   },
+   {
+    "w": "head",
+    "pos": "verb",
+    "ex": "The truck is heading to Alexandria with the batteries.",
+    "ar": "العربية رايحة إسكندرية بالبطاريات.",
+    "ex2": "It should arrive before noon.",
+    "ar2": "المفروض توصل قبل الضهر."
+   },
+   {
+    "w": "headed",
+    "pos": "adjective",
+    "ex": "Where are you headed after the site visit?",
+    "ar": "إنت رايح فين بعد زيارة الموقع؟",
+    "ex2": "If you're headed downtown, take the invoice to the bank.",
+    "ar2": "لو رايح وسط البلد، خد الفاتورة للبنك."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "leave",
+    "note": "neutral, general; can sound more final",
+    "ex": "I'm leaving at five today.",
+    "ar": "أنا ماشي الساعة خمسة النهارده.",
+    "ex2": "Before I leave, I'll send the PO.",
+    "ar2": "قبل ما أمشي، هبعت أمر الشراء."
+   },
+   {
+    "w": "take off",
+    "note": "informal; leaving now or soon",
+    "ex": "I'm going to take off; see you tomorrow.",
+    "ar": "أنا همشي؛ أشوفكم بكرة.",
+    "ex2": "Hany took off early for a site visit.",
+    "ar2": "هاني مشي بدري عشان زيارة موقع."
+   }
+  ],
+  "ant": [
+   {
+    "w": "arrive",
+    "ex": "I arrive at the office at eight every day.",
+    "ar": "بوصل المكتب الساعة تمانية كل يوم.",
+    "ex2": "When I arrive, I check the overnight UPS alarms.",
+    "ar2": "لما أوصل، ببص على إنذارات الـ‎UPS‎ بتاعة بالليل."
+   }
+  ],
+  "ladder": null,
+  "ctx": "I'm heading out now. The quotation for the bank is on the shared drive if they call before tomorrow.",
+  "ctx_ar": "أنا ماشي دلوقتي. عرض السعر بتاع البنك على الدرايف المشترك لو كلموا قبل بكرة.",
+  "quiz": [
+   {
+    "s": "The truck is ___ to Alexandria with the batteries.",
+    "opts": [
+     "head out",
+     "heading",
+     "headed out"
+    ],
+    "a": 1,
+    "ar": "العربية رايحة إسكندرية بالبطاريات."
+   },
+   {
+    "s": "Where are you ___ after the site visit?",
+    "opts": [
+     "headed",
+     "head",
+     "heading out"
+    ],
+    "a": 0,
+    "ar": "إنت رايح فين بعد زيارة الموقع؟"
+   },
+   {
+    "s": "I ___ at the office at eight every day.",
+    "opts": [
+     "leave",
+     "take off",
+     "arrive"
+    ],
+    "a": 2,
+    "ar": "بوصل المكتب الساعة تمانية كل يوم."
+   }
+  ],
+  "book": "I'm heading out now."
+ },
+ {
+  "w": "take it slow",
+  "ar": "خد وقتك / بالراحة",
+  "family": [
+   {
+    "w": "take it slow",
+    "pos": "verb",
+    "ex": "Take it slow when you explain the tender to the client.",
+    "ar": "خد وقتك وإنت بتشرح المناقصة للعميل.",
+    "ex2": "He isn't technical, so avoid jargon.",
+    "ar2": "هو مش فني، فبلاش مصطلحات."
+   },
+   {
+    "w": "slow down",
+    "pos": "verb",
+    "ex": "Could you slow down a little? I'm writing the battery specs.",
+    "ar": "ممكن تبطّأ شوية؟ بكتب مواصفات البطاريات.",
+    "ex2": "Thanks, now I have all the numbers.",
+    "ar2": "شكراً، كده معايا كل الأرقام."
+   },
+   {
+    "w": "slowly",
+    "pos": "adverb",
+    "ex": "Please speak slowly; the line from China is bad.",
+    "ar": "ياريت تتكلم بالراحة؛ الخط من الصين وحش.",
+    "ex2": "Speaking slowly helps both of us.",
+    "ar2": "الكلام بالراحة بيساعدنا إحنا الاتنين."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "take your time",
+    "note": "no rush; finish when you're ready",
+    "ex": "Take your time checking the contract.",
+    "ar": "خد وقتك وإنت بتراجع العقد.",
+    "ex2": "Take your time; we sign on Sunday.",
+    "ar2": "خد وقتك؛ هنمضي يوم الحد."
+   },
+   {
+    "w": "no rush",
+    "note": "short, informal; tells someone there's no hurry",
+    "ex": "No rush on the report; Thursday is fine.",
+    "ar": "مفيش استعجال على التقرير؛ الخميس كويس.",
+    "ex2": "No rush, but please don't forget the photos.",
+    "ar2": "مفيش استعجال، بس ماتنساش الصور."
+   }
+  ],
+  "ant": [
+   {
+    "w": "hurry",
+    "ex": "Don't hurry the battery test; safety comes first.",
+    "ar": "ماتستعجلش في اختبار البطاريات؛ الأمان الأول.",
+    "ex2": "When technicians hurry, mistakes happen.",
+    "ar2": "لما الفنيين بيستعجلوا، الغلطات بتحصل."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Raj was nervous before his call with the supplier in India. His manager said, 'Take it slow, and ask them to repeat if needed.'",
+  "ctx_ar": "‎Raj‎ كان متوتر قبل مكالمته مع المورد في الهند. مديره قاله: 'خد وقتك، واطلب منهم يعيدوا لو محتاج.'",
+  "quiz": [
+   {
+    "s": "Please speak ___; the line is bad.",
+    "opts": [
+     "slow down",
+     "slowly",
+     "take it slow"
+    ],
+    "a": 1,
+    "ar": "ياريت تتكلم بالراحة؛ الخط وحش."
+   },
+   {
+    "s": "Could you ___ down a little? I'm writing.",
+    "opts": [
+     "slowly",
+     "take",
+     "slow"
+    ],
+    "a": 2,
+    "ar": "ممكن تبطّأ شوية؟ أنا بكتب."
+   },
+   {
+    "s": "Don't ___ the test; safety comes first.",
+    "opts": [
+     "hurry",
+     "take your time",
+     "take it slow"
+    ],
+    "a": 0,
+    "ar": "ماتستعجلش في الاختبار؛ الأمان الأول."
+   }
+  ],
+  "book": "Just take it slow."
+ },
+ {
+  "w": "caught in traffic",
+  "ar": "اتزنقت في الزحمة",
+  "family": [
+   {
+    "w": "caught in traffic",
+    "pos": "adjective",
+    "ex": "Sorry, I'm caught in traffic on the Ring Road.",
+    "ar": "آسف، أنا متزنق في الزحمة على الدائري.",
+    "ex2": "I'll be at the bank in twenty minutes.",
+    "ar2": "هكون في البنك كمان عشرين دقيقة."
+   },
+   {
+    "w": "traffic",
+    "pos": "noun",
+    "ex": "Traffic in Nasr City delayed our technician by an hour.",
+    "ar": "الزحمة في مدينة نصر أخّرت الفني ساعة.",
+    "ex2": "Next time he'll leave earlier for that client.",
+    "ar2": "المرة الجاية هيمشي بدري للعميل ده."
+   },
+   {
+    "w": "traffic jam",
+    "pos": "noun",
+    "ex": "There's a traffic jam near the port, so the truck is late.",
+    "ar": "فيه زحمة جامدة جنب الميناء، فالعربية متأخرة.",
+    "ex2": "The batteries will arrive after lunch.",
+    "ar2": "البطاريات هتوصل بعد الغدا."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "stuck in traffic",
+    "note": "more common in speech; same meaning",
+    "ex": "The engineer is stuck in traffic on 26th of July Corridor.",
+    "ar": "المهندس متزنق في الزحمة على محور 26 يوليو.",
+    "ex2": "Being stuck in traffic, he called the client to apologize.",
+    "ar2": "وهو متزنق، كلّم العميل يعتذر."
+   },
+   {
+    "w": "held up",
+    "note": "general delay; any reason, not only roads",
+    "ex": "I was held up at the customs office.",
+    "ar": "اتعطّلت في مكتب الجمارك.",
+    "ex2": "They needed one more stamp on the import papers.",
+    "ar2": "كانوا محتاجين ختم كمان على ورق الاستيراد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "on time",
+    "ex": "Despite the rain, the team arrived on time.",
+    "ar": "رغم المطر، الفريق وصل في الميعاد.",
+    "ex2": "Arriving on time impressed the hospital manager.",
+    "ar2": "إنهم وصلوا في الميعاد عجب مدير المستشفى."
+   }
+  ],
+  "ladder": null,
+  "ctx": "I apologize for being late; I was caught in traffic on the Ring Road. Shall we start with the UPS quotation?",
+  "ctx_ar": "بعتذر على التأخير؛ اتزنقت في الزحمة على الدائري. نبدأ بعرض سعر الـ‎UPS‎؟",
+  "quiz": [
+   {
+    "s": "Sorry, I'm caught in ___ on the Ring Road.",
+    "opts": [
+     "traffic",
+     "traffic jam",
+     "jam"
+    ],
+    "a": 0,
+    "ar": "آسف، أنا متزنق في الزحمة على الدائري."
+   },
+   {
+    "s": "There's a ___ near the port.",
+    "opts": [
+     "traffic",
+     "caught",
+     "traffic jam"
+    ],
+    "a": 2,
+    "ar": "فيه زحمة جامدة جنب الميناء."
+   },
+   {
+    "s": "I was ___ at the customs office for an hour.",
+    "opts": [
+     "on time",
+     "held up",
+     "stuck in traffic"
+    ],
+    "a": 1,
+    "ar": "اتعطّلت في مكتب الجمارك ساعة."
+   }
+  ],
+  "book": "I was caught in traffic."
+ },
+ {
+  "w": "touch base",
+  "ar": "تتواصل / تطمّن مع حد",
+  "family": [
+   {
+    "w": "touch base",
+    "pos": "verb",
+    "ex": "Let's touch base on Monday about the solar project.",
+    "ar": "خلّينا نتواصل يوم الاتنين بخصوص مشروع الطاقة الشمسية.",
+    "ex2": "By then the supplier will confirm the panel price.",
+    "ar2": "ساعتها المورد هيكون أكّد سعر الألواح."
+   },
+   {
+    "w": "touch",
+    "pos": "noun",
+    "ex": "I'll be in touch once the PO is approved.",
+    "ar": "هتواصل معاك أول ما أمر الشراء يتوافق عليه.",
+    "ex2": "It usually takes two days with this client.",
+    "ar2": "عادة بياخد يومين مع العميل ده."
+   },
+   {
+    "w": "in touch",
+    "pos": "adjective",
+    "ex": "We keep in touch with all clients after installation.",
+    "ar": "بنفضل على تواصل مع كل العملاء بعد التركيب.",
+    "ex2": "Staying in touch helps us sell maintenance contracts.",
+    "ar2": "إننا نفضل على تواصل بيساعدنا نبيع عقود صيانة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "check in",
+    "note": "short contact to see how things are",
+    "ex": "I'll check in with the site team at noon.",
+    "ar": "هطمّن على فريق الموقع الضهر.",
+    "ex2": "Checking in early avoids surprises later.",
+    "ar2": "إنك تطمّن بدري بيمنع المفاجآت بعدين."
+   },
+   {
+    "w": "catch up",
+    "note": "longer talk to share all recent news",
+    "ex": "Let's catch up after the audit is finished.",
+    "ar": "خلّينا نقعد نتكلم بعد ما المراجعة تخلص.",
+    "ex2": "We have a lot to catch up on.",
+    "ar2": "عندنا حاجات كتير نتكلم فيها."
+   }
+  ],
+  "ant": [
+   {
+    "w": "lose touch",
+    "ex": "Don't lose touch with clients after the warranty ends.",
+    "ar": "ماتسيبش التواصل مع العملاء بعد ما الضمان يخلص.",
+    "ex2": "We lost touch with one bank, and it cost us the renewal.",
+    "ar2": "انقطع تواصلنا مع بنك، وده خسّرنا التجديد."
+   }
+  ],
+  "ladder": null,
+  "ctx": "I'll touch base with the hospital's engineer tomorrow. I want to confirm the shutdown date for the UPS upgrade.",
+  "ctx_ar": "هتواصل مع مهندس المستشفى بكرة. عايز أأكد ميعاد الفصل لترقية الـ‎UPS‎.",
+  "quiz": [
+   {
+    "s": "I'll be in ___ once the PO is approved.",
+    "opts": [
+     "touch",
+     "base",
+     "touch base"
+    ],
+    "a": 0,
+    "ar": "هتواصل معاك أول ما أمر الشراء يتوافق عليه."
+   },
+   {
+    "s": "We lost ___ with that client last year.",
+    "opts": [
+     "base",
+     "touch",
+     "in touch"
+    ],
+    "a": 1,
+    "ar": "انقطع تواصلنا مع العميل ده السنة اللي فاتت."
+   },
+   {
+    "s": "Let's ___ after the audit; we have lots of news.",
+    "opts": [
+     "check in",
+     "touch",
+     "catch up"
+    ],
+    "a": 2,
+    "ar": "خلّينا نقعد نتكلم بعد المراجعة؛ عندنا أخبار كتير."
+   }
+  ],
+  "book": "\"Touch base\" is a common business idiom."
+ },
+ {
+  "w": "check in",
+  "ar": "تطمّن على / تسأل على حد",
+  "family": [
+   {
+    "w": "check in",
+    "pos": "verb",
+    "ex": "I'll check in with the client after the battery change.",
+    "ar": "هطمّن على العميل بعد تغيير البطاريات.",
+    "ex2": "I want to be sure the alarms stopped.",
+    "ar2": "عايز أتأكد إن الإنذارات وقفت."
+   },
+   {
+    "w": "check-in",
+    "pos": "noun",
+    "ex": "We have a quick check-in with the site team every morning.",
+    "ar": "عندنا مكالمة سريعة مع فريق الموقع كل يوم الصبح.",
+    "ex2": "The check-in takes ten minutes.",
+    "ar2": "المكالمة دي بتاخد عشر دقايق."
+   },
+   {
+    "w": "check on",
+    "pos": "verb",
+    "ex": "Can you check on the status of our VAT refund?",
+    "ar": "ممكن تشوف حالة استرداد الضريبة بتاعنا؟",
+    "ex2": "Finance keeps asking me about it.",
+    "ar2": "المالية بتسألني عليه على طول."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "follow up",
+    "note": "you contact again about something still pending",
+    "ex": "I'll follow up on the unpaid invoice tomorrow.",
+    "ar": "هتابع الفاتورة اللي ماتدفعتش بكرة.",
+    "ex2": "If I follow up twice, they usually pay.",
+    "ar2": "لو تابعت مرتين، غالباً بيدفعوا."
+   },
+   {
+    "w": "touch base",
+    "note": "informal idiom; short contact to stay updated",
+    "ex": "Let's touch base after your site visit.",
+    "ar": "خلّينا نتواصل بعد زيارة الموقع بتاعتك.",
+    "ex2": "Touch base with me before you quote a price.",
+    "ar2": "كلّمني قبل ما تدّي سعر."
+   }
+  ],
+  "ant": [
+   {
+    "w": "leave alone",
+    "ex": "Leave the new engineer alone to finish the test.",
+    "ar": "سيب المهندس الجديد يخلّص الاختبار.",
+    "ex2": "He'll ask if he needs help.",
+    "ar2": "هيسأل لو احتاج مساعدة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Mona checks in with every new client a week after installation. That simple call has brought us many maintenance contracts.",
+  "ctx_ar": "منى بتطمّن على كل عميل جديد بعد التركيب بأسبوع. المكالمة البسيطة دي جابتلنا عقود صيانة كتير.",
+  "quiz": [
+   {
+    "s": "We have a quick ___ with the site team every morning.",
+    "opts": [
+     "check in",
+     "check-in",
+     "checked"
+    ],
+    "a": 1,
+    "ar": "عندنا مكالمة سريعة مع فريق الموقع كل يوم الصبح."
+   },
+   {
+    "s": "Can you ___ on the status of the VAT refund?",
+    "opts": [
+     "check",
+     "check-in",
+     "touch"
+    ],
+    "a": 0,
+    "ar": "ممكن تشوف حالة استرداد الضريبة؟"
+   },
+   {
+    "s": "I'll ___ up on the unpaid invoice tomorrow.",
+    "opts": [
+     "check",
+     "touch",
+     "follow"
+    ],
+    "a": 2,
+    "ar": "هتابع الفاتورة اللي ماتدفعتش بكرة."
+   }
+  ],
+  "book": "It means to make contact or check in with someone about a particular issue."
+ },
+ {
+  "w": "etiquette",
+  "ar": "أصول التعامل / الإتيكيت",
+  "family": [
+   {
+    "w": "etiquette",
+    "pos": "noun",
+    "ex": "Good phone etiquette keeps angry customers calm.",
+    "ar": "أصول الرد على التليفون بتهدّي العملاء المتضايقين.",
+    "ex2": "Never put a customer on hold without asking.",
+    "ar2": "ماتخليش عميل يستنى على الخط من غير ما تستأذنه."
+   },
+   {
+    "w": "polite",
+    "pos": "adjective",
+    "ex": "Be polite with the client, even about late payments.",
+    "ar": "خليك مؤدب مع العميل، حتى في الدفعات المتأخرة.",
+    "ex2": "A polite reminder works better than a threat.",
+    "ar2": "التذكير المؤدب بيجيب نتيجة أحسن من التهديد."
+   },
+   {
+    "w": "politeness",
+    "pos": "noun",
+    "ex": "Her politeness on the phone helped us win the contract.",
+    "ar": "أدبها في التليفون ساعدنا نكسب العقد.",
+    "ex2": "The client mentioned it in his email.",
+    "ar2": "العميل ذكرها في الإيميل بتاعه."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "manners",
+    "note": "everyday word; general good behaviour",
+    "ex": "Our new sales rep has excellent manners with clients.",
+    "ar": "مندوب المبيعات الجديد عنده ذوق عالي مع العملاء.",
+    "ex2": "His manners made the bank director trust him.",
+    "ar2": "ذوقه خلّى مدير البنك يثق فيه."
+   },
+   {
+    "w": "protocol",
+    "note": "formal, fixed rules, e.g. for site visits or safety",
+    "ex": "Follow site protocol before entering the data centre.",
+    "ar": "التزم بتعليمات الموقع قبل ما تدخل الداتا سنتر.",
+    "ex2": "The protocol requires a badge and safety shoes.",
+    "ar2": "التعليمات بتطلب كارنيه وجزمة سيفتي."
+   }
+  ],
+  "ant": [
+   {
+    "w": "rudeness",
+    "ex": "Rudeness on the phone can cost us a customer.",
+    "ar": "قلة الذوق في التليفون ممكن تخسّرنا عميل.",
+    "ex2": "One rudeness complaint reached the general manager.",
+    "ar2": "شكوى قلة ذوق واحدة وصلت للمدير العام."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Email etiquette matters with government clients. Always use a clear subject line and attach the quotation as a PDF.",
+  "ctx_ar": "أصول الإيميلات مهمة مع العملاء الحكوميين. استخدم دايماً عنوان واضح وابعت عرض السعر ‎PDF‎.",
+  "quiz": [
+   {
+    "s": "Good phone ___ keeps customers calm.",
+    "opts": [
+     "polite",
+     "etiquette",
+     "politeness"
+    ],
+    "a": 1,
+    "ar": "أصول الرد على التليفون بتهدّي العملاء."
+   },
+   {
+    "s": "Her ___ on the phone helped us win the contract.",
+    "opts": [
+     "politeness",
+     "polite",
+     "etiquette"
+    ],
+    "a": 0,
+    "ar": "أدبها في التليفون ساعدنا نكسب العقد."
+   },
+   {
+    "s": "Follow site ___ before entering the data centre.",
+    "opts": [
+     "manners",
+     "rudeness",
+     "protocol"
+    ],
+    "a": 2,
+    "ar": "التزم بتعليمات الموقع قبل ما تدخل الداتا سنتر."
+   }
+  ],
+  "book": "This dialogue exhibits how office etiquette contributes to a respectful and professional workplace, with each character using polite and considerate expressions."
  }
 ]

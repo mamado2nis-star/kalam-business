@@ -879,5 +879,1435 @@
     "ar": "الإدارة ركنت مشروع المخزن؛ يمكن عمره ما يحصل."
    }
   ]
+ },
+ {
+  "w": "guidelines",
+  "ar": "تعليمات / إرشادات رسمية",
+  "family": [
+   {
+    "w": "guidelines",
+    "pos": "noun",
+    "ex": "The tax authority published new guidelines for e-invoices.",
+    "ar": "مصلحة الضرايب نزّلت تعليمات جديدة للفواتير الإلكترونية.",
+    "ex2": "Every item now needs a code.",
+    "ar2": "كل صنف دلوقتي محتاج كود."
+   },
+   {
+    "w": "guide",
+    "pos": "verb",
+    "ex": "Our engineer will guide the client through the UPS settings.",
+    "ar": "المهندس بتاعنا هيمشّي العميل خطوة خطوة في إعدادات الـ‎UPS.‎",
+    "ex2": "It takes about fifteen minutes.",
+    "ar2": "بياخد حوالي ربع ساعة."
+   },
+   {
+    "w": "guide",
+    "pos": "noun",
+    "ex": "Read the installation guide before connecting the inverter.",
+    "ar": "اقرا دليل التركيب قبل ما توصّل الإنفرتر.",
+    "ex2": "Wrong wiring voids the warranty.",
+    "ar2": "التوصيل الغلط بيلغي الضمان."
+   },
+   {
+    "w": "guidance",
+    "pos": "noun",
+    "ex": "New sales staff need guidance on our discount rules.",
+    "ar": "موظفين المبيعات الجداد محتاجين توجيه في قواعد الخصم بتاعتنا.",
+    "ex2": "Their manager explains them in week one.",
+    "ar2": "مديرهم بيشرحها أول أسبوع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "rules",
+    "note": "strict; must be followed",
+    "ex": "Company rules say no discount without approval.",
+    "ar": "قواعد الشركة بتقول مفيش خصم من غير موافقة.",
+    "ex2": "No exceptions.",
+    "ar2": "مفيش استثناءات."
+   },
+   {
+    "w": "procedures",
+    "note": "the exact steps to do a task",
+    "ex": "Follow the shutdown procedures step by step.",
+    "ar": "امشي على إجراءات الفصل خطوة بخطوة.",
+    "ex2": "Skipping one can crash the servers.",
+    "ar2": "لو فوّت خطوة ممكن السيرفرات تقع."
+   },
+   {
+    "w": "policy",
+    "note": "the company's official position or plan",
+    "ex": "Our policy is to answer service calls within two hours.",
+    "ar": "سياستنا إننا نرد على مكالمات الصيانة خلال ساعتين.",
+    "ex2": "It's in every contract.",
+    "ar2": "ده في كل عقد."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how strict",
+   "lar": "قد إيه صارم",
+   "steps": [
+    {
+     "w": "tips",
+     "ex": "Here are some tips for talking to late payers.",
+     "ar": "دي شوية نصايح للكلام مع اللي بيدفعوا متأخر.",
+     "ex2": "Use them if you like.",
+     "ar2": "استخدمها لو حبيت."
+    },
+    {
+     "w": "guidelines",
+     "ex": "Please follow our guidelines for writing quotations.",
+     "ar": "من فضلك امشي على إرشاداتنا في كتابة عروض الأسعار.",
+     "ex2": "They keep offers consistent.",
+     "ar2": "بتخلي العروض شكلها واحد."
+    },
+    {
+     "w": "rules",
+     "ex": "Safety rules must be followed on every site.",
+     "ar": "قواعد السلامة لازم تتطبق في كل موقع.",
+     "ex2": "Breaking them means a warning.",
+     "ar2": "مخالفتها معناها إنذار."
+    }
+   ]
+  },
+  "ctx": "Follow the safety guidelines before you open any UPS cabinet. The DC capacitors can still hold a dangerous charge.",
+  "ctx_ar": "امشي على تعليمات السلامة قبل ما تفتح أي دولاب ‎UPS.‎ المكثفات الـ‎DC‎ ممكن يكون فيها شحنة خطيرة لسه.",
+  "quiz": [
+   {
+    "s": "Please read the installation ___ first.",
+    "opts": [
+     "guide",
+     "guidelines",
+     "guidance"
+    ],
+    "a": 0,
+    "ar": "اقرا دليل التركيب الأول."
+   },
+   {
+    "s": "New staff need ___ on our pricing rules.",
+    "opts": [
+     "guide",
+     "guidance",
+     "guidelines"
+    ],
+    "a": 1,
+    "ar": "الموظفين الجداد محتاجين توجيه في قواعد التسعير."
+   },
+   {
+    "s": "___ must be followed on every site; no exceptions.",
+    "opts": [
+     "Tips",
+     "Guidance",
+     "Rules"
+    ],
+    "a": 2,
+    "ar": "القواعد لازم تتطبق في كل موقع؛ من غير استثناءات."
+   }
+  ],
+  "book": "I worked as a cashier during my college years, and I always played by the rules and followed company guidelines, so you can be confident that I'll always act in the best interest of the business."
+ },
+ {
+  "w": "in the best interest of",
+  "ar": "في مصلحة",
+  "family": [
+   {
+    "w": "in the best interest of",
+    "pos": "adverb",
+    "ex": "It's in the best interest of both sides to sign a yearly contract.",
+    "ar": "من مصلحة الطرفين نمضي عقد سنوي.",
+    "ex2": "Prices stay fixed for twelve months.",
+    "ar2": "الأسعار بتفضل ثابتة اتناشر شهر."
+   },
+   {
+    "w": "interest",
+    "pos": "noun",
+    "ex": "We share an interest in reducing downtime.",
+    "ar": "إحنا والعميل عندنا مصلحة واحدة في تقليل التوقف.",
+    "ex2": "So we plan maintenance together.",
+    "ar2": "فبنخطط الصيانة سوا."
+   },
+   {
+    "w": "interested",
+    "pos": "adjective",
+    "ex": "The factory is interested in a solar system for its roof.",
+    "ar": "المصنع مهتم بنظام طاقة شمسية للسطح.",
+    "ex2": "I'll send a quotation tomorrow.",
+    "ar2": "هبعت عرض سعر بكرة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "for the good of",
+    "note": "less formal; helps a group or company",
+    "ex": "For the good of the team, share your client notes.",
+    "ar": "عشان مصلحة الفريق، شارك ملاحظاتك عن العملاء.",
+    "ex2": "Anyone may need to cover you.",
+    "ar2": "أي حد ممكن يحتاج يغطيك."
+   },
+   {
+    "w": "on behalf of",
+    "note": "acting for someone, not about benefit",
+    "ex": "I'm calling on behalf of our finance department.",
+    "ar": "بتصل بالنيابة عن قسم الحسابات بتاعنا.",
+    "ex2": "It's about invoice 2041.",
+    "ar2": "بخصوص فاتورة 2041."
+   }
+  ],
+  "ant": [
+   {
+    "w": "against the interests of",
+    "ex": "Hiding the fault would be against the interests of the client.",
+    "ar": "إخفاء العطل هيبقى ضد مصلحة العميل.",
+    "ex2": "We must report it honestly.",
+    "ar2": "لازم نبلّغ بيه بأمانة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "It's in the best interest of the client to replace the batteries now. If they fail in summer, the hospital loses power.",
+  "ctx_ar": "من مصلحة العميل يغيّر البطاريات دلوقتي. لو عطلت في الصيف، المستشفى هتفصل كهربا.",
+  "quiz": [
+   {
+    "s": "It's ___ the client to upgrade now.",
+    "opts": [
+     "in the best interest of",
+     "interested",
+     "interest"
+    ],
+    "a": 0,
+    "ar": "من مصلحة العميل يعمل ‎upgrade‎ دلوقتي."
+   },
+   {
+    "s": "The factory is ___ in a solar system.",
+    "opts": [
+     "interest",
+     "interested",
+     "in the best interest of"
+    ],
+    "a": 1,
+    "ar": "المصنع مهتم بنظام طاقة شمسية."
+   },
+   {
+    "s": "I'm calling ___ our finance team.",
+    "opts": [
+     "interested",
+     "in the best interest of",
+     "on behalf of"
+    ],
+    "a": 2,
+    "ar": "بتصل بالنيابة عن فريق الحسابات."
+   }
+  ],
+  "book": "I worked as a cashier during my college years, and I always played by the rules and followed company guidelines, so you can be confident that I'll always act in the best interest of the business."
+ },
+ {
+  "w": "comprehensive",
+  "ar": "شامل / كامل",
+  "family": [
+   {
+    "w": "comprehensive",
+    "pos": "adjective",
+    "ex": "The client wants a comprehensive report on all thirty UPS units.",
+    "ar": "العميل عايز تقرير شامل عن التلاتين جهاز ‎UPS‎ كلهم.",
+    "ex2": "Include battery test results.",
+    "ar2": "حط نتايج اختبار البطاريات."
+   },
+   {
+    "w": "comprehensively",
+    "pos": "adverb",
+    "ex": "The engineer tested the solar system comprehensively before handover.",
+    "ar": "المهندس اختبر نظام الطاقة الشمسية بشكل شامل قبل التسليم.",
+    "ex2": "Every string was measured.",
+    "ar2": "كل ‎string‎ اتقاس."
+   },
+   {
+    "w": "comprehend",
+    "pos": "verb",
+    "ex": "Some clients don't comprehend the difference between online and offline UPS.",
+    "ar": "بعض العملاء مش فاهمين الفرق بين الـ‎UPS‎ الأونلاين والأوفلاين.",
+    "ex2": "Use a simple drawing.",
+    "ar2": "استخدم رسمة بسيطة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "full",
+    "note": "everyday; nothing missing",
+    "ex": "Please send a full price list with accessories.",
+    "ar": "ابعت قايمة أسعار كاملة بالإكسسوارات.",
+    "ex2": "The client wants everything in one offer.",
+    "ar2": "العميل عايز كل حاجة في عرض واحد."
+   },
+   {
+    "w": "all-inclusive",
+    "note": "about price: everything included",
+    "ex": "The price is all-inclusive: delivery, installation and training.",
+    "ar": "السعر شامل كل حاجة: توصيل وتركيب وتدريب.",
+    "ex2": "No hidden costs.",
+    "ar2": "مفيش مصاريف مخفية."
+   }
+  ],
+  "ant": [
+   {
+    "w": "partial",
+    "ex": "We only got a partial payment of forty percent.",
+    "ar": "وصلنا جزء من الفلوس بس، أربعين في المية.",
+    "ex2": "The rest is due next month.",
+    "ar2": "الباقي مستحق الشهر الجاي."
+   },
+   {
+    "w": "limited",
+    "ex": "The basic contract gives limited coverage: labour only.",
+    "ar": "العقد الأساسي تغطيته محدودة: مصنعية بس.",
+    "ex2": "Parts are charged separately.",
+    "ar2": "قطع الغيار بتتحاسب لوحدها."
+   }
+  ],
+  "ladder": {
+   "label": "how much it covers",
+   "lar": "بيغطي قد إيه",
+   "steps": [
+    {
+     "w": "basic",
+     "ex": "The basic contract covers two visits a year.",
+     "ar": "العقد الأساسي بيغطي زيارتين في السنة.",
+     "ex2": "Parts are extra.",
+     "ar2": "قطع الغيار زيادة."
+    },
+    {
+     "w": "full",
+     "ex": "The full contract covers parts and labour.",
+     "ar": "العقد الكامل بيغطي القطع والمصنعية.",
+     "ex2": "Batteries are not included.",
+     "ar2": "البطاريات مش داخلة."
+    },
+    {
+     "w": "comprehensive",
+     "ex": "The comprehensive contract covers everything, even batteries.",
+     "ar": "العقد الشامل بيغطي كل حاجة، حتى البطاريات.",
+     "ex2": "Response time is four hours.",
+     "ar2": "وقت الاستجابة أربع ساعات."
+    }
+   ]
+  },
+  "ctx": "We offer a comprehensive maintenance contract for data centres. It covers UPS units, batteries, cooling and spare parts.",
+  "ctx_ar": "بنقدم عقد صيانة شامل للداتا سنتر. بيغطي أجهزة الـ‎UPS‎ والبطاريات والتبريد وقطع الغيار.",
+  "quiz": [
+   {
+    "s": "We need a ___ report on all the units.",
+    "opts": [
+     "comprehend",
+     "comprehensive",
+     "comprehensively"
+    ],
+    "a": 1,
+    "ar": "محتاجين تقرير شامل عن كل الأجهزة."
+   },
+   {
+    "s": "The system was tested ___ before handover.",
+    "opts": [
+     "comprehensively",
+     "comprehensive",
+     "comprehend"
+    ],
+    "a": 0,
+    "ar": "النظام اتختبر بشكل شامل قبل التسليم."
+   },
+   {
+    "s": "We only received a ___ payment.",
+    "opts": [
+     "comprehensive",
+     "full",
+     "partial"
+    ],
+    "a": 2,
+    "ar": "وصلنا جزء من الدفعة بس."
+   }
+  ],
+  "book": "I got very comprehensive training at ___, which makes me confident I'll do an excellent job in my role as ___."
+ },
+ {
+  "w": "multitask",
+  "ar": "تعمل كذا حاجة في نفس الوقت",
+  "family": [
+   {
+    "w": "multitask",
+    "pos": "verb",
+    "ex": "Sales coordinators must multitask during busy months.",
+    "ar": "منسقين المبيعات لازم يعملوا كذا حاجة سوا في الشهور الزحمة.",
+    "ex2": "December is the busiest.",
+    "ar2": "ديسمبر أزحم شهر."
+   },
+   {
+    "w": "multitasking",
+    "pos": "noun",
+    "ex": "Multitasking is useful, but it can cause errors on invoices.",
+    "ar": "إنك تعمل كذا حاجة سوا مفيد، بس ممكن يعمل أخطاء في الفواتير.",
+    "ex2": "Check each one twice.",
+    "ar2": "راجع كل واحدة مرتين."
+   },
+   {
+    "w": "multitasker",
+    "pos": "person",
+    "ex": "Nada is a great multitasker; she handles three projects.",
+    "ar": "‎Nada‎ شاطرة جدًا في إنها تمسك كذا حاجة؛ ماسكة تلات مشاريع.",
+    "ex2": "None of them is late.",
+    "ar2": "ولا واحد فيهم متأخر."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "juggle",
+    "note": "informal; handle many things with difficulty",
+    "ex": "I'm juggling five open tenders this week.",
+    "ar": "بلاعب خمس مناقصات مفتوحة الأسبوع ده.",
+    "ex2": "Two close on Thursday.",
+    "ar2": "اتنين بيقفلوا الخميس."
+   },
+   {
+    "w": "handle several tasks at once",
+    "note": "neutral, clear description",
+    "ex": "She can handle several tasks at once without stress.",
+    "ar": "تقدر تمسك كذا مهمة في نفس الوقت من غير ضغط.",
+    "ex2": "That's why she runs the service desk.",
+    "ar2": "عشان كده هي ماسكة الـ‎service desk.‎"
+   }
+  ],
+  "ant": [
+   {
+    "w": "focus on one thing",
+    "ex": "For the tender, I need to focus on one thing at a time.",
+    "ar": "في المناقصة، محتاج أركّز على حاجة واحدة في المرة.",
+    "ex2": "Mistakes are very costly.",
+    "ar2": "الأخطاء غالية جدًا."
+   }
+  ],
+  "ladder": null,
+  "ctx": "In the service office, I have to multitask all day. I answer client calls, book visits and send spare-parts quotations.",
+  "ctx_ar": "في مكتب الصيانة لازم أعمل كذا حاجة طول اليوم. برد على مكالمات العملاء وبحجز زيارات وببعت عروض قطع غيار.",
+  "quiz": [
+   {
+    "s": "I have to ___ during busy months.",
+    "opts": [
+     "multitask",
+     "multitasking",
+     "multitasker"
+    ],
+    "a": 0,
+    "ar": "لازم أعمل كذا حاجة سوا في الشهور الزحمة."
+   },
+   {
+    "s": "___ can lead to errors on invoices.",
+    "opts": [
+     "Multitask",
+     "Multitasking",
+     "Multitasker"
+    ],
+    "a": 1,
+    "ar": "إنك تعمل كذا حاجة سوا ممكن يعمل أخطاء في الفواتير."
+   },
+   {
+    "s": "She's a strong ___; she runs three projects.",
+    "opts": [
+     "multitask",
+     "multitasking",
+     "multitasker"
+    ],
+    "a": 2,
+    "ar": "هي شاطرة في إنها تمسك كذا حاجة؛ ماسكة تلات مشاريع."
+   }
+  ],
+  "book": "After working part-time as a ___, I learned how to multitask and prioritize responsibilities."
+ },
+ {
+  "w": "fast-paced",
+  "ar": "سريع الإيقاع / الشغل فيه جري",
+  "family": [
+   {
+    "w": "fast-paced",
+    "pos": "adjective",
+    "ex": "I enjoy the fast-paced world of UPS sales.",
+    "ar": "بحب جو مبيعات الـ‎UPS‎ السريع.",
+    "ex2": "Every day brings new clients.",
+    "ar2": "كل يوم فيه عملاء جداد."
+   },
+   {
+    "w": "pace",
+    "pos": "noun",
+    "ex": "The pace of work increases before the summer.",
+    "ar": "سرعة الشغل بتزيد قبل الصيف.",
+    "ex2": "Everyone wants their batteries checked.",
+    "ar2": "الكل عايز يشيّك على بطارياته."
+   },
+   {
+    "w": "pace",
+    "pos": "verb",
+    "ex": "Pace yourself; the solar project lasts six months.",
+    "ar": "وزّع مجهودك؛ مشروع الطاقة الشمسية هيكمّل ست شهور.",
+    "ex2": "Don't burn out in the first month.",
+    "ar2": "متتهدش أول شهر."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "dynamic",
+    "note": "positive; full of change and energy",
+    "ex": "We're a dynamic team that loves new technology.",
+    "ar": "إحنا فريق حيوي بيحب التكنولوجيا الجديدة.",
+    "ex2": "We were first to sell lithium UPS.",
+    "ar2": "كنا أول ناس تبيع ‎UPS‎ ليثيوم."
+   },
+   {
+    "w": "hectic",
+    "note": "negative; too busy and a bit chaotic",
+    "ex": "Today was hectic: three breakdowns and a tender.",
+    "ar": "النهارده كان يوم مجنون: تلات أعطال ومناقصة.",
+    "ex2": "I didn't eat lunch.",
+    "ar2": "ماكلتش غدا."
+   }
+  ],
+  "ant": [
+   {
+    "w": "slow-paced",
+    "ex": "Government projects are slow-paced; approvals take months.",
+    "ar": "المشاريع الحكومية بطيئة؛ الموافقات بتاخد شهور.",
+    "ex2": "Be patient with them.",
+    "ar2": "اصبر عليهم."
+   },
+   {
+    "w": "relaxed",
+    "ex": "The warehouse has a more relaxed atmosphere.",
+    "ar": "المخزن جوّه أهدى.",
+    "ex2": "Except at stock count time.",
+    "ar2": "إلا وقت الجرد."
+   }
+  ],
+  "ladder": {
+   "label": "how fast",
+   "lar": "قد إيه سريع",
+   "steps": [
+    {
+     "w": "steady",
+     "ex": "Sales grow at a steady pace in winter.",
+     "ar": "المبيعات بتزيد بمعدل ثابت في الشتا.",
+     "ex2": "No big rush.",
+     "ar2": "مفيش زحمة كبيرة."
+    },
+    {
+     "w": "fast-paced",
+     "ex": "Summer is fast-paced for our service team.",
+     "ar": "الصيف سريع الإيقاع لفريق الصيانة.",
+     "ex2": "Many UPS units overheat.",
+     "ar2": "أجهزة ‎UPS‎ كتير بتسخن."
+    },
+    {
+     "w": "hectic",
+     "ex": "The first week of the heatwave was hectic.",
+     "ar": "أول أسبوع في موجة الحر كان مجنون.",
+     "ex2": "We worked until midnight daily.",
+     "ar2": "كنا بنشتغل لنص الليل كل يوم."
+    }
+   ]
+  },
+  "ctx": "Field service is a fast-paced job. One call can send you from a bank in Zamalek to a factory in Sadat City.",
+  "ctx_ar": "شغل الصيانة الميدانية سريع وفيه جري. مكالمة واحدة ممكن تنقلك من بنك في الزمالك لمصنع في السادات.",
+  "quiz": [
+   {
+    "s": "I enjoy working in a ___ environment.",
+    "opts": [
+     "fast-paced",
+     "pace",
+     "pacing"
+    ],
+    "a": 0,
+    "ar": "بحب أشتغل في بيئة سريعة الإيقاع."
+   },
+   {
+    "s": "The ___ of work rises before summer.",
+    "opts": [
+     "fast-paced",
+     "pace",
+     "hectic"
+    ],
+    "a": 1,
+    "ar": "سرعة الشغل بتزيد قبل الصيف."
+   },
+   {
+    "s": "Three breakdowns in one day — it was ___!",
+    "opts": [
+     "slow-paced",
+     "relaxed",
+     "hectic"
+    ],
+    "a": 2,
+    "ar": "تلات أعطال في يوم واحد — كان يوم مجنون!"
+   }
+  ],
+  "book": "In your fast-paced organization, setting priorities well is a big part of being successful, so out of all the candidates, I believe I'm the best choice."
+ },
+ {
+  "w": "allocate",
+  "ar": "تخصّص / توزّع (وقت، فلوس، ناس)",
+  "family": [
+   {
+    "w": "allocate",
+    "pos": "verb",
+    "ex": "The company allocated a budget for new testing equipment.",
+    "ar": "الشركة خصصت ميزانية لأجهزة اختبار جديدة.",
+    "ex2": "We'll buy a battery analyzer.",
+    "ar2": "هنشتري جهاز تحليل بطاريات."
+   },
+   {
+    "w": "allocation",
+    "pos": "noun",
+    "ex": "The allocation of stock between branches is done weekly.",
+    "ar": "توزيع المخزون بين الفروع بيتعمل كل أسبوع.",
+    "ex2": "Alexandria gets the most batteries.",
+    "ar2": "إسكندرية بتاخد أكتر بطاريات."
+   },
+   {
+    "w": "allocated",
+    "pos": "adjective",
+    "ex": "Please finish the visit within the allocated time.",
+    "ar": "من فضلك خلّص الزيارة في الوقت المخصص.",
+    "ex2": "The next client is waiting.",
+    "ar2": "العميل اللي بعده مستني."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "assign",
+    "note": "give a specific task to a person",
+    "ex": "I'll assign the VFD repair to Mostafa.",
+    "ar": "هدّي تصليح الـ‎VFD‎ لـ‎Mostafa.‎",
+    "ex2": "He knows that model.",
+    "ar2": "هو عارف الموديل ده."
+   },
+   {
+    "w": "set aside",
+    "note": "informal; keep time or money for one use",
+    "ex": "Set aside one hour daily for collections calls.",
+    "ar": "خصص ساعة كل يوم لمكالمات التحصيل.",
+    "ex2": "Mornings work best.",
+    "ar2": "الصبح أحسن وقت."
+   }
+  ],
+  "ant": [
+   {
+    "w": "withdraw",
+    "ex": "Management withdrew the budget for the new van.",
+    "ar": "الإدارة سحبت ميزانية العربية الجديدة.",
+    "ex2": "Sales were lower than planned.",
+    "ar2": "المبيعات كانت أقل من المتوقع."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We allocated two engineers to the hospital project. The rest of the team will cover routine maintenance visits.",
+  "ctx_ar": "خصصنا مهندسين اتنين لمشروع المستشفى. باقي الفريق هيغطي زيارات الصيانة الروتينية.",
+  "quiz": [
+   {
+    "s": "We ___ two engineers to the project.",
+    "opts": [
+     "allocated",
+     "allocation",
+     "allocating"
+    ],
+    "a": 0,
+    "ar": "خصصنا مهندسين اتنين للمشروع."
+   },
+   {
+    "s": "The stock ___ between branches is weekly.",
+    "opts": [
+     "allocate",
+     "allocation",
+     "allocated"
+    ],
+    "a": 1,
+    "ar": "توزيع المخزون بين الفروع كل أسبوع."
+   },
+   {
+    "s": "Finish within the ___ time, please.",
+    "opts": [
+     "allocation",
+     "allocate",
+     "allocated"
+    ],
+    "a": 2,
+    "ar": "خلّص في الوقت المخصص من فضلك."
+   }
+  ],
+  "book": "Since I was young, I've developed the habit of listing all my tasks and allocating time to each one."
+ },
+ {
+  "w": "come in handy",
+  "ar": "تنفع / تيجي في وقتها",
+  "family": [
+   {
+    "w": "come in handy",
+    "pos": "verb",
+    "ex": "A spare fuse can come in handy on remote solar sites.",
+    "ar": "فيوز احتياطي ممكن ينفع في مواقع الطاقة الشمسية البعيدة.",
+    "ex2": "The nearest shop is 50 km away.",
+    "ar2": "أقرب محل على بعد 50 كيلو."
+   },
+   {
+    "w": "handy",
+    "pos": "adjective",
+    "ex": "This clamp meter is very handy for quick checks.",
+    "ar": "جهاز الكلامب ميتر ده عملي جدًا للفحص السريع.",
+    "ex2": "It fits in your pocket.",
+    "ar2": "بيدخل في جيبك."
+   },
+   {
+    "w": "handily",
+    "pos": "adverb",
+    "ex": "Our offer handily beat the competitors on price.",
+    "ar": "عرضنا كسب المنافسين في السعر بسهولة.",
+    "ex2": "We won the tender.",
+    "ar2": "كسبنا المناقصة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "be useful",
+    "note": "neutral; general value",
+    "ex": "Your German will be useful with the battery supplier.",
+    "ar": "الألماني بتاعك هيفيد مع مورد البطاريات.",
+    "ex2": "Their engineers prefer it.",
+    "ar2": "مهندسينهم بيفضلوه."
+   },
+   {
+    "w": "pay off",
+    "note": "informal; effort brings results later",
+    "ex": "Extra VFD training will pay off this year.",
+    "ar": "تدريب الـ‎VFD‎ الزيادة هيجيب نتيجة السنة دي.",
+    "ex2": "We expect three pump projects.",
+    "ar2": "متوقعين تلات مشاريع طلمبات."
+   }
+  ],
+  "ant": [
+   {
+    "w": "useless",
+    "ex": "Without the password, the remote monitoring is useless.",
+    "ar": "من غير الباسورد، المراقبة عن بعد ملهاش لازمة.",
+    "ex2": "Ask the client for it.",
+    "ar2": "اطلبه من العميل."
+   }
+  ],
+  "ladder": null,
+  "ctx": "My Excel skills come in handy when I prepare collections reports. I can show all overdue invoices in one chart.",
+  "ctx_ar": "مهاراتي في ‎Excel‎ بتنفعني لما بجهّز تقارير التحصيل. بقدر أعرض كل الفواتير المتأخرة في رسمة واحدة.",
+  "quiz": [
+   {
+    "s": "A spare fuse will ___ on site.",
+    "opts": [
+     "come in handy",
+     "handy",
+     "handily"
+    ],
+    "a": 0,
+    "ar": "فيوز احتياطي هينفع في الموقع."
+   },
+   {
+    "s": "This small meter is very ___.",
+    "opts": [
+     "come in handy",
+     "handy",
+     "handily"
+    ],
+    "a": 1,
+    "ar": "الجهاز الصغير ده عملي جدًا."
+   },
+   {
+    "s": "All that extra training finally ___ this year.",
+    "opts": [
+     "handy",
+     "handily",
+     "paid off"
+    ],
+    "a": 2,
+    "ar": "كل التدريب ده جاب نتيجة السنة دي."
+   }
+  ],
+  "book": "I feel this strength would come in handy for this role, as it can help me meet deadlines with ease."
+ },
+ {
+  "w": "step in",
+  "ar": "تتدخل / تمسك مكان حد وقت الحاجة",
+  "family": [
+   {
+    "w": "step in",
+    "pos": "verb",
+    "ex": "The director had to step in to solve the price dispute.",
+    "ar": "المدير اضطر يتدخل يحل خلاف السعر.",
+    "ex2": "The client wanted a bigger discount.",
+    "ar2": "العميل كان عايز خصم أكبر."
+   },
+   {
+    "w": "step",
+    "pos": "noun",
+    "ex": "The next step is a site survey for the solar station.",
+    "ar": "الخطوة الجاية معاينة موقع لمحطة الطاقة الشمسية.",
+    "ex2": "I'll go on Tuesday.",
+    "ar2": "هروح يوم التلات."
+   },
+   {
+    "w": "step up",
+    "pos": "verb",
+    "ex": "We need to step up our follow-up on overdue invoices.",
+    "ar": "لازم نشد في متابعة الفواتير المتأخرة.",
+    "ex2": "Cash is tight this quarter.",
+    "ar2": "السيولة ضيقة الربع ده."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "take over",
+    "note": "take full control of someone's work",
+    "ex": "Can you take over the Delta clients next month?",
+    "ar": "ممكن تمسك عملاء الدلتا الشهر الجاي؟",
+    "ex2": "Hany is moving to Aswan.",
+    "ar2": "‎Hany‎ رايح أسوان."
+   },
+   {
+    "w": "intervene",
+    "note": "formal; get involved to stop a problem",
+    "ex": "Legal had to intervene when the client refused to pay.",
+    "ar": "القانونية اضطرت تتدخل لما العميل رفض يدفع.",
+    "ex2": "They sent an official letter.",
+    "ar2": "بعتوا خطاب رسمي."
+   }
+  ],
+  "ant": [
+   {
+    "w": "stay out of",
+    "ex": "Stay out of the pricing talks; that's the manager's job.",
+    "ar": "متدخلش في كلام الأسعار؛ ده شغل المدير.",
+    "ex2": "Focus on the technical part.",
+    "ar2": "ركّز على الجزء الفني."
+   }
+  ],
+  "ladder": {
+   "label": "how much you get involved",
+   "lar": "قد إيه بتدخل",
+   "steps": [
+    {
+     "w": "help out",
+     "ex": "Can you help out with the stock count?",
+     "ar": "ممكن تساعد في الجرد؟",
+     "ex2": "Just for two hours.",
+     "ar2": "ساعتين بس."
+    },
+    {
+     "w": "step in",
+     "ex": "Sara stepped in when the coordinator was off.",
+     "ar": "‎Sara‎ مسكت مكان المنسقة لما كانت إجازة.",
+     "ex2": "She booked all the visits.",
+     "ar2": "حجزت كل الزيارات."
+    },
+    {
+     "w": "take over",
+     "ex": "Sara will take over the coordinator role permanently.",
+     "ar": "‎Sara‎ هتمسك دور المنسقة بشكل دايم.",
+     "ex2": "She starts on the first.",
+     "ar2": "هتبدأ أول الشهر."
+    }
+   ]
+  },
+  "ctx": "When Ahmed got sick, Lina stepped in and handled his clients. No collections were delayed that month.",
+  "ctx_ar": "لما ‎Ahmed‎ تعب، ‎Lina‎ دخلت ومسكت عملاءه. ولا تحصيل اتأخر الشهر ده.",
+  "quiz": [
+   {
+    "s": "Lina ___ when Ahmed was sick.",
+    "opts": [
+     "stepped in",
+     "step",
+     "stepped up"
+    ],
+    "a": 0,
+    "ar": "‎Lina‎ مسكت مكان ‎Ahmed‎ لما كان عيان."
+   },
+   {
+    "s": "The next ___ is a site survey.",
+    "opts": [
+     "step in",
+     "step",
+     "step up"
+    ],
+    "a": 1,
+    "ar": "الخطوة الجاية معاينة موقع."
+   },
+   {
+    "s": "We must ___ our follow-up on late payments.",
+    "opts": [
+     "step in",
+     "stay out of",
+     "step up"
+    ],
+    "a": 2,
+    "ar": "لازم نشد في متابعة المدفوعات المتأخرة."
+   }
+  ],
+  "book": "Work ethic: My strongest asset is my work ethic and my willingness to step in when needed."
+ },
+ {
+  "w": "burnout",
+  "ar": "إرهاق شديد من الشغل / احتراق نفسي",
+  "family": [
+   {
+    "w": "burnout",
+    "pos": "noun",
+    "ex": "Burnout is common in sales teams with very high targets.",
+    "ar": "الإرهاق الشديد منتشر في فرق المبيعات اللي التارجت بتاعها عالي جدًا.",
+    "ex2": "Two engineers quit last year.",
+    "ar2": "مهندسين اتنين استقالوا السنة اللي فاتت."
+   },
+   {
+    "w": "burn out",
+    "pos": "verb",
+    "ex": "If you work every Friday, you'll burn out quickly.",
+    "ar": "لو اشتغلت كل جمعة، هتتهد بسرعة.",
+    "ex2": "Take your days off.",
+    "ar2": "خد أيام إجازتك."
+   },
+   {
+    "w": "burned out",
+    "pos": "adjective",
+    "ex": "After the data-centre project, the whole team felt burned out.",
+    "ar": "بعد مشروع الداتا سنتر، الفريق كله كان مهدود.",
+    "ex2": "The manager gave everyone two extra days.",
+    "ar2": "المدير إدّى الكل يومين زيادة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "exhaustion",
+    "note": "physical or mental tiredness, can be short-term",
+    "ex": "Exhaustion after a 14-hour shift is normal.",
+    "ar": "الإرهاق بعد شيفت 14 ساعة طبيعي.",
+    "ex2": "Rest before driving home.",
+    "ar2": "ارتاح قبل ما تسوق للبيت."
+   },
+   {
+    "w": "stress",
+    "note": "pressure you feel; not always harmful",
+    "ex": "Month-end collections cause a lot of stress.",
+    "ar": "تحصيل آخر الشهر بيعمل ضغط كبير.",
+    "ex2": "Everyone wants to hit target.",
+    "ar2": "الكل عايز يحقق التارجت."
+   }
+  ],
+  "ant": [
+   {
+    "w": "work-life balance",
+    "ex": "A good work-life balance prevents burnout.",
+    "ar": "التوازن بين الشغل والحياة بيمنع الإرهاق الشديد.",
+    "ex2": "We don't send emails after 8 p.m.",
+    "ar2": "مش بنبعت إيميلات بعد 8 بالليل."
+   }
+  ],
+  "ladder": {
+   "label": "how tired",
+   "lar": "قد إيه تعبان",
+   "steps": [
+    {
+     "w": "tired",
+     "ex": "I'm tired after three site visits.",
+     "ar": "أنا تعبان بعد تلات زيارات مواقع.",
+     "ex2": "A good sleep will fix it.",
+     "ar2": "نومة كويسة هتظبطها."
+    },
+    {
+     "w": "exhausted",
+     "ex": "I'm exhausted after the 14-hour shutdown.",
+     "ar": "أنا مهدود بعد فصل 14 ساعة.",
+     "ex2": "I need a day off.",
+     "ar2": "محتاج يوم إجازة."
+    },
+    {
+     "w": "burned out",
+     "ex": "After months of night shifts, he's burned out.",
+     "ar": "بعد شهور من شيفتات الليل، هو محروق خالص.",
+     "ex2": "He's thinking of quitting.",
+     "ar2": "بيفكر يستقيل."
+    }
+   ]
+  },
+  "ctx": "Too many night call-outs can lead to burnout. That's why we rotate the emergency shift every week.",
+  "ctx_ar": "مكالمات الطوارئ الكتير بالليل ممكن توصّل للإرهاق الشديد. عشان كده بنبدّل شيفت الطوارئ كل أسبوع.",
+  "quiz": [
+   {
+    "s": "Long night shifts can lead to ___.",
+    "opts": [
+     "burnout",
+     "burn out",
+     "burned out"
+    ],
+    "a": 0,
+    "ar": "شيفتات الليل الطويلة ممكن توصّل للإرهاق الشديد."
+   },
+   {
+    "s": "If you never rest, you'll ___.",
+    "opts": [
+     "burnout",
+     "burn out",
+     "burned out"
+    ],
+    "a": 1,
+    "ar": "لو عمرك ما ارتحت، هتتهد."
+   },
+   {
+    "s": "After months of overtime, he felt totally ___.",
+    "opts": [
+     "tired",
+     "stress",
+     "burned out"
+    ],
+    "a": 2,
+    "ar": "بعد شهور أوفر تايم، حس إنه محروق خالص."
+   }
+  ],
+  "book": "Self-criticism: I can be quite critical of myself, which can lead to negative self-talk and eventual burnout."
+ },
+ {
+  "w": "milestone",
+  "ar": "مرحلة مهمة / إنجاز في مشروع",
+  "family": [
+   {
+    "w": "milestone",
+    "pos": "noun",
+    "ex": "Payment is linked to project milestones.",
+    "ar": "الدفع مربوط بمراحل المشروع.",
+    "ex2": "Delivery, installation and handover.",
+    "ar2": "التسليم والتركيب والاستلام."
+   },
+   {
+    "w": "milestones",
+    "pos": "noun",
+    "ex": "We reached all milestones on the data-centre project.",
+    "ar": "وصلنا كل مراحل مشروع الداتا سنتر.",
+    "ex2": "The client was very happy.",
+    "ar2": "العميل كان مبسوط جدًا."
+   },
+   {
+    "w": "mile",
+    "pos": "noun",
+    "ex": "The site is twenty miles from the nearest town.",
+    "ar": "الموقع على بعد عشرين ميل من أقرب مدينة.",
+    "ex2": "Bring all the tools you need.",
+    "ar2": "خد كل العدة اللي محتاجها."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "stage",
+    "note": "a part or step of a process",
+    "ex": "The project is in the installation stage now.",
+    "ar": "المشروع في مرحلة التركيب دلوقتي.",
+    "ex2": "Testing starts next week.",
+    "ar2": "الاختبار يبدأ الأسبوع الجاي."
+   },
+   {
+    "w": "achievement",
+    "note": "something good you did, not part of a plan",
+    "ex": "Our biggest achievement this year was the Aswan station.",
+    "ar": "أكبر إنجاز لينا السنة دي محطة أسوان.",
+    "ex2": "It's 5 megawatts.",
+    "ar2": "هي 5 ميجاوات."
+   }
+  ],
+  "ant": [
+   {
+    "w": "setback",
+    "ex": "The customs delay was a big setback for the project.",
+    "ar": "تأخير الجمارك كان انتكاسة كبيرة للمشروع.",
+    "ex2": "We lost three weeks.",
+    "ar2": "خسرنا تلات أسابيع."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The first milestone is delivering the solar panels to the site. The client pays thirty percent when we reach it.",
+  "ctx_ar": "أول مرحلة إننا نسلّم ألواح الطاقة الشمسية للموقع. العميل بيدفع تلاتين في المية لما نوصلها.",
+  "quiz": [
+   {
+    "s": "Payments are linked to project ___.",
+    "opts": [
+     "milestones",
+     "mile",
+     "setback"
+    ],
+    "a": 0,
+    "ar": "الدفعات مربوطة بمراحل المشروع."
+   },
+   {
+    "s": "The site is ten ___ from the road.",
+    "opts": [
+     "milestones",
+     "miles",
+     "stages"
+    ],
+    "a": 1,
+    "ar": "الموقع على بعد عشرة ميل من الطريق."
+   },
+   {
+    "s": "The customs delay was a serious ___.",
+    "opts": [
+     "milestone",
+     "achievement",
+     "setback"
+    ],
+    "a": 2,
+    "ar": "تأخير الجمارك كان انتكاسة كبيرة."
+   }
+  ],
+  "book": "I've found that I can avoid this by recording my goals, objectives and key results, and setting aside time to celebrate milestones and achievements, big and small."
+ },
+ {
+  "w": "tackle",
+  "ar": "تمسك المشكلة وتتعامل معاها",
+  "family": [
+   {
+    "w": "tackle",
+    "pos": "verb",
+    "ex": "We need to tackle the repeated UPS failures at the bank.",
+    "ar": "لازم نتعامل مع أعطال الـ‎UPS‎ المتكررة في البنك.",
+    "ex2": "It's the third this month.",
+    "ar2": "دي التالتة الشهر ده."
+   },
+   {
+    "w": "tackling",
+    "pos": "noun",
+    "ex": "Tackling late payments early saves a lot of trouble.",
+    "ar": "التعامل مع التأخير في الدفع بدري بيوفّر مشاكل كتير.",
+    "ex2": "Call on day one.",
+    "ar2": "كلم من أول يوم."
+   },
+   {
+    "w": "tackle head-on",
+    "pos": "verb",
+    "ex": "We decided to tackle the battery problem head-on.",
+    "ar": "قررنا نواجه مشكلة البطاريات على طول من غير لف.",
+    "ex2": "We replaced the whole string.",
+    "ar2": "غيرنا الـ‎string‎ كله."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "deal with",
+    "note": "neutral, common in speech",
+    "ex": "I'll deal with the client's complaint today.",
+    "ar": "هتعامل مع شكوى العميل النهارده.",
+    "ex2": "He's been waiting since Sunday.",
+    "ar2": "مستني من يوم الحد."
+   },
+   {
+    "w": "address",
+    "note": "formal; used in reports and emails",
+    "ex": "We will address the battery issue in our next visit.",
+    "ar": "هنعالج مشكلة البطاريات في الزيارة الجاية.",
+    "ex2": "New cells are on order.",
+    "ar2": "الخلايا الجديدة اتطلبت."
+   },
+   {
+    "w": "handle",
+    "note": "manage a situation or task",
+    "ex": "Can you handle the VFD fault alone?",
+    "ar": "تقدر تتعامل مع عطل الـ‎VFD‎ لوحدك؟",
+    "ex2": "Call me if you need help.",
+    "ar2": "كلمني لو احتجت مساعدة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "avoid",
+    "ex": "Don't avoid the angry client; call him today.",
+    "ar": "متتهربش من العميل الزعلان؛ كلمه النهارده.",
+    "ex2": "Silence makes it worse.",
+    "ar2": "السكوت بيخليها أوحش."
+   },
+   {
+    "w": "put off",
+    "ex": "Please don't put off the stock count again.",
+    "ar": "من فضلك متأجلش الجرد تاني.",
+    "ex2": "Last time the numbers didn't match.",
+    "ar2": "آخر مرة الأرقام مكانتش مظبوطة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Let's tackle the overdue invoices first this morning. The quotations can wait until after lunch.",
+  "ctx_ar": "خلينا نمسك الفواتير المتأخرة الأول الصبح ده. عروض الأسعار ممكن تستنى لبعد الغدا.",
+  "quiz": [
+   {
+    "s": "Let's ___ the hardest task first.",
+    "opts": [
+     "tackle",
+     "tackling",
+     "avoid"
+    ],
+    "a": 0,
+    "ar": "خلينا نمسك أصعب مهمة الأول."
+   },
+   {
+    "s": "___ late payments early saves trouble.",
+    "opts": [
+     "Tackle",
+     "Tackling",
+     "Address"
+    ],
+    "a": 1,
+    "ar": "التعامل مع التأخير في الدفع بدري بيوفر مشاكل."
+   },
+   {
+    "s": "Don't ___ the angry client; call him.",
+    "opts": [
+     "tackle",
+     "handle",
+     "avoid"
+    ],
+    "a": 2,
+    "ar": "متتهربش من العميل الزعلان؛ كلمه."
+   }
+  ],
+  "book": "Crossing things off my to-do list makes me feel accomplished, and I've learned to tackle harder tasks early in the day, when I'm refreshed and less likely to put them off."
+ },
+ {
+  "w": "overwhelming",
+  "ar": "كتير أوي / فوق طاقتك",
+  "family": [
+   {
+    "w": "overwhelming",
+    "pos": "adjective",
+    "ex": "The response to our solar offer was overwhelming.",
+    "ar": "الإقبال على عرض الطاقة الشمسية بتاعنا كان كبير جدًا.",
+    "ex2": "We got 200 calls in a week.",
+    "ar2": "جالنا 200 مكالمة في أسبوع."
+   },
+   {
+    "w": "overwhelm",
+    "pos": "verb",
+    "ex": "Don't overwhelm the client with technical details.",
+    "ar": "متغرّقش العميل في التفاصيل الفنية.",
+    "ex2": "He just wants the price and runtime.",
+    "ar2": "هو عايز السعر ومدة التشغيل بس."
+   },
+   {
+    "w": "overwhelmed",
+    "pos": "adjective",
+    "ex": "The new coordinator felt overwhelmed in her first week.",
+    "ar": "المنسقة الجديدة حست إن الشغل فوق طاقتها أول أسبوع.",
+    "ex2": "We gave her a mentor.",
+    "ar2": "إديناها مرشد."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "too much",
+    "note": "informal, everyday",
+    "ex": "Five site visits in one day is too much.",
+    "ar": "خمس زيارات في يوم واحد كتير أوي.",
+    "ex2": "The traffic is terrible.",
+    "ar2": "الزحمة فظيعة."
+   },
+   {
+    "w": "overloaded",
+    "note": "about a person or a circuit with too much load",
+    "ex": "The UPS is overloaded; disconnect the printers.",
+    "ar": "الـ‎UPS‎ عليه حمل زيادة؛ افصل الطابعات.",
+    "ex2": "It should only feed the servers.",
+    "ar2": "المفروض يغذي السيرفرات بس."
+   }
+  ],
+  "ant": [
+   {
+    "w": "manageable",
+    "ex": "Ten invoices a day is manageable.",
+    "ar": "عشر فواتير في اليوم حاجة تتعمل.",
+    "ex2": "Twenty is too many.",
+    "ar2": "عشرين كتير."
+   },
+   {
+    "w": "light",
+    "ex": "My workload is light this week.",
+    "ar": "الشغل عليا خفيف الأسبوع ده.",
+    "ex2": "I can help with the tender.",
+    "ar2": "أقدر أساعد في المناقصة."
+   }
+  ],
+  "ladder": {
+   "label": "how heavy the workload",
+   "lar": "الشغل تقيل قد إيه",
+   "steps": [
+    {
+     "w": "manageable",
+     "ex": "Three visits a day is manageable.",
+     "ar": "تلات زيارات في اليوم حاجة تتعمل.",
+     "ex2": "I finish by four.",
+     "ar2": "بخلّص الساعة أربعة."
+    },
+    {
+     "w": "heavy",
+     "ex": "This week's workload is heavy.",
+     "ar": "الشغل الأسبوع ده تقيل.",
+     "ex2": "Two tenders and a shutdown.",
+     "ar2": "مناقصتين وفصل."
+    },
+    {
+     "w": "overwhelming",
+     "ex": "The workload in the heatwave was overwhelming.",
+     "ar": "الشغل في موجة الحر كان فوق الطاقة.",
+     "ex2": "We needed extra staff.",
+     "ar2": "احتجنا ناس زيادة."
+    }
+   ]
+  },
+  "ctx": "The number of service calls during the heatwave was overwhelming. We hired two temporary technicians to cope.",
+  "ctx_ar": "عدد مكالمات الصيانة في موجة الحر كان فوق طاقتنا. عيّنا فنيين اتنين مؤقتين عشان نلحق.",
+  "quiz": [
+   {
+    "s": "Don't ___ the client with details.",
+    "opts": [
+     "overwhelm",
+     "overwhelming",
+     "overwhelmed"
+    ],
+    "a": 0,
+    "ar": "متغرّقش العميل في التفاصيل."
+   },
+   {
+    "s": "She felt ___ in her first week.",
+    "opts": [
+     "overwhelm",
+     "overwhelmed",
+     "overwhelming"
+    ],
+    "a": 1,
+    "ar": "حست إن الشغل فوق طاقتها أول أسبوع."
+   },
+   {
+    "s": "Ten invoices a day is ___.",
+    "opts": [
+     "overwhelming",
+     "overloaded",
+     "manageable"
+    ],
+    "a": 2,
+    "ar": "عشر فواتير في اليوم حاجة تتعمل."
+   }
+  ],
+  "book": "This became extremely overwhelming, and sometimes it affected the quality of my work."
+ },
+ {
+  "w": "beyond my control",
+  "ar": "خارج عن إرادتي / مش في إيدي",
+  "family": [
+   {
+    "w": "beyond my control",
+    "pos": "adverb",
+    "ex": "Power cuts are beyond my control, but the UPS isn't.",
+    "ar": "انقطاع الكهربا مش في إيدي، بس الـ‎UPS‎ في إيدي.",
+    "ex2": "That's why we test it monthly.",
+    "ar2": "عشان كده بنختبره كل شهر."
+   },
+   {
+    "w": "control",
+    "pos": "noun",
+    "ex": "We have full control over our spare-parts stock.",
+    "ar": "إحنا متحكمين بالكامل في مخزون قطع الغيار.",
+    "ex2": "Every part is barcoded.",
+    "ar2": "كل قطعة عليها باركود."
+   },
+   {
+    "w": "control",
+    "pos": "verb",
+    "ex": "The VFD controls the speed of the chiller pump.",
+    "ar": "الـ‎VFD‎ بيتحكم في سرعة طلمبة التشيلر.",
+    "ex2": "That saves a lot of energy.",
+    "ar2": "ده بيوفّر كهربا كتير."
+   },
+   {
+    "w": "controller",
+    "pos": "noun",
+    "ex": "Replace the charge controller on the solar system.",
+    "ar": "غيّر الـ‎charge controller‎ في نظام الطاقة الشمسية.",
+    "ex2": "The old one is burned.",
+    "ar2": "القديم محروق."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "out of my hands",
+    "note": "informal; someone else decides now",
+    "ex": "The price is out of my hands; the director decides.",
+    "ar": "السعر مش في إيدي؛ المدير هو اللي بيقرر.",
+    "ex2": "I'll ask him today.",
+    "ar2": "هسأله النهارده."
+   },
+   {
+    "w": "force majeure",
+    "note": "legal; events like war or disasters in contracts",
+    "ex": "The contract has a force majeure clause for port closures.",
+    "ar": "العقد فيه بند قوة قاهرة لقفل المواني.",
+    "ex2": "Neither side pays a penalty.",
+    "ar2": "ولا طرف بيدفع غرامة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "within my control",
+    "ex": "Answering emails fast is within my control.",
+    "ar": "الرد على الإيميلات بسرعة في إيدي.",
+    "ex2": "So I do it every morning.",
+    "ar2": "فبعمله كل صبح."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The delay was beyond our control: the ship was held at Suez for a week. We informed the client immediately.",
+  "ctx_ar": "التأخير كان خارج إرادتنا: المركب اتحجزت في السويس أسبوع. بلّغنا العميل على طول.",
+  "quiz": [
+   {
+    "s": "The customs delay was ___.",
+    "opts": [
+     "beyond our control",
+     "control",
+     "controller"
+    ],
+    "a": 0,
+    "ar": "تأخير الجمارك كان خارج إرادتنا."
+   },
+   {
+    "s": "The VFD ___ the pump speed.",
+    "opts": [
+     "beyond control",
+     "controls",
+     "controller"
+    ],
+    "a": 1,
+    "ar": "الـ‎VFD‎ بيتحكم في سرعة الطلمبة."
+   },
+   {
+    "s": "The discount is ___; ask the director.",
+    "opts": [
+     "within my control",
+     "controller",
+     "out of my hands"
+    ],
+    "a": 2,
+    "ar": "الخصم مش في إيدي؛ اسأل المدير."
+   }
+  ],
+  "book": "This works well in some situations, but in many cases I need the help of others to overcome factors beyond my control."
  }
 ]

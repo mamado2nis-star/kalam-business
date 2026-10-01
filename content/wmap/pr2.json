@@ -755,5 +755,1277 @@
     "ar": "الشركات اللي بتبص لقدام بتخطط لتغيير البطاريات قبلها بسنين."
    }
   ]
+ },
+ {
+  "w": "objective",
+  "ar": "الهدف",
+  "family": [
+   {
+    "w": "objective",
+    "pos": "noun",
+    "ex": "The objective of this visit is to test all UPS batteries.",
+    "ar": "هدف الزيارة دي إننا نختبر كل بطاريات الـ‎UPS‎.",
+    "ex2": "We'll send a report afterwards.",
+    "ar2": "هنبعت تقرير بعدها."
+   },
+   {
+    "w": "objective",
+    "pos": "adjective",
+    "ex": "We need an objective comparison of the two inverter brands.",
+    "ar": "محتاجين مقارنة محايدة بين ماركتين الإنفرتر.",
+    "ex2": "Not just the cheaper price.",
+    "ar2": "مش السعر الأرخص بس."
+   },
+   {
+    "w": "objectively",
+    "pos": "adverb",
+    "ex": "Objectively, the second offer has better service terms.",
+    "ar": "بصراحة ومن غير تحيّز، العرض التاني شروط الصيانة فيه أحسن.",
+    "ex2": "Even if it costs a bit more.",
+    "ar2": "حتى لو أغلى شوية."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "goal",
+    "note": "general; what you want to achieve",
+    "ex": "Our goal is 50 new maintenance contracts this year.",
+    "ar": "هدفنا 50 عقد صيانة جديد السنة دي.",
+    "ex2": "We have 32 so far.",
+    "ar2": "عندنا 32 لحد دلوقتي."
+   },
+   {
+    "w": "aim",
+    "note": "similar to goal, slightly more formal in writing",
+    "ex": "The aim of the training is to reduce site errors.",
+    "ar": "هدف التدريب إننا نقلّل الأخطاء في المواقع.",
+    "ex2": "Most faults come from bad wiring.",
+    "ar2": "أغلب الأعطال من توصيلات غلط."
+   },
+   {
+    "w": "target",
+    "note": "a specific number or result to reach",
+    "ex": "Our sales target for Q3 is five million pounds.",
+    "ar": "تارجت المبيعات في الربع التالت خمسة مليون جنيه.",
+    "ex2": "We're at 80 percent now.",
+    "ar2": "إحنا عند 80 في المية دلوقتي."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "The objective of today's meeting is simple: agree on the final price for the bank's 30 UPS units. Then we can issue the PO.",
+  "ctx_ar": "هدف اجتماع النهارده بسيط: نتفق على السعر النهائي لـ30 جهاز ‎UPS‎ للبنك. بعدها نقدر نطلّع الـ‎PO‎.",
+  "quiz": [
+   {
+    "s": "The ___ of this presentation is to explain our service plans.",
+    "opts": [
+     "objective",
+     "objectively",
+     "objectives"
+    ],
+    "a": 0,
+    "ar": "هدف العرض ده إننا نشرح خطط الصيانة بتاعتنا."
+   },
+   {
+    "s": "Let's look at the two offers ___, not emotionally.",
+    "opts": [
+     "objective",
+     "objectively",
+     "target"
+    ],
+    "a": 1,
+    "ar": "خلّينا نبص على العرضين بموضوعية، مش بعاطفة."
+   },
+   {
+    "s": "Our sales ___ this month is two million pounds.",
+    "opts": [
+     "objectively",
+     "aim",
+     "target"
+    ],
+    "a": 2,
+    "ar": "تارجت المبيعات الشهر ده اتنين مليون جنيه."
+   }
+  ],
+  "book": "The objective of today's presentation is to ___."
+ },
+ {
+  "w": "purpose",
+  "ar": "الغرض / السبب",
+  "family": [
+   {
+    "w": "purpose",
+    "pos": "noun",
+    "ex": "The purpose of the call is to confirm the delivery date.",
+    "ar": "الغرض من المكالمة إننا نأكّد ميعاد التسليم.",
+    "ex2": "The crane is booked for Sunday.",
+    "ar2": "الونش محجوز يوم الحد."
+   },
+   {
+    "w": "on purpose",
+    "pos": "adverb",
+    "ex": "The engineer switched off the UPS on purpose to test the batteries.",
+    "ar": "المهندس قفل الـ‎UPS‎ قصد عشان يختبر البطاريات.",
+    "ex2": "The load ran for twenty minutes.",
+    "ar2": "الحمل اشتغل عشرين دقيقة."
+   },
+   {
+    "w": "purposeful",
+    "pos": "adjective",
+    "ex": "It was a short but purposeful meeting with the supplier.",
+    "ar": "كان اجتماع قصير بس هادف مع المورد.",
+    "ex2": "We agreed on new prices.",
+    "ar2": "اتفقنا على أسعار جديدة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "reason",
+    "note": "why something happens",
+    "ex": "The reason for the delay is a customs problem.",
+    "ar": "سبب التأخير مشكلة في الجمارك.",
+    "ex2": "We expect clearance tomorrow.",
+    "ar2": "متوقعين الإفراج بكرة."
+   },
+   {
+    "w": "aim",
+    "note": "what you want to achieve with it",
+    "ex": "The aim of the visit is to win the contract renewal.",
+    "ar": "هدف الزيارة إننا نكسب تجديد العقد.",
+    "ex2": "It ends next month.",
+    "ar2": "بيخلص الشهر الجاي."
+   }
+  ],
+  "ant": [
+   {
+    "w": "by accident",
+    "ex": "He deleted the invoice by accident.",
+    "ar": "مسح الفاتورة بالغلط.",
+    "ex2": "Luckily, we had a copy.",
+    "ar2": "لحسن الحظ كان معانا نسخة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The purpose of this presentation is to show you how our monitoring system works. By the end, you'll see every battery's status online.",
+  "ctx_ar": "الغرض من العرض ده إننا نوريكم إزاي سيستم المراقبة بتاعنا بيشتغل. في الآخر هتشوفوا حالة كل بطارية أونلاين.",
+  "quiz": [
+   {
+    "s": "The ___ of my visit is to check the inverters.",
+    "opts": [
+     "purpose",
+     "purposeful",
+     "on purpose"
+    ],
+    "a": 0,
+    "ar": "الغرض من زيارتي إني أشيّك على الإنفرترات."
+   },
+   {
+    "s": "He switched off the power ___ to test the backup.",
+    "opts": [
+     "purpose",
+     "on purpose",
+     "by accident"
+    ],
+    "a": 1,
+    "ar": "قفل الكهربا قصد عشان يختبر الاحتياطي."
+   },
+   {
+    "s": "Sorry, I sent the wrong invoice ___.",
+    "opts": [
+     "on purpose",
+     "purposeful",
+     "by accident"
+    ],
+    "a": 2,
+    "ar": "آسف، بعت الفاتورة الغلط بالغلط."
+   }
+  ],
+  "book": "The purpose of this presentation is to inform you about ___."
+ },
+ {
+  "w": "break down",
+  "ar": "تقسّم / تفصّص لأجزاء",
+  "family": [
+   {
+    "w": "break down",
+    "pos": "verb",
+    "ex": "Let me break down the price into equipment and labour.",
+    "ar": "خلّيني أقسّم السعر لمعدات ومصنعية.",
+    "ex2": "Equipment is 80 percent of the total.",
+    "ar2": "المعدات 80 في المية من الإجمالي."
+   },
+   {
+    "w": "breakdown",
+    "pos": "noun",
+    "ex": "The client asked for a cost breakdown.",
+    "ar": "العميل طلب تفصيل التكلفة.",
+    "ex2": "He wants to see the battery price alone.",
+    "ar2": "عايز يشوف سعر البطاريات لوحده."
+   },
+   {
+    "w": "broken down",
+    "pos": "verb",
+    "ex": "The report is broken down by site.",
+    "ar": "التقرير متقسّم حسب الموقع.",
+    "ex2": "Each site has its own page.",
+    "ar2": "كل موقع ليه صفحة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "divide into parts",
+    "mar": "تقسّم لأجزاء",
+    "ex": "Can you break down the invoice by item?",
+    "ar": "ممكن تقسّم الفاتورة حسب الصنف؟",
+    "ex2": "Their finance team needs it.",
+    "ar2": "فريق الحسابات عندهم محتاجه."
+   },
+   {
+    "m": "stop working (machine)",
+    "mar": "يعطل / يقف",
+    "ex": "Old generators often break down during load tests.",
+    "ar": "المولّدات القديمة كتير بتعطل في اختبارات الحمل.",
+    "ex2": "Ours broke down yesterday, but the UPS carried the load.",
+    "ar2": "بتاعنا عطل امبارح، بس الـ‎UPS‎ شال الحمل."
+   }
+  ],
+  "syn": [
+   {
+    "w": "divide",
+    "note": "general; split into parts",
+    "ex": "We divided the project into three phases.",
+    "ar": "قسّمنا المشروع لتلات مراحل.",
+    "ex2": "Phase one is the UPS room.",
+    "ar2": "المرحلة الأولى أوضة الـ‎UPS‎."
+   },
+   {
+    "w": "itemize",
+    "note": "formal; list each item separately with its price",
+    "ex": "Please itemize the quotation.",
+    "ar": "من فضلك فصّل عرض السعر بند بند.",
+    "ex2": "The client compares each line.",
+    "ar2": "العميل بيقارن كل سطر."
+   }
+  ],
+  "ant": [
+   {
+    "w": "combine",
+    "ex": "We combined both sites in one invoice.",
+    "ar": "جمعنا الموقعين في فاتورة واحدة.",
+    "ex2": "It's easier for their accounts team.",
+    "ar2": "أسهل لفريق الحسابات عندهم."
+   }
+  ],
+  "ladder": null,
+  "ctx": "I'll break down today's talk into three parts: our UPS range, our service plans, and pricing. Each part takes about ten minutes.",
+  "ctx_ar": "هقسّم كلام النهارده لتلات أجزاء: مجموعة الـ‎UPS‎، خطط الصيانة، والأسعار. كل جزء حوالي عشر دقايق.",
+  "quiz": [
+   {
+    "s": "Let me ___ down the cost for you.",
+    "opts": [
+     "break",
+     "breakdown",
+     "broken"
+    ],
+    "a": 0,
+    "ar": "خلّيني أفصّلك التكلفة."
+   },
+   {
+    "s": "Can you send a full cost ___?",
+    "opts": [
+     "break down",
+     "breakdown",
+     "broken down"
+    ],
+    "a": 1,
+    "ar": "ممكن تبعت تفصيل كامل للتكلفة؟"
+   },
+   {
+    "s": "To save time, we ___ the two orders into one shipment.",
+    "opts": [
+     "broke down",
+     "itemized",
+     "combined"
+    ],
+    "a": 2,
+    "ar": "عشان نوفّر وقت، جمعنا الطلبين في شحنة واحدة."
+   }
+  ],
+  "book": "I'll be breaking the presentation down into three parts."
+ },
+ {
+  "w": "time frame",
+  "ar": "مدة زمنية / إطار زمني",
+  "family": [
+   {
+    "w": "time frame",
+    "pos": "noun",
+    "ex": "What's the time frame for the data centre project?",
+    "ar": "إيه المدة الزمنية لمشروع الداتا سنتر؟",
+    "ex2": "The client wants it done by June.",
+    "ar2": "العميل عايزه يخلص قبل يونيو."
+   },
+   {
+    "w": "timing",
+    "pos": "noun",
+    "ex": "The timing of the shutdown is very important.",
+    "ar": "توقيت قفل الكهربا مهم جدًا.",
+    "ex2": "The bank can only stop on Friday.",
+    "ar2": "البنك مينفعش يقف غير يوم الجمعة."
+   },
+   {
+    "w": "time frames",
+    "pos": "noun",
+    "ex": "Different sites have different time frames.",
+    "ar": "المواقع المختلفة ليها مدد مختلفة.",
+    "ex2": "Alexandria finishes first.",
+    "ar2": "إسكندرية هتخلص الأول."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "deadline",
+    "note": "the final date something must be done",
+    "ex": "The deadline for the tender is Thursday.",
+    "ar": "آخر ميعاد للمناقصة الخميس.",
+    "ex2": "We must submit by noon.",
+    "ar2": "لازم نقدّم قبل الضهر."
+   },
+   {
+    "w": "schedule",
+    "note": "a plan with dates for each step",
+    "ex": "Here's the installation schedule.",
+    "ar": "ده جدول التركيب.",
+    "ex2": "Each site gets two days.",
+    "ar2": "كل موقع ليه يومين."
+   },
+   {
+    "w": "timeline",
+    "note": "a list of steps over time, often visual",
+    "ex": "The timeline shows delivery in week six.",
+    "ar": "الجدول الزمني بيوضّح التسليم في الأسبوع السادس.",
+    "ex2": "Testing follows in week seven.",
+    "ar2": "الاختبار في الأسبوع السابع."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "The client asked about our time frame for the solar station. We need eight weeks: four for import and four for installation.",
+  "ctx_ar": "العميل سأل عن المدة اللي محتاجينها لمحطة الطاقة الشمسية. محتاجين تمان أسابيع: أربعة للاستيراد وأربعة للتركيب.",
+  "quiz": [
+   {
+    "s": "Can we finish within that time ___?",
+    "opts": [
+     "frame",
+     "timing",
+     "timeline"
+    ],
+    "a": 0,
+    "ar": "نقدر نخلّص في المدة دي؟"
+   },
+   {
+    "s": "The ___ of the power shutdown must suit the bank.",
+    "opts": [
+     "time frame",
+     "timing",
+     "deadline"
+    ],
+    "a": 1,
+    "ar": "توقيت قفل الكهربا لازم يناسب البنك."
+   },
+   {
+    "s": "The final ___ for submitting the offer is Sunday at noon.",
+    "opts": [
+     "timing",
+     "schedule",
+     "deadline"
+    ],
+    "a": 2,
+    "ar": "آخر ميعاد لتقديم العرض الحد الضهر."
+   }
+  ],
+  "book": "I know everyone's time is valuable, so I'll try to keep our presentation within a ___-minute time frame."
+ },
+ {
+  "w": "concise",
+  "ar": "مختصر ومركّز",
+  "family": [
+   {
+    "w": "concise",
+    "pos": "adjective",
+    "ex": "Please keep the service report concise.",
+    "ar": "من فضلك خلّي تقرير الصيانة مختصر.",
+    "ex2": "One page is enough for the client.",
+    "ar2": "صفحة واحدة كفاية للعميل."
+   },
+   {
+    "w": "concisely",
+    "pos": "adverb",
+    "ex": "She explained the fault concisely in two sentences.",
+    "ar": "شرحت العطل باختصار في جملتين.",
+    "ex2": "The client understood immediately.",
+    "ar2": "العميل فهم على طول."
+   },
+   {
+    "w": "conciseness",
+    "pos": "noun",
+    "ex": "Conciseness is important in emails to busy managers.",
+    "ar": "الاختصار مهم في الإيميلات للمديرين المشغولين.",
+    "ex2": "They read on their phones.",
+    "ar2": "بيقروا من موبايلاتهم."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "short",
+    "note": "general; not long",
+    "ex": "Keep your answer short; the client is in a hurry.",
+    "ar": "خلّي ردك قصير؛ العميل مستعجل.",
+    "ex2": "Just give him the price.",
+    "ar2": "ادّيله السعر بس."
+   },
+   {
+    "w": "brief",
+    "note": "short in time or words, a bit formal",
+    "ex": "I'll give a brief update on collections.",
+    "ar": "هدّي تحديث سريع عن التحصيل.",
+    "ex2": "We collected 70 percent this month.",
+    "ar2": "حصّلنا 70 في المية الشهر ده."
+   }
+  ],
+  "ant": [
+   {
+    "w": "long-winded",
+    "ex": "His long-winded email confused the supplier.",
+    "ar": "الإيميل الطويل والممل بتاعه لخبط المورد.",
+    "ex2": "The question was in the last line.",
+    "ar2": "السؤال كان في آخر سطر."
+   }
+  ],
+  "ladder": {
+   "label": "how short",
+   "lar": "قصير قد إيه",
+   "steps": [
+    {
+     "w": "detailed",
+     "ex": "The client wants a detailed report on every battery.",
+     "ar": "العميل عايز تقرير مفصّل عن كل بطارية.",
+     "ex2": "It will be twenty pages.",
+     "ar2": "هيبقى عشرين صفحة."
+    },
+    {
+     "w": "brief",
+     "ex": "Here's a brief summary for the manager.",
+     "ar": "ده ملخص قصير للمدير.",
+     "ex2": "It's one page.",
+     "ar2": "صفحة واحدة."
+    },
+    {
+     "w": "concise",
+     "ex": "Keep the email concise: problem, solution, price.",
+     "ar": "خلّي الإيميل مركّز: المشكلة، الحل، السعر.",
+     "ex2": "Three lines are enough.",
+     "ar2": "تلات سطور كفاية."
+    }
+   ]
+  },
+  "ctx": "The CEO only has ten minutes, so keep the pitch concise. Show the price, the delivery date and our service promise.",
+  "ctx_ar": "المدير التنفيذي عنده عشر دقايق بس، فخلّي العرض مختصر. وضّح السعر وميعاد التسليم ووعد الصيانة بتاعنا.",
+  "quiz": [
+   {
+    "s": "Please write a ___ summary for the client.",
+    "opts": [
+     "concise",
+     "concisely",
+     "conciseness"
+    ],
+    "a": 0,
+    "ar": "من فضلك اكتب ملخص مختصر للعميل."
+   },
+   {
+    "s": "He explained the problem ___ in one minute.",
+    "opts": [
+     "concise",
+     "concisely",
+     "conciseness"
+    ],
+    "a": 1,
+    "ar": "شرح المشكلة باختصار في دقيقة."
+   },
+   {
+    "s": "His ___ email took ten minutes to read.",
+    "opts": [
+     "concise",
+     "brief",
+     "long-winded"
+    ],
+    "a": 2,
+    "ar": "الإيميل الطويل بتاعه خد عشر دقايق عشان يتقري."
+   }
+  ],
+  "book": "I understand everyone has busy schedules, so I'll try to keep our presentation concise and to the point, within a ___-minute time limit."
+ },
+ {
+  "w": "to the point",
+  "ar": "دوغري / في الموضوع على طول",
+  "family": [
+   {
+    "w": "to the point",
+    "pos": "adjective",
+    "ex": "His email was short and to the point.",
+    "ar": "الإيميل بتاعه كان قصير ودوغري.",
+    "ex2": "It had the price and delivery date only.",
+    "ar2": "كان فيه السعر وميعاد التسليم بس."
+   },
+   {
+    "w": "get to the point",
+    "pos": "verb",
+    "ex": "Let me get to the point: we need payment this week.",
+    "ar": "خلّيني أدخل في الموضوع: محتاجين الفلوس الأسبوع ده.",
+    "ex2": "The invoice is 60 days overdue.",
+    "ar2": "الفاتورة متأخرة 60 يوم."
+   },
+   {
+    "w": "point",
+    "pos": "noun",
+    "ex": "The main point is that the batteries are too old.",
+    "ar": "النقطة الأساسية إن البطاريات قديمة قوي.",
+    "ex2": "They must be replaced before summer.",
+    "ar2": "لازم تتغيّر قبل الصيف."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "direct",
+    "note": "clear and honest, without softening",
+    "ex": "Be direct with the client about the delay.",
+    "ar": "خليك صريح مع العميل بخصوص التأخير.",
+    "ex2": "He'll respect that more.",
+    "ar2": "هيحترم ده أكتر."
+   },
+   {
+    "w": "straightforward",
+    "note": "clear and easy to understand",
+    "ex": "The contract terms are straightforward.",
+    "ar": "شروط العقد واضحة وبسيطة.",
+    "ex2": "Payment is on delivery.",
+    "ar2": "الدفع عند التسليم."
+   }
+  ],
+  "ant": [
+   {
+    "w": "off the point",
+    "ex": "Your comment about the old project is off the point.",
+    "ar": "تعليقك عن المشروع القديم بعيد عن الموضوع.",
+    "ex2": "Let's focus on this tender.",
+    "ar2": "خلّينا نركّز على المناقصة دي."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Clients like answers that are short and to the point. Tell them the fault, the repair time and the cost, then stop.",
+  "ctx_ar": "العملا بيحبّوا الردود القصيرة اللي في الموضوع. قولهم العطل ووقت التصليح والتكلفة، وبس.",
+  "quiz": [
+   {
+    "s": "Keep your answers short and to the ___.",
+    "opts": [
+     "point",
+     "points",
+     "pointed"
+    ],
+    "a": 0,
+    "ar": "خلّي إجاباتك قصيرة وفي الموضوع."
+   },
+   {
+    "s": "I'll ___ to the point: the price must drop by ten percent.",
+    "opts": [
+     "to the point",
+     "get",
+     "off the point"
+    ],
+    "a": 1,
+    "ar": "هدخل في الموضوع: السعر لازم ينزل عشرة في المية."
+   },
+   {
+    "s": "That story is nice, but it's ___ the point.",
+    "opts": [
+     "to",
+     "direct",
+     "off"
+    ],
+    "a": 2,
+    "ar": "الحكاية دي حلوة، بس بعيدة عن الموضوع."
+   }
+  ],
+  "book": "I understand everyone has busy schedules, so I'll try to keep our presentation concise and to the point, within a ___-minute time limit."
+ },
+ {
+  "w": "brief",
+  "ar": "قصير / مختصر",
+  "family": [
+   {
+    "w": "brief",
+    "pos": "adjective",
+    "ex": "I'll give you a brief update on the bank project.",
+    "ar": "هدّيك تحديث سريع عن مشروع البنك.",
+    "ex2": "All 20 branches are now installed.",
+    "ar2": "العشرين فرع اتركّبوا خلاص."
+   },
+   {
+    "w": "briefly",
+    "pos": "adverb",
+    "ex": "Let me briefly explain the warranty terms.",
+    "ar": "خلّيني أشرح شروط الضمان باختصار.",
+    "ex2": "Batteries have two years, electronics have three.",
+    "ar2": "البطاريات سنتين والإلكترونيات تلاتة."
+   },
+   {
+    "w": "brief",
+    "pos": "verb",
+    "ex": "I'll brief the new engineer before his first site visit.",
+    "ar": "هشرح للمهندس الجديد قبل أول زيارة موقع ليه.",
+    "ex2": "He needs to know the client's rules.",
+    "ar2": "لازم يعرف قواعد العميل."
+   },
+   {
+    "w": "briefing",
+    "pos": "noun",
+    "ex": "We have a safety briefing every Sunday morning.",
+    "ar": "عندنا اجتماع سلامة كل حد الصبح.",
+    "ex2": "It takes fifteen minutes.",
+    "ar2": "بياخد ربع ساعة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "short",
+    "note": "general; not long in time or length",
+    "ex": "It was a short call with the supplier.",
+    "ar": "كانت مكالمة قصيرة مع المورد.",
+    "ex2": "He confirmed the shipping date.",
+    "ar2": "أكّد ميعاد الشحن."
+   },
+   {
+    "w": "quick",
+    "note": "informal; done fast",
+    "ex": "Can we have a quick chat about the PO?",
+    "ar": "ممكن ندردش بسرعة عن الـ‎PO‎؟",
+    "ex2": "It's missing a signature.",
+    "ar2": "ناقصه إمضاء."
+   }
+  ],
+  "ant": [
+   {
+    "w": "lengthy",
+    "ex": "The tender has a lengthy list of requirements.",
+    "ar": "المناقصة فيها قايمة طويلة من الشروط.",
+    "ex2": "We need two days to read it.",
+    "ar2": "محتاجين يومين نقراها."
+   }
+  ],
+  "ladder": null,
+  "ctx": "I'll keep this brief because you have another meeting. The UPS is fixed, and the new batteries arrive on Monday.",
+  "ctx_ar": "هختصر عشان عندك اجتماع تاني. الـ‎UPS‎ اتصلّح، والبطاريات الجديدة هتوصل يوم الاتنين.",
+  "quiz": [
+   {
+    "s": "Let me give you a ___ summary of the results.",
+    "opts": [
+     "brief",
+     "briefly",
+     "briefing"
+    ],
+    "a": 0,
+    "ar": "خلّيني أدّيك ملخص قصير للنتايج."
+   },
+   {
+    "s": "Can you ___ explain the payment terms?",
+    "opts": [
+     "brief",
+     "briefly",
+     "briefing"
+    ],
+    "a": 1,
+    "ar": "ممكن تشرح شروط الدفع باختصار؟"
+   },
+   {
+    "s": "The contract is ___; it has over 40 pages.",
+    "opts": [
+     "brief",
+     "quick",
+     "lengthy"
+    ],
+    "a": 2,
+    "ar": "العقد طويل؛ فيه أكتر من 40 صفحة."
+   }
+  ],
+  "book": "We'll try to keep our presentation as brief as possible."
+ },
+ {
+  "w": "approximately",
+  "ar": "تقريبًا",
+  "family": [
+   {
+    "w": "approximately",
+    "pos": "adverb",
+    "ex": "The installation will take approximately three days.",
+    "ar": "التركيب هياخد تقريبًا تلات أيام.",
+    "ex2": "Testing needs one more day.",
+    "ar2": "الاختبار محتاج يوم كمان."
+   },
+   {
+    "w": "approximate",
+    "pos": "adjective",
+    "ex": "Can you give me an approximate price for 20 batteries?",
+    "ar": "ممكن تدّيني سعر تقريبي لـ20 بطارية؟",
+    "ex2": "I'll send the exact quote tomorrow.",
+    "ar2": "هبعت السعر المظبوط بكرة."
+   },
+   {
+    "w": "approximation",
+    "pos": "noun",
+    "ex": "This is only an approximation of the load.",
+    "ar": "ده مجرد تقدير تقريبي للحمل.",
+    "ex2": "We need to measure it on site.",
+    "ar2": "لازم نقيسه في الموقع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "about",
+    "note": "informal and very common in speech",
+    "ex": "The trip to the site takes about two hours.",
+    "ar": "المشوار للموقع بياخد حوالي ساعتين.",
+    "ex2": "We should leave at seven.",
+    "ar2": "المفروض نتحرك الساعة سبعة."
+   },
+   {
+    "w": "around",
+    "note": "informal; same as about",
+    "ex": "We have around fifty UPS units under contract.",
+    "ar": "عندنا حوالي خمسين جهاز ‎UPS‎ تحت العقد.",
+    "ex2": "Most are in Cairo.",
+    "ar2": "أغلبهم في القاهرة."
+   },
+   {
+    "w": "roughly",
+    "note": "informal; not exact at all",
+    "ex": "Roughly half our clients pay late.",
+    "ar": "حوالي نص عملانا بيدفعوا متأخر.",
+    "ex2": "Collections are a big issue.",
+    "ar2": "التحصيل مشكلة كبيرة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "exactly",
+    "ex": "The invoice total is exactly 245,000 pounds.",
+    "ar": "إجمالي الفاتورة بالظبط 245 ألف جنيه.",
+    "ex2": "Including VAT.",
+    "ar2": "شامل الضريبة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The shutdown will last approximately two hours. We'll switch the servers to the backup UPS first, so the bank won't lose power.",
+  "ctx_ar": "قفل الكهربا هيستمر تقريبًا ساعتين. هنحوّل السيرفرات على الـ‎UPS‎ الاحتياطي الأول، فالبنك مش هيفصل.",
+  "quiz": [
+   {
+    "s": "Delivery will take ___ six weeks.",
+    "opts": [
+     "approximately",
+     "approximate",
+     "approximation"
+    ],
+    "a": 0,
+    "ar": "التوريد هياخد تقريبًا ست أسابيع."
+   },
+   {
+    "s": "Can you send an ___ cost for the solar project?",
+    "opts": [
+     "approximately",
+     "approximate",
+     "exactly"
+    ],
+    "a": 1,
+    "ar": "ممكن تبعت تكلفة تقريبية لمشروع الطاقة الشمسية؟"
+   },
+   {
+    "s": "The total is ___ 120,000 pounds, not a pound more.",
+    "opts": [
+     "about",
+     "roughly",
+     "exactly"
+    ],
+    "a": 2,
+    "ar": "الإجمالي بالظبط 120 ألف جنيه، ولا جنيه زيادة."
+   }
+  ],
+  "book": "We have a lot of information to cover, so our presentation will take approximately ___ minutes."
+ },
+ {
+  "w": "encourage",
+  "ar": "تشجّع",
+  "family": [
+   {
+    "w": "encourage",
+    "pos": "verb",
+    "ex": "We encourage clients to test their UPS every month.",
+    "ar": "بنشجّع العملا يختبروا الـ‎UPS‎ كل شهر.",
+    "ex2": "It finds problems early.",
+    "ar2": "بيكشف المشاكل بدري."
+   },
+   {
+    "w": "encouragement",
+    "pos": "noun",
+    "ex": "With the manager's encouragement, Ali took the VFD course.",
+    "ar": "بتشجيع المدير، ‎Ali‎ خد كورس الـ‎VFD‎.",
+    "ex2": "Now he leads the drive repairs.",
+    "ar2": "دلوقتي هو اللي بيقود تصليح الدرايفات."
+   },
+   {
+    "w": "encouraging",
+    "pos": "adjective",
+    "ex": "The first sales results are very encouraging.",
+    "ar": "أول نتايج المبيعات مشجّعة جدًا.",
+    "ex2": "We sold 15 solar kits in a month.",
+    "ar2": "بعنا 15 طقم طاقة شمسية في شهر."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "motivate",
+    "note": "give someone a reason or energy to act",
+    "ex": "The bonus motivates the team to close more deals.",
+    "ar": "البونص بيحفّز الفريق يقفل صفقات أكتر.",
+    "ex2": "It's paid every quarter.",
+    "ar2": "بيتصرف كل ربع سنة."
+   },
+   {
+    "w": "urge",
+    "note": "stronger; push someone to act soon",
+    "ex": "We urge you to replace the batteries before summer.",
+    "ar": "بنحثّك تغيّر البطاريات قبل الصيف.",
+    "ex2": "Heat shortens their life.",
+    "ar2": "الحر بيقصّر عمرها."
+   }
+  ],
+  "ant": [
+   {
+    "w": "discourage",
+    "ex": "High shipping costs discourage small orders.",
+    "ar": "مصاريف الشحن العالية بتخلّي الناس متطلبش طلبات صغيرة.",
+    "ex2": "So we offer free delivery in Cairo.",
+    "ar2": "فبنقدّم توصيل ببلاش في القاهرة."
+   }
+  ],
+  "ladder": {
+   "label": "how hard you push",
+   "lar": "بتدفع قد إيه",
+   "steps": [
+    {
+     "w": "invite",
+     "ex": "We invite you to visit our showroom.",
+     "ar": "بندعوك تزور المعرض بتاعنا.",
+     "ex2": "You can see the UPS range there.",
+     "ar2": "تقدر تشوف مجموعة الـ‎UPS‎ هناك."
+    },
+    {
+     "w": "encourage",
+     "ex": "We encourage you to book a yearly check.",
+     "ar": "بنشجّعك تحجز كشف سنوي.",
+     "ex2": "It prevents sudden failures.",
+     "ar2": "بيمنع الأعطال المفاجئة."
+    },
+    {
+     "w": "urge",
+     "ex": "We urge you to shut down the faulty unit now.",
+     "ar": "بنطلب منك بإلحاح تقفل الجهاز العطلان دلوقتي.",
+     "ex2": "It could damage the servers.",
+     "ar2": "ممكن يبوّظ السيرفرات."
+    }
+   ]
+  },
+  "ctx": "I encourage you to ask questions at any time. If something about the battery warranty isn't clear, please stop me.",
+  "ctx_ar": "بشجّعكم تسألوا في أي وقت. لو حاجة عن ضمان البطاريات مش واضحة، وقّفوني.",
+  "quiz": [
+   {
+    "s": "We ___ all clients to sign a service contract.",
+    "opts": [
+     "encourage",
+     "encouraging",
+     "encouragement"
+    ],
+    "a": 0,
+    "ar": "بنشجّع كل العملا يمضوا عقد صيانة."
+   },
+   {
+    "s": "The results of the first month are very ___.",
+    "opts": [
+     "encourage",
+     "encouraging",
+     "encouragement"
+    ],
+    "a": 1,
+    "ar": "نتايج أول شهر مشجّعة جدًا."
+   },
+   {
+    "s": "The fault is serious, so we ___ you to stop the machine now.",
+    "opts": [
+     "invite",
+     "encourage",
+     "urge"
+    ],
+    "a": 2,
+    "ar": "العطل خطير، فبنطلب منك بإلحاح توقف الماكينة دلوقتي."
+   }
+  ],
+  "book": "I encourage you to ask questions throughout the presentation."
+ },
+ {
+  "w": "enroll in",
+  "ar": "تسجّل في (كورس أو برنامج)",
+  "family": [
+   {
+    "w": "enroll in",
+    "pos": "verb",
+    "ex": "Three technicians will enroll in the lithium battery course.",
+    "ar": "تلات فنيين هيسجّلوا في كورس بطاريات الليثيوم.",
+    "ex2": "It starts in November.",
+    "ar2": "هيبدأ في نوفمبر."
+   },
+   {
+    "w": "enrollment",
+    "pos": "noun",
+    "ex": "Enrollment closes on Thursday.",
+    "ar": "التسجيل بيقفل يوم الخميس.",
+    "ex2": "Please send me your names today.",
+    "ar2": "من فضلك ابعتولي أساميكم النهارده."
+   },
+   {
+    "w": "enrolled",
+    "pos": "adjective",
+    "ex": "All enrolled engineers get a certificate.",
+    "ar": "كل المهندسين المسجّلين بياخدوا شهادة.",
+    "ex2": "Clients often ask for it.",
+    "ar2": "العملا غالبًا بيطلبوها."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "sign up for",
+    "note": "informal; very common",
+    "ex": "I signed up for the solar design workshop.",
+    "ar": "سجّلت في ورشة تصميم الطاقة الشمسية.",
+    "ex2": "It's two days in Cairo.",
+    "ar2": "يومين في القاهرة."
+   },
+   {
+    "w": "register for",
+    "note": "neutral; used for events and systems",
+    "ex": "Register for the e-invoice portal before January.",
+    "ar": "سجّل في بوابة الفاتورة الإلكترونية قبل يناير.",
+    "ex2": "It's required by law.",
+    "ar2": "ده مطلوب بالقانون."
+   }
+  ],
+  "ant": [
+   {
+    "w": "drop out of",
+    "ex": "He dropped out of the course because of site work.",
+    "ar": "ساب الكورس بسبب شغل الموقع.",
+    "ex2": "He'll join the next round.",
+    "ar2": "هيدخل الدفعة الجاية."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Clients who buy a service contract can enroll in our free UPS training. Their staff learn basic checks and how to read alarms.",
+  "ctx_ar": "العملا اللي بيشتروا عقد صيانة يقدروا يسجّلوا في تدريب الـ‎UPS‎ المجاني بتاعنا. موظفينهم بيتعلموا الكشف الأساسي وإزاي يقروا الإنذارات.",
+  "quiz": [
+   {
+    "s": "How can our engineers ___ in the VFD course?",
+    "opts": [
+     "enroll",
+     "enrollment",
+     "enrolled"
+    ],
+    "a": 0,
+    "ar": "إزاي مهندسينا يسجّلوا في كورس الـ‎VFD‎؟"
+   },
+   {
+    "s": "___ ends next Sunday, so hurry.",
+    "opts": [
+     "Enroll",
+     "Enrollment",
+     "Enrolled"
+    ],
+    "a": 1,
+    "ar": "التسجيل بيخلص الحد الجاي، فاستعجل."
+   },
+   {
+    "s": "He ___ the course after two weeks; he was too busy.",
+    "opts": [
+     "enrolled in",
+     "signed up for",
+     "dropped out of"
+    ],
+    "a": 2,
+    "ar": "ساب الكورس بعد أسبوعين؛ كان مشغول قوي."
+   }
+  ],
+  "book": "Finally, I'll wrap up with information on how to enroll in the course and answer any questions you may have."
+ },
+ {
+  "w": "challenges",
+  "ar": "تحديات / صعوبات",
+  "family": [
+   {
+    "w": "challenges",
+    "pos": "noun",
+    "ex": "The main challenges are long lead times and the dollar rate.",
+    "ar": "التحديات الأساسية مدة التوريد الطويلة وسعر الدولار.",
+    "ex2": "Both affect our prices.",
+    "ar2": "الاتنين بيأثروا على أسعارنا."
+   },
+   {
+    "w": "challenge",
+    "pos": "verb",
+    "ex": "The client challenged our battery life figures.",
+    "ar": "العميل شكّك في أرقام عمر البطاريات بتاعتنا.",
+    "ex2": "We sent him the factory test report.",
+    "ar2": "بعتناله تقرير اختبار المصنع."
+   },
+   {
+    "w": "challenging",
+    "pos": "adjective",
+    "ex": "Installing the UPS on the tenth floor was challenging.",
+    "ar": "تركيب الـ‎UPS‎ في الدور العاشر كان صعب.",
+    "ex2": "The lift was too small.",
+    "ar2": "الأسانسير كان صغير قوي."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "difficulties",
+    "note": "general; things that make work hard",
+    "ex": "We had difficulties getting the import permit.",
+    "ar": "كان عندنا صعوبات في استخراج تصريح الاستيراد.",
+    "ex2": "It took three weeks.",
+    "ar2": "خد تلات أسابيع."
+   },
+   {
+    "w": "obstacles",
+    "note": "something blocking your progress",
+    "ex": "Customs rules are the biggest obstacles for us.",
+    "ar": "قواعد الجمارك أكبر عوائق عندنا.",
+    "ex2": "They change often.",
+    "ar2": "بتتغيّر كتير."
+   }
+  ],
+  "ant": [
+   {
+    "w": "opportunities",
+    "ex": "The new data centres bring big opportunities.",
+    "ar": "الداتا سنترات الجديدة بتجيب فرص كبيرة.",
+    "ex2": "Each needs several large UPS systems.",
+    "ar2": "كل واحد محتاج كذا ‎UPS‎ كبير."
+   }
+  ],
+  "ladder": {
+   "label": "how hard",
+   "lar": "صعب قد إيه",
+   "steps": [
+    {
+     "w": "issue",
+     "ex": "There's an issue with the delivery address.",
+     "ar": "فيه مشكلة في عنوان التسليم.",
+     "ex2": "I'll call the client.",
+     "ar2": "هكلّم العميل."
+    },
+    {
+     "w": "challenge",
+     "ex": "Finding trained VFD technicians is a challenge.",
+     "ar": "إننا نلاقي فنيين ‎VFD‎ مدرّبين تحدّي.",
+     "ex2": "We train our own now.",
+     "ar2": "بندرّب بنفسنا دلوقتي."
+    },
+    {
+     "w": "crisis",
+     "ex": "The power crisis doubled our UPS orders.",
+     "ar": "أزمة الكهربا ضاعفت طلبات الـ‎UPS‎ عندنا.",
+     "ex2": "We're working three shifts.",
+     "ar2": "بنشتغل تلات شيفتات."
+    }
+   ]
+  },
+  "ctx": "One of our biggest challenges is the dollar rate. Battery prices can change between the quotation and the PO.",
+  "ctx_ar": "من أكبر التحديات عندنا سعر الدولار. أسعار البطاريات ممكن تتغيّر ما بين عرض السعر والـ‎PO‎.",
+  "quiz": [
+   {
+    "s": "What are the main ___ in this project?",
+    "opts": [
+     "challenges",
+     "challenging",
+     "challenged"
+    ],
+    "a": 0,
+    "ar": "إيه التحديات الأساسية في المشروع ده؟"
+   },
+   {
+    "s": "Working in a live data centre is very ___.",
+    "opts": [
+     "challenge",
+     "challenging",
+     "challenges"
+    ],
+    "a": 1,
+    "ar": "الشغل في داتا سنتر شغال صعب جدًا."
+   },
+   {
+    "s": "New solar farms bring great ___ for us.",
+    "opts": [
+     "challenges",
+     "obstacles",
+     "opportunities"
+    ],
+    "a": 2,
+    "ar": "مزارع الطاقة الشمسية الجديدة بتجيب لنا فرص كبيرة."
+   }
+  ],
+  "book": "I'll begin by discussing the challenges that organizations face in project management and how our training course can help address them."
+ },
+ {
+  "w": "cover",
+  "ar": "تغطّي / تتكلم عن",
+  "family": [
+   {
+    "w": "cover",
+    "pos": "verb",
+    "ex": "Today we'll cover three topics: UPS sizing, batteries and service.",
+    "ar": "النهارده هنتكلم عن تلات مواضيع: مقاس الـ‎UPS‎ والبطاريات والصيانة.",
+    "ex2": "Questions come at the end.",
+    "ar2": "الأسئلة في الآخر."
+   },
+   {
+    "w": "coverage",
+    "pos": "noun",
+    "ex": "Our service coverage includes all of Cairo and Giza.",
+    "ar": "تغطية الصيانة بتاعتنا بتشمل كل القاهرة والجيزة.",
+    "ex2": "Alexandria starts next year.",
+    "ar2": "إسكندرية هتبدأ السنة الجاية."
+   },
+   {
+    "w": "cover",
+    "pos": "noun",
+    "ex": "The insurance gives full cover for transport damage.",
+    "ar": "التأمين بيدّي تغطية كاملة لضرر النقل.",
+    "ex2": "We claimed it last month.",
+    "ar2": "طالبنا بيه الشهر اللي فات."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "talk about topics",
+    "mar": "تتكلم عن مواضيع",
+    "ex": "We'll cover the payment terms after the break.",
+    "ar": "هنتكلم عن شروط الدفع بعد البريك.",
+    "ex2": "Finance will join us.",
+    "ar2": "الحسابات هتنضم لينا."
+   },
+   {
+    "m": "include in a warranty or contract",
+    "mar": "تشمل في الضمان أو العقد",
+    "ex": "The warranty doesn't cover damage from water.",
+    "ar": "الضمان مش بيغطي الضرر من المية.",
+    "ex2": "The battery room flooded last winter.",
+    "ar2": "أوضة البطاريات غرقت الشتا اللي فات."
+   },
+   {
+    "m": "do someone's work while they're away",
+    "mar": "تغطّي مكان حد",
+    "ex": "Can you cover for Ahmed while he's on leave?",
+    "ar": "ممكن تغطّي مكان ‎Ahmed‎ وهو في أجازة؟",
+    "ex2": "He has two site visits.",
+    "ar2": "عنده زيارتين مواقع."
+   }
+  ],
+  "syn": [
+   {
+    "w": "go through",
+    "note": "explain step by step",
+    "ex": "Let's go through the contract together.",
+    "ar": "يلا نعدّي على العقد سوا.",
+    "ex2": "Page by page.",
+    "ar2": "صفحة صفحة."
+   },
+   {
+    "w": "discuss",
+    "note": "talk about something in detail with others",
+    "ex": "We'll discuss the discount tomorrow.",
+    "ar": "هنتناقش في الخصم بكرة.",
+    "ex2": "The manager will be there.",
+    "ar2": "المدير هيكون موجود."
+   },
+   {
+    "w": "include",
+    "note": "contain as part of the whole",
+    "ex": "The price includes installation.",
+    "ar": "السعر شامل التركيب.",
+    "ex2": "Transport is extra.",
+    "ar2": "النقل زيادة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "exclude",
+    "ex": "The quotation excludes civil works.",
+    "ar": "عرض السعر مش شامل الأعمال المدنية.",
+    "ex2": "The client will do them.",
+    "ar2": "العميل هيعملها."
+   }
+  ],
+  "ladder": null,
+  "ctx": "In this session we'll cover how to read UPS alarms. Then we'll cover what the maintenance contract includes and what it doesn't.",
+  "ctx_ar": "في الجلسة دي هنتكلم إزاي نقرا إنذارات الـ‎UPS‎. بعدين هنتكلم العقد بيشمل إيه ومش بيشمل إيه.",
+  "quiz": [
+   {
+    "s": "Today's training will ___ battery safety.",
+    "opts": [
+     "cover",
+     "coverage",
+     "covered"
+    ],
+    "a": 0,
+    "ar": "تدريب النهارده هيتكلم عن سلامة البطاريات."
+   },
+   {
+    "s": "Our service ___ now includes the Delta cities.",
+    "opts": [
+     "cover",
+     "coverage",
+     "covers"
+    ],
+    "a": 1,
+    "ar": "تغطية الصيانة بتاعتنا بقت تشمل مدن الدلتا."
+   },
+   {
+    "s": "The price ___ civil works; the client will do them.",
+    "opts": [
+     "covers",
+     "includes",
+     "excludes"
+    ],
+    "a": 2,
+    "ar": "السعر مش شامل الأعمال المدنية؛ العميل هيعملها."
+   }
+  ],
+  "book": "Today, we're going to cover ___."
  }
 ]

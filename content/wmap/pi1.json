@@ -837,5 +837,1277 @@
     "ar": "المشاريع الجديدة هتضغط فريقنا لآخره."
    }
   ]
+ },
+ {
+  "w": "call back",
+  "ar": "يكلّمك تاني بعدين / يرجعلك بمكالمة",
+  "family": [
+   {
+    "w": "call back",
+    "pos": "verb",
+    "ex": "Is it OK if I call you back after the site visit?",
+    "ar": "ينفع أكلمك تاني بعد زيارة الموقع؟",
+    "ex2": "I'll call back with the UPS price by noon.",
+    "ar2": "هرجعلك بسعر الـ‎UPS‎ قبل الضهر."
+   },
+   {
+    "w": "callback",
+    "pos": "noun",
+    "ex": "The customer asked for a callback about the battery replacement.",
+    "ar": "العميل طلب إننا نكلمه تاني بخصوص تغيير البطاريات.",
+    "ex2": "I logged the callback for Ahmed at three o'clock.",
+    "ar2": "سجّلت إننا هنكلم ‎Ahmed‎ الساعة تلاتة."
+   },
+   {
+    "w": "caller",
+    "pos": "person",
+    "ex": "The caller wants a quotation for a 20 kVA UPS.",
+    "ar": "اللي على الخط عايز عرض سعر لـ‎UPS‎ قدرة 20 ‎kVA‎.",
+    "ex2": "Please take the caller's name and company before you transfer him.",
+    "ar2": "خد اسم المتصل وشركته قبل ما تحوّله."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "get back to",
+    "note": "general: reply later by phone or email",
+    "ex": "I'll get back to you with the delivery date tomorrow.",
+    "ar": "هرد عليك بميعاد التسليم بكرة.",
+    "ex2": "I just need to check stock with the warehouse first.",
+    "ar2": "بس محتاج أراجع المخزن الأول."
+   },
+   {
+    "w": "return a call",
+    "note": "more formal, used in notes and emails",
+    "ex": "Mr. Samir returned your call about the overdue invoice.",
+    "ar": "أستاذ ‎Samir‎ رد على مكالمتك بخصوص الفاتورة المتأخرة.",
+    "ex2": "He wants to discuss a payment plan.",
+    "ar2": "عايز يتكلم في خطة سداد."
+   },
+   {
+    "w": "ring back",
+    "note": "British and informal, same as call back",
+    "ex": "Can you ring back after four? I'm on a site visit.",
+    "ar": "ممكن تكلمني تاني بعد أربعة؟ أنا في زيارة موقع.",
+    "ex2": "The solar site has almost no signal.",
+    "ar2": "موقع الطاقة الشمسية مفيهوش شبكة تقريبًا."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how soon you call back",
+   "lar": "هترجع تكلّمه إمتى",
+   "steps": [
+    {
+     "w": "later",
+     "ex": "I'll call you back later, after the PO meeting.",
+     "ar": "هكلمك تاني بعدين، بعد اجتماع الـ‎PO‎.",
+     "ex2": "It may take an hour or two.",
+     "ar2": "ممكن ياخد ساعة ولا اتنين."
+    },
+    {
+     "w": "shortly",
+     "ex": "I'll call you back shortly with the battery price.",
+     "ar": "هكلمك كمان شوية بسعر البطارية.",
+     "ex2": "I just need five minutes to check it.",
+     "ar2": "محتاج خمس دقايق بس أراجعه."
+    },
+    {
+     "w": "right away",
+     "ex": "The server room is overheating? I'll call you back right away.",
+     "ar": "أوضة السيرفرات سخنة؟ هكلمك حالًا.",
+     "ex2": "I'm reaching the on-call engineer now.",
+     "ar2": "بكلم المهندس المناوب دلوقتي."
+    }
+   ]
+  },
+  "ctx": "I'm with a client now, so can I call you back at four? The VFD quotation will be ready by then.",
+  "ctx_ar": "أنا مع عميل دلوقتي، ممكن أكلمك الساعة أربعة؟ عرض سعر الـ‎VFD‎ هيكون جاهز ساعتها.",
+  "quiz": [
+   {
+    "s": "Sorry, I'm driving. Please ___ after six.",
+    "opts": [
+     "call back",
+     "callback",
+     "caller"
+    ],
+    "a": 0,
+    "ar": "آسف، أنا سايق. كلمني تاني بعد ستة."
+   },
+   {
+    "s": "The customer asked for a ___ about the late delivery.",
+    "opts": [
+     "caller",
+     "callback",
+     "call back"
+    ],
+    "a": 1,
+    "ar": "العميل طلب إننا نكلمه تاني بخصوص التسليم المتأخر."
+   },
+   {
+    "s": "The UPS alarm is on? I'll call you back ___.",
+    "opts": [
+     "later",
+     "shortly",
+     "right away"
+    ],
+    "a": 2,
+    "ar": "إنذار الـ‎UPS‎ شغال؟ هكلمك حالًا."
+   }
+  ],
+  "book": "Is it OK if I call you back?"
+ },
+ {
+  "w": "tied up",
+  "ar": "مشغول ومش فاضي دلوقتي",
+  "family": [
+   {
+    "w": "tied up",
+    "pos": "adjective",
+    "ex": "I'm tied up with the bank audit until three.",
+    "ar": "أنا مشغول مع مراجعة البنك لحد تلاتة.",
+    "ex2": "Can we move the supplier call to tomorrow?",
+    "ar2": "ممكن ننقل مكالمة المورد لبكرة؟"
+   },
+   {
+    "w": "tie up",
+    "pos": "verb",
+    "ex": "Commissioning the solar station will tie up our team all week.",
+    "ar": "تشغيل محطة الطاقة الشمسية هيشغل الفريق كله طول الأسبوع.",
+    "ex2": "So we can't take new service visits until Sunday.",
+    "ar2": "فمش هنقدر ناخد زيارات صيانة جديدة لحد الحد."
+   },
+   {
+    "w": "tie-up",
+    "pos": "noun",
+    "ex": "There was a tie-up at customs, so the batteries arrived late.",
+    "ar": "حصل تعطيل في الجمارك، فالبطاريات وصلت متأخر.",
+    "ex2": "The tie-up cost us three days on the project.",
+    "ar2": "التعطيل ده كلّفنا تلات أيام في المشروع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "busy",
+    "note": "general, everyday word",
+    "ex": "Sorry, the service desk is busy right now.",
+    "ar": "آسف، مكتب الصيانة مشغول دلوقتي.",
+    "ex2": "All engineers are busy on site visits.",
+    "ar2": "كل المهندسين مشغولين في زيارات مواقع."
+   },
+   {
+    "w": "swamped",
+    "note": "very busy, too much work at once",
+    "ex": "We're swamped with year-end invoices this week.",
+    "ar": "إحنا غرقانين في فواتير آخر السنة الأسبوع ده.",
+    "ex2": "Being swamped means collections calls will wait until Sunday.",
+    "ar2": "ومعنى إننا غرقانين إن مكالمات التحصيل هتستنى للحد."
+   },
+   {
+    "w": "in a meeting",
+    "note": "polite reason, often said by assistants",
+    "ex": "Eng. Tarek is in a meeting with the client.",
+    "ar": "الباشمهندس ‎Tarek‎ في اجتماع مع العميل.",
+    "ex2": "He'll be free in half an hour.",
+    "ar2": "هيفضى كمان نص ساعة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "available",
+    "ex": "I'm available now if you want to review the PO.",
+    "ar": "أنا فاضي دلوقتي لو عايز نراجع الـ‎PO‎.",
+    "ex2": "Being available after lunch, I can visit the data centre too.",
+    "ar2": "وبما إني فاضي بعد الغدا، أقدر أزور الداتا سنتر كمان."
+   }
+  ],
+  "ladder": {
+   "label": "how busy",
+   "lar": "مشغول قد إيه",
+   "steps": [
+    {
+     "w": "busy",
+     "ex": "I'm a bit busy, but go ahead.",
+     "ar": "أنا مشغول شوية، بس اتفضل.",
+     "ex2": "Is it about the UPS order?",
+     "ar2": "هو بخصوص طلب الـ‎UPS‎؟"
+    },
+    {
+     "w": "tied up",
+     "ex": "I'm tied up right now; can I call you back?",
+     "ar": "أنا مش فاضي دلوقتي، ممكن أكلمك تاني؟",
+     "ex2": "I'm finishing a quotation for the bank.",
+     "ar2": "بخلّص عرض سعر للبنك."
+    },
+    {
+     "w": "swamped",
+     "ex": "I'm completely swamped with month-end collections.",
+     "ar": "أنا غرقان خالص في تحصيلات آخر الشهر.",
+     "ex2": "Please email me instead of calling.",
+     "ar2": "ابعتلي إيميل بدل ما تتصل."
+    }
+   ]
+  },
+  "ctx": "Sorry, Mona, I'm tied up with the customs papers for the battery shipment. Can we talk after lunch?",
+  "ctx_ar": "آسف يا ‎Mona‎، أنا مش فاضي عشان ورق جمارك شحنة البطاريات. ممكن نتكلم بعد الغدا؟",
+  "quiz": [
+   {
+    "s": "I'm a bit ___ now; can I call you back?",
+    "opts": [
+     "tied up",
+     "tie up",
+     "tie-up"
+    ],
+    "a": 0,
+    "ar": "أنا مش فاضي شوية دلوقتي، ممكن أكلمك تاني؟"
+   },
+   {
+    "s": "A ___ at the port delayed our VFD shipment.",
+    "opts": [
+     "tied up",
+     "tie-up",
+     "tie up"
+    ],
+    "a": 1,
+    "ar": "تعطيل في الميناء أخّر شحنة الـ‎VFD‎ بتاعتنا."
+   },
+   {
+    "s": "We're completely ___ with year-end invoices; nobody can help today.",
+    "opts": [
+     "available",
+     "busy",
+     "swamped"
+    ],
+    "a": 2,
+    "ar": "إحنا غرقانين خالص في فواتير آخر السنة، محدش فاضي يساعد النهارده."
+   }
+  ],
+  "book": "I'm a little tied up just now."
+ },
+ {
+  "w": "thrive on",
+  "ar": "بيتبسط وبيبدع في (التحدي/الضغط)",
+  "family": [
+   {
+    "w": "thrive on",
+    "pos": "verb",
+    "ex": "Karim thrives on difficult UPS troubleshooting jobs.",
+    "ar": "‎Karim‎ بيتبسط بشغل تصليح أعطال الـ‎UPS‎ الصعبة.",
+    "ex2": "The harder the fault, the happier he is.",
+    "ar2": "كل ما العطل يصعب، كل ما يفرح أكتر."
+   },
+   {
+    "w": "thriving",
+    "pos": "adjective",
+    "ex": "We have a thriving solar maintenance business in Upper Egypt.",
+    "ar": "عندنا بيزنس صيانة طاقة شمسية ناجح ومزدهر في الصعيد.",
+    "ex2": "Thriving contracts there bring steady monthly income.",
+    "ar2": "العقود المزدهرة هناك بتجيب دخل شهري ثابت."
+   },
+   {
+    "w": "thrive",
+    "pos": "verb",
+    "ex": "Our service team thrives when targets are clear.",
+    "ar": "فريق الصيانة بيبدع لما الأهداف تبقى واضحة.",
+    "ex2": "They thrive with a weekly visit plan.",
+    "ar2": "بيشتغلوا أحسن بخطة زيارات أسبوعية."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "enjoy",
+    "note": "simple, neutral; no idea of growing stronger",
+    "ex": "I enjoy visiting customers' data centres.",
+    "ar": "أنا بحب أزور الداتا سنتر بتاعة العملا.",
+    "ex2": "I enjoy learning their power setups too.",
+    "ar2": "وبحب أتعلم أنظمة الكهربا عندهم كمان."
+   },
+   {
+    "w": "love a challenge",
+    "note": "spoken, friendly way to say it",
+    "ex": "I love a challenge, so give me the hardest VFD fault.",
+    "ar": "أنا بحب التحدي، فاديني أصعب عطل ‎VFD‎.",
+    "ex2": "I love a challenge like the chiller pump problem.",
+    "ar2": "بحب تحدي زي مشكلة طلمبة التشيلر."
+   },
+   {
+    "w": "do well under",
+    "note": "focus on results under specific conditions",
+    "ex": "She does well under tight deadlines.",
+    "ar": "هي بتشتغل كويس تحت ضغط المواعيد الضيقة.",
+    "ex2": "She does well under pressure at quarter-end too.",
+    "ar2": "وبتشتغل كويس تحت الضغط آخر الربع كمان."
+   }
+  ],
+  "ant": [
+   {
+    "w": "struggle with",
+    "ex": "New staff often struggle with urgent site calls.",
+    "ar": "الموظفين الجداد غالبًا بيتعبوا مع مكالمات المواقع المستعجلة.",
+    "ex2": "They struggle with the pressure at first.",
+    "ar2": "بيتعبوا من الضغط في الأول."
+   }
+  ],
+  "ladder": {
+   "label": "how much you like challenges",
+   "lar": "بتحب التحدي قد إيه",
+   "steps": [
+    {
+     "w": "cope with",
+     "ex": "I can cope with tight delivery dates.",
+     "ar": "أقدر أتعامل مع مواعيد تسليم ضيقة.",
+     "ex2": "I cope with them by planning early.",
+     "ar2": "بتعامل معاها بإني أخطط بدري."
+    },
+    {
+     "w": "enjoy",
+     "ex": "I enjoy solving customer problems.",
+     "ar": "بحب أحل مشاكل العملا.",
+     "ex2": "Enjoying it keeps me motivated.",
+     "ar2": "وده بيخليني متحمس."
+    },
+    {
+     "w": "thrive on",
+     "ex": "I thrive on new challenges like the bank's data centre project.",
+     "ar": "أنا ببدع في التحديات الجديدة زي مشروع داتا سنتر البنك.",
+     "ex2": "Thriving on pressure helped us finish two days early.",
+     "ar2": "إني ببدع تحت الضغط خلانا نخلّص قبل الميعاد بيومين."
+    }
+   ]
+  },
+  "ctx": "Rana thrives on tough collections cases. Last month she recovered an overdue invoice that was six months late.",
+  "ctx_ar": "‎Rana‎ بتبدع في حالات التحصيل الصعبة. الشهر اللي فات حصّلت فاتورة متأخرة ست شهور.",
+  "quiz": [
+   {
+    "s": "Our new engineer ___ on difficult faults.",
+    "opts": [
+     "thrives",
+     "thriving",
+     "thrive"
+    ],
+    "a": 0,
+    "ar": "المهندس الجديد بتاعنا بيبدع في الأعطال الصعبة."
+   },
+   {
+    "s": "We have a ___ service business in Alexandria.",
+    "opts": [
+     "thrive",
+     "thriving",
+     "thrive on"
+    ],
+    "a": 1,
+    "ar": "عندنا بيزنس صيانة مزدهر في إسكندرية."
+   },
+   {
+    "s": "New staff often ___ urgent calls at first.",
+    "opts": [
+     "thrive on",
+     "enjoy",
+     "struggle with"
+    ],
+    "a": 2,
+    "ar": "الموظفين الجداد غالبًا بيتعبوا مع المكالمات المستعجلة في الأول."
+   }
+  ],
+  "book": "I always thrive on challenges."
+ },
+ {
+  "w": "self-starter",
+  "ar": "شخص بيبدأ الشغل لوحده من غير ما حد يزقّه",
+  "family": [
+   {
+    "w": "self-starter",
+    "pos": "person",
+    "ex": "Our sales team needs a self-starter who finds new leads alone.",
+    "ar": "فريق المبيعات محتاج حد بيتحرك لوحده ويجيب عملا جداد بنفسه.",
+    "ex2": "A self-starter doesn't wait for a manager's call.",
+    "ar2": "الشخص ده مش بيستنى مكالمة من المدير."
+   },
+   {
+    "w": "self-starting",
+    "pos": "adjective",
+    "ex": "We want a self-starting engineer for the Aswan solar site.",
+    "ar": "عايزين مهندس بيتحرك لوحده لموقع الطاقة الشمسية في أسوان.",
+    "ex2": "Self-starting engineers can work far from the office.",
+    "ar2": "المهندسين اللي كده يقدروا يشتغلوا بعيد عن المكتب."
+   },
+   {
+    "w": "self-motivated",
+    "pos": "adjective",
+    "ex": "Ali is self-motivated; he studies new UPS models at night.",
+    "ar": "‎Ali‎ عنده دافع ذاتي، بيذاكر موديلات الـ‎UPS‎ الجديدة بالليل.",
+    "ex2": "Self-motivated staff learn faster.",
+    "ar2": "الموظفين اللي عندهم دافع ذاتي بيتعلموا أسرع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "proactive",
+    "note": "acts early to prevent problems",
+    "ex": "A proactive technician checks batteries before they fail.",
+    "ar": "الفني اللي بيسبق الأحداث بيفحص البطاريات قبل ما تبوظ.",
+    "ex2": "Being proactive saves us emergency visits.",
+    "ar2": "ده بيوفر علينا زيارات طوارئ."
+   },
+   {
+    "w": "go-getter",
+    "note": "informal, energetic person chasing results",
+    "ex": "Hany is a real go-getter; he closed three POs this week.",
+    "ar": "‎Hany‎ شاطر وبيجري ورا الشغل، قفل تلات أوامر شراء الأسبوع ده.",
+    "ex2": "Go-getters like him push the whole sales team.",
+    "ar2": "الناس اللي زيه بتشد فريق المبيعات كله."
+   }
+  ],
+  "ant": [
+   {
+    "w": "needs supervision",
+    "ex": "The new trainee still needs supervision on live panels.",
+    "ar": "المتدرب الجديد لسه محتاج إشراف على اللوح اللي فيها كهربا.",
+    "ex2": "Without supervision, he might trip the main breaker.",
+    "ar2": "من غير إشراف ممكن يفصّل البريكر الرئيسي."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We need a self-starter for the Hurghada branch. Nobody will be there to tell them what to do each morning.",
+  "ctx_ar": "محتاجين حد بيتحرك لوحده لفرع الغردقة. مفيش حد هيبقى هناك يقولهم يعملوا إيه كل يوم الصبح.",
+  "quiz": [
+   {
+    "s": "We're hiring a ___ who can find new solar customers alone.",
+    "opts": [
+     "self-starter",
+     "self-starting",
+     "needs supervision"
+    ],
+    "a": 0,
+    "ar": "بنعيّن حد بيتحرك لوحده ويقدر يجيب عملا طاقة شمسية جداد بنفسه."
+   },
+   {
+    "s": "He's ___: he learns new VFD software at home.",
+    "opts": [
+     "self-starter",
+     "self-motivated",
+     "needs supervision"
+    ],
+    "a": 1,
+    "ar": "هو عنده دافع ذاتي: بيتعلم سوفتوير الـ‎VFD‎ الجديد في البيت."
+   },
+   {
+    "s": "The trainee still ___ when he works on live equipment.",
+    "opts": [
+     "proactive",
+     "self-starter",
+     "needs supervision"
+    ],
+    "a": 2,
+    "ar": "المتدرب لسه محتاج إشراف لما يشتغل على أجهزة فيها كهربا."
+   }
+  ],
+  "book": "I am a self-starter."
+ },
+ {
+  "w": "detail-oriented",
+  "ar": "مدقق وبياخد باله من التفاصيل",
+  "family": [
+   {
+    "w": "detail-oriented",
+    "pos": "adjective",
+    "ex": "Invoicing needs a detail-oriented person to check every tax number.",
+    "ar": "الفواتير محتاجة حد مدقق يراجع كل رقم ضريبي.",
+    "ex2": "One wrong digit and the e-invoice is rejected.",
+    "ar2": "رقم واحد غلط والفاتورة الإلكترونية بتترفض."
+   },
+   {
+    "w": "detail",
+    "pos": "noun",
+    "ex": "Please check every detail in the PO before you sign.",
+    "ar": "راجع كل تفصيلة في الـ‎PO‎ قبل ما تمضي.",
+    "ex2": "Details like delivery address cause most problems.",
+    "ar2": "التفاصيل زي عنوان التسليم هي اللي بتعمل أغلب المشاكل."
+   },
+   {
+    "w": "detailed",
+    "pos": "adjective",
+    "ex": "The client wants a detailed quotation for the 60 kVA UPS.",
+    "ar": "العميل عايز عرض سعر مفصّل للـ‎UPS‎ قدرة 60 ‎kVA‎.",
+    "ex2": "A detailed offer lists batteries, installation and warranty.",
+    "ar2": "العرض المفصّل بيوضح البطاريات والتركيب والضمان."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "meticulous",
+    "note": "very careful, almost perfect, stronger word",
+    "ex": "Mai is meticulous with import documents.",
+    "ar": "‎Mai‎ دقيقة جدًا في مستندات الاستيراد.",
+    "ex2": "Meticulous work means no fines at customs.",
+    "ar2": "الشغل الدقيق معناه مفيش غرامات في الجمارك."
+   },
+   {
+    "w": "careful",
+    "note": "simple, everyday word",
+    "ex": "Be careful with the battery serial numbers.",
+    "ar": "خلي بالك من الأرقام التسلسلية للبطاريات.",
+    "ex2": "Careful checks avoid warranty disputes.",
+    "ar2": "المراجعة الكويسة بتمنع مشاكل الضمان."
+   }
+  ],
+  "ant": [
+   {
+    "w": "careless",
+    "ex": "A careless mistake in the invoice delayed payment by a month.",
+    "ar": "غلطة إهمال في الفاتورة أخّرت الدفع شهر.",
+    "ex2": "Careless typing cost us real money.",
+    "ar2": "الكتابة بإهمال كلفتنا فلوس فعلًا."
+   }
+  ],
+  "ladder": {
+   "label": "how careful",
+   "lar": "مدقق قد إيه",
+   "steps": [
+    {
+     "w": "careful",
+     "ex": "He is careful when he fills in service reports.",
+     "ar": "هو بياخد باله وهو بيملا تقارير الصيانة.",
+     "ex2": "Careful reports help the next engineer.",
+     "ar2": "التقارير الكويسة بتساعد المهندس اللي بعده."
+    },
+    {
+     "w": "detail-oriented",
+     "ex": "She is detail-oriented, so she reviews all quotations.",
+     "ar": "هي مدققة، فهي اللي بتراجع كل عروض الأسعار.",
+     "ex2": "Detail-oriented checks catch wrong prices.",
+     "ar2": "المراجعة الدقيقة بتمسك الأسعار الغلط."
+    },
+    {
+     "w": "meticulous",
+     "ex": "Our auditor is meticulous; he checks every receipt.",
+     "ar": "المراجع بتاعنا دقيق جدًا؛ بيراجع كل إيصال.",
+     "ex2": "Meticulous audits keep us safe with the tax office.",
+     "ar2": "المراجعة الدقيقة بتحمينا مع الضرايب."
+    }
+   ]
+  },
+  "ctx": "For the tender file, we need someone detail-oriented. One missing stamp can disqualify our whole offer.",
+  "ctx_ar": "لملف المناقصة محتاجين حد مدقق. ختم واحد ناقص ممكن يستبعد العرض كله.",
+  "quiz": [
+   {
+    "s": "The client wants a ___ quotation with all costs.",
+    "opts": [
+     "detail",
+     "detailed",
+     "detail-oriented"
+    ],
+    "a": 1,
+    "ar": "العميل عايز عرض سعر مفصّل بكل التكاليف."
+   },
+   {
+    "s": "We need a ___ person to check e-invoices.",
+    "opts": [
+     "detail-oriented",
+     "detailed",
+     "careless"
+    ],
+    "a": 0,
+    "ar": "محتاجين حد مدقق يراجع الفواتير الإلكترونية."
+   },
+   {
+    "s": "A ___ mistake in the PO number delayed payment.",
+    "opts": [
+     "meticulous",
+     "careful",
+     "careless"
+    ],
+    "a": 2,
+    "ar": "غلطة إهمال في رقم الـ‎PO‎ أخّرت الدفع."
+   }
+  ],
+  "book": "I am detail-oriented; I pay attention to all the details of my job."
+ },
+ {
+  "w": "resourceful",
+  "ar": "شاطر في إنه يتصرف بالموجود",
+  "family": [
+   {
+    "w": "resourceful",
+    "pos": "adjective",
+    "ex": "Our technician was resourceful and used a spare fan to cool the UPS.",
+    "ar": "الفني بتاعنا اتصرف وركّب مروحة احتياطي عشان يبرّد الـ‎UPS‎.",
+    "ex2": "Being resourceful saved the customer's servers that night.",
+    "ar2": "تصرفه ده أنقذ سيرفرات العميل الليلة دي."
+   },
+   {
+    "w": "resourcefulness",
+    "pos": "noun",
+    "ex": "The client praised Omar's resourcefulness during the power cut.",
+    "ar": "العميل شكر ‎Omar‎ على حسن تصرفه وقت انقطاع الكهربا.",
+    "ex2": "His resourcefulness kept the hospital running.",
+    "ar2": "تصرفه خلّى المستشفى شغالة."
+   },
+   {
+    "w": "resource",
+    "pos": "noun",
+    "ex": "We don't have the resources to visit every site weekly.",
+    "ar": "معندناش الإمكانيات إننا نزور كل موقع كل أسبوع.",
+    "ex2": "So we plan resources by contract priority.",
+    "ar2": "فبنوزع الإمكانيات حسب أولوية العقد."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "creative",
+    "note": "finds new ideas, not only practical fixes",
+    "ex": "Sara found a creative way to cut shipping costs.",
+    "ar": "‎Sara‎ لقت طريقة مبتكرة تقلل تكلفة الشحن.",
+    "ex2": "Her creative plan combined two supplier orders.",
+    "ar2": "خطتها المبتكرة جمعت طلبين من الموردين."
+   },
+   {
+    "w": "make do",
+    "note": "spoken: manage with what you have",
+    "ex": "We'll make do with the old cables until the new ones arrive.",
+    "ar": "هنمشّيها بالكابلات القديمة لحد ما الجديدة توصل.",
+    "ex2": "Making do is fine for two days only.",
+    "ar2": "التمشية دي تنفع يومين بس."
+   },
+   {
+    "w": "inventive",
+    "note": "good at inventing solutions, a bit formal",
+    "ex": "An inventive engineer built a test rig from spare parts.",
+    "ar": "مهندس مبتكر عمل جهاز اختبار من قطع غيار.",
+    "ex2": "That inventive rig now tests all our control cards.",
+    "ar2": "الجهاز ده دلوقتي بيختبر كل الكروت بتاعتنا."
+   }
+  ],
+  "ant": [
+   {
+    "w": "helpless",
+    "ex": "Without the manual, the new technician felt helpless.",
+    "ar": "من غير الكتالوج، الفني الجديد حس إنه مش عارف يعمل حاجة.",
+    "ex2": "A helpless feeling on site is normal at first.",
+    "ar2": "الإحساس ده في الموقع طبيعي في الأول."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The spare card was stuck at customs, so Youssef was resourceful. He borrowed one from another branch and restarted the chiller VFD the same day.",
+  "ctx_ar": "الكارت الاحتياطي كان محجوز في الجمارك، ف‎Youssef‎ اتصرف. استلف واحد من فرع تاني وشغّل الـ‎VFD‎ بتاع التشيلر في نفس اليوم.",
+  "quiz": [
+   {
+    "s": "Thanks to his ___, the site was back online in an hour.",
+    "opts": [
+     "resourceful",
+     "resourcefulness",
+     "resource"
+    ],
+    "a": 1,
+    "ar": "بفضل حسن تصرفه، الموقع رجع يشتغل في ساعة."
+   },
+   {
+    "s": "We don't have enough ___ to cover both projects.",
+    "opts": [
+     "resources",
+     "resourceful",
+     "helpless"
+    ],
+    "a": 0,
+    "ar": "معندناش إمكانيات كفاية نغطي المشروعين."
+   },
+   {
+    "s": "No spare part? Be ___ and find another way.",
+    "opts": [
+     "helpless",
+     "resource",
+     "resourceful"
+    ],
+    "a": 2,
+    "ar": "مفيش قطعة غيار؟ اتصرف ولاقي طريقة تانية."
+   }
+  ],
+  "book": "I am a resourceful individual with the ability to overcome problems and to make do with what is available to create a solution."
+ },
+ {
+  "w": "adapt",
+  "ar": "يتأقلم / يعدّل حاجة عشان تناسب",
+  "family": [
+   {
+    "w": "adapt",
+    "pos": "verb",
+    "ex": "Our engineers adapt quickly to new inverter brands.",
+    "ar": "المهندسين بتوعنا بيتأقلموا بسرعة مع ماركات الإنفرتر الجديدة.",
+    "ex2": "Last month they adapted to a Chinese brand in a week.",
+    "ar2": "الشهر اللي فات اتأقلموا على ماركة صيني في أسبوع."
+   },
+   {
+    "w": "adaptable",
+    "pos": "adjective",
+    "ex": "We need an adaptable salesperson for both UPS and solar.",
+    "ar": "محتاجين مندوب مبيعات مرن يبيع ‎UPS‎ وطاقة شمسية.",
+    "ex2": "An adaptable person can switch products easily.",
+    "ar2": "الشخص المرن بيقدر يغيّر بين المنتجات بسهولة."
+   },
+   {
+    "w": "adaptation",
+    "pos": "noun",
+    "ex": "The VFD needed some adaptation for the old pump motor.",
+    "ar": "الـ‎VFD‎ احتاج شوية تعديل عشان يناسب موتور الطلمبة القديم.",
+    "ex2": "The adaptation took two hours on site.",
+    "ar2": "التعديل خد ساعتين في الموقع."
+   },
+   {
+    "w": "adapter",
+    "pos": "noun",
+    "ex": "Bring a power adapter for the server rack.",
+    "ar": "هات أدابتر كهربا لراك السيرفرات.",
+    "ex2": "The adapter fits the European plugs.",
+    "ar2": "الأدابتر بيركب على الفيش الأوروبي."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "get used to a new situation",
+    "mar": "يتأقلم مع وضع جديد",
+    "ex": "New staff need time to adapt to our ERP system.",
+    "ar": "الموظفين الجداد محتاجين وقت يتأقلموا على نظام الـ‎ERP‎ بتاعنا.",
+    "ex2": "Most adapt within two weeks.",
+    "ar2": "أغلبهم بيتأقلموا في أسبوعين."
+   },
+   {
+    "m": "change something to fit",
+    "mar": "يعدّل حاجة عشان تناسب",
+    "ex": "We adapted the standard contract for the hospital.",
+    "ar": "عدّلنا العقد الأساسي عشان يناسب المستشفى.",
+    "ex2": "They need 24/7 response, so we adapted the terms.",
+    "ar2": "هما محتاجين استجابة 24 ساعة، فعدّلنا الشروط."
+   }
+  ],
+  "syn": [
+   {
+    "w": "adjust",
+    "note": "small change to fit, often settings or plans",
+    "ex": "Please adjust the delivery plan to the new date.",
+    "ar": "عدّل خطة التسليم على الميعاد الجديد.",
+    "ex2": "Adjusting it now avoids a penalty.",
+    "ar2": "لو عدّلناها دلوقتي هنتفادى الغرامة."
+   },
+   {
+    "w": "modify",
+    "note": "technical: change a design or document",
+    "ex": "We modified the panel to fit the bigger breaker.",
+    "ar": "عدّلنا اللوحة عشان البريكر الأكبر يركب.",
+    "ex2": "The modified drawing goes to the client today.",
+    "ar2": "الرسمة المعدّلة هتروح للعميل النهارده."
+   }
+  ],
+  "ant": [
+   {
+    "w": "resist change",
+    "ex": "Some customers resist change and keep their old batteries.",
+    "ar": "بعض العملا بيرفضوا التغيير ويفضلوا على بطارياتهم القديمة.",
+    "ex2": "Resisting change often costs them more in breakdowns.",
+    "ar2": "رفض التغيير ده غالبًا بيكلفهم أكتر في الأعطال."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our team had to adapt fast when the supplier changed the UPS model. We updated the quotations and trained the technicians in three days.",
+  "ctx_ar": "فريقنا اضطر يتأقلم بسرعة لما المورد غيّر موديل الـ‎UPS‎. حدّثنا عروض الأسعار ودرّبنا الفنيين في تلات أيام.",
+  "quiz": [
+   {
+    "s": "We need an ___ engineer who can work on many brands.",
+    "opts": [
+     "adaptable",
+     "adapt",
+     "adaptation"
+    ],
+    "a": 0,
+    "ar": "محتاجين مهندس مرن يقدر يشتغل على ماركات كتير."
+   },
+   {
+    "s": "The old motor needed some ___ to work with the new VFD.",
+    "opts": [
+     "adapt",
+     "adaptation",
+     "adaptable"
+    ],
+    "a": 1,
+    "ar": "الموتور القديم احتاج شوية تعديل عشان يشتغل مع الـ‎VFD‎ الجديد."
+   },
+   {
+    "s": "Please ___ the delivery plan to the customer's new date.",
+    "opts": [
+     "resist change",
+     "adapter",
+     "adjust"
+    ],
+    "a": 2,
+    "ar": "من فضلك عدّل خطة التسليم على ميعاد العميل الجديد."
+   }
+  ],
+  "book": "I can adapt well to new situations."
+ },
+ {
+  "w": "on budget",
+  "ar": "في حدود الميزانية",
+  "family": [
+   {
+    "w": "budget",
+    "pos": "noun",
+    "ex": "The client's budget for the UPS upgrade is 400,000 pounds.",
+    "ar": "ميزانية العميل لتطوير الـ‎UPS 400‎ ألف جنيه.",
+    "ex2": "Our offer must stay within that budget.",
+    "ar2": "عرضنا لازم يفضل في حدود الميزانية دي."
+   },
+   {
+    "w": "budget",
+    "pos": "verb",
+    "ex": "We budgeted two visits a year for each solar site.",
+    "ar": "حسبنا في الميزانية زيارتين في السنة لكل موقع شمسي.",
+    "ex2": "Budgeting more visits would raise the contract price.",
+    "ar2": "لو حسبنا زيارات أكتر سعر العقد هيزيد."
+   },
+   {
+    "w": "budgetary",
+    "pos": "adjective",
+    "ex": "Budgetary approval for the batteries comes next month.",
+    "ar": "الموافقة المالية على البطاريات جاية الشهر الجاي.",
+    "ex2": "Without budgetary approval, they can't issue the PO.",
+    "ar2": "من غير الموافقة دي، مش هيقدروا يطلعوا الـ‎PO‎."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "within budget",
+    "note": "same meaning, slightly more formal",
+    "ex": "The solar project finished within budget.",
+    "ar": "مشروع الطاقة الشمسية خلص في حدود الميزانية.",
+    "ex2": "Staying within budget made the client very happy.",
+    "ar2": "إننا فضلنا في حدود الميزانية خلّى العميل مبسوط جدًا."
+   },
+   {
+    "w": "under budget",
+    "note": "cost less than planned, even better",
+    "ex": "We finished the data centre job under budget.",
+    "ar": "خلّصنا شغل الداتا سنتر بأقل من الميزانية.",
+    "ex2": "Being under budget improved our margin.",
+    "ar2": "إننا صرفنا أقل حسّن هامش الربح."
+   }
+  ],
+  "ant": [
+   {
+    "w": "over budget",
+    "ex": "The installation went over budget because of extra cabling.",
+    "ar": "التركيب عدّى الميزانية بسبب كابلات زيادة.",
+    "ex2": "Going over budget needs the manager's approval.",
+    "ar2": "تعدّي الميزانية محتاج موافقة المدير."
+   }
+  ],
+  "ladder": {
+   "label": "how the cost ended",
+   "lar": "التكلفة خلصت إزاي",
+   "steps": [
+    {
+     "w": "over budget",
+     "ex": "The project went over budget by 10%.",
+     "ar": "المشروع عدّى الميزانية بـ10%.",
+     "ex2": "Over budget means a hard talk with the client.",
+     "ar2": "تعدّي الميزانية معناه كلام صعب مع العميل."
+    },
+    {
+     "w": "on budget",
+     "ex": "We delivered the VFD retrofit on budget.",
+     "ar": "سلّمنا تحديث الـ‎VFD‎ في حدود الميزانية.",
+     "ex2": "On budget and on time is our promise.",
+     "ar2": "في الميزانية وفي الميعاد، ده وعدنا."
+    },
+    {
+     "w": "under budget",
+     "ex": "The battery replacement came in under budget.",
+     "ar": "تغيير البطاريات طلع بأقل من الميزانية.",
+     "ex2": "Under budget jobs make easy repeat sales.",
+     "ar2": "الشغل اللي بيطلع أرخص بيجيب طلبات تانية بسهولة."
+    }
+   ]
+  },
+  "ctx": "The hospital wants the UPS upgrade on budget and before Ramadan. Let's lock the battery price with the supplier today.",
+  "ctx_ar": "المستشفى عايزة تطوير الـ‎UPS‎ في حدود الميزانية وقبل رمضان. يلا نثبّت سعر البطاريات مع المورد النهارده.",
+  "quiz": [
+   {
+    "s": "We finished the job ___, exactly as planned.",
+    "opts": [
+     "over budget",
+     "on budget",
+     "budgetary"
+    ],
+    "a": 1,
+    "ar": "خلّصنا الشغل في حدود الميزانية، زي ما كان مخطط بالظبط."
+   },
+   {
+    "s": "Extra cabling pushed the project ___.",
+    "opts": [
+     "over budget",
+     "under budget",
+     "on budget"
+    ],
+    "a": 0,
+    "ar": "الكابلات الزيادة خلت المشروع يعدّي الميزانية."
+   },
+   {
+    "s": "The PO is waiting for ___ approval.",
+    "opts": [
+     "budget",
+     "on budget",
+     "budgetary"
+    ],
+    "a": 2,
+    "ar": "الـ‎PO‎ مستني الموافقة المالية."
+   }
+  ],
+  "book": "I have completed several client projects, including small consulting and research jobs, and delivered each job on budget and before the deadline."
+ },
+ {
+  "w": "take on",
+  "ar": "ياخد/يشيل مسؤولية أو شغل زيادة",
+  "family": [
+   {
+    "w": "take on",
+    "pos": "verb",
+    "ex": "I'd like to take on the key accounts next year.",
+    "ar": "نفسي أمسك العملا الكبار السنة الجاية.",
+    "ex2": "Taking on key accounts means more travel.",
+    "ar2": "مسك العملا الكبار معناه سفر أكتر."
+   },
+   {
+    "w": "taking on",
+    "pos": "noun",
+    "ex": "Taking on new staff helped us cover the Delta region.",
+    "ar": "تعيين موظفين جداد ساعدنا نغطي منطقة الدلتا.",
+    "ex2": "Taking on two more technicians is next.",
+    "ar2": "الخطوة الجاية تعيين اتنين فنيين كمان."
+   },
+   {
+    "w": "take-on",
+    "pos": "adjective",
+    "ex": "Our take-on process for new suppliers takes two weeks.",
+    "ar": "إجراءات قبول الموردين الجداد عندنا بتاخد أسبوعين.",
+    "ex2": "The take-on form asks for tax and bank details.",
+    "ar2": "استمارة القبول بتطلب البيانات الضريبية والبنكية."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "accept a responsibility or job",
+    "mar": "يشيل مسؤولية أو شغل",
+    "ex": "Can you take on the solar maintenance contracts?",
+    "ar": "تقدر تمسك عقود صيانة الطاقة الشمسية؟",
+    "ex2": "Take on only what you can deliver.",
+    "ar2": "امسك بس اللي تقدر تسلّمه."
+   },
+   {
+    "m": "hire new people",
+    "mar": "يعيّن ناس جداد",
+    "ex": "We'll take on three engineers for the new contract.",
+    "ar": "هنعيّن تلات مهندسين عشان العقد الجديد.",
+    "ex2": "Taking on staff takes time, so start now.",
+    "ar2": "التعيين بياخد وقت، فابدأ دلوقتي."
+   },
+   {
+    "m": "compete against",
+    "mar": "ينافس حد",
+    "ex": "We're ready to take on the big UPS brands in this tender.",
+    "ar": "إحنا جاهزين ننافس ماركات الـ‎UPS‎ الكبيرة في المناقصة دي.",
+    "ex2": "Taking on big brands needs a sharp price.",
+    "ar2": "منافسة الماركات الكبيرة محتاجة سعر قوي."
+   }
+  ],
+  "syn": [
+   {
+    "w": "assume",
+    "note": "formal, for roles and responsibilities",
+    "ex": "She will assume responsibility for all import files.",
+    "ar": "هي هتتولى مسؤولية كل ملفات الاستيراد.",
+    "ex2": "Assuming that role starts in January.",
+    "ar2": "استلامها للدور ده هيبدأ في يناير."
+   },
+   {
+    "w": "handle",
+    "note": "deal with a task, neutral",
+    "ex": "Can you handle the customer's complaint today?",
+    "ar": "تقدر تتعامل مع شكوى العميل النهارده؟",
+    "ex2": "Handle it calmly and send a report.",
+    "ar2": "اتعامل معاها بهدوء وابعت تقرير."
+   }
+  ],
+  "ant": [
+   {
+    "w": "turn down",
+    "ex": "I had to turn down the extra project; my plate is full.",
+    "ar": "اضطريت أعتذر عن المشروع الزيادة؛ أنا مليان شغل.",
+    "ex2": "Turning down work is better than missing deadlines.",
+    "ar2": "الاعتذار عن الشغل أحسن من إني أفوّت المواعيد."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Hossam wants to take on more responsibility next year. He's asked to lead the new data centre maintenance team.",
+  "ctx_ar": "‎Hossam‎ عايز ياخد مسؤولية أكبر السنة الجاية. طلب إنه يمسك فريق صيانة الداتا سنتر الجديد.",
+  "quiz": [
+   {
+    "s": "I'm ready to ___ the Cairo key accounts.",
+    "opts": [
+     "take on",
+     "turn down",
+     "take-on"
+    ],
+    "a": 0,
+    "ar": "أنا جاهز أمسك العملا الكبار في القاهرة."
+   },
+   {
+    "s": "I had to ___ the extra project because I'm too busy.",
+    "opts": [
+     "take on",
+     "handle",
+     "turn down"
+    ],
+    "a": 2,
+    "ar": "اضطريت أعتذر عن المشروع الزيادة عشان أنا مشغول جدًا."
+   },
+   {
+    "s": "She will ___ responsibility for all import files.",
+    "opts": [
+     "assume",
+     "taking on",
+     "turn down"
+    ],
+    "a": 0,
+    "ar": "هي هتتولى مسؤولية كل ملفات الاستيراد."
+   }
+  ],
+  "book": "Professional development is something that's really important to me, since I hope to take on managerial responsibilities in the future."
+ },
+ {
+  "w": "work ethic",
+  "ar": "أخلاق الشغل والالتزام فيه",
+  "family": [
+   {
+    "w": "work ethic",
+    "pos": "noun",
+    "ex": "Ahmed has a strong work ethic; he never leaves a site half-finished.",
+    "ar": "‎Ahmed‎ عنده التزام قوي في الشغل؛ عمره ما بيسيب موقع نص نص.",
+    "ex2": "His work ethic earned him the key accounts.",
+    "ar2": "التزامه ده خلاه يمسك العملا الكبار."
+   },
+   {
+    "w": "ethical",
+    "pos": "adjective",
+    "ex": "It's not ethical to sell used batteries as new.",
+    "ar": "مش أخلاقي نبيع بطاريات مستعملة على إنها جديدة.",
+    "ex2": "Ethical selling keeps our customers for years.",
+    "ar2": "البيع بأمانة بيخلي عملاءنا معانا سنين."
+   },
+   {
+    "w": "ethics",
+    "pos": "noun",
+    "ex": "Our sales ethics policy bans gifts above 500 pounds.",
+    "ar": "سياسة أخلاقيات المبيعات عندنا بتمنع الهدايا فوق 500 جنيه.",
+    "ex2": "Ethics training is part of onboarding.",
+    "ar2": "تدريب الأخلاقيات جزء من التعيين."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "dedication",
+    "note": "focus on effort and loyalty",
+    "ex": "Thanks for your dedication during the Eid shutdown.",
+    "ar": "شكرًا على تفانيك وقت إغلاق العيد.",
+    "ex2": "Your dedication kept the bank's UPS running.",
+    "ar2": "تفانيك خلّى الـ‎UPS‎ بتاع البنك شغال."
+   },
+   {
+    "w": "diligence",
+    "note": "formal, careful and steady effort",
+    "ex": "Her diligence in collections reduced overdue invoices.",
+    "ar": "اجتهادها في التحصيل قلّل الفواتير المتأخرة.",
+    "ex2": "Diligence pays off at year-end.",
+    "ar2": "الاجتهاد بيبان آخر السنة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "laziness",
+    "ex": "Laziness on maintenance visits leads to UPS failures.",
+    "ar": "الكسل في زيارات الصيانة بيوصل لأعطال في الـ‎UPS‎.",
+    "ex2": "Laziness is the fastest way to lose a contract.",
+    "ar2": "الكسل أسرع طريقة تخسّرك العقد."
+   }
+  ],
+  "ladder": {
+   "label": "how strong the work ethic",
+   "lar": "الالتزام في الشغل قد إيه",
+   "steps": [
+    {
+     "w": "reliable",
+     "ex": "Mostafa is reliable; he always comes on time.",
+     "ar": "‎Mostafa‎ يُعتمد عليه؛ دايمًا بييجي في ميعاده.",
+     "ex2": "Reliable staff make planning easy.",
+     "ar2": "الناس اللي يُعتمد عليها بتسهّل التخطيط."
+    },
+    {
+     "w": "hard-working",
+     "ex": "He's hard-working and often stays late before deliveries.",
+     "ar": "هو مجتهد وكتير بيقعد متأخر قبل التسليمات.",
+     "ex2": "Hard-working people need rest too.",
+     "ar2": "المجتهدين محتاجين راحة برضه."
+    },
+    {
+     "w": "strong work ethic",
+     "ex": "She has a strong work ethic and finishes every report the same day.",
+     "ar": "عندها التزام قوي وبتخلّص كل تقرير في نفس اليوم.",
+     "ex2": "That strong work ethic got her promoted.",
+     "ar2": "الالتزام ده خلاها تترقى."
+    }
+   ]
+  },
+  "ctx": "Our client chose us again because of our work ethic. The team stayed overnight to restore their data centre power.",
+  "ctx_ar": "العميل اختارنا تاني بسبب التزامنا في الشغل. الفريق بات في الموقع عشان يرجّع الكهربا للداتا سنتر بتاعه.",
+  "quiz": [
+   {
+    "s": "Selling used batteries as new is not ___.",
+    "opts": [
+     "ethical",
+     "ethics",
+     "work ethic"
+    ],
+    "a": 0,
+    "ar": "بيع بطاريات مستعملة على إنها جديدة مش أخلاقي."
+   },
+   {
+    "s": "Mostafa is ___; he always arrives on time.",
+    "opts": [
+     "laziness",
+     "reliable",
+     "ethics"
+    ],
+    "a": 1,
+    "ar": "‎Mostafa‎ يُعتمد عليه؛ دايمًا بيوصل في ميعاده."
+   },
+   {
+    "s": "She has a strong ___ and never leaves a job half-done.",
+    "opts": [
+     "ethical",
+     "diligence",
+     "work ethic"
+    ],
+    "a": 2,
+    "ar": "عندها التزام قوي في الشغل وعمرها ما بتسيب شغلانة نص نص."
+   }
+  ],
+  "book": "I demonstrate a strong work ethic, pay attention to detail, and show commitment and purpose."
+ },
+ {
+  "w": "customer-focused",
+  "ar": "مركّز على مصلحة ورضا العميل",
+  "family": [
+   {
+    "w": "customer-focused",
+    "pos": "adjective",
+    "ex": "We're a customer-focused company, so we answer calls 24/7.",
+    "ar": "إحنا شركة مركزة على العميل، عشان كده بنرد على المكالمات 24 ساعة.",
+    "ex2": "Customer-focused service is why clients renew.",
+    "ar2": "الخدمة اللي مركزة على العميل هي سبب تجديد العقود."
+   },
+   {
+    "w": "customer",
+    "pos": "noun",
+    "ex": "The customer wants a demo of the new inverter.",
+    "ar": "العميل عايز عرض تجريبي للإنفرتر الجديد.",
+    "ex2": "Let's show the customer our test lab too.",
+    "ar2": "يلا نوري العميل معمل الاختبار بتاعنا كمان."
+   },
+   {
+    "w": "focus",
+    "pos": "verb",
+    "ex": "We focus on fast service for hospitals and banks.",
+    "ar": "إحنا بنركز على الخدمة السريعة للمستشفيات والبنوك.",
+    "ex2": "Focusing on them gives us steady contracts.",
+    "ar2": "التركيز عليهم بيدّينا عقود ثابتة."
+   },
+   {
+    "w": "focus",
+    "pos": "noun",
+    "ex": "Our focus this year is solar maintenance contracts.",
+    "ar": "تركيزنا السنة دي على عقود صيانة الطاقة الشمسية.",
+    "ex2": "That focus needs more trained technicians.",
+    "ar2": "التركيز ده محتاج فنيين متدربين أكتر."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "client-centred",
+    "note": "formal, often in reports and proposals",
+    "ex": "Our proposal shows a client-centred service model.",
+    "ar": "العرض بتاعنا بيوضح نموذج خدمة مبني على العميل.",
+    "ex2": "Client-centred service means flexible visit times.",
+    "ar2": "ده معناه مواعيد زيارات مرنة."
+   },
+   {
+    "w": "service-minded",
+    "note": "personal attitude of wanting to help",
+    "ex": "We need service-minded technicians for the hotel contracts.",
+    "ar": "محتاجين فنيين عندهم روح الخدمة لعقود الفنادق.",
+    "ex2": "Service-minded staff explain faults politely.",
+    "ar2": "الناس اللي عندها روح الخدمة بتشرح الأعطال بأدب."
+   }
+  ],
+  "ant": [
+   {
+    "w": "self-centred",
+    "ex": "A self-centred salesperson pushes products the customer doesn't need.",
+    "ar": "المندوب الأناني بيدفع منتجات العميل مش محتاجها.",
+    "ex2": "Self-centred selling loses trust fast.",
+    "ar2": "البيع بالطريقة دي بيضيّع الثقة بسرعة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Being customer-focused means calling the client after every repair. Rania asks if the UPS is working well and notes any concerns.",
+  "ctx_ar": "إنك تبقى مركز على العميل معناه تكلمه بعد كل تصليح. ‎Rania‎ بتسأل لو الـ‎UPS‎ شغال كويس وبتسجل أي ملاحظات.",
+  "quiz": [
+   {
+    "s": "Our ___ this quarter is collections.",
+    "opts": [
+     "focus",
+     "customer-focused",
+     "customer"
+    ],
+    "a": 0,
+    "ar": "تركيزنا الربع ده على التحصيل."
+   },
+   {
+    "s": "A ___ company answers complaints within hours.",
+    "opts": [
+     "customer",
+     "customer-focused",
+     "self-centred"
+    ],
+    "a": 1,
+    "ar": "الشركة المركزة على العميل بترد على الشكاوى خلال ساعات."
+   },
+   {
+    "s": "A ___ salesperson sells things the client doesn't need.",
+    "opts": [
+     "service-minded",
+     "client-centred",
+     "self-centred"
+    ],
+    "a": 2,
+    "ar": "المندوب الأناني بيبيع حاجات العميل مش محتاجها."
+   }
+  ],
+  "book": "I am a customer-focused individual."
  }
 ]

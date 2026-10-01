@@ -814,5 +814,1388 @@
     "ar": "ملاحظاتك كانت مفيدة، بس الصفقة في الحقيقة اتكسبت بالسعر."
    }
   ]
+ },
+ {
+  "w": "opening",
+  "ar": "وظيفة فاضية / فرصة",
+  "family": [
+   {
+    "w": "open",
+    "pos": "verb",
+    "ex": "We'll open a new service centre in Alexandria next year.",
+    "ar": "هنفتح مركز صيانة جديد في إسكندرية السنة الجاية.",
+    "ex2": "It will cover all Delta clients.",
+    "ar2": "هيغطي كل عملا الدلتا."
+   },
+   {
+    "w": "open",
+    "pos": "adjective",
+    "ex": "The tender is still open until Thursday.",
+    "ar": "المناقصة لسه مفتوحة لحد الخميس.",
+    "ex2": "We can still submit our offer.",
+    "ar2": "لسه نقدر نقدّم عرضنا."
+   },
+   {
+    "w": "opening",
+    "pos": "noun",
+    "ex": "We have an opening for a UPS service engineer in Giza.",
+    "ar": "عندنا وظيفة فاضية لمهندس صيانة ‎UPS‎ في الجيزة.",
+    "ex2": "Please share the job post with your network.",
+    "ar2": "شارك إعلان الوظيفة مع معارفك لو سمحت."
+   },
+   {
+    "w": "openly",
+    "pos": "adverb",
+    "ex": "The client spoke openly about their budget problems.",
+    "ar": "العميل اتكلم بصراحة عن مشاكل الميزانية عندهم.",
+    "ex2": "So we offered payment in instalments.",
+    "ar2": "فعرضنا عليهم الدفع بالتقسيط."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "a job that is available",
+    "mar": "وظيفة فاضية",
+    "ex": "Are there any openings in your sales team?",
+    "ar": "فيه أي وظايف فاضية في فريق المبيعات عندكم؟",
+    "ex2": "I have five years in UPS sales.",
+    "ar2": "عندي خمس سنين خبرة في مبيعات الـ‎UPS.‎"
+   },
+   {
+    "m": "the start or launch of something",
+    "mar": "افتتاح",
+    "ex": "The client invited us to the opening of their new factory.",
+    "ar": "العميل عزمنا على افتتاح المصنع الجديد بتاعهم.",
+    "ex2": "Our solar station powers half of it.",
+    "ar2": "محطة الطاقة الشمسية بتاعتنا بتشغّل نصه."
+   },
+   {
+    "m": "an opportunity",
+    "mar": "فرصة",
+    "ex": "The new data centre rules are a good opening for our UPS business.",
+    "ar": "قواعد الداتا سنتر الجديدة فرصة كويسة لشغل الـ‎UPS‎ عندنا.",
+    "ex2": "Many banks must upgrade their power systems.",
+    "ar2": "بنوك كتير لازم تطوّر أنظمة الكهربا عندها."
+   }
+  ],
+  "syn": [
+   {
+    "w": "vacancy",
+    "note": "formal, used in job ads and HR",
+    "ex": "The vacancy for a sales engineer closes on Friday.",
+    "ar": "التقديم على وظيفة مهندس المبيعات بيقفل يوم الجمعة.",
+    "ex2": "Send your CV to HR.",
+    "ar2": "ابعت الـ‎CV‎ بتاعك للـ‎HR.‎"
+   },
+   {
+    "w": "position",
+    "note": "the job itself, filled or empty",
+    "ex": "She applied for the service manager position.",
+    "ar": "قدّمت على وظيفة مدير الصيانة.",
+    "ex2": "The interview is next week.",
+    "ar2": "الإنترفيو الأسبوع الجاي."
+   },
+   {
+    "w": "opportunity",
+    "note": "wider: any chance, not only a job",
+    "ex": "This tender is a big opportunity for our solar team.",
+    "ar": "المناقصة دي فرصة كبيرة لفريق الطاقة الشمسية.",
+    "ex2": "It's worth twenty million pounds.",
+    "ar2": "قيمتها عشرين مليون جنيه."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "I saw a new opening for a solar sales engineer at our company. I immediately thought of you and your inverter experience.",
+  "ctx_ar": "شفت وظيفة جديدة فاضية لمهندس مبيعات طاقة شمسية في شركتنا. على طول افتكرتك إنت وخبرتك في الإنفرترات.",
+  "quiz": [
+   {
+    "s": "We have an ___ for a service engineer.",
+    "opts": [
+     "open",
+     "opening",
+     "openly"
+    ],
+    "a": 1,
+    "ar": "عندنا وظيفة فاضية لمهندس صيانة."
+   },
+   {
+    "s": "The client talked ___ about the budget.",
+    "opts": [
+     "opening",
+     "open",
+     "openly"
+    ],
+    "a": 2,
+    "ar": "العميل اتكلم بصراحة عن الميزانية."
+   },
+   {
+    "s": "The tender is still ___ until Thursday.",
+    "opts": [
+     "open",
+     "openly",
+     "opening"
+    ],
+    "a": 0,
+    "ar": "المناقصة لسه مفتوحة لحد الخميس."
+   }
+  ],
+  "book": "I'm currently exploring new job opportunities in ___ and was wondering if you know of any openings that might be a good fit for my skill set."
+ },
+ {
+  "w": "mutually beneficial",
+  "ar": "مفيد للطرفين",
+  "family": [
+   {
+    "w": "mutual",
+    "pos": "adjective",
+    "ex": "We have a mutual client, the Nile Hotel.",
+    "ar": "عندنا عميل مشترك، فندق ‎Nile Hotel.‎",
+    "ex2": "Maybe we can offer them a joint package.",
+    "ar2": "يمكن نعرض عليهم باكدج مشترك."
+   },
+   {
+    "w": "mutually beneficial",
+    "pos": "adjective",
+    "ex": "A long-term supply agreement would be mutually beneficial.",
+    "ar": "اتفاقية توريد طويلة هتبقى مفيدة للطرفين.",
+    "ex2": "You get stable prices, and we get steady orders.",
+    "ar2": "إنت تاخد أسعار ثابتة، وإحنا ناخد طلبات منتظمة."
+   },
+   {
+    "w": "benefit",
+    "pos": "noun",
+    "ex": "The main benefit of solar is lower electricity bills.",
+    "ar": "أهم ميزة للطاقة الشمسية إن فاتورة الكهربا بتقل.",
+    "ex2": "Most factories recover the cost in four years.",
+    "ar2": "معظم المصانع بترجّع التكلفة في أربع سنين."
+   },
+   {
+    "w": "beneficial",
+    "pos": "adjective",
+    "ex": "Regular maintenance is beneficial for battery life.",
+    "ar": "الصيانة الدورية مفيدة لعمر البطارية.",
+    "ex2": "It catches weak cells early.",
+    "ar2": "بتلقط الخلايا الضعيفة بدري."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "win-win",
+    "note": "informal; same idea in speech",
+    "ex": "The discount for a three-year contract is a win-win.",
+    "ar": "الخصم على عقد تلات سنين مكسب للطرفين.",
+    "ex2": "The client saves, and we keep the business.",
+    "ar2": "العميل بيوفّر، وإحنا بنحافظ على الشغل."
+   },
+   {
+    "w": "advantageous",
+    "note": "formal; good for one or both sides",
+    "ex": "Paying in advance is advantageous for the client.",
+    "ar": "الدفع مقدّم في مصلحة العميل.",
+    "ex2": "They get a 5% discount.",
+    "ar2": "بياخدوا خصم 5%."
+   }
+  ],
+  "ant": [
+   {
+    "w": "one-sided",
+    "ex": "The supplier's contract is too one-sided.",
+    "ar": "عقد المورد في صالحه هو بس.",
+    "ex2": "All the risk is on us.",
+    "ar2": "كل المخاطرة علينا إحنا."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We sell UPS units, and your company builds data centres. A partnership could be mutually beneficial for both of us.",
+  "ctx_ar": "إحنا بنبيع ‎UPS‎، وشركتكم بتبني داتا سنترات. شراكة بيننا ممكن تبقى مفيدة للطرفين.",
+  "quiz": [
+   {
+    "s": "We have a ___ client, the Nile Hotel.",
+    "opts": [
+     "mutual",
+     "benefit",
+     "beneficial"
+    ],
+    "a": 0,
+    "ar": "عندنا عميل مشترك، فندق ‎Nile Hotel.‎"
+   },
+   {
+    "s": "Regular maintenance is ___ for batteries.",
+    "opts": [
+     "benefit",
+     "beneficial",
+     "mutual"
+    ],
+    "a": 1,
+    "ar": "الصيانة الدورية مفيدة للبطاريات."
+   },
+   {
+    "s": "The main ___ of solar is lower bills.",
+    "opts": [
+     "mutual",
+     "beneficial",
+     "benefit"
+    ],
+    "a": 2,
+    "ar": "أهم ميزة للطاقة الشمسية إن الفواتير بتقل."
+   }
+  ],
+  "book": "I believe connecting could be mutually beneficial."
+ },
+ {
+  "w": "insightful",
+  "ar": "فيه أفكار عميقة ومفيدة",
+  "family": [
+   {
+    "w": "insight",
+    "pos": "noun",
+    "ex": "The site visit gave us useful insight into the client's power problems.",
+    "ar": "زيارة الموقع إدّتنا فهم مفيد لمشاكل الكهربا عند العميل.",
+    "ex2": "Their generator starts too slowly.",
+    "ar2": "المولد بتاعهم بيدور ببطء أوي."
+   },
+   {
+    "w": "insightful",
+    "pos": "adjective",
+    "ex": "Your post about lithium batteries was very insightful.",
+    "ar": "البوست بتاعك عن بطاريات الليثيوم كان فيه أفكار مفيدة جدًا.",
+    "ex2": "I shared it with our sales team.",
+    "ar2": "شاركته مع فريق المبيعات عندنا."
+   },
+   {
+    "w": "insightfully",
+    "pos": "adverb",
+    "ex": "The consultant insightfully explained why the VFDs kept tripping.",
+    "ar": "الاستشاري شرح بفهم عميق ليه الـ‎VFDs‎ كانت بتفصل.",
+    "ex2": "It was a grounding problem.",
+    "ar2": "كانت مشكلة في الأرضي."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "informative",
+    "note": "gives useful facts; insightful gives deeper understanding",
+    "ex": "The supplier's brochure is informative but long.",
+    "ar": "بروشور المورد فيه معلومات كتير بس طويل.",
+    "ex2": "It has all the technical data.",
+    "ar2": "فيه كل البيانات الفنية."
+   },
+   {
+    "w": "eye-opening",
+    "note": "shows something surprising you didn't know",
+    "ex": "The energy audit was eye-opening for the factory owner.",
+    "ar": "مراجعة استهلاك الطاقة فتّحت عين صاحب المصنع.",
+    "ex2": "The pumps used 40% of his power.",
+    "ar2": "الطلمبات كانت بتاكل 40% من الكهربا عنده."
+   }
+  ],
+  "ant": [
+   {
+    "w": "superficial",
+    "ex": "The report was superficial; it didn't explain the battery failures.",
+    "ar": "التقرير كان سطحي، مشرحش أعطال البطاريات.",
+    "ex2": "We asked for a deeper analysis.",
+    "ar2": "طلبنا تحليل أعمق."
+   }
+  ],
+  "ladder": {
+   "label": "how useful the content is",
+   "lar": "المحتوى مفيد قد إيه",
+   "steps": [
+    {
+     "w": "interesting",
+     "ex": "Your article about UPS trends was interesting.",
+     "ar": "مقالك عن اتجاهات سوق الـ‎UPS‎ كان لطيف.",
+     "ex2": "I read it on the train.",
+     "ar2": "قريته في القطر."
+    },
+    {
+     "w": "informative",
+     "ex": "The webinar was informative; it covered all the new standards.",
+     "ar": "الويبينار كان مفيد، غطّى كل المواصفات الجديدة.",
+     "ex2": "I took many notes.",
+     "ar2": "كتبت ملاحظات كتير."
+    },
+    {
+     "w": "insightful",
+     "ex": "Your analysis of solar demand was really insightful.",
+     "ar": "تحليلك لطلب السوق على الطاقة الشمسية كان عميق جدًا.",
+     "ex2": "It changed how we plan stock.",
+     "ar2": "غيّر طريقة تخطيطنا للمخزون."
+    }
+   ]
+  },
+  "ctx": "I read your article on battery storage for factories and found it insightful. Could we discuss a solar project in 10th of Ramadan?",
+  "ctx_ar": "قريت مقالك عن تخزين الطاقة بالبطاريات للمصانع ولقيته مفيد جدًا. ممكن نتكلم في مشروع طاقة شمسية في العاشر من رمضان؟",
+  "quiz": [
+   {
+    "s": "The visit gave us ___ into the client's problems.",
+    "opts": [
+     "insight",
+     "insightful",
+     "insightfully"
+    ],
+    "a": 0,
+    "ar": "الزيارة إدّتنا فهم لمشاكل العميل."
+   },
+   {
+    "s": "Your post was very ___.",
+    "opts": [
+     "insight",
+     "insightfully",
+     "insightful"
+    ],
+    "a": 2,
+    "ar": "البوست بتاعك كان مفيد جدًا."
+   },
+   {
+    "s": "The report was ___ and didn't explain the failures.",
+    "opts": [
+     "informative",
+     "superficial",
+     "insightful"
+    ],
+    "a": 1,
+    "ar": "التقرير كان سطحي ومشرحش الأعطال."
+   }
+  ],
+  "book": "I recently read your article about ___ and found it insightful."
+ },
+ {
+  "w": "expertise",
+  "ar": "الخبرة / التخصص",
+  "family": [
+   {
+    "w": "expert",
+    "pos": "person",
+    "ex": "We invited a lithium battery expert to train our engineers.",
+    "ar": "عزمنا خبير بطاريات ليثيوم يدرّب مهندسينا.",
+    "ex2": "He comes from the supplier in China.",
+    "ar2": "جاي من عند المورد في الصين."
+   },
+   {
+    "w": "expertise",
+    "pos": "noun",
+    "ex": "Our expertise is UPS systems for hospitals and banks.",
+    "ar": "خبرتنا في أنظمة الـ‎UPS‎ للمستشفيات والبنوك.",
+    "ex2": "We've done over a hundred sites.",
+    "ar2": "عملنا أكتر من مية موقع."
+   },
+   {
+    "w": "expert",
+    "pos": "adjective",
+    "ex": "We need expert advice on the harmonics problem.",
+    "ar": "محتاجين نصيحة متخصصة في مشكلة الهارمونيكس.",
+    "ex2": "The VFDs are causing it.",
+    "ar2": "الـ‎VFDs‎ هي السبب."
+   },
+   {
+    "w": "expertly",
+    "pos": "adverb",
+    "ex": "The team expertly replaced the batteries without downtime.",
+    "ar": "الفريق غيّر البطاريات باحترافية من غير أي توقف.",
+    "ex2": "The servers never stopped.",
+    "ar2": "السيرفرات موقفتش خالص."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "know-how",
+    "note": "practical, hands-on knowledge",
+    "ex": "Our technicians have the know-how to repair old control cards.",
+    "ar": "الفنيين عندنا عندهم الخبرة العملية لتصليح كروت الكنترول القديمة.",
+    "ex2": "Many companies just replace them.",
+    "ar2": "شركات كتير بتغيّرها وخلاص."
+   },
+   {
+    "w": "specialty",
+    "note": "the one area you are best at",
+    "ex": "Our specialty is solar pumping systems for farms.",
+    "ar": "تخصصنا أنظمة رفع المية بالطاقة الشمسية للمزارع.",
+    "ex2": "We've installed over two hundred.",
+    "ar2": "ركّبنا أكتر من ميتين."
+   },
+   {
+    "w": "experience",
+    "note": "time spent doing it; expertise is deep skill",
+    "ex": "He has experience in sales but no technical expertise.",
+    "ar": "عنده خبرة في المبيعات بس مالوش في الفني.",
+    "ex2": "He'll need training on VFDs.",
+    "ar2": "هيحتاج تدريب على الـ‎VFDs.‎"
+   }
+  ],
+  "ant": [
+   {
+    "w": "inexperience",
+    "ex": "His inexperience showed when he quoted the wrong battery size.",
+    "ar": "قلة خبرته بانت لما سعّر مقاس بطارية غلط.",
+    "ex2": "The manager corrected the offer.",
+    "ar2": "المدير صلّح العرض."
+   }
+  ],
+  "ladder": {
+   "label": "how much knowledge",
+   "lar": "المعرفة قد إيه",
+   "steps": [
+    {
+     "w": "basic knowledge",
+     "ex": "He has basic knowledge of solar inverters.",
+     "ar": "عنده معرفة أساسية بإنفرترات الطاقة الشمسية.",
+     "ex2": "He can't commission them alone yet.",
+     "ar2": "لسه مايقدرش يشغّلها لوحده."
+    },
+    {
+     "w": "experience",
+     "ex": "She has five years' experience with UPS service.",
+     "ar": "عندها خمس سنين خبرة في صيانة الـ‎UPS.‎",
+     "ex2": "She can handle most faults.",
+     "ar2": "تقدر تتعامل مع معظم الأعطال."
+    },
+    {
+     "w": "expertise",
+     "ex": "Their expertise in data centre power is the best in Egypt.",
+     "ar": "خبرتهم في كهربا الداتا سنتر أحسن حاجة في مصر.",
+     "ex2": "Banks hire them for critical sites.",
+     "ar2": "البنوك بتجيبهم للمواقع الحساسة."
+    }
+   ]
+  },
+  "ctx": "Your expertise in solar pumping is impressive. We often need a partner for farm projects in Upper Egypt.",
+  "ctx_ar": "خبرتك في رفع المية بالطاقة الشمسية مبهرة. إحنا كتير بنحتاج شريك لمشاريع المزارع في الصعيد.",
+  "quiz": [
+   {
+    "s": "We invited a battery ___ to train our team.",
+    "opts": [
+     "expert",
+     "expertise",
+     "expertly"
+    ],
+    "a": 0,
+    "ar": "عزمنا خبير بطاريات يدرّب فريقنا."
+   },
+   {
+    "s": "The team ___ replaced the batteries.",
+    "opts": [
+     "expertise",
+     "expertly",
+     "expert"
+    ],
+    "a": 1,
+    "ar": "الفريق غيّر البطاريات باحترافية."
+   },
+   {
+    "s": "Our ___ is UPS systems for hospitals.",
+    "opts": [
+     "expert",
+     "expertly",
+     "expertise"
+    ],
+    "a": 2,
+    "ar": "خبرتنا في أنظمة الـ‎UPS‎ للمستشفيات."
+   }
+  ],
+  "book": "I'm interested in learning more about your expertise and would be honored to have you in my network."
+ },
+ {
+  "w": "like-minded",
+  "ar": "بيفكّروا زيّك / عندهم نفس الاهتمامات",
+  "family": [
+   {
+    "w": "mind",
+    "pos": "noun",
+    "ex": "Please keep in mind that the price excludes installation.",
+    "ar": "خلّي في بالك إن السعر مش شامل التركيب.",
+    "ex2": "Installation is a separate line in the offer.",
+    "ar2": "التركيب بند لوحده في العرض."
+   },
+   {
+    "w": "like-minded",
+    "pos": "adjective",
+    "ex": "I joined a group of like-minded solar engineers on LinkedIn.",
+    "ar": "دخلت جروب على ‎LinkedIn‎ لمهندسين طاقة شمسية بنفس الاهتمامات.",
+    "ex2": "We share project ideas every week.",
+    "ar2": "بنتبادل أفكار مشاريع كل أسبوع."
+   },
+   {
+    "w": "mindset",
+    "pos": "noun",
+    "ex": "Our service team needs a customer-first mindset.",
+    "ar": "فريق الصيانة محتاج عقلية إن العميل أولًا.",
+    "ex2": "The client's problem is our problem.",
+    "ar2": "مشكلة العميل هي مشكلتنا."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "similar",
+    "note": "general; not only about people or ideas",
+    "ex": "We have similar clients in the banking sector.",
+    "ar": "عندنا عملا شبه بعض في قطاع البنوك.",
+    "ex2": "Maybe we can work together.",
+    "ar2": "يمكن نشتغل سوا."
+   },
+   {
+    "w": "on the same page",
+    "note": "informal; you agree right now on a plan",
+    "ex": "Let's make sure we're on the same page about the delivery date.",
+    "ar": "خلّينا نتأكد إننا متفقين على ميعاد التسليم.",
+    "ex2": "It's Sunday, not Monday.",
+    "ar2": "هو الحد مش الاتنين."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "I'd like to connect with like-minded engineers who work on energy storage. Maybe we can share ideas about battery projects.",
+  "ctx_ar": "حابب أتواصل مع مهندسين بنفس الاهتمامات شغالين في تخزين الطاقة. يمكن نتبادل أفكار عن مشاريع البطاريات.",
+  "quiz": [
+   {
+    "s": "Please keep in ___ that the price excludes VAT.",
+    "opts": [
+     "mind",
+     "mindset",
+     "like-minded"
+    ],
+    "a": 0,
+    "ar": "خلّي في بالك إن السعر مش شامل الضريبة."
+   },
+   {
+    "s": "I joined a group of ___ solar engineers.",
+    "opts": [
+     "mindset",
+     "like-minded",
+     "mind"
+    ],
+    "a": 1,
+    "ar": "دخلت جروب مهندسين طاقة شمسية بنفس الاهتمامات."
+   },
+   {
+    "s": "Our team needs a customer-first ___.",
+    "opts": [
+     "mind",
+     "like-minded",
+     "mindset"
+    ],
+    "a": 2,
+    "ar": "فريقنا محتاج عقلية إن العميل أولًا."
+   }
+  ],
+  "book": "I'm looking to connect with like-minded professionals and would be thrilled to have you in my network."
+ },
+ {
+  "w": "excel",
+  "ar": "يتفوّق / يبقى ممتاز",
+  "family": [
+   {
+    "w": "excel",
+    "pos": "verb",
+    "ex": "Sara excels at negotiating payment terms with big clients.",
+    "ar": "‎Sara‎ متفوقة في التفاوض على شروط الدفع مع العملا الكبار.",
+    "ex2": "She collected all overdue invoices last quarter.",
+    "ar2": "حصّلت كل الفواتير المتأخرة الربع اللي فات."
+   },
+   {
+    "w": "excellence",
+    "pos": "noun",
+    "ex": "We won an award for service excellence this year.",
+    "ar": "خدنا جايزة للتميّز في الخدمة السنة دي.",
+    "ex2": "Our average response time is three hours.",
+    "ar2": "متوسط وقت الاستجابة عندنا تلات ساعات."
+   },
+   {
+    "w": "excellent",
+    "pos": "adjective",
+    "ex": "The client gave us excellent feedback on the solar installation.",
+    "ar": "العميل إدّانا رأي ممتاز في تركيب الطاقة الشمسية.",
+    "ex2": "He wants a second station next year.",
+    "ar2": "عايز محطة تانية السنة الجاية."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "shine",
+    "note": "informal; stand out and be noticed",
+    "ex": "Ahmed really shines in client meetings.",
+    "ar": "‎Ahmed‎ بيلمع بجد في اجتماعات العملا.",
+    "ex2": "He explains technical points simply.",
+    "ar2": "بيشرح النقط الفنية ببساطة."
+   },
+   {
+    "w": "stand out",
+    "note": "be clearly better than others",
+    "ex": "Our offer will stand out with a five-year warranty.",
+    "ar": "عرضنا هيتميّز بضمان خمس سنين.",
+    "ex2": "Other suppliers give only two years.",
+    "ar2": "الموردين التانيين بيدّوا سنتين بس."
+   }
+  ],
+  "ant": [
+   {
+    "w": "struggle",
+    "ex": "New engineers often struggle with VFD programming.",
+    "ar": "المهندسين الجداد غالبًا بيتعبوا في برمجة الـ‎VFD.‎",
+    "ex2": "We give them two weeks of training.",
+    "ar2": "بندّيهم تدريب أسبوعين."
+   }
+  ],
+  "ladder": {
+   "label": "how well you do",
+   "lar": "بتعمل كويس قد إيه",
+   "steps": [
+    {
+     "w": "cope",
+     "ex": "He can cope with small UPS faults alone.",
+     "ar": "يقدر يتعامل مع أعطال الـ‎UPS‎ الصغيرة لوحده.",
+     "ex2": "Big ones need a senior engineer.",
+     "ar2": "الكبيرة محتاجة مهندس كبير."
+    },
+    {
+     "w": "do well",
+     "ex": "She'll do well in sales; she loves talking to clients.",
+     "ar": "هتنجح في المبيعات، بتحب تكلم العملا.",
+     "ex2": "She closed two battery orders already.",
+     "ar2": "قفلت طلبيتين بطاريات فعلًا."
+    },
+    {
+     "w": "excel",
+     "ex": "He'll excel as service manager; he knows every client.",
+     "ar": "هيبقى ممتاز كمدير صيانة، عارف كل العملا.",
+     "ex2": "We're lucky to have him.",
+     "ar2": "إحنا محظوظين بيه."
+    }
+   ]
+  },
+  "ctx": "Congratulations on becoming head of the solar department! With your project experience, I'm sure you'll excel in this new role.",
+  "ctx_ar": "مبروك إنك بقيت رئيس قسم الطاقة الشمسية! بخبرتك في المشاريع، أنا متأكد إنك هتتفوّق في الدور الجديد ده.",
+  "quiz": [
+   {
+    "s": "I'm sure Sara will ___ in the new role.",
+    "opts": [
+     "excel",
+     "excellence",
+     "excellent"
+    ],
+    "a": 0,
+    "ar": "أنا متأكد إن ‎Sara‎ هتتفوّق في الدور الجديد."
+   },
+   {
+    "s": "The client gave us ___ feedback.",
+    "opts": [
+     "excellence",
+     "excellent",
+     "excel"
+    ],
+    "a": 1,
+    "ar": "العميل إدّانا رأي ممتاز."
+   },
+   {
+    "s": "We won an award for service ___.",
+    "opts": [
+     "excel",
+     "excellent",
+     "excellence"
+    ],
+    "a": 2,
+    "ar": "خدنا جايزة للتميّز في الخدمة."
+   }
+  ],
+  "book": "I'm sure you'll excel in this new position."
+ },
+ {
+  "w": "firsthand",
+  "ar": "بنفسي / بعيني",
+  "family": [
+   {
+    "w": "firsthand",
+    "pos": "adverb",
+    "ex": "I saw firsthand how fast their team fixed the UPS.",
+    "ar": "شفت بعيني فريقهم صلّح الـ‎UPS‎ بسرعة إزاي.",
+    "ex2": "It took less than an hour.",
+    "ar2": "خد أقل من ساعة."
+   },
+   {
+    "w": "firsthand",
+    "pos": "adjective",
+    "ex": "The engineer has firsthand experience with lithium batteries.",
+    "ar": "المهندس عنده خبرة عملية مباشرة في بطاريات الليثيوم.",
+    "ex2": "He installed them at three data centres.",
+    "ar2": "ركّبها في تلات داتا سنترات."
+   },
+   {
+    "w": "secondhand",
+    "pos": "adjective",
+    "ex": "The client bought a secondhand UPS, and now it has battery faults.",
+    "ar": "العميل اشترى ‎UPS‎ مستعمل ودلوقتي فيه أعطال بطاريات.",
+    "ex2": "We offered him a new unit with warranty.",
+    "ar2": "عرضنا عليه جهاز جديد بضمان."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "personally",
+    "note": "you were involved yourself; more general",
+    "ex": "I personally checked every battery before delivery.",
+    "ar": "أنا بنفسي راجعت كل بطارية قبل التسليم.",
+    "ex2": "All of them were fully charged.",
+    "ar2": "كلهم كانوا مشحونين على الآخر."
+   },
+   {
+    "w": "directly",
+    "note": "with no one in between",
+    "ex": "I heard it directly from the client's IT manager.",
+    "ar": "سمعتها من مدير الـ‎IT‎ عند العميل على طول.",
+    "ex2": "They want to renew the contract.",
+    "ar2": "عايزين يجدّدوا العقد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "secondhand",
+    "ex": "That's secondhand information; let's confirm with the client.",
+    "ar": "دي معلومة منقولة، خلّينا نتأكد من العميل.",
+    "ex2": "I don't want to quote the wrong size.",
+    "ar2": "مش عايز أسعّر مقاس غلط."
+   }
+  ],
+  "ladder": null,
+  "ctx": "I worked with Mona on the hospital UPS project. I saw her technical skills firsthand, and I'm happy to recommend her.",
+  "ctx_ar": "اشتغلت مع ‎Mona‎ في مشروع ‎UPS‎ المستشفى. شفت مهاراتها الفنية بعيني، ومبسوط إني أرشّحها.",
+  "quiz": [
+   {
+    "s": "I saw ___ how fast they fixed the UPS.",
+    "opts": [
+     "firsthand",
+     "secondhand",
+     "personally"
+    ],
+    "a": 0,
+    "ar": "شفت بعيني هما صلّحوا الـ‎UPS‎ بسرعة إزاي."
+   },
+   {
+    "s": "That's ___ information; let's confirm with the client.",
+    "opts": [
+     "firsthand",
+     "secondhand",
+     "directly"
+    ],
+    "a": 1,
+    "ar": "دي معلومة منقولة، خلّينا نتأكد من العميل."
+   },
+   {
+    "s": "The client bought a ___ UPS, and now it keeps failing.",
+    "opts": [
+     "firsthand",
+     "directly",
+     "secondhand"
+    ],
+    "a": 2,
+    "ar": "العميل اشترى ‎UPS‎ مستعمل، ودلوقتي بيعطل على طول."
+   }
+  ],
+  "book": "I've seen ___'s skills in ___ firsthand, and I can confidently endorse them in this area."
+ },
+ {
+  "w": "attention to detail",
+  "ar": "الاهتمام بالتفاصيل",
+  "family": [
+   {
+    "w": "attention to detail",
+    "pos": "noun",
+    "ex": "Battery installation needs attention to detail, especially polarity.",
+    "ar": "تركيب البطاريات محتاج اهتمام بالتفاصيل، خصوصًا الأقطاب.",
+    "ex2": "One wrong cable can damage the UPS.",
+    "ar2": "كابل واحد غلط ممكن يبوّظ الـ‎UPS.‎"
+   },
+   {
+    "w": "detail",
+    "pos": "verb",
+    "ex": "The report details every fault found on the VFDs.",
+    "ar": "التقرير بيوضّح بالتفصيل كل عطل اتلقى في الـ‎VFDs.‎",
+    "ex2": "It also lists the spare parts needed.",
+    "ar2": "وكمان فيه قطع الغيار المطلوبة."
+   },
+   {
+    "w": "detailed",
+    "pos": "adjective",
+    "ex": "Please send a detailed quotation with model numbers.",
+    "ar": "ابعت عرض سعر مفصّل فيه أرقام الموديلات.",
+    "ex2": "The consultant must approve each item.",
+    "ar2": "الاستشاري لازم يوافق على كل بند."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "thoroughness",
+    "note": "doing every part of a job completely",
+    "ex": "His thoroughness in site surveys avoids surprises later.",
+    "ar": "دقته في معاينة المواقع بتمنع المفاجآت بعدين.",
+    "ex2": "He measures every cable route.",
+    "ar2": "بيقيس كل مسار كابلات."
+   },
+   {
+    "w": "precision",
+    "note": "exactness, often with numbers and measurements",
+    "ex": "Commissioning a VFD requires precision with motor data.",
+    "ar": "تشغيل الـ‎VFD‎ محتاج دقة في بيانات الموتور.",
+    "ex2": "Wrong settings can burn the motor.",
+    "ar2": "الإعدادات الغلط ممكن تحرق الموتور."
+   }
+  ],
+  "ant": [
+   {
+    "w": "carelessness",
+    "ex": "Carelessness with PO numbers delayed the payment.",
+    "ar": "الإهمال في أرقام أوامر الشراء أخّر الدفعة.",
+    "ex2": "Finance rejected two invoices.",
+    "ar2": "الحسابات رفضت فاتورتين."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Mona's attention to detail is excellent. She found a wrong battery model in the PO before we placed the import order.",
+  "ctx_ar": "اهتمام ‎Mona‎ بالتفاصيل ممتاز. لقت موديل بطارية غلط في أمر الشراء قبل ما نعمل طلب الاستيراد.",
+  "quiz": [
+   {
+    "s": "Battery work needs ___, especially polarity.",
+    "opts": [
+     "attention to detail",
+     "detailed",
+     "detail"
+    ],
+    "a": 0,
+    "ar": "شغل البطاريات محتاج اهتمام بالتفاصيل، خصوصًا الأقطاب."
+   },
+   {
+    "s": "Please send a ___ quotation.",
+    "opts": [
+     "detail",
+     "detailed",
+     "attention to detail"
+    ],
+    "a": 1,
+    "ar": "ابعت عرض سعر مفصّل لو سمحت."
+   },
+   {
+    "s": "___ with PO numbers delayed the payment.",
+    "opts": [
+     "Precision",
+     "Thoroughness",
+     "Carelessness"
+    ],
+    "a": 2,
+    "ar": "الإهمال في أرقام أوامر الشراء أخّر الدفعة."
+   }
+  ],
+  "book": "Their attention to detail, creativity and strong work ethic make them a valuable asset to any team."
+ },
+ {
+  "w": "valuable",
+  "ar": "قيّم / ليه قيمة كبيرة",
+  "family": [
+   {
+    "w": "value",
+    "pos": "noun",
+    "ex": "The total value of the PO is 1.2 million pounds.",
+    "ar": "القيمة الإجمالية لأمر الشراء 1.2 مليون جنيه.",
+    "ex2": "It includes three years of maintenance.",
+    "ar2": "شاملة تلات سنين صيانة."
+   },
+   {
+    "w": "value",
+    "pos": "verb",
+    "ex": "We value your feedback on our service visits.",
+    "ar": "رأيك في زيارات الصيانة بتاعتنا بيفرق معانا.",
+    "ex2": "Please fill in the short survey.",
+    "ar2": "املا الاستبيان القصير لو سمحت."
+   },
+   {
+    "w": "valuable",
+    "pos": "adjective",
+    "ex": "Hany is a valuable asset to our service team.",
+    "ar": "‎Hany‎ مكسب كبير لفريق الصيانة.",
+    "ex2": "He can repair almost any UPS.",
+    "ar2": "يقدر يصلّح أي ‎UPS‎ تقريبًا."
+   },
+   {
+    "w": "invaluable",
+    "pos": "adjective",
+    "ex": "Your help with the customs papers was invaluable.",
+    "ar": "مساعدتك في ورق الجمارك كانت مالهاش تمن.",
+    "ex2": "The batteries were cleared in two days.",
+    "ar2": "البطاريات خلصت جمارك في يومين."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "useful",
+    "note": "simple and neutral, less strong",
+    "ex": "The supplier's training videos are useful for new technicians.",
+    "ar": "فيديوهات تدريب المورد مفيدة للفنيين الجداد.",
+    "ex2": "They show each step clearly.",
+    "ar2": "بتوضّح كل خطوة كويس."
+   },
+   {
+    "w": "precious",
+    "note": "very important and rare, often time or resources",
+    "ex": "Time is precious during a data centre shutdown.",
+    "ar": "الوقت غالي جدًا وقت إيقاف الداتا سنتر.",
+    "ex2": "Every minute costs the bank money.",
+    "ar2": "كل دقيقة بتكلّف البنك فلوس."
+   }
+  ],
+  "ant": [
+   {
+    "w": "worthless",
+    "ex": "Without the warranty card, the receipt is almost worthless.",
+    "ar": "من غير كارت الضمان، الإيصال مالوش قيمة تقريبًا.",
+    "ex2": "Keep both documents safe.",
+    "ar2": "حافظ على الورقتين."
+   }
+  ],
+  "ladder": {
+   "label": "how valuable",
+   "lar": "قيّم قد إيه",
+   "steps": [
+    {
+     "w": "useful",
+     "ex": "This checklist is useful for UPS visits.",
+     "ar": "القايمة دي مفيدة لزيارات الـ‎UPS.‎",
+     "ex2": "It saves time on site.",
+     "ar2": "بتوفّر وقت في الموقع."
+    },
+    {
+     "w": "valuable",
+     "ex": "His supplier contacts are valuable for our import team.",
+     "ar": "علاقاته بالموردين قيّمة لفريق الاستيراد عندنا.",
+     "ex2": "He knows factories in China.",
+     "ar2": "يعرف مصانع في الصين."
+    },
+    {
+     "w": "invaluable",
+     "ex": "Her experience was invaluable during the data centre crisis.",
+     "ar": "خبرتها كانت مالهاش تمن وقت أزمة الداتا سنتر.",
+     "ex2": "She kept all servers running.",
+     "ar2": "خلّت كل السيرفرات شغالة."
+    }
+   ]
+  },
+  "ctx": "Karim knows every UPS model we sell. His experience makes him a valuable asset to the service team.",
+  "ctx_ar": "‎Karim‎ عارف كل موديل ‎UPS‎ بنبيعه. خبرته بتخلّيه مكسب كبير لفريق الصيانة.",
+  "quiz": [
+   {
+    "s": "The total ___ of the PO is one million pounds.",
+    "opts": [
+     "value",
+     "valuable",
+     "invaluable"
+    ],
+    "a": 0,
+    "ar": "القيمة الإجمالية لأمر الشراء مليون جنيه."
+   },
+   {
+    "s": "His supplier contacts are ___ for our import team.",
+    "opts": [
+     "value",
+     "valuable",
+     "worthless"
+    ],
+    "a": 1,
+    "ar": "علاقاته بالموردين قيّمة لفريق الاستيراد عندنا."
+   },
+   {
+    "s": "Your help with customs was ___; we couldn't do it without you.",
+    "opts": [
+     "useful",
+     "valuable",
+     "invaluable"
+    ],
+    "a": 2,
+    "ar": "مساعدتك في الجمارك كانت مالهاش تمن، مكناش هنعرف من غيرك."
+   }
+  ],
+  "book": "Their attention to detail, creativity and strong work ethic make them a valuable asset to any team."
+ },
+ {
+  "w": "key player",
+  "ar": "لاعب أساسي / حد مهم ومؤثر",
+  "family": [
+   {
+    "w": "key player",
+    "pos": "noun",
+    "ex": "This supplier is a key player in the Egyptian solar market.",
+    "ar": "المورد ده من أهم اللاعبين في سوق الطاقة الشمسية في مصر.",
+    "ex2": "Most big projects use their inverters.",
+    "ar2": "معظم المشاريع الكبيرة بتستخدم الإنفرترات بتاعتهم."
+   },
+   {
+    "w": "key",
+    "pos": "adjective",
+    "ex": "The bank is a key account for our service department.",
+    "ar": "البنك عميل مهم جدًا لقسم الصيانة عندنا.",
+    "ex2": "It has UPS units in forty branches.",
+    "ar2": "عنده ‎UPS‎ في أربعين فرع."
+   },
+   {
+    "w": "play a key role",
+    "pos": "verb",
+    "ex": "Our engineers play a key role in winning repeat orders.",
+    "ar": "مهندسينا ليهم دور أساسي في إننا نكسب طلبات متكررة.",
+    "ex2": "Clients trust their advice.",
+    "ar2": "العملا بيثقوا في نصايحهم."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "major player",
+    "note": "a big company in a market; focus on size",
+    "ex": "They're a major player in data centre construction.",
+    "ar": "هما من الكبار في بناء الداتا سنترات.",
+    "ex2": "Partnering with them could bring big UPS orders.",
+    "ar2": "الشراكة معاهم ممكن تجيب طلبيات ‎UPS‎ كبيرة."
+   },
+   {
+    "w": "decision-maker",
+    "note": "the person who approves the deal",
+    "ex": "We need to meet the decision-maker, not just the engineer.",
+    "ar": "محتاجين نقابل صاحب القرار، مش المهندس بس.",
+    "ex2": "The finance director signs all POs.",
+    "ar2": "المدير المالي هو اللي بيمضي كل أوامر الشراء."
+   }
+  ],
+  "ant": [
+   {
+    "w": "minor player",
+    "ex": "We're still a minor player in lithium batteries.",
+    "ar": "إحنا لسه لاعب صغير في بطاريات الليثيوم.",
+    "ex2": "But our sales grow every year.",
+    "ar2": "بس مبيعاتنا بتزيد كل سنة."
+   }
+  ],
+  "ladder": {
+   "label": "how important in the market",
+   "lar": "مهم في السوق قد إيه",
+   "steps": [
+    {
+     "w": "minor player",
+     "ex": "Five years ago we were a minor player in solar.",
+     "ar": "من خمس سنين كنا لاعب صغير في الطاقة الشمسية.",
+     "ex2": "We had only two engineers.",
+     "ar2": "كان عندنا مهندسين اتنين بس."
+    },
+    {
+     "w": "key player",
+     "ex": "Today we're a key player in solar pumping in Upper Egypt.",
+     "ar": "النهارده إحنا من أهم اللاعبين في رفع المية بالطاقة الشمسية في الصعيد.",
+     "ex2": "Most big farms know us.",
+     "ar2": "معظم المزارع الكبيرة تعرفنا."
+    },
+    {
+     "w": "market leader",
+     "ex": "Our goal is to become the market leader in UPS service.",
+     "ar": "هدفنا نبقى رقم واحد في السوق في صيانة الـ‎UPS.‎",
+     "ex2": "That means more contracts than anyone else.",
+     "ar2": "يعني عقود أكتر من أي حد تاني."
+    }
+   ]
+  },
+  "ctx": "Mr. Fathy knows the key players in the hospital sector. He could introduce us to the procurement managers for our UPS offer.",
+  "ctx_ar": "أستاذ ‎Fathy‎ يعرف الناس المهمة في قطاع المستشفيات. ممكن يعرّفنا على مديرين المشتريات عشان عرض الـ‎UPS‎ بتاعنا.",
+  "quiz": [
+   {
+    "s": "This supplier is a ___ in the solar market.",
+    "opts": [
+     "key player",
+     "key",
+     "play a key role"
+    ],
+    "a": 0,
+    "ar": "المورد ده من أهم اللاعبين في سوق الطاقة الشمسية."
+   },
+   {
+    "s": "Our engineers ___ in winning repeat orders.",
+    "opts": [
+     "key",
+     "play a key role",
+     "key player"
+    ],
+    "a": 1,
+    "ar": "مهندسينا ليهم دور أساسي في كسب الطلبات المتكررة."
+   },
+   {
+    "s": "We want to become the ___ in UPS service.",
+    "opts": [
+     "minor player",
+     "key player",
+     "market leader"
+    ],
+    "a": 2,
+    "ar": "عايزين نبقى رقم واحد في السوق في صيانة الـ‎UPS.‎"
+   }
+  ],
+  "book": "I've noticed that you're connected to some key players in ___."
+ },
+ {
+  "w": "requirements",
+  "ar": "المتطلبات / الشروط المطلوبة",
+  "family": [
+   {
+    "w": "require",
+    "pos": "verb",
+    "ex": "The hospital requires a UPS with thirty minutes of backup.",
+    "ar": "المستشفى محتاج ‎UPS‎ يشغّل نص ساعة احتياطي.",
+    "ex2": "That means a large battery bank.",
+    "ar2": "يعني محتاجين بنك بطاريات كبير."
+   },
+   {
+    "w": "requirement",
+    "pos": "noun",
+    "ex": "A two-year warranty is a requirement in this tender.",
+    "ar": "ضمان سنتين شرط أساسي في المناقصة دي.",
+    "ex2": "Our offer includes three years.",
+    "ar2": "عرضنا فيه تلات سنين."
+   },
+   {
+    "w": "required",
+    "pos": "adjective",
+    "ex": "Please attach all required documents to the tender.",
+    "ar": "ارفق كل المستندات المطلوبة مع المناقصة.",
+    "ex2": "Missing papers mean automatic rejection.",
+    "ar2": "أي ورق ناقص يعني رفض على طول."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "specifications",
+    "note": "technical details of equipment, often called specs",
+    "ex": "The specifications ask for a 40 kVA online UPS.",
+    "ar": "المواصفات طالبة ‎UPS‎ أونلاين قدرة 40 ‎kVA.‎",
+    "ex2": "Our model matches exactly.",
+    "ar2": "الموديل بتاعنا مطابق بالظبط."
+   },
+   {
+    "w": "needs",
+    "note": "simple word for what the client wants",
+    "ex": "Let's understand the client's needs before we quote.",
+    "ar": "خلّينا نفهم العميل محتاج إيه قبل ما نسعّر.",
+    "ex2": "Maybe solar is better than a bigger UPS.",
+    "ar2": "يمكن الطاقة الشمسية أحسن من ‎UPS‎ أكبر."
+   },
+   {
+    "w": "conditions",
+    "note": "rules that must be met, e.g. payment or delivery",
+    "ex": "The payment conditions are 50% advance and 50% on delivery.",
+    "ar": "شروط الدفع 50% مقدّم و50% عند التسليم.",
+    "ex2": "Finance accepted them.",
+    "ar2": "الحسابات وافقت عليها."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how necessary",
+   "lar": "ضروري قد إيه",
+   "steps": [
+    {
+     "w": "optional",
+     "ex": "Remote monitoring is optional; it costs extra.",
+     "ar": "المراقبة عن بعد اختيارية، وليها تكلفة زيادة.",
+     "ex2": "Most banks choose it anyway.",
+     "ar2": "معظم البنوك بتختارها برضه."
+    },
+    {
+     "w": "preferred",
+     "ex": "Lithium batteries are preferred but not required.",
+     "ar": "بطاريات الليثيوم مفضّلة بس مش إجبارية.",
+     "ex2": "Lead-acid is acceptable too.",
+     "ar2": "الرصاص الحمضي مقبول برضه."
+    },
+    {
+     "w": "required",
+     "ex": "A site survey is required before installation.",
+     "ar": "المعاينة إجبارية قبل التركيب.",
+     "ex2": "We can't size the system without it.",
+     "ar2": "مانقدرش نحدّد حجم السيستم من غيرها."
+    }
+   ]
+  },
+  "ctx": "Please read the tender requirements carefully. The client asks for a 60 kVA UPS, a three-year warranty and local service in Assiut.",
+  "ctx_ar": "اقرا متطلبات المناقصة كويس. العميل طالب ‎UPS‎ قدرة 60 ‎kVA‎، وضمان تلات سنين، وخدمة صيانة محلية في أسيوط.",
+  "quiz": [
+   {
+    "s": "The hospital will ___ a UPS with thirty minutes of backup.",
+    "opts": [
+     "require",
+     "requirement",
+     "required"
+    ],
+    "a": 0,
+    "ar": "المستشفى هيحتاج ‎UPS‎ بنص ساعة احتياطي."
+   },
+   {
+    "s": "Attach all ___ documents.",
+    "opts": [
+     "requirement",
+     "required",
+     "require"
+    ],
+    "a": 1,
+    "ar": "ارفق كل المستندات المطلوبة."
+   },
+   {
+    "s": "Remote monitoring is ___; the client can skip it.",
+    "opts": [
+     "required",
+     "preferred",
+     "optional"
+    ],
+    "a": 2,
+    "ar": "المراقبة عن بعد اختيارية، العميل يقدر يستغنى عنها."
+   }
+  ],
+  "book": "My background in ___ aligns well with the requirements listed, and I am confident I could make a valuable contribution to your company."
+ },
+ {
+  "w": "consistently",
+  "ar": "باستمرار / دايمًا بنفس المستوى",
+  "family": [
+   {
+    "w": "consistent",
+    "pos": "adjective",
+    "ex": "We need consistent battery quality from the new supplier.",
+    "ar": "محتاجين جودة بطاريات ثابتة من المورد الجديد.",
+    "ex2": "The last shipment had ten weak units.",
+    "ar2": "الشحنة اللي فاتت كان فيها عشر بطاريات ضعيفة."
+   },
+   {
+    "w": "consistently",
+    "pos": "adverb",
+    "ex": "Ahmed consistently meets his monthly sales target.",
+    "ar": "‎Ahmed‎ دايمًا بيحقق التارجت الشهري بتاعه.",
+    "ex2": "He's our top UPS seller.",
+    "ar2": "هو أحسن بياع ‎UPS‎ عندنا."
+   },
+   {
+    "w": "consistency",
+    "pos": "noun",
+    "ex": "Clients value consistency in our response times.",
+    "ar": "العملا بيقدّروا إن وقت الاستجابة عندنا ثابت.",
+    "ex2": "They know we'll arrive within four hours.",
+    "ar2": "عارفين إننا هنوصل في خلال أربع ساعات."
+   },
+   {
+    "w": "inconsistent",
+    "pos": "adjective",
+    "ex": "The meter readings are inconsistent with the invoice.",
+    "ar": "قرايات العداد مش متطابقة مع الفاتورة.",
+    "ex2": "Please check them before we send it.",
+    "ar2": "راجعها قبل ما نبعتها."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "always",
+    "note": "simple, but can sound exaggerated",
+    "ex": "She always replies to clients the same day.",
+    "ar": "هي دايمًا بترد على العملا في نفس اليوم.",
+    "ex2": "That's why they trust her.",
+    "ar2": "عشان كده بيثقوا فيها."
+   },
+   {
+    "w": "reliably",
+    "note": "you can depend on it to happen",
+    "ex": "The UPS has reliably protected the servers for eight years.",
+    "ar": "الـ‎UPS‎ حمى السيرفرات بثبات تمان سنين.",
+    "ex2": "Now the batteries need replacing.",
+    "ar2": "دلوقتي البطاريات محتاجة تتغيّر."
+   },
+   {
+    "w": "steadily",
+    "note": "for gradual, regular change over time",
+    "ex": "Our solar sales have grown steadily since 2022.",
+    "ar": "مبيعات الطاقة الشمسية عندنا بتزيد بثبات من 2022.",
+    "ex2": "This year will be our best.",
+    "ar2": "السنة دي هتبقى أحسن سنة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "occasionally",
+    "ex": "The VFD occasionally trips during hot afternoons.",
+    "ar": "الـ‎VFD‎ ساعات بيفصل بعد الضهر في الحر.",
+    "ex2": "We think the cooling fan is weak.",
+    "ar2": "شاكين إن مروحة التبريد ضعيفة."
+   }
+  ],
+  "ladder": {
+   "label": "how often",
+   "lar": "بيحصل قد إيه",
+   "steps": [
+    {
+     "w": "sometimes",
+     "ex": "He sometimes sends quotations late.",
+     "ar": "ساعات بيبعت عروض الأسعار متأخر.",
+     "ex2": "The client noticed it twice.",
+     "ar2": "العميل لاحظ ده مرتين."
+    },
+    {
+     "w": "usually",
+     "ex": "She usually closes deals within a month.",
+     "ar": "هي عادة بتقفل الصفقات في خلال شهر.",
+     "ex2": "Big tenders take longer.",
+     "ar2": "المناقصات الكبيرة بتاخد وقت أطول."
+    },
+    {
+     "w": "consistently",
+     "ex": "Their team consistently delivers on time.",
+     "ar": "فريقهم دايمًا بيسلّم في الميعاد.",
+     "ex2": "We've never had a late shipment.",
+     "ar2": "عمر ما جالنا شحنة متأخرة."
+    }
+   ]
+  },
+  "ctx": "Over three years, our service team has consistently met the four-hour response time. That's why the bank renewed our contract.",
+  "ctx_ar": "على مدار تلات سنين، فريق الصيانة عندنا دايمًا التزم بوقت استجابة أربع ساعات. عشان كده البنك جدّد العقد معانا.",
+  "quiz": [
+   {
+    "s": "We need ___ quality from the supplier.",
+    "opts": [
+     "consistent",
+     "consistently",
+     "consistency"
+    ],
+    "a": 0,
+    "ar": "محتاجين جودة ثابتة من المورد."
+   },
+   {
+    "s": "Ahmed ___ meets his monthly target.",
+    "opts": [
+     "consistency",
+     "consistently",
+     "inconsistent"
+    ],
+    "a": 1,
+    "ar": "‎Ahmed‎ دايمًا بيحقق التارجت الشهري بتاعه."
+   },
+   {
+    "s": "The readings are ___ with the invoice.",
+    "opts": [
+     "consistent",
+     "consistency",
+     "inconsistent"
+    ],
+    "a": 2,
+    "ar": "القرايات مش متطابقة مع الفاتورة."
+   }
+  ],
+  "book": "___ has consistently demonstrated their expertise in ___ and has my full endorsement."
  }
 ]

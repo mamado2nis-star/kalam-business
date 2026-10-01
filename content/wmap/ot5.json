@@ -849,5 +849,1332 @@
     "ar": "محتاجين نتعمق في السبب الأساسي للفصل المتكرر ده."
    }
   ]
+ },
+ {
+  "w": "learning curve",
+  "ar": "فترة تعلّم (صعبة في الأول)",
+  "family": [
+   {
+    "w": "learning curve",
+    "pos": "noun",
+    "ex": "The new monitoring software has a steep learning curve.",
+    "ar": "برنامج المراقبة الجديد صعب في الأول ومحتاج وقت تتعلمه.",
+    "ex2": "After a week, the team used it easily.",
+    "ar2": "بعد أسبوع، الفريق بقى يستخدمه بسهولة."
+   },
+   {
+    "w": "learn",
+    "pos": "verb",
+    "ex": "I'm learning how to size solar systems.",
+    "ar": "بتعلم إزاي أحسب قدرة الأنظمة الشمسية.",
+    "ex2": "Hany checks my calculations every day.",
+    "ar2": "هاني بيراجع حساباتي كل يوم."
+   },
+   {
+    "w": "learner",
+    "pos": "person",
+    "ex": "Our new technician is a quick learner.",
+    "ar": "الفني الجديد بتاعنا بيتعلم بسرعة.",
+    "ex2": "He replaced his first UPS battery alone today.",
+    "ar2": "غيّر أول بطارية ‎UPS‎ لوحده النهارده."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "challenge",
+    "note": "general difficulty, not only about learning",
+    "ex": "Importing lithium batteries is a new challenge for us.",
+    "ar": "استيراد بطاريات الليثيوم تحدي جديد لينا.",
+    "ex2": "The customs rules are different.",
+    "ar2": "قواعد الجمارك مختلفة."
+   },
+   {
+    "w": "adjustment",
+    "note": "getting used to a new situation over time",
+    "ex": "Moving from sales to service was a big adjustment.",
+    "ar": "النقل من المبيعات للصيانة كان تغيير كبير محتاج تعوّد.",
+    "ex2": "The adjustment took about two months.",
+    "ar2": "التعوّد خد حوالي شهرين."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Moving from UPS units to solar inverters is quite a learning curve. But after three installations, I feel much more confident.",
+  "ctx_ar": "النقل من أجهزة الـ‎UPS‎ للإنفرترات الشمسية محتاج وقت تعلّم. بس بعد تلات تركيبات، بقيت واثق في نفسي أكتر بكتير.",
+  "quiz": [
+   {
+    "s": "Our new technician is a quick ___.",
+    "opts": [
+     "learn",
+     "learner",
+     "learning curve"
+    ],
+    "a": 1,
+    "ar": "الفني الجديد بتاعنا بيتعلم بسرعة."
+   },
+   {
+    "s": "The new software has a steep ___.",
+    "opts": [
+     "learning curve",
+     "learner",
+     "learn"
+    ],
+    "a": 0,
+    "ar": "البرنامج الجديد صعب في الأول ومحتاج وقت."
+   },
+   {
+    "s": "Moving from sales to service was a big ___.",
+    "opts": [
+     "learner",
+     "learn",
+     "adjustment"
+    ],
+    "a": 2,
+    "ar": "النقل من المبيعات للصيانة كان تغيير كبير."
+   }
+  ],
+  "book": "It's quite a learning curve."
+ },
+ {
+  "w": "problem-solving",
+  "ar": "حل المشاكل",
+  "family": [
+   {
+    "w": "problem-solving",
+    "pos": "noun",
+    "ex": "Field service needs strong problem-solving skills.",
+    "ar": "شغل الصيانة في المواقع محتاج مهارات قوية في حل المشاكل.",
+    "ex2": "Every site has a different fault.",
+    "ar2": "كل موقع فيه عطل مختلف."
+   },
+   {
+    "w": "solve",
+    "pos": "verb",
+    "ex": "We solved the VFD overheating by adding a fan.",
+    "ar": "حلّينا مشكلة سخونية الـ‎VFD‎ بإننا ضفنا مروحة.",
+    "ex2": "The client was happy with the quick fix.",
+    "ar2": "العميل كان مبسوط من الحل السريع."
+   },
+   {
+    "w": "solution",
+    "pos": "noun",
+    "ex": "We offered the bank a cheaper solution with modular UPS.",
+    "ar": "عرضنا على البنك حل أرخص بـ‎UPS‎ موديولار.",
+    "ex2": "They can add modules as they grow.",
+    "ar2": "يقدروا يضيفوا موديولات وهم بيكبروا."
+   },
+   {
+    "w": "problem-solver",
+    "pos": "person",
+    "ex": "Karim is our best problem-solver on difficult sites.",
+    "ar": "كريم أحسن واحد عندنا في حل المشاكل في المواقع الصعبة.",
+    "ex2": "We send him when nobody else can fix it.",
+    "ar2": "بنبعته لما محدش تاني يقدر يصلحها."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "troubleshooting",
+    "note": "technical; finding the cause of a fault step by step",
+    "ex": "Troubleshooting the inverter took two hours.",
+    "ar": "تتبّع عطل الإنفرتر خد ساعتين.",
+    "ex2": "The fault was a loose DC cable.",
+    "ar2": "العطل كان كابل ‎DC‎ مفكوك."
+   },
+   {
+    "w": "finding a way",
+    "note": "informal; general, not only technical",
+    "ex": "We're finding a way to deliver before Eid.",
+    "ar": "بنحاول نلاقي طريقة نسلّم قبل العيد.",
+    "ex2": "Maybe we'll split the shipment.",
+    "ar2": "يمكن نقسم الشحنة."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "The client's roof is too small for all the panels. It'll take some creative problem-solving, maybe a carport structure in the parking area.",
+  "ctx_ar": "سطح العميل صغير على كل الألواح. هيحتاج حل مشاكل بطريقة مبتكرة، يمكن هيكل مظلات في الجراج.",
+  "quiz": [
+   {
+    "s": "We offered the bank a cheaper ___.",
+    "opts": [
+     "solve",
+     "solution",
+     "problem-solving"
+    ],
+    "a": 1,
+    "ar": "عرضنا على البنك حل أرخص."
+   },
+   {
+    "s": "We ___ the overheating by adding a fan.",
+    "opts": [
+     "solved",
+     "solution",
+     "solver"
+    ],
+    "a": 0,
+    "ar": "حلّينا مشكلة السخونية بإننا ضفنا مروحة."
+   },
+   {
+    "s": "___ the inverter fault took two hours.",
+    "opts": [
+     "Solution",
+     "Solver",
+     "Troubleshooting"
+    ],
+    "a": 2,
+    "ar": "تتبّع عطل الإنفرتر خد ساعتين."
+   }
+  ],
+  "book": "It requires some creative problem-solving."
+ },
+ {
+  "w": "identify",
+  "ar": "تحدد / تكتشف",
+  "family": [
+   {
+    "w": "identify",
+    "pos": "verb",
+    "ex": "The engineer identified a weak battery in the second string.",
+    "ar": "المهندس حدد بطارية ضعيفة في السلسلة التانية.",
+    "ex2": "We'll replace it under warranty.",
+    "ar2": "هنغيّرها تحت الضمان."
+   },
+   {
+    "w": "identification",
+    "pos": "noun",
+    "ex": "Bring your identification to enter the data centre.",
+    "ar": "هات البطاقة بتاعتك عشان تدخل الداتا سنتر.",
+    "ex2": "Security checks it at the gate.",
+    "ar2": "الأمن بيراجعها على البوابة."
+   },
+   {
+    "w": "identifiable",
+    "pos": "adjective",
+    "ex": "Each UPS has an identifiable serial number on the back.",
+    "ar": "كل ‎UPS‎ عليه رقم مسلسل واضح من ورا.",
+    "ex2": "We need it for the warranty claim.",
+    "ar2": "محتاجينه لطلب الضمان."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "find",
+    "note": "simple, everyday; same idea",
+    "ex": "Did you find the cause of the alarm?",
+    "ar": "لقيت سبب الإنذار؟",
+    "ex2": "Yes, we found a dirty air filter.",
+    "ar2": "أيوه، لقينا فلتر هوا متسخ."
+   },
+   {
+    "w": "detect",
+    "note": "technical; a device or test notices something",
+    "ex": "The UPS detected high temperature and switched to bypass.",
+    "ar": "الـ‎UPS‎ اكتشف حرارة عالية وحوّل على البايباس.",
+    "ex2": "We need to check the room's AC.",
+    "ar2": "محتاجين نشوف تكييف الأوضة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "overlook",
+    "ex": "Don't overlook the earthing when you check the site.",
+    "ar": "ماتنساش الأرضي وإنت بتكشف على الموقع.",
+    "ex2": "Overlooking it can damage the inverter.",
+    "ar2": "لو نسيته ممكن يبوّظ الإنفرتر."
+   }
+  ],
+  "ladder": null,
+  "ctx": "During the site survey, Sana identified a problem: the cables are too thin for the new UPS. She's preparing a cost for new ones.",
+  "ctx_ar": "أثناء المعاينة، ‎Sana‎ اكتشفت مشكلة: الكابلات رفيعة على الـ‎UPS‎ الجديد. بتجهّز تكلفة لكابلات جديدة.",
+  "quiz": [
+   {
+    "s": "Bring your ___ to enter the data centre.",
+    "opts": [
+     "identify",
+     "identification",
+     "identifiable"
+    ],
+    "a": 1,
+    "ar": "هات البطاقة بتاعتك عشان تدخل الداتا سنتر."
+   },
+   {
+    "s": "The engineer ___ a weak battery in the second string.",
+    "opts": [
+     "identified",
+     "identification",
+     "identifiable"
+    ],
+    "a": 0,
+    "ar": "المهندس حدد بطارية ضعيفة في السلسلة التانية."
+   },
+   {
+    "s": "Don't ___ the earthing when you check the site.",
+    "opts": [
+     "identify",
+     "detect",
+     "overlook"
+    ],
+    "a": 2,
+    "ar": "ماتنساش الأرضي وإنت بتكشف على الموقع."
+   }
+  ],
+  "book": "I've identified a key issue in our project, and I'm exploring different solutions right now."
+ },
+ {
+  "w": "progress",
+  "ar": "تقدّم",
+  "family": [
+   {
+    "w": "progress",
+    "pos": "noun",
+    "ex": "We made good progress on the solar station this week.",
+    "ar": "عملنا تقدم كويس في محطة الطاقة الشمسية الأسبوع ده.",
+    "ex2": "Half the panels are already mounted.",
+    "ar2": "نص الألواح اتركبت خلاص."
+   },
+   {
+    "w": "progress",
+    "pos": "verb",
+    "ex": "The installation is progressing well despite the heat.",
+    "ar": "التركيب ماشي كويس رغم الحر.",
+    "ex2": "We start early to avoid the afternoon sun.",
+    "ar2": "بنبدأ بدري عشان نتجنب شمس العصر."
+   },
+   {
+    "w": "progressive",
+    "pos": "adjective",
+    "ex": "We offer progressive discounts for larger battery orders.",
+    "ar": "بنقدّم خصومات بتزيد مع كبر طلب البطاريات.",
+    "ex2": "Over 100 units, the discount reaches 12%.",
+    "ar2": "فوق 100 وحدة، الخصم بيوصل 12%."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "headway",
+    "note": "informal; progress after difficulty",
+    "ex": "We're finally making headway with the customs papers.",
+    "ar": "أخيراً بنتقدم في ورق الجمارك.",
+    "ex2": "The shipment may be out tomorrow.",
+    "ar2": "الشحنة ممكن تطلع بكرة."
+   },
+   {
+    "w": "development",
+    "note": "a new event or stage, not always forward",
+    "ex": "Any new developments on the hospital tender?",
+    "ar": "فيه أي جديد في مناقصة المستشفى؟",
+    "ex2": "The committee meets on Sunday.",
+    "ar2": "اللجنة هتتقابل يوم الحد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "setback",
+    "ex": "The late inverters were a setback for the project.",
+    "ar": "تأخير الإنفرترات كان انتكاسة للمشروع.",
+    "ex2": "After that setback, we changed suppliers.",
+    "ar2": "بعد الانتكاسة دي، غيّرنا المورد."
+   }
+  ],
+  "ladder": {
+   "label": "how much progress",
+   "lar": "التقدم قد إيه",
+   "steps": [
+    {
+     "w": "some progress",
+     "ex": "We've made some progress on the PO.",
+     "ar": "اتقدمنا شوية في أمر الشراء.",
+     "ex2": "Finance has the papers now.",
+     "ar2": "المالية معاها الورق دلوقتي."
+    },
+    {
+     "w": "good progress",
+     "ex": "We've made good progress on the installation.",
+     "ar": "عملنا تقدم كويس في التركيب.",
+     "ex2": "Only the cabling is left.",
+     "ar2": "فاضل الكابلات بس."
+    },
+    {
+     "w": "significant progress",
+     "ex": "We've made significant progress on collections.",
+     "ar": "عملنا تقدم كبير في التحصيل.",
+     "ex2": "Overdue invoices fell by 40%.",
+     "ar2": "الفواتير المتأخرة نزلت 40%."
+    },
+    {
+     "w": "breakthrough",
+     "ex": "We've had a breakthrough with the bank.",
+     "ar": "حصل اختراق كبير مع البنك.",
+     "ex2": "They agreed to a three-year contract.",
+     "ar2": "وافقوا على عقد تلات سنين."
+    }
+   ]
+  },
+  "ctx": "We've made real progress on the data centre: the UPS is installed and the batteries are charging. Testing starts on Sunday.",
+  "ctx_ar": "عملنا تقدم حقيقي في الداتا سنتر: الـ‎UPS‎ اتركب والبطاريات بتشحن. الاختبار هيبدأ يوم الحد.",
+  "quiz": [
+   {
+    "s": "The installation is ___ well despite the heat.",
+    "opts": [
+     "progress",
+     "progressing",
+     "progressive"
+    ],
+    "a": 1,
+    "ar": "التركيب ماشي كويس رغم الحر."
+   },
+   {
+    "s": "We offer ___ discounts for larger orders.",
+    "opts": [
+     "progressive",
+     "progress",
+     "progressing"
+    ],
+    "a": 0,
+    "ar": "بنقدّم خصومات بتزيد مع كبر الطلب."
+   },
+   {
+    "s": "The late inverters were a ___ for the project.",
+    "opts": [
+     "headway",
+     "breakthrough",
+     "setback"
+    ],
+    "a": 2,
+    "ar": "تأخير الإنفرترات كان انتكاسة للمشروع."
+   }
+  ],
+  "book": "I've made significant progress on my project."
+ },
+ {
+  "w": "milestone",
+  "ar": "مرحلة مهمة / إنجاز",
+  "family": [
+   {
+    "w": "milestone",
+    "pos": "noun",
+    "ex": "Commissioning the first inverter is a big milestone.",
+    "ar": "تشغيل أول إنفرتر مرحلة مهمة.",
+    "ex2": "The client pays 30% at that milestone.",
+    "ar2": "العميل بيدفع 30% عند المرحلة دي."
+   },
+   {
+    "w": "milestone payment",
+    "pos": "noun",
+    "ex": "The second milestone payment is due after testing.",
+    "ar": "دفعة المرحلة التانية مستحقة بعد الاختبار.",
+    "ex2": "Please send the invoice once the test report is signed.",
+    "ar2": "ياريت تبعت الفاتورة أول ما تقرير الاختبار يتمضي."
+   },
+   {
+    "w": "landmark",
+    "pos": "adjective",
+    "ex": "It was a landmark deal for our solar business.",
+    "ar": "كانت صفقة تاريخية لشغل الطاقة الشمسية بتاعنا.",
+    "ex2": "Our first project above one megawatt.",
+    "ar2": "أول مشروع لينا فوق ميجاوات."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "stage",
+    "note": "neutral; any part of a project",
+    "ex": "The project is in its final stage.",
+    "ar": "المشروع في مرحلته الأخيرة.",
+    "ex2": "Only training and handover are left.",
+    "ar2": "فاضل التدريب والتسليم بس."
+   },
+   {
+    "w": "achievement",
+    "note": "success you're proud of, not a planned point",
+    "ex": "Winning the ministry tender was a great achievement.",
+    "ar": "كسب مناقصة الوزارة كان إنجاز كبير.",
+    "ex2": "The whole team celebrated.",
+    "ar2": "الفريق كله احتفل."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "We reached a key milestone today: all batteries passed the load test. The client will now release the second payment.",
+  "ctx_ar": "وصلنا لمرحلة مهمة النهارده: كل البطاريات عدّت اختبار الحمل. العميل دلوقتي هيصرف الدفعة التانية.",
+  "quiz": [
+   {
+    "s": "The second ___ payment is due after testing.",
+    "opts": [
+     "milestone",
+     "landmark",
+     "stage"
+    ],
+    "a": 0,
+    "ar": "دفعة المرحلة التانية مستحقة بعد الاختبار."
+   },
+   {
+    "s": "It was a ___ deal for our solar business.",
+    "opts": [
+     "milestone",
+     "landmark",
+     "stage"
+    ],
+    "a": 1,
+    "ar": "كانت صفقة تاريخية لشغل الطاقة الشمسية بتاعنا."
+   },
+   {
+    "s": "The project is in its final ___.",
+    "opts": [
+     "achievement",
+     "landmark",
+     "stage"
+    ],
+    "a": 2,
+    "ar": "المشروع في مرحلته الأخيرة."
+   }
+  ],
+  "book": "I just completed an important milestone in my project."
+ },
+ {
+  "w": "give credit where credit is due",
+  "ar": "تدّي كل واحد حقه في التقدير",
+  "family": [
+   {
+    "w": "give credit",
+    "pos": "verb",
+    "ex": "I give credit to the night team for fixing the bank's UPS.",
+    "ar": "بنسب الفضل لفريق الليل في تصليح الـ‎UPS‎ بتاع البنك.",
+    "ex2": "They worked until 4 a.m.",
+    "ar2": "اشتغلوا لحد الساعة 4 الصبح."
+   },
+   {
+    "w": "credit",
+    "pos": "noun",
+    "ex": "The credit for the sale goes to Mona.",
+    "ar": "الفضل في البيعة دي لمنى.",
+    "ex2": "She followed up with the client for months.",
+    "ar2": "تابعت مع العميل شهور."
+   },
+   {
+    "w": "credit",
+    "pos": "verb",
+    "ex": "The director credited Hany with winning the contract.",
+    "ar": "المدير نسب لهاني الفضل في كسب العقد.",
+    "ex2": "Hany thanked the whole team.",
+    "ar2": "هاني شكر الفريق كله."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "acknowledge",
+    "note": "formal; officially say someone's role",
+    "ex": "We must acknowledge the supplier's fast support.",
+    "ar": "لازم نعترف بدعم المورد السريع.",
+    "ex2": "They sent spare parts by air.",
+    "ar2": "بعتوا قطع غيار بالطيارة."
+   },
+   {
+    "w": "recognize",
+    "note": "publicly show appreciation, often by management",
+    "ex": "The company recognized Sana as employee of the month.",
+    "ar": "الشركة كرّمت سناء كموظفة الشهر.",
+    "ex2": "She closed five service contracts.",
+    "ar2": "قفلت خمس عقود صيانة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "take credit",
+    "ex": "Don't take credit for work you didn't do.",
+    "ar": "ماتنسبش لنفسك شغل ماعملتوش.",
+    "ex2": "Taking credit like that hurts the team.",
+    "ar2": "إنك تاخد الفضل كده بيأذي الفريق."
+   }
+  ],
+  "ladder": null,
+  "ctx": "I have to give credit where credit is due: Karim designed the whole battery layout. Without him, we'd have missed the deadline.",
+  "ctx_ar": "لازم أدّي كل واحد حقه: ‎Karim‎ صمّم توزيع البطاريات كله. من غيره، كنا فوّتنا الميعاد.",
+  "quiz": [
+   {
+    "s": "The ___ for the sale goes to Mona.",
+    "opts": [
+     "credit",
+     "credited",
+     "giving"
+    ],
+    "a": 0,
+    "ar": "الفضل في البيعة دي لمنى."
+   },
+   {
+    "s": "The director ___ Hany with winning the contract.",
+    "opts": [
+     "credit",
+     "credited",
+     "crediting"
+    ],
+    "a": 1,
+    "ar": "المدير نسب لهاني الفضل في كسب العقد."
+   },
+   {
+    "s": "Don't ___ credit for work you didn't do.",
+    "opts": [
+     "give",
+     "recognize",
+     "take"
+    ],
+    "a": 2,
+    "ar": "ماتنسبش لنفسك شغل ماعملتوش."
+   }
+  ],
+  "book": "I have to give credit where credit is due."
+ },
+ {
+  "w": "exceptional",
+  "ar": "استثنائي / ممتاز جداً",
+  "family": [
+   {
+    "w": "exceptional",
+    "pos": "adjective",
+    "ex": "The team did exceptional work on the hospital project.",
+    "ar": "الفريق عمل شغل استثنائي في مشروع المستشفى.",
+    "ex2": "Zero downtime during the whole upgrade.",
+    "ar2": "مفيش ولا دقيقة وقف طول الترقية."
+   },
+   {
+    "w": "exception",
+    "pos": "noun",
+    "ex": "We don't give 90 days' credit, but we'll make an exception.",
+    "ar": "مابندّيش آجل 90 يوم، بس هنعمل استثناء.",
+    "ex2": "You've been our client for ten years.",
+    "ar2": "إنت عميلنا بقالك عشر سنين."
+   },
+   {
+    "w": "exceptionally",
+    "pos": "adverb",
+    "ex": "The new batteries performed exceptionally well in the heat.",
+    "ar": "البطاريات الجديدة اشتغلت كويس جداً في الحر.",
+    "ex2": "We'll use them in Aswan too.",
+    "ar2": "هنستخدمها في أسوان كمان."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "outstanding",
+    "note": "excellent and better than others; very common in praise",
+    "ex": "Sana's sales this quarter were outstanding.",
+    "ar": "مبيعات سناء الربع ده كانت متميزة.",
+    "ex2": "She beat her target by 40%.",
+    "ar2": "عدّت التارجت بتاعها بـ40%."
+   },
+   {
+    "w": "remarkable",
+    "note": "surprising and worth noticing",
+    "ex": "It's remarkable how fast they fixed the VFD.",
+    "ar": "حاجة تلفت النظر إزاي صلّحوا الـ‎VFD‎ بسرعة.",
+    "ex2": "The pump was back in an hour.",
+    "ar2": "الطلمبة رجعت تشتغل في ساعة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "ordinary",
+    "ex": "It was an ordinary month for service calls.",
+    "ar": "كان شهر عادي في مكالمات الصيانة.",
+    "ex2": "Nothing ordinary happens in July, though.",
+    "ar2": "بس في يوليو مفيش حاجة عادية بتحصل."
+   }
+  ],
+  "ladder": {
+   "label": "how good",
+   "lar": "كويس قد إيه",
+   "steps": [
+    {
+     "w": "good",
+     "ex": "The installation work was good.",
+     "ar": "شغل التركيب كان كويس.",
+     "ex2": "The client had no complaints.",
+     "ar2": "العميل ماكانش عنده شكاوى."
+    },
+    {
+     "w": "excellent",
+     "ex": "The service report was excellent.",
+     "ar": "تقرير الصيانة كان ممتاز.",
+     "ex2": "It had photos and clear readings.",
+     "ar2": "كان فيه صور وقراءات واضحة."
+    },
+    {
+     "w": "exceptional",
+     "ex": "The team's effort was exceptional.",
+     "ar": "مجهود الفريق كان استثنائي.",
+     "ex2": "They worked through the weekend.",
+     "ar2": "اشتغلوا طول الويك إند."
+    }
+   ]
+  },
+  "ctx": "Your work on the bank project was exceptional, Mohamed. The client said it was the smoothest UPS upgrade they've ever had.",
+  "ctx_ar": "شغلك في مشروع البنك كان استثنائي يا ‎Mohamed‎. العميل قال إنها أسهل ترقية ‎UPS‎ عدّت عليهم.",
+  "quiz": [
+   {
+    "s": "We don't usually do this, but we'll make an ___.",
+    "opts": [
+     "exceptional",
+     "exception",
+     "exceptionally"
+    ],
+    "a": 1,
+    "ar": "إحنا عادة مابنعملش كده، بس هنعمل استثناء."
+   },
+   {
+    "s": "The batteries performed ___ well in the heat.",
+    "opts": [
+     "exception",
+     "exceptional",
+     "exceptionally"
+    ],
+    "a": 2,
+    "ar": "البطاريات اشتغلت كويس جداً في الحر."
+   },
+   {
+    "s": "It was an ___ month; nothing special happened.",
+    "opts": [
+     "ordinary",
+     "outstanding",
+     "exceptional"
+    ],
+    "a": 0,
+    "ar": "كان شهر عادي؛ مفيش حاجة مميزة حصلت."
+   }
+  ],
+  "book": "The team's efforts on this project were exceptional."
+ },
+ {
+  "w": "agenda",
+  "ar": "جدول أعمال / المواعيد",
+  "family": [
+   {
+    "w": "agenda",
+    "pos": "noun",
+    "ex": "The first item on the agenda is the hospital tender.",
+    "ar": "أول بند في جدول الأعمال مناقصة المستشفى.",
+    "ex2": "Please bring the price comparison.",
+    "ar2": "ياريت تجيب مقارنة الأسعار."
+   },
+   {
+    "w": "agenda item",
+    "pos": "noun",
+    "ex": "Can we add an agenda item about late payments?",
+    "ar": "ممكن نضيف بند في جدول الأعمال عن الدفعات المتأخرة؟",
+    "ex2": "Three clients are over sixty days.",
+    "ar2": "تلات عملاء عدّوا ستين يوم."
+   },
+   {
+    "w": "schedule",
+    "pos": "noun",
+    "ex": "My schedule is full until Wednesday.",
+    "ar": "جدولي مليان لحد الأربع.",
+    "ex2": "Can we meet on Thursday instead?",
+    "ar2": "ممكن نتقابل الخميس بدلها؟"
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "plan",
+    "note": "general; what you intend to do",
+    "ex": "What's the plan for the solar handover?",
+    "ar": "إيه الخطة لتسليم الطاقة الشمسية؟",
+    "ex2": "We train the client on Sunday.",
+    "ar2": "هندرّب العميل يوم الحد."
+   },
+   {
+    "w": "to-do list",
+    "note": "informal; your personal list of tasks",
+    "ex": "The e-invoices are on my to-do list today.",
+    "ar": "الفواتير الإلكترونية في قايمة مهامي النهارده.",
+    "ex2": "I'll finish the list by four.",
+    "ar2": "هخلّص القايمة قبل أربعة."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "What's on your agenda this week, Sana? If you have time, I'd like you to join the site survey in Sokhna on Wednesday.",
+  "ctx_ar": "إيه اللي عندك الأسبوع ده يا ‎Sana‎؟ لو عندك وقت، عايزك تيجي معانا معاينة السخنة يوم الأربع.",
+  "quiz": [
+   {
+    "s": "Can we add an ___ item about late payments?",
+    "opts": [
+     "schedule",
+     "agenda",
+     "plan"
+    ],
+    "a": 1,
+    "ar": "ممكن نضيف بند في جدول الأعمال عن الدفعات المتأخرة؟"
+   },
+   {
+    "s": "My ___ is full until Wednesday.",
+    "opts": [
+     "schedule",
+     "agenda item",
+     "to-do"
+    ],
+    "a": 0,
+    "ar": "جدولي مليان لحد الأربع."
+   },
+   {
+    "s": "The e-invoices are on my ___ list today.",
+    "opts": [
+     "agenda",
+     "schedule",
+     "to-do"
+    ],
+    "a": 2,
+    "ar": "الفواتير الإلكترونية في قايمة مهامي النهارده."
+   }
+  ],
+  "book": "What's on your agenda for the next few days?"
+ },
+ {
+  "w": "lined up",
+  "ar": "مترتّب / متجهّز",
+  "family": [
+   {
+    "w": "lined up",
+    "pos": "adjective",
+    "ex": "We have three site visits lined up for tomorrow.",
+    "ar": "عندنا تلات زيارات مواقع مترتّبة بكرة.",
+    "ex2": "The first is at eight in Nasr City.",
+    "ar2": "أول واحدة الساعة تمانية في مدينة نصر."
+   },
+   {
+    "w": "line up",
+    "pos": "verb",
+    "ex": "Can you line up a technician for the Friday shutdown?",
+    "ar": "ممكن ترتّب فني لفصل يوم الجمعة؟",
+    "ex2": "The factory needs someone from six to ten.",
+    "ar2": "المصنع محتاج حد من ستة لعشرة."
+   },
+   {
+    "w": "line-up",
+    "pos": "noun",
+    "ex": "Our product line-up now includes lithium batteries.",
+    "ar": "تشكيلة منتجاتنا دلوقتي فيها بطاريات ليثيوم.",
+    "ex2": "Clients ask about them every week.",
+    "ar2": "العملاء بيسألوا عليها كل أسبوع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "scheduled",
+    "note": "more formal; fixed in a timetable",
+    "ex": "The battery test is scheduled for Sunday.",
+    "ar": "اختبار البطاريات متحدد يوم الحد.",
+    "ex2": "The client confirmed the time.",
+    "ar2": "العميل أكّد الميعاد."
+   },
+   {
+    "w": "arranged",
+    "note": "organised with other people",
+    "ex": "I've arranged a meeting with the bank's IT manager.",
+    "ar": "رتّبت اجتماع مع مدير الـ‎IT‎ بتاع البنك.",
+    "ex2": "It's at their head office.",
+    "ar2": "هو في المقر الرئيسي بتاعهم."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "We have a busy week lined up: two installations, a tender and the bank's audit. Let's divide the work this morning.",
+  "ctx_ar": "عندنا أسبوع مليان متجهّز: تركيبين ومناقصة ومراجعة البنك. خلّينا نقسم الشغل الصبح ده.",
+  "quiz": [
+   {
+    "s": "Can you ___ up a technician for Friday?",
+    "opts": [
+     "line",
+     "lined",
+     "line-up"
+    ],
+    "a": 0,
+    "ar": "ممكن ترتّب فني ليوم الجمعة؟"
+   },
+   {
+    "s": "Our product ___ now includes lithium batteries.",
+    "opts": [
+     "lined up",
+     "line-up",
+     "line up"
+    ],
+    "a": 1,
+    "ar": "تشكيلة منتجاتنا دلوقتي فيها بطاريات ليثيوم."
+   },
+   {
+    "s": "I've ___ a meeting with the bank's IT manager.",
+    "opts": [
+     "lined",
+     "line-up",
+     "arranged"
+    ],
+    "a": 2,
+    "ar": "رتّبت اجتماع مع مدير الـ‎IT‎ بتاع البنك."
+   }
+  ],
+  "book": "I have some interesting plans lined up for the next few days."
+ },
+ {
+  "w": "upcoming",
+  "ar": "الجاي / القريب",
+  "family": [
+   {
+    "w": "upcoming",
+    "pos": "adjective",
+    "ex": "Let's prepare for the upcoming energy exhibition.",
+    "ar": "خلّينا نجهز لمعرض الطاقة الجاي.",
+    "ex2": "We need new brochures and a demo UPS.",
+    "ar2": "محتاجين بروشورات جديدة و‎UPS‎ للعرض."
+   },
+   {
+    "w": "come up",
+    "pos": "verb",
+    "ex": "New tenders come up every month from the Ministry of Health.",
+    "ar": "مناقصات جديدة بتطلع كل شهر من وزارة الصحة.",
+    "ex2": "The deadline is in three weeks.",
+    "ar2": "آخر ميعاد كمان تلات أسابيع."
+   },
+   {
+    "w": "forthcoming",
+    "pos": "adjective",
+    "ex": "Details of the forthcoming price increase will follow.",
+    "ar": "تفاصيل زيادة الأسعار الجاية هتوصلكم.",
+    "ex2": "It starts on the first of next month.",
+    "ar2": "هتبدأ أول الشهر الجاي."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "next",
+    "note": "simple; the one right after now",
+    "ex": "The next delivery is on Tuesday.",
+    "ar": "التسليم الجاي يوم التلات.",
+    "ex2": "It includes the battery cabinets.",
+    "ar2": "فيه دواليب البطاريات."
+   },
+   {
+    "w": "coming",
+    "note": "informal; soon, in the near future",
+    "ex": "The coming weeks will be busy with tenders.",
+    "ar": "الأسابيع الجاية هتبقى مليانة مناقصات.",
+    "ex2": "Let's hire a temporary engineer.",
+    "ar2": "خلّينا نجيب مهندس مؤقت."
+   }
+  ],
+  "ant": [
+   {
+    "w": "past",
+    "ex": "In the past quarter, we sold forty UPS units.",
+    "ar": "في الربع اللي فات، بعنا أربعين جهاز ‎UPS‎.",
+    "ex2": "The past results help us plan the next targets.",
+    "ar2": "النتايج اللي فاتت بتساعدنا نخطط التارجتس الجاية."
+   }
+  ],
+  "ladder": null,
+  "ctx": "With the upcoming summer, UPS failures will increase. Let's check the stock of spare fans and batteries this week.",
+  "ctx_ar": "مع الصيف الجاي، أعطال الـ‎UPS‎ هتزيد. خلّينا نراجع مخزون المراوح والبطاريات الاحتياطي الأسبوع ده.",
+  "quiz": [
+   {
+    "s": "New tenders ___ up every month from the ministry.",
+    "opts": [
+     "upcoming",
+     "come",
+     "forthcoming"
+    ],
+    "a": 1,
+    "ar": "مناقصات جديدة بتطلع كل شهر من الوزارة."
+   },
+   {
+    "s": "Let's prepare for the ___ energy exhibition.",
+    "opts": [
+     "upcoming",
+     "come up",
+     "past"
+    ],
+    "a": 0,
+    "ar": "خلّينا نجهز لمعرض الطاقة الجاي."
+   },
+   {
+    "s": "In the ___ quarter, we sold forty UPS units.",
+    "opts": [
+     "upcoming",
+     "coming",
+     "past"
+    ],
+    "a": 2,
+    "ar": "في الربع اللي فات، بعنا أربعين جهاز ‎UPS‎."
+   }
+  ],
+  "book": "Do you have any trips planned for the upcoming holiday?"
+ },
+ {
+  "w": "what's your take on",
+  "ar": "إيه رأيك في",
+  "family": [
+   {
+    "w": "take",
+    "pos": "noun",
+    "ex": "What's your take on the new import rules?",
+    "ar": "إيه رأيك في قواعد الاستيراد الجديدة؟",
+    "ex2": "They may delay our battery shipments.",
+    "ar2": "ممكن تأخّر شحنات البطاريات بتاعتنا."
+   },
+   {
+    "w": "view",
+    "pos": "noun",
+    "ex": "In my view, lithium batteries are worth the price.",
+    "ar": "في رأيي، بطاريات الليثيوم تستاهل سعرها.",
+    "ex2": "They last twice as long.",
+    "ar2": "بتعيش ضعف المدة."
+   },
+   {
+    "w": "view",
+    "pos": "verb",
+    "ex": "How do you view the competitor's new offer?",
+    "ar": "إنت شايف عرض المنافس الجديد إزاي؟",
+    "ex2": "Their price is low, but service is weak.",
+    "ar2": "سعرهم قليل، بس الخدمة ضعيفة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "what do you think about",
+    "note": "simple, everyday; good for any situation",
+    "ex": "What do you think about a solar offer for farms?",
+    "ar": "إيه رأيك في عرض طاقة شمسية للمزارع؟",
+    "ex2": "Many farmers pay a lot for diesel.",
+    "ar2": "مزارعين كتير بيدفعوا كتير في السولار."
+   },
+   {
+    "w": "what's your opinion on",
+    "note": "more formal; meetings and emails",
+    "ex": "What's your opinion on extending the warranty?",
+    "ar": "إيه رأيك في تمديد الضمان؟",
+    "ex2": "Clients keep asking for three years.",
+    "ar2": "العملاء بيطلبوا تلات سنين على طول."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "What's your take on the new tax portal, Mona? Some clients say their e-invoices are rejected for small mistakes.",
+  "ctx_ar": "إيه رأيك في بوابة الضرايب الجديدة يا ‎Mona‎؟ عملاء بيقولوا إن فواتيرهم الإلكترونية بتترفض عشان غلطات صغيرة.",
+  "quiz": [
+   {
+    "s": "What's your ___ on the new import rules?",
+    "opts": [
+     "take",
+     "taking",
+     "took"
+    ],
+    "a": 0,
+    "ar": "إيه رأيك في قواعد الاستيراد الجديدة؟"
+   },
+   {
+    "s": "In my ___, lithium batteries are worth it.",
+    "opts": [
+     "take",
+     "view",
+     "think"
+    ],
+    "a": 1,
+    "ar": "في رأيي، بطاريات الليثيوم تستاهل."
+   },
+   {
+    "s": "What's your ___ on extending the warranty?",
+    "opts": [
+     "think",
+     "idea",
+     "opinion"
+    ],
+    "a": 2,
+    "ar": "إيه رأيك في تمديد الضمان؟"
+   }
+  ],
+  "book": "What's your take on ___?"
+ },
+ {
+  "w": "cut short",
+  "ar": "تقطع / تختصر",
+  "family": [
+   {
+    "w": "cut short",
+    "pos": "verb",
+    "ex": "Sorry to cut this short; the client is on the other line.",
+    "ar": "آسف إني بقطع الكلام؛ العميل على الخط التاني.",
+    "ex2": "Let's continue after lunch.",
+    "ar2": "خلّينا نكمّل بعد الغدا."
+   },
+   {
+    "w": "shorten",
+    "pos": "verb",
+    "ex": "Can we shorten the meeting to thirty minutes?",
+    "ar": "ممكن نختصر الاجتماع لنص ساعة؟",
+    "ex2": "I have a site visit at noon.",
+    "ar2": "عندي زيارة موقع الضهر."
+   },
+   {
+    "w": "short",
+    "pos": "adjective",
+    "ex": "Let's keep the presentation short and clear.",
+    "ar": "خلّي العرض قصير وواضح.",
+    "ex2": "The bank's director has only twenty minutes.",
+    "ar2": "مدير البنك معاه عشرين دقيقة بس."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "wrap up",
+    "note": "finish politely and naturally",
+    "ex": "Let's wrap up; we've covered the main points.",
+    "ar": "خلّينا نقفل؛ غطينا النقط الأساسية.",
+    "ex2": "I'll send the minutes by email.",
+    "ar2": "هبعت المحضر على الإيميل."
+   },
+   {
+    "w": "end early",
+    "note": "simple, neutral",
+    "ex": "We had to end the meeting early.",
+    "ar": "اضطرينا ننهي الاجتماع بدري.",
+    "ex2": "The power went off in the building.",
+    "ar2": "الكهربا قطعت في المبنى."
+   }
+  ],
+  "ant": [
+   {
+    "w": "drag on",
+    "ex": "The meeting dragged on for three hours.",
+    "ar": "الاجتماع طوّل تلات ساعات.",
+    "ex2": "When meetings drag on, people stop listening.",
+    "ar2": "لما الاجتماعات بتطوّل، الناس بتبطّل تسمع."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Sorry to cut this short, Ahmed, but the hospital is calling about their UPS alarm. Let's finish the chat at lunch.",
+  "ctx_ar": "آسف إني بقطع الكلام يا ‎Ahmed‎، بس المستشفى بتكلمني بخصوص إنذار الـ‎UPS‎. نكمّل الكلام على الغدا.",
+  "quiz": [
+   {
+    "s": "Can we ___ the meeting to thirty minutes?",
+    "opts": [
+     "cut",
+     "short",
+     "shorten"
+    ],
+    "a": 2,
+    "ar": "ممكن نختصر الاجتماع لنص ساعة؟"
+   },
+   {
+    "s": "Sorry to ___ this short; the client is waiting.",
+    "opts": [
+     "cut",
+     "shorten",
+     "drag"
+    ],
+    "a": 0,
+    "ar": "آسف إني بقطع الكلام؛ العميل مستني."
+   },
+   {
+    "s": "The meeting ___ on for three hours.",
+    "opts": [
+     "cut",
+     "dragged",
+     "wrapped"
+    ],
+    "a": 1,
+    "ar": "الاجتماع طوّل تلات ساعات."
+   }
+  ],
+  "book": "Sorry to cut this short, but I have a call scheduled soon."
+ },
+ {
+  "w": "professional background",
+  "ar": "الخلفية المهنية",
+  "family": [
+   {
+    "w": "background",
+    "pos": "noun",
+    "ex": "His background in electrical engineering helps with VFD sales.",
+    "ar": "خلفيته في الهندسة الكهربائية بتساعده في بيع الـ‎VFDs‎.",
+    "ex2": "He understands the client's pumps.",
+    "ar2": "هو فاهم طلمبات العميل."
+   },
+   {
+    "w": "professional",
+    "pos": "adjective",
+    "ex": "She has ten years of professional experience in data centres.",
+    "ar": "عندها عشر سنين خبرة مهنية في الداتا سنترز.",
+    "ex2": "She'll lead the new cooling project.",
+    "ar2": "هي اللي هتقود مشروع التبريد الجديد."
+   },
+   {
+    "w": "professionally",
+    "pos": "adverb",
+    "ex": "Professionally, I started as a UPS technician.",
+    "ar": "مهنياً، أنا بدأت فني ‎UPS‎.",
+    "ex2": "Then I moved into sales.",
+    "ar2": "بعدها نقلت للمبيعات."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "experience",
+    "note": "what you've done; common in interviews",
+    "ex": "Do you have experience with solar inverters?",
+    "ar": "عندك خبرة في الإنفرترات الشمسية؟",
+    "ex2": "We need someone for the Aswan project.",
+    "ar2": "محتاجين حد لمشروع أسوان."
+   },
+   {
+    "w": "career history",
+    "note": "formal; list of past jobs",
+    "ex": "Please send your career history with the application.",
+    "ar": "ياريت تبعت تاريخك الوظيفي مع الطلب.",
+    "ex2": "Include your last three employers.",
+    "ar2": "اكتب آخر تلات شركات اشتغلت فيهم."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Sarah, could you tell us about your professional background? We need someone with experience in battery systems for the new contract.",
+  "ctx_ar": "يا ‎Sarah‎، ممكن تحكيلنا عن خلفيتك المهنية؟ محتاجين حد عنده خبرة في أنظمة البطاريات للعقد الجديد.",
+  "quiz": [
+   {
+    "s": "His ___ in engineering helps with VFD sales.",
+    "opts": [
+     "background",
+     "professional",
+     "professionally"
+    ],
+    "a": 0,
+    "ar": "خلفيته في الهندسة بتساعده في بيع الـ‎VFDs‎."
+   },
+   {
+    "s": "She has ten years of ___ experience.",
+    "opts": [
+     "professionally",
+     "professional",
+     "background"
+    ],
+    "a": 1,
+    "ar": "عندها عشر سنين خبرة مهنية."
+   },
+   {
+    "s": "Do you have ___ with solar inverters?",
+    "opts": [
+     "background",
+     "career history",
+     "experience"
+    ],
+    "a": 2,
+    "ar": "عندك خبرة في الإنفرترات الشمسية؟"
+   }
+  ],
+  "book": "Would you mind sharing a bit about your professional background?"
+ },
+ {
+  "w": "convenient",
+  "ar": "مناسب / مريح",
+  "family": [
+   {
+    "w": "convenient",
+    "pos": "adjective",
+    "ex": "Is Sunday morning convenient for the battery test?",
+    "ar": "يوم الحد الصبح مناسب لاختبار البطاريات؟",
+    "ex2": "We need two hours of shutdown.",
+    "ar2": "محتاجين ساعتين فصل."
+   },
+   {
+    "w": "convenience",
+    "pos": "noun",
+    "ex": "For your convenience, you can pay by bank transfer.",
+    "ar": "لراحتك، تقدر تدفع بتحويل بنكي.",
+    "ex2": "Our account details are on the invoice.",
+    "ar2": "بيانات حسابنا على الفاتورة."
+   },
+   {
+    "w": "conveniently",
+    "pos": "adverb",
+    "ex": "Our warehouse is conveniently located near the Ring Road.",
+    "ar": "المخزن بتاعنا في مكان مناسب جنب الدائري.",
+    "ex2": "Deliveries to Cairo take one hour.",
+    "ar2": "التوصيل للقاهرة بياخد ساعة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "suitable",
+    "note": "right for the purpose, more formal",
+    "ex": "Is this UPS suitable for a medical lab?",
+    "ar": "الـ‎UPS‎ ده مناسب لمعمل طبي؟",
+    "ex2": "Yes, it has very clean output.",
+    "ar2": "أيوه، الخرج بتاعه نضيف جداً."
+   },
+   {
+    "w": "handy",
+    "note": "informal; useful and easy to use or reach",
+    "ex": "The mobile app is handy for checking UPS alarms.",
+    "ar": "تطبيق الموبايل مفيد لمتابعة إنذارات الـ‎UPS‎.",
+    "ex2": "You get alerts anywhere.",
+    "ar2": "بيجيلك تنبيهات في أي مكان."
+   }
+  ],
+  "ant": [
+   {
+    "w": "inconvenient",
+    "ex": "Is this an inconvenient time to talk?",
+    "ar": "ده وقت مش مناسب نتكلم فيه؟",
+    "ex2": "If it's inconvenient, I'll call you after five.",
+    "ar2": "لو مش مناسب، هكلمك بعد خمسة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Would Thursday afternoon be convenient for the site survey? Our engineer can be at the factory by two.",
+  "ctx_ar": "يوم الخميس العصر مناسب للمعاينة؟ المهندس بتاعنا يقدر يكون في المصنع الساعة اتنين.",
+  "quiz": [
+   {
+    "s": "For your ___, you can pay by bank transfer.",
+    "opts": [
+     "convenient",
+     "convenience",
+     "conveniently"
+    ],
+    "a": 1,
+    "ar": "لراحتك، تقدر تدفع بتحويل بنكي."
+   },
+   {
+    "s": "Our warehouse is ___ located near the Ring Road.",
+    "opts": [
+     "convenient",
+     "convenience",
+     "conveniently"
+    ],
+    "a": 2,
+    "ar": "المخزن في مكان مناسب جنب الدائري."
+   },
+   {
+    "s": "Is this an ___ time to talk? I can call later.",
+    "opts": [
+     "inconvenient",
+     "convenient",
+     "handy"
+    ],
+    "a": 0,
+    "ar": "ده وقت مش مناسب نتكلم؟ أقدر أكلمك بعدين."
+   }
+  ],
+  "book": "It's more convenient for me."
  }
 ]

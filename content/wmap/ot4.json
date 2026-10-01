@@ -840,5 +840,1398 @@
     "ar": "بعد المناقصة اللي خسرناها، الكل كان ساكت وبيفكر."
    }
   ]
+ },
+ {
+  "w": "stressed",
+  "ar": "متوتر / مضغوط",
+  "family": [
+   {
+    "w": "stressed",
+    "pos": "adjective",
+    "ex": "Mona looks stressed; the auditors arrive tomorrow.",
+    "ar": "منى شكلها متوترة؛ المراجعين جايين بكرة.",
+    "ex2": "Let's help her finish the invoice file.",
+    "ar2": "خلّينا نساعدها تخلّص ملف الفواتير."
+   },
+   {
+    "w": "stress",
+    "pos": "noun",
+    "ex": "The stress of month-end collections affects the whole team.",
+    "ar": "ضغط تحصيلات آخر الشهر بيأثر على الفريق كله.",
+    "ex2": "We start calling clients earlier now.",
+    "ar2": "بقينا نبدأ نكلم العملاء بدري."
+   },
+   {
+    "w": "stressful",
+    "pos": "adjective",
+    "ex": "Shutting down a hospital UPS is always stressful.",
+    "ar": "فصل الـ‎UPS‎ بتاع مستشفى دايماً مرهق للأعصاب.",
+    "ex2": "Every minute without power matters.",
+    "ar2": "كل دقيقة من غير كهربا فارقة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "under pressure",
+    "note": "pressure comes from deadlines or people",
+    "ex": "We're under pressure to deliver the inverters this week.",
+    "ar": "إحنا تحت ضغط نسلّم الإنفرترات الأسبوع ده.",
+    "ex2": "The client's opening ceremony is on Sunday.",
+    "ar2": "افتتاح العميل يوم الحد."
+   },
+   {
+    "w": "tense",
+    "note": "nervous and unable to relax; also for situations",
+    "ex": "The meeting with the angry client was tense.",
+    "ar": "الاجتماع مع العميل المتضايق كان متوتر.",
+    "ex2": "It relaxed once we offered a free visit.",
+    "ar2": "الجو هدي أول ما عرضنا زيارة مجانية."
+   }
+  ],
+  "ant": [
+   {
+    "w": "relaxed",
+    "ex": "The team is relaxed now that the project is handed over.",
+    "ar": "الفريق مرتاح دلوقتي بعد ما المشروع اتسلّم.",
+    "ex2": "Relaxed and happy, they're planning a team lunch.",
+    "ar2": "وهم مرتاحين ومبسوطين، بيخططوا لغدا جماعي."
+   }
+  ],
+  "ladder": {
+   "label": "how much stress",
+   "lar": "متوتر قد إيه",
+   "steps": [
+    {
+     "w": "tense",
+     "ex": "I'm a bit tense before the bank meeting.",
+     "ar": "أنا متوتر شوية قبل اجتماع البنك.",
+     "ex2": "They might ask for a bigger discount.",
+     "ar2": "ممكن يطلبوا خصم أكبر."
+    },
+    {
+     "w": "stressed",
+     "ex": "I'm stressed about the late shipment.",
+     "ar": "أنا متوتر بسبب الشحنة المتأخرة.",
+     "ex2": "The client calls me every hour.",
+     "ar2": "العميل بيكلمني كل ساعة."
+    },
+    {
+     "w": "overwhelmed",
+     "ex": "I'm overwhelmed with three projects at once.",
+     "ar": "أنا غرقان في تلات مشاريع مرة واحدة.",
+     "ex2": "I need someone to take one of them.",
+     "ar2": "محتاج حد ياخد واحد منهم."
+    }
+   ]
+  },
+  "ctx": "You look stressed, Karim. Is it the solar project? Let's sit together and see what we can move to next week.",
+  "ctx_ar": "شكلك متوتر يا ‎Karim‎. هو مشروع الطاقة الشمسية؟ خلّينا نقعد سوا ونشوف إيه اللي ممكن نأجله للأسبوع الجاي.",
+  "quiz": [
+   {
+    "s": "The ___ of month-end collections affects everyone.",
+    "opts": [
+     "stressed",
+     "stress",
+     "stressful"
+    ],
+    "a": 1,
+    "ar": "ضغط تحصيلات آخر الشهر بيأثر على الكل."
+   },
+   {
+    "s": "Shutting down a hospital UPS is always ___.",
+    "opts": [
+     "stress",
+     "stressed",
+     "stressful"
+    ],
+    "a": 2,
+    "ar": "فصل الـ‎UPS‎ بتاع مستشفى دايماً مرهق للأعصاب."
+   },
+   {
+    "s": "The team is ___ now that the project is handed over.",
+    "opts": [
+     "relaxed",
+     "tense",
+     "stressed"
+    ],
+    "a": 0,
+    "ar": "الفريق مرتاح دلوقتي بعد ما المشروع اتسلّم."
+   }
+  ],
+  "book": "You look a bit stressed."
+ },
+ {
+  "w": "juggle",
+  "ar": "تشيل كذا حاجة في نفس الوقت",
+  "family": [
+   {
+    "w": "juggle",
+    "pos": "verb",
+    "ex": "I'm juggling two tenders and a site visit today.",
+    "ar": "أنا شايل مناقصتين وزيارة موقع النهارده.",
+    "ex2": "Can you take the site visit?",
+    "ar2": "ممكن إنت تاخد زيارة الموقع؟"
+   },
+   {
+    "w": "juggling",
+    "pos": "noun",
+    "ex": "All this juggling between sales and service is tiring.",
+    "ar": "التنطيط ده بين المبيعات والصيانة متعب.",
+    "ex2": "We need one clear role for each person.",
+    "ar2": "محتاجين دور واضح لكل واحد."
+   },
+   {
+    "w": "juggler",
+    "pos": "person",
+    "ex": "Mona is a real juggler; she handles ten clients daily.",
+    "ar": "منى بتعرف تشيل كذا حاجة مع بعض؛ بتتعامل مع عشر عملاء كل يوم.",
+    "ex2": "Still, she never misses a payment date.",
+    "ar2": "ومع ذلك، عمرها ما فوّتت ميعاد دفع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "multitask",
+    "note": "neutral; doing several things at the same moment",
+    "ex": "Our receptionist can multitask: calls, couriers and invoices.",
+    "ar": "موظفة الاستقبال عندنا بتعرف تعمل كذا حاجة: مكالمات ومناديب وفواتير.",
+    "ex2": "Multitasking is part of her job.",
+    "ar2": "إنها تعمل كذا حاجة جزء من شغلها."
+   },
+   {
+    "w": "handle",
+    "note": "general; manage something, not only many things",
+    "ex": "Who will handle the hospital account now?",
+    "ar": "مين هيمسك حساب المستشفى دلوقتي؟",
+    "ex2": "Hany can handle it from next week.",
+    "ar2": "هاني يقدر يمسكه من الأسبوع الجاي."
+   }
+  ],
+  "ant": [
+   {
+    "w": "focus on",
+    "ex": "Let me focus on one project until it's finished.",
+    "ar": "سيبني أركّز على مشروع واحد لحد ما يخلص.",
+    "ex2": "Focusing on it, I'll finish by Thursday.",
+    "ar2": "لو ركزت فيه، هخلّص قبل الخميس."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Omar is juggling quotations, collections and site visits. His manager agreed to move the collections to Mona.",
+  "ctx_ar": "‎Omar‎ شايل عروض أسعار وتحصيل وزيارات مواقع مع بعض. مديره وافق ينقل التحصيل لـ‎Mona‎.",
+  "quiz": [
+   {
+    "s": "I'm ___ two tenders and a site visit today.",
+    "opts": [
+     "juggling",
+     "juggler",
+     "juggle"
+    ],
+    "a": 0,
+    "ar": "أنا شايل مناقصتين وزيارة موقع النهارده."
+   },
+   {
+    "s": "All this ___ between sales and service is tiring.",
+    "opts": [
+     "juggle",
+     "juggler",
+     "juggling"
+    ],
+    "a": 2,
+    "ar": "التنطيط ده بين المبيعات والصيانة متعب."
+   },
+   {
+    "s": "Let me ___ one project until it's finished.",
+    "opts": [
+     "juggle",
+     "focus on",
+     "multitask"
+    ],
+    "a": 1,
+    "ar": "سيبني أركّز على مشروع واحد لحد ما يخلص."
+   }
+  ],
+  "book": "I feel like I'm juggling too many tasks at once."
+ },
+ {
+  "w": "delegate",
+  "ar": "تفوّض / تدّي شغل لحد تاني",
+  "family": [
+   {
+    "w": "delegate",
+    "pos": "verb",
+    "ex": "You can delegate the battery tests to the junior technicians.",
+    "ar": "تقدر تدّي اختبارات البطاريات للفنيين الجداد.",
+    "ex2": "Just check their reports at the end.",
+    "ar2": "بس راجع تقاريرهم في الآخر."
+   },
+   {
+    "w": "delegation",
+    "pos": "noun",
+    "ex": "Good delegation lets managers focus on big clients.",
+    "ar": "التفويض الكويس بيخلّي المديرين يركزوا على العملاء الكبار.",
+    "ex2": "Small orders go to the sales team.",
+    "ar2": "الطلبات الصغيرة بتروح لفريق المبيعات."
+   },
+   {
+    "w": "delegate",
+    "pos": "person",
+    "ex": "Each company sent a delegate to the energy exhibition.",
+    "ar": "كل شركة بعتت مندوب لمعرض الطاقة.",
+    "ex2": "Ours collected fifty new contacts.",
+    "ar2": "المندوب بتاعنا جمع خمسين عميل جديد."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "assign",
+    "note": "you officially give a task to a person",
+    "ex": "I'll assign the hospital ticket to Tarek.",
+    "ar": "هدّي تذكرة المستشفى لطارق.",
+    "ex2": "He's assigned to the Maadi area this week.",
+    "ar2": "هو متكلّف بمنطقة المعادي الأسبوع ده."
+   },
+   {
+    "w": "hand over",
+    "note": "you give your work fully to someone else",
+    "ex": "Before your vacation, hand over your clients to Hany.",
+    "ar": "قبل أجازتك، سلّم عملاءك لهاني.",
+    "ex2": "Hand over the open quotations too.",
+    "ar2": "سلّم عروض الأسعار المفتوحة كمان."
+   }
+  ],
+  "ant": [
+   {
+    "w": "take on",
+    "ex": "I'll take on the solar tender myself.",
+    "ar": "هاخد مناقصة الطاقة الشمسية بنفسي.",
+    "ex2": "Taking it on means I'll need help with collections.",
+    "ar2": "إني آخدها معناه هحتاج مساعدة في التحصيل."
+   }
+  ],
+  "ladder": null,
+  "ctx": "You can't visit every site yourself, Omar. Delegate the routine battery checks and keep the critical hospitals for you.",
+  "ctx_ar": "مش هتقدر تزور كل المواقع بنفسك يا ‎Omar‎. ادّي الكشف الدوري على البطاريات لحد تاني وخلّي المستشفيات المهمة ليك.",
+  "quiz": [
+   {
+    "s": "Good ___ lets managers focus on big clients.",
+    "opts": [
+     "delegate",
+     "delegation",
+     "delegated"
+    ],
+    "a": 1,
+    "ar": "التفويض الكويس بيخلي المديرين يركزوا على العملاء الكبار."
+   },
+   {
+    "s": "You can ___ the battery tests to junior technicians.",
+    "opts": [
+     "delegate",
+     "delegation",
+     "delegating"
+    ],
+    "a": 0,
+    "ar": "تقدر تدّي اختبارات البطاريات للفنيين الجداد."
+   },
+   {
+    "s": "Before your vacation, ___ your clients to Hany.",
+    "opts": [
+     "take on",
+     "assign",
+     "hand over"
+    ],
+    "a": 2,
+    "ar": "قبل أجازتك، سلّم عملاءك لهاني."
+   }
+  ],
+  "book": "Let's talk about which tasks we can delegate or reschedule."
+ },
+ {
+  "w": "reschedule",
+  "ar": "تغيّر الميعاد",
+  "family": [
+   {
+    "w": "reschedule",
+    "pos": "verb",
+    "ex": "Can we reschedule the site visit to Tuesday?",
+    "ar": "ممكن نغيّر ميعاد زيارة الموقع للتلات؟",
+    "ex2": "The client's engineer is travelling on Monday.",
+    "ar2": "مهندس العميل مسافر يوم الاتنين."
+   },
+   {
+    "w": "schedule",
+    "pos": "noun",
+    "ex": "The installation schedule depends on the panel delivery.",
+    "ar": "جدول التركيب معتمد على توريد الألواح.",
+    "ex2": "If they're late, everything moves.",
+    "ar2": "لو اتأخرت، كل حاجة هتتحرك."
+   },
+   {
+    "w": "rescheduling",
+    "pos": "noun",
+    "ex": "Rescheduling the shutdown costs the factory money.",
+    "ar": "تغيير ميعاد الفصل بيكلّف المصنع فلوس.",
+    "ex2": "So we must be ready on the agreed day.",
+    "ar2": "فلازم نكون جاهزين في اليوم المتفق عليه."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "postpone",
+    "note": "move to a later time, often without a new date",
+    "ex": "We postponed the training until the new UPS arrives.",
+    "ar": "أجلنا التدريب لحد ما الـ‎UPS‎ الجديد يوصل.",
+    "ex2": "We'll set a date once it's delivered.",
+    "ar2": "هنحدد ميعاد أول ما يتسلّم."
+   },
+   {
+    "w": "move",
+    "note": "informal, everyday; earlier or later",
+    "ex": "Can we move the call to three o'clock?",
+    "ar": "ممكن ننقل المكالمة للساعة تلاتة؟",
+    "ex2": "I'm with a client until then.",
+    "ar2": "أنا مع عميل لحد الوقت ده."
+   }
+  ],
+  "ant": [
+   {
+    "w": "bring forward",
+    "ex": "Can we bring forward the delivery to Sunday?",
+    "ar": "ممكن نقدّم التسليم ليوم الحد؟",
+    "ex2": "Bringing it forward helps the client open on time.",
+    "ar2": "تقديمه بيساعد العميل يفتتح في الميعاد."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The hospital asked to reschedule the UPS shutdown to Friday night. Fewer patients are in the building then.",
+  "ctx_ar": "المستشفى طلبت تغيّر ميعاد فصل الـ‎UPS‎ ليوم الجمعة بالليل. بيبقى فيه مرضى أقل في المبنى وقتها.",
+  "quiz": [
+   {
+    "s": "The installation ___ depends on the panel delivery.",
+    "opts": [
+     "reschedule",
+     "schedule",
+     "rescheduling"
+    ],
+    "a": 1,
+    "ar": "جدول التركيب معتمد على توريد الألواح."
+   },
+   {
+    "s": "Can we ___ the site visit to Tuesday?",
+    "opts": [
+     "reschedule",
+     "schedule",
+     "rescheduling"
+    ],
+    "a": 0,
+    "ar": "ممكن نغيّر ميعاد زيارة الموقع للتلات؟"
+   },
+   {
+    "s": "Can we ___ the delivery to Sunday? The client needs it early.",
+    "opts": [
+     "postpone",
+     "reschedule",
+     "bring forward"
+    ],
+    "a": 2,
+    "ar": "ممكن نقدّم التسليم ليوم الحد؟ العميل محتاجه بدري."
+   }
+  ],
+  "book": "Let's talk about which tasks we can delegate or reschedule."
+ },
+ {
+  "w": "valid",
+  "ar": "منطقي / سليم / ساري",
+  "family": [
+   {
+    "w": "valid",
+    "pos": "adjective",
+    "ex": "This quotation is valid for 15 days only.",
+    "ar": "عرض السعر ده ساري 15 يوم بس.",
+    "ex2": "After that, the dollar rate may change.",
+    "ar2": "بعد كده، سعر الدولار ممكن يتغير."
+   },
+   {
+    "w": "validity",
+    "pos": "noun",
+    "ex": "Please check the validity of the warranty before the repair.",
+    "ar": "ياريت تتأكد من سريان الضمان قبل التصليح.",
+    "ex2": "If it's expired, the client pays for parts.",
+    "ar2": "لو خلص، العميل يدفع تمن القطع."
+   },
+   {
+    "w": "validate",
+    "pos": "verb",
+    "ex": "The tax portal will validate the e-invoice in minutes.",
+    "ar": "بوابة الضرايب هتراجع الفاتورة الإلكترونية في دقايق.",
+    "ex2": "If it's rejected, we fix the tax code.",
+    "ar2": "لو اترفضت، بنصلّح الكود الضريبي."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "reasonable and acceptable",
+    "mar": "منطقي / في محله",
+    "ex": "The client raised a valid point about the delivery time.",
+    "ar": "العميل قال نقطة في محلها عن مدة التسليم.",
+    "ex2": "We added a penalty clause to reassure him.",
+    "ar2": "ضفنا بند غرامة عشان نطمّنه."
+   },
+   {
+    "m": "legally or officially accepted for a period",
+    "mar": "ساري",
+    "ex": "The price is valid until the end of the month.",
+    "ar": "السعر ساري لحد آخر الشهر.",
+    "ex2": "Please send the PO before it expires.",
+    "ar2": "ياريت تبعت أمر الشراء قبل ما يخلص."
+   }
+  ],
+  "syn": [
+   {
+    "w": "reasonable",
+    "note": "fair and sensible; softer than valid",
+    "ex": "His request for a discount is reasonable.",
+    "ar": "طلبه للخصم معقول.",
+    "ex2": "He's ordering twenty UPS units.",
+    "ar2": "هو طالب عشرين جهاز ‎UPS‎."
+   },
+   {
+    "w": "legitimate",
+    "note": "formal; allowed or fair by rules",
+    "ex": "The client has a legitimate reason to delay payment.",
+    "ar": "العميل عنده سبب مشروع يأخّر الدفع.",
+    "ex2": "Our technician hasn't finished the installation.",
+    "ar2": "الفني بتاعنا لسه ماخلّصش التركيب."
+   }
+  ],
+  "ant": [
+   {
+    "w": "invalid",
+    "ex": "The e-invoice was invalid because the tax number was wrong.",
+    "ar": "الفاتورة الإلكترونية كانت مش سليمة عشان الرقم الضريبي غلط.",
+    "ex2": "We issued a new one with the right number.",
+    "ar2": "طلّعنا واحدة جديدة بالرقم الصح."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The client's complaint about the noisy UPS is valid. Let's offer to move it to the electrical room at no cost.",
+  "ctx_ar": "شكوى العميل من دوشة الـ‎UPS‎ في محلها. خلّينا نعرض ننقله لأوضة الكهربا من غير تكلفة.",
+  "quiz": [
+   {
+    "s": "Please check the ___ of the warranty.",
+    "opts": [
+     "valid",
+     "validity",
+     "validate"
+    ],
+    "a": 1,
+    "ar": "ياريت تتأكد من سريان الضمان."
+   },
+   {
+    "s": "The portal will ___ the e-invoice in minutes.",
+    "opts": [
+     "valid",
+     "validity",
+     "validate"
+    ],
+    "a": 2,
+    "ar": "البوابة هتراجع الفاتورة الإلكترونية في دقايق."
+   },
+   {
+    "s": "This quotation is ___ for 15 days only.",
+    "opts": [
+     "valid",
+     "validity",
+     "invalid"
+    ],
+    "a": 0,
+    "ar": "عرض السعر ده ساري 15 يوم بس."
+   }
+  ],
+  "book": "Those are definitely valid concerns, Omar."
+ },
+ {
+  "w": "consideration",
+  "ar": "اهتمام / تفكير / مراعاة",
+  "family": [
+   {
+    "w": "consider",
+    "pos": "verb",
+    "ex": "We'll consider your request for a longer warranty.",
+    "ar": "هندرس طلبك لضمان أطول.",
+    "ex2": "I'll reply after talking to the supplier.",
+    "ar2": "هرد عليك بعد ما أكلم المورد."
+   },
+   {
+    "w": "consideration",
+    "pos": "noun",
+    "ex": "After careful consideration, we chose the lithium batteries.",
+    "ar": "بعد تفكير كويس، اخترنا بطاريات الليثيوم.",
+    "ex2": "They last longer in hot rooms.",
+    "ar2": "بتعيش أطول في الأوض الحرّانة."
+   },
+   {
+    "w": "considerable",
+    "pos": "adjective",
+    "ex": "The new VFDs brought considerable energy savings.",
+    "ar": "الـ‎VFDs‎ الجديدة جابت توفير كبير في الطاقة.",
+    "ex2": "The factory's bill dropped by 20%.",
+    "ar2": "فاتورة المصنع نزلت 20%."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "thought",
+    "note": "informal; thinking about something",
+    "ex": "Give it some thought before you sign.",
+    "ar": "فكّر فيها شوية قبل ما تمضي.",
+    "ex2": "The contract is for three years.",
+    "ar2": "العقد لمدة تلات سنين."
+   },
+   {
+    "w": "attention",
+    "note": "you notice and deal with something",
+    "ex": "Thank you for your attention to this matter.",
+    "ar": "شكراً على اهتمامك بالموضوع ده.",
+    "ex2": "The invoice is now forty days overdue.",
+    "ar2": "الفاتورة متأخرة أربعين يوم دلوقتي."
+   }
+  ],
+  "ant": [
+   {
+    "w": "disregard",
+    "ex": "Disregard for safety rules is not acceptable on site.",
+    "ar": "تجاهل قواعد الأمان مش مقبول في الموقع.",
+    "ex2": "One disregard can cause a serious accident.",
+    "ar2": "تجاهل واحد ممكن يعمل حادثة خطيرة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Thank you for your consideration of our offer. We're happy to adjust the payment terms if the hospital needs more time.",
+  "ctx_ar": "شكراً على دراستك لعرضنا. يسعدنا نعدّل شروط الدفع لو المستشفى محتاجة وقت أكتر.",
+  "quiz": [
+   {
+    "s": "We'll ___ your request for a longer warranty.",
+    "opts": [
+     "consider",
+     "consideration",
+     "considerable"
+    ],
+    "a": 0,
+    "ar": "هندرس طلبك لضمان أطول."
+   },
+   {
+    "s": "The new VFDs brought ___ energy savings.",
+    "opts": [
+     "consider",
+     "consideration",
+     "considerable"
+    ],
+    "a": 2,
+    "ar": "الـ‎VFDs‎ الجديدة جابت توفير كبير في الطاقة."
+   },
+   {
+    "s": "After careful ___, we chose lithium batteries.",
+    "opts": [
+     "considerable",
+     "consideration",
+     "disregard"
+    ],
+    "a": 1,
+    "ar": "بعد تفكير كويس، اخترنا بطاريات الليثيوم."
+   }
+  ],
+  "book": "Lastly, I've noticed that sometimes my ideas get dismissed without much consideration during meetings."
+ },
+ {
+  "w": "unappreciated",
+  "ar": "مش متقدّر",
+  "family": [
+   {
+    "w": "appreciate",
+    "pos": "verb",
+    "ex": "We really appreciate your quick payment this month.",
+    "ar": "بجد بنقدّر دفعك السريع الشهر ده.",
+    "ex2": "It helped us pay the supplier on time.",
+    "ar2": "ساعدنا ندفع للمورد في الميعاد."
+   },
+   {
+    "w": "appreciation",
+    "pos": "noun",
+    "ex": "The manager sent an email of appreciation to the service team.",
+    "ar": "المدير بعت إيميل شكر لفريق الصيانة.",
+    "ex2": "They fixed the bank's UPS overnight.",
+    "ar2": "صلّحوا الـ‎UPS‎ بتاع البنك طول الليل."
+   },
+   {
+    "w": "unappreciated",
+    "pos": "adjective",
+    "ex": "The warehouse staff often feel unappreciated.",
+    "ar": "موظفين المخزن غالباً بيحسوا إنهم مش متقدّرين.",
+    "ex2": "Without them, no delivery leaves on time.",
+    "ar2": "من غيرهم، مفيش تسليم يطلع في ميعاده."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "undervalued",
+    "note": "your worth or pay is lower than it should be",
+    "ex": "I feel undervalued compared to the new engineers.",
+    "ar": "حاسس إني متقيّم بأقل من حقي مقارنة بالمهندسين الجداد.",
+    "ex2": "They earn more with less experience.",
+    "ar2": "بياخدوا أكتر بخبرة أقل."
+   },
+   {
+    "w": "taken for granted",
+    "note": "people expect your help and never thank you",
+    "ex": "Our night technicians feel taken for granted.",
+    "ar": "فنيين الليل عندنا حاسين إن محدش شايف تعبهم.",
+    "ex2": "They answer every emergency without complaint.",
+    "ar2": "بيردوا على كل طوارئ من غير شكوى."
+   }
+  ],
+  "ant": [
+   {
+    "w": "valued",
+    "ex": "Our clients feel valued when we call after installation.",
+    "ar": "عملاءنا بيحسوا إنهم متقدّرين لما بنكلمهم بعد التركيب.",
+    "ex2": "Valued clients usually renew their contracts.",
+    "ar2": "العملاء اللي بيحسوا بالتقدير غالباً بيجددوا عقودهم."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Omar wrote the whole tender, but his name wasn't mentioned. He feels unappreciated and wants to talk to the director.",
+  "ctx_ar": "‎Omar‎ كتب المناقصة كلها، بس اسمه ماتذكرش. حاسس إنه مش متقدّر وعايز يكلم المدير.",
+  "quiz": [
+   {
+    "s": "We really ___ your quick payment.",
+    "opts": [
+     "appreciation",
+     "appreciate",
+     "unappreciated"
+    ],
+    "a": 1,
+    "ar": "بجد بنقدّر دفعك السريع."
+   },
+   {
+    "s": "The manager sent an email of ___ to the team.",
+    "opts": [
+     "appreciation",
+     "appreciate",
+     "unappreciated"
+    ],
+    "a": 0,
+    "ar": "المدير بعت إيميل شكر للفريق."
+   },
+   {
+    "s": "Our clients feel ___ when we call after installation.",
+    "opts": [
+     "unappreciated",
+     "undervalued",
+     "valued"
+    ],
+    "a": 2,
+    "ar": "عملاءنا بيحسوا إنهم متقدّرين لما بنكلمهم بعد التركيب."
+   }
+  ],
+  "book": "It makes me feel that my contribution is unappreciated."
+ },
+ {
+  "w": "inclusive",
+  "ar": "شامل / بيشمل الكل",
+  "family": [
+   {
+    "w": "inclusive",
+    "pos": "adjective",
+    "ex": "The price is inclusive of installation and one year of service.",
+    "ar": "السعر شامل التركيب وسنة صيانة.",
+    "ex2": "Spare parts are charged separately.",
+    "ar2": "قطع الغيار بتتحسب لوحدها."
+   },
+   {
+    "w": "include",
+    "pos": "verb",
+    "ex": "Please include the battery cabinet in the quotation.",
+    "ar": "ياريت تضيف دولاب البطاريات في عرض السعر.",
+    "ex2": "The client forgot to ask for it.",
+    "ar2": "العميل نسي يطلبه."
+   },
+   {
+    "w": "inclusion",
+    "pos": "noun",
+    "ex": "The inclusion of a maintenance plan helped us win the tender.",
+    "ar": "إضافة خطة صيانة ساعدتنا نكسب المناقصة.",
+    "ex2": "Competitors offered the equipment only.",
+    "ar2": "المنافسين عرضوا الأجهزة بس."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "open to everyone; nobody left out",
+    "mar": "بيشمل الكل",
+    "ex": "Let's make the weekly meeting more inclusive.",
+    "ar": "خلّينا نخلّي الاجتماع الأسبوعي يشمل الكل.",
+    "ex2": "Technicians should share their ideas too.",
+    "ar2": "الفنيين لازم يشاركوا أفكارهم كمان."
+   },
+   {
+    "m": "a price that includes everything listed",
+    "mar": "شامل",
+    "ex": "All prices are inclusive of VAT.",
+    "ar": "كل الأسعار شاملة الضريبة.",
+    "ex2": "The client pays nothing extra.",
+    "ar2": "العميل مش هيدفع حاجة زيادة."
+   }
+  ],
+  "syn": [
+   {
+    "w": "open",
+    "note": "welcoming new ideas or people; informal",
+    "ex": "Our manager is open to new ideas.",
+    "ar": "مديرنا متقبّل الأفكار الجديدة.",
+    "ex2": "He tried my idea for faster collections.",
+    "ar2": "جرّب فكرتي للتحصيل الأسرع."
+   },
+   {
+    "w": "all-in",
+    "note": "informal; price includes everything",
+    "ex": "It's an all-in price: delivery, installation and training.",
+    "ar": "ده سعر شامل كله: توصيل وتركيب وتدريب.",
+    "ex2": "There are no hidden costs.",
+    "ar2": "مفيش تكاليف مخفية."
+   }
+  ],
+  "ant": [
+   {
+    "w": "exclusive",
+    "ex": "Prices are exclusive of VAT.",
+    "ar": "الأسعار من غير الضريبة.",
+    "ex2": "Exclusive prices look cheaper, but clients pay 14% more.",
+    "ar2": "الأسعار من غير ضريبة شكلها أرخص، بس العملاء بيدفعوا 14% زيادة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our meetings used to be only for sales. To be more inclusive, we now invite one service engineer every week.",
+  "ctx_ar": "اجتماعاتنا كانت للمبيعات بس. عشان تبقى شاملة أكتر، بقينا نعزم مهندس صيانة كل أسبوع.",
+  "quiz": [
+   {
+    "s": "Please ___ the battery cabinet in the quotation.",
+    "opts": [
+     "inclusive",
+     "include",
+     "inclusion"
+    ],
+    "a": 1,
+    "ar": "ياريت تضيف دولاب البطاريات في عرض السعر."
+   },
+   {
+    "s": "The ___ of a maintenance plan won us the tender.",
+    "opts": [
+     "include",
+     "inclusive",
+     "inclusion"
+    ],
+    "a": 2,
+    "ar": "إضافة خطة صيانة كسبتنا المناقصة."
+   },
+   {
+    "s": "Our prices are ___ of VAT, so add 14%.",
+    "opts": [
+     "exclusive",
+     "inclusive",
+     "all-in"
+    ],
+    "a": 0,
+    "ar": "أسعارنا من غير الضريبة، فضيف 14%."
+   }
+  ],
+  "book": "We can discuss ways to make our meetings more inclusive and open to all suggestions."
+ },
+ {
+  "w": "transparency",
+  "ar": "شفافية / وضوح",
+  "family": [
+   {
+    "w": "transparent",
+    "pos": "adjective",
+    "ex": "We keep our pricing transparent: parts, labour and transport.",
+    "ar": "بنخلّي التسعير بتاعنا واضح: قطع وشغل ونقل.",
+    "ex2": "Clients see every cost in the quotation.",
+    "ar2": "العملاء بيشوفوا كل تكلفة في عرض السعر."
+   },
+   {
+    "w": "transparency",
+    "pos": "noun",
+    "ex": "Transparency about delays builds trust with clients.",
+    "ar": "الوضوح في التأخيرات بيبني ثقة مع العملاء.",
+    "ex2": "Tell them early, even if the news is bad.",
+    "ar2": "قولهم بدري، حتى لو الخبر وحش."
+   },
+   {
+    "w": "transparently",
+    "pos": "adverb",
+    "ex": "Explain the price increase transparently in your email.",
+    "ar": "اشرح زيادة السعر بوضوح في الإيميل بتاعك.",
+    "ex2": "Mention the new import duties.",
+    "ar2": "اذكر رسوم الاستيراد الجديدة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "openness",
+    "note": "willing to share feelings and information",
+    "ex": "I appreciate your openness about the problem.",
+    "ar": "بقدّر صراحتك في المشكلة.",
+    "ex2": "Now we can solve it together.",
+    "ar2": "دلوقتي نقدر نحلها سوا."
+   },
+   {
+    "w": "honesty",
+    "note": "telling the truth; more personal",
+    "ex": "His honesty about the mistake saved the contract.",
+    "ar": "صدقه في الغلطة أنقذ العقد.",
+    "ex2": "The client trusted us more after that.",
+    "ar2": "العميل وثق فينا أكتر بعدها."
+   }
+  ],
+  "ant": [
+   {
+    "w": "secrecy",
+    "ex": "Secrecy about the delay made the client angry.",
+    "ar": "التكتّم على التأخير خلّى العميل يتعصب.",
+    "ex2": "After that secrecy, he asked for weekly reports.",
+    "ar2": "بعد التكتّم ده، طلب تقارير كل أسبوع."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The supplier told us early about the battery delay. We appreciated their transparency and informed our clients the same day.",
+  "ctx_ar": "المورد قالنا بدري عن تأخير البطاريات. قدّرنا شفافيتهم وبلّغنا عملاءنا في نفس اليوم.",
+  "quiz": [
+   {
+    "s": "We keep our pricing ___.",
+    "opts": [
+     "transparency",
+     "transparent",
+     "transparently"
+    ],
+    "a": 1,
+    "ar": "بنخلّي التسعير بتاعنا واضح."
+   },
+   {
+    "s": "Explain the price increase ___ in your email.",
+    "opts": [
+     "transparent",
+     "transparency",
+     "transparently"
+    ],
+    "a": 2,
+    "ar": "اشرح زيادة السعر بوضوح في الإيميل بتاعك."
+   },
+   {
+    "s": "___ about delays builds trust with clients.",
+    "opts": [
+     "Transparency",
+     "Transparent",
+     "Secrecy"
+    ],
+    "a": 0,
+    "ar": "الوضوح في التأخيرات بيبني ثقة مع العملاء."
+   }
+  ],
+  "book": "I appreciate your transparency."
+ },
+ {
+  "w": "parity",
+  "ar": "مساواة / تكافؤ",
+  "family": [
+   {
+    "w": "parity",
+    "pos": "noun",
+    "ex": "HR is checking salary parity between engineers in Cairo and Alexandria.",
+    "ar": "الـ‎HR‎ بيراجعوا المساواة في المرتبات بين مهندسين القاهرة وإسكندرية.",
+    "ex2": "Some differences have no clear reason.",
+    "ar2": "فيه فروق مالهاش سبب واضح."
+   },
+   {
+    "w": "equal",
+    "pos": "adjective",
+    "ex": "Engineers with equal experience should get equal pay.",
+    "ar": "المهندسين اللي عندهم نفس الخبرة لازم ياخدوا نفس المرتب.",
+    "ex2": "That's our new policy from January.",
+    "ar2": "دي سياستنا الجديدة من يناير."
+   },
+   {
+    "w": "equally",
+    "pos": "adverb",
+    "ex": "We split the bonus equally between the two teams.",
+    "ar": "قسمنا المكافأة بالتساوي بين الفريقين.",
+    "ex2": "Both worked hard on the data centre.",
+    "ar2": "الاتنين اشتغلوا جامد في الداتا سنتر."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "equality",
+    "note": "general word; fairness for everyone",
+    "ex": "Equality at work means the same rules for all.",
+    "ar": "المساواة في الشغل معناها نفس القواعد للكل.",
+    "ex2": "That includes overtime and bonuses.",
+    "ar2": "ده بيشمل الأوفرتايم والمكافآت."
+   },
+   {
+    "w": "fairness",
+    "note": "just treatment; not always the same amount",
+    "ex": "Fairness in pay keeps good engineers with us.",
+    "ar": "العدل في المرتبات بيخلّي المهندسين الكويسين معانا.",
+    "ex2": "Without it, they move to competitors.",
+    "ar2": "من غيره، بيروحوا للمنافسين."
+   }
+  ],
+  "ant": [
+   {
+    "w": "gap",
+    "ex": "There's a pay gap between old and new staff.",
+    "ar": "فيه فرق في المرتبات بين الموظفين القدام والجداد.",
+    "ex2": "HR wants to close the gap this year.",
+    "ar2": "الـ‎HR‎ عايزين يقفلوا الفرق ده السنة دي."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Ali learned that new engineers earn more than him. He asked HR to check salary parity before the annual review.",
+  "ctx_ar": "‎Ali‎ عرف إن المهندسين الجداد بياخدوا أكتر منه. طلب من الـ‎HR‎ يراجعوا المساواة في المرتبات قبل المراجعة السنوية.",
+  "quiz": [
+   {
+    "s": "HR is checking salary ___ between the two branches.",
+    "opts": [
+     "parity",
+     "equal",
+     "equally"
+    ],
+    "a": 0,
+    "ar": "الـ‎HR‎ بيراجعوا المساواة في المرتبات بين الفرعين."
+   },
+   {
+    "s": "We split the bonus ___ between the teams.",
+    "opts": [
+     "parity",
+     "equal",
+     "equally"
+    ],
+    "a": 2,
+    "ar": "قسمنا المكافأة بالتساوي بين الفريقين."
+   },
+   {
+    "s": "There's a pay ___ between old and new staff.",
+    "opts": [
+     "parity",
+     "gap",
+     "equality"
+    ],
+    "a": 1,
+    "ar": "فيه فرق في المرتبات بين الموظفين القدام والجداد."
+   }
+  ],
+  "book": "Salary parity is important to our organization."
+ },
+ {
+  "w": "conduct a review",
+  "ar": "تعمل مراجعة",
+  "family": [
+   {
+    "w": "review",
+    "pos": "noun",
+    "ex": "The annual salary review happens every January.",
+    "ar": "مراجعة المرتبات السنوية بتحصل كل يناير.",
+    "ex2": "Prepare your sales figures before then.",
+    "ar2": "جهّز أرقام مبيعاتك قبلها."
+   },
+   {
+    "w": "review",
+    "pos": "verb",
+    "ex": "Please review the contract before the client signs.",
+    "ar": "ياريت تراجع العقد قبل ما العميل يمضي.",
+    "ex2": "Check the penalty clause carefully.",
+    "ar2": "راجع بند الغرامة كويس."
+   },
+   {
+    "w": "reviewer",
+    "pos": "person",
+    "ex": "The tender reviewer asked for more technical details.",
+    "ar": "مراجع المناقصة طلب تفاصيل فنية أكتر.",
+    "ex2": "We sent the UPS datasheets the same day.",
+    "ar2": "بعتنا الداتا شيتس بتاعة الـ‎UPS‎ في نفس اليوم."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "assess",
+    "note": "judge the value or condition of something",
+    "ex": "The engineer will assess the old batteries on Sunday.",
+    "ar": "المهندس هيقيّم البطاريات القديمة يوم الحد.",
+    "ex2": "Then we'll know if they need replacing.",
+    "ar2": "وبعدها هنعرف إذا كانت محتاجة تتغير."
+   },
+   {
+    "w": "audit",
+    "note": "formal, official check, often of accounts",
+    "ex": "The auditors will audit our invoices next week.",
+    "ar": "المراجعين هيراجعوا فواتيرنا الأسبوع الجاي.",
+    "ex2": "Every e-invoice must match the bank statements.",
+    "ar2": "كل فاتورة إلكترونية لازم تطابق كشف البنك."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Before renewing the contract, we'll conduct a review of all service visits. The client wants proof of every battery test.",
+  "ctx_ar": "قبل ما نجدد العقد، هنعمل مراجعة لكل زيارات الصيانة. العميل عايز إثبات لكل اختبار بطاريات.",
+  "quiz": [
+   {
+    "s": "The annual salary ___ happens every January.",
+    "opts": [
+     "reviewer",
+     "review",
+     "reviewed"
+    ],
+    "a": 1,
+    "ar": "مراجعة المرتبات السنوية بتحصل كل يناير."
+   },
+   {
+    "s": "The tender ___ asked for more details.",
+    "opts": [
+     "review",
+     "reviewing",
+     "reviewer"
+    ],
+    "a": 2,
+    "ar": "مراجع المناقصة طلب تفاصيل أكتر."
+   },
+   {
+    "s": "The engineer will ___ the old batteries on Sunday.",
+    "opts": [
+     "assess",
+     "audit",
+     "reviewer"
+    ],
+    "a": 0,
+    "ar": "المهندس هيقيّم البطاريات القديمة يوم الحد."
+   }
+  ],
+  "book": "I will work with HR to conduct a review of your compensation compared to industry standards and your colleagues."
+ },
+ {
+  "w": "inflation",
+  "ar": "التضخم",
+  "family": [
+   {
+    "w": "inflation",
+    "pos": "noun",
+    "ex": "Inflation pushed up the price of copper cables.",
+    "ar": "التضخم رفع سعر كابلات النحاس.",
+    "ex2": "We updated our installation prices.",
+    "ar2": "حدّثنا أسعار التركيب بتاعتنا."
+   },
+   {
+    "w": "inflate",
+    "pos": "verb",
+    "ex": "Don't inflate the price; the client knows the market.",
+    "ar": "ماتنفخش السعر؛ العميل عارف السوق.",
+    "ex2": "A fair price keeps him with us.",
+    "ar2": "السعر العادل بيخليه معانا."
+   },
+   {
+    "w": "inflated",
+    "pos": "adjective",
+    "ex": "The supplier's inflated shipping costs surprised us.",
+    "ar": "مصاريف الشحن المبالغ فيها من المورد فاجئتنا.",
+    "ex2": "We asked for a second quote.",
+    "ar2": "طلبنا عرض تاني."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "price rises",
+    "note": "simple, everyday; specific increases",
+    "ex": "Price rises made batteries 30% more expensive.",
+    "ar": "زيادات الأسعار خلّت البطاريات أغلى 30%.",
+    "ex2": "Clients now ask for longer payment terms.",
+    "ar2": "العملاء بقوا يطلبوا مدة دفع أطول."
+   },
+   {
+    "w": "rising costs",
+    "note": "focus on costs for a company or person",
+    "ex": "Rising costs are reducing our profit margin.",
+    "ar": "التكاليف اللي بتزيد بتقلل هامش ربحنا.",
+    "ex2": "We need to review all old contracts.",
+    "ar2": "محتاجين نراجع كل العقود القديمة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "deflation",
+    "ex": "Deflation is rare in Egypt; prices usually go up.",
+    "ar": "انخفاض الأسعار نادر في مصر؛ الأسعار عادة بتزيد.",
+    "ex2": "With deflation, clients would wait to buy.",
+    "ar2": "لو فيه انخفاض أسعار، العملاء كانوا هيستنوا يشتروا."
+   }
+  ],
+  "ladder": null,
+  "ctx": "With inflation at this level, our fixed-price contracts are losing money. Let's add a price review clause from next year.",
+  "ctx_ar": "مع التضخم بالمستوى ده، العقود اللي بسعر ثابت بتخسّرنا. خلّينا نضيف بند مراجعة أسعار من السنة الجاية.",
+  "quiz": [
+   {
+    "s": "___ pushed up the price of copper cables.",
+    "opts": [
+     "Inflate",
+     "Inflation",
+     "Inflated"
+    ],
+    "a": 1,
+    "ar": "التضخم رفع سعر كابلات النحاس."
+   },
+   {
+    "s": "The supplier's ___ shipping costs surprised us.",
+    "opts": [
+     "inflated",
+     "inflation",
+     "inflate"
+    ],
+    "a": 0,
+    "ar": "مصاريف الشحن المبالغ فيها من المورد فاجئتنا."
+   },
+   {
+    "s": "Don't ___ the price; the client knows the market.",
+    "opts": [
+     "inflation",
+     "inflated",
+     "inflate"
+    ],
+    "a": 2,
+    "ar": "ماتنفخش السعر؛ العميل عارف السوق."
+   }
+  ],
+  "book": "Lastly, with the current inflation rate, my salary doesn't seem to keep up with the cost of living."
+ },
+ {
+  "w": "cost of living",
+  "ar": "تكلفة المعيشة",
+  "family": [
+   {
+    "w": "cost of living",
+    "pos": "noun",
+    "ex": "The cost of living in Cairo rose sharply this year.",
+    "ar": "تكلفة المعيشة في القاهرة زادت جامد السنة دي.",
+    "ex2": "Many engineers asked for a salary review.",
+    "ar2": "مهندسين كتير طلبوا مراجعة المرتب."
+   },
+   {
+    "w": "cost",
+    "pos": "noun",
+    "ex": "Transport is a big cost for our Upper Egypt projects.",
+    "ar": "النقل تكلفة كبيرة لمشاريعنا في الصعيد.",
+    "ex2": "We add it clearly to the quotation.",
+    "ar2": "بنضيفه بوضوح في عرض السعر."
+   },
+   {
+    "w": "costly",
+    "pos": "adjective",
+    "ex": "A wrong battery order would be very costly.",
+    "ar": "طلب بطاريات غلط هيبقى مكلّف جداً.",
+    "ex2": "Please double-check the model number.",
+    "ar2": "ياريت تراجع رقم الموديل مرتين."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "living expenses",
+    "note": "the money you actually spend each month",
+    "ex": "My living expenses doubled since last year.",
+    "ar": "مصاريف معيشتي اتضاعفت من السنة اللي فاتت.",
+    "ex2": "Rent and transport are the biggest.",
+    "ar2": "الإيجار والمواصلات أكبر حاجة."
+   },
+   {
+    "w": "standard of living",
+    "note": "quality of life, not the cost",
+    "ex": "A fair salary protects your standard of living.",
+    "ar": "المرتب العادل بيحافظ على مستوى معيشتك.",
+    "ex2": "That's why we review salaries yearly.",
+    "ar2": "عشان كده بنراجع المرتبات كل سنة."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "The cost of living has gone up, but our technicians' allowances haven't changed. Fatma will raise this in the salary review.",
+  "ctx_ar": "تكلفة المعيشة زادت، بس بدلات الفنيين بتوعنا ماتغيرتش. ‎Fatma‎ هتفتح الموضوع ده في مراجعة المرتبات.",
+  "quiz": [
+   {
+    "s": "The ___ in Cairo rose sharply this year.",
+    "opts": [
+     "cost of living",
+     "costly",
+     "standard of living"
+    ],
+    "a": 0,
+    "ar": "تكلفة المعيشة في القاهرة زادت جامد السنة دي."
+   },
+   {
+    "s": "A wrong battery order would be very ___.",
+    "opts": [
+     "cost",
+     "cost of living",
+     "costly"
+    ],
+    "a": 2,
+    "ar": "طلب بطاريات غلط هيبقى مكلّف جداً."
+   },
+   {
+    "s": "My ___ doubled since last year: rent, transport, food.",
+    "opts": [
+     "standard of living",
+     "living expenses",
+     "costly"
+    ],
+    "a": 1,
+    "ar": "مصاريف معيشتي اتضاعفت من السنة اللي فاتت: إيجار ومواصلات وأكل."
+   }
+  ],
+  "book": "The cost of living has indeed risen, and it's important that our compensation keeps pace."
+ },
+ {
+  "w": "crucial",
+  "ar": "مهم جداً / حاسم",
+  "family": [
+   {
+    "w": "crucial",
+    "pos": "adjective",
+    "ex": "It's crucial to test the batteries before the hospital handover.",
+    "ar": "مهم جداً نختبر البطاريات قبل تسليم المستشفى.",
+    "ex2": "A weak battery could fail during surgery.",
+    "ar2": "بطارية ضعيفة ممكن تقع وقت عملية."
+   },
+   {
+    "w": "crucially",
+    "pos": "adverb",
+    "ex": "Crucially, the contract includes a four-hour response time.",
+    "ar": "والأهم، العقد فيه زمن استجابة أربع ساعات.",
+    "ex2": "That's why the bank chose us.",
+    "ar2": "عشان كده البنك اختارنا."
+   },
+   {
+    "w": "crux",
+    "pos": "noun",
+    "ex": "The crux of the problem is unstable input voltage.",
+    "ar": "أصل المشكلة إن جهد الدخل مش مستقر.",
+    "ex2": "A stabilizer will protect the UPS.",
+    "ar2": "منظم الجهد هيحمي الـ‎UPS‎."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "essential",
+    "note": "absolutely needed; you can't do without it",
+    "ex": "A site survey is essential before quoting a solar system.",
+    "ar": "المعاينة أساسية قبل ما نسعّر نظام شمسي.",
+    "ex2": "Roofs differ a lot in size and angle.",
+    "ar2": "الأسطح بتختلف كتير في المساحة والزاوية."
+   },
+   {
+    "w": "vital",
+    "note": "very strong; often about life, safety or survival",
+    "ex": "Backup power is vital for the ICU.",
+    "ar": "الكهربا الاحتياطية حيوية للعناية المركزة.",
+    "ex2": "That's why they have two UPS units.",
+    "ar2": "عشان كده عندهم جهازين ‎UPS‎."
+   }
+  ],
+  "ant": [
+   {
+    "w": "minor",
+    "ex": "The scratch on the cabinet is a minor issue.",
+    "ar": "الخدش اللي على الدولاب حاجة بسيطة.",
+    "ex2": "Let's focus on the minor issues after the handover.",
+    "ar2": "خلّينا نركز على الحاجات البسيطة بعد التسليم."
+   }
+  ],
+  "ladder": {
+   "label": "how important",
+   "lar": "مهم قد إيه",
+   "steps": [
+    {
+     "w": "important",
+     "ex": "It's important to reply to clients within a day.",
+     "ar": "مهم نرد على العملاء خلال يوم.",
+     "ex2": "Slow replies lose sales.",
+     "ar2": "الرد البطيء بيخسّر مبيعات."
+    },
+    {
+     "w": "essential",
+     "ex": "Safety shoes are essential on every site.",
+     "ar": "جزمة السيفتي أساسية في كل موقع.",
+     "ex2": "No shoes, no entry.",
+     "ar2": "مفيش جزمة، مفيش دخول."
+    },
+    {
+     "w": "crucial",
+     "ex": "Timing is crucial in a hospital shutdown.",
+     "ar": "التوقيت حاسم في فصل كهربا مستشفى.",
+     "ex2": "We plan every minute.",
+     "ar2": "بنخطط كل دقيقة."
+    },
+    {
+     "w": "vital",
+     "ex": "Power is vital for life-support machines.",
+     "ar": "الكهربا حيوية لأجهزة الإنعاش.",
+     "ex2": "They must never lose it.",
+     "ar2": "لازم عمرها ماتقطع عنهم."
+    }
+   ]
+  },
+  "ctx": "It's crucial that we finish the UPS upgrade before the bank's system migration. Any delay will stop their branches for a day.",
+  "ctx_ar": "مهم جداً نخلّص ترقية الـ‎UPS‎ قبل نقل السيستم بتاع البنك. أي تأخير هيوقف فروعهم يوم كامل.",
+  "quiz": [
+   {
+    "s": "___, the contract includes a four-hour response time.",
+    "opts": [
+     "Crucial",
+     "Crucially",
+     "Crux"
+    ],
+    "a": 1,
+    "ar": "والأهم، العقد فيه زمن استجابة أربع ساعات."
+   },
+   {
+    "s": "The ___ of the problem is unstable voltage.",
+    "opts": [
+     "crux",
+     "crucial",
+     "crucially"
+    ],
+    "a": 0,
+    "ar": "أصل المشكلة إن الجهد مش مستقر."
+   },
+   {
+    "s": "Power is ___ for life-support machines.",
+    "opts": [
+     "minor",
+     "important",
+     "vital"
+    ],
+    "a": 2,
+    "ar": "الكهربا حيوية لأجهزة الإنعاش."
+   }
+  ],
+  "book": "It's crucial for your well-being that we make sure your workload fits within standard office hours."
  }
 ]

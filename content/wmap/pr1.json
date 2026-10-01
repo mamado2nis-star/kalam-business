@@ -734,5 +734,1294 @@
     "ar": "مكتب الخدمة بيرد على مئات الاستفسارات من العملا كل شهر."
    }
   ]
+ },
+ {
+  "w": "prospective",
+  "ar": "محتمل / ممكن يبقى عميل",
+  "family": [
+   {
+    "w": "prospective",
+    "pos": "adjective",
+    "ex": "We're meeting a prospective client from a new hospital in October City.",
+    "ar": "عندنا اجتماع مع عميل محتمل من مستشفى جديدة في أكتوبر.",
+    "ex2": "They need UPS units for three floors.",
+    "ar2": "محتاجين أجهزة ‎UPS‎ لتلات أدوار."
+   },
+   {
+    "w": "prospect",
+    "pos": "noun",
+    "ex": "The data centre is our biggest prospect this year.",
+    "ar": "الداتا سنتر ده أكبر فرصة بيع عندنا السنة دي.",
+    "ex2": "We're preparing a full proposal.",
+    "ar2": "بنجهّز عرض كامل."
+   },
+   {
+    "w": "prospect",
+    "pos": "verb",
+    "ex": "Our sales team prospects for new clients in the industrial zones.",
+    "ar": "فريق المبيعات بيدوّر على عملا جداد في المناطق الصناعية.",
+    "ex2": "Factories need VFDs and backup power.",
+    "ar2": "المصانع محتاجة ‎VFDs‎ وكهربا احتياطي."
+   },
+   {
+    "w": "prospecting",
+    "pos": "noun",
+    "ex": "Prospecting takes most of Omar's time this month.",
+    "ar": "البحث عن عملا جداد واخد أغلب وقت ‎Omar‎ الشهر ده.",
+    "ex2": "He calls ten factories a day.",
+    "ar2": "بيكلم عشر مصانع في اليوم."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "potential",
+    "note": "general; possible in the future",
+    "ex": "We have five potential buyers for the solar kits.",
+    "ar": "عندنا خمس مشترين محتملين لأطقم الطاقة الشمسية.",
+    "ex2": "Two asked for prices today.",
+    "ar2": "اتنين طلبوا أسعار النهارده."
+   },
+   {
+    "w": "future",
+    "note": "simple; will happen later",
+    "ex": "This is a meeting with future partners from Saudi Arabia.",
+    "ar": "ده اجتماع مع شركاء مستقبليين من السعودية.",
+    "ex2": "They want to distribute our batteries.",
+    "ar2": "عايزين يوزّعوا بطارياتنا."
+   }
+  ],
+  "ant": [
+   {
+    "w": "existing",
+    "ex": "Existing clients get a ten percent discount on service.",
+    "ar": "العملا الحاليين بياخدوا خصم عشرة في المية على الصيانة.",
+    "ex2": "New clients pay the full price.",
+    "ar2": "العملا الجداد بيدفعوا السعر كامل."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Tomorrow we're presenting to a prospective client, a large bank. If they like our UPS offer, it could mean forty branches.",
+  "ctx_ar": "بكرة هنعمل عرض لعميل محتمل، بنك كبير. لو عرض الـ‎UPS‎ بتاعنا عجبهم، ممكن يبقى أربعين فرع.",
+  "quiz": [
+   {
+    "s": "We're meeting a ___ client from Port Said tomorrow.",
+    "opts": [
+     "prospective",
+     "prospect",
+     "prospecting"
+    ],
+    "a": 0,
+    "ar": "عندنا اجتماع مع عميل محتمل من بورسعيد بكرة."
+   },
+   {
+    "s": "This factory is a big ___ for our VFD sales.",
+    "opts": [
+     "prospective",
+     "prospect",
+     "prospecting"
+    ],
+    "a": 1,
+    "ar": "المصنع ده فرصة كبيرة لمبيعات الـ‎VFD‎ بتاعتنا."
+   },
+   {
+    "s": "___ clients get a discount on their next service visit.",
+    "opts": [
+     "Prospective",
+     "Potential",
+     "Existing"
+    ],
+    "a": 2,
+    "ar": "العملا الحاليين بياخدوا خصم على زيارة الصيانة الجاية."
+   }
+  ],
+  "book": "The following is a meeting between Amin Hamdy, the sales manager at Streamline Fulfillment, and Sami Hassan, the CEO of the prospective client company, along with other attendees."
+ },
+ {
+  "w": "partnership",
+  "ar": "شراكة",
+  "family": [
+   {
+    "w": "partnership",
+    "pos": "noun",
+    "ex": "Our partnership with the battery factory started in 2018.",
+    "ar": "شراكتنا مع مصنع البطاريات بدأت سنة 2018.",
+    "ex2": "We get priority on every shipment.",
+    "ar2": "بناخد أولوية في كل شحنة."
+   },
+   {
+    "w": "partner",
+    "pos": "noun",
+    "ex": "The Italian company is our technical partner for VFDs.",
+    "ar": "الشركة الإيطالية شريكنا الفني في الـ‎VFDs‎.",
+    "ex2": "They train our engineers every year.",
+    "ar2": "بيدرّبوا مهندسينا كل سنة."
+   },
+   {
+    "w": "partner",
+    "pos": "verb",
+    "ex": "We partnered with a solar installer in Aswan.",
+    "ar": "عملنا شراكة مع شركة تركيب طاقة شمسية في أسوان.",
+    "ex2": "They handle the site work for us.",
+    "ar2": "هم بيعملوا شغل الموقع لينا."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "cooperation",
+    "note": "general; working together, less official",
+    "ex": "Thanks to the client's cooperation, we finished early.",
+    "ar": "بفضل تعاون العميل، خلّصنا بدري.",
+    "ex2": "They gave us access every night.",
+    "ar2": "ادّونا دخول كل ليلة."
+   },
+   {
+    "w": "alliance",
+    "note": "formal; companies join for a shared goal",
+    "ex": "Three local suppliers formed an alliance for the tender.",
+    "ar": "تلات موردين محليين عملوا تحالف للمناقصة.",
+    "ex2": "Together they cover all equipment.",
+    "ar2": "مع بعض بيغطّوا كل المعدات."
+   },
+   {
+    "w": "joint venture",
+    "note": "a new shared business between two companies",
+    "ex": "We started a joint venture to assemble UPS units locally.",
+    "ar": "عملنا مشروع مشترك نجمّع فيه أجهزة ‎UPS‎ محليًا.",
+    "ex2": "Production starts next year.",
+    "ar2": "الإنتاج هيبدأ السنة الجاية."
+   }
+  ],
+  "ant": [
+   {
+    "w": "competition",
+    "ex": "There's strong competition for the hospital tender.",
+    "ar": "فيه منافسة قوية على مناقصة المستشفى.",
+    "ex2": "Five companies submitted offers.",
+    "ar2": "خمس شركات قدّموا عروض."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We're discussing a partnership with a German inverter maker. They'd supply the equipment, and we'd handle installation and service in Egypt.",
+  "ctx_ar": "بنتكلم في شراكة مع مصنع إنفرترات ألماني. هم يورّدوا المعدات، وإحنا نعمل التركيب والصيانة في مصر.",
+  "quiz": [
+   {
+    "s": "Our ___ with the supplier gives us better prices.",
+    "opts": [
+     "partnership",
+     "partner",
+     "partnered"
+    ],
+    "a": 0,
+    "ar": "شراكتنا مع المورد بتدّينا أسعار أحسن."
+   },
+   {
+    "s": "They're our main ___ for solar projects in Upper Egypt.",
+    "opts": [
+     "partnership",
+     "partner",
+     "partnered"
+    ],
+    "a": 1,
+    "ar": "هم شريكنا الأساسي في مشاريع الطاقة الشمسية في الصعيد."
+   },
+   {
+    "s": "There's tough ___ from three other UPS companies.",
+    "opts": [
+     "partnership",
+     "cooperation",
+     "competition"
+    ],
+    "a": 2,
+    "ar": "فيه منافسة صعبة من تلات شركات ‎UPS‎ تانية."
+   }
+  ],
+  "book": "The purpose of the meeting is to introduce Streamline Fulfillment's services and discuss potential partnership opportunities."
+ },
+ {
+  "w": "overview",
+  "ar": "نظرة عامة / ملخص سريع",
+  "family": [
+   {
+    "w": "overview",
+    "pos": "noun",
+    "ex": "Let me give you a quick overview of our service contracts.",
+    "ar": "خلّيني أدّيك نظرة سريعة على عقود الصيانة بتاعتنا.",
+    "ex2": "We have three levels: basic, standard and premium.",
+    "ar2": "عندنا تلات مستويات: أساسي وعادي وبريميوم."
+   },
+   {
+    "w": "overview",
+    "pos": "verb",
+    "ex": "The first slide overviews our UPS range.",
+    "ar": "أول سلايد بتعرض مجموعة الـ‎UPS‎ بتاعتنا بشكل عام.",
+    "ex2": "Details come later.",
+    "ar2": "التفاصيل بعدين."
+   },
+   {
+    "w": "overviews",
+    "pos": "noun",
+    "ex": "The client wants short overviews, not long reports.",
+    "ar": "العميل عايز ملخصات قصيرة مش تقارير طويلة.",
+    "ex2": "One page per site is enough.",
+    "ar2": "صفحة لكل موقع كفاية."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "summary",
+    "note": "short version after details are known",
+    "ex": "Here's a summary of last month's service visits.",
+    "ar": "ده ملخص زيارات الصيانة الشهر اللي فات.",
+    "ex2": "We did 48 visits in total.",
+    "ar2": "عملنا 48 زيارة في المجموع."
+   },
+   {
+    "w": "outline",
+    "note": "main points or structure, often before starting",
+    "ex": "This is the outline of my presentation.",
+    "ar": "ده تخطيط عرضي.",
+    "ex2": "There are four parts.",
+    "ar2": "فيه أربع أجزاء."
+   },
+   {
+    "w": "big picture",
+    "note": "informal; the general situation",
+    "ex": "Let's look at the big picture before the details.",
+    "ar": "يلا نبص على الصورة الكبيرة قبل التفاصيل.",
+    "ex2": "Sales are up, but collections are slow.",
+    "ar2": "المبيعات زادت، بس التحصيل بطيء."
+   }
+  ],
+  "ant": [
+   {
+    "w": "details",
+    "ex": "The engineer will explain the technical details.",
+    "ar": "المهندس هيشرح التفاصيل الفنية.",
+    "ex2": "He'll show the wiring diagram.",
+    "ar2": "هيعرض رسم التوصيلات."
+   }
+  ],
+  "ladder": null,
+  "ctx": "I'll start with a short overview of our company: we've installed over 900 UPS systems since 2010. Then I'll explain our maintenance plans.",
+  "ctx_ar": "هبدأ بنظرة عامة سريعة على شركتنا: ركّبنا أكتر من 900 نظام ‎UPS‎ من 2010. بعدين هشرح خطط الصيانة.",
+  "quiz": [
+   {
+    "s": "Let me give you a brief ___ of the project.",
+    "opts": [
+     "overview",
+     "overviews",
+     "details"
+    ],
+    "a": 0,
+    "ar": "خلّيني أدّيك نظرة سريعة على المشروع."
+   },
+   {
+    "s": "The manager wants short ___ of each site.",
+    "opts": [
+     "overview",
+     "overviews",
+     "outline"
+    ],
+    "a": 1,
+    "ar": "المدير عايز ملخصات قصيرة لكل موقع."
+   },
+   {
+    "s": "After the overview, Eng. Sameh will explain the technical ___.",
+    "opts": [
+     "overview",
+     "big picture",
+     "details"
+    ],
+    "a": 2,
+    "ar": "بعد النظرة العامة، الباشمهندس ‎Sameh‎ هيشرح التفاصيل الفنية."
+   }
+  ],
+  "book": "Firstly, I will give you an overview of our company and our mission."
+ },
+ {
+  "w": "competitor",
+  "ar": "منافس",
+  "family": [
+   {
+    "w": "competitor",
+    "pos": "noun",
+    "ex": "Our main competitor offers a longer warranty.",
+    "ar": "المنافس الأساسي بتاعنا بيدّي ضمان أطول.",
+    "ex2": "We need to match it or lower our price.",
+    "ar2": "لازم نعمل زيه أو نقلّل سعرنا."
+   },
+   {
+    "w": "competitive",
+    "pos": "adjective",
+    "ex": "Our battery prices are very competitive this year.",
+    "ar": "أسعار البطاريات عندنا تنافسية جدًا السنة دي.",
+    "ex2": "We buy directly from the factory now.",
+    "ar2": "بنشتري من المصنع على طول دلوقتي."
+   },
+   {
+    "w": "compete",
+    "pos": "verb",
+    "ex": "We compete with four companies for this tender.",
+    "ar": "بننافس أربع شركات على المناقصة دي.",
+    "ex2": "Price will decide the winner.",
+    "ar2": "السعر هو اللي هيحدد الكسبان."
+   },
+   {
+    "w": "competition",
+    "pos": "noun",
+    "ex": "Competition in the solar market is getting stronger.",
+    "ar": "المنافسة في سوق الطاقة الشمسية بتزيد.",
+    "ex2": "New importers enter every month.",
+    "ar2": "مستوردين جداد بيدخلوا كل شهر."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "rival",
+    "note": "stronger; direct competitor, often in news or reports",
+    "ex": "Our biggest rival just opened a branch in Mansoura.",
+    "ar": "أكبر منافس لينا لسه فاتح فرع في المنصورة.",
+    "ex2": "We must visit our clients there soon.",
+    "ar2": "لازم نزور عملانا هناك قريب."
+   },
+   {
+    "w": "other suppliers",
+    "note": "neutral and polite, good with clients",
+    "ex": "Other suppliers may be cheaper, but check their service.",
+    "ar": "موردين تانيين ممكن يبقوا أرخص، بس شوف صيانتهم.",
+    "ex2": "We answer calls within four hours.",
+    "ar2": "إحنا بنرد على المكالمات خلال أربع ساعات."
+   }
+  ],
+  "ant": [
+   {
+    "w": "partner",
+    "ex": "The installer is our partner, not a competitor.",
+    "ar": "شركة التركيب شريك لينا، مش منافس.",
+    "ex2": "We share projects with them.",
+    "ar2": "بنشاركهم في المشاريع."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our competitor quoted ten percent less for the same UPS. But their price doesn't include installation or the first year of maintenance.",
+  "ctx_ar": "المنافس بتاعنا ادّى سعر أقل بعشرة في المية لنفس الـ‎UPS‎. بس سعره مش شامل التركيب ولا صيانة أول سنة.",
+  "quiz": [
+   {
+    "s": "Our main ___ is offering free delivery.",
+    "opts": [
+     "competitor",
+     "competitive",
+     "compete"
+    ],
+    "a": 0,
+    "ar": "المنافس الأساسي بتاعنا بيدّي توصيل ببلاش."
+   },
+   {
+    "s": "We need a more ___ price to win this tender.",
+    "opts": [
+     "competitor",
+     "competitive",
+     "competition"
+    ],
+    "a": 1,
+    "ar": "محتاجين سعر أكتر تنافسية عشان نكسب المناقصة دي."
+   },
+   {
+    "s": "The installer isn't a rival; he's our ___.",
+    "opts": [
+     "competitor",
+     "rival",
+     "partner"
+    ],
+    "a": 2,
+    "ar": "شركة التركيب مش منافس؛ ده شريكنا."
+   }
+  ],
+  "book": "Finally, I will provide an overview of our pricing structure and how it compares to that of our competitors."
+ },
+ {
+  "w": "market share",
+  "ar": "حصة في السوق",
+  "family": [
+   {
+    "w": "market share",
+    "pos": "noun",
+    "ex": "Our market share in hospital UPS systems is about 20 percent.",
+    "ar": "حصتنا في سوق أجهزة ‎UPS‎ للمستشفيات حوالي 20 في المية.",
+    "ex2": "We want 30 percent in two years.",
+    "ar2": "عايزين 30 في المية في سنتين."
+   },
+   {
+    "w": "market",
+    "pos": "noun",
+    "ex": "The solar market in Upper Egypt is growing fast.",
+    "ar": "سوق الطاقة الشمسية في الصعيد بيكبر بسرعة.",
+    "ex2": "Farms need solar pumps.",
+    "ar2": "المزارع محتاجة طلمبات شمسية."
+   },
+   {
+    "w": "market",
+    "pos": "verb",
+    "ex": "We market our service contracts to factories and banks.",
+    "ar": "بنسوّق عقود الصيانة بتاعتنا للمصانع والبنوك.",
+    "ex2": "They can't afford downtime.",
+    "ar2": "مش مستحملين أي توقف."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "share of the market",
+    "note": "same meaning, longer form",
+    "ex": "We now hold a bigger share of the market.",
+    "ar": "بقينا ماسكين حصة أكبر من السوق.",
+    "ex2": "Our VFD sales doubled.",
+    "ar2": "مبيعات الـ‎VFD‎ عندنا اتضاعفت."
+   },
+   {
+    "w": "market position",
+    "note": "your rank compared to other companies",
+    "ex": "Our market position is strong in Alexandria.",
+    "ar": "مركزنا في السوق قوي في إسكندرية.",
+    "ex2": "We're the second biggest UPS supplier there.",
+    "ar2": "إحنا تاني أكبر مورد ‎UPS‎ هناك."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how big your place in the market",
+   "lar": "حجم مكانك في السوق",
+   "steps": [
+    {
+     "w": "small player",
+     "ex": "Five years ago we were a small player.",
+     "ar": "من خمس سنين كنا شركة صغيرة في السوق.",
+     "ex2": "We sold only small UPS units.",
+     "ar2": "كنا بنبيع أجهزة ‎UPS‎ صغيرة بس."
+    },
+    {
+     "w": "growing market share",
+     "ex": "We now have a growing market share in data centres.",
+     "ar": "دلوقتي حصتنا في سوق الداتا سنترات بتكبر.",
+     "ex2": "Three banks chose us this year.",
+     "ar2": "تلات بنوك اختارونا السنة دي."
+    },
+    {
+     "w": "market leader",
+     "ex": "Our goal is to be market leader in VFD service.",
+     "ar": "هدفنا نبقى رقم واحد في السوق في صيانة الـ‎VFD‎.",
+     "ex2": "No one has our spare parts stock.",
+     "ar2": "محدش عنده مخزون قطع الغيار اللي عندنا."
+    }
+   ]
+  },
+  "ctx": "Our market share in industrial VFDs grew from 8 to 15 percent this year. Most new clients came through our service contracts.",
+  "ctx_ar": "حصتنا في سوق الـ‎VFDs‎ الصناعية زادت من 8 لـ15 في المية السنة دي. أغلب العملا الجداد جم عن طريق عقود الصيانة.",
+  "quiz": [
+   {
+    "s": "Our ___ share in the UPS market is growing.",
+    "opts": [
+     "market",
+     "marketing",
+     "markets"
+    ],
+    "a": 0,
+    "ar": "حصتنا في سوق الـ‎UPS‎ بتزيد."
+   },
+   {
+    "s": "We ___ our solar kits to farms in Minya.",
+    "opts": [
+     "market share",
+     "market",
+     "market leader"
+    ],
+    "a": 1,
+    "ar": "بنسوّق أطقم الطاقة الشمسية للمزارع في المنيا."
+   },
+   {
+    "s": "We want to be the ___ in battery service by 2028.",
+    "opts": [
+     "small player",
+     "market share",
+     "market leader"
+    ],
+    "a": 2,
+    "ar": "عايزين نبقى رقم واحد في صيانة البطاريات قبل 2028."
+   }
+  ],
+  "book": "In fact, as you can see from this graph, our company's market share has steadily increased in the past few years, indicating that we are becoming a more prominent player in the fulfillment industry."
+ },
+ {
+  "w": "core business",
+  "ar": "النشاط الأساسي للشركة",
+  "family": [
+   {
+    "w": "core business",
+    "pos": "noun",
+    "ex": "Our core business is UPS sales and maintenance.",
+    "ar": "نشاطنا الأساسي بيع وصيانة الـ‎UPS‎.",
+    "ex2": "Solar is a newer line for us.",
+    "ar2": "الطاقة الشمسية خط أحدث عندنا."
+   },
+   {
+    "w": "core",
+    "pos": "adjective",
+    "ex": "Battery testing is a core skill for every technician.",
+    "ar": "اختبار البطاريات مهارة أساسية لكل فني.",
+    "ex2": "We train new staff on it first.",
+    "ar2": "بندرّب الموظفين الجداد عليها الأول."
+   },
+   {
+    "w": "core",
+    "pos": "noun",
+    "ex": "Service is at the core of our company.",
+    "ar": "الصيانة هي قلب شركتنا.",
+    "ex2": "Most profit comes from contracts.",
+    "ar2": "أغلب الربح جاي من العقود."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "main activity",
+    "note": "simple, neutral phrase",
+    "ex": "Our main activity is importing power equipment.",
+    "ar": "نشاطنا الرئيسي استيراد معدات كهربا.",
+    "ex2": "We also do installation.",
+    "ar2": "وكمان بنعمل تركيب."
+   },
+   {
+    "w": "focus",
+    "note": "what a company concentrates on now",
+    "ex": "This year our focus is data centre projects.",
+    "ar": "السنة دي تركيزنا على مشاريع الداتا سنتر.",
+    "ex2": "They bring big orders.",
+    "ar2": "بتجيب طلبات كبيرة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "side business",
+    "ex": "Cable trading is just a side business for us.",
+    "ar": "تجارة الكابلات مجرد نشاط جانبي لينا.",
+    "ex2": "It brings little profit.",
+    "ar2": "بتجيب ربح قليل."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Let us handle your UPS maintenance so you can focus on your core business. Your IT team won't have to worry about batteries again.",
+  "ctx_ar": "سيبلنا صيانة الـ‎UPS‎ عشان تركّز على نشاطك الأساسي. فريق الـ‎IT‎ عندك مش هيقلق من البطاريات تاني.",
+  "quiz": [
+   {
+    "s": "Power backup is our core ___.",
+    "opts": [
+     "business",
+     "core",
+     "side"
+    ],
+    "a": 0,
+    "ar": "الكهربا الاحتياطي هي نشاطنا الأساسي."
+   },
+   {
+    "s": "Safety is a ___ part of our service training.",
+    "opts": [
+     "core business",
+     "core",
+     "side business"
+    ],
+    "a": 1,
+    "ar": "السلامة جزء أساسي في تدريب الصيانة عندنا."
+   },
+   {
+    "s": "Selling cables is only a ___ for us.",
+    "opts": [
+     "core business",
+     "focus",
+     "side business"
+    ],
+    "a": 2,
+    "ar": "بيع الكابلات مجرد نشاط جانبي لينا."
+   }
+  ],
+  "book": "This allows our clients to focus on their core business activities while we take care of the logistics of fulfillment."
+ },
+ {
+  "w": "value-added",
+  "ar": "خدمة زيادة بتدّي قيمة إضافية",
+  "family": [
+   {
+    "w": "value-added",
+    "pos": "adjective",
+    "ex": "Remote monitoring is a value-added service in our UPS contracts.",
+    "ar": "المراقبة عن بعد خدمة إضافية في عقود الـ‎UPS‎ بتاعتنا.",
+    "ex2": "Clients get an alert before a battery fails.",
+    "ar2": "العملا بيوصلهم تنبيه قبل ما البطارية تقع."
+   },
+   {
+    "w": "added value",
+    "pos": "noun",
+    "ex": "Free training gives our offer added value.",
+    "ar": "التدريب المجاني بيدّي عرضنا قيمة زيادة.",
+    "ex2": "The client's staff learn basic checks.",
+    "ar2": "موظفين العميل بيتعلموا الكشف الأساسي."
+   },
+   {
+    "w": "add value",
+    "pos": "verb",
+    "ex": "We add value by testing every battery before delivery.",
+    "ar": "بنضيف قيمة إننا بنختبر كل بطارية قبل التسليم.",
+    "ex2": "No bad units reach the site.",
+    "ar2": "مفيش وحدات بايظة بتوصل الموقع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "extra",
+    "note": "simple; more than the basic offer",
+    "ex": "We include an extra year of warranty.",
+    "ar": "بنضيف سنة ضمان زيادة.",
+    "ex2": "It costs us little.",
+    "ar2": "مش بتكلّفنا كتير."
+   },
+   {
+    "w": "premium",
+    "note": "higher level, usually at a higher price",
+    "ex": "The premium plan includes 24-hour support.",
+    "ar": "الخطة البريميوم فيها دعم 24 ساعة.",
+    "ex2": "Banks usually choose it.",
+    "ar2": "البنوك غالبًا بتختارها."
+   }
+  ],
+  "ant": [
+   {
+    "w": "basic",
+    "ex": "The basic contract covers two visits a year.",
+    "ar": "العقد الأساسي بيغطي زيارتين في السنة.",
+    "ex2": "Spare parts are charged separately.",
+    "ar2": "قطع الغيار بتتحاسب لوحدها."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our price is a bit higher, but we include value-added services like remote monitoring and a yearly battery test report.",
+  "ctx_ar": "سعرنا أعلى شوية، بس بنقدّم خدمات قيمة مضافة زي المراقبة عن بعد وتقرير اختبار بطاريات سنوي.",
+  "quiz": [
+   {
+    "s": "Remote monitoring is a ___ service we offer.",
+    "opts": [
+     "value-added",
+     "add value",
+     "added value"
+    ],
+    "a": 0,
+    "ar": "المراقبة عن بعد خدمة قيمة مضافة بنقدّمها."
+   },
+   {
+    "s": "Free training gives the offer real ___.",
+    "opts": [
+     "value-added",
+     "added value",
+     "basic"
+    ],
+    "a": 1,
+    "ar": "التدريب المجاني بيدّي العرض قيمة حقيقية."
+   },
+   {
+    "s": "The ___ plan has only two visits a year.",
+    "opts": [
+     "premium",
+     "value-added",
+     "basic"
+    ],
+    "a": 2,
+    "ar": "الخطة الأساسية فيها زيارتين بس في السنة."
+   }
+  ],
+  "book": "We offer a wide range of services, including warehousing, pick and pack, kitting and assembly, shipping and distribution, and value-added services such as custom packaging and labeling."
+ },
+ {
+  "w": "quality control",
+  "ar": "مراقبة الجودة",
+  "family": [
+   {
+    "w": "quality control",
+    "pos": "noun",
+    "ex": "Every UPS goes through quality control before delivery.",
+    "ar": "كل ‎UPS‎ بيعدّي على مراقبة الجودة قبل التسليم.",
+    "ex2": "We run it at full load for two hours.",
+    "ar2": "بنشغّله على الحمل الكامل ساعتين."
+   },
+   {
+    "w": "quality",
+    "pos": "noun",
+    "ex": "The quality of the new batteries is much better.",
+    "ar": "جودة البطاريات الجديدة أحسن بكتير.",
+    "ex2": "Their life is ten years, not five.",
+    "ar2": "عمرها عشر سنين مش خمسة."
+   },
+   {
+    "w": "quality controller",
+    "pos": "person",
+    "ex": "Our quality controller rejected three control cards.",
+    "ar": "مسؤول الجودة رفض تلات كروت كنترول.",
+    "ex2": "They had loose connectors.",
+    "ar2": "كان فيها كونكتورات سايبة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "inspection",
+    "note": "a single check, often by an outside party",
+    "ex": "The client's inspection is on Tuesday.",
+    "ar": "معاينة العميل يوم التلات.",
+    "ex2": "They'll check every cable.",
+    "ar2": "هيشيّكوا على كل كابل."
+   },
+   {
+    "w": "testing",
+    "note": "running the equipment to see if it works",
+    "ex": "Battery testing takes a full day.",
+    "ar": "اختبار البطاريات بياخد يوم كامل.",
+    "ex2": "We discharge each string.",
+    "ar2": "بنفرّغ كل مجموعة."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "All imported inverters go through quality control in our Obour warehouse. Units that fail the load test go back to the factory.",
+  "ctx_ar": "كل الإنفرترات المستوردة بتعدّي على مراقبة الجودة في مخزن العبور. اللي بيفشل في اختبار الحمل بيرجع للمصنع.",
+  "quiz": [
+   {
+    "s": "Every unit passes ___ control before shipping.",
+    "opts": [
+     "quality",
+     "qualities",
+     "qualified"
+    ],
+    "a": 0,
+    "ar": "كل وحدة بتعدّي على مراقبة الجودة قبل الشحن."
+   },
+   {
+    "s": "Our ___ found a fault in two batteries.",
+    "opts": [
+     "quality control",
+     "quality controller",
+     "quality"
+    ],
+    "a": 1,
+    "ar": "مسؤول الجودة لقى عطل في بطاريتين."
+   },
+   {
+    "s": "Battery ___ takes a full day at full load.",
+    "opts": [
+     "quality controller",
+     "inspection",
+     "testing"
+    ],
+    "a": 2,
+    "ar": "اختبار البطاريات بياخد يوم كامل على الحمل الكامل."
+   }
+  ],
+  "book": "We also have quality control checks in place to ensure that every order is fulfilled accurately and to our clients' specifications."
+ },
+ {
+  "w": "specifications",
+  "ar": "المواصفات",
+  "family": [
+   {
+    "w": "specifications",
+    "pos": "noun",
+    "ex": "Please send the technical specifications of the VFD.",
+    "ar": "من فضلك ابعت المواصفات الفنية للـ‎VFD‎.",
+    "ex2": "The client needs them for approval.",
+    "ar2": "العميل محتاجها للموافقة."
+   },
+   {
+    "w": "specify",
+    "pos": "verb",
+    "ex": "The tender specifies a minimum battery life of ten years.",
+    "ar": "المناقصة بتحدد إن عمر البطارية لازم يبقى عشر سنين على الأقل.",
+    "ex2": "Our batteries meet that.",
+    "ar2": "بطارياتنا مطابقة لكده."
+   },
+   {
+    "w": "specific",
+    "pos": "adjective",
+    "ex": "The client has specific needs for the server room.",
+    "ar": "العميل عنده احتياجات محددة لأوضة السيرفرات.",
+    "ex2": "The UPS must fit in one rack.",
+    "ar2": "الـ‎UPS‎ لازم يدخل في راك واحد."
+   },
+   {
+    "w": "specs",
+    "pos": "noun",
+    "ex": "Can you check the specs before we order?",
+    "ar": "ممكن تشيّك على المواصفات قبل ما نطلب؟",
+    "ex2": "The voltage must be 380 volts.",
+    "ar2": "الجهد لازم يبقى 380 فولت."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "requirements",
+    "note": "what the client needs or asks for",
+    "ex": "The bank's requirements include remote monitoring.",
+    "ar": "متطلبات البنك فيها مراقبة عن بعد.",
+    "ex2": "Our UPS supports it.",
+    "ar2": "الـ‎UPS‎ بتاعنا بيدعمها."
+   },
+   {
+    "w": "datasheet",
+    "note": "the document listing a product's technical data",
+    "ex": "The datasheet shows 95 percent efficiency.",
+    "ar": "الداتاشيت بيقول كفاءة 95 في المية.",
+    "ex2": "That's better than the competitor's model.",
+    "ar2": "ده أحسن من موديل المنافس."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "The client's specifications ask for a 60 kVA UPS with 30 minutes' backup. Our standard model meets them, so we can quote today.",
+  "ctx_ar": "مواصفات العميل بتطلب ‎UPS‎ قدرة 60 ‎kVA‎ بنص ساعة احتياطي. الموديل العادي بتاعنا مطابق، فنقدر نبعت السعر النهارده.",
+  "quiz": [
+   {
+    "s": "Does the inverter meet the client's ___?",
+    "opts": [
+     "specifications",
+     "specify",
+     "specific"
+    ],
+    "a": 0,
+    "ar": "الإنفرتر مطابق لمواصفات العميل؟"
+   },
+   {
+    "s": "The contract ___ a response time of four hours.",
+    "opts": [
+     "specifications",
+     "specifies",
+     "specific"
+    ],
+    "a": 1,
+    "ar": "العقد بيحدد وقت استجابة أربع ساعات."
+   },
+   {
+    "s": "Check the ___ for the exact battery weight.",
+    "opts": [
+     "specify",
+     "requirements",
+     "datasheet"
+    ],
+    "a": 2,
+    "ar": "شوف الداتاشيت عشان الوزن المظبوط للبطارية."
+   }
+  ],
+  "book": "We also have quality control checks in place to ensure that every order is fulfilled accurately and to our clients' specifications."
+ },
+ {
+  "w": "instrumental in",
+  "ar": "ليه دور كبير في",
+  "family": [
+   {
+    "w": "instrumental in",
+    "pos": "adjective",
+    "ex": "Eng. Hossam was instrumental in winning the airport contract.",
+    "ar": "الباشمهندس ‎Hossam‎ كان ليه دور كبير في كسب عقد المطار.",
+    "ex2": "He knew their technical team well.",
+    "ar2": "كان عارف فريقهم الفني كويس."
+   },
+   {
+    "w": "instrumental",
+    "pos": "adjective",
+    "ex": "Good service has been instrumental to our growth.",
+    "ar": "الصيانة الكويسة كانت أساسية في نمونا.",
+    "ex2": "Most clients renew their contracts.",
+    "ar2": "أغلب العملا بيجدّدوا عقودهم."
+   },
+   {
+    "w": "instrument",
+    "pos": "noun",
+    "ex": "The meter is an important instrument for battery tests.",
+    "ar": "الجهاز ده أداة مهمة لاختبار البطاريات.",
+    "ex2": "Every technician carries one.",
+    "ar2": "كل فني شايل واحد."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "key to",
+    "note": "common; the main reason for success",
+    "ex": "Fast delivery was key to winning the order.",
+    "ar": "التسليم السريع كان السبب الأساسي في كسب الطلب.",
+    "ex2": "The client needed it in a week.",
+    "ar2": "العميل كان محتاجه في أسبوع."
+   },
+   {
+    "w": "played a big role in",
+    "note": "simple, spoken",
+    "ex": "Our engineers played a big role in the project.",
+    "ar": "مهندسينا لعبوا دور كبير في المشروع.",
+    "ex2": "They worked every weekend.",
+    "ar2": "اشتغلوا كل ويك إند."
+   },
+   {
+    "w": "helped",
+    "note": "plain and short",
+    "ex": "The new CRM helped us follow up faster.",
+    "ar": "الـ‎CRM‎ الجديد ساعدنا نتابع أسرع.",
+    "ex2": "No client is forgotten now.",
+    "ar2": "مفيش عميل بيتنسي دلوقتي."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Our service team was instrumental in keeping the hospital running during the blackout. The UPS and generator worked perfectly together.",
+  "ctx_ar": "فريق الصيانة بتاعنا كان ليه دور كبير في إن المستشفى تفضل شغالة وقت انقطاع الكهربا. الـ‎UPS‎ والمولّد اشتغلوا مع بعض تمام.",
+  "quiz": [
+   {
+    "s": "Mona was ___ in closing the bank deal.",
+    "opts": [
+     "instrumental",
+     "instrument",
+     "instruments"
+    ],
+    "a": 0,
+    "ar": "‎Mona‎ كان ليها دور كبير في قفل صفقة البنك."
+   },
+   {
+    "s": "This meter is our main ___ for testing cells.",
+    "opts": [
+     "instrumental",
+     "instrument",
+     "key"
+    ],
+    "a": 1,
+    "ar": "الجهاز ده الأداة الأساسية لاختبار الخلايا."
+   },
+   {
+    "s": "The new CRM ___ us follow up faster.",
+    "opts": [
+     "instrumental",
+     "key to",
+     "helped"
+    ],
+    "a": 2,
+    "ar": "الـ‎CRM‎ الجديد ساعدنا نتابع أسرع."
+   }
+  ],
+  "book": "Streamline Fulfillment has been instrumental in helping us scale our business."
+ },
+ {
+  "w": "scale",
+  "ar": "تكبّر / توسّع حجم الشغل",
+  "family": [
+   {
+    "w": "scale",
+    "pos": "verb",
+    "ex": "Modular UPS systems let data centres scale easily.",
+    "ar": "أنظمة الـ‎UPS‎ المودولار بتخلّي الداتا سنترات تكبر بسهولة.",
+    "ex2": "You just add a new power module.",
+    "ar2": "بتضيف موديول باور جديد بس."
+   },
+   {
+    "w": "scale",
+    "pos": "noun",
+    "ex": "We now work on a much bigger scale.",
+    "ar": "دلوقتي بنشتغل على نطاق أكبر بكتير.",
+    "ex2": "Last year we had two engineers; now we have ten.",
+    "ar2": "السنة اللي فاتت كان عندنا مهندسين؛ دلوقتي عشرة."
+   },
+   {
+    "w": "scalable",
+    "pos": "adjective",
+    "ex": "The client wants a scalable solar solution.",
+    "ar": "العميل عايز حل طاقة شمسية يكبر معاه.",
+    "ex2": "They plan to add panels every year.",
+    "ar2": "ناويين يضيفوا ألواح كل سنة."
+   },
+   {
+    "w": "scale up",
+    "pos": "verb",
+    "ex": "We need to scale up our service team before summer.",
+    "ar": "محتاجين نكبّر فريق الصيانة قبل الصيف.",
+    "ex2": "AC and UPS faults increase in the heat.",
+    "ar2": "أعطال التكييف والـ‎UPS‎ بتزيد في الحر."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "grow in size",
+    "mar": "تكبر في الحجم",
+    "ex": "Our battery business scaled quickly after the new contract.",
+    "ar": "شغل البطاريات عندنا كبر بسرعة بعد العقد الجديد.",
+    "ex2": "Orders tripled in six months.",
+    "ar2": "الطلبات اتضاعفت تلات مرات في ست شهور."
+   },
+   {
+    "m": "size or level of something",
+    "mar": "حجم أو مستوى",
+    "ex": "The scale of the project surprised us.",
+    "ar": "حجم المشروع فاجئنا.",
+    "ex2": "It covers fifty bank branches.",
+    "ar2": "بيغطي خمسين فرع بنك."
+   }
+  ],
+  "syn": [
+   {
+    "w": "expand",
+    "note": "general; get bigger in size or area",
+    "ex": "We plan to expand into Upper Egypt.",
+    "ar": "ناويين نتوسّع في الصعيد.",
+    "ex2": "We'll open a service centre in Assiut.",
+    "ar2": "هنفتح مركز صيانة في أسيوط."
+   },
+   {
+    "w": "grow",
+    "note": "simple; increase over time",
+    "ex": "Our maintenance revenue continues to grow every year.",
+    "ar": "إيراد الصيانة عندنا بيزيد كل سنة.",
+    "ex2": "It grew 30 percent last year, mostly from banks.",
+    "ar2": "زاد 30 في المية السنة اللي فاتت، أغلبه من البنوك."
+   }
+  ],
+  "ant": [
+   {
+    "w": "scale down",
+    "ex": "The client scaled down the project after the budget cut.",
+    "ar": "العميل صغّر المشروع بعد تقليل الميزانية.",
+    "ex2": "Now they need only one UPS.",
+    "ar2": "دلوقتي محتاجين ‎UPS‎ واحد بس."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our modular UPS lets you scale as your data centre grows. Start with 40 kVA today and add modules when you add servers.",
+  "ctx_ar": "الـ‎UPS‎ المودولار بتاعنا بيخلّيك تكبر مع نمو الداتا سنتر. ابدأ بـ40 ‎kVA‎ النهارده وضيف موديولات لما تزوّد سيرفرات.",
+  "quiz": [
+   {
+    "s": "This system lets the client ___ without changing the cabinet.",
+    "opts": [
+     "scale",
+     "scalable",
+     "scale down"
+    ],
+    "a": 0,
+    "ar": "السيستم ده بيخلّي العميل يكبر من غير ما يغيّر الكابينة."
+   },
+   {
+    "s": "They asked for a ___ design for future servers.",
+    "opts": [
+     "scale",
+     "scalable",
+     "scaled"
+    ],
+    "a": 1,
+    "ar": "طلبوا تصميم يكبر مع السيرفرات الجاية."
+   },
+   {
+    "s": "After the budget cut, they ___ the project to one site.",
+    "opts": [
+     "scaled up",
+     "expanded",
+     "scaled down"
+    ],
+    "a": 2,
+    "ar": "بعد تقليل الميزانية، صغّروا المشروع لموقع واحد."
+   }
+  ],
+  "book": "To summarize, our customized solutions allow our clients to scale their businesses without worrying about the logistics of fulfillment."
+ },
+ {
+  "w": "hidden fees",
+  "ar": "رسوم مخفية",
+  "family": [
+   {
+    "w": "hidden fees",
+    "pos": "noun",
+    "ex": "Our quotation has no hidden fees.",
+    "ar": "عرض السعر بتاعنا مفيهوش رسوم مخفية.",
+    "ex2": "Delivery and installation are included.",
+    "ar2": "التوصيل والتركيب داخلين."
+   },
+   {
+    "w": "fee",
+    "pos": "noun",
+    "ex": "There's a small fee for emergency visits at night.",
+    "ar": "فيه رسوم بسيطة لزيارات الطوارئ بالليل.",
+    "ex2": "It's written in the contract.",
+    "ar2": "مكتوبة في العقد."
+   },
+   {
+    "w": "hidden",
+    "pos": "adjective",
+    "ex": "The client found a hidden cost in the competitor's offer.",
+    "ar": "العميل لقى تكلفة مخفية في عرض المنافس.",
+    "ex2": "Spare parts were not included.",
+    "ar2": "قطع الغيار مكانتش داخلة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "extra charges",
+    "note": "neutral; costs added on top",
+    "ex": "Are there any extra charges for transport?",
+    "ar": "فيه أي مصاريف زيادة للنقل؟",
+    "ex2": "No, it's free inside Cairo.",
+    "ar2": "لا، ببلاش جوه القاهرة."
+   },
+   {
+    "w": "small print",
+    "note": "conditions hidden in the details of a contract",
+    "ex": "Always read the small print in supplier contracts.",
+    "ar": "دايمًا اقرا التفاصيل الصغيرة في عقود الموردين.",
+    "ex2": "Penalties are often there.",
+    "ar2": "الغرامات غالبًا بتبقى هناك."
+   }
+  ],
+  "ant": [
+   {
+    "w": "all-inclusive",
+    "ex": "Our all-inclusive price covers parts and labour.",
+    "ar": "سعرنا الشامل بيغطي القطع والمصنعية.",
+    "ex2": "The client pays nothing more.",
+    "ar2": "العميل مش بيدفع حاجة زيادة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our offer has no hidden fees. The price includes delivery, installation, testing and the first maintenance visit.",
+  "ctx_ar": "عرضنا مفيهوش رسوم مخفية. السعر شامل التوصيل والتركيب والاختبار وأول زيارة صيانة.",
+  "quiz": [
+   {
+    "s": "There are no ___ fees in our contract.",
+    "opts": [
+     "hidden",
+     "fee",
+     "all-inclusive"
+    ],
+    "a": 0,
+    "ar": "مفيش رسوم مخفية في العقد بتاعنا."
+   },
+   {
+    "s": "We charge a small ___ for weekend visits.",
+    "opts": [
+     "hidden",
+     "fee",
+     "print"
+    ],
+    "a": 1,
+    "ar": "بناخد رسوم بسيطة لزيارات الويك إند."
+   },
+   {
+    "s": "Our ___ price covers parts, labour and delivery.",
+    "opts": [
+     "hidden fees",
+     "small print",
+     "all-inclusive"
+    ],
+    "a": 2,
+    "ar": "سعرنا الشامل بيغطي القطع والمصنعية والتوصيل."
+   }
+  ],
+  "book": "There are no hidden fees or charges; everything is clearly laid out in our pricing plans."
+ },
+ {
+  "w": "high-volume",
+  "ar": "كميات كبيرة",
+  "family": [
+   {
+    "w": "high-volume",
+    "pos": "adjective",
+    "ex": "We give special prices for high-volume battery orders.",
+    "ar": "بندّي أسعار خاصة لطلبات البطاريات الكبيرة.",
+    "ex2": "Over 200 units gets five percent off.",
+    "ar2": "أكتر من 200 وحدة بياخد خصم خمسة في المية."
+   },
+   {
+    "w": "volume",
+    "pos": "noun",
+    "ex": "The order volume doubled this quarter.",
+    "ar": "حجم الطلبات اتضاعف الربع ده.",
+    "ex2": "We need more stock in the warehouse.",
+    "ar2": "محتاجين مخزون أكتر في المخزن."
+   },
+   {
+    "w": "low-volume",
+    "pos": "adjective",
+    "ex": "Low-volume orders ship from our Cairo store.",
+    "ar": "الطلبات الصغيرة بتتشحن من مخزن القاهرة.",
+    "ex2": "They arrive the next day.",
+    "ar2": "بتوصل تاني يوم."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "bulk",
+    "note": "common for buying large amounts at once",
+    "ex": "Bulk orders get a better price from the factory.",
+    "ar": "الطلبات بالجملة بتاخد سعر أحسن من المصنع.",
+    "ex2": "We order batteries in containers.",
+    "ar2": "بنطلب البطاريات بالكونتينر."
+   },
+   {
+    "w": "large-scale",
+    "note": "for big projects, not just orders",
+    "ex": "This is a large-scale solar project in Aswan.",
+    "ar": "ده مشروع طاقة شمسية كبير في أسوان.",
+    "ex2": "It needs 300 inverters.",
+    "ar2": "محتاج 300 إنفرتر."
+   }
+  ],
+  "ant": [
+   {
+    "w": "small",
+    "ex": "Small orders don't get a discount.",
+    "ar": "الطلبات الصغيرة مش بتاخد خصم.",
+    "ex2": "But delivery is still free.",
+    "ar2": "بس التوصيل لسه ببلاش."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The telecom company places high-volume orders every quarter. We gave them a special price for 500 batteries and fixed delivery dates.",
+  "ctx_ar": "شركة الاتصالات بتطلب كميات كبيرة كل ربع سنة. ادّيناهم سعر خاص لـ500 بطارية ومواعيد تسليم ثابتة.",
+  "quiz": [
+   {
+    "s": "We offer discounts on ___ orders.",
+    "opts": [
+     "high-volume",
+     "volume",
+     "low-volume"
+    ],
+    "a": 0,
+    "ar": "بندّي خصومات على الطلبات الكبيرة."
+   },
+   {
+    "s": "The ___ of orders grew by 40 percent.",
+    "opts": [
+     "high-volume",
+     "volume",
+     "bulk"
+    ],
+    "a": 1,
+    "ar": "حجم الطلبات زاد 40 في المية."
+   },
+   {
+    "s": "___ orders over 100 units get free shipping.",
+    "opts": [
+     "Small",
+     "Low-volume",
+     "Bulk"
+    ],
+    "a": 2,
+    "ar": "الطلبات بالجملة اللي فوق 100 وحدة بتاخد شحن ببلاش."
+   }
+  ],
+  "book": "In addition, we provide customized pricing for clients with unique requirements or high-volume orders."
  }
 ]

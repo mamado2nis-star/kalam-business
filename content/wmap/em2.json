@@ -741,5 +741,1687 @@
     "ar": "بعتلك عرض السعر المعدّل."
    }
   ]
+ },
+ {
+  "w": "for your review",
+  "ar": "عشان تراجعه",
+  "book": "Please find attached ___ for your review and consideration.",
+  "family": [
+   {
+    "w": "for your review",
+    "pos": "adverb",
+    "ex": "Please find attached the maintenance contract for your review.",
+    "ar": "مرفق عقد الصيانة عشان تراجعه.",
+    "ex2": "Send us your comments by Thursday.",
+    "ar2": "ابعتلنا ملاحظاتك قبل الخميس."
+   },
+   {
+    "w": "review",
+    "pos": "verb",
+    "ex": "The client's lawyer will review the contract this week.",
+    "ar": "محامي العميل هيراجع العقد الأسبوع ده.",
+    "ex2": "After he reviews it, we can sign.",
+    "ar2": "بعد ما يراجعه نقدر نمضي."
+   },
+   {
+    "w": "review",
+    "pos": "noun",
+    "ex": "The quotation is under review by their technical team.",
+    "ar": "عرض السعر تحت المراجعة عند الفريق الفني بتاعهم.",
+    "ex2": "The review usually takes one week.",
+    "ar2": "المراجعة عادة بتاخد أسبوع."
+   },
+   {
+    "w": "reviewer",
+    "pos": "person",
+    "ex": "The tender reviewer asked for our ISO certificate.",
+    "ar": "مراجع المناقصة طلب شهادة الـ ‎ISO‎ بتاعتنا.",
+    "ex2": "We sent the reviewer the certificate within an hour.",
+    "ar2": "بعتنا الشهادة للمراجع خلال ساعة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "for your approval",
+    "note": "stronger: you need them to say yes",
+    "ex": "Please find attached the PO for your approval.",
+    "ar": "مرفق أمر الشراء عشان توافق عليه.",
+    "ex2": "We can't order until it's approved.",
+    "ar2": "مانقدرش نطلب لحد ما يتوافق عليه."
+   },
+   {
+    "w": "for your information",
+    "note": "FYI: no action needed, just to know",
+    "ex": "For your information, the supplier closes on Friday.",
+    "ar": "للعلم، المورد بيقفل يوم الجمعة.",
+    "ex2": "No action is needed for now.",
+    "ar2": "مفيش حاجة مطلوبة دلوقتي."
+   },
+   {
+    "w": "for your consideration",
+    "note": "polite; they may decide later",
+    "ex": "Please find our solar proposal attached for your consideration.",
+    "ar": "مرفق عرض الطاقة الشمسية بتاعنا عشان تدرسه.",
+    "ex2": "Take your time to compare it.",
+    "ar2": "خد وقتك وقارنه."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how much action you need from the reader",
+   "lar": "عايز من القارئ يعمل قد إيه",
+   "steps": [
+    {
+     "w": "for your information",
+     "ex": "For your information, prices rise next month.",
+     "ar": "للعلم، الأسعار هتزيد الشهر الجاي.",
+     "ex2": "No reply needed.",
+     "ar2": "مش محتاج رد."
+    },
+    {
+     "w": "for your review",
+     "ex": "The draft contract is attached for your review.",
+     "ar": "مسودة العقد مرفقة عشان تراجعها.",
+     "ex2": "Please send comments.",
+     "ar2": "ابعت ملاحظاتك."
+    },
+    {
+     "w": "for your approval",
+     "ex": "The final PO is attached for your approval.",
+     "ar": "أمر الشراء النهائي مرفق عشان توافق عليه.",
+     "ex2": "Please sign it today.",
+     "ar2": "لو سمحت امضيه النهارده."
+    }
+   ]
+  },
+  "ctx": "Please find attached the revised UPS quotation for your review. I've added the battery replacement as a separate option.",
+  "ctx_ar": "مرفق عرض سعر الـ ‎UPS‎ المعدّل عشان تراجعه. ضفت تغيير البطاريات كاختيار منفصل.",
+  "quiz": [
+   {
+    "s": "The quotation is under ___ by their technical team.",
+    "opts": [
+     "review",
+     "reviewer",
+     "reviewed"
+    ],
+    "a": 0,
+    "ar": "عرض السعر تحت المراجعة عند الفريق الفني بتاعهم."
+   },
+   {
+    "s": "The PO is attached ___; please sign it today.",
+    "opts": [
+     "for your information",
+     "for your approval",
+     "for your review"
+    ],
+    "a": 1,
+    "ar": "أمر الشراء مرفق عشان توافق عليه؛ امضيه النهارده."
+   },
+   {
+    "s": "___, the supplier closes on Friday. No action needed.",
+    "opts": [
+     "For your approval",
+     "For your review",
+     "For your information"
+    ],
+    "a": 2,
+    "ar": "للعلم، المورد بيقفل يوم الجمعة. مش مطلوب حاجة."
+   }
+  ]
+ },
+ {
+  "w": "make progress",
+  "ar": "يحقق تقدّم",
+  "book": "We have made significant progress on the project since our last update.",
+  "family": [
+   {
+    "w": "make progress",
+    "pos": "verb",
+    "ex": "We're starting to make good progress on the data centre cabling.",
+    "ar": "بدأنا نحقق تقدم كويس في تمديدات الداتا سنتر.",
+    "ex2": "At this rate, we'll make enough progress to finish early.",
+    "ar2": "بالمعدل ده هنتقدم كفاية إننا نخلص بدري."
+   },
+   {
+    "w": "progress",
+    "pos": "noun",
+    "ex": "Please send a progress report every Thursday.",
+    "ar": "لو سمحت ابعت تقرير تقدم كل خميس.",
+    "ex2": "The progress report should include site photos.",
+    "ar2": "تقرير التقدم لازم يكون فيه صور الموقع."
+   },
+   {
+    "w": "progress",
+    "pos": "verb",
+    "ex": "The solar project is progressing well despite the heat.",
+    "ar": "مشروع الطاقة الشمسية ماشي كويس رغم الحر.",
+    "ex2": "If it keeps progressing like this, we finish in May.",
+    "ar2": "لو فضل ماشي كده هنخلص في مايو."
+   },
+   {
+    "w": "progressive",
+    "pos": "adjective",
+    "ex": "We offer progressive discounts for bigger battery orders.",
+    "ar": "بنقدّم خصومات بتزيد مع كبر طلبية البطاريات.",
+    "ex2": "The progressive discount starts at fifty units.",
+    "ar2": "الخصم المتدرج بيبدأ من خمسين وحدة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "move ahead",
+    "note": "informal; continue to the next stage",
+    "ex": "We can move ahead with installation next week.",
+    "ar": "نقدر نمشي في التركيب الأسبوع الجاي.",
+    "ex2": "Moving ahead depends on the advance payment.",
+    "ar2": "المشي لقدام معتمد على الدفعة المقدمة."
+   },
+   {
+    "w": "advance",
+    "note": "formal; the project goes to a later stage",
+    "ex": "The tender has advanced to the technical evaluation stage.",
+    "ar": "المناقصة وصلت لمرحلة التقييم الفني.",
+    "ex2": "Only three companies advanced to this stage.",
+    "ar2": "تلات شركات بس وصلوا للمرحلة دي."
+   }
+  ],
+  "ant": [
+   {
+    "w": "stall",
+    "ex": "The project may stall if the client delays payment.",
+    "ar": "المشروع ممكن يقف لو العميل أخّر الدفع.",
+    "ex2": "A stalled project costs us money every week.",
+    "ar2": "المشروع الواقف بيكلفنا فلوس كل أسبوع."
+   }
+  ],
+  "ladder": {
+   "label": "how much progress",
+   "lar": "قد إيه اتقدمنا",
+   "steps": [
+    {
+     "w": "make some progress",
+     "ex": "We make some progress each day on the site permits.",
+     "ar": "بنتقدم شوية كل يوم في التصاريح.",
+     "ex2": "But it's slow.",
+     "ar2": "بس بطيء."
+    },
+    {
+     "w": "make good progress",
+     "ex": "We're starting to make good progress on the installation.",
+     "ar": "بنتقدم كويس في التركيب.",
+     "ex2": "Half the panels are up.",
+     "ar2": "نص الألواح اتركبت."
+    },
+    {
+     "w": "make significant progress",
+     "ex": "Our goal is to make significant progress on the whole project this month.",
+     "ar": "هدفنا نحقق تقدم كبير في المشروع كله الشهر ده.",
+     "ex2": "We're already 80% complete.",
+     "ar2": "خلصنا ٨٠٪ خلاص."
+    }
+   ]
+  },
+  "ctx": "Since our last update, we've continued to make progress on the hospital project. The UPS room is ready, and the batteries arrive Sunday.",
+  "ctx_ar": "من آخر تحديث، كمّلنا نحقق تقدم في مشروع المستشفى. أوضة الـ ‎UPS‎ جاهزة، والبطاريات هتوصل الحد.",
+  "quiz": [
+   {
+    "s": "Please send a ___ report every Thursday.",
+    "opts": [
+     "progress",
+     "progressive",
+     "progressing"
+    ],
+    "a": 0,
+    "ar": "لو سمحت ابعت تقرير تقدم كل خميس."
+   },
+   {
+    "s": "We offer ___ discounts for bigger orders.",
+    "opts": [
+     "progress",
+     "progressive",
+     "progressed"
+    ],
+    "a": 1,
+    "ar": "بنقدّم خصومات بتزيد مع الطلبيات الأكبر."
+   },
+   {
+    "s": "The project may ___ if the client delays payment.",
+    "opts": [
+     "advance",
+     "make progress",
+     "stall"
+    ],
+    "a": 2,
+    "ar": "المشروع ممكن يقف لو العميل أخّر الدفع."
+   }
+  ]
+ },
+ {
+  "w": "agenda",
+  "ar": "جدول أعمال الاجتماع",
+  "book": "We have made some changes to the agenda for the event/meeting; please see the attached updated version.",
+  "family": [
+   {
+    "w": "agenda",
+    "pos": "noun",
+    "ex": "Please send the agenda for Monday's meeting with the bank.",
+    "ar": "لو سمحت ابعت جدول أعمال اجتماع الاتنين مع البنك.",
+    "ex2": "The agenda has three items: UPS, batteries and payment.",
+    "ar2": "جدول الأعمال فيه تلات بنود: الـ ‎UPS‎ والبطاريات والدفع."
+   },
+   {
+    "w": "agenda item",
+    "pos": "noun",
+    "ex": "The first agenda item is the overdue invoices.",
+    "ar": "أول بند في جدول الأعمال الفواتير المتأخرة.",
+    "ex2": "Each agenda item has fifteen minutes.",
+    "ar2": "كل بند ليه ربع ساعة."
+   },
+   {
+    "w": "hidden agenda",
+    "pos": "noun",
+    "ex": "Be careful; the supplier may have a hidden agenda with that free offer.",
+    "ar": "خلي بالك؛ المورد ممكن يكون عنده هدف خفي من العرض المجاني ده.",
+    "ex2": "His hidden agenda was to lock us into his batteries.",
+    "ar2": "هدفه الخفي كان يربطنا ببطارياته."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "schedule",
+    "note": "a timeline of events or times",
+    "ex": "The schedule shows the visit from 10 to 12.",
+    "ar": "الجدول بيوضح الزيارة من ١٠ لـ ١٢.",
+    "ex2": "Please share the schedule with the site security.",
+    "ar2": "لو سمحت ابعت الجدول لأمن الموقع."
+   },
+   {
+    "w": "program",
+    "note": "for events, conferences and training days",
+    "ex": "The training program starts with UPS basics.",
+    "ar": "برنامج التدريب بيبدأ بأساسيات الـ ‎UPS‎.",
+    "ex2": "The program ends with a practical test.",
+    "ar2": "البرنامج بيخلص باختبار عملي."
+   },
+   {
+    "w": "points to discuss",
+    "note": "informal list for a short meeting",
+    "ex": "Here are my points to discuss for the call with the supplier.",
+    "ar": "دي النقط اللي عايز أناقشها في المكالمة مع المورد.",
+    "ex2": "The main points to discuss are price and ETA.",
+    "ar2": "أهم نقط للنقاش السعر وميعاد الوصول."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "I've added the battery warranty to the agenda for tomorrow's meeting. Please see the attached updated version.",
+  "ctx_ar": "ضفت ضمان البطاريات لجدول أعمال اجتماع بكرة. لو سمحت شوف النسخة المحدّثة المرفقة.",
+  "quiz": [
+   {
+    "s": "The first ___ is the overdue invoices.",
+    "opts": [
+     "agenda item",
+     "hidden agenda",
+     "program"
+    ],
+    "a": 0,
+    "ar": "أول بند في جدول الأعمال الفواتير المتأخرة."
+   },
+   {
+    "s": "The supplier may have a ___ with that free offer.",
+    "opts": [
+     "schedule",
+     "hidden agenda",
+     "agenda item"
+    ],
+    "a": 1,
+    "ar": "المورد ممكن يكون عنده هدف خفي من العرض المجاني ده."
+   },
+   {
+    "s": "The training ___ starts with UPS basics.",
+    "opts": [
+     "agenda item",
+     "hidden agenda",
+     "program"
+    ],
+    "a": 2,
+    "ar": "برنامج التدريب بيبدأ بأساسيات الـ ‎UPS‎."
+   }
+  ]
+ },
+ {
+  "w": "at your earliest convenience",
+  "ar": "في أقرب وقت يناسبك",
+  "book": "Could we schedule a call to discuss ___ at your earliest convenience?",
+  "family": [
+   {
+    "w": "at your earliest convenience",
+    "pos": "adverb",
+    "ex": "Please sign the PO at your earliest convenience.",
+    "ar": "لو سمحت امضي أمر الشراء في أقرب وقت يناسبك.",
+    "ex2": "The supplier is holding the price until Thursday.",
+    "ar2": "المورد ماسك السعر لحد الخميس."
+   },
+   {
+    "w": "convenience",
+    "pos": "noun",
+    "ex": "For your convenience, we added a QR code for online payment.",
+    "ar": "لراحتك، ضفنا كود ‎QR‎ للدفع أونلاين.",
+    "ex2": "Many clients pay faster for convenience.",
+    "ar2": "عملاء كتير بيدفعوا أسرع عشان الراحة."
+   },
+   {
+    "w": "convenient",
+    "pos": "adjective",
+    "ex": "Is Tuesday morning convenient for the site visit?",
+    "ar": "يوم التلات الصبح مناسب لزيارة الموقع؟",
+    "ex2": "If it's not convenient, we can come Wednesday.",
+    "ar2": "لو مش مناسب ممكن نيجي الأربع."
+   },
+   {
+    "w": "inconvenient",
+    "pos": "adjective",
+    "ex": "Sorry, Friday is inconvenient for the factory shutdown.",
+    "ar": "آسف، الجمعة مش مناسبة لوقف المصنع.",
+    "ex2": "An inconvenient date can cost them production.",
+    "ar2": "الميعاد اللي مش مناسب ممكن يكلفهم إنتاج."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "as soon as possible",
+    "note": "stronger and more urgent (ASAP)",
+    "ex": "Please send the spare card as soon as possible; the VFD is down.",
+    "ar": "لو سمحت ابعت الكارتة الاحتياطي في أسرع وقت؛ الـ ‎VFD‎ واقف.",
+    "ex2": "As soon as possible means today.",
+    "ar2": "في أسرع وقت يعني النهارده."
+   },
+   {
+    "w": "when you have a moment",
+    "note": "friendly; not urgent",
+    "ex": "When you have a moment, please check the attached invoice.",
+    "ar": "لما يبقى عندك دقيقة، لو سمحت شوف الفاتورة المرفقة.",
+    "ex2": "There's no rush; when you have a moment is fine.",
+    "ar2": "مفيش استعجال؛ لما تفضى."
+   },
+   {
+    "w": "at your convenience",
+    "note": "politer and less urgent than 'earliest'",
+    "ex": "Call me at your convenience to discuss the contract.",
+    "ar": "كلمني في الوقت اللي يناسبك عشان نتكلم في العقد.",
+    "ex2": "At your convenience, any day this week.",
+    "ar2": "في الوقت اللي يناسبك، أي يوم الأسبوع ده."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how urgent the request is",
+   "lar": "الطلب مستعجل قد إيه",
+   "steps": [
+    {
+     "w": "when you have a moment",
+     "ex": "Please review it when you have a moment.",
+     "ar": "لو سمحت راجعه لما تفضى.",
+     "ex2": "No rush.",
+     "ar2": "مش مستعجل."
+    },
+    {
+     "w": "at your earliest convenience",
+     "ex": "Please review it at your earliest convenience.",
+     "ar": "لو سمحت راجعه في أقرب وقت يناسبك.",
+     "ex2": "Soon, but politely.",
+     "ar2": "قريب بس بأدب."
+    },
+    {
+     "w": "as soon as possible",
+     "ex": "Please review it as soon as possible.",
+     "ar": "لو سمحت راجعه في أسرع وقت.",
+     "ex2": "The UPS is down.",
+     "ar2": "الـ ‎UPS‎ واقف."
+    }
+   ]
+  },
+  "ctx": "Our technical offer for the chiller VFDs is ready. Could we schedule a short call at your earliest convenience to go through it?",
+  "ctx_ar": "العرض الفني لـ ‎VFDs‎ الشيلر جاهز. ممكن نحدد مكالمة قصيرة في أقرب وقت يناسبك عشان نراجعه؟",
+  "quiz": [
+   {
+    "s": "Is Tuesday morning ___ for the visit?",
+    "opts": [
+     "convenient",
+     "convenience",
+     "inconvenient"
+    ],
+    "a": 0,
+    "ar": "يوم التلات الصبح مناسب للزيارة؟"
+   },
+   {
+    "s": "For your ___, we added a QR code.",
+    "opts": [
+     "convenient",
+     "convenience",
+     "inconvenient"
+    ],
+    "a": 1,
+    "ar": "لراحتك، ضفنا كود ‎QR‎."
+   },
+   {
+    "s": "The VFD is down. Send the card ___.",
+    "opts": [
+     "when you have a moment",
+     "at your convenience",
+     "as soon as possible"
+    ],
+    "a": 2,
+    "ar": "الـ ‎VFD‎ واقف. ابعت الكارتة في أسرع وقت."
+   }
+  ]
+ },
+ {
+  "w": "input",
+  "ar": "رأي / مدخلات",
+  "book": "I was hoping to get your input on ___ related to the project/task.",
+  "family": [
+   {
+    "w": "input",
+    "pos": "noun",
+    "ex": "I'd value your input on the battery sizing for the bank.",
+    "ar": "يهمني رأيك في حساب حجم البطاريات للبنك.",
+    "ex2": "Your input will help us choose between two designs.",
+    "ar2": "رأيك هيساعدنا نختار بين تصميمين."
+   },
+   {
+    "w": "input",
+    "pos": "verb",
+    "ex": "Please input the serial numbers into the system.",
+    "ar": "لو سمحت دخّل الأرقام التسلسلية على السيستم.",
+    "ex2": "Input them before you close the job card.",
+    "ar2": "دخّلهم قبل ما تقفل كارت الشغل."
+   },
+   {
+    "w": "output",
+    "pos": "noun",
+    "ex": "The inverter's output is 10 kW at full sun.",
+    "ar": "خرج الإنفرتر ١٠ كيلووات في الشمس الكاملة.",
+    "ex2": "The output drops in the late afternoon.",
+    "ar2": "الخرج بيقل آخر النهار."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "opinion or ideas",
+    "mar": "رأي أو أفكار",
+    "ex": "We need input from the IT team before we size the UPS.",
+    "ar": "محتاجين رأي فريق الـ ‎IT‎ قبل ما نحدد حجم الـ ‎UPS‎.",
+    "ex2": "Their input changed the load from 40 to 60 kVA.",
+    "ar2": "رأيهم غيّر الحمل من ٤٠ لـ ٦٠."
+   },
+   {
+    "m": "power or signal going into a device",
+    "mar": "الدخل الكهربائي لجهاز",
+    "ex": "The UPS input voltage is too low at night.",
+    "ar": "جهد الدخل للـ ‎UPS‎ واطي قوي بالليل.",
+    "ex2": "Low input voltage makes it switch to battery.",
+    "ar2": "الجهد الواطي بيخليه يحوّل على البطارية."
+   }
+  ],
+  "syn": [
+   {
+    "w": "feedback",
+    "note": "reaction to something already done",
+    "ex": "Please give us feedback on our last service visit.",
+    "ar": "لو سمحت قولنا رأيك في زيارة الصيانة الأخيرة.",
+    "ex2": "Your feedback helps us train our engineers.",
+    "ar2": "رأيك بيساعدنا ندرّب المهندسين."
+   },
+   {
+    "w": "thoughts",
+    "note": "informal; friendly in emails",
+    "ex": "I'd love your thoughts on the new price list.",
+    "ar": "يهمني أعرف رأيك في قايمة الأسعار الجديدة.",
+    "ex2": "Send me your thoughts by Sunday.",
+    "ar2": "ابعتلي رأيك قبل الحد."
+   },
+   {
+    "w": "advice",
+    "note": "you ask an expert what to do",
+    "ex": "We asked the consultant for advice on earthing.",
+    "ar": "طلبنا نصيحة الاستشاري في التأريض.",
+    "ex2": "His advice saved us from a failed inspection.",
+    "ar2": "نصيحته أنقذتنا من فشل في التفتيش."
+   }
+  ],
+  "ant": [
+   {
+    "w": "output",
+    "ex": "Check the UPS output before you connect the servers.",
+    "ar": "شيك على خرج الـ ‎UPS‎ قبل ما توصّل السيرفرات.",
+    "ex2": "The output must be a clean 220 V.",
+    "ar2": "الخرج لازم يبقى ٢٢٠ فولت نضيف."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We're choosing between lithium and lead-acid batteries for the data centre. I was hoping to get your input before Thursday.",
+  "ctx_ar": "إحنا بنختار بين بطاريات الليثيوم والرصاص للداتا سنتر. كنت عايز آخد رأيك قبل الخميس.",
+  "quiz": [
+   {
+    "s": "Please ___ the serial numbers into the system.",
+    "opts": [
+     "input",
+     "output",
+     "feedback"
+    ],
+    "a": 0,
+    "ar": "لو سمحت دخّل الأرقام التسلسلية على السيستم."
+   },
+   {
+    "s": "The inverter's ___ is 10 kW at full sun.",
+    "opts": [
+     "input",
+     "output",
+     "advice"
+    ],
+    "a": 1,
+    "ar": "خرج الإنفرتر ١٠ كيلووات في الشمس الكاملة."
+   },
+   {
+    "s": "Please give us ___ on our last service visit.",
+    "opts": [
+     "output",
+     "input",
+     "feedback"
+    ],
+    "a": 2,
+    "ar": "لو سمحت قولنا رأيك في زيارة الصيانة الأخيرة."
+   }
+  ]
+ },
+ {
+  "w": "approval",
+  "ar": "موافقة",
+  "book": "I am writing to request your approval for ___.",
+  "family": [
+   {
+    "w": "approval",
+    "pos": "noun",
+    "ex": "We need the manager's approval for any discount above 10%.",
+    "ar": "محتاجين موافقة المدير على أي خصم فوق ١٠٪.",
+    "ex2": "Without approval, the system blocks the quotation.",
+    "ar2": "من غير موافقة السيستم بيوقف عرض السعر."
+   },
+   {
+    "w": "approve",
+    "pos": "verb",
+    "ex": "Finance approved the PO for twenty battery cabinets.",
+    "ar": "الحسابات وافقت على أمر الشراء لعشرين كابينة بطاريات.",
+    "ex2": "They approved it after checking the budget.",
+    "ar2": "وافقوا بعد ما راجعوا الميزانية."
+   },
+   {
+    "w": "approved",
+    "pos": "adjective",
+    "ex": "Only approved suppliers can join the tender.",
+    "ar": "الموردين المعتمدين بس يقدروا يدخلوا المناقصة.",
+    "ex2": "We became an approved supplier last year.",
+    "ar2": "بقينا مورد معتمد السنة اللي فاتت."
+   },
+   {
+    "w": "disapprove",
+    "pos": "verb",
+    "ex": "The consultant may disapprove of the cable size.",
+    "ar": "الاستشاري ممكن مايوافقش على مقاس الكابل.",
+    "ex2": "If he disapproves, we'll change it to 35 mm.",
+    "ar2": "لو مارضيش هنغيّره لـ ٣٥ مم."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "authorization",
+    "note": "formal; official permission, often from a higher level",
+    "ex": "The site needs written authorization before we cut the power.",
+    "ar": "الموقع محتاج تصريح مكتوب قبل ما نفصل الكهربا.",
+    "ex2": "The authorization must be signed by the facility manager.",
+    "ar2": "التصريح لازم يتمضي من مدير المنشأة."
+   },
+   {
+    "w": "sign-off",
+    "note": "informal; final approval of a document or stage",
+    "ex": "We're waiting for the client's sign-off on the design.",
+    "ar": "مستنيين اعتماد العميل للتصميم.",
+    "ex2": "After sign-off, we order the panels.",
+    "ar2": "بعد الاعتماد بنطلب الألواح."
+   },
+   {
+    "w": "green light",
+    "note": "informal; permission to start",
+    "ex": "The bank gave us the green light to start installation.",
+    "ar": "البنك ادانا الضوء الأخضر نبدأ التركيب.",
+    "ex2": "With the green light, the team moves in on Sunday.",
+    "ar2": "مع الموافقة الفريق هيدخل يوم الحد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "rejection",
+    "ex": "We received a rejection because the price was too high.",
+    "ar": "جالنا رفض عشان السعر كان عالي.",
+    "ex2": "After the rejection, we offered a smaller UPS.",
+    "ar2": "بعد الرفض عرضنا ‎UPS‎ أصغر."
+   }
+  ],
+  "ladder": {
+   "label": "how official the permission is",
+   "lar": "الموافقة رسمية قد إيه",
+   "steps": [
+    {
+     "w": "green light",
+     "ex": "The manager gave the green light by phone.",
+     "ar": "المدير ادى الموافقة في التليفون.",
+     "ex2": "Nothing written yet.",
+     "ar2": "لسه مفيش حاجة مكتوبة."
+    },
+    {
+     "w": "approval",
+     "ex": "We have the manager's approval by email.",
+     "ar": "معانا موافقة المدير بالإيميل.",
+     "ex2": "It's enough for small orders.",
+     "ar2": "كفاية للطلبات الصغيرة."
+    },
+    {
+     "w": "formal authorization",
+     "ex": "We have formal authorization signed and stamped.",
+     "ar": "معانا تصريح رسمي ممضي ومختوم.",
+     "ex2": "It's needed for big contracts.",
+     "ar2": "ضروري للعقود الكبيرة."
+    }
+   ]
+  },
+  "ctx": "The client wants a 15% discount on the solar system. I've sent a request for approval to our sales director.",
+  "ctx_ar": "العميل عايز خصم ١٥٪ على نظام الطاقة الشمسية. بعت طلب موافقة لمدير المبيعات بتاعنا.",
+  "quiz": [
+   {
+    "s": "Finance ___ the PO yesterday.",
+    "opts": [
+     "approved",
+     "approval",
+     "approve"
+    ],
+    "a": 0,
+    "ar": "الحسابات وافقت على أمر الشراء امبارح."
+   },
+   {
+    "s": "Only ___ suppliers can join the tender.",
+    "opts": [
+     "approval",
+     "approved",
+     "disapprove"
+    ],
+    "a": 1,
+    "ar": "الموردين المعتمدين بس يقدروا يدخلوا المناقصة."
+   },
+   {
+    "s": "We're waiting for the client's ___ on the design.",
+    "opts": [
+     "rejection",
+     "approve",
+     "sign-off"
+    ],
+    "a": 2,
+    "ar": "مستنيين اعتماد العميل للتصميم."
+   }
+  ]
+ },
+ {
+  "w": "misunderstanding",
+  "ar": "سوء فهم",
+  "book": "There seems to have been a misunderstanding about ___, and I wanted to clarify.",
+  "family": [
+   {
+    "w": "misunderstanding",
+    "pos": "noun",
+    "ex": "There was a misunderstanding about who pays for shipping.",
+    "ar": "كان فيه سوء فهم على مين يدفع الشحن.",
+    "ex2": "To avoid another misunderstanding, we wrote it in the contract.",
+    "ar2": "عشان مايحصلش سوء فهم تاني كتبناه في العقد."
+   },
+   {
+    "w": "misunderstand",
+    "pos": "verb",
+    "ex": "The client misunderstood the warranty; it doesn't cover lightning damage.",
+    "ar": "العميل فهم الضمان غلط؛ مش بيغطي أضرار الصواعق.",
+    "ex2": "Many clients misunderstand this point.",
+    "ar2": "عملاء كتير بيفهموا النقطة دي غلط."
+   },
+   {
+    "w": "misunderstood",
+    "pos": "adjective",
+    "ex": "The misunderstood clause caused a two-week delay.",
+    "ar": "البند اللي اتفهم غلط عمل تأخير أسبوعين.",
+    "ex2": "We rewrote the misunderstood part in plain words.",
+    "ar2": "كتبنا الجزء اللي اتفهم غلط بكلام بسيط."
+   },
+   {
+    "w": "understanding",
+    "pos": "noun",
+    "ex": "Our understanding is that the client pays 50% in advance.",
+    "ar": "اللي فاهمينه إن العميل بيدفع ٥٠٪ مقدم.",
+    "ex2": "Please correct our understanding if it's wrong.",
+    "ar2": "لو فهمنا غلط صححلنا."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "confusion",
+    "note": "less serious; things are unclear",
+    "ex": "There's some confusion about the delivery address.",
+    "ar": "فيه لخبطة في عنوان التسليم.",
+    "ex2": "To clear up the confusion, I called the site manager.",
+    "ar2": "عشان أوضح اللخبطة كلمت مدير الموقع."
+   },
+   {
+    "w": "miscommunication",
+    "note": "the message was passed wrongly",
+    "ex": "A miscommunication between sales and the warehouse sent the wrong UPS.",
+    "ar": "سوء تواصل بين المبيعات والمخزن بعت الـ ‎UPS‎ الغلط.",
+    "ex2": "Now every miscommunication is logged and checked.",
+    "ar2": "دلوقتي أي سوء تواصل بيتسجل ويتراجع."
+   }
+  ],
+  "ant": [
+   {
+    "w": "agreement",
+    "ex": "We reached a clear agreement on the payment dates.",
+    "ar": "وصلنا لاتفاق واضح على مواعيد الدفع.",
+    "ex2": "The agreement is in the signed minutes.",
+    "ar2": "الاتفاق مكتوب في المحضر الممضي."
+   }
+  ],
+  "ladder": {
+   "label": "how serious the problem is",
+   "lar": "المشكلة كبيرة قد إيه",
+   "steps": [
+    {
+     "w": "confusion",
+     "ex": "There's some confusion about the meeting time.",
+     "ar": "فيه لخبطة في ميعاد الاجتماع.",
+     "ex2": "Easy to fix.",
+     "ar2": "سهل تتحل."
+    },
+    {
+     "w": "misunderstanding",
+     "ex": "There's a misunderstanding about the price.",
+     "ar": "فيه سوء فهم في السعر.",
+     "ex2": "We need to clarify by email.",
+     "ar2": "محتاجين نوضح بالإيميل."
+    },
+    {
+     "w": "dispute",
+     "ex": "There's a dispute about the unpaid invoices.",
+     "ar": "فيه نزاع على الفواتير اللي مااتدفعتش.",
+     "ex2": "The lawyers are involved.",
+     "ar2": "المحامين دخلوا."
+    }
+   ]
+  },
+  "ctx": "The client thought the price included three years of maintenance. There seems to have been a misunderstanding, so I sent the breakdown again.",
+  "ctx_ar": "العميل كان فاكر إن السعر شامل صيانة تلات سنين. واضح إن فيه سوء فهم، فبعت التفاصيل تاني.",
+  "quiz": [
+   {
+    "s": "The client ___ the warranty terms.",
+    "opts": [
+     "misunderstood",
+     "misunderstanding",
+     "understanding"
+    ],
+    "a": 0,
+    "ar": "العميل فهم شروط الضمان غلط."
+   },
+   {
+    "s": "Our ___ is that you pay 50% in advance.",
+    "opts": [
+     "misunderstand",
+     "understanding",
+     "dispute"
+    ],
+    "a": 1,
+    "ar": "اللي فاهمينه إنك بتدفع ٥٠٪ مقدم."
+   },
+   {
+    "s": "The lawyers are involved; it's now a ___.",
+    "opts": [
+     "confusion",
+     "misunderstanding",
+     "dispute"
+    ],
+    "a": 2,
+    "ar": "المحامين دخلوا؛ بقى نزاع."
+   }
+  ]
+ },
+ {
+  "w": "inconvenience",
+  "ar": "إزعاج / تعب",
+  "book": "I realize that my actions may have caused inconvenience or hardship, and I want to express my apologies.",
+  "family": [
+   {
+    "w": "inconvenience",
+    "pos": "noun",
+    "ex": "We apologize for any inconvenience caused by the power shutdown.",
+    "ar": "بنعتذر عن أي إزعاج سببه فصل الكهربا.",
+    "ex2": "The shutdown lasted only two hours.",
+    "ar2": "الفصل استمر ساعتين بس."
+   },
+   {
+    "w": "inconvenience",
+    "pos": "verb",
+    "ex": "We don't want to inconvenience the hospital during working hours.",
+    "ar": "مش عايزين نتعب المستشفى في مواعيد الشغل.",
+    "ex2": "So we'll replace the batteries at night.",
+    "ar2": "فهنغيّر البطاريات بالليل."
+   },
+   {
+    "w": "inconvenient",
+    "pos": "adjective",
+    "ex": "Is this an inconvenient time to call?",
+    "ar": "ده وقت مش مناسب أكلمك فيه؟",
+    "ex2": "I can call back after your meeting.",
+    "ar2": "ممكن أكلمك بعد الاجتماع."
+   },
+   {
+    "w": "convenience",
+    "pos": "noun",
+    "ex": "For your convenience, our engineers work on Fridays too.",
+    "ar": "لراحتك، مهندسينا بيشتغلوا يوم الجمعة كمان.",
+    "ex2": "This convenience is included in the premium contract.",
+    "ar2": "الميزة دي موجودة في العقد المميز."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "trouble",
+    "note": "informal; spoken",
+    "ex": "Sorry for the trouble with the late delivery.",
+    "ar": "آسفين على التعب في التسليم المتأخر.",
+    "ex2": "We'll make sure there's no trouble next time.",
+    "ar2": "هنتأكد إنه مايحصلش تعب المرة الجاية."
+   },
+   {
+    "w": "disruption",
+    "note": "work or service was stopped or broken",
+    "ex": "The VFD fault caused a disruption to production.",
+    "ar": "عطل الـ ‎VFD‎ عمل توقف في الإنتاج.",
+    "ex2": "To limit the disruption, we sent a spare unit.",
+    "ar2": "عشان نقلل التوقف بعتنا وحدة احتياطي."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how big the problem caused is",
+   "lar": "المشكلة اللي حصلت كبيرة قد إيه",
+   "steps": [
+    {
+     "w": "inconvenience",
+     "ex": "Sorry for the inconvenience of rescheduling the visit.",
+     "ar": "آسفين على إزعاج تغيير ميعاد الزيارة.",
+     "ex2": "It's a small change.",
+     "ar2": "تغيير بسيط."
+    },
+    {
+     "w": "disruption",
+     "ex": "Sorry for the disruption to your server room.",
+     "ar": "آسفين على تعطيل أوضة السيرفرات.",
+     "ex2": "It was down for an hour.",
+     "ar2": "وقفت ساعة."
+    },
+    {
+     "w": "serious damage",
+     "ex": "The surge caused serious damage to three servers.",
+     "ar": "الارتفاع المفاجئ في الجهد عمل ضرر كبير لتلات سيرفرات.",
+     "ex2": "The client wants compensation.",
+     "ar2": "العميل عايز تعويض."
+    }
+   ]
+  },
+  "ctx": "Our engineer arrived three hours late to the bank. We called the manager to apologize for the inconvenience and offered a free check-up.",
+  "ctx_ar": "المهندس بتاعنا وصل البنك متأخر تلات ساعات. كلمنا المدير نعتذر عن الإزعاج وعرضنا فحص ببلاش.",
+  "quiz": [
+   {
+    "s": "Is this an ___ time to call?",
+    "opts": [
+     "inconvenience",
+     "inconvenient",
+     "convenience"
+    ],
+    "a": 1,
+    "ar": "ده وقت مش مناسب أكلمك فيه؟"
+   },
+   {
+    "s": "We apologize for any ___ caused.",
+    "opts": [
+     "inconvenience",
+     "inconvenient",
+     "convenient"
+    ],
+    "a": 0,
+    "ar": "بنعتذر عن أي إزعاج حصل."
+   },
+   {
+    "s": "The VFD fault caused a ___ to production.",
+    "opts": [
+     "convenience",
+     "trouble",
+     "disruption"
+    ],
+    "a": 2,
+    "ar": "عطل الـ ‎VFD‎ عمل توقف في الإنتاج."
+   }
+  ]
+ },
+ {
+  "w": "make things right",
+  "ar": "يصلّح الغلط / يراضي",
+  "book": "I apologize for my mistake, and I am committed to making things right.",
+  "family": [
+   {
+    "w": "make things right",
+    "pos": "verb",
+    "ex": "We sent the wrong inverter, so we'll make things right today.",
+    "ar": "بعتنا الإنفرتر الغلط، فهنصلّح الموضوع النهارده.",
+    "ex2": "A new unit will be on site by 4 pm.",
+    "ar2": "وحدة جديدة هتبقى في الموقع الساعة ٤."
+   },
+   {
+    "w": "right",
+    "pos": "adjective",
+    "ex": "Please check you have the right battery model before you leave.",
+    "ar": "لو سمحت اتأكد إن معاك موديل البطارية الصح قبل ما تمشي.",
+    "ex2": "The right model is printed on the job card.",
+    "ar2": "الموديل الصح مكتوب على كارت الشغل."
+   },
+   {
+    "w": "rightly",
+    "pos": "adverb",
+    "ex": "The client rightly asked for a discount after the delay.",
+    "ar": "العميل طلب خصم بعد التأخير ومعاه حق.",
+    "ex2": "He rightly expected delivery on the agreed date.",
+    "ar2": "كان متوقع التسليم في الميعاد المتفق عليه ومعاه حق."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "put things right",
+    "note": "British; same meaning",
+    "ex": "Our service manager will put things right with the client.",
+    "ar": "مدير الصيانة هيصلّح الأمور مع العميل.",
+    "ex2": "He'll put things right with a visit and a credit note.",
+    "ar2": "هيصلحها بزيارة وإشعار دائن."
+   },
+   {
+    "w": "fix the problem",
+    "note": "practical; about the technical issue",
+    "ex": "Our engineer will fix the problem in the UPS bypass.",
+    "ar": "المهندس بتاعنا هيصلح المشكلة في الـ ‎bypass‎ بتاع الـ ‎UPS‎.",
+    "ex2": "Fixing the problem takes about two hours.",
+    "ar2": "تصليح المشكلة بياخد حوالي ساعتين."
+   },
+   {
+    "w": "make up for",
+    "note": "give something extra to balance a mistake",
+    "ex": "To make up for the delay, we added a free battery check.",
+    "ar": "عشان نعوّض التأخير ضفنا فحص بطاريات ببلاش.",
+    "ex2": "Making up for mistakes keeps loyal clients.",
+    "ar2": "تعويض الأخطاء بيحافظ على العملاء."
+   }
+  ],
+  "ant": [
+   {
+    "w": "make things worse",
+    "ex": "Arguing with the client will make things worse.",
+    "ar": "الخناق مع العميل هيخلّي الموضوع أسوأ.",
+    "ex2": "Making things worse could cost us the contract.",
+    "ar2": "إننا نخلي الموضوع أسوأ ممكن يخسرنا العقد."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We invoiced the hospital twice for the same visit. I called them to apologize and promised to make things right with a credit note today.",
+  "ctx_ar": "طلعنا للمستشفى فاتورتين لنفس الزيارة. كلمتهم أعتذر ووعدتهم أصلّح الغلط بإشعار دائن النهارده.",
+  "quiz": [
+   {
+    "s": "Check you have the ___ battery model.",
+    "opts": [
+     "right",
+     "rightly",
+     "make right"
+    ],
+    "a": 0,
+    "ar": "اتأكد إن معاك موديل البطارية الصح."
+   },
+   {
+    "s": "The client ___ asked for a discount.",
+    "opts": [
+     "right",
+     "rightly",
+     "righting"
+    ],
+    "a": 1,
+    "ar": "العميل طلب خصم ومعاه حق."
+   },
+   {
+    "s": "Arguing with the client will ___.",
+    "opts": [
+     "make things right",
+     "make up for it",
+     "make things worse"
+    ],
+    "a": 2,
+    "ar": "الخناق مع العميل هيخلي الموضوع أسوأ."
+   }
+  ]
+ },
+ {
+  "w": "clause",
+  "ar": "بند (في عقد)",
+  "book": "Would it be possible to add/amend a specific clause or provision in the contract/agreement to better protect our interests?",
+  "family": [
+   {
+    "w": "clause",
+    "pos": "noun",
+    "ex": "Clause 7 says the client pays within thirty days.",
+    "ar": "البند ٧ بيقول إن العميل بيدفع خلال تلاتين يوم.",
+    "ex2": "We want to add a late-payment clause too.",
+    "ar2": "عايزين نضيف بند لغرامة التأخير في الدفع كمان."
+   },
+   {
+    "w": "clauses",
+    "pos": "noun",
+    "ex": "The new contract has five clauses about battery warranty.",
+    "ar": "العقد الجديد فيه خمس بنود عن ضمان البطاريات.",
+    "ex2": "Please read the warranty clauses before signing.",
+    "ar2": "لو سمحت اقرا بنود الضمان قبل ما تمضي."
+   },
+   {
+    "w": "penalty clause",
+    "pos": "noun",
+    "ex": "The penalty clause charges 1% for each week of delay.",
+    "ar": "بند الغرامة بيخصم ١٪ عن كل أسبوع تأخير.",
+    "ex2": "Because of the penalty clause, we must finish on time.",
+    "ar2": "بسبب بند الغرامة لازم نخلص في الميعاد."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "provision",
+    "note": "formal legal word for a rule in a contract",
+    "ex": "The contract has a provision for price changes.",
+    "ar": "العقد فيه نص لتغيير الأسعار.",
+    "ex2": "The provision applies if the dollar rises over 10%.",
+    "ar2": "النص ده بيطبق لو الدولار زاد أكتر من ١٠٪."
+   },
+   {
+    "w": "term",
+    "note": "general; the conditions of a deal",
+    "ex": "The payment terms are 50% advance and 50% on delivery.",
+    "ar": "شروط الدفع ٥٠٪ مقدم و٥٠٪ عند التسليم.",
+    "ex2": "We can't change these terms after signing.",
+    "ar2": "مانقدرش نغيّر الشروط دي بعد التوقيع."
+   },
+   {
+    "w": "article",
+    "note": "numbered section in a formal contract",
+    "ex": "Article 12 covers force majeure.",
+    "ar": "المادة ١٢ بتغطي القوة القاهرة.",
+    "ex2": "Under this article, strikes delay the deadline.",
+    "ar2": "حسب المادة دي الإضرابات بتأجل الميعاد."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "The client's contract had no limit on our liability. We asked them to amend the clause so it covers only the contract value.",
+  "ctx_ar": "عقد العميل ماكانش فيه حد لمسؤوليتنا. طلبنا منهم يعدّلوا البند عشان يغطي قيمة العقد بس.",
+  "quiz": [
+   {
+    "s": "The ___ charges 1% per week of delay.",
+    "opts": [
+     "penalty clause",
+     "article",
+     "term"
+    ],
+    "a": 0,
+    "ar": "بند الغرامة بيخصم ١٪ عن كل أسبوع تأخير."
+   },
+   {
+    "s": "Our payment ___ are 50% advance, 50% on delivery.",
+    "opts": [
+     "clauses",
+     "terms",
+     "provision"
+    ],
+    "a": 1,
+    "ar": "شروط الدفع عندنا ٥٠٪ مقدم و٥٠٪ عند التسليم."
+   },
+   {
+    "s": "Please read the warranty ___ before signing.",
+    "opts": [
+     "term",
+     "provision",
+     "clauses"
+    ],
+    "a": 2,
+    "ar": "اقرا بنود الضمان قبل ما تمضي."
+   }
+  ]
+ },
+ {
+  "w": "resolution",
+  "ar": "حل (لمشكلة أو خلاف)",
+  "book": "I am committed to finding a resolution for ___, and I would appreciate your input and support.",
+  "family": [
+   {
+    "w": "resolution",
+    "pos": "noun",
+    "ex": "We're working on a resolution for the repeated VFD trips.",
+    "ar": "بنشتغل على حل لفصل الـ ‎VFD‎ المتكرر.",
+    "ex2": "The resolution may need a new harmonic filter.",
+    "ar2": "الحل ممكن يحتاج فلتر هارمونيك جديد."
+   },
+   {
+    "w": "resolve",
+    "pos": "verb",
+    "ex": "The engineer resolved the UPS fault in one hour.",
+    "ar": "المهندس حل عطل الـ ‎UPS‎ في ساعة.",
+    "ex2": "He resolved it by replacing the fan.",
+    "ar2": "حله بإنه غيّر المروحة."
+   },
+   {
+    "w": "resolved",
+    "pos": "adjective",
+    "ex": "All resolved tickets are closed every Friday.",
+    "ar": "كل التذاكر اللي اتحلت بتتقفل كل جمعة.",
+    "ex2": "The client gets an email when a ticket is resolved.",
+    "ar2": "العميل بيوصله إيميل لما التذكرة تتحل."
+   },
+   {
+    "w": "unresolved",
+    "pos": "adjective",
+    "ex": "There are three unresolved complaints from the factory.",
+    "ar": "فيه تلات شكاوى من المصنع لسه ماتحلتش.",
+    "ex2": "Unresolved complaints affect contract renewal.",
+    "ar2": "الشكاوى اللي ماتحلتش بتأثر على تجديد العقد."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "answer to a problem or dispute",
+    "mar": "حل لمشكلة أو خلاف",
+    "ex": "Both sides want a quick resolution to the payment dispute.",
+    "ar": "الطرفين عايزين حل سريع لخلاف الدفع.",
+    "ex2": "The resolution was to pay in three installments.",
+    "ar2": "الحل كان الدفع على تلات أقساط."
+   },
+   {
+    "m": "detail level of a screen or image",
+    "mar": "دقة الشاشة أو الصورة",
+    "ex": "The UPS display has low resolution, so the numbers are hard to read.",
+    "ar": "شاشة الـ ‎UPS‎ دقتها قليلة، فالأرقام صعب تتقري.",
+    "ex2": "The new model has a high-resolution touch screen.",
+    "ar2": "الموديل الجديد شاشته لمس ودقتها عالية."
+   }
+  ],
+  "syn": [
+   {
+    "w": "solution",
+    "note": "general; the answer to a technical or business problem",
+    "ex": "A solar solution can cut the farm's diesel costs.",
+    "ar": "حل الطاقة الشمسية ممكن يقلل مصاريف السولار في المزرعة.",
+    "ex2": "The solution pays back in three years.",
+    "ar2": "الحل بيرجّع فلوسه في تلات سنين."
+   },
+   {
+    "w": "settlement",
+    "note": "formal; agreement that ends a dispute, often money",
+    "ex": "We reached a settlement with the supplier for the damaged batteries.",
+    "ar": "وصلنا لتسوية مع المورد للبطاريات اللي اتضررت.",
+    "ex2": "The settlement was a 20% credit.",
+    "ar2": "التسوية كانت خصم ٢٠٪."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how finished the issue is",
+   "lar": "المشكلة خلصت قد إيه",
+   "steps": [
+    {
+     "w": "unresolved",
+     "ex": "The battery complaint is still unresolved.",
+     "ar": "شكوى البطاريات لسه ماتحلتش.",
+     "ex2": "We're waiting for the supplier.",
+     "ar2": "مستنيين المورد."
+    },
+    {
+     "w": "workaround",
+     "ex": "We have a workaround until the new card arrives.",
+     "ar": "عندنا حل مؤقت لحد ما الكارتة الجديدة توصل.",
+     "ex2": "The VFD runs in manual mode.",
+     "ar2": "الـ ‎VFD‎ شغال يدوي."
+    },
+    {
+     "w": "resolution",
+     "ex": "We found a full resolution to the problem.",
+     "ar": "لقينا حل نهائي للمشكلة.",
+     "ex2": "The new card fixed it.",
+     "ar2": "الكارتة الجديدة صلّحتها."
+    }
+   ]
+  },
+  "ctx": "The factory complained about VFD trips for weeks. After testing, we found a resolution: a harmonic filter and a firmware update.",
+  "ctx_ar": "المصنع اشتكى من فصل الـ ‎VFD‎ أسابيع. بعد الاختبار لقينا حل: فلتر هارمونيك وتحديث سوفت وير.",
+  "quiz": [
+   {
+    "s": "The engineer ___ the fault in one hour.",
+    "opts": [
+     "resolved",
+     "resolution",
+     "unresolved"
+    ],
+    "a": 0,
+    "ar": "المهندس حل العطل في ساعة."
+   },
+   {
+    "s": "There are three ___ complaints.",
+    "opts": [
+     "resolve",
+     "unresolved",
+     "resolution"
+    ],
+    "a": 1,
+    "ar": "فيه تلات شكاوى لسه ماتحلتش."
+   },
+   {
+    "s": "We reached a ___ with the supplier: a 20% credit.",
+    "opts": [
+     "workaround",
+     "resolve",
+     "settlement"
+    ],
+    "a": 2,
+    "ar": "وصلنا لتسوية مع المورد: خصم ٢٠٪."
+   }
+  ]
+ },
+ {
+  "w": "constructive feedback",
+  "ar": "نقد بنّاء / ملاحظات مفيدة",
+  "book": "I appreciate the hard work and dedication that has gone into ___, and I would like to offer some constructive feedback to help us achieve our goals.",
+  "family": [
+   {
+    "w": "constructive feedback",
+    "pos": "noun",
+    "ex": "The client gave us constructive feedback on our installation report.",
+    "ar": "العميل ادانا ملاحظات مفيدة على تقرير التركيب بتاعنا.",
+    "ex2": "He asked for more photos and clearer test results.",
+    "ar2": "طلب صور أكتر ونتايج اختبار أوضح."
+   },
+   {
+    "w": "constructive",
+    "pos": "adjective",
+    "ex": "The meeting with the consultant was very constructive.",
+    "ar": "الاجتماع مع الاستشاري كان مفيد جدًا.",
+    "ex2": "It was constructive because we agreed on all the drawings.",
+    "ar2": "كان مفيد عشان اتفقنا على كل الرسومات."
+   },
+   {
+    "w": "feedback",
+    "pos": "noun",
+    "ex": "Please send your feedback on the new service app.",
+    "ar": "لو سمحت ابعت رأيك في تطبيق الصيانة الجديد.",
+    "ex2": "Your feedback will shape the next version.",
+    "ar2": "رأيك هيحدد النسخة الجاية."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "suggestions for improvement",
+    "note": "polite; focuses on what to do better",
+    "ex": "Here are my suggestions for improvement on the quotation template.",
+    "ar": "دي اقتراحاتي لتحسين نموذج عرض السعر.",
+    "ex2": "These suggestions for improvement could save us time.",
+    "ar2": "الاقتراحات دي ممكن توفر وقت."
+   },
+   {
+    "w": "comments",
+    "note": "general; any remarks on a document",
+    "ex": "Please add your comments to the draft contract.",
+    "ar": "لو سمحت ضيف ملاحظاتك على مسودة العقد.",
+    "ex2": "I'll send the comments to our lawyer.",
+    "ar2": "هبعت الملاحظات للمحامي بتاعنا."
+   }
+  ],
+  "ant": [
+   {
+    "w": "criticism",
+    "ex": "Harsh criticism in front of the client upset our engineer.",
+    "ar": "النقد الجامد قدام العميل زعّل المهندس بتاعنا.",
+    "ex2": "Give criticism privately, not on site.",
+    "ar2": "انتقد على انفراد، مش في الموقع."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Our new engineer's service report was hard to read. I gave him constructive feedback: add photos, readings and a clear summary.",
+  "ctx_ar": "تقرير الصيانة بتاع المهندس الجديد كان صعب يتقري. اديته ملاحظات مفيدة: يضيف صور وقراءات وملخص واضح.",
+  "quiz": [
+   {
+    "s": "The meeting with the consultant was very ___.",
+    "opts": [
+     "constructive",
+     "construct",
+     "feedback"
+    ],
+    "a": 0,
+    "ar": "الاجتماع مع الاستشاري كان مفيد جدًا."
+   },
+   {
+    "s": "Please send your ___ on the new app.",
+    "opts": [
+     "constructive",
+     "feedback",
+     "criticize"
+    ],
+    "a": 1,
+    "ar": "لو سمحت ابعت رأيك في التطبيق الجديد."
+   },
+   {
+    "s": "Harsh ___ in front of the client upset him.",
+    "opts": [
+     "feedback",
+     "comments",
+     "criticism"
+    ],
+    "a": 2,
+    "ar": "النقد الجامد قدام العميل زعّله."
+   }
+  ]
+ },
+ {
+  "w": "prompt",
+  "ar": "سريع / فوري",
+  "book": "I wanted to remind you of the urgency of ___ and to request your prompt attention to this matter.",
+  "family": [
+   {
+    "w": "prompt",
+    "pos": "adjective",
+    "ex": "Thank you for your prompt payment of the March invoice.",
+    "ar": "شكرًا على دفعك السريع لفاتورة مارس.",
+    "ex2": "Prompt payment helps us keep our prices low.",
+    "ar2": "الدفع السريع بيساعدنا نحافظ على أسعارنا."
+   },
+   {
+    "w": "promptly",
+    "pos": "adverb",
+    "ex": "Our engineer responded promptly to the UPS alarm.",
+    "ar": "المهندس بتاعنا رد بسرعة على إنذار الـ ‎UPS‎.",
+    "ex2": "He arrived promptly, within forty minutes.",
+    "ar2": "وصل بسرعة خلال أربعين دقيقة."
+   },
+   {
+    "w": "prompt",
+    "pos": "verb",
+    "ex": "The low battery alarm prompted us to replace the whole string.",
+    "ar": "إنذار البطارية الضعيفة خلانا نغيّر المجموعة كلها.",
+    "ex2": "What prompted the client to call was the burning smell.",
+    "ar2": "اللي خلى العميل يتصل كانت ريحة الحريق."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "quick, without delay",
+    "mar": "سريع ومن غير تأخير",
+    "ex": "We need your prompt reply to hold the price.",
+    "ar": "محتاجين ردك السريع عشان نثبت السعر.",
+    "ex2": "The supplier's offer ends on Thursday.",
+    "ar2": "عرض المورد بيخلص يوم الخميس."
+   },
+   {
+    "m": "cause someone to do something",
+    "mar": "يخلي حد يعمل حاجة",
+    "ex": "The power cuts prompted the hotel to buy a bigger UPS.",
+    "ar": "انقطاع الكهربا خلّى الفندق يشتري ‎UPS‎ أكبر.",
+    "ex2": "Their guests' complaints prompted the decision too.",
+    "ar2": "شكاوى الضيوف كمان دفعتهم للقرار."
+   }
+  ],
+  "syn": [
+   {
+    "w": "quick",
+    "note": "simple, everyday",
+    "ex": "Thanks for the quick reply about the shipment.",
+    "ar": "شكرًا على الرد السريع بخصوص الشحنة.",
+    "ex2": "A quick reply saves us a phone call.",
+    "ar2": "الرد السريع بيوفّر علينا مكالمة."
+   },
+   {
+    "w": "immediate",
+    "note": "stronger: right now, no waiting",
+    "ex": "The data centre needs immediate support.",
+    "ar": "الداتا سنتر محتاج دعم فوري.",
+    "ex2": "Immediate means within the hour.",
+    "ar2": "فوري يعني خلال ساعة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "delayed",
+    "ex": "The delayed payment affected our cash flow.",
+    "ar": "الدفع المتأخر أثّر على السيولة عندنا.",
+    "ex2": "After two delayed payments, we stopped new orders.",
+    "ar2": "بعد دفعتين متأخرين وقفنا الطلبات الجديدة."
+   }
+  ],
+  "ladder": {
+   "label": "how fast",
+   "lar": "بسرعة قد إيه",
+   "steps": [
+    {
+     "w": "timely",
+     "ex": "Please send a timely reply.",
+     "ar": "لو سمحت رد في الوقت المناسب.",
+     "ex2": "Within the week is fine.",
+     "ar2": "خلال الأسبوع مفيش مشكلة."
+    },
+    {
+     "w": "prompt",
+     "ex": "Please send a prompt reply.",
+     "ar": "لو سمحت رد بسرعة.",
+     "ex2": "Within a day or two.",
+     "ar2": "خلال يوم أو اتنين."
+    },
+    {
+     "w": "immediate",
+     "ex": "Please send an immediate reply.",
+     "ar": "لو سمحت رد فورًا.",
+     "ex2": "The servers are down.",
+     "ar2": "السيرفرات واقعة."
+    }
+   ]
+  },
+  "ctx": "The bank's UPS batteries failed the load test. I emailed the IT manager to request his prompt approval for the replacement.",
+  "ctx_ar": "بطاريات الـ ‎UPS‎ في البنك فشلت في اختبار الحمل. بعت إيميل لمدير الـ ‎IT‎ أطلب موافقته السريعة على التغيير.",
+  "quiz": [
+   {
+    "s": "Our engineer responded ___ to the alarm.",
+    "opts": [
+     "prompt",
+     "promptly",
+     "prompted"
+    ],
+    "a": 1,
+    "ar": "المهندس بتاعنا رد بسرعة على الإنذار."
+   },
+   {
+    "s": "Thank you for your ___ payment.",
+    "opts": [
+     "prompt",
+     "promptly",
+     "delayed"
+    ],
+    "a": 0,
+    "ar": "شكرًا على دفعك السريع."
+   },
+   {
+    "s": "The servers are down; we need ___ support.",
+    "opts": [
+     "timely",
+     "delayed",
+     "immediate"
+    ],
+    "a": 2,
+    "ar": "السيرفرات واقعة؛ محتاجين دعم فوري."
+   }
+  ]
+ },
+ {
+  "w": "availability",
+  "ar": "التوفّر / الإتاحة",
+  "book": "I would like to request more information about ___, including its features, pricing and availability.",
+  "family": [
+   {
+    "w": "availability",
+    "pos": "noun",
+    "ex": "Please confirm the availability of 100 Ah batteries in stock.",
+    "ar": "لو سمحت أكد توفر بطاريات ١٠٠ أمبير في المخزن.",
+    "ex2": "Availability changes fast before summer.",
+    "ar2": "التوفر بيتغير بسرعة قبل الصيف."
+   },
+   {
+    "w": "available",
+    "pos": "adjective",
+    "ex": "The 20 kVA UPS is available for delivery next week.",
+    "ar": "الـ ‎UPS‎ قدرة ٢٠ متاح للتسليم الأسبوع الجاي.",
+    "ex2": "Only three units are available right now.",
+    "ar2": "تلات وحدات بس متاحين دلوقتي."
+   },
+   {
+    "w": "unavailable",
+    "pos": "adjective",
+    "ex": "The spare card is unavailable until the next shipment.",
+    "ar": "الكارتة الاحتياطي مش متوفرة لحد الشحنة الجاية.",
+    "ex2": "Because it's unavailable, we offered a temporary bypass.",
+    "ar2": "عشان مش متوفرة عرضنا ‎bypass‎ مؤقت."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "whether goods are in stock",
+    "mar": "المنتج موجود في المخزن ولا لأ",
+    "ex": "We check availability before we promise a delivery date.",
+    "ar": "بنشيك على التوفر قبل ما نوعد بميعاد تسليم.",
+    "ex2": "Low availability means a longer lead time.",
+    "ar2": "قلة التوفر معناها مدة توريد أطول."
+   },
+   {
+    "m": "whether a person is free",
+    "mar": "الشخص فاضي ولا لأ",
+    "ex": "Please share your availability for a call this week.",
+    "ar": "لو سمحت قولي إنت فاضي إمتى لمكالمة الأسبوع ده.",
+    "ex2": "My availability is Monday or Wednesday morning.",
+    "ar2": "أنا فاضي الاتنين أو الأربع الصبح."
+   }
+  ],
+  "syn": [
+   {
+    "w": "in stock",
+    "note": "goods are in our warehouse now",
+    "ex": "The 3 kW inverters are in stock.",
+    "ar": "إنفرترات الـ ٣ كيلو موجودة في المخزن.",
+    "ex2": "Items in stock ship within two days.",
+    "ar2": "الحاجات الموجودة في المخزن بتتشحن خلال يومين."
+   },
+   {
+    "w": "lead time",
+    "note": "how long until goods arrive after the order",
+    "ex": "The lead time for lithium batteries is six weeks.",
+    "ar": "مدة توريد بطاريات الليثيوم ست أسابيع.",
+    "ex2": "Long lead times affect our availability.",
+    "ar2": "مدد التوريد الطويلة بتأثر على التوفر."
+   }
+  ],
+  "ant": [
+   {
+    "w": "out of stock",
+    "ex": "The 200 Ah batteries are out of stock.",
+    "ar": "بطاريات الـ ٢٠٠ أمبير خلصانة من المخزن.",
+    "ex2": "Out-of-stock items take about a month.",
+    "ar2": "الحاجات اللي خلصانة بتاخد حوالي شهر."
+   }
+  ],
+  "ladder": {
+   "label": "how ready the goods are",
+   "lar": "المنتج جاهز قد إيه",
+   "steps": [
+    {
+     "w": "out of stock",
+     "ex": "The UPS is out of stock.",
+     "ar": "الـ ‎UPS‎ خلصان.",
+     "ex2": "It needs a new import.",
+     "ar2": "محتاج استيراد جديد."
+    },
+    {
+     "w": "available on order",
+     "ex": "The UPS is available on order.",
+     "ar": "الـ ‎UPS‎ متاح بالطلب.",
+     "ex2": "Delivery in three weeks.",
+     "ar2": "التسليم خلال تلات أسابيع."
+    },
+    {
+     "w": "in stock",
+     "ex": "The UPS is in stock.",
+     "ar": "الـ ‎UPS‎ موجود في المخزن.",
+     "ex2": "We can deliver tomorrow.",
+     "ar2": "نقدر نسلّم بكرة."
+    }
+   ]
+  },
+  "ctx": "The hospital asked for twenty UPS units by June. Before quoting, I checked availability with our supplier in Shenzhen.",
+  "ctx_ar": "المستشفى طلب عشرين ‎UPS‎ قبل يونيو. قبل ما أعمل عرض السعر، شيّكت على التوفر مع المورد بتاعنا في ‎Shenzhen‎.",
+  "quiz": [
+   {
+    "s": "The 20 kVA UPS is ___ next week.",
+    "opts": [
+     "available",
+     "availability",
+     "unavailable"
+    ],
+    "a": 0,
+    "ar": "الـ ‎UPS‎ قدرة ٢٠ متاح الأسبوع الجاي."
+   },
+   {
+    "s": "Please confirm the ___ of 100 Ah batteries.",
+    "opts": [
+     "available",
+     "availability",
+     "in stock"
+    ],
+    "a": 1,
+    "ar": "لو سمحت أكد توفر بطاريات ١٠٠ أمبير."
+   },
+   {
+    "s": "The 200 Ah batteries are ___; they take a month.",
+    "opts": [
+     "in stock",
+     "available",
+     "out of stock"
+    ],
+    "a": 2,
+    "ar": "بطاريات الـ ٢٠٠ أمبير خلصانة؛ بتاخد شهر."
+   }
+  ]
  }
 ]

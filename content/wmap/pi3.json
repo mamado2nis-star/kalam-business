@@ -766,5 +766,1306 @@
     "ar": "التغليف كان مقبول بس، مش عظيم."
    }
   ]
+ },
+ {
+  "w": "flexible",
+  "ar": "مرن / يقبل يتغيّر حسب الظروف",
+  "family": [
+   {
+    "w": "flexible",
+    "pos": "adjective",
+    "ex": "We offer flexible payment terms to hospitals and schools.",
+    "ar": "بنقدم شروط دفع مرنة للمستشفيات والمدارس.",
+    "ex2": "They can pay over six months.",
+    "ar2": "يقدروا يدفعوا على ست شهور."
+   },
+   {
+    "w": "flexibility",
+    "pos": "noun",
+    "ex": "The client asked for flexibility on the delivery date.",
+    "ar": "العميل طلب مرونة في ميعاد التسليم.",
+    "ex2": "His site isn't ready for the batteries yet.",
+    "ar2": "موقعه لسه مش جاهز للبطاريات."
+   },
+   {
+    "w": "flexibly",
+    "pos": "adverb",
+    "ex": "Our engineers work flexibly during big solar installations.",
+    "ar": "مهندسينا بيشتغلوا بمرونة وقت تركيبات الطاقة الشمسية الكبيرة.",
+    "ex2": "Some days start at five a.m. to avoid the heat.",
+    "ar2": "في أيام بتبدأ خمسة الصبح عشان الحر."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "open",
+    "note": "willing to listen to other options or offers",
+    "ex": "I'm open to a lower salary if the package is good.",
+    "ar": "أنا مستعد أقبل مرتب أقل لو الباكدج كويس.",
+    "ex2": "A car and insurance matter to me.",
+    "ar2": "العربية والتأمين يفرقوا معايا."
+   },
+   {
+    "w": "adaptable",
+    "note": "able to change yourself to new situations",
+    "ex": "Good service engineers are adaptable to any site.",
+    "ar": "مهندسين الصيانة الكويسين بيتأقلموا مع أي موقع.",
+    "ex2": "Factories, banks and farms are all different.",
+    "ar2": "المصانع والبنوك والمزارع كلهم مختلفين."
+   }
+  ],
+  "ant": [
+   {
+    "w": "rigid",
+    "ex": "Their payment terms are rigid: cash before delivery only.",
+    "ar": "شروط الدفع عندهم ناشفة: كاش قبل التسليم وبس.",
+    "ex2": "We lost two customers because of that.",
+    "ar2": "خسرنا عميلين بسبب كده."
+   },
+   {
+    "w": "strict",
+    "ex": "The supplier is strict about the order deadline.",
+    "ar": "المورد صارم في آخر ميعاد للطلب.",
+    "ex2": "Orders after Thursday ship next month.",
+    "ar2": "الطلبات بعد الخميس بتتشحن الشهر الجاي."
+   }
+  ],
+  "ladder": {
+   "label": "how willing you are to change",
+   "lar": "قد إيه مستعد تتنازل",
+   "steps": [
+    {
+     "w": "open",
+     "ex": "I'm open to discussing the salary range.",
+     "ar": "أنا مستعد نتكلم في نطاق المرتب.",
+     "ex2": "Let's look at the whole package.",
+     "ar2": "خلينا نبص على الباكدج كله."
+    },
+    {
+     "w": "flexible",
+     "ex": "I'm flexible on the start date.",
+     "ar": "أنا مرن في ميعاد البداية.",
+     "ex2": "I can start in two or four weeks.",
+     "ar2": "أقدر أبدأ بعد أسبوعين أو أربعة."
+    },
+    {
+     "w": "very accommodating",
+     "ex": "The client was very accommodating about the delay.",
+     "ar": "العميل كان متساهل جدًا في التأخير.",
+     "ex2": "He even moved his shutdown date for us.",
+     "ar2": "حتى غيّر ميعاد الفصل عشانا."
+    }
+   ]
+  },
+  "ctx": "I'm flexible about the start date and working hours. If a client's UPS fails at night, I can go on site.",
+  "ctx_ar": "أنا مرن في ميعاد البداية وساعات الشغل. لو الـ‎UPS‎ بتاع عميل عطل بالليل، أقدر أروح الموقع.",
+  "quiz": [
+   {
+    "s": "We value ___ in payment terms for good clients.",
+    "opts": [
+     "flexible",
+     "flexibility",
+     "flexibly"
+    ],
+    "a": 1,
+    "ar": "بنقدّر المرونة في شروط الدفع للعملاء الكويسين."
+   },
+   {
+    "s": "I'm ___ about the working hours.",
+    "opts": [
+     "flexibility",
+     "flexibly",
+     "flexible"
+    ],
+    "a": 2,
+    "ar": "أنا مرن في ساعات الشغل."
+   },
+   {
+    "s": "Their terms are very ___: cash only, no exceptions.",
+    "opts": [
+     "rigid",
+     "open",
+     "flexible"
+    ],
+    "a": 0,
+    "ar": "شروطهم ناشفة جدًا: كاش بس، من غير استثناءات."
+   }
+  ],
+  "book": "Well, I am certainly flexible."
+ },
+ {
+  "w": "negotiate",
+  "ar": "تتفاوض / تفاصل",
+  "family": [
+   {
+    "w": "negotiate",
+    "pos": "verb",
+    "ex": "We negotiated better prices with our battery supplier.",
+    "ar": "تفاوضنا على أسعار أحسن مع مورد البطاريات.",
+    "ex2": "We committed to 500 units a year.",
+    "ar2": "التزمنا بـ500 وحدة في السنة."
+   },
+   {
+    "w": "negotiation",
+    "pos": "noun",
+    "ex": "The negotiation over the maintenance contract took two weeks.",
+    "ar": "التفاوض على عقد الصيانة خد أسبوعين.",
+    "ex2": "Finally, we agreed on quarterly visits.",
+    "ar2": "في الآخر اتفقنا على زيارات كل تلات شهور."
+   },
+   {
+    "w": "negotiator",
+    "pos": "person",
+    "ex": "Mahmoud is our best negotiator for government tenders.",
+    "ar": "‎Mahmoud‎ أحسن مفاوض عندنا في المناقصات الحكومية.",
+    "ex2": "He knows the rules very well.",
+    "ar2": "بيفهم القواعد كويس جدًا."
+   },
+   {
+    "w": "negotiable",
+    "pos": "adjective",
+    "ex": "The delivery date is negotiable, but the price isn't.",
+    "ar": "ميعاد التسليم ممكن نتفاوض عليه، بس السعر لأ.",
+    "ex2": "The dollar rate changes every week.",
+    "ar2": "سعر الدولار بيتغير كل أسبوع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "bargain",
+    "note": "informal; pushing hard for a lower price",
+    "ex": "The farmer bargained hard over the solar pump price.",
+    "ar": "الفلاح فاصل جامد في سعر طلمبة الطاقة الشمسية.",
+    "ex2": "He compared three offers.",
+    "ar2": "قارن تلات عروض."
+   },
+   {
+    "w": "discuss",
+    "note": "neutral; just talking about terms",
+    "ex": "Let's discuss the payment terms on Sunday.",
+    "ar": "خلينا نتكلم في شروط الدفع يوم الحد.",
+    "ex2": "Finance will join the call.",
+    "ar2": "الحسابات هتدخل المكالمة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "accept",
+    "ex": "We decided to accept their first offer.",
+    "ar": "قررنا نقبل أول عرض منهم.",
+    "ex2": "The margin was already good.",
+    "ar2": "المكسب كان كويس أصلًا."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The client wants to negotiate the price of the solar station. We can give a small discount if he pays fifty percent upfront.",
+  "ctx_ar": "العميل عايز يتفاوض على سعر محطة الطاقة الشمسية. نقدر نديله خصم صغير لو دفع خمسين في المية مقدم.",
+  "quiz": [
+   {
+    "s": "The ___ took two weeks, but we signed.",
+    "opts": [
+     "negotiate",
+     "negotiation",
+     "negotiable"
+    ],
+    "a": 1,
+    "ar": "التفاوض خد أسبوعين، بس مضينا."
+   },
+   {
+    "s": "The price is fixed, but the delivery date is ___.",
+    "opts": [
+     "negotiator",
+     "negotiate",
+     "negotiable"
+    ],
+    "a": 2,
+    "ar": "السعر ثابت، بس ميعاد التسليم قابل للتفاوض."
+   },
+   {
+    "s": "Mahmoud is a strong ___; let him handle the tender.",
+    "opts": [
+     "negotiator",
+     "negotiation",
+     "negotiable"
+    ],
+    "a": 0,
+    "ar": "‎Mahmoud‎ مفاوض قوي؛ خليه يمسك المناقصة."
+   }
+  ],
+  "book": "I was hoping for something more in the ___ to ___ range, but I'm definitely open to negotiating based on the entire compensation package."
+ },
+ {
+  "w": "benefits",
+  "ar": "المزايا (تأمين، إجازات، عربية...)",
+  "family": [
+   {
+    "w": "benefits",
+    "pos": "noun",
+    "ex": "The job's benefits include medical insurance and a phone line.",
+    "ar": "مزايا الوظيفة فيها تأمين طبي وخط تليفون.",
+    "ex2": "Field engineers also get a car.",
+    "ar2": "مهندسين الموقع بياخدوا عربية كمان."
+   },
+   {
+    "w": "benefit",
+    "pos": "verb",
+    "ex": "Small clinics benefit from our online UPS models.",
+    "ar": "العيادات الصغيرة بتستفيد من موديلات الـ‎UPS‎ الأونلاين بتاعتنا.",
+    "ex2": "Their devices never lose power.",
+    "ar2": "أجهزتهم عمرها ما بتفصل."
+   },
+   {
+    "w": "beneficial",
+    "pos": "adjective",
+    "ex": "A maintenance contract is beneficial for both sides.",
+    "ar": "عقد الصيانة مفيد للطرفين.",
+    "ex2": "We get steady income, and the client gets fast service.",
+    "ar2": "إحنا ناخد دخل ثابت، والعميل ياخد خدمة سريعة."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "extras you get with a job",
+    "mar": "مزايا الوظيفة",
+    "ex": "The benefits here include training abroad.",
+    "ar": "المزايا هنا فيها تدريب برّه.",
+    "ex2": "Last year two engineers went to Italy.",
+    "ar2": "السنة اللي فاتت مهندسين اتنين سافروا إيطاليا."
+   },
+   {
+    "m": "advantages of a product",
+    "mar": "مميزات المنتج",
+    "ex": "Explain the benefits of lithium batteries to the client.",
+    "ar": "اشرح للعميل مميزات بطاريات الليثيوم.",
+    "ex2": "They last longer and need less space.",
+    "ar2": "بتعيش أكتر ومحتاجة مساحة أقل."
+   }
+  ],
+  "syn": [
+   {
+    "w": "perks",
+    "note": "informal; small extras like phone, meals, gym",
+    "ex": "The perks include free lunch and a mobile line.",
+    "ar": "المزايا الصغيرة فيها غدا ببلاش وخط موبايل.",
+    "ex2": "Not bad for a first job.",
+    "ar2": "مش وحش لأول شغلانة."
+   },
+   {
+    "w": "advantages",
+    "note": "about a product or option, not a job",
+    "ex": "The advantages of this inverter are size and efficiency.",
+    "ar": "مميزات الإنفرتر ده الحجم والكفاءة.",
+    "ex2": "It fits in small electrical rooms.",
+    "ar2": "بيدخل في أوض الكهربا الصغيرة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "drawbacks",
+    "ex": "The main drawback of lead-acid batteries is their weight.",
+    "ar": "أكبر عيب في بطاريات الرصاص وزنها.",
+    "ex2": "Each one weighs over 60 kilos.",
+    "ar2": "الواحدة فوق 60 كيلو."
+   },
+   {
+    "w": "disadvantages",
+    "ex": "Explain the disadvantages of the cheaper UPS honestly.",
+    "ar": "اشرح عيوب الـ‎UPS‎ الأرخص بصراحة.",
+    "ex2": "It has no bypass switch.",
+    "ar2": "مفيهوش مفتاح ‎bypass.‎"
+   }
+  ],
+  "ladder": null,
+  "ctx": "The salary is fine, but benefits matter to me too. Medical insurance and a company car would make a big difference.",
+  "ctx_ar": "المرتب كويس، بس المزايا كمان تفرق معايا. التأمين الطبي وعربية الشركة هيفرقوا كتير.",
+  "quiz": [
+   {
+    "s": "Medical insurance is one of the ___ of this job.",
+    "opts": [
+     "benefit",
+     "benefits",
+     "beneficial"
+    ],
+    "a": 1,
+    "ar": "التأمين الطبي من مزايا الوظيفة دي."
+   },
+   {
+    "s": "Hospitals ___ a lot from a maintenance contract.",
+    "opts": [
+     "benefit",
+     "beneficial",
+     "benefits"
+    ],
+    "a": 0,
+    "ar": "المستشفيات بتستفيد كتير من عقد الصيانة."
+   },
+   {
+    "s": "Regular battery checks are ___ for the client.",
+    "opts": [
+     "benefit",
+     "benefits",
+     "beneficial"
+    ],
+    "a": 2,
+    "ar": "فحص البطاريات المنتظم مفيد للعميل."
+   }
+  ],
+  "book": "But for me, benefits definitely matter as well."
+ },
+ {
+  "w": "base salary",
+  "ar": "المرتب الأساسي (من غير عمولة أو بونص)",
+  "family": [
+   {
+    "w": "base salary",
+    "pos": "noun",
+    "ex": "The base salary is fixed for the first year.",
+    "ar": "المرتب الأساسي ثابت أول سنة.",
+    "ex2": "After that, it's reviewed every January.",
+    "ar2": "بعد كده بيتراجع كل يناير."
+   },
+   {
+    "w": "base",
+    "pos": "verb",
+    "ex": "Your bonus will be based on collections, not sales.",
+    "ar": "البونص بتاعك هيكون على أساس التحصيل، مش المبيعات.",
+    "ex2": "Unpaid invoices don't count.",
+    "ar2": "الفواتير اللي متدفعتش مش بتتحسب."
+   },
+   {
+    "w": "basic",
+    "pos": "adjective",
+    "ex": "The basic package has no car allowance.",
+    "ar": "الباكدج الأساسي مفيهوش بدل عربية.",
+    "ex2": "Senior engineers get one.",
+    "ar2": "المهندسين الكبار بياخدوا."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "basic pay",
+    "note": "British; same meaning, common in contracts",
+    "ex": "Overtime is paid at one and a half times basic pay.",
+    "ar": "الأوفر تايم بيتدفع مرة ونص المرتب الأساسي.",
+    "ex2": "Site work on Fridays counts as overtime.",
+    "ar2": "شغل الموقع يوم الجمعة بيتحسب أوفر تايم."
+   },
+   {
+    "w": "fixed salary",
+    "note": "stresses that it doesn't change with results",
+    "ex": "I prefer a fixed salary to high commission.",
+    "ar": "أفضّل مرتب ثابت عن عمولة عالية.",
+    "ex2": "Collections can be slow in summer.",
+    "ar2": "التحصيل ممكن يبقى بطيء في الصيف."
+   }
+  ],
+  "ant": [
+   {
+    "w": "commission",
+    "ex": "Sales engineers earn commission on top of salary.",
+    "ar": "مهندسين المبيعات بياخدوا عمولة فوق المرتب.",
+    "ex2": "It's two percent of each paid invoice.",
+    "ar2": "هي اتنين في المية من كل فاتورة مدفوعة."
+   },
+   {
+    "w": "bonus",
+    "ex": "We get a yearly bonus if targets are met.",
+    "ar": "بناخد بونص سنوي لو حققنا التارجت.",
+    "ex2": "Last year it was two months' pay.",
+    "ar2": "السنة اللي فاتت كان مرتب شهرين."
+   }
+  ],
+  "ladder": null,
+  "ctx": "My base salary is 25,000 pounds a month. On top of that, I earn commission on every UPS and solar deal I close.",
+  "ctx_ar": "مرتبي الأساسي 25 ألف جنيه في الشهر. وفوقه باخد عمولة على كل صفقة ‎UPS‎ وطاقة شمسية بقفلها.",
+  "quiz": [
+   {
+    "s": "My ___ is 20,000, plus commission.",
+    "opts": [
+     "base salary",
+     "based",
+     "basic"
+    ],
+    "a": 0,
+    "ar": "مرتبي الأساسي 20 ألف، وفوقه عمولة."
+   },
+   {
+    "s": "Your bonus is ___ on collections.",
+    "opts": [
+     "base salary",
+     "basic",
+     "based"
+    ],
+    "a": 2,
+    "ar": "البونص بتاعك على أساس التحصيل."
+   },
+   {
+    "s": "Sales staff earn ___ on every paid invoice.",
+    "opts": [
+     "commission",
+     "base salary",
+     "basic pay"
+    ],
+    "a": 0,
+    "ar": "موظفين المبيعات بياخدوا عمولة على كل فاتورة مدفوعة."
+   }
+  ],
+  "book": "I'm currently earning a base salary of ___."
+ },
+ {
+  "w": "reasonable",
+  "ar": "معقول / مش مبالغ فيه",
+  "family": [
+   {
+    "w": "reasonable",
+    "pos": "adjective",
+    "ex": "Two weeks is a reasonable lead time for VFDs.",
+    "ar": "أسبوعين مدة توريد معقولة للـ‎VFD.‎",
+    "ex2": "Some suppliers need two months.",
+    "ar2": "في موردين محتاجين شهرين."
+   },
+   {
+    "w": "reasonably",
+    "pos": "adverb",
+    "ex": "The new batteries are reasonably priced.",
+    "ar": "البطاريات الجديدة سعرها معقول.",
+    "ex2": "They're cheaper than last year's.",
+    "ar2": "أرخص من بتوع السنة اللي فاتت."
+   },
+   {
+    "w": "reason",
+    "pos": "noun",
+    "ex": "What's the reason for the late payment?",
+    "ar": "إيه سبب تأخير الدفع؟",
+    "ex2": "The client says the PO wasn't approved.",
+    "ar2": "العميل بيقول أمر الشراء متوافقش عليه."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "fair",
+    "note": "stresses justice for both sides",
+    "ex": "I think 30,000 is a fair salary for this role.",
+    "ar": "أعتقد إن 30 ألف مرتب عادل للوظيفة دي.",
+    "ex2": "It matches the market.",
+    "ar2": "ده على قد السوق."
+   },
+   {
+    "w": "acceptable",
+    "note": "just good enough to agree to",
+    "ex": "The new delivery date is acceptable to the client.",
+    "ar": "ميعاد التسليم الجديد مقبول عند العميل.",
+    "ex2": "But he won't accept another delay.",
+    "ar2": "بس مش هيقبل تأخير تاني."
+   }
+  ],
+  "ant": [
+   {
+    "w": "unreasonable",
+    "ex": "Paying in 180 days is unreasonable for a small order.",
+    "ar": "الدفع على 180 يوم مش معقول لطلب صغير.",
+    "ex2": "We asked for 30 days.",
+    "ar2": "طلبنا 30 يوم."
+   },
+   {
+    "w": "excessive",
+    "ex": "The shipping cost from the port was excessive.",
+    "ar": "تكلفة الشحن من الميناء كانت مبالغ فيها.",
+    "ex2": "We found a cheaper truck company.",
+    "ar2": "لقينا شركة نقل أرخص."
+   }
+  ],
+  "ladder": {
+   "label": "how good the price is",
+   "lar": "السعر كويس قد إيه",
+   "steps": [
+    {
+     "w": "acceptable",
+     "ex": "Their price is acceptable, not great.",
+     "ar": "سعرهم مقبول، مش هايل.",
+     "ex2": "We can still ask for a discount.",
+     "ar2": "لسه نقدر نطلب خصم."
+    },
+    {
+     "w": "reasonable",
+     "ex": "Their price is reasonable for this quality.",
+     "ar": "سعرهم معقول للجودة دي.",
+     "ex2": "The batteries come with a three-year warranty.",
+     "ar2": "البطاريات معاها ضمان تلات سنين."
+    },
+    {
+     "w": "excellent value",
+     "ex": "This UPS is excellent value for a bank branch.",
+     "ar": "الـ‎UPS‎ ده قيمة ممتازة لفرع بنك.",
+     "ex2": "It's reliable and the price is low.",
+     "ar2": "موثوق والسعر قليل."
+    }
+   ]
+  },
+  "ctx": "Their quotation for the 100 kVA UPS seems reasonable. It's close to the market price and includes two years' warranty.",
+  "ctx_ar": "عرض السعر بتاعهم للـ‎UPS‎ الـ100 ‎kVA‎ شكله معقول. قريب من سعر السوق وفيه ضمان سنتين.",
+  "quiz": [
+   {
+    "s": "The batteries are ___ priced.",
+    "opts": [
+     "reasonable",
+     "reasonably",
+     "reason"
+    ],
+    "a": 1,
+    "ar": "البطاريات سعرها معقول."
+   },
+   {
+    "s": "What's the ___ for the delay?",
+    "opts": [
+     "reasonable",
+     "reasonably",
+     "reason"
+    ],
+    "a": 2,
+    "ar": "إيه سبب التأخير؟"
+   },
+   {
+    "s": "Asking for 180 days' credit is ___.",
+    "opts": [
+     "unreasonable",
+     "reasonable",
+     "acceptable"
+    ],
+    "a": 0,
+    "ar": "إنك تطلب سداد على 180 يوم ده مش معقول."
+   }
+  ],
+  "book": "This seems reasonable."
+ },
+ {
+  "w": "reputation",
+  "ar": "السمعة",
+  "family": [
+   {
+    "w": "reputation",
+    "pos": "noun",
+    "ex": "Late deliveries can damage our reputation with big clients.",
+    "ar": "التأخير في التسليم ممكن يبوّظ سمعتنا مع العملاء الكبار.",
+    "ex2": "One bad project spreads fast.",
+    "ar2": "مشروع واحد وحش الكلام عنه بينتشر بسرعة."
+   },
+   {
+    "w": "reputable",
+    "pos": "adjective",
+    "ex": "We only buy batteries from reputable manufacturers.",
+    "ar": "بنشتري البطاريات من مصنّعين محترمين وبس.",
+    "ex2": "Cheap copies fail after a year.",
+    "ar2": "التقليد الرخيص بيبوظ بعد سنة."
+   },
+   {
+    "w": "reputed",
+    "pos": "adjective",
+    "ex": "She works for a highly reputed solar company.",
+    "ar": "بتشتغل في شركة طاقة شمسية ليها اسم كبير.",
+    "ex2": "They built stations across Upper Egypt.",
+    "ar2": "بنوا محطات في الصعيد كله."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "name",
+    "note": "informal; how known and respected a company is",
+    "ex": "We have a good name in the pharmaceutical sector.",
+    "ar": "لينا اسم كويس في قطاع الأدوية.",
+    "ex2": "Most factories there use our UPS.",
+    "ar2": "أغلب المصانع هناك بتستخدم الـ‎UPS‎ بتاعنا."
+   },
+   {
+    "w": "image",
+    "note": "how people see you, often from marketing",
+    "ex": "Our new website improved the company's image.",
+    "ar": "الموقع الجديد حسّن صورة الشركة.",
+    "ex2": "Leads from Google doubled.",
+    "ar2": "العملاء المحتملين من جوجل اتضاعفوا."
+   }
+  ],
+  "ant": [
+   {
+    "w": "bad name",
+    "ex": "Unpaid suppliers gave that contractor a bad name.",
+    "ar": "الموردين اللي ماخدوش فلوسهم عملوا للمقاول ده سمعة وحشة.",
+    "ex2": "Now nobody gives him credit.",
+    "ar2": "دلوقتي محدش بيديله آجل."
+   }
+  ],
+  "ladder": {
+   "label": "how respected",
+   "lar": "قد إيه محترم",
+   "steps": [
+    {
+     "w": "known",
+     "ex": "They're known for cheap generators.",
+     "ar": "معروفين بالمولدات الرخيصة.",
+     "ex2": "Not for quality, though.",
+     "ar2": "بس مش بالجودة."
+    },
+    {
+     "w": "reputable",
+     "ex": "They're a reputable UPS distributor.",
+     "ar": "هما موزع ‎UPS‎ محترم.",
+     "ex2": "Their stock is always original.",
+     "ar2": "بضاعتهم دايمًا أصلي."
+    },
+    {
+     "w": "highly reputed",
+     "ex": "They're a highly reputed name in data centres.",
+     "ar": "هما اسم كبير جدًا في الداتا سنتر.",
+     "ex2": "Banks trust them with critical sites.",
+     "ar2": "البنوك بتأمنهم على المواقع الحساسة."
+    }
+   ]
+  },
+  "ctx": "Your company has a strong reputation for fast UPS service. Hospitals I spoke to say your engineers arrive within four hours.",
+  "ctx_ar": "شركتكم ليها سمعة قوية في سرعة صيانة الـ‎UPS.‎ المستشفيات اللي كلمتها بتقول مهندسينكم بيوصلوا في أربع ساعات.",
+  "quiz": [
+   {
+    "s": "Late deliveries hurt our ___.",
+    "opts": [
+     "reputable",
+     "reputation",
+     "reputed"
+    ],
+    "a": 1,
+    "ar": "التأخير في التسليم بيضر سمعتنا."
+   },
+   {
+    "s": "We buy only from ___ suppliers.",
+    "opts": [
+     "reputable",
+     "reputation",
+     "name"
+    ],
+    "a": 0,
+    "ar": "بنشتري من موردين محترمين بس."
+   },
+   {
+    "s": "It's a ___ firm with thirty years in the market.",
+    "opts": [
+     "known",
+     "reputation",
+     "highly reputed"
+    ],
+    "a": 2,
+    "ar": "دي شركة ليها اسم كبير وتلاتين سنة في السوق."
+   }
+  ],
+  "book": "I've heard of your reputation in the industry, and I would be proud to work for a company with such an excellent track record and a strong example of leadership in the industry."
+ },
+ {
+  "w": "attributes",
+  "ar": "صفات / مميزات (في شخص أو منتج)",
+  "family": [
+   {
+    "w": "attributes",
+    "pos": "noun",
+    "ex": "What attributes do you look for in a service engineer?",
+    "ar": "بتدوّروا على أنهي صفات في مهندس الصيانة؟",
+    "ex2": "We value safety and patience.",
+    "ar2": "بنقدّر السلامة والصبر."
+   },
+   {
+    "w": "attribute",
+    "pos": "verb",
+    "ex": "We attribute the battery failure to high room temperature.",
+    "ar": "بنرجّع عطل البطارية لحرارة الأوضة العالية.",
+    "ex2": "The AC was off for a week.",
+    "ar2": "التكييف كان مطفي أسبوع."
+   },
+   {
+    "w": "attributable",
+    "pos": "adjective",
+    "ex": "The delay was attributable to customs, not to us.",
+    "ar": "التأخير كان بسبب الجمارك، مش بسببنا.",
+    "ex2": "We sent the client the port letter.",
+    "ar2": "بعتنا للعميل جواب الميناء."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "qualities",
+    "note": "personal character: honest, patient, calm",
+    "ex": "She has the qualities of a good team leader.",
+    "ar": "عندها صفات القائد الكويس.",
+    "ex2": "She listens and decides fast.",
+    "ar2": "بتسمع وبتقرر بسرعة."
+   },
+   {
+    "w": "features",
+    "note": "about products, not people",
+    "ex": "The features of this UPS include remote monitoring.",
+    "ar": "مميزات الـ‎UPS‎ ده فيها مراقبة عن بعد.",
+    "ex2": "You can see alarms on your phone.",
+    "ar2": "تقدر تشوف الإنذارات على موبايلك."
+   }
+  ],
+  "ant": [
+   {
+    "w": "weaknesses",
+    "ex": "Every candidate has weaknesses as well as attributes.",
+    "ar": "كل متقدم عنده نقط ضعف زي ما عنده مميزات.",
+    "ex2": "Ask about both in the interview.",
+    "ar2": "اسأل عن الاتنين في الإنترفيو."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Patience is one of the key attributes for a collections officer. Customers often delay, and you must stay polite.",
+  "ctx_ar": "الصبر من أهم الصفات لموظف التحصيل. العملاء كتير بيأخروا، ولازم تفضل مؤدب.",
+  "quiz": [
+   {
+    "s": "What ___ make a good sales engineer?",
+    "opts": [
+     "attribute",
+     "attributes",
+     "attributable"
+    ],
+    "a": 1,
+    "ar": "إيه الصفات اللي بتعمل مهندس مبيعات كويس؟"
+   },
+   {
+    "s": "The delay was ___ to bad weather at the port.",
+    "opts": [
+     "attributable",
+     "attributes",
+     "attribute"
+    ],
+    "a": 0,
+    "ar": "التأخير كان بسبب الجو الوحش في الميناء."
+   },
+   {
+    "s": "Remote monitoring is one of the UPS's best ___.",
+    "opts": [
+     "qualities",
+     "weaknesses",
+     "features"
+    ],
+    "a": 2,
+    "ar": "المراقبة عن بعد من أحسن مميزات الـ‎UPS.‎"
+   }
+  ],
+  "book": "What attributes would I need to be successful in this position?"
+ },
+ {
+  "w": "evaluate",
+  "ar": "تقيّم",
+  "family": [
+   {
+    "w": "evaluate",
+    "pos": "verb",
+    "ex": "We need to evaluate three offers for the solar inverters.",
+    "ar": "محتاجين نقيّم تلات عروض للإنفرترات الشمسية.",
+    "ex2": "Price, warranty and lead time matter.",
+    "ar2": "السعر والضمان ومدة التوريد بيفرقوا."
+   },
+   {
+    "w": "evaluation",
+    "pos": "noun",
+    "ex": "Your first evaluation will be after three months.",
+    "ar": "أول تقييم ليك هيكون بعد تلات شهور.",
+    "ex2": "Your manager will review your site reports.",
+    "ar2": "مديرك هيراجع تقارير المواقع بتاعتك."
+   },
+   {
+    "w": "evaluator",
+    "pos": "person",
+    "ex": "An external evaluator checked the tender offers.",
+    "ar": "مقيّم من برّه راجع عروض المناقصة.",
+    "ex2": "He gave our offer the highest score.",
+    "ar2": "إدّى عرضنا أعلى درجة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "assess",
+    "note": "formal; judge a situation, risk or need",
+    "ex": "The engineer will assess the site before quoting.",
+    "ar": "المهندس هيعاين الموقع قبل ما يدي سعر.",
+    "ex2": "He'll check space and cabling.",
+    "ar2": "هيشوف المساحة والكابلات."
+   },
+   {
+    "w": "review",
+    "note": "look again at something already done",
+    "ex": "Let's review last month's collections on Sunday.",
+    "ar": "خلينا نراجع تحصيل الشهر اللي فات يوم الحد.",
+    "ex2": "Two invoices are still open.",
+    "ar2": "فيه فاتورتين لسه مفتوحين."
+   }
+  ],
+  "ant": [
+   {
+    "w": "ignore",
+    "ex": "Don't ignore the battery test results.",
+    "ar": "متطنّشش نتايج اختبار البطاريات.",
+    "ex2": "Two cells are already weak.",
+    "ar2": "فيه خليتين ضعاف أصلًا."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We evaluate each sales engineer every quarter. Collections and new maintenance contracts count the most.",
+  "ctx_ar": "بنقيّم كل مهندس مبيعات كل ربع سنة. التحصيل وعقود الصيانة الجديدة هما اللي بيفرقوا أكتر.",
+  "quiz": [
+   {
+    "s": "My first ___ is after three months.",
+    "opts": [
+     "evaluate",
+     "evaluation",
+     "evaluator"
+    ],
+    "a": 1,
+    "ar": "أول تقييم ليا بعد تلات شهور."
+   },
+   {
+    "s": "We need to ___ the three supplier offers.",
+    "opts": [
+     "evaluate",
+     "evaluation",
+     "evaluator"
+    ],
+    "a": 0,
+    "ar": "لازم نقيّم عروض الموردين التلاتة."
+   },
+   {
+    "s": "The engineer will ___ the site before quoting.",
+    "opts": [
+     "ignore",
+     "evaluation",
+     "assess"
+    ],
+    "a": 2,
+    "ar": "المهندس هيعاين الموقع قبل ما يدي سعر."
+   }
+  ],
+  "book": "What metrics or goals would you use to evaluate my performance?"
+ },
+ {
+  "w": "raise",
+  "ar": "علاوة / تزوّد / تطلع (موضوع أو فاتورة)",
+  "family": [
+   {
+    "w": "raise",
+    "pos": "noun",
+    "ex": "Hany got a raise after collecting all overdue invoices.",
+    "ar": "‎Hany‎ خد علاوة بعد ما حصّل كل الفواتير المتأخرة.",
+    "ex2": "Finance was very happy with him.",
+    "ar2": "الحسابات كانت مبسوطة منه جدًا."
+   },
+   {
+    "w": "raise",
+    "pos": "verb",
+    "ex": "The supplier raised battery prices by ten percent.",
+    "ar": "المورد زوّد أسعار البطاريات عشرة في المية.",
+    "ex2": "We must update our quotations.",
+    "ar2": "لازم نحدّث عروض الأسعار بتاعتنا."
+   },
+   {
+    "w": "rise",
+    "pos": "verb",
+    "ex": "Costs rise every time the dollar goes up.",
+    "ar": "التكاليف بتزيد كل ما الدولار يطلع.",
+    "ex2": "So our offers are valid for one week only.",
+    "ar2": "عشان كده عروضنا صالحة أسبوع بس."
+   }
+  ],
+  "meanings": [
+   {
+    "m": "a pay increase",
+    "mar": "علاوة",
+    "ex": "I'd like to discuss a raise at my review.",
+    "ar": "عايز أتكلم في علاوة في التقييم بتاعي.",
+    "ex2": "I've exceeded my target twice.",
+    "ar2": "عدّيت التارجت مرتين."
+   },
+   {
+    "m": "mention an issue",
+    "mar": "تفتح موضوع",
+    "ex": "The client raised a problem with the VFD noise.",
+    "ar": "العميل فتح موضوع صوت الـ‎VFD‎ العالي.",
+    "ex2": "We'll send an engineer tomorrow.",
+    "ar2": "هنبعت مهندس بكرة."
+   },
+   {
+    "m": "create a document like an invoice or PO",
+    "mar": "تطلّع فاتورة أو أمر",
+    "ex": "Please raise an invoice for the battery replacement.",
+    "ar": "طلّع فاتورة لتغيير البطاريات من فضلك.",
+    "ex2": "The client needs it before Thursday.",
+    "ar2": "العميل محتاجها قبل الخميس."
+   }
+  ],
+  "syn": [
+   {
+    "w": "increase",
+    "note": "neutral; for prices, pay or numbers",
+    "ex": "We'll increase the service fee next year.",
+    "ar": "هنزوّد رسوم الصيانة السنة الجاية.",
+    "ex2": "Spare parts cost more now.",
+    "ar2": "قطع الغيار بقت أغلى."
+   },
+   {
+    "w": "bring up",
+    "note": "informal; start talking about a topic",
+    "ex": "She will bring up the late payment in the meeting.",
+    "ar": "هتفتح موضوع الدفع المتأخر في الاجتماع.",
+    "ex2": "The client promised to pay last Sunday.",
+    "ar2": "العميل كان واعد يدفع الحد اللي فات."
+   }
+  ],
+  "ant": [
+   {
+    "w": "cut",
+    "ex": "The company had to cut prices to win the tender.",
+    "ar": "الشركة اضطرت تقلل الأسعار عشان تكسب المناقصة.",
+    "ex2": "Our margin is now very small.",
+    "ar2": "المكسب بتاعنا بقى قليل جدًا."
+   },
+   {
+    "w": "lower",
+    "ex": "They agreed to lower the price for a bigger order.",
+    "ar": "وافقوا يقللوا السعر لطلب أكبر.",
+    "ex2": "We ordered 200 batteries instead of 100.",
+    "ar2": "طلبنا 200 بطارية بدل 100."
+   }
+  ],
+  "ladder": null,
+  "ctx": "I accepted the starting salary, and I'll ask for a raise after my first year. By then I'll have closed several big UPS deals.",
+  "ctx_ar": "قبلت مرتب البداية، وهطلب علاوة بعد أول سنة. ساعتها هكون قفلت كذا صفقة ‎UPS‎ كبيرة.",
+  "quiz": [
+   {
+    "s": "I'll ask for a ___ after my first year.",
+    "opts": [
+     "raise",
+     "rise",
+     "lower"
+    ],
+    "a": 0,
+    "ar": "هطلب علاوة بعد أول سنة."
+   },
+   {
+    "s": "Prices ___ every time the dollar goes up.",
+    "opts": [
+     "raise",
+     "rise",
+     "lower"
+    ],
+    "a": 1,
+    "ar": "الأسعار بتزيد كل ما الدولار يطلع."
+   },
+   {
+    "s": "They agreed to ___ the price for a bigger order.",
+    "opts": [
+     "raise",
+     "rise",
+     "lower"
+    ],
+    "a": 2,
+    "ar": "وافقوا يقللوا السعر لطلب أكبر."
+   }
+  ],
+  "book": "I care so much about this job and I'm willing to do my best to succeed with you, so I accept the starting salary of this job, with the availability of benefits and a raise afterwards."
+ },
+ {
+  "w": "impact",
+  "ar": "تأثير / تأثّر في",
+  "family": [
+   {
+    "w": "impact",
+    "pos": "noun",
+    "ex": "The dollar rate had a big impact on our battery prices.",
+    "ar": "سعر الدولار أثّر جامد على أسعار البطاريات.",
+    "ex2": "They went up three times this year.",
+    "ar2": "زادوا تلات مرات السنة دي."
+   },
+   {
+    "w": "impact",
+    "pos": "verb",
+    "ex": "Power cuts impact the hospital's operating rooms.",
+    "ar": "انقطاع الكهربا بيأثر على أوض العمليات في المستشفى.",
+    "ex2": "That's why they need online UPS units.",
+    "ar2": "عشان كده محتاجين ‎UPS‎ أونلاين."
+   },
+   {
+    "w": "impactful",
+    "pos": "adjective",
+    "ex": "The training was very impactful for the new technicians.",
+    "ar": "التدريب أثّر جدًا في الفنيين الجداد.",
+    "ex2": "Their repair time dropped by half.",
+    "ar2": "وقت الإصلاح بتاعهم قل للنص."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "effect",
+    "note": "neutral result of a cause",
+    "ex": "The new VFDs had a clear effect on the electricity bill.",
+    "ar": "الـ‎VFD‎ الجديدة كان ليها تأثير واضح على فاتورة الكهربا.",
+    "ex2": "It fell by twenty percent.",
+    "ar2": "نزلت عشرين في المية."
+   },
+   {
+    "w": "difference",
+    "note": "informal: make a difference = improve things",
+    "ex": "A maintenance contract makes a real difference to uptime.",
+    "ar": "عقد الصيانة بيعمل فرق حقيقي في وقت التشغيل.",
+    "ex2": "Faults are caught early.",
+    "ar2": "الأعطال بتتمسك بدري."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how strong the effect",
+   "lar": "قوة التأثير",
+   "steps": [
+    {
+     "w": "small effect",
+     "ex": "The price change had a small effect on demand.",
+     "ar": "تغيير السعر كان له تأثير بسيط على الطلب.",
+     "ex2": "Most clients still ordered.",
+     "ar2": "أغلب العملاء لسه طلبوا."
+    },
+    {
+     "w": "impact",
+     "ex": "The new manager had a clear impact on collections.",
+     "ar": "المدير الجديد كان له تأثير واضح على التحصيل.",
+     "ex2": "Overdue invoices dropped quickly.",
+     "ar2": "الفواتير المتأخرة قلت بسرعة."
+    },
+    {
+     "w": "huge impact",
+     "ex": "The power crisis had a huge impact on UPS sales.",
+     "ar": "أزمة الكهربا أثّرت جامد جدًا على مبيعات الـ‎UPS.‎",
+     "ex2": "Orders tripled in two months.",
+     "ar2": "الطلبات اتضاعفت تلات مرات في شهرين."
+    }
+   ]
+  },
+  "ctx": "I think I can make an immediate impact on your collections. In my last job, I reduced overdue invoices by forty percent.",
+  "ctx_ar": "أعتقد إني أقدر أعمل فرق سريع في التحصيل عندكم. في شغلي اللي فات قللت الفواتير المتأخرة أربعين في المية.",
+  "quiz": [
+   {
+    "s": "The dollar rate had a big ___ on prices.",
+    "opts": [
+     "impact",
+     "impactful",
+     "impacted"
+    ],
+    "a": 0,
+    "ar": "سعر الدولار أثّر جامد على الأسعار."
+   },
+   {
+    "s": "Power cuts directly ___ the hospital.",
+    "opts": [
+     "impactful",
+     "impact",
+     "effect"
+    ],
+    "a": 1,
+    "ar": "انقطاع الكهربا بيأثر على المستشفى مباشرة."
+   },
+   {
+    "s": "The safety training was very ___.",
+    "opts": [
+     "impact",
+     "effect",
+     "impactful"
+    ],
+    "a": 2,
+    "ar": "تدريب السلامة كان مؤثر جدًا."
+   }
+  ],
+  "book": "Based on his assessment and encouragement, I think I would fit in perfectly with the team here and make an immediate impact."
+ },
+ {
+  "w": "contribution",
+  "ar": "مساهمة / إضافة",
+  "family": [
+   {
+    "w": "contribution",
+    "pos": "noun",
+    "ex": "His contribution to the data-centre project was the cooling design.",
+    "ar": "مساهمته في مشروع الداتا سنتر كانت تصميم التبريد.",
+    "ex2": "The client loved it.",
+    "ar2": "العميل حبه جدًا."
+   },
+   {
+    "w": "contribute",
+    "pos": "verb",
+    "ex": "Every engineer contributes ideas at the Monday meeting.",
+    "ar": "كل مهندس بيقدم أفكار في اجتماع الاتنين.",
+    "ex2": "Last week we improved the visit checklist.",
+    "ar2": "الأسبوع اللي فات حسّنا ‎checklist‎ الزيارة."
+   },
+   {
+    "w": "contributor",
+    "pos": "person",
+    "ex": "Samir is a key contributor to our service team.",
+    "ar": "‎Samir‎ عنصر أساسي في فريق الصيانة.",
+    "ex2": "He fixes the hardest UPS faults.",
+    "ar2": "بيصلّح أصعب أعطال الـ‎UPS.‎"
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "input",
+    "note": "ideas or opinions you give",
+    "ex": "We need your input on the new maintenance price list.",
+    "ar": "محتاجين رأيك في قايمة أسعار الصيانة الجديدة.",
+    "ex2": "You know the clients best.",
+    "ar2": "إنت أكتر واحد عارف العملاء."
+   },
+   {
+    "w": "role",
+    "note": "your part in a team result",
+    "ex": "She played a key role in collecting the hospital debt.",
+    "ar": "كان ليها دور أساسي في تحصيل مديونية المستشفى.",
+    "ex2": "She called them every week.",
+    "ar2": "كانت بتكلمهم كل أسبوع."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Rania made a big contribution to the solar tender. Her cost analysis helped us win it.",
+  "ctx_ar": "‎Rania‎ ساهمت مساهمة كبيرة في مناقصة الطاقة الشمسية. تحليل التكاليف بتاعها ساعدنا نكسبها.",
+  "quiz": [
+   {
+    "s": "Thank you for your ___ to the project.",
+    "opts": [
+     "contribute",
+     "contribution",
+     "contributor"
+    ],
+    "a": 1,
+    "ar": "شكرًا على مساهمتك في المشروع."
+   },
+   {
+    "s": "Everyone can ___ ideas at the meeting.",
+    "opts": [
+     "contribute",
+     "contribution",
+     "contributor"
+    ],
+    "a": 0,
+    "ar": "أي حد يقدر يقدّم أفكار في الاجتماع."
+   },
+   {
+    "s": "Samir is a key ___ to our team.",
+    "opts": [
+     "contribute",
+     "contribution",
+     "contributor"
+    ],
+    "a": 2,
+    "ar": "‎Samir‎ عنصر أساسي في فريقنا."
+   }
+  ],
+  "book": "I assure you that I have the zeal to give 100% to my work and make a noteworthy contribution to this organization."
+ },
+ {
+  "w": "fill a gap",
+  "ar": "تسد فراغ / تكمّل نقص",
+  "family": [
+   {
+    "w": "fill a gap",
+    "pos": "verb",
+    "ex": "A lithium battery range would fill a gap in our product line.",
+    "ar": "مجموعة بطاريات ليثيوم هتسد نقص في منتجاتنا.",
+    "ex2": "Many clients ask for them now.",
+    "ar2": "عملاء كتير بيطلبوها دلوقتي."
+   },
+   {
+    "w": "gap",
+    "pos": "noun",
+    "ex": "There's a gap between our price and the competitor's.",
+    "ar": "فيه فرق بين سعرنا وسعر المنافس.",
+    "ex2": "It's about eight percent.",
+    "ar2": "حوالي تمانية في المية."
+   },
+   {
+    "w": "fill",
+    "pos": "verb",
+    "ex": "HR hopes to fill the service engineer job this month.",
+    "ar": "الموارد البشرية بتتمنى تعيّن مهندس الصيانة الشهر ده.",
+    "ex2": "We've interviewed five people.",
+    "ar2": "عملنا إنترفيو لخمس أشخاص."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "meet a need",
+    "note": "formal; supply what is missing for a client",
+    "ex": "Our new rental UPS service meets a real need.",
+    "ar": "خدمة تأجير الـ‎UPS‎ الجديدة بتلبّي احتياج حقيقي.",
+    "ex2": "Events need power for only a few days.",
+    "ar2": "الحفلات محتاجة كهربا كام يوم بس."
+   },
+   {
+    "w": "cover",
+    "note": "do the work of someone absent or missing",
+    "ex": "Can you cover Ahmed's site visits this week?",
+    "ar": "ممكن تغطي زيارات ‎Ahmed‎ الأسبوع ده؟",
+    "ex2": "He's on leave until Sunday.",
+    "ar2": "هو في إجازة لحد الحد."
+   }
+  ],
+  "ant": [
+   {
+    "w": "leave a gap",
+    "ex": "His resignation will leave a gap in collections.",
+    "ar": "استقالته هتسيب فراغ في التحصيل.",
+    "ex2": "He handled the biggest clients.",
+    "ar2": "كان ماسك أكبر العملاء."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We need someone to fill a gap in our solar team. Nobody here can design off-grid systems for farms.",
+  "ctx_ar": "محتاجين حد يسد فراغ في فريق الطاقة الشمسية. محدش هنا يعرف يصمم أنظمة منفصلة عن الشبكة للمزارع.",
+  "quiz": [
+   {
+    "s": "This role will ___ in our VFD team.",
+    "opts": [
+     "fill a gap",
+     "gap",
+     "leave a gap"
+    ],
+    "a": 0,
+    "ar": "الوظيفة دي هتسد فراغ في فريق الـ‎VFD.‎"
+   },
+   {
+    "s": "There's a big price ___ between us and them.",
+    "opts": [
+     "fill",
+     "fill a gap",
+     "gap"
+    ],
+    "a": 2,
+    "ar": "فيه فرق سعر كبير بيننا وبينهم."
+   },
+   {
+    "s": "We hope to ___ the job by March.",
+    "opts": [
+     "gap",
+     "fill",
+     "cover"
+    ],
+    "a": 1,
+    "ar": "نتمنى نعيّن حد في الوظيفة قبل مارس."
+   }
+  ],
+  "book": "What gaps are you looking to fill with this role?"
  }
 ]

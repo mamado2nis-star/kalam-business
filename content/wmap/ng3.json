@@ -753,5 +753,1279 @@
   ],
   "ctx": "We raised our prices in line with the new exchange rate. Customers accepted it because competitors did the same.",
   "ctx_ar": "رفعنا أسعارنا حسب سعر الصرف الجديد. العملاء قبلوا عشان المنافسين عملوا نفس الحاجة."
+ },
+ {
+  "w": "clarify",
+  "ar": "توضّح / تتأكد إنك فاهم",
+  "family": [
+   {
+    "w": "clarify",
+    "pos": "verb",
+    "ex": "Just to clarify, is the price per battery or per string?",
+    "ar": "بس عشان أتأكد، السعر للبطارية ولا للسلسلة كلها؟",
+    "ex2": "The quotation doesn't say clearly.",
+    "ar2": "عرض السعر مش واضح فيه."
+   },
+   {
+    "w": "clarification",
+    "pos": "noun",
+    "ex": "We need clarification on the warranty start date.",
+    "ar": "محتاجين توضيح لتاريخ بداية الضمان.",
+    "ex2": "Is it from delivery or from commissioning? We need clarification.",
+    "ar2": "هو من التسليم ولا من التشغيل؟ محتاجين توضيح."
+   },
+   {
+    "w": "clear",
+    "pos": "adjective",
+    "ex": "Please make the payment terms clear in the PO.",
+    "ar": "من فضلك خلي شروط الدفع واضحة في الـ‎PO‎.",
+    "ex2": "Clear terms avoid problems in collections.",
+    "ar2": "الشروط الواضحة بتمنع مشاكل التحصيل."
+   },
+   {
+    "w": "clarity",
+    "pos": "noun",
+    "ex": "The client liked the clarity of our technical offer.",
+    "ar": "العميل عجبه وضوح العرض الفني بتاعنا.",
+    "ex2": "Clarity saves time in long tenders.",
+    "ar2": "الوضوح بيوفر وقت في المناقصات الطويلة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "confirm",
+    "note": "make sure something is correct; often in writing",
+    "ex": "Can you confirm the delivery address by email?",
+    "ar": "ممكن تأكد عنوان التسليم بالإيميل؟",
+    "ex2": "Once you confirm it, we'll ship the UPS.",
+    "ar2": "أول ما تأكده، هنشحن الـ‎UPS‎."
+   },
+   {
+    "w": "explain",
+    "note": "give more details so someone understands",
+    "ex": "Could you explain the alarm on the inverter screen?",
+    "ar": "ممكن تشرح الإنذار اللي على شاشة الإنفرتر؟",
+    "ex2": "He explained that the batteries were overheating.",
+    "ar2": "شرح إن البطاريات كانت بتسخن."
+   }
+  ],
+  "ant": [
+   {
+    "w": "confuse",
+    "ex": "Two different prices in the email will confuse the client.",
+    "ar": "سعرين مختلفين في الإيميل هيلخبطوا العميل.",
+    "ex2": "Let's not confuse him; send one clear offer.",
+    "ar2": "خلّينا منلخبطوش؛ ابعت عرض واحد واضح."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Just to clarify, you want 20 batteries now and 20 next month? Then I'll split the invoice into two parts.",
+  "ctx_ar": "بس عشان أتأكد، إنت عايز 20 بطارية دلوقتي و20 الشهر الجاي؟ يبقى هقسم الفاتورة جزئين.",
+  "quiz": [
+   {
+    "s": "Could you ___ the delivery terms, please?",
+    "opts": [
+     "clarify",
+     "clarification",
+     "clarity"
+    ],
+    "a": 0,
+    "ar": "ممكن توضّح شروط التسليم من فضلك؟"
+   },
+   {
+    "s": "We're waiting for ___ from the client about the voltage.",
+    "opts": [
+     "clarify",
+     "clarification",
+     "clear"
+    ],
+    "a": 1,
+    "ar": "مستنيين توضيح من العميل بخصوص الجهد."
+   },
+   {
+    "s": "Too many numbers will ___ the client.",
+    "opts": [
+     "explain",
+     "confirm",
+     "confuse"
+    ],
+    "a": 2,
+    "ar": "أرقام كتير هتلخبط العميل."
+   }
+  ],
+  "book": "Just to clarify, are you saying ___?"
+ },
+ {
+  "w": "in exchange for",
+  "ar": "مقابل / في مقابل",
+  "family": [
+   {
+    "w": "in exchange for",
+    "pos": "adverb",
+    "ex": "We'll give free installation in exchange for a three-year service contract.",
+    "ar": "هنعمل التركيب ببلاش مقابل عقد صيانة تلات سنين.",
+    "ex2": "The client liked the offer.",
+    "ar2": "العميل عجبه العرض."
+   },
+   {
+    "w": "exchange",
+    "pos": "verb",
+    "ex": "Can we exchange the faulty control card for a new one?",
+    "ar": "ممكن نبدّل كارت الكنترول البايظ بواحد جديد؟",
+    "ex2": "The supplier will exchange it under warranty.",
+    "ar2": "المورد هيبدّله في الضمان."
+   },
+   {
+    "w": "exchange",
+    "pos": "noun",
+    "ex": "The exchange rate changed our import cost overnight.",
+    "ar": "سعر الصرف غيّر تكلفة الاستيراد في يوم وليلة.",
+    "ex2": "With this exchange rate, we must update prices.",
+    "ar2": "وبسعر الصرف ده، لازم نحدّث الأسعار."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "in return for",
+    "note": "same meaning; slightly more common in speech",
+    "ex": "We'll extend the warranty in return for early payment.",
+    "ar": "هنمد الضمان مقابل الدفع بدري.",
+    "ex2": "In return for that, the client pays in 15 days.",
+    "ar2": "وفي المقابل، العميل يدفع خلال 15 يوم."
+   },
+   {
+    "w": "for",
+    "note": "short and simple, mostly about price",
+    "ex": "We'll install the panels for 50,000 pounds.",
+    "ar": "هنركّب الألواح بـ50,000 جنيه.",
+    "ex2": "That's for the full system, not per panel.",
+    "ar2": "ده للسيستم كله، مش للوح."
+   }
+  ],
+  "ant": [
+   {
+    "w": "for free",
+    "ex": "We cannot do the site survey for free.",
+    "ar": "مش هنقدر نعمل معاينة الموقع ببلاش.",
+    "ex2": "Only big clients get the survey for free.",
+    "ar2": "العملا الكبار بس اللي بياخدوا المعاينة ببلاش."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The client wants a lower price. We offered 5% off in exchange for a 50% advance payment.",
+  "ctx_ar": "العميل عايز سعر أقل. عرضنا خصم 5% مقابل دفعة مقدمة 50%.",
+  "quiz": [
+   {
+    "s": "We'll give 3% off ___ payment in cash.",
+    "opts": [
+     "in exchange for",
+     "exchange",
+     "for free"
+    ],
+    "a": 0,
+    "ar": "هنديك خصم 3% مقابل الدفع كاش."
+   },
+   {
+    "s": "The ___ rate went up again this morning.",
+    "opts": [
+     "in exchange for",
+     "exchange",
+     "in return for"
+    ],
+    "a": 1,
+    "ar": "سعر الصرف طلع تاني الصبح."
+   },
+   {
+    "s": "We cannot send an engineer ___; there's a visit fee.",
+    "opts": [
+     "in exchange for",
+     "in return for",
+     "for free"
+    ],
+    "a": 2,
+    "ar": "مش هنقدر نبعت مهندس ببلاش؛ فيه رسوم زيارة."
+   }
+  ],
+  "book": "How about if we offer you ___ in exchange for ___?"
+ },
+ {
+  "w": "counteroffer",
+  "ar": "عرض مضاد / رد بعرض تاني",
+  "family": [
+   {
+    "w": "counteroffer",
+    "pos": "noun",
+    "ex": "The factory sent a counteroffer of 15,000 per VFD.",
+    "ar": "المصنع بعت عرض مضاد 15,000 للـ‎VFD‎.",
+    "ex2": "Our price was 17,000, so the counteroffer is close.",
+    "ar2": "سعرنا كان 17,000، فالعرض المضاد قريب."
+   },
+   {
+    "w": "counter",
+    "pos": "verb",
+    "ex": "The client countered with a request for free delivery.",
+    "ar": "العميل رد بطلب توصيل ببلاش.",
+    "ex2": "We countered by offering half the delivery cost.",
+    "ar2": "ورديّنا بإننا نشيل نص تكلفة التوصيل."
+   },
+   {
+    "w": "offer",
+    "pos": "noun",
+    "ex": "Our offer is valid for 15 days.",
+    "ar": "عرضنا ساري لمدة 15 يوم.",
+    "ex2": "After that, the offer changes with the dollar rate.",
+    "ar2": "بعد كده العرض بيتغير مع سعر الدولار."
+   },
+   {
+    "w": "offer",
+    "pos": "verb",
+    "ex": "We can offer a free battery test with every UPS.",
+    "ar": "نقدر نعرض تست بطاريات ببلاش مع كل ‎UPS‎.",
+    "ex2": "Most competitors don't offer that.",
+    "ar2": "أغلب المنافسين مش بيعرضوا ده."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "counterproposal",
+    "note": "more formal; a full alternative plan",
+    "ex": "The ministry sent a counterproposal with new delivery stages.",
+    "ar": "الوزارة بعتت اقتراح مضاد بمراحل تسليم جديدة.",
+    "ex2": "We're studying the counterproposal this week.",
+    "ar2": "بندرس الاقتراح المضاد الأسبوع ده."
+   },
+   {
+    "w": "revised offer",
+    "note": "your own updated offer after feedback",
+    "ex": "We sent a revised offer with a lower panel price.",
+    "ar": "بعتنا عرض معدّل بسعر ألواح أقل.",
+    "ex2": "The revised offer also includes free training.",
+    "ar2": "العرض المعدّل فيه تدريب ببلاش كمان."
+   }
+  ],
+  "ant": [
+   {
+    "w": "acceptance",
+    "ex": "We received the client's acceptance of our offer today.",
+    "ar": "استلمنا موافقة العميل على عرضنا النهارده.",
+    "ex2": "After acceptance, we'll issue the proforma invoice.",
+    "ar2": "بعد الموافقة، هنطلّع الفاتورة المبدئية."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We quoted 300,000 for the solar station. The client made a counteroffer of 270,000 with a longer payment term.",
+  "ctx_ar": "سعّرنا محطة الطاقة الشمسية بـ300,000. العميل عمل عرض مضاد 270,000 مع مهلة دفع أطول.",
+  "quiz": [
+   {
+    "s": "The client made a ___ of 10% less.",
+    "opts": [
+     "counteroffer",
+     "counter",
+     "offer"
+    ],
+    "a": 0,
+    "ar": "العميل عمل عرض مضاد أقل بـ10%."
+   },
+   {
+    "s": "They will ___ with a request for extra spare parts.",
+    "opts": [
+     "offer",
+     "counter",
+     "counteroffer"
+    ],
+    "a": 1,
+    "ar": "هيردّوا بطلب قطع غيار زيادة."
+   },
+   {
+    "s": "After his ___, we issued the proforma invoice.",
+    "opts": [
+     "counteroffer",
+     "revised offer",
+     "acceptance"
+    ],
+    "a": 2,
+    "ar": "بعد موافقته، طلّعنا الفاتورة المبدئية."
+   }
+  ],
+  "book": "Our offer is ___, but we're open to negotiating if you have any counteroffers."
+ },
+ {
+  "w": "in return",
+  "ar": "في المقابل",
+  "family": [
+   {
+    "w": "in return",
+    "pos": "adverb",
+    "ex": "We'll extend the warranty, but we need faster payment in return.",
+    "ar": "هنمد الضمان، بس محتاجين دفع أسرع في المقابل.",
+    "ex2": "Thirty days instead of sixty would work.",
+    "ar2": "تلاتين يوم بدل ستين يبقى تمام."
+   },
+   {
+    "w": "return",
+    "pos": "verb",
+    "ex": "Please return the faulty batteries to our warehouse.",
+    "ar": "من فضلك رجّع البطاريات البايظة للمخزن بتاعنا.",
+    "ex2": "We'll return new ones within a week.",
+    "ar2": "هنرجّعلك جداد خلال أسبوع."
+   },
+   {
+    "w": "return",
+    "pos": "noun",
+    "ex": "The return on this solar investment is about four years.",
+    "ar": "استرداد استثمار الطاقة الشمسية ده حوالي أربع سنين.",
+    "ex2": "After the return period, the power is almost free.",
+    "ar2": "بعد فترة الاسترداد، الكهربا تقريباً ببلاش."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "in exchange",
+    "note": "same idea; a bit more transactional",
+    "ex": "We give free delivery and you confirm today in exchange.",
+    "ar": "إحنا نوصّل ببلاش وإنت تأكد النهارده في المقابل.",
+    "ex2": "That exchange works for both of us.",
+    "ar2": "المقابل ده مناسب لينا إحنا الاتنين."
+   },
+   {
+    "w": "on condition that",
+    "note": "formal; states the requirement clearly",
+    "ex": "We give 5% off on condition that you pay in advance.",
+    "ar": "هنديك 5% خصم بشرط تدفع مقدم.",
+    "ex2": "The condition is written in the quotation.",
+    "ar2": "الشرط مكتوب في عرض السعر."
+   }
+  ],
+  "ant": [
+   {
+    "w": "unconditionally",
+    "ex": "We can't extend the warranty unconditionally.",
+    "ar": "مش هنقدر نمد الضمان من غير شروط.",
+    "ex2": "Nothing is given unconditionally in this market.",
+    "ar2": "مفيش حاجة بتتدي من غير شروط في السوق ده."
+   }
+  ],
+  "ladder": null,
+  "ctx": "We can deliver the UPS a week early. In return, we need the client to approve the second payment immediately.",
+  "ctx_ar": "نقدر نسلّم الـ‎UPS‎ قبل المعاد بأسبوع. وفي المقابل، محتاجين العميل يوافق على الدفعة التانية فوراً.",
+  "quiz": [
+   {
+    "s": "We'll give a discount, but we need quick payment ___.",
+    "opts": [
+     "in return",
+     "return",
+     "unconditionally"
+    ],
+    "a": 0,
+    "ar": "هنعمل خصم، بس محتاجين دفع سريع في المقابل."
+   },
+   {
+    "s": "Please ___ the old control cards to the factory.",
+    "opts": [
+     "in return",
+     "return",
+     "in exchange"
+    ],
+    "a": 1,
+    "ar": "من فضلك رجّع كروت الكنترول القديمة للمصنع."
+   },
+   {
+    "s": "We give a discount ___ you order 50 units.",
+    "opts": [
+     "in return",
+     "unconditionally",
+     "on condition that"
+    ],
+    "a": 2,
+    "ar": "بنعمل خصم بشرط تطلب 50 وحدة."
+   }
+  ],
+  "book": "We can offer ___, but we would need ___ in return."
+ },
+ {
+  "w": "sweeten the deal",
+  "ar": "تحلّي الصفقة / تزوّد العرض حاجة",
+  "family": [
+   {
+    "w": "sweeten the deal",
+    "pos": "verb",
+    "ex": "To sweeten the deal, we added two years of free maintenance.",
+    "ar": "عشان نحلّي الصفقة، ضفنا سنتين صيانة ببلاش.",
+    "ex2": "The client signed the next day.",
+    "ar2": "العميل مضى تاني يوم."
+   },
+   {
+    "w": "sweetener",
+    "pos": "noun",
+    "ex": "Free delivery was a small sweetener for the hospital.",
+    "ar": "التوصيل ببلاش كان حاجة حلوة صغيرة للمستشفى.",
+    "ex2": "The sweetener cost us only 2,000 pounds.",
+    "ar2": "الحاجة دي كلّفتنا 2,000 جنيه بس."
+   },
+   {
+    "w": "sweeten",
+    "pos": "verb",
+    "ex": "Can we sweeten the offer with extra spare fuses?",
+    "ar": "ممكن نحلّي العرض بفيوزات احتياطي زيادة؟",
+    "ex2": "Sweetening it is cheaper than cutting the price.",
+    "ar2": "تحلية العرض أرخص من تنزيل السعر."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "add value",
+    "note": "give extra benefit without lowering price",
+    "ex": "We add value with free staff training.",
+    "ar": "بنزوّد القيمة بتدريب الموظفين ببلاش.",
+    "ex2": "Adding value protects our profit margin.",
+    "ar2": "زيادة القيمة بتحمي هامش الربح."
+   },
+   {
+    "w": "throw in",
+    "note": "informal; give something extra for free",
+    "ex": "We'll throw in a spare battery for the UPS.",
+    "ar": "هنزوّدلك بطارية احتياطي مع الـ‎UPS‎.",
+    "ex2": "We threw in the cables for free too.",
+    "ar2": "وكمان إدينا الكابلات ببلاش."
+   }
+  ],
+  "ant": [],
+  "ladder": {
+   "label": "how much extra we give",
+   "lar": "بنزوّد قد إيه",
+   "steps": [
+    {
+     "w": "throw in",
+     "ex": "We'll throw in free delivery.",
+     "ar": "هنديك التوصيل ببلاش.",
+     "ex2": "Throwing in delivery costs us little.",
+     "ar2": "التوصيل مش بيكلفنا كتير."
+    },
+    {
+     "w": "sweeten the deal",
+     "ex": "Let's sweeten the deal with a free annual inspection.",
+     "ar": "خلّينا نحلّي الصفقة بفحص سنوي ببلاش.",
+     "ex2": "That should help us sweeten the deal and close.",
+     "ar2": "ده المفروض يساعدنا نقفل."
+    },
+    {
+     "w": "make an offer they can't refuse",
+     "ex": "We'll make an offer they can't refuse: free UPS for the reception.",
+     "ar": "هنعمل عرض ميترفضش: ‎UPS‎ ببلاش للاستقبال.",
+     "ex2": "An offer they can't refuse needs GM approval.",
+     "ar2": "عرض زي ده محتاج موافقة المدير العام."
+    }
+   ]
+  },
+  "ctx": "The bank is comparing us with two importers. Let's sweeten the deal with an extra year of warranty on the batteries.",
+  "ctx_ar": "البنك بيقارنّا بمستوردين اتنين. خلّينا نحلّي الصفقة بسنة ضمان زيادة على البطاريات.",
+  "quiz": [
+   {
+    "s": "Free training was a nice ___ for the client.",
+    "opts": [
+     "sweeten",
+     "sweetener",
+     "sweeten the deal"
+    ],
+    "a": 1,
+    "ar": "التدريب ببلاش كان حاجة حلوة للعميل."
+   },
+   {
+    "s": "Let's ___ with a free inspection visit.",
+    "opts": [
+     "sweeten the deal",
+     "sweetener",
+     "add value"
+    ],
+    "a": 0,
+    "ar": "خلّينا نحلّي الصفقة بزيارة فحص ببلاش."
+   },
+   {
+    "s": "We'll ___ a spare battery at no cost.",
+    "opts": [
+     "sweeten",
+     "sweetener",
+     "throw in"
+    ],
+    "a": 2,
+    "ar": "هنزوّد بطارية احتياطي من غير تكلفة."
+   }
+  ],
+  "book": "Our initial offer is ___, but we're prepared to sweeten the deal with ___ if that helps."
+ },
+ {
+  "w": "stress",
+  "ar": "تأكّد على / توضّح أهمية حاجة",
+  "family": [
+   {
+    "w": "stress",
+    "pos": "verb",
+    "ex": "I want to stress that the batteries must stay below 25°C.",
+    "ar": "عايز أأكد إن البطاريات لازم تفضل تحت 25 درجة.",
+    "ex2": "Heat can cut their life in half.",
+    "ar2": "الحرارة ممكن تقلل عمرها للنص."
+   },
+   {
+    "w": "stress",
+    "pos": "noun",
+    "ex": "The manager put stress on collecting overdue invoices.",
+    "ar": "المدير ركّز على تحصيل الفواتير المتأخرة.",
+    "ex2": "This stress on collections comes every year-end.",
+    "ar2": "التركيز ده على التحصيل بييجي كل آخر سنة."
+   },
+   {
+    "w": "stressed",
+    "pos": "adjective",
+    "ex": "The client stressed the need for zero downtime.",
+    "ar": "العميل أكد على ضرورة إن مفيش وقت توقف خالص.",
+    "ex2": "That's why we stressed using a modular UPS.",
+    "ar2": "وعشان كده أكدنا على استخدام ‎UPS‎ موديولار."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "emphasize",
+    "note": "formal; show something is very important",
+    "ex": "We emphasize safety in every installation.",
+    "ar": "بنأكد على السلامة في كل تركيب.",
+    "ex2": "The checklist emphasizes earthing and fuses.",
+    "ar2": "الشيك ليست بتأكد على الأرضي والفيوزات."
+   },
+   {
+    "w": "highlight",
+    "note": "draw attention to a point, often in presentations",
+    "ex": "Let me highlight the key benefits of this inverter.",
+    "ar": "خليني أبرز أهم مميزات الإنفرتر ده.",
+    "ex2": "The slide highlights its 98% efficiency.",
+    "ar2": "السلايد بتبرز كفاءته 98%."
+   }
+  ],
+  "ant": [
+   {
+    "w": "downplay",
+    "ex": "Don't downplay the risk of cheap batteries.",
+    "ar": "متقللش من خطر البطاريات الرخيصة.",
+    "ex2": "If we downplay it, the client may blame us later.",
+    "ar2": "لو قللنا منه، العميل ممكن يلومنا بعدين."
+   }
+  ],
+  "ladder": {
+   "label": "how strongly we say it",
+   "lar": "بنقولها بقوة قد إيه",
+   "steps": [
+    {
+     "w": "mention",
+     "ex": "I'd like to mention the warranty terms.",
+     "ar": "حابب أذكر شروط الضمان.",
+     "ex2": "Just mention them briefly in the meeting.",
+     "ar2": "بس اذكرهم بسرعة في الاجتماع."
+    },
+    {
+     "w": "stress",
+     "ex": "I must stress the importance of regular maintenance.",
+     "ar": "لازم أأكد على أهمية الصيانة الدورية.",
+     "ex2": "We stress it in every contract.",
+     "ar2": "بنأكد عليها في كل عقد."
+    },
+    {
+     "w": "insist",
+     "ex": "We insist on a site survey before quoting.",
+     "ar": "بنصمم على معاينة الموقع قبل التسعير.",
+     "ex2": "We insist because every site is different.",
+     "ar2": "بنصمم عشان كل موقع مختلف."
+    }
+   ]
+  },
+  "ctx": "I cannot stress enough the importance of ventilation in the battery room. Without it, the warranty will be void.",
+  "ctx_ar": "مش هقدر أأكد كفاية على أهمية التهوية في أوضة البطاريات. من غيرها، الضمان هيتلغي.",
+  "quiz": [
+   {
+    "s": "I want to ___ that payment is due on Thursday.",
+    "opts": [
+     "stress",
+     "stressed",
+     "downplay"
+    ],
+    "a": 0,
+    "ar": "عايز أأكد إن الدفع مستحق يوم الخميس."
+   },
+   {
+    "s": "Don't ___ the risk of overheating.",
+    "opts": [
+     "stress",
+     "downplay",
+     "highlight"
+    ],
+    "a": 1,
+    "ar": "متقللش من خطر السخونية."
+   },
+   {
+    "s": "We ___ on a site survey before any quotation.",
+    "opts": [
+     "mention",
+     "stress",
+     "insist"
+    ],
+    "a": 2,
+    "ar": "بنصمم على معاينة الموقع قبل أي عرض سعر."
+   }
+  ],
+  "book": "I cannot stress enough the importance of ___."
+ },
+ {
+  "w": "imperative",
+  "ar": "ضروري جداً / لازم",
+  "family": [
+   {
+    "w": "imperative",
+    "pos": "adjective",
+    "ex": "It's imperative that we deliver the UPS before the hospital opens.",
+    "ar": "ضروري جداً نسلّم الـ‎UPS‎ قبل ما المستشفى تفتح.",
+    "ex2": "Without it, the operating rooms can't run.",
+    "ar2": "من غيره، العمليات مش هتشتغل."
+   },
+   {
+    "w": "imperative",
+    "pos": "noun",
+    "ex": "Fast service is a business imperative for data centres.",
+    "ar": "الخدمة السريعة ضرورة أساسية للداتا سنترز.",
+    "ex2": "That imperative is why we keep spare modules.",
+    "ar2": "والضرورة دي هي اللي مخليانا نحتفظ بموديولات احتياطي."
+   },
+   {
+    "w": "imperatively",
+    "pos": "adverb",
+    "ex": "The engineer spoke imperatively about the safety rules.",
+    "ar": "المهندس اتكلم بحزم عن قواعد السلامة.",
+    "ex2": "He said it imperatively so nobody would ignore it.",
+    "ar2": "قالها بحزم عشان محدش يتجاهلها."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "essential",
+    "note": "very necessary; common and neutral",
+    "ex": "A site survey is essential before quoting.",
+    "ar": "معاينة الموقع أساسية قبل التسعير.",
+    "ex2": "It's essential to measure the cable route.",
+    "ar2": "لازم نقيس مسار الكابلات."
+   },
+   {
+    "w": "crucial",
+    "note": "decisive for success; often about timing",
+    "ex": "The first week is crucial for the project.",
+    "ar": "أول أسبوع حاسم للمشروع.",
+    "ex2": "Crucial decisions happen in that week.",
+    "ar2": "قرارات حاسمة بتتاخد في الأسبوع ده."
+   }
+  ],
+  "ant": [
+   {
+    "w": "optional",
+    "ex": "The extended warranty is optional.",
+    "ar": "الضمان الممتد اختياري.",
+    "ex2": "Most clients take the optional warranty anyway.",
+    "ar2": "أغلب العملا بياخدوا الضمان الاختياري على أي حال."
+   }
+  ],
+  "ladder": {
+   "label": "how necessary",
+   "lar": "ضروري قد إيه",
+   "steps": [
+    {
+     "w": "important",
+     "ex": "It's important to check the battery voltage monthly.",
+     "ar": "مهم نشيك على جهد البطاريات كل شهر.",
+     "ex2": "Important, but it can wait a few days.",
+     "ar2": "مهم، بس ممكن يستنى كام يوم."
+    },
+    {
+     "w": "essential",
+     "ex": "It's essential to install surge protection.",
+     "ar": "ضروري نركّب حماية من التذبذب.",
+     "ex2": "Essential protection saves expensive cards.",
+     "ar2": "الحماية الضرورية دي بتحمي كروت غالية."
+    },
+    {
+     "w": "imperative",
+     "ex": "It's imperative that we stop the overheating now.",
+     "ar": "لازم حالاً نوقف السخونية دي.",
+     "ex2": "This is imperative; the servers could shut down.",
+     "ar2": "ده ضروري جداً؛ السيرفرات ممكن تقفل."
+    }
+   ]
+  },
+  "ctx": "The bank's audit is next week. It's imperative that we finish the UPS maintenance reports before then.",
+  "ctx_ar": "مراجعة البنك الأسبوع الجاي. ضروري جداً نخلّص تقارير صيانة الـ‎UPS‎ قبلها.",
+  "quiz": [
+   {
+    "s": "It's ___ that we pay customs today.",
+    "opts": [
+     "imperative",
+     "imperatively",
+     "optional"
+    ],
+    "a": 0,
+    "ar": "ضروري جداً ندفع الجمارك النهارده."
+   },
+   {
+    "s": "The extra warranty is ___; the client can decide.",
+    "opts": [
+     "imperative",
+     "optional",
+     "crucial"
+    ],
+    "a": 1,
+    "ar": "الضمان الزيادة اختياري؛ العميل يقرر."
+   },
+   {
+    "s": "Checking voltage is ___, but it can wait a day.",
+    "opts": [
+     "imperative",
+     "essential",
+     "important"
+    ],
+    "a": 2,
+    "ar": "قياس الجهد مهم، بس ممكن يستنى يوم."
+   }
+  ],
+  "book": "It's imperative that we ___ if we want to achieve our goals."
+ },
+ {
+  "w": "insist",
+  "ar": "تصمّم / تُصر",
+  "family": [
+   {
+    "w": "insist",
+    "pos": "verb",
+    "ex": "The client insists on original batteries, not copies.",
+    "ar": "العميل مصمم على بطاريات أصلية، مش تقليد.",
+    "ex2": "He insists because the last copies failed.",
+    "ar2": "مصمم عشان التقليد اللي فات باظ."
+   },
+   {
+    "w": "insistence",
+    "pos": "noun",
+    "ex": "At the bank's insistence, we added a second UPS.",
+    "ar": "بإصرار البنك، ضفنا ‎UPS‎ تاني.",
+    "ex2": "Their insistence made the system fully redundant.",
+    "ar2": "إصرارهم خلّى السيستم احتياطي بالكامل."
+   },
+   {
+    "w": "insistent",
+    "pos": "adjective",
+    "ex": "The supplier was insistent about payment before shipping.",
+    "ar": "المورد كان مُصر على الدفع قبل الشحن.",
+    "ex2": "Being insistent is normal with new customers.",
+    "ar2": "الإصرار ده عادي مع العملا الجداد."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "demand",
+    "note": "stronger; often sounds like an order",
+    "ex": "The client demands a refund for the faulty inverter.",
+    "ar": "العميل بيطالب باسترجاع فلوس الإنفرتر البايظ.",
+    "ex2": "We'll check the fault before accepting the demand.",
+    "ar2": "هنشيك العطل قبل ما نقبل الطلب."
+   },
+   {
+    "w": "hold firm",
+    "note": "refuse to change your position",
+    "ex": "We'll hold firm on the price despite pressure.",
+    "ar": "هنثبت على السعر رغم الضغط.",
+    "ex2": "Holding firm will protect our margin.",
+    "ar2": "الثبات هيحمي الهامش بتاعنا."
+   }
+  ],
+  "ant": [
+   {
+    "w": "give in",
+    "ex": "We won't give in to unfair discount requests.",
+    "ar": "مش هنستسلم لطلبات خصم مش عادلة.",
+    "ex2": "If we give in once, every client will ask.",
+    "ar2": "لو استسلمنا مرة، كل العملا هيطلبوا."
+   }
+  ],
+  "ladder": {
+   "label": "how strongly you ask",
+   "lar": "بتطلب بقوة قد إيه",
+   "steps": [
+    {
+     "w": "ask",
+     "ex": "We ask that you pay within 30 days.",
+     "ar": "بنطلب إنك تدفع خلال 30 يوم.",
+     "ex2": "We ask politely in the first reminder.",
+     "ar2": "بنطلب بأدب في أول تذكير."
+    },
+    {
+     "w": "insist",
+     "ex": "We insist on payment before the next delivery.",
+     "ar": "بنصمم على الدفع قبل التسليم الجاي.",
+     "ex2": "We insist because the invoice is two months late.",
+     "ar2": "بنصمم عشان الفاتورة متأخرة شهرين."
+    },
+    {
+     "w": "demand",
+     "ex": "We demand immediate payment of all overdue invoices.",
+     "ar": "بنطالب بدفع كل الفواتير المتأخرة فوراً.",
+     "ex2": "The demand letter goes from our lawyer.",
+     "ar2": "خطاب المطالبة بيطلع من المحامي بتاعنا."
+    }
+   ]
+  },
+  "ctx": "The client wanted to skip the battery test. Our engineer insisted on it, and the test found two weak cells.",
+  "ctx_ar": "العميل كان عايز يلغي تست البطاريات. مهندسنا صمم عليه، والتست لقى خليتين ضعاف.",
+  "quiz": [
+   {
+    "s": "We ___ on a signed PO before shipping.",
+    "opts": [
+     "insist",
+     "insistence",
+     "insistent"
+    ],
+    "a": 0,
+    "ar": "بنصمم على ‎PO‎ متمضي قبل الشحن."
+   },
+   {
+    "s": "At the client's ___, we used German cables.",
+    "opts": [
+     "insist",
+     "insistence",
+     "insistent"
+    ],
+    "a": 1,
+    "ar": "بإصرار العميل، استخدمنا كابلات ألماني."
+   },
+   {
+    "s": "Our lawyer will ___ immediate payment.",
+    "opts": [
+     "ask",
+     "insist",
+     "demand"
+    ],
+    "a": 2,
+    "ar": "المحامي بتاعنا هيطالب بالدفع فوراً."
+   }
+  ],
+  "book": "I insist that we ___ to move this negotiation forward."
+ },
+ {
+  "w": "take into account",
+  "ar": "تاخد في الاعتبار",
+  "family": [
+   {
+    "w": "take into account",
+    "pos": "verb",
+    "ex": "Please take into account the shipping time from China.",
+    "ar": "من فضلك خد في اعتبارك مدة الشحن من الصين.",
+    "ex2": "It's about five weeks by sea.",
+    "ar2": "هي حوالي خمس أسابيع بحري."
+   },
+   {
+    "w": "account for",
+    "pos": "verb",
+    "ex": "Spare parts account for 20% of our service income.",
+    "ar": "قطع الغيار بتمثل 20% من دخل الصيانة بتاعنا.",
+    "ex2": "They also account for most of our stock value.",
+    "ar2": "وكمان بتمثل أغلب قيمة المخزون."
+   },
+   {
+    "w": "accountable",
+    "pos": "adjective",
+    "ex": "The project manager is accountable for the delivery date.",
+    "ar": "مدير المشروع مسؤول عن معاد التسليم.",
+    "ex2": "If we're late, he's accountable to the client.",
+    "ar2": "لو اتأخرنا، هو المسؤول قدام العميل."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "consider",
+    "note": "general; think about something before deciding",
+    "ex": "We'll consider your request for a longer warranty.",
+    "ar": "هنفكر في طلبك لضمان أطول.",
+    "ex2": "We'll consider it at Monday's meeting.",
+    "ar2": "هنفكر فيه في اجتماع الإتنين."
+   },
+   {
+    "w": "factor in",
+    "note": "include a number or cost in a calculation",
+    "ex": "Factor in customs fees when you price the panels.",
+    "ar": "حط رسوم الجمارك في الحساب لما تسعّر الألواح.",
+    "ex2": "We factor in a 3% currency risk too.",
+    "ar2": "وبنحسب كمان 3% مخاطر عملة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "overlook",
+    "ex": "Don't overlook the cost of installation.",
+    "ar": "متنساش تكلفة التركيب.",
+    "ex2": "If we overlook it, our margin disappears.",
+    "ar2": "لو نسيناها، الهامش بيروح."
+   }
+  ],
+  "ladder": null,
+  "ctx": "When you price the solar station, take into account the cost of the crane. Last time we forgot it and lost money.",
+  "ctx_ar": "لما تسعّر محطة الطاقة الشمسية، خد في اعتبارك تكلفة الونش. المرة اللي فاتت نسيناها وخسرنا فلوس.",
+  "quiz": [
+   {
+    "s": "Please ___ the delivery cost in your price.",
+    "opts": [
+     "take into account",
+     "accountable",
+     "overlook"
+    ],
+    "a": 0,
+    "ar": "من فضلك خد تكلفة التوصيل في اعتبارك في السعر."
+   },
+   {
+    "s": "The site manager is ___ for safety.",
+    "opts": [
+     "account for",
+     "accountable",
+     "take into account"
+    ],
+    "a": 1,
+    "ar": "مدير الموقع مسؤول عن السلامة."
+   },
+   {
+    "s": "Don't ___ the customs fees; they are high.",
+    "opts": [
+     "consider",
+     "factor in",
+     "overlook"
+    ],
+    "a": 2,
+    "ar": "متنساش رسوم الجمارك؛ هي عالية."
+   }
+  ],
+  "book": "We've taken into account all factors and believe that this course of action would be the most advantageous."
+ },
+ {
+  "w": "outcome",
+  "ar": "النتيجة",
+  "family": [
+   {
+    "w": "outcome",
+    "pos": "noun",
+    "ex": "The outcome of the tender will be announced on Sunday.",
+    "ar": "نتيجة المناقصة هتتعلن يوم الحد.",
+    "ex2": "We hope the outcome is good for us.",
+    "ar2": "بنتمنى النتيجة تكون في صالحنا."
+   },
+   {
+    "w": "come out",
+    "pos": "verb",
+    "ex": "Let's see how the price talks come out.",
+    "ar": "خلّينا نشوف مفاوضات السعر هتطلع بإيه.",
+    "ex2": "If they come out well, we'll order next week.",
+    "ar2": "لو طلعت كويسة، هنطلب الأسبوع الجاي."
+   },
+   {
+    "w": "result",
+    "pos": "noun",
+    "ex": "As a result of the new UPS, downtime dropped to zero.",
+    "ar": "نتيجة للـ‎UPS‎ الجديد، التوقف بقى صفر.",
+    "ex2": "The client was very happy with the result.",
+    "ar2": "العميل كان مبسوط جداً بالنتيجة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "result",
+    "note": "general; what happens because of something",
+    "ex": "The test result shows weak batteries.",
+    "ar": "نتيجة التست بتبيّن إن البطاريات ضعيفة.",
+    "ex2": "Based on the result, we'll replace them.",
+    "ar2": "بناءً على النتيجة، هنغيّرهم."
+   },
+   {
+    "w": "upshot",
+    "note": "informal; the final result of a long discussion",
+    "ex": "The upshot is that we lost the tender.",
+    "ar": "الخلاصة إننا خسرنا المناقصة.",
+    "ex2": "The upshot of the meeting was a new price list.",
+    "ar2": "خلاصة الاجتماع كانت قايمة أسعار جديدة."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "We've had three meetings about the maintenance contract. The outcome is a two-year deal with quarterly visits.",
+  "ctx_ar": "عملنا تلات اجتماعات على عقد الصيانة. النتيجة صفقة لمدة سنتين بزيارات كل ربع سنة.",
+  "quiz": [
+   {
+    "s": "The ___ of the negotiation was a 7% discount.",
+    "opts": [
+     "outcome",
+     "come out",
+     "upshot"
+    ],
+    "a": 0,
+    "ar": "نتيجة التفاوض كانت خصم 7%."
+   },
+   {
+    "s": "Let's see how the meeting will ___.",
+    "opts": [
+     "outcome",
+     "come out",
+     "result"
+    ],
+    "a": 1,
+    "ar": "خلّينا نشوف الاجتماع هيطلع بإيه."
+   },
+   {
+    "s": "The ___ of the battery test shows two weak cells.",
+    "opts": [
+     "come out",
+     "upshot",
+     "result"
+    ],
+    "a": 2,
+    "ar": "نتيجة تست البطاريات بتبيّن خليتين ضعاف."
+   }
+  ],
+  "book": "We're proposing this idea because we believe it would lead to the best outcome."
+ },
+ {
+  "w": "worth considering",
+  "ar": "يستاهل نفكر فيه",
+  "family": [
+   {
+    "w": "worth considering",
+    "pos": "adjective",
+    "ex": "Your offer of lithium batteries is worth considering.",
+    "ar": "عرضك لبطاريات الليثيوم يستاهل نفكر فيه.",
+    "ex2": "They last longer than lead-acid.",
+    "ar2": "عمرها أطول من الرصاص."
+   },
+   {
+    "w": "consider",
+    "pos": "verb",
+    "ex": "We'll consider a longer payment term for loyal clients.",
+    "ar": "هنفكر في مهلة دفع أطول للعملا الدايمين.",
+    "ex2": "Finance will consider each case separately.",
+    "ar2": "الحسابات هتدرس كل حالة لوحدها."
+   },
+   {
+    "w": "consideration",
+    "pos": "noun",
+    "ex": "Thank you; we'll give your proposal careful consideration.",
+    "ar": "شكراً؛ هندرس عرضك بعناية.",
+    "ex2": "Price is our main consideration this year.",
+    "ar2": "السعر هو أهم اعتبار عندنا السنة دي."
+   },
+   {
+    "w": "worth",
+    "pos": "adjective",
+    "ex": "The extended warranty is worth the extra cost.",
+    "ar": "الضمان الممتد يستاهل التكلفة الزيادة.",
+    "ex2": "Is it worth it for a small office UPS?",
+    "ar2": "هل يستاهل لـ‎UPS‎ مكتب صغير؟"
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "interesting",
+    "note": "positive but less committed",
+    "ex": "That's an interesting idea about leasing the panels.",
+    "ar": "دي فكرة لطيفة إننا نأجّر الألواح.",
+    "ex2": "Interesting, but we need numbers first.",
+    "ar2": "فكرة حلوة، بس محتاجين أرقام الأول."
+   },
+   {
+    "w": "promising",
+    "note": "likely to succeed; stronger than interesting",
+    "ex": "The new inverter supplier looks promising.",
+    "ar": "مورد الإنفرترات الجديد شكله واعد.",
+    "ex2": "His promising samples passed our tests.",
+    "ar2": "عيّناته الواعدة عدّت التستات بتاعتنا."
+   }
+  ],
+  "ant": [
+   {
+    "w": "out of the question",
+    "ex": "A 120-day payment term is out of the question.",
+    "ar": "مهلة دفع 120 يوم مرفوضة تماماً.",
+    "ex2": "It's out of the question for imported goods.",
+    "ar2": "ده مستحيل للبضاعة المستوردة."
+   }
+  ],
+  "ladder": {
+   "label": "how positive we are",
+   "lar": "إيجابيين قد إيه",
+   "steps": [
+    {
+     "w": "interesting",
+     "ex": "Your idea is interesting; send more details.",
+     "ar": "فكرتك لطيفة؛ ابعت تفاصيل أكتر.",
+     "ex2": "Interesting ideas need a business case.",
+     "ar2": "الأفكار اللطيفة محتاجة دراسة."
+    },
+    {
+     "w": "worth considering",
+     "ex": "The proposal is worth considering at the board meeting.",
+     "ar": "العرض يستاهل نفكر فيه في اجتماع الإدارة.",
+     "ex2": "We'll say it's worth considering, not approved yet.",
+     "ar2": "هنقول إنه يستاهل الدراسة، لسه متوافقش عليه."
+    },
+    {
+     "w": "very attractive",
+     "ex": "Your final offer is very attractive.",
+     "ar": "عرضك النهائي جذاب جداً.",
+     "ex2": "With such a very attractive price, we'll sign today.",
+     "ar2": "بسعر جذاب كده، هنمضي النهارده."
+    }
+   ]
+  },
+  "ctx": "The supplier offered to hold stock for us in Cairo. That's worth considering, because it would cut our lead time.",
+  "ctx_ar": "المورد عرض يحتفظ بمخزون لينا في القاهرة. ده يستاهل نفكر فيه، عشان هيقلل مدة التوريد.",
+  "quiz": [
+   {
+    "s": "Your proposal is ___; we'll discuss it Sunday.",
+    "opts": [
+     "worth considering",
+     "consider",
+     "consideration"
+    ],
+    "a": 0,
+    "ar": "عرضك يستاهل نفكر فيه؛ هنناقشه يوم الحد."
+   },
+   {
+    "s": "We'll give your request careful ___.",
+    "opts": [
+     "consider",
+     "consideration",
+     "worth"
+    ],
+    "a": 1,
+    "ar": "هندرس طلبك بعناية."
+   },
+   {
+    "s": "Paying after six months is ___ for us.",
+    "opts": [
+     "interesting",
+     "worth considering",
+     "out of the question"
+    ],
+    "a": 2,
+    "ar": "الدفع بعد ست شهور مرفوض تماماً بالنسبالنا."
+   }
+  ],
+  "book": "Your proposal is definitely worth considering."
+ },
+ {
+  "w": "cannot afford to",
+  "ar": "مينفعش نسمح لنفسنا / مش قادرين نتحمّل",
+  "family": [
+   {
+    "w": "cannot afford to",
+    "pos": "verb",
+    "ex": "We cannot afford to lose the bank as a client.",
+    "ar": "مينفعش نخسر البنك كعميل.",
+    "ex2": "It's 30% of our UPS sales.",
+    "ar2": "ده 30% من مبيعات الـ‎UPS‎ بتاعتنا."
+   },
+   {
+    "w": "afford",
+    "pos": "verb",
+    "ex": "The small clinic can't afford a 20 kVA UPS.",
+    "ar": "العيادة الصغيرة مش قادرة تشتري ‎UPS 20 kVA‎.",
+    "ex2": "We'll offer them a smaller unit they can afford.",
+    "ar2": "هنعرض عليهم وحدة أصغر يقدروا عليها."
+   },
+   {
+    "w": "affordable",
+    "pos": "adjective",
+    "ex": "We need an affordable solar option for small farms.",
+    "ar": "محتاجين اختيار شمسي بسعر معقول للمزارع الصغيرة.",
+    "ex2": "Affordable systems sell faster in villages.",
+    "ar2": "الأنظمة اللي سعرها معقول بتتباع أسرع في القرى."
+   },
+   {
+    "w": "affordability",
+    "pos": "noun",
+    "ex": "Affordability is the main issue for most of our clients.",
+    "ar": "القدرة على الدفع هي المشكلة الأساسية لأغلب عملائنا.",
+    "ex2": "That's why we offer installments to improve affordability.",
+    "ar2": "وعشان كده بنقدم تقسيط."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "can't risk",
+    "note": "about danger of losing something",
+    "ex": "We can't risk another late delivery to this client.",
+    "ar": "مينفعش نخاطر بتأخير تاني مع العميل ده.",
+    "ex2": "Risking it could cost us the contract.",
+    "ar2": "المخاطرة دي ممكن تضيّع العقد."
+   },
+   {
+    "w": "must not",
+    "note": "strong rule or prohibition",
+    "ex": "We must not install the UPS near water pipes.",
+    "ar": "ممنوع نركّب الـ‎UPS‎ جنب مواسير المية.",
+    "ex2": "The rule is in the safety manual.",
+    "ar2": "القاعدة دي في دليل السلامة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "can afford to",
+    "ex": "We can afford to wait one more week for the panels.",
+    "ar": "نقدر نستحمل نستنى أسبوع كمان للألواح.",
+    "ex2": "The site won't be ready before then anyway.",
+    "ar2": "الموقع مش هيبقى جاهز قبلها أصلاً."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The UPS at the data centre is ten years old. We cannot afford to ignore the warning alarms any longer.",
+  "ctx_ar": "الـ‎UPS‎ اللي في الداتا سنتر عمره عشر سنين. مينفعش نتجاهل الإنذارات أكتر من كده.",
+  "quiz": [
+   {
+    "s": "We ___ lose this contract; it's too important.",
+    "opts": [
+     "cannot afford to",
+     "can afford to",
+     "affordable"
+    ],
+    "a": 0,
+    "ar": "مينفعش نخسر العقد ده؛ هو مهم جداً."
+   },
+   {
+    "s": "We need an ___ battery for small shops.",
+    "opts": [
+     "afford",
+     "affordable",
+     "affordability"
+    ],
+    "a": 1,
+    "ar": "محتاجين بطارية بسعر معقول للمحلات الصغيرة."
+   },
+   {
+    "s": "We ___ wait; the site isn't ready yet.",
+    "opts": [
+     "cannot afford to",
+     "must not",
+     "can afford to"
+    ],
+    "a": 2,
+    "ar": "نقدر نستحمل نستنى؛ الموقع لسه مش جاهز."
+   }
+  ],
+  "book": "We cannot afford to ignore ___ any longer."
  }
 ]

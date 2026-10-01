@@ -782,5 +782,1157 @@
     "ar": "(إيميل رسمي) برجاء عدم التردد في التواصل معنا لأي معلومات إضافية."
    }
   ]
+ },
+ {
+  "w": "walk through",
+  "ar": "تشرح خطوة بخطوة",
+  "family": [
+   {
+    "w": "walk through",
+    "pos": "verb",
+    "ex": "Let me walk you through the UPS start-up steps.",
+    "ar": "خلّيني أشرحلك خطوات تشغيل الـ‎UPS‎ واحدة واحدة.",
+    "ex2": "First, check the battery breaker.",
+    "ar2": "الأول، شيّك على بريكر البطاريات."
+   },
+   {
+    "w": "walkthrough",
+    "pos": "noun",
+    "ex": "The engineer gave the client a walkthrough of the new control panel.",
+    "ar": "المهندس عمل للعميل شرح عملي للوحة الكنترول الجديدة.",
+    "ex2": "It took twenty minutes.",
+    "ar2": "خد عشرين دقيقة."
+   },
+   {
+    "w": "walked through",
+    "pos": "verb",
+    "ex": "She walked us through the e-invoice portal.",
+    "ar": "شرحتلنا بوابة الفاتورة الإلكترونية خطوة بخطوة.",
+    "ex2": "Now we can issue invoices ourselves.",
+    "ar2": "دلوقتي نقدر نطلّع الفواتير بنفسنا."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "explain",
+    "note": "general; make something clear",
+    "ex": "Can you explain the alarm codes?",
+    "ar": "ممكن تشرح أكواد الإنذار؟",
+    "ex2": "The client's IT team is confused.",
+    "ar2": "فريق الـ‎IT‎ عند العميل متلخبط."
+   },
+   {
+    "w": "take someone through",
+    "note": "same meaning, slightly more formal",
+    "ex": "I'll take you through the contract terms.",
+    "ar": "هعدّي معاك على شروط العقد.",
+    "ex2": "Start with page three.",
+    "ar2": "ابدأ من صفحة تلاتة."
+   },
+   {
+    "w": "show",
+    "note": "simple; let someone see how it's done",
+    "ex": "Let me show you how to reset the VFD.",
+    "ar": "خلّيني أوريك إزاي تعمل ريسيت للـ‎VFD‎.",
+    "ex2": "Press and hold this button.",
+    "ar2": "دوس واستمر على الزرار ده."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Before you sign, let me walk you through the maintenance contract. I'll explain the response times, the visits and what's not covered.",
+  "ctx_ar": "قبل ما تمضي، خلّيني أشرحلك عقد الصيانة خطوة بخطوة. هشرح أوقات الاستجابة والزيارات واللي مش متغطي.",
+  "quiz": [
+   {
+    "s": "Let me ___ you through the installation plan.",
+    "opts": [
+     "walk",
+     "walkthrough",
+     "show"
+    ],
+    "a": 0,
+    "ar": "خلّيني أشرحلك خطة التركيب خطوة بخطوة."
+   },
+   {
+    "s": "We gave the hospital staff a short ___ of the system.",
+    "opts": [
+     "walk through",
+     "walkthrough",
+     "walked through"
+    ],
+    "a": 1,
+    "ar": "عملنا لموظفين المستشفى شرح سريع للسيستم."
+   },
+   {
+    "s": "Let me ___ you how to read this meter.",
+    "opts": [
+     "walk",
+     "take",
+     "show"
+    ],
+    "a": 2,
+    "ar": "خلّيني أوريك إزاي تقرا العداد ده."
+   }
+  ],
+  "book": "I'd like to walk you through the key aspects of ___."
+ },
+ {
+  "w": "aspect",
+  "ar": "جانب / ناحية من الموضوع",
+  "family": [
+   {
+    "w": "aspect",
+    "pos": "noun",
+    "ex": "Safety is the most important aspect of battery work.",
+    "ar": "السلامة أهم جانب في شغل البطاريات.",
+    "ex2": "Always wear gloves and glasses.",
+    "ar2": "دايمًا البس جوانتي ونضارة."
+   },
+   {
+    "w": "aspects",
+    "pos": "noun",
+    "ex": "We discussed the technical and financial aspects of the offer.",
+    "ar": "اتكلمنا عن الجوانب الفنية والمالية للعرض.",
+    "ex2": "Finance had questions on payment.",
+    "ar2": "الحسابات كان عندها أسئلة عن الدفع."
+   },
+   {
+    "w": "key aspects",
+    "pos": "noun",
+    "ex": "The key aspects of the project are cost and downtime.",
+    "ar": "أهم جوانب المشروع التكلفة ووقت التوقف.",
+    "ex2": "The bank can't stop for long.",
+    "ar2": "البنك مينفعش يقف كتير."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "side",
+    "note": "informal; one part of an issue",
+    "ex": "On the technical side, everything is ready.",
+    "ar": "من الناحية الفنية، كل حاجة جاهزة.",
+    "ex2": "We're only waiting for payment.",
+    "ar2": "مستنيين الدفع بس."
+   },
+   {
+    "w": "element",
+    "note": "formal; one part of a whole plan",
+    "ex": "Training is a key element of our service package.",
+    "ar": "التدريب عنصر أساسي في باقة الصيانة بتاعتنا.",
+    "ex2": "Clients like it a lot.",
+    "ar2": "العملا بيحبّوه جدًا."
+   },
+   {
+    "w": "factor",
+    "note": "something that affects a result or decision",
+    "ex": "Price is a big factor for small clients.",
+    "ar": "السعر عامل كبير للعملا الصغيرين.",
+    "ex2": "Banks care more about service.",
+    "ar2": "البنوك يهمها الصيانة أكتر."
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "Let's look at every aspect of the solar offer: panels, inverters, installation and service. The client will compare each one with competitors.",
+  "ctx_ar": "خلّينا نبص على كل جانب في عرض الطاقة الشمسية: الألواح والإنفرترات والتركيب والصيانة. العميل هيقارن كل واحد بالمنافسين.",
+  "quiz": [
+   {
+    "s": "Safety is the most important ___ of this job.",
+    "opts": [
+     "aspect",
+     "aspects",
+     "factors"
+    ],
+    "a": 0,
+    "ar": "السلامة أهم جانب في الشغلانة دي."
+   },
+   {
+    "s": "We reviewed all the legal ___ of the contract.",
+    "opts": [
+     "aspect",
+     "aspects",
+     "side"
+    ],
+    "a": 1,
+    "ar": "راجعنا كل الجوانب القانونية في العقد."
+   },
+   {
+    "s": "Price is the main ___ in their decision.",
+    "opts": [
+     "aspects",
+     "side",
+     "factor"
+    ],
+    "a": 2,
+    "ar": "السعر هو العامل الأساسي في قرارهم."
+   }
+  ],
+  "book": "I'd like to walk you through the key aspects of ___."
+ },
+ {
+  "w": "move on to",
+  "ar": "ننتقل لـ",
+  "family": [
+   {
+    "w": "move on to",
+    "pos": "verb",
+    "ex": "Let's move on to the delivery schedule.",
+    "ar": "يلا ننتقل لجدول التسليم.",
+    "ex2": "We've agreed on the price.",
+    "ar2": "اتفقنا على السعر خلاص."
+   },
+   {
+    "w": "move on",
+    "pos": "verb",
+    "ex": "We can't agree on this point, so let's move on.",
+    "ar": "مش عارفين نتفق على النقطة دي، فيلا نكمّل.",
+    "ex2": "We'll come back to it later.",
+    "ar2": "هنرجعلها بعدين."
+   },
+   {
+    "w": "moving on",
+    "pos": "verb",
+    "ex": "Moving on, let's look at last month's collections.",
+    "ar": "نكمّل، يلا نبص على تحصيل الشهر اللي فات.",
+    "ex2": "We collected 85 percent.",
+    "ar2": "حصّلنا 85 في المية."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "turn to",
+    "note": "formal; start a new topic",
+    "ex": "Now let's turn to the service plan.",
+    "ar": "دلوقتي يلا نيجي لخطة الصيانة.",
+    "ex2": "It has three levels.",
+    "ar2": "فيها تلات مستويات."
+   },
+   {
+    "w": "go on to",
+    "note": "continue to the next thing",
+    "ex": "Then we'll go on to the price list.",
+    "ar": "بعدين هنكمّل على قايمة الأسعار.",
+    "ex2": "It's on the last page.",
+    "ar2": "في آخر صفحة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "go back to",
+    "ex": "Let's go back to the battery question.",
+    "ar": "يلا نرجع لسؤال البطاريات.",
+    "ex2": "Karim wasn't finished.",
+    "ar2": "‎Karim‎ مكانش خلّص."
+   }
+  ],
+  "ladder": null,
+  "ctx": "That's all on the UPS models. Now let's move on to the maintenance options, which matter most for your data centre.",
+  "ctx_ar": "ده كل حاجة عن موديلات الـ‎UPS‎. دلوقتي يلا ننتقل لاختيارات الصيانة، ودي أهم حاجة للداتا سنتر بتاعك.",
+  "quiz": [
+   {
+    "s": "Let's ___ on to the next item on the agenda.",
+    "opts": [
+     "move",
+     "moving",
+     "go back"
+    ],
+    "a": 0,
+    "ar": "يلا ننتقل للبند اللي بعده في الأجندة."
+   },
+   {
+    "s": "___ on, here are the sales figures for Q2.",
+    "opts": [
+     "Move",
+     "Moving",
+     "Turning"
+    ],
+    "a": 1,
+    "ar": "نكمّل، دي أرقام المبيعات للربع التاني."
+   },
+   {
+    "s": "Sorry, can we ___ to the warranty point for a second?",
+    "opts": [
+     "move on",
+     "go on",
+     "go back"
+    ],
+    "a": 2,
+    "ar": "آسف، ممكن نرجع لنقطة الضمان ثانية؟"
+   }
+  ],
+  "book": "Let's move on to ___."
+ },
+ {
+  "w": "circle back to",
+  "ar": "نرجع تاني لموضوع",
+  "family": [
+   {
+    "w": "circle back to",
+    "pos": "verb",
+    "ex": "Let's circle back to the payment terms after lunch.",
+    "ar": "يلا نرجع لشروط الدفع بعد الغدا.",
+    "ex2": "Finance will join us then.",
+    "ar2": "الحسابات هتنضم لينا ساعتها."
+   },
+   {
+    "w": "circling back",
+    "pos": "verb",
+    "ex": "Circling back to my earlier point, the batteries are eight years old.",
+    "ar": "بالرجوع لكلامي الأولاني، البطاريات عمرها تمان سنين.",
+    "ex2": "They need replacing now.",
+    "ar2": "محتاجة تتغيّر دلوقتي."
+   },
+   {
+    "w": "circle back",
+    "pos": "verb",
+    "ex": "I'll circle back with you once I have the supplier's price.",
+    "ar": "هرجعلك أول ما يبقى معايا سعر المورد.",
+    "ex2": "Probably by Wednesday.",
+    "ar2": "غالبًا قبل الأربع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "go back to",
+    "note": "neutral; return to a topic",
+    "ex": "Can we go back to the delivery date?",
+    "ar": "ممكن نرجع لميعاد التسليم؟",
+    "ex2": "I think it's too late.",
+    "ar2": "أعتقد إنه متأخر قوي."
+   },
+   {
+    "w": "return to",
+    "note": "formal; come back to a point",
+    "ex": "I'll return to this issue at the end.",
+    "ar": "هرجع للموضوع ده في الآخر.",
+    "ex2": "First, the technical part.",
+    "ar2": "الأول، الجزء الفني."
+   },
+   {
+    "w": "get back to",
+    "note": "informal; reply later or return to a topic",
+    "ex": "I'll get back to you on the discount.",
+    "ar": "هرد عليك بخصوص الخصم.",
+    "ex2": "I need to ask my manager.",
+    "ar2": "لازم أسأل مديري."
+   }
+  ],
+  "ant": [
+   {
+    "w": "move on",
+    "ex": "Let's move on and leave that topic for now.",
+    "ar": "يلا نكمّل ونسيب الموضوع ده دلوقتي.",
+    "ex2": "We're short on time.",
+    "ar2": "وقتنا ضيق."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Now, circling back to the client's question about lithium batteries: yes, they cost more, but they last twice as long.",
+  "ctx_ar": "دلوقتي، بالرجوع لسؤال العميل عن بطاريات الليثيوم: أيوه، أغلى، بس بتعيش الضعف.",
+  "quiz": [
+   {
+    "s": "Let's ___ back to the budget question later.",
+    "opts": [
+     "circle",
+     "circling",
+     "move on"
+    ],
+    "a": 0,
+    "ar": "يلا نرجع لسؤال الميزانية بعدين."
+   },
+   {
+    "s": "___ back to what Mona said, we need more stock.",
+    "opts": [
+     "Circle",
+     "Circling",
+     "Move on"
+    ],
+    "a": 1,
+    "ar": "بالرجوع لكلام ‎Mona‎، محتاجين مخزون أكتر."
+   },
+   {
+    "s": "We're out of time, so let's ___ to the next item.",
+    "opts": [
+     "circle back",
+     "go back",
+     "move on"
+    ],
+    "a": 2,
+    "ar": "وقتنا خلص، فيلا ننتقل للبند اللي بعده."
+   }
+  ],
+  "book": "Now, circling back to ___."
+ },
+ {
+  "w": "summarize",
+  "ar": "تلخّص",
+  "family": [
+   {
+    "w": "summarize",
+    "pos": "verb",
+    "ex": "Let me summarize the client's main complaints.",
+    "ar": "خلّيني ألخّص شكاوى العميل الأساسية.",
+    "ex2": "Slow response and missing reports.",
+    "ar2": "بطء الاستجابة وتقارير ناقصة."
+   },
+   {
+    "w": "summary",
+    "pos": "noun",
+    "ex": "Please send a summary of the site visit by email.",
+    "ar": "من فضلك ابعت ملخص زيارة الموقع على الإيميل.",
+    "ex2": "Include photos of the battery room.",
+    "ar2": "حط صور أوضة البطاريات."
+   },
+   {
+    "w": "in summary",
+    "pos": "adverb",
+    "ex": "In summary, the UPS needs new batteries and a new fan.",
+    "ar": "باختصار، الـ‎UPS‎ محتاج بطاريات جديدة ومروحة جديدة.",
+    "ex2": "Total cost is 40,000 pounds.",
+    "ar2": "التكلفة الإجمالية 40 ألف جنيه."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "sum up",
+    "note": "informal; give the main points at the end",
+    "ex": "To sum up, we're on time and on budget.",
+    "ar": "باختصار، إحنا في الميعاد وفي حدود الميزانية.",
+    "ex2": "The client is happy.",
+    "ar2": "العميل مبسوط."
+   },
+   {
+    "w": "recap",
+    "note": "informal; repeat the main points quickly",
+    "ex": "Let me recap what we agreed today.",
+    "ar": "خلّيني أعيد اللي اتفقنا عليه النهارده.",
+    "ex2": "Delivery in May, payment in June.",
+    "ar2": "التسليم في مايو والدفع في يونيو."
+   }
+  ],
+  "ant": [
+   {
+    "w": "elaborate",
+    "ex": "Can you elaborate on the fault you found?",
+    "ar": "ممكن توضّح أكتر العطل اللي لقيته؟",
+    "ex2": "The client wants details.",
+    "ar2": "العميل عايز تفاصيل."
+   }
+  ],
+  "ladder": null,
+  "ctx": "To summarize, the bank needs two 80 kVA units and a two-year service contract. We'll send the quotation tomorrow morning.",
+  "ctx_ar": "باختصار، البنك محتاج وحدتين 80 ‎kVA‎ وعقد صيانة سنتين. هنبعت عرض السعر بكرة الصبح.",
+  "quiz": [
+   {
+    "s": "Let me ___ the main points before we finish.",
+    "opts": [
+     "summarize",
+     "summary",
+     "in summary"
+    ],
+    "a": 0,
+    "ar": "خلّيني ألخّص النقط الأساسية قبل ما نخلّص."
+   },
+   {
+    "s": "Please email me a short ___ of the meeting.",
+    "opts": [
+     "summarize",
+     "summary",
+     "recap"
+    ],
+    "a": 1,
+    "ar": "من فضلك ابعتلي ملخص قصير للاجتماع."
+   },
+   {
+    "s": "The client wants details, so please ___ on the fault.",
+    "opts": [
+     "summarize",
+     "sum up",
+     "elaborate"
+    ],
+    "a": 2,
+    "ar": "العميل عايز تفاصيل، فمن فضلك وضّح العطل أكتر."
+   }
+  ],
+  "book": "To summarize what we've covered so far, ___."
+ },
+ {
+  "w": "build on",
+  "ar": "تبني على / تكمّل على فكرة",
+  "family": [
+   {
+    "w": "build on",
+    "pos": "verb",
+    "ex": "To build on Sara's idea, we could offer remote monitoring too.",
+    "ar": "عشان نكمّل على فكرة ‎Sara‎، ممكن نقدّم مراقبة عن بعد كمان.",
+    "ex2": "Clients would see alarms instantly.",
+    "ar2": "العملا هيشوفوا الإنذارات على طول."
+   },
+   {
+    "w": "building on",
+    "pos": "verb",
+    "ex": "Building on last year's success, we're opening a Mansoura branch.",
+    "ar": "بناءً على نجاح السنة اللي فاتت، هنفتح فرع في المنصورة.",
+    "ex2": "It will serve the Delta.",
+    "ar2": "هيخدم الدلتا."
+   },
+   {
+    "w": "built on",
+    "pos": "verb",
+    "ex": "Our reputation is built on fast service.",
+    "ar": "سمعتنا مبنية على الصيانة السريعة.",
+    "ex2": "We reach sites within four hours.",
+    "ar2": "بنوصل المواقع خلال أربع ساعات."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "add to",
+    "note": "simple; add more to an idea",
+    "ex": "I'd like to add to what Omar said.",
+    "ar": "حابب أضيف على كلام ‎Omar‎.",
+    "ex2": "The client also wants training.",
+    "ar2": "العميل عايز تدريب كمان."
+   },
+   {
+    "w": "expand on",
+    "note": "give more details about the same point",
+    "ex": "Can you expand on the battery issue?",
+    "ar": "ممكن تقول تفاصيل أكتر عن مشكلة البطاريات؟",
+    "ex2": "How many cells are weak?",
+    "ar2": "كام خلية ضعيفة؟"
+   }
+  ],
+  "ant": [
+   {
+    "w": "contradict",
+    "ex": "His numbers contradict the report from the site.",
+    "ar": "أرقامه عكس التقرير اللي جاي من الموقع.",
+    "ex2": "We need to check again.",
+    "ar2": "لازم نشيّك تاني."
+   }
+  ],
+  "ladder": null,
+  "ctx": "Hany suggested a yearly battery test. To build on that, we could add a discount for clients who renew early.",
+  "ctx_ar": "‎Hany‎ اقترح اختبار بطاريات سنوي. عشان نكمّل على كده، ممكن نضيف خصم للعملا اللي بيجدّدوا بدري.",
+  "quiz": [
+   {
+    "s": "To ___ on Ali's point, we also need more spare parts.",
+    "opts": [
+     "build",
+     "building",
+     "built"
+    ],
+    "a": 0,
+    "ar": "عشان نكمّل على نقطة ‎Ali‎، محتاجين قطع غيار أكتر كمان."
+   },
+   {
+    "s": "Our success is ___ on good service.",
+    "opts": [
+     "build",
+     "building",
+     "built"
+    ],
+    "a": 1,
+    "ar": "نجاحنا مبني على الصيانة الكويسة."
+   },
+   {
+    "s": "The test results ___ what the supplier told us.",
+    "opts": [
+     "build on",
+     "add to",
+     "contradict"
+    ],
+    "a": 2,
+    "ar": "نتايج الاختبار عكس اللي المورد قالهولنا."
+   }
+  ],
+  "book": "To build on that, ___."
+ },
+ {
+  "w": "in practice",
+  "ar": "على أرض الواقع / عمليًا",
+  "family": [
+   {
+    "w": "in practice",
+    "pos": "adverb",
+    "ex": "In practice, the batteries last about five years in hot rooms.",
+    "ar": "عمليًا، البطاريات بتعيش حوالي خمس سنين في الأوض الحر.",
+    "ex2": "The datasheet says ten.",
+    "ar2": "الداتاشيت بيقول عشرة."
+   },
+   {
+    "w": "practical",
+    "pos": "adjective",
+    "ex": "We need a practical solution for the small server room.",
+    "ar": "محتاجين حل عملي لأوضة السيرفرات الصغيرة.",
+    "ex2": "A wall-mounted UPS may work.",
+    "ar2": "‎UPS‎ بيتعلّق على الحيطة ممكن ينفع."
+   },
+   {
+    "w": "practically",
+    "pos": "adverb",
+    "ex": "The warehouse is practically empty of 12V batteries.",
+    "ar": "المخزن تقريبًا فاضي من بطاريات 12 فولت.",
+    "ex2": "Please order more today.",
+    "ar2": "من فضلك اطلب تاني النهارده."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "in reality",
+    "note": "what really happens, often different from plans",
+    "ex": "In reality, customs takes two weeks, not one.",
+    "ar": "في الواقع، الجمارك بتاخد أسبوعين مش واحد.",
+    "ex2": "Plan for that.",
+    "ar2": "خطط على كده."
+   },
+   {
+    "w": "on the ground",
+    "note": "informal; at the real site or market",
+    "ex": "On the ground, clients care most about response time.",
+    "ar": "على أرض الواقع، العملا يهمهم وقت الاستجابة أكتر حاجة.",
+    "ex2": "Not the brand.",
+    "ar2": "مش الماركة."
+   }
+  ],
+  "ant": [
+   {
+    "w": "in theory",
+    "ex": "In theory, the UPS runs for an hour on batteries.",
+    "ar": "نظريًا، الـ‎UPS‎ بيشتغل ساعة على البطاريات.",
+    "ex2": "In practice, it's forty minutes.",
+    "ar2": "عمليًا، أربعين دقيقة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "The new policy says 30-day payment. In practice, it means we stop service if a client hasn't paid after 45 days.",
+  "ctx_ar": "السياسة الجديدة بتقول دفع خلال 30 يوم. عمليًا، ده معناه إننا نوقّف الصيانة لو العميل مدفعش بعد 45 يوم.",
+  "quiz": [
+   {
+    "s": "In ___, the delivery always takes longer.",
+    "opts": [
+     "practice",
+     "practical",
+     "practically"
+    ],
+    "a": 0,
+    "ar": "عمليًا، التسليم دايمًا بياخد وقت أطول."
+   },
+   {
+    "s": "We need a ___ plan, not a perfect one.",
+    "opts": [
+     "practice",
+     "practical",
+     "practically"
+    ],
+    "a": 1,
+    "ar": "محتاجين خطة عملية، مش خطة مثالية."
+   },
+   {
+    "s": "In ___, the inverter gives 5 kW; in practice, it's less.",
+    "opts": [
+     "practice",
+     "reality",
+     "theory"
+    ],
+    "a": 2,
+    "ar": "نظريًا، الإنفرتر بيدّي 5 كيلووات؛ عمليًا، أقل."
+   }
+  ],
+  "book": "What this means in practice is ___."
+ },
+ {
+  "w": "draw attention to",
+  "ar": "تلفت النظر لـ",
+  "family": [
+   {
+    "w": "draw attention to",
+    "pos": "verb",
+    "ex": "I'd like to draw your attention to the battery temperature graph.",
+    "ar": "حابب ألفت نظركم لرسم حرارة البطاريات.",
+    "ex2": "It's above 35 degrees every afternoon.",
+    "ar2": "فوق 35 درجة كل يوم بعد الضهر."
+   },
+   {
+    "w": "attention",
+    "pos": "noun",
+    "ex": "Thank you for your attention during the presentation.",
+    "ar": "شكرًا على انتباهكم أثناء العرض.",
+    "ex2": "Now let's take questions.",
+    "ar2": "دلوقتي ناخد الأسئلة."
+   },
+   {
+    "w": "attentive",
+    "pos": "adjective",
+    "ex": "The client's engineers were very attentive during the training.",
+    "ar": "مهندسين العميل كانوا مركّزين جدًا في التدريب.",
+    "ex2": "They asked great questions.",
+    "ar2": "سألوا أسئلة ممتازة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "point out",
+    "note": "simple; show or mention something",
+    "ex": "He pointed out a mistake in the invoice.",
+    "ar": "لفت النظر لغلطة في الفاتورة.",
+    "ex2": "The VAT was missing.",
+    "ar2": "الضريبة كانت ناقصة."
+   },
+   {
+    "w": "highlight",
+    "note": "make something stand out as important",
+    "ex": "The report highlights three weak batteries.",
+    "ar": "التقرير بيبرز تلات بطاريات ضعيفة.",
+    "ex2": "They should be replaced soon.",
+    "ar2": "المفروض يتغيّروا قريب."
+   },
+   {
+    "w": "stress",
+    "note": "say strongly that something is important",
+    "ex": "I want to stress the safety rules.",
+    "ar": "عايز أأكّد على قواعد السلامة.",
+    "ex2": "No one works alone on site.",
+    "ar2": "محدش يشتغل لوحده في الموقع."
+   }
+  ],
+  "ant": [
+   {
+    "w": "ignore",
+    "ex": "Don't ignore the UPS alarm, even if it stops.",
+    "ar": "متتجاهلش إنذار الـ‎UPS‎ حتى لو وقف.",
+    "ex2": "It usually means a battery problem.",
+    "ar2": "غالبًا معناه مشكلة في البطاريات."
+   }
+  ],
+  "ladder": null,
+  "ctx": "I'd like to draw your attention to this table. It shows that most UPS failures happened at sites with no maintenance contract.",
+  "ctx_ar": "حابب ألفت نظركم للجدول ده. بيوضّح إن أغلب أعطال الـ‎UPS‎ حصلت في مواقع مفيهاش عقد صيانة.",
+  "quiz": [
+   {
+    "s": "Let me ___ your attention to the last line of the invoice.",
+    "opts": [
+     "draw",
+     "attentive",
+     "stress"
+    ],
+    "a": 0,
+    "ar": "خلّيني ألفت نظرك لآخر سطر في الفاتورة."
+   },
+   {
+    "s": "Thanks for your ___; I'll take questions now.",
+    "opts": [
+     "attentive",
+     "attention",
+     "draw"
+    ],
+    "a": 1,
+    "ar": "شكرًا على انتباهكم؛ هاخد الأسئلة دلوقتي."
+   },
+   {
+    "s": "Never ___ a battery alarm on the UPS.",
+    "opts": [
+     "highlight",
+     "point out",
+     "ignore"
+    ],
+    "a": 2,
+    "ar": "عمرك ما تتجاهل إنذار بطارية على الـ‎UPS‎."
+   }
+  ],
+  "book": "Excuse me, but I'd like to draw your attention to the screen / flip chart / board."
+ },
+ {
+  "w": "step out",
+  "ar": "تخرج شوية (من اجتماع أو أوضة)",
+  "family": [
+   {
+    "w": "step out",
+    "pos": "verb",
+    "ex": "Sorry, I need to step out for a call from the supplier.",
+    "ar": "آسف، محتاج أخرج شوية عشان مكالمة من المورد.",
+    "ex2": "I'll be back in five minutes.",
+    "ar2": "هرجع في خمس دقايق."
+   },
+   {
+    "w": "stepped out",
+    "pos": "verb",
+    "ex": "Mr. Fathy has just stepped out of the office.",
+    "ar": "أستاذ ‎Fathy‎ لسه خارج من المكتب.",
+    "ex2": "Can I take a message?",
+    "ar2": "ممكن آخد رسالة؟"
+   },
+   {
+    "w": "step in",
+    "pos": "verb",
+    "ex": "Can you step in for me at the client meeting?",
+    "ar": "ممكن تحضر مكاني اجتماع العميل؟",
+    "ex2": "I'm stuck at the site.",
+    "ar2": "أنا محبوس في الموقع."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "pop out",
+    "note": "informal; leave for a very short time",
+    "ex": "I'll pop out quickly to get the PO signed.",
+    "ar": "هطلع ثانية أمضّي الـ‎PO‎.",
+    "ex2": "Back soon.",
+    "ar2": "راجع على طول."
+   },
+   {
+    "w": "excuse oneself",
+    "note": "formal and polite; leave a meeting",
+    "ex": "He excused himself to take an urgent call.",
+    "ar": "استأذن عشان ياخد مكالمة مستعجلة.",
+    "ex2": "It was the bank's IT manager.",
+    "ar2": "كان مدير الـ‎IT‎ في البنك."
+   }
+  ],
+  "ant": [
+   {
+    "w": "step back in",
+    "ex": "She stepped back in just as we discussed the price.",
+    "ar": "رجعت بالظبط وإحنا بنتكلم في السعر.",
+    "ex2": "Perfect timing.",
+    "ar2": "توقيت مظبوط."
+   }
+  ],
+  "ladder": null,
+  "ctx": "If you need to step out for a call during the training, that's fine. The slides on UPS alarms will be emailed to everyone.",
+  "ctx_ar": "لو محتاج تخرج شوية عشان مكالمة أثناء التدريب، عادي. سلايدات إنذارات الـ‎UPS‎ هتتبعت للكل على الإيميل.",
+  "quiz": [
+   {
+    "s": "Excuse me, I need to ___ out for a minute.",
+    "opts": [
+     "step",
+     "stepped",
+     "step in"
+    ],
+    "a": 0,
+    "ar": "لو سمحت، محتاج أخرج دقيقة."
+   },
+   {
+    "s": "Sorry, Eng. Tarek has just ___ out.",
+    "opts": [
+     "step",
+     "stepped",
+     "stepping in"
+    ],
+    "a": 1,
+    "ar": "آسف، الباشمهندس ‎Tarek‎ لسه خارج."
+   },
+   {
+    "s": "I'm sick today; can you ___ for me at the meeting?",
+    "opts": [
+     "step out",
+     "pop out",
+     "step in"
+    ],
+    "a": 2,
+    "ar": "أنا تعبان النهارده؛ ممكن تحضر مكاني الاجتماع؟"
+   }
+  ],
+  "book": "Before I continue, I want to let you know that if anyone needs to step out or take a break, please feel free to do so."
+ },
+ {
+  "w": "unclear",
+  "ar": "مش واضح",
+  "family": [
+   {
+    "w": "unclear",
+    "pos": "adjective",
+    "ex": "The fault description in the ticket is unclear.",
+    "ar": "وصف العطل في التذكرة مش واضح.",
+    "ex2": "Please call the client for details.",
+    "ar2": "من فضلك كلّم العميل عشان التفاصيل."
+   },
+   {
+    "w": "clear",
+    "pos": "adjective",
+    "ex": "The new price list is clear and easy to read.",
+    "ar": "قايمة الأسعار الجديدة واضحة وسهلة.",
+    "ex2": "Clients stopped calling with questions.",
+    "ar2": "العملا بطّلوا يتصلوا بأسئلة."
+   },
+   {
+    "w": "clarify",
+    "pos": "verb",
+    "ex": "Can you clarify the delivery address?",
+    "ar": "ممكن توضّح عنوان التسليم؟",
+    "ex2": "There are two buildings on site.",
+    "ar2": "فيه مبنيين في الموقع."
+   },
+   {
+    "w": "clearly",
+    "pos": "adverb",
+    "ex": "Please write the serial numbers clearly.",
+    "ar": "من فضلك اكتب الأرقام التسلسلية بوضوح.",
+    "ex2": "We need them for warranty claims.",
+    "ar2": "محتاجينها لطلبات الضمان."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "vague",
+    "note": "not detailed or exact enough",
+    "ex": "The client's request was vague.",
+    "ar": "طلب العميل كان مش محدد.",
+    "ex2": "He just said 'a big UPS'.",
+    "ar2": "قال بس '‎UPS‎ كبير'."
+   },
+   {
+    "w": "confusing",
+    "note": "hard to understand, makes people mixed up",
+    "ex": "The old invoice format was confusing.",
+    "ar": "شكل الفاتورة القديم كان ملخبط.",
+    "ex2": "Clients paid the wrong amount.",
+    "ar2": "العملا دفعوا مبلغ غلط."
+   }
+  ],
+  "ant": [
+   {
+    "w": "clear",
+    "ex": "The instructions are clear now.",
+    "ar": "التعليمات واضحة دلوقتي.",
+    "ex2": "Anyone can follow them.",
+    "ar2": "أي حد يقدر يمشي عليها."
+   }
+  ],
+  "ladder": null,
+  "ctx": "If any part of the quotation is unclear, please tell me now. I'd rather explain it today than fix a wrong PO later.",
+  "ctx_ar": "لو أي جزء في عرض السعر مش واضح، قولّي دلوقتي. أفضّل أشرحه النهارده بدل ما نصلّح ‎PO‎ غلط بعدين.",
+  "quiz": [
+   {
+    "s": "The scope of work is still ___; we need more details.",
+    "opts": [
+     "unclear",
+     "clarify",
+     "clearly"
+    ],
+    "a": 0,
+    "ar": "نطاق الشغل لسه مش واضح؛ محتاجين تفاصيل أكتر."
+   },
+   {
+    "s": "Could you ___ which site needs the UPS first?",
+    "opts": [
+     "unclear",
+     "clarify",
+     "clear"
+    ],
+    "a": 1,
+    "ar": "ممكن توضّح أنهي موقع محتاج الـ‎UPS‎ الأول؟"
+   },
+   {
+    "s": "Thanks to the new manual, the steps are ___ now.",
+    "opts": [
+     "unclear",
+     "vague",
+     "clear"
+    ],
+    "a": 2,
+    "ar": "بفضل الكتيّب الجديد، الخطوات بقت واضحة دلوقتي."
+   }
+  ],
+  "book": "Please let me know if anything is unclear or if you need further explanation on any points."
+ },
+ {
+  "w": "explanation",
+  "ar": "شرح / تفسير",
+  "family": [
+   {
+    "w": "explanation",
+    "pos": "noun",
+    "ex": "The client wants an explanation for the late delivery.",
+    "ar": "العميل عايز تفسير للتأخير في التسليم.",
+    "ex2": "We'll send a letter today.",
+    "ar2": "هنبعت جواب النهارده."
+   },
+   {
+    "w": "explain",
+    "pos": "verb",
+    "ex": "Can you explain why the UPS switched to bypass?",
+    "ar": "ممكن تشرح ليه الـ‎UPS‎ اتحوّل على الـ‎bypass‎؟",
+    "ex2": "The client lost power for a second.",
+    "ar2": "العميل فصل ثانية."
+   },
+   {
+    "w": "explanatory",
+    "pos": "adjective",
+    "ex": "We added an explanatory note to the invoice.",
+    "ar": "ضفنا ملاحظة توضيحية على الفاتورة.",
+    "ex2": "It explains the new VAT rate.",
+    "ar2": "بتشرح نسبة الضريبة الجديدة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "reason",
+    "note": "why something happened",
+    "ex": "What's the reason for the price change?",
+    "ar": "إيه سبب تغيير السعر؟",
+    "ex2": "The dollar rate went up.",
+    "ar2": "سعر الدولار زاد."
+   },
+   {
+    "w": "clarification",
+    "note": "an extra explanation to remove confusion",
+    "ex": "I need clarification on the payment terms.",
+    "ar": "محتاج توضيح لشروط الدفع.",
+    "ex2": "Is it 30 or 60 days?",
+    "ar2": "30 ولا 60 يوم؟"
+   }
+  ],
+  "ant": [],
+  "ladder": null,
+  "ctx": "The finance manager asked for an explanation of the extra charges. I explained that the client changed the cable route twice.",
+  "ctx_ar": "مدير الحسابات طلب تفسير للمصاريف الزيادة. شرحتله إن العميل غيّر مسار الكابل مرتين.",
+  "quiz": [
+   {
+    "s": "The client needs a clear ___ of the fault.",
+    "opts": [
+     "explanation",
+     "explain",
+     "explanatory"
+    ],
+    "a": 0,
+    "ar": "العميل محتاج شرح واضح للعطل."
+   },
+   {
+    "s": "Please ___ the new warranty rules to the team.",
+    "opts": [
+     "explanation",
+     "explain",
+     "explanatory"
+    ],
+    "a": 1,
+    "ar": "من فضلك اشرح قواعد الضمان الجديدة للفريق."
+   },
+   {
+    "s": "What's the ___ for this delay? Customs again?",
+    "opts": [
+     "explain",
+     "explanatory",
+     "reason"
+    ],
+    "a": 2,
+    "ar": "إيه سبب التأخير ده؟ الجمارك تاني؟"
+   }
+  ],
+  "book": "If there are any questions or if anyone needs further explanation, please feel free to ask."
+ },
+ {
+  "w": "confused",
+  "ar": "متلخبط / مش فاهم",
+  "family": [
+   {
+    "w": "confused",
+    "pos": "adjective",
+    "ex": "The client is confused about the two payment options.",
+    "ar": "العميل متلخبط بين اختيارين الدفع.",
+    "ex2": "Let's put them in one simple table.",
+    "ar2": "يلا نحطّهم في جدول واحد بسيط."
+   },
+   {
+    "w": "confusing",
+    "pos": "adjective",
+    "ex": "The UPS menu is confusing for new users.",
+    "ar": "منيو الـ‎UPS‎ ملخبط للمستخدمين الجداد.",
+    "ex2": "We made a one-page guide.",
+    "ar2": "عملنا دليل صفحة واحدة."
+   },
+   {
+    "w": "confusion",
+    "pos": "noun",
+    "ex": "There was confusion about the delivery date.",
+    "ar": "كان فيه لخبطة في ميعاد التسليم.",
+    "ex2": "The PO said May, the email said June.",
+    "ar2": "الـ‎PO‎ قال مايو والإيميل قال يونيو."
+   },
+   {
+    "w": "confuse",
+    "pos": "verb",
+    "ex": "Too many options can confuse the customer.",
+    "ar": "اختيارات كتير ممكن تلخبط العميل.",
+    "ex2": "Offer two, not five.",
+    "ar2": "قدّم اتنين مش خمسة."
+   }
+  ],
+  "meanings": [],
+  "syn": [
+   {
+    "w": "lost",
+    "note": "informal; you can't follow what's happening",
+    "ex": "Sorry, I'm lost. Which site are we talking about?",
+    "ar": "آسف، أنا تهت. بنتكلم عن أنهي موقع؟",
+    "ex2": "Giza or Nasr City?",
+    "ar2": "الجيزة ولا مدينة نصر؟"
+   },
+   {
+    "w": "puzzled",
+    "note": "you don't understand something strange",
+    "ex": "The engineer was puzzled by the random alarms.",
+    "ar": "المهندس كان محتار من الإنذارات العشوائية.",
+    "ex2": "The batteries tested fine.",
+    "ar2": "البطاريات طلعت سليمة في الاختبار."
+   }
+  ],
+  "ant": [
+   {
+    "w": "clear",
+    "ex": "Is everything clear about the new process?",
+    "ar": "كل حاجة واضحة بخصوص الإجراء الجديد؟",
+    "ex2": "Good, let's start tomorrow.",
+    "ar2": "تمام، يلا نبدأ بكرة."
+   }
+  ],
+  "ladder": null,
+  "ctx": "If you're confused by the alarm codes, don't worry. We'll send a simple guide that explains each code and what to do.",
+  "ctx_ar": "لو إنت متلخبط من أكواد الإنذار، متقلقش. هنبعت دليل بسيط بيشرح كل كود وتعمل إيه.",
+  "quiz": [
+   {
+    "s": "The client was ___ by the two invoices.",
+    "opts": [
+     "confused",
+     "confusing",
+     "confusion"
+    ],
+    "a": 0,
+    "ar": "العميل اتلخبط من الفاتورتين."
+   },
+   {
+    "s": "The new menu is really ___; we need a guide.",
+    "opts": [
+     "confused",
+     "confusing",
+     "confuse"
+    ],
+    "a": 1,
+    "ar": "المنيو الجديد ملخبط فعلًا؛ محتاجين دليل."
+   },
+   {
+    "s": "Thanks, everything is ___ now. Let's start.",
+    "opts": [
+     "confused",
+     "lost",
+     "clear"
+    ],
+    "a": 2,
+    "ar": "شكرًا، كل حاجة واضحة دلوقتي. يلا نبدأ."
+   }
+  ],
+  "book": "If anyone is confused or needs more clarification on anything at this point, please let me know."
  }
 ]
