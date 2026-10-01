@@ -591,12 +591,12 @@ function ttsSpeak(t,onend){ try{ const u=new SpeechSynthesisUtterance(sclean(Str
     const fin=()=>{ if(done) return; done=true; if(tok===TTSTOK) onend&&onend() };
     u.onend=fin; u.onerror=fin; speechSynthesis.cancel(); speechSynthesis.speak(u); TTSTOK=tok; return true }catch(e){ onend&&onend(); return false } }
 try{ if(window.speechSynthesis) speechSynthesis.onvoiceschanged=()=>{} }catch(e){}
-function sayPlay(t,onend){ const f=sayFind(t); if(!f){ if(canTTS(t)){ stopSay(); if(CLIP){CLIP.pause();CLIP=null} return ttsSpeak(t,onend) } onend&&onend(); return false }
+function sayPlay(t,onend){ const f=sayFind(t); if(!f){ onend&&onend(); return false }
   stopSay(); if(CLIP){CLIP.pause();CLIP=null} if(typeof SEG!=="undefined"&&SEG){SEG.pause()}
   const a=SAYA[f[0]]||(SAYA[f[0]]=Object.assign(new Audio("audio/say/"+f[0]+".mp3"),{preload:"auto"})); SAYCUR=a;
   const go=()=>{ a.currentTime=f[1]; a.play().catch(()=>{}); a.ontimeupdate=()=>{ if(a.currentTime>=f[2]){ a.pause(); a.ontimeupdate=null; onend&&onend() } } };
   if(a.readyState>=1) go(); else a.addEventListener("loadedmetadata",go,{once:true}); return true }
-const spk=(t,cls="")=>(sayFind(t)||canTTS(t))?`<span role="button" tabindex="0" class="spk ${cls}" data-say="${esc(sclean(String(t).replace(/…/g,"")))}" aria-label="Listen" title="Listen">${SPK}</span>`:"";
+const spk=(t,cls="")=>sayFind(t)?`<span role="button" tabindex="0" class="spk ${cls}" data-say="${esc(sclean(String(t).replace(/…/g,"")))}" aria-label="Listen" title="Listen">${SPK}</span>`:"";
 document.addEventListener("click",e=>{const b=e.target.closest("[data-say]"); if(b){e.stopPropagation();e.preventDefault();sayPlay(b.dataset.say)}},true);
 document.addEventListener("keydown",e=>{const b=e.target.closest&&e.target.closest("[data-say]"); if(b&&(e.key==="Enter"||e.key===" ")){e.preventDefault();sayPlay(b.dataset.say)}});
 function play(card){ if(CLIP){CLIP.pause();CLIP=null} if(card&&card.clip){CLIP=new Audio(card.clip);CLIP.play().catch(()=>{})} }
